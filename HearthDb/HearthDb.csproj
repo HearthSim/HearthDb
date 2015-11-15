@@ -83,7 +83,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CARD.xml" />
+    <EmbeddedResource Include="CARD.xml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="CardDefs.xml" />

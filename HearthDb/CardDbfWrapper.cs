@@ -11,12 +11,24 @@ using HearthDb.CARD;
 
 namespace HearthDb
 {
-    public static class CardDbfWrapper
+    public class CardDbfWrapper
     {
-        static CardDbfWrapper()
+        private static Dictionary<string, DbfRecordWrapper> _records;
+
+        public static Dictionary<string, DbfRecordWrapper> Records
         {
-            Records = new Dictionary<string, DbfRecordWrapper>();
-            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("HearthDb.CardDefs.xml");
+            get
+            {
+                if(_records == null)
+                    Load();
+                return _records;
+            }
+        }
+
+        private static void Load()
+        {
+            _records = new Dictionary<string, DbfRecordWrapper>();
+            var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("HearthDb.CARD.xml");
             if(stream != null)
             {
                 using(TextReader tr = new StreamReader(stream))
@@ -26,13 +38,11 @@ namespace HearthDb
                     foreach(var record in cardDefs.Records)
                     {
                         var wrapper = new DbfRecordWrapper(record);
-                        Records.Add(wrapper.LongGuid, wrapper);
+                        _records.Add(wrapper.LongGuid, wrapper);
                     }
                 }
             }
         }
-
-        public static Dictionary<string, DbfRecordWrapper> Records { get; }
     }
 
     public class DbfRecordWrapper
@@ -43,7 +53,7 @@ namespace HearthDb
             MiniGuid = record.Fields.FirstOrDefault(x => x.Column == "NOTE_MINI_GUID")?.Value;
             IsCollectible = bool.Parse(record.Fields.FirstOrDefault(x => x.Column == "IS_COLLECTIBLE")?.Value.ToLower() ?? "false");
             LongGuid = record.Fields.FirstOrDefault(x => x.Column == "LONG_GUID")?.Value;
-            HeroPowerId = int.Parse(record.Fields.FirstOrDefault(x => x.Column == "HERO_POWER_ID")?.Value.ToLower() ?? "-1");
+            HeroPowerId = int.Parse(record.Fields.FirstOrDefault(x => x.Column == "HERO_POWER_ID")?.Value?.ToLower() ?? "-1");
             CraftingEvent = record.Fields.FirstOrDefault(x => x.Column == "CRAFTING_EVENT")?.Value;
         }
 

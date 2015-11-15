@@ -1,5 +1,6 @@
 ﻿#region
 
+using System.Linq;
 using HearthDb.Enums;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -29,8 +30,22 @@ namespace HearthDb.Tests
         {
             var animalCompanion = Cards.Collectible[CardIds.Collectible.Hunter.AnimalCompanion];
             Assert.AreEqual(3, animalCompanion.EntourageCardIds.Length);
-            Assert.AreEqual(CardIds.NonCollectible.Basic.Hunter.Misha, animalCompanion.EntourageCardIds[0]);
-            Assert.AreEqual(CardIds.NonCollectible.Basic.Hunter.Leokk, animalCompanion.EntourageCardIds[1]);
+            Assert.AreEqual(CardIds.NonCollectible.Hunter.MishaBasic, animalCompanion.EntourageCardIds[0]);
+            Assert.AreEqual(CardIds.NonCollectible.Hunter.LeokkBasic, animalCompanion.EntourageCardIds[1]);
+        }
+
+        [TestMethod]
+        public void EntourageCardTest_BaneOfDoom()
+        {
+            var baneOfDoom = Cards.Collectible[CardIds.Collectible.Warlock.BaneOfDoom];
+            Assert.AreEqual(6, baneOfDoom.EntourageCardIds.Length);
+        }
+
+        [TestMethod]
+        public void DbfWrapper_ContainsAllCards()
+        {
+            foreach(var card in Cards.All.Where(x => x.Value.Set != CardSet.NONE))
+                Assert.IsTrue(CardDbfWrapper.Records.Values.Any(v => v.MiniGuid == card.Key), card.Value.Name);
         }
     }
 }

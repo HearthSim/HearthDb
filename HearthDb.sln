@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthDb", "HearthDb\Hearth
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthDb.Tests", "HearthDb.Tests\HearthDb.Tests.csproj", "{CB4162D6-E64D-4D3A-9207-9C850B684183}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthDb.CardIdGenerator", "HearthDb.CardIdLibGenerator\HearthDb.CardIdGenerator.csproj", "{89D6853A-FAEF-4E66-B5C5-95FFE71E9C8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HearthDb.CardIdGenerator", "HearthDb.CardIdGenerator\HearthDb.CardIdGenerator.csproj", "{89D6853A-FAEF-4E66-B5C5-95FFE71E9C8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

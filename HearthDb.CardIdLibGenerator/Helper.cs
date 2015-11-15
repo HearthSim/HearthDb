@@ -1,5 +1,9 @@
+#region
+
 using System.Collections.Generic;
 using System.Globalization;
+
+#endregion
 
 namespace HearthDb.CardIdGenerator
 {
@@ -80,6 +84,57 @@ namespace HearthDb.CardIdGenerator
                     return "LeagueOfExplorers";
                 default:
                     return CultureInfo.InvariantCulture.TextInfo.ToTitleCase(set.ToString().ToLower());
+            }
+        }
+
+        public static string GetSetAbbreviation(Enums.CardSet set)
+        {
+            switch(set)
+            {
+                case Enums.CardSet.BRM:
+                    return "BRM";
+                case Enums.CardSet.TGT:
+                    return "TGT";
+                case Enums.CardSet.LOE:
+                    return "LOE";
+                case Enums.CardSet.FP1:
+                    return "NAXX";
+                case Enums.CardSet.PE1:
+                    return "GVG";
+                case Enums.CardSet.EXPERT1:
+                    return "Classic";
+                case Enums.CardSet.MISSIONS:
+                    return "Missions";
+                case Enums.CardSet.CORE:
+                    return "Basic";
+                case Enums.CardSet.INVALID:
+                    return "Invalid";
+                case Enums.CardSet.TEST_TEMPORARY:
+                    return "Test";
+                case Enums.CardSet.REWARD:
+                    return "Reward";
+                case Enums.CardSet.DEMO:
+                    return "Demo";
+                case Enums.CardSet.NONE:
+                    return "None";
+                case Enums.CardSet.CHEAT:
+                    return "Cheat";
+                case Enums.CardSet.BLANK:
+                    return "Blank";
+                case Enums.CardSet.DEBUG_SP:
+                    return "Debug";
+                case Enums.CardSet.PROMO:
+                    return "Promo";
+                case Enums.CardSet.CREDITS:
+                    return "Credits";
+                case Enums.CardSet.HERO_SKINS:
+                    return "HeroSkins";
+                case Enums.CardSet.TB:
+                    return "TavernBrawl";
+                case Enums.CardSet.SLUSH:
+                    return "Slush";
+                default:
+                    return "";
             }
         }
     }

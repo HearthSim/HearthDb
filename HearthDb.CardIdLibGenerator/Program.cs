@@ -25,9 +25,7 @@ namespace HearthDb.CardIdGenerator
             var cCollectible = SyntaxFactory.ClassDeclaration("Collectible")
                                             .AddModifiers(SyntaxFactory.Token(SyntaxKind.PublicKeyword));
             cCollectible = SyntaxBuilder.GetCollectible(cCollectible);
-            var cNonCollectible =
-                SyntaxFactory.ClassDeclaration("NonCollectible").AddModifiers(SyntaxFactory.Token(SyntaxKind.PublicKeyword));
-            cNonCollectible = SyntaxBuilder.GetNonCollectible(cNonCollectible);
+            var cNonCollectible = SyntaxBuilder.GetNonCollectible();
 
             cCardIds = cCardIds.AddMembers(cCollectible);
             cCardIds = cCardIds.AddMembers(cNonCollectible);

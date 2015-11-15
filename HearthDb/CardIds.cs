@@ -803,1398 +803,1204 @@ namespace HearthDb
 
         public class NonCollectible
         {
-            public class Basic
+            public class Neutral
             {
-                public class Neutral
-                {
-                    public const string DeadlyPoisonEnchantment = "CS2_074e";
-                    public const string EnhancedEnchantment = "CS2_122e";
-                    public const string MightOfStormwindEnchantment = "CS2_222o";
-                    public const string FrostwolfBannerEnchantment = "CS2_226e";
-                    public const string Boar = "CS2_boar";
-                    public const string Sheep = "CS2_tk1";
-                    public const string MechanicalDragonlingToken = "EX1_025t";
-                    public const string BerserkingEnchantment = "EX1_399e";
-                    public const string MurlocScout = "EX1_506a";
-                    public const string MlarggragllablEnchantment = "EX1_508o";
-                    public const string LuckOfTheCoin = "GAME_001";
-                    public const string AvatarOfTheCoin = "GAME_002";
-                    public const string CoinsVengeance = "GAME_003";
-                    public const string CoinsVengenceEnchantment = "GAME_003e";
-                    public const string Afk = "GAME_004";
-                    public const string TheCoin = "GAME_005";
-                    public const string TheCoinEnchantment = "GAME_005e";
-                    public const string Noooooooooooo = "GAME_006";
-                    public const string Frog = "hexfrog";
-                    public const string Skeleton = "skele11";
-                }
-
-                public class Druid
-                {
-                    public const string ClawEnchantment = "CS2_005o";
-                    public const string MarkOfTheWildEnchantment = "CS2_009e";
-                    public const string SavageRoarEnchantment = "CS2_011o";
-                    public const string ExcessManaToken = "CS2_013t";
-                    public const string Shapeshift = "CS2_017";
-                    public const string ClawsEnchantment = "CS2_017o";
-                }
-
-                public class Hunter
-                {
-                    public const string HuntersMarkEnchantment = "CS2_084e";
-                    public const string MastersPresenceEnchantment = "DS1_070o";
-                    public const string FuriousHowlEnchantment = "DS1_175o";
-                    public const string ChargeEnchantment = "DS1_178e";
-                    public const string SteadyShot = "DS1h_292";
-                    public const string Misha = "NEW1_032";
-                    public const string Leokk = "NEW1_033";
-                    public const string EyeInTheSkyEnchantment = "NEW1_033o";
-                    public const string Huffer = "NEW1_034";
-                }
-
-                public class Mage
-                {
-                    public const string PolymorphEnchantment = "CS2_022e";
-                    public const string Fireblast = "CS2_034";
-                    public const string MirrorImage = "CS2_mirror";
-                }
-
-                public class Paladin
-                {
-                    public const string BlessingOfMightEnchantment = "CS2_087e";
-                    public const string BlessingOfKingsEnchantment = "CS2_092e";
-                    public const string Reinforce = "CS2_101";
-                    public const string SilverHandRecruitToken = "CS2_101t";
-                    public const string HumilityEnchantment = "EX1_360e";
-                }
-
-                public class Priest
-                {
-                    public const string MindControlEnchantment = "CS1_113e";
-                    public const string LesserHeal = "CS1h_001";
-                    public const string PowerWordShieldEnchantment = "CS2_004e";
-                    public const string DivineSpiritEnchantment = "CS2_236e";
-                    public const string ClericsBlessingEnchantment = "EX1_019e";
-                }
-
-                public class Rogue
-                {
-                    public const string WickedKnife = "CS2_082";
-                    public const string DaggerMastery = "CS2_083b";
-                    public const string SharpenedEnchantment = "CS2_083e";
-                }
-
-                public class Shaman
-                {
-                    public const string AncestralInfusionEnchantment = "CS2_041e";
-                    public const string RockbiterWeaponEnchantment = "CS2_045e";
-                    public const string BloodlustEnchantment = "CS2_046e";
-                    public const string TotemicCall = "CS2_049";
-                    public const string SearingTotem = "CS2_050";
-                    public const string StoneclawTotem = "CS2_051";
-                    public const string WrathOfAirTotem = "CS2_052";
-                    public const string TotemicMightEnchantment = "EX1_244e";
-                    public const string HexxedEnchantment = "EX1_246e";
-                    public const string FlametongueEnchantment = "EX1_565o";
-                    public const string HealingTotem = "NEW1_009";
-                }
-
-                public class Warlock
-                {
-                    public const string LifeTap = "CS2_056";
-                    public const string CorruptionEnchantment = "CS2_063e";
-                }
-
-                public class Warrior
-                {
-                    public const string ArmorUp = "CS2_102";
-                    public const string ChargeEnchantment = "CS2_103e2";
-                    public const string HeroicStrikeEnchantment = "CS2_105e";
-                    public const string ChargeEnchantment2 = "EX1_084e";
-                }
+                public const string DeadlyPoisonEnchantment = "CS2_074e";
+                public const string EnhancedEnchantment = "CS2_122e";
+                public const string MightOfStormwindEnchantment = "CS2_222o";
+                public const string FrostwolfBannerEnchantment = "CS2_226e";
+                public const string Boar = "CS2_boar";
+                public const string Sheep = "CS2_tk1";
+                public const string MechanicalDragonlingToken = "EX1_025t";
+                public const string BerserkingEnchantment = "EX1_399e";
+                public const string MurlocScout = "EX1_506a";
+                public const string MlarggragllablEnchantment = "EX1_508o";
+                public const string LuckOfTheCoin = "GAME_001";
+                public const string AvatarOfTheCoin = "GAME_002";
+                public const string CoinsVengeance = "GAME_003";
+                public const string CoinsVengenceEnchantment = "GAME_003e";
+                public const string Afk = "GAME_004";
+                public const string TheCoin = "GAME_005";
+                public const string TheCoinEnchantment = "GAME_005e";
+                public const string Noooooooooooo = "GAME_006";
+                public const string Frog = "hexfrog";
+                public const string SkeletonBasic = "skele11";
+                public const string Squire = "CS2_152";
+                public const string FullStrengthEnchantment = "CS2_181e";
+                public const string InspiredEnchantment = "CS2_188o";
+                public const string SharpEnchantment = "CS2_221e";
+                public const string NightmareEnchantment = "DREAM_05e";
+                public const string Whelp = "ds1_whelptoken";
+                public const string WardedEnchantment = "EX1_001e";
+                public const string ElunesGraceEnchantment = "EX1_004e";
+                public const string BananasToken = "EX1_014t";
+                public const string BananasEnchantmentToken = "EX1_014te";
+                public const string HourOfTwilightEnchantment = "EX1_043e";
+                public const string LevelUpEnchantment = "EX1_044e";
+                public const string TemperedEnchantment = "EX1_046e";
+                public const string EmpoweredEnchantment = "EX1_055o";
+                public const string ExperimentsEnchantment = "EX1_059e";
+                public const string KeepingSecretsEnchantment = "EX1_080o";
+                public const string HandOfArgusEnchantment = "EX1_093e";
+                public const string MrghlglhalEnchantment = "EX1_103e";
+                public const string BaineBloodhoofToken = "EX1_110t";
+                public const string WhelpTokenClassic = "EX1_116t";
+                public const string StrengthOfThePackEnchantment = "EX1_162o";
+                public const string MrgglaarglEnchantment = "EX1_507e";
+                public const string BlarghghlEnchantment = "EX1_509e";
+                public const string AlexstraszasFireEnchantment = "EX1_561e";
+                public const string BiteEnchantment = "EX1_570e";
+                public const string TeachingsOfTheKirinTorEnchantment = "EX1_584e";
+                public const string ShadowsOfMuruEnchantment = "EX1_590e";
+                public const string Imp = "EX1_598";
+                public const string FlameOfAzzinothTokenClassic = "EX1_614t";
+                public const string FinkleEinhorn = "EX1_finkle";
+                public const string Squirrel = "EX1_tk28";
+                public const string Devilsaur = "EX1_tk29";
+                public const string FullBellyEnchantment = "NEW1_017e";
+                public const string TreasureCrazedEnchantment = "NEW1_018e";
+                public const string GreenskinsCommandEnchantment = "NEW1_024o";
+                public const string BolsteredEnchantmentClassic = "NEW1_025e";
+                public const string VioletApprenticeToken = "NEW1_026t";
+                public const string YarrrEnchantment = "NEW1_027e";
+                public const string KillMillhouseToken = "NEW1_029t";
+                public const string EquippedEnchantmentClassic = "NEW1_037e";
+                public const string GrowthEnchantment = "NEW1_038o";
+                public const string GnollToken = "NEW1_040t";
+                public const string DamagedGolem = "skele21";
+                public const string CannibalizeEnchantment = "tt_004o";
+                public const string HoggerMissions = "TU4a_001";
+                public const string RiverpawGnoll = "TU4a_002";
+                public const string Gnoll = "TU4a_003";
+                public const string HoggerSmash = "TU4a_004";
+                public const string MassiveGnoll = "TU4a_005";
+                public const string KingMukla = "TU4c_001";
+                public const string BarrelToss = "TU4c_002";
+                public const string Barrel = "TU4c_003";
+                public const string Stomp = "TU4c_004";
+                public const string HiddenGnome = "TU4c_005";
+                public const string Bananas = "TU4c_006";
+                public const string BananasEnchantment = "TU4c_006e";
+                public const string MuklasBigBrother = "TU4c_007";
+                public const string WillOfMukla = "TU4c_008";
+                public const string MightOfMuklaEnchantment = "TU4c_008e";
+                public const string CrazedHunter = "TU4d_002";
+                public const string FlamesOfAzzinoth = "TU4e_002";
+                public const string FlameOfAzzinothTokenMissions = "TU4e_002t";
+                public const string NagaMyrmidon = "TU4e_003";
+                public const string WarglaiveOfAzzinoth = "TU4e_004";
+                public const string FlameBurst = "TU4e_005";
+                public const string DualWarglaives = "TU4e_007";
+                public const string LorewalkerCho = "TU4f_001";
+                public const string PandarenScout = "TU4f_002";
+                public const string ShadoPanMonk = "TU4f_003";
+                public const string LegacyOfTheEmperor = "TU4f_004";
+                public const string LegacyOfTheEmperorEnchantment = "TU4f_004o";
+                public const string Brewmaster = "TU4f_005";
+                public const string Transcendence = "TU4f_006";
+                public const string TranscendenceEnchantment = "TU4f_006o";
+                public const string CrazyMonkey = "TU4f_007";
+                public const string Damage1 = "XXX_001";
+                public const string Damage5 = "XXX_002";
+                public const string Restore1 = "XXX_003";
+                public const string Restore5 = "XXX_004";
+                public const string Destroy = "XXX_005";
+                public const string BreakWeapon = "XXX_006";
+                public const string EnableForAttack = "XXX_007";
+                public const string Freeze = "XXX_008";
+                public const string Enchant = "XXX_009";
+                public const string EmptyEnchantEnchantment = "XXX_009e";
+                public const string SilenceDebug = "XXX_010";
+                public const string SummonARandomSecret = "XXX_011";
+                public const string Bounce = "XXX_012";
+                public const string Discard = "XXX_013";
+                public const string Mill10 = "XXX_014";
+                public const string Crash = "XXX_015";
+                public const string SnakeBall = "XXX_016";
+                public const string Draw3Cards = "XXX_017";
+                public const string DestroyAllMinions = "XXX_018";
+                public const string Molasses = "XXX_019";
+                public const string DamageAllBut1 = "XXX_020";
+                public const string RestoreAllHealth = "XXX_021";
+                public const string FreeCards = "XXX_022";
+                public const string FreeCardsEnchantment = "XXX_022e";
+                public const string DestroyAllHeroes = "XXX_023";
+                public const string DamageReflector = "XXX_024";
+                public const string DoNothing = "XXX_025";
+                public const string EnableEmotes = "XXX_026";
+                public const string ServerCrash = "XXX_027";
+                public const string RevealHand = "XXX_028";
+                public const string OpponentConcede = "XXX_029";
+                public const string OpponentDisconnect = "XXX_030";
+                public const string BecomeHogger = "XXX_039";
+                public const string DestroyHeroPower = "XXX_041";
+                public const string HandToDeck = "XXX_042";
+                public const string Mill30 = "XXX_043";
+                public const string HandSwapperMinion = "XXX_044";
+                public const string StealCard = "XXX_045";
+                public const string ForceAiToUseHeroPower = "XXX_046";
+                public const string DestroyDeck = "XXX_047";
+                public const string _1Durability = "XXX_048";
+                public const string DestroyAllMana = "XXX_049";
+                public const string DestroyAManaCrystal = "XXX_050";
+                public const string MakeImmune = "XXX_051";
+                public const string GrantMegaWindfury = "XXX_052";
+                public const string Armor100 = "XXX_053";
+                public const string WeaponBuff = "XXX_054";
+                public const string WeaponBuffEnchantEnchantment = "XXX_054e";
+                public const string _1000Stats = "XXX_055";
+                public const string _1000StatsEnchantEnchantment = "XXX_055e";
+                public const string SilenceAndDestroyAllMinions = "XXX_056";
+                public const string DestroyTargetSecrets = "XXX_057";
+                public const string WeaponNerf = "XXX_058";
+                public const string WeaponNerfEnchantEnchantment = "XXX_058e";
+                public const string DestroyHerosStuff = "XXX_059";
+                public const string DamageAll = "XXX_060";
+                public const string Armor1 = "XXX_061";
+                public const string Armor5 = "XXX_062";
+                public const string DestroyAllSecrets = "XXX_063";
+                public const string RemoveAllImmune = "XXX_065";
+                public const string AiBuddyBlankSlate = "XXX_094";
+                public const string AiBuddyAllCharge = "XXX_095";
+                public const string AiBuddyDamageOwnHero5 = "XXX_096";
+                public const string AiBuddyDestroyMinions = "XXX_097";
+                public const string AiBuddyNoDeckHand = "XXX_098";
+                public const string AiHelperBuddy = "XXX_099";
+                public const string HomingChicken = "Mekka1";
+                public const string RepairBot = "Mekka2";
+                public const string Emboldener3000 = "Mekka3";
+                public const string Emboldened = "Mekka3e";
+                public const string Poultryizer = "Mekka4";
+                public const string Transformed = "Mekka4e";
+                public const string Chicken = "Mekka4t";
+                public const string IAmMurloc = "PRO_001a";
+                public const string Murloc = "PRO_001at";
+                public const string RoguesDoIt = "PRO_001b";
+                public const string PowerOfTheHorde = "PRO_001c";
+                public const string SpectralSpiderToken = "FP1_002t";
+                public const string ConsumeEnchantmentNAXX = "FP1_005e";
+                public const string Deathcharger = "FP1_006";
+                public const string NerubianTokenNAXX = "FP1_007t";
+                public const string SlimeToken = "FP1_012t";
+                public const string ThaddiusToken = "FP1_014t";
+                public const string DarknessCallsEnchantment = "FP1_028e";
+                public const string NecroticAuraEnchantment = "FP1_030e";
+                public const string Anubrekhan = "NAX1_01";
+                public const string Nerubian = "NAX1_03";
+                public const string Skitter = "NAX1_04";
+                public const string LocustSwarm = "NAX1_05";
+                public const string Patchwerk = "NAX10_01";
+                public const string PatchwerkHeroic = "NAX10_01H";
+                public const string Hook = "NAX10_02";
+                public const string HookHeroic = "NAX10_02H";
+                public const string HatefulStrike = "NAX10_03";
+                public const string HatefulStrikeHeroic = "NAX10_03H";
+                public const string Grobbulus = "NAX11_01";
+                public const string GrobbulusHeroic = "NAX11_01H";
+                public const string PoisonCloud = "NAX11_02";
+                public const string PoisonCloudHeroic = "NAX11_02H";
+                public const string FalloutSlime = "NAX11_03";
+                public const string MutatingInjection = "NAX11_04";
+                public const string MutatingInjectionEnchantment = "NAX11_04e";
+                public const string Gluth = "NAX12_01";
+                public const string GluthHeroic = "NAX12_01H";
+                public const string Decimate = "NAX12_02";
+                public const string DecimateEnchantment = "NAX12_02e";
+                public const string DecimateHeroic = "NAX12_02H";
+                public const string Jaws = "NAX12_03";
+                public const string ExtraTeethEnchantment = "NAX12_03e";
+                public const string JawsHeroic = "NAX12_03H";
+                public const string Enrage = "NAX12_04";
+                public const string EnrageEnchantment = "NAX12_04e";
+                public const string Thaddius = "NAX13_01";
+                public const string ThaddiusHeroic = "NAX13_01H";
+                public const string PolarityShift = "NAX13_02";
+                public const string PolarityEnchantment = "NAX13_02e";
+                public const string Supercharge = "NAX13_03";
+                public const string SuperchargedEnchantment = "NAX13_03e";
+                public const string FeugenHeroic = "NAX13_04H";
+                public const string StalaggHeroic = "NAX13_05H";
+                public const string Sapphiron = "NAX14_01";
+                public const string SapphironHeroic = "NAX14_01H";
+                public const string FrostBreath = "NAX14_02";
+                public const string FrozenChampion = "NAX14_03";
+                public const string PureCold = "NAX14_04";
+                public const string Kelthuzad = "NAX15_01";
+                public const string InterloperEnchantment = "NAX15_01e";
+                public const string KelthuzadHeroic = "NAX15_01H";
+                public const string InterloperEnchantmentHeroic = "NAX15_01He";
+                public const string FrostBlast = "NAX15_02";
+                public const string FrostBlastHeroic = "NAX15_02H";
+                public const string GuardianOfIcecrown = "NAX15_03n";
+                public const string GuardianOfIcecrownToken = "NAX15_03t";
+                public const string Chains = "NAX15_04";
+                public const string SlaveOfKelthuzad = "NAX15_04a";
+                public const string ChainsHeroic = "NAX15_04H";
+                public const string MrBigglesworth = "NAX15_05";
+                public const string AnubrekhanHeroic = "NAX1h_01";
+                public const string NerubianHeroic = "NAX1h_03";
+                public const string SkitterHeroic = "NAX1h_04";
+                public const string GrandWidowFaerlina = "NAX2_01";
+                public const string GrandWidowFaerlinaHeroic = "NAX2_01H";
+                public const string RainOfFire = "NAX2_03";
+                public const string RainOfFireHeroic = "NAX2_03H";
+                public const string Worshipper = "NAX2_05";
+                public const string WorshipperHeroic = "NAX2_05H";
+                public const string Maexxna = "NAX3_01";
+                public const string MaexxnaHeroic = "NAX3_01H";
+                public const string WebWrap = "NAX3_02";
+                public const string WebWrapHeroic = "NAX3_02H";
+                public const string NecroticPoison = "NAX3_03";
+                public const string SkeletonNAXX = "NAX4_03";
+                public const string SkeletonHeroic = "NAX4_03H";
+                public const string RaiseDead = "NAX4_04";
+                public const string RaiseDeadHeroic = "NAX4_04H";
+                public const string Plague = "NAX4_05";
+                public const string Eruption = "NAX5_02";
+                public const string EruptionHeroic = "NAX5_02H";
+                public const string Mindpocalypse = "NAX5_03";
+                public const string Loatheb = "NAX6_01";
+                public const string LoathebHeroic = "NAX6_01H";
+                public const string NecroticAura = "NAX6_02";
+                public const string NecroticAuraHeroic = "NAX6_02H";
+                public const string Deathbloom = "NAX6_03";
+                public const string SporeToken = "NAX6_03t";
+                public const string FungalGrowthEnchantmentToken = "NAX6_03te";
+                public const string Sporeburst = "NAX6_04";
+                public const string InstructorRazuvious = "NAX7_01";
+                public const string InstructorRazuviousHeroic = "NAX7_01H";
+                public const string Understudy = "NAX7_02";
+                public const string UnbalancingStrike = "NAX7_03";
+                public const string UnbalancingStrikeHeroic = "NAX7_03H";
+                public const string MassiveRuneblade = "NAX7_04";
+                public const string MassiveRunebladeHeroic = "NAX7_04H";
+                public const string MindControlCrystal = "NAX7_05";
+                public const string GothikTheHarvester = "NAX8_01";
+                public const string GothikTheHarvesterHeroic = "NAX8_01H";
+                public const string Harvest = "NAX8_02";
+                public const string HarvestHeroic = "NAX8_02H";
+                public const string UnrelentingTrainee = "NAX8_03";
+                public const string SpectralTraineeToken = "NAX8_03t";
+                public const string UnrelentingWarrior = "NAX8_04";
+                public const string SpectralWarriorToken = "NAX8_04t";
+                public const string UnrelentingRider = "NAX8_05";
+                public const string SpectralRiderToken = "NAX8_05t";
+                public const string BaronRivendare = "NAX9_01";
+                public const string BaronRivendareHeroic = "NAX9_01H";
+                public const string LadyBlaumeux = "NAX9_02";
+                public const string LadyBlaumeuxHeroic = "NAX9_02H";
+                public const string ThaneKorthazz = "NAX9_03";
+                public const string ThaneKorthazzHeroic = "NAX9_03H";
+                public const string SirZeliek = "NAX9_04";
+                public const string SirZeliekHeroic = "NAX9_04H";
+                public const string Runeblade = "NAX9_05";
+                public const string RunebladeHeroic = "NAX9_05H";
+                public const string UnholyShadow = "NAX9_06";
+                public const string MarkOfTheHorsemen = "NAX9_07";
+                public const string MarkOfTheHorsemenEnchantment = "NAX9_07e";
+                public const string Necroknight = "NAXM_001";
+                public const string SkeletalSmith = "NAXM_002";
+                public const string VelensChosen = "GVG_010b";
+                public const string ShrinkRay = "GVG_011a";
+                public const string TinkersSharpswordOil1 = "GVG_022a";
+                public const string TinkersSharpswordOil2 = "GVG_022b";
+                public const string ExtraSharp = "GVG_023a";
+                public const string GallywixsCoinToken = "GVG_028t";
+                public const string SealOfLight = "GVG_057a";
+                public const string Retribution = "GVG_063a";
+                public const string MetabolizedMagic1 = "GVG_067a";
+                public const string MetabolizedMagic2 = "GVG_068a";
+                public const string Pistons = "GVG_076a";
+                public const string ChickenToken = "GVG_092t";
+                public const string MightOfTinkertownEnchantment = "GVG_102e";
+                public const string HereTakeBuff = "GVG_104a";
+                public const string JunkedUpEnchantment = "GVG_106e";
+                public const string BoomBotToken = "GVG_110t";
+                public const string V07Tr0NToken = "GVG_111t";
+                public const string ArmorPlating = "PART_001";
+                public const string ArmorPlatingEnchantment = "PART_001e";
+                public const string TimeRewinder = "PART_002";
+                public const string RustyHorn = "PART_003";
+                public const string FinickyCloakfield = "PART_004";
+                public const string CloakedEnchantment = "PART_004e";
+                public const string EmergencyCoolant = "PART_005";
+                public const string ReversingSwitch = "PART_006";
+                public const string Switched = "PART_006a";
+                public const string WhirlingBlades = "PART_007";
+                public const string WhirlingBladesEnchantment = "PART_007e";
+                public const string TwilightEnduranceEnchantment = "BRM_004e";
+                public const string WhelpTokenBRM = "BRM_004t";
+                public const string OnFireEnchantment = "BRM_012e";
+                public const string DraconicPowerEnchantment = "BRM_020e";
+                public const string BlackWhelpToken = "BRM_022t";
+                public const string LargeTalonsEnchantment = "BRM_024e";
+                public const string RagnarosTheFirelordHero = "BRM_027h";
+                public const string DieInsectHeroPower = "BRM_027p";
+                public const string DieInsects = "BRM_027pH";
+                public const string ImperialFavorEnchantment = "BRM_028e";
+                public const string TailSwipeToken = "BRM_030t";
+                public const string DragonBloodEnchantment = "BRM_033e";
+                public const string Flameheart = "BRMA_01";
+                public const string CorenDirebrew1 = "BRMA01_1";
+                public const string CorenDirebrewHeroic = "BRMA01_1H";
+                public const string PileOn = "BRMA01_2";
+                public const string PileOnHeroic = "BRMA01_2H";
+                public const string DarkIronBouncer = "BRMA01_3";
+                public const string GetEm = "BRMA01_4";
+                public const string GuzzlerToken = "BRMA01_4t";
+                public const string HighJusticeGrimstone1 = "BRMA02_1";
+                public const string HighJusticeGrimstoneHeroic = "BRMA02_1H";
+                public const string JeeringCrowd = "BRMA02_2";
+                public const string JeeringCrowdHeroic = "BRMA02_2H";
+                public const string DarkIronSpectatorToken = "BRMA02_2t";
+                public const string EmperorThaurissan = "BRMA03_1";
+                public const string EmperorThaurissanHeroic = "BRMA03_1H";
+                public const string PowerOfTheFirelord = "BRMA03_2";
+                public const string MoiraBronzebeard1 = "BRMA03_3";
+                public const string MoiraBronzebeardHeroic = "BRMA03_3H";
+                public const string Garr1 = "BRMA04_1";
+                public const string GarrHeroic = "BRMA04_1H";
+                public const string MagmaPulse = "BRMA04_2";
+                public const string Firesworn = "BRMA04_3";
+                public const string FireswornHeroic = "BRMA04_3H";
+                public const string RockOut = "BRMA04_4";
+                public const string RockOutHeroic = "BRMA04_4H";
+                public const string BaronGeddon = "BRMA05_1";
+                public const string BaronGeddonHeroic = "BRMA05_1H";
+                public const string IgniteMana = "BRMA05_2";
+                public const string IgniteManaHeroic = "BRMA05_2H";
+                public const string LivingBomb1 = "BRMA05_3";
+                public const string LivingBombEnchantment1 = "BRMA05_3e";
+                public const string LivingBombHeroic = "BRMA05_3H";
+                public const string LivingBombEnchantmentHeroic = "BRMA05_3He";
+                public const string MajordomoExecutus = "BRMA06_1";
+                public const string MajordomoExecutusHeroic = "BRMA06_1H";
+                public const string TheMajordomo = "BRMA06_2";
+                public const string TheMajordomoHeroic = "BRMA06_2H";
+                public const string RagnarosTheFirelord = "BRMA06_3";
+                public const string RagnarosTheFirelordHeroic = "BRMA06_3H";
+                public const string FlamewakerAcolyte = "BRMA06_4";
+                public const string FlamewakerAcolyteHeroic = "BRMA06_4H";
+                public const string HighlordOmokk = "BRMA07_1";
+                public const string HighlordOmokkHeroic = "BRMA07_1H";
+                public const string MeSmash = "BRMA07_2";
+                public const string MeSmashHeroic = "BRMA07_2H";
+                public const string TimeForSmash = "BRMA07_3";
+                public const string GeneralDrakkisath = "BRMA08_1";
+                public const string GeneralDrakkisathHeroic = "BRMA08_1H";
+                public const string IntenseGaze = "BRMA08_2";
+                public const string IntenseGazeHeroic = "BRMA08_2H";
+                public const string DrakkisathsCommand = "BRMA08_3";
+                public const string RendBlackhand = "BRMA09_1";
+                public const string RendBlackhandHeroic = "BRMA09_1H";
+                public const string OpenTheGates1 = "BRMA09_2";
+                public const string OpenTheGatesHeroic = "BRMA09_2H";
+                public const string WhelpTokenBRSHeroic = "BRMA09_2Ht";
+                public const string WhelpTokenBRS = "BRMA09_2t";
+                public const string OldHorde = "BRMA09_3";
+                public const string OldHordeHeroic = "BRMA09_3H";
+                public const string OldHordeOrcTokenHeroic = "BRMA09_3Ht";
+                public const string OldHordeOrcToken = "BRMA09_3t";
+                public const string Blackwing = "BRMA09_4";
+                public const string BlackwingHeroic = "BRMA09_4H";
+                public const string DragonkinTokenHeroic = "BRMA09_4Ht";
+                public const string DragonkinToken = "BRMA09_4t";
+                public const string Dismount = "BRMA09_5";
+                public const string DismountHeroic = "BRMA09_5H";
+                public const string GythTokenHeroic = "BRMA09_5Ht";
+                public const string GythToken = "BRMA09_5t";
+                public const string TheTrueWarchief = "BRMA09_6";
+                public const string RazorgoreTheUntamed = "BRMA10_1";
+                public const string RazorgoreTheUntamedHeroic = "BRMA10_1H";
+                public const string TheRookery = "BRMA10_3";
+                public const string IncubationEnchantment = "BRMA10_3e";
+                public const string TheRookeryHeroic = "BRMA10_3H";
+                public const string CorruptedEgg = "BRMA10_4";
+                public const string CorruptedEggHeroic = "BRMA10_4H";
+                public const string ChromaticDrake = "BRMA10_5";
+                public const string ChromaticDrakeHeroic = "BRMA10_5H";
+                public const string RazorgoresClaws = "BRMA10_6";
+                public const string BlindWithRageEnchantment = "BRMA10_6e";
+                public const string VaelastraszTheCorrupt = "BRMA11_1";
+                public const string VaelastraszTheCorruptHeroic = "BRMA11_1H";
+                public const string EssenceOfTheRed = "BRMA11_2";
+                public const string EssenceOfTheRedHeroic = "BRMA11_2H";
+                public const string BurningAdrenaline = "BRMA11_3";
+                public const string Chromaggus = "BRMA12_1";
+                public const string Mutation = "BRMA12_10";
+                public const string ChromaggusHeroic = "BRMA12_1H";
+                public const string BroodAffliction = "BRMA12_2";
+                public const string BroodAfflictionHeroic = "BRMA12_2H";
+                public const string BroodAfflictionRed = "BRMA12_3";
+                public const string BroodAfflictionRedHeroic = "BRMA12_3H";
+                public const string BroodAfflictionGreen = "BRMA12_4";
+                public const string BroodAfflictionGreenHeroic = "BRMA12_4H";
+                public const string BroodAfflictionBlue = "BRMA12_5";
+                public const string BroodAfflictionBlueHeroic = "BRMA12_5H";
+                public const string BroodAfflictionBlack = "BRMA12_6";
+                public const string BroodAfflictionBlackHeroic = "BRMA12_6H";
+                public const string BroodAfflictionBronze = "BRMA12_7";
+                public const string BroodAfflictionBronzeHeroic = "BRMA12_7H";
+                public const string ChromaticMutation = "BRMA12_8";
+                public const string ChromaticDragonkinToken = "BRMA12_8t";
+                public const string ChromaticDragonkin = "BRMA12_9";
+                public const string LordVictorNefarius = "BRMA13_1";
+                public const string LordVictorNefariusHeroic = "BRMA13_1H";
+                public const string TrueForm = "BRMA13_2";
+                public const string TrueFormHeroic = "BRMA13_2H";
+                public const string NefarianBWL = "BRMA13_3";
+                public const string NefarianBWLHeroic = "BRMA13_3H";
+                public const string WildMagic = "BRMA13_4";
+                public const string WildMagicHeroic = "BRMA13_4H";
+                public const string SonOfTheFlame1 = "BRMA13_5";
+                public const string LivingLava1 = "BRMA13_6";
+                public const string WhirlingAsh1 = "BRMA13_7";
+                public const string DieInsect = "BRMA13_8";
+                public const string OmnotronDefenseSystem1 = "BRMA14_1";
+                public const string Activate = "BRMA14_10";
+                public const string ActivateHeroic = "BRMA14_10H";
+                public const string Recharge = "BRMA14_11";
+                public const string Magmaw = "BRMA14_12";
+                public const string OmnotronDefenseSystemHeroic = "BRMA14_1H";
+                public const string ActivateArcanotron = "BRMA14_2";
+                public const string ActivateArcanotronHeroic = "BRMA14_2H";
+                public const string Arcanotron = "BRMA14_3";
+                public const string ActivateToxitron = "BRMA14_4";
+                public const string ActivateToxitronHeroic = "BRMA14_4H";
+                public const string Toxitron = "BRMA14_5";
+                public const string ToxitronHeroic = "BRMA14_5H";
+                public const string ActivateElectron = "BRMA14_6";
+                public const string ActivateElectronHeroic = "BRMA14_6H";
+                public const string Electron = "BRMA14_7";
+                public const string ElectronHeroic = "BRMA14_7H";
+                public const string ActivateMagmatron = "BRMA14_8";
+                public const string ActivateMagmatronHeroic = "BRMA14_8H";
+                public const string Magmatron = "BRMA14_9";
+                public const string MagmatronHeroic = "BRMA14_9H";
+                public const string Maloriak = "BRMA15_1";
+                public const string MaloriakHeroic = "BRMA15_1H";
+                public const string TheAlchemist = "BRMA15_2";
+                public const string TheAlchemistHeroic = "BRMA15_2H";
+                public const string PotionOfMightEnchantmentHeroic = "BRMA15_2He";
+                public const string ReleaseTheAberrations = "BRMA15_3";
+                public const string Aberration = "BRMA15_4";
+                public const string Atramedes1 = "BRMA16_1";
+                public const string AtramedesHeroic = "BRMA16_1H";
+                public const string Echolocate = "BRMA16_2";
+                public const string EcholocateHeroic = "BRMA16_2H";
+                public const string SonicBreath = "BRMA16_3";
+                public const string SonicBreathEnchantment = "BRMA16_3e";
+                public const string ReverberatingGong = "BRMA16_4";
+                public const string Dragonteeth = "BRMA16_5";
+                public const string IHearYouEnchantment1 = "BRMA16_5e";
+                public const string NefarianHiddenLab = "BRMA17_2";
+                public const string NefarianHiddenLabHeroic = "BRMA17_2H";
+                public const string Onyxia = "BRMA17_3";
+                public const string OnyxiaHeroic = "BRMA17_3H";
+                public const string Lava = "BRMA17_4";
+                public const string BoneMinions = "BRMA17_5";
+                public const string BoneMinionsHeroic = "BRMA17_5H";
+                public const string BoneConstruct = "BRMA17_6";
+                public const string BoneConstructHeroic = "BRMA17_6H";
+                public const string ChromaticPrototype = "BRMA17_7";
+                public const string NefarianStrikes = "BRMA17_8";
+                public const string NefarianStrikesHeroic = "BRMA17_8H";
+                public const string Onyxiclaw = "BRMA17_9";
+                public const string BoarToken = "AT_005t";
+                public const string LightsBlessingEnchantment = "AT_011e";
+                public const string PowerWordGloryEnchantment = "AT_013e";
+                public const string TwilightsEmbraceEnchantment = "AT_017e";
+                public const string DarkFusionEnchantment = "AT_024e";
+                public const string ChiLanceEnchantment = "AT_028e";
+                public const string ExtraStabbyEnchantment = "AT_029e";
+                public const string LivingRoots1 = "AT_037a";
+                public const string LivingRoots2 = "AT_037b";
+                public const string CallOfTheWildEnchantment = "AT_041e";
+                public const string EmpoweringMistEnchantment = "AT_045e";
+                public const string MistcallerDeckEnchEnchantment = "AT_045ee";
+                public const string KingsDefenderEnchantment = "AT_065e";
+                public const string CompetitiveSpiritEnchantment = "AT_073e";
+                public const string ExtraPokeEnchantment = "AT_077e";
+                public const string TrainingEnchantment = "AT_082e";
+                public const string DragonhawkeryEnchantment = "AT_083e";
+                public const string EquippedEnchantmentTGT = "AT_084e";
+                public const string VillainyEnchantment = "AT_086e";
+                public const string BoneguardedEnchantment = "AT_089e";
+                public const string MightOfTheMonkeyEnchantment = "AT_090e";
+                public const string WoundUpEnchantment = "AT_096e";
+                public const string WarKodoToken = "AT_099t";
+                public const string InspiredEnchantmentTGT1 = "AT_109e";
+                public const string FencingPracticeEnchantment = "AT_115e";
+                public const string CeremonyEnchantment = "AT_117e";
+                public const string InspiredEnchantmentTGT2 = "AT_119e";
+                public const string HugeEgoEnchantment = "AT_121e";
+                public const string VictoryEnchantment = "AT_133e";
+                public const string JasonChayes = "CRED_01";
+                public const string EricDodds = "CRED_02";
+                public const string BobFitch = "CRED_03";
+                public const string StevenGabriel = "CRED_04";
+                public const string KyleHarrison = "CRED_05";
+                public const string DerekSakamoto = "CRED_06";
+                public const string Zwick = "CRED_07";
+                public const string BenBrode = "CRED_08";
+                public const string BenThompson = "CRED_09";
+                public const string MichaelSchweitzer = "CRED_10";
+                public const string JayBaxter = "CRED_11";
+                public const string RachelleDavis = "CRED_12";
+                public const string BrianSchwab = "CRED_13";
+                public const string YongWoo = "CRED_14";
+                public const string AndyBrock = "CRED_15";
+                public const string HamiltonChu = "CRED_16";
+                public const string RobPardo = "CRED_17";
+                public const string BeccaAbel = "CRED_18";
+                public const string BeomkiHong = "CRED_19";
+                public const string BrianBirmingham = "CRED_20";
+                public const string BryanChang = "CRED_21";
+                public const string CameronChrisman = "CRED_22";
+                public const string ChristopherYim = "CRED_23";
+                public const string DeanAyala = "CRED_24";
+                public const string ElizabethCho = "CRED_25";
+                public const string EricDelPriore = "CRED_26";
+                public const string HenryHo = "CRED_27";
+                public const string HeRimWoo = "CRED_28";
+                public const string JasonMacallister = "CRED_29";
+                public const string JcPark = "CRED_30";
+                public const string JeremyCranford = "CRED_31";
+                public const string JerryMascho = "CRED_32";
+                public const string JomaroKindred = "CRED_33";
+                public const string MaxMa = "CRED_34";
+                public const string MaxMccall = "CRED_35";
+                public const string MikeDonais = "CRED_36";
+                public const string RicardoRobaina = "CRED_37";
+                public const string RobinFredericksen = "CRED_38";
+                public const string RyanChew = "CRED_39";
+                public const string SeyilYoon = "CRED_41";
+                public const string TimErskine = "CRED_42";
+                public const string JonBankard = "CRED_43";
+                public const string WalterKong = "CRED_44";
+                public const string JonasLaster = "CRED_45";
+                public const string KeithLandes = "CRED_46";
+                public const string PileOnTavernBrawlHeroPower = "BRMA01_2H_2_TB";
+                public const string JeeringCrowdTavernBrawlHeroPower = "BRMA02_2_2_TB";
+                public const string JeeringCrowdTavernBrawl = "BRMA02_2_2c_TB";
+                public const string TheMajordomoTavernBrawl = "BRMA06_2H_TB";
+                public const string MeSmashTavernBrawlHeroPower = "BRMA07_2_2_TB";
+                public const string MeSmashTavernBrawl = "BRMA07_2_2c_TB";
+                public const string OpenTheGatesTavernBrawlHeroPower = "BRMA09_2_TB";
+                public const string WildMagicTavernBrawlHeroPower = "BRMA13_4_2_TB";
+                public const string ActivateTavernBrawl = "BRMA14_10H_TB";
+                public const string BoneMinionsTavernBrawl = "BRMA17_5_TB";
+                public const string LivingBomb2 = "BRMC_100";
+                public const string LivingBombEnchantment2 = "BRMC_100e";
+                public const string OpenTheGates2 = "BRMC_83";
+                public const string DragonkinSpellcaster = "BRMC_84";
+                public const string Lucifron = "BRMC_85";
+                public const string Atramedes2 = "BRMC_86";
+                public const string IHearYouEnchantment2 = "BRMC_86e";
+                public const string MoiraBronzebeard2 = "BRMC_87";
+                public const string DrakonidSlayer = "BRMC_88";
+                public const string WhirlingAsh2 = "BRMC_89";
+                public const string LivingLava2 = "BRMC_90";
+                public const string SonOfTheFlame2 = "BRMC_91";
+                public const string CorenDirebrew2 = "BRMC_92";
+                public const string OmnotronDefenseSystem2 = "BRMC_93";
+                public const string Sulfuras = "BRMC_94";
+                public const string Golemagg = "BRMC_95";
+                public const string CoreHoundPuppiesHeroic = "BRMC_95h";
+                public const string CoreHoundPupEnchantmentHeroic = "BRMC_95he";
+                public const string HighJusticeGrimstone2 = "BRMC_96";
+                public const string Vaelastrasz = "BRMC_97";
+                public const string BurningAdrenalineEnchantment = "BRMC_97e";
+                public const string Razorgore = "BRMC_98";
+                public const string DragonlustEnchantment = "BRMC_98e";
+                public const string Garr2 = "BRMC_99";
+                public const string RockElementalEnchantment = "BRMC_99e";
+                public const string OverclockEnchantment = "HRW02_1e";
+                public const string PoisonCloudTavernBrawlHeroPower = "NAX11_02H_2_TB";
+                public const string DecimateTavernBrawlHeroPower = "NAX12_02H_2_TB";
+                public const string DecimateTavernBrawl = "NAX12_02H_2c_TB";
+                public const string WebWrapTavernBrawl = "NAX3_02_TB";
+                public const string HarvestTavernBrawl = "NAX8_02H_TB";
+                public const string BossHpSwapperTavernBrawl = "TB_001";
+                public const string BigBananaTavernBrawl = "TB_006";
+                public const string BigBananaEnchantmentTavernBrawl = "TB_006e";
+                public const string DeviateBananaTavernBrawl = "TB_007";
+                public const string DeviateSwitchEnchantmentTavernBrawl = "TB_007e";
+                public const string RottenBananaTavernBrawl = "TB_008";
+                public const string Create15SecretsTavernBrawl = "TB_009";
+                public const string DeckbuildingEnchantTavernBrawl = "TB_010";
+                public const string ChooseOneOfThreeEnchantmentTavernBrawl = "TB_010e";
+                public const string TarnishedCoinTavernBrawl = "TB_011";
+                public const string ChooseANewCardTavernBrawl1 = "TB_012";
+                public const string PlayerChoiceEnchantTavernBrawl = "TB_013";
+                public const string PlayerChoiceEnchantOnCurveTavernBrawl = "TB_013_PickOnCurve";
+                public const string PlayerChoiceEnchantOnCurve2TavernBrawl = "TB_013_PickOnCurve2";
+                public const string ChooseANewCardTavernBrawl2 = "TB_014";
+                public const string PirateTavernBrawl = "TB_015";
+                public const string GiveTauntAndChargeTavernBrawl = "TB_AllMinionsTauntCharge";
+                public const string GearmasterMechazodTavernBrawl = "TB_CoOp_Mechazod";
+                public const string OverloadedMechazodTavernBrawl = "TB_CoOp_Mechazod2";
+                public const string PrioritizeTavernBrawl = "TB_CoOpBossSpell_1";
+                public const string BombSalvoTavernBrawl = "TB_CoOpBossSpell_2";
+                public const string ReleaseCoolantTavernBrawl = "TB_CoOpBossSpell_3";
+                public const string OverclockTavernBrawl = "TB_CoOpBossSpell_4";
+                public const string DoubleZapTavernBrawl = "TB_CoOpBossSpell_5";
+                public const string KillTheLorewalkerTavernBrawl = "TB_CoOpBossSpell_6";
+                public const string Tb_DecreasingcardcostTavernBrawl = "TB_DecreasingCardCost";
+                public const string TbdecreasingcardcostdebugTavernBrawl = "TB_DecreasingCardCostDebug";
+                public const string EndlessEnchantmentTavernBrawl = "TB_EndlessMinions01";
+                public const string TbfactionwarboombotTavernBrawl = "TB_FactionWar_BoomBot";
+                public const string TbfactionwarboombotspellTavernBrawl = "TB_FactionWar_BoomBot_Spell";
+                public const string Factionwar_BoombotTavernBrawl = "TB_FactionWar_Boss_BoomBot";
+                public const string CheapGiftTavernBrawl = "TB_GiftExchange_Enchantment";
+                public const string WintersVeilGiftTavernBrawl = "TB_GiftExchange_Treasure";
+                public const string StolenWintersVeilGiftTavernBrawl = "TB_GiftExchange_Treasure_Spell";
+                public const string Tb_ClockworkcarddealerTavernBrawl = "TB_GreatCurves_01";
+                public const string AnnoyOTronTavernBrawl = "TB_MechWar_Boss1";
+                public const string HelloHelloHelloTavernBrawl = "TB_MechWar_Boss1_HeroPower";
+                public const string BoomBotTavernBrawl = "TB_MechWar_Boss2";
+                public const string BoomBotJrTavernBrawl = "TB_MechWar_Boss2_HeroPower";
+                public const string TbmechwarcommoncardsTavernBrawl = "TB_MechWar_CommonCards";
+                public const string MechFanTavernBrawl = "TB_MechWar_Minion1";
+                public const string PickYourFateBuildAroundTavernBrawl = "TB_PickYourFate";
+                public const string Fate1TavernBrawl = "TB_PickYourFate_1";
+                public const string PickYourFate1EnchTavernBrawl = "TB_PickYourFate_1_Ench";
+                public const string Fate10TavernBrawl = "TB_PickYourFate_10";
+                public const string Fate10EnchBattlecryBonusTavernBrawl = "TB_PickYourFate_10_Ench";
+                public const string Fate11TavernBrawl = "TB_PickYourFate_11";
+                public const string Fate11EnchMurlocTavernBrawl = "TB_PickYourFate_11_Ench";
+                public const string Fate2TavernBrawl = "TB_PickYourFate_2";
+                public const string PickYourFate2EnchTavernBrawl = "TB_PickYourFate_2_Ench";
+                public const string Fate3TavernBrawl = "TB_PickYourFate_3";
+                public const string PickYourFate3EnchTavernBrawl = "TB_PickYourFate_3_Ench";
+                public const string Fate4TavernBrawl = "TB_PickYourFate_4";
+                public const string PickYourFate4EnchTavernBrawl = "TB_PickYourFate_4_Ench";
+                public const string Fate5TavernBrawl = "TB_PickYourFate_5";
+                public const string PickYouRfate5EnchTavernBrawl = "TB_PickYourFate_5_Ench";
+                public const string Fate6TavernBrawl = "TB_PickYourFate_6";
+                public const string Fate7TavernBrawl = "TB_PickYourFate_7";
+                public const string Fate7EnchGetACoinTavernBrawl = "TB_PickYourFate_7_Ench";
+                public const string Fate8TavernBrawl = "TB_PickYourFate_8";
+                public const string Fate8GetArmorTavernBrawl = "TB_PickYourFate_8_Ench";
+                public const string Fate9TavernBrawl = "TB_PickYourFate_9";
+                public const string Fate9EnchDeathrattleBonusTavernBrawl = "TB_PickYourFate_9_Ench";
+                public const string WindfuryTavernBrawl = "TB_PickYourFate_Windfury";
+                public const string PickYourFateRandomTavernBrawl = "TB_PickYourFateRandom";
+                public const string MysteryPilotTavernBrawl = "TB_Pilot1";
+                public const string TbrandomcardcostTavernBrawl = "TB_RandCardCost";
+                public const string Tb_EnchwhosthebossnowTavernBrawl = "TB_RandHero2_001";
+                public const string Tb_EnchrandommanacostTavernBrawl = "TB_RMC_001";
+                public const string RagnarosTheFirelordTavernBrawl = "TBA01_1";
+                public const string NefarianTavernBrawl = "TBA01_4";
+                public const string WildMagicTavernBrawl = "TBA01_5";
+                public const string MoltenRageTavernBrawl = "TBA01_6";
+                public const string Oldn3wbTankTavernBrawl = "TBST_001";
+                public const string Oldn3wbMageTavernBrawl = "TBST_002";
+                public const string Oldn3wbHealerTavernBrawl = "TBST_003";
+                public const string OldlegitHealerTavernBrawl = "TBST_004";
+                public const string OldpvpRogueTavernBrawl = "TBST_005";
+                public const string OldtbstPushCommonCardTavernBrawl = "TBST_006";
+                public const string TbudSummonEarlyMinionTavernBrawl = "TBUD_1";
+                public const string EyeOfHakkar = "LOE_008";
+                public const string EyeOfHakkarHeroic = "LOE_008H";
+                public const string RockToken = "LOE_016t";
+                public const string MapToTheGoldenMonkeyToken = "LOE_019t";
+                public const string GoldenMonkeyToken = "LOE_019t2";
+                public const string RollingBoulderToken = "LOE_024t";
+                public const string ZzdeleteAnimatedArmor = "LOE_030";
+                public const string HollowEnchantment = "LOE_030e";
+                public const string PowerOfTheTitansEnchantment = "LOE_061e";
+                public const string FossilizedEnchantment = "LOE_073e";
+                public const string RascallyRuntToken = "LOE_089t";
+                public const string WilyRuntToken = "LOE_089t2";
+                public const string GrumblyRuntToken = "LOE_089t3";
+                public const string AncientCurseToken = "LOE_110t";
+                public const string MrglllraawrrrglrurEnchantment = "LOE_113e";
+                public const string LoomingPresence = "LOEA_01";
+                public const string LoomingPresenceHeroic = "LOEA_01H";
+                public const string SunRaiderPhaerixTemple = "LOEA01_01";
+                public const string PhaerixHeroic = "LOEA01_01h";
+                public const string BlessingsOfTheSun = "LOEA01_02";
+                public const string BlessingsOfTheSunHeroic = "LOEA01_02h";
+                public const string RodOfTheSun = "LOEA01_11";
+                public const string RodOfTheSunHeroic = "LOEA01_11h";
+                public const string ModeEnchantmentHeroic = "LOEA01_11he";
+                public const string TolvirHoplite = "LOEA01_12";
+                public const string TolvirHopliteHeroic = "LOEA01_12h";
+                public const string ZinaarTemple = "LOEA02_01";
+                public const string ZinaarTempleHeroic = "LOEA02_01h";
+                public const string DjinnSIntuition = "LOEA02_02";
+                public const string DjinnSIntuitionHeroic = "LOEA02_02h";
+                public const string WishForPower = "LOEA02_03";
+                public const string WishForValor = "LOEA02_04";
+                public const string WishForGlory = "LOEA02_05";
+                public const string WishForMoreWishes = "LOEA02_06";
+                public const string WishForCompanionship = "LOEA02_10";
+                public const string TempleEscape = "LOEA04_01";
+                public const string TempleEscapeEnchantEnchantment = "LOEA04_01e";
+                public const string TempleEscapeEnchantEnchantmentHeroic = "LOEA04_01eh";
+                public const string EscapeHeroic1 = "LOEA04_01h";
+                public const string Escape = "LOEA04_02";
+                public const string EscapeHeroic2 = "LOEA04_02h";
+                public const string PitOfSpikes = "LOEA04_06";
+                public const string SwingAcross = "LOEA04_06a";
+                public const string WalkAcrossGingerly = "LOEA04_06b";
+                public const string OrsisGuard = "LOEA04_13bt";
+                public const string OrsisGuardHeroic = "LOEA04_13bth";
+                public const string GiantInsect = "LOEA04_23";
+                public const string GiantInsectHeroic = "LOEA04_23h";
+                public const string AnubisathTempleGuard = "LOEA04_24";
+                public const string AnubisathTempleGuardHeroic = "LOEA04_24h";
+                public const string SeethingStatue = "LOEA04_25";
+                public const string SeethingStatueHeroic = "LOEA04_25h";
+                public const string AnimatedStatueUldaman = "LOEA04_27";
+                public const string AGlowingPool = "LOEA04_28";
+                public const string DrinkDeeply = "LOEA04_28a";
+                public const string WadeThrough = "LOEA04_28b";
+                public const string TheEye = "LOEA04_29";
+                public const string TouchIt = "LOEA04_29a";
+                public const string InvestigateTheRunes = "LOEA04_29b";
+                public const string TheDarkness = "LOEA04_30";
+                public const string TakeTheShortcut = "LOEA04_30a";
+                public const string NoWay = "LOEA04_31b";
+                public const string ChieftainScarvashUldaman = "LOEA05_01";
+                public const string ScarvashHeroic = "LOEA05_01h";
+                public const string TroggHateMinions1 = "LOEA05_02";
+                public const string TroggHateMinions2 = "LOEA05_02a";
+                public const string TroggHateMinionsHeroic1 = "LOEA05_02h";
+                public const string TroggHateMinionsHeroic2 = "LOEA05_02ha";
+                public const string TroggHateSpells = "LOEA05_03";
+                public const string TroggHateSpellsHeroic = "LOEA05_03h";
+                public const string Stonesculpting = "LOEA06_02";
+                public const string StonesculptingHeroic = "LOEA06_02h";
+                public const string EarthenStatueToken = "LOEA06_02t";
+                public const string EarthenStatueTokenHeroic = "LOEA06_02th";
+                public const string AnimateEarthen = "LOEA06_03";
+                public const string AnimatedEnchantment = "LOEA06_03e";
+                public const string AnimatedEnchantmentHeroic = "LOEA06_03eh";
+                public const string AnimateEarthenHeroic = "LOEA06_03h";
+                public const string ShatteringSpree = "LOEA06_04";
+                public const string ShatteringSpreeHeroic = "LOEA06_04h";
+                public const string MineCart = "LOEA07_01";
+                public const string MineShaft = "LOEA07_02";
+                public const string MineShaftHeroic = "LOEA07_02h";
+                public const string FleeTheMine = "LOEA07_03";
+                public const string FleeTheMineHeroic = "LOEA07_03h";
+                public const string ChasingTrogg = "LOEA07_09";
+                public const string Debris = "LOEA07_11";
+                public const string EarthenPursuer = "LOEA07_12";
+                public const string LumberingGolem = "LOEA07_14";
+                public const string Dynamite = "LOEA07_18";
+                public const string Boom = "LOEA07_20";
+                public const string BarrelForward = "LOEA07_21";
+                public const string SpikedDecoy = "LOEA07_24";
+                public const string MechanicalParrot = "LOEA07_25";
+                public const string ConsultBrann = "LOEA07_26";
+                public const string RepairsLOE = "LOEA07_28";
+                public const string ThrowRocks = "LOEA07_29";
+                public const string ArchaedasTRC = "LOEA08_01";
+                public const string ArchaedasTRCHeroic = "LOEA08_01h";
+                public const string LordSlitherspearTRC = "LOEA09_1";
+                public const string HungryNaga1 = "LOEA09_10";
+                public const string HungryNaga2 = "LOEA09_11";
+                public const string HungryNaga3 = "LOEA09_12";
+                public const string HungryNaga4 = "LOEA09_13";
+                public const string SlitherspearTRCHeroic = "LOEA09_1H";
+                public const string Enraged = "LOEA09_2";
+                public const string EnragedEnchantment = "LOEA09_2e";
+                public const string EnragedEnchantmentHeroic = "LOEA09_2eH";
+                public const string EnragedHeroic = "LOEA09_2H";
+                public const string GettingHungry1 = "LOEA09_3";
+                public const string Famished = "LOEA09_3a";
+                public const string FamishedHeroic = "LOEA09_3aH";
+                public const string GettingHungry2 = "LOEA09_3b";
+                public const string GettingHungry3 = "LOEA09_3c";
+                public const string GettingHungry4 = "LOEA09_3d";
+                public const string EndlessHungerHeroic = "LOEA09_3H";
+                public const string RareSpear = "LOEA09_4";
+                public const string RareSpearHeroic = "LOEA09_4H";
+                public const string HungryNaga5 = "LOEA09_5";
+                public const string HungryNagaHeroic = "LOEA09_5H";
+                public const string SlitheringArcher = "LOEA09_6";
+                public const string SlitheringArcherHeroic = "LOEA09_6H";
+                public const string Cauldron = "LOEA09_7";
+                public const string CauldronEnchantment = "LOEA09_7e";
+                public const string CauldronHeroic = "LOEA09_7H";
+                public const string SlitheringGuard = "LOEA09_8";
+                public const string SlitheringGuardHeroic = "LOEA09_8H";
+                public const string NagaRepellent = "LOEA09_9";
+                public const string NagaRepellentHeroic = "LOEA09_9H";
+                public const string GiantfinHall = "LOEA10_1";
+                public const string GiantfinHallHeroic = "LOEA10_1H";
+                public const string MrglmrglMrgl = "LOEA10_2";
+                public const string MrglmrglMrglHeroic = "LOEA10_2H";
+                public const string MrglMrglNyahNyah = "LOEA10_5";
+                public const string MrglMrglNyahNyahHeroic = "LOEA10_5H";
+                public const string LadyNazjarHall = "LOEA12_1";
+                public const string NazjarHallHeroic = "LOEA12_1H";
+                public const string PearlOfTheTides = "LOEA12_2";
+                public const string PearlOfTheTidesHeroic = "LOEA12_2H";
+                public const string SkelesaurusHexHall = "LOEA13_1";
+                public const string SkelesaurusHeroic = "LOEA13_1h";
+                public const string AncientPower = "LOEA13_2";
+                public const string AncientPowerHeroic = "LOEA13_2H";
+                public const string TheSteelSentinelLOEA14 = "LOEA14_1";
+                public const string SentinelLOEA14Heroic = "LOEA14_1H";
+                public const string PlatemailArmor = "LOEA14_2";
+                public const string PlatemailArmorHeroic = "LOEA14_2H";
+                public const string RafaamLOEA15 = "LOEA15_1";
+                public const string RafaamLOEA15Heroic = "LOEA15_1H";
+                public const string UnstablePortal = "LOEA15_2";
+                public const string UnstablePortalHeroic = "LOEA15_2H";
+                public const string Boneraptor = "LOEA15_3";
+                public const string BoneraptorHeroic = "LOEA15_3H";
+                public const string RafaamLOEA16 = "LOEA16_1";
+                public const string HakkariBloodGoblet = "LOEA16_10";
+                public const string CrownOfKaelthas = "LOEA16_11";
+                public const string MedivhsLocket = "LOEA16_12";
+                public const string EyeOfOrsis = "LOEA16_13";
+                public const string KhadgarsPipe = "LOEA16_14";
+                public const string YserasTear = "LOEA16_15";
+                public const string Rummage = "LOEA16_16";
+                public const string RummageHeroic = "LOEA16_16H";
+                public const string AnimatedStatueLOEA16 = "LOEA16_17";
+                public const string ZinaarLOEA16 = "LOEA16_18";
+                public const string ZinaarLOEA16Heroic = "LOEA16_18H";
+                public const string SunRaiderPhaerixLOEA16 = "LOEA16_19";
+                public const string SunRaiderPhaerixLOEA16Heroic = "LOEA16_19H";
+                public const string RafaamLOEA16Heroic = "LOEA16_1H";
+                public const string StaffOfOrigination = "LOEA16_2";
+                public const string BlessingOfTheSun = "LOEA16_20";
+                public const string BlessedEnchantment = "LOEA16_20e";
+                public const string BlessingOfTheSunHeroic = "LOEA16_20H";
+                public const string ChieftainScarvashLOEA16 = "LOEA16_21";
+                public const string ChieftainScarvashLOEA16Heroic = "LOEA16_21H";
+                public const string ArchaedasLOEA16 = "LOEA16_22";
+                public const string ArchaedasLOEA16Heroic = "LOEA16_22H";
+                public const string LordSlitherspearLOEA16 = "LOEA16_23";
+                public const string LordSlitherspearLOEA16Heroic = "LOEA16_23H";
+                public const string GiantfinLOEA16 = "LOEA16_24";
+                public const string GiantfinLOEA16Heroic = "LOEA16_24H";
+                public const string LadyNazjarLOEA16 = "LOEA16_25";
+                public const string LadyNazjarLOEA16Heroic = "LOEA16_25H";
+                public const string SkelesaurusHexLOEA16 = "LOEA16_26";
+                public const string SkelesaurusHexLOEA16Heroic = "LOEA16_26H";
+                public const string TheSteelSentinelLOEA16 = "LOEA16_27";
+                public const string TheSteelSentinelLOEA16Heroic = "LOEA16_27H";
+                public const string StaffOfOriginationHeroic = "LOEA16_2H";
+                public const string LanternOfPower = "LOEA16_3";
+                public const string LanternOfPowerEnchantment = "LOEA16_3e";
+                public const string TimepieceOfHorror = "LOEA16_4";
+                public const string MirrorOfDoom = "LOEA16_5";
+                public const string MummyZombieToken = "LOEA16_5t";
+                public const string ShardOfSulfuras = "LOEA16_6";
+                public const string BenedictionSplinter = "LOEA16_7";
+                public const string PutressVial = "LOEA16_8";
+                public const string Putressed = "LOEA16_8a";
+                public const string LotharsLeftGreave = "LOEA16_9";
             }
 
-            public class Classic
+            public class Druid
             {
-                public class Neutral
-                {
-                    public const string Squire = "CS2_152";
-                    public const string FullStrengthEnchantment = "CS2_181e";
-                    public const string InspiredEnchantment = "CS2_188o";
-                    public const string SharpEnchantment = "CS2_221e";
-                    public const string NightmareEnchantment = "DREAM_05e";
-                    public const string Whelp = "ds1_whelptoken";
-                    public const string WardedEnchantment = "EX1_001e";
-                    public const string ElunesGraceEnchantment = "EX1_004e";
-                    public const string BananasToken = "EX1_014t";
-                    public const string BananasEnchantmentToken = "EX1_014te";
-                    public const string HourOfTwilightEnchantment = "EX1_043e";
-                    public const string LevelUpEnchantment = "EX1_044e";
-                    public const string TemperedEnchantment = "EX1_046e";
-                    public const string EmpoweredEnchantment = "EX1_055o";
-                    public const string ExperimentsEnchantment = "EX1_059e";
-                    public const string KeepingSecretsEnchantment = "EX1_080o";
-                    public const string HandOfArgusEnchantment = "EX1_093e";
-                    public const string MrghlglhalEnchantment = "EX1_103e";
-                    public const string BaineBloodhoofToken = "EX1_110t";
-                    public const string WhelpToken = "EX1_116t";
-                    public const string StrengthOfThePackEnchantment = "EX1_162o";
-                    public const string MrgglaarglEnchantment = "EX1_507e";
-                    public const string BlarghghlEnchantment = "EX1_509e";
-                    public const string AlexstraszasFireEnchantment = "EX1_561e";
-                    public const string BiteEnchantment = "EX1_570e";
-                    public const string TeachingsOfTheKirinTorEnchantment = "EX1_584e";
-                    public const string ShadowsOfMuruEnchantment = "EX1_590e";
-                    public const string Imp = "EX1_598";
-                    public const string FlameOfAzzinothToken = "EX1_614t";
-                    public const string FinkleEinhorn = "EX1_finkle";
-                    public const string Squirrel = "EX1_tk28";
-                    public const string Devilsaur = "EX1_tk29";
-                    public const string FullBellyEnchantment = "NEW1_017e";
-                    public const string TreasureCrazedEnchantment = "NEW1_018e";
-                    public const string GreenskinsCommandEnchantment = "NEW1_024o";
-                    public const string BolsteredEnchantment = "NEW1_025e";
-                    public const string VioletApprenticeToken = "NEW1_026t";
-                    public const string YarrrEnchantment = "NEW1_027e";
-                    public const string KillMillhouseToken = "NEW1_029t";
-                    public const string EquippedEnchantment = "NEW1_037e";
-                    public const string GrowthEnchantment = "NEW1_038o";
-                    public const string GnollToken = "NEW1_040t";
-                    public const string DamagedGolem = "skele21";
-                    public const string CannibalizeEnchantment = "tt_004o";
-                }
-
-                public class Druid
-                {
-                    public const string Wrath = "EX1_154a";
-                    public const string Wrath2 = "EX1_154b";
-                    public const string MarkOfNature = "EX1_155a";
-                    public const string MarkOfNatureEnchantment = "EX1_155ae";
-                    public const string MarkOfNature2 = "EX1_155b";
-                    public const string MarkOfNatureEnchantment2 = "EX1_155be";
-                    public const string SoulOfTheForestEnchantment = "EX1_158e";
-                    public const string TreantToken = "EX1_158t";
-                    public const string SummonAPanther = "EX1_160a";
-                    public const string LeaderOfThePack = "EX1_160b";
-                    public const string LeaderOfThePackEnchantment = "EX1_160be";
-                    public const string PantherToken = "EX1_160t";
-                    public const string Nourish = "EX1_164a";
-                    public const string Nourish2 = "EX1_164b";
-                    public const string CatForm = "EX1_165a";
-                    public const string BearForm = "EX1_165b";
-                    public const string DruidOfTheClawToken = "EX1_165t1";
-                    public const string DruidOfTheClawToken2 = "EX1_165t2";
-                    public const string Moonfire = "EX1_166a";
-                    public const string Dispel = "EX1_166b";
-                    public const string Rooted = "EX1_178a";
-                    public const string RootedEnchantment = "EX1_178ae";
-                    public const string Uproot = "EX1_178b";
-                    public const string UprootedEnchantment = "EX1_178be";
-                    public const string DemigodsFavor = "EX1_573a";
-                    public const string DemigodsFavorEnchantment = "EX1_573ae";
-                    public const string ShandosLesson = "EX1_573b";
-                    public const string TreantToken2 = "EX1_573t";
-                    public const string Treant = "EX1_tk9";
-                    public const string Starfall = "NEW1_007a";
-                    public const string Starfall2 = "NEW1_007b";
-                    public const string AncientTeachings = "NEW1_008a";
-                    public const string AncientSecrets = "NEW1_008b";
-                }
-
-                public class Hunter
-                {
-                    public const string WellFedEnchantment = "EX1_531e";
-                    public const string HyenaToken = "EX1_534t";
-                    public const string UpgradedEnchantment = "EX1_536e";
-                    public const string HoundToken = "EX1_538t";
-                    public const string BestialWrathEnchantment = "EX1_549o";
-                    public const string SnakeToken = "EX1_554t";
-                    public const string TrappedEnchantment = "EX1_611e";
-                }
-
-                public class Mage
-                {
-                    public const string RawPowerEnchantment = "EX1_274e";
-                    public const string IceBlockEnchantment = "EX1_295o";
-                    public const string PowerOfTheKirinTorEnchantment = "EX1_612o";
-                    public const string ManaGorgedEnchantment = "NEW1_012o";
-                    public const string Spellbender = "tt_010a";
-                }
-
-                public class Paladin
-                {
-                    public const string Defender = "EX1_130a";
-                    public const string BlessedChampionEnchantment = "EX1_355e";
-                    public const string BlessingOfWisdomEnchantment = "EX1_363e";
-                    public const string BlessingOfWisdomEnchantment2 = "EX1_363e2";
-                    public const string JusticeServedEnchantment = "EX1_366e";
-                    public const string RepentanceEnchantment = "EX1_379e";
-                    public const string StandDownEnchantment = "EX1_382e";
-                    public const string AshbringerToken = "EX1_383t";
-                    public const string EqualityEnchantment = "EX1_619e";
-                }
-
-                public class Priest
-                {
-                    public const string InnerFireEnchantment = "CS1_129e";
-                    public const string ShadowMadnessEnchantment = "EX1_334e";
-                    public const string ShadowOfNothingToken = "EX1_345t";
-                    public const string InfusionEnchantment = "EX1_623e";
-                    public const string MindSpikeToken = "EX1_625t";
-                    public const string MindShatterToken = "EX1_625t2";
-                    public const string MindControlling = "EX1_tk31";
-                }
-
-                public class Rogue
-                {
-                    public const string ColdBloodEnchantment = "CS2_073e";
-                    public const string ColdBloodEnchantment2 = "CS2_073e2";
-                    public const string ConcealedEnchantment = "EX1_128e";
-                    public const string DefiasBanditToken = "EX1_131t";
-                    public const string PreparationEnchantment = "EX1_145o";
-                    public const string VancleefsVengeanceEnchantment = "EX1_613e";
-                    public const string DisguisedEnchantment = "NEW1_014e";
-                }
-
-                public class Shaman
-                {
-                    public const string AncestralSpiritEnchantment = "CS2_038e";
-                    public const string FarSightEnchantment = "CS2_053e";
-                    public const string OverloadingEnchantment = "EX1_258e";
-                    public const string SpiritWolf = "EX1_tk11";
-                }
-
-                public class Warlock
-                {
-                    public const string BloodPactEnchantment = "CS2_059o";
-                    public const string ConsumeEnchantment = "EX1_304e";
-                    public const string PowerOverwhelmingEnchantment = "EX1_316e";
-                    public const string WorthlessImpToken = "EX1_317t";
-                    public const string LordJaraxxusHeroic = "EX1_323h";
-                    public const string BloodFury = "EX1_323w";
-                    public const string DemonfireEnchantment = "EX1_596e";
-                    public const string Inferno = "EX1_tk33";
-                    public const string Infernal = "EX1_tk34";
-                }
-
-                public class Warrior
-                {
-                    public const string RampageEnchantment = "CS2_104e";
-                    public const string BattleAxeToken = "EX1_398t";
-                    public const string UpgradedEnchantment = "EX1_409e";
-                    public const string HeavyAxeToken = "EX1_409t";
-                    public const string BloodrageEnchantment = "EX1_411e";
-                    public const string NeedsSharpeningEnchantment = "EX1_411e2";
-                    public const string WhippedIntoShapeEnchantment = "EX1_603e";
-                    public const string BerserkEnchantment = "EX1_604o";
-                    public const string InnerRageEnchantment = "EX1_607e";
-                    public const string CommandingShoutEnchantment = "NEW1_036e";
-                    public const string CommandingShoutEnchantment2 = "NEW1_036e2";
-                }
-
-                public class DreamCards
-                {
-                    public const string LaughingSister = "DREAM_01";
-                    public const string YseraAwakens = "DREAM_02";
-                    public const string EmeraldDrake = "DREAM_03";
-                    public const string Dream = "DREAM_04";
-                    public const string Nightmare = "DREAM_05";
-                }
+                public const string ClawEnchantment = "CS2_005o";
+                public const string MarkOfTheWildEnchantment = "CS2_009e";
+                public const string SavageRoarEnchantment = "CS2_011o";
+                public const string ExcessManaToken = "CS2_013t";
+                public const string Shapeshift = "CS2_017";
+                public const string ClawsEnchantment = "CS2_017o";
+                public const string Wrath1 = "EX1_154a";
+                public const string Wrath2 = "EX1_154b";
+                public const string MarkOfNature1 = "EX1_155a";
+                public const string MarkOfNatureEnchantment1 = "EX1_155ae";
+                public const string MarkOfNature2 = "EX1_155b";
+                public const string MarkOfNatureEnchantment2 = "EX1_155be";
+                public const string SoulOfTheForestEnchantment = "EX1_158e";
+                public const string TreantTokenClassic1 = "EX1_158t";
+                public const string SummonAPanther = "EX1_160a";
+                public const string LeaderOfThePack = "EX1_160b";
+                public const string LeaderOfThePackEnchantment = "EX1_160be";
+                public const string PantherToken = "EX1_160t";
+                public const string Nourish1 = "EX1_164a";
+                public const string Nourish2 = "EX1_164b";
+                public const string CatForm = "EX1_165a";
+                public const string BearForm = "EX1_165b";
+                public const string DruidOfTheClawToken1 = "EX1_165t1";
+                public const string DruidOfTheClawToken2 = "EX1_165t2";
+                public const string Moonfire = "EX1_166a";
+                public const string Dispel = "EX1_166b";
+                public const string Rooted = "EX1_178a";
+                public const string RootedEnchantment = "EX1_178ae";
+                public const string Uproot = "EX1_178b";
+                public const string UprootedEnchantment = "EX1_178be";
+                public const string DemigodsFavor = "EX1_573a";
+                public const string DemigodsFavorEnchantment = "EX1_573ae";
+                public const string ShandosLesson = "EX1_573b";
+                public const string TreantTokenClassic2 = "EX1_573t";
+                public const string Treant = "EX1_tk9";
+                public const string Starfall1 = "NEW1_007a";
+                public const string Starfall2 = "NEW1_007b";
+                public const string AncientTeachings = "NEW1_008a";
+                public const string AncientSecrets = "NEW1_008b";
+                public const string TreantToken = "FP1_019t";
+                public const string AttackMode = "GVG_030a";
+                public const string AttackModeEnchantment = "GVG_030ae";
+                public const string TankMode = "GVG_030b";
+                public const string TankModeEnchantment = "GVG_030be";
+                public const string GiftOfMana = "GVG_032a";
+                public const string GiftOfCards = "GVG_032b";
+                public const string DarkWispers1 = "GVG_041a";
+                public const string DarkWispers2 = "GVG_041b";
+                public const string DarkWispers3 = "GVG_041c";
+                public const string DruidOfTheFangToken = "GVG_080t";
+                public const string FirecatForm = "BRM_010a";
+                public const string FireHawkForm = "BRM_010b";
+                public const string DruidOfTheFlameToken1 = "BRM_010t";
+                public const string DruidOfTheFlameToken2 = "BRM_010t2";
+                public const string SaplingToken = "AT_037t";
+                public const string SavageEnchantment = "AT_039e";
+                public const string KindredSpiritEnchantment = "AT_040e";
+                public const string LionForm = "AT_042a";
+                public const string PantherForm = "AT_042b";
+                public const string SabertoothLionToken = "AT_042t";
+                public const string SabertoothPantherToken = "AT_042t2";
+                public const string DireShapeshift = "AT_132_DRUID";
+                public const string DireClaws = "AT_132_DRUIDe";
+                public const string RavenIdol1 = "LOE_115a";
+                public const string RavenIdol2 = "LOE_115b";
             }
 
-            public class Missions
+            public class Hunter
             {
-                public class Neutral
-                {
-                    public const string Hogger = "TU4a_001";
-                    public const string RiverpawGnoll = "TU4a_002";
-                    public const string Gnoll = "TU4a_003";
-                    public const string HoggerSmash = "TU4a_004";
-                    public const string MassiveGnoll = "TU4a_005";
-                    public const string KingMukla = "TU4c_001";
-                    public const string BarrelToss = "TU4c_002";
-                    public const string Barrel = "TU4c_003";
-                    public const string Stomp = "TU4c_004";
-                    public const string HiddenGnome = "TU4c_005";
-                    public const string Bananas = "TU4c_006";
-                    public const string BananasEnchantment = "TU4c_006e";
-                    public const string MuklasBigBrother = "TU4c_007";
-                    public const string WillOfMukla = "TU4c_008";
-                    public const string MightOfMuklaEnchantment = "TU4c_008e";
-                    public const string CrazedHunter = "TU4d_002";
-                    public const string FlamesOfAzzinoth = "TU4e_002";
-                    public const string FlameOfAzzinothToken = "TU4e_002t";
-                    public const string NagaMyrmidon = "TU4e_003";
-                    public const string WarglaiveOfAzzinoth = "TU4e_004";
-                    public const string FlameBurst = "TU4e_005";
-                    public const string DualWarglaives = "TU4e_007";
-                    public const string LorewalkerCho = "TU4f_001";
-                    public const string PandarenScout = "TU4f_002";
-                    public const string ShadoPanMonk = "TU4f_003";
-                    public const string LegacyOfTheEmperor = "TU4f_004";
-                    public const string LegacyOfTheEmperorEnchantment = "TU4f_004o";
-                    public const string Brewmaster = "TU4f_005";
-                    public const string Transcendence = "TU4f_006";
-                    public const string TranscendenceEnchantment = "TU4f_006o";
-                    public const string CrazyMonkey = "TU4f_007";
-                }
-
-                public class Hunter
-                {
-                    public const string HemetNesingwary = "TU4d_001";
-                    public const string ShotgunBlast = "TU4d_003";
-                    public const string IllidanStormrage = "TU4e_001";
-                }
-
-                public class Mage
-                {
-                    public const string JainaProudmoore = "TU4a_006";
-                    public const string MillhouseManastorm = "TU4b_001";
-                }
+                public const string HuntersMarkEnchantment = "CS2_084e";
+                public const string MastersPresenceEnchantment = "DS1_070o";
+                public const string FuriousHowlEnchantment = "DS1_175o";
+                public const string ChargeEnchantmentBasic1 = "DS1_178e";
+                public const string SteadyShot1 = "DS1h_292";
+                public const string MishaBasic = "NEW1_032";
+                public const string LeokkBasic = "NEW1_033";
+                public const string EyeInTheSkyEnchantment = "NEW1_033o";
+                public const string Huffer = "NEW1_034";
+                public const string WellFedEnchantment = "EX1_531e";
+                public const string HyenaToken = "EX1_534t";
+                public const string UpgradedEnchantment1 = "EX1_536e";
+                public const string HoundToken = "EX1_538t";
+                public const string BestialWrathEnchantment = "EX1_549o";
+                public const string SnakeToken = "EX1_554t";
+                public const string TrappedEnchantment = "EX1_611e";
+                public const string HemetNesingwary = "TU4d_001";
+                public const string ShotgunBlast = "TU4d_003";
+                public const string IllidanStormrage = "TU4e_001";
+                public const string GlaivezookaEnchantment = "GVG_043e";
+                public const string TheKingEnchantment = "GVG_046e";
+                public const string MetalTeethEnchantment = "GVG_048e";
+                public const string MightOfZulfarrakEnchantment = "GVG_049e";
+                public const string PowerRagerEnchantment = "BRM_014e";
+                public const string GroomedEnchantment = "AT_057o";
+                public const string LockAndLoadEnchantment = "AT_061e";
+                public const string BallistaShotTGT = "AT_132_HUNTER";
+                public const string SteadyShot2 = "DS1h_292_H1";
+                public const string BallistaShotHeroSkins = "DS1h_292_H1_AT_132";
+                public const string ExplorersHatEnchantment = "LOE_105e";
+                public const string LeokkLOE = "LOEA02_10a";
+                public const string MishaLOE = "LOEA02_10c";
             }
 
-            public class None
+            public class Mage
             {
-                public class Mage
-                {
-                    public const string PlaceholderCard = "PlaceholderCard";
-                }
+                public const string PolymorphEnchantment = "CS2_022e";
+                public const string Fireblast1 = "CS2_034";
+                public const string MirrorImage = "CS2_mirror";
+                public const string RawPowerEnchantment = "EX1_274e";
+                public const string IceBlockEnchantment = "EX1_295o";
+                public const string PowerOfTheKirinTorEnchantment = "EX1_612o";
+                public const string ManaGorgedEnchantment = "NEW1_012o";
+                public const string Spellbender = "tt_010a";
+                public const string JainaProudmoore = "TU4a_006";
+                public const string MillhouseManastorm = "TU4b_001";
+                public const string PlaceholderCard = "PlaceholderCard";
+                public const string NothThePlaguebringer = "NAX4_01";
+                public const string NothThePlaguebringerHeroic = "NAX4_01H";
+                public const string OverclockedEnchantment = "GVG_123e";
+                public const string DragonsMightEnchantment = "BRM_003e";
+                public const string PowerOfDalaranEnchantment = "AT_006e";
+                public const string FireblastRank2TGT = "AT_132_MAGE";
+                public const string Fireblast2 = "CS2_034_H1";
+                public const string FireblastRank2HeroSkins = "CS2_034_H1_AT_132";
+                public const string RoaringTorchToken = "LOE_002t";
             }
 
-            public class Cheat
+            public class Paladin
             {
-                public class Neutral
-                {
-                    public const string Damage1 = "XXX_001";
-                    public const string Damage5 = "XXX_002";
-                    public const string Restore1 = "XXX_003";
-                    public const string Restore5 = "XXX_004";
-                    public const string Destroy = "XXX_005";
-                    public const string BreakWeapon = "XXX_006";
-                    public const string EnableForAttack = "XXX_007";
-                    public const string Freeze = "XXX_008";
-                    public const string Enchant = "XXX_009";
-                    public const string EmptyEnchantEnchantment = "XXX_009e";
-                    public const string SilenceDebug = "XXX_010";
-                    public const string SummonARandomSecret = "XXX_011";
-                    public const string Bounce = "XXX_012";
-                    public const string Discard = "XXX_013";
-                    public const string Mill10 = "XXX_014";
-                    public const string Crash = "XXX_015";
-                    public const string SnakeBall = "XXX_016";
-                    public const string Draw3Cards = "XXX_017";
-                    public const string DestroyAllMinions = "XXX_018";
-                    public const string Molasses = "XXX_019";
-                    public const string DamageAllBut1 = "XXX_020";
-                    public const string RestoreAllHealth = "XXX_021";
-                    public const string FreeCards = "XXX_022";
-                    public const string FreeCardsEnchantment = "XXX_022e";
-                    public const string DestroyAllHeroes = "XXX_023";
-                    public const string DamageReflector = "XXX_024";
-                    public const string DoNothing = "XXX_025";
-                    public const string EnableEmotes = "XXX_026";
-                    public const string ServerCrash = "XXX_027";
-                    public const string RevealHand = "XXX_028";
-                    public const string OpponentConcede = "XXX_029";
-                    public const string OpponentDisconnect = "XXX_030";
-                    public const string BecomeHogger = "XXX_039";
-                    public const string DestroyHeroPower = "XXX_041";
-                    public const string HandToDeck = "XXX_042";
-                    public const string Mill30 = "XXX_043";
-                    public const string HandSwapperMinion = "XXX_044";
-                    public const string StealCard = "XXX_045";
-                    public const string ForceAiToUseHeroPower = "XXX_046";
-                    public const string DestroyDeck = "XXX_047";
-                    public const string _1Durability = "XXX_048";
-                    public const string DestroyAllMana = "XXX_049";
-                    public const string DestroyAManaCrystal = "XXX_050";
-                    public const string MakeImmune = "XXX_051";
-                    public const string GrantMegaWindfury = "XXX_052";
-                    public const string Armor100 = "XXX_053";
-                    public const string WeaponBuff = "XXX_054";
-                    public const string WeaponBuffEnchantEnchantment = "XXX_054e";
-                    public const string _1000Stats = "XXX_055";
-                    public const string _1000StatsEnchantEnchantment = "XXX_055e";
-                    public const string SilenceAndDestroyAllMinions = "XXX_056";
-                    public const string DestroyTargetSecrets = "XXX_057";
-                    public const string WeaponNerf = "XXX_058";
-                    public const string WeaponNerfEnchantEnchantment = "XXX_058e";
-                    public const string DestroyHerosStuff = "XXX_059";
-                    public const string DamageAll = "XXX_060";
-                    public const string Armor1 = "XXX_061";
-                    public const string Armor5 = "XXX_062";
-                    public const string DestroyAllSecrets = "XXX_063";
-                    public const string RemoveAllImmune = "XXX_065";
-                    public const string AiBuddyBlankSlate = "XXX_094";
-                    public const string AiBuddyAllCharge = "XXX_095";
-                    public const string AiBuddyDamageOwnHero5 = "XXX_096";
-                    public const string AiBuddyDestroyMinions = "XXX_097";
-                    public const string AiBuddyNoDeckHand = "XXX_098";
-                    public const string AiHelperBuddy = "XXX_099";
-                }
-
-                public class Warrior
-                {
-                    public const string Hogger = "XXX_040";
-                }
+                public const string BlessingOfMightEnchantment = "CS2_087e";
+                public const string BlessingOfKingsEnchantment = "CS2_092e";
+                public const string Reinforce1 = "CS2_101";
+                public const string SilverHandRecruitToken = "CS2_101t";
+                public const string HumilityEnchantment = "EX1_360e";
+                public const string Defender = "EX1_130a";
+                public const string BlessedChampionEnchantment = "EX1_355e";
+                public const string BlessingOfWisdomEnchantment1 = "EX1_363e";
+                public const string BlessingOfWisdomEnchantment2 = "EX1_363e2";
+                public const string JusticeServedEnchantment = "EX1_366e";
+                public const string RepentanceEnchantment = "EX1_379e";
+                public const string StandDownEnchantment = "EX1_382e";
+                public const string AshbringerToken = "EX1_383t";
+                public const string EqualityEnchantment = "EX1_619e";
+                public const string VengeanceEnchantment = "FP1_020e";
+                public const string WellEquippedEnchantment = "GVG_060e";
+                public const string PureEnchantment = "GVG_101e";
+                public const string UnchainedEnchantment = "BRM_018e";
+                public const string SealOfChampionsEnchantment = "AT_074e2";
+                public const string MightOfTheHostlerEnchantment = "AT_075e";
+                public const string PurifiedEnchantment = "AT_081e";
+                public const string TheSilverHand = "AT_132_PALADIN";
+                public const string Reinforce2 = "CS2_101_H1";
+                public const string WatchedEnchantment = "LOE_017e";
             }
 
-            public class Promotion
+            public class Priest
             {
-                public class Neutral
-                {
-                    public const string HomingChicken = "Mekka1";
-                    public const string RepairBot = "Mekka2";
-                    public const string Emboldener3000 = "Mekka3";
-                    public const string Emboldened = "Mekka3e";
-                    public const string Poultryizer = "Mekka4";
-                    public const string Transformed = "Mekka4e";
-                    public const string Chicken = "Mekka4t";
-                    public const string IAmMurloc = "PRO_001a";
-                    public const string Murloc = "PRO_001at";
-                    public const string RoguesDoIt = "PRO_001b";
-                    public const string PowerOfTheHorde = "PRO_001c";
-                }
+                public const string MindControlEnchantment = "CS1_113e";
+                public const string LesserHeal = "CS1h_001";
+                public const string PowerWordShieldEnchantment = "CS2_004e";
+                public const string DivineSpiritEnchantment = "CS2_236e";
+                public const string ClericsBlessingEnchantment = "EX1_019e";
+                public const string InnerFireEnchantment = "CS1_129e";
+                public const string ShadowMadnessEnchantment = "EX1_334e";
+                public const string ShadowOfNothingToken = "EX1_345t";
+                public const string InfusionEnchantment = "EX1_623e";
+                public const string MindSpikeToken = "EX1_625t";
+                public const string MindShatterToken = "EX1_625t2";
+                public const string MindControlling = "EX1_tk31";
+                public const string PowerOfTheZigguratEnchantment = "FP1_023e";
+                public const string Shadowed = "GVG_014a";
+                public const string RepairsGVG = "GVG_069a";
+                public const string MeltEnchantment = "BRM_001e";
+                public const string ShadowfiendedEnchantment = "AT_014e";
+                public const string ConfusedEnchantment = "AT_016e";
+                public const string BringItOnEnchantment = "AT_116e";
+                public const string Heal = "AT_132_PRIEST";
             }
 
-            public class CurseOfNaxxramas
+            public class Rogue
             {
-                public class Neutral
-                {
-                    public const string SpectralSpiderToken = "FP1_002t";
-                    public const string ConsumeEnchantment = "FP1_005e";
-                    public const string Deathcharger = "FP1_006";
-                    public const string NerubianToken = "FP1_007t";
-                    public const string SlimeToken = "FP1_012t";
-                    public const string ThaddiusToken = "FP1_014t";
-                    public const string DarknessCallsEnchantment = "FP1_028e";
-                    public const string NecroticAuraEnchantment = "FP1_030e";
-                    public const string Patchwerk = "NAX10_01";
-                    public const string PatchwerkHeroic = "NAX10_01H";
-                    public const string Hook = "NAX10_02";
-                    public const string HookHeroic = "NAX10_02H";
-                    public const string HatefulStrike = "NAX10_03";
-                    public const string HatefulStrikeHeroic = "NAX10_03H";
-                    public const string Grobbulus = "NAX11_01";
-                    public const string GrobbulusHeroic = "NAX11_01H";
-                    public const string PoisonCloud = "NAX11_02";
-                    public const string PoisonCloudHeroic = "NAX11_02H";
-                    public const string FalloutSlime = "NAX11_03";
-                    public const string MutatingInjection = "NAX11_04";
-                    public const string MutatingInjectionEnchantment = "NAX11_04e";
-                    public const string Gluth = "NAX12_01";
-                    public const string GluthHeroic = "NAX12_01H";
-                    public const string Decimate = "NAX12_02";
-                    public const string DecimateEnchantment = "NAX12_02e";
-                    public const string DecimateHeroic = "NAX12_02H";
-                    public const string Jaws = "NAX12_03";
-                    public const string ExtraTeethEnchantment = "NAX12_03e";
-                    public const string JawsHeroic = "NAX12_03H";
-                    public const string Enrage = "NAX12_04";
-                    public const string EnrageEnchantment = "NAX12_04e";
-                    public const string Thaddius = "NAX13_01";
-                    public const string ThaddiusHeroic = "NAX13_01H";
-                    public const string PolarityShift = "NAX13_02";
-                    public const string PolarityEnchantment = "NAX13_02e";
-                    public const string Supercharge = "NAX13_03";
-                    public const string SuperchargedEnchantment = "NAX13_03e";
-                    public const string FeugenHeroic = "NAX13_04H";
-                    public const string StalaggHeroic = "NAX13_05H";
-                    public const string Sapphiron = "NAX14_01";
-                    public const string SapphironHeroic = "NAX14_01H";
-                    public const string FrostBreath = "NAX14_02";
-                    public const string FrozenChampion = "NAX14_03";
-                    public const string PureCold = "NAX14_04";
-                    public const string Kelthuzad = "NAX15_01";
-                    public const string InterloperEnchantment = "NAX15_01e";
-                    public const string KelthuzadHeroic = "NAX15_01H";
-                    public const string InterloperEnchantmentHeroic = "NAX15_01He";
-                    public const string FrostBlast = "NAX15_02";
-                    public const string FrostBlastHeroic = "NAX15_02H";
-                    public const string GuardianOfIcecrown = "NAX15_03n";
-                    public const string GuardianOfIcecrownToken = "NAX15_03t";
-                    public const string Chains = "NAX15_04";
-                    public const string SlaveOfKelthuzad = "NAX15_04a";
-                    public const string ChainsHeroic = "NAX15_04H";
-                    public const string MrBigglesworth = "NAX15_05";
-                    public const string Anubrekhan = "NAX1_01";
-                    public const string Nerubian = "NAX1_03";
-                    public const string Skitter = "NAX1_04";
-                    public const string LocustSwarm = "NAX1_05";
-                    public const string AnubrekhanHeroic = "NAX1h_01";
-                    public const string NerubianHeroic = "NAX1h_03";
-                    public const string SkitterHeroic = "NAX1h_04";
-                    public const string GrandWidowFaerlina = "NAX2_01";
-                    public const string GrandWidowFaerlinaHeroic = "NAX2_01H";
-                    public const string RainOfFire = "NAX2_03";
-                    public const string RainOfFireHeroic = "NAX2_03H";
-                    public const string Worshipper = "NAX2_05";
-                    public const string WorshipperHeroic = "NAX2_05H";
-                    public const string Maexxna = "NAX3_01";
-                    public const string MaexxnaHeroic = "NAX3_01H";
-                    public const string WebWrap = "NAX3_02";
-                    public const string WebWrapHeroic = "NAX3_02H";
-                    public const string NecroticPoison = "NAX3_03";
-                    public const string Skeleton = "NAX4_03";
-                    public const string SkeletonHeroic = "NAX4_03H";
-                    public const string RaiseDead = "NAX4_04";
-                    public const string RaiseDeadHeroic = "NAX4_04H";
-                    public const string Plague = "NAX4_05";
-                    public const string Eruption = "NAX5_02";
-                    public const string EruptionHeroic = "NAX5_02H";
-                    public const string Mindpocalypse = "NAX5_03";
-                    public const string Loatheb = "NAX6_01";
-                    public const string LoathebHeroic = "NAX6_01H";
-                    public const string NecroticAura = "NAX6_02";
-                    public const string NecroticAuraHeroic = "NAX6_02H";
-                    public const string Deathbloom = "NAX6_03";
-                    public const string SporeToken = "NAX6_03t";
-                    public const string FungalGrowthEnchantmentToken = "NAX6_03te";
-                    public const string Sporeburst = "NAX6_04";
-                    public const string InstructorRazuvious = "NAX7_01";
-                    public const string InstructorRazuviousHeroic = "NAX7_01H";
-                    public const string Understudy = "NAX7_02";
-                    public const string UnbalancingStrike = "NAX7_03";
-                    public const string UnbalancingStrikeHeroic = "NAX7_03H";
-                    public const string MassiveRuneblade = "NAX7_04";
-                    public const string MassiveRunebladeHeroic = "NAX7_04H";
-                    public const string MindControlCrystal = "NAX7_05";
-                    public const string GothikTheHarvester = "NAX8_01";
-                    public const string GothikTheHarvesterHeroic = "NAX8_01H";
-                    public const string Harvest = "NAX8_02";
-                    public const string HarvestHeroic = "NAX8_02H";
-                    public const string UnrelentingTrainee = "NAX8_03";
-                    public const string SpectralTraineeToken = "NAX8_03t";
-                    public const string UnrelentingWarrior = "NAX8_04";
-                    public const string SpectralWarriorToken = "NAX8_04t";
-                    public const string UnrelentingRider = "NAX8_05";
-                    public const string SpectralRiderToken = "NAX8_05t";
-                    public const string BaronRivendare = "NAX9_01";
-                    public const string BaronRivendareHeroic = "NAX9_01H";
-                    public const string LadyBlaumeux = "NAX9_02";
-                    public const string LadyBlaumeuxHeroic = "NAX9_02H";
-                    public const string ThaneKorthazz = "NAX9_03";
-                    public const string ThaneKorthazzHeroic = "NAX9_03H";
-                    public const string SirZeliek = "NAX9_04";
-                    public const string SirZeliekHeroic = "NAX9_04H";
-                    public const string Runeblade = "NAX9_05";
-                    public const string RunebladeHeroic = "NAX9_05H";
-                    public const string UnholyShadow = "NAX9_06";
-                    public const string MarkOfTheHorsemen = "NAX9_07";
-                    public const string MarkOfTheHorsemenEnchantment = "NAX9_07e";
-                    public const string Necroknight = "NAXM_001";
-                    public const string SkeletalSmith = "NAXM_002";
-                }
-
-                public class Druid
-                {
-                    public const string TreantToken = "FP1_019t";
-                }
-
-                public class Mage
-                {
-                    public const string NothThePlaguebringer = "NAX4_01";
-                    public const string NothThePlaguebringerHeroic = "NAX4_01H";
-                }
-
-                public class Paladin
-                {
-                    public const string VengeanceEnchantment = "FP1_020e";
-                }
-
-                public class Priest
-                {
-                    public const string PowerOfTheZigguratEnchantment = "FP1_023e";
-                }
-
-                public class Warlock
-                {
-                    public const string HeiganTheUnclean = "NAX5_01";
-                    public const string HeiganTheUncleanHeroic = "NAX5_01H";
-                }
+                public const string WickedKnife = "CS2_082";
+                public const string DaggerMastery = "CS2_083b";
+                public const string SharpenedEnchantment = "CS2_083e";
+                public const string ColdBloodEnchantment1 = "CS2_073e";
+                public const string ColdBloodEnchantment2 = "CS2_073e2";
+                public const string ConcealedEnchantment = "EX1_128e";
+                public const string DefiasBanditToken = "EX1_131t";
+                public const string PreparationEnchantment = "EX1_145o";
+                public const string VancleefsVengeanceEnchantment = "EX1_613e";
+                public const string DisguisedEnchantment = "NEW1_014e";
+                public const string IronedOutEnchantment = "GVG_027e";
+                public const string ShadyDealsEnchantment = "AT_032e";
+                public const string LacedEnchantment = "AT_034e";
+                public const string AmbushToken = "AT_035t";
+                public const string NerubianTokenTGT = "AT_036t";
+                public const string PoisonedDaggers = "AT_132_ROGUE";
+                public const string PoisonedDagger = "AT_132_ROGUEt";
+                public const string RyanMasterson = "CRED_40";
+                public const string ZzdeleteTombExplorerEnchantment = "LOE_012e";
+                public const string UnearthedRaptorEnchantment = "LOE_019e";
             }
 
-            public class GoblinsVsGnomes
+            public class Shaman
             {
-                public class Neutral
-                {
-                    public const string VelensChosen = "GVG_010b";
-                    public const string ShrinkRay = "GVG_011a";
-                    public const string TinkersSharpswordOil = "GVG_022a";
-                    public const string TinkersSharpswordOil2 = "GVG_022b";
-                    public const string ExtraSharp = "GVG_023a";
-                    public const string GallywixsCoinToken = "GVG_028t";
-                    public const string SealOfLight = "GVG_057a";
-                    public const string Retribution = "GVG_063a";
-                    public const string MetabolizedMagic = "GVG_067a";
-                    public const string MetabolizedMagic2 = "GVG_068a";
-                    public const string Pistons = "GVG_076a";
-                    public const string ChickenToken = "GVG_092t";
-                    public const string MightOfTinkertownEnchantment = "GVG_102e";
-                    public const string HereTakeBuff = "GVG_104a";
-                    public const string JunkedUpEnchantment = "GVG_106e";
-                    public const string BoomBotToken = "GVG_110t";
-                    public const string V07Tr0NToken = "GVG_111t";
-                    public const string ArmorPlating = "PART_001";
-                    public const string ArmorPlatingEnchantment = "PART_001e";
-                    public const string TimeRewinder = "PART_002";
-                    public const string RustyHorn = "PART_003";
-                    public const string FinickyCloakfield = "PART_004";
-                    public const string CloakedEnchantment = "PART_004e";
-                    public const string EmergencyCoolant = "PART_005";
-                    public const string ReversingSwitch = "PART_006";
-                    public const string Switched = "PART_006a";
-                    public const string WhirlingBlades = "PART_007";
-                    public const string WhirlingBladesEnchantment = "PART_007e";
-                }
-
-                public class Druid
-                {
-                    public const string AttackMode = "GVG_030a";
-                    public const string AttackModeEnchantment = "GVG_030ae";
-                    public const string TankMode = "GVG_030b";
-                    public const string TankModeEnchantment = "GVG_030be";
-                    public const string GiftOfMana = "GVG_032a";
-                    public const string GiftOfCards = "GVG_032b";
-                    public const string DarkWispers = "GVG_041a";
-                    public const string DarkWispers2 = "GVG_041b";
-                    public const string DarkWispers3 = "GVG_041c";
-                    public const string DruidOfTheFangToken = "GVG_080t";
-                }
-
-                public class Hunter
-                {
-                    public const string GlaivezookaEnchantment = "GVG_043e";
-                    public const string TheKingEnchantment = "GVG_046e";
-                    public const string MetalTeethEnchantment = "GVG_048e";
-                    public const string MightOfZulfarrakEnchantment = "GVG_049e";
-                }
-
-                public class Mage
-                {
-                    public const string OverclockedEnchantment = "GVG_123e";
-                }
-
-                public class Paladin
-                {
-                    public const string WellEquippedEnchantment = "GVG_060e";
-                    public const string PureEnchantment = "GVG_101e";
-                }
-
-                public class Priest
-                {
-                    public const string Shadowed = "GVG_014a";
-                    public const string Repairs = "GVG_069a";
-                }
-
-                public class Rogue
-                {
-                    public const string IronedOutEnchantment = "GVG_027e";
-                }
-
-                public class Shaman
-                {
-                    public const string PoweredEnchantment = "GVG_036e";
-                }
-
-                public class Warlock
-                {
-                    public const string DemonheartEnchantment = "GVG_019e";
-                    public const string GraspOfMalganisEnchantment = "GVG_021e";
-                    public const string ImpToken = "GVG_045t";
-                    public const string BrowFurrowEnchantment = "GVG_100e";
-                }
-
-                public class Warrior
-                {
-                    public const string ScrewyJankEnchantment = "GVG_055e";
-                    public const string BurrowingMineToken = "GVG_056t";
-                    public const string ArmorPlatedEnchantment = "GVG_086e";
-                }
+                public const string AncestralInfusionEnchantment = "CS2_041e";
+                public const string RockbiterWeaponEnchantment = "CS2_045e";
+                public const string BloodlustEnchantment = "CS2_046e";
+                public const string TotemicCall = "CS2_049";
+                public const string SearingTotemBasic = "CS2_050";
+                public const string StoneclawTotemBasic = "CS2_051";
+                public const string WrathOfAirTotemBasic = "CS2_052";
+                public const string TotemicMightEnchantment = "EX1_244e";
+                public const string HexxedEnchantment = "EX1_246e";
+                public const string FlametongueEnchantment = "EX1_565o";
+                public const string HealingTotemBasic = "NEW1_009";
+                public const string AncestralSpiritEnchantment = "CS2_038e";
+                public const string FarSightEnchantment = "CS2_053e";
+                public const string OverloadingEnchantment = "EX1_258e";
+                public const string SpiritWolf = "EX1_tk11";
+                public const string PoweredEnchantment = "GVG_036e";
+                public const string LavaShockToken = "BRM_011t";
+                public const string ExperiencedEnchantment = "AT_047e";
+                public const string PowerOfTheBluffEnchantment = "AT_049e";
+                public const string LightningJoltToken = "AT_050t";
+                public const string TotemicSlam = "AT_132_SHAMAN";
+                public const string HealingTotemTGT = "AT_132_SHAMANa";
+                public const string SearingTotemTGT = "AT_132_SHAMANb";
+                public const string StoneclawTotemTGT = "AT_132_SHAMANc";
+                public const string WrathOfAirTotemTGT = "AT_132_SHAMANd";
+                public const string TroggNoStupidEnchantment = "LOE_018e";
             }
 
-            public class BlackrockMountain
+            public class Warlock
             {
-                public class Neutral
-                {
-                    public const string TwilightEnduranceEnchantment = "BRM_004e";
-                    public const string WhelpToken = "BRM_004t";
-                    public const string OnFireEnchantment = "BRM_012e";
-                    public const string DraconicPowerEnchantment = "BRM_020e";
-                    public const string BlackWhelpToken = "BRM_022t";
-                    public const string LargeTalonsEnchantment = "BRM_024e";
-                    public const string RagnarosTheFirelordHero = "BRM_027h";
-                    public const string DieInsectHeroPower = "BRM_027p";
-                    public const string DieInsects = "BRM_027pH";
-                    public const string ImperialFavorEnchantment = "BRM_028e";
-                    public const string TailSwipeToken = "BRM_030t";
-                    public const string DragonBloodEnchantment = "BRM_033e";
-                    public const string CorenDirebrew = "BRMA01_1";
-                    public const string CorenDirebrewHeroic = "BRMA01_1H";
-                    public const string PileOn = "BRMA01_2";
-                    public const string PileOnHeroic = "BRMA01_2H";
-                    public const string DarkIronBouncer = "BRMA01_3";
-                    public const string GetEm = "BRMA01_4";
-                    public const string GuzzlerToken = "BRMA01_4t";
-                    public const string HighJusticeGrimstone = "BRMA02_1";
-                    public const string HighJusticeGrimstoneHeroic = "BRMA02_1H";
-                    public const string JeeringCrowd = "BRMA02_2";
-                    public const string JeeringCrowdHeroic = "BRMA02_2H";
-                    public const string DarkIronSpectatorToken = "BRMA02_2t";
-                    public const string EmperorThaurissan = "BRMA03_1";
-                    public const string EmperorThaurissanHeroic = "BRMA03_1H";
-                    public const string PowerOfTheFirelord = "BRMA03_2";
-                    public const string MoiraBronzebeard = "BRMA03_3";
-                    public const string MoiraBronzebeardHeroic = "BRMA03_3H";
-                    public const string Garr = "BRMA04_1";
-                    public const string GarrHeroic = "BRMA04_1H";
-                    public const string MagmaPulse = "BRMA04_2";
-                    public const string Firesworn = "BRMA04_3";
-                    public const string FireswornHeroic = "BRMA04_3H";
-                    public const string RockOut = "BRMA04_4";
-                    public const string RockOutHeroic = "BRMA04_4H";
-                    public const string BaronGeddon = "BRMA05_1";
-                    public const string BaronGeddonHeroic = "BRMA05_1H";
-                    public const string IgniteMana = "BRMA05_2";
-                    public const string IgniteManaHeroic = "BRMA05_2H";
-                    public const string LivingBomb = "BRMA05_3";
-                    public const string LivingBombEnchantment = "BRMA05_3e";
-                    public const string LivingBombHeroic = "BRMA05_3H";
-                    public const string LivingBombEnchantmentHeroic = "BRMA05_3He";
-                    public const string MajordomoExecutus = "BRMA06_1";
-                    public const string MajordomoExecutusHeroic = "BRMA06_1H";
-                    public const string TheMajordomo = "BRMA06_2";
-                    public const string TheMajordomoHeroic = "BRMA06_2H";
-                    public const string RagnarosTheFirelord = "BRMA06_3";
-                    public const string RagnarosTheFirelordHeroic = "BRMA06_3H";
-                    public const string FlamewakerAcolyte = "BRMA06_4";
-                    public const string FlamewakerAcolyteHeroic = "BRMA06_4H";
-                    public const string HighlordOmokk = "BRMA07_1";
-                    public const string HighlordOmokkHeroic = "BRMA07_1H";
-                    public const string MeSmash = "BRMA07_2";
-                    public const string MeSmashHeroic = "BRMA07_2H";
-                    public const string TimeForSmash = "BRMA07_3";
-                    public const string GeneralDrakkisath = "BRMA08_1";
-                    public const string GeneralDrakkisathHeroic = "BRMA08_1H";
-                    public const string IntenseGaze = "BRMA08_2";
-                    public const string IntenseGazeHeroic = "BRMA08_2H";
-                    public const string DrakkisathsCommand = "BRMA08_3";
-                    public const string RendBlackhand = "BRMA09_1";
-                    public const string RendBlackhandHeroic = "BRMA09_1H";
-                    public const string OpenTheGates = "BRMA09_2";
-                    public const string OpenTheGatesHeroic = "BRMA09_2H";
-                    public const string WhelpTokenBRSHeroic = "BRMA09_2Ht";
-                    public const string WhelpTokenBRS = "BRMA09_2t";
-                    public const string OldHorde = "BRMA09_3";
-                    public const string OldHordeHeroic = "BRMA09_3H";
-                    public const string OldHordeOrcTokenHeroic = "BRMA09_3Ht";
-                    public const string OldHordeOrcToken = "BRMA09_3t";
-                    public const string Blackwing = "BRMA09_4";
-                    public const string BlackwingHeroic = "BRMA09_4H";
-                    public const string DragonkinTokenHeroic = "BRMA09_4Ht";
-                    public const string DragonkinToken = "BRMA09_4t";
-                    public const string Dismount = "BRMA09_5";
-                    public const string DismountHeroic = "BRMA09_5H";
-                    public const string GythTokenHeroic = "BRMA09_5Ht";
-                    public const string GythToken = "BRMA09_5t";
-                    public const string TheTrueWarchief = "BRMA09_6";
-                    public const string RazorgoreTheUntamed = "BRMA10_1";
-                    public const string RazorgoreTheUntamedHeroic = "BRMA10_1H";
-                    public const string TheRookery = "BRMA10_3";
-                    public const string IncubationEnchantment = "BRMA10_3e";
-                    public const string TheRookeryHeroic = "BRMA10_3H";
-                    public const string CorruptedEgg = "BRMA10_4";
-                    public const string CorruptedEggHeroic = "BRMA10_4H";
-                    public const string ChromaticDrake = "BRMA10_5";
-                    public const string ChromaticDrakeHeroic = "BRMA10_5H";
-                    public const string RazorgoresClaws = "BRMA10_6";
-                    public const string BlindWithRageEnchantment = "BRMA10_6e";
-                    public const string VaelastraszTheCorrupt = "BRMA11_1";
-                    public const string VaelastraszTheCorruptHeroic = "BRMA11_1H";
-                    public const string EssenceOfTheRed = "BRMA11_2";
-                    public const string EssenceOfTheRedHeroic = "BRMA11_2H";
-                    public const string BurningAdrenaline = "BRMA11_3";
-                    public const string Chromaggus = "BRMA12_1";
-                    public const string Mutation = "BRMA12_10";
-                    public const string ChromaggusHeroic = "BRMA12_1H";
-                    public const string BroodAffliction = "BRMA12_2";
-                    public const string BroodAfflictionHeroic = "BRMA12_2H";
-                    public const string BroodAfflictionRed = "BRMA12_3";
-                    public const string BroodAfflictionRedHeroic = "BRMA12_3H";
-                    public const string BroodAfflictionGreen = "BRMA12_4";
-                    public const string BroodAfflictionGreenHeroic = "BRMA12_4H";
-                    public const string BroodAfflictionBlue = "BRMA12_5";
-                    public const string BroodAfflictionBlueHeroic = "BRMA12_5H";
-                    public const string BroodAfflictionBlack = "BRMA12_6";
-                    public const string BroodAfflictionBlackHeroic = "BRMA12_6H";
-                    public const string BroodAfflictionBronze = "BRMA12_7";
-                    public const string BroodAfflictionBronzeHeroic = "BRMA12_7H";
-                    public const string ChromaticMutation = "BRMA12_8";
-                    public const string ChromaticDragonkinToken = "BRMA12_8t";
-                    public const string ChromaticDragonkin = "BRMA12_9";
-                    public const string LordVictorNefarius = "BRMA13_1";
-                    public const string LordVictorNefariusHeroic = "BRMA13_1H";
-                    public const string TrueForm = "BRMA13_2";
-                    public const string TrueFormHeroic = "BRMA13_2H";
-                    public const string NefarianBWL = "BRMA13_3";
-                    public const string NefarianBWLHeroic = "BRMA13_3H";
-                    public const string WildMagic = "BRMA13_4";
-                    public const string WildMagicHeroic = "BRMA13_4H";
-                    public const string SonOfTheFlame = "BRMA13_5";
-                    public const string LivingLava = "BRMA13_6";
-                    public const string WhirlingAsh = "BRMA13_7";
-                    public const string DieInsect = "BRMA13_8";
-                    public const string OmnotronDefenseSystem = "BRMA14_1";
-                    public const string Activate = "BRMA14_10";
-                    public const string ActivateHeroic = "BRMA14_10H";
-                    public const string Recharge = "BRMA14_11";
-                    public const string Magmaw = "BRMA14_12";
-                    public const string OmnotronDefenseSystemHeroic = "BRMA14_1H";
-                    public const string ActivateArcanotron = "BRMA14_2";
-                    public const string ActivateArcanotronHeroic = "BRMA14_2H";
-                    public const string Arcanotron = "BRMA14_3";
-                    public const string ActivateToxitron = "BRMA14_4";
-                    public const string ActivateToxitronHeroic = "BRMA14_4H";
-                    public const string Toxitron = "BRMA14_5";
-                    public const string ToxitronHeroic = "BRMA14_5H";
-                    public const string ActivateElectron = "BRMA14_6";
-                    public const string ActivateElectronHeroic = "BRMA14_6H";
-                    public const string Electron = "BRMA14_7";
-                    public const string ElectronHeroic = "BRMA14_7H";
-                    public const string ActivateMagmatron = "BRMA14_8";
-                    public const string ActivateMagmatronHeroic = "BRMA14_8H";
-                    public const string Magmatron = "BRMA14_9";
-                    public const string MagmatronHeroic = "BRMA14_9H";
-                    public const string Maloriak = "BRMA15_1";
-                    public const string MaloriakHeroic = "BRMA15_1H";
-                    public const string TheAlchemist = "BRMA15_2";
-                    public const string TheAlchemistHeroic = "BRMA15_2H";
-                    public const string PotionOfMightEnchantmentHeroic = "BRMA15_2He";
-                    public const string ReleaseTheAberrations = "BRMA15_3";
-                    public const string Aberration = "BRMA15_4";
-                    public const string Atramedes = "BRMA16_1";
-                    public const string AtramedesHeroic = "BRMA16_1H";
-                    public const string Echolocate = "BRMA16_2";
-                    public const string EcholocateHeroic = "BRMA16_2H";
-                    public const string SonicBreath = "BRMA16_3";
-                    public const string SonicBreathEnchantment = "BRMA16_3e";
-                    public const string ReverberatingGong = "BRMA16_4";
-                    public const string Dragonteeth = "BRMA16_5";
-                    public const string IHearYouEnchantment = "BRMA16_5e";
-                    public const string NefarianHiddenLab = "BRMA17_2";
-                    public const string NefarianHiddenLabHeroic = "BRMA17_2H";
-                    public const string Onyxia = "BRMA17_3";
-                    public const string OnyxiaHeroic = "BRMA17_3H";
-                    public const string Lava = "BRMA17_4";
-                    public const string BoneMinions = "BRMA17_5";
-                    public const string BoneMinionsHeroic = "BRMA17_5H";
-                    public const string BoneConstruct = "BRMA17_6";
-                    public const string BoneConstructHeroic = "BRMA17_6H";
-                    public const string ChromaticPrototype = "BRMA17_7";
-                    public const string NefarianStrikes = "BRMA17_8";
-                    public const string NefarianStrikesHeroic = "BRMA17_8H";
-                    public const string Onyxiclaw = "BRMA17_9";
-                    public const string Flameheart = "BRMA_01";
-                }
-
-                public class Druid
-                {
-                    public const string FirecatForm = "BRM_010a";
-                    public const string FireHawkForm = "BRM_010b";
-                    public const string DruidOfTheFlameToken = "BRM_010t";
-                    public const string DruidOfTheFlameToken2 = "BRM_010t2";
-                }
-
-                public class Hunter
-                {
-                    public const string PowerRagerEnchantment = "BRM_014e";
-                }
-
-                public class Mage
-                {
-                    public const string DragonsMightEnchantment = "BRM_003e";
-                }
-
-                public class Paladin
-                {
-                    public const string UnchainedEnchantment = "BRM_018e";
-                }
-
-                public class Priest
-                {
-                    public const string MeltEnchantment = "BRM_001e";
-                }
-
-                public class Shaman
-                {
-                    public const string LavaShockToken = "BRM_011t";
-                }
-
-                public class Warlock
-                {
-                    public const string ImpToken = "BRM_006t";
-                }
+                public const string LifeTap = "CS2_056";
+                public const string CorruptionEnchantment = "CS2_063e";
+                public const string BloodPactEnchantment = "CS2_059o";
+                public const string ConsumeEnchantmentClassic = "EX1_304e";
+                public const string PowerOverwhelmingEnchantment = "EX1_316e";
+                public const string WorthlessImpToken = "EX1_317t";
+                public const string LordJaraxxusHeroic = "EX1_323h";
+                public const string BloodFury = "EX1_323w";
+                public const string DemonfireEnchantment = "EX1_596e";
+                public const string Inferno = "EX1_tk33";
+                public const string Infernal = "EX1_tk34";
+                public const string HeiganTheUnclean = "NAX5_01";
+                public const string HeiganTheUncleanHeroic = "NAX5_01H";
+                public const string DemonheartEnchantment = "GVG_019e";
+                public const string GraspOfMalganisEnchantment = "GVG_021e";
+                public const string ImpTokenGVG = "GVG_045t";
+                public const string BrowFurrowEnchantment = "GVG_100e";
+                public const string ImpTokenBRM = "BRM_006t";
+                public const string FelrageEnchantment = "AT_021e";
+                public const string MasterSummonerEnchantment = "AT_027e";
+                public const string SoulTap = "AT_132_WARLOCK";
+                public const string CursedToken = "LOE_007t";
+                public const string SinisterPowerEnchantment = "LOE_009e";
             }
 
-            public class Credits
+            public class Warrior
             {
-                public class Neutral
-                {
-                    public const string JasonChayes = "CRED_01";
-                    public const string EricDodds = "CRED_02";
-                    public const string BobFitch = "CRED_03";
-                    public const string StevenGabriel = "CRED_04";
-                    public const string KyleHarrison = "CRED_05";
-                    public const string DerekSakamoto = "CRED_06";
-                    public const string Zwick = "CRED_07";
-                    public const string BenBrode = "CRED_08";
-                    public const string BenThompson = "CRED_09";
-                    public const string MichaelSchweitzer = "CRED_10";
-                    public const string JayBaxter = "CRED_11";
-                    public const string RachelleDavis = "CRED_12";
-                    public const string BrianSchwab = "CRED_13";
-                    public const string YongWoo = "CRED_14";
-                    public const string AndyBrock = "CRED_15";
-                    public const string HamiltonChu = "CRED_16";
-                    public const string RobPardo = "CRED_17";
-                    public const string BeccaAbel = "CRED_18";
-                    public const string BeomkiHong = "CRED_19";
-                    public const string BrianBirmingham = "CRED_20";
-                    public const string BryanChang = "CRED_21";
-                    public const string CameronChrisman = "CRED_22";
-                    public const string ChristopherYim = "CRED_23";
-                    public const string DeanAyala = "CRED_24";
-                    public const string ElizabethCho = "CRED_25";
-                    public const string EricDelPriore = "CRED_26";
-                    public const string HenryHo = "CRED_27";
-                    public const string HeRimWoo = "CRED_28";
-                    public const string JasonMacallister = "CRED_29";
-                    public const string JcPark = "CRED_30";
-                    public const string JeremyCranford = "CRED_31";
-                    public const string JerryMascho = "CRED_32";
-                    public const string JomaroKindred = "CRED_33";
-                    public const string MaxMa = "CRED_34";
-                    public const string MaxMccall = "CRED_35";
-                    public const string MikeDonais = "CRED_36";
-                    public const string RicardoRobaina = "CRED_37";
-                    public const string RobinFredericksen = "CRED_38";
-                    public const string RyanChew = "CRED_39";
-                    public const string SeyilYoon = "CRED_41";
-                    public const string TimErskine = "CRED_42";
-                    public const string JonBankard = "CRED_43";
-                    public const string WalterKong = "CRED_44";
-                    public const string JonasLaster = "CRED_45";
-                    public const string KeithLandes = "CRED_46";
-                }
-
-                public class Rogue
-                {
-                    public const string RyanMasterson = "CRED_40";
-                }
+                public const string ArmorUp1 = "CS2_102";
+                public const string ChargeEnchantmentBasic2 = "CS2_103e2";
+                public const string HeroicStrikeEnchantment = "CS2_105e";
+                public const string ChargeEnchantmentBasic3 = "EX1_084e";
+                public const string RampageEnchantment = "CS2_104e";
+                public const string BattleAxeToken = "EX1_398t";
+                public const string UpgradedEnchantment2 = "EX1_409e";
+                public const string HeavyAxeToken = "EX1_409t";
+                public const string BloodrageEnchantment = "EX1_411e";
+                public const string NeedsSharpeningEnchantment = "EX1_411e2";
+                public const string WhippedIntoShapeEnchantment = "EX1_603e";
+                public const string BerserkEnchantment = "EX1_604o";
+                public const string InnerRageEnchantment = "EX1_607e";
+                public const string CommandingShoutEnchantment1 = "NEW1_036e";
+                public const string CommandingShoutEnchantment2 = "NEW1_036e2";
+                public const string HoggerCheat = "XXX_040";
+                public const string ScrewyJankEnchantment = "GVG_055e";
+                public const string BurrowingMineToken = "GVG_056t";
+                public const string ArmorPlatedEnchantment = "GVG_086e";
+                public const string ForgesOfOrgrimmarEnchantment = "AT_066e";
+                public const string BolsteredEnchantmentTGT = "AT_068e";
+                public const string TrainingCompleteEnchantment = "AT_069e";
+                public const string AlexstraszasBoonEnchantment = "AT_071e";
+                public const string TankUpTGT = "AT_132_WARRIOR";
+                public const string ArmorUp2 = "CS2_102_H1";
+                public const string TankUpHeroSkins = "CS2_102_H1_AT_132";
+                public const string ScarabToken = "LOE_009t";
+                public const string CursedBladeEnchantment = "LOE_118e";
             }
 
-            public class Hero_Skins
+            public class DreamCards
             {
-                public class Hunter
-                {
-                    public const string SteadyShot = "DS1h_292_H1";
-                    public const string BallistaShot = "DS1h_292_H1_AT_132";
-                }
-
-                public class Mage
-                {
-                    public const string Fireblast = "CS2_034_H1";
-                    public const string FireblastRank2 = "CS2_034_H1_AT_132";
-                }
-
-                public class Paladin
-                {
-                    public const string Reinforce = "CS2_101_H1";
-                }
-
-                public class Warrior
-                {
-                    public const string ArmorUp = "CS2_102_H1";
-                    public const string TankUp = "CS2_102_H1_AT_132";
-                }
-            }
-
-            public class Tb
-            {
-                public class Neutral
-                {
-                    public const string PileOnTavernBrawlHeroPower = "BRMA01_2H_2_TB";
-                    public const string JeeringCrowdTavernBrawlHeroPower = "BRMA02_2_2_TB";
-                    public const string JeeringCrowdTavernBrawl = "BRMA02_2_2c_TB";
-                    public const string TheMajordomoTavernBrawl = "BRMA06_2H_TB";
-                    public const string MeSmashTavernBrawlHeroPower = "BRMA07_2_2_TB";
-                    public const string MeSmashTavernBrawl = "BRMA07_2_2c_TB";
-                    public const string OpenTheGatesTavernBrawlHeroPower = "BRMA09_2_TB";
-                    public const string WildMagicTavernBrawlHeroPower = "BRMA13_4_2_TB";
-                    public const string ActivateTavernBrawl = "BRMA14_10H_TB";
-                    public const string BoneMinionsTavernBrawl = "BRMA17_5_TB";
-                    public const string LivingBomb = "BRMC_100";
-                    public const string LivingBombEnchantment = "BRMC_100e";
-                    public const string OpenTheGates = "BRMC_83";
-                    public const string DragonkinSpellcaster = "BRMC_84";
-                    public const string Lucifron = "BRMC_85";
-                    public const string Atramedes = "BRMC_86";
-                    public const string IHearYouEnchantment = "BRMC_86e";
-                    public const string MoiraBronzebeard = "BRMC_87";
-                    public const string DrakonidSlayer = "BRMC_88";
-                    public const string WhirlingAsh = "BRMC_89";
-                    public const string LivingLava = "BRMC_90";
-                    public const string SonOfTheFlame = "BRMC_91";
-                    public const string CorenDirebrew = "BRMC_92";
-                    public const string OmnotronDefenseSystem = "BRMC_93";
-                    public const string Sulfuras = "BRMC_94";
-                    public const string Golemagg = "BRMC_95";
-                    public const string CoreHoundPuppiesHeroic = "BRMC_95h";
-                    public const string CoreHoundPupEnchantmentHeroic = "BRMC_95he";
-                    public const string HighJusticeGrimstone = "BRMC_96";
-                    public const string Vaelastrasz = "BRMC_97";
-                    public const string BurningAdrenalineEnchantment = "BRMC_97e";
-                    public const string Razorgore = "BRMC_98";
-                    public const string DragonlustEnchantment = "BRMC_98e";
-                    public const string Garr = "BRMC_99";
-                    public const string RockElementalEnchantment = "BRMC_99e";
-                    public const string OverclockEnchantment = "HRW02_1e";
-                    public const string PoisonCloudTavernBrawlHeroPower = "NAX11_02H_2_TB";
-                    public const string DecimateTavernBrawlHeroPower = "NAX12_02H_2_TB";
-                    public const string DecimateTavernBrawl = "NAX12_02H_2c_TB";
-                    public const string WebWrapTavernBrawl = "NAX3_02_TB";
-                    public const string HarvestTavernBrawl = "NAX8_02H_TB";
-                    public const string BossHpSwapper = "TB_001";
-                    public const string BigBanana = "TB_006";
-                    public const string BigBananaEnchantment = "TB_006e";
-                    public const string DeviateBanana = "TB_007";
-                    public const string DeviateSwitchEnchantment = "TB_007e";
-                    public const string RottenBanana = "TB_008";
-                    public const string Create15Secrets = "TB_009";
-                    public const string DeckbuildingEnchant = "TB_010";
-                    public const string ChooseOneOfThreeEnchantment = "TB_010e";
-                    public const string TarnishedCoin = "TB_011";
-                    public const string ChooseANewCard = "TB_012";
-                    public const string PlayerChoiceEnchant = "TB_013";
-                    public const string PlayerChoiceEnchantOnCurve = "TB_013_PickOnCurve";
-                    public const string PlayerChoiceEnchantOnCurve2 = "TB_013_PickOnCurve2";
-                    public const string ChooseANewCard2 = "TB_014";
-                    public const string Pirate = "TB_015";
-                    public const string GiveTauntAndCharge = "TB_AllMinionsTauntCharge";
-                    public const string GearmasterMechazod = "TB_CoOp_Mechazod";
-                    public const string OverloadedMechazod = "TB_CoOp_Mechazod2";
-                    public const string Prioritize = "TB_CoOpBossSpell_1";
-                    public const string BombSalvo = "TB_CoOpBossSpell_2";
-                    public const string ReleaseCoolant = "TB_CoOpBossSpell_3";
-                    public const string Overclock = "TB_CoOpBossSpell_4";
-                    public const string DoubleZap = "TB_CoOpBossSpell_5";
-                    public const string KillTheLorewalker = "TB_CoOpBossSpell_6";
-                    public const string Tb_Decreasingcardcost = "TB_DecreasingCardCost";
-                    public const string Tbdecreasingcardcostdebug = "TB_DecreasingCardCostDebug";
-                    public const string EndlessEnchantment = "TB_EndlessMinions01";
-                    public const string Tbfactionwarboombot = "TB_FactionWar_BoomBot";
-                    public const string Tbfactionwarboombotspell = "TB_FactionWar_BoomBot_Spell";
-                    public const string Factionwar_Boombot = "TB_FactionWar_Boss_BoomBot";
-                    public const string CheapGift = "TB_GiftExchange_Enchantment";
-                    public const string WintersVeilGift = "TB_GiftExchange_Treasure";
-                    public const string StolenWintersVeilGift = "TB_GiftExchange_Treasure_Spell";
-                    public const string Tb_Clockworkcarddealer = "TB_GreatCurves_01";
-                    public const string AnnoyOTron = "TB_MechWar_Boss1";
-                    public const string HelloHelloHello = "TB_MechWar_Boss1_HeroPower";
-                    public const string BoomBot = "TB_MechWar_Boss2";
-                    public const string BoomBotJr = "TB_MechWar_Boss2_HeroPower";
-                    public const string Tbmechwarcommoncards = "TB_MechWar_CommonCards";
-                    public const string MechFan = "TB_MechWar_Minion1";
-                    public const string PickYourFateBuildAround = "TB_PickYourFate";
-                    public const string Fate1 = "TB_PickYourFate_1";
-                    public const string Fate10 = "TB_PickYourFate_10";
-                    public const string Fate10EnchBattlecryBonus = "TB_PickYourFate_10_Ench";
-                    public const string Fate11 = "TB_PickYourFate_11";
-                    public const string Fate11EnchMurloc = "TB_PickYourFate_11_Ench";
-                    public const string PickYourFate1Ench = "TB_PickYourFate_1_Ench";
-                    public const string Fate2 = "TB_PickYourFate_2";
-                    public const string PickYourFate2Ench = "TB_PickYourFate_2_Ench";
-                    public const string Fate3 = "TB_PickYourFate_3";
-                    public const string PickYourFate3Ench = "TB_PickYourFate_3_Ench";
-                    public const string Fate4 = "TB_PickYourFate_4";
-                    public const string PickYourFate4Ench = "TB_PickYourFate_4_Ench";
-                    public const string Fate5 = "TB_PickYourFate_5";
-                    public const string PickYouRfate5Ench = "TB_PickYourFate_5_Ench";
-                    public const string Fate6 = "TB_PickYourFate_6";
-                    public const string Fate7 = "TB_PickYourFate_7";
-                    public const string Fate7EnchGetACoin = "TB_PickYourFate_7_Ench";
-                    public const string Fate8 = "TB_PickYourFate_8";
-                    public const string Fate8GetArmor = "TB_PickYourFate_8_Ench";
-                    public const string Fate9 = "TB_PickYourFate_9";
-                    public const string Fate9EnchDeathrattleBonus = "TB_PickYourFate_9_Ench";
-                    public const string Windfury = "TB_PickYourFate_Windfury";
-                    public const string PickYourFateRandom = "TB_PickYourFateRandom";
-                    public const string MysteryPilot = "TB_Pilot1";
-                    public const string Tbrandomcardcost = "TB_RandCardCost";
-                    public const string Tb_Enchwhosthebossnow = "TB_RandHero2_001";
-                    public const string Tb_Enchrandommanacost = "TB_RMC_001";
-                    public const string RagnarosTheFirelord = "TBA01_1";
-                    public const string Nefarian = "TBA01_4";
-                    public const string WildMagic = "TBA01_5";
-                    public const string MoltenRage = "TBA01_6";
-                    public const string Oldn3wbTank = "TBST_001";
-                    public const string Oldn3wbMage = "TBST_002";
-                    public const string Oldn3wbHealer = "TBST_003";
-                    public const string OldlegitHealer = "TBST_004";
-                    public const string OldpvpRogue = "TBST_005";
-                    public const string OldtbstPushCommonCard = "TBST_006";
-                    public const string TbudSummonEarlyMinion = "TBUD_1";
-                }
-            }
-
-            public class LeagueOfExplorers
-            {
-                public class Neutral
-                {
-                    public const string EyeOfHakkar = "LOE_008";
-                    public const string EyeOfHakkarHeroic = "LOE_008H";
-                    public const string RockToken = "LOE_016t";
-                    public const string MapToTheGoldenMonkeyToken = "LOE_019t";
-                    public const string GoldenMonkeyToken = "LOE_019t2";
-                    public const string RollingBoulderToken = "LOE_024t";
-                    public const string ZzdeleteAnimatedArmor = "LOE_030";
-                    public const string HollowEnchantment = "LOE_030e";
-                    public const string PowerOfTheTitansEnchantment = "LOE_061e";
-                    public const string FossilizedEnchantment = "LOE_073e";
-                    public const string RascallyRuntToken = "LOE_089t";
-                    public const string WilyRuntToken = "LOE_089t2";
-                    public const string GrumblyRuntToken = "LOE_089t3";
-                    public const string AncientCurseToken = "LOE_110t";
-                    public const string MrglllraawrrrglrurEnchantment = "LOE_113e";
-                    public const string SunRaiderPhaerixTemple = "LOEA01_01";
-                    public const string PhaerixHeroic = "LOEA01_01h";
-                    public const string BlessingsOfTheSun = "LOEA01_02";
-                    public const string BlessingsOfTheSunHeroic = "LOEA01_02h";
-                    public const string RodOfTheSun = "LOEA01_11";
-                    public const string RodOfTheSunHeroic = "LOEA01_11h";
-                    public const string ModeEnchantmentHeroic = "LOEA01_11he";
-                    public const string TolvirHoplite = "LOEA01_12";
-                    public const string TolvirHopliteHeroic = "LOEA01_12h";
-                    public const string ZinaarTemple = "LOEA02_01";
-                    public const string ZinaarTempleHeroic = "LOEA02_01h";
-                    public const string DjinnSIntuition = "LOEA02_02";
-                    public const string DjinnSIntuitionHeroic = "LOEA02_02h";
-                    public const string WishForPower = "LOEA02_03";
-                    public const string WishForValor = "LOEA02_04";
-                    public const string WishForGlory = "LOEA02_05";
-                    public const string WishForMoreWishes = "LOEA02_06";
-                    public const string WishForCompanionship = "LOEA02_10";
-                    public const string TempleEscape = "LOEA04_01";
-                    public const string TempleEscapeEnchantEnchantment = "LOEA04_01e";
-                    public const string TempleEscapeEnchantEnchantmentHeroic = "LOEA04_01eh";
-                    public const string EscapeHeroic = "LOEA04_01h";
-                    public const string Escape = "LOEA04_02";
-                    public const string EscapeHeroic2 = "LOEA04_02h";
-                    public const string PitOfSpikes = "LOEA04_06";
-                    public const string SwingAcross = "LOEA04_06a";
-                    public const string WalkAcrossGingerly = "LOEA04_06b";
-                    public const string OrsisGuard = "LOEA04_13bt";
-                    public const string OrsisGuardHeroic = "LOEA04_13bth";
-                    public const string GiantInsect = "LOEA04_23";
-                    public const string GiantInsectHeroic = "LOEA04_23h";
-                    public const string AnubisathTempleGuard = "LOEA04_24";
-                    public const string AnubisathTempleGuardHeroic = "LOEA04_24h";
-                    public const string SeethingStatue = "LOEA04_25";
-                    public const string SeethingStatueHeroic = "LOEA04_25h";
-                    public const string AnimatedStatueUldaman = "LOEA04_27";
-                    public const string AGlowingPool = "LOEA04_28";
-                    public const string DrinkDeeply = "LOEA04_28a";
-                    public const string WadeThrough = "LOEA04_28b";
-                    public const string TheEye = "LOEA04_29";
-                    public const string TouchIt = "LOEA04_29a";
-                    public const string InvestigateTheRunes = "LOEA04_29b";
-                    public const string TheDarkness = "LOEA04_30";
-                    public const string TakeTheShortcut = "LOEA04_30a";
-                    public const string NoWay = "LOEA04_31b";
-                    public const string ChieftainScarvashUldaman = "LOEA05_01";
-                    public const string ScarvashHeroic = "LOEA05_01h";
-                    public const string TroggHateMinions = "LOEA05_02";
-                    public const string TroggHateMinions2 = "LOEA05_02a";
-                    public const string TroggHateMinionsHeroic = "LOEA05_02h";
-                    public const string TroggHateMinionsHeroic2 = "LOEA05_02ha";
-                    public const string TroggHateSpells = "LOEA05_03";
-                    public const string TroggHateSpellsHeroic = "LOEA05_03h";
-                    public const string Stonesculpting = "LOEA06_02";
-                    public const string StonesculptingHeroic = "LOEA06_02h";
-                    public const string EarthenStatueToken = "LOEA06_02t";
-                    public const string EarthenStatueTokenHeroic = "LOEA06_02th";
-                    public const string AnimateEarthen = "LOEA06_03";
-                    public const string AnimatedEnchantment = "LOEA06_03e";
-                    public const string AnimatedEnchantmentHeroic = "LOEA06_03eh";
-                    public const string AnimateEarthenHeroic = "LOEA06_03h";
-                    public const string ShatteringSpree = "LOEA06_04";
-                    public const string ShatteringSpreeHeroic = "LOEA06_04h";
-                    public const string MineCart = "LOEA07_01";
-                    public const string MineShaft = "LOEA07_02";
-                    public const string MineShaftHeroic = "LOEA07_02h";
-                    public const string FleeTheMine = "LOEA07_03";
-                    public const string FleeTheMineHeroic = "LOEA07_03h";
-                    public const string ChasingTrogg = "LOEA07_09";
-                    public const string Debris = "LOEA07_11";
-                    public const string EarthenPursuer = "LOEA07_12";
-                    public const string LumberingGolem = "LOEA07_14";
-                    public const string Dynamite = "LOEA07_18";
-                    public const string Boom = "LOEA07_20";
-                    public const string BarrelForward = "LOEA07_21";
-                    public const string SpikedDecoy = "LOEA07_24";
-                    public const string MechanicalParrot = "LOEA07_25";
-                    public const string ConsultBrann = "LOEA07_26";
-                    public const string Repairs = "LOEA07_28";
-                    public const string ThrowRocks = "LOEA07_29";
-                    public const string ArchaedasTRC = "LOEA08_01";
-                    public const string ArchaedasTRCHeroic = "LOEA08_01h";
-                    public const string LordSlitherspearTRC = "LOEA09_1";
-                    public const string HungryNaga = "LOEA09_10";
-                    public const string HungryNaga2 = "LOEA09_11";
-                    public const string HungryNaga3 = "LOEA09_12";
-                    public const string HungryNaga4 = "LOEA09_13";
-                    public const string SlitherspearTRCHeroic = "LOEA09_1H";
-                    public const string Enraged = "LOEA09_2";
-                    public const string EnragedEnchantment = "LOEA09_2e";
-                    public const string EnragedEnchantmentHeroic = "LOEA09_2eH";
-                    public const string EnragedHeroic = "LOEA09_2H";
-                    public const string GettingHungry = "LOEA09_3";
-                    public const string Famished = "LOEA09_3a";
-                    public const string FamishedHeroic = "LOEA09_3aH";
-                    public const string GettingHungry2 = "LOEA09_3b";
-                    public const string GettingHungry3 = "LOEA09_3c";
-                    public const string GettingHungry4 = "LOEA09_3d";
-                    public const string EndlessHungerHeroic = "LOEA09_3H";
-                    public const string RareSpear = "LOEA09_4";
-                    public const string RareSpearHeroic = "LOEA09_4H";
-                    public const string HungryNaga5 = "LOEA09_5";
-                    public const string HungryNagaHeroic = "LOEA09_5H";
-                    public const string SlitheringArcher = "LOEA09_6";
-                    public const string SlitheringArcherHeroic = "LOEA09_6H";
-                    public const string Cauldron = "LOEA09_7";
-                    public const string CauldronEnchantment = "LOEA09_7e";
-                    public const string CauldronHeroic = "LOEA09_7H";
-                    public const string SlitheringGuard = "LOEA09_8";
-                    public const string SlitheringGuardHeroic = "LOEA09_8H";
-                    public const string NagaRepellent = "LOEA09_9";
-                    public const string NagaRepellentHeroic = "LOEA09_9H";
-                    public const string GiantfinHall = "LOEA10_1";
-                    public const string GiantfinHallHeroic = "LOEA10_1H";
-                    public const string MrglmrglMrgl = "LOEA10_2";
-                    public const string MrglmrglMrglHeroic = "LOEA10_2H";
-                    public const string MrglMrglNyahNyah = "LOEA10_5";
-                    public const string MrglMrglNyahNyahHeroic = "LOEA10_5H";
-                    public const string LadyNazjarHall = "LOEA12_1";
-                    public const string NazjarHallHeroic = "LOEA12_1H";
-                    public const string PearlOfTheTides = "LOEA12_2";
-                    public const string PearlOfTheTidesHeroic = "LOEA12_2H";
-                    public const string SkelesaurusHexHall = "LOEA13_1";
-                    public const string SkelesaurusHeroic = "LOEA13_1h";
-                    public const string AncientPower = "LOEA13_2";
-                    public const string AncientPowerHeroic = "LOEA13_2H";
-                    public const string TheSteelSentinelLOEA14 = "LOEA14_1";
-                    public const string SentinelLOEA14Heroic = "LOEA14_1H";
-                    public const string PlatemailArmor = "LOEA14_2";
-                    public const string PlatemailArmorHeroic = "LOEA14_2H";
-                    public const string RafaamLOEA15 = "LOEA15_1";
-                    public const string RafaamLOEA15Heroic = "LOEA15_1H";
-                    public const string UnstablePortal = "LOEA15_2";
-                    public const string UnstablePortalHeroic = "LOEA15_2H";
-                    public const string Boneraptor = "LOEA15_3";
-                    public const string BoneraptorHeroic = "LOEA15_3H";
-                    public const string RafaamLOEA16 = "LOEA16_1";
-                    public const string HakkariBloodGoblet = "LOEA16_10";
-                    public const string CrownOfKaelthas = "LOEA16_11";
-                    public const string MedivhsLocket = "LOEA16_12";
-                    public const string EyeOfOrsis = "LOEA16_13";
-                    public const string KhadgarsPipe = "LOEA16_14";
-                    public const string YserasTear = "LOEA16_15";
-                    public const string Rummage = "LOEA16_16";
-                    public const string RummageHeroic = "LOEA16_16H";
-                    public const string AnimatedStatueLOEA16 = "LOEA16_17";
-                    public const string ZinaarLOEA16 = "LOEA16_18";
-                    public const string ZinaarLOEA16Heroic = "LOEA16_18H";
-                    public const string SunRaiderPhaerixLOEA16 = "LOEA16_19";
-                    public const string SunRaiderPhaerixLOEA16Heroic = "LOEA16_19H";
-                    public const string RafaamLOEA16Heroic = "LOEA16_1H";
-                    public const string StaffOfOrigination = "LOEA16_2";
-                    public const string BlessingOfTheSun = "LOEA16_20";
-                    public const string BlessedEnchantment = "LOEA16_20e";
-                    public const string BlessingOfTheSunHeroic = "LOEA16_20H";
-                    public const string ChieftainScarvashLOEA16 = "LOEA16_21";
-                    public const string ChieftainScarvashLOEA16Heroic = "LOEA16_21H";
-                    public const string ArchaedasLOEA16 = "LOEA16_22";
-                    public const string ArchaedasLOEA16Heroic = "LOEA16_22H";
-                    public const string LordSlitherspearLOEA16 = "LOEA16_23";
-                    public const string LordSlitherspearLOEA16Heroic = "LOEA16_23H";
-                    public const string GiantfinLOEA16 = "LOEA16_24";
-                    public const string GiantfinLOEA16Heroic = "LOEA16_24H";
-                    public const string LadyNazjarLOEA16 = "LOEA16_25";
-                    public const string LadyNazjarLOEA16Heroic = "LOEA16_25H";
-                    public const string SkelesaurusHexLOEA16 = "LOEA16_26";
-                    public const string SkelesaurusHexLOEA16Heroic = "LOEA16_26H";
-                    public const string TheSteelSentinelLOEA16 = "LOEA16_27";
-                    public const string TheSteelSentinelLOEA16Heroic = "LOEA16_27H";
-                    public const string StaffOfOriginationHeroic = "LOEA16_2H";
-                    public const string LanternOfPower = "LOEA16_3";
-                    public const string LanternOfPowerEnchantment = "LOEA16_3e";
-                    public const string TimepieceOfHorror = "LOEA16_4";
-                    public const string MirrorOfDoom = "LOEA16_5";
-                    public const string MummyZombieToken = "LOEA16_5t";
-                    public const string ShardOfSulfuras = "LOEA16_6";
-                    public const string BenedictionSplinter = "LOEA16_7";
-                    public const string PutressVial = "LOEA16_8";
-                    public const string Putressed = "LOEA16_8a";
-                    public const string LotharsLeftGreave = "LOEA16_9";
-                    public const string LoomingPresence = "LOEA_01";
-                    public const string LoomingPresenceHeroic = "LOEA_01H";
-                }
-
-                public class Druid
-                {
-                    public const string RavenIdol = "LOE_115a";
-                    public const string RavenIdol2 = "LOE_115b";
-                }
-
-                public class Hunter
-                {
-                    public const string ExplorersHatEnchantment = "LOE_105e";
-                    public const string Leokk = "LOEA02_10a";
-                    public const string Misha = "LOEA02_10c";
-                }
-
-                public class Mage
-                {
-                    public const string RoaringTorchToken = "LOE_002t";
-                }
-
-                public class Paladin
-                {
-                    public const string WatchedEnchantment = "LOE_017e";
-                }
-
-                public class Rogue
-                {
-                    public const string ZzdeleteTombExplorerEnchantment = "LOE_012e";
-                    public const string UnearthedRaptorEnchantment = "LOE_019e";
-                }
-
-                public class Shaman
-                {
-                    public const string TroggNoStupidEnchantment = "LOE_018e";
-                }
-
-                public class Warlock
-                {
-                    public const string CursedToken = "LOE_007t";
-                    public const string SinisterPowerEnchantment = "LOE_009e";
-                }
-
-                public class Warrior
-                {
-                    public const string ScarabToken = "LOE_009t";
-                    public const string CursedBladeEnchantment = "LOE_118e";
-                }
+                public const string LaughingSister = "DREAM_01";
+                public const string YseraAwakens = "DREAM_02";
+                public const string EmeraldDrake = "DREAM_03";
+                public const string Dream = "DREAM_04";
+                public const string Nightmare = "DREAM_05";
             }
         }
     }

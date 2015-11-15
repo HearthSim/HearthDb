@@ -1,3 +1,5 @@
+#region
+
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -7,70 +9,95 @@ using HearthDb.Enums;
 using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
+#endregion
+
 namespace HearthDb.CardIdGenerator
 {
     internal class SyntaxBuilder
     {
-        internal static ClassDeclarationSyntax GetNonCollectible(ClassDeclarationSyntax classDecl)
+        private static Dictionary<string, List<string>> _namingConflicts = new Dictionary<string, List<string>>();
+
+        internal static ClassDeclarationSyntax GetNonCollectible()
         {
-            foreach(var set in Enum.GetValues(typeof(CardSet)).Cast<CardSet>())
+            while(true)
             {
-                var anySet = false;
-                var setName = Helper.GetSetName(set);
-                var cSet = SyntaxFactory.ClassDeclaration(setName).AddModifiers(SyntaxFactory.Token(SyntaxKind.PublicKeyword));
+                var newNamingConflicts = new Dictionary<string, List<string>>();
+                var classDecl =
+                    SyntaxFactory.ClassDeclaration("NonCollectible").AddModifiers(SyntaxFactory.Token(SyntaxKind.PublicKeyword));
                 foreach(var c in Enum.GetNames(typeof(CardClass)))
                 {
                     var className = c == "DREAM" ? "DreamCards" : CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
                     var cCard = SyntaxFactory.ClassDeclaration(className).AddModifiers(SyntaxFactory.Token(SyntaxKind.PublicKeyword));
                     var anyCards = false;
-                    var existing = new Dictionary<string, int>();
                     foreach(var card in
-                        Cards.All.Values.Where(
-                                               x =>
-                                               !x.Collectible && x.Class.ToString().Equals(c) &&
-                                               x.Set.ToString().Equals(set.ToString())))
+                        Cards.All.OrderBy(x => x.Value.Set)
+                             .ThenBy(x => x.Key)
+                             .Select(x => x.Value)
+                             .Where(x => !x.Collectible && x.Class.ToString().Equals(c)))
                     {
                         var name = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(card.Name.ToLower());
                         name = Regex.Replace(name, @"[^\w\d]", "");
-                        if(Regex.IsMatch(card.Id, @"_\d+[abhHt]?[eo]"))
-                            name += "Enchantment";
-                        if(Regex.IsMatch(card.Id, @"_\d+[hH]?[t]"))
-                            name += "Token";
-                        if(Helper.SpecialPrefixes.ContainsKey(card.Id))
-                            name += Helper.SpecialPrefixes[card.Id];
-                        if(Regex.IsMatch(card.Id, @"_2_TB$"))
-                            name += "TavernBrawlHeroPower";
-                        else if(Regex.IsMatch(card.Id, @"_TB$"))
-                            name += "TavernBrawl";
-                        else if(card.Id == "BRM_027h")
-                            name += "Hero";
-                        else if(card.Id == "BRM_027p")
-                            name += "HeroPower";
-                        else if((Regex.IsMatch(card.Id, @"_[\dabet]+[hH]") || name.StartsWith("NAX1h")))
-                        {
-                            if(name.StartsWith("Heroic"))
-                                name = name.Substring(6);
-                            name += "Heroic";
-                        }
-                        if(Regex.IsMatch(name, @"^\d"))
-                            name = "_" + name;
-                        if(!existing.ContainsKey(name))
-                            existing.Add(name, 0);
-                        if(existing[name]++ > 0)
-                            name += existing[name];
+                        name = ResolveNameFromId(card, name);
+                        name = ResolveNamingConflict(name, card, newNamingConflicts);
                         cCard = cCard.AddMembers(GenerateConst(name, card.Id));
                         anyCards = true;
                     }
                     if(anyCards)
-                    {
-                        cSet = cSet.AddMembers(cCard);
-                        anySet = true;
-                    }
+                        classDecl = classDecl.AddMembers(cCard);
                 }
-                if(anySet)
-                    classDecl = classDecl.AddMembers(cSet);
+                if(!newNamingConflicts.Any(x => x.Value.Count > 1))
+                    return classDecl;
+                _namingConflicts = newNamingConflicts.Where(x => x.Value.Count > 1).ToDictionary(pair => pair.Key, pair => pair.Value);
             }
-            return classDecl;
+        }
+
+        private static string ResolveNameFromId(Card card, string name)
+        {
+            if(Regex.IsMatch(card.Id, @"_\d+[abhHt]?[eo]"))
+                name += "Enchantment";
+            if(Regex.IsMatch(card.Id, @"_\d+[hH]?[t]"))
+                name += "Token";
+            if(Helper.SpecialPrefixes.ContainsKey(card.Id))
+                name += Helper.SpecialPrefixes[card.Id];
+            if(Regex.IsMatch(card.Id, @"_2_TB$"))
+                name += "TavernBrawlHeroPower";
+            else if(Regex.IsMatch(card.Id, @"_TB$") || card.Id.StartsWith("TB"))
+                name += "TavernBrawl";
+            else if(card.Id == "BRM_027h")
+                name += "Hero";
+            else if(card.Id == "BRM_027p")
+                name += "HeroPower";
+            else if((Regex.IsMatch(card.Id, @"_[\dabet]+[hH]") || name.StartsWith("NAX1h")))
+            {
+                if(name.StartsWith("Heroic"))
+                    name = name.Substring(6);
+                name += "Heroic";
+            }
+            if(Regex.IsMatch(name, @"^\d"))
+                name = "_" + name;
+            return name;
+        }
+
+        private static string ResolveNamingConflict(string name, Card card, Dictionary<string, List<string>> newNamingConflicts)
+        {
+            List<string> conflictingIds;
+            if(_namingConflicts.TryGetValue(name, out conflictingIds))
+            {
+                if(conflictingIds.Any(x => x.Substring(0, 3) != card.Id.Substring(0, 3)))
+                    name += Helper.GetSetAbbreviation(card.Set);
+                else
+                    name += (conflictingIds.IndexOf(card.Id) + 1).ToString();
+            }
+            else if(_namingConflicts.TryGetValue(name + Helper.GetSetAbbreviation(card.Set), out conflictingIds))
+                name += Helper.GetSetAbbreviation(card.Set) + (conflictingIds.IndexOf(card.Id) + 1);
+            List<string> ids;
+            if(!newNamingConflicts.TryGetValue(name, out ids))
+            {
+                ids = new List<string>();
+                newNamingConflicts.Add(name, ids);
+            }
+            ids.Add(card.Id);
+            return name;
         }
 
         internal static ClassDeclarationSyntax GetCollectible(ClassDeclarationSyntax classDecl)

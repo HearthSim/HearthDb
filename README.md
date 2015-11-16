@@ -3,9 +3,7 @@
 HearthDb is a .NET Hearthstone database.
 
 ## Cards
-`HearthDb.Cards` contains all card information compiled from `CardDefs.xml` and the `CARDS.xml` (the cards DBF file).  
-
-Both files are from the [hs-data HearthSim project](https://github.com/HearthSim/hs-data).
+`HearthDb.Cards` contains all card information of the `CardDefs.xml`, taken from the [hs-data HearthSim project](https://github.com/HearthSim/hs-data).
 
 See [here](https://github.com/Epix37/HearthDb/blob/master/HearthDb.Tests/UnitTest1.cs#L14-L25) for example usage.
 
@@ -20,4 +18,4 @@ See [here](https://github.com/Epix37/HearthDb/blob/master/HearthDb.Tests/UnitTes
 * Run `HearthDb/bootstrap.bat`
 * Build project
 
-_Alternaitvely: manually download [HearthSim/hs-data/CardDefs.xml](https://github.com/HearthSim/hs-data/blob/master/CardDefs.xml) and [HearthSim/hs-data/DBF/CARD.xml](https://github.com/HearthSim/hs-data/blob/master/DBF/CARD.xml) to `HearthDb/HearthDb` before building._
+_Alternaitvely: manually download [HearthSim/hs-data/CardDefs.xml](https://github.com/HearthSim/hs-data/blob/master/CardDefs.xml) to `HearthDb/HearthDb` before building._

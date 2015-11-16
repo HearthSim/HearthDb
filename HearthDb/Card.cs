@@ -64,14 +64,7 @@ namespace HearthDb
 
         public string[] EntourageCardIds
         {
-            get
-            {
-                return
-                    Entity.EntourageCards.Select(
-                                                 x =>
-                                                 x.CardId.Length == GuidLength ? CardDbfWrapper.Records[x.CardId].MiniGuid : x.CardId)
-                          .ToArray();
-            }
+            get { return Entity.EntourageCards.Select(x => x.CardId).ToArray(); }
         }
 
         public Language DefaultLanguage { get; set; } = Language.enUS;

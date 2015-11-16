@@ -40,12 +40,5 @@ namespace HearthDb.Tests
             var baneOfDoom = Cards.Collectible[CardIds.Collectible.Warlock.BaneOfDoom];
             Assert.AreEqual(6, baneOfDoom.EntourageCardIds.Length);
         }
-
-        [TestMethod]
-        public void DbfWrapper_ContainsAllCards()
-        {
-            foreach(var card in Cards.All.Where(x => x.Value.Set != CardSet.NONE))
-                Assert.IsTrue(CardDbfWrapper.Records.Values.Any(v => v.MiniGuid == card.Key), card.Value.Name);
-        }
     }
 }

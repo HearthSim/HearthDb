@@ -1,5 +1,4 @@
 ﻿mkdir "git_tmp"
 git clone --depth=1 "https://github.com/HearthSim/hs-data.git" "git_tmp"
 mv "git_tmp/CardDefs.xml" "CardDefs.xml"
-mv "git_tmp/DBF/CARD.xml" "CARD.xml"
 rm -r -f "git_tmp"

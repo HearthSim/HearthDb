@@ -6,12 +6,12 @@ using System.Xml.Serialization;
 
 namespace HearthDb.CardDefs
 {
-    public class TriggeredPowerHistoryInfo
-    {
-        [XmlAttribute("effectIndex")]
-        public int EffectIndex { get; set; }
+	public class TriggeredPowerHistoryInfo
+	{
+		[XmlAttribute("effectIndex")]
+		public int EffectIndex { get; set; }
 
-        [XmlAttribute("showInHistory")]
-        public string ShowInHistory { get; set; }
-    }
+		[XmlAttribute("showInHistory")]
+		public string ShowInHistory { get; set; }
+	}
 }

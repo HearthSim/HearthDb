@@ -6,12 +6,12 @@ using System.Xml.Serialization;
 
 namespace HearthDb.CardDefs
 {
-    public class PlayRequirement
-    {
-        [XmlAttribute("param")]
-        public string Param { get; set; }
+	public class PlayRequirement
+	{
+		[XmlAttribute("param")]
+		public string Param { get; set; }
 
-        [XmlAttribute("reqID")]
-        public string ReqId { get; set; }
-    }
+		[XmlAttribute("reqID")]
+		public string ReqId { get; set; }
+	}
 }

@@ -6,9 +6,9 @@ using System.Xml.Serialization;
 
 namespace HearthDb.CardDefs
 {
-    public class EntourageCard
-    {
-        [XmlAttribute("cardID")]
-        public string CardId { get; set; }
-    }
+	public class EntourageCard
+	{
+		[XmlAttribute("cardID")]
+		public string CardId { get; set; }
+	}
 }

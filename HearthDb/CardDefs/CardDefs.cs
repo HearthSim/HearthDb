@@ -7,10 +7,10 @@ using System.Xml.Serialization;
 
 namespace HearthDb.CardDefs
 {
-    [XmlRoot("CardDefs")]
-    public class CardDefs
-    {
-        [XmlElement("Entity")]
-        public List<Entity> Entites { get; set; }
-    }
+	[XmlRoot("CardDefs")]
+	public class CardDefs
+	{
+		[XmlElement("Entity")]
+		public List<Entity> Entites { get; set; }
+	}
 }

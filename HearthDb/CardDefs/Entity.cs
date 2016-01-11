@@ -4,93 +4,82 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
 using HearthDb.Enums;
+using static HearthDb.Enums.Language;
 
 #endregion
 
 namespace HearthDb.CardDefs
 {
-    public class Entity
-    {
-        [XmlAttribute("CardID")]
-        public string CardId { get; set; }
+	public class Entity
+	{
+		[XmlAttribute("CardID")]
+		public string CardId { get; set; }
 
-        [XmlAttribute("version")]
-        public int Version { get; set; }
+		[XmlAttribute("version")]
+		public int Version { get; set; }
 
-        [XmlElement("MasterPower")]
-        public string MasterPower { get; set; }
+		[XmlElement("MasterPower")]
+		public string MasterPower { get; set; }
 
-        [XmlElement("Tag")]
-        public List<Tag> Tags { get; set; } = new List<Tag>();
+		[XmlElement("Tag")]
+		public List<Tag> Tags { get; set; } = new List<Tag>();
 
-        [XmlElement("ReferencedTag")]
-        public List<Tag> ReferencedTags { get; set; } = new List<Tag>();
+		[XmlElement("ReferencedTag")]
+		public List<Tag> ReferencedTags { get; set; } = new List<Tag>();
 
-        [XmlElement("Power")]
-        public Power Power { get; set; }
+		[XmlElement("Power")]
+		public Power Power { get; set; }
 
-        [XmlElement("EntourageCard")]
-        public List<EntourageCard> EntourageCards { get; set; } = new List<EntourageCard>();
+		[XmlElement("EntourageCard")]
+		public List<EntourageCard> EntourageCards { get; set; } = new List<EntourageCard>();
 
-        [XmlElement("TriggeredPowerHistoryInfo")]
-        public TriggeredPowerHistoryInfo TriggeredPowerHistoryInfo { get; set; }
+		[XmlElement("TriggeredPowerHistoryInfo")]
+		public TriggeredPowerHistoryInfo TriggeredPowerHistoryInfo { get; set; }
 
-        public int GetTag(GameTag gameTag)
-        {
-            var tag = Tags.FirstOrDefault(x => x.EnumId == (int)gameTag);
-            return tag?.Value ?? 0;
-        }
+		public int GetTag(GameTag gameTag) => Tags.FirstOrDefault(x => x.EnumId == (int)gameTag)?.Value ?? 0;
 
-        public int GetReferencedTag(GameTag gameTag)
-        {
-            var tag = ReferencedTags.FirstOrDefault(x => x.EnumId == (int)gameTag);
-            return tag?.Value ?? 0;
-        }
+		public int GetReferencedTag(GameTag gameTag) => ReferencedTags.FirstOrDefault(x => x.EnumId == (int)gameTag)?.Value ?? 0;
 
-        public string GetInnerValue(GameTag gameTag)
-        {
-            var tag = Tags.FirstOrDefault(x => x.EnumId == (int)gameTag);
-            return tag?.InnerValue;
-        }
+		public string GetInnerValue(GameTag gameTag) => Tags.FirstOrDefault(x => x.EnumId == (int)gameTag)?.InnerValue;
 
-        public string GetLocString(GameTag gameTag, Language lang)
-        {
-            var tag = Tags.FirstOrDefault(x => x.EnumId == (int)gameTag);
-            if(tag == null)
-                return null;
-            if(tag.TypeString != "LocString")
-                return null;
-            switch(lang)
-            {
-                case Language.deDE:
-                    return tag.LocStringDeDe;
-                case Language.enUS:
-                    return tag.LocStringEnUs;
-                case Language.esES:
-                    return tag.LocStringEsEs;
-                case Language.esMX:
-                    return tag.LocStringEsMx;
-                case Language.frFR:
-                    return tag.LocStringFrFr;
-                case Language.itIT:
-                    return tag.LocStringItIt;
-                case Language.jaJP:
-                    return tag.LocStringJaJp;
-                case Language.koKR:
-                    return tag.LocStringKoKr;
-                case Language.plPL:
-                    return tag.LocStringPlPl;
-                case Language.ptBR:
-                    return tag.LocStringPtBr;
-                case Language.ruRU:
-                    return tag.LocStringRuRu;
-                case Language.zhCN:
-                    return tag.LocStringZhCn;
-                case Language.zhTW:
-                    return tag.LocStringZhTw;
-                default:
-                    return null;
-            }
-        }
-    }
+		public string GetLocString(GameTag gameTag, Language lang)
+		{
+			var tag = Tags.FirstOrDefault(x => x.EnumId == (int)gameTag);
+			if(tag == null)
+				return null;
+			if(tag.TypeString != "LocString")
+				return null;
+			switch(lang)
+			{
+				case deDE:
+					return tag.LocStringDeDe;
+				case enUS:
+					return tag.LocStringEnUs;
+				case esES:
+					return tag.LocStringEsEs;
+				case esMX:
+					return tag.LocStringEsMx;
+				case frFR:
+					return tag.LocStringFrFr;
+				case itIT:
+					return tag.LocStringItIt;
+				case jaJP:
+					return tag.LocStringJaJp;
+				case koKR:
+					return tag.LocStringKoKr;
+				case plPL:
+					return tag.LocStringPlPl;
+				case ptBR:
+					return tag.LocStringPtBr;
+				case ruRU:
+					return tag.LocStringRuRu;
+				case zhCN:
+					return tag.LocStringZhCn;
+				case zhTW:
+					return tag.LocStringZhTw;
+				default:
+					return null;
+			}
+		}
+	}
 }

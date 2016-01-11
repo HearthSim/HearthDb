@@ -7,9 +7,9 @@ using System.Xml.Serialization;
 
 namespace HearthDb.CardDefs
 {
-    public class Power
-    {
-        [XmlElement("PlayRequirement")]
-        public List<PlayRequirement> PlayRequirements { get; set; }
-    }
+	public class Power
+	{
+		[XmlElement("PlayRequirement")]
+		public List<PlayRequirement> PlayRequirements { get; set; }
+	}
 }

@@ -48,7 +48,6 @@ namespace HearthDb.Enums
 		ENTITY_ID = 53,
 		HISTORY_PROXY = 54,
 		COPY_DEATHRATTLE = 55,
-		COPY_DEATHRATTLE_INDEX = 56,
 		ELITE = 114,
 		MAXRESOURCES = 176,
 		CARD_SET = 183,
@@ -170,7 +169,6 @@ namespace HearthDb.Enums
 		SPELLPOWER_DOUBLE = 356,
 		HEALING_DOUBLE = 357,
 		NUM_OPTIONS_PLAYED_THIS_TURN = 358,
-		NUM_OPTIONS = 359,
 		TO_BE_DESTROYED = 360,
 		AURA = 362,
 		POISONOUS = 363,
@@ -223,7 +221,8 @@ namespace HearthDb.Enums
 		ELECTRIC_CHARGE_LEVEL = 420,
 		HEAVILY_ARMORED = 421,
 		DONT_SHOW_IMMUNE = 422,
-		HISTORY_PROXY_NO_BIG_CARD = 427,
+		HISTORY_PROXY_NO_BIG_CARD = 432,
+		TRANSFORMED_FROM_CARD = 435,
 
 		// Only in card definitions
 		Collectible = 321,
@@ -256,7 +255,9 @@ namespace HearthDb.Enums
 		OVERKILL = 380,
 
 		// Deleted
+		COPY_DEATHRATTLE_INDEX = 56,
 		DIVINE_SHIELD_READY = 314,
+		NUM_OPTIONS = 359,
 
 		// Missing, only present in logs
 		WEAPON = 334

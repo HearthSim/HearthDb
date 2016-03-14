@@ -14,6 +14,7 @@
 		ptBR,
 		ruRU,
 		zhCN,
-		zhTW
+		zhTW,
+		thTH
 	}
 }

@@ -61,5 +61,8 @@ namespace HearthDb.CardDefs
 
 		[XmlElement("zhTW")]
 		public string LocStringZhTw { get; set; }
+
+		[XmlElement("thTH")]
+		public string LocStringThTh { get; set; }
 	}
 }

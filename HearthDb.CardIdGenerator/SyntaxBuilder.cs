@@ -45,7 +45,7 @@ namespace HearthDb.CardIdGenerator
 					if(anyCards)
 						classDecl = classDecl.AddMembers(cCard);
 				}
-				if(!newNamingConflicts.Any(x => x.Value.Count > 1))
+				if(newNamingConflicts.Count(x => x.Value.Count > 1) < 5)
 					return classDecl;
 				_namingConflicts = newNamingConflicts.Where(x => x.Value.Count > 1).ToDictionary(pair => pair.Key, pair => pair.Value);
 			}

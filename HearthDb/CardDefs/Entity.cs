@@ -77,6 +77,8 @@ namespace HearthDb.CardDefs
 					return tag.LocStringZhCn;
 				case zhTW:
 					return tag.LocStringZhTw;
+				case thTH:
+					return tag.LocStringThTh;
 				default:
 					return null;
 			}

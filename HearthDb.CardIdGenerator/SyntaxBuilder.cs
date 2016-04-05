@@ -54,6 +54,24 @@ namespace HearthDb.CardIdGenerator
 
 		private static string ResolveNameFromId(Card card, string name)
 		{
+			var baseId = Helper.GetBaseId(card.Id);
+			if(baseId != card.Id)
+			{
+				Card baseCard;
+				if(Cards.All.TryGetValue(baseId, out baseCard))
+				{
+					var tmpName = Regex.Replace(baseCard.Name, @"[^\w\d]", "");
+					if(Regex.IsMatch(card.Id, @"_[\dabet]+[hH]"))
+					{
+						if(tmpName.StartsWith("Heroic"))
+							tmpName = tmpName.Substring(6);
+						tmpName += "Heroic";
+					}
+					name = tmpName + "_" + name;
+				}
+			}
+			if(card.Set == Enums.CardSet.HERO_SKINS)
+				name += "HeroSkins";
 			if(Regex.IsMatch(card.Id, @"_\d+[abhHt]?[eo]"))
 				name += "Enchantment";
 			if(Regex.IsMatch(card.Id, @"_\d+[hH]?[t]"))
@@ -68,7 +86,7 @@ namespace HearthDb.CardIdGenerator
 				name += "Hero";
 			else if(card.Id == "BRM_027p")
 				name += "HeroPower";
-			else if((Regex.IsMatch(card.Id, @"_[\dabet]+[hH]") || name.StartsWith("NAX1h")))
+			else if(Regex.IsMatch(card.Id, @"_[\dabet]+[hH]") && !(name.Contains("_") && name.Split('_')[0].Contains("Heroic")))
 			{
 				if(name.StartsWith("Heroic"))
 					name = name.Substring(6);

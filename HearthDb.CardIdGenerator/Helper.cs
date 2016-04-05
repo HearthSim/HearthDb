@@ -2,6 +2,7 @@
 
 using System.Collections.Generic;
 using System.Globalization;
+using System.Text.RegularExpressions;
 using static HearthDb.Enums.CardSet;
 
 #endregion
@@ -137,6 +138,16 @@ namespace HearthDb.CardIdGenerator
 				default:
 					return "";
 			}
+		}
+
+		public static string GetBaseId(string id)
+		{
+			if(string.IsNullOrEmpty(id))
+				return id;
+			if(id.StartsWith("LOE_019t"))
+				return "LOE_079";
+			var match = Regex.Match(id, @"(?<base>(.*_\d+[hH]?)).*");
+			return match.Success ? match.Groups["base"].Value : id;
 		}
 	}
 }

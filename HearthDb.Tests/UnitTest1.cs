@@ -29,8 +29,8 @@ namespace HearthDb.Tests
 		{
 			var animalCompanion = Cards.Collectible[CardIds.Collectible.Hunter.AnimalCompanion];
 			Assert.AreEqual(3, animalCompanion.EntourageCardIds.Length);
-			Assert.AreEqual(CardIds.NonCollectible.Hunter.MishaBasic, animalCompanion.EntourageCardIds[0]);
-			Assert.AreEqual(CardIds.NonCollectible.Hunter.LeokkBasic, animalCompanion.EntourageCardIds[1]);
+			Assert.AreEqual(CardIds.NonCollectible.Hunter.Misha, animalCompanion.EntourageCardIds[0]);
+			Assert.AreEqual(CardIds.NonCollectible.Hunter.Leokk, animalCompanion.EntourageCardIds[1]);
 		}
 
 		[TestMethod]

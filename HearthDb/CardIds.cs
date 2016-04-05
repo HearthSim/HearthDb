@@ -828,13 +828,13 @@ namespace HearthDb
                 public const string SkeletonBasic = "skele11";
                 public const string Squire = "CS2_152";
                 public const string FullStrengthEnchantment = "CS2_181e";
-                public const string InspiredEnchantment = "CS2_188o";
+                public const string InspiredEnchantmentClassic = "CS2_188o";
                 public const string SharpEnchantment = "CS2_221e";
                 public const string NightmareEnchantment = "DREAM_05e";
                 public const string Whelp = "ds1_whelptoken";
                 public const string WardedEnchantment = "EX1_001e";
                 public const string ElunesGraceEnchantment = "EX1_004e";
-                public const string EnragedEnchantmentClassic = "EX1_009e";
+                public const string EnragedEnchantmentClassic1 = "EX1_009e";
                 public const string BananasToken = "EX1_014t";
                 public const string BananasEnchantmentToken = "EX1_014te";
                 public const string HourOfTwilightEnchantment = "EX1_043e";
@@ -1825,7 +1825,7 @@ namespace HearthDb
                 public const string Starfall2 = "NEW1_007b";
                 public const string AncientTeachings = "NEW1_008a";
                 public const string AncientSecrets = "NEW1_008b";
-                public const string TreantToken = "FP1_019t";
+                public const string TreantTokenNAXX = "FP1_019t";
                 public const string AttackMode = "GVG_030a";
                 public const string AttackModeEnchantment = "GVG_030ae";
                 public const string TankMode = "GVG_030b";
@@ -2060,7 +2060,7 @@ namespace HearthDb
                 public const string HeavyAxeToken = "EX1_409t";
                 public const string BloodrageEnchantment = "EX1_411e";
                 public const string NeedsSharpeningEnchantment = "EX1_411e2";
-                public const string EnragedEnchantmentClassic = "EX1_414e";
+                public const string EnragedEnchantmentClassic5 = "EX1_414e";
                 public const string WhippedIntoShapeEnchantment = "EX1_603e";
                 public const string BerserkEnchantment = "EX1_604o";
                 public const string InnerRageEnchantment = "EX1_607e";

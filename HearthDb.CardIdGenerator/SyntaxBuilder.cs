@@ -45,9 +45,10 @@ namespace HearthDb.CardIdGenerator
 					if(anyCards)
 						classDecl = classDecl.AddMembers(cCard);
 				}
-				if(newNamingConflicts.Count(x => x.Value.Count > 1) < 5)
+				if(!newNamingConflicts.Any(x => x.Value.Count > 1))
 					return classDecl;
-				_namingConflicts = newNamingConflicts.Where(x => x.Value.Count > 1).ToDictionary(pair => pair.Key, pair => pair.Value);
+				foreach(var pair in newNamingConflicts.Where(x => x.Value.Count > 1).ToDictionary(pair => pair.Key, pair => pair.Value))
+					_namingConflicts.Add(pair.Key, pair.Value);
 			}
 		}
 
@@ -81,15 +82,15 @@ namespace HearthDb.CardIdGenerator
 		private static string ResolveNamingConflict(string name, Card card, Dictionary<string, List<string>> newNamingConflicts)
 		{
 			List<string> conflictingIds;
-			if(_namingConflicts.TryGetValue(name, out conflictingIds))
+			if(_namingConflicts.TryGetValue(name + Helper.GetSetAbbreviation(card.Set), out conflictingIds))
+				name += Helper.GetSetAbbreviation(card.Set) + (conflictingIds.IndexOf(card.Id) + 1);
+			else if(_namingConflicts.TryGetValue(name, out conflictingIds))
 			{
 				if(conflictingIds.Any(x => x.Substring(0, 3) != card.Id.Substring(0, 3)))
 					name += Helper.GetSetAbbreviation(card.Set);
 				else
 					name += (conflictingIds.IndexOf(card.Id) + 1).ToString();
 			}
-			else if(_namingConflicts.TryGetValue(name + Helper.GetSetAbbreviation(card.Set), out conflictingIds))
-				name += Helper.GetSetAbbreviation(card.Set) + (conflictingIds.IndexOf(card.Id) + 1);
 			List<string> ids;
 			if(!newNamingConflicts.TryGetValue(name, out ids))
 			{

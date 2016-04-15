@@ -474,6 +474,7 @@ namespace HearthDb
                 public const string SootSpewer = "GVG_123";
                 public const string JainaProudmoore = "HERO_08";
                 public const string Medivh = "HERO_08a";
+                public const string Khadgar = "HERO_08b";
                 public const string ForgottenTorch = "LOE_002";
                 public const string EtherealConjurer = "LOE_003";
                 public const string AnimatedArmor = "LOE_119";
@@ -1908,8 +1909,10 @@ namespace HearthDb
                 public const string DragonsBreath_DragonsMightEnchantment = "BRM_003e";
                 public const string DalaranAspirant_PowerOfDalaranEnchantment = "AT_006e";
                 public const string JusticarTrueheart_FireblastRank2 = "AT_132_MAGE";
-                public const string Fireblast_FireblastHeroSkins = "CS2_034_H1";
-                public const string FireblastRank2HeroSkins = "CS2_034_H1_AT_132";
+                public const string Fireblast_FireblastHeroSkins1 = "CS2_034_H1";
+                public const string FireblastRank2HeroSkins1 = "CS2_034_H1_AT_132";
+                public const string Fireblast_FireblastHeroSkins2 = "CS2_034_H2";
+                public const string FireblastRank2HeroSkins2 = "CS2_034_H2_AT_132";
                 public const string ForgottenTorch_RoaringTorchToken = "LOE_002t";
             }
 

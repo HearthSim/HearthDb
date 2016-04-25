@@ -23,6 +23,8 @@
 		TB = 18,
 		SLUSH = 19,
 		LOE = 20,
+		OG = 21,
+		OG_RESERVE = 22,
 
 		FP2 = BRM,
 		PE2 = TGT

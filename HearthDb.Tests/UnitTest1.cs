@@ -39,5 +39,17 @@ namespace HearthDb.Tests
 			var baneOfDoom = Cards.Collectible[CardIds.Collectible.Warlock.BaneOfDoom];
 			Assert.AreEqual(6, baneOfDoom.EntourageCardIds.Length);
 		}
+
+		[TestMethod]
+		public void IgnoreCaseTest()
+		{
+			var c1 = Cards.GetFromName("Flame Lance", Language.enUS);
+			var c2 = Cards.GetFromName("FLAME LANCE", Language.enUS);
+			var c3 = Cards.GetFromName("flame lance", Language.enUS);
+			var c4 = Cards.GetFromName("FlAmE lAnCe", Language.enUS);
+			Assert.AreEqual(c1, c2);
+			Assert.AreEqual(c2, c3);
+			Assert.AreEqual(c3, c4);
+		}
 	}
 }

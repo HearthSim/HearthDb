@@ -1,5 +1,8 @@
-﻿namespace HearthDb.Enums
+﻿using System;
+
+namespace HearthDb.Enums
 {
+	[Obsolete("Use BnetGameType")]
 	public enum GameType
 	{
 		GT_UNKNOWN = 0,

@@ -1,6 +1,6 @@
 ﻿namespace HearthDb.Enums
 {
-	internal enum State
+	public enum State
 	{
 		INVALID = 0,
 		LOADING = 1,

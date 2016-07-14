@@ -7,6 +7,8 @@
 		DAMAGE = 1,
 		HEALING = 2,
 		JOUST = 3,
+		SHOW_BIG_CARD = 5,
+		EFFECT_TIMING = 6,
 
 		// Renamed in 9786 from PowerHistoryMetaData.Type
 		META_TARGET = TARGET,

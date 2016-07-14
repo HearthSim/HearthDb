@@ -14,9 +14,6 @@
 		WARLOCK = 9,
 		WARRIOR = 10,
 		DREAM = 11,
-		COUNT = 12,
-
-		// alias
-		NEUTRAL = INVALID
+		NEUTRAL = 12
 	}
 }

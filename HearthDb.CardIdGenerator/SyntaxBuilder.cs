@@ -24,7 +24,7 @@ namespace HearthDb.CardIdGenerator
 			{
 				var newNamingConflicts = new Dictionary<string, List<string>>();
 				var classDecl = ClassDeclaration("NonCollectible").AddModifiers(Token(PublicKeyword));
-				foreach(var c in Enum.GetNames(typeof(CardClass)))
+				foreach(var c in ClassNames)
 				{
 					var className = c == "DREAM" ? "DreamCards" : CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
 					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword));
@@ -121,7 +121,7 @@ namespace HearthDb.CardIdGenerator
 
 		internal static ClassDeclarationSyntax GetCollectible(ClassDeclarationSyntax classDecl)
 		{
-			foreach(var c in Enum.GetNames(typeof(CardClass)))
+			foreach(var c in ClassNames)
 			{
 				var anyCards = false;
 				var className = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
@@ -139,6 +139,9 @@ namespace HearthDb.CardIdGenerator
 			}
 			return classDecl;
 		}
+
+		private static IEnumerable<string> ClassNames
+			=> new[] {CardClass.NEUTRAL.ToString()}.Concat(Enum.GetNames(typeof(CardClass))).Distinct();
 
 		internal static FieldDeclarationSyntax GenerateConst(string identifier, string value)
 		{

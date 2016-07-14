@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("HearthDb")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("HearthSim")]
 [assembly: AssemblyProduct("HearthDb")]
-[assembly: AssemblyCopyright("Copyright © Alexander Zeier 2015")]
+[assembly: AssemblyCopyright("Copyright © HearthSim 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

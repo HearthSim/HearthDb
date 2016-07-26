@@ -13,7 +13,7 @@ namespace HearthDb.CardIdGenerator
 {
 	internal class Program
 	{
-		private const string File = "../../../HearthDb/CardIds.cs";
+		private const string File = "../../../../HearthDb/CardIds.cs";
 
 		static void Main()
 		{

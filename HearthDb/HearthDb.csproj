@@ -100,10 +100,12 @@
   <ItemGroup>
     <EmbeddedResource Include="CardDefs.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="bootstrap.bat" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>git clone --depth=1 https://github.com/HearthSim/hs-data.git $(ProjectDir)hs-data
+xcopy /Y "$(ProjectDir)hs-data\CardDefs.xml" "$(ProjectDir)CardDefs.xml*"
+rmdir /S /Q $(ProjectDir)hs-data</PreBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -108,7 +108,9 @@
 ) else (
   git clone --depth=1 https://github.com/HearthSim/hsdata.git $(ProjectDir)hsdata
 )
-powershell -ExecutionPolicy Unrestricted -file $(ProjectDir)verify.ps1 $(ProjectDir)
+if "$(ConfigurationName)" == "Release" (
+  powershell -ExecutionPolicy Unrestricted -file $(ProjectDir)verify.ps1 $(ProjectDir)
+)
 xcopy /Y "$(ProjectDir)hsdata\CardDefs.xml" "$(ProjectDir)CardDefs.xml*"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

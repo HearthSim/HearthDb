@@ -31,3 +31,4 @@ _ReSharper*/
 !packages/repositories.config
 HearthDb/CARD.xml
 HearthDb/CardDefs.xml
+HearthDb/hsdata/

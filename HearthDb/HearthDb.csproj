@@ -102,9 +102,14 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>git clone --depth=1 https://github.com/HearthSim/hs-data.git $(ProjectDir)hs-data
-xcopy /Y "$(ProjectDir)hs-data\CardDefs.xml" "$(ProjectDir)CardDefs.xml*"
-rmdir /S /Q $(ProjectDir)hs-data</PreBuildEvent>
+    <PreBuildEvent>if exist $(ProjectDir)hsdata (
+  git -C $(ProjectDir)hsdata fetch
+  git -C $(ProjectDir)hsdata reset --hard origin/master
+) else (
+  git clone --depth=1 https://github.com/HearthSim/hsdata.git $(ProjectDir)hsdata
+)
+powershell -ExecutionPolicy Unrestricted -file $(ProjectDir)verify.ps1 $(ProjectDir)
+xcopy /Y "$(ProjectDir)hsdata\CardDefs.xml" "$(ProjectDir)CardDefs.xml*"</PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

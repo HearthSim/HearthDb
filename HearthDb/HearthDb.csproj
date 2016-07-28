@@ -77,6 +77,7 @@
     <Compile Include="Enums\Dictionaries.cs" />
     <Compile Include="Enums\EnchantmentVisual.cs" />
     <Compile Include="Enums\Faction.cs" />
+    <Compile Include="Enums\FormatType.cs" />
     <Compile Include="Enums\GameTag.cs" />
     <Compile Include="Enums\GameType.cs" />
     <Compile Include="Enums\GoldRewardState.cs" />

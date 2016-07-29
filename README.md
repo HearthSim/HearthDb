@@ -1,5 +1,7 @@
 # HearthDb
 
+[![Build status](https://ci.appveyor.com/api/projects/status/dxq7g6harhlnqjxb/branch/master?svg=true)](https://ci.appveyor.com/project/Epix37/hearthdb/branch/master)
+
 HearthDb is a .NET Hearthstone database.
 
 ## Cards

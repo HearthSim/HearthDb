@@ -34,10 +34,10 @@ namespace HearthDb.Tests
 		}
 
 		[TestMethod]
-		public void EntourageCardTest_BaneOfDoom()
+		public void EntourageCardTest_AnimalCompanion()
 		{
-			var baneOfDoom = Cards.Collectible[CardIds.Collectible.Warlock.BaneOfDoom];
-			Assert.AreEqual(6, baneOfDoom.EntourageCardIds.Length);
+			var animalCompanion = Cards.Collectible[CardIds.Collectible.Hunter.AnimalCompanion];
+			Assert.AreEqual(3, animalCompanion.EntourageCardIds.Length);
 		}
 
 		[TestMethod]

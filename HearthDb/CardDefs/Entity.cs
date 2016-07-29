@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
 using HearthDb.Enums;
-using static HearthDb.Enums.Language;
+using static HearthDb.Enums.Locale;
 
 #endregion
 
@@ -42,7 +42,7 @@ namespace HearthDb.CardDefs
 
 		public string GetInnerValue(GameTag gameTag) => Tags.FirstOrDefault(x => x.EnumId == (int)gameTag)?.InnerValue;
 
-		public string GetLocString(GameTag gameTag, Language lang)
+		public string GetLocString(GameTag gameTag, Locale lang)
 		{
 			var tag = Tags.FirstOrDefault(x => x.EnumId == (int)gameTag);
 			if(tag == null)

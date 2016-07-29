@@ -14,7 +14,7 @@ namespace HearthDb.Tests
 		public void BasicTest()
 		{
 			Assert.AreEqual("Flame Lance", Cards.All["AT_001"].Name);
-			Assert.AreEqual("Flammenlanze", Cards.All["AT_001"].GetLocName(Language.deDE));
+			Assert.AreEqual("Flammenlanze", Cards.All["AT_001"].GetLocName(Locale.deDE));
 			Assert.AreEqual("Nutthapon Petchthai", Cards.All["AT_001"].ArtistName);
 			Assert.AreEqual(CardSet.TGT, Cards.All["AT_001"].Set);
 			Assert.AreEqual(true, Cards.All["AT_001"].Collectible);
@@ -43,10 +43,10 @@ namespace HearthDb.Tests
 		[TestMethod]
 		public void IgnoreCaseTest()
 		{
-			var c1 = Cards.GetFromName("Flame Lance", Language.enUS);
-			var c2 = Cards.GetFromName("FLAME LANCE", Language.enUS);
-			var c3 = Cards.GetFromName("flame lance", Language.enUS);
-			var c4 = Cards.GetFromName("FlAmE lAnCe", Language.enUS);
+			var c1 = Cards.GetFromName("Flame Lance", Locale.enUS);
+			var c2 = Cards.GetFromName("FLAME LANCE", Locale.enUS);
+			var c3 = Cards.GetFromName("flame lance", Locale.enUS);
+			var c4 = Cards.GetFromName("FlAmE lAnCe", Locale.enUS);
 			Assert.AreEqual(c1, c2);
 			Assert.AreEqual(c2, c3);
 			Assert.AreEqual(c3, c4);

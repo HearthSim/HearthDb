@@ -63,14 +63,14 @@ namespace HearthDb
 
 		public string[] EntourageCardIds => Entity.EntourageCards.Select(x => x.CardId).ToArray();
 
-		public Language DefaultLanguage { get; set; } = Language.enUS;
+		public Locale DefaultLanguage { get; set; } = Locale.enUS;
 
 		public bool Collectible => Convert.ToBoolean(Entity.GetTag(GameTag.Collectible));
 
-		public string GetLocName(Language lang) => Entity.GetLocString(CARDNAME, lang);
+		public string GetLocName(Locale lang) => Entity.GetLocString(CARDNAME, lang);
 
-		public string GetLocText(Language lang) => Entity.GetLocString(CARDTEXT_INHAND, lang)?.Trim();
+		public string GetLocText(Locale lang) => Entity.GetLocString(CARDTEXT_INHAND, lang)?.Trim();
 
-		public string GetLocFlavorText(Language lang) => Entity.GetLocString(FLAVORTEXT, lang);
+		public string GetLocFlavorText(Locale lang) => Entity.GetLocString(FLAVORTEXT, lang);
 	}
 }

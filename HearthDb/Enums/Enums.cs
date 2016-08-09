@@ -112,6 +112,8 @@ namespace HearthDb.Enums
         LOE = 20,
         OG = 21,
         OG_RESERVE = 22,
+        KARA = 23,
+        KARA_RESERVE = 24,
     }
 
     public enum CardType
@@ -270,6 +272,7 @@ namespace HearthDb.Enums
         INCOMING_DAMAGE_ADJUSTMENT = 237,
         INCOMING_DAMAGE_CAP = 238,
         CANT_BE_HEALED = 239,
+        IMMUNE = 240,
         CANT_BE_DAMAGED = 240,
         CANT_BE_SET_ASIDE = 241,
         CANT_BE_REMOVED_FROM_GAME = 242,
@@ -328,10 +331,12 @@ namespace HearthDb.Enums
         STEALTH_READY = 307,
         CHARGE_READY = 308,
         CANT_BE_TARGETED_BY_ABILITIES = 311,
+        CANT_BE_TARGETED_BY_SPELLS = 311,
         SHOULDEXITCOMBAT = 312,
         CREATOR = 313,
         CANT_BE_DISPELLED = 314,
         DIVINE_SHIELD_READY = 314,
+        CANT_BE_SILENCED = 314,
         PARENT_CARD = 316,
         NUM_MINIONS_PLAYED_THIS_TURN = 317,
         PREDAMAGE = 318,
@@ -404,6 +409,7 @@ namespace HearthDb.Enums
         AI_ONE_SHOT_KILL = 400,
         EVIL_GLOW = 401,
         HIDE_COST = 402,
+        HIDE_STATS = 402,
         INSPIRE = 403,
         RECEIVES_DOUBLE_SPELLDAMAGE_BONUS = 404,
         HEROPOWER_ADDITIONAL_ACTIVATIONS = 405,
@@ -437,6 +443,7 @@ namespace HearthDb.Enums
         EXTRA_ATTACKS_THIS_TURN = 444,
         SEEN_CTHUN = 445,
         MINION_TYPE_REFERENCE = 447,
+        UNTOUCHABLE = 448,
         SCORE_LABELID_1 = 450,
         SCORE_VALUE_1 = 451,
         SCORE_LABELID_2 = 452,
@@ -444,6 +451,8 @@ namespace HearthDb.Enums
         SCORE_LABELID_3 = 454,
         SCORE_VALUE_3 = 455,
         CANT_BE_FATIGUED = 456,
+        AUTOATTACK = 457,
+        TAG_LAST_KNOWN_COST_IN_HAND = 466,
     }
 
     public enum GameType
@@ -585,7 +594,9 @@ namespace HearthDb.Enums
         REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_MINIONS = 56,
         REQ_TARGET_WITH_BATTLECRY = 57,
         REQ_TARGET_WITH_DEATHRATTLE = 58,
-        REQ_DRAG_TO_PLAY = 59,
+        REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_SECRETS = 59,
+        REQ_SECRET_CAP_FOR_NON_SECRET = 60,
+        REQ_DRAG_TO_PLAY = 61,
     }
 
     public enum PlayState

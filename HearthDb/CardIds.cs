@@ -279,6 +279,24 @@ namespace HearthDb
                 public const string Blingtron3000 = "GVG_119";
                 public const string HemetNesingwary = "GVG_120";
                 public const string ClockworkGiant = "GVG_121";
+                public const string PompousThespian = "KAR_011";
+                public const string RunicEgg = "KAR_029";
+                public const string PantrySpider = "KAR_030a";
+                public const string BookWyrm = "KAR_033";
+                public const string ArcaneAnomaly = "KAR_036";
+                public const string AvianWatcher = "KAR_037";
+                public const string MoatLurker = "KAR_041";
+                public const string Moroes = "KAR_044";
+                public const string TheCurator = "KAR_061";
+                public const string NetherspiteHistorian = "KAR_062";
+                public const string Zoobot = "KAR_095";
+                public const string PrinceMalchezaar = "KAR_096";
+                public const string MedivhTheGuardian = "KAR_097";
+                public const string Barnes = "KAR_114";
+                public const string MenagerieMagician = "KAR_702";
+                public const string Arcanosmith = "KAR_710";
+                public const string ArcaneGiant = "KAR_711";
+                public const string VioletIllusionist = "KAR_712";
                 public const string RenoJackson = "LOE_011";
                 public const string JeweledScarab = "LOE_029";
                 public const string NagaSeaWitch = "LOE_038";
@@ -418,6 +436,9 @@ namespace HearthDb
                 public const string DarkWispers = "GVG_041";
                 public const string DruidOfTheFang = "GVG_080";
                 public const string MalfurionStormrage = "HERO_06";
+                public const string MenagerieWarden = "KAR_065";
+                public const string MoongladePortal = "KAR_075";
+                public const string EnchantedRaven = "KAR_300";
                 public const string MountedRaptor = "LOE_050";
                 public const string JungleMoonkin = "LOE_051";
                 public const string RavenIdol = "LOE_115";
@@ -483,6 +504,9 @@ namespace HearthDb
                 public const string SteamwheedleSniper = "GVG_087";
                 public const string Rexxar = "HERO_05";
                 public const string AlleriaWindrunner = "HERO_05a";
+                public const string CatTrick = "KAR_004";
+                public const string KindlyGrandmother = "KAR_005";
+                public const string CloakedHuntress = "KAR_006";
                 public const string DesertCamel = "LOE_020";
                 public const string DartTrap = "LOE_021";
                 public const string ExplorersHat = "LOE_105";
@@ -546,6 +570,9 @@ namespace HearthDb
                 public const string JainaProudmoore = "HERO_08";
                 public const string Medivh = "HERO_08a";
                 public const string Khadgar = "HERO_08b";
+                public const string BabblingBook = "KAR_009";
+                public const string FirelandsPortal = "KAR_076";
+                public const string MedivhsValet = "KAR_092";
                 public const string ForgottenTorch = "LOE_002";
                 public const string EtherealConjurer = "LOE_003";
                 public const string AnimatedArmor = "LOE_119";
@@ -611,6 +638,9 @@ namespace HearthDb
                 public const string ScarletPurifier = "GVG_101";
                 public const string UtherLightbringer = "HERO_04";
                 public const string LadyLiadrin = "HERO_04a";
+                public const string NightbaneTemplar = "KAR_010";
+                public const string IvoryKnight = "KAR_057";
+                public const string SilvermoonPortal = "KAR_077";
                 public const string KeeperOfUldaman = "LOE_017";
                 public const string AnyfinCanHappen = "LOE_026";
                 public const string SacredTrial = "LOE_027";
@@ -673,6 +703,9 @@ namespace HearthDb
                 public const string Shadowboxer = "GVG_072";
                 public const string UpgradedRepairBot = "GVG_083";
                 public const string AnduinWrynn = "HERO_09";
+                public const string Purify = "KAR_013";
+                public const string PriestOfTheFeast = "KAR_035";
+                public const string OnyxBishop = "KAR_204";
                 public const string MuseumCurator = "LOE_006";
                 public const string Entomb = "LOE_104";
                 public const string ExcavatedEvil = "LOE_111";
@@ -732,6 +765,9 @@ namespace HearthDb
                 public const string Sabotage = "GVG_047";
                 public const string OgreNinja = "GVG_088";
                 public const string ValeeraSanguinar = "HERO_03";
+                public const string Swashburglar = "KAR_069";
+                public const string EtherealPeddler = "KAR_070";
+                public const string DeadlyFork = "KAR_094";
                 public const string PitSnake = "LOE_010";
                 public const string TombPillager = "LOE_012";
                 public const string UnearthedRaptor = "LOE_019";
@@ -797,6 +833,9 @@ namespace HearthDb
                 public const string DunemaulShaman = "GVG_066";
                 public const string Thrall = "HERO_02";
                 public const string MorglTheOracle = "HERO_02a";
+                public const string WickedWitchdoctor = "KAR_021";
+                public const string SpiritClaws = "KAR_063";
+                public const string MaelstromPortal = "KAR_073";
                 public const string RumblingElemental = "LOE_016";
                 public const string TunnelTrogg = "LOE_018";
                 public const string EveryfinIsAwesome = "LOE_113";
@@ -859,6 +898,9 @@ namespace HearthDb
                 public const string AnimaGolem = "GVG_077";
                 public const string FloatingWatcher = "GVG_100";
                 public const string Guldan = "HERO_07";
+                public const string KaraKazham = "KAR_025";
+                public const string MalchezaarsImp = "KAR_089";
+                public const string SilverwareGolem = "KAR_205";
                 public const string CurseOfRafaam = "LOE_007";
                 public const string DarkPeddler = "LOE_023";
                 public const string ReliquarySeeker = "LOE_116";
@@ -921,6 +963,9 @@ namespace HearthDb
                 public const string SiegeEngine = "GVG_086";
                 public const string GarroshHellscream = "HERO_01";
                 public const string MagniBronzebeard = "HERO_01a";
+                public const string ProtectTheKing = "KAR_026";
+                public const string FoolsBane = "KAR_028";
+                public const string IronforgePortal = "KAR_091";
                 public const string ObsidianDestroyer = "LOE_009";
                 public const string FierceMonkey = "LOE_022";
                 public const string CursedBlade = "LOE_118";
@@ -998,6 +1043,7 @@ namespace HearthDb
                 public const string FinkleEinhorn = "EX1_finkle";
                 public const string Squirrel = "EX1_tk28";
                 public const string Devilsaur = "EX1_tk29";
+                public const string Empowerment_EmpoweredEnchantment = "KARA_08_04e";
                 public const string HungryCrab_FullBellyEnchantment = "NEW1_017e";
                 public const string BloodsailRaider_TreasureCrazedEnchantment = "NEW1_018e";
                 public const string CaptainGreenskin_GreenskinsCommandEnchantment = "NEW1_024o";
@@ -1573,6 +1619,14 @@ namespace HearthDb
                 public const string Garr_RockElementalEnchantment = "BRMC_99e";
                 public const string GearmasterMechazod = "HRW02_1";
                 public const string GearmasterMechazod_OverclockEnchantment = "HRW02_1e";
+                public const string WandaWonderhooves = "KARA_13_15";
+                public const string SusieSizzlesong = "KARA_13_16";
+                public const string MarkMoonwalker = "KARA_13_17";
+                public const string RedRidingHood = "KARA_13_19";
+                public const string RedRidingHood_SaddenedEnchantment = "KARA_13_19e";
+                public const string PartyElemental = "KARA_13_20";
+                public const string Mime = "KARA_13_22";
+                public const string Romulo1 = "KARA_13_23";
                 public const string PoisonCloudTavernBrawlHeroPower = "NAX11_02H_2_TB";
                 public const string DecimateTavernBrawlHeroPower = "NAX12_02H_2_TB";
                 public const string DecimateTavernBrawl = "NAX12_02H_2c_TB";
@@ -1654,6 +1708,10 @@ namespace HearthDb
                 public const string ShadowTowerGiveMyMinionsStealthEnchantmentTavernBrawl = "TB_GP_01e_copy1";
                 public const string ShadowTowerStealthEnchantmentTavernBrawl = "TB_GP_01e_v2";
                 public const string Tb_ClockworkcarddealerTavernBrawl = "TB_GreatCurves_01";
+                public const string PartyPortalTavernBrawl = "TB_KaraPortal_001";
+                public const string CallMedivaTavernBrawl = "TB_KaraPortal_002";
+                public const string SaddenedHeroEnchantTavernBrawl = "TB_KaraPortal_003";
+                public const string PartyElementalTavernBrawl = "TB_KaraPortals_003";
                 public const string MassiveRunebladeTavernBrawl = "TB_KTRAF_08w";
                 public const string AnubrekhanTavernBrawl = "TB_KTRAF_1";
                 public const string NothThePlaguebringerTavernBrawl = "TB_KTRAF_10";
@@ -1687,6 +1745,7 @@ namespace HearthDb
                 public const string TbmechwarcommoncardsTavernBrawl = "TB_MechWar_CommonCards";
                 public const string MechFanTavernBrawl = "TB_MechWar_Minion1";
                 public const string MiniatureEnchantmentTavernBrawl = "TB_Mini_1e";
+                public const string QuestCoinTavernBrawl = "TB_Murgstone_001";
                 public const string PickYourFateBuildAroundTavernBrawl = "TB_PickYourFate";
                 public const string DireFateTauntAndChargeTavernBrawl = "TB_PickYourFate_1";
                 public const string DireFateTauntandCharge_PickYourFate1EnchTavernBrawl = "TB_PickYourFate_1_Ench";
@@ -1998,6 +2057,150 @@ namespace HearthDb
                 public const string CrazedWorshipper_PowerOfFaithEnchantment = "OG_321e";
                 public const string CyclopianHorror_EveOfDestructionEnchantment = "OG_337e";
                 public const string SkeramCultist_VassalsSubservienceEnchantment = "OG_339e";
+                public const string CellarSpider = "KAR_030";
+                public const string ArcaneAnomaly_EatingEnchantment = "KAR_036e";
+                public const string AvianWatcher_SecretsOfKarazhanToken = "KAR_037t";
+                public const string Moroes_Steward = "KAR_044a";
+                public const string SilvermoonPortal_SilverMightEnchantment = "KAR_077e";
+                public const string Zoobot_WellFedEnchantment = "KAR_095e";
+                public const string MedivhtheGuardian_AtieshToken = "KAR_097t";
+                public const string Barnes_IncredibleImpressionEnchantment = "KAR_114e";
+                public const string MenagerieMagician_ASimpleTrickEnchantment = "KAR_702e";
+                public const string Arcanosmith_AnimatedShield = "KAR_710m";
+                public const string MagicMirror = "KAR_A01_01";
+                public const string MagicMirrorHeroic = "KAR_A01_01H";
+                public const string Reflections = "KAR_A01_02";
+                public const string Reflections_ReflectionEnchantment = "KAR_A01_02e";
+                public const string ReflectionsHeroic = "KAR_A01_02H";
+                public const string Plate = "KAR_A02_01";
+                public const string PlateHeroic = "KAR_A02_01H";
+                public const string Spoon = "KAR_A02_02";
+                public const string SpoonHeroic = "KAR_A02_02H";
+                public const string Fork = "KAR_A02_03";
+                public const string ForkHeroic = "KAR_A02_03H";
+                public const string Knife = "KAR_A02_04";
+                public const string KnifeHeroic = "KAR_A02_04H";
+                public const string Cup = "KAR_A02_05";
+                public const string CupHeroic = "KAR_A02_05H";
+                public const string Pitcher = "KAR_A02_06";
+                public const string Pitcher_FilledUpEnchantment = "KAR_A02_06e2";
+                public const string PitcherHeroic = "KAR_A02_06H";
+                public const string PitcherHeroic_FilledUpEnchantment = "KAR_A02_06He";
+                public const string SetTheTable = "KAR_A02_09";
+                public const string SettheTable_TableSetEnchantment = "KAR_A02_09e";
+                public const string SettheTableHeroic_TableSetEnchantment = "KAR_A02_09eH";
+                public const string SetTheTableHeroic = "KAR_A02_09H";
+                public const string PourARound = "KAR_A02_10";
+                public const string TossingPlates = "KAR_A02_11";
+                public const string SilverwareGolem = "KAR_A02_12";
+                public const string SilverwareGolemHeroic = "KAR_A02_12H";
+                public const string BeOurGuest = "KAR_A02_13";
+                public const string BeOurGuestHeroic = "KAR_A02_13H";
+                public const string BlackPawn = "KAR_A10_01";
+                public const string WhitePawn = "KAR_A10_02";
+                public const string BlackRook = "KAR_A10_03";
+                public const string WhiteRook = "KAR_A10_04";
+                public const string WhiteBishop = "KAR_A10_05";
+                public const string BlackBishop = "KAR_A10_06";
+                public const string BlackKnight = "KAR_A10_07";
+                public const string WhiteKnight = "KAR_A10_08";
+                public const string WhiteQueen = "KAR_A10_09";
+                public const string BlackQueen = "KAR_A10_10";
+                public const string Castle = "KAR_A10_22";
+                public const string CastleHeroic = "KAR_A10_22H";
+                public const string Cheat = "KAR_A10_33";
+                public const string WhiteKing1 = "KAR_a10_Boss1";
+                public const string WhiteKing2 = "KAR_a10_Boss1H";
+                public const string BlackKing1 = "KAR_a10_Boss2";
+                public const string BlackKing2 = "KAR_a10_Boss2H";
+                public const string PrinceMalchezaar1 = "KARA_00_01";
+                public const string PrinceMalchezaarHeroic1 = "KARA_00_01H";
+                public const string Legion1 = "KARA_00_02";
+                public const string LegionHeroic1 = "KARA_00_02H";
+                public const string Medivh_Medivh = "KARA_00_03c";
+                public const string Brilliance = "KARA_00_04";
+                public const string BrillianceHeroic = "KARA_00_04H";
+                public const string ArchmagesInsight_InsightfulEnchantment = "KARA_00_05e";
+                public const string ArcanePower_ArcanelyPowerfulEnchantment = "KARA_00_06e";
+                public const string Dorothee = "KARA_04_01";
+                public const string TheCroneHeroic = "KARA_04_01h";
+                public const string TheCroneHeroic_TheCroneEnchantment = "KARA_04_01heroic";
+                public const string TwisterHeroic = "KARA_04_02hp";
+                public const string FlyingMonkey = "KARA_04_05";
+                public const string FlyingMonkeyHeroic = "KARA_04_05h";
+                public const string KindlyGrandmother = "KARA_05_01b";
+                public const string TremblingBeforeTheWolfEnchantment = "KARA_05_01e";
+                public const string BigBadWolfHeroic = "KARA_05_01h";
+                public const string BigBadWolfHeroic_BigBadWolf = "KARA_05_01hheroic";
+                public const string BigBadWolfHeroic_Trembling1 = "KARA_05_01hp";
+                public const string BigBadWolfHeroic_Trembling2 = "KARA_05_01hpheroic";
+                public const string BigBadClaws = "KARA_05_02";
+                public const string BigBadClawsEnchantmentHeroic = "KARA_05_02heroic";
+                public const string Romulo2 = "KARA_06_01";
+                public const string Romulo_DeathMarkedLoveEnchantment = "KARA_06_01e";
+                public const string RomuloEnchantmentHeroic = "KARA_06_01heroic";
+                public const string Julianne = "KARA_06_02";
+                public const string JulianneEnchantmentHeroic = "KARA_06_02heroic";
+                public const string TrueLoveHeroic1 = "KARA_06_03hp";
+                public const string TrueLoveHeroic2 = "KARA_06_03hpheroic";
+                public const string Curator1 = "KARA_07_01";
+                public const string CuratorEnchantmentHeroic = "KARA_07_01heroic";
+                public const string GalleryProtection = "KARA_07_02";
+                public const string GalleryProtection_ProtectingTheGalleryEnchantment = "KARA_07_02e";
+                public const string MurlocEscaping = "KARA_07_03";
+                public const string MurlocsEscapingEnchantmentHeroic = "KARA_07_03heroic";
+                public const string StampedingBeast = "KARA_07_05";
+                public const string StampedingBeastEnchantmentHeroic = "KARA_07_05heroic";
+                public const string DemonsLoose = "KARA_07_06";
+                public const string DemonsLooseEnchantmentHeroic = "KARA_07_06heroic";
+                public const string HaywireMech = "KARA_07_07";
+                public const string HaywireMechEnchantmentHeroic = "KARA_07_07heroic";
+                public const string DragonsFree = "KARA_07_08";
+                public const string DragonsFreeEnchantmentHeroic = "KARA_07_08heroic";
+                public const string Netherspite = "KARA_08_01";
+                public const string NetherspiteHeroic = "KARA_08_01H";
+                public const string NetherRage = "KARA_08_02";
+                public const string NetherRage_NetherRageEnchantment = "KARA_08_02e";
+                public const string NetherRageHeroic_NetherRageEnchantment = "KARA_08_02eH";
+                public const string NetherRageHeroic = "KARA_08_02H";
+                public const string NetherBreath = "KARA_08_03";
+                public const string NetherBreath_NetherBreathEnchantment = "KARA_08_03e";
+                public const string NetherBreathHeroic = "KARA_08_03H";
+                public const string Empowerment = "KARA_08_04";
+                public const string TerrifyingRoar = "KARA_08_05";
+                public const string TerrifyingRoarHeroic = "KARA_08_05H";
+                public const string BluePortal = "KARA_08_06";
+                public const string BluePortal_BlueBeamEnchantment = "KARA_08_06e2";
+                public const string RedPortal = "KARA_08_08";
+                public const string RedPortal_RedBeamEnchantment = "KARA_08_08e2";
+                public const string TerestianIllhoof = "KARA_09_01";
+                public const string TerestianIllhoofEnchantmentHeroic = "KARA_09_01heroic";
+                public const string Curator2 = "KARA_09_02";
+                public const string ManyImps = "KARA_09_03";
+                public const string ManyImps_IckyImp1 = "KARA_09_03a";
+                public const string ManyImps_IckyImp2 = "KARA_09_03a_heroic";
+                public const string ManyImpsEnchantmentHeroic = "KARA_09_03heroic";
+                public const string DarkPact = "KARA_09_04";
+                public const string SummonKilrek = "KARA_09_05";
+                public const string SummonKilrekEnchantmentHeroic = "KARA_09_05heroic";
+                public const string ShadowVolley = "KARA_09_06";
+                public const string ShadowVolleyEnchantmentHeroic = "KARA_09_06heroic";
+                public const string StealLife = "KARA_09_07";
+                public const string StealLifeEnchantmentHeroic = "KARA_09_07heroic";
+                public const string Nightbane = "KARA_11_01";
+                public const string NightbaneEnchantmentHeroic = "KARA_11_01heroic";
+                public const string Manastorm = "KARA_11_02";
+                public const string LeyLines = "KARA_12_02";
+                public const string LeyLinesHeroic = "KARA_12_02H";
+                public const string PrinceMalchezaar2 = "KARA_13_06";
+                public const string PrinceMalchezaarHeroic2 = "KARA_13_06H";
+                public const string ShadowBoltVolley = "KARA_13_11";
+                public const string ShadowBoltVolley_EnfeebleEnchantment = "KARA_13_11e";
+                public const string DemonicPresence = "KARA_13_12";
+                public const string DemonicPresenceHeroic = "KARA_13_12H";
+                public const string Legion2 = "KARA_13_13";
+                public const string LegionHeroic2 = "KARA_13_13H";
+                public const string Atiesh = "KARA_13_26";
             }
 
             public class Druid
@@ -2086,6 +2289,8 @@ namespace HearthDb
                 public const string MireKeeper_YshaarjsStrengthEnchantment = "OG_202ae";
                 public const string MireKeeper_YoggSaronsMagic = "OG_202b";
                 public const string MireKeeper_Slime = "OG_202c";
+                public const string DrinkTheMoonlight = "KAR_003a";
+                public const string CoalesceTheMoonlight = "KAR_003b";
             }
 
             public class Hunter
@@ -2126,6 +2331,8 @@ namespace HearthDb
                 public const string WishforCompanionship_Misha = "LOEA02_10c";
                 public const string OntheHunt_MastiffToken = "OG_061t";
                 public const string InfestedWolf_Spider = "OG_216a";
+                public const string CatTrick_CatInAHat = "KAR_004a";
+                public const string KindlyGrandmother_BigBadWolf = "KAR_005a";
             }
 
             public class Mage
@@ -2153,6 +2360,19 @@ namespace HearthDb
                 public const string FireblastRank2HeroSkins2 = "CS2_034_H2_AT_132";
                 public const string SecondClassMageTavernBrawl = "TB_ClassRandom_Mage";
                 public const string ForgottenTorch_RoaringTorchToken = "LOE_002t";
+                public const string Medivh = "KARA_00_03";
+                public const string MedivhHeroic = "KARA_00_03H";
+                public const string ArchmagesInsight = "KARA_00_05";
+                public const string ArcanePower = "KARA_00_06";
+                public const string AstralPortal = "KARA_00_07";
+                public const string ArchmagesApprentice = "KARA_00_08";
+                public const string MageArmor = "KARA_00_09";
+                public const string MysteriousRune = "KARA_00_10";
+                public const string Evocation = "KARA_00_11";
+                public const string ShadeOfAran = "KARA_12_01";
+                public const string ShadeOfAranHeroic = "KARA_12_01H";
+                public const string FlameWreath = "KARA_12_03";
+                public const string FlameWreathHeroic = "KARA_12_03H";
             }
 
             public class Paladin
@@ -2186,6 +2406,7 @@ namespace HearthDb
                 public const string VilefinInquisitor_SilverHandMurloc = "OG_006a";
                 public const string VilefinInquisitor_TheTidalHand = "OG_006b";
                 public const string RallyingBlade_RallyEnchantment = "OG_222e";
+                public const string NightbaneTemplar_Whelp = "KAR_010a";
             }
 
             public class Priest
@@ -2252,6 +2473,7 @@ namespace HearthDb
                 public const string XarilPoisonedMind_FadeleafToxinEnchantment = "OG_080e";
                 public const string XarilPoisonedMind_FirebloomToxin = "OG_080f";
                 public const string SouthseaSquidface_SquidOilSheenEnchantment = "OG_267e";
+                public const string DeadlyFork_SharpFork = "KAR_094a";
             }
 
             public class Shaman
@@ -2319,6 +2541,12 @@ namespace HearthDb
                 public const string DarkshireCouncilman_PowerOfThePeopleEnchantment = "OG_113e";
                 public const string ForbiddenRitual_IckyTentacle = "OG_114a";
                 public const string PossessedVillager_Shadowbeast = "OG_241a";
+                public const string KaraKazham_Candle = "KAR_025a";
+                public const string KaraKazham_Broom = "KAR_025b";
+                public const string KaraKazham_Teapot = "KAR_025c";
+                public const string Legion_Abyssal = "KARA_00_02a";
+                public const string Kilrek = "KARA_09_08";
+                public const string Kilrek_Kilrek = "KARA_09_08_heroic";
             }
 
             public class Warrior
@@ -2352,11 +2580,19 @@ namespace HearthDb
                 public const string ArmorUp_ArmorUpHeroSkins = "CS2_102_H1";
                 public const string TankUpHeroSkins = "CS2_102_H1_AT_132";
                 public const string SecondClassWarriorTavernBrawl = "TB_ClassRandom_Warrior";
+                public const string ChargeEnchantmentTavernBrawl = "TB_MP_01e";
                 public const string ObsidianDestroyer_ScarabToken = "LOE_009t";
                 public const string CursedBlade_CursedBladeEnchantment = "LOE_118e";
                 public const string RustyHook = "OG_058";
                 public const string NZothsFirstMate_UpgradedEnchantment = "OG_312e";
                 public const string BloodToIchor_Slime = "OG_314b";
+                public const string ProtecttheKing_PawnToken = "KAR_026t";
+                public const string NazraWildaxe = "KARA_13_01";
+                public const string NazraWildaxeHeroic = "KARA_13_01H";
+                public const string TheHorde = "KARA_13_02";
+                public const string TheHordeHeroic = "KARA_13_02H";
+                public const string OrcWarrior = "KARA_13_03";
+                public const string OrcWarriorHeroic = "KARA_13_03H";
             }
 
             public class DreamCards
@@ -2366,6 +2602,7 @@ namespace HearthDb
                 public const string EmeraldDrake = "DREAM_03";
                 public const string Dream = "DREAM_04";
                 public const string Nightmare = "DREAM_05";
+                public const string RepurposedEnchantmentTavernBrawl = "TB_MP_02e";
             }
         }
     }

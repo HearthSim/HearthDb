@@ -703,6 +703,7 @@ namespace HearthDb
                 public const string Shadowboxer = "GVG_072";
                 public const string UpgradedRepairBot = "GVG_083";
                 public const string AnduinWrynn = "HERO_09";
+                public const string TyrandeWhisperwind = "HERO_09a";
                 public const string Purify = "KAR_013";
                 public const string PriestOfTheFeast = "KAR_035";
                 public const string OnyxBishop = "KAR_204";
@@ -1619,6 +1620,8 @@ namespace HearthDb
                 public const string Garr_RockElementalEnchantment = "BRMC_99e";
                 public const string GearmasterMechazod = "HRW02_1";
                 public const string GearmasterMechazod_OverclockEnchantment = "HRW02_1e";
+                public const string WhiteKingTavernBrawl = "KAR_a10_Boss1H_TB";
+                public const string BlackKingTavernBrawl = "KAR_a10_Boss2H_TB";
                 public const string WandaWonderhooves = "KARA_13_15";
                 public const string SusieSizzlesong = "KARA_13_16";
                 public const string MarkMoonwalker = "KARA_13_17";
@@ -1689,6 +1692,7 @@ namespace HearthDb
                 public const string MyDeckIdTavernBrawl = "TB_DeckRecipe_MyDeckID";
                 public const string Tb_DecreasingcardcostTavernBrawl = "TB_DecreasingCardCost";
                 public const string TbdecreasingcardcostdebugTavernBrawl = "TB_DecreasingCardCostDebug";
+                public const string DorotheeTavernBrawl = "TB_Dorothee_001";
                 public const string EndlessEnchantmentTavernBrawl = "TB_EndlessMinions01";
                 public const string SafeTavernBrawl = "TB_Face_Ench1";
                 public const string AnnoyOTronFanclubTavernBrawl = "TB_FactionWar_AnnoySpell1";
@@ -2430,6 +2434,8 @@ namespace HearthDb
                 public const string Confuse_ConfusedEnchantment = "AT_016e";
                 public const string WyrmrestAgent_BringItOnEnchantment = "AT_116e";
                 public const string JusticarTrueheart_Heal = "AT_132_PRIEST";
+                public const string LesserHeal_LesserHealHeroSkins = "CS1h_001_H1";
+                public const string HealHeroSkins = "CS1h_001_H1_AT_132";
                 public const string SecondClassPriestTavernBrawl = "TB_ClassRandom_Priest";
                 public const string TwistedLightTavernBrawl = "TB_CoOpv3_002";
                 public const string ShadowOrLightTavernBrawl = "TB_Coopv3_102";

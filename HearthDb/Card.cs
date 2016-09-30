@@ -69,7 +69,7 @@ namespace HearthDb
 
 		public string GetLocName(Locale lang) => Entity.GetLocString(CARDNAME, lang);
 
-		public string GetLocText(Locale lang) => Entity.GetLocString(CARDTEXT_INHAND, lang)?.Trim();
+		public string GetLocText(Locale lang) => Entity.GetLocString(CARDTEXT_INHAND, lang)?.Replace("_", "\u00A0").Trim();
 
 		public string GetLocFlavorText(Locale lang) => Entity.GetLocString(FLAVORTEXT, lang);
 	}

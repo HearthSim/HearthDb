@@ -1169,6 +1169,8 @@ namespace HearthDb
                 public const string AIBuddyAllChargeAllWindfury_AllChargeAllWindfuryAllTheTimeEnchantment = "XXX_111e";
                 public const string FillDeck = "XXX_112";
                 public const string Again = "XXX_113";
+                public const string DestroyPlayedCards = "XXX_115";
+                public const string DestroyPlayedCards_DestroyPlayedCardEnchantmentEnchantment = "XXX_115e";
                 public const string CrashTheServer = "XXX_999_Crash";
                 public const string HomingChicken = "Mekka1";
                 public const string RepairBot = "Mekka2";

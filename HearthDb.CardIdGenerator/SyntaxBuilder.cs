@@ -35,6 +35,8 @@ namespace HearthDb.CardIdGenerator
 							 .Select(x => x.Value)
 							 .Where(x => !x.Collectible && x.Class.ToString().Equals(c)))
 					{
+						if(card.Name == null)
+							continue;
 						var name = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(card.Name.ToLower());
 						name = Regex.Replace(name, @"[^\w\d]", "");
 						name = ResolveNameFromId(card, name);

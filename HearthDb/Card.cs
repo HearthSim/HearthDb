@@ -65,7 +65,7 @@ namespace HearthDb
 
 		public Locale DefaultLanguage { get; set; } = Locale.enUS;
 
-		public bool Collectible => Convert.ToBoolean(Entity.GetTag(GameTag.Collectible));
+		public bool Collectible => Convert.ToBoolean(Entity.GetTag(COLLECTIBLE));
 
 		public string GetLocName(Locale lang) => Entity.GetLocString(CARDNAME, lang);
 

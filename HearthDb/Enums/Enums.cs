@@ -63,6 +63,7 @@ namespace HearthDb.Enums
         GOBLINS_VS_GNOMES = 9,
         THE_GRAND_TOURNAMENT = 10,
         OLD_GODS = 11,
+        FIRST_PURCHASE = 17,
     }
 
     public enum CardClass
@@ -114,6 +115,8 @@ namespace HearthDb.Enums
         OG_RESERVE = 22,
         KARA = 23,
         KARA_RESERVE = 24,
+        GANGS = 25,
+        GANGS_RESERVE = 26,
     }
 
     public enum CardType
@@ -340,7 +343,7 @@ namespace HearthDb.Enums
         PARENT_CARD = 316,
         NUM_MINIONS_PLAYED_THIS_TURN = 317,
         PREDAMAGE = 318,
-        Collectible = 321,
+        COLLECTIBLE = 321,
         TARGETING_ARROW_TEXT = 325,
         ENCHANTMENT_BIRTH_VISUAL = 330,
         ENCHANTMENT_IDLE_VISUAL = 331,
@@ -387,8 +390,9 @@ namespace HearthDb.Enums
         CUSTOM_KEYWORD_EFFECT = 376,
         TOPDECK = 377,
         CANT_BE_TARGETED_BY_BATTLECRIES = 379,
-        SHOWN_HERO_POWER = 380,
+        HERO_POWER = 380,
         OVERKILL = 380,
+        SHOWN_HERO_POWER = 380,
         DEATHRATTLE_SENDS_BACK_TO_DECK = 382,
         DEATHRATTLE_RETURN_ZONE = 382,
         STEADY_SHOT_CAN_TARGET = 383,
@@ -438,12 +442,14 @@ namespace HearthDb.Enums
         CTHUN = 436,
         CAST_RANDOM_SPELLS = 437,
         SHIFTING = 438,
+        JADE_GOLEM = 441,
         EMBRACE_THE_SHADOW = 442,
         CHOOSE_ONE = 443,
         EXTRA_ATTACKS_THIS_TURN = 444,
         SEEN_CTHUN = 445,
         MINION_TYPE_REFERENCE = 447,
         UNTOUCHABLE = 448,
+        RED_MANA_CRYSTALS = 449,
         SCORE_LABELID_1 = 450,
         SCORE_VALUE_1 = 451,
         SCORE_LABELID_2 = 452,
@@ -452,7 +458,24 @@ namespace HearthDb.Enums
         SCORE_VALUE_3 = 455,
         CANT_BE_FATIGUED = 456,
         AUTOATTACK = 457,
+        ARMS_DEALING = 458,
         TAG_LAST_KNOWN_COST_IN_HAND = 466,
+        DEFINING_ENCHANTMENT = 469,
+        FINISH_ATTACK_SPELL_ON_DAMAGE = 470,
+        KAZAKUS_POTION_POWER_1 = 471,
+        KAZAKUS_POTION_POWER_2 = 472,
+        MODIFY_DEFINITION_ATTACK = 473,
+        MODIFY_DEFINITION_HEALTH = 474,
+        MODIFY_DEFINITION_COST = 475,
+        MULTIPLE_CLASSES = 476,
+        ALL_TARGETS_RANDOM = 477,
+        MULTI_CLASS_GROUP = 480,
+        CARD_COSTS_HEALTH = 481,
+        GRIMY_GOONS = 482,
+        JADE_LOTUS = 483,
+        KABAL = 484,
+        ADDITIONAL_PLAY_REQS_1 = 515,
+        ADDITIONAL_PLAY_REQS_2 = 516,
     }
 
     public enum GameType
@@ -516,6 +539,8 @@ namespace HearthDb.Enums
         CLIENT_HISTORY = 4,
         SHOW_BIG_CARD = 5,
         EFFECT_TIMING = 6,
+        HISTORY_TARGET = 7,
+        OVERRIDE_HISTORY = 8,
     }
 
     public enum Mulligan
@@ -525,6 +550,14 @@ namespace HearthDb.Enums
         DEALING = 2,
         WAITING = 3,
         DONE = 4,
+    }
+
+    public enum MultiClassGroup
+    {
+        INVALID = 0,
+        GRIMY_GOONS = 1,
+        JADE_LOTUS = 2,
+        KABAL = 3,
     }
 
     public enum OptionType
@@ -596,7 +629,10 @@ namespace HearthDb.Enums
         REQ_TARGET_WITH_DEATHRATTLE = 58,
         REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_SECRETS = 59,
         REQ_SECRET_CAP_FOR_NON_SECRET = 60,
-        REQ_DRAG_TO_PLAY = 61,
+        REQ_TARGET_EXACT_COST = 61,
+        REQ_STEALTHED_TARGET = 62,
+        REQ_MINION_SLOT_OR_MANA_CRYSTAL_SLOT = 63,
+        REQ_DRAG_TO_PLAY = 64,
     }
 
     public enum PlayState

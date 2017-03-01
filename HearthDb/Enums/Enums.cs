@@ -64,6 +64,7 @@ namespace HearthDb.Enums
         THE_GRAND_TOURNAMENT = 10,
         OLD_GODS = 11,
         FIRST_PURCHASE = 17,
+        MEAN_STREETS = 19,
     }
 
     public enum CardClass
@@ -351,7 +352,6 @@ namespace HearthDb.Enums
         WEAPON = 334,
         InvisibleDeathrattle = 335,
         HEALTH_MINIMUM = 337,
-        OneTurnEffect = 338,
         TAG_ONE_TURN_EFFECT = 338,
         SILENCE = 339,
         COUNTER = 340,
@@ -476,6 +476,7 @@ namespace HearthDb.Enums
         KABAL = 484,
         ADDITIONAL_PLAY_REQS_1 = 515,
         ADDITIONAL_PLAY_REQS_2 = 516,
+        BOSS = 556,
     }
 
     public enum GameType

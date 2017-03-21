@@ -64,7 +64,9 @@ namespace HearthDb.Enums
         THE_GRAND_TOURNAMENT = 10,
         OLD_GODS = 11,
         FIRST_PURCHASE = 17,
+        SIGNUP_INCENTIVE = 18,
         MEAN_STREETS = 19,
+        UNGORO = 20,
     }
 
     public enum CardClass

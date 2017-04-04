@@ -92,6 +92,7 @@ namespace HearthDb.Enums
         TEST_TEMPORARY = 1,
         CORE = 2,
         EXPERT1 = 3,
+        HOF = 4,
         REWARD = 4,
         MISSIONS = 5,
         DEMO = 6,
@@ -120,6 +121,7 @@ namespace HearthDb.Enums
         KARA_RESERVE = 24,
         GANGS = 25,
         GANGS_RESERVE = 26,
+        UNGORO = 27,
     }
 
     public enum CardType
@@ -461,6 +463,8 @@ namespace HearthDb.Enums
         CANT_BE_FATIGUED = 456,
         AUTOATTACK = 457,
         ARMS_DEALING = 458,
+        PENDING_EVOLUTIONS = 461,
+        QUEST = 462,
         TAG_LAST_KNOWN_COST_IN_HAND = 466,
         DEFINING_ENCHANTMENT = 469,
         FINISH_ATTACK_SPELL_ON_DAMAGE = 470,
@@ -478,7 +482,18 @@ namespace HearthDb.Enums
         KABAL = 484,
         ADDITIONAL_PLAY_REQS_1 = 515,
         ADDITIONAL_PLAY_REQS_2 = 516,
+        ELEMENTAL_POWERED_UP = 532,
+        QUEST_PROGRESS = 534,
+        QUEST_PROGRESS_TOTAL = 535,
+        QUEST_CONTRIBUTOR = 541,
+        ADAPT = 546,
+        IS_CURRENT_TURN_AN_EXTRA_TURN = 547,
+        EXTRA_TURNS_TAKEN_THIS_GAME = 548,
+        SHIFTING_MINION = 549,
+        SHIFTING_WEAPON = 550,
         BOSS = 556,
+        STAMPEDE = 564,
+        CORRUPTED = 681,
     }
 
     public enum GameType
@@ -572,11 +587,13 @@ namespace HearthDb.Enums
 
     public enum PlayReq
     {
+        INVALID = -1,
         REQ_MINION_TARGET = 1,
         REQ_FRIENDLY_TARGET = 2,
         REQ_ENEMY_TARGET = 3,
         REQ_DAMAGED_TARGET = 4,
         REQ_ENCHANTED_TARGET = 5,
+        REQ_MAX_SECRETS = 5,
         REQ_FROZEN_TARGET = 6,
         REQ_CHARGE_TARGET = 7,
         REQ_TARGET_MAX_ATTACK = 8,
@@ -589,6 +606,7 @@ namespace HearthDb.Enums
         REQ_YOUR_TURN = 15,
         REQ_NONSTEALTH_ENEMY_TARGET = 16,
         REQ_HERO_TARGET = 17,
+        REQ_SECRET_ZONE_CAP = 18,
         REQ_SECRET_CAP = 18,
         REQ_MINION_CAP_IF_TARGET_AVAILABLE = 19,
         REQ_MINION_CAP = 20,
@@ -597,6 +615,7 @@ namespace HearthDb.Enums
         REQ_MINIMUM_ENEMY_MINIONS = 23,
         REQ_TARGET_FOR_COMBO = 24,
         REQ_NOT_EXHAUSTED_ACTIVATE = 25,
+        REQ_UNIQUE_SECRET_OR_QUEST = 26,
         REQ_UNIQUE_SECRET = 26,
         REQ_TARGET_TAUNTER = 27,
         REQ_CAN_BE_ATTACKED = 28,
@@ -632,10 +651,13 @@ namespace HearthDb.Enums
         REQ_TARGET_WITH_DEATHRATTLE = 58,
         REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_FRIENDLY_SECRETS = 59,
         REQ_SECRET_CAP_FOR_NON_SECRET = 60,
+        REQ_SECRET_ZONE_CAP_FOR_NON_SECRET = 60,
         REQ_TARGET_EXACT_COST = 61,
         REQ_STEALTHED_TARGET = 62,
         REQ_MINION_SLOT_OR_MANA_CRYSTAL_SLOT = 63,
-        REQ_DRAG_TO_PLAY = 64,
+        REQ_MAX_QUESTS = 64,
+        REQ_TARGET_IF_AVAILABE_AND_ELEMENTAL_PLAYED_LAST_TURN = 65,
+        REQ_DRAG_TO_PLAY = 66,
     }
 
     public enum PlayState

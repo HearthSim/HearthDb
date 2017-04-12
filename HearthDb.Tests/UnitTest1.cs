@@ -22,6 +22,7 @@ namespace HearthDb.Tests
 			Assert.AreEqual(CardClass.MAGE, Cards.All["AT_001"].Class);
 			Assert.AreEqual(5, Cards.All["AT_001"].Cost);
 			Assert.AreEqual(0, Cards.All["AT_001"].Attack);
+			Assert.AreEqual(2539, Cards.All["AT_001"].DbfId);
 		}
 
 		[TestMethod]
@@ -50,6 +51,12 @@ namespace HearthDb.Tests
 			Assert.AreEqual(c1, c2);
 			Assert.AreEqual(c2, c3);
 			Assert.AreEqual(c3, c4);
+		}
+
+		[TestMethod]
+		public void FromDbfIdTest()
+		{
+			Assert.AreEqual("Flame Lance", Cards.GetFromDbfId(2539).Name);
 		}
 	}
 }

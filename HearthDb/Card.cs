@@ -21,6 +21,8 @@ namespace HearthDb
 
 		public string Id => Entity.CardId;
 
+		public int DbfId => Entity.DbfId;
+
 		public string Name => GetLocName(DefaultLanguage);
 
 		public string Text => GetLocText(DefaultLanguage);

@@ -15,6 +15,9 @@ namespace HearthDb.CardDefs
 		[XmlAttribute("CardID")]
 		public string CardId { get; set; }
 
+		[XmlAttribute("ID")]
+		public int DbfId { get; set; }
+
 		[XmlAttribute("version")]
 		public int Version { get; set; }
 

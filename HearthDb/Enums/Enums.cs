@@ -26,17 +26,22 @@ namespace HearthDb.Enums
         BGT_VS_AI = 4,
         BGT_TUTORIAL = 5,
         BGT_ASYNC = 6,
-        BGT_CASUAL_STANDARD = 7,
-        BGT_TEST1 = 8,
-        BGT_TEST2 = 9,
         BGT_NEWBIE = 9,
-        BGT_TEST3 = 10,
+        BGT_CASUAL_STANDARD_NEWBIE = 9,
+        BGT_CASUAL_STANDARD_NORMAL = 10,
+        BGT_CASUAL_STANDARD = 10,
+        BGT_TEST1 = 11,
+        BGT_TEST2 = 12,
+        BGT_TEST3 = 13,
         BGT_TAVERNBRAWL_PVP = 16,
         BGT_TAVERNBRAWL_1P_VERSUS_AI = 17,
         BGT_TAVERNBRAWL_2P_COOP = 18,
         BGT_RANKED_WILD = 30,
         BGT_CASUAL_WILD = 31,
-        BGT_LAST = 32,
+        BGT_FSG_BRAWL_VS_FRIEND = 40,
+        BGT_FSG_BRAWL_PVP = 41,
+        BGT_FSG_BRAWL_1P_VERSUS_AI = 42,
+        BGT_FSG_BRAWL_2P_COOP = 43,
     }
 
     public enum BnetRegion
@@ -67,6 +72,14 @@ namespace HearthDb.Enums
         SIGNUP_INCENTIVE = 18,
         MEAN_STREETS = 19,
         UNGORO = 20,
+    }
+
+    public enum BrawlType
+    {
+        BRAWL_TYPE_UNKNOWN = 0,
+        BRAWL_TYPE_TAVERN_BRAWL = 1,
+        BRAWL_TYPE_FIRESIDE_GATHERING = 2,
+        BRAWL_TYPE_COUNT = 3,
     }
 
     public enum CardClass
@@ -149,11 +162,13 @@ namespace HearthDb.Enums
 
     public enum DeckType
     {
+        UNKNOWN_DECK_TYPE = 0,
         NORMAL_DECK = 1,
         AI_DECK = 2,
         DRAFT_DECK = 4,
         PRECON_DECK = 5,
         TAVERN_BRAWL_DECK = 6,
+        FSG_BRAWL_DECK = 7,
         HIDDEN_DECK = 1000,
     }
 
@@ -509,7 +524,10 @@ namespace HearthDb.Enums
         GT_TAVERNBRAWL = 16,
         GT_TB_1P_VS_AI = 17,
         GT_TB_2P_COOP = 18,
-        GT_LAST = 19,
+        GT_FSG_BRAWL_VS_FRIEND = 19,
+        GT_FSG_BRAWL = 20,
+        GT_FSG_BRAWL_1P_VS_AI = 21,
+        GT_FSG_BRAWL_2P_COOP = 22,
     }
 
     public enum GoldRewardState
@@ -772,6 +790,14 @@ namespace HearthDb.Enums
         TEAM = 6,
         ENTITY_DEFINITION = 7,
         STRING = 8,
+    }
+
+    public enum ZodiacYear
+    {
+        INVALID = -1,
+        PRE_STANDARD = 0,
+        KRAKEN = 1,
+        MAMMOTH = 2,
     }
 
     public enum Zone

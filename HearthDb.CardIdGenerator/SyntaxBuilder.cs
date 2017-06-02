@@ -102,7 +102,7 @@ namespace HearthDb.CardIdGenerator
 		private static string ResolveNamingConflict(string name, Card card, Dictionary<string, List<string>> newNamingConflicts)
 		{
 			List<string> conflictingIds;
-			if(_namingConflicts.TryGetValue(name + Helper.GetSetAbbreviation(card.Set), out conflictingIds))
+			if(_namingConflicts.TryGetValue(name + Helper.GetSetAbbreviation(card.Set), out conflictingIds) && conflictingIds.Contains(card.Id))
 				name += Helper.GetSetAbbreviation(card.Set) + (conflictingIds.IndexOf(card.Id) + 1);
 			else if(_namingConflicts.TryGetValue(name, out conflictingIds))
 			{

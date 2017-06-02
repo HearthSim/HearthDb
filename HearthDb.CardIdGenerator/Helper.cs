@@ -93,12 +93,6 @@ namespace HearthDb.CardIdGenerator
 		{
 			switch(set)
 			{
-				case BRM:
-					return "BRM";
-				case TGT:
-					return "TGT";
-				case LOE:
-					return "LOE";
 				case FP1:
 					return "NAXX";
 				case PE1:
@@ -113,8 +107,6 @@ namespace HearthDb.CardIdGenerator
 					return "Invalid";
 				case TEST_TEMPORARY:
 					return "Test";
-				case REWARD:
-					return "Reward";
 				case DEMO:
 					return "Demo";
 				case NONE:
@@ -136,7 +128,7 @@ namespace HearthDb.CardIdGenerator
 				case SLUSH:
 					return "Slush";
 				default:
-					return "";
+					return set.ToString();
 			}
 		}
 

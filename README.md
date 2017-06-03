@@ -7,6 +7,7 @@ HearthDb is a .NET Hearthstone database.
 
 ## Deckstrings
 `HearthDb.Deckstrings.DeckSerializer` can serialize decks from and to Hearthstones deck string format, used for importing/exporting decks.  
+
 See [here](https://github.com/HearthSim/HearthDb/blob/master/HearthDb.Tests/DeckSerializerTest.cs) for example usage.
 
 Full deck strings documentation can be found here: https://hearthsim.info/docs/deckstrings/

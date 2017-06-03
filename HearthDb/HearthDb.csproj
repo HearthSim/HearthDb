@@ -69,6 +69,10 @@
     <Compile Include="CardDefs\TriggeredPowerHistoryInfo.cs" />
     <Compile Include="CardIds.cs" />
     <Compile Include="Cards.cs" />
+    <Compile Include="Deckstrings\Deck.cs" />
+    <Compile Include="Deckstrings\DeckSerializer.cs" />
+    <Compile Include="Deckstrings\InvalidDeckException.cs" />
+    <Compile Include="Deckstrings\VarInt.cs" />
     <Compile Include="Enums\Dictionaries.cs" />
     <Compile Include="Enums\Enums.cs" />
     <Compile Include="Info.cs" />

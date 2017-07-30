@@ -509,6 +509,13 @@ namespace HearthDb.Enums
         BOSS = 556,
         STAMPEDE = 564,
         CORRUPTED = 681,
+        OVERRIDE_EMOTE_0 = 740,
+        OVERRIDE_EMOTE_1 = 741,
+        OVERRIDE_EMOTE_2 = 742,
+        OVERRIDE_EMOTE_3 = 743,
+        OVERRIDE_EMOTE_4 = 744,
+        OVERRIDE_EMOTE_5 = 745,
+        SCORE_FOOTERID = 751,
     }
 
     public enum GameType
@@ -802,7 +809,6 @@ namespace HearthDb.Enums
 
     public enum Zone
     {
-        DISCARD = -2,
         INVALID = 0,
         PLAY = 1,
         DECK = 2,

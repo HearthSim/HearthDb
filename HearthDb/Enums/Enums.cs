@@ -72,6 +72,7 @@ namespace HearthDb.Enums
         SIGNUP_INCENTIVE = 18,
         MEAN_STREETS = 19,
         UNGORO = 20,
+        FROZEN_THRONE = 21,
     }
 
     public enum BrawlType
@@ -135,6 +136,7 @@ namespace HearthDb.Enums
         GANGS = 25,
         GANGS_RESERVE = 26,
         UNGORO = 27,
+        ICECROWN = 1001,
     }
 
     public enum CardType
@@ -484,7 +486,9 @@ namespace HearthDb.Enums
         DEFINING_ENCHANTMENT = 469,
         FINISH_ATTACK_SPELL_ON_DAMAGE = 470,
         KAZAKUS_POTION_POWER_1 = 471,
+        MODULAR_ENTITY_PART_1 = 471,
         KAZAKUS_POTION_POWER_2 = 472,
+        MODULAR_ENTITY_PART_2 = 472,
         MODIFY_DEFINITION_ATTACK = 473,
         MODIFY_DEFINITION_HEALTH = 474,
         MODIFY_DEFINITION_COST = 475,
@@ -506,9 +510,12 @@ namespace HearthDb.Enums
         EXTRA_TURNS_TAKEN_THIS_GAME = 548,
         SHIFTING_MINION = 549,
         SHIFTING_WEAPON = 550,
+        DEATH_KNIGHT = 554,
         BOSS = 556,
         STAMPEDE = 564,
+        IS_VAMPIRE = 680,
         CORRUPTED = 681,
+        LIFESTEAL = 685,
         OVERRIDE_EMOTE_0 = 740,
         OVERRIDE_EMOTE_1 = 741,
         OVERRIDE_EMOTE_2 = 742,
@@ -516,6 +523,12 @@ namespace HearthDb.Enums
         OVERRIDE_EMOTE_4 = 744,
         OVERRIDE_EMOTE_5 = 745,
         SCORE_FOOTERID = 751,
+        HERO_POWER_DISABLED = 777,
+        VALEERASHADOW = 779,
+        OVERRIDECARDNAME = 781,
+        OVERRIDECARDTEXTBUILDER = 782,
+        HIDDEN_CHOICE = 813,
+        ZOMBEAST = 823,
     }
 
     public enum GameType
@@ -584,6 +597,7 @@ namespace HearthDb.Enums
         EFFECT_TIMING = 6,
         HISTORY_TARGET = 7,
         OVERRIDE_HISTORY = 8,
+        HISTORY_TARGET_DONT_DUPLICATE_UNTIL_END = 9,
     }
 
     public enum Mulligan
@@ -682,7 +696,12 @@ namespace HearthDb.Enums
         REQ_MINION_SLOT_OR_MANA_CRYSTAL_SLOT = 63,
         REQ_MAX_QUESTS = 64,
         REQ_TARGET_IF_AVAILABE_AND_ELEMENTAL_PLAYED_LAST_TURN = 65,
-        REQ_DRAG_TO_PLAY = 66,
+        REQ_TARGET_NOT_VAMPIRE = 66,
+        REQ_TARGET_NOT_DAMAGEABLE_ONLY_BY_WEAPONS = 67,
+        REQ_NOT_DISABLED_HERO_POWER = 68,
+        REQ_MUST_PLAY_OTHER_CARD_FIRST = 69,
+        REQ_HAND_NOT_FULL = 70,
+        REQ_DRAG_TO_PLAY = 71,
     }
 
     public enum PlayState

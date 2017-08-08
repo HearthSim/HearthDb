@@ -58,5 +58,12 @@ namespace HearthDb.Tests
 		{
 			Assert.AreEqual("Flame Lance", Cards.GetFromDbfId(2539).Name);
 		}
+
+		[TestMethod]
+		public void HeroCardTest()
+		{
+			Assert.IsTrue(Cards.Collectible.ContainsKey(CardIds.Collectible.Hunter.DeathstalkerRexxar));
+			Assert.AreEqual("Deathstalker Rexxar", Cards.GetFromDbfId(43398).Name);
+		}
 	}
 }

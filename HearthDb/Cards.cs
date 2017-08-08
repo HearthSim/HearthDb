@@ -31,7 +31,7 @@ namespace HearthDb
 				{
 					var card = new Card(entity);
 					All.Add(entity.CardId, card);
-					if(card.Collectible && card.Type != CardType.HERO)
+					if(card.Collectible && (card.Type != CardType.HERO || card.Set != CardSet.CORE && card.Set != CardSet.HERO_SKINS))
 						Collectible.Add(entity.CardId, card);
 				}
 			}

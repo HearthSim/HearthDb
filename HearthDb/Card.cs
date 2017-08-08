@@ -49,6 +49,8 @@ namespace HearthDb
 
 		public int Durability => Entity.GetTag(DURABILITY);
 
+		public int Armor => Entity.GetTag(ARMOR);
+
 		public string[] Mechanics
 		{
 			get

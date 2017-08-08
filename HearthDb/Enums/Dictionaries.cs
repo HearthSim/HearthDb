@@ -61,7 +61,8 @@ namespace HearthDb.Enums
 			{GameTag.HOW_TO_EARN_GOLDEN, "HowToGetThisGoldCard"},
 			{GameTag.AI_MUST_PLAY, "AIMustPlay"},
 			{GameTag.AFFECTED_BY_SPELL_POWER, "AffectedBySpellPower"},
-			{GameTag.SPARE_PART, "SparePart"}
+			{GameTag.SPARE_PART, "SparePart"},
+			{GameTag.LIFESTEAL, "Lifesteal"}
 		};
 
 		public static Dictionary<GameTag, string> Mechanics = new Dictionary<GameTag, string>
@@ -79,7 +80,9 @@ namespace HearthDb.Enums
 			{GameTag.SECRET, "Secret"},
 			{GameTag.COMBO, "Combo"},
 			{GameTag.SILENCE, "Silence"},
-			{GameTag.ImmuneToSpellpower, "ImmuneToSpellpower"}
+			{GameTag.ImmuneToSpellpower, "ImmuneToSpellpower"},
+			{GameTag.POISONOUS, "Poisonous"},
+			{GameTag.LIFESTEAL, "Lifesteal"}
 		};
 
 		public static Dictionary<GameTag, string> ReferencedMechanics = new Dictionary<GameTag, string> {{GameTag.TREASURE, "Discover"}};
@@ -130,7 +133,8 @@ namespace HearthDb.Enums
 			{GameTag.HOW_TO_EARN_GOLDEN, typeof(string)},
 			{GameTag.AI_MUST_PLAY, typeof(bool)},
 			{GameTag.AFFECTED_BY_SPELL_POWER, typeof(bool)},
-			{GameTag.SPARE_PART, typeof(bool)}
+			{GameTag.SPARE_PART, typeof(bool)},
+			{GameTag.LIFESTEAL, typeof(bool)}
 		};
 	}
 }

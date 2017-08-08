@@ -65,5 +65,14 @@ namespace HearthDb.Tests
 			Assert.IsTrue(Cards.Collectible.ContainsKey(CardIds.Collectible.Hunter.DeathstalkerRexxar));
 			Assert.AreEqual("Deathstalker Rexxar", Cards.GetFromDbfId(43398).Name);
 		}
+
+		[TestMethod]
+		public void TestMechanics()
+		{
+			var deadscaleKnight = Cards.Collectible[CardIds.Collectible.Neutral.DeadscaleKnight];
+			Assert.IsTrue(deadscaleKnight.Mechanics.Contains("Lifesteal"));
+			var giantWasp = Cards.Collectible[CardIds.Collectible.Neutral.GiantWasp];
+			Assert.IsTrue(giantWasp.Mechanics.Contains("Poisonous"));
+		}
 	}
 }

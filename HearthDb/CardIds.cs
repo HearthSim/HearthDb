@@ -2882,11 +2882,11 @@ namespace HearthDb
                 public const string SecretsOfTheCitadel = "ICCA03_001";
                 public const string Sindragosa = "ICCA04_001";
                 public const string BlockOfIce = "ICCA04_004";
-                public const string FrostBreath10011 = "ICCA04_008p";
-                public const string FrostBreath10012 = "ICCA04_009p";
-                public const string FrostBreath10013 = "ICCA04_010p";
+                public const string FrostBreathICECROWN1 = "ICCA04_008p";
+                public const string FrostBreathICECROWN2 = "ICCA04_009p";
+                public const string FrostBreathICECROWN3 = "ICCA04_010p";
                 public const string IceClaw = "ICCA04_011p";
-                public const string BloodQueenLanathel1001 = "ICCA05_001";
+                public const string BloodQueenLanathelICECROWN = "ICCA05_001";
                 public const string BittenEnchantment = "ICCA05_002e";
                 public const string VampiricBite = "ICCA05_002p";
                 public const string SleepingAcolyte = "ICCA05_003";
@@ -2897,8 +2897,8 @@ namespace HearthDb
                 public const string BoneStorm = "ICCA06_004";
                 public const string BoneSpike = "ICCA06_005";
                 public const string ProfessorPutricide = "ICCA07_001";
-                public const string ProfessorPutricideHeroic10011 = "ICCA07_001h2";
-                public const string ProfessorPutricideHeroic10012 = "ICCA07_001h3";
+                public const string ProfessorPutricideHeroicICECROWN1 = "ICCA07_001h2";
+                public const string ProfessorPutricideHeroicICECROWN2 = "ICCA07_001h3";
                 public const string MadScience = "ICCA07_002p";
                 public const string MadderScience = "ICCA07_003p";
                 public const string GrowingOoze = "ICCA07_004";
@@ -2959,7 +2959,7 @@ namespace HearthDb
                 public const string TheTrueKing = "ICCA08_027";
                 public const string ThePriceOfPower = "ICCA08_028";
                 public const string ShutUpPriest = "ICCA08_029";
-                public const string RemorselessWinter1001 = "ICCA08_030p";
+                public const string RemorselessWinterICECROWN = "ICCA08_030p";
                 public const string AbominableKnucklesToken = "ICCA09_003t4";
             }
 
@@ -3033,7 +3033,7 @@ namespace HearthDb
                 public const string JusticarTrueheart_DireShapeshift = "AT_132_DRUID";
                 public const string JusticarTrueheart_DireClaws = "AT_132_DRUIDe";
                 public const string FandralStaghelm_SabertoothTiger = "OG_044c";
-                public const string Druid = "FB_LK_Druid_copy";
+                public const string DruidTavernBrawl = "FB_LK_Druid_copy";
                 public const string NextHeroDruidEnchCopy = "FB_LK_Druid_Ench_copy";
                 public const string NextHeroDruidEnch = "FB_TagTeam_Druid_Ench";
                 public const string AyaBlackpawTavernBrawl = "TB_BossRumble_002";
@@ -3121,7 +3121,7 @@ namespace HearthDb
                 public const string JusticarTrueheart_BallistaShot = "AT_132_HUNTER";
                 public const string SteadyShot_SteadyShotHeroSkins = "DS1h_292_H1";
                 public const string BallistaShotHeroSkins = "DS1h_292_H1_AT_132";
-                public const string Hunter = "FB_LK_Hunter_copy";
+                public const string HunterTavernBrawl = "FB_LK_Hunter_copy";
                 public const string NextHeroHunterEnchCopy = "FB_LK_Hunter_Ench_copy";
                 public const string NextHeroHunterEnch = "FB_TagTeam_Hunter_Ench";
                 public const string SecondClassHunterTavernBrawl = "TB_ClassRandom_Hunter";
@@ -3170,7 +3170,7 @@ namespace HearthDb
                 public const string FireblastRank2HeroSkins1 = "CS2_034_H1_AT_132";
                 public const string Fireblast_FireblastHeroSkins2 = "CS2_034_H2";
                 public const string FireblastRank2HeroSkins2 = "CS2_034_H2_AT_132";
-                public const string Mage = "FB_LK_Mage_copy";
+                public const string MageTavernBrawl = "FB_LK_Mage_copy";
                 public const string NextHeroMageEnchCopy = "FB_LK_Mage_Ench_copy";
                 public const string RelentlessMarch = "FB_LK002";
                 public const string NextHeroMageEnch = "FB_TagTeam_Mage_Ench";
@@ -3232,7 +3232,7 @@ namespace HearthDb
                 public const string TheSilverHandHeroSkins1 = "CS2_101_H1_AT_132";
                 public const string Reinforce_ReinforceHeroSkins2 = "CS2_101_H2";
                 public const string TheSilverHandHeroSkins2 = "CS2_101_H2_AT_132";
-                public const string Paladin = "FB_LK_Paladin_copy";
+                public const string PaladinTavernBrawl = "FB_LK_Paladin_copy";
                 public const string NextHeroPaladinEnchCopy = "FB_LK_Paladin_Ench_copy";
                 public const string NextHeroPaladinEnch = "FB_TagTeam_Paladin_Ench";
                 public const string HanchoTavernBrawl = "TB_BossRumble_001";
@@ -3284,7 +3284,7 @@ namespace HearthDb
                 public const string JusticarTrueheart_Heal = "AT_132_PRIEST";
                 public const string LesserHeal_LesserHealHeroSkins = "CS1h_001_H1";
                 public const string HealHeroSkins = "CS1h_001_H1_AT_132";
-                public const string Priest = "FB_LK_Priest_copy";
+                public const string PriestTavernBrawl = "FB_LK_Priest_copy";
                 public const string NextHeroPriestEnchCopy = "FB_LK_Priest_Ench_copy";
                 public const string NextHeroPriestEnch = "FB_TagTeam_Priest_Ench";
                 public const string SecondClassPriestTavernBrawl = "TB_ClassRandom_Priest";
@@ -3328,7 +3328,7 @@ namespace HearthDb
                 public const string JusticarTrueheart_PoisonedDaggerHeroSkins = "AT_132_ROGUEt_H1";
                 public const string WickedKnife_WickedKnifeHeroSkins = "CS2_082_H1";
                 public const string DaggerMasteryHeroSkins = "CS2_083b_H1";
-                public const string Rogue = "FB_LK_Rogue_copy";
+                public const string RogueTavernBrawl = "FB_LK_Rogue_copy";
                 public const string NextHeroRogueEnchCopy = "FB_LK_Rogue_Ench_copy";
                 public const string NextHeroRogueEnch = "FB_TagTeam_Rogue_Ench";
                 public const string SharpenedTavernBrawl = "TB_BlingBrawl_Hero1e";
@@ -3395,7 +3395,7 @@ namespace HearthDb
                 public const string DanEmmons = "CRED_47";
                 public const string TotemicCall_TotemicCallHeroSkins = "CS2_049_H1";
                 public const string TotemicSlamHeroSkins = "CS2_049_H1_AT_132";
-                public const string Shaman = "FB_LK_Shaman_copy";
+                public const string ShamanTavernBrawl = "FB_LK_Shaman_copy";
                 public const string NextHeroShamanEnchCopy = "FB_LK_Shaman_Ench_copy";
                 public const string NextHeroShamanEnch = "FB_TagTeam_Shaman_Ench";
                 public const string SecondClassShamanTavernBrawl = "TB_ClassRandom_Shaman";
@@ -3439,7 +3439,7 @@ namespace HearthDb
                 public const string TinyKnightofEvil_FelrageEnchantment = "AT_021e";
                 public const string WilfredFizzlebang_MasterSummonerEnchantment = "AT_027e";
                 public const string JusticarTrueheart_SoulTap = "AT_132_WARLOCK";
-                public const string Warlock = "FB_LK_Warlock_copy";
+                public const string WarlockTavernBrawl = "FB_LK_Warlock_copy";
                 public const string NextHeroWarlockEnchCopy = "FB_LK_Warlock_Ench_copy";
                 public const string NextHeroWarlockEnch = "FB_TagTeam_Warlock_Ench";
                 public const string SecondClassWarlockTavernBrawl = "TB_ClassRandom_Warlock";
@@ -3496,7 +3496,7 @@ namespace HearthDb
                 public const string JusticarTrueheart_TankUp = "AT_132_WARRIOR";
                 public const string ArmorUp_ArmorUpHeroSkins = "CS2_102_H1";
                 public const string TankUpHeroSkins = "CS2_102_H1_AT_132";
-                public const string Warrior = "FB_LK_Warrior_copy";
+                public const string WarriorTavernBrawl = "FB_LK_Warrior_copy";
                 public const string NextHeroWarriorEnchCopy = "FB_LK_Warrior_Ench_copy";
                 public const string NextHeroWarriorEnch = "FB_TagTeam_Warrior_Ench";
                 public const string SecondClassWarriorTavernBrawl = "TB_ClassRandom_Warrior";

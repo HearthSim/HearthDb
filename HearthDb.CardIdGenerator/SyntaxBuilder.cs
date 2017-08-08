@@ -40,7 +40,7 @@ namespace HearthDb.CardIdGenerator
 						var name = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(card.Name.ToLower());
 						name = Regex.Replace(name, @"[^\w\d]", "");
 						name = ResolveNameFromId(card, name);
-						name = ResolveNamingConflict(name, card, newNamingConflicts);
+						name = ResolveNamingConflict(name, card, newNamingConflicts, className);
 						cCard = cCard.AddMembers(GenerateConst(name, card.Id));
 						anyCards = true;
 					}
@@ -99,7 +99,7 @@ namespace HearthDb.CardIdGenerator
 			return name;
 		}
 
-		private static string ResolveNamingConflict(string name, Card card, Dictionary<string, List<string>> newNamingConflicts)
+		private static string ResolveNamingConflict(string name, Card card, Dictionary<string, List<string>> newNamingConflicts, string className)
 		{
 			List<string> conflictingIds;
 			if(_namingConflicts.TryGetValue(name + Helper.GetSetAbbreviation(card.Set), out conflictingIds) && conflictingIds.Contains(card.Id))
@@ -111,6 +111,8 @@ namespace HearthDb.CardIdGenerator
 				else
 					name += (conflictingIds.IndexOf(card.Id) + 1).ToString();
 			}
+			else if(className == name)
+				name += Helper.GetSetAbbreviation(card.Set);
 			List<string> ids;
 			if(!newNamingConflicts.TryGetValue(name, out ids))
 			{

@@ -330,6 +330,51 @@ namespace HearthDb
                 public const string Blingtron3000 = "GVG_119";
                 public const string HemetNesingwary = "GVG_120";
                 public const string ClockworkGiant = "GVG_121";
+                public const string PhantomFreebooter = "ICC_018";
+                public const string Skelemancer = "ICC_019";
+                public const string SnowflipperPenguin = "ICC_023";
+                public const string RattlingRascal = "ICC_025";
+                public const string GrimNecromancer = "ICC_026";
+                public const string BoneDrake = "ICC_027";
+                public const string SunborneValkyr = "ICC_028";
+                public const string CobaltScalebane = "ICC_029";
+                public const string NightHowler = "ICC_031";
+                public const string Venomancer = "ICC_032";
+                public const string Vryghoul = "ICC_067";
+                public const string AcherusVeteran = "ICC_092";
+                public const string TuskarrFisherman = "ICC_093";
+                public const string FallenSunCleric = "ICC_094";
+                public const string FurnacefireColossus = "ICC_096";
+                public const string GraveShambler = "ICC_097";
+                public const string TombLurker = "ICC_098";
+                public const string TickingAbomination = "ICC_099";
+                public const string DeadscaleKnight = "ICC_220";
+                public const string CorpseRaiser = "ICC_257";
+                public const string TheLichKing = "ICC_314";
+                public const string SaroniteChainGang = "ICC_466";
+                public const string Deathspeaker = "ICC_467";
+                public const string WretchedTiller = "ICC_468";
+                public const string HappyGhoul = "ICC_700";
+                public const string SkulkingGeist = "ICC_701";
+                public const string ShallowGravedigger = "ICC_702";
+                public const string Bonemare = "ICC_705";
+                public const string NerubianUnraveler = "ICC_706";
+                public const string DeathaxePunisher = "ICC_810";
+                public const string MeatWagon = "ICC_812";
+                public const string PrinceKeleseth = "ICC_851";
+                public const string PrinceTaldaram = "ICC_852";
+                public const string PrinceValanar = "ICC_853";
+                public const string Arfus = "ICC_854";
+                public const string HyldnirFrostrider = "ICC_855";
+                public const string Spellweaver = "ICC_856";
+                public const string NecroticGeist = "ICC_900";
+                public const string DrakkariEnchanter = "ICC_901";
+                public const string Mindbreaker = "ICC_902";
+                public const string WickedSkeleton = "ICC_904";
+                public const string Bloodworm = "ICC_905";
+                public const string KeeningBanshee = "ICC_911";
+                public const string Corpsetaker = "ICC_912";
+                public const string TaintedZealot = "ICC_913";
                 public const string PompousThespian = "KAR_011";
                 public const string RunicEgg = "KAR_029";
                 public const string PantrySpider = "KAR_030a";
@@ -541,6 +586,16 @@ namespace HearthDb
                 public const string DarkWispers = "GVG_041";
                 public const string DruidOfTheFang = "GVG_080";
                 public const string MalfurionStormrage = "HERO_06";
+                public const string Fatespinner = "ICC_047";
+                public const string Webweave = "ICC_050";
+                public const string DruidOfTheSwarm = "ICC_051";
+                public const string SpreadingPlague = "ICC_054";
+                public const string Gnash = "ICC_079";
+                public const string UltimateInfestation = "ICC_085";
+                public const string StrongshellScavenger = "ICC_807";
+                public const string CryptLord = "ICC_808";
+                public const string MalfurionThePestilent = "ICC_832";
+                public const string Hadronox = "ICC_835";
                 public const string MenagerieWarden = "KAR_065";
                 public const string MoongladePortal = "KAR_075";
                 public const string EnchantedRaven = "KAR_300";
@@ -628,6 +683,16 @@ namespace HearthDb
                 public const string SteamwheedleSniper = "GVG_087";
                 public const string Rexxar = "HERO_05";
                 public const string AlleriaWindrunner = "HERO_05a";
+                public const string ExplodingBloatbat = "ICC_021";
+                public const string ToxicArrow = "ICC_049";
+                public const string PlayDead = "ICC_052";
+                public const string VenomstrikeTrap = "ICC_200";
+                public const string ProfessorPutricide = "ICC_204";
+                public const string CorpseWidow = "ICC_243";
+                public const string StitchedTracker = "ICC_415";
+                public const string Bearshark = "ICC_419";
+                public const string AbominableBowman = "ICC_825";
+                public const string DeathstalkerRexxar = "ICC_828";
                 public const string CatTrick = "KAR_004";
                 public const string KindlyGrandmother = "KAR_005";
                 public const string CloakedHuntress = "KAR_006";
@@ -713,6 +778,16 @@ namespace HearthDb
                 public const string JainaProudmoore = "HERO_08";
                 public const string Medivh = "HERO_08a";
                 public const string Khadgar = "HERO_08b";
+                public const string IceWalker = "ICC_068";
+                public const string GhastlyConjurer = "ICC_069";
+                public const string FrozenClone = "ICC_082";
+                public const string DoomedApprentice = "ICC_083";
+                public const string GlacialMysteries = "ICC_086";
+                public const string Coldwraith = "ICC_252";
+                public const string Simulacrum = "ICC_823";
+                public const string FrostLichJaina = "ICC_833";
+                public const string BreathOfSindragosa = "ICC_836";
+                public const string Sindragosa = "ICC_838";
                 public const string BabblingBook = "KAR_009";
                 public const string FirelandsPortal = "KAR_076";
                 public const string MedivhsValet = "KAR_092";
@@ -800,6 +875,17 @@ namespace HearthDb
                 public const string ScarletPurifier = "GVG_101";
                 public const string UtherLightbringer = "HERO_04";
                 public const string LadyLiadrin = "HERO_04a";
+                public const string PrinceArthas = "HERO_04b";
+                public const string ArrogantCrusader = "ICC_034";
+                public const string RighteousProtector = "ICC_038";
+                public const string DarkConviction = "ICC_039";
+                public const string LightsSorrow = "ICC_071";
+                public const string DesperateStand = "ICC_244";
+                public const string Blackguard = "ICC_245";
+                public const string HowlingCommander = "ICC_801";
+                public const string ChillbladeChampion = "ICC_820";
+                public const string UtherOfTheEbonBlade = "ICC_829";
+                public const string BolvarFireblood = "ICC_858";
                 public const string NightbaneTemplar = "KAR_010";
                 public const string IvoryKnight = "KAR_057";
                 public const string SilvermoonPortal = "KAR_077";
@@ -885,6 +971,16 @@ namespace HearthDb
                 public const string UpgradedRepairBot = "GVG_083";
                 public const string AnduinWrynn = "HERO_09";
                 public const string TyrandeWhisperwind = "HERO_09a";
+                public const string DevourMind = "ICC_207";
+                public const string ShadowAscendant = "ICC_210";
+                public const string AcolyteOfAgony = "ICC_212";
+                public const string EternalServitude = "ICC_213";
+                public const string ObsidianStatue = "ICC_214";
+                public const string ArchbishopBenedictus = "ICC_215";
+                public const string ShadowEssence = "ICC_235";
+                public const string SpiritLash = "ICC_802";
+                public const string ShadowreaperAnduin = "ICC_830";
+                public const string EmbraceDarkness = "ICC_849";
                 public const string Purify = "KAR_013";
                 public const string PriestOfTheFeast = "KAR_035";
                 public const string OnyxBishop = "KAR_204";
@@ -967,6 +1063,16 @@ namespace HearthDb
                 public const string OgreNinja = "GVG_088";
                 public const string ValeeraSanguinar = "HERO_03";
                 public const string MaievShadowsong = "HERO_03a";
+                public const string BoneBaron = "ICC_065";
+                public const string RollTheBones = "ICC_201";
+                public const string LeechingPoison = "ICC_221";
+                public const string Doomerang = "ICC_233";
+                public const string RuneforgeHaunter = "ICC_240";
+                public const string PlagueScientist = "ICC_809";
+                public const string LilianVoss = "ICC_811";
+                public const string ValeeraTheHollow = "ICC_827";
+                public const string Shadowblade = "ICC_850";
+                public const string SpectralPillager = "ICC_910";
                 public const string Swashburglar = "KAR_069";
                 public const string EtherealPeddler = "KAR_070";
                 public const string DeadlyFork = "KAR_094";
@@ -1054,6 +1160,16 @@ namespace HearthDb
                 public const string DunemaulShaman = "GVG_066";
                 public const string Thrall = "HERO_02";
                 public const string MorglTheOracle = "HERO_02a";
+                public const string Cryostasis = "ICC_056";
+                public const string Brrrloc = "ICC_058";
+                public const string Avalanche = "ICC_078";
+                public const string DrakkariDefender = "ICC_081";
+                public const string VoodooHexxer = "ICC_088";
+                public const string IceFishing = "ICC_089";
+                public const string SnowfuryGiant = "ICC_090";
+                public const string IceBreaker = "ICC_236";
+                public const string Moorabi = "ICC_289";
+                public const string ThrallDeathseer = "ICC_481";
                 public const string WickedWitchdoctor = "KAR_021";
                 public const string SpiritClaws = "KAR_063";
                 public const string MaelstromPortal = "KAR_073";
@@ -1138,6 +1254,16 @@ namespace HearthDb
                 public const string AnimaGolem = "GVG_077";
                 public const string FloatingWatcher = "GVG_100";
                 public const string Guldan = "HERO_07";
+                public const string Defile = "ICC_041";
+                public const string DrainSoul = "ICC_055";
+                public const string DespicableDreadlord = "ICC_075";
+                public const string Treachery = "ICC_206";
+                public const string Howlfiend = "ICC_218";
+                public const string Gnomeferatu = "ICC_407";
+                public const string UnwillingSacrifice = "ICC_469";
+                public const string BloodreaverGuldan = "ICC_831";
+                public const string BloodQueenLanathel = "ICC_841";
+                public const string SanguineReveler = "ICC_903";
                 public const string KaraKazham = "KAR_025";
                 public const string MalchezaarsImp = "KAR_089";
                 public const string SilverwareGolem = "KAR_205";
@@ -1222,6 +1348,16 @@ namespace HearthDb
                 public const string SiegeEngine = "GVG_086";
                 public const string GarroshHellscream = "HERO_01";
                 public const string MagniBronzebeard = "HERO_01a";
+                public const string MountainfireArmor = "ICC_062";
+                public const string BloodRazor = "ICC_064";
+                public const string DeadMansHand = "ICC_091";
+                public const string AnimatedBerserker = "ICC_238";
+                public const string ForgeOfSouls = "ICC_281";
+                public const string Rotface = "ICC_405";
+                public const string ValkyrSoulclaimer = "ICC_408";
+                public const string DeathRevenant = "ICC_450";
+                public const string ScourgelordGarrosh = "ICC_834";
+                public const string BringItOn = "ICC_837";
                 public const string ProtectTheKing = "KAR_026";
                 public const string FoolsBane = "KAR_028";
                 public const string IronforgePortal = "KAR_091";
@@ -1412,7 +1548,7 @@ namespace HearthDb
                 public const string StalaggHeroic = "NAX13_05H";
                 public const string Sapphiron = "NAX14_01";
                 public const string SapphironHeroic = "NAX14_01H";
-                public const string FrostBreath = "NAX14_02";
+                public const string FrostBreathNAXX = "NAX14_02";
                 public const string FrozenChampion = "NAX14_03";
                 public const string PureCold = "NAX14_04";
                 public const string Kelthuzad = "NAX15_01";
@@ -1701,6 +1837,7 @@ namespace HearthDb
                 public const string HolyChampion_LightsBlessingEnchantment = "AT_011e";
                 public const string PowerWordGlory_PowerWordGloryEnchantment = "AT_013e";
                 public const string TwilightGuardian_TwilightsEmbraceEnchantment = "AT_017e";
+                public const string Dreadsteed_DreadsteedEnchantment = "AT_019e";
                 public const string Demonfuse_DarkFusionEnchantment = "AT_024e";
                 public const string ShadoPanRider_ChiLanceEnchantment = "AT_028e";
                 public const string Buccaneer_ExtraStabbyEnchantment = "AT_029e";
@@ -1847,7 +1984,33 @@ namespace HearthDb
                 public const string Garr2 = "BRMC_99";
                 public const string Garr_RockElementalEnchantment = "BRMC_99e";
                 public const string InfernoTavernBrawlHeroPower = "EX1_tk33_2_TB";
-                public const string WaitForDiscover = "FB_TagTeam_WaitForDiscover";
+                public const string LordMarrowgarHeroic = "FB_LK_012h";
+                public const string ProfessorPutricideHeroicTavernBrawl = "FB_LK_013h";
+                public const string SindragosaHeroic = "FB_LK_014h";
+                public const string ANewHeroApproaches = "FB_LK_ClearBoard";
+                public const string DiscoverNextClassCopy = "FB_LK_GetClass_copy";
+                public const string NewHero = "FB_LK_NewHeroCards";
+                public const string SupremeLichKing1 = "FB_LK_Raid_Hero";
+                public const string SupremeLichKing2 = "FB_LK_Raid_Hero_Battledamaged";
+                public const string WaitForDiscover1 = "FB_LK_WaitForDiscover";
+                public const string CheckForHeroDeathInLichKingRaid = "FB_LK003";
+                public const string CallingForBackup = "FB_LK004";
+                public const string FreezingBlast = "FB_LK007p";
+                public const string BloodQueenLanathelTavernBrawl = "FB_LK008h";
+                public const string SwapHeroWithDeathKnight = "FB_LK009";
+                public const string TheFinalBattle = "FB_LK010";
+                public const string CancellingTheApocalypse = "FB_LK011";
+                public const string LkPhase2Debug = "FB_LKDebug001";
+                public const string LkPhase3Debug = "FB_LKDebug002";
+                public const string InnkeeperTools = "FB_LKStats001";
+                public const string FightTheLichKing = "FB_LKStats001a";
+                public const string ModifyTheLichKing = "FB_LKStats001d";
+                public const string LichKingModifications = "FB_LKStats002";
+                public const string IncreaseHealth = "FB_LKStats002a";
+                public const string DecreaseHealth = "FB_LKStats002b";
+                public const string ModificationsComplete = "FB_LKStats002c";
+                public const string LichKingModificationsCopy = "FB_LKStats002ench";
+                public const string WaitForDiscover2 = "FB_TagTeam_WaitForDiscover";
                 public const string GearmasterMechazod1 = "HRW02_1";
                 public const string GearmasterMechazod_OverclockEnchantment = "HRW02_1e";
                 public const string GearmasterMechazod2 = "HRW02_2";
@@ -1896,6 +2059,7 @@ namespace HearthDb
                 public const string ConstructGolemTavernBrawl = "TB_BossRumble_002hp";
                 public const string BrewPotionTavernBrawl = "TB_BossRumble_003hp";
                 public const string PileOnTavernBrawlTavernBrawl2 = "TB_BRMA01_2H_2";
+                public const string TheRookeryTavernBrawl = "TB_BRMA10_3H";
                 public const string PickYourSecondClassTokenTavernBrawl = "TB_ClassRandom_Pick2nd_100th";
                 public const string PickYourSecondClassTavernBrawl = "TB_ClassRandom_PickSecondClass";
                 public const string GearmasterMechazodTavernBrawl1 = "TB_CoOp_Mechazod_OLD";
@@ -2118,7 +2282,10 @@ namespace HearthDb
                 public const string OrneryPartygoerTavernBrawl = "TB_SPT_MTH_Minion3";
                 public const string OffensivePlayTavernBrawl = "TB_Superfriends001";
                 public const string SwapBossHeroPowerByClassTavernBrawl = "TB_SwapBossHeroPowerByClass";
+                public const string SwapHeroWithDeathKnightTavernBrawl = "TB_SwapHeroWithDeathKnight";
+                public const string CheckForHeroDeathTavernBrawl = "TB_TagTeam";
                 public const string YourNextVictimComesTavernBrawl = "TB_TagTeam_ClearBoard";
+                public const string DiscoverNextClassTavernBrawl = "TB_TagTeam_GetClass";
                 public const string NewHeroTavernBrawl = "TB_TagTeam_NewHeroCards";
                 public const string YoggServantHeroEnchantTavernBrawl = "TB_YoggServant_Enchant";
                 public const string RagnarosTheFirelordTavernBrawlTavernBrawl2 = "TBA01_1";
@@ -2625,6 +2792,8 @@ namespace HearthDb
                 public const string DaringReporter_TheScoopEnchantment = "CFM_851e";
                 public const string GrimestreetSmuggler_SmugglingEnchantment = "CFM_853e";
                 public const string SmugglingTavernBrawl = "TB_BossRumble001hpe";
+                public const string DeathstalkerRexxar_StubbornGastropodToken = "ICC_828t2";
+                public const string DeathstalkerRexxar_GiantWaspToken = "ICC_828t3";
                 public const string TheCavernsBelow_CrystallizedToken1 = "UNG_067t1e";
                 public const string TheCavernsBelow_CrystallizedToken2 = "UNG_067t1e2";
                 public const string TolvirStoneshaper_StonewallEnchantment = "UNG_070e";
@@ -2635,6 +2804,7 @@ namespace HearthDb
                 public const string PrimalfinTotem_PrimalfinToken = "UNG_201t";
                 public const string GolakkaCrawler_OverfullBellyEnchantment = "UNG_807e";
                 public const string FireFly_FlameElementalToken = "UNG_809t1";
+                public const string EnvenomWeapon_EnvenomedEnchantment = "UNG_823e";
                 public const string Bloodbloom_DarkPowerEnchantment = "UNG_832e";
                 public const string ElisetheTrailblazer_UngoroPackToken = "UNG_851t1";
                 public const string Ozruk_JustBlazeEnchantment = "UNG_907e";
@@ -2660,16 +2830,137 @@ namespace HearthDb
                 public const string LightningSpeedToken2 = "UNG_999t7e";
                 public const string CracklingShieldToken1 = "UNG_999t8";
                 public const string CracklingShieldToken2 = "UNG_999t8e";
+                public const string Skelemancer_SkeletalFlayerToken = "ICC_019t";
+                public const string RattlingRascal_SkeletalEnforcerToken = "ICC_025t";
+                public const string GrimNecromancer_SkeletonToken = "ICC_026t";
+                public const string SunborneValkyr_BlessingOfTheValkyrEnchantment = "ICC_028e";
+                public const string CobaltScalebane_DragonscalesEnchantment = "ICC_029e";
+                public const string NightHowler_AwoooooEnchantment = "ICC_031e";
+                public const string DarkConviction_ConvincedEnchantment = "ICC_039e";
+                public const string ToxicArrow_ToxicArrowEnchantment = "ICC_049e";
+                public const string Cryostasis_FrozenBloodEnchantment = "ICC_056e";
+                public const string AcherusVeteran_VeteransFavorEnchantment = "ICC_092e";
+                public const string TuskarrFisherman_FreshFishEnchantment = "ICC_093e";
+                public const string FallenSunCleric_ClericsBlessingEnchantment = "ICC_094e";
+                public const string FurnacefireColossus_MeBiggerEnchantment = "ICC_096e";
+                public const string GraveShambler_ArmedAndDangerousEnchantment = "ICC_097e";
+                public const string ShadowEssence_ShadowEssenceEnchantment = "ICC_235e";
+                public const string CorpseRaiser_ReadyToReturnEnchantment = "ICC_257e";
+                public const string TheLichKing_TrappedSoulToken = "ICC_314t1e";
+                public const string TheLichKing_AntiMagicShellToken1 = "ICC_314t7e";
+                public const string DeathRevenant_BloodthirstyEnchantment = "ICC_450e";
+                public const string Deathspeaker_DeathwardEnchantment = "ICC_467e";
+                public const string ThrallDeathseer_TransmuteSpirit = "ICC_481p";
+                public const string FrostmourneEnchantmentEnchantment = "ICC_483e";
+                public const string Bonemare_BonemaresBoonEnchantment = "ICC_705e";
+                public const string ZombeastHeroic = "ICC_800h3t";
+                public const string StrongshellScavenger_StrongshellEnchantment = "ICC_807e";
+                public const string DeathaxePunisher_BloodthirstyEnchantment = "ICC_810e";
+                public const string DeathstalkerRexxar_BuildABeast = "ICC_828p";
+                public const string UtheroftheEbonBlade_TheFourHorsemen = "ICC_829p";
+                public const string BloodreaverGuldan_SiphonLife = "ICC_831p";
+                public const string MalfurionthePestilent_FangsEnchantment = "ICC_832e";
+                public const string MalfurionthePestilent_PlagueLord = "ICC_832p";
+                public const string FrostLichJaina_FrostLichEnchantment = "ICC_833e";
+                public const string FrostLichJaina_IcyVeinsEnchantment = "ICC_833e2";
+                public const string IcyTouchHeroic = "ICC_833h";
+                public const string BringItOn_ChallengedEnchantment = "ICC_837e";
+                public const string BloodQueenLanathel_VampiricBiteEnchantment = "ICC_841e";
+                public const string EmbraceDarkness_EmbracedEnchantment = "ICC_849e";
+                public const string PrinceKeleseth_KelesethsBlessingEnchantment = "ICC_851e";
+                public const string PrinceTaldaram_TaldaramsVisageEnchantment = "ICC_852e";
+                public const string NecroticGeist_GhoulToken = "ICC_900t";
+                public const string SanguineReveler_BloodthirstToken = "ICC_903t";
+                public const string WickedSkeleton_ExtraCalciumEnchantment = "ICC_904e";
+                public const string TheLichKing1 = "ICCA01_001";
+                public const string ArmyoftheDead_GhoulToken = "ICCA01_004t";
+                public const string EagerRogue = "ICCA01_007";
+                public const string TerribleTank = "ICCA01_008";
+                public const string NeedyHunter = "ICCA01_009";
+                public const string AFKay = "ICCA01_010";
+                public const string WarlockOnFire = "ICCA01_011";
+                public const string SecretsOfTheCitadel = "ICCA03_001";
+                public const string Sindragosa = "ICCA04_001";
+                public const string BlockOfIce = "ICCA04_004";
+                public const string FrostBreath10011 = "ICCA04_008p";
+                public const string FrostBreath10012 = "ICCA04_009p";
+                public const string FrostBreath10013 = "ICCA04_010p";
+                public const string IceClaw = "ICCA04_011p";
+                public const string BloodQueenLanathel1001 = "ICCA05_001";
+                public const string BittenEnchantment = "ICCA05_002e";
+                public const string VampiricBite = "ICCA05_002p";
+                public const string SleepingAcolyte = "ICCA05_003";
+                public const string VampiricLeech = "ICCA05_004p";
+                public const string LordMarrowgar = "ICCA06_001";
+                public const string SkeletalReconstruction = "ICCA06_002p";
+                public const string BryntrollTheBoneArbiter = "ICCA06_003";
+                public const string BoneStorm = "ICCA06_004";
+                public const string BoneSpike = "ICCA06_005";
+                public const string ProfessorPutricide = "ICCA07_001";
+                public const string ProfessorPutricideHeroic10011 = "ICCA07_001h2";
+                public const string ProfessorPutricideHeroic10012 = "ICCA07_001h3";
+                public const string MadScience = "ICCA07_002p";
+                public const string MadderScience = "ICCA07_003p";
+                public const string GrowingOoze = "ICCA07_004";
+                public const string GrowingOoze_GrowEnchantment = "ICCA07_004e";
+                public const string MaddestScience = "ICCA07_005p";
+                public const string Festergut = "ICCA07_008";
+                public const string Tentacles = "ICCA07_020";
+                public const string TheLichKing2 = "ICCA08_001";
+                public const string TheScourge = "ICCA08_002p";
+                public const string GhoulToken = "ICCA08_002t";
+                public const string ValkyrShadowguard = "ICCA08_017";
+                public const string FallenChampions_JoinTheRanksPlayerEnchantmentEnchantment = "ICCA08_022e";
+                public const string FallenChampions_JoinTheRanksEnchantment = "ICCA08_022e2";
+                public const string HarvestOfSouls = "ICCA08_032p";
+                public const string TrappedSoul = "ICCA08_033";
+                public const string BloodRune = "ICCA09_001p";
+                public const string BloodBeastToken = "ICCA09_001t1";
+                public const string DeathbringerSaurfang = "ICCA09_002";
+                public const string ValithriaDreamwalker = "ICCA10_001";
+                public const string LadyDeathwhisper = "ICCA10_009";
+                public const string LadyDeathwhisper_WhisperOfDeath = "ICCA10_009p";
+                public const string SkeletalKnight = "ICCA11_001";
             }
 
             public class Invalid
             {
+                public const string InnkeeperHealthSet = "FB_LK_BossSetup001";
+                public const string MassiveDifficulty = "FB_LK_BossSetup001a";
+                public const string HeroicDifficulty = "FB_LK_BossSetup001b";
+                public const string NormalDifficulty = "FB_LK_BossSetup001c";
                 public const string DiabolicalPowersTavernBrawl = "TB_SPT_DPromoHP";
             }
 
             public class Deathknight
             {
-                public const string TheRookeryTavernBrawl = "TB_BRMA10_3H";
+                public const string SoldiersOfTheColdDark = "FB_LK001";
+                public const string RemorselessWinterTavernBrawl = "FB_LK005";
+                public const string ToMyAidUnderling = "FB_LK006";
+                public const string TheLichKing_FrostmourneToken = "ICC_314t1";
+                public const string TheLichKing_ArmyOfTheDeadToken = "ICC_314t2";
+                public const string TheLichKing_DoomPactToken = "ICC_314t3";
+                public const string TheLichKing_DeathGripToken = "ICC_314t4";
+                public const string TheLichKing_DeathCoilToken = "ICC_314t5";
+                public const string TheLichKing_ObliterateToken = "ICC_314t6";
+                public const string TheLichKing_AntiMagicShellToken2 = "ICC_314t7";
+                public const string TheLichKing_DeathAndDecayToken = "ICC_314t8";
+                public const string BloodTap = "ICCA01_003";
+                public const string ArmyOfTheDead = "ICCA01_004";
+                public const string Frostmourne1 = "ICCA01_005";
+                public const string Frostmourne2 = "ICCA08_020";
+                public const string TheTrueLich = "ICCA08_021";
+                public const string FallenChampions = "ICCA08_022";
+                public const string NecroticPlague = "ICCA08_023";
+                public const string NecroticPlague_PlaguedEnchantment = "ICCA08_023e";
+                public const string TheHunted = "ICCA08_024";
+                public const string PurgeTheWeak = "ICCA08_025";
+                public const string SoulReaper = "ICCA08_026";
+                public const string TheTrueKing = "ICCA08_027";
+                public const string ThePriceOfPower = "ICCA08_028";
+                public const string ShutUpPriest = "ICCA08_029";
+                public const string RemorselessWinter1001 = "ICCA08_030p";
+                public const string AbominableKnucklesToken = "ICCA09_003t4";
             }
 
             public class Druid
@@ -2742,6 +3033,8 @@ namespace HearthDb
                 public const string JusticarTrueheart_DireShapeshift = "AT_132_DRUID";
                 public const string JusticarTrueheart_DireClaws = "AT_132_DRUIDe";
                 public const string FandralStaghelm_SabertoothTiger = "OG_044c";
+                public const string Druid = "FB_LK_Druid_copy";
+                public const string NextHeroDruidEnchCopy = "FB_LK_Druid_Ench_copy";
                 public const string NextHeroDruidEnch = "FB_TagTeam_Druid_Ench";
                 public const string AyaBlackpawTavernBrawl = "TB_BossRumble_002";
                 public const string SecondClassDruidTavernBrawl = "TB_ClassRandom_Druid";
@@ -2775,6 +3068,25 @@ namespace HearthDb
                 public const string LivingMana_ManaTreantToken = "UNG_111t1";
                 public const string JungleGiants_BarnabusTheStomperToken = "UNG_116t";
                 public const string JungleGiants_RomperStompersEnchantmentToken = "UNG_116te";
+                public const string Fatespinner_Growth = "ICC_047a";
+                public const string Fatespinner_Decay = "ICC_047b";
+                public const string Fatespinner_GrowthEnchantment = "ICC_047e";
+                public const string Fatespinner_FatespinnerToken1 = "ICC_047t";
+                public const string Fatespinner_FatespinnerToken2 = "ICC_047t2";
+                public const string DruidoftheSwarm_SpiderForm = "ICC_051a";
+                public const string DruidoftheSwarm_ScarabForm = "ICC_051b";
+                public const string DruidoftheSwarm_DruidOfTheSwarmToken1 = "ICC_051t";
+                public const string DruidoftheSwarm_DruidOfTheSwarmToken2 = "ICC_051t2";
+                public const string DruidoftheSwarm_DruidOfTheSwarmToken3 = "ICC_051t3";
+                public const string Gnash_GnashEnchantment = "ICC_079e";
+                public const string UltimateInfestation_GhoulInfestorToken = "ICC_085t";
+                public const string CryptLord_MightOfNerubEnchantment = "ICC_808e";
+                public const string MalfurionthePestilent_ScarabPlague = "ICC_832a";
+                public const string MalfurionthePestilent_SpiderPlague = "ICC_832b";
+                public const string MalfurionthePestilent_ScarabShell = "ICC_832pa";
+                public const string MalfurionthePestilent_SpiderFangs = "ICC_832pb";
+                public const string MalfurionthePestilent_FrostWidowToken = "ICC_832t3";
+                public const string MalfurionthePestilent_ScarabBeetleToken = "ICC_832t4";
             }
 
             public class Hunter
@@ -2809,6 +3121,8 @@ namespace HearthDb
                 public const string JusticarTrueheart_BallistaShot = "AT_132_HUNTER";
                 public const string SteadyShot_SteadyShotHeroSkins = "DS1h_292_H1";
                 public const string BallistaShotHeroSkins = "DS1h_292_H1_AT_132";
+                public const string Hunter = "FB_LK_Hunter_copy";
+                public const string NextHeroHunterEnchCopy = "FB_LK_Hunter_Ench_copy";
                 public const string NextHeroHunterEnch = "FB_TagTeam_Hunter_Ench";
                 public const string SecondClassHunterTavernBrawl = "TB_ClassRandom_Hunter";
                 public const string SpyStalkerTavernBrawl = "TB_TagTeam_Hunter";
@@ -2830,6 +3144,8 @@ namespace HearthDb
                 public const string Dinomancy_DinomancyToken = "UNG_917t1";
                 public const string TheMarshQueen_QueenCarnassaToken = "UNG_920t1";
                 public const string TheMarshQueen_CarnassasBroodToken = "UNG_920t2";
+                public const string DeathstalkerRexxar_StitchedEnchantment = "ICC_828e";
+                public const string DeathstalkerRexxar_ZombeastToken = "ICC_828t";
             }
 
             public class Mage
@@ -2854,7 +3170,11 @@ namespace HearthDb
                 public const string FireblastRank2HeroSkins1 = "CS2_034_H1_AT_132";
                 public const string Fireblast_FireblastHeroSkins2 = "CS2_034_H2";
                 public const string FireblastRank2HeroSkins2 = "CS2_034_H2_AT_132";
+                public const string Mage = "FB_LK_Mage_copy";
+                public const string NextHeroMageEnchCopy = "FB_LK_Mage_Ench_copy";
+                public const string RelentlessMarch = "FB_LK002";
                 public const string NextHeroMageEnch = "FB_TagTeam_Mage_Ench";
+                public const string TagTeamIceBlock = "TagTeamIceBlock";
                 public const string KazakusTavernBrawl = "TB_BossRumble_003";
                 public const string SecondClassMageTavernBrawl = "TB_ClassRandom_Mage";
                 public const string FireblastTavernBrawl = "TB_LevelUp_002";
@@ -2879,6 +3199,9 @@ namespace HearthDb
                 public const string OpentheWaygate_InsightfulEnchantment = "UNG_028e";
                 public const string OpentheWaygate_TimeWarpToken = "UNG_028t";
                 public const string PrimordialGlyph_PrimalMagicEnchantment = "UNG_941e";
+                public const string FrostLichJaina_WaterElementalToken = "ICC_833t";
+                public const string Sindragosa_FrozenChampionToken = "ICC_838t";
+                public const string UnchainedMagic = "ICCA04_002";
             }
 
             public class Paladin
@@ -2905,13 +3228,17 @@ namespace HearthDb
                 public const string WarhorseTrainer_MightOfTheHostlerEnchantment = "AT_075e";
                 public const string EadricthePure_PurifiedEnchantment = "AT_081e";
                 public const string JusticarTrueheart_TheSilverHand = "AT_132_PALADIN";
-                public const string Reinforce_ReinforceHeroSkins = "CS2_101_H1";
-                public const string TheSilverHandHeroSkins = "CS2_101_H1_AT_132";
+                public const string Reinforce_ReinforceHeroSkins1 = "CS2_101_H1";
+                public const string TheSilverHandHeroSkins1 = "CS2_101_H1_AT_132";
+                public const string Reinforce_ReinforceHeroSkins2 = "CS2_101_H2";
+                public const string TheSilverHandHeroSkins2 = "CS2_101_H2_AT_132";
+                public const string Paladin = "FB_LK_Paladin_copy";
+                public const string NextHeroPaladinEnchCopy = "FB_LK_Paladin_Ench_copy";
                 public const string NextHeroPaladinEnch = "FB_TagTeam_Paladin_Ench";
                 public const string HanchoTavernBrawl = "TB_BossRumble_001";
                 public const string SecondClassPaladinTavernBrawl = "TB_ClassRandom_Paladin";
                 public const string FollowMyRulesTavernBrawl = "TB_CoOpv3_200";
-                public const string MysteriousEScaleAtioTavernBrawl = "TB_TagTeam_Paladin";
+                public const string MysteriousEScaleAtionTavernBrawl = "TB_TagTeam_Paladin";
                 public const string KeeperofUldaman_WatchedEnchantment = "LOE_017e";
                 public const string VilefinInquisitor_SilverHandMurloc = "OG_006a";
                 public const string VilefinInquisitor_TheTidalHand = "OG_006b";
@@ -2923,6 +3250,15 @@ namespace HearthDb
                 public const string SpikeridgedSteed_OnAStegodonEnchantment = "UNG_952e";
                 public const string PrimalfinChampion_InspiredEnchantment = "UNG_953e";
                 public const string TheLastKaleidosaur_GalvadonToken = "UNG_954t1";
+                public const string LightsSorrow_DyingLightEnchantment = "ICC_071e";
+                public const string DesperateStand_RedeemedEnchantment = "ICC_244e";
+                public const string UtheroftheEbonBlade_GraveVengeanceToken = "ICC_829t";
+                public const string UtheroftheEbonBlade_DeathlordNazgrimToken = "ICC_829t2";
+                public const string UtheroftheEbonBlade_ThorasTrollbaneToken = "ICC_829t3";
+                public const string UtheroftheEbonBlade_InquisitorWhitemaneToken = "ICC_829t4";
+                public const string UtheroftheEbonBlade_DarionMograineToken = "ICC_829t5";
+                public const string BolvarFireblood_FadingLightEnchantment = "ICC_858e";
+                public const string TirionFordring = "ICCA01_013";
             }
 
             public class Priest
@@ -2948,6 +3284,8 @@ namespace HearthDb
                 public const string JusticarTrueheart_Heal = "AT_132_PRIEST";
                 public const string LesserHeal_LesserHealHeroSkins = "CS1h_001_H1";
                 public const string HealHeroSkins = "CS1h_001_H1_AT_132";
+                public const string Priest = "FB_LK_Priest_copy";
+                public const string NextHeroPriestEnchCopy = "FB_LK_Priest_Ench_copy";
                 public const string NextHeroPriestEnch = "FB_TagTeam_Priest_Ench";
                 public const string SecondClassPriestTavernBrawl = "TB_ClassRandom_Priest";
                 public const string TwistedLightTavernBrawl = "TB_CoOpv3_002";
@@ -2962,6 +3300,8 @@ namespace HearthDb
                 public const string MirageCaller_MirageEnchantment = "UNG_022e";
                 public const string TortollanShellraiser_ShellshieldEnchantment = "UNG_037e";
                 public const string AwakentheMakers_AmaraWardenOfHopeToken = "UNG_940t8";
+                public const string ShadowAscendant_AscendedEnchantment = "ICC_210e";
+                public const string ShadowreaperAnduin_Voidform = "ICC_830p";
             }
 
             public class Rogue
@@ -2988,6 +3328,8 @@ namespace HearthDb
                 public const string JusticarTrueheart_PoisonedDaggerHeroSkins = "AT_132_ROGUEt_H1";
                 public const string WickedKnife_WickedKnifeHeroSkins = "CS2_082_H1";
                 public const string DaggerMasteryHeroSkins = "CS2_083b_H1";
+                public const string Rogue = "FB_LK_Rogue_copy";
+                public const string NextHeroRogueEnchCopy = "FB_LK_Rogue_Ench_copy";
                 public const string NextHeroRogueEnch = "FB_TagTeam_Rogue_Ench";
                 public const string SharpenedTavernBrawl = "TB_BlingBrawl_Hero1e";
                 public const string SharpenTavernBrawl = "TB_BlingBrawl_Hero1p";
@@ -3012,6 +3354,15 @@ namespace HearthDb
                 public const string Biteweed_SproutEnchantment = "UNG_063e";
                 public const string SherazinCorpseFlower_SherazinSeedToken = "UNG_065t";
                 public const string TheCavernsBelow_CrystalCoreToken = "UNG_067t1";
+                public const string PhantomFreebooter_WittyWeaponplayEnchantment = "ICC_018e";
+                public const string LeechingPoison_LeechingPoisonEnchantment = "ICC_221e";
+                public const string RuneforgeHaunter_ResilientWeaponEnchantment = "ICC_240e";
+                public const string PlagueScientist_TestSubjectEnchantment = "ICC_809e";
+                public const string ValeeratheHollow_ShadowReflectionEnchantment = "ICC_827e";
+                public const string ValeeratheHollow_VeilOfShadowsEnchantment = "ICC_827e3";
+                public const string ValeeratheHollow_DeathsShadow = "ICC_827p";
+                public const string ValeeratheHollow_ShadowReflectionToken = "ICC_827t";
+                public const string Shadowblade_ShadedEnchantment = "ICC_850e";
             }
 
             public class Shaman
@@ -3044,6 +3395,8 @@ namespace HearthDb
                 public const string DanEmmons = "CRED_47";
                 public const string TotemicCall_TotemicCallHeroSkins = "CS2_049_H1";
                 public const string TotemicSlamHeroSkins = "CS2_049_H1_AT_132";
+                public const string Shaman = "FB_LK_Shaman_copy";
+                public const string NextHeroShamanEnchCopy = "FB_LK_Shaman_Ench_copy";
                 public const string NextHeroShamanEnch = "FB_TagTeam_Shaman_Ench";
                 public const string SecondClassShamanTavernBrawl = "TB_ClassRandom_Shaman";
                 public const string ElementalEruptionTavernBrawl = "TB_CoOpv3_006";
@@ -3086,6 +3439,8 @@ namespace HearthDb
                 public const string TinyKnightofEvil_FelrageEnchantment = "AT_021e";
                 public const string WilfredFizzlebang_MasterSummonerEnchantment = "AT_027e";
                 public const string JusticarTrueheart_SoulTap = "AT_132_WARLOCK";
+                public const string Warlock = "FB_LK_Warlock_copy";
+                public const string NextHeroWarlockEnchCopy = "FB_LK_Warlock_Ench_copy";
                 public const string NextHeroWarlockEnch = "FB_TagTeam_Warlock_Ench";
                 public const string SecondClassWarlockTavernBrawl = "TB_ClassRandom_Warlock";
                 public const string DarkWandererTavernBrawl = "TB_SPT_DPromo_Hero";
@@ -3108,6 +3463,8 @@ namespace HearthDb
                 public const string CorruptingMist_CorruptingMistEnchantment = "UNG_831e";
                 public const string FeedingTime_PterrordaxToken = "UNG_834t1";
                 public const string ClutchmotherZavas_RemembranceEnchantment = "UNG_836e";
+                public const string BiteOfTheBloodQueen = "ICCA05_020";
+                public const string BloodEssence = "ICCA05_021";
             }
 
             public class Warrior
@@ -3139,6 +3496,8 @@ namespace HearthDb
                 public const string JusticarTrueheart_TankUp = "AT_132_WARRIOR";
                 public const string ArmorUp_ArmorUpHeroSkins = "CS2_102_H1";
                 public const string TankUpHeroSkins = "CS2_102_H1_AT_132";
+                public const string Warrior = "FB_LK_Warrior_copy";
+                public const string NextHeroWarriorEnchCopy = "FB_LK_Warrior_Ench_copy";
                 public const string NextHeroWarriorEnch = "FB_TagTeam_Warrior_Ench";
                 public const string SecondClassWarriorTavernBrawl = "TB_ClassRandom_Warrior";
                 public const string ChargeEnchantmentTavernBrawl = "TB_MP_01e";
@@ -3172,6 +3531,8 @@ namespace HearthDb
                 public const string MoltenBlade_MagmicEnchantment = "UNG_929e";
                 public const string FirePlumesHeart_SulfurasToken = "UNG_934t1";
                 public const string DirehornHatchling_DirehornMatriarchToken = "UNG_957t1";
+                public const string BladestormHeroic = "ICC_834h";
+                public const string ScourgelordGarrosh_Shadowmourne = "ICC_834w";
             }
 
             public class DreamCards

@@ -2,6 +2,7 @@
 
 using HearthDb.Enums;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Linq;
 
 #endregion
 

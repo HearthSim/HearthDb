@@ -68,8 +68,8 @@ namespace HearthDb.Deckstrings
 				Write(1);
 				Write(deck.HeroDbfId);
 
-				var cards = deck.CardDbfIds.OrderBy(x => x.Value).ToList();
-				var singleCopy = cards.Where(x => x.Value== 1).ToList();
+				var cards = deck.CardDbfIds.OrderBy(x => x.Key).ToList();
+				var singleCopy = cards.Where(x => x.Value == 1).ToList();
 				var doubleCopy = cards.Where(x => x.Value == 2).ToList();
 				var nCopy = cards.Where(x => x.Value > 2).ToList();
 

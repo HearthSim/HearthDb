@@ -2960,7 +2960,6 @@ namespace HearthDb
                 public const string ThePriceOfPower = "ICCA08_028";
                 public const string ShutUpPriest = "ICCA08_029";
                 public const string RemorselessWinterICECROWN = "ICCA08_030p";
-                public const string AbominableKnucklesToken = "ICCA09_003t4";
             }
 
             public class Druid
@@ -3039,7 +3038,7 @@ namespace HearthDb
                 public const string AyaBlackpawTavernBrawl = "TB_BossRumble_002";
                 public const string SecondClassDruidTavernBrawl = "TB_ClassRandom_Druid";
                 public const string AncientPowerTavernBrawl = "TB_LOEA13_2";
-                public const string FierceForestTavernBrawl = "TB_TagTeam_Druid";
+                public const string RumbleInTheJungleTavernBrawl = "TB_TagTeam_Druid";
                 public const string RavenIdol_RavenIdol1 = "LOE_115a";
                 public const string RavenIdol_RavenIdol2 = "LOE_115b";
                 public const string Infest_NerubianSpores = "OG_045a";
@@ -3125,7 +3124,7 @@ namespace HearthDb
                 public const string NextHeroHunterEnchCopy = "FB_LK_Hunter_Ench_copy";
                 public const string NextHeroHunterEnch = "FB_TagTeam_Hunter_Ench";
                 public const string SecondClassHunterTavernBrawl = "TB_ClassRandom_Hunter";
-                public const string SpyStalkerTavernBrawl = "TB_TagTeam_Hunter";
+                public const string UnleashTheBeastsTavernBrawl = "TB_TagTeam_Hunter";
                 public const string ExplorersHat_ExplorersHatEnchantment = "LOE_105e";
                 public const string WishforCompanionship_Leokk = "LOEA02_10a";
                 public const string WishforCompanionship_Misha = "LOEA02_10c";
@@ -3178,7 +3177,7 @@ namespace HearthDb
                 public const string KazakusTavernBrawl = "TB_BossRumble_003";
                 public const string SecondClassMageTavernBrawl = "TB_ClassRandom_Mage";
                 public const string FireblastTavernBrawl = "TB_LevelUp_002";
-                public const string SecretMagusTavernBrawl = "TB_TagTeam_Mage";
+                public const string ElementalSecretsTavernBrawl = "TB_TagTeam_Mage";
                 public const string ForgottenTorch_RoaringTorchToken = "LOE_002t";
                 public const string Medivh = "KARA_00_03";
                 public const string MedivhHeroic = "KARA_00_03H";
@@ -3238,7 +3237,7 @@ namespace HearthDb
                 public const string HanchoTavernBrawl = "TB_BossRumble_001";
                 public const string SecondClassPaladinTavernBrawl = "TB_ClassRandom_Paladin";
                 public const string FollowMyRulesTavernBrawl = "TB_CoOpv3_200";
-                public const string MysteriousEScaleAtionTavernBrawl = "TB_TagTeam_Paladin";
+                public const string DarkLightTavernBrawl = "TB_TagTeam_Paladin";
                 public const string KeeperofUldaman_WatchedEnchantment = "LOE_017e";
                 public const string VilefinInquisitor_SilverHandMurloc = "OG_006a";
                 public const string VilefinInquisitor_TheTidalHand = "OG_006b";

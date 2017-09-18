@@ -139,6 +139,32 @@ namespace HearthDb.Enums
         ICECROWN = 1001,
     }
 
+    public enum CardTextBuilderType
+    {
+        DEFAULT = 0,
+        JADE_GOLEM = 1,
+        JADE_GOLEM_TRIGGER = 2,
+        KAZAKUS_POTION = 3,
+        MODULAR_ENTITY = 3,
+        KAZAKUS_POTION_EFFECT = 4,
+        DEPRECATED_5 = 5,
+        DEPRECATED_6 = 6,
+        PLACE_HOLDER_7 = 7,
+        SCRIPT_DATA_NUM_1 = 7,
+        PLACE_HOLDER_8 = 8,
+        DECORATE = 9,
+        PLACE_HOLDER_10 = 10,
+        PLACE_HOLDER_11 = 11,
+        PLACE_HOLDER_12 = 12,
+        PLACE_HOLDER_13 = 13,
+        ZOMBEAST = 14,
+        ZOMBEAST_ENCHANTMENT = 15,
+        HIDDEN_CHOICE = 16,
+        PLACE_HOLDER_17 = 17,
+        REFERENCE_CREATOR_ENTITY = 18,
+        REFERENCE_SCRIPT_DATA_NUM_1_ENTITY = 19,
+    }
+
     public enum CardType
     {
         INVALID = 0,
@@ -529,6 +555,7 @@ namespace HearthDb.Enums
         OVERRIDECARDTEXTBUILDER = 782,
         HIDDEN_CHOICE = 813,
         ZOMBEAST = 823,
+        HERO_EMOTE_SILENCED = 832,
     }
 
     public enum GameType

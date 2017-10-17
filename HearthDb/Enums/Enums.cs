@@ -625,6 +625,9 @@ namespace HearthDb.Enums
         HISTORY_TARGET = 7,
         OVERRIDE_HISTORY = 8,
         HISTORY_TARGET_DONT_DUPLICATE_UNTIL_END = 9,
+        BEGIN_ARTIFICIAL_HISTORY_TILE = 10,
+        BEGIN_ARTIFICIAL_HISTORY_TRIGGER_TILE = 11,
+        END_ARTIFICIAL_HISTORY_TILE = 12,
     }
 
     public enum Mulligan

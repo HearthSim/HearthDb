@@ -411,6 +411,7 @@ namespace HearthDb
                 public const string EerieStatue = "LOE_107";
                 public const string AncientShade = "LOE_110";
                 public const string MurlocTinyfin = "LOEA10_3";
+                public const string MarinTheFox = "LOOT_357";
                 public const string CaptainsParrot = "NEW1_016";
                 public const string HungryCrab = "NEW1_017";
                 public const string BloodsailRaider = "NEW1_018";
@@ -1985,6 +1986,30 @@ namespace HearthDb
                 public const string Garr2 = "BRMC_99";
                 public const string Garr_RockElementalEnchantment = "BRMC_99e";
                 public const string InfernoTavernBrawlHeroPower = "EX1_tk33_2_TB";
+                public const string InnkeeperToolsElo = "FB_ELO001";
+                public const string PlayTheBrawl = "FB_ELO001a";
+                public const string ResetTheBrawl = "FB_ELO001b";
+                public const string EloResetConfirmation = "FB_ELO001bench";
+                public const string Confirm = "FB_ELO001c";
+                public const string Cancel = "FB_ELO001d";
+                public const string CompetitiveSpirits = "FB_ELO002";
+                public const string GreaterCompetitiveSpirits = "FB_ELO002_copy";
+                public const string SpiritOfHeroism1 = "FB_ELO002a";
+                public const string GreaterSpiritOfHeroism1 = "FB_ELO002a_copy";
+                public const string SpiritOfHeroism2 = "FB_ELO002a_ench";
+                public const string GreaterSpiritOfHeroism2 = "FB_ELO002a_ench_copy";
+                public const string SpiritOfWisdom1 = "FB_ELO002b";
+                public const string GreaterSpiritOfWisdom1 = "FB_ELO002b_copy";
+                public const string SpiritOfWisdom2 = "FB_ELO002b_ench";
+                public const string GreaterSpiritOfWisdom2 = "FB_ELO002b_ench_copy";
+                public const string SpiritOfStrength1 = "FB_ELO002c";
+                public const string GreaterSpiritOfStrength1 = "FB_ELO002c_copy";
+                public const string SpiritOfStrength2 = "FB_ELO002c_ench";
+                public const string GreaterSpiritOfStrength2 = "FB_ELO002c_ench_copy";
+                public const string InnkeepersChoiceEnchant = "FB_IKC_KeepOld_Ench";
+                public const string InnkeepersChoiceSetup = "FB_IKC_KeepSetUp_Ench";
+                public const string Play = "FB_IKC_SetupNo";
+                public const string SetUpBrawl = "FB_IKC_SetupYes";
                 public const string LordMarrowgarHeroic = "FB_LK_012h";
                 public const string ProfessorPutricideHeroicTavernBrawl = "FB_LK_013h";
                 public const string SindragosaHeroic = "FB_LK_014h";
@@ -2212,6 +2237,7 @@ namespace HearthDb
                 public const string FruitPlateTavernBrawl = "TB_MammothParty_s101a";
                 public const string LikeASoreThumbTavernBrawl = "TB_MammothParty_s101b";
                 public const string NoiseComplaintTavernBrawl = "TB_MammothParty_s998";
+                public const string JourneyToTheCatacombsTavernBrawl = "TB_Marin_001";
                 public const string AnnoyOTronTavernBrawl = "TB_MechWar_Boss1";
                 public const string HelloHelloHelloTavernBrawl = "TB_MechWar_Boss1_HeroPower";
                 public const string BoomBotTavernBrawl = "TB_MechWar_Boss2";
@@ -2949,6 +2975,12 @@ namespace HearthDb
                 public const string LadyDeathwhisper = "ICCA10_009";
                 public const string LadyDeathwhisper_WhisperOfDeath = "ICCA10_009p";
                 public const string SkeletalKnight = "ICCA11_001";
+                public const string MarintheFox_MasterChest = "LOOT_357l";
+                public const string TolinsGobletHeroic = "LOOT_998h";
+                public const string ZarogsCrown = "LOOT_998j";
+                public const string GoldenKobold = "LOOT_998k";
+                public const string WondrousWand = "LOOT_998l";
+                public const string WandsWonder = "LOOT_998le";
             }
 
             public class Invalid
@@ -3362,6 +3394,7 @@ namespace HearthDb
                 public const string SharpenTavernBrawl = "TB_BlingBrawl_Hero1p";
                 public const string SecondClassRogueTavernBrawl = "TB_ClassRandom_Rogue";
                 public const string CastFromShadowTavernBrawl = "TB_CoOpv3_201";
+                public const string ShadowReflection_ShadowReflectionEnchantmentTavernBrawl = "TB_ShadowReflection_001e";
                 public const string FacilitatedTavernBrawl = "TB_Superfriends001e";
                 public const string DrawOffensivePlayTavernBrawl = "TB_Superfriends002e";
                 public const string TheSaintTavernBrawl = "TB_TagTeam_Rogue";
@@ -3390,6 +3423,7 @@ namespace HearthDb
                 public const string ValeeratheHollow_DeathsShadow = "ICC_827p";
                 public const string ValeeratheHollow_ShadowReflectionToken = "ICC_827t";
                 public const string Shadowblade_ShadedEnchantment = "ICC_850e";
+                public const string ShadowReflectionTavernBrawl = "TB_ShadowReflection_001";
             }
 
             public class Shaman

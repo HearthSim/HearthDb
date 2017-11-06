@@ -73,6 +73,8 @@ namespace HearthDb.Enums
         MEAN_STREETS = 19,
         UNGORO = 20,
         FROZEN_THRONE = 21,
+        GOLDEN_CLASSIC_PACK = 23,
+        KOBOLDS_CATACOMBS = 30,
     }
 
     public enum BrawlType
@@ -137,6 +139,7 @@ namespace HearthDb.Enums
         GANGS_RESERVE = 26,
         UNGORO = 27,
         ICECROWN = 1001,
+        LOOTAPALOOZA = 1004,
     }
 
     public enum CardTextBuilderType
@@ -625,9 +628,6 @@ namespace HearthDb.Enums
         HISTORY_TARGET = 7,
         OVERRIDE_HISTORY = 8,
         HISTORY_TARGET_DONT_DUPLICATE_UNTIL_END = 9,
-        BEGIN_ARTIFICIAL_HISTORY_TILE = 10,
-        BEGIN_ARTIFICIAL_HISTORY_TRIGGER_TILE = 11,
-        END_ARTIFICIAL_HISTORY_TILE = 12,
     }
 
     public enum Mulligan

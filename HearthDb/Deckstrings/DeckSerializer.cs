@@ -103,6 +103,7 @@ namespace HearthDb.Deckstrings
 			Deck deck = null;
 			var lines = input.Split('\n').Select(x => x.Trim());
 			string deckName = null;
+			string deckId = null;
 			foreach(var line in lines)
 			{
 				if(string.IsNullOrEmpty(line))
@@ -111,13 +112,18 @@ namespace HearthDb.Deckstrings
 				{
 					if(line.StartsWith("###"))
 						deckName = line.Substring(3).Trim();
+					if(line.StartsWith("# Deck ID:"))
+						deckId = line.Substring(10).Trim();
 					continue;
 				}
 				if(deck == null)
 					deck = DeserializeDeckString(line);
 			}
-			if(deck != null && deckName != null)
+			if(deck != null)
+			{
 				deck.Name = deckName;
+				deck.DeckId = long.TryParse(deckId, out var id) ? id : 0;
+			}
 			return deck;
 		}
 

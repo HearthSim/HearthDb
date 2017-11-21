@@ -34,6 +34,11 @@ namespace HearthDb.Deckstrings
 		public string Name { get; set; }
 
 		/// <summary>
+		/// Hearthstones internal ID of the deck. Optional.
+		/// </summary>
+		public long DeckId { get; set; }
+
+		/// <summary>
 		/// Gets the card object for the given HeroDbfId
 		/// </summary>
 		public Card GetHero() => Cards.GetFromDbfId(HeroDbfId, false);

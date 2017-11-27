@@ -1,4 +1,5 @@
-﻿using static HearthDb.Enums.BnetGameType;
+﻿using System.Linq;
+using static HearthDb.Enums.BnetGameType;
 
 namespace HearthDb.Enums
 {
@@ -41,6 +42,20 @@ namespace HearthDb.Enums
 				default:
 					return BGT_UNKNOWN;
 			}
+		}
+
+		public static bool IsBrawl(GameType gameType)
+		{
+			return new[]
+			{
+				GameType.GT_TAVERNBRAWL,
+				GameType.GT_TB_1P_VS_AI,
+				GameType.GT_TB_2P_COOP,
+				GameType.GT_FSG_BRAWL,
+				GameType.GT_FSG_BRAWL_1P_VS_AI,
+				GameType.GT_FSG_BRAWL_2P_COOP,
+				GameType.GT_FSG_BRAWL_VS_FRIEND
+			}.Contains(gameType);
 		}
 	}
 }

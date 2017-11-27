@@ -73,6 +73,7 @@
     <Compile Include="Deckstrings\DeckSerializer.cs" />
     <Compile Include="Deckstrings\InvalidDeckException.cs" />
     <Compile Include="Deckstrings\VarInt.cs" />
+    <Compile Include="Enums\Converters.cs" />
     <Compile Include="Enums\Dictionaries.cs" />
     <Compile Include="Enums\Enums.cs" />
     <Compile Include="Info.cs" />

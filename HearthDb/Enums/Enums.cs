@@ -74,6 +74,7 @@ namespace HearthDb.Enums
         UNGORO = 20,
         FROZEN_THRONE = 21,
         GOLDEN_CLASSIC_PACK = 23,
+        KOBOLDS_AND_CATACOMBS = 30,
         KOBOLDS_CATACOMBS = 30,
     }
 
@@ -150,15 +151,21 @@ namespace HearthDb.Enums
         KAZAKUS_POTION = 3,
         MODULAR_ENTITY = 3,
         KAZAKUS_POTION_EFFECT = 4,
+        PRIMORDIAL_WAND = 5,
         DEPRECATED_5 = 5,
         DEPRECATED_6 = 6,
-        PLACE_HOLDER_7 = 7,
         SCRIPT_DATA_NUM_1 = 7,
+        PLACE_HOLDER_7 = 7,
+        DEPRECATED_8 = 8,
         PLACE_HOLDER_8 = 8,
         DECORATE = 9,
+        DEPRECATED_10 = 10,
         PLACE_HOLDER_10 = 10,
+        DEPRECATED_11 = 11,
         PLACE_HOLDER_11 = 11,
+        DEPRECATED_12 = 12,
         PLACE_HOLDER_12 = 12,
+        GAMEPLAY_STRING = 13,
         PLACE_HOLDER_13 = 13,
         ZOMBEAST = 14,
         ZOMBEAST_ENCHANTMENT = 15,
@@ -193,6 +200,7 @@ namespace HearthDb.Enums
 
     public enum DeckType
     {
+        CLIENT_ONLY_DECK = -1,
         UNKNOWN_DECK_TYPE = 0,
         NORMAL_DECK = 1,
         AI_DECK = 2,
@@ -201,6 +209,13 @@ namespace HearthDb.Enums
         TAVERN_BRAWL_DECK = 6,
         FSG_BRAWL_DECK = 7,
         HIDDEN_DECK = 1000,
+    }
+
+    public enum DungeonRewardOption
+    {
+        INVALID = 0,
+        LOOT = 1,
+        TREASURE = 2,
     }
 
     public enum EnchantmentVisual
@@ -396,6 +411,7 @@ namespace HearthDb.Enums
         PREDAMAGE = 318,
         COLLECTIBLE = 321,
         TARGETING_ARROW_TEXT = 325,
+        DATABASE_ID = 327,
         ENCHANTMENT_BIRTH_VISUAL = 330,
         ENCHANTMENT_IDLE_VISUAL = 331,
         CANT_BE_TARGETED_BY_HERO_POWERS = 332,
@@ -407,6 +423,7 @@ namespace HearthDb.Enums
         COUNTER = 340,
         ARTISTNAME = 342,
         LocalizationNotes = 344,
+        ZONES_REVEALED = 348,
         HAND_REVEALED = 348,
         ImmuneToSpellpower = 349,
         ADJACENT_BUFF = 350,
@@ -462,7 +479,6 @@ namespace HearthDb.Enums
         NUM_CARDS_DRAWN_THIS_TURN = 399,
         AI_ONE_SHOT_KILL = 400,
         EVIL_GLOW = 401,
-        HIDE_COST = 402,
         HIDE_STATS = 402,
         INSPIRE = 403,
         RECEIVES_DOUBLE_SPELLDAMAGE_BONUS = 404,
@@ -473,7 +489,6 @@ namespace HearthDb.Enums
         CANNOT_ATTACK_HEROES = 413,
         LOCK_AND_LOAD = 414,
         DISCOVER = 415,
-        TREASURE = 415,
         SHADOWFORM = 416,
         NUM_FRIENDLY_MINIONS_THAT_ATTACKED_THIS_TURN = 417,
         NUM_RESOURCES_SPENT_THIS_GAME = 418,
@@ -541,9 +556,20 @@ namespace HearthDb.Enums
         SHIFTING_WEAPON = 550,
         DEATH_KNIGHT = 554,
         BOSS = 556,
+        TREASURE = 557,
+        TREASURE_DEFINTIONAL_ATTACK = 558,
+        TREASURE_DEFINTIONAL_COST = 559,
+        TREASURE_DEFINTIONAL_HEALTH = 560,
+        ACTS_LIKE_A_SPELL = 561,
         STAMPEDE = 564,
+        EMPOWERED_TREASURE = 646,
+        ONE_SIDED_GHOSTLY = 648,
+        CURRENT_NEGATIVE_SPELLPOWER = 651,
         IS_VAMPIRE = 680,
         CORRUPTED = 681,
+        HIDE_HEALTH = 682,
+        HIDE_ATTACK = 683,
+        HIDE_COST = 684,
         LIFESTEAL = 685,
         OVERRIDE_EMOTE_0 = 740,
         OVERRIDE_EMOTE_1 = 741,
@@ -552,13 +578,22 @@ namespace HearthDb.Enums
         OVERRIDE_EMOTE_4 = 744,
         OVERRIDE_EMOTE_5 = 745,
         SCORE_FOOTERID = 751,
+        RECRUIT = 763,
+        LOOT_CARD_1 = 764,
+        LOOT_CARD_2 = 765,
+        LOOT_CARD_3 = 766,
         HERO_POWER_DISABLED = 777,
         VALEERASHADOW = 779,
         OVERRIDECARDNAME = 781,
         OVERRIDECARDTEXTBUILDER = 782,
+        DUNGEON_PASSIVE_BUFF = 783,
         HIDDEN_CHOICE = 813,
         ZOMBEAST = 823,
         HERO_EMOTE_SILENCED = 832,
+        MINION_IN_HAND_BUFF = 845,
+        IGNORE_HIDE_STATS_FOR_BIG_CARD = 857,
+        REAL_TIME_TRANSFORM = 859,
+        WAIT_FOR_PLAYER_RECONNECT_PERIOD = 860,
     }
 
     public enum GameType
@@ -568,6 +603,7 @@ namespace HearthDb.Enums
         GT_VS_FRIEND = 2,
         GT_TUTORIAL = 4,
         GT_ARENA = 5,
+        GT_TEST_AI_VS_AI = 6,
         GT_TEST = 6,
         GT_RANKED = 7,
         GT_CASUAL = 8,
@@ -734,7 +770,10 @@ namespace HearthDb.Enums
         REQ_NOT_DISABLED_HERO_POWER = 68,
         REQ_MUST_PLAY_OTHER_CARD_FIRST = 69,
         REQ_HAND_NOT_FULL = 70,
-        REQ_DRAG_TO_PLAY = 71,
+        REQ_TARGET_IF_AVAILABLE_AND_NO_3_COST_CARD_IN_DECK = 71,
+        REQ_CAN_BE_TARGETED_BY_COMBOS = 72,
+        REQ_CANNOT_PLAY_THIS = 73,
+        REQ_DRAG_TO_PLAY = 74,
     }
 
     public enum PlayState
@@ -794,6 +833,7 @@ namespace HearthDb.Enums
         NERUBIAN = 22,
         PIRATE = 23,
         DRAGON = 24,
+        BLANK = 25,
     }
 
     public enum Rarity

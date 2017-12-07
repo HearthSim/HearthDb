@@ -62,7 +62,7 @@ namespace HearthDb.Enums
 			{GameTag.AI_MUST_PLAY, "AIMustPlay"},
 			{GameTag.AFFECTED_BY_SPELL_POWER, "AffectedBySpellPower"},
 			{GameTag.SPARE_PART, "SparePart"},
-			{GameTag.LIFESTEAL, "Lifesteal"}
+			{GameTag.LIFESTEAL, "Lifesteal"},
 		};
 
 		public static Dictionary<GameTag, string> Mechanics = new Dictionary<GameTag, string>
@@ -82,10 +82,14 @@ namespace HearthDb.Enums
 			{GameTag.SILENCE, "Silence"},
 			{GameTag.ImmuneToSpellpower, "ImmuneToSpellpower"},
 			{GameTag.POISONOUS, "Poisonous"},
-			{GameTag.LIFESTEAL, "Lifesteal"}
+			{GameTag.LIFESTEAL, "Lifesteal"},
 		};
 
-		public static Dictionary<GameTag, string> ReferencedMechanics = new Dictionary<GameTag, string> {{GameTag.TREASURE, "Discover"}};
+		public static Dictionary<GameTag, string> ReferencedMechanics = new Dictionary<GameTag, string>
+		{
+			{GameTag.DISCOVER, "Discover"},
+			{GameTag.RECRUIT, "Recruit"}
+		};
 
 		public static Dictionary<GameTag, System.Type> TagTypes = new Dictionary<GameTag, System.Type>
 		{
@@ -134,7 +138,8 @@ namespace HearthDb.Enums
 			{GameTag.AI_MUST_PLAY, typeof(bool)},
 			{GameTag.AFFECTED_BY_SPELL_POWER, typeof(bool)},
 			{GameTag.SPARE_PART, typeof(bool)},
-			{GameTag.LIFESTEAL, typeof(bool)}
+			{GameTag.LIFESTEAL, typeof(bool)},
+			{GameTag.RECRUIT, typeof(bool)}
 		};
 	}
 }

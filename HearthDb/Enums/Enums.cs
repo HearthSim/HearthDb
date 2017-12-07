@@ -14,6 +14,7 @@ namespace HearthDb.Enums
         PLAY = 7,
         FATIGUE = 8,
         RITUAL = 9,
+        REVEAL_CARD = 10,
         ACTION = 99,
     }
 
@@ -667,6 +668,7 @@ namespace HearthDb.Enums
         BEGIN_ARTIFICIAL_HISTORY_TILE = 10,
         BEGIN_ARTIFICIAL_HISTORY_TRIGGER_TILE = 11,
         END_ARTIFICIAL_HISTORY_TILE = 12,
+        START_DRAW = 13,
     }
 
     public enum Mulligan

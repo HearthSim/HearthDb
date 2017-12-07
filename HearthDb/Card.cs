@@ -57,7 +57,7 @@ namespace HearthDb
 			{
 				var mechanics = Dictionaries.Mechanics.Keys.Where(mechanic => Entity.GetTag(mechanic) > 0).Select(x => Dictionaries.Mechanics[x]);
 				var refMechanics =
-					Dictionaries.ReferencedMechanics.Keys.Where(mechanic => Entity.GetTag(mechanic) > 0)
+					Dictionaries.ReferencedMechanics.Keys.Where(mechanic => Entity.GetReferencedTag(mechanic) > 0)
 								.Select(x => Dictionaries.ReferencedMechanics[x]);
 				return mechanics.Concat(refMechanics).ToArray();
 			}

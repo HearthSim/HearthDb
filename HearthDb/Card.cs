@@ -1,6 +1,5 @@
 #region
 
-using System;
 using System.Linq;
 using HearthDb.CardDefs;
 using HearthDb.Enums;
@@ -69,7 +68,7 @@ namespace HearthDb
 
 		public Locale DefaultLanguage { get; set; } = Locale.enUS;
 
-		public bool Collectible => Convert.ToBoolean(Entity.GetTag(COLLECTIBLE));
+		public bool Collectible => Entity.GetTag(COLLECTIBLE) != 0;
 
 		public string GetLocName(Locale lang) => Entity.GetLocString(CARDNAME, lang);
 

@@ -1,6 +1,5 @@
 ﻿#region
 
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -18,11 +17,11 @@ namespace HearthDb
 
 		public static readonly Dictionary<string, Card> Collectible = new Dictionary<string, Card>();
 
-		static Cards()
-		{
+		static Cards() {
 			var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("HearthDb.CardDefs.xml");
 			if(stream == null)
 				return;
+
 			using(TextReader tr = new StreamReader(stream))
 			{
 				var xml = new XmlSerializer(typeof(CardDefs.CardDefs));
@@ -38,7 +37,7 @@ namespace HearthDb
 		}
 
 		public static Card GetFromName(string name, Locale lang, bool collectible = true)
-			=> (collectible ? Collectible : All).Values.FirstOrDefault(x => x.GetLocName(lang)?.Equals(name, StringComparison.InvariantCultureIgnoreCase) ?? false);
+			=> (collectible ? Collectible : All).Values.FirstOrDefault(x => x.GetLocName(lang)?.Equals(name) ?? false);
 
 		public static Card GetFromDbfId(int dbfId, bool collectibe = true)
 			=> (collectibe ? Collectible : All).Values.FirstOrDefault(x => x.DbfId == dbfId);

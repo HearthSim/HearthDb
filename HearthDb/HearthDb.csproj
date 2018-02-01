@@ -1,13 +1,31 @@
 ﻿<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net471;netcoreapp2.0</TargetFrameworks>
+    <TargetFrameworks>net471;net45;netcoreapp2.0;netstandard2.0</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
     <AssemblyVersion>10.0.1.0</AssemblyVersion>
     <FileVersion>10.0.1.0</FileVersion>
     <DelaySign>false</DelaySign>
     <Version>10.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>HearthSim</Company>
+    <PackageProjectUrl>https://github.com/HearthSim/Hearthstone-Deck-Tracker</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/HearthSim/Hearthstone-Deck-Tracker/blob/master/Hearthstone%20Deck%20Tracker/Images/HearthstoneDeckTracker.ico</PackageIconUrl>
+    <RepositoryUrl>https://github.com/HearthSim/HearthDb</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <Authors />
+    <Product />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net45|AnyCPU'">
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup>

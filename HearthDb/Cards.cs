@@ -17,7 +17,8 @@ namespace HearthDb
 
 		public static readonly Dictionary<string, Card> Collectible = new Dictionary<string, Card>();
 
-		static Cards() {
+		static Cards()
+		{
 			var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("HearthDb.CardDefs.xml");
 			if(stream == null)
 				return;

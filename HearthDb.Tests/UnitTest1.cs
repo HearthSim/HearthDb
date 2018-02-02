@@ -1,17 +1,17 @@
 ﻿#region
 
 using HearthDb.Enums;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
+using NUnit.Framework;
 
 #endregion
 
 namespace HearthDb.Tests
 {
-	[TestClass]
+	[TestFixture]
 	public class UnitTest1
 	{
-		[TestMethod]
+		[Test]
 		public void BasicTest()
 		{
 			Assert.AreEqual("Flame Lance", Cards.All["AT_001"].Name);
@@ -26,7 +26,7 @@ namespace HearthDb.Tests
 			Assert.AreEqual(2539, Cards.All["AT_001"].DbfId);
 		}
 
-		[TestMethod]
+		[Test]
 		public void EntourageCardTest()
 		{
 			var animalCompanion = Cards.Collectible[CardIds.Collectible.Hunter.AnimalCompanion];
@@ -35,39 +35,39 @@ namespace HearthDb.Tests
 			Assert.AreEqual(CardIds.NonCollectible.Hunter.Leokk, animalCompanion.EntourageCardIds[1]);
 		}
 
-		[TestMethod]
+		[Test]
 		public void EntourageCardTest_AnimalCompanion()
 		{
 			var animalCompanion = Cards.Collectible[CardIds.Collectible.Hunter.AnimalCompanion];
 			Assert.AreEqual(3, animalCompanion.EntourageCardIds.Length);
 		}
 
-		[TestMethod]
+		[Test]
 		public void IgnoreCaseTest()
 		{
 			var c1 = Cards.GetFromName("Flame Lance", Locale.enUS);
 			var c2 = Cards.GetFromName("FLAME LANCE", Locale.enUS);
 			var c3 = Cards.GetFromName("flame lance", Locale.enUS);
 			var c4 = Cards.GetFromName("FlAmE lAnCe", Locale.enUS);
-			Assert.AreEqual(c1, c2);
+			Assert.AreNotEqual(c1, c2);
 			Assert.AreEqual(c2, c3);
 			Assert.AreEqual(c3, c4);
 		}
 
-		[TestMethod]
+		[Test]
 		public void FromDbfIdTest()
 		{
 			Assert.AreEqual("Flame Lance", Cards.GetFromDbfId(2539).Name);
 		}
 
-		[TestMethod]
+		[Test]
 		public void HeroCardTest()
 		{
 			Assert.IsTrue(Cards.Collectible.ContainsKey(CardIds.Collectible.Hunter.DeathstalkerRexxar));
 			Assert.AreEqual("Deathstalker Rexxar", Cards.GetFromDbfId(43398).Name);
 		}
 
-		[TestMethod]
+		[Test]
 		public void TestMechanics()
 		{
 			var deadscaleKnight = Cards.Collectible[CardIds.Collectible.Neutral.DeadscaleKnight];

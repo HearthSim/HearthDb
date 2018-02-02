@@ -1,36 +1,35 @@
-﻿<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>net471;net45;netcoreapp2.0;netstandard2.0</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
-    <AssemblyVersion>10.0.1.0</AssemblyVersion>
-    <FileVersion>10.0.1.0</FileVersion>
-    <DelaySign>false</DelaySign>
+    <AssemblyVersion>10.0.1.1</AssemblyVersion>
+    <FileVersion>10.0.1.1</FileVersion>
     <Version>10.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>HearthSim</Company>
-    <PackageProjectUrl>https://github.com/HearthSim/Hearthstone-Deck-Tracker</PackageProjectUrl>
-    <PackageIconUrl>https://github.com/HearthSim/Hearthstone-Deck-Tracker/blob/master/Hearthstone%20Deck%20Tracker/Images/HearthstoneDeckTracker.ico</PackageIconUrl>
-    <RepositoryUrl>https://github.com/HearthSim/HearthDb</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Latency/HearthDb</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/HearthSim/Hearthstone-Deck-Tracker/master/Hearthstone%20Deck%20Tracker/Images/HearthstoneDeckTracker.ico</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Latency/HearthDb</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
-    <Authors />
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Authors>HearthSim</Authors>
+    <NeutralLanguage>en-US</NeutralLanguage>
     <Product />
+    <Copyright>Copyright © HearthSim</Copyright>
+    <Description>A .NET Hearthstone database.</Description>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net45|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'">
     <DefineConstants>TRACE;DEBUG</DefineConstants>
     <OutputPath>bin\Debug\</OutputPath>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE;RELEASE</DefineConstants>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Convert.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="CardDefs.xml" />

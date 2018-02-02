@@ -7,6 +7,7 @@
 *.sln.docstates
 
 # Build results
+[Bb]in/
 [Oo]bj/
 
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
@@ -100,7 +101,7 @@ nuget.exe
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
-#packages/
+packages/
 
 # Windows Azure Build Output
 csx
@@ -156,21 +157,3 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
-
-# =========================
-# Hearthstone DB
-# =========================
-
-HearthDb/CARD.xml
-HearthDb/CardDefs.xml
-HearthDb/hsdata/
-
-HearthDb/[Bb]in/*
-
-!HearthDb/[Bb]in/Debug
-HearthDb/[Bb]in/Debug/*
-!HearthDb/[Bb]in/Debug/*.nupkg
-
-!HearthDb/[Bb]in/Release
-HearthDb/[Bb]in/Release/*
-!HearthDb/[Bb]in/Release/*.nupkg

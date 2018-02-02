@@ -1,7 +1,7 @@
 # HearthDb
 
+[![hearthstone MyGet Build Status](https://www.myget.org/BuildSource/Badge/hearthstone?identifier=fbb04896-bd53-45e9-95cf-c638961aeb8e)](https://www.myget.org/)
 [![Build status](https://ci.appveyor.com/api/projects/status/o4crg4ncu2c899jl?svg=true)](https://ci.appveyor.com/project/azeier/hearthdb)
-
 
 HearthDb is a .NET Hearthstone database.
 

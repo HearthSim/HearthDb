@@ -1,12 +1,16 @@
-﻿using System;
+﻿#region
+
+using System;
 using System.Linq;
 using HearthDb.Deckstrings;
 using HearthDb.Enums;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
+
+#endregion
 
 namespace HearthDb.Tests
 {
-	[TestClass]
+	[TestFixture]
 	public class DeckSerializerTest
 	{
 		private const string DeckString = "AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==";
@@ -37,7 +41,7 @@ AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==
 #
 # To use this deck, copy it to your clipboard and create a new deck in Hearthstone";
 
-		[TestMethod]
+		[Test]
 		public void TestDeckStrings()
 		{
 			var deck = DeckSerializer.Deserialize(DeckString);
@@ -49,7 +53,7 @@ AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==
 			Assert.AreEqual(2, heroicStroke.Value);
 		}
 
-		[TestMethod]
+		[Test]
 		public void TestReserialize()
 		{
 			var deck = DeckSerializer.Deserialize(DeckString);
@@ -57,7 +61,7 @@ AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==
 			Assert.AreEqual(DeckString, reserialized);
 		}
 
-		[TestMethod]
+		[Test]
 		public void TestSerializerComments()
 		{
 			var deck = DeckSerializer.Deserialize(DeckString);
@@ -72,7 +76,7 @@ AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==
 			Assert.AreEqual("# Year of the Mammoth", lines[3]);
 		}
 
-		[TestMethod]
+		[Test]
 		public void TestSerializerCommentsDefaults()
 		{
 			var deck = DeckSerializer.Deserialize(DeckString);
@@ -84,7 +88,7 @@ AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==
 			Assert.AreEqual("# Format: Standard", lines[2]);
 		}
 
-		[TestMethod]
+		[Test]
 		public void DeserializeWithComments()
 		{
 

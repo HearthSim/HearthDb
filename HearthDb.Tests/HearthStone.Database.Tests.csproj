@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HearthDb\HearthDb.csproj" />
+    <ProjectReference Include="..\HearthDb\HearthStone.Database.csproj" />
   </ItemGroup>
   
 </Project>

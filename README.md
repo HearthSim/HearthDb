@@ -1,6 +1,4 @@
-# HearthStone-Database
-
-### HearthStone Database
+# HearthStone.Database
 
 ---
 

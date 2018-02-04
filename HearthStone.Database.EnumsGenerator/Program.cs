@@ -7,12 +7,13 @@ using Microsoft.CodeAnalysis.Formatting;
 using Microsoft.CodeAnalysis.MSBuild;
 using static Microsoft.CodeAnalysis.CSharp.SyntaxFactory;
 
-namespace HearthDb.EnumsGenerator
+namespace HearthStone.Database.EnumsGenerator
 {
 	internal class Program
 	{
-		private const string File = "../../../HearthDb/Enums/Enums.cs";
-		static void Main()
+		private const string File = "../../../HearthStone.Database/Enums/Enums.cs";
+        
+	    private static void Main()
 		{
 			ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
 			string enums;

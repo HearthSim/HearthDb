@@ -1,4 +1,4 @@
-namespace HearthDb.CardIdGenerator
+namespace HearthStone.Database.CardIdGenerator
 {
 	public enum CardSet
 	{

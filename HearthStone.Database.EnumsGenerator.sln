@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HearthStone.Database.EnumsGenerator", "HearthStone.Database.EnumsGenerator\HearthStone.Database.EnumsGenerator.csproj", "{A521F60B-5A78-4679-AD70-B4DBF72AFCA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E88B4AA9-539D-4372-85B1-9F8F184B70FC}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A521F60B-5A78-4679-AD70-B4DBF72AFCA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A521F60B-5A78-4679-AD70-B4DBF72AFCA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A521F60B-5A78-4679-AD70-B4DBF72AFCA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A521F60B-5A78-4679-AD70-B4DBF72AFCA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79FF332E-F967-4C44-80D7-9969C8C9AA59}
+	EndGlobalSection
+EndGlobal

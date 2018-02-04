@@ -5,14 +5,14 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
+using HearthDb;
 using HearthDb.Enums;
+using Microsoft.CodeAnalysis.CSharp;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
-using static Microsoft.CodeAnalysis.CSharp.SyntaxFactory;
-using static Microsoft.CodeAnalysis.CSharp.SyntaxKind;
 
 #endregion
 
-namespace HearthDb.CardIdGenerator
+namespace HearthStone.Database.CardIdGenerator
 {
 	internal class SyntaxBuilder
 	{
@@ -23,11 +23,11 @@ namespace HearthDb.CardIdGenerator
 			while(true)
 			{
 				var newNamingConflicts = new Dictionary<string, List<string>>();
-				var classDecl = ClassDeclaration("NonCollectible").AddModifiers(Token(PublicKeyword));
+				var classDecl = SyntaxFactory.ClassDeclaration("NonCollectible").AddModifiers(SyntaxFactory.Token(SyntaxKind.PublicKeyword));
 				foreach(var c in ClassNames)
 				{
 					var className = c == "DREAM" ? "DreamCards" : CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
-					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword));
+					var cCard = SyntaxFactory.ClassDeclaration(className).AddModifiers(SyntaxFactory.Token(SyntaxKind.PublicKeyword));
 					var anyCards = false;
 					foreach(var card in
 						Cards.All.OrderBy(x => x.Value.Set)
@@ -72,7 +72,7 @@ namespace HearthDb.CardIdGenerator
 					name = tmpName + "_" + name;
 				}
 			}
-			if(card.Set == Enums.CardSet.HERO_SKINS)
+			if(card.Set == HearthDb.Enums.CardSet.HERO_SKINS)
 				name += "HeroSkins";
 			if(Regex.IsMatch(card.Id, @"_\d+[abhHt]?[eo]"))
 				name += "Enchantment";
@@ -129,7 +129,7 @@ namespace HearthDb.CardIdGenerator
 			{
 				var anyCards = false;
 				var className = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
-				var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword));
+				var cCard = SyntaxFactory.ClassDeclaration(className).AddModifiers(SyntaxFactory.Token(SyntaxKind.PublicKeyword));
 				foreach(var card in
 					Cards.All.Values.Where(x => x.Collectible && x.Class.ToString().Equals(c)))
 				{
@@ -149,12 +149,12 @@ namespace HearthDb.CardIdGenerator
 
 		internal static FieldDeclarationSyntax GenerateConst(string identifier, string value)
 		{
-			var assignedValue = EqualsValueClause(LiteralExpression(StringLiteralExpression, Literal(value)));
-			var declaration = SeparatedList(new[] {VariableDeclarator(Identifier(identifier), null, assignedValue)});
+			var assignedValue = SyntaxFactory.EqualsValueClause(SyntaxFactory.LiteralExpression(SyntaxKind.StringLiteralExpression, SyntaxFactory.Literal(value)));
+			var declaration = SyntaxFactory.SeparatedList(new[] {SyntaxFactory.VariableDeclarator(SyntaxFactory.Identifier(identifier), null, assignedValue)});
 			return
-				FieldDeclaration(VariableDeclaration(ParseTypeName("string"), declaration))
-					.AddModifiers(Token(PublicKeyword))
-					.AddModifiers(Token(ConstKeyword));
+				SyntaxFactory.FieldDeclaration(SyntaxFactory.VariableDeclaration(SyntaxFactory.ParseTypeName("string"), declaration))
+					.AddModifiers(SyntaxFactory.Token(SyntaxKind.PublicKeyword))
+					.AddModifiers(SyntaxFactory.Token(SyntaxKind.ConstKeyword));
 		}
 	}
 }

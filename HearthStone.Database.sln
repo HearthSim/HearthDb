@@ -3,13 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HearthStone.Database", "HearthDb\HearthStone.Database.csproj", "{7ED14243-E02B-4B94-AF00-A67A62C282F0}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HearthStone.Database.Tests", "HearthDb.Tests\HearthStone.Database.Tests.csproj", "{CB4162D6-E64D-4D3A-9207-9C850B684183}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HearthStone.Database.CardIdGenerator", "HearthDb.CardIdGenerator\HearthStone.Database.CardIdGenerator.csproj", "{89D6853A-FAEF-4E66-B5C5-95FFE71E9C8C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HearthStone.Database.EnumsGenerator", "HearthDb.EnumsGenerator\HearthStone.Database.EnumsGenerator.csproj", "{D6D59655-923E-4745-BF2E-9E59CB0F10D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HearthStone.Database", "HearthStone.Database\HearthStone.Database.csproj", "{7ED14243-E02B-4B94-AF00-A67A62C282F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DE9645A9-27F9-4BFD-8BE8-0323B8C0BBE4}"
 	ProjectSection(SolutionItems) = preProject
@@ -28,18 +22,6 @@ Global
 		{7ED14243-E02B-4B94-AF00-A67A62C282F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7ED14243-E02B-4B94-AF00-A67A62C282F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7ED14243-E02B-4B94-AF00-A67A62C282F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CB4162D6-E64D-4D3A-9207-9C850B684183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CB4162D6-E64D-4D3A-9207-9C850B684183}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CB4162D6-E64D-4D3A-9207-9C850B684183}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CB4162D6-E64D-4D3A-9207-9C850B684183}.Release|Any CPU.Build.0 = Release|Any CPU
-		{89D6853A-FAEF-4E66-B5C5-95FFE71E9C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{89D6853A-FAEF-4E66-B5C5-95FFE71E9C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{89D6853A-FAEF-4E66-B5C5-95FFE71E9C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{89D6853A-FAEF-4E66-B5C5-95FFE71E9C8C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6D59655-923E-4745-BF2E-9E59CB0F10D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6D59655-923E-4745-BF2E-9E59CB0F10D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6D59655-923E-4745-BF2E-9E59CB0F10D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6D59655-923E-4745-BF2E-9E59CB0F10D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

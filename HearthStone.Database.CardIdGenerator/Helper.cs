@@ -3,11 +3,10 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text.RegularExpressions;
-using static HearthDb.Enums.CardSet;
 
 #endregion
 
-namespace HearthDb.CardIdGenerator
+namespace HearthStone.Database.CardIdGenerator
 {
 	internal class Helper
 	{
@@ -89,43 +88,43 @@ namespace HearthDb.CardIdGenerator
 			}
 		}
 
-		public static string GetSetAbbreviation(Enums.CardSet set)
+		public static string GetSetAbbreviation(HearthDb.Enums.CardSet set)
 		{
 			switch(set)
 			{
-				case FP1:
+				case HearthDb.Enums.CardSet.FP1:
 					return "NAXX";
-				case PE1:
+				case HearthDb.Enums.CardSet.PE1:
 					return "GVG";
-				case EXPERT1:
+				case HearthDb.Enums.CardSet.EXPERT1:
 					return "Classic";
-				case MISSIONS:
+				case HearthDb.Enums.CardSet.MISSIONS:
 					return "Missions";
-				case CORE:
+				case HearthDb.Enums.CardSet.CORE:
 					return "Basic";
-				case INVALID:
+				case HearthDb.Enums.CardSet.INVALID:
 					return "Invalid";
-				case TEST_TEMPORARY:
+				case HearthDb.Enums.CardSet.TEST_TEMPORARY:
 					return "Test";
-				case DEMO:
+				case HearthDb.Enums.CardSet.DEMO:
 					return "Demo";
-				case NONE:
+				case HearthDb.Enums.CardSet.NONE:
 					return "None";
-				case CHEAT:
+				case HearthDb.Enums.CardSet.CHEAT:
 					return "Cheat";
-				case BLANK:
+				case HearthDb.Enums.CardSet.BLANK:
 					return "Blank";
-				case DEBUG_SP:
+				case HearthDb.Enums.CardSet.DEBUG_SP:
 					return "Debug";
-				case PROMO:
+				case HearthDb.Enums.CardSet.PROMO:
 					return "Promo";
-				case CREDITS:
+				case HearthDb.Enums.CardSet.CREDITS:
 					return "Credits";
-				case HERO_SKINS:
+				case HearthDb.Enums.CardSet.HERO_SKINS:
 					return "HeroSkins";
-				case TB:
+				case HearthDb.Enums.CardSet.TB:
 					return "TavernBrawl";
-				case SLUSH:
+				case HearthDb.Enums.CardSet.SLUSH:
 					return "Slush";
 				default:
 					return set.ToString();

@@ -1,21 +1,18 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Version>10.0.1</Version>
     <TargetFrameworks>net471;net45;netcoreapp2.0;netstandard2.0</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
-    <AssemblyVersion>10.0.1.0</AssemblyVersion>
-    <FileVersion>10.0.1.0</FileVersion>
-    <Version>10.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Company>HearthSim</Company>
-    <PackageProjectUrl>https://github.com/Latency/HearthStone-Database</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/Latency/HearthStone.Database</PackageProjectUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/HearthSim/Hearthstone-Deck-Tracker/master/Hearthstone%20Deck%20Tracker/Images/HearthstoneDeckTracker.ico</PackageIconUrl>
-    <RepositoryUrl>https://github.com/Latency/HearthStone-Database</RepositoryUrl>
+    <RepositoryUrl>https://github.com/Latency/HearthStone.Database</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Company>HearthSim</Company>
     <Authors>HearthSim</Authors>
-    <NeutralLanguage></NeutralLanguage>
     <Product>HearthStone.Database</Product>
     <Copyright>Copyright © HearthSim</Copyright>
     <Description>A .NET Hearthstone database.</Description>

@@ -19,8 +19,8 @@
     <PackageId>HearthStone.Database</PackageId>
     <PackageTags>HearthStone Database</PackageTags>
     <PackageReleaseNotes>Initial build &amp; release package.</PackageReleaseNotes>
-    <RootNamespace>HearthDb</RootNamespace>
-    <AssemblyName>HearthDb</AssemblyName>
+    <RootNamespace>HearthStone.Database</RootNamespace>
+    <AssemblyName>HearthStone.Database</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">

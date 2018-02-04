@@ -2,9 +2,10 @@
 using System.IO;
 using System.Linq;
 using System.Text;
-using HearthDb.Enums;
+using HearthStone.Database.Enums;
 
-namespace HearthDb.Deckstrings
+
+namespace HearthStone.Database.Deckstrings
 {
 	public class DeckSerializer
 	{

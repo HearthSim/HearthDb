@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace HearthDb.Deckstrings
+
+namespace HearthStone.Database.Deckstrings
 {
 	public class InvalidDeckException : Exception
 	{

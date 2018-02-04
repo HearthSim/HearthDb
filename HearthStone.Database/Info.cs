@@ -5,7 +5,7 @@ using System.Reflection;
 
 #endregion
 
-namespace HearthDb
+namespace HearthStone.Database
 {
 	public static class Info
 	{

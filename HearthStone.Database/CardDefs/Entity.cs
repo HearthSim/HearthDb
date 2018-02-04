@@ -3,12 +3,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Serialization;
-using HearthDb.Enums;
-using static HearthDb.Enums.Locale;
+using HearthStone.Database.Enums;
 
 #endregion
 
-namespace HearthDb.CardDefs
+namespace HearthStone.Database.CardDefs
 {
 	public class Entity
 	{
@@ -54,33 +53,33 @@ namespace HearthDb.CardDefs
 				return null;
 			switch(lang)
 			{
-				case deDE:
+				case Locale.deDE:
 					return tag.LocStringDeDe;
-				case enUS:
+				case Locale.enUS:
 					return tag.LocStringEnUs;
-				case esES:
+				case Locale.esES:
 					return tag.LocStringEsEs;
-				case esMX:
+				case Locale.esMX:
 					return tag.LocStringEsMx;
-				case frFR:
+				case Locale.frFR:
 					return tag.LocStringFrFr;
-				case itIT:
+				case Locale.itIT:
 					return tag.LocStringItIt;
-				case jaJP:
+				case Locale.jaJP:
 					return tag.LocStringJaJp;
-				case koKR:
+				case Locale.koKR:
 					return tag.LocStringKoKr;
-				case plPL:
+				case Locale.plPL:
 					return tag.LocStringPlPl;
-				case ptBR:
+				case Locale.ptBR:
 					return tag.LocStringPtBr;
-				case ruRU:
+				case Locale.ruRU:
 					return tag.LocStringRuRu;
-				case zhCN:
+				case Locale.zhCN:
 					return tag.LocStringZhCn;
-				case zhTW:
+				case Locale.zhTW:
 					return tag.LocStringZhTw;
-				case thTH:
+				case Locale.thTH:
 					return tag.LocStringThTh;
 				default:
 					return null;

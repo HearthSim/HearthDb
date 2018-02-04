@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 
 #endregion
 
-namespace HearthDb.CardDefs
+namespace HearthStone.Database.CardDefs
 {
 	public class Tag
 	{

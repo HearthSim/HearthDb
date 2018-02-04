@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 #endregion
 
-namespace HearthDb.Enums
+namespace HearthStone.Database.Enums
 {
 	public static class Dictionaries
 	{

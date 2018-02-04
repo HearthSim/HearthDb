@@ -1,6 +1,7 @@
 ﻿using System.IO;
 
-namespace HearthDb.Deckstrings
+
+namespace HearthStone.Database.Deckstrings
 {
 	internal static class VarInt
 	{

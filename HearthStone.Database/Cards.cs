@@ -5,11 +5,11 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Xml.Serialization;
-using HearthDb.Enums;
+using HearthStone.Database.Enums;
 
 #endregion
 
-namespace HearthDb
+namespace HearthStone.Database
 {
 	public static class Cards
 	{

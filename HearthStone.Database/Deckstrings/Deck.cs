@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using HearthDb.Enums;
+using HearthStone.Database.Enums;
 
-namespace HearthDb.Deckstrings
+
+namespace HearthStone.Database.Deckstrings
 {
 	public class Deck
 	{

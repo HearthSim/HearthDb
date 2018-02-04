@@ -1,7 +1,7 @@
 ﻿<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Version>10.0.1</Version>
+    <Version>1.0.1</Version>
     <TargetFrameworks>net471;net45;netcoreapp2.0;netstandard2.0</TargetFrameworks>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
@@ -15,12 +15,12 @@
     <Authors>HearthSim</Authors>
     <Product>HearthStone.Database</Product>
     <Copyright>Copyright © HearthSim</Copyright>
-    <Description>A .NET Hearthstone database.</Description>
+    <Description>HearthStone Deck Tracker Database</Description>
     <PackageId>HearthStone.Database</PackageId>
     <PackageTags>HearthStone Database</PackageTags>
     <PackageReleaseNotes>Initial build &amp; release package.</PackageReleaseNotes>
-    <RootNamespace>HearthDb</RootNamespace>
-    <AssemblyName>HearthDb</AssemblyName>
+    <RootNamespace>HearthStone.Database</RootNamespace>
+    <AssemblyName>HearthStone.Database</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Debug'">

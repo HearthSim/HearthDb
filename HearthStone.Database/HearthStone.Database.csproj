@@ -1,0 +1,40 @@
+﻿<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Version>10.0.1</Version>
+    <TargetFrameworks>net471;net45;netcoreapp2.0;netstandard2.0</TargetFrameworks>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>snKey.snk</AssemblyOriginatorKeyFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/Latency/HearthStone.Database</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/HearthSim/Hearthstone-Deck-Tracker/master/Hearthstone%20Deck%20Tracker/Images/HearthstoneDeckTracker.ico</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Latency/HearthStone.Database</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <Company>HearthSim</Company>
+    <Authors>HearthSim</Authors>
+    <Product>HearthStone.Database</Product>
+    <Copyright>Copyright © HearthSim</Copyright>
+    <Description>A .NET Hearthstone database.</Description>
+    <PackageId>HearthStone.Database</PackageId>
+    <PackageTags>HearthStone Database</PackageTags>
+    <PackageReleaseNotes>Initial build &amp; release package.</PackageReleaseNotes>
+    <RootNamespace>HearthStone.Database</RootNamespace>
+    <AssemblyName>HearthStone.Database</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Debug'">
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)'=='Release'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;RELEASE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="CardDefs.xml" />
+  </ItemGroup>
+
+</Project>

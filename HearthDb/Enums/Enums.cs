@@ -77,6 +77,7 @@ namespace HearthDb.Enums
         GOLDEN_CLASSIC_PACK = 23,
         KOBOLDS_AND_CATACOMBS = 30,
         KOBOLDS_CATACOMBS = 30,
+        MAMMOTH_BUNDLE = 41,
     }
 
     public enum BrawlType
@@ -595,6 +596,10 @@ namespace HearthDb.Enums
         IGNORE_HIDE_STATS_FOR_BIG_CARD = 857,
         REAL_TIME_TRANSFORM = 859,
         WAIT_FOR_PLAYER_RECONNECT_PERIOD = 860,
+        PHASED_RESTART = 888,
+        HEALTH_DISPLAY = 917,
+        ENABLE_HEALTH_DISPLAY = 920,
+        SHIFTING_SPELL = 936,
     }
 
     public enum GameType
@@ -877,6 +882,12 @@ namespace HearthDb.Enums
         FINAL_GAMEOVER = 15,
         MAIN_CLEANUP = 16,
         MAIN_START_TRIGGERS = 17,
+    }
+
+    public enum TavernBrawlMode
+    {
+        TB_MODE_NORMAL = 0,
+        TB_MODE_HEROIC = 1,
     }
 
     public enum Type

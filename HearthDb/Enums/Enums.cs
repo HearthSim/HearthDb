@@ -77,6 +77,7 @@ namespace HearthDb.Enums
         GOLDEN_CLASSIC_PACK = 23,
         KOBOLDS_AND_CATACOMBS = 30,
         KOBOLDS_CATACOMBS = 30,
+        WITCHWOOD = 31,
         MAMMOTH_BUNDLE = 41,
     }
 
@@ -155,6 +156,7 @@ namespace HearthDb.Enums
         KAZAKUS_POTION_EFFECT = 4,
         PRIMORDIAL_WAND = 5,
         DEPRECATED_5 = 5,
+        ALTERNATE_CARD_TEXT = 6,
         DEPRECATED_6 = 6,
         SCRIPT_DATA_NUM_1 = 7,
         PLACE_HOLDER_7 = 7,
@@ -600,6 +602,7 @@ namespace HearthDb.Enums
         HEALTH_DISPLAY = 917,
         ENABLE_HEALTH_DISPLAY = 920,
         SHIFTING_SPELL = 936,
+        USE_ALTERNATE_CARD_TEXT = 955,
     }
 
     public enum GameType

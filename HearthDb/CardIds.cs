@@ -1528,6 +1528,8 @@ namespace HearthDb
         {
             public class Neutral
             {
+                public const string Deadeye_DeadeyeEnchantment = "BCON_001e";
+                public const string NaturesChampion_NaturesChampionEnchantment = "BCON_008e";
                 public const string DeadlyPoison_DeadlyPoisonEnchantment = "CS2_074e";
                 public const string RaidLeader_EnhancedEnchantment = "CS2_122e";
                 public const string StormwindChampion_MightOfStormwindEnchantment = "CS2_222o";
@@ -2312,6 +2314,14 @@ namespace HearthDb
                 public const string BrazierTavernBrawl = "TB_FireFestival_Brazier";
                 public const string FireworksTavernBrawl = "TB_FireFestival_Fireworks";
                 public const string MiniRagTavernBrawl = "TB_FireFestival_MRag";
+                public const string BlessingOfTheRavenTavernBrawl = "TB_FoxBlessing";
+                public const string LeechBlessingTavernBrawl = "TB_FoxBlessing1";
+                public const string DeadlyBlessingTavernBrawl = "TB_FoxBlessing2";
+                public const string SwordmasterBlessingTavernBrawl = "TB_FoxBlessing3";
+                public const string MegaBlessingTavernBrawl = "TB_FoxBlessing4";
+                public const string StealthBlessingTavernBrawl = "TB_FoxBlessing5";
+                public const string ChargeBlessingTavernBrawl = "TB_FoxBlessing6";
+                public const string FoxBlessingEnchantTavernBrawl = "TB_FoxBlessingEnch";
                 public const string RagnarosTavernBrawl = "TB_Frost_Rag";
                 public const string DrBoomBoomBoomBoomTavernBrawl = "TB_FW_DrBoomMega";
                 public const string AnnoyOPTronTavernBrawl = "TB_FW_ImbaTron";
@@ -2467,6 +2477,13 @@ namespace HearthDb
                 public const string TbrandomcardcostTavernBrawl = "TB_RandCardCost";
                 public const string Tb_EnchwhosthebossnowTavernBrawl = "TB_RandHero2_001";
                 public const string Tb_EnchrandommanacostTavernBrawl = "TB_RMC_001";
+                public const string PortalSelectionTavernBrawl = "TB_SC20_001";
+                public const string PortalSelection_TechPortalsTavernBrawl = "TB_SC20_001a";
+                public const string PortalSelection_SwarmPortalsTavernBrawl = "TB_SC20_001b";
+                public const string PortalSelection_MindPortalsTavernBrawl = "TB_SC20_001c";
+                public const string TechPortalTavernBrawl = "TB_SC20_002";
+                public const string SwarmPortalTavernBrawl = "TB_SC20_003";
+                public const string MindPortalTavernBrawl = "TB_SC20_004";
                 public const string SpellcasterTavernBrawl = "TB_Spellwrite_001";
                 public const string CityOfStormwindTavernBrawl1 = "TB_SPT_Boss";
                 public const string BarracksTavernBrawl = "TB_SPT_BossHeroPower";
@@ -3377,6 +3394,7 @@ namespace HearthDb
 
             public class Druid
             {
+                public const string NaturesChampion = "BCON_008";
                 public const string Claw_ClawEnchantment = "CS2_005o";
                 public const string MarkoftheWild_MarkOfTheWildEnchantment = "CS2_009e";
                 public const string SavageRoar_SavageRoarEnchantment = "CS2_011o";
@@ -3539,6 +3557,7 @@ namespace HearthDb
 
             public class Hunter
             {
+                public const string Deadeye = "BCON_001";
                 public const string HuntersMark_HuntersMarkEnchantment = "CS2_084e";
                 public const string Houndmaster_MastersPresenceEnchantment = "DS1_070o";
                 public const string TimberWolf_FuriousHowlEnchantment = "DS1_175o";
@@ -3620,6 +3639,7 @@ namespace HearthDb
 
             public class Mage
             {
+                public const string Polymorph = "BCON_004";
                 public const string Polymorph_PolymorphEnchantment = "CS2_022e";
                 public const string Fireblast = "CS2_034";
                 public const string MirrorImage = "CS2_mirror";
@@ -3696,6 +3716,7 @@ namespace HearthDb
 
             public class Paladin
             {
+                public const string HandOfSalvation = "BCON_012";
                 public const string BlessingofMight_BlessingOfMightEnchantment = "CS2_087e";
                 public const string BlessingofKings_BlessingOfKingsEnchantment = "CS2_092e";
                 public const string Reinforce = "CS2_101";
@@ -3781,6 +3802,7 @@ namespace HearthDb
 
             public class Priest
             {
+                public const string GenerousSpirit = "BCON_015";
                 public const string LesserHeal = "CS1h_001";
                 public const string PowerWordShield_PowerWordShieldEnchantment = "CS2_004e";
                 public const string DivineSpirit_DivineSpiritEnchantment = "CS2_236e";
@@ -3849,6 +3871,8 @@ namespace HearthDb
 
             public class Rogue
             {
+                public const string SmokeBomb = "BCON_016";
+                public const string SmokeBomb_SmokeBombedEnchantment = "BCON_016e";
                 public const string WickedKnife = "CS2_082";
                 public const string DaggerMastery = "CS2_083b";
                 public const string SharpenedEnchantment = "CS2_083e";
@@ -3938,6 +3962,7 @@ namespace HearthDb
 
             public class Shaman
             {
+                public const string CracklingDoom = "BCON_021";
                 public const string AncestralHealing_AncestralInfusionEnchantment = "CS2_041e";
                 public const string RockbiterWeapon_RockbiterWeaponEnchantment = "CS2_045e";
                 public const string Bloodlust_BloodlustEnchantment = "CS2_046e";
@@ -4012,6 +4037,7 @@ namespace HearthDb
 
             public class Warlock
             {
+                public const string BottledMadness = "BCON_024";
                 public const string LifeTap = "CS2_056";
                 public const string Corruption_CorruptionEnchantment = "CS2_063e";
                 public const string BloodImp_BloodPactEnchantment = "CS2_059o";
@@ -4092,6 +4118,7 @@ namespace HearthDb
 
             public class Warrior
             {
+                public const string BlazingLongsword = "BCON_026";
                 public const string ArmorUp = "CS2_102";
                 public const string Charge_ChargeEnchantment = "CS2_103e2";
                 public const string HeroicStrike_HeroicStrikeEnchantment = "CS2_105e";

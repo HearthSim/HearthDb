@@ -144,6 +144,7 @@ namespace HearthDb.Enums
         UNGORO = 27,
         ICECROWN = 1001,
         LOOTAPALOOZA = 1004,
+        GILNEAS = 1125,
     }
 
     public enum CardTextBuilderType
@@ -174,6 +175,7 @@ namespace HearthDb.Enums
         ZOMBEAST = 14,
         ZOMBEAST_ENCHANTMENT = 15,
         HIDDEN_CHOICE = 16,
+        INVESTIGATE = 17,
         PLACE_HOLDER_17 = 17,
         REFERENCE_CREATOR_ENTITY = 18,
         REFERENCE_SCRIPT_DATA_NUM_1_ENTITY = 19,
@@ -213,6 +215,14 @@ namespace HearthDb.Enums
         TAVERN_BRAWL_DECK = 6,
         FSG_BRAWL_DECK = 7,
         HIDDEN_DECK = 1000,
+    }
+
+    public enum DraftSlotType
+    {
+        DRAFT_SLOT_NONE = 0,
+        DRAFT_SLOT_CARD = 1,
+        DRAFT_SLOT_HERO = 2,
+        DRAFT_SLOT_HERO_POWER = 3,
     }
 
     public enum DungeonRewardOption
@@ -297,6 +307,7 @@ namespace HearthDb.Enums
         ELITE = 114,
         MAXRESOURCES = 176,
         CARD_SET = 183,
+        CARDTEXT = 184,
         CARDTEXT_INHAND = 184,
         CARDNAME = 185,
         CARD_ID = 186,
@@ -591,18 +602,35 @@ namespace HearthDb.Enums
         OVERRIDECARDNAME = 781,
         OVERRIDECARDTEXTBUILDER = 782,
         DUNGEON_PASSIVE_BUFF = 783,
+        GHOSTLY = 785,
+        DISGUISED_TWIN = 788,
+        SECRET_DEATHRATTLE = 789,
+        RUSH = 791,
+        REVEAL_CHOICES = 792,
         HIDDEN_CHOICE = 813,
         ZOMBEAST = 823,
         HERO_EMOTE_SILENCED = 832,
         MINION_IN_HAND_BUFF = 845,
+        ECHO = 846,
         IGNORE_HIDE_STATS_FOR_BIG_CARD = 857,
         REAL_TIME_TRANSFORM = 859,
         WAIT_FOR_PLAYER_RECONNECT_PERIOD = 860,
         PHASED_RESTART = 888,
         HEALTH_DISPLAY = 917,
         ENABLE_HEALTH_DISPLAY = 920,
+        VOODOO_LINK = 921,
+        ATTACKABLE_BY_RUSH = 930,
         SHIFTING_SPELL = 936,
         USE_ALTERNATE_CARD_TEXT = 955,
+        COLLECTIONMANAGER_FILTER_MANA_EVEN = 956,
+        COLLECTIONMANAGER_FILTER_MANA_ODD = 957,
+        SUPPRESS_DEATH_SOUND = 959,
+        ECHOING_OOZE_SPELL = 963,
+        ZOMBEAST_DEBUG_CURRENT_BEAST_DATABASE_ID = 964,
+        ZOMBEAST_DEBUG_CURRENT_ITERATION = 965,
+        ZOMBEAST_DEBUG_MAX_ITERATIONS = 966,
+        START_OF_GAME = 968,
+        ENCHANTMENT_INVISIBLE = 976,
     }
 
     public enum GameType
@@ -813,6 +841,7 @@ namespace HearthDb.Enums
         CREATE_GAME = 7,
         META_DATA = 8,
         CHANGE_ENTITY = 9,
+        RESET_GAME = 10,
     }
 
     public enum Race
@@ -844,6 +873,8 @@ namespace HearthDb.Enums
         PIRATE = 23,
         DRAGON = 24,
         BLANK = 25,
+        ALL = 26,
+        EGG = 38,
     }
 
     public enum Rarity
@@ -887,10 +918,31 @@ namespace HearthDb.Enums
         MAIN_START_TRIGGERS = 17,
     }
 
+    public enum SwissDeckType
+    {
+        SWISS_DECK_NONE = 0,
+        SWISS_DECK_CONQUEST = 1,
+        SWISS_DECK_LAST_STAND = 2,
+    }
+
     public enum TavernBrawlMode
     {
         TB_MODE_NORMAL = 0,
         TB_MODE_HEROIC = 1,
+    }
+
+    public enum TournamentState
+    {
+        STATE_OPEN = 1,
+        STATE_LOCKED = 2,
+        STATE_STARTED = 3,
+        STATE_CLOSED = 4,
+    }
+
+    public enum TournamentType
+    {
+        TYPE_UNKNOWN = 0,
+        TYPE_SWISS = 1,
     }
 
     public enum Type
@@ -913,6 +965,7 @@ namespace HearthDb.Enums
         PRE_STANDARD = 0,
         KRAKEN = 1,
         MAMMOTH = 2,
+        RAVEN = 3,
     }
 
     public enum Zone

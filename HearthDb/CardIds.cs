@@ -3788,7 +3788,7 @@ namespace HearthDb
                 public const string TangledWrath = "GILA_BOSS_63p";
                 public const string Hypnotize = "GILA_BOSS_64p";
                 public const string Starving = "GILA_BOSS_65p";
-                public const string  = "GILA_BOSS_66p";
+                public const string DotDotDot = "GILA_BOSS_66p";
                 public const string MmmSoTastyEnchantment = "GILA_BOSS_67e";
                 public const string Cannibalism = "GILA_BOSS_67p";
                 public const string DrippingPoisonEnchantment = "GILA_BOSS_68e";

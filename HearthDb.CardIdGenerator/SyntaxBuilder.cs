@@ -38,6 +38,7 @@ namespace HearthDb.CardIdGenerator
 						if(card.Name == null)
 							continue;
 						var name = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(card.Name.ToLower());
+						name = NameOverrides(card, name);
 						name = Regex.Replace(name, @"[^\w\d]", "");
 						name = ResolveNameFromId(card, name);
 						name = ResolveNamingConflict(name, card, newNamingConflicts, className);
@@ -52,6 +53,13 @@ namespace HearthDb.CardIdGenerator
 				foreach(var pair in newNamingConflicts.Where(x => x.Value.Count > 1).ToDictionary(pair => pair.Key, pair => pair.Value))
 					_namingConflicts.Add(pair.Key, pair.Value);
 			}
+		}
+
+		public static string NameOverrides(Card card, string name)
+		{
+			if(card.Id == "GILA_BOSS_66p")
+				return "DotDotDot";
+			return name;
 		}
 
 		private static string ResolveNameFromId(Card card, string name)

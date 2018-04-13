@@ -705,6 +705,7 @@ namespace HearthDb.Enums
         BEGIN_ARTIFICIAL_HISTORY_TRIGGER_TILE = 11,
         END_ARTIFICIAL_HISTORY_TILE = 12,
         START_DRAW = 13,
+        BURNED_CARD = 14,
     }
 
     public enum Mulligan
@@ -811,7 +812,8 @@ namespace HearthDb.Enums
         REQ_TARGET_IF_AVAILABLE_AND_NO_3_COST_CARD_IN_DECK = 71,
         REQ_CAN_BE_TARGETED_BY_COMBOS = 72,
         REQ_CANNOT_PLAY_THIS = 73,
-        REQ_DRAG_TO_PLAY = 74,
+        REQ_FRIENDLY_MINIONS_OF_RACE_DIED_THIS_GAME = 74,
+        REQ_DRAG_TO_PLAY = 75,
     }
 
     public enum PlayState

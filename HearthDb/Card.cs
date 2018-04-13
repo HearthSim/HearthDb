@@ -37,7 +37,21 @@ namespace HearthDb
 
 		public Race Race => (Race)Entity.GetTag(CARDRACE);
 
-		public CardSet Set => (CardSet)Entity.GetTag(CARD_SET);
+		public CardSet Set
+		{
+			get
+			{
+				// HACK to fix missing set value on Hall of Fame cards
+				if(new[]
+				{
+					CardIds.Collectible.Mage.IceBlock,
+					CardIds.Collectible.Neutral.ColdlightOracle,
+					CardIds.Collectible.Neutral.MoltenGiant
+				}.Contains(Id))
+					return CardSet.HOF;
+				return (CardSet)Entity.GetTag(CARD_SET);
+			}
+		}
 
 		public Faction Faction => (Faction)Entity.GetTag(FACTION);
 

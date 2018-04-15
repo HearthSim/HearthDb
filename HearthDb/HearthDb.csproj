@@ -16,7 +16,9 @@
         <EmbeddedResource Remove="hsdata\**" />
         <None Remove="hsdata\**" />
 
-        <EmbeddedResource Include="hsdata\CardDefs.xml" />
+        <EmbeddedResource Include="hsdata\CardDefs.xml">
+            <LogicalName>$(RootNamespace).CardDefs.xml</LogicalName>
+        </EmbeddedResource>
     </ItemGroup>
 
     <!-- Targets to ensure the CardDefs from hsdata are up to date. -->

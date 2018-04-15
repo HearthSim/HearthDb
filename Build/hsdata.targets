@@ -1,0 +1,25 @@
+<Project>
+
+    <!-- Clone hsdata into a subdirectory of the project if it isn't there already -->
+    <Target Name="CloneHSData" Condition="!Exists('$(MSBuildProjectDirectory)\hsdata')" BeforeTargets="DispatchToInnerBuilds">
+        <Message Importance="normal" Text="Couldn't find hsdata repo." />
+        <Exec Command="git clone --depth=1 https://github.com/HearthSim/hsdata.git &quot;$(MSBuildProjectDirectory)\hsdata&quot;" />
+    </Target>
+
+    <!-- If the hsdata repo is already there, fetch the latest. -->
+    <Target Name="UpdateHSData" Condition="Exists('$(MSBuildProjectDirectory)\hsdata')" BeforeTargets="DispatchToInnerBuilds">
+        <Message Importance="normal" Text="Fetching latest card data from hsdata repo." />
+        <Exec WorkingDirectory="$(MSBuildProjectDirectory)\hsdata" Command="git fetch" />
+        <Exec WorkingDirectory="$(MSBuildProjectDirectory)\hsdata" Command="git reset --hard origin/master" />
+    </Target>
+
+    <!-- On Release builds, verify that the version from the latest commit matches the AssemblyVersion of this project. -->
+    <Target Name="VerifyVersion" Condition="$(Configuration)=='Release'" BeforeTargets="DispatchToInnerBuilds" DependsOnTargets="CloneHSData;UpdateHSData">
+        <Message Importance="normal" Text="Verifying assembly version matches version from hsdata." />
+        <Exec WorkingDirectory="$(MSBuildProjectDirectory)\hsdata" Command="powershell -ExecutionPolicy Unrestricted &quot;git log -1 | where {$_ -match 'Update to patch ([\d\.]+)$' } | foreach { $matches[1] }&quot;" ConsoleToMSBuild="true">
+            <Output PropertyName="HsdataVersion" TaskParameter="ConsoleOutput" />
+        </Exec>
+        <Error Condition="$(HsdataVersion) != $(AssemblyVersion)" Text="Verification Error 1: Assembly version ($(AssemblyVersion)) does not match hsdata ($(HsdataVersion))" />
+    </Target>
+
+</Project>

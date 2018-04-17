@@ -76,6 +76,7 @@
     <Compile Include="Enums\Converters.cs" />
     <Compile Include="Enums\Dictionaries.cs" />
     <Compile Include="Enums\Enums.cs" />
+    <Compile Include="Helper.cs" />
     <Compile Include="Info.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

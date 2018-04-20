@@ -97,5 +97,7 @@ namespace HearthDb
 		}
 
 		public string GetLocFlavorText(Locale lang) => Entity.GetLocString(FLAVORTEXT, lang);
+
+		public bool IsWild => Helper.WildSets.Contains(Set);
 	}
 }

@@ -46,6 +46,8 @@ namespace HearthDb.Deckstrings
 		/// <summary>
 		/// Converts (DbfId, Count) dictionary to (CardObject, Count).
 		/// </summary>
-		public Dictionary<Card, int> GetCards() => CardDbfIds.ToDictionary(x => Cards.GetFromDbfId(x.Key), x => x.Value);
+		public Dictionary<Card, int> GetCards() => CardDbfIds
+			.Select(x => new { Card = Cards.GetFromDbfId(x.Key), Count = x.Value })
+			.Where(x => x.Card != null).ToDictionary(x => x.Card, x => x.Count);
 	}
 }

@@ -608,6 +608,7 @@ namespace HearthDb.Enums
         SECRET_DEATHRATTLE = 789,
         RUSH = 791,
         REVEAL_CHOICES = 792,
+        HERO_DECK_ID = 793,
         HIDDEN_CHOICE = 813,
         ZOMBEAST = 823,
         HERO_EMOTE_SILENCED = 832,
@@ -617,6 +618,7 @@ namespace HearthDb.Enums
         REAL_TIME_TRANSFORM = 859,
         WAIT_FOR_PLAYER_RECONNECT_PERIOD = 860,
         PHASED_RESTART = 888,
+        DISCARD_CARDS = 890,
         HEALTH_DISPLAY = 917,
         ENABLE_HEALTH_DISPLAY = 920,
         VOODOO_LINK = 921,
@@ -632,6 +634,10 @@ namespace HearthDb.Enums
         ZOMBEAST_DEBUG_MAX_ITERATIONS = 966,
         START_OF_GAME = 968,
         ENCHANTMENT_INVISIBLE = 976,
+        WILD = 991,
+        HALL_OF_FAME = 992,
+        FAST_BATTLECRY = 998,
+        TREAT_AS_PLAYED_HERO_CARD = 1016,
     }
 
     public enum GameType
@@ -815,6 +821,7 @@ namespace HearthDb.Enums
         REQ_CANNOT_PLAY_THIS = 73,
         REQ_FRIENDLY_MINIONS_OF_RACE_DIED_THIS_GAME = 74,
         REQ_DRAG_TO_PLAY = 75,
+        REQ_OPPONENT_PLAYED_CARDS_THIS_GAME = 77,
     }
 
     public enum PlayState

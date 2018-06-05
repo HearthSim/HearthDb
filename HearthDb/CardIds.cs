@@ -2396,6 +2396,7 @@ namespace HearthDb
                 public const string TheRookeryTavernBrawl = "TB_BRMA10_3H";
                 public const string CatacombBossTavernBrawl = "TB_BuildaBoss_001";
                 public const string ToxicFumesTavernBrawl = "TB_BuildaBoss_404p";
+                public const string CastleTavernBrawl = "TB_CheaterChess_Black";
                 public const string PickYourSecondClassTokenTavernBrawl = "TB_ClassRandom_Pick2nd_100th";
                 public const string PickYourSecondClassTavernBrawl = "TB_ClassRandom_PickSecondClass";
                 public const string GearmasterMechazodTavernBrawl1 = "TB_CoOp_Mechazod_OLD";
@@ -2703,9 +2704,11 @@ namespace HearthDb
                 public const string VoidSingularitySpellTavernBrawl = "TB_VoidSingularityEnch";
                 public const string VoidSingularityTavernBrawl = "TB_VoidSingularityMinion";
                 public const string YoggServantHeroEnchantTavernBrawl = "TB_YoggServant_Enchant";
+                public const string ZombeastBrawlSpellTavernBrawl = "TB_ZombeastSpell";
                 public const string RagnarosTheFirelordTavernBrawlTavernBrawl2 = "TBA01_1";
                 public const string NefarianTavernBrawlTavernBrawl4 = "TBA01_4";
                 public const string WildMagicTavernBrawl = "TBA01_5";
+                public const string WildMagic_MagicEnchantmentTavernBrawl = "TBA01_5e";
                 public const string MoltenRageTavernBrawl = "TBA01_6";
                 public const string Oldn3wbTankTavernBrawl = "TBST_001";
                 public const string Oldn3wbMageTavernBrawl = "TBST_002";
@@ -3798,6 +3801,34 @@ namespace HearthDb
                 public const string WitchwoodsTouchToken2 = "GILA_BOSS_99t2";
                 public const string WitchwoodsTouchToken3 = "GILA_BOSS_99t3";
                 public const string DeathstalkerRexxar_ViciousScalehideToken = "ICC_828t7";
+                public const string Chromie = "TOT_030";
+                public const string Chromie_OpeningTheDarkPortalToken = "TOT_030t1";
+                public const string Chromie_BattleForMountHyjalToken = "TOT_030t2";
+                public const string Chromie_BattleBlessingToken = "TOT_030t2e";
+                public const string Chromie_EscapeFromDurnholdeToken = "TOT_030t3";
+                public const string Chromie_CullingOfStratholmeToken = "TOT_030t4";
+                public const string WildlandsAdventurer = "TOT_056";
+                public const string InfiniteMurloc = "TOT_067";
+                public const string InfiniteMurloc_LiterallyInfiniteMurlocsEnchantment = "TOT_067e";
+                public const string InfiniteMurloc_LiterallyInfiniteEnchantment = "TOT_067ee";
+                public const string BlessingofAeons_LearnedEnchantment = "TOT_069ee";
+                public const string GrasptheFuture_TavernsEchoEnchantment = "TOT_103e";
+                public const string StasisDragon = "TOT_109";
+                public const string StasisDragon_StasisDragonToken = "TOT_109t";
+                public const string TimeboundGiant = "TOT_110";
+                public const string TimelineWitness = "TOT_111";
+                public const string TimelineWitness_ChronomancingEnchantment = "TOT_111e";
+                public const string PossibilitySeeker = "TOT_112";
+                public const string PossibilitySeeker_CavernGrowthEnchantment = "TOT_112e";
+                public const string TimewayWanderer = "TOT_116";
+                public const string TimewayWanderer_ClockedEnchantment = "TOT_116e";
+                public const string InfiniteWolf_RewoundEnchantment = "TOT_117e";
+                public const string DraconicHerald_ProphecysChosenEnchantment = "TOT_316e";
+                public const string Murozond = "TOT_332";
+                public const string Murozond_TimeWarpedEnchantment = "TOT_332e";
+                public const string TemporalAnomaly = "TOT_334";
+                public const string RippleinTime_TimeRippleEnchantment = "TOT_345e";
+                public const string RippleinTime_TimeRipplePlayerEnchantEnchantment = "TOT_345e2";
             }
 
             public class Invalid
@@ -3910,6 +3941,7 @@ namespace HearthDb
                 public const string JusticarTrueheart_DireShapeshift = "AT_132_DRUID";
                 public const string JusticarTrueheart_DireClaws = "AT_132_DRUIDe";
                 public const string FandralStaghelm_SabertoothTiger = "OG_044c";
+                public const string JusticarTrueheart_DireShapeshiftHeroSkins = "AT_132_DRUIDa";
                 public const string Shapeshift_ShapeshiftHeroSkins = "CS2_017_HS1";
                 public const string DruidOfTheClaw1 = "FB_Champs_EX1_165";
                 public const string DruidoftheClaw_CatFormTavernBrawl = "FB_Champs_EX1_165a";
@@ -4017,6 +4049,8 @@ namespace HearthDb
                 public const string SplintergraftHeroic = "GILA_BOSS_40h";
                 public const string CragtorrHeroic = "GILA_BOSS_54h";
                 public const string SephiraDusktalonHeroic = "GILA_BOSS_63h";
+                public const string FlashForward = "TOT_105";
+                public const string HarbingerOfCatastrophe = "TOT_320";
             }
 
             public class Hunter
@@ -4057,6 +4091,8 @@ namespace HearthDb
                 public const string NextHeroHunterEnch = "FB_TagTeam_Hunter_Ench";
                 public const string SecondClassHunterTavernBrawl = "TB_ClassRandom_Hunter";
                 public const string UnleashTheBeastsTavernBrawl = "TB_TagTeam_Hunter";
+                public const string DeathstalkerRexxarTavernBrawl = "TB_Zombeast_H";
+                public const string ZombeastEnchantTavernBrawl = "TB_ZombeastEnch";
                 public const string ExplorersHat_ExplorersHatEnchantment = "LOE_105e";
                 public const string WishforCompanionship_Leokk = "LOEA02_10a";
                 public const string WishforCompanionship_Misha = "LOEA02_10c";
@@ -4110,6 +4146,8 @@ namespace HearthDb
                 public const string GobblesHeroic = "GILA_BOSS_65h";
                 public const string DeathstalkerRexxar_HuntingMastiffToken = "ICC_828t5";
                 public const string DeathstalkerRexxar_VilebroodSkittererToken = "ICC_828t6";
+                public const string InfiniteWolf = "TOT_117";
+                public const string Chronoshot = "TOT_340";
             }
 
             public class Mage
@@ -4202,6 +4240,8 @@ namespace HearthDb
                 public const string LostSecretsGILNEAS = "GILA_Toki_09";
                 public const string Mechanical = "GILA_Toki_10";
                 public const string BoomGILNEAS = "GILA_Toki_11";
+                public const string CavernDreamer = "TOT_308";
+                public const string ConsiderThePast = "TOT_341";
             }
 
             public class Paladin
@@ -4290,6 +4330,10 @@ namespace HearthDb
                 public const string ManyBlessings = "LOOTA_Paladin_22";
                 public const string SoundtheBells_DingDongEnchantment = "GIL_145e";
                 public const string VitusTheExiledHeroic = "GILA_BOSS_46h";
+                public const string BlessingOfAeons = "TOT_069";
+                public const string BlessingofAeons_WiseBeyondYearsEnchantment = "TOT_069e";
+                public const string WeeWhelpToken = "TOT_303t";
+                public const string BronzeBroodmother = "TOT_330";
             }
 
             public class Priest
@@ -4369,6 +4413,8 @@ namespace HearthDb
                 public const string RaethGhostsongHeroic = "GILA_BOSS_57h";
                 public const string WinslowTobtockHeroic = "GILA_BOSS_64h";
                 public const string TheMuteHeroic = "GILA_BOSS_66h";
+                public const string Reminisce = "TOT_343";
+                public const string RippleInTime = "TOT_345";
             }
 
             public class Rogue
@@ -4473,6 +4519,8 @@ namespace HearthDb
                 public const string CrookedPeteHeroic_BeastlyPete = "GILA_BOSS_52h2";
                 public const string FaceCollectorHeroic = "GILA_BOSS_56h";
                 public const string CaptainShiversHeroic = "GILA_BOSS_60h";
+                public const string ThiefOfFutures = "TOT_107";
+                public const string DéjàVu = "TOT_108";
             }
 
             public class Shaman
@@ -4551,6 +4599,9 @@ namespace HearthDb
                 public const string Experiment3CHeroic = "GILA_BOSS_27h";
                 public const string WharrgarblHeroic = "GILA_BOSS_37h";
                 public const string HagathaTheWitchHeroic = "GILA_BOSS_61h";
+                public const string StasisElemental = "TOT_118";
+                public const string StasisElemental_StasisEnchantment = "TOT_118e";
+                public const string MasterOfRealities = "TOT_313";
             }
 
             public class Warlock
@@ -4577,6 +4628,7 @@ namespace HearthDb
                 public const string TinyKnightofEvil_FelrageEnchantment = "AT_021e";
                 public const string WilfredFizzlebang_MasterSummonerEnchantment = "AT_027e";
                 public const string JusticarTrueheart_SoulTap = "AT_132_WARLOCK";
+                public const string JusticarTrueheart_SoulTapHeroSkins = "AT_132_WARLOCKa";
                 public const string LifeTap_LifeTapHeroSkins = "CS2_056_H1";
                 public const string Soulfire = "FB_Champs_EX1_308";
                 public const string WarlockTavernBrawl = "FB_LK_Warlock_copy";
@@ -4644,11 +4696,12 @@ namespace HearthDb
                 public const string AzalinaSoulthiefHeroic = "GILA_BOSS_55h";
                 public const string RatcatcherHannigulHeroic = "GILA_BOSS_67h";
                 public const string PlaguemasterRancelHeroic = "GILA_BOSS_68h";
+                public const string RiftWarden = "TOT_102";
+                public const string GraspTheFuture = "TOT_103";
             }
 
             public class Warrior
             {
-                public const string BlazingLongsword = "BCON_026";
                 public const string ArmorUp = "CS2_102";
                 public const string Charge_ChargeEnchantment = "CS2_103e2";
                 public const string HeroicStrike_HeroicStrikeEnchantment = "CS2_105e";
@@ -4764,6 +4817,8 @@ namespace HearthDb
                 public const string Strike = "GILA_Darius_09";
                 public const string Warcry = "GILA_Darius_10";
                 public const string Dragonfire = "GILA_Darius_11";
+                public const string DraconicHerald = "TOT_316";
+                public const string Fatecleaver = "TOT_342";
             }
 
             public class DreamCards

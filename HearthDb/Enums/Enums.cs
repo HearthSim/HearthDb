@@ -146,6 +146,7 @@ namespace HearthDb.Enums
         ICECROWN = 1001,
         LOOTAPALOOZA = 1004,
         GILNEAS = 1125,
+        TAVERNS_OF_TIME = 1143,
     }
 
     public enum CardTextBuilderType

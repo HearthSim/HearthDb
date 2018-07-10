@@ -44,6 +44,7 @@ namespace HearthDb.Enums
         BGT_FSG_BRAWL_PVP = 41,
         BGT_FSG_BRAWL_1P_VERSUS_AI = 42,
         BGT_FSG_BRAWL_2P_COOP = 43,
+        BGT_TOURNAMENT = 44,
     }
 
     public enum BnetRegion
@@ -216,6 +217,7 @@ namespace HearthDb.Enums
         PRECON_DECK = 5,
         TAVERN_BRAWL_DECK = 6,
         FSG_BRAWL_DECK = 7,
+        FRIENDLY_TOURNAMENT_DECK = 8,
         HIDDEN_DECK = 1000,
     }
 
@@ -659,6 +661,7 @@ namespace HearthDb.Enums
         GT_FSG_BRAWL = 20,
         GT_FSG_BRAWL_1P_VS_AI = 21,
         GT_FSG_BRAWL_2P_COOP = 22,
+        GT_TOURNAMENT = 23,
     }
 
     public enum GoldRewardState
@@ -714,6 +717,7 @@ namespace HearthDb.Enums
         END_ARTIFICIAL_HISTORY_TILE = 12,
         START_DRAW = 13,
         BURNED_CARD = 14,
+        EFFECT_SELECTION = 15,
     }
 
     public enum Mulligan
@@ -897,6 +901,22 @@ namespace HearthDb.Enums
         EPIC = 4,
         LEGENDARY = 5,
         UNKNOWN_6 = 6,
+    }
+
+    public enum RewardType
+    {
+        ARCANE_DUST = 0,
+        BOOSTER_PACK = 1,
+        CARD = 2,
+        CARD_BACK = 3,
+        CRAFTABLE_CARD = 4,
+        FORGE_TICKET = 5,
+        GOLD = 6,
+        MOUNT = 7,
+        CLASS_CHALLENGE = 8,
+        EVENT = 9,
+        RANDOM_CARD = 10,
+        BONUS_CHALLENGE = 11,
     }
 
     public enum State

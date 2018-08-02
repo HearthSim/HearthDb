@@ -80,6 +80,7 @@ namespace HearthDb.Enums
         KOBOLDS_AND_CATACOMBS = 30,
         KOBOLDS_CATACOMBS = 30,
         WITCHWOOD = 31,
+        THE_BOOMSDAY_PROJECT = 38,
         MAMMOTH_BUNDLE = 41,
     }
 
@@ -106,6 +107,7 @@ namespace HearthDb.Enums
         WARRIOR = 10,
         DREAM = 11,
         NEUTRAL = 12,
+        WHIZBANG = 13,
     }
 
     public enum CardSet
@@ -147,6 +149,7 @@ namespace HearthDb.Enums
         ICECROWN = 1001,
         LOOTAPALOOZA = 1004,
         GILNEAS = 1125,
+        BOOMSDAY = 1127,
         TAVERNS_OF_TIME = 1143,
     }
 
@@ -452,6 +455,7 @@ namespace HearthDb.Enums
         IGNORE_DAMAGE_OFF = 354,
         GrantCharge = 355,
         SPELLPOWER_DOUBLE = 356,
+        SPELL_HEALING_DOUBLE = 357,
         HEALING_DOUBLE = 357,
         NUM_OPTIONS_PLAYED_THIS_TURN = 358,
         NUM_OPTIONS = 359,
@@ -617,6 +621,7 @@ namespace HearthDb.Enums
         HERO_EMOTE_SILENCED = 832,
         MINION_IN_HAND_BUFF = 845,
         ECHO = 846,
+        MODULAR = 849,
         IGNORE_HIDE_STATS_FOR_BIG_CARD = 857,
         REAL_TIME_TRANSFORM = 859,
         WAIT_FOR_PLAYER_RECONNECT_PERIOD = 860,
@@ -637,10 +642,33 @@ namespace HearthDb.Enums
         ZOMBEAST_DEBUG_MAX_ITERATIONS = 966,
         START_OF_GAME = 968,
         ENCHANTMENT_INVISIBLE = 976,
+        PUZZLE = 979,
+        PUZZLE_PROGRESS = 980,
+        PUZZLE_PROGRESS_TOTAL = 981,
+        PUZZLE_TYPE = 982,
+        PUZZLE_COMPLETED = 984,
+        CONCEDE_BUTTON_ALTERNATIVE_TEXT = 985,
+        HIDE_RESTART_BUTTON = 990,
         WILD = 991,
         HALL_OF_FAME = 992,
+        DECK_RULE_MOD_DECK_SIZE = 997,
         FAST_BATTLECRY = 998,
+        END_TURN_BUTTON_ALTERNATIVE_APPEARANCE = 1000,
         TREAT_AS_PLAYED_HERO_CARD = 1016,
+        PUZZLE_NAME = 1026,
+        TURN_INDICATOR_ALTERNATIVE_APPEARANCE = 1027,
+        PREVIOUS_PUZZLE_COMPLETED = 1042,
+        GLORIOUSGLOOP = 1044,
+        HEALTH_DISPLAY_COLOR = 1046,
+        HEALTH_DISPLAY_NEGATIVE = 1047,
+        WHIZBANG_DECK_ID = 1048,
+        HIDE_OUT_OF_CARDS_WARNING = 1050,
+        GEARS = 1052,
+        LUNAHIGHLIGHTHINT = 1054,
+        SUPPRESS_JOBS_DONE_VO = 1055,
+        ALL_HEALING_DOUBLE = 1058,
+        BLOCK_ALL_INPUT = 1071,
+        PUZZLE_MODE = 1073,
     }
 
     public enum GameType
@@ -718,6 +746,7 @@ namespace HearthDb.Enums
         START_DRAW = 13,
         BURNED_CARD = 14,
         EFFECT_SELECTION = 15,
+        BEGIN_LISTENING_FOR_TURN_EVENTS = 16,
     }
 
     public enum Mulligan
@@ -857,6 +886,15 @@ namespace HearthDb.Enums
         META_DATA = 8,
         CHANGE_ENTITY = 9,
         RESET_GAME = 10,
+    }
+
+    public enum PuzzleType
+    {
+        INVALID = 0,
+        MIRROR = 1,
+        LETHAL = 2,
+        SURVIVAL = 3,
+        CLEAR = 4,
     }
 
     public enum Race

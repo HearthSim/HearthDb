@@ -1122,6 +1122,7 @@ namespace HearthDb
                 public const string UtherLightbringer = "HERO_04";
                 public const string LadyLiadrin = "HERO_04a";
                 public const string PrinceArthas = "HERO_04b";
+                public const string SirAnnoyO = "HERO_04c";
                 public const string ArrogantCrusader = "ICC_034";
                 public const string RighteousProtector = "ICC_038";
                 public const string DarkConviction = "ICC_039";
@@ -1820,6 +1821,7 @@ namespace HearthDb
                 public const string TheCoin = "GAME_005";
                 public const string TheCoin_TheCoinEnchantment = "GAME_005e";
                 public const string Noooooooooooo = "GAME_006";
+                public const string TournamentShortTurn = "GAME_011";
                 public const string Cost1Enchantment1 = "GBL_001e";
                 public const string Cost2Enchantment1 = "GBL_002e";
                 public const string Cost1Enchantment2 = "GBL_003e";
@@ -2209,7 +2211,7 @@ namespace HearthDb
                 public const string TrueFormHeroic = "BRMA13_2H";
                 public const string NefarianBWL = "BRMA13_3";
                 public const string NefarianBWLHeroic = "BRMA13_3H";
-                public const string WildMagicFP2 = "BRMA13_4";
+                public const string WildMagicBRM = "BRMA13_4";
                 public const string WildMagicHeroic = "BRMA13_4H";
                 public const string SonOfTheFlame1 = "BRMA13_5";
                 public const string LivingLava1 = "BRMA13_6";
@@ -2460,6 +2462,16 @@ namespace HearthDb
                 public const string AddFsgScoreScreen = "FB_Champs_SetEvent_copy";
                 public const string ChampsSetup = "FB_Champs_SetUp_Ench";
                 public const string DamagedGolemTavernBrawl = "FB_Champs_skele21";
+                public const string DiscoverCard = "FB_Duelers_Discover";
+                public const string DiscoverCard1 = "FB_Duelers_Discover1";
+                public const string DiscoverCard2 = "FB_Duelers_Discover2";
+                public const string DiscoverCard3 = "FB_Duelers_Discover3";
+                public const string DiscoverCard4 = "FB_Duelers_Discover4";
+                public const string DiscoverCard5 = "FB_Duelers_Discover5";
+                public const string Draw = "FB_Duelers_Draw";
+                public const string AlreadyDrawn = "FB_Duelers_Drawn";
+                public const string SuddenDeath = "FB_Duelers_Endl";
+                public const string SuddenDeathEnch = "FB_Duelers_SuddenDeath";
                 public const string InnkeeperToolsElo = "FB_ELO001";
                 public const string PlayTheBrawl = "FB_ELO001a";
                 public const string ResetTheBrawl2 = "FB_ELO001b";
@@ -2518,6 +2530,20 @@ namespace HearthDb
                 public const string ConstructAnnoyOTrons = "FB_SPT_Annoyo_HP_1";
                 public const string AnnoyOTronPrime = "FB_SPT_AnnoyOPrime";
                 public const string WaitForDiscover2 = "FB_TagTeam_WaitForDiscover";
+                public const string TimelineCollision = "FB_Toki_AttackPlayers";
+                public const string MinionOfTheEnemy = "FB_Toki_BadMinion";
+                public const string Paradox = "FB_Toki_Boss_Minion1";
+                public const string TimeBubble = "FB_Toki_BossSpell_01";
+                public const string TimelyBlast = "FB_Toki_do_auto";
+                public const string Augment = "FB_Toki_IncreaseHealth";
+                public const string AugmentedReality = "FB_Toki_IncreaseHealthEnch";
+                public const string FutureInvestment = "FB_Toki_ManaPortal";
+                public const string ExercisingOptions = "FB_Toki_ManaPortal2";
+                public const string Deferred = "FB_Toki_ReverseTurnEnch";
+                public const string PairOfParadoxes = "FB_Toki_SummonParadoxes";
+                public const string PortalToTheFuture = "FB_Toki_TimePortal";
+                public const string PortalFromTheFuture = "FB_Toki_TimePortal_Reload";
+                public const string Arrownado = "FB_Toki_TimePortalSpell";
                 public const string GearmasterMechazod1 = "HRW02_1";
                 public const string GearmasterMechazod_OverclockEnchantment = "HRW02_1e";
                 public const string GearmasterMechazod2 = "HRW02_2";
@@ -2567,11 +2593,15 @@ namespace HearthDb
                 public const string SmuggleTavernBrawl = "TB_BossRumble_001hp";
                 public const string ConstructGolemTavernBrawl = "TB_BossRumble_002hp";
                 public const string BrewPotionTavernBrawl = "TB_BossRumble_003hp";
+                public const string ConsumeTavernBrawl = "TB_BountyHunt_Consume";
+                public const string HypnotizeTavernBrawl = "TB_BountyHunt_Hypnotize";
                 public const string PileOnTavernBrawlTavernBrawl2 = "TB_BRMA01_2H_2";
                 public const string TheRookeryTavernBrawl = "TB_BRMA10_3H";
                 public const string CatacombBossTavernBrawl = "TB_BuildaBoss_001";
                 public const string ToxicFumesTavernBrawl = "TB_BuildaBoss_404p";
                 public const string CastleTavernBrawl = "TB_CheaterChess_Black";
+                public const string BloodthirstTavernBrawl = "TB_Chupacabran_HP";
+                public const string BloodthirstyTavernBrawl = "TB_Chupacabran_HP_E";
                 public const string PickYourSecondClassTokenTavernBrawl = "TB_ClassRandom_Pick2nd_100th";
                 public const string PickYourSecondClassTavernBrawl = "TB_ClassRandom_PickSecondClass";
                 public const string GearmasterMechazodTavernBrawl1 = "TB_CoOp_Mechazod_OLD";
@@ -2758,6 +2788,7 @@ namespace HearthDb
                 public const string MechFanTavernBrawl = "TB_MechWar_Minion1";
                 public const string MiniatureEnchantmentTavernBrawl = "TB_Mini_1e";
                 public const string NadiaMankriksWifeTavernBrawl = "TB_MnkWf01";
+                public const string UniteTheMurlocsEnchantTavernBrawl = "TB_Murlocs_Ench";
                 public const string BlinkFoxEnchantTavernBrawl = "TB_NewBlinkFox";
                 public const string NoblegardenEggTavernBrawl = "TB_Noblegarden_002";
                 public const string NoblegardenEgg_BunnyTokenTavernBrawl = "TB_Noblegarden_002t1";
@@ -4379,6 +4410,7 @@ namespace HearthDb
                 public const string NextHeroDruidEnchCopy = "FB_LK_Druid_Ench_copy";
                 public const string NextHeroDruidEnch = "FB_TagTeam_Druid_Ench";
                 public const string AyaBlackpawTavernBrawl = "TB_BossRumble_002";
+                public const string ChupacabranTavernBrawl = "TB_BountyHunt_Chupacabran";
                 public const string SecondClassDruidTavernBrawl = "TB_ClassRandom_Druid";
                 public const string MalfurionThePestilentTavernBrawl = "TB_DK_Malfurion";
                 public const string AncientPowerTavernBrawl = "TB_LOEA13_2";
@@ -4612,6 +4644,16 @@ namespace HearthDb
                 public const string NextHeroMageEnchCopy = "FB_LK_Mage_Ench_copy";
                 public const string RelentlessMarch = "FB_LK002";
                 public const string NextHeroMageEnch = "FB_TagTeam_Mage_Ench";
+                public const string WitheringAnomaly = "FB_Toki_Boss_aggro";
+                public const string BuddingAnomaly = "FB_Toki_Boss_baby";
+                public const string SummonerAnomaly = "FB_Toki_Boss_mental";
+                public const string DeadlyAnomaly = "FB_Toki_Boss_Poison";
+                public const string ShieldAnomaly = "FB_Toki_Boss_Shielded";
+                public const string BowAnomaly = "FB_Toki_Boss_spell";
+                public const string AnomalousRex = "FB_Toki_Boss_teen";
+                public const string TokiTimeTinker = "FB_Toki_Hero";
+                public const string InfiniteToki = "FB_Toki2";
+                public const string JoinForces = "FB_Toki2_Hero";
                 public const string TagTeamIceBlock = "TagTeamIceBlock";
                 public const string KazakusTavernBrawl = "TB_BossRumble_003";
                 public const string SecondClassMageTavernBrawl = "TB_ClassRandom_Mage";
@@ -4715,6 +4757,8 @@ namespace HearthDb
                 public const string TheSilverHandHeroSkins1 = "CS2_101_H1_AT_132";
                 public const string Reinforce_ReinforceHeroSkins2 = "CS2_101_H2";
                 public const string TheSilverHandHeroSkins2 = "CS2_101_H2_AT_132";
+                public const string Reinforce_ReinforceHeroSkins3 = "CS2_101_H3";
+                public const string TheSilverHandHeroSkins3 = "CS2_101_H3_AT_132";
                 public const string PaladinTavernBrawl = "FB_LK_Paladin_copy";
                 public const string NextHeroPaladinEnchCopy = "FB_LK_Paladin_Ench_copy";
                 public const string NextHeroPaladinEnch = "FB_TagTeam_Paladin_Ench";
@@ -4810,6 +4854,7 @@ namespace HearthDb
                 public const string PriestTavernBrawl = "FB_LK_Priest_copy";
                 public const string NextHeroPriestEnchCopy = "FB_LK_Priest_Ench_copy";
                 public const string NextHeroPriestEnch = "FB_TagTeam_Priest_Ench";
+                public const string WinslowTobtockTavernBrawl = "TB_BountyHunt_Winslow";
                 public const string SecondClassPriestTavernBrawl = "TB_ClassRandom_Priest";
                 public const string TwistedLightTavernBrawl = "TB_CoOpv3_002";
                 public const string ShadowOrLightTavernBrawl = "TB_Coopv3_102";
@@ -5019,6 +5064,8 @@ namespace HearthDb
                 public const string ShamanTavernBrawl = "FB_LK_Shaman_copy";
                 public const string NextHeroShamanEnchCopy = "FB_LK_Shaman_Ench_copy";
                 public const string NextHeroShamanEnch = "FB_TagTeam_Shaman_Ench";
+                public const string Experiment3CTavernBrawl = "TB_BountyHunt_Experiment3C";
+                public const string WharrgarblTavernBrawl = "TB_BountyHunt_Wharrgarbl";
                 public const string SecondClassShamanTavernBrawl = "TB_ClassRandom_Shaman";
                 public const string ElementalEruptionTavernBrawl = "TB_CoOpv3_006";
                 public const string ThrallDeathseerTavernBrawl = "TB_DK_Thrall";
@@ -5099,6 +5146,10 @@ namespace HearthDb
                 public const string WarlockTavernBrawl = "FB_LK_Warlock_copy";
                 public const string NextHeroWarlockEnchCopy = "FB_LK_Warlock_Ench_copy";
                 public const string NextHeroWarlockEnch = "FB_TagTeam_Warlock_Ench";
+                public const string AzalinaSoulthiefTavernBrawl = "TB_BountyHunt_Azalina";
+                public const string BloodWitchGrettaTavernBrawl = "TB_BountyHunt_BloodWitch";
+                public const string ShudderwockTavernBrawl = "TB_BountyHunt_Shudderwock";
+                public const string PlaguemasterRancelTavernBrawl = "TB_BountyHunter_Plaguemaster";
                 public const string SecondClassWarlockTavernBrawl = "TB_ClassRandom_Warlock";
                 public const string BloodreaverGuldanTavernBrawl = "TB_DK_Guldan";
                 public const string DarkWandererTavernBrawl = "TB_SPT_DPromo_Hero";
@@ -5207,6 +5258,8 @@ namespace HearthDb
                 public const string WarriorTavernBrawl = "FB_LK_Warrior_copy";
                 public const string NextHeroWarriorEnchCopy = "FB_LK_Warrior_Ench_copy";
                 public const string NextHeroWarriorEnch = "FB_TagTeam_Warrior_Ench";
+                public const string DefeatTheAnomalies = "FB_Toki_Quest";
+                public const string BrushwoodCenturionTavernBrawl = "TB_BountyHunt_Brushwood";
                 public const string SecondClassWarriorTavernBrawl = "TB_ClassRandom_Warrior";
                 public const string ScourgelordGarroshTavernBrawl = "TB_DK_Garrosh";
                 public const string ChargeEnchantmentTavernBrawl = "TB_MP_01e";
@@ -5313,6 +5366,11 @@ namespace HearthDb
                 public const string Dream = "DREAM_04";
                 public const string Nightmare = "DREAM_05";
                 public const string RepurposedEnchantmentTavernBrawl = "TB_MP_02e";
+            }
+
+            public class Whizbang
+            {
+                public const string WhizbangTheWonderfulHeroic = "BOT_914h";
             }
         }
     }

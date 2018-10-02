@@ -44,7 +44,7 @@ namespace HearthDb.Enums
         BGT_FSG_BRAWL_PVP = 41,
         BGT_FSG_BRAWL_1P_VERSUS_AI = 42,
         BGT_FSG_BRAWL_2P_COOP = 43,
-        BGT_TOURNAMENT = 44,
+        BGT_RANKED_STANDARD_NEW_PLAYER = 45,
     }
 
     public enum BnetRegion
@@ -71,7 +71,7 @@ namespace HearthDb.Enums
         GOBLINS_VS_GNOMES = 9,
         THE_GRAND_TOURNAMENT = 10,
         OLD_GODS = 11,
-        FIRST_PURCHASE = 17,
+        FIRST_PURCHASE_OLD = 17,
         SIGNUP_INCENTIVE = 18,
         MEAN_STREETS = 19,
         UNGORO = 20,
@@ -82,6 +82,7 @@ namespace HearthDb.Enums
         WITCHWOOD = 31,
         THE_BOOMSDAY_PROJECT = 38,
         MAMMOTH_BUNDLE = 41,
+        FIRST_PURCHASE = 181,
     }
 
     public enum BrawlType
@@ -185,6 +186,9 @@ namespace HearthDb.Enums
         PLACE_HOLDER_17 = 17,
         REFERENCE_CREATOR_ENTITY = 18,
         REFERENCE_SCRIPT_DATA_NUM_1_ENTITY = 19,
+        PLACEHOLDER_01 = 20,
+        PLACEHOLDER_02 = 21,
+        SPELL_DAMAGE_ONLY = 22,
     }
 
     public enum CardType
@@ -220,7 +224,6 @@ namespace HearthDb.Enums
         PRECON_DECK = 5,
         TAVERN_BRAWL_DECK = 6,
         FSG_BRAWL_DECK = 7,
-        FRIENDLY_TOURNAMENT_DECK = 8,
         HIDDEN_DECK = 1000,
     }
 
@@ -669,6 +672,9 @@ namespace HearthDb.Enums
         ALL_HEALING_DOUBLE = 1058,
         BLOCK_ALL_INPUT = 1071,
         PUZZLE_MODE = 1073,
+        CARD_DOES_NOTHING = 1075,
+        CASTSWHENDRAWN = 1077,
+        FLOOPY = 1097,
     }
 
     public enum GameType
@@ -689,7 +695,6 @@ namespace HearthDb.Enums
         GT_FSG_BRAWL = 20,
         GT_FSG_BRAWL_1P_VS_AI = 21,
         GT_FSG_BRAWL_2P_COOP = 22,
-        GT_TOURNAMENT = 23,
     }
 
     public enum GoldRewardState

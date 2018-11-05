@@ -81,6 +81,7 @@ namespace HearthDb.Enums
         KOBOLDS_CATACOMBS = 30,
         WITCHWOOD = 31,
         THE_BOOMSDAY_PROJECT = 38,
+        RASTAKHANS_RUMBLE = 40,
         MAMMOTH_BUNDLE = 41,
         FIRST_PURCHASE = 181,
     }

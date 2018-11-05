@@ -960,6 +960,8 @@ namespace HearthDb
                 public const string IceLance = "CS2_031";
                 public const string Flamestrike = "CS2_032";
                 public const string WaterElemental = "CS2_033";
+                public const string Icicle = "EX1_179";
+                public const string TomeOfIntellect = "EX1_180";
                 public const string EtherealArcanist = "EX1_274";
                 public const string ConeOfCold = "EX1_275";
                 public const string ArcaneMissiles = "EX1_277";
@@ -1345,6 +1347,7 @@ namespace HearthDb
                 public const string Headcrack = "EX1_137";
                 public const string Shadowstep = "EX1_144";
                 public const string Preparation = "EX1_145";
+                public const string Pilfer = "EX1_182";
                 public const string Shiv = "EX1_278";
                 public const string PatientAssassin = "EX1_522";
                 public const string Sap = "EX1_581";
@@ -1497,6 +1500,7 @@ namespace HearthDb
                 public const string DunemaulShaman = "GVG_066";
                 public const string Thrall = "HERO_02";
                 public const string MorglTheOracle = "HERO_02a";
+                public const string KingRastakhan = "HERO_02b";
                 public const string Cryostasis = "ICC_056";
                 public const string Brrrloc = "ICC_058";
                 public const string Avalanche = "ICC_078";
@@ -1584,6 +1588,7 @@ namespace HearthDb
                 public const string Corruption = "CS2_063";
                 public const string DreadInfernal = "CS2_064";
                 public const string Voidwalker = "CS2_065";
+                public const string CallOfTheVoid = "EX1_181";
                 public const string Felguard = "EX1_301";
                 public const string MortalCoil = "EX1_302";
                 public const string Shadowflame = "EX1_303";
@@ -2651,6 +2656,8 @@ namespace HearthDb
                 public const string PeruseTavernBrawl = "TB_DiscoverMyDeck_Discovery";
                 public const string DiscoverMyDeckEnchantTavernBrawl = "TB_DiscoverMyDeck_Enchantment";
                 public const string DorotheeTavernBrawl = "TB_Dorothee_001";
+                public const string DoubleMinionsEnchantTavernBrawl = "TB_DoubleMinions_ench";
+                public const string DoubleMinionsSpellTavernBrawl = "TB_DoubleMinions_spell";
                 public const string EndlessEnchantmentTavernBrawl = "TB_EndlessMinions01";
                 public const string SafeTavernBrawl = "TB_Face_Ench1";
                 public const string SwatFlyTavernBrawl = "TB_FactionWar_Boss_Rag_0";
@@ -2922,6 +2929,7 @@ namespace HearthDb
                 public const string YourNextVictimComesTavernBrawl = "TB_TagTeam_ClearBoard";
                 public const string DiscoverNextClassTavernBrawl = "TB_TagTeam_GetClass";
                 public const string NewHeroTavernBrawl = "TB_TagTeam_NewHeroCards";
+                public const string TwoTurnsTavernBrawl = "TB_TwoTurnsEnchant";
                 public const string VoidSingularitySpellTavernBrawl = "TB_VoidSingularityEnch";
                 public const string VoidSingularityTavernBrawl = "TB_VoidSingularityMinion";
                 public const string YoggServantHeroEnchantTavernBrawl = "TB_YoggServant_Enchant";
@@ -5057,8 +5065,10 @@ namespace HearthDb
                 public const string JusticarTrueheart_StoneclawTotem = "AT_132_SHAMANc";
                 public const string JusticarTrueheart_WrathOfAirTotem = "AT_132_SHAMANd";
                 public const string DanEmmons = "CRED_47";
-                public const string TotemicCall_TotemicCallHeroSkins = "CS2_049_H1";
-                public const string TotemicSlamHeroSkins = "CS2_049_H1_AT_132";
+                public const string TotemicCall_TotemicCallHeroSkins1 = "CS2_049_H1";
+                public const string TotemicSlamHeroSkins1 = "CS2_049_H1_AT_132";
+                public const string TotemicCall_TotemicCallHeroSkins2 = "CS2_049_H2";
+                public const string TotemicSlamHeroSkins2 = "CS2_049_H2_AT_132";
                 public const string Hex = "FB_Champs_EX1_246";
                 public const string SpiritClaws = "FB_Champs_KAR_063";
                 public const string ShamanTavernBrawl = "FB_LK_Shaman_copy";

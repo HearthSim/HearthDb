@@ -1335,6 +1335,7 @@ namespace HearthDb
                 public const string UpgradedRepairBot = "GVG_083";
                 public const string AnduinWrynn = "HERO_09";
                 public const string TyrandeWhisperwind = "HERO_09a";
+                public const string MadameLazul = "HERO_09b";
                 public const string DevourMind = "ICC_207";
                 public const string ShadowAscendant = "ICC_210";
                 public const string AcolyteOfAgony = "ICC_212";
@@ -2713,6 +2714,8 @@ namespace HearthDb
                 public const string PortalToTheFuture = "FB_Toki_TimePortal";
                 public const string PortalFromTheFuture = "FB_Toki_TimePortal_Reload";
                 public const string Arrownado = "FB_Toki_TimePortalSpell";
+                public const string BanOpponentsCard = "FB_TopX_Ban";
+                public const string TheMysteryCard = "FB_TopX_Mystery";
                 public const string EnemyCaptain = "HERO_FB_Juggernaut";
                 public const string GearmasterMechazod1 = "HRW02_1";
                 public const string GearmasterMechazod_OverclockEnchantment = "HRW02_1e";
@@ -2817,6 +2820,7 @@ namespace HearthDb
                 public const string EnoughTavernBrawl = "TB_CoOpv3_BOSS3e";
                 public const string CowedTavernBrawl = "TB_CoOpv3_BOSS4e";
                 public const string WhyWontYouDieTavernBrawl = "TB_CoOpv3_BOSSe";
+                public const string DeathrattleYogEnchantTavernBrawl = "TB_DeathrattleYog_ench";
                 public const string MyDeckIdTavernBrawl = "TB_DeckRecipe_MyDeckID";
                 public const string PeruseTavernBrawl = "TB_DiscoverMyDeck_Discovery";
                 public const string DiscoverMyDeckEnchantTavernBrawl = "TB_DiscoverMyDeck_Enchantment";
@@ -3043,6 +3047,7 @@ namespace HearthDb
                 public const string ZombiePresentTavernBrawl = "TB_Presents_003";
                 public const string TbrandomcardcostTavernBrawl = "TB_RandCardCost";
                 public const string Tb_EnchwhosthebossnowTavernBrawl = "TB_RandHero2_001";
+                public const string ResetDecksTavernBrawl = "TB_RandomDeckRecipeResetDecks";
                 public const string Tb_EnchrandommanacostTavernBrawl = "TB_RMC_001";
                 public const string PortalSelectionTavernBrawl = "TB_SC20_001";
                 public const string PortalSelection_TechPortalsTavernBrawl = "TB_SC20_001a";
@@ -3100,6 +3105,7 @@ namespace HearthDb
                 public const string DiscoverNextClassTavernBrawl = "TB_TagTeam_GetClass";
                 public const string NewHeroTavernBrawl = "TB_TagTeam_NewHeroCards";
                 public const string TwoTurnsTavernBrawl = "TB_TwoTurnsEnchant";
+                public const string VargothEnchantTavernBrawl = "TB_Vargoth_ench";
                 public const string VoidSingularitySpellTavernBrawl = "TB_VoidSingularityEnch";
                 public const string VoidSingularityTavernBrawl = "TB_VoidSingularityMinion";
                 public const string YoggServantHeroEnchantTavernBrawl = "TB_YoggServant_Enchant";
@@ -5244,8 +5250,10 @@ namespace HearthDb
                 public const string JusticarTrueheart_Heal = "AT_132_PRIEST";
                 public const string XifangZhang = "CRED_88";
                 public const string GiovanniScarpati = "CRED_98";
-                public const string LesserHeal_LesserHealHeroSkins = "CS1h_001_H1";
-                public const string HealHeroSkins = "CS1h_001_H1_AT_132";
+                public const string LesserHeal_LesserHealHeroSkins1 = "CS1h_001_H1";
+                public const string HealHeroSkins1 = "CS1h_001_H1_AT_132";
+                public const string LesserHeal_LesserHealHeroSkins2 = "CS1h_001_H2";
+                public const string HealHeroSkins2 = "CS1h_001_H2_AT_132";
                 public const string PriestTavernBrawl1 = "FB_Juggernaut_Priest";
                 public const string OpponentsClassPriestEnch = "FB_Juggernaut_Priest_Ench";
                 public const string PriestTavernBrawl2 = "FB_LK_Priest_copy";

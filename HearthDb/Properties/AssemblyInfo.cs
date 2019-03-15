@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HearthSim")]
 [assembly: AssemblyProduct("HearthDb")]
-[assembly: AssemblyCopyright("Copyright © HearthSim 2018")]
+[assembly: AssemblyCopyright("Copyright © HearthSim 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("13.2.0.28855")]
-[assembly: AssemblyFileVersion("13.2.0.28855")]
+[assembly: AssemblyVersion("13.4.0.29349")]
+[assembly: AssemblyFileVersion("13.4.0.29349")]

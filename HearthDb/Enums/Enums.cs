@@ -83,6 +83,7 @@ namespace HearthDb.Enums
         THE_BOOMSDAY_PROJECT = 38,
         RASTAKHANS_RUMBLE = 40,
         MAMMOTH_BUNDLE = 41,
+        DALARAN = 49,
         FIRST_PURCHASE = 181,
     }
 
@@ -153,6 +154,7 @@ namespace HearthDb.Enums
         GILNEAS = 1125,
         BOOMSDAY = 1127,
         TROLL = 1129,
+        DALARAN = 1130,
         TAVERNS_OF_TIME = 1143,
     }
 
@@ -189,10 +191,12 @@ namespace HearthDb.Enums
         PLACE_HOLDER_17 = 17,
         REFERENCE_CREATOR_ENTITY = 18,
         REFERENCE_SCRIPT_DATA_NUM_1_ENTITY = 19,
+        REFERENCE_SCRIPT_DATA_NUM_1_NUM_2_ENTITY = 20,
         PLACEHOLDER_01 = 20,
         UNDATAKAH_ENCHANT = 21,
         PLACE_HOLDER_02 = 21,
         SPELL_DAMAGE_ONLY = 22,
+        DRUSTVAR_HORROR = 23,
     }
 
     public enum CardType
@@ -666,9 +670,16 @@ namespace HearthDb.Enums
         HIDE_RESTART_BUTTON = 990,
         WILD = 991,
         HALL_OF_FAME = 992,
+        MARK_OF_EVIL = 994,
+        EVILZUG = 994,
         DECK_RULE_MOD_DECK_SIZE = 997,
         FAST_BATTLECRY = 998,
         END_TURN_BUTTON_ALTERNATIVE_APPEARANCE = 1000,
+        WEATHER = 1002,
+        WEATHERSNOWSTORM = 1012,
+        WEATHERTHUNDERSTORM = 1013,
+        WEATHERFIRESTORM = 1014,
+        WAND = 1015,
         TREAT_AS_PLAYED_HERO_CARD = 1016,
         NUM_HERO_POWER_DAMAGE_THIS_GAME = 1025,
         PUZZLE_NAME = 1026,
@@ -688,6 +699,7 @@ namespace HearthDb.Enums
         PUZZLE_MODE = 1073,
         CARD_DOES_NOTHING = 1075,
         CASTSWHENDRAWN = 1077,
+        QUEST_REWARD_DATABASE_ID = 1089,
         DORMANT = 1090,
         CUSTOMTEXT1 = 1093,
         CUSTOMTEXT2 = 1094,
@@ -709,6 +721,15 @@ namespace HearthDb.Enums
         ENCHANTMENT_BANNER_TEXT = 1135,
         MOUSE_OVER_CARD_APPEARANCE = 1142,
         IS_ADVENTURE_SCENARIO = 1172,
+        TWINSPELL_COPY = 1186,
+        TWINSPELL = 1193,
+        MEGA_WINDFURY = 1207,
+        TWINSPELLPENDING = 1269,
+        DRUSTVAR_HORROR_DEBUG_CURRENT_SPELL_DATABASE_ID = 1280,
+        DRUSTVAR_HORROR_DEBUG_CURRENT_ITERATION = 1281,
+        DRUSTVAR_HORROR_DEBUG_MAX_ITERATIONS = 1283,
+        CREATOR_DBID = 1284,
+        COPIED_BY_KHADGAR = 1326,
     }
 
     public enum GameType
@@ -787,6 +808,8 @@ namespace HearthDb.Enums
         EFFECT_SELECTION = 15,
         BEGIN_LISTENING_FOR_TURN_EVENTS = 16,
         HOLD_DRAWN_CARD = 17,
+        CONTROLLER_AND_ZONE_CHANGE = 18,
+        ARTIFICIAL_PAUSE_STUBBED_FOR_14_2 = 19,
     }
 
     public enum Mulligan
@@ -894,13 +917,15 @@ namespace HearthDb.Enums
         REQ_CAN_BE_TARGETED_BY_COMBOS = 72,
         REQ_CANNOT_PLAY_THIS = 73,
         REQ_FRIENDLY_MINIONS_OF_RACE_DIED_THIS_GAME = 74,
-        REQ_DRAG_TO_PLAY = 75,
+        REQ_DRAG_TO_PLAY_PRE29933 = 75,
         REQ_OPPONENT_PLAYED_CARDS_THIS_GAME = 77,
         REQ_LITERALLY_UNPLAYABLE = 78,
         REQ_TARGET_IF_AVAILABLE_AND_HERO_HAS_ATTACK = 79,
         REQ_FRIENDLY_MINION_OF_RACE_DIED_THIS_TURN = 80,
         REQ_TARGET_IF_AVAILABLE_AND_MINIMUM_SPELLS_PLAYED_THIS_TURN = 81,
         REQ_FRIENDLY_MINION_OF_RACE_IN_HAND = 82,
+        REQ_DRAG_TO_PLAY = 83,
+        REQ_FRIENDLY_DEATHRATTLE_MINION_DIED_THIS_GAME = 86,
     }
 
     public enum PlayState
@@ -1080,6 +1105,7 @@ namespace HearthDb.Enums
         KRAKEN = 1,
         MAMMOTH = 2,
         RAVEN = 3,
+        DRAGON = 4,
     }
 
     public enum Zone

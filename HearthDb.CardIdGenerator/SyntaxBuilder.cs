@@ -143,6 +143,8 @@ namespace HearthDb.CardIdGenerator
 				{
 					var name = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(card.Name.ToLower());
 					name = Regex.Replace(name, @"[^\w\d]", "");
+					if (card.Id.StartsWith("HERO"))
+						name += "Hero";
 					cCard = cCard.AddMembers(GenerateConst(name, card.Id));
 					anyCards = true;
 				}

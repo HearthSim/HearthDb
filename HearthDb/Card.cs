@@ -46,7 +46,19 @@ namespace HearthDb
 				{
 					CardIds.Collectible.Mage.IceBlock,
 					CardIds.Collectible.Neutral.ColdlightOracle,
-					CardIds.Collectible.Neutral.MoltenGiant
+					CardIds.Collectible.Neutral.MoltenGiant,
+
+					//2019
+					CardIds.Collectible.Druid.Naturalize,
+					CardIds.Collectible.Warlock.Doomguard,
+					CardIds.Collectible.Paladin.DivineFavor,
+					CardIds.Collectible.Neutral.BakuTheMooneater,
+					CardIds.Collectible.Neutral.GennGreymane,
+					CardIds.Collectible.Druid.GloomStag,
+					CardIds.Collectible.Mage.BlackCat,
+					CardIds.Collectible.Priest.GlitterMoth,
+					CardIds.Collectible.Shaman.MurksparkEel,
+
 				}.Contains(Id))
 					return CardSet.HOF;
 				return (CardSet)Entity.GetTag(CARD_SET);

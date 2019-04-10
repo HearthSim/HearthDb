@@ -75,5 +75,17 @@ namespace HearthDb.Tests
 			var giantWasp = Cards.Collectible[CardIds.Collectible.Neutral.GiantWasp];
 			Assert.IsTrue(giantWasp.Mechanics.Contains("Poisonous"));
 		}
+
+		[TestMethod]
+		public void TextCardText()
+		{
+			var lucentbark = Cards.GetFromDbfId(51796, false);
+			System.Console.WriteLine(lucentbark.Text);
+			Assert.IsTrue(lucentbark.Text.Contains("(5 left!)"));
+
+			var janalai = Cards.GetFromDbfId(50088);
+			Assert.IsFalse(janalai.Text.Contains("@"));
+			Assert.IsTrue(janalai.Text.Contains("If your Hero Power"));
+		}
 	}
 }

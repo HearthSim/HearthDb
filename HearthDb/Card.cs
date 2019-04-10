@@ -105,7 +105,14 @@ namespace HearthDb
 			if(text == null)
 				return null;
 			var index = text.IndexOf('@');
-			return index > 0 ? text.Substring(index + 1) : text;
+			if (index == 0)
+				return text;
+			if (Entity.GetTag(PLAYER_TAG_THRESHOLD_TAG_ID) > 0)
+				return text.Substring(0, index);
+			var scriptData = Entity.GetTag(TAG_SCRIPT_DATA_NUM_1);
+			if (scriptData > 0)
+				return text.Replace("@", scriptData.ToString());
+			return text.Substring(index + 1);
 		}
 
 		public string GetLocFlavorText(Locale lang) => Entity.GetLocString(FLAVORTEXT, lang);

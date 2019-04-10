@@ -41,7 +41,7 @@ AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==
 		public void TestDeckStrings()
 		{
 			var deck = DeckSerializer.Deserialize(DeckString);
-			Assert.AreEqual(CardIds.Collectible.Warrior.GarroshHellscream, deck.GetHero().Id);
+			Assert.AreEqual(CardIds.Collectible.Warrior.GarroshHellscreamHero, deck.GetHero().Id);
 			var cards = deck.GetCards();
 			Assert.AreEqual(30, cards.Values.Sum());
 			var heroicStroke = cards.FirstOrDefault(c => c.Key.Id == CardIds.Collectible.Warrior.HeroicStrike);
@@ -94,6 +94,5 @@ AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==
 			var serialized = DeckSerializer.Serialize(deck, false);
 			Assert.AreEqual(DeckString, serialized);
 		}
-
 	}
 }

@@ -100,6 +100,7 @@ namespace HearthDb
                 public const string Subject9 = "BOT_573";
                 public const string SteelRager = "BOT_603";
                 public const string KaboomBot = "BOT_606";
+                public const string Sn1pSn4p = "BOT_700";
                 public const string Galvanizer = "BOT_907";
                 public const string WhizbangTheWonderful = "BOT_914";
                 public const string GrimPatron = "BRM_019";
@@ -1723,6 +1724,7 @@ namespace HearthDb
                 public const string ThrallHero = "HERO_02";
                 public const string MorglTheOracleHero = "HERO_02a";
                 public const string KingRastakhanHero = "HERO_02b";
+                public const string TheThunderKingHero = "HERO_02c";
                 public const string Cryostasis = "ICC_056";
                 public const string Brrrloc = "ICC_058";
                 public const string Avalanche = "ICC_078";
@@ -2779,6 +2781,7 @@ namespace HearthDb
                 public const string ResetTheBrawl1 = "FB_Champs_Reset";
                 public const string SetMissionEvent = "FB_Champs_SetEvent";
                 public const string AddFsgScoreScreen = "FB_Champs_SetEvent_copy";
+                public const string SetMissionEventAtGameStart = "FB_Champs_SetEventMulligan";
                 public const string ChampsSetup = "FB_Champs_SetUp_Ench";
                 public const string DamagedGolemTavernBrawl = "FB_Champs_skele21";
                 public const string TheCavernsBelow_CrystallizedTokenTavernBrawl1 = "FB_Champs_UNG_067t1e";
@@ -2939,6 +2942,9 @@ namespace HearthDb
                 public const string CatacombBossTavernBrawl = "TB_BuildaBoss_001";
                 public const string ToxicFumesTavernBrawl = "TB_BuildaBoss_404p";
                 public const string GetChampsDeckidTavernBrawl = "TB_Champs_GetChampsDeckID";
+                public const string InnkeeperToolsResetSessionTavernBrawl = "TB_Champs_KeepWinnerDeck_Choice";
+                public const string ResetChampsDecksTavernBrawl = "TB_Champs_KeepWinnerDeck_IK";
+                public const string ResetDecksTavernBrawl1 = "TB_Champs_KeepWinnerDeck_Reset";
                 public const string CastleTavernBrawl = "TB_CheaterChess_Black";
                 public const string BloodthirstTavernBrawl = "TB_Chupacabran_HP";
                 public const string BloodthirstyTavernBrawl = "TB_Chupacabran_HP_E";
@@ -2995,6 +3001,14 @@ namespace HearthDb
                 public const string DoubleMinionsEnchantTavernBrawl = "TB_DoubleMinions_ench";
                 public const string DoubleMinionsSpellTavernBrawl = "TB_DoubleMinions_spell";
                 public const string EndlessEnchantmentTavernBrawl = "TB_EndlessMinions01";
+                public const string AtramedesTavernBrawl = "TB_EVILBRM_Atramedes";
+                public const string GarrTavernBrawl = "TB_EVILBRM_Garr";
+                public const string BaronGeddonTavernBrawl = "TB_EVILBRM_Geddon";
+                public const string NefarianTavernBrawlTavernBrawl4 = "TB_EVILBRM_Nefarian";
+                public const string OmnotronDefenseSystemTavernBrawl = "TB_EVILBRM_Omnotron01";
+                public const string HighlordOmokkTavernBrawl = "TB_EVILBRM_Omokk";
+                public const string OnyxiaTavernBrawl = "TB_EVILBRM_Onyxia01";
+                public const string RagnarosTheFirelordTavernBrawlTavernBrawl1 = "TB_EVILBRM_Ragnaros01";
                 public const string SafeTavernBrawl = "TB_Face_Ench1";
                 public const string SwatFlyTavernBrawl = "TB_FactionWar_Boss_Rag_0";
                 public const string MeltTavernBrawl = "TB_Firefest2_001";
@@ -3003,7 +3017,7 @@ namespace HearthDb
                 public const string Frostbite_FrostbittenEnchantmentTavernBrawl = "TB_Firefest2_005e";
                 public const string AhuneTheFrostlordTavernBrawl = "TB_Firefest2_Ahune_H";
                 public const string FreezingTouchTavernBrawl = "TB_Firefest2_Ahune_HP";
-                public const string RagnarosTheFirelordTavernBrawlTavernBrawl1 = "TB_Firefest2_Rag_H";
+                public const string RagnarosTheFirelordTavernBrawlTavernBrawl2 = "TB_Firefest2_Rag_H";
                 public const string MoveOverAhune1StTavernBrawl = "TB_Firefest2a";
                 public const string MoveOverAhuneToRagnarosTavernBrawl = "TB_Firefest2b";
                 public const string MoveOverRagnarosToAhuneTavernBrawl = "TB_Firefest2c";
@@ -3025,7 +3039,7 @@ namespace HearthDb
                 public const string AnnoyOPTronTavernBrawl = "TB_FW_ImbaTron";
                 public const string DwarfDemolitionistTavernBrawl = "TB_FW_Mortar";
                 public const string ForceTankOmegaMaxTavernBrawl = "TB_FW_OmegaMax";
-                public const string RagnarosTheFirelordTavernBrawlTavernBrawl2 = "TB_FW_Rag";
+                public const string RagnarosTheFirelordTavernBrawlTavernBrawl3 = "TB_FW_Rag";
                 public const string OmegawarperTavernBrawl = "TB_FW_Warper";
                 public const string OmegawarpTavernBrawl = "TB_FW_Warpere";
                 public const string CheapGiftTavernBrawl = "TB_GiftExchange_Enchantment";
@@ -3084,6 +3098,7 @@ namespace HearthDb
                 public const string CallMedivaTavernBrawl = "TB_KaraPortal_002";
                 public const string SaddenedHeroEnchantTavernBrawl = "TB_KaraPortal_003";
                 public const string PartyElementalTavernBrawl = "TB_KaraPortals_003";
+                public const string MirrorMatchTavernBrawl = "TB_KeepWinnerDeck_Mirror";
                 public const string GreatFatherKoboldEnchantTavernBrawl = "TB_KoboldGiftEnch";
                 public const string LargeWaxyGiftTavernBrawl = "TB_KoboldGiftMinion";
                 public const string GreatFatherKoboldSpellTavernBrawl = "TB_KoboldGiftSpell";
@@ -3229,7 +3244,7 @@ namespace HearthDb
                 public const string ZombiePresentTavernBrawl = "TB_Presents_003";
                 public const string TbrandomcardcostTavernBrawl = "TB_RandCardCost";
                 public const string Tb_EnchwhosthebossnowTavernBrawl = "TB_RandHero2_001";
-                public const string ResetDecksTavernBrawl = "TB_RandomDeckRecipeResetDecks";
+                public const string ResetDecksTavernBrawl2 = "TB_RandomDeckRecipeResetDecks";
                 public const string ResetYourDeckTavernBrawl = "TB_RandomDeckRecipeResetYours";
                 public const string Tb_EnchrandommanacostTavernBrawl = "TB_RMC_001";
                 public const string PortalSelectionTavernBrawl = "TB_SC20_001";
@@ -3293,8 +3308,8 @@ namespace HearthDb
                 public const string VoidSingularityTavernBrawl = "TB_VoidSingularityMinion";
                 public const string YoggServantHeroEnchantTavernBrawl = "TB_YoggServant_Enchant";
                 public const string ZombeastBrawlSpellTavernBrawl = "TB_ZombeastSpell";
-                public const string RagnarosTheFirelordTavernBrawlTavernBrawl3 = "TBA01_1";
-                public const string NefarianTavernBrawlTavernBrawl4 = "TBA01_4";
+                public const string RagnarosTheFirelordTavernBrawlTavernBrawl4 = "TBA01_1";
+                public const string NefarianTavernBrawlTavernBrawl5 = "TBA01_4";
                 public const string WildMagicTavernBrawl = "TBA01_5";
                 public const string WildMagic_MagicEnchantmentTavernBrawl = "TBA01_5e";
                 public const string MoltenRageTavernBrawl = "TBA01_6";
@@ -4142,6 +4157,7 @@ namespace HearthDb
                 public const string PumpkinPeasant_PumpkinPeasantToken = "GIL_201t";
                 public const string GilneanRoyalGuard_GilneanRoyalGuardToken = "GIL_202t";
                 public const string Rebuke_RebukedEnchantment = "GIL_203e";
+                public const string Rebuke_RebukingEnchantment = "GIL_203e2";
                 public const string BewitchHeroic = "GIL_504h";
                 public const string BewitchedGuardian_BewitchedEnchantment = "GIL_507e";
                 public const string Mistwraith_MistyEnchantment = "GIL_510e";
@@ -4436,6 +4452,7 @@ namespace HearthDb
                 public const string AugmentedElekk_DealingEnchantment = "BOT_559e";
                 public const string CoppertailImposter_DisguisedEnchantment = "BOT_562e";
                 public const string Wargear_WargearEnchantment = "BOT_563e";
+                public const string SN1PSN4P_Sn1pSn4pEnchantment = "BOT_700e";
                 public const string GlowTron_GlowTronEnchantment = "BOT_906e";
                 public const string Galvanizer_GalvanizedEnchantment = "BOT_907e";
                 public const string SpudME = "BOTA_101";
@@ -4716,6 +4733,7 @@ namespace HearthDb
                 public const string PortalKeeper_FelhoundToken = "DAL_582t2";
                 public const string HuntingParty_HuntingPartyEnchantment = "DAL_589e";
                 public const string FelLordBetrug_FleetingFelEnchantment = "DAL_607e";
+                public const string Kalecgos_AspectsMagicEnchantment = "DAL_609e";
                 public const string FacelessLackey = "DAL_613";
                 public const string KoboldLackey = "DAL_614";
                 public const string WitchyLackey = "DAL_615";
@@ -5072,7 +5090,6 @@ namespace HearthDb
                 public const string TurtleEscortQuestEnchantment = "DALA_BOSS_75e3";
                 public const string HerbalistQuestEnchantment = "DALA_BOSS_75e4";
                 public const string HoggerQuestEnchantment = "DALA_BOSS_75e5";
-                public const string CommanderBolanHeroic = "DALA_BOSS_75h";
                 public const string AQuest = "DALA_BOSS_75p";
                 public const string Barky = "DALA_Druid_HP2e";
                 public const string DruidHeroPowerWatcher = "DALA_Druid_HPe";
@@ -5922,6 +5939,7 @@ namespace HearthDb
                 public const string AkiTheBrilliantHeroic = "DALA_BOSS_39h";
                 public const string NozariHeroic = "DALA_BOSS_50h";
                 public const string ValderaHighborneHeroic = "DALA_BOSS_65h";
+                public const string CommanderBolanHeroic = "DALA_BOSS_75h";
                 public const string BartendotronHeroic = "DALA_BOSS_98h";
                 public const string BartenderBobHeroic = "DALA_BOSS_99h";
                 public const string GeorgeTheFallen = "DALA_George";
@@ -6304,6 +6322,8 @@ namespace HearthDb
                 public const string TotemicSlamHeroSkins1 = "CS2_049_H1_AT_132";
                 public const string TotemicCall_TotemicCallHeroSkins2 = "CS2_049_H2";
                 public const string TotemicSlamHeroSkins2 = "CS2_049_H2_AT_132";
+                public const string TotemicCall_TotemicCallHeroSkins3 = "CS2_049_H3";
+                public const string TotemicSlamHeroSkins3 = "CS2_049_H3_AT_132";
                 public const string Hex = "FB_Champs_EX1_246";
                 public const string FlametongueTotem = "FB_Champs_EX1_565";
                 public const string SpiritClaws = "FB_Champs_KAR_063";
@@ -6762,7 +6782,7 @@ namespace HearthDb
                 public const string TierraBlytheHeroic = "DALA_BOSS_14h";
                 public const string KiziCopperclipHeroic = "DALA_BOSS_32h";
                 public const string LavanthorHeroic = "DALA_BOSS_47h";
-                public const string MallificentManastormHeroic = "DALA_BOSS_51h";
+                public const string MillificentManastormHeroic = "DALA_BOSS_51h";
                 public const string CaptainHanniganHeroic = "DALA_BOSS_55h";
                 public const string DaggCruelmightHeroic = "DALA_BOSS_63h";
                 public const string BankerBiggsHeroic = "DALA_BOSS_64h";

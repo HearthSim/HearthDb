@@ -84,6 +84,7 @@ namespace HearthDb.Enums
         RASTAKHANS_RUMBLE = 40,
         MAMMOTH_BUNDLE = 41,
         DALARAN = 49,
+        ULDUM = 128,
         FIRST_PURCHASE = 181,
     }
 
@@ -156,6 +157,7 @@ namespace HearthDb.Enums
         TROLL = 1129,
         DALARAN = 1130,
         TAVERNS_OF_TIME = 1143,
+        ULDUM = 1158,
     }
 
     public enum CardTextBuilderType
@@ -249,6 +251,8 @@ namespace HearthDb.Enums
         LOOT = 1,
         TREASURE = 2,
         SHRINE_TREASURE = 3,
+        HERO_POWER = 4,
+        DECK = 5,
     }
 
     public enum EnchantmentVisual
@@ -699,6 +703,11 @@ namespace HearthDb.Enums
         PUZZLE_MODE = 1073,
         CARD_DOES_NOTHING = 1075,
         CASTSWHENDRAWN = 1077,
+        DISPLAY_CARD_ON_MOUSEOVER = 1078,
+        DECK_POWER_UP = 1080,
+        SIDEKICK = 1081,
+        SIDEKICK_HERO_POWER = 1082,
+        REBORN = 1085,
         SQUELCH_NON_GAME_TRIGGERS_AND_MODIFIERS = 1087,
         QUEST_REWARD_DATABASE_ID = 1089,
         DORMANT = 1090,
@@ -743,8 +752,17 @@ namespace HearthDb.Enums
         UI_BUFF_COST_UP = 1298,
         DEBUG_DISPLAY_TAG_BOTTOM_RIGHT = 1313,
         DEBUG_DISPLAY_TAG_TOP_RIGHT = 1314,
+        SMART_DISCOVER_DEBUG_ENTITY_1 = 1318,
+        SMART_DISCOVER_DEBUG_ENTITY_2 = 1319,
+        SMART_DISCOVER_DEBUG_ENTITY_3 = 1320,
+        SMART_DISCOVER_DEBUG_TEST_COMPLETE = 1324,
         COPIED_BY_KHADGAR = 1326,
+        SMART_DISCOVER_DEBUG_PASSIVE_EVAL_RESULT_1 = 1328,
+        SMART_DISCOVER_DEBUG_PASSIVE_EVAL_RESULT_2 = 1329,
+        SMART_DISCOVER_DEBUG_PASSIVE_EVAL_RESULT_3 = 1330,
         ALTERNATE_CHAPTER_VO = 1334,
+        HAS_BEEN_REBORN = 1336,
+        USE_DISCOVER_VISUALS = 1342,
         EXTRA_SPELL_CASTS_ADDITIONAL = 1348,
         SQUELCH_LIFETIME_EFFECTS = 1350,
         TAG_TB_RANDOM_DECK_TIME_ID = 1358,
@@ -977,6 +995,8 @@ namespace HearthDb.Enums
         META_DATA = 8,
         CHANGE_ENTITY = 9,
         RESET_GAME = 10,
+        SUB_SPELL_START = 11,
+        SUB_SPELL_END = 12,
     }
 
     public enum PuzzleType

@@ -716,6 +716,51 @@ namespace HearthDb
                 public const string CrowdRoaster = "TRL_569";
                 public const string SoupVendor = "TRL_570";
                 public const string FlesheatingGhoul = "tt_004";
+                public const string ZephrysTheGreat = "ULD_003";
+                public const string QuestingExplorer = "ULD_157";
+                public const string SerpentEgg = "ULD_174";
+                public const string Octosari = "ULD_177";
+                public const string Siamat = "ULD_178";
+                public const string PhalanxCommander = "ULD_179";
+                public const string SunstruckHenchman = "ULD_180";
+                public const string SpittingCamel = "ULD_182";
+                public const string AnubisathWarbringer = "ULD_183";
+                public const string KoboldSandtrooper = "ULD_184";
+                public const string TempleBerserker = "ULD_185";
+                public const string GoldenScarab = "ULD_188";
+                public const string FacelessLurker = "ULD_189";
+                public const string PitCrocolisk = "ULD_190";
+                public const string BeamingSidekick = "ULD_191";
+                public const string LivingMonument = "ULD_193";
+                public const string WastelandScorpid = "ULD_194";
+                public const string NefersetRitualist = "ULD_196";
+                public const string QuicksandElemental = "ULD_197";
+                public const string ConjuredMirage = "ULD_198";
+                public const string Candletaker = "ULD_205";
+                public const string KhartutDefender = "ULD_208";
+                public const string VulperaScoundrel = "ULD_209";
+                public const string GenerousMummy = "ULD_214";
+                public const string WrappedGolem = "ULD_215";
+                public const string MischiefMaker = "ULD_229";
+                public const string InfestedGoblin = "ULD_250";
+                public const string InjuredTolvir = "ULD_271";
+                public const string WastelandAssassin = "ULD_274";
+                public const string BoneWraith = "ULD_275";
+                public const string JarDealer = "ULD_282";
+                public const string Fishflinger = "ULD_289";
+                public const string HistoryBuff = "ULD_290";
+                public const string KingPhaoris = "ULD_304";
+                public const string DwarvenArchaeologist = "ULD_309";
+                public const string Vilefiend = "ULD_450";
+                public const string MortuaryMachine = "ULD_702";
+                public const string DesertObelisk = "ULD_703";
+                public const string MoguCultist = "ULD_705";
+                public const string BlatantDecoy = "ULD_706";
+                public const string BugCollector = "ULD_712";
+                public const string DesertHare = "ULD_719";
+                public const string ColossusOfTheMoon = "ULD_721";
+                public const string Murmy = "ULD_723";
+                public const string BodyWrapper = "ULD_727";
                 public const string PterrordaxHatchling = "UNG_001";
                 public const string Volcanosaur = "UNG_002";
                 public const string RavasaurRunt = "UNG_009";
@@ -898,6 +943,16 @@ namespace HearthDb
                 public const string StampedingRoar = "TRL_255";
                 public const string Treespeaker = "TRL_341";
                 public const string WardruidLoti = "TRL_343";
+                public const string UntappedPotential = "ULD_131";
+                public const string CrystalMerchant = "ULD_133";
+                public const string Beeees = "ULD_134";
+                public const string HiddenOasis = "ULD_135";
+                public const string WorthyExpedition = "ULD_136";
+                public const string GardenGnome = "ULD_137";
+                public const string AnubisathDefender = "ULD_138";
+                public const string EliseTheEnlightened = "ULD_139";
+                public const string Overflow = "ULD_273";
+                public const string OasisSurger = "ULD_292";
                 public const string TortollanForager = "UNG_078";
                 public const string GiantAnaconda = "UNG_086";
                 public const string VerdantLongneck = "UNG_100";
@@ -1044,6 +1099,16 @@ namespace HearthDb
                 public const string RevengeOfTheWild = "TRL_566";
                 public const string HalazziTheLynx = "TRL_900";
                 public const string SpiritOfTheLynx = "TRL_901";
+                public const string RamkahenWildtamer = "ULD_151";
+                public const string PressurePlate = "ULD_152";
+                public const string HyenaAlpha = "ULD_154";
+                public const string UnsealTheVault = "ULD_155";
+                public const string DinotamerBrann = "ULD_156";
+                public const string WildBloodstinger = "ULD_212";
+                public const string ScarletWebweaver = "ULD_410";
+                public const string HuntersPack = "ULD_429";
+                public const string DesertSpear = "ULD_430";
+                public const string SwarmOfLocusts = "ULD_713";
                 public const string TerrorscaleStalker = "UNG_800";
                 public const string GrievousBite = "UNG_910";
                 public const string JeweledMacaw = "UNG_912";
@@ -1192,6 +1257,16 @@ namespace HearthDb
                 public const string DaringFireEater = "TRL_390";
                 public const string SplittingImage = "TRL_400";
                 public const string Spellbender = "tt_010";
+                public const string PuzzleBoxOfYoggSaron = "ULD_216";
+                public const string TortollanPilgrim = "ULD_236";
+                public const string RenoTheRelicologist = "ULD_238";
+                public const string FlameWard = "ULD_239";
+                public const string ArcaneFlakmage = "ULD_240";
+                public const string CloudPrince = "ULD_293";
+                public const string DuneSculptor = "ULD_329";
+                public const string RaidTheSkyTemple = "ULD_433";
+                public const string NagaSandWitch = "ULD_435";
+                public const string AncientMysteries = "ULD_726";
                 public const string FlameGeyser = "UNG_018";
                 public const string Arcanologist = "UNG_020";
                 public const string SteamSurger = "UNG_021";
@@ -1340,6 +1415,16 @@ namespace HearthDb
                 public const string SpiritOfTheTiger = "TRL_309";
                 public const string Bloodclaw = "TRL_543";
                 public const string ZandalariTemplar = "TRL_545";
+                public const string PharaohsBlessing = "ULD_143";
+                public const string BrazenZealot = "ULD_145";
+                public const string AncestralGuardian = "ULD_207";
+                public const string MicroMummy = "ULD_217";
+                public const string MakingMummies = "ULD_431";
+                public const string SalhetsPride = "ULD_438";
+                public const string SandwaspQueen = "ULD_439";
+                public const string SirFinleyOfTheSands = "ULD_500";
+                public const string TipTheScales = "ULD_716";
+                public const string Subdue = "ULD_728";
                 public const string Dinosize = "UNG_004";
                 public const string Hydrologist = "UNG_011";
                 public const string SunkeeperTarim = "UNG_015";
@@ -1487,6 +1572,16 @@ namespace HearthDb
                 public const string SurrenderToMadness = "TRL_500";
                 public const string AuchenaiPhantasm = "TRL_501";
                 public const string SpiritOfTheDead = "TRL_502";
+                public const string HighPriestAmet = "ULD_262";
+                public const string EmbalmingRitual = "ULD_265";
+                public const string Grandmummy = "ULD_266";
+                public const string Psychopomp = "ULD_268";
+                public const string WretchedReclaimer = "ULD_269";
+                public const string SandhoofWaterbearer = "ULD_270";
+                public const string HolyRipple = "ULD_272";
+                public const string Penance = "ULD_714";
+                public const string PlagueOfDeath = "ULD_718";
+                public const string ActivateTheObelisk = "ULD_724";
                 public const string MirageCaller = "UNG_022";
                 public const string ShadowVisions = "UNG_029";
                 public const string BindingHeal = "UNG_030";
@@ -1634,6 +1729,16 @@ namespace HearthDb
                 public const string StolenSteel = "TRL_156";
                 public const string WalkThePlank = "TRL_157";
                 public const string GralTheShark = "TRL_409";
+                public const string PharaohCat = "ULD_186";
+                public const string WhirlkickMaster = "ULD_231";
+                public const string SahketSapper = "ULD_280";
+                public const string HookedScimitar = "ULD_285";
+                public const string ShadowOfDeath = "ULD_286";
+                public const string AnkaTheBuried = "ULD_288";
+                public const string BazaarBurglary = "ULD_326";
+                public const string BazaarMugger = "ULD_327";
+                public const string CleverDisguise = "ULD_328";
+                public const string PlagueOfMadness = "ULD_715";
                 public const string RazorpetalVolley = "UNG_057";
                 public const string RazorpetalLasher = "UNG_058";
                 public const string MimicPod = "UNG_060";
@@ -1781,6 +1886,16 @@ namespace HearthDb
                 public const string RainOfToads = "TRL_351";
                 public const string Likkim = "TRL_352";
                 public const string Wartbringer = "TRL_522";
+                public const string SandstormElemental = "ULD_158";
+                public const string MoguFleshshaper = "ULD_169";
+                public const string WeaponizedWasp = "ULD_170";
+                public const string TotemicSurge = "ULD_171";
+                public const string PlagueOfMurlocs = "ULD_172";
+                public const string Vessina = "ULD_173";
+                public const string Earthquake = "ULD_181";
+                public const string EvilTotem = "ULD_276";
+                public const string CorruptTheWaters = "ULD_291";
+                public const string SplittingAxe = "ULD_413";
                 public const string AirElemental = "UNG_019";
                 public const string Volcano = "UNG_025";
                 public const string PrimalfinTotem = "UNG_201";
@@ -1929,6 +2044,16 @@ namespace HearthDb
                 public const string BloodTrollSapper = "TRL_257";
                 public const string RecklessDiretroll = "TRL_551";
                 public const string Demonbolt = "TRL_555";
+                public const string SupremeArchaeology = "ULD_140";
+                public const string SinisterDeal = "ULD_160";
+                public const string NefersetThrasher = "ULD_161";
+                public const string EvilRecruiter = "ULD_162";
+                public const string ExpiredMerchant = "ULD_163";
+                public const string Riftcleaver = "ULD_165";
+                public const string DiseasedVulture = "ULD_167";
+                public const string DarkPharaohTekahn = "ULD_168";
+                public const string Impbalming = "ULD_324";
+                public const string PlagueOfFlames = "ULD_717";
                 public const string RavenousPterrordax = "UNG_047";
                 public const string TarLurker = "UNG_049";
                 public const string LakkariSacrifice = "UNG_829";
@@ -2074,6 +2199,16 @@ namespace HearthDb
                 public const string AkaliTheRhino = "TRL_329";
                 public const string OverlordsWhip = "TRL_360";
                 public const string DragonRoar = "TRL_362";
+                public const string FrightenedFlunky = "ULD_195";
+                public const string RestlessMummy = "ULD_206";
+                public const string TombWarden = "ULD_253";
+                public const string IntoTheFray = "ULD_256";
+                public const string Armagedillo = "ULD_258";
+                public const string PlagueOfWrath = "ULD_707";
+                public const string LivewireLance = "ULD_708";
+                public const string ArmoredGoon = "ULD_709";
+                public const string HackTheSystem = "ULD_711";
+                public const string BloodswornMercenary = "ULD_720";
                 public const string TarLord = "UNG_838";
                 public const string ExploreUngoro = "UNG_922";
                 public const string IronHide = "UNG_923";
@@ -2937,6 +3072,9 @@ namespace HearthDb
                 public const string Tb207MaskedBallETavernBrawl = "TB_207MaskedBallE";
                 public const string MasterChestTavernBrawl = "TB_207masterChest";
                 public const string Tb207MinionsMakeSpellsETavernBrawl = "TB_207TolBaradE";
+                public const string FirstWishTavernBrawl = "TB_3Wishes_Spell";
+                public const string SecondWishTavernBrawl = "TB_3Wishes_Spell_2";
+                public const string ThirdWishTavernBrawl = "TB_3Wishes_Spell_3";
                 public const string GiveTauntAndChargeTavernBrawl = "TB_AllMinionsTauntCharge";
                 public const string AmalgamEnchantTavernBrawl = "TB_Amalgam_Ench";
                 public const string BlingtronsBladeTavernBrawl = "TB_BlingBrawl_Blade1e";
@@ -3017,6 +3155,7 @@ namespace HearthDb
                 public const string DorotheeTavernBrawl = "TB_Dorothee_001";
                 public const string DoubleMinionsEnchantTavernBrawl = "TB_DoubleMinions_ench";
                 public const string DoubleMinionsSpellTavernBrawl = "TB_DoubleMinions_spell";
+                public const string DrawAndDiscoverEnchTavernBrawl = "TB_DrawnDiscovery_Ench";
                 public const string EndlessEnchantmentTavernBrawl = "TB_EndlessMinions01";
                 public const string AmuletOfDominationTavernBrawlTavernBrawl = "TB_EVILBRM_LOOTA_805";
                 public const string MagicMirrorTavernBrawl = "TB_EVILBRM_LOOTA_813";
@@ -3142,6 +3281,13 @@ namespace HearthDb
                 public const string StaffTwoPiecesTavernBrawl = "TB_KTRAF_HP_RAF4";
                 public const string StaffOfOriginationTavernBrawl = "TB_KTRAF_HP_RAF5";
                 public const string UnderstudyTavernBrawl = "TB_KTRAF_Under";
+                public const string KingKrushUntamedTavernBrawl = "TB_LEAGUE_REVIVAL_BrannBoss";
+                public const string SandyChestTavernBrawl = "TB_LEAGUE_REVIVAL_FinleyChest";
+                public const string BuriedFinleyTavernBrawl1 = "TB_LEAGUE_REVIVAL_FinleyHistory";
+                public const string BuriedFinleyTavernBrawl2 = "TB_LEAGUE_REVIVAL_FinleySandHero";
+                public const string ShiftingSandsTavernBrawl = "TB_LEAGUE_REVIVAL_FinleySandHP";
+                public const string PileOfSandTavernBrawl = "TB_LEAGUE_REVIVAL_FinleySandPile";
+                public const string MoveOverFinleySwapsInNotPlayerFacingTavernBrawl = "TB_LEAGUE_REVIVAL_FinleySwap";
                 public const string Puzzle1TavernBrawl = "TB_Lethal002";
                 public const string Puzzle2TavernBrawl = "TB_Lethal003";
                 public const string Puzzle5TavernBrawl = "TB_Lethal004";
@@ -3852,6 +3998,7 @@ namespace HearthDb
                 public const string RadiantElemental_RadiantElementalEnchantment = "UNG_034e";
                 public const string TheCavernsBelow_CrystallizedTokenUNGORO1 = "UNG_067t1e";
                 public const string TheCavernsBelow_CrystallizedTokenUNGORO2 = "UNG_067t1e2";
+                public const string TheCavernsBelow_CrystallizedTokenUNGORO3 = "UNG_067t1e3";
                 public const string TolvirStoneshaper_StonewallEnchantment = "UNG_070e";
                 public const string RockpoolHunter_TrainedEnchantment = "UNG_073e";
                 public const string Eggnapper_RaptorToken = "UNG_076t1";
@@ -4381,9 +4528,9 @@ namespace HearthDb
                 public const string Bloodthirst = "GILA_BOSS_35p";
                 public const string VampiricFangsToken = "GILA_BOSS_35t";
                 public const string WitchsKiss = "GILA_BOSS_36p";
-                public const string PlagueOfMurlocsEnchantment = "GILA_BOSS_37e2";
+                public const string MurlocInfestationEnchantment = "GILA_BOSS_37e2";
                 public const string ItsRainingFin = "GILA_BOSS_37p";
-                public const string PlagueOfMurlocsToken = "GILA_BOSS_37t";
+                public const string MurlocInfestationToken = "GILA_BOSS_37t";
                 public const string CallOfTheRaven = "GILA_BOSS_38p";
                 public const string TogetherForever = "GILA_BOSS_39p";
                 public const string PetrifiedEnchantment = "GILA_BOSS_40e";
@@ -4736,7 +4883,8 @@ namespace HearthDb
                 public const string Toxfin_ToxicFinEnchantment = "DAL_077e";
                 public const string SpellwardJeweler_SparklyEnchantment = "DAL_081e";
                 public const string SunreaverSpy_StolenSecretsEnchantment = "DAL_086e";
-                public const string HenchClanHag_AmalgamToken = "DAL_087t";
+                public const string HenchClanHag_AmalgamToken1 = "DAL_087t";
+                public const string HenchClanHag_AmalgamToken2 = "DAL_087tw";
                 public const string Safeguard_VaultSafeToken = "DAL_088t2";
                 public const string VioletSpellsword_PizzazzEnchantment = "DAL_095e";
                 public const string DragonSpeaker_DragonShoutEnchantment = "DAL_147e";
@@ -5156,6 +5304,31 @@ namespace HearthDb
                 public const string TemporalAnomaly = "TOT_334";
                 public const string RippleinTime_TimeRippleEnchantment = "TOT_345e";
                 public const string RippleinTime_TimeRipplePlayerEnchantEnchantment = "TOT_345e2";
+                public const string SerpentEgg_SeaSerpentToken = "ULD_174t";
+                public const string Siamat_SiamatsWind = "ULD_178a";
+                public const string Siamat_SiamatsShield = "ULD_178a2";
+                public const string Siamat_SiamatsHeart = "ULD_178a3";
+                public const string Siamat_SiamatsSpeed = "ULD_178a4";
+                public const string PhalanxCommander_CommandedEnchantment = "ULD_179e";
+                public const string AnubisathWarbringer_AnubisathPowerEnchantment = "ULD_183e";
+                public const string TempleBerserker_EnragedEnchantment = "ULD_185e";
+                public const string FacelessLurker_BraveryEnchantment = "ULD_189e";
+                public const string BeamingSidekick_AssistingEnchantment = "ULD_191e";
+                public const string QuicksandElemental_StuckEnchantment = "ULD_197e";
+                public const string VulperaScoundrel_MysteryChoiceToken = "ULD_209t";
+                public const string GenerousMummy_CharityEnchantment = "ULD_214e";
+                public const string WrappedGolem_ScarabToken = "ULD_215t";
+                public const string MicroMummy_MicrowrappedEnchantment = "ULD_217e";
+                public const string IntotheFray_FrayedEnchantment = "ULD_256e";
+                public const string Armagedillo_ToughEnchantment = "ULD_258e";
+                public const string HistoryBuff_EruditeEnchantment = "ULD_290e";
+                public const string CorrupttheWaters_HeartOfVirnaal1 = "ULD_291pe";
+                public const string DwarvenArchaeologist_ArchaelogicalStudyEnchantment = "ULD_309e";
+                public const string DesertSpear_LocustToken = "ULD_430t";
+                public const string TitanicLackey = "ULD_616";
+                public const string TitanicLackey_HardenedEnchantment = "ULD_616e";
+                public const string MoguCultist_HighkeeperRaToken = "ULD_705t";
+                public const string Subdue_SubduedEnchantment = "ULD_728e";
             }
 
             public class Invalid
@@ -5307,6 +5480,17 @@ namespace HearthDb
                 public const string SecondClassDruidTavernBrawl = "TB_ClassRandom_Druid";
                 public const string MalfurionThePestilentTavernBrawl = "TB_DK_Malfurion";
                 public const string SummonFireswornTavernBrawl = "TB_EVILBRM_GarrSummon";
+                public const string SwarmTavernBrawl = "TB_LEAGUE_REVIVAL_Druid_01";
+                public const string RecoveryTavernBrawl = "TB_LEAGUE_REVIVAL_Druid_02";
+                public const string ChoicesChoicesTavernBrawl = "TB_LEAGUE_REVIVAL_Druid_03";
+                public const string AllBarkTavernBrawl = "TB_LEAGUE_REVIVAL_Druid_04";
+                public const string NaturesWrathTavernBrawl = "TB_LEAGUE_REVIVAL_Druid_05";
+                public const string FeralBiteTavernBrawl = "TB_LEAGUE_REVIVAL_Druid_06";
+                public const string NurtureAndGrowTavernBrawl = "TB_LEAGUE_REVIVAL_Druid_07";
+                public const string RoarTavernBrawl = "TB_LEAGUE_REVIVAL_Druid_08";
+                public const string ProtectorsTavernBrawl = "TB_LEAGUE_REVIVAL_Druid_09";
+                public const string BeastsAndBuffsTavernBrawl = "TB_LEAGUE_REVIVAL_Druid_10";
+                public const string EliseTheEnlightenedTavernBrawl = "TB_LEAGUE_REVIVAL_Elise";
                 public const string AncientPowerTavernBrawl = "TB_LOEA13_2";
                 public const string RumbleInTheJungleTavernBrawl = "TB_TagTeam_Druid";
                 public const string RavenIdol_BreakFree = "LOE_115a";
@@ -5479,6 +5663,16 @@ namespace HearthDb
                 public const string Squeamlish = "DALA_Squeamlish";
                 public const string FlashForward = "TOT_105";
                 public const string HarbingerOfCatastrophe = "TOT_320";
+                public const string UntappedPotential_OssirianTear = "ULD_131p";
+                public const string BEEEES_BeeToken = "ULD_134t";
+                public const string HiddenOasis_BefriendTheAncient = "ULD_135a";
+                public const string HiddenOasis_VirnaalAncient = "ULD_135at";
+                public const string HiddenOasis_DrinkTheWater = "ULD_135b";
+                public const string GardenGnome_TreantToken = "ULD_137t";
+                public const string AnkatheBuried_BuriedEnchantment = "ULD_288e";
+                public const string OasisSurger_FocusedBurst = "ULD_292a";
+                public const string OasisSurger_FocusedEnchantment = "ULD_292ae";
+                public const string OasisSurger_DivideAndConquer = "ULD_292b";
             }
 
             public class Hunter
@@ -5525,6 +5719,10 @@ namespace HearthDb
                 public const string NextHeroHunterEnch = "FB_TagTeam_Hunter_Ench";
                 public const string SecondClassHunterTavernBrawl = "TB_ClassRandom_Hunter";
                 public const string DeathstalkerRexxarTavernBrawl1 = "TB_DK_Rexxar";
+                public const string BrannBronzebeardTavernBrawl1 = "TB_LEAGUE_REVIVAL_BrannAIHero";
+                public const string DinoBuddiesTavernBrawl = "TB_LEAGUE_REVIVAL_BrannAIHp";
+                public const string BrannBronzebeardTavernBrawl2 = "TB_LEAGUE_REVIVAL_BrannHistory";
+                public const string SirFinleyTavernBrawl = "TB_LEAGUE_REVIVAL_FinleyAIHero";
                 public const string UnleashTheBeastsTavernBrawl = "TB_TagTeam_Hunter";
                 public const string DeathstalkerRexxarTavernBrawl2 = "TB_Zombeast_H";
                 public const string ZombeastEnchantTavernBrawl = "TB_ZombeastEnch";
@@ -5652,6 +5850,13 @@ namespace HearthDb
                 public const string ShiftingChameleon = "DALA_Hunter_HP2t";
                 public const string InfiniteWolf = "TOT_117";
                 public const string Chronoshot = "TOT_340";
+                public const string HyenaAlpha_HyenaToken = "ULD_154t";
+                public const string UnsealtheVault_RoarEnchantment = "ULD_155e";
+                public const string UnsealtheVault_RamkahenRoar = "ULD_155p";
+                public const string DinotamerBrann_DukeToken = "ULD_156t";
+                public const string DinotamerBrann_DuchessToken = "ULD_156t2";
+                public const string DinotamerBrann_KingKrushToken = "ULD_156t3";
+                public const string ScarletWebweaver_WeavedEnchantment = "ULD_410e";
             }
 
             public class Mage
@@ -5709,6 +5914,10 @@ namespace HearthDb
                 public const string CelebrateFireFestivalTavernBrawl = "TB_Firefest2_003";
                 public const string ChillTavernBrawl = "TB_Firefest2_004";
                 public const string FrostbiteTavernBrawl = "TB_Firefest2_005";
+                public const string IceBlock_ImmuneTavernBrawl = "TB_Iceblock";
+                public const string RenoJacksonTavernBrawl1 = "TB_LEAGUE_REVIVAL_RenoAIHero";
+                public const string GatlingWandTavernBrawl = "TB_LEAGUE_REVIVAL_RenoAIHp";
+                public const string RenoJacksonTavernBrawl2 = "TB_LEAGUE_REVIVAL_RenoHistory";
                 public const string FireblastTavernBrawl = "TB_LevelUp_002";
                 public const string ElementalSecretsTavernBrawl = "TB_TagTeam_Mage";
                 public const string ForgottenTorch_RoaringTorchToken = "LOE_002t";
@@ -5800,6 +6009,7 @@ namespace HearthDb
                 public const string ChaosTROLL = "TRLA_Mage_10";
                 public const string ConjurersCalling_ConjurersCallingToken = "DAL_177ts";
                 public const string RayofFrost_RayOfFrostToken = "DAL_577ts";
+                public const string CobaltLeyline = "DAL_579p";
                 public const string CheerfulSpirit = "DALA_501";
                 public const string RandomMageDeck = "DALA_800";
                 public const string TheGreatAkazamzarakHeroic = "DALA_BOSS_03h";
@@ -5833,6 +6043,9 @@ namespace HearthDb
                 public const string Rakanishu = "DALA_Rakanishu";
                 public const string CavernDreamer = "TOT_308";
                 public const string ConsiderThePast = "TOT_341";
+                public const string RaidtheSkyTemple_AscendantScroll = "ULD_433p";
+                public const string NagaSandWitch_SandwitchedEnchantment = "ULD_435e";
+                public const string AncientMysteries_TranslatedEnchantment = "ULD_726e";
             }
 
             public class Paladin
@@ -5880,6 +6093,7 @@ namespace HearthDb
                 public const string UtherOfTheEbonBladeTavernBrawl = "TB_DK_Uther";
                 public const string OmnotronDefenseSystemTavernBrawl = "TB_EVILBRM_Omnotron01";
                 public const string GeorgeTheFallenTavernBrawl = "TB_Henchmania_George";
+                public const string SirFinleyMrrggltonTavernBrawl = "TB_LEAGUE_REVIVAL_FinleyHero";
                 public const string DarkLightTavernBrawl = "TB_TagTeam_Paladin";
                 public const string KeeperofUldaman_WatchedEnchantment = "LOE_017e";
                 public const string VilefinInquisitor_SilverHandMurloc = "OG_006a";
@@ -5994,6 +6208,12 @@ namespace HearthDb
                 public const string BlessingofAeons_WiseBeyondYearsEnchantment = "TOT_069e";
                 public const string WeeWhelpToken = "TOT_303t";
                 public const string BronzeBroodmother = "TOT_330";
+                public const string PharaohsBlessing_PharaohsBlessingEnchantment = "ULD_143e";
+                public const string BrazenZealot_ZealEnchantment = "ULD_145e";
+                public const string MakingMummies_EmperorWrappedEnchantment = "ULD_431e";
+                public const string MakingMummies_EmperorWraps = "ULD_431p";
+                public const string SandwaspQueen_SandwaspToken = "ULD_439t";
+                public const string TiptheScales_WatchedEnchantment = "ULD_716e2";
             }
 
             public class Priest
@@ -6153,6 +6373,10 @@ namespace HearthDb
                 public const string Soothe = "DALA_Priest_HP2";
                 public const string Reminisce = "TOT_343";
                 public const string RippleInTime = "TOT_345";
+                public const string HighPriestAmet_AmetsBlessingEnchantment = "ULD_262e";
+                public const string Grandmummy_GrandmummysBlessingEnchantment = "ULD_266e";
+                public const string ActivatetheObelisk_ObelisksGazeEnchantment = "ULD_724e";
+                public const string ActivatetheObelisk_ObelisksEye = "ULD_724p";
             }
 
             public class Rogue
@@ -6214,6 +6438,8 @@ namespace HearthDb
                 public const string KingTogwaggleTavernBrawl2 = "TB_EVILBRM_TogwaggleH";
                 public const string MyraRotspringTavernBrawl = "TB_Henchmania_Myra";
                 public const string NecriumInfusionTavernBrawl = "TB_Henchmania_MyraH";
+                public const string WellEquippedTavernBrawl = "TB_LEAGUE_REVIVAL_TerravisHp";
+                public const string TerravissTavernBrawl = "TB_LEAGUE_REVIVAL_Terraviss";
                 public const string ShadowReflectionTavernBrawl = "TB_ShadowReflection_001";
                 public const string ShadowReflection_ShadowReflectionEnchantmentTavernBrawl = "TB_ShadowReflection_001e";
                 public const string FacilitatedTavernBrawl = "TB_Superfriends001e";
@@ -6341,6 +6567,11 @@ namespace HearthDb
                 public const string CutLess = "DALA_Rogue_HP2";
                 public const string ThiefOfFutures = "TOT_107";
                 public const string DéjàVu = "TOT_108";
+                public const string HookedScimitar_PolishedEnchantment = "ULD_285e";
+                public const string ShadowofDeath_ShadowToken = "ULD_286t";
+                public const string BazaarBurglary_AncientBlades = "ULD_326p";
+                public const string BazaarBurglary_MirageBladeToken = "ULD_326t";
+                public const string PlagueofMadness_PlaguedKnifeToken = "ULD_715t";
             }
 
             public class Shaman
@@ -6499,6 +6730,10 @@ namespace HearthDb
                 public const string StasisElemental = "TOT_118";
                 public const string StasisElemental_StasisEnchantment = "TOT_118e";
                 public const string MasterOfRealities = "TOT_313";
+                public const string TotemicSurge_BigSurgeEnchantment = "ULD_171e";
+                public const string Vessina_VessinasDevotionEnchantment = "ULD_173e";
+                public const string CorrupttheWaters_HeartOfVirnaal2 = "ULD_291p";
+                public const string RaidtheSkyTemple_CheatSheetEnchantment = "ULD_433e";
             }
 
             public class Warlock
@@ -6555,6 +6790,8 @@ namespace HearthDb
                 public const string BloodreaverGuldanTavernBrawl = "TB_DK_Guldan";
                 public const string NefarianTavernBrawlTavernBrawl5 = "TB_EVILBRM_Nefarian";
                 public const string RafaamTavernBrawl2 = "TB_EVILBRM_RafaamH";
+                public const string DarkPharaohTekahnTavernBrawl = "TB_LEAGUE_REVIVAL_TekahnAIHero";
+                public const string EvilGraspTavernBrawl = "TB_LEAGUE_REVIVAL_TekahnAIHp";
                 public const string DarkWandererTavernBrawl = "TB_SPT_DPromo_Hero";
                 public const string TwistingNetherTavernBrawl = "TB_SPT_DpromoEX1_312";
                 public const string DeathBecomesTavernBrawl = "TB_TagTeam_Warlock";
@@ -6678,6 +6915,14 @@ namespace HearthDb
                 public const string DeviousImp = "DALA_Warlock_HP2t";
                 public const string RiftWarden = "TOT_102";
                 public const string GraspTheFuture = "TOT_103";
+                public const string SupremeArchaeology_OriginationEnchantment = "ULD_140e";
+                public const string SupremeArchaeology_TomeOfOrigination = "ULD_140p";
+                public const string EVILRecruiter_EvilDemonToken = "ULD_162t";
+                public const string ExpiredMerchant_ExpiredGoodsEnchantment = "ULD_163e";
+                public const string DarkPharaohTekahn_LackeyEmpowermentEnchantment1 = "ULD_168e";
+                public const string DarkPharaohTekahn_LackeyEmpowermentEnchantment2 = "ULD_168e2";
+                public const string DarkPharaohTekahn_LackeyEmpowermentEnchantment3 = "ULD_168e3";
+                public const string Impbalming_WorthlessImpToken = "ULD_324t";
             }
 
             public class Warrior
@@ -6886,6 +7131,8 @@ namespace HearthDb
                 public const string Undermine = "DALA_Warrior_HP2";
                 public const string DraconicHerald = "TOT_316";
                 public const string Fatecleaver = "TOT_342";
+                public const string HacktheSystem_AnraphetsCore = "ULD_711p3";
+                public const string HacktheSystem_StoneGolemToken = "ULD_711t";
             }
 
             public class DreamCards

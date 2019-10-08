@@ -16,10 +16,9 @@ namespace HearthDb.CardIdGenerator
 {
 	internal class SyntaxBuilder
 	{
-		private static Dictionary<string, List<string>> _namingConflicts = new Dictionary<string, List<string>>();
-
 		internal static ClassDeclarationSyntax GetNonCollectible()
 		{
+			var conflicts = new Dictionary<string, List<string>>();
 			while(true)
 			{
 				var newNamingConflicts = new Dictionary<string, List<string>>();
@@ -41,7 +40,7 @@ namespace HearthDb.CardIdGenerator
 						name = NameOverrides(card, name);
 						name = Regex.Replace(name, @"[^\w\d]", "");
 						name = ResolveNameFromId(card, name);
-						name = ResolveNamingConflict(name, card, newNamingConflicts, className);
+						name = ResolveNamingConflict(name, card, newNamingConflicts, className, conflicts);
 						cCard = cCard.AddMembers(GenerateConst(name, card.Id));
 						anyCards = true;
 					}
@@ -51,7 +50,7 @@ namespace HearthDb.CardIdGenerator
 				if(!newNamingConflicts.Any(x => x.Value.Count > 1))
 					return classDecl;
 				foreach(var pair in newNamingConflicts.Where(x => x.Value.Count > 1).ToDictionary(pair => pair.Key, pair => pair.Value))
-					_namingConflicts.Add(pair.Key, pair.Value);
+					conflicts.Add(pair.Key, pair.Value);
 			}
 		}
 
@@ -107,12 +106,12 @@ namespace HearthDb.CardIdGenerator
 			return name;
 		}
 
-		private static string ResolveNamingConflict(string name, Card card, Dictionary<string, List<string>> newNamingConflicts, string className)
+		private static string ResolveNamingConflict(string name, Card card, Dictionary<string, List<string>> newNamingConflicts, string className, Dictionary<string, List<string>> conflicts)
 		{
 			List<string> conflictingIds;
-			if(_namingConflicts.TryGetValue(name + Helper.GetSetAbbreviation(card.Set), out conflictingIds) && conflictingIds.Contains(card.Id))
+			if(conflicts.TryGetValue(name + Helper.GetSetAbbreviation(card.Set), out conflictingIds) && conflictingIds.Contains(card.Id))
 				name += Helper.GetSetAbbreviation(card.Set) + (conflictingIds.IndexOf(card.Id) + 1);
-			else if(_namingConflicts.TryGetValue(name, out conflictingIds))
+			else if(conflicts.TryGetValue(name, out conflictingIds))
 			{
 				if(conflictingIds.Any(x => x.Substring(0, 3) != card.Id.Substring(0, 3)))
 					name += Helper.GetSetAbbreviation(card.Set);
@@ -131,27 +130,39 @@ namespace HearthDb.CardIdGenerator
 			return name;
 		}
 
-		internal static ClassDeclarationSyntax GetCollectible(ClassDeclarationSyntax classDecl)
+		internal static ClassDeclarationSyntax GetCollectible()
 		{
-			foreach(var c in ClassNames)
+			var conflicts = new Dictionary<string, List<string>>();
+			while(true)
 			{
-				var anyCards = false;
-				var className = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
-				var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword));
-				foreach(var card in
-					Cards.All.Values.Where(x => x.Collectible && x.Class.ToString().Equals(c)))
+				var classDecl = ClassDeclaration("Collectible").AddModifiers(Token(PublicKeyword));
+				var newNamingConflicts = new Dictionary<string, List<string>>();
+				foreach(var c in ClassNames)
 				{
-					var name = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(card.Name.ToLower());
-					name = Regex.Replace(name, @"[^\w\d]", "");
-					if (card.Id.StartsWith("HERO"))
-						name += "Hero";
-					cCard = cCard.AddMembers(GenerateConst(name, card.Id));
-					anyCards = true;
+					var anyCards = false;
+					var className = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
+					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword));
+					foreach(var card in
+						Cards.All.Values.Where(x => x.Collectible && x.Class.ToString().Equals(c)))
+					{
+						var name = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(card.Name.ToLower());
+						name = NameOverrides(card, name);
+						name = Regex.Replace(name, @"[^\w\d]", "");
+						if (card.Id.StartsWith("HERO"))
+							name += "Hero";
+						name = ResolveNameFromId(card, name);
+						name = ResolveNamingConflict(name, card, newNamingConflicts, className, conflicts);
+						cCard = cCard.AddMembers(GenerateConst(name, card.Id));
+						anyCards = true;
+					}
+					if(anyCards)
+						classDecl = classDecl.AddMembers(cCard);
 				}
-				if(anyCards)
-					classDecl = classDecl.AddMembers(cCard);
+				if(!newNamingConflicts.Any(x => x.Value.Count > 1))
+					return classDecl;
+				foreach(var pair in newNamingConflicts.Where(x => x.Value.Count > 1).ToDictionary(pair => pair.Key, pair => pair.Value))
+					conflicts.Add(pair.Key, pair.Value);
 			}
-			return classDecl;
 		}
 
 		private static IEnumerable<string> ClassNames

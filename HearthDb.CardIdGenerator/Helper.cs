@@ -97,6 +97,8 @@ namespace HearthDb.CardIdGenerator
 					return "NAXX";
 				case PE1:
 					return "GVG";
+				case TGT:
+					return "TGT";
 				case EXPERT1:
 					return "Classic";
 				case MISSIONS:

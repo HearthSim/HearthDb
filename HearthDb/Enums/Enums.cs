@@ -16,6 +16,7 @@ namespace HearthDb.Enums
         RITUAL = 9,
         REVEAL_CARD = 10,
         GAME_RESET = 11,
+        MOVE_MINION = 12,
         ACTION = 99,
     }
 
@@ -45,6 +46,7 @@ namespace HearthDb.Enums
         BGT_FSG_BRAWL_1P_VERSUS_AI = 42,
         BGT_FSG_BRAWL_2P_COOP = 43,
         BGT_RANKED_STANDARD_NEW_PLAYER = 45,
+        BGT_BATTLEGROUNDS = 50,
     }
 
     public enum BnetRegion
@@ -158,7 +160,9 @@ namespace HearthDb.Enums
         DALARAN = 1130,
         TAVERNS_OF_TIME = 1143,
         ULDUM = 1158,
+        DRAGONS = 1347,
         WILD_EVENT = 1439,
+        BATTLEGROUNDS = 1453,
     }
 
     public enum CardTextBuilderType
@@ -216,6 +220,9 @@ namespace HearthDb.Enums
         ITEM = 8,
         TOKEN = 9,
         HERO_POWER = 10,
+        BLANK = 11,
+        GAME_MODE_BUTTON = 12,
+        MOVE_MINION_HOVER_TARGET = 22,
     }
 
     public enum ChoiceType
@@ -766,12 +773,37 @@ namespace HearthDb.Enums
         HAS_BEEN_REBORN = 1336,
         USE_DISCOVER_VISUALS = 1342,
         DOUBLE_FATIGUE_DAMAGE = 1346,
+        BOARD_VISUAL_STATE = 1347,
         EXTRA_SPELL_CASTS_ADDITIONAL = 1348,
+        BACON_DUMMY_PLAYER = 1349,
         SQUELCH_LIFETIME_EFFECTS = 1350,
+        ALLOW_MOVE_MINION = 1356,
         TAG_TB_RANDOM_DECK_TIME_ID = 1358,
+        NEXT_OPPONENT_PLAYER_ID = 1360,
+        PLAYER_LEADERBOARD_PLACE = 1373,
+        PLAYER_TECH_LEVEL = 1377,
+        BACON_USE_FAST_ANIMATIONS = 1402,
         DECK_RULE_COUNT_AS_COPY_OF_CARD_ID = 1413,
+        BACON_ODD_PLAYER_OUT = 1415,
+        BACON_IS_KEL_THUZAD = 1423,
+        BACON_HIGHLIGHT_ATTACKING_MINION_DURING_COMBAT = 1424,
+        RULEBOOK = 1430,
+        BACON_ACTION_CARD = 1437,
+        GAME_MODE_BUTTON_SLOT = 1438,
+        TECH_LEVEL = 1440,
+        TECH_LEVEL_MANA_GEM = 1442,
         UI_BUFF_DURABILITY_UP = 1443,
+        PLAYER_TRIPLES = 1447,
+        DISABLE_TURN_INDICATORS = 1448,
         COLLECTION_RELATED_CARD_DATABASE_ID = 1452,
+        IS_BACON_POOL_MINION = 1456,
+        SUPPRESS_ALL_SUMMON_VO = 1458,
+        BACON_TRIPLE_CANDIDATE = 1460,
+        BATTLEGROUNDS_PREMIUM_EMOTES = 1463,
+        MOVE_MINION_HOVER_TARGET_SLOT = 1464,
+        BACON_COIN_ON_ENEMY_MINIONS = 1467,
+        ALWAYS_USE_FAST_ACTOR_TRIGGERS = 1473,
+        BACON_HERO_CAN_BE_DRAFTED = 1491,
     }
 
     public enum GameType
@@ -792,6 +824,7 @@ namespace HearthDb.Enums
         GT_FSG_BRAWL = 20,
         GT_FSG_BRAWL_1P_VS_AI = 21,
         GT_FSG_BRAWL_2P_COOP = 22,
+        GT_BATTLEGROUNDS = 23,
     }
 
     public enum GoldRewardState

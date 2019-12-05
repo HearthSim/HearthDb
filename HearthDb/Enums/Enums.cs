@@ -88,6 +88,7 @@ namespace HearthDb.Enums
         DALARAN = 49,
         ULDUM = 128,
         FIRST_PURCHASE = 181,
+        DRAGONS = 347,
     }
 
     public enum BrawlType
@@ -179,6 +180,7 @@ namespace HearthDb.Enums
         DEPRECATED_6 = 6,
         SCRIPT_DATA_NUM_1 = 7,
         PLACE_HOLDER_7 = 7,
+        GALAKROND_COUNTER = 8,
         DEPRECATED_8 = 8,
         PLACE_HOLDER_8 = 8,
         DECORATE = 9,
@@ -204,6 +206,7 @@ namespace HearthDb.Enums
         PLACE_HOLDER_02 = 21,
         SPELL_DAMAGE_ONLY = 22,
         DRUSTVAR_HORROR = 23,
+        HIDDEN_ENTITY = 24,
     }
 
     public enum CardType
@@ -741,9 +744,18 @@ namespace HearthDb.Enums
         MOUSE_OVER_CARD_APPEARANCE = 1142,
         IS_ADVENTURE_SCENARIO = 1172,
         TWINSPELL_COPY = 1186,
+        PROXY_GALAKROND = 1190,
+        SIDEQUEST = 1192,
         TWINSPELL = 1193,
+        GALAKROND_IN_PLAY = 1194,
         COIN_MANA_GEM = 1199,
         MEGA_WINDFURY = 1207,
+        EMPOWER = 1263,
+        EMPOWER_PRIEST = 1264,
+        EMPOWER_ROGUE = 1265,
+        EMPOWER_SHAMAN = 1266,
+        EMPOWER_WARLOCK = 1267,
+        EMPOWER_WARRIOR = 1268,
         TWINSPELLPENDING = 1269,
         EXTRA_OVERLOAD_SPELL_CASTS_BASE = 1272,
         DRUSTVAR_HORROR_DEBUG_CURRENT_SPELL_DATABASE_ID = 1280,
@@ -780,6 +792,10 @@ namespace HearthDb.Enums
         ALLOW_MOVE_MINION = 1356,
         TAG_TB_RANDOM_DECK_TIME_ID = 1358,
         NEXT_OPPONENT_PLAYER_ID = 1360,
+        MAIN_GALAKROND = 1361,
+        GOOD_OL_GENERIC_FRIENDLY_DRAGON_DISCOVER_VISUALS = 1364,
+        GALAKROND_HERO_CARD = 1365,
+        INVOKE_COUNTER = 1366,
         PLAYER_LEADERBOARD_PLACE = 1373,
         PLAYER_TECH_LEVEL = 1377,
         BACON_USE_FAST_ANIMATIONS = 1402,
@@ -788,6 +804,7 @@ namespace HearthDb.Enums
         BACON_IS_KEL_THUZAD = 1423,
         BACON_HIGHLIGHT_ATTACKING_MINION_DURING_COMBAT = 1424,
         RULEBOOK = 1430,
+        FX_DATANUM_1 = 1436,
         BACON_ACTION_CARD = 1437,
         GAME_MODE_BUTTON_SLOT = 1438,
         TECH_LEVEL = 1440,
@@ -1005,7 +1022,8 @@ namespace HearthDb.Enums
         REQ_FRIENDLY_REBORN_MINION_DIED_THIS_GAME = 89,
         REQ_MINION_DIED_THIS_GAME = 90,
         REQ_BOARD_NOT_COMPLETELY_FULL = 92,
-        REQ_DRAG_TO_PLAY = 93,
+        REQ_TARGET_IF_AVAILABLE_AND_HAS_OVERLOADED_MANA = 93,
+        REQ_DRAG_TO_PLAY = 94,
     }
 
     public enum PlayState
@@ -1110,6 +1128,7 @@ namespace HearthDb.Enums
         BONUS_CHALLENGE = 11,
         ADVENTURE_DECK = 12,
         ADVENTURE_HERO_POWER = 13,
+        ARCANE_ORBS = 14,
     }
 
     public enum State

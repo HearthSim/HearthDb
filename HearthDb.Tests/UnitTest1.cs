@@ -86,6 +86,10 @@ namespace HearthDb.Tests
 			var janalai = Cards.GetFromDbfId(50088);
 			Assert.IsFalse(janalai.Text.Contains("@"));
 			Assert.IsTrue(janalai.Text.Contains("If your Hero Power"));
+
+			var galakrond = Cards.GetFromDbfId(57419);
+			Assert.IsTrue(galakrond.Text.Contains("Draw 1 card."));
+			Assert.IsTrue(galakrond.Text.Contains("It costs (0)."));
 		}
 	}
 }

@@ -109,9 +109,12 @@ namespace HearthDb
 				return text;
 			if (Entity.GetTag(PLAYER_TAG_THRESHOLD_TAG_ID) > 0)
 				return text.Substring(0, index);
-			var scriptData = Entity.GetTag(TAG_SCRIPT_DATA_NUM_1);
-			if (scriptData > 0)
-				return text.Replace("@", scriptData.ToString());
+			var scriptData1 = Entity.GetTag(TAG_SCRIPT_DATA_NUM_1);
+			if (scriptData1 > 0)
+				return text.Replace("@", scriptData1.ToString());
+			var scriptData2 = Entity.GetTag(TAG_SCRIPT_DATA_NUM_2);
+			if (scriptData2 > 0)
+				return text.Replace("@", scriptData2.ToString());
 			return text.Substring(index + 1);
 		}
 

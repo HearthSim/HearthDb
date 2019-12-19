@@ -5734,6 +5734,7 @@ namespace HearthDb
                 public const string WingCommander_CommandingEnchantment = "DRG_058e";
                 public const string GoboglideTech_GoboglidingEnchantment = "DRG_059e";
                 public const string DragonmawPoacher_PoachingEnchantment = "DRG_063e";
+                public const string BadLuckAlbatross_AlbatrossToken = "DRG_071t";
                 public const string TentacledMenace_TentacleConfusionEnchantment = "DRG_084e";
                 public const string ChromaticEgg_WhatsInTheEggEnchantment = "DRG_086e";
                 public const string DreadRaven_ConspiracyOfRavensEnchantment = "DRG_088e";
@@ -5995,7 +5996,6 @@ namespace HearthDb
                 public const string NecriumApothecary_NecriumInfusionEnchantment = "DRG_031e";
                 public const string HotAirBalloon_UpUpAndAwayEnchantment = "DRG_057e";
                 public const string FireHawk_FiredUpEnchantment = "DRG_060e";
-                public const string BadLuckAlbatross_AlbatrossToken = "DRG_071t";
                 public const string DragonClawTokenHeroic = "DRG_238ht";
                 public const string GraveRune_GraveRuneEnchantment = "DRG_302e";
                 public const string GorutheMightree_TreePowerEnchantment = "DRG_319e5";

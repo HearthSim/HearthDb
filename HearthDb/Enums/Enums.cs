@@ -4,6 +4,7 @@ namespace HearthDb.Enums
 
     public enum BlockType
     {
+        INVALID = 0,
         ATTACK = 1,
         CONTINUOUS = 2,
         JOUST = 2,
@@ -828,6 +829,7 @@ namespace HearthDb.Enums
         ALLOW_GAME_SPEEDUP = 1526,
         POISONOUS_INSTANT = 1528,
         FORCE_NO_CUSTOM_SPELLS = 1529,
+        START_OF_COMBAT = 1531,
     }
 
     public enum GameType
@@ -1030,7 +1032,13 @@ namespace HearthDb.Enums
         REQ_MINION_DIED_THIS_GAME = 90,
         REQ_BOARD_NOT_COMPLETELY_FULL = 92,
         REQ_TARGET_IF_AVAILABLE_AND_HAS_OVERLOADED_MANA = 93,
-        REQ_DRAG_TO_PLAY = 94,
+        PLACEHOLDER_A = 94,
+        PLACEHOLDER_B = 95,
+        PLACEHOLDER_C = 96,
+        REQ_TARGET_NON_TRIPLED_MINION = 97,
+        REQ_BOUGHT_MINION_THIS_TURN = 98,
+        REQ_SOLD_MINION_THIS_TURN = 99,
+        REQ_DRAG_TO_PLAY = 100,
     }
 
     public enum PlayState

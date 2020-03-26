@@ -120,6 +120,7 @@ namespace HearthDb.Enums
         DREAM = 11,
         NEUTRAL = 12,
         WHIZBANG = 13,
+        DEMONHUNTER = 14,
     }
 
     public enum CardSet
@@ -171,6 +172,7 @@ namespace HearthDb.Enums
         BLACK_TEMPLE = 1414,
         WILD_EVENT = 1439,
         BATTLEGROUNDS = 1453,
+        DEMON_HUNTER_INITIATE = 1463,
     }
 
     public enum CardTextBuilderType
@@ -214,6 +216,7 @@ namespace HearthDb.Enums
         SPELL_DAMAGE_ONLY = 22,
         DRUSTVAR_HORROR = 23,
         HIDDEN_ENTITY = 24,
+        SCORE_VALUE_COUNT_DOWN = 25,
     }
 
     public enum CardType
@@ -422,6 +425,7 @@ namespace HearthDb.Enums
         CANT_BE_TARGETED_BY_OPPONENTS = 270,
         NUM_TURNS_IN_PLAY = 271,
         NUM_TURNS_LEFT = 272,
+        NUM_TURNS_IN_HAND = 273,
         OUTGOING_DAMAGE_CAP = 273,
         OUTGOING_DAMAGE_ADJUSTMENT = 274,
         OUTGOING_DAMAGE_MULTIPLIER = 275,
@@ -561,6 +565,7 @@ namespace HearthDb.Enums
         OVERLOAD_THIS_GAME = 427,
         SPELLS_COST_HEALTH = 431,
         HISTORY_PROXY_NO_BIG_CARD = 432,
+        IGNORE_TAUNT = 433,
         PROXY_CTHUN = 434,
         TRANSFORMED_FROM_CARD = 435,
         CTHUN = 436,
@@ -573,6 +578,7 @@ namespace HearthDb.Enums
         SEEN_CTHUN = 445,
         MINION_TYPE_REFERENCE = 447,
         UNTOUCHABLE = 448,
+        RED_MANA_GEM = 449,
         RED_MANA_CRYSTALS = 449,
         SCORE_LABELID_1 = 450,
         SCORE_VALUE_1 = 451,
@@ -728,7 +734,7 @@ namespace HearthDb.Enums
         REBORN = 1085,
         SQUELCH_NON_GAME_TRIGGERS_AND_MODIFIERS = 1087,
         QUEST_REWARD_DATABASE_ID = 1089,
-        DORMANT = 1090,
+        DORMANT_VISUAL = 1090,
         CUSTOMTEXT1 = 1093,
         CUSTOMTEXT2 = 1094,
         CUSTOMTEXT3 = 1095,
@@ -787,6 +793,7 @@ namespace HearthDb.Enums
         SMART_DISCOVER_DEBUG_PASSIVE_EVAL_RESULT_1 = 1328,
         SMART_DISCOVER_DEBUG_PASSIVE_EVAL_RESULT_2 = 1329,
         SMART_DISCOVER_DEBUG_PASSIVE_EVAL_RESULT_3 = 1330,
+        OUTCAST = 1333,
         ALTERNATE_CHAPTER_VO = 1334,
         AI_MAKES_DECISIONS_FOR_PLAYER = 1335,
         HAS_BEEN_REBORN = 1336,
@@ -830,12 +837,17 @@ namespace HearthDb.Enums
         ALWAYS_USE_FAST_ACTOR_TRIGGERS = 1473,
         BACON_HERO_CAN_BE_DRAFTED = 1491,
         DISABLE_GOLDEN_ANIMATIONS = 1514,
+        WATERMARK_OVERRIDE_CARD_SET = 1517,
+        DORMANT = 1518,
+        DORMANT_AWAKEN_CONDITION_ENCHANT = 1519,
         SUPPRESS_SUMMON_VO_FOR_PLAYER = 1521,
         ALLOW_GAME_SPEEDUP = 1526,
         POISONOUS_INSTANT = 1528,
         FORCE_NO_CUSTOM_SPELLS = 1529,
         START_OF_COMBAT = 1531,
         SPAWN_TIME_COUNT = 1556,
+        SKIP_MULLIGAN = 1561,
+        COPIED_FROM_ENTITY_ID = 1565,
     }
 
     public enum GameType
@@ -919,6 +931,7 @@ namespace HearthDb.Enums
         ARTIFICIAL_PAUSE = 19,
         ARTIFICIAL_PAUSE_STUBBED_FOR_14_2 = 19,
         SLUSH_TIME = 20,
+        ARTIFICIAL_HISTORY_INTERRUPT = 21,
     }
 
     public enum Mulligan
@@ -1039,9 +1052,9 @@ namespace HearthDb.Enums
         REQ_MINION_DIED_THIS_GAME = 90,
         REQ_BOARD_NOT_COMPLETELY_FULL = 92,
         REQ_TARGET_IF_AVAILABLE_AND_HAS_OVERLOADED_MANA = 93,
-        PLACEHOLDER_A = 94,
-        PLACEHOLDER_B = 95,
-        PLACEHOLDER_C = 96,
+        REQ_TARGET_IF_AVAILABLE_AND_HERO_ATTACKED_THIS_TURN = 94,
+        REQ_TARGET_IF_AVAILABLE_AND_DRAWN_THIS_TURN = 95,
+        REQ_TARGET_IF_AVAILABLE_AND_NOT_DRAWN_THIS_TURN = 96,
         REQ_TARGET_NON_TRIPLED_MINION = 97,
         REQ_BOUGHT_MINION_THIS_TURN = 98,
         REQ_SOLD_MINION_THIS_TURN = 99,
@@ -1151,6 +1164,7 @@ namespace HearthDb.Enums
         ADVENTURE_DECK = 12,
         ADVENTURE_HERO_POWER = 13,
         ARCANE_ORBS = 14,
+        DECK = 15,
     }
 
     public enum State
@@ -1232,6 +1246,7 @@ namespace HearthDb.Enums
         MAMMOTH = 2,
         RAVEN = 3,
         DRAGON = 4,
+        PHOENIX = 5,
     }
 
     public enum Zone

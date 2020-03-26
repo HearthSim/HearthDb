@@ -59,6 +59,18 @@ namespace HearthDb
 					CardIds.Collectible.Priest.GlitterMoth,
 					CardIds.Collectible.Shaman.MurksparkEel,
 
+					//2020
+					CardIds.Collectible.Priest.AuchenaiSoulpriest,
+					CardIds.Collectible.Priest.HolyFire,
+					CardIds.Collectible.Priest.Shadowform,
+					CardIds.Collectible.Priest.ProphetVelen,
+					CardIds.Collectible.Priest.DivineSpirit,
+					CardIds.Collectible.Priest.NorthshireCleric,
+					CardIds.Collectible.Neutral.AcolyteOfPain,
+					CardIds.Collectible.Neutral.Spellbreaker,
+					CardIds.Collectible.Neutral.MindControlTech,
+					CardIds.Collectible.Neutral.MountainGiant,
+					CardIds.Collectible.Neutral.LeeroyJenkins,
 				}.Contains(Id))
 					return CardSet.HOF;
 				return (CardSet)Entity.GetTag(CARD_SET);

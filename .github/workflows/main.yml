@@ -1,0 +1,61 @@
+name: Build & Deploy
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1.0.0
+
+      - name: Setup VSTest
+        uses: darenm/Setup-VSTest@v1
+
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1.0.2
+
+      - name: Restore packages
+        run: nuget restore ./HearthDb.sln
+
+      - name: Build
+        run: msbuild ./HearthDb.sln /p:Configuration=Release
+
+      - name: Run Tests
+        run: vstest.console "./HearthDb.Tests/bin/Release/HearthDb.Tests.dll"
+
+      - name: Upload artifact
+        if: github.event_name == 'push'
+        uses: actions/upload-artifact@v1.0.0
+        with:
+          name: HearthDb.dll
+          path: "./HearthDb/bin/Release/HearthDb.dll"
+
+  deploy:
+    needs: build
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v1
+        with:
+          name: HearthDb.dll
+          path: bin
+
+      - name: Deploy
+        uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: "us-east-1"
+          SOURCE_DIR: "bin"
+          DEST_DIR: "hdt"

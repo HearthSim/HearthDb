@@ -1,6 +1,6 @@
 # HearthDb
 
-[![Build status](https://ci.appveyor.com/api/projects/status/o4crg4ncu2c899jl?svg=true)](https://ci.appveyor.com/project/azeier/hearthdb)
+![Build & Deploy](https://github.com/HearthSim/HearthDb/workflows/Build%20&%20Deploy/badge.svg)
 
 
 HearthDb is a .NET Hearthstone database.

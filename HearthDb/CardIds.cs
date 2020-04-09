@@ -669,7 +669,6 @@ namespace HearthDb
                 public const string ZolaTheGorgon = "LOOT_516";
                 public const string MasterOakheart = "LOOT_521";
                 public const string TheDarkness = "LOOT_526";
-                public const string TheDarkness_DarknessAwaitsEnchantment = "LOOT_526e";
                 public const string VoidRipper = "LOOT_529";
                 public const string SpitefulSummoner = "LOOT_539";
                 public const string Dragonhatcher = "LOOT_540";
@@ -4628,6 +4627,7 @@ namespace HearthDb
                 public const string MurmuringElemental_MurmuringEnchantment = "LOOT_517e2";
                 public const string SeepingOozeling_AlbinoChameleonEnchantment = "LOOT_520e";
                 public const string TheDarkness_TheDarkness = "LOOT_526d";
+                public const string TheDarkness_DarknessAwaitsEnchantment = "LOOT_526e";
                 public const string TheDarkness_DarknessCandleDetectEnchantment = "LOOT_526et";
                 public const string TheDarkness_DarknessCandleToken = "LOOT_526t";
                 public const string VoidRipper_VoidShiftEnchantment = "LOOT_529e";

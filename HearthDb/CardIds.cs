@@ -7809,7 +7809,9 @@ namespace HearthDb
             public class Priest
             {
                 public const string GenerousSpirit = "BCON_015";
+                public const string HolySmite_HolySmite = "CS1_130_Puzzle";
                 public const string LesserHeal = "CS1h_001";
+                public const string PowerWordShield_PowerWordShield = "CS2_004_Puzzle";
                 public const string PowerWordShield_PowerWordShieldEnchantment = "CS2_004e";
                 public const string DivineSpirit_DivineSpiritEnchantment = "CS2_236e";
                 public const string ShatteredSunCleric_ClericsBlessingEnchantment = "EX1_019e";

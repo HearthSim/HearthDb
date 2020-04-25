@@ -4,7 +4,6 @@ using System;
 using System.IO;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Formatting;
-using Microsoft.CodeAnalysis.MSBuild;
 using static Microsoft.CodeAnalysis.CSharp.SyntaxFactory;
 using static Microsoft.CodeAnalysis.CSharp.SyntaxKind;
 
@@ -14,7 +13,7 @@ namespace HearthDb.CardIdGenerator
 {
 	internal class Program
 	{
-		private const string File = "../../../HearthDb/CardIds.cs";
+		private const string File = "../../../../HearthDb/CardIds.cs";
 
 		static void Main()
 		{
@@ -34,7 +33,7 @@ namespace HearthDb.CardIdGenerator
 			@namespace = @namespace.AddMembers(cCardIds);
 		
 			Console.WriteLine("Formatting namespace. This may take a while...");
-			var root = Formatter.Format(@namespace, MSBuildWorkspace.Create());
+			var root = Formatter.Format(@namespace, new AdhocWorkspace());
 
 			var rootString = root.ToString();
 			string prevString;

@@ -1,10 +1,6 @@
-﻿#region
-
 using HearthDb.Enums;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
-
-#endregion
 
 namespace HearthDb.Tests
 {

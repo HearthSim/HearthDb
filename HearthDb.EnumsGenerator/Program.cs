@@ -4,14 +4,13 @@ using System.Net;
 using System.IO;
 using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.Formatting;
-using Microsoft.CodeAnalysis.MSBuild;
 using static Microsoft.CodeAnalysis.CSharp.SyntaxFactory;
 
 namespace HearthDb.EnumsGenerator
 {
 	internal class Program
 	{
-		private const string File = "../../../HearthDb/Enums/Enums.cs";
+		private const string File = "../../../../HearthDb/Enums/Enums.cs";
 		static void Main()
 		{
 			ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
@@ -28,7 +27,7 @@ namespace HearthDb.EnumsGenerator
 			var @namespace = NamespaceDeclaration(IdentifierName("HearthDb.Enums")).AddMembers(new [] {first}.Concat(members.Skip(1)).ToArray());
 
 			Console.WriteLine($"Formatting namespace...");
-			var root = Formatter.Format(@namespace, MSBuildWorkspace.Create());
+			var root = Formatter.Format(@namespace, new AdhocWorkspace());
 
 			var rootString = root.ToString();
 			string prevString;

@@ -71,5 +71,12 @@ namespace HearthDb.Tests
 			Assert.IsTrue(galakrond.Text.Contains("Draw 1 card."));
 			Assert.IsTrue(galakrond.Text.Contains("It costs (0)."));
 		}
+
+		[TestMethod]
+		public void DeflectOBot_HasDivineShield()
+		{
+			Assert.AreEqual(1, Cards.All[CardIds.NonCollectible.Neutral.DeflectOBot].Entity.GetTag(GameTag.DIVINE_SHIELD));
+			Assert.AreEqual(1, Cards.All[CardIds.NonCollectible.Neutral.DeflectOBotTavernBrawl].Entity.GetTag(GameTag.DIVINE_SHIELD));
+		}
 	}
 }

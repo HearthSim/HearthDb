@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Xml.Serialization;
+using HearthDb.CardDefs;
 using HearthDb.Enums;
 
 #endregion
@@ -29,6 +30,10 @@ namespace HearthDb
 				var cardDefs = (CardDefs.CardDefs)xml.Deserialize(tr);
 				foreach(var entity in cardDefs.Entites)
 				{
+					// For some reason Deflect-o-bot is missing divine shield
+					if (IsDeflectOBot(entity) && !entity.Tags.Any(x => x.EnumId == (int)GameTag.DIVINE_SHIELD))
+						entity.Tags.Add(new Tag { EnumId = (int)GameTag.DIVINE_SHIELD, Value = 1 });
+
 					var card = new Card(entity);
 					All.Add(entity.CardId, card);
 					if(card.Collectible && (card.Type != CardType.HERO || card.Set != CardSet.CORE && card.Set != CardSet.HERO_SKINS))
@@ -42,5 +47,7 @@ namespace HearthDb
 
 		public static Card GetFromDbfId(int dbfId, bool collectibe = true)
 			=> (collectibe ? Collectible : All).Values.FirstOrDefault(x => x.DbfId == dbfId);
+
+		private static bool IsDeflectOBot(Entity entity) => entity.CardId == CardIds.NonCollectible.Neutral.DeflectOBot || entity.CardId == CardIds.NonCollectible.Neutral.DeflectOBotTavernBrawl;
 	}
 }

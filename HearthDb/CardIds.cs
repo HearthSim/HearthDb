@@ -6134,6 +6134,7 @@ namespace HearthDb
                 public const string KaynSunfury_DeathsDanceEnchantment2 = "BT_187e2";
                 public const string KelidantheBreaker_ComeCloserEnchantment = "BT_196e";
                 public const string ScrapShot_ScrapmetalClawsEnchantment = "BT_205e";
+                public const string ScavengersIngenuity_PackTacticsEnchantment = "BT_213e";
                 public const string KaelthasSunstrider_SunstriderEnchantment = "BT_255e";
                 public const string TheDarkPortal_DarkPortalEnchantment = "BT_302e";
                 public const string KanrethadEbonlocke_BlackHarvestEnchantment = "BT_309e";
@@ -6535,7 +6536,6 @@ namespace HearthDb
                 public const string GraveRune_GraveRuneEnchantment = "DRG_302e";
                 public const string GorutheMightree_TreePowerEnchantment = "DRG_319e5";
                 public const string GalakrondsClaw = "DRGA_24w";
-                public const string ScavengersIngenuity_PackTacticsEnchantment = "BT_213e";
             }
 
             public class Deathknight

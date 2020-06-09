@@ -48,6 +48,7 @@ namespace HearthDb.Enums
         BGT_FSG_BRAWL_2P_COOP = 43,
         BGT_RANKED_STANDARD_NEW_PLAYER = 45,
         BGT_BATTLEGROUNDS = 50,
+        BGT_BATTLEGROUNDS_FRIENDLY = 51,
     }
 
     public enum BnetRegion
@@ -853,6 +854,10 @@ namespace HearthDb.Enums
         FORCE_NO_CUSTOM_LIFETIME_SPELLS = 1613,
         FORCE_NO_CUSTOM_SUMMON_SPELLS = 1614,
         FORCE_NO_CUSTOM_KEYWORD_SPELLS = 1615,
+        REPLACEMENT_ENTITY = 1632,
+        COIN_MANA_GEM_FOR_CHOICE_CARDS = 1643,
+        METAMORPHOSIS = 1644,
+        HERO_POWER_ENTITY = 1646,
     }
 
     public enum GameType
@@ -874,6 +879,7 @@ namespace HearthDb.Enums
         GT_FSG_BRAWL_1P_VS_AI = 21,
         GT_FSG_BRAWL_2P_COOP = 22,
         GT_BATTLEGROUNDS = 23,
+        GT_BATTLEGROUNDS_FRIENDLY = 24,
     }
 
     public enum GoldRewardState
@@ -1101,6 +1107,8 @@ namespace HearthDb.Enums
         RESET_GAME = 10,
         SUB_SPELL_START = 11,
         SUB_SPELL_END = 12,
+        VO_SPELL = 13,
+        CACHED_TAG_FOR_DORMANT_CHANGE = 14,
     }
 
     public enum PuzzleType

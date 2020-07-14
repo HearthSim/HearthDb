@@ -69,7 +69,7 @@ namespace HearthDb.Tests
 
 			var galakrond = Cards.GetFromDbfId(57419);
 			Assert.IsTrue(galakrond.Text.Contains("Draw 1 card."));
-			Assert.IsTrue(galakrond.Text.Contains("It costs (0)."));
+			Assert.IsTrue(galakrond.Text.Contains("It costs (1)."));
 		}
 
 		[TestMethod]

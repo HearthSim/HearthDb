@@ -865,6 +865,7 @@ namespace HearthDb.Enums
         COIN_MANA_GEM_FOR_CHOICE_CARDS = 1643,
         METAMORPHOSIS = 1644,
         HERO_POWER_ENTITY = 1646,
+        DISCOVER_STUDIES_VISUAL = 1650,
     }
 
     public enum GameType
@@ -950,6 +951,7 @@ namespace HearthDb.Enums
         ARTIFICIAL_PAUSE_STUBBED_FOR_14_2 = 19,
         SLUSH_TIME = 20,
         ARTIFICIAL_HISTORY_INTERRUPT = 21,
+        POISONOUS = 22,
     }
 
     public enum Mulligan
@@ -967,6 +969,16 @@ namespace HearthDb.Enums
         GRIMY_GOONS = 1,
         JADE_LOTUS = 2,
         KABAL = 3,
+        PALADIN_PRIEST = 4,
+        PRIEST_WARLOCK = 5,
+        WARLOCK_DEMONHUNTER = 6,
+        HUNTER_DEMONHUNTER = 7,
+        DRUID_HUNTER = 8,
+        DRUID_SHAMAN = 9,
+        MAGE_SHAMAN = 10,
+        MAGE_ROGUE = 11,
+        ROGUE_WARRIOR = 12,
+        PALADIN_WARRIOR = 13,
     }
 
     public enum OptionType
@@ -1076,9 +1088,9 @@ namespace HearthDb.Enums
         REQ_TARGET_NON_TRIPLED_MINION = 97,
         REQ_BOUGHT_MINION_THIS_TURN = 98,
         REQ_SOLD_MINION_THIS_TURN = 99,
-        REQ_PLACEHOLDER_01 = 100,
-        REQ_PLACEHOLDER_02 = 101,
-        REQ_PLACEHOLDER_03 = 102,
+        REQ_TARGET_IF_AVAILABLE_AND_PLAYER_HEALTH_CHANGED_THIS_TURN = 100,
+        REQ_TARGET_IF_AVAILABLE_AND_SOUL_FRAGMENT_IN_DECK = 101,
+        REQ_DAMAGED_TARGET_UNLESS_COMBO = 102,
         REQ_NOT_MINION_DORMANT = 103,
         REQ_TARGET_NOT_DORMANT = 104,
         REQ_DRAG_TO_PLAY = 105,
@@ -1116,6 +1128,7 @@ namespace HearthDb.Enums
         SUB_SPELL_END = 12,
         VO_SPELL = 13,
         CACHED_TAG_FOR_DORMANT_CHANGE = 14,
+        SHUFFLE_DECK = 15,
     }
 
     public enum PuzzleType

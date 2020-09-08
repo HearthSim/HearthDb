@@ -49,6 +49,9 @@ namespace HearthDb.Enums
         BGT_RANKED_STANDARD_NEW_PLAYER = 45,
         BGT_BATTLEGROUNDS = 50,
         BGT_BATTLEGROUNDS_FRIENDLY = 51,
+        BGT_RESERVED_18_2 = 55,
+        BGT_RESERVED_18_22 = 56,
+        BGT_RESERVED_18_23 = 57,
     }
 
     public enum BnetRegion
@@ -866,6 +869,9 @@ namespace HearthDb.Enums
         METAMORPHOSIS = 1644,
         HERO_POWER_ENTITY = 1646,
         DISCOVER_STUDIES_VISUAL = 1650,
+        CHOICE_NAME_DISPLAY_TYPE = 1687,
+        CHOICE_ACTOR_TYPE = 1692,
+        PLAYER_ID_LOOKUP = 1740,
     }
 
     public enum GameType
@@ -888,6 +894,9 @@ namespace HearthDb.Enums
         GT_FSG_BRAWL_2P_COOP = 22,
         GT_BATTLEGROUNDS = 23,
         GT_BATTLEGROUNDS_FRIENDLY = 24,
+        GT_RESERVED_18_2 = 25,
+        GT_RESERVED_18_22 = 26,
+        GT_RESERVED_18_23 = 27,
     }
 
     public enum GoldRewardState
@@ -1093,7 +1102,9 @@ namespace HearthDb.Enums
         REQ_DAMAGED_TARGET_UNLESS_COMBO = 102,
         REQ_NOT_MINION_DORMANT = 103,
         REQ_TARGET_NOT_DORMANT = 104,
-        REQ_DRAG_TO_PLAY = 105,
+        REQ_TARGET_IF_AVAILABLE_AND_BOUGHT_RACE_THIS_TURN = 105,
+        REQ_TARGET_IF_AVAILABLE_AND_SOLD_RACE_THIS_TURN = 106,
+        REQ_DRAG_TO_PLAY = 999,
     }
 
     public enum PlayState

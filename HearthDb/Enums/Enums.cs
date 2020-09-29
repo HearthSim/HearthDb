@@ -872,6 +872,7 @@ namespace HearthDb.Enums
         CHOICE_NAME_DISPLAY_TYPE = 1687,
         CHOICE_ACTOR_TYPE = 1692,
         PLAYER_ID_LOOKUP = 1740,
+        BACON_AVALANCHE = 1744,
     }
 
     public enum GameType

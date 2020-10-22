@@ -49,7 +49,8 @@ namespace HearthDb.Enums
         BGT_RANKED_STANDARD_NEW_PLAYER = 45,
         BGT_BATTLEGROUNDS = 50,
         BGT_BATTLEGROUNDS_FRIENDLY = 51,
-        BGT_RESERVED_18_2 = 55,
+        BGT_PVPDR_PAID = 54,
+        BGT_PVPDR = 55,
         BGT_RESERVED_18_22 = 56,
         BGT_RESERVED_18_23 = 57,
     }
@@ -99,6 +100,7 @@ namespace HearthDb.Enums
         STANDARD_HUNTER = 470,
         YEAR_OF_DRAGON = 498,
         STANDARD_MAGE = 545,
+        DARKMOON_FAIRE = 616,
     }
 
     public enum BrawlType
@@ -179,6 +181,7 @@ namespace HearthDb.Enums
         SCHOLOMANCE = 1443,
         BATTLEGROUNDS = 1453,
         DEMON_HUNTER_INITIATE = 1463,
+        DARKMOON_FAIRE = 1466,
     }
 
     public enum CardTextBuilderType
@@ -261,6 +264,8 @@ namespace HearthDb.Enums
         PRECON_DECK = 5,
         TAVERN_BRAWL_DECK = 6,
         FSG_BRAWL_DECK = 7,
+        PVPDR_DECK = 8,
+        PVPDR_DISPLAY_DECK = 9,
         HIDDEN_DECK = 1000,
     }
 
@@ -895,9 +900,10 @@ namespace HearthDb.Enums
         GT_FSG_BRAWL_2P_COOP = 22,
         GT_BATTLEGROUNDS = 23,
         GT_BATTLEGROUNDS_FRIENDLY = 24,
-        GT_RESERVED_18_2 = 25,
         GT_RESERVED_18_22 = 26,
         GT_RESERVED_18_23 = 27,
+        GT_PVPDR_PAID = 28,
+        GT_PVPDR = 29,
     }
 
     public enum GoldRewardState
@@ -1105,6 +1111,7 @@ namespace HearthDb.Enums
         REQ_TARGET_NOT_DORMANT = 104,
         REQ_TARGET_IF_AVAILABLE_AND_BOUGHT_RACE_THIS_TURN = 105,
         REQ_TARGET_IF_AVAILABLE_AND_SOLD_RACE_THIS_TURN = 106,
+        REQ_TWO_OF_A_KIND = 110,
         REQ_DRAG_TO_PLAY = 999,
     }
 

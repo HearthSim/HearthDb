@@ -6,8 +6,8 @@
     <Company>HearthSim</Company>
     <Product>HearthDb</Product>
     <Copyright>Copyright © HearthSim 2020</Copyright>
-    <AssemblyVersion>18.6.0.63160</AssemblyVersion>
-    <FileVersion>18.6.0.63160</FileVersion>
+    <AssemblyVersion>18.6.1.65000</AssemblyVersion>
+    <FileVersion>18.6.1.65000</FileVersion>
   </PropertyGroup>
 
     <!-- Remove everything from the hsdata repo except for CardDefs.xml. -->

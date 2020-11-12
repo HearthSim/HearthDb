@@ -37,13 +37,13 @@
     <!-- On Release builds, verify that the version from the latest commit matches the AssemblyVersion of this project. -->
     <Target Name="VerifyVersion" Condition="$(Configuration)=='Release'" BeforeTargets="PreBuildEvent" DependsOnTargets="CloneHSData;UpdateHSData">
         <Message Importance="normal" Text="Verifying assembly version matches version from hsdata." />
-        <Exec WorkingDirectory="$(MSBuildProjectDirectory)/hsdata" Condition="$(OS)=='Windows_NT'" Command="powershell -ExecutionPolicy Unrestricted &quot;git log -1 | where {$_ -match 'Update to patch ([\d\.]+)$' } | foreach { $matches[1] }&quot;" ConsoleToMSBuild="true">
+        <Exec WorkingDirectory="$(MSBuildProjectDirectory)/hsdata" Condition="$(OS)=='Windows_NT'" Command="powershell -ExecutionPolicy Unrestricted &quot;git log -1 | where {$_ -match 'Update to patch (\d+\.\d+\.\d+)\.\d+$' } | foreach { $matches[1] }&quot;" ConsoleToMSBuild="true">
             <Output PropertyName="HsdataVersion" TaskParameter="ConsoleOutput" />
         </Exec>
-        <Exec WorkingDirectory="$(MSBuildProjectDirectory)/hsdata" Condition="$(OS)=='Unix'" Command="git log -1 | grep -Po '(?&lt;=Update to patch )[\d\.]+'" ConsoleToMSBuild="true">
+        <Exec WorkingDirectory="$(MSBuildProjectDirectory)/hsdata" Condition="$(OS)=='Unix'" Command="git log -1 | grep -Po '(?&lt;=Update to patch )\d+\.\d+\.\d+'" ConsoleToMSBuild="true">
             <Output PropertyName="HsdataVersion" TaskParameter="ConsoleOutput" />
         </Exec>
-        <Error Condition="$(HsdataVersion) != $(AssemblyVersion)" Text="Verification Error 1: Assembly version ($(AssemblyVersion)) does not match hsdata ($(HsdataVersion))" />
+        <Error Condition="'$(HsdataVersion).0' != $(AssemblyVersion)" Text="Verification Error 1: Assembly version ($(AssemblyVersion)) does not match hsdata ($(HsdataVersion))" />
     </Target>
 
 </Project>

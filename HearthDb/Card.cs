@@ -1,7 +1,9 @@
 #region
 
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using HearthDb.CardDefs;
 using HearthDb.Enums;
 using static HearthDb.Enums.GameTag;
@@ -77,6 +79,17 @@ namespace HearthDb
 			}
 		}
 
+		private static Dictionary<string, string> SpellstoneStrings = new Dictionary<string, string>() { {"LOOT_043", "GAMEPLAY_AMETHYST_SPELLSTONE_%d" },
+			{ "LOOT_051", "GAMEPLAY_JASPER_SPELLSTONE_%d" },
+			{ "LOOT_064", "GAMEPLAY_SAPPHIRE_SPELLSTONE_%d" },
+			{ "LOOT_091", "GAMEPLAY_PEARL_SPELLSTONE_%d" },
+			{ "LOOT_103", "GAMEPLAY_RUBY_SPELLSTONE_%d" },
+			{ "LOOT_503", "GAMEPLAY_ONYX_SPELLSTONE_%d"},
+			{ "LOOT_507", "GAMEPLAY_DIAMOND_SPELLSTONE_%d"},
+			{ "LOOT_526d", "GAMEPLAY_LOOT_526d_DARKNESS_%d"} };
+
+		private Regex atCounterRegex = new Regex(@"\|4\(([^,)]+),\s*([^,)]+)\)");
+
 		public Faction Faction => (Faction)Entity.GetTag(FACTION);
 
 		public int Cost => Entity.GetTag(COST);
@@ -116,18 +129,38 @@ namespace HearthDb
 			var text = Entity.GetLocString(CARDTEXT_INHAND, lang)?.Replace("_", "\u00A0").Trim();
 			if(text == null)
 				return null;
-			var index = text.IndexOf('@');
-			if (index == 0)
+			var count = text.Contains("@");
+
+			if (!count && !text.Contains("|4"))
 				return text;
-			if (Entity.GetTag(PLAYER_TAG_THRESHOLD_TAG_ID) > 0)
-				return text.Substring(0, index);
-			var scriptData1 = Entity.GetTag(TAG_SCRIPT_DATA_NUM_1);
-			if (scriptData1 > 0)
-				return text.Replace("@", scriptData1.ToString());
-			var scriptData2 = Entity.GetTag(TAG_SCRIPT_DATA_NUM_2);
-			if (scriptData2 > 0)
-				return text.Replace("@", scriptData2.ToString());
-			return text.Substring(index + 1);
+
+			int? num = null;
+
+			if (SpellstoneStrings.ContainsKey(Entity.CardId))
+				return text.Replace("@", "");
+
+			if (Entity.GetTag(TAG_SCRIPT_DATA_NUM_1) != 0)
+				num = Entity.GetTag(TAG_SCRIPT_DATA_NUM_1);
+			else if (Entity.GetTag(SCORE_VALUE_1) != 0)
+				num = Entity.GetTag(SCORE_VALUE_1);
+			if (num != null)
+				text = text.Replace("@", num.ToString());
+
+			var atCounterMatch = atCounterRegex.Matches(text);
+			if (atCounterMatch.Count > 0)
+            {
+				var replacement = num == 1 ? atCounterMatch[0] : atCounterMatch[1];
+				text = text.Substring(0, text.IndexOf(atCounterMatch[0].ToString())) + replacement.ToString() + text.Substring(text.IndexOf(atCounterMatch[1].ToString()), text.Length - 1);
+			}
+
+			var parts = text.Split('@');
+			if (parts.Count() >= 2) {
+				text = parts[0];
+				text = text.Trim();
+			}
+
+			return text;
+
 		}
 
 		public string GetLocFlavorText(Locale lang) => Entity.GetLocString(FLAVORTEXT, lang);

@@ -70,6 +70,31 @@ namespace HearthDb.Tests
 			var galakrond = Cards.GetFromDbfId(57419);
 			Assert.IsTrue(galakrond.Text.Contains("Draw 1 card."));
 			Assert.IsTrue(galakrond.Text.Contains("It costs (1)."));
+
+            var eyeOfCthun = Cards.All[CardIds.NonCollectible.Neutral.CThuntheShattered_EyeOfCthunToken];
+			Assert.IsTrue(eyeOfCthun.Text.Contains("(0/4)"));
+			Assert.IsTrue(eyeOfCthun.Text.Contains("7 damage randomly"));
+
+			var cramSession = Cards.All[CardIds.Collectible.Mage.CramSession];
+			Assert.IsTrue(cramSession.Text.Contains("Draw $1 card"));
+			Assert.IsTrue(cramSession.Text.Contains("improved by"));
+
+			var flameLance = Cards.All[CardIds.Collectible.Mage.FlameLance];
+			Assert.IsTrue(flameLance.GetLocText(Locale.frFR).Contains("Inflige $8 point"));
+
+			var elvenArcher = Cards.All[CardIds.Collectible.Neutral.ElvenArcher];
+			Assert.IsTrue(elvenArcher.Text.Contains("Deal 1 damage"));
+
+			var demonicPortal = Cards.All[CardIds.NonCollectible.Neutral.DemonicPortal];
+			Assert.IsTrue(demonicPortal.Text.Contains("30 left!"));
+
+			var summoningRitual = Cards.All[CardIds.NonCollectible.Demonhunter.SummoningRitual2];
+			Assert.IsTrue(summoningRitual.Text.Contains("Summon 3 demons"));
+			Assert.IsTrue(summoningRitual.Text.Contains("for 2 turns"));
+
+			var hatredReactor = Cards.All[CardIds.NonCollectible.Warlock.HatredReactorToken];
+			Assert.IsTrue(hatredReactor.Text.Contains("give it +1/+1"));
+
 		}
 
 		[TestMethod]

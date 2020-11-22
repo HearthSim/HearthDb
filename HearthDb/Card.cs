@@ -79,19 +79,6 @@ namespace HearthDb
 			}
 		}
 
-		private static Dictionary<string, string> SpellstoneStrings = new Dictionary<string, string>() { {"LOOT_043", "GAMEPLAY_AMETHYST_SPELLSTONE_%d" },
-			{ "LOOT_051", "GAMEPLAY_JASPER_SPELLSTONE_%d" },
-			{ "LOOT_064", "GAMEPLAY_SAPPHIRE_SPELLSTONE_%d" },
-			{ "LOOT_091", "GAMEPLAY_PEARL_SPELLSTONE_%d" },
-			{ "LOOT_103", "GAMEPLAY_RUBY_SPELLSTONE_%d" },
-			{ "LOOT_503", "GAMEPLAY_ONYX_SPELLSTONE_%d"},
-			{ "LOOT_507", "GAMEPLAY_DIAMOND_SPELLSTONE_%d"},
-			{ "LOOT_526d", "GAMEPLAY_LOOT_526d_DARKNESS_%d"} };
-
-		private Regex atCounterRegex = new Regex(@"\|4\(([^,)]+),\s*([^,)]+)\)");
-
-		private static Regex ProgressRegex = new Regex(@"\(@\/\d+\)"); // => Helper.cs
-
 		public Faction Faction => (Faction)Entity.GetTag(FACTION);
 
 		public int Cost => Entity.GetTag(COST);
@@ -129,26 +116,22 @@ namespace HearthDb
 		public string GetLocText(Locale lang)
 		{
 			var text = Entity.GetLocString(CARDTEXT_INHAND, lang)?.Replace("_", "\u00A0").Trim();
-			if(text == null)
+			if(string.IsNullOrEmpty(text))
 				return null;
-			var count = text.Contains("@");
 
-			if (!count && !text.Contains("|4"))
+			if (!text.Contains("@") && !text.Contains("|4"))
 				return text;
 
-			int num = 0;
-
-			if (SpellstoneStrings.ContainsKey(Entity.CardId))
+			if (Helper.SpellstoneStrings.Contains(Entity.CardId))
 				return text.Replace("@", "");
 
-			if (Entity.GetTag(TAG_SCRIPT_DATA_NUM_1) != 0)
-				num = Entity.GetTag(TAG_SCRIPT_DATA_NUM_1);
-			else if (Entity.GetTag(SCORE_VALUE_1) != 0)
+			var num = Entity.GetTag(TAG_SCRIPT_DATA_NUM_1);
+			if (num == 0)
 				num = Entity.GetTag(SCORE_VALUE_1);
-			if (num != 0 || ProgressRegex.IsMatch(text))
+			if (num != 0 || Helper.ProgressRegex.IsMatch(text))
 				text = text.Replace("@", num.ToString());
 
-			var atCounterMatch = atCounterRegex.Match(text);
+			var atCounterMatch = Helper.AtCounterRegex.Match(text);
 			if (atCounterMatch.Success)
 			{
 				var replacement = num == 1 ? atCounterMatch.Groups[0].Value : atCounterMatch.Groups[1].Value;
@@ -156,10 +139,8 @@ namespace HearthDb
 			}
 
 			var parts = text.Split('@');
-			if (parts.Count() >= 2) {
-				text = parts[0];
-				text = text.Trim();
-			}
+			if (parts.Count() >= 2)
+				text = parts[0].Trim();
 
 			return text;
 

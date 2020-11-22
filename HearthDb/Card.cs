@@ -90,6 +90,8 @@ namespace HearthDb
 
 		private Regex atCounterRegex = new Regex(@"\|4\(([^,)]+),\s*([^,)]+)\)");
 
+		private static Regex ProgressRegex = new Regex(@"\(@\/\d+\)"); // => Helper.cs
+
 		public Faction Faction => (Faction)Entity.GetTag(FACTION);
 
 		public int Cost => Entity.GetTag(COST);
@@ -134,7 +136,7 @@ namespace HearthDb
 			if (!count && !text.Contains("|4"))
 				return text;
 
-			int? num = null;
+			int num = 0;
 
 			if (SpellstoneStrings.ContainsKey(Entity.CardId))
 				return text.Replace("@", "");
@@ -143,14 +145,14 @@ namespace HearthDb
 				num = Entity.GetTag(TAG_SCRIPT_DATA_NUM_1);
 			else if (Entity.GetTag(SCORE_VALUE_1) != 0)
 				num = Entity.GetTag(SCORE_VALUE_1);
-			if (num != null)
+			if (num != 0 || ProgressRegex.IsMatch(text))
 				text = text.Replace("@", num.ToString());
 
-			var atCounterMatch = atCounterRegex.Matches(text);
-			if (atCounterMatch.Count > 0)
-            {
-				var replacement = num == 1 ? atCounterMatch[0] : atCounterMatch[1];
-				text = text.Substring(0, text.IndexOf(atCounterMatch[0].ToString())) + replacement.ToString() + text.Substring(text.IndexOf(atCounterMatch[1].ToString()), text.Length - 1);
+			var atCounterMatch = atCounterRegex.Match(text);
+			if (atCounterMatch.Success)
+			{
+				var replacement = num == 1 ? atCounterMatch.Groups[0].Value : atCounterMatch.Groups[1].Value;
+				text = text.Substring(0, atCounterMatch.Index) + replacement + text.Substring(atCounterMatch.Index + atCounterMatch.Length);
 			}
 
 			var parts = text.Split('@');

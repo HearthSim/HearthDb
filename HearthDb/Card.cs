@@ -134,7 +134,7 @@ namespace HearthDb
 			var atCounterMatch = Helper.AtCounterRegex.Match(text);
 			if (atCounterMatch.Success)
 			{
-				var replacement = num == 1 ? atCounterMatch.Groups[0].Value : atCounterMatch.Groups[1].Value;
+				var replacement = num == 1 ? atCounterMatch.Groups[1].Value : atCounterMatch.Groups[2].Value;
 				text = text.Substring(0, atCounterMatch.Index) + replacement + text.Substring(atCounterMatch.Index + atCounterMatch.Length);
 			}
 

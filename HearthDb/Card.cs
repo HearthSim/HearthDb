@@ -1,7 +1,9 @@
 #region
 
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using HearthDb.CardDefs;
 using HearthDb.Enums;
 using static HearthDb.Enums.GameTag;
@@ -114,20 +116,34 @@ namespace HearthDb
 		public string GetLocText(Locale lang)
 		{
 			var text = Entity.GetLocString(CARDTEXT_INHAND, lang)?.Replace("_", "\u00A0").Trim();
-			if(text == null)
+			if(string.IsNullOrEmpty(text))
 				return null;
-			var index = text.IndexOf('@');
-			if (index == 0)
+
+			if (!text.Contains("@") && !text.Contains("|4"))
 				return text;
-			if (Entity.GetTag(PLAYER_TAG_THRESHOLD_TAG_ID) > 0)
-				return text.Substring(0, index);
-			var scriptData1 = Entity.GetTag(TAG_SCRIPT_DATA_NUM_1);
-			if (scriptData1 > 0)
-				return text.Replace("@", scriptData1.ToString());
-			var scriptData2 = Entity.GetTag(TAG_SCRIPT_DATA_NUM_2);
-			if (scriptData2 > 0)
-				return text.Replace("@", scriptData2.ToString());
-			return text.Substring(index + 1);
+
+			if (Helper.SpellstoneStrings.Contains(Entity.CardId))
+				return text.Replace("@", "");
+
+			var num = Entity.GetTag(TAG_SCRIPT_DATA_NUM_1);
+			if (num == 0)
+				num = Entity.GetTag(SCORE_VALUE_1);
+			if (num != 0 || Helper.ProgressRegex.IsMatch(text))
+				text = text.Replace("@", num.ToString());
+
+			var atCounterMatch = Helper.AtCounterRegex.Match(text);
+			if (atCounterMatch.Success)
+			{
+				var replacement = num == 1 ? atCounterMatch.Groups[0].Value : atCounterMatch.Groups[1].Value;
+				text = text.Substring(0, atCounterMatch.Index) + replacement + text.Substring(atCounterMatch.Index + atCounterMatch.Length);
+			}
+
+			var parts = text.Split('@');
+			if (parts.Count() >= 2)
+				text = parts[0].Trim();
+
+			return text;
+
 		}
 
 		public string GetLocFlavorText(Locale lang) => Entity.GetLocString(FLAVORTEXT, lang);

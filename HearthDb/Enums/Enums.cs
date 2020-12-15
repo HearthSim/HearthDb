@@ -313,7 +313,7 @@ namespace HearthDb.Enums
 
     public enum GameTag
     {
-        TAG_NOT_SET = 1,
+        TAG_NOT_SET = 0,
         IGNORE_DAMAGE = 1,
         TAG_SCRIPT_DATA_NUM_1 = 2,
         TAG_SCRIPT_DATA_NUM_2 = 3,
@@ -902,6 +902,7 @@ namespace HearthDb.Enums
         DARKMOON_TICKET = 1776,
         NUM_SPELLS_PLAYED_THIS_GAME = 1780,
         BACON_COMEONECOMEALL = 1789,
+        SHOW_DISCOVER_FROM_DECK = 1816,
     }
 
     public enum GameType

@@ -5,7 +5,7 @@
     <AssemblyTitle>HearthDb</AssemblyTitle>
     <Company>HearthSim</Company>
     <Product>HearthDb</Product>
-    <Copyright>Copyright © HearthSim 2020</Copyright>
+    <Copyright>Copyright © HearthSim 2021</Copyright>
     <AssemblyVersion>19.6.0.0</AssemblyVersion>
     <FileVersion>19.6.0.0</FileVersion>
   </PropertyGroup>

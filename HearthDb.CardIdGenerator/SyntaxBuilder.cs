@@ -58,6 +58,8 @@ namespace HearthDb.CardIdGenerator
 		{
 			if(card.Id == "GILA_BOSS_66p")
 				return "DotDotDot";
+			if(name == "???")
+				return "QuestionQuestionQuestion";
 			return name;
 		}
 
@@ -81,6 +83,14 @@ namespace HearthDb.CardIdGenerator
 			}
 			if(card.Set == Enums.CardSet.HERO_SKINS)
 				name += "HeroSkins";
+
+			if(card.Set == Enums.CardSet.VANILLA) 
+				name += "Vanilla";
+			if(card.Set == Enums.CardSet.CORE) 
+				name += "Core";
+			if(card.Set == Enums.CardSet.LEGACY) 
+				name += "Legacy";
+
 			if(Regex.IsMatch(card.Id, @"_\d+[abhHt]?[eo]"))
 				name += "Enchantment";
 			if(Regex.IsMatch(card.Id, @"_\d+[hH]?[t]"))

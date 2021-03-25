@@ -100,11 +100,9 @@ namespace HearthDb.CardIdGenerator
 				case TGT:
 					return "TGT";
 				case EXPERT1:
-					return "Classic";
+					return "Expert1";
 				case MISSIONS:
 					return "Missions";
-				case CORE:
-					return "Basic";
 				case INVALID:
 					return "Invalid";
 				case TEST_TEMPORARY:

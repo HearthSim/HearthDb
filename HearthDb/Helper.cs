@@ -23,6 +23,8 @@ namespace HearthDb
 			CardSet.GANGS
 		};
 
+		public static CardSet[] ClassicSets = { CardSet.VANILLA };
+
 		public static string[] SpellstoneStrings =
 		{
 			CardIds.Collectible.Druid.LesserJasperSpellstone,

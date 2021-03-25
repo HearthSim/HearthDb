@@ -10,6 +10,7 @@ namespace HearthDb.Tests
 	public class DeckSerializerTest
 	{
 		private const string DeckString = "AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==";
+		private const string ClassicDeckstring = "AAEDAaa4AwTTlQSvlgT6oASPowQN25UE3JUEppYEsJYEtpYEvZYE1JYE3ZYE6aEE8KEE8aEE86EE1KIEAA==";
 
 		private const string FullDeckString = @"### Warrior123
 # Class: Warrior
@@ -47,6 +48,19 @@ AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==
 			var heroicStroke = cards.FirstOrDefault(c => c.Key.Id == CardIds.Collectible.Warrior.HeroicStrike);
 			Assert.IsNotNull(heroicStroke);
 			Assert.AreEqual(2, heroicStroke.Value);
+		}
+
+		[TestMethod]
+		public void TestDeckStringsClassic()
+		{
+			var deck = DeckSerializer.Deserialize(ClassicDeckstring);
+			Assert.AreEqual(CardIds.Collectible.Druid.MalfurionStormrage_EliseStarseekerHeroHeroSkins, deck.GetHero().Id);
+			var cards = deck.GetCards();
+			Assert.AreEqual(30, cards.Values.Sum());
+			var claw = cards.FirstOrDefault(c => c.Key.Id == CardIds.Collectible.Druid.ClawVanilla);
+			Assert.IsNotNull(claw);
+			Assert.AreEqual(1, claw.Value);
+			Assert.AreEqual(FormatType.FT_CLASSIC, deck.Format);
 		}
 
 		[TestMethod]

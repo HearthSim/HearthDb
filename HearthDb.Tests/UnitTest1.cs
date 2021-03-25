@@ -57,7 +57,7 @@ namespace HearthDb.Tests
 		}
 
 		[TestMethod]
-		public void TextCardText()
+		public void TestCardText()
 		{
 			var lucentbark = Cards.GetFromDbfId(51796, false);
 			System.Console.WriteLine(lucentbark.Text);
@@ -69,7 +69,7 @@ namespace HearthDb.Tests
 
 			var galakrond = Cards.GetFromDbfId(57419);
 			Assert.IsTrue(galakrond.Text.Contains("Draw 1 card."));
-			Assert.IsTrue(galakrond.Text.Contains("It costs (1)."));
+			Assert.IsTrue(galakrond.Text.Contains("It costs (0)."));
 
             var eyeOfCthun = Cards.All[CardIds.NonCollectible.Neutral.CThuntheShattered_EyeOfCthunToken];
 			Assert.IsTrue(eyeOfCthun.Text.Contains("(0/4)"));

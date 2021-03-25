@@ -11,16 +11,11 @@ namespace HearthDb
 
 		public static CardSet[] WildSets =
 		{
-			CardSet.PROMO,
-			CardSet.HOF,
-			CardSet.NAXX,
-			CardSet.GVG,
-			CardSet.BRM,
-			CardSet.LOE,
-			CardSet.TGT,
-			CardSet.OG,
-			CardSet.KARA,
-			CardSet.GANGS
+			CardSet.BRM, CardSet.LOE, CardSet.TGT, CardSet.HOF,
+			CardSet.FP1, CardSet.PE1, CardSet.PROMO,
+			CardSet.KARA, CardSet.OG, CardSet.GANGS,
+			CardSet.UNGORO, CardSet.ICECROWN, CardSet.LOOTAPALOOZA,
+			CardSet.GILNEAS, CardSet.BOOMSDAY, CardSet.TROLL,
 		};
 
 		public static CardSet[] ClassicSets = { CardSet.VANILLA };

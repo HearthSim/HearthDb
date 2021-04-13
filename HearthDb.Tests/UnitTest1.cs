@@ -82,7 +82,7 @@ namespace HearthDb.Tests
 			var flameLance = Cards.All[CardIds.Collectible.Mage.FlameLance];
 			Assert.IsTrue(flameLance.GetLocText(Locale.frFR).Contains("Inflige $8 points"));
 
-			var elvenArcher = Cards.All[CardIds.Collectible.Neutral.ElvenArcher];
+			var elvenArcher = Cards.All[CardIds.Collectible.Neutral.ElvenArcherVanilla];
 			Assert.IsTrue(elvenArcher.Text.Contains("Deal 1 damage"));
 
 			var demonicPortal = Cards.All[CardIds.NonCollectible.Neutral.DemonicPortal];

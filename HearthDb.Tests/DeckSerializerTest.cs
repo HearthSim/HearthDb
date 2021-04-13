@@ -45,7 +45,7 @@ AAECAQcCrwSRvAIOHLACkQP/A44FqAXUBaQG7gbnB+8HgrACiLACub8CAA==
 			Assert.AreEqual(CardIds.Collectible.Warrior.GarroshHellscreamHeroHeroSkins, deck.GetHero().Id);
 			var cards = deck.GetCards();
 			Assert.AreEqual(30, cards.Values.Sum());
-			var heroicStroke = cards.FirstOrDefault(c => c.Key.Id == CardIds.Collectible.Warrior.HeroicStrike);
+			var heroicStroke = cards.FirstOrDefault(c => c.Key.Id == CardIds.Collectible.Warrior.HeroicStrikeLegacy);
 			Assert.IsNotNull(heroicStroke);
 			Assert.AreEqual(2, heroicStroke.Value);
 		}

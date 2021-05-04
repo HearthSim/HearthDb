@@ -237,6 +237,7 @@ namespace HearthDb.Enums
         SCORE_VALUE_COUNT_DOWN = 25,
         SCRIPT_DATA_NUM_1_NUM_2 = 26,
         POWERED_UP = 27,
+        MULTIPLE_ALT_TEXT_SCRIPT_DATA_NUMS = 28,
     }
 
     public enum CardType
@@ -922,6 +923,7 @@ namespace HearthDb.Enums
         CANT_MOVE_MINION = 1848,
         DARKMOON_FAIRE_PRIZES_ACTIVE = 1895,
         IGNORE_DECK_RULESET = 1896,
+        HAS_DIAMOND_QUALITY = 1932,
         CURRENT_SPELLPOWER_ARCANE = 1936,
         CURRENT_SPELLPOWER_FIRE = 1937,
         CURRENT_SPELLPOWER_FROST = 1938,
@@ -940,6 +942,8 @@ namespace HearthDb.Enums
         SPELLPOWER_FEL = 1951,
         SPELLPOWER_PHYSICAL = 1952,
         ENRAGED_TOOLTIP = 1954,
+        BLOOD_GEM = 1966,
+        GOLDSPARKLES_HINT = 1984,
     }
 
     public enum GameType
@@ -1030,6 +1034,7 @@ namespace HearthDb.Enums
         SLUSH_TIME = 20,
         ARTIFICIAL_HISTORY_INTERRUPT = 21,
         POISONOUS = 22,
+        STUB_20_6_LETTUCE = 23,
     }
 
     public enum Mulligan
@@ -1174,6 +1179,8 @@ namespace HearthDb.Enums
         REQ_TARGET_IF_AVAILABLE_AND_BOUGHT_RACE_THIS_TURN = 105,
         REQ_TARGET_IF_AVAILABLE_AND_SOLD_RACE_THIS_TURN = 106,
         REQ_TWO_OF_A_KIND = 110,
+        REQ_TARGET_NOT_HAVE_TAG = 116,
+        REQ_TARGET_MUST_HAVE_TAG = 117,
         REQ_DRAG_TO_PLAY = 999,
     }
 

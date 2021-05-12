@@ -3621,6 +3621,7 @@ namespace HearthDb
                 public const string ConsumeMagic = "BT_490";
                 public const string SpectralSight = "BT_491";
                 public const string PriestessOfFury = "BT_493";
+                public const string GlaiveboundAdeptLegacy = "BT_495";
                 public const string FuriousFelfin = "BT_496";
                 public const string FelSummoner = "BT_509";
                 public const string WrathspikeBrute = "BT_510";
@@ -8450,6 +8451,7 @@ namespace HearthDb
                 public const string KeywardenIvory_KeyToVictoryEnchantment = "YOP_018e";
                 public const string Guidance_SpiritPathToken = "YOP_024t";
                 public const string FelfireDeadeye_DeadeyeEnchantment = "YOP_030e";
+                public const string Crabrider_CrabridingEnchantment = "YOP_031e";
                 public const string NofinCanStopUs_MrrgrrrrgleEnchantment1 = "BAR_041e";
                 public const string NofinCanStopUs_MrrgrrrrgleEnchantment2 = "BAR_041e2";
                 public const string AridStormer_StormCloudEnchantment = "BAR_045e";
@@ -12758,7 +12760,6 @@ namespace HearthDb
                 public const string CoordinatedStrike_IllidariInitiateLegacyToken = "BT_036t";
                 public const string ShadowhoofSlayer_SharpenedClawsLegacyEnchantment = "BT_142e";
                 public const string SatyrOverseer_IllidariSatyrLegacyToken = "BT_352t";
-                public const string GlaiveboundAdeptLegacy = "BT_495";
                 public const string InnerDemon_DemonPowerLegacyEnchantment = "BT_512e";
                 public const string IllidanStormrage_DemonClawsLegacy1 = "HERO_10bp";
                 public const string IllidanStormrage_DemonsBiteLegacy1 = "HERO_10bp2";

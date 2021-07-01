@@ -104,6 +104,7 @@ namespace HearthDb.Enums
         STANDARD_MAGE = 545,
         THE_BARRENS = 553,
         WAILING_CAVERNS = 583,
+        STORMWIND = 602,
         GOLDEN_SCHOLOMANCE = 603,
         DARKMOON_FAIRE = 616,
         STANDARD_DRUID = 631,
@@ -203,6 +204,7 @@ namespace HearthDb.Enums
         DARKMOON_FAIRE = 1466,
         THE_BARRENS = 1525,
         WAILING_CAVERNS = 1559,
+        STORMWIND = 1578,
         LEGACY = 1635,
         CORE = 1637,
         VANILLA = 1646,
@@ -1197,6 +1199,7 @@ namespace HearthDb.Enums
         REQ_TWO_OF_A_KIND = 110,
         REQ_TARGET_NOT_HAVE_TAG = 116,
         REQ_TARGET_MUST_HAVE_TAG = 117,
+        REQ_NOT_LEGENDARY_TARGET = 123,
         REQ_DRAG_TO_PLAY = 999,
     }
 
@@ -1417,5 +1420,6 @@ namespace HearthDb.Enums
         REMOVEDFROMGAME = 5,
         SETASIDE = 6,
         SECRET = 7,
+        STUB_ZONE_8 = 8,
     }
 }

@@ -45,7 +45,15 @@ namespace HearthDb
 		public static Card GetFromName(string name, Locale lang, bool collectible = true)
 			=> (collectible ? Collectible : All).Values.FirstOrDefault(x => x.GetLocName(lang)?.Equals(name, StringComparison.InvariantCultureIgnoreCase) ?? false);
 
-		public static Card GetFromDbfId(int dbfId, bool collectibe = true)
+        public static List<Card> GetFromFuzzyName(string name, Locale lang, bool collectible = true)
+        {
+            var values = (collectible ? Collectible : All).Values;
+            var result = values.Where(x =>
+                x.GetLocName(lang)?.IndexOf(name, StringComparison.InvariantCultureIgnoreCase) >= 0);
+            return result.ToList();
+        }
+
+        public static Card GetFromDbfId(int dbfId, bool collectibe = true)
 			=> (collectibe ? Collectible : All).Values.FirstOrDefault(x => x.DbfId == dbfId);
 
 		private static bool IsDeflectOBot(Entity entity) => entity.CardId == CardIds.NonCollectible.Neutral.DeflectOBot || entity.CardId == CardIds.NonCollectible.Neutral.DeflectOBotTavernBrawl;

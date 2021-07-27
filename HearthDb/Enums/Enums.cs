@@ -281,6 +281,7 @@ namespace HearthDb.Enums
         INVALID = 0,
         MULLIGAN = 1,
         GENERAL = 2,
+        TARGET = 3,
     }
 
     public enum DeckType
@@ -893,6 +894,7 @@ namespace HearthDb.Enums
         FORCE_NO_CUSTOM_SPELLS = 1529,
         START_OF_COMBAT = 1531,
         CORRUPTEDCARD = 1551,
+        BACON_HERO_EARLY_ACCESS = 1554,
         SPAWN_TIME_COUNT = 1556,
         SKIP_MULLIGAN = 1561,
         COPIED_FROM_ENTITY_ID = 1565,
@@ -917,8 +919,12 @@ namespace HearthDb.Enums
         SOURCE_OVERRIDE_FOR_MODIFIER_TEXT = 1694,
         PENDING_TRANSFORM_TO_CARD = 1716,
         TRANSFORMED_FROM_CARD_VISUAL_TYPE = 1719,
+        TRADEABLE = 1720,
+        TOOL = 1722,
+        QUESTLINE = 1725,
         BATTLEGROUNDS_DARKMOON_PRIZE_TURN = 1735,
         PLAYER_ID_LOOKUP = 1740,
+        TRADE_COST = 1743,
         BACON_AVALANCHE = 1744,
         SIGIL = 1749,
         PLAYED_CTHUN_EYE = 1764,
@@ -962,6 +968,16 @@ namespace HearthDb.Enums
         ENRAGED_TOOLTIP = 1954,
         BLOOD_GEM = 1966,
         GOLDSPARKLES_HINT = 1984,
+        QUESTLINE_FINAL_REWARD_DATABASE_ID = 1992,
+        QUESTLINE_PART = 1993,
+        QUESTLINE_REQUIREMENT_MET_1 = 1994,
+        QUESTLINE_REQUIREMENT_MET_2 = 1995,
+        QUESTLINE_REQUIREMENT_MET_3 = 1996,
+        BACON_SKIN = 2038,
+        BACON_SKIN_PARENT_ID = 2039,
+        IS_USING_TRADE_OPTION = 2045,
+        BACON_BOB_SKIN = 2049,
+        REFRESH = 2104,
     }
 
     public enum GameType
@@ -1198,8 +1214,10 @@ namespace HearthDb.Enums
         REQ_TARGET_IF_AVAILABLE_AND_BOUGHT_RACE_THIS_TURN = 105,
         REQ_TARGET_IF_AVAILABLE_AND_SOLD_RACE_THIS_TURN = 106,
         REQ_TWO_OF_A_KIND = 110,
+        REQ_HAS_OVERLOADED_MANA = 111,
         REQ_TARGET_NOT_HAVE_TAG = 116,
         REQ_TARGET_MUST_HAVE_TAG = 117,
+        REQ_TRADEABLE = 119,
         REQ_NOT_LEGENDARY_TARGET = 123,
         REQ_DRAG_TO_PLAY = 999,
     }

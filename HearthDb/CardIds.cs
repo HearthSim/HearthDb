@@ -8307,10 +8307,10 @@ namespace HearthDb
                 public const string RagePotion_RagePotionEnchantmentTavernBrawl = "TB_BaconShop_HP_018e2";
                 public const string DieInsectsTavernBrawl1 = "TB_BaconShop_HP_019";
                 public const string PrestidigitationTavernBrawl = "TB_BaconShop_HP_020";
-                public const string BurblingTavernBrawl = "TB_BaconShop_HP_022";
-                public const string Burbling_DoubleNextBattlecryEnchantmentTavernBrawl = "TB_BaconShop_HP_022e";
-                public const string Burbling_PlaceholderDntTokenTavernBrawl1 = "TB_BaconShop_HP_022t";
-                public const string Burbling_PlaceholderDntTokenTavernBrawl2 = "TB_BaconShop_HP_022t_G";
+                public const string SnickerSnackTavernBrawl = "TB_BaconShop_HP_022";
+                public const string Snickersnack_DoubleNextBattlecryEnchantmentTavernBrawl = "TB_BaconShop_HP_022e";
+                public const string Snickersnack_ShudderlingTokenTavernBrawl1 = "TB_BaconShop_HP_022t";
+                public const string Snickersnack_ShudderlingTokenTavernBrawl2 = "TB_BaconShop_HP_022t_G";
                 public const string RebornRitesTavernBrawl = "TB_BaconShop_HP_024";
                 public const string RebornRites_RebornRiteEnchantmentTavernBrawl = "TB_BaconShop_HP_024e2";
                 public const string FireTheCannonsTavernBrawl = "TB_BaconShop_HP_027";
@@ -11255,6 +11255,7 @@ namespace HearthDb
                 public const string Leadership1 = "BOM_04_Leadership_005pe1";
                 public const string Leadership2 = "BOM_04_Leadership_006pe1";
                 public const string JudgmentofJustice_JudgedEnchantment = "WC_033e";
+                public const string RisetotheOccasion_PaveTheWayEnchantment = "SW_313e1";
                 public const string RisetotheOccasion_PaveTheWayToken = "SW_313t";
                 public const string RisetotheOccasion_AvengeTheFallenToken = "SW_313t2";
                 public const string RisetotheOccasion_LightbornCarielToken = "SW_313t4";

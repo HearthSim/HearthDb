@@ -107,6 +107,7 @@ namespace HearthDb.Enums
         STORMWIND = 602,
         GOLDEN_SCHOLOMANCE = 603,
         DARKMOON_FAIRE = 616,
+        MERCENARIES = 629,
         STANDARD_DRUID = 631,
         STANDARD_PALADIN = 632,
         STANDARD_WARRIOR = 633,
@@ -977,7 +978,10 @@ namespace HearthDb.Enums
         BACON_SKIN_PARENT_ID = 2039,
         IS_USING_TRADE_OPTION = 2045,
         BACON_BOB_SKIN = 2049,
+        BACON_COMBAT_DAMAGE_CAP = 2089,
         REFRESH = 2104,
+        AVENGE = 2129,
+        BACON_STARSTOBOUNCEOFF = 2155,
     }
 
     public enum GameType

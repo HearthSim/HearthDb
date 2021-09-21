@@ -1441,6 +1441,7 @@ namespace HearthDb
                 public const string MalfurionStormrage_SpelunkerGuffHeroHeroSkins = "HERO_06l";
                 public const string MalfurionStormrage_FangboundGuffHeroHeroSkins = "HERO_06m";
                 public const string MalfurionStormrage_FaunaFriendGuffHeroHeroSkins = "HERO_06n";
+                public const string MalfurionStormrage_WinterFuryMalfurionHeroHeroSkinsEnchantment = "HERO_06o";
                 public const string Fatespinner = "ICC_047";
                 public const string Webweave = "ICC_050";
                 public const string DruidOfTheSwarm = "ICC_051";
@@ -2261,6 +2262,7 @@ namespace HearthDb
                 public const string UtherLightbringer_JudgmentUtherHeroHeroSkins = "HERO_04i";
                 public const string UtherLightbringer_RighteousInfernoUtherHeroHeroSkins = "HERO_04k";
                 public const string UtherLightbringer_YrelHeroHeroSkins = "HERO_04l";
+                public const string UtherLightbringer_AscendedUtherHeroHeroSkins = "HERO_04m";
                 public const string ArrogantCrusader = "ICC_034";
                 public const string RighteousProtector = "ICC_038";
                 public const string DarkConviction = "ICC_039";
@@ -3366,6 +3368,7 @@ namespace HearthDb
                 public const string Guldan_ImpressiveTamsinHeroHeroSkins = "HERO_07j";
                 public const string Guldan_SummonerTamsinHeroHeroSkins = "HERO_07k";
                 public const string Guldan_TamsinTriumphantHeroHeroSkins = "HERO_07l";
+                public const string Guldan_HouseOfRitualsGuldanHeroHeroSkins = "HERO_07m";
                 public const string Defile = "ICC_041";
                 public const string DrainSoul = "ICC_055";
                 public const string DespicableDreadlord = "ICC_075";
@@ -3856,6 +3859,7 @@ namespace HearthDb
                 public const string IllidanStormrage_AdeptKurtrusHeroHeroSkins = "HERO_10f";
                 public const string IllidanStormrage_TrainerKurtrusHeroHeroSkins = "HERO_10g";
                 public const string SkullbearerIllidanHeroHeroSkinsHeroic = "HERO_10h";
+                public const string IllidanStormrage_EmberCourtIllidanHeroHeroSkins = "HERO_10k";
                 public const string Marrowslicer = "SCH_252";
                 public const string CycleOfHatred = "SCH_253";
                 public const string Magehunter = "SCH_276";
@@ -11700,6 +11704,7 @@ namespace HearthDb
                 public const string PowerWordFeast_PowerWordFeastEnchantment = "SCH_136e";
                 public const string PowerWordFeast_FamishedEnchantment = "SCH_136e2";
                 public const string MindrenderIllucia_MindSwapEnchantment = "SCH_159e";
+                public const string MindrenderIllucia_MindSwappedEnchantment = "SCH_159e2";
                 public const string DraconicStudies_DraconicStudiesEnchantment = "SCH_233e";
                 public const string DraconicStudies_StudyingDragonsEnchantment = "SCH_233e2";
                 public const string WaveofApathy_ApatheticEnchantment = "SCH_250e";

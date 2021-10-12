@@ -89,7 +89,7 @@ namespace HearthDb.Tests
 			Assert.IsTrue(demonicPortal.Text.Contains("30 left!"));
 
 			var summoningRitual = Cards.All[CardIds.NonCollectible.Demonhunter.SummoningRitual2];
-			Assert.IsTrue(summoningRitual.Text.Contains("Summon 3 demons"));
+			Assert.IsTrue(summoningRitual.Text.Contains("Summon 3 Demons"));
 			Assert.IsTrue(summoningRitual.Text.Contains("for 2 turns"));
 
 			var hatredReactor = Cards.All[CardIds.NonCollectible.Warlock.HatredReactorToken];

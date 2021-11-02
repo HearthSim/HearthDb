@@ -18,6 +18,7 @@ namespace HearthDb.Enums
         REVEAL_CARD = 10,
         GAME_RESET = 11,
         MOVE_MINION = 12,
+        TRADE = 13,
         ACTION = 99,
     }
 
@@ -121,6 +122,7 @@ namespace HearthDb.Enums
         STANDARD_WARLOCK = 637,
         STANDARD_DEMONHUNTER = 638,
         GOLDEN_DARKMOON_FAIRE = 643,
+        ALTERAC_VALLEY = 665,
         GOLDEN_THE_BARRENS = 686,
         YEAR_OF_THE_PHOENIX = 688,
         STANDARD_PACK = 713,
@@ -211,6 +213,7 @@ namespace HearthDb.Enums
         WAILING_CAVERNS = 1559,
         STORMWIND = 1578,
         LETTUCE = 1586,
+        ALTERAC_VALLEY = 1626,
         LEGACY = 1635,
         CORE = 1637,
         VANILLA = 1646,
@@ -1023,6 +1026,7 @@ namespace HearthDb.Enums
         BACON_BOB_SKIN = 2049,
         BACON_COMBAT_DAMAGE_CAP = 2089,
         REFRESH = 2104,
+        TARGETING_ARROW_TYPE = 2108,
         LETTUCE_CURRENT_BOUNTY_ID = 2120,
         AVENGE = 2129,
         SPELLRESISTANCE_ARCANE = 2138,
@@ -1058,8 +1062,20 @@ namespace HearthDb.Enums
         CRITICALDAMAGE = 2219,
         ROOT = 2220,
         LETTUCE_SHOW_OPPOSING_FAKE_HAND = 2224,
+        BACON_DIABLO_FIGHT_DIABLO_PLAYER_ID = 2226,
         LETTUCE_VERSUS_SPELL_STATE = 2228,
         LETTUCE_START_OF_GAME_ABILITY = 2241,
+        CURRENT_TEMP_SPELLPOWER_ARCANE = 2250,
+        CURRENT_TEMP_SPELLPOWER_FEL = 2251,
+        CURRENT_TEMP_SPELLPOWER_FIRE = 2252,
+        CURRENT_TEMP_SPELLPOWER_FROST = 2253,
+        CURRENT_TEMP_SPELLPOWER_NATURE = 2254,
+        CURRENT_TEMP_SPELLPOWER_HOLY = 2255,
+        CURRENT_TEMP_SPELLPOWER_PHYSICAL = 2256,
+        CURRENT_TEMP_SPELLPOWER_SHADOW = 2257,
+        CURRENT_TEMP_SPELLPOWER = 2258,
+        LETTUCE_ALLIANCE = 2279,
+        LETTUCE_HORDE = 2280,
     }
 
     public enum GameType
@@ -1439,6 +1455,15 @@ namespace HearthDb.Enums
         MERCENARY_MERCENARY = 23,
         MERCENARY_RANDOM_MERCENARY = 24,
         MERCENARY_KNOCKOUT = 25,
+    }
+
+    public enum Role
+    {
+        INVALID = 0,
+        CASTER = 1,
+        FIGHTER = 2,
+        TANK = 3,
+        NEUTRAL = 4,
     }
 
     public enum SpellSchool

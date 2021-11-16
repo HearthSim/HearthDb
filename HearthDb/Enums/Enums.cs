@@ -1076,6 +1076,8 @@ namespace HearthDb.Enums
         CURRENT_TEMP_SPELLPOWER = 2258,
         LETTUCE_ALLIANCE = 2279,
         LETTUCE_HORDE = 2280,
+        LETTUCE_REFRESH = 2312,
+        LETTUCE_ELVES = 2322,
     }
 
     public enum GameType
@@ -1413,6 +1415,7 @@ namespace HearthDb.Enums
         TREANT = 84,
         OWLKIN = 85,
         HALFORC = 88,
+        LOCK = 89,
     }
 
     public enum Rarity
@@ -1455,6 +1458,8 @@ namespace HearthDb.Enums
         MERCENARY_MERCENARY = 23,
         MERCENARY_RANDOM_MERCENARY = 24,
         MERCENARY_KNOCKOUT = 25,
+        BATTLEGROUNDS_GUIDE_SKIN = 26,
+        BATTLEGROUNDS_HERO_SKIN = 27,
     }
 
     public enum Role

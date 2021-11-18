@@ -8,6 +8,7 @@
     <Copyright>Copyright © HearthSim 2021</Copyright>
     <AssemblyVersion>21.8.0.0</AssemblyVersion>
     <FileVersion>21.8.0.0</FileVersion>
+    <LangVersion>8</LangVersion>
   </PropertyGroup>
 
     <!-- Remove everything from the hsdata repo except for CardDefs.xml. -->

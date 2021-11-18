@@ -176,5 +176,35 @@ namespace HearthDb
 
 		private bool? _isClassic;
 		public bool IsClassic => _isClassic ??= Helper.ClassicSets.Contains(Set);
+
+		private int? _techLevel;
+		public int TechLevel => _techLevel ??= Entity.GetTag(TECH_LEVEL);
+
+		private bool? _isBaconPoolMinion;
+		public bool IsBaconPoolMinion => _isBaconPoolMinion ??= Entity.GetTag(IS_BACON_POOL_MINION) > 0;
+
+		private bool? _taunt;
+		public bool Taunt => _taunt ??= Entity.GetTag(TAUNT) > 0;
+
+		private bool? _divineShield;
+		public bool DivineShield => _divineShield ??= Entity.GetTag(DIVINE_SHIELD) > 0;
+
+		private bool? _poisonous;
+		public bool Poisonous => _poisonous ??= Entity.GetTag(POISONOUS) > 0;
+
+		private bool? _windfury;
+		public bool Windfury => _windfury ??= Entity.GetTag(WINDFURY) > 0;
+
+		private bool? _megaWindfury;
+		public bool MegaWindfury => _megaWindfury ??= Entity.GetTag(MEGA_WINDFURY) > 0;
+
+		private bool? _cantAttack;
+		public bool CantAttack => _cantAttack ??= Entity.GetTag(CANT_ATTACK) > 0;
+
+		private bool? _reborn;
+		public bool Reborn => _reborn ??= Entity.GetTag(REBORN) > 0;
+
+		private bool? _deathrattle;
+		public bool Deathrattle => _deathrattle ??= Entity.GetTag(DEATHRATTLE) > 0;
 	}
 }

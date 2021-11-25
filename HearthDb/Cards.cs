@@ -16,10 +16,13 @@ namespace HearthDb
 	public static class Cards
 	{
 		public static readonly Dictionary<string, Card> All = new Dictionary<string, Card>();
+		public static readonly Dictionary<int, Card> AllByDbfId = new Dictionary<int, Card>();
 
 		public static readonly Dictionary<string, Card> Collectible = new Dictionary<string, Card>();
+		public static readonly Dictionary<int, Card> CollectibleByDbfId = new Dictionary<int, Card>();
 
 		public static readonly Dictionary<string, Card> BaconPoolMinions = new Dictionary<string, Card>();
+		public static readonly Dictionary<int, Card> BaconPoolMinionsByDbfId = new Dictionary<int, Card>();
 
 		static Cards()
 		{
@@ -38,10 +41,17 @@ namespace HearthDb
 
 					var card = new Card(entity);
 					All.Add(entity.CardId, card);
-					if(card.Collectible && (card.Type != CardType.HERO || card.Set != CardSet.CORE && card.Set != CardSet.HERO_SKINS))
+					AllByDbfId.Add(entity.DbfId, card);
+					if (card.Collectible && (card.Type != CardType.HERO || card.Set != CardSet.CORE && card.Set != CardSet.HERO_SKINS))
+					{
 						Collectible.Add(entity.CardId, card);
-					if(card.IsBaconPoolMinion)
+						CollectibleByDbfId.Add(entity.DbfId, card);
+					}
+					if (card.IsBaconPoolMinion)
+					{
 						BaconPoolMinions.Add(entity.CardId, card);
+						BaconPoolMinionsByDbfId.Add(entity.DbfId, card);
+					}
 				}
 			}
 		}
@@ -50,7 +60,7 @@ namespace HearthDb
 			=> (collectible ? Collectible : All).Values.FirstOrDefault(x => x.GetLocName(lang)?.Equals(name, StringComparison.InvariantCultureIgnoreCase) ?? false);
 
 		public static Card GetFromDbfId(int dbfId, bool collectibe = true)
-			=> (collectibe ? Collectible : All).Values.FirstOrDefault(x => x.DbfId == dbfId);
+			=> (collectibe ? CollectibleByDbfId : AllByDbfId).TryGetValue(dbfId, out var card) ? card : null;
 
 		private static bool IsDeflectOBot(Entity entity) => entity.CardId == CardIds.NonCollectible.Neutral.DeflectOBot || entity.CardId == CardIds.NonCollectible.Neutral.DeflectOBotTavernBrawl;
 	}

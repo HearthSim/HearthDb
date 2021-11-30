@@ -265,6 +265,7 @@ namespace HearthDb.Enums
         SCRIPT_DATA_NUM_1_NUM_2 = 26,
         POWERED_UP = 27,
         MULTIPLE_ALT_TEXT_SCRIPT_DATA_NUMS = 28,
+        REFERENCE_SCRIPT_DATA_NUM_1_ENTITY_POWER = 29,
     }
 
     public enum CardType
@@ -981,6 +982,7 @@ namespace HearthDb.Enums
         LETTUCE_NODE_TYPE = 1808,
         SHOW_DISCOVER_FROM_DECK = 1816,
         MINI_SET = 1824,
+        ARMOR_GAINED_THIS_GAME = 1828,
         CANT_TRIGGER_DEATHRATTLE = 1831,
         CANT_MOVE_MINION = 1848,
         LETTUCE_MERCENARY_EXPERIENCE = 1852,
@@ -988,6 +990,7 @@ namespace HearthDb.Enums
         LETTUCE_EQUIPMENT_ID = 1856,
         DARKMOON_FAIRE_PRIZES_ACTIVE = 1895,
         IGNORE_DECK_RULESET = 1896,
+        HONORABLEKILL = 1920,
         HAS_DIAMOND_QUALITY = 1932,
         CURRENT_SPELLPOWER_ARCANE = 1936,
         CURRENT_SPELLPOWER_FIRE = 1937,
@@ -1074,10 +1077,16 @@ namespace HearthDb.Enums
         CURRENT_TEMP_SPELLPOWER_PHYSICAL = 2256,
         CURRENT_TEMP_SPELLPOWER_SHADOW = 2257,
         CURRENT_TEMP_SPELLPOWER = 2258,
+        BACON_CHOSEN_BOARD_SKIN_ID = 2264,
         LETTUCE_ALLIANCE = 2279,
         LETTUCE_HORDE = 2280,
+        OBJECTIVE = 2311,
         LETTUCE_REFRESH = 2312,
         LETTUCE_ELVES = 2322,
+        AVFACTION = 2323,
+        AVRANK = 2324,
+        OBJECTIVE_AURA = 2329,
+        CURRENT_HEALING_POWER = 2333,
     }
 
     public enum GameType
@@ -1107,6 +1116,7 @@ namespace HearthDb.Enums
         GT_MERCENARIES_PVE_COOP = 32,
         GT_MERCENARIES_AI_VS_AI = 33,
         GT_MERCENARIES_FRIENDLY = 34,
+        GT_BATTLEGROUNDS_AI_VS_AI = 35,
     }
 
     public enum GoldRewardState

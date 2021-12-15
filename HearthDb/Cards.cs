@@ -42,6 +42,7 @@ namespace HearthDb
 					var card = new Card(entity);
 					All.Add(entity.CardId, card);
 					AllByDbfId.Add(entity.DbfId, card);
+
 					if (card.Collectible && (card.Type != CardType.HERO || card.Set != CardSet.CORE && card.Set != CardSet.HERO_SKINS))
 					{
 						Collectible.Add(entity.CardId, card);
@@ -51,6 +52,11 @@ namespace HearthDb
 					{
 						BaconPoolMinions.Add(entity.CardId, card);
 						BaconPoolMinionsByDbfId.Add(entity.DbfId, card);
+					}
+					if (card.IsLordJaraxxus)
+					{
+						Collectible.Add(entity.CardId, card);
+						CollectibleByDbfId.Add(entity.DbfId, card);
 					}
 				}
 			}

@@ -205,6 +205,6 @@ namespace HearthDb
 		public bool Reborn => _reborn ??= Entity.GetTag(REBORN) > 0;
 
 		private bool? _deathrattle;
-		public bool Deathrattle => _deathrattle ??= Entity.GetTag(DEATHRATTLE) > 0;
+		public bool Deathrattle => _deathrattle ??= (Entity.GetTag(DEATHRATTLE) > 0 || (Entity.GetLocString(CARDTEXT_INHAND, Locale.enUS)?.Contains("Deathrattle:") ?? false));
 	}
 }

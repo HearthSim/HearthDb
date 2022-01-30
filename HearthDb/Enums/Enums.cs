@@ -266,6 +266,7 @@ namespace HearthDb.Enums
         POWERED_UP = 27,
         MULTIPLE_ALT_TEXT_SCRIPT_DATA_NUMS = 28,
         REFERENCE_SCRIPT_DATA_NUM_1_ENTITY_POWER = 29,
+        REFERENCE_SCRIPT_DATA_NUM_1_CARD_DBID = 30,
     }
 
     public enum CardType
@@ -286,6 +287,7 @@ namespace HearthDb.Enums
         GAME_MODE_BUTTON = 12,
         MOVE_MINION_HOVER_TARGET = 22,
         LETTUCE_ABILITY = 23,
+        BATTLEGROUND_HERO_BUDDY = 24,
     }
 
     public enum ChoiceType
@@ -1032,6 +1034,7 @@ namespace HearthDb.Enums
         TARGETING_ARROW_TYPE = 2108,
         LETTUCE_CURRENT_BOUNTY_ID = 2120,
         AVENGE = 2129,
+        BACON_COMPANION_ID = 2130,
         SPELLRESISTANCE_ARCANE = 2138,
         SPELLRESISTANCE_FIRE = 2139,
         SPELLRESISTANCE_FROST = 2140,
@@ -1046,6 +1049,7 @@ namespace HearthDb.Enums
         SPELLWEAKNESS_HOLY = 2149,
         SPELLWEAKNESS_SHADOW = 2150,
         SPELLWEAKNESS_FEL = 2151,
+        BACON_BUDDY = 2154,
         BACON_STARSTOBOUNCEOFF = 2155,
         LETTUCE_ATTACK = 2159,
         LETTUCE_SPELLCOMBO = 2160,
@@ -1087,6 +1091,13 @@ namespace HearthDb.Enums
         AVRANK = 2324,
         OBJECTIVE_AURA = 2329,
         CURRENT_HEALING_POWER = 2333,
+        EARLY_CONCEDE_POPUP_AVAILABLE = 2340,
+        BACON_PLAYER_NUM_HERO_BUDDIES_GAINED = 2346,
+        BACON_HERO_BUDDY_PROGRESS = 2364,
+        REVIVE = 2369,
+        LETTUCE_CURSED_ABILITY_VISUAL = 2381,
+        BACON_OMIT_WHEN_OUT_OF_ROTATION = 2387,
+        ALLIED = 2388,
     }
 
     public enum GameType

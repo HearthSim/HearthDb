@@ -125,6 +125,7 @@ namespace HearthDb.Enums
         ALTERAC_VALLEY = 665,
         GOLDEN_THE_BARRENS = 686,
         YEAR_OF_THE_PHOENIX = 688,
+        THE_SUNKEN_CITY = 694,
         STANDARD_PACK = 713,
         WILD_PACK = 714,
         GOLDEN_STANDARD_PACK = 716,
@@ -217,6 +218,7 @@ namespace HearthDb.Enums
         LEGACY = 1635,
         CORE = 1637,
         VANILLA = 1646,
+        THE_SUNKEN_CITY = 1658,
         MERCENARIES_DEV = 1705,
     }
 
@@ -1101,6 +1103,9 @@ namespace HearthDb.Enums
         ALLIED = 2388,
         LETTUCE_HEALINGPOWER = 2434,
         DONT_SUPPRESS_SUMMON_VO = 2440,
+        BACON_FREEZE = 2455,
+        MERCS_SPELLWEAKNESS = 2464,
+        MERCS_SPELLRESISTANCE = 2465,
     }
 
     public enum GameType
@@ -1353,6 +1358,8 @@ namespace HearthDb.Enums
         REQ_TARGET_MUST_HAVE_TAG = 117,
         REQ_TRADEABLE = 119,
         REQ_NOT_LEGENDARY_TARGET = 123,
+        REQ_MINIMUM_TAVERN_TIER_LEVEL_TO_PLAY = 128,
+        REQ_CARD_TAVERN_TIER_LEVEL_TO_PLAY = 129,
         REQ_DRAG_TO_PLAY = 999,
     }
 

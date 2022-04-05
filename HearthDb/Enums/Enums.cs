@@ -243,6 +243,7 @@ namespace HearthDb.Enums
         PLAYER_TAG_THRESHOLD = 10,
         DEPRECATED_10 = 10,
         PLACE_HOLDER_10 = 10,
+        ENTITY_TAG_THRESHOLD = 11,
         DEPRECATED_11 = 11,
         PLACE_HOLDER_11 = 11,
         DEPRECATED_12 = 12,
@@ -1074,6 +1075,8 @@ namespace HearthDb.Enums
         BACON_DIABLO_FIGHT_DIABLO_PLAYER_ID = 2226,
         LETTUCE_VERSUS_SPELL_STATE = 2228,
         LETTUCE_START_OF_GAME_ABILITY = 2241,
+        COLOSSAL = 2247,
+        COLOSSAL_LIMB = 2248,
         CURRENT_TEMP_SPELLPOWER_ARCANE = 2250,
         CURRENT_TEMP_SPELLPOWER_FEL = 2251,
         CURRENT_TEMP_SPELLPOWER_FIRE = 2252,
@@ -1092,6 +1095,7 @@ namespace HearthDb.Enums
         AVFACTION = 2323,
         AVRANK = 2324,
         OBJECTIVE_AURA = 2329,
+        DREDGE = 2332,
         CURRENT_HEALING_POWER = 2333,
         EARLY_CONCEDE_POPUP_AVAILABLE = 2340,
         BACON_PLAYER_NUM_HERO_BUDDIES_GAINED = 2346,
@@ -1104,8 +1108,11 @@ namespace HearthDb.Enums
         LETTUCE_HEALINGPOWER = 2434,
         DONT_SUPPRESS_SUMMON_VO = 2440,
         BACON_FREEZE = 2455,
+        ENTITY_TAG_THRESHOLD_TAG_ID = 2459,
+        ENTITY_TAG_THRESHOLD_VALUE = 2460,
         MERCS_SPELLWEAKNESS = 2464,
         MERCS_SPELLRESISTANCE = 2465,
+        COLOSSAL_LIMB_ON_LEFT = 2469,
     }
 
     public enum GameType
@@ -1447,6 +1454,8 @@ namespace HearthDb.Enums
         OWLKIN = 85,
         HALFORC = 88,
         LOCK = 89,
+        NAGA = 92,
+        OLDGOD = 93,
     }
 
     public enum Rarity
@@ -1599,6 +1608,7 @@ namespace HearthDb.Enums
         DRAGON = 4,
         PHOENIX = 5,
         GRYPHON = 6,
+        HYDRA = 7,
     }
 
     public enum Zone

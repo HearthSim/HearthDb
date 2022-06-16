@@ -4172,7 +4172,6 @@ namespace HearthDb
                 public const string Troublemaker = "SCH_337";
                 public const string InFormation = "SCH_525";
                 public const string Rattlegore = "SCH_621";
-                public const string RemoteControlledGolemSTORMWIND1 = "Story_11_RemoteControlPuzzle";
                 public const string CowardlyGrunt = "SW_021";
                 public const string Provoke = "SW_023";
                 public const string Lothar = "SW_024";
@@ -4182,7 +4181,7 @@ namespace HearthDb
                 public const string CargoGuard = "SW_030";
                 public const string StormwindFreebooter = "SW_093";
                 public const string HeavyPlate = "SW_094";
-                public const string RemoteControlledGolemSTORMWIND2 = "SW_097";
+                public const string RemoteControlledGolem = "SW_097";
                 public const string IgneousLavagorger = "TID_714";
                 public const string ClashOfTheColossals = "TID_715";
                 public const string TidalRevenant = "TID_716";
@@ -22437,6 +22436,7 @@ namespace HearthDb
                 public const string RokaraToken4 = "BOM_07_Scabbs_Rokara_007t";
                 public const string RokaraToken5 = "BOM_07_Scabbs_Rokara_008t";
                 public const string BlacksmithingHammer_BlacksmithingEnchantment = "DED_527e";
+                public const string RemoteControlledGolem = "Story_11_RemoteControlPuzzle";
                 public const string RaidtheDocks_CreateADistractionToken = "SW_028t";
                 public const string RaidtheDocks_SecureTheSuppliesToken = "SW_028t2";
                 public const string RaidtheDocks_CapnRokaraToken = "SW_028t5";

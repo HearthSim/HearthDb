@@ -47,6 +47,11 @@ namespace HearthDb
 						Collectible.Add(entity.CardId, card);
 						CollectibleByDbfId.Add(entity.DbfId, card);
 					}
+					if (card.Id == CardIds.Collectible.Warlock.LordJaraxxusCore)
+					{
+						Collectible.Add(entity.CardId, card);
+						CollectibleByDbfId.Add(entity.DbfId, card);
+					}
 					if (card.IsBaconPoolMinion)
 					{
 						BaconPoolMinions.Add(entity.CardId, card);

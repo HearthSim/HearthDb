@@ -129,6 +129,7 @@ namespace HearthDb.Enums
         STANDARD_PACK = 713,
         WILD_PACK = 714,
         GOLDEN_STANDARD_PACK = 716,
+        REVENDRETH = 729,
     }
 
     public enum BrawlType
@@ -219,6 +220,7 @@ namespace HearthDb.Enums
         CORE = 1637,
         VANILLA = 1646,
         THE_SUNKEN_CITY = 1658,
+        REVENDRETH = 1691,
         MERCENARIES_DEV = 1705,
         PLACEHOLDER_202204 = 1810,
     }
@@ -1126,6 +1128,7 @@ namespace HearthDb.Enums
         SPELLCRAFT_HINT = 2557,
         MERCS_BENCH = 2570,
         IMMOLATESTAGE = 2600,
+        DONT_SUPPRESS_KEYWORD_VO = 2636,
     }
 
     public enum GameType

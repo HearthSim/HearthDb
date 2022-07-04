@@ -10,6 +10,7 @@ namespace HearthDb.Tests
 	public class DeckSerializerTestLordJaraxxus
 	{
 		private const string DeckString = "AAECAfqUAwSR6AOFoATmvQSY1AQNwPkD0PkDg/sDsZ8EhKAEoaAE56AEuLQE3L0E4r0E9c4Em9QEo9QEAA==";
+		private const string WildDeckstring = "AAEBAfqUAwSR6AOFoATmvQSY1AQNwPkD0PkDg/sDsZ8EhKAEoaAE56AEuLQE3L0E4r0E9c4Em9QEo9QEAA==";
 		private const string ClassicDeckstring = "AAEDAfqUAwKlogTUogQO+5UEs5YEtJYEu5YE1ZYE2ZYE65YE7ZYE9JYEgaEEw6EE06EEo6IEw6MEAA==";
 
 		private const string FullDeckString = @"### Core Warlock
@@ -50,6 +51,19 @@ AAECAfqUAwSR6AOFoATmvQSY1AQNwPkD0PkDg/sDsZ8EhKAEoaAE56AEuLQE3L0E4r0E9c4Em9QEo9QE
 			var lordJaraxxus = cards.FirstOrDefault(c => c.Key.Id == CardIds.Collectible.Warlock.LordJaraxxusCore);
 			Assert.IsNotNull(lordJaraxxus);
 			Assert.AreEqual(1, lordJaraxxus.Value);
+		}
+
+		[TestMethod]
+		public void TestDeckStringsWild()
+		{
+			var deck = DeckSerializer.Deserialize(WildDeckstring);
+			Assert.AreEqual(CardIds.Collectible.Warlock.Guldan_MechaJaraxxusHeroHeroSkins, deck.GetHero().Id);
+			var cards = deck.GetCards();
+			Assert.AreEqual(30, cards.Values.Sum());
+			var lordJaraxxus = cards.FirstOrDefault(c => c.Key.Id == CardIds.Collectible.Warlock.LordJaraxxusCore);
+			Assert.IsNotNull(lordJaraxxus);
+			Assert.AreEqual(1, lordJaraxxus.Value);
+			Assert.AreEqual(FormatType.FT_WILD, deck.Format);
 		}
 
 		[TestMethod]

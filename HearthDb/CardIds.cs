@@ -12953,8 +12953,8 @@ namespace HearthDb
                 public const string PriestoftheDeceased_PriestOfTheDeceasedToken = "REV_956t";
                 public const string Murlocula_MurloculaToken = "REV_957t";
                 public const string AshenElemental_AshyEnchantment = "REV_960e";
-                public const string TheCoin16911 = "REV_COIN1";
-                public const string TheCoin16912 = "REV_COIN2";
+                public const string TheCoinREVENDRETH1 = "REV_COIN1";
+                public const string TheCoinREVENDRETH2 = "REV_COIN2";
             }
 
             public class Invalid

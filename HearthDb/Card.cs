@@ -183,6 +183,9 @@ namespace HearthDb
 		private bool? _isBaconPoolMinion;
 		public bool IsBaconPoolMinion => _isBaconPoolMinion ??= Entity.GetTag(IS_BACON_POOL_MINION) > 0;
 
+		private int? _battlegroundsArmorTier;
+		public int BattlegroundArmorTier => _battlegroundsArmorTier ??= Entity.GetTag((GameTag)1723);
+
 		private bool? _taunt;
 		public bool Taunt => _taunt ??= Entity.GetTag(TAUNT) > 0;
 

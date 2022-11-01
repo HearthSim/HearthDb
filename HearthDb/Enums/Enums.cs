@@ -130,6 +130,9 @@ namespace HearthDb.Enums
         WILD_PACK = 714,
         GOLDEN_STANDARD_PACK = 716,
         REVENDRETH = 729,
+        STORMWIND_GOLDEN = 737,
+        RETURN_OF_THE_LICH_KING = 821,
+        ALTERAC_VALLEY_GOLDEN = 841,
     }
 
     public enum BrawlType
@@ -222,6 +225,7 @@ namespace HearthDb.Enums
         THE_SUNKEN_CITY = 1658,
         REVENDRETH = 1691,
         MERCENARIES_DEV = 1705,
+        RETURN_OF_THE_LICH_KING = 1776,
         PLACEHOLDER_202204 = 1810,
     }
 
@@ -970,6 +974,7 @@ namespace HearthDb.Enums
         TRANSFORMED_FROM_CARD_VISUAL_TYPE = 1719,
         TRADEABLE = 1720,
         TOOL = 1722,
+        BATTLEGROUNDS_HERO_ARMOR_TIER = 1723,
         QUESTLINE = 1725,
         LETTUCE_MERCENARY_RESERVE = 1731,
         LETTUCE_SKIP_MERCENARY_RESERVE = 1732,
@@ -1025,6 +1030,7 @@ namespace HearthDb.Enums
         SPELLPOWER_FEL = 1951,
         SPELLPOWER_PHYSICAL = 1952,
         ENRAGED_TOOLTIP = 1954,
+        IMP = 1965,
         BLOOD_GEM = 1966,
         LETTUCE_HAS_MANUALLY_SELECTED_ABILITY = 1967,
         LETTUCE_KEEP_LAST_STANDING_MINION_ACTOR = 1976,
@@ -1115,6 +1121,7 @@ namespace HearthDb.Enums
         BATTLEGROUNDS_FAVORITE_FINISHER = 2348,
         LOCATION_ACTION_COST = 2352,
         LOCATION_ACTION_COOLDOWN = 2353,
+        WHELP = 2355,
         SPELLCRAFT = 2359,
         BACON_HERO_BUDDY_PROGRESS = 2364,
         REVIVE = 2369,
@@ -1128,6 +1135,7 @@ namespace HearthDb.Enums
         BACON_FREEZE = 2455,
         INFUSE = 2456,
         INFUSED = 2457,
+        HAS_DRAG_TO_BUY = 2458,
         ENTITY_TAG_THRESHOLD_TAG_ID = 2459,
         ENTITY_TAG_THRESHOLD_VALUE = 2460,
         MERCS_SPELLWEAKNESS = 2464,
@@ -1145,6 +1153,7 @@ namespace HearthDb.Enums
         BACON_MINION_TYPE_REWARD = 2571,
         COPIED_HINT = 2572,
         BLEEDING = 2575,
+        HAS_SIGNATURE_QUALITY = 2589,
         IMMOLATESTAGE = 2600,
         EVIL_TWIN_MUSTACHE = 2611,
         SINFUL_BRAND = 2613,
@@ -1580,6 +1589,7 @@ namespace HearthDb.Enums
         BATTLEGROUNDS_FINISHER = 28,
         BATTLEGROUNDS_BOARD_SKIN = 29,
         BATTLEGROUNDS_EMOTE = 30,
+        MERCENARY_RENOWN = 31,
     }
 
     public enum Role

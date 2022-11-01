@@ -71,7 +71,7 @@ namespace HearthDb
 						//2020
 						CardIds.Collectible.Priest.AuchenaiSoulpriest,
 						CardIds.Collectible.Priest.HolyFire,
-						CardIds.Collectible.Priest.ShadowformHOF,
+						CardIds.Collectible.Priest.ShadowformREWARD,
 						CardIds.Collectible.Priest.ProphetVelen,
 						CardIds.Collectible.Priest.DivineSpirit,
 						CardIds.Collectible.Priest.NorthshireCleric,

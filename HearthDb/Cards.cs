@@ -42,12 +42,7 @@ namespace HearthDb
 					var card = new Card(entity);
 					All.Add(entity.CardId, card);
 					AllByDbfId.Add(entity.DbfId, card);
-					if (card.Collectible && (card.Type != CardType.HERO || card.Set != CardSet.CORE && card.Set != CardSet.HERO_SKINS))
-					{
-						Collectible.Add(entity.CardId, card);
-						CollectibleByDbfId.Add(entity.DbfId, card);
-					}
-					if (card.Id == CardIds.Collectible.Warlock.LordJaraxxusCore)
+					if (card.Collectible && (card.Type != CardType.HERO || card.Set != CardSet.HERO_SKINS))
 					{
 						Collectible.Add(entity.CardId, card);
 						CollectibleByDbfId.Add(entity.DbfId, card);

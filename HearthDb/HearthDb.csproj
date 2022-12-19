@@ -6,8 +6,8 @@
     <Company>HearthSim</Company>
     <Product>HearthDb</Product>
     <Copyright>Copyright © HearthSim 2022</Copyright>
-    <AssemblyVersion>25.0.0.0</AssemblyVersion>
-    <FileVersion>25.0.0.0</FileVersion>
+    <AssemblyVersion>25.0.4.0</AssemblyVersion>
+    <FileVersion>25.0.4.0</FileVersion>
     <LangVersion>8</LangVersion>
   </PropertyGroup>
 
@@ -33,18 +33,6 @@
         <Message Importance="normal" Text="Fetching latest card data from hsdata repo." />
         <Exec WorkingDirectory="$(MSBuildProjectDirectory)/hsdata" Command="git fetch" />
         <Exec WorkingDirectory="$(MSBuildProjectDirectory)/hsdata" Command="git reset --hard origin/master" />
-    </Target>
-
-    <!-- On Release builds, verify that the version from the latest commit matches the AssemblyVersion of this project. -->
-    <Target Name="VerifyVersion" Condition="$(Configuration)=='Release'" BeforeTargets="PreBuildEvent" DependsOnTargets="CloneHSData;UpdateHSData">
-        <Message Importance="normal" Text="Verifying assembly version matches version from hsdata." />
-        <Exec WorkingDirectory="$(MSBuildProjectDirectory)/hsdata" Condition="$(OS)=='Windows_NT'" Command="powershell -ExecutionPolicy Unrestricted &quot;git log -1 | where {$_ -match 'Update to patch (\d+\.\d+\.\d+)\.\d+$' } | foreach { $matches[1] }&quot;" ConsoleToMSBuild="true">
-            <Output PropertyName="HsdataVersion" TaskParameter="ConsoleOutput" />
-        </Exec>
-        <Exec WorkingDirectory="$(MSBuildProjectDirectory)/hsdata" Condition="$(OS)=='Unix'" Command="git log -1 | grep -Po '(?&lt;=Update to patch )\d+\.\d+\.\d+'" ConsoleToMSBuild="true">
-            <Output PropertyName="HsdataVersion" TaskParameter="ConsoleOutput" />
-        </Exec>
-        <Error Condition="'$(HsdataVersion).0' != $(AssemblyVersion)" Text="Verification Error 1: Assembly version ($(AssemblyVersion)) does not match hsdata ($(HsdataVersion))" />
     </Target>
 
 </Project>

@@ -43,6 +43,30 @@ namespace HearthDb
 		private Race? _race;
 		public Race Race => _race ??= (Race)Entity.GetTag(CARDRACE);
 
+		private Race? _secondaryRace;
+
+		public Race SecondaryRace
+		{
+			get
+			{
+				if (_secondaryRace != null)
+					return (Race)_secondaryRace;
+
+				foreach (var tag in Entity.Tags)
+				{
+					Race retval;
+					if (RaceUtils.TagRaceMap.TryGetValue(tag.EnumId, out retval) && retval != Race)
+					{
+						_secondaryRace = retval;
+						return retval;
+					}
+				}
+
+				_secondaryRace = Race.INVALID;
+				return Race.INVALID;
+			}
+		}
+
 		private CardSet? _set;
 		public CardSet Set
 		{

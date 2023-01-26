@@ -23567,6 +23567,7 @@ namespace HearthDb
                 public const string ScabbsToken7 = "BOM_09_Scabbs_008t";
                 public const string TaskmasterSnivvleHeroic = "BOM_09_Snivvle_004hb";
                 public const string MinerTogwaggleToken = "BOM_09_Togwaggle_004t";
+                public const string ForsakenLieutenant = "BOM_10_AV_601";
                 public const string ScabbsTopAgentToken = "BOM_10_Scabbs_001t";
                 public const string ValeeraSanguinarToken = "BOM_10_Valeera_003t";
                 public const string ScabbsTavernBrawl = "TB_01_BOM_Mercs_Scabbs_001p";

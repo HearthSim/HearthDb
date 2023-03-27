@@ -9,7 +9,7 @@ namespace HearthDb.Tests
 	[TestClass]
 	public class DeckSerializerTestLordJaraxxus
 	{
-		private const string DeckString = "AAECAfqUAwSR6AOFoATmvQSY1AQNwPkD0PkDg/sDsZ8EhKAEoaAE56AEuLQE3L0E4r0E9c4Em9QEo9QEAA==";
+		private const string DeckString = "AAECAfqUAwSR6AOFoATmvQSY1AQNwPkD0PkDg/sDsZ8EhKAEoaAE56AEuLQE3L0E4r0E9c4Em9QEo9QEAAA=";
 		private const string WildDeckstring = "AAEBAfqUAwSR6AOFoATmvQSY1AQNwPkD0PkDg/sDsZ8EhKAEoaAE56AEuLQE3L0E4r0E9c4Em9QEo9QEAA==";
 		private const string ClassicDeckstring = "AAEDAfqUAwKlogTUogQO+5UEs5YEtJYEu5YE1ZYE2ZYE65YE7ZYE9JYEgaEEw6EE06EEo6IEw6MEAA==";
 
@@ -36,7 +36,7 @@ namespace HearthDb.Tests
 # 1x (5) Za'qul
 # 1x (9) Lord Jaraxxus
 # 
-AAECAfqUAwSR6AOFoATmvQSY1AQNwPkD0PkDg/sDsZ8EhKAEoaAE56AEuLQE3L0E4r0E9c4Em9QEo9QEAA==
+AAECAfqUAwSR6AOFoATmvQSY1AQNwPkD0PkDg/sDsZ8EhKAEoaAE56AEuLQE3L0E4r0E9c4Em9QEo9QEAAA=
 # 
 # To use this deck, copy it to your clipboard and create a new deck in Hearthstone
 ";

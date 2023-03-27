@@ -19,6 +19,11 @@ namespace HearthDb.Deckstrings
 		public Dictionary<int, int> CardDbfIds { get; set; } = new Dictionary<int, int>();
 
 		/// <summary>
+		/// Dictionary of (owner DbfId, Dictionary of (DbfId, Count)) for each card in each sideboard.
+		/// </summary>
+		public Dictionary<int, Dictionary<int, int>> Sideboards { get; set; } = new Dictionary<int, Dictionary<int, int>>();
+
+		/// <summary>
 		/// Format of the deck. Required.
 		/// </summary>
 		public FormatType Format { get; set; }
@@ -49,5 +54,20 @@ namespace HearthDb.Deckstrings
 		public Dictionary<Card, int> GetCards() => CardDbfIds
 			.Select(x => new { Card = Cards.GetFromDbfId(x.Key), Count = x.Value })
 			.Where(x => x.Card != null).ToDictionary(x => x.Card, x => x.Count);
+
+		/// <summary>
+		/// Converts (OwnerDbfId, (DbfId, Count)) dictionary to (OwnerCardObject, (CardObject, Count)).
+		/// </summary>
+		public Dictionary<Card, Dictionary<Card, int>> GetSideboards() => Sideboards
+			.Select(x => new
+			{
+				Owner = Cards.GetFromDbfId(x.Key), 
+				Sideboard = x.Value.Select(s => new
+				{
+					Card = Cards.GetFromDbfId(s.Key), 
+					Count = s.Value
+				}).Where(s => s.Card != null).ToDictionary(x => x.Card, x => x.Count)
+			})
+			.Where(x => x.Owner != null).ToDictionary(x => x.Owner, x => x.Sideboard);
 	}
 }

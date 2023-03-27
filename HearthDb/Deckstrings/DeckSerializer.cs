@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -29,8 +30,13 @@ namespace HearthDb.Deckstrings
 			if(deck.ZodiacYear > 0)
 				sb.AppendLine("# Year of the " + TitleCase(deck.ZodiacYear.ToString()));
 			sb.AppendLine("#");
-			foreach(var card in deck.GetCards().OrderBy(x => x.Key.Cost).ThenBy(x => x.Key.Name))
+			foreach (var card in deck.GetCards().OrderBy(x => x.Key.Cost).ThenBy(x => x.Key.Name))
+			{
 				sb.AppendLine($"# {card.Value}x ({card.Key.Cost}) {card.Key.Name}");
+				if (deck.GetSideboards().TryGetValue(card.Key, out var sideboard))
+					foreach (var sideboardCard in sideboard)
+						sb.AppendLine($"#   {sideboardCard.Value}x ({sideboardCard.Key.Cost}) {sideboardCard.Key.Name}");
+			}
 			sb.AppendLine("#");
 			sb.AppendLine(deckString);
 			sb.AppendLine("#");
@@ -86,6 +92,39 @@ namespace HearthDb.Deckstrings
 				{
 					Write(card.Key);
 					Write(card.Value);
+				}
+
+
+				var hasSideboard = deck.Sideboards.Values.Any(s => s.Values.Sum() > 0);
+				Write(hasSideboard ? 1 : 0);
+				if (hasSideboard)
+				{
+					var sideboardsCards = deck.Sideboards.SelectMany(s =>
+						s.Value.Select(x => new { Owner = s.Key, x.Key, x.Value })
+					).OrderBy(x => x.Key).ToList();
+					var sideboardsSingleCopy = sideboardsCards.Where(x => x.Value == 1).ToList();
+					var sideboardsDoubleCopy = sideboardsCards.Where(x => x.Value == 2).ToList();
+					var sideboardsNCopy = sideboardsCards.Where(x => x.Value > 2).ToList();
+
+					void WriteSideboardCard(int dbfId, int ownerDbfId, int? qty = null)
+					{
+						Write(dbfId);
+						Write(ownerDbfId);
+						if (qty != null)
+							Write((int)qty);
+					}
+
+					Write(sideboardsSingleCopy.Count);
+					foreach (var card in sideboardsSingleCopy)
+						WriteSideboardCard(card.Key, card.Owner);
+
+					Write(sideboardsDoubleCopy.Count);
+					foreach (var card in sideboardsDoubleCopy)
+						WriteSideboardCard(card.Key, card.Owner);
+
+					Write(sideboardsNCopy.Count);
+					foreach (var card in sideboardsNCopy)
+						WriteSideboardCard(card.Key, card.Owner, card.Value);
 				}
 
 				return Convert.ToBase64String(ms.ToArray());
@@ -183,6 +222,36 @@ namespace HearthDb.Deckstrings
 				var count = (int)Read();
 				AddCard(dbfId, count);
 			}
+
+			var hasSideboards = (int)Read();
+			if (hasSideboards == 1)
+			{
+				void AddSideboardCard(int? dbfId = null, int count = 1)
+				{
+					dbfId = dbfId ?? (int)Read();
+					var ownerDbfId = (int)Read();
+					if (!deck.Sideboards.ContainsKey(ownerDbfId))
+						deck.Sideboards[ownerDbfId] = new Dictionary<int, int>();
+					deck.Sideboards[ownerDbfId][dbfId.Value] = count;
+				}
+
+				var numSingleSideboardCards = (int)Read();
+				for (var i = 0; i < numSingleSideboardCards; i++)
+					AddSideboardCard();
+
+				var numDoubleSideboardCards = (int)Read();
+				for (var i = 0; i < numDoubleSideboardCards; i++)
+					AddSideboardCard(count: 2);
+
+				var numMultiSideboardCards = (int)Read();
+				for (var i = 0; i < numMultiSideboardCards; i++)
+				{
+					var dbfId = (int)Read();
+					var count = (int)Read();
+					AddSideboardCard(dbfId, count);
+				}
+			}
+
 			return deck;
 		}
 

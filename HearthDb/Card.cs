@@ -98,7 +98,7 @@ namespace HearthDb
 						CardIds.Collectible.Priest.ShadowformREWARD,
 						CardIds.Collectible.Priest.ProphetVelen,
 						CardIds.Collectible.Priest.DivineSpirit,
-						CardIds.Collectible.Priest.NorthshireCleric,
+						CardIds.Collectible.Priest.NorthshireClericREWARD,
 						CardIds.Collectible.Neutral.AcolyteOfPain,
 						CardIds.Collectible.Neutral.Spellbreaker,
 						CardIds.Collectible.Neutral.MindControlTech,

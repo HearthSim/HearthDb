@@ -1767,6 +1767,7 @@ namespace HearthDb.Enums
         PHOENIX = 5,
         GRYPHON = 6,
         HYDRA = 7,
+        WOLF = 8,
     }
 
     public enum Zone

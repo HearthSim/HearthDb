@@ -22496,6 +22496,7 @@ namespace HearthDb
                 public const string GrandMagisterRommath_ManaSatedEnchantment = "RLK_803e";
                 public const string KeyboardSoloist_KeyboardAmplifierToken = "ETC_029t";
                 public const string InfinitizetheMaxitude_InfinitizeTheMaxitudeEnchantment = "ETC_206e";
+                public const string InfinitizetheMaxitude_InfinitizedEnchantment = "ETC_206e2";
                 public const string DJManastorm_MillhouseInTheHouseEnchantment = "ETC_395e";
                 public const string DJManastorm_AmpItUpEnchantment = "ETC_395e2";
                 public const string CosmicKeyboard_CosmicCreationToken = "ETC_521t";

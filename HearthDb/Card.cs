@@ -219,6 +219,9 @@ namespace HearthDb
 		private bool? _poisonous;
 		public bool Poisonous => _poisonous ??= Entity.GetTag(POISONOUS) > 0;
 
+		private bool? _venomous;
+		public bool Venomous => _venomous ??= Entity.GetTag(VENOMOUS) > 0;
+
 		private bool? _windfury;
 		public bool Windfury => _windfury ??= Entity.GetTag(WINDFURY) > 0;
 

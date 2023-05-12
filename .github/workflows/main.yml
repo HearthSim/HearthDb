@@ -10,10 +10,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Setup .NET Core
-        uses: actions/setup-dotnet@v1
+        uses: actions/setup-dotnet@v2
         with:
           dotnet-version: 3.1.101
 
@@ -28,30 +28,30 @@ jobs:
 
       - name: Upload artifact
         if: github.event_name == 'push'
-        uses: actions/upload-artifact@v1.0.0
+        uses: actions/upload-artifact@v3
         with:
           name: HearthDb.dll
           path: "./HearthDb/bin/Release/netstandard2.0/HearthDb.dll"
 
   deploy:
     needs: build
-    if: github.event_name == 'push'
     runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    permissions:
+     id-token: write
+     contents: read
     steps:
       - name: Download artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v3
         with:
           name: HearthDb.dll
           path: bin
 
-      - name: Deploy
-        uses: jakejarvis/s3-sync-action@master
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v2
         with:
-          args: --acl public-read
-        env:
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: "us-east-1"
-          SOURCE_DIR: "bin"
-          DEST_DIR: "hdt"
+          role-to-assume: ${{ vars.HDT_LIBS_AWS_DEPLOY_ROLE_ARN }}
+          aws-region: us-east-1
+
+      - name: Deploy
+        run: aws s3 cp bin/*.dll s3://libs.hearthsim.net/hdt/

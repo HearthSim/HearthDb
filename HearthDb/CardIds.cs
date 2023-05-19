@@ -6306,8 +6306,9 @@ namespace HearthDb
                 public const string BattleStance1 = "PVPDR_AV_Passive27";
                 public const string BattleStanceEnchantment = "PVPDR_AV_Passive27e1";
                 public const string BattleStance2 = "PVPDR_AV_Passive27e2";
-                public const string RingOfBlackIce = "PVPDR_AV_Passive28";
+                public const string RingOfBlackIce1 = "PVPDR_AV_Passive28";
                 public const string RingOfBlackIceEnchantment = "PVPDR_AV_Passive28e1";
+                public const string RingOfBlackIce2 = "PVPDR_AV_Passive28e2";
                 public const string RingOfRefreshment = "PVPDR_AV_Passive30";
                 public const string RingOfRefreshmentEnchantment = "PVPDR_AV_Passive30e1";
                 public const string IdolsOfElune = "PVPDR_AV_Passive31";

@@ -4549,6 +4549,7 @@ namespace HearthDb
                 public const string Guldan_MascotNemsyHeroHeroSkins = "HERO_07ab";
                 public const string Guldan_OperaDivaTamsinHeroHeroSkins = "HERO_07ac";
                 public const string Guldan_GargoyldanHeroHeroSkins = "HERO_07ad";
+                public const string Guldan_RafaamHeroHeroSkinsEnchantment = "HERO_07ae";
                 public const string Guldan_MechaJaraxxusHeroHeroSkins = "HERO_07b";
                 public const string Guldan_ShadowGuldanHeroHeroSkins = "HERO_07c";
                 public const string Guldan_NzothHeroHeroSkins = "HERO_07d";
@@ -6665,6 +6666,7 @@ namespace HearthDb
                 public const string RecyclingPlayerEnchantment = "PVPDR_SCH_Passive17e";
                 public const string AllShallServeTavernBrawl1 = "PVPDR_SCH_Passive18";
                 public const string AllShallServeTavernBrawl2 = "PVPDR_SCH_Passive18e";
+                public const string AllShallServeTavernBrawl3 = "PVPDR_SCH_Passive18e2";
                 public const string CannibalismTavernBrawl1 = "PVPDR_SCH_Passive19";
                 public const string CannibalismTavernBrawl2 = "PVPDR_SCH_Passive19e";
                 public const string MmmSoTasty = "PVPDR_SCH_Passive19e2";
@@ -6676,6 +6678,7 @@ namespace HearthDb
                 public const string DragonboneRitualTavernBrawl1 = "PVPDR_SCH_Passive22";
                 public const string DragonboneRitualTavernBrawl2 = "PVPDR_SCH_Passive22e";
                 public const string DragonGraveyardTavernBrawl = "PVPDR_SCH_Passive22e2";
+                public const string DragonboneRitualTavernBrawl3 = "PVPDR_SCH_Passive22e3";
                 public const string FireshaperTavernBrawl1 = "PVPDR_SCH_Passive23";
                 public const string PileOfBones = "PVPDR_SCH_Passive23_T";
                 public const string FireshaperTavernBrawl2 = "PVPDR_SCH_Passive23e";
@@ -6694,6 +6697,7 @@ namespace HearthDb
                 public const string StruckClaim = "PVPDR_SCH_Passive34e2";
                 public const string StarvingTavernBrawl1 = "PVPDR_SCH_Passive36";
                 public const string StarvingTavernBrawl2 = "PVPDR_SCH_Passive36e";
+                public const string StarvingTavernBrawl3 = "PVPDR_SCH_Passive36e2";
                 public const string TheFloorIsLavaTavernBrawl1 = "PVPDR_SCH_Passive39";
                 public const string TheFloorIsLavaTavernBrawl2 = "PVPDR_SCH_Passive39e";
                 public const string LavaFloor = "PVPDR_SCH_Passive39e2";
@@ -6717,6 +6721,7 @@ namespace HearthDb
                 public const string MeekMastery_MeekMasteryEnchantment2 = "PVPDR_SW_Passive_04e3";
                 public const string LegendaryLoot = "PVPDR_SW_Passive_06";
                 public const string LegendaryLoot_LegendaryLootEnchantmentEnchantment = "PVPDR_SW_Passive_06e1";
+                public const string LegendaryLoot_LootedEnchantment = "PVPDR_SW_Passive_06e2";
                 public const string DeathlyDeath = "PVPDR_SW_Passive_07";
                 public const string DeathlyDeath_DeathlyDeathEnchantmentEnchantment = "PVPDR_SW_Passive_07e1";
                 public const string OopsAllSpells = "PVPDR_SW_Passive_08";
@@ -21652,7 +21657,8 @@ namespace HearthDb
                 public const string SlatesSyringe = "PVPDR_036";
                 public const string StalkersSupplies = "PVPDR_AV_Neutralt3";
                 public const string SpreadShotTavernBrawl = "PVPDR_Brann_HP1";
-                public const string DinoTrackingTavernBrawl = "PVPDR_Brann_HP3";
+                public const string DinoTrackingTavernBrawl1 = "PVPDR_Brann_HP3";
+                public const string DinoTrackingTavernBrawl2 = "PVPDR_Brann_HP3e1";
                 public const string BrannsSaddleTavernBrawl = "PVPDR_Brann_T2";
                 public const string JrExcavatorTavernBrawl = "PVPDR_Brann_T4";
                 public const string SrExcavatorTavernBrawl = "PVPDR_Brann_T4_2";
@@ -22280,6 +22286,7 @@ namespace HearthDb
                 public const string JoinForces = "FB_Toki2_Hero";
                 public const string ElementalLearning = "PVPDR_042";
                 public const string MagisterUnchained1 = "PVPDR_AV_Neutralt10";
+                public const string Phaseshifted = "PVPDR_AV_Passive03e2";
                 public const string WaterElementalTavernBrawl = "PVPDR_AV_Passive36m1";
                 public const string SecretStudies = "PVPDR_DMF_Magep1";
                 public const string FrostTavernBrawl = "PVPDR_Duels_Buckets_MFrost";

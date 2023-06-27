@@ -60,6 +60,9 @@ namespace HearthDb.Enums
         BGT_CASUAL_CLASSIC = 59,
         BGT_MERCENARIES_PVE_COOP = 60,
         BGT_MERCENARIES_FRIENDLY = 61,
+		BGT_BATTLEGROUNDS_PLAYER_VS_AI = 62,
+		BGT_RANKED_TWIST = 63,
+		BGT_CASUAL_TWIST = 64,
     }
 
     public enum BnetRegion
@@ -373,6 +376,7 @@ namespace HearthDb.Enums
         FT_WILD = 1,
         FT_STANDARD = 2,
         FT_CLASSIC = 3,
+        FT_TWIST = 4,
     }
 
     public enum GameTag

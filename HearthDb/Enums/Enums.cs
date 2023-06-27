@@ -60,9 +60,9 @@ namespace HearthDb.Enums
         BGT_CASUAL_CLASSIC = 59,
         BGT_MERCENARIES_PVE_COOP = 60,
         BGT_MERCENARIES_FRIENDLY = 61,
-		BGT_BATTLEGROUNDS_PLAYER_VS_AI = 62,
-		BGT_RANKED_TWIST = 63,
-		BGT_CASUAL_TWIST = 64,
+        BGT_BATTLEGROUNDS_PLAYER_VS_AI = 62,
+        BGT_RANKED_TWIST = 63,
+        BGT_CASUAL_TWIST = 64,
     }
 
     public enum BnetRegion
@@ -134,6 +134,7 @@ namespace HearthDb.Enums
         GOLDEN_STANDARD_PACK = 716,
         REVENDRETH = 729,
         STORMWIND_GOLDEN = 737,
+        TITANS = 819,
         RETURN_OF_THE_LICH_KING = 821,
         ALTERAC_VALLEY_GOLDEN = 841,
         BATTLE_OF_THE_BANDS = 854,
@@ -233,6 +234,7 @@ namespace HearthDb.Enums
         RETURN_OF_THE_LICH_KING = 1776,
         BATTLE_OF_THE_BANDS = 1809,
         PLACEHOLDER_202204 = 1810,
+        TITANS = 1858,
         PATH_OF_ARTHAS = 1869,
     }
 
@@ -907,6 +909,7 @@ namespace HearthDb.Enums
         HIGHLIGHT_ATTACKING_MINION_DURING_COMBAT = 1424,
         BACON_HIGHLIGHT_ATTACKING_MINION_DURING_COMBAT = 1424,
         SPELLBURST = 1427,
+        BACON_TRIPLE_UPGRADE_MINION_ID = 1429,
         RULEBOOK = 1430,
         FX_DATANUM_1 = 1436,
         BACON_ACTION_CARD = 1437,
@@ -923,6 +926,7 @@ namespace HearthDb.Enums
         BATTLEGROUNDS_PREMIUM_EMOTES = 1463,
         MOVE_MINION_HOVER_TARGET_SLOT = 1464,
         BACON_COIN_ON_ENEMY_MINIONS = 1467,
+        BACON_TRIPLED_BASE_MINION_ID = 1471,
         ALWAYS_USE_FAST_ACTOR_TRIGGERS = 1473,
         PIECE_OF_CTHUN = 1477,
         BACON_HERO_CAN_BE_DRAFTED = 1491,
@@ -1394,6 +1398,17 @@ namespace HearthDb.Enums
         MAGE_ROGUE = 11,
         ROGUE_WARRIOR = 12,
         PALADIN_WARRIOR = 13,
+        MAGE_HUNTER = 28,
+        HUNTER_DEATHKNIGHT = 29,
+        DEATHKNIGHT_PALADIN = 30,
+        PALADIN_SHAMAN = 31,
+        SHAMAN_WARRIOR = 32,
+        WARRIOR_DEMONHUNTER = 33,
+        DEMONHUNTER_ROGUE = 34,
+        ROGUE_PRIEST = 35,
+        PRIEST_DRUID = 36,
+        DRUID_WARLOCK = 37,
+        WARLOCK_MAGE = 38,
     }
 
     public enum OptionType

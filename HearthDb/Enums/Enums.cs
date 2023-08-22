@@ -139,6 +139,7 @@ namespace HearthDb.Enums
         RETURN_OF_THE_LICH_KING = 821,
         ALTERAC_VALLEY_GOLDEN = 841,
         BATTLE_OF_THE_BANDS = 854,
+        CAVERNS_OF_TIME = 894,
         PATH_OF_ARTHAS = 903,
     }
 
@@ -237,6 +238,7 @@ namespace HearthDb.Enums
         PLACEHOLDER_202204 = 1810,
         TITANS = 1858,
         PATH_OF_ARTHAS = 1869,
+        WONDERS = 1898,
     }
 
     public enum CardTextBuilderType
@@ -314,6 +316,7 @@ namespace HearthDb.Enums
         BATTLEGROUND_HERO_BUDDY = 24,
         LOCATION = 39,
         BATTLEGROUND_QUEST_REWARD = 40,
+        BATTLEGROUND_ANOMALY = 43,
     }
 
     public enum ChoiceType
@@ -1261,6 +1264,7 @@ namespace HearthDb.Enums
         BACON_PUTRICIDESCREATION_TOOLTIP = 2875,
         TAG_SCRIPT_DATA_NUM_3 = 2889,
         CARD_NAME_DATA_1 = 2890,
+        BACON_GLOBAL_ANOMALY_DBID = 2897,
         BACON_COSTS_HEALTH_TO_BUY = 2911,
         TAG_SCRIPT_DATA_NUM_4 = 2919,
         TAG_SCRIPT_DATA_NUM_5 = 2920,
@@ -1276,16 +1280,23 @@ namespace HearthDb.Enums
         FORGED = 3011,
         BUILDING_UP = 3016,
         BACON_PAIR_CANDIDATE = 3031,
+        CTHUN_TAUNT_BUFF = 3034,
         BACON_TRIGGER_UPBEAT = 3046,
         BACON_TRIGGER_XY = 3047,
         FAN_LINK = 3052,
+        CTHUN_HEALTH_BUFF = 3053,
+        CTHUN_ATTACK_BUFF = 3054,
         FORGE_REVEALED = 3070,
         FORGES_INTO = 3074,
+        FX_DATANUM_2 = 3077,
+        RITUALIST_MINION = 3078,
+        FX_DATANUM_3 = 3109,
         SUMMONED_WHEN_DRAWN = 3128,
         IS_ALTERNATE_HEROPOWER = 3130,
         TITAN_ABILITY_USED_1 = 3140,
         TITAN_ABILITY_USED_2 = 3141,
         TITAN_ABILITY_USED_3 = 3142,
+        SUPPRESS_EVIL_TWIN_MUSTACHE_SOUND = 3198,
     }
 
     public enum GameType
@@ -1536,6 +1547,7 @@ namespace HearthDb.Enums
         REQ_TARGET_IF_AVAILABLE_AND_SOUL_FRAGMENT_IN_DECK = 101,
         REQ_DAMAGED_TARGET_UNLESS_COMBO = 102,
         REQ_NOT_MINION_DORMANT = 103,
+        REQ_TARGET_NOT_UNTOUCHABLE = 104,
         REQ_TARGET_NOT_DORMANT = 104,
         REQ_TARGET_IF_AVAILABLE_AND_BOUGHT_RACE_THIS_TURN = 105,
         REQ_TARGET_IF_AVAILABLE_AND_SOLD_RACE_THIS_TURN = 106,
@@ -1560,6 +1572,7 @@ namespace HearthDb.Enums
         REQ_FORGE = 136,
         REQ_HAS_PLAYED_SPELL_THIS_GAME = 137,
         REQ_TARGET_IS_NON_TITAN = 141,
+        REQ_TARGET_EXACT_ATTACK = 143,
         REQ_DRAG_TO_PLAY = 999,
     }
 

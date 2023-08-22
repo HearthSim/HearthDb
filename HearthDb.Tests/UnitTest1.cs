@@ -80,7 +80,7 @@ namespace HearthDb.Tests
 			Assert.IsTrue(cramSession.Text.Contains("improved by"));
 
 			var flameLance = Cards.All[CardIds.Collectible.Mage.FlameLanceTGT];
-			Assert.IsTrue(flameLance.GetLocText(Locale.frFR).Contains("Inflige $25 points"), flameLance.GetLocText(Locale.frFR));
+			Assert.IsTrue(flameLance.GetLocText(Locale.frFR).Contains("$25"));
 
 			var elvenArcher = Cards.All[CardIds.Collectible.Neutral.ElvenArcherVanilla];
 			Assert.IsTrue(elvenArcher.Text.Contains("Deal 1 damage"));

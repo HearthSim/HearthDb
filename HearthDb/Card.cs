@@ -99,7 +99,7 @@ namespace HearthDb
 						CardIds.Collectible.Priest.ProphetVelen,
 						CardIds.Collectible.Priest.DivineSpirit,
 						CardIds.Collectible.Priest.NorthshireClericREWARD,
-						CardIds.Collectible.Neutral.AcolyteOfPain,
+						CardIds.Collectible.Neutral.AcolyteOfPainREWARD,
 						CardIds.Collectible.Neutral.Spellbreaker,
 						CardIds.Collectible.Neutral.MindControlTech,
 						CardIds.Collectible.Neutral.MountainGiant,

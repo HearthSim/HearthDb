@@ -141,6 +141,7 @@ namespace HearthDb.Enums
         BATTLE_OF_THE_BANDS = 854,
         CAVERNS_OF_TIME = 894,
         PATH_OF_ARTHAS = 903,
+        WILD_WEST = 922,
     }
 
     public enum BrawlType
@@ -238,6 +239,7 @@ namespace HearthDb.Enums
         PLACEHOLDER_202204 = 1810,
         TITANS = 1858,
         PATH_OF_ARTHAS = 1869,
+        WILD_WEST = 1892,
         WONDERS = 1898,
     }
 
@@ -1296,7 +1298,10 @@ namespace HearthDb.Enums
         TITAN_ABILITY_USED_1 = 3140,
         TITAN_ABILITY_USED_2 = 3141,
         TITAN_ABILITY_USED_3 = 3142,
+        ANOMALY1 = 3182,
+        ANOMALY2 = 3183,
         SUPPRESS_EVIL_TWIN_MUSTACHE_SOUND = 3198,
+        HERO_DOESNT_MOVE_ON_ATTACK = 3211,
     }
 
     public enum GameType
@@ -1395,6 +1400,7 @@ namespace HearthDb.Enums
         STUB_20_6_LETTUCE = 23,
         HISTORY_TRIGGER_SOURCE = 24,
         HISTORY_SOURCE_OWNER = 25,
+        HISTORY_REMOVE_ENTITIES = 26,
     }
 
     public enum Mulligan

@@ -306,7 +306,7 @@ namespace HearthDb
                 public const string AcidicSwampOoze = "CORE_EX1_066";
                 public const string MadBomberCore = "CORE_EX1_082";
                 public const string DefenderOfArgusCore = "CORE_EX1_093";
-                public const string GadgetzanAuctioneerCore = "CORE_EX1_095";
+                public const string GadgetzanAuctioneerPLACEHOLDER_202204 = "CORE_EX1_095";
                 public const string LootHoarderCore = "CORE_EX1_096";
                 public const string ColdlightSeerCore = "CORE_EX1_103";
                 public const string CairneBloodhoofCore = "CORE_EX1_110";
@@ -681,7 +681,7 @@ namespace HearthDb
                 public const string MindControlTech = "EX1_085";
                 public const string ArcaneGolem = "EX1_089";
                 public const string DefenderOfArgus = "EX1_093";
-                public const string GadgetzanAuctioneer = "EX1_095";
+                public const string GadgetzanAuctioneerExpert1 = "EX1_095";
                 public const string LootHoarder = "EX1_096";
                 public const string Abomination = "EX1_097";
                 public const string LorewalkerCho = "EX1_100";

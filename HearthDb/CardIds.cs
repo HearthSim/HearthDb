@@ -1619,6 +1619,7 @@ namespace HearthDb
                 public const string AcolyteOfPainWONDERS = "WON_357";
                 public const string StreetTricksterWONDERS = "WON_365";
                 public const string WorgenGreaserWONDERS = "WON_366";
+                public const string Thunderbringer = "WW_440";
                 public const string EscapedManasaberYEAR_OF_THE_DRAGON = "YOD_006";
                 public const string SkydivingInstructor = "YOD_028";
                 public const string Hailbringer = "YOD_029";
@@ -1673,6 +1674,7 @@ namespace HearthDb
                 public const string TheLichKing_FrostmongerSaiHeroHeroSkins = "HERO_11i";
                 public const string TheLichKing_SeaReaverIngeHeroHeroSkins = "HERO_11j";
                 public const string TheLichKing_GladiatorMograineHeroHeroSkins = "HERO_11k";
+                public const string TheLichKing_BloodQueenLanathelHeroHeroSkins = "HERO_11l";
                 public const string TheLichKing_FrostbringerArthasHeroHeroSkins = "HERO_11m";
                 public const string TheLichKing_ZombieQueenScarletHeroHeroSkins = "HERO_11n";
                 public const string YellingYodeler = "JAM_005";
@@ -1963,6 +1965,7 @@ namespace HearthDb
                 public const string MalfurionStormrage_BookwormEliseHeroHeroSkins = "HERO_06af";
                 public const string MalfurionStormrage_AstralXuenHeroHeroSkins = "HERO_06ag";
                 public const string MalfurionStormrageHeroic_CthunHeroHeroSkins = "HERO_06ah";
+                public const string MalfurionStormrage_UlfarHeroHeroSkins = "HERO_06ai";
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
                 public const string MalfurionStormrage_DameHazelbarkHeroHeroSkins = "HERO_06d";
@@ -2786,6 +2789,7 @@ namespace HearthDb
                 public const string JainaProudmoore_FrostflameVardenHeroHeroSkins = "HERO_08an";
                 public const string JainaProudmoore_CelesteIalHeroHeroSkinsEnchantment = "HERO_08ao";
                 public const string JainaProudmoore_ShipmasterMedivhHeroHeroSkins = "HERO_08ap";
+                public const string JainaProudmoore_JainaSanguinarHeroHeroSkins = "HERO_08aq";
                 public const string JainaProudmoore_KhadgarHeroHeroSkins = "HERO_08b";
                 public const string JainaProudmoore_FireMageJainaHeroHeroSkins = "HERO_08c";
                 public const string JainaProudmoore_CelesteHeroHeroSkins = "HERO_08d";
@@ -3195,6 +3199,7 @@ namespace HearthDb
                 public const string UtherLightbringer_ClockworkAnnoyOHeroHeroSkins = "HERO_04ag";
                 public const string UtherLightbringerHeroic_ShieldMaidenYrelHeroHeroSkins = "HERO_04ah";
                 public const string UtherLightbringer_NozdormuHeroHeroSkins = "HERO_04ai";
+                public const string UtherLightbringer_ChickenLeeroyHeroHeroSkins = "HERO_04aj";
                 public const string UtherLightbringer_PrinceArthasHeroHeroSkins = "HERO_04b";
                 public const string UtherLightbringer_SirAnnoyOHeroHeroSkins = "HERO_04c";
                 public const string UtherLightbringer_LightforgedUtherHeroHeroSkins = "HERO_04d";
@@ -5265,6 +5270,7 @@ namespace HearthDb
                 public const string GarroshHellscream_WardenVanndarHeroHeroSkins = "HERO_01af";
                 public const string GarroshHellscream_EarthenMagniHeroHeroSkins = "HERO_01ag";
                 public const string GarroshHellscreamHeroic_ArenaChampionRokaraHeroHeroSkins = "HERO_01ah";
+                public const string GarroshHellscream_MoknathalGarroshHeroHeroSkins = "HERO_01ai";
                 public const string GarroshHellscream_CorruptGarroshHeroHeroSkins = "HERO_01b";
                 public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";
                 public const string GarroshHellscream_NagrandGarroshHeroHeroSkins = "HERO_01d";
@@ -5603,6 +5609,7 @@ namespace HearthDb
                 public const string IllidanStormrage_FelblazeIllidanHeroHeroSkins = "HERO_10ac";
                 public const string IllidanStormrage_RavenlordKurtrusHeroHeroSkins = "HERO_10ad";
                 public const string IllidanStormrage_OmenChainedHeroHeroSkinsEnchantment = "HERO_10ae";
+                public const string IllidanStormrage_PirateIllidanHeroHeroSkins = "HERO_10af";
                 public const string IllidanStormrage_ArannaStarseekerHeroHeroSkins = "HERO_10b";
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
                 public const string IllidanStormrage_FelravagerIllidanHeroHeroSkins = "HERO_10d";
@@ -5837,7 +5844,7 @@ namespace HearthDb
                 public const string MagmaRager = "TU5_CS2_118";
                 public const string OasisSnapjaw = "TU5_CS2_119";
                 public const string RiverCrocolisk = "TU5_CS2_120";
-                public const string FrostwolfGrunt = "TU5_CS2_121";
+                public const string FrostwolfGruntMissions = "TU5_CS2_121";
                 public const string RaidLeader = "TU5_CS2_122";
                 public const string Wolfrider = "TU5_CS2_124";
                 public const string SilverbackPatriarchMissions = "TU5_CS2_127";
@@ -9977,6 +9984,7 @@ namespace HearthDb
                 public const string FinleyPlagueDamageWatcher = "ULDA_Finley_PDWatcher";
                 public const string RenoHeroPowerWatcher = "ULDA_Reno_HPe";
                 public const string RenoPlagueDamageWatcher = "ULDA_Reno_PDWatcher";
+                public const string SlitherspearLordofGains_BigGainsEnchantment = "BG27_083e";
                 public const string RighteousCause_RighteousCauseEnchantment = "DRG_008e";
                 public const string TastyFlyfish_WellFedEnchantment = "DRG_049e";
                 public const string DraconicLackey = "DRG_052";
@@ -10631,6 +10639,7 @@ namespace HearthDb
                 public const string CookietheCook_SousChef2 = "BG21_HERO_020_Buddy_G";
                 public const string CookietheCook_SmoreMasterCookie = "BG21_HERO_020_SKIN_A2";
                 public const string CookietheCook_FeastmasterCookie = "BG21_HERO_020_SKIN_B";
+                public const string CookietheCook_YshaarjCookie = "BG21_HERO_020_SKIN_C";
                 public const string CookietheCook_StirThePot = "BG21_HERO_020p";
                 public const string Sneed_PilotedWhirlOTron1 = "BG21_HERO_030_Buddy";
                 public const string Sneed_Whirling = "BG21_HERO_030_Buddy_e";
@@ -11238,6 +11247,8 @@ namespace HearthDb
                 public const string ETCBandManager_SignANewArtist = "BG25_HERO_105p";
                 public const string FairyTaleCaroler = "BG26_001";
                 public const string FairyTaleCaroler_FairyTaleCaroler = "BG26_001_G";
+                public const string RapscallionRecruiter = "BG26_018";
+                public const string RapscallionRecruiter_RapscallionRecruiter = "BG26_018_G";
                 public const string RecurringNightmare = "BG26_055";
                 public const string RecurringNightmare_RecurringNightmare = "BG26_055_G";
                 public const string RecurringNightmare_NightmareInside = "BG26_055_Ge";
@@ -11535,6 +11546,21 @@ namespace HearthDb
                 public const string SoreLoser = "BG27_030";
                 public const string SoreLoser_SoreLoser = "BG27_030_G";
                 public const string SoreLoser_NoImWinningEnchantment = "BG27_030e";
+                public const string HawkstriderHerald = "BG27_079";
+                public const string HawkstriderHerald_HawkstriderHerald = "BG27_079_G";
+                public const string MotleyPhalanx = "BG27_080";
+                public const string MotleyPhalanx_MotleyPhalanx = "BG27_080_G";
+                public const string MotleyPhalanx_PhalanxFormation = "BG27_080_Ge";
+                public const string MotleyPhalanx_PhalanxFormationEnchantment = "BG27_080e";
+                public const string CultistSthara = "BG27_081";
+                public const string CultistSThara_CultistSthara = "BG27_081_G";
+                public const string HeedlessHoarder = "BG27_082";
+                public const string HeedlessHoarder_HeedlessHoarder = "BG27_082_G";
+                public const string HeedlessHoarder_HoardedEnchantment = "BG27_082e";
+                public const string SlitherspearLordOfGains = "BG27_083";
+                public const string SlitherspearLordofGains_SlitherspearLordOfGains = "BG27_083_G";
+                public const string SprightlyScarab = "BG27_084";
+                public const string SprightlyScarab_SprightlyScarab = "BG27_084_G";
                 public const string CarbonicCopy = "BG27_503";
                 public const string CarbonicCopy_CarbonicCopy = "BG27_503_G";
                 public const string MannorothBATTLEGROUNDS = "BG27_507";
@@ -11553,6 +11579,12 @@ namespace HearthDb
                 public const string MoiraBronzebeard_MoiraBronzebeard = "BG27_518_G";
                 public const string TimeSaver = "BG27_520";
                 public const string TimeSaver_TimeSaver = "BG27_520_G";
+                public const string AdmiralElizaGoreblade = "BG27_555";
+                public const string AdmiralElizaGoreblade_AdmiralElizaGoreblade = "BG27_555_G";
+                public const string AdmiralElizaGoreblade_Yaharr = "BG27_555_Ge";
+                public const string AdmiralElizaGoreblade_YaharrEnchantment = "BG27_555e";
+                public const string DiremuckForager = "BG27_556";
+                public const string DiremuckForager_DiremuckForager = "BG27_556_G";
                 public const string Niuzao = "BG27_822";
                 public const string Niuzao_Niuzao = "BG27_822_G";
                 public const string MoneyMatch = "BG27_Anomaly_000";
@@ -11564,6 +11596,9 @@ namespace HearthDb
                 public const string MimironsClockworkStadium = "BG27_Anomaly_005";
                 public const string CurseOfAggramar = "BG27_Anomaly_006";
                 public const string BigLeague = "BG27_Anomaly_100";
+                public const string WhatAreTheOdds = "BG27_Anomaly_101";
+                public const string WhatAretheOdds_TripleRewardToken = "BG27_Anomaly_101t";
+                public const string HowToEven = "BG27_Anomaly_102";
                 public const string TavernSpecial = "BG27_Anomaly_103";
                 public const string OopsAllBeastsToken = "BG27_Anomaly_104t";
                 public const string OopsAllPiratesToken = "BG27_Anomaly_104t10";
@@ -11579,12 +11614,29 @@ namespace HearthDb
                 public const string EonarsOvergrownArena_EonarPlayerEnchantEnchantment = "BG27_Anomaly_300e";
                 public const string EonarsOvergrownArena_OvergrownEnchantment = "BG27_Anomaly_300e2";
                 public const string FalseIdols = "BG27_Anomaly_301";
+                public const string BringHomeTheBacon = "BG27_Anomaly_302";
+                public const string BringHometheBacon_PiggyBankToken = "BG27_Anomaly_302t";
                 public const string GrapnelOfTheTitans = "BG27_Anomaly_303";
                 public const string OopsAllEvil = "BG27_Anomaly_307";
                 public const string RecklessEnhancement_RecklesslyEnhancedEnchantment1 = "BG27_Anomaly_505e_divineshield";
                 public const string RecklessEnhancement_RecklesslyEnhancedEnchantment2 = "BG27_Anomaly_505e_reborn";
                 public const string RecklessEnhancement_RecklesslyEnhancedEnchantment3 = "BG27_Anomaly_505e_taunt";
                 public const string RecklessEnhancement_RecklesslyEnhancedEnchantment4 = "BG27_Anomaly_505e_windfury";
+                public const string NoPlaceLikeHolmes = "BG27_Anomaly_555";
+                public const string NoPlaceLikeHolmes_NoPlaceLikeHolmesToken = "BG27_Anomaly_555t";
+                public const string ValuationInflation = "BG27_Anomaly_556";
+                public const string FelineFortune = "BG27_Anomaly_558";
+                public const string TreasureHoard1 = "BG27_Anomaly_559";
+                public const string AnomalousTwin = "BG27_Anomaly_560";
+                public const string AnomalousBribe = "BG27_Anomaly_561";
+                public const string AnomalousWisdomball = "BG27_Anomaly_562";
+                public const string TreasureHoard2 = "BG27_Anomaly_570";
+                public const string TreasureHoard3 = "BG27_Anomaly_571";
+                public const string TreasureHoard4 = "BG27_Anomaly_572";
+                public const string TreasureHoard5 = "BG27_Anomaly_573";
+                public const string EleventhHour = "BG27_Anomaly_575";
+                public const string EleventhHour_EleventhHourToken = "BG27_Anomaly_575t";
+                public const string NoFaceNoCase = "BG27_Anomaly_577";
                 public const string DoubleHeader = "BG27_Anomaly_711";
                 public const string EverythingsOnFire = "BG27_Anomaly_714";
                 public const string GladiatorsSpoils = "BG27_Anomaly_715";
@@ -11598,23 +11650,28 @@ namespace HearthDb
                 public const string BlessedorBlighted_RightAndBlightedEnchantment = "BG27_Anomaly_726e2";
                 public const string PackedStands = "BG27_Anomaly_750";
                 public const string PerfectedAlchemy = "BG27_Anomaly_751";
-                public const string KeyedInEnchantment = "BG27_Anomaly_753e";
+                public const string TheKeysToVictory = "BG27_Anomaly_753";
+                public const string TheKeystoVictory_KeyedInEnchantment = "BG27_Anomaly_753e";
                 public const string PathOfTheTreasureSeeker = "BG27_Anomaly_754";
                 public const string AFaireReward = "BG27_Anomaly_755";
                 public const string AFaireReward_TripleRewardToken = "BG27_Anomaly_755t";
                 public const string LittleLeague = "BG27_Anomaly_800";
                 public const string TheGoldenArena = "BG27_Anomaly_801";
                 public const string EchoesOfArgus = "BG27_Anomaly_802";
-                public const string TransientTreasures = "BG27_Anomaly_803";
-                public const string TransientTreasures_TransientTreasuresPlayerEnchEnchantment = "BG27_Anomaly_803e";
-                public const string TransientTreasures_TransientTreasuresActivationDntToken = "BG27_Anomaly_803t";
+                public const string AnomalousEvidence = "BG27_Anomaly_803";
+                public const string AnomalousEvidence_AnomalousEvidencePlayerEnchEnchantment = "BG27_Anomaly_803e";
+                public const string AnomalousEvidence_AnomalousEvidenceActivationDntToken = "BG27_Anomaly_803t";
                 public const string MatchFixing = "BG27_Anomaly_805";
                 public const string MatchFixing_RememberPrizeEnchantment = "BG27_Anomaly_805e";
                 public const string MatchFixing_MatchFixingToken = "BG27_Anomaly_805t";
                 public const string BringInTheBuddies = "BG27_Anomaly_810";
+                public const string DeepBlueSooner = "BG27_Anomaly_820";
                 public const string DenathriusAnimaReserves = "BG27_Anomaly_822";
                 public const string FortitudeOfKhazgoroth = "BG27_Anomaly_830";
                 public const string GolgannethsTempest = "BG27_Anomaly_900";
+                public const string Buddies = "BG27_Anomaly_Buddies";
+                public const string DarkmoonPrizes = "BG27_Anomaly_Prizes";
+                public const string Quests = "BG27_Anomaly_Quests";
                 public const string BonusAnomalyCountdownDeprecated = "BG27_AnomalyMidCountdown";
                 public const string ThorimStormlord = "BG27_HERO_801";
                 public const string ThorimStormlord_EmperorThorim = "BG27_HERO_801_SKIN_A";
@@ -11648,6 +11705,8 @@ namespace HearthDb
                 public const string EndlessBloodMoon = "BG27_Reward_815";
                 public const string Shielding = "BG27_TTN_852_Ge";
                 public const string ShieldingEnchantment = "BG27_TTN_852e";
+                public const string AudaciousAnchor = "BG28_904";
+                public const string AudaciousAnchor_AudaciousAnchor = "BG28_904_G";
                 public const string NathrezimOverseer = "BGS_001";
                 public const string NathrezimOverseer_ImpishEnchantment = "BGS_001e";
                 public const string WrathWeaver = "BGS_004";
@@ -11663,6 +11722,7 @@ namespace HearthDb
                 public const string PackLeader_FeralCallingEnchantment = "BGS_017e";
                 public const string GoldrinnTheGreatWolf = "BGS_018";
                 public const string GoldrinntheGreatWolf_SoulOfTheBeastEnchantment = "BGS_018e";
+                public const string GoldrinntheGreatWolf_GoldrinnPlayerEnchant = "BGS_018pe";
                 public const string RedWhelp = "BGS_019";
                 public const string MamaBear = "BGS_021";
                 public const string MamaBear_RampageEnchantment = "BGS_021e";
@@ -11832,6 +11892,7 @@ namespace HearthDb
                 public const string Galakrond_DeepSeaGalakrondTavernBrawl = "TB_BaconShop_HERO_02_SKIN_A";
                 public const string Galakrond_RuneRaisedGalakrondTavernBrawl = "TB_BaconShop_HERO_02_SKIN_B";
                 public const string Galakrond_GalakrondProtoMurlocTavernBrawl = "TB_BaconShop_HERO_02_SKIN_C";
+                public const string Galakrond_NeltharionGalakrondTavernBrawl = "TB_BaconShop_HERO_02_SKIN_D";
                 public const string IllidanStormrageTavernBrawl2 = "TB_BaconShop_HERO_08";
                 public const string IllidanStormrage_EclipsionIllidariTavernBrawl1 = "TB_BaconShop_HERO_08_Buddy";
                 public const string IllidanStormrage_DarkenedHeartTavernBrawl = "TB_BaconShop_HERO_08_Buddy_e";
@@ -11870,6 +11931,7 @@ namespace HearthDb
                 public const string TheRatKing_TheMartialRatTavernBrawl = "TB_BaconShop_HERO_12_SKIN_A";
                 public const string TheRatKing_TheRatPrinceTavernBrawl = "TB_BaconShop_HERO_12_SKIN_B";
                 public const string TheRatKing_NutcrackerKingTavernBrawl = "TB_BaconShop_HERO_12_SKIN_C";
+                public const string TheRatKing_GalewingRatKingTavernBrawl = "TB_BaconShop_HERO_12_SKIN_D";
                 public const string QueenWagtoggleTavernBrawl = "TB_BaconShop_HERO_14";
                 public const string QueenWagtoggle_ElderTaggawagTavernBrawl1 = "TB_BaconShop_HERO_14_Buddy";
                 public const string QueenWagtoggle_ElderTaggawagTavernBrawl2 = "TB_BaconShop_HERO_14_Buddy_G";
@@ -11900,6 +11962,7 @@ namespace HearthDb
                 public const string AFKay_BenchwarmerAFKayTavernBrawl = "TB_BaconShop_HERO_16_SKIN_E";
                 public const string AFKay_StudyKayTavernBrawl = "TB_BaconShop_HERO_16_SKIN_F";
                 public const string AFKay_SpectatorAFKayTavernBrawl = "TB_BaconShop_HERO_16_SKIN_G";
+                public const string AFKay_NozdormuAFKayTavernBrawl = "TB_BaconShop_HERO_16_SKIN_H";
                 public const string MillificentManastormTavernBrawl = "TB_BaconShop_HERO_17";
                 public const string MillificentManastorm_ElementiumSquirrelBombTavernBrawl1 = "TB_BaconShop_HERO_17_Buddy";
                 public const string MillificentManastorm_ElementiumSquirrelBombTavernBrawl2 = "TB_BaconShop_HERO_17_Buddy_G";
@@ -12031,6 +12094,7 @@ namespace HearthDb
                 public const string DancinDeryl_FiredancinDerylTavernBrawl = "TB_BaconShop_HERO_36_SKIN_C2";
                 public const string DancinDeryl_DeliveryDerylTavernBrawl = "TB_BaconShop_HERO_36_SKIN_E";
                 public const string DancinDeryl_SideshowDerylTavernBrawl = "TB_BaconShop_HERO_36_SKIN_F";
+                public const string DancinDeryl_LichKingDerylTavernBrawl = "TB_BaconShop_HERO_36_SKIN_G";
                 public const string LordJaraxxusTavernBrawl = "TB_BaconShop_HERO_37";
                 public const string LordJaraxxus_KilrekTavernBrawl1 = "TB_BaconShop_HERO_37_Buddy";
                 public const string LordJaraxxus_KilrekTavernBrawl2 = "TB_BaconShop_HERO_37_Buddy_G";
@@ -12230,6 +12294,7 @@ namespace HearthDb
                 public const string MrBigglesworth_MrJigglesworthTavernBrawl = "TB_BaconShop_HERO_70_SKIN_D3";
                 public const string MrBigglesworth_BigglesworthFelineGuideTavernBrawl = "TB_BaconShop_HERO_70_SKIN_E4";
                 public const string MrBigglesworth_CozyCatBigglesworthTavernBrawl = "TB_BaconShop_HERO_70_SKIN_F";
+                public const string MrBigglesworth_MuklaBigglesworthTavernBrawl = "TB_BaconShop_HERO_70_SKIN_G";
                 public const string TheJailerTavernBrawl = "TB_BaconShop_HERO_702";
                 public const string TheJailer_MawswornSoulkeeperTavernBrawl1 = "TB_BaconShop_HERO_702_Buddy";
                 public const string TheJailer_MawswornSoulkeeperTavernBrawl2 = "TB_BaconShop_HERO_702_Buddy_G";
@@ -12469,6 +12534,7 @@ namespace HearthDb
                 public const string LillianSinghTavernBrawl = "TB_BaconShopBob_SKIN_AC";
                 public const string BartenderRobertaTavernBrawl = "TB_BaconShopBob_SKIN_AD";
                 public const string AnnouncerGimbloTavernBrawl = "TB_BaconShopBob_SKIN_AE";
+                public const string KalecgosTavernBrawl = "TB_BaconShopBob_SKIN_AI";
                 public const string VenariTavernBrawl = "TB_BaconShopBob_SKIN_B";
                 public const string DragonspeakerBobTavernBrawl = "TB_BaconShopBob_SKIN_C";
                 public const string FizzyTavernBrawl = "TB_BaconShopBob_SKIN_D";
@@ -14011,7 +14077,7 @@ namespace HearthDb
                 public const string FireSworn = "LETLT_083_01";
                 public const string FlamewakerSentinel = "LETLT_084_01";
                 public const string FlamewakerHerald = "LETLT_085_01";
-                public const string Flamewaker = "LETLT_086_01";
+                public const string FlamewakerLETTUCE = "LETLT_086_01";
                 public const string LavaElemental = "LETLT_087_01";
                 public const string FireguardDestroyer = "LETLT_088_01";
                 public const string AxeFlinger = "LETLT_091_01";
@@ -16489,6 +16555,12 @@ namespace HearthDb
                 public const string MenagerieJug_GulpOfTeaEnchantmentWONDERS = "WON_142e";
                 public const string Soridormi_SandsOfTimeEnchantment = "WON_146e";
                 public const string SmugglersCrate_SmugglingEnchantmentWONDERS = "WON_347e";
+                public const string FrostwolfGruntTUTORIAL = "TUTR_CS2_121";
+                public const string StonetuskBoarToken = "TUTR_CS2_171t2";
+                public const string ArcaneServant = "TUTR_DAL_092";
+                public const string ArcaneServant_ArcaneServantToken = "TUTR_DAL_092t2";
+                public const string BlazingBattlemage = "TUTR_DRG_239";
+                public const string TaurenWarrior = "TUTR_EX1_390";
             }
 
             public class Invalid
@@ -16522,6 +16594,8 @@ namespace HearthDb
                 public const string GorutheMightree_TreePowerEnchantment = "DRG_319e5";
                 public const string GalakrondsClaw = "DRGA_24w";
                 public const string PyromancyEnchantment = "BTA_BOSS_25pe";
+                public const string ObserverofMyths_HigherInfluence = "BG_TTN_078_Ge";
+                public const string ObserverofMyths_HigherInfluenceEnchantmentBATTLEGROUNDS = "BG_TTN_078e";
                 public const string QueenAzshara_AzsharasAmbition = "BG22_HERO_007p";
                 public const string Murky_BubbledUpEnchantment = "BG24_012e";
                 public const string BristlemaneScrapsmith = "BG24_707";
@@ -16532,12 +16606,20 @@ namespace HearthDb
                 public const string MechaJaraxxus_MechaJaraxxus = "BG25_807_G";
                 public const string Murcules_MythicalMrrgl = "BG27_023_Ge";
                 public const string Murcules_MythicalMrrglEnchantment = "BG27_023e";
+                public const string SprightlyScarab_SprightlySprucing = "BG27_084_Gt";
+                public const string SprightlyScarab_SprightlySupport = "BG27_084_Gt2";
+                public const string SprightlyScarab_SprucedUpEnchantment = "BG27_084e";
+                public const string SprightlyScarab_SprightlySprucingToken = "BG27_084t";
+                public const string SprightlyScarab_SprightlySupportToken = "BG27_084t2";
+                public const string SprightlyScarab_SupportedToken = "BG27_084t2e";
                 public const string Mannoroth_VictimConsumedEnchantment = "BG27_507e";
                 public const string TideOracleMorgl_TheTidesHaveTurnedEnchantment = "BG27_513e";
+                public const string TemperanceOfAmanthul = "BG27_Anomaly_501";
                 public const string BloodOfSargeras = "BG27_Anomaly_502";
                 public const string TheYoggIseum = "BG27_Anomaly_503";
                 public const string SecretsOfNorgannon = "BG27_Anomaly_504";
                 public const string RecklessEnhancement = "BG27_Anomaly_505";
+                public const string AudiencesChoice = "BG27_Anomaly_580";
                 public const string MightofKhazgoroth_ShapersMightEnchantment = "BG27_Anomaly_719e";
                 public const string UncompensatedUpset = "BG27_Anomaly_721";
                 public const string SummoningOfChampions = "BG27_Anomaly_723";
@@ -16734,7 +16816,7 @@ namespace HearthDb
                 public const string ArcaneBolt3 = "LETL_005P8_03";
                 public const string ArcaneBolt4 = "LETL_005P8_04";
                 public const string ArcaneBolt0 = "LETL_005P8_05";
-                public const string ArcaneBolt = "LETL_005P8e";
+                public const string ArcaneBoltLETTUCE = "LETL_005P8e";
                 public const string LordJaraxxusHeroicLETTUCE1 = "LETL_006H_01";
                 public const string LordJaraxxusHeroicLETTUCE2 = "LETL_006H_02";
                 public const string LordJaraxxusHeroicLETTUCE3 = "LETL_006H_03";
@@ -17422,8 +17504,8 @@ namespace HearthDb
                 public const string DoubleStrike4 = "LETL_232_04";
                 public const string DoubleStrike0 = "LETL_232_05";
                 public const string DoubleStrikeEnchantment = "LETL_232e";
-                public const string MirrorImage1 = "LETL_233_01";
-                public const string MirrorImage2 = "LETL_233_02";
+                public const string MirrorImage1LETTUCE = "LETL_233_01";
+                public const string MirrorImage2LETTUCE = "LETL_233_02";
                 public const string MirrorImage3 = "LETL_233_03";
                 public const string MirrorImage4 = "LETL_233_04";
                 public const string MirrorImage0 = "LETL_233_05";
@@ -21495,20 +21577,21 @@ namespace HearthDb
 
             public class Deathknight
             {
-                public const string TheLichKing_GhoulCharge1 = "HERO_11bp";
+                public const string TheLichKing_GhoulCharge = "HERO_11bp";
                 public const string TheLichKing_GhoulFrenzy1 = "HERO_11bp2";
                 public const string TheLichKing_FrenziedGhoul = "HERO_11bp2t";
                 public const string TheLichKing_FrailGhoul = "HERO_11bpt";
-                public const string TheLichKing_GhoulCharge2 = "HERO_11cbp";
                 public const string TheLichKing_GhoulFrenzy2 = "HERO_11cbp2";
-                public const string TheLichKing_GhoulCharge3 = "HERO_11gbp";
                 public const string TheLichKing_GhoulFrenzy3 = "HERO_11gbp2";
-                public const string CrimsonKnightSaiHeroic_GhoulCharge = "HERO_11hbp";
                 public const string CrimsonKnightSaiHeroic_GhoulFrenzy = "HERO_11hbp2";
-                public const string TheLichKing_GhoulCharge4 = "HERO_11ibp";
                 public const string TheLichKing_GhoulFrenzy4 = "HERO_11ibp2";
-                public const string TheLichKing_GhoulChargeHeroSkins = "HERO_11fbp";
+                public const string TheLichKing_GhoulChargeHeroSkins1 = "HERO_11cbp";
+                public const string TheLichKing_GhoulChargeHeroSkins2 = "HERO_11fbp";
                 public const string TheLichKing_GhoulFrenzyHeroSkins = "HERO_11fbp2";
+                public const string TheLichKing_GhoulChargeHeroSkins3 = "HERO_11gbp";
+                public const string CrimsonKnightSaiHeroic_GhoulChargeHeroSkins = "HERO_11hbp";
+                public const string TheLichKing_GhoulChargeHeroSkins4 = "HERO_11ibp";
+                public const string TheLichKing_GhoulChargeHeroSkins5 = "HERO_11lbp";
                 public const string SoldiersOfTheColdDark = "FB_LK001";
                 public const string RemorselessWinterTavernBrawl = "FB_LK005";
                 public const string ToMyAidUnderling = "FB_LK006";
@@ -21646,7 +21729,7 @@ namespace HearthDb
                 public const string LordMarrowgar_BonestormEnchantment = "RLK_085e";
                 public const string Blightfang_PlaguedEnchantment = "RLK_225e";
                 public const string AlexandrosMograine_MograinesMigraineEnchantment = "RLK_706e3";
-                public const string GraveStrength_GraveMarkEnchantment1 = "RLK_707e";
+                public const string GraveStrength_GraveMarkEnchantmentRETURN_OF_THE_LICH_KING1 = "RLK_707e";
                 public const string GraveStrength_GraveForceEnchantment1 = "RLK_707e2";
                 public const string Runeforging_RuneforgedEnchantment = "RLK_715e";
                 public const string BonediggerGeist_DugUpEnchantment1 = "RLK_753e";
@@ -21655,24 +21738,24 @@ namespace HearthDb
                 public const string UnholyFrenzy = "RLK_Prologue_056";
                 public const string Hematurge = "RLK_Prologue_066";
                 public const string ArthasHeroic1 = "RLK_Prologue_Arthas_002hp";
-                public const string GhoulCharge1 = "RLK_Prologue_Arthas_002p";
+                public const string GhoulChargeRETURN_OF_THE_LICH_KING1 = "RLK_Prologue_Arthas_002p";
                 public const string ArthasHeroic2 = "RLK_Prologue_Arthas_003hp";
-                public const string GhoulCharge2 = "RLK_Prologue_Arthas_003p";
+                public const string GhoulChargeRETURN_OF_THE_LICH_KING2 = "RLK_Prologue_Arthas_003p";
                 public const string ArthasHeroic3 = "RLK_Prologue_Arthas_004hp";
-                public const string GhoulCharge3 = "RLK_Prologue_Arthas_004p";
+                public const string GhoulChargeRETURN_OF_THE_LICH_KING3 = "RLK_Prologue_Arthas_004p";
                 public const string FrostmourneRETURN_OF_THE_LICH_KING = "RLK_Prologue_Frostmourne_001";
                 public const string Frostmourne_TheLichKingsBlade = "RLK_Prologue_Frostmourne_001s";
                 public const string TheLichKingHeroicRETURN_OF_THE_LICH_KING = "RLK_Prologue_LichKing_004hp2";
                 public const string MalganisHeroic = "RLK_Prologue_MalGanis_001hb";
-                public const string GhoulCharge4 = "RLK_Prologue_MalGanis_001p";
+                public const string GhoulChargeRETURN_OF_THE_LICH_KING4 = "RLK_Prologue_MalGanis_001p";
                 public const string Soulbreaker = "RLK_Prologue_RLK_012";
                 public const string GlacialAdvanceEnchantment1 = "RLK_Prologue_RLK_025e";
                 public const string GlacialAdvanceEnchantment2 = "RLK_Prologue_RLK_025o";
                 public const string CorpseExplosion = "RLK_Prologue_RLK_035";
                 public const string VampiricBlood = "RLK_Prologue_RLK_051";
                 public const string MeatGrinder = "RLK_Prologue_RLK_120";
-                public const string BoneguardCommander = "RLK_Prologue_RLK_506";
-                public const string GraveStrength_GraveMarkEnchantment2 = "RLK_Prologue_RLK_707e";
+                public const string BoneguardCommanderRETURN_OF_THE_LICH_KING = "RLK_Prologue_RLK_506";
+                public const string GraveStrength_GraveMarkEnchantmentRETURN_OF_THE_LICH_KING2 = "RLK_Prologue_RLK_707e";
                 public const string GraveStrength_GraveForceEnchantment2 = "RLK_Prologue_RLK_707e2";
                 public const string Soulstealer = "RLK_Prologue_RLK_741";
                 public const string BonediggerGeist_DugUpEnchantment2 = "RLK_Prologue_RLK_753e";
@@ -21705,7 +21788,7 @@ namespace HearthDb
                 public const string Helya_PlightOfTheDeadEnchantment = "TTN_850e1";
                 public const string SinisterSoulcage_WithSoulEnchantment = "YOG_513e";
                 public const string DarkTransformation_UndeadMonstrosityToken = "RLK_057t";
-                public const string FrostwyrmsFury_FrostwyrmToken1 = "RLK_063t";
+                public const string FrostwyrmsFury_FrostwyrmTokenPATH_OF_ARTHAS1 = "RLK_063t";
                 public const string YmirjarFrostbreaker_ShatteringStrengthEnchantment1 = "RLK_110e";
                 public const string TombGuardians_MenacingZombieToken1 = "RLK_118t3";
                 public const string BoneguardCommander_RisenGroomToken = "RLK_506t";
@@ -21719,8 +21802,8 @@ namespace HearthDb
                 public const string IcyTouchPATH_OF_ARTHAS = "RLK_Prologue_RLK_038";
                 public const string HornOfWinter = "RLK_Prologue_RLK_042";
                 public const string NerubianSwarmguard = "RLK_Prologue_RLK_062";
-                public const string FrostwyrmsFury = "RLK_Prologue_RLK_063";
-                public const string FrostwyrmsFury_FrostwyrmToken2 = "RLK_Prologue_RLK_063t";
+                public const string FrostwyrmsFuryPATH_OF_ARTHAS = "RLK_Prologue_RLK_063";
+                public const string FrostwyrmsFury_FrostwyrmTokenPATH_OF_ARTHAS2 = "RLK_Prologue_RLK_063t";
                 public const string Deathchiller = "RLK_Prologue_RLK_083";
                 public const string Asphyxiate = "RLK_Prologue_RLK_087";
                 public const string YmirjarFrostbreaker = "RLK_Prologue_RLK_110";
@@ -21738,6 +21821,22 @@ namespace HearthDb
                 public const string DarkfallenNeophyte = "RLK_Prologue_RLK_731";
                 public const string DarkfallenNeophyte_FallenToDarkEnchantment2 = "RLK_Prologue_RLK_731e";
                 public const string MightOfMenethil = "RLK_Prologue_RLK_740";
+                public const string GhoulChargeTUTORIAL = "TUTR_HERO_11bp";
+                public const string FrailGhoul = "TUTR_HERO_11bpt";
+                public const string RisenGhoulToken = "TUTR_RLK_008t";
+                public const string ArmyOfTheDeadTUTORIAL = "TUTR_RLK_060";
+                public const string BattlefieldNecromancer = "TUTR_RLK_061";
+                public const string FrostwyrmsFuryTUTORIAL = "TUTR_RLK_063";
+                public const string FrostwyrmsFury_FrostwyrmTokenTUTORIAL = "TUTR_RLK_063t";
+                public const string FrostmourneTUTORIAL = "TUTR_RLK_086";
+                public const string BodyBagger = "TUTR_RLK_503";
+                public const string BoneguardCommanderTUTORIAL = "TUTR_RLK_506";
+                public const string GraveStrength = "TUTR_RLK_707";
+                public const string GraveStrength_GraveMarkEnchantmentTUTORIAL = "TUTR_RLK_707e1";
+                public const string StitchedGiant = "TUTR_RLK_744";
+                public const string BonediggerGeist = "TUTR_RLK_753";
+                public const string TheScourgeTUTORIAL = "TUTR_TheScourge_003s";
+                public const string LichKing = "TUTR_Uther";
             }
 
             public class Druid
@@ -21813,17 +21912,18 @@ namespace HearthDb
                 public const string ShapeshiftHeroSkins4 = "CS2_017_HS4";
                 public const string MalfurionStormrageHeroic_ShapeshiftHeroSkins = "HERO_06ahbp";
                 public const string MalfurionStormrageHeroic_DireShapeshiftHeroSkins = "HERO_06ahbp2";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins1 = "HERO_06aibp";
                 public const string MalfurionStormrage_ShapeshiftHeroSkinsEnchantment = "HERO_06ebp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkinsEnchantment = "HERO_06ebp2";
-                public const string MalfurionStormrage_ShapeshiftHeroSkins1 = "HERO_06fbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins2 = "HERO_06fbp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkins1 = "HERO_06fbp2";
-                public const string MalfurionStormrage_ShapeshiftHeroSkins2 = "HERO_06pbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins3 = "HERO_06pbp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkins2 = "HERO_06pbp2";
-                public const string MalfurionStormrage_ShapeshiftHeroSkins3 = "HERO_06rbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins4 = "HERO_06rbp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkins3 = "HERO_06rbp2";
-                public const string MalfurionStormrage_ShapeshiftHeroSkins4 = "HERO_06ubp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins5 = "HERO_06ubp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkins4 = "HERO_06ubp2";
-                public const string MalfurionStormrage_ShapeshiftHeroSkins5 = "HERO_06zbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins6 = "HERO_06zbp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkins5 = "HERO_06zbp2";
                 public const string Devastation = "DH_Lunar_TBBucket_1";
                 public const string Outcast = "DH_Lunar_TBBucket_2";
@@ -22939,20 +23039,20 @@ namespace HearthDb
                 public const string Leoroxx = "Story_02_Leoroxx";
                 public const string Reprimand2 = "Story_02_LeoroxxHP";
                 public const string MoknathalBow = "Story_02_MokNathalBow";
-                public const string Rexxar1 = "Story_02_Rexxar";
+                public const string RexxarSCHOLOMANCE1 = "Story_02_Rexxar";
                 public const string AxeTossRank2 = "Story_02_RexxarHP";
-                public const string Rexxar2 = "Story_02_RexxarMid";
-                public const string Rexxar3 = "Story_02_RexxarMid2";
-                public const string Rexxar4 = "Story_02_RexxarMid3";
-                public const string Rexxar5 = "Story_02_RexxarMid4";
+                public const string RexxarSCHOLOMANCE2 = "Story_02_RexxarMid";
+                public const string RexxarSCHOLOMANCE3 = "Story_02_RexxarMid2";
+                public const string RexxarSCHOLOMANCE4 = "Story_02_RexxarMid3";
+                public const string RexxarSCHOLOMANCE5 = "Story_02_RexxarMid4";
                 public const string CallMisha = "Story_02_RexxarMidHP";
                 public const string CallMishaRank2 = "Story_02_RexxarMidHP2";
                 public const string CallMishaRank3 = "Story_02_RexxarMidHP3";
                 public const string AxeToss = "Story_02_RexxarMidHP4";
-                public const string Rexxar6 = "Story_02_RexxarWar";
+                public const string RexxarSCHOLOMANCE6 = "Story_02_RexxarWar";
                 public const string FriendToAnimals = "Story_02_RexxarWarHP";
-                public const string Rexxar7 = "Story_02_RexxarYoung";
-                public const string Rexxar8 = "Story_02_RexxarYoung2";
+                public const string RexxarSCHOLOMANCE7 = "Story_02_RexxarYoung";
+                public const string RexxarSCHOLOMANCE8 = "Story_02_RexxarYoung2";
                 public const string Sporlar = "Story_02_Sporlar";
                 public const string MoreToTheSpore = "Story_02_Sporlare";
                 public const string TeachersPet = "Story_02_TeachersPet";
@@ -22979,7 +23079,7 @@ namespace HearthDb
                 public const string DontFeedtheAnimals_WellFedEnchantment2 = "DMF_090e2";
                 public const string DontFeedtheAnimals_DontFeedTheAnimalsToken = "DMF_090t";
                 public const string Greybough_GreybudEnchantment = "DMF_734e";
-                public const string Rexxar9 = "Story_03_Rexxar";
+                public const string RexxarDARKMOON_FAIRE = "Story_03_Rexxar";
                 public const string AlleriaWindrunner1 = "Story_05_Alleria";
                 public const string AlleriaWindrunner2 = "Story_05_AlleriaDormant";
                 public const string LorthemarTheron = "Story_05_Lorthemar";
@@ -23191,7 +23291,9 @@ namespace HearthDb
                 public const string ThornmantleMusician_ThornmantlesMuseEnchantment1 = "ETC_831e";
                 public const string ThornmantleMusician_ThornmantlesMuseEnchantment2 = "ETC_831e1";
                 public const string Banjosaur_DinoStarEnchantment = "ETC_840e";
-                public const string ObserverofMyths_HigherInfluenceEnchantment = "TTN_078e";
+                public const string ObserverOfMyths = "BG_TTN_078";
+                public const string ObserverofMyths_ObserverOfMyths = "BG_TTN_078_G";
+                public const string ObserverofMyths_HigherInfluenceEnchantmentTITANS = "TTN_078e";
                 public const string AlwaysaBiggerJormungar_GiftOfTheHuntEnchantment = "TTN_079e";
                 public const string AlwaysaBiggerJormungar_StrengthOfTheHuntEnchantment = "TTN_079e1";
                 public const string AwakeningTremors_BurstingJormungarToken = "TTN_081t";
@@ -23212,11 +23314,14 @@ namespace HearthDb
                 public const string TwistedFrostwing_ChimaeraMatriarchToken = "YOG_506t";
                 public const string Malorne_MalornesSlumberEnchantment = "WON_011e";
                 public const string DurnholdeImposter_DurnholdeImposterEnchantment = "WON_026e2";
+                public const string ArcaneShotTUTORIAL = "TUTR_DS1_185s2";
+                public const string KingKrush = "TUTR_EX1_543";
+                public const string Huffer = "TUTR_NEW1_034";
+                public const string RexxarTUTORIAL = "TUTR_Rexxar";
             }
 
             public class Mage
             {
-                public const string JainaProudmoore_Fireblast = "HERO_08xbp";
                 public const string JainaProudmoore_FireblastRank2 = "HERO_08xbp2";
                 public const string EtherealArcanist_RawPowerEnchantment = "EX1_274e";
                 public const string IceBlock_IceBlockEnchantment = "EX1_295o";
@@ -23226,10 +23331,10 @@ namespace HearthDb
                 public const string Spellbender_Spellbender = "tt_010a";
                 public const string JainaProudmooreMissions = "TU4a_006";
                 public const string MillhouseManastorm = "TU4b_001";
-                public const string Polymorph = "TU5_CS2_022";
-                public const string ArcaneIntellect = "TU5_CS2_023";
-                public const string ArcaneExplosion = "TU5_CS2_025";
-                public const string Fireball = "TU5_CS2_029";
+                public const string PolymorphMissions = "TU5_CS2_022";
+                public const string ArcaneIntellectMissions = "TU5_CS2_023";
+                public const string ArcaneExplosionMissions = "TU5_CS2_025";
+                public const string FireballMissions = "TU5_CS2_029";
                 public const string NothThePlaguebringer = "NAX4_01";
                 public const string NothThePlaguebringerHeroic = "NAX4_01H";
                 public const string SootSpewer_OverclockedEnchantment = "GVG_123e";
@@ -23264,8 +23369,9 @@ namespace HearthDb
                 public const string JainaProudmoore_FireblastRank2HeroSkins6 = "HERO_08lbp2";
                 public const string JainaProudmoore_FireblastHeroSkinsToken = "HERO_08tbp";
                 public const string JainaProudmoore_FireblastRank2HeroSkinsToken = "HERO_08tbp2";
-                public const string ArcaneMissiles = "DH_Prologue_EX1_277";
-                public const string ManaWyrm = "FB_Champs_NEW1_012";
+                public const string JainaProudmoore_FireblastHeroSkins7 = "HERO_08xbp";
+                public const string ArcaneMissilesTavernBrawl = "DH_Prologue_EX1_277";
+                public const string ManaWyrmTavernBrawl = "FB_Champs_NEW1_012";
                 public const string MageTavernBrawl1 = "FB_Juggernaut_Mage";
                 public const string OpponentsClassMageEnch = "FB_Juggernaut_Mage_Ench";
                 public const string MageTavernBrawl2 = "FB_LK_Mage_copy";
@@ -23600,7 +23706,7 @@ namespace HearthDb
                 public const string FontOfPower = "Story_09_FontofPower";
                 public const string MozakiMasterDuelist_MagicMasterEnchantment = "SCH_400e2";
                 public const string AethasSunreaver = "Story_01_Aethas";
-                public const string ArchmageAntonidas = "Story_01_Antonidas";
+                public const string ArchmageAntonidasSCHOLOMANCE = "Story_01_Antonidas";
                 public const string ArcaneKeysmithSCHOLOMANCE = "Story_01_ArcaneKeysmith";
                 public const string FocusingIris1 = "Story_01_FocusingIris";
                 public const string GrayCat = "Story_01_GrayCat";
@@ -23741,7 +23847,7 @@ namespace HearthDb
                 public const string DawngraspToken9 = "BOM_09_Dawngrasp_008t";
                 public const string BreathOfFire2 = "BOM_10_BreathOfFire_006s";
                 public const string VardenDawngraspHeroicALTERAC_VALLEY1 = "BOM_10_Dawngrasp_001hp";
-                public const string Fireblast = "BOM_10_Dawngrasp_001p";
+                public const string FireblastALTERAC_VALLEY = "BOM_10_Dawngrasp_001p";
                 public const string VardenDawngraspHeroicALTERAC_VALLEY2 = "BOM_10_Dawngrasp_002hp";
                 public const string FireblastRank2 = "BOM_10_Dawngrasp_002p";
                 public const string VardenDawngraspHeroicALTERAC_VALLEY3 = "BOM_10_Dawngrasp_003hp";
@@ -23860,6 +23966,30 @@ namespace HearthDb
                 public const string ChromieTimehopper_EscapeFromDurnholdeToken = "WON_041t3";
                 public const string ChromieTimehopper_CullingOfStratholmeToken = "WON_041t4";
                 public const string Spellslinger_SpellslungEnchantmentWONDERS = "WON_344e";
+                public const string FlamewakerTUTORIAL = "TUTR_BRM_002";
+                public const string PolymorphTUTORIAL = "TUTR_CS2_022";
+                public const string ArcaneIntellectTUTORIAL = "TUTR_CS2_023";
+                public const string Frostbolt = "TUTR_CS2_024";
+                public const string ArcaneExplosionTUTORIAL = "TUTR_CS2_025";
+                public const string FrostNova = "TUTR_CS2_026";
+                public const string MirrorImage1 = "TUTR_CS2_027";
+                public const string FireballTUTORIAL = "TUTR_CS2_029";
+                public const string Fireball_Fireball = "TUTR_CS2_029s2";
+                public const string Flamestrike = "TUTR_CS2_032";
+                public const string MirrorImage2 = "TUTR_CS2_mirror";
+                public const string ManaGiant = "TUTR_DRG_109";
+                public const string ArcaneMissilesTUTORIAL = "TUTR_EX1_277";
+                public const string Pyroblast = "TUTR_EX1_279";
+                public const string Cinderstorm = "TUTR_GIL_147";
+                public const string FireblastTUTORIAL = "TUTR_HERO_08bp";
+                public const string JainaProudmooreTUTORIAL = "TUTR_Jaina";
+                public const string ManaWyrmTUTORIAL = "TUTR_NEW1_012";
+                public const string ManaWyrm_ManaWyrmToken = "TUTR_NEW1_012t2";
+                public const string ArcaneBoltTUTORIAL = "TUTR_RLK_843";
+                public const string ArcaneBolt_ArcaneBolt = "TUTR_RLK_843s2";
+                public const string FirstFlame = "TUTR_SW_108";
+                public const string Ignite = "TUTR_SW_110";
+                public const string ArchmageAntonidasTUTORIAL = "TUTR_SW_113";
             }
 
             public class Paladin
@@ -27276,8 +27406,8 @@ namespace HearthDb
                 public const string Troublemaker_RuffianToken = "SCH_337t";
                 public const string DoctorKrastinov_SharpenedEnchantment = "SCH_425e";
                 public const string LordBarov_ACommonPeasantEnchantment = "SCH_526e";
-                public const string GarroshHellscream1 = "Story_01_Garrosh";
-                public const string GrommashHellscream1 = "Story_01_Grommash";
+                public const string GarroshHellscreamSCHOLOMANCE = "Story_01_Garrosh";
+                public const string GrommashHellscreamSCHOLOMANCE = "Story_01_Grommash";
                 public const string Malkorok = "Story_01_Malkorok";
                 public const string Upgrade = "Story_01_Upgrade";
                 public const string PrisonerBaine = "Story_02_Baine";
@@ -27322,6 +27452,8 @@ namespace HearthDb
                 public const string Sneed_SinstoneSneed = "BG21_HERO_030_SKIN_B3";
                 public const string Sneed_BonethresherSneed = "BG21_HERO_030_SKIN_C";
                 public const string Sneed_SneedChariotRacer = "BG21_HERO_030_SKIN_D";
+                public const string DiremuckForager_Foraged = "BG27_556_Ge";
+                public const string DiremuckForager_ForagedEnchantment = "BG27_556e";
                 public const string HeraldOfFlameBATTLEGROUNDS = "BGS_032";
                 public const string FesterootHulkTavernBrawl = "TB_BaconUps_033";
                 public const string SecurityRoverTavernBrawl = "TB_BaconUps_041";
@@ -27337,10 +27469,10 @@ namespace HearthDb
                 public const string StageHand_ReadyToPerformEnchantment = "DMF_531e";
                 public const string ChieftainCairneBloodhoof = "Story_03_Cairne";
                 public const string WarStomp = "Story_03_CairneHP";
-                public const string GarroshHellscream2 = "Story_03_CorruptGarrosh";
-                public const string GarroshHellscream3 = "Story_03_Garrosh";
-                public const string GarroshHellscream4 = "Story_03_Garrosh2";
-                public const string GarroshHellscream5 = "Story_03_Garrosh3";
+                public const string GarroshHellscreamDARKMOON_FAIRE1 = "Story_03_CorruptGarrosh";
+                public const string GarroshHellscreamDARKMOON_FAIRE2 = "Story_03_Garrosh";
+                public const string GarroshHellscreamDARKMOON_FAIRE3 = "Story_03_Garrosh2";
+                public const string GarroshHellscreamDARKMOON_FAIRE4 = "Story_03_Garrosh3";
                 public const string HordeArmada2 = "Story_03_GarroshArmadaHP";
                 public const string SummonPeon = "Story_03_GarroshHP";
                 public const string SummonPeonRank2 = "Story_03_GarroshHP2";
@@ -27349,17 +27481,17 @@ namespace HearthDb
                 public const string EquipGorehowlRank3 = "Story_03_GarroshMidHP3";
                 public const string Gorehowl = "Story_03_Gorehowl";
                 public const string HordeArmorsmith = "Story_03_HordeArmorsmith";
-                public const string GarroshHellscream6 = "Story_03_HordeGarrosh";
-                public const string GarroshHellscream7 = "Story_03_HordeGarrosh2";
-                public const string GarroshHellscream8 = "Story_03_MakGoraGarrosh";
+                public const string GarroshHellscreamDARKMOON_FAIRE5 = "Story_03_HordeGarrosh";
+                public const string GarroshHellscreamDARKMOON_FAIRE6 = "Story_03_HordeGarrosh2";
+                public const string GarroshHellscreamDARKMOON_FAIRE7 = "Story_03_MakGoraGarrosh";
                 public const string MightOfHellscream = "Story_03_MightofHellscream";
                 public const string WarsongAxe = "Story_03_WarsongAxe";
                 public const string WarsongCommander = "Story_03_WarsongCommander";
                 public const string ChargeDARKMOON_FAIRE = "Story_03_WarsongCommandere";
                 public const string WarsongPeon1 = "Story_03_WarsongPeon";
                 public const string WarsongPeon2 = "Story_03_WarsongPeon2";
-                public const string GarroshHellscream9 = "Story_03_YoungGarrosh";
-                public const string GarroshHellscream10 = "Story_03_YoungGarrosh2";
+                public const string GarroshHellscreamDARKMOON_FAIRE8 = "Story_03_YoungGarrosh";
+                public const string GarroshHellscreamDARKMOON_FAIRE9 = "Story_03_YoungGarrosh2";
                 public const string YshaarjsPower = "Story_03_YShaarjsPower";
                 public const string DraconicMight = "Story_04_BloodclawDragone";
                 public const string OrgrimDoomhammer3 = "Story_04_Doomhammer";
@@ -27369,7 +27501,7 @@ namespace HearthDb
                 public const string VarokSaurfang3 = "Story_04_Saurfang";
                 public const string UnboundRage = "Story_04_SaurfangHP";
                 public const string EnragedDARKMOON_FAIRE2 = "Story_04_UnboundRagee";
-                public const string GarroshHellscream11 = "Story_05_Garrosh";
+                public const string GarroshHellscreamDARKMOON_FAIRE10 = "Story_05_Garrosh";
                 public const string EquipGorehowlDARKMOON_FAIRE2 = "Story_05_GarroshHP";
                 public const string GeneralNazgrim = "Story_05_Nazgrim";
                 public const string NoEscape = "Story_05_NazgrimHP";
@@ -27380,7 +27512,7 @@ namespace HearthDb
                 public const string Scold = "Story_05_VarianHP";
                 public const string VarianWrynn2 = "Story_05_VarianMinion";
                 public const string Sharpened = "Story_06_Daerion_03pe";
-                public const string GarroshHellscream12 = "Story_06_GarroshMinion";
+                public const string GarroshHellscreamDARKMOON_FAIRE11 = "Story_06_GarroshMinion";
                 public const string HelkaGrimtotemHeroic = "Story_06_Helka_002hb";
                 public const string FightsOn = "Story_06_Helka_02p";
                 public const string Logosh1 = "Story_06_LoGosh";
@@ -27429,15 +27561,15 @@ namespace HearthDb
                 public const string BladestormTHE_BARRENS = "BOM_04_Samuro_001p";
                 public const string SamurosBlade = "BOM_04_SamurosBlade_001w";
                 public const string AthleticStudies = "Story_07_AthleticStudies";
-                public const string GarroshHellscream13 = "Story_07_CorruptGarrosh";
+                public const string GarroshHellscreamTHE_BARRENS = "Story_07_CorruptGarrosh";
                 public const string DeathwingHeroicTHE_BARRENS1 = "Story_07_Deathwing_006hb";
                 public const string DeathwingHeroicTHE_BARRENS2 = "Story_07_Deathwing_006hb2";
                 public const string DeathwingHeroicTHE_BARRENS3 = "Story_07_Deathwing_006hb3";
                 public const string Devastate = "Story_07_Devastate";
                 public const string GarroshHeroicTHE_BARRENS2 = "Story_07_Garrosh_008hb";
                 public const string EquipGorehowlTHE_BARRENS2 = "Story_07_Garrosh_008p2";
-                public const string GrommashHellscream2 = "Story_07_Grommash";
-                public const string GrommashHellscream3 = "Story_07_GrommashDormant";
+                public const string GrommashHellscreamTHE_BARRENS1 = "Story_07_Grommash";
+                public const string GrommashHellscreamTHE_BARRENS2 = "Story_07_GrommashDormant";
                 public const string MysteriousStrangerHeroic = "Story_07_Stranger_003hb";
                 public const string OrgrimDoomhammerHeroic1 = "Story_07_Stranger_003hb2";
                 public const string ThrallHeroicTHE_BARRENS7 = "Story_07_Thrall_001hp";
@@ -27447,7 +27579,7 @@ namespace HearthDb
                 public const string ChieftainsOfTheHordeHeroic = "Story_09_Blackhand_004hb";
                 public const string InstrumentsOfWar = "Story_09_Blackhand_004p";
                 public const string Durotan2 = "Story_09_Durotan";
-                public const string GrommashHellscream4 = "Story_09_Grommash";
+                public const string GrommashHellscreamTHE_BARRENS3 = "Story_09_Grommash";
                 public const string GrommashHellscreamHeroicTHE_BARRENS1 = "Story_09_Grommash_004hb";
                 public const string GrommashHellscreamHeroicTHE_BARRENS2 = "Story_09_Grommash_004hb2";
                 public const string HurkanSkullsplinter2 = "Story_09_Hurkan";
@@ -27627,6 +27759,15 @@ namespace HearthDb
                 public const string RunesofDarkness_DarkDesignEnchantment = "YOG_511e";
                 public const string RustyHookToken = "WON_106t";
                 public const string HobartGrapplehammer_SmugglingEnchantmentWONDERS = "WON_117e";
+                public const string Bash = "TUTR_AT_064";
+                public const string OrgrimmarAspirant = "TUTR_AT_066";
+                public const string Cleave = "TUTR_CS2_114";
+                public const string MortalStrike = "TUTR_EX1_408";
+                public const string GrommashHellscreamTUTORIAL = "TUTR_EX1_414";
+                public const string CruelTaskmaster = "TUTR_EX1_603";
+                public const string GarroshHellscreamTUTORIAL = "TUTR_Garrosh";
+                public const string ArmorUpTUTORIAL = "TUTR_HERO_01bp";
+                public const string BloodhoofBrave = "TUTR_OG_218";
             }
 
             public class DreamCards

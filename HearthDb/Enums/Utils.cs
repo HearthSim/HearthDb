@@ -7,6 +7,7 @@ namespace HearthDb.Enums
     {
         public static Dictionary<int, Race> TagRaceMap = new Dictionary<int, Race>() {
         { 2524, Race.BLOODELF },
+        { 2525, Race.DRAENEI },
         { 2526, Race.DWARF },
         { 2527, Race.GNOME },
         { 2528, Race.GOBLIN },

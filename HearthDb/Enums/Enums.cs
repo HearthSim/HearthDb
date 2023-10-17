@@ -241,6 +241,7 @@ namespace HearthDb.Enums
         PATH_OF_ARTHAS = 1869,
         WILD_WEST = 1892,
         WONDERS = 1898,
+        TUTORIAL = 1904,
     }
 
     public enum CardTextBuilderType
@@ -1300,6 +1301,11 @@ namespace HearthDb.Enums
         TITAN_ABILITY_USED_3 = 3142,
         ANOMALY1 = 3182,
         ANOMALY2 = 3183,
+        TUTORIAL_TARGET_OPPONENT_ANIM = 3192,
+        TUTORIAL_TARGET_MINION_ANIM = 3193,
+        TUTORIAL_PLAY_MINION_ANIM = 3195,
+        TUTORIAL_HERO_POWER_TARGET_MINION_ANIM = 3196,
+        TUTORIAL_HERO_POWER_TARGET_OPPONENT_ANIM = 3197,
         SUPPRESS_EVIL_TWIN_MUSTACHE_SOUND = 3198,
         HERO_DOESNT_MOVE_ON_ATTACK = 3211,
     }

@@ -16,17 +16,20 @@ namespace HearthDb.CardIdGenerator
 {
 	internal class SyntaxBuilder
 	{
-		internal static ClassDeclarationSyntax GetNonCollectible()
+		internal static List<(string, ClassDeclarationSyntax)> GetNonCollectible()
 		{
+			Console.WriteLine("===== Generating non-collectible cards =====");
 			var conflicts = new Dictionary<string, List<string>>();
 			while(true)
 			{
+				var classDecls = new List<(string, ClassDeclarationSyntax)>();
 				var newNamingConflicts = new Dictionary<string, List<string>>();
-				var classDecl = ClassDeclaration("NonCollectible").AddModifiers(Token(PublicKeyword));
 				foreach(var c in ClassNames)
 				{
 					var className = c == "DREAM" ? "DreamCards" : CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
-					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword));
+					Console.WriteLine($"> Generating NonCollectible.{className}");
+					var classDecl = ClassDeclaration("NonCollectible").AddModifiers(Token(PublicKeyword), Token(PartialKeyword));
+					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword), Token(PartialKeyword));
 					var anyCards = false;
 					foreach(var card in
 						Cards.All.OrderBy(x => x.Value.Set)
@@ -45,12 +48,18 @@ namespace HearthDb.CardIdGenerator
 						anyCards = true;
 					}
 					if(anyCards)
+					{
 						classDecl = classDecl.AddMembers(cCard);
+						classDecls.Add(($"NonCollectible.{className}", classDecl));
+					}
 				}
 				if(!newNamingConflicts.Any(x => x.Value.Count > 1))
-					return classDecl;
+					return classDecls;
+
 				foreach(var pair in newNamingConflicts.Where(x => x.Value.Count > 1).ToDictionary(pair => pair.Key, pair => pair.Value))
 					conflicts.Add(pair.Key, pair.Value);
+
+				Console.WriteLine($"New Conflicts: {newNamingConflicts.Sum(x => x.Value.Count)}, Total Unique: {conflicts.Sum(x => x.Value.Count)}");
 			}
 		}
 
@@ -140,18 +149,21 @@ namespace HearthDb.CardIdGenerator
 			return name;
 		}
 
-		internal static ClassDeclarationSyntax GetCollectible()
+		internal static List<(string, ClassDeclarationSyntax)> GetCollectible()
 		{
+			Console.WriteLine("===== Generating collectible cards =====");
 			var conflicts = new Dictionary<string, List<string>>();
 			while(true)
 			{
-				var classDecl = ClassDeclaration("Collectible").AddModifiers(Token(PublicKeyword));
+				var classDecls = new List<(string, ClassDeclarationSyntax)>();
 				var newNamingConflicts = new Dictionary<string, List<string>>();
 				foreach(var c in ClassNames)
 				{
 					var anyCards = false;
 					var className = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
-					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword));
+					Console.WriteLine($"> Generating Collectible.{className}");
+					var classDecl = ClassDeclaration("Collectible").AddModifiers(Token(PublicKeyword), Token(PartialKeyword));
+					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword), Token(PartialKeyword));
 					foreach(var card in
 						Cards.All.Values.Where(x => x.Collectible && x.Class.ToString().Equals(c)))
 					{
@@ -165,13 +177,17 @@ namespace HearthDb.CardIdGenerator
 						cCard = cCard.AddMembers(GenerateConst(name, card.Id));
 						anyCards = true;
 					}
-					if(anyCards)
+					if (anyCards)
+					{
 						classDecl = classDecl.AddMembers(cCard);
+						classDecls.Add(($"Collectible.{className}", classDecl));
+					}
 				}
 				if(!newNamingConflicts.Any(x => x.Value.Count > 1))
-					return classDecl;
+					return classDecls;
 				foreach(var pair in newNamingConflicts.Where(x => x.Value.Count > 1).ToDictionary(pair => pair.Key, pair => pair.Value))
 					conflicts.Add(pair.Key, pair.Value);
+				Console.WriteLine($"New Conflicts: {newNamingConflicts.Sum(x => x.Value.Count)}, Total Unique: {conflicts.Sum(x => x.Value.Count)}");
 			}
 		}
 

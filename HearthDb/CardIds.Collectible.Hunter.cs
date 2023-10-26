@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Hunter
+            public class Hunter
             {
                 public const string RamWrangler = "AT_010";
                 public const string Powershot = "AT_056";

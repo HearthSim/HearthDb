@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Shaman
+            public class Shaman
             {
                 public const string TuskarrTotemicTGT = "AT_046";
                 public const string DraeneiTotemcarverTGT = "AT_047";

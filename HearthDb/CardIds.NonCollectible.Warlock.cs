@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Warlock
+            public class Warlock
             {
                 public const string VoidwalkerBASIC = "BG_CS2_065";
                 public const string MortalCoil = "RLK_Prologue_EX1_302";

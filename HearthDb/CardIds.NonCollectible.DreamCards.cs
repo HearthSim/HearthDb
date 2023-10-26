@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class DreamCards
+            public class DreamCards
             {
                 public const string LaughingSister = "DREAM_01";
                 public const string YseraAwakens = "DREAM_02";

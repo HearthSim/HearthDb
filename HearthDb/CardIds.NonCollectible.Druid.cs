@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Druid
+            public class Druid
             {
                 public const string Wrath_SolarWrath = "EX1_154a";
                 public const string Wrath_NaturesWrath = "EX1_154b";

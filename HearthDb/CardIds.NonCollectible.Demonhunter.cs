@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Demonhunter
+            public class Demonhunter
             {
                 public const string ChaosStrikeBASIC = "RLK_Prologue_BT_035";
                 public const string ChaosStrike_ChaosStrikeEnchantment = "RLK_Prologue_BT_035e";

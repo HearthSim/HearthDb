@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Paladin
+            public class Paladin
             {
                 public const string CompetitiveSpirit = "AT_073";
                 public const string SealOfChampions = "AT_074";

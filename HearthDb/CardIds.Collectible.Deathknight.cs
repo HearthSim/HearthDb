@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Deathknight
+            public class Deathknight
             {
                 public const string HardcoreCultist = "ETC_209";
                 public const string ClimacticNecroticExplosion = "ETC_210";

@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Invalid
+            public class Invalid
             {
                 public const string BombsAwayTavernBrawl2 = "FB_Juggernaut_MinionEnchant";
                 public const string InnkeeperHealthSet = "FB_LK_BossSetup001";

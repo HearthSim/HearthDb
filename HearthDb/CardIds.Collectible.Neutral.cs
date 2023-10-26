@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Neutral
+            public class Neutral
             {
                 public const string TwilightGuardian = "AT_017";
                 public const string SkycapnKragg = "AT_070";

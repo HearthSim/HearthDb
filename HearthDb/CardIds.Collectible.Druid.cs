@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Druid
+            public class Druid
             {
                 public const string LivingRoots = "AT_037";
                 public const string DarnassusAspirant = "AT_038";

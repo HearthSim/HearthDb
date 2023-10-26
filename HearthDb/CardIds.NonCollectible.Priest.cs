@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Priest
+            public class Priest
             {
                 public const string InnerFire_InnerFireEnchantment = "CS1_129e";
                 public const string KulTiranChaplain_AidedEnchantment = "EX1_195e";

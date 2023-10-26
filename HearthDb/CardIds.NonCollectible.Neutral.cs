@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Neutral
+            public class Neutral
             {
                 public const string BoulderfistOgreBASIC = "BG_CS2_200";
                 public const string BoulderfistOgre_BoulderfistOgre = "BG_CS2_200_G";

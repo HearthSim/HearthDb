@@ -29,7 +29,7 @@ namespace HearthDb.CardIdGenerator
 					var className = c == "DREAM" ? "DreamCards" : CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
 					Console.WriteLine($"> Generating NonCollectible.{className}");
 					var classDecl = ClassDeclaration("NonCollectible").AddModifiers(Token(PublicKeyword), Token(PartialKeyword));
-					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword), Token(PartialKeyword));
+					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword));
 					var anyCards = false;
 					foreach(var card in
 						Cards.All.OrderBy(x => x.Value.Set)
@@ -163,7 +163,7 @@ namespace HearthDb.CardIdGenerator
 					var className = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(c.ToLower());
 					Console.WriteLine($"> Generating Collectible.{className}");
 					var classDecl = ClassDeclaration("Collectible").AddModifiers(Token(PublicKeyword), Token(PartialKeyword));
-					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword), Token(PartialKeyword));
+					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword));
 					foreach(var card in
 						Cards.All.Values.Where(x => x.Collectible && x.Class.ToString().Equals(c)))
 					{

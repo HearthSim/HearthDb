@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Paladin
+            public class Paladin
             {
                 public const string BlessingOfMight = "RLK_Prologue_CS2_087";
                 public const string BlessingofMight_BlessingOfMight = "RLK_Prologue_CS2_087_AI";

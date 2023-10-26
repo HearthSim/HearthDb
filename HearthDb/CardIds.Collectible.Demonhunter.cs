@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Demonhunter
+            public class Demonhunter
             {
                 public const string BattlewornVanguard = "AV_118";
                 public const string KurtrusDemonRender = "AV_204";

@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Shaman
+            public class Shaman
             {
                 public const string AncestralSpirit_AncestralSpiritEnchantment = "CS2_038e";
                 public const string FarSight_FarSightEnchantment = "CS2_053e";

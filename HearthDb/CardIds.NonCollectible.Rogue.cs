@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Rogue
+            public class Rogue
             {
                 public const string ColdBlood_ColdBloodEnchantment1 = "CS2_073e";
                 public const string ColdBlood_ColdBloodEnchantment2 = "CS2_073e2";

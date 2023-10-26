@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Warrior
+            public class Warrior
             {
                 public const string Bash = "AT_064";
                 public const string KingsDefender = "AT_065";

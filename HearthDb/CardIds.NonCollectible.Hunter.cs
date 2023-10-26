@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Hunter
+            public class Hunter
             {
                 public const string MultiShot = "RLK_Prologue_DS1_183";
                 public const string ArcaneShotBASIC = "RLK_Prologue_DS1_185";

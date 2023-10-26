@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Rogue
+            public class Rogue
             {
                 public const string ShadoPanRiderTGT = "AT_028";
                 public const string Buccaneer = "AT_029";

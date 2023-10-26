@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Deathknight
+            public class Deathknight
             {
                 public const string TheLichKing_GhoulCharge = "HERO_11bp";
                 public const string TheLichKing_GhoulFrenzy1 = "HERO_11bp2";

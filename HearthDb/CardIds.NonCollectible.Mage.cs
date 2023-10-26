@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Mage
+            public class Mage
             {
                 public const string JainaProudmoore_FireblastRank2 = "HERO_08xbp2";
                 public const string EtherealArcanist_RawPowerEnchantment = "EX1_274e";

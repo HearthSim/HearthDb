@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Whizbang
+            public class Whizbang
             {
                 public const string WhizbangTheWonderfulHeroic = "BOT_914h";
                 public const string ZayleShadowCloakHeroic = "DAL_800h";

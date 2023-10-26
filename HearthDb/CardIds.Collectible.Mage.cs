@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Mage
+            public class Mage
             {
                 public const string FlameLanceTGT = "AT_001";
                 public const string Effigy = "AT_002";

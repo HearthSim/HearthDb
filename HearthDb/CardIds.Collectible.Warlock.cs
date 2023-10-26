@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Warlock
+            public class Warlock
             {
                 public const string Dreadsteed = "AT_019";
                 public const string FearsomeDoomguard = "AT_020";

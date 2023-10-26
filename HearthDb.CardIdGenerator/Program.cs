@@ -27,6 +27,7 @@ namespace HearthDb.CardIdGenerator
 			var decls = SyntaxBuilder.GetCollectible().Concat(SyntaxBuilder.GetNonCollectible());
 			var total = decls.Count();
 
+			Console.WriteLine("===== Formatting =====");
 			Parallel.ForEach(decls, (item) => {
 				var (name, decl) = item;
 				var cCardIds = ClassDeclaration("CardIds")

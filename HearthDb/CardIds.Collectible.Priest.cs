@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class Collectible
         {
-            public partial class Priest
+            public class Priest
             {
                 public const string HolyChampion = "AT_011";
                 public const string SpawnOfShadowsTGT = "AT_012";

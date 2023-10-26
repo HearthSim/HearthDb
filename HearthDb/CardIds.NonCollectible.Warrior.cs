@@ -5,7 +5,7 @@ namespace HearthDb
     {
         public partial class NonCollectible
         {
-            public partial class Warrior
+            public class Warrior
             {
                 public const string Rampage_RampageEnchantment = "CS2_104e";
                 public const string ArathiWeaponsmith_BattleAxeToken = "EX1_398t";

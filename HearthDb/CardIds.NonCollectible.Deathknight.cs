@@ -15,6 +15,7 @@ namespace HearthDb
                 public const string TheLichKing_GhoulFrenzy3 = "HERO_11gbp2";
                 public const string CrimsonKnightSaiHeroic_GhoulFrenzy = "HERO_11hbp2";
                 public const string TheLichKing_GhoulFrenzy4 = "HERO_11ibp2";
+                public const string TheLichKing_GhoulFrenzyEnchantment = "HERO_11ohp2";
                 public const string TheLichKing_GhoulChargeHeroSkins1 = "HERO_11cbp";
                 public const string TheLichKing_GhoulChargeHeroSkins2 = "HERO_11fbp";
                 public const string TheLichKing_GhoulFrenzyHeroSkins = "HERO_11fbp2";
@@ -22,6 +23,7 @@ namespace HearthDb
                 public const string CrimsonKnightSaiHeroic_GhoulChargeHeroSkins = "HERO_11hbp";
                 public const string TheLichKing_GhoulChargeHeroSkins4 = "HERO_11ibp";
                 public const string TheLichKing_GhoulChargeHeroSkins5 = "HERO_11lbp";
+                public const string TheLichKing_GhoulChargeHeroSkinsEnchantment = "HERO_11ohp";
                 public const string SoldiersOfTheColdDark = "FB_LK001";
                 public const string RemorselessWinterTavernBrawl = "FB_LK005";
                 public const string ToMyAidUnderling = "FB_LK006";
@@ -251,6 +253,11 @@ namespace HearthDb
                 public const string DarkfallenNeophyte = "RLK_Prologue_RLK_731";
                 public const string DarkfallenNeophyte_FallenToDarkEnchantment2 = "RLK_Prologue_RLK_731e";
                 public const string MightOfMenethil = "RLK_Prologue_RLK_740";
+                public const string KoboldMiner_TheAzeriteRatToken = "WW_001t26";
+                public const string KoboldMiner_AzeriteSoulToken = "WW_001t26e";
+                public const string PileofBones_PileOfBonesEnchantment = "WW_324e";
+                public const string HarrowingOx_OxChillEnchantment = "WW_356e";
+                public const string CropRotation_GnomeOnTheRangeToken = "WW_368t";
                 public const string GhoulChargeTUTORIAL = "TUTR_HERO_11bp";
                 public const string FrailGhoul = "TUTR_HERO_11bpt";
                 public const string RisenGhoulToken = "TUTR_RLK_008t";

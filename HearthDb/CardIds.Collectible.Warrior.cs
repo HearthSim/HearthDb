@@ -207,6 +207,10 @@ namespace HearthDb
                 public const string GarroshHellscream_EarthenMagniHeroHeroSkins = "HERO_01ag";
                 public const string GarroshHellscreamHeroic_ArenaChampionRokaraHeroHeroSkins = "HERO_01ah";
                 public const string GarroshHellscream_MoknathalGarroshHeroHeroSkins = "HERO_01ai";
+                public const string GarroshHellscream_SaloonDenathriusHeroHeroSkins = "HERO_01aj_Denathrius";
+                public const string GarroshHellscream_TouringETCHeroHeroSkins = "HERO_01ak_ETC";
+                public const string GarroshHellscream_DestroyerGarroshHeroHeroSkins = "HERO_01al_Garrosh";
+                public const string GarroshHellscream_OnslaughtGarroshHeroHeroSkins = "HERO_01am_Garrosh";
                 public const string GarroshHellscream_CorruptGarroshHeroHeroSkins = "HERO_01b";
                 public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";
                 public const string GarroshHellscream_NagrandGarroshHeroHeroSkins = "HERO_01d";
@@ -410,6 +414,16 @@ namespace HearthDb
                 public const string AxeFlingerWONDERS = "WON_338";
                 public const string AlleyArmorsmithWONDERS = "WON_339";
                 public const string IKnowAGuyWONDERS = "WON_350";
+                public const string DetonationJuggernaut = "WW_329";
+                public const string ReinforcedPlating = "WW_334";
+                public const string BlastTortoise = "WW_346";
+                public const string Battlepickaxe = "WW_347";
+                public const string Misfire = "WW_348";
+                public const string BadlandsBrawler = "WW_349";
+                public const string UnluckyPowderman = "WW_367";
+                public const string BoombossThogrun = "WW_372";
+                public const string SlagmawTheSlumbering = "WW_375";
+                public const string BlastCharge = "WW_380";
                 public const string RiskySkipper = "YOD_022";
                 public const string BoomSquad = "YOD_023";
                 public const string BombWrangler = "YOD_024";

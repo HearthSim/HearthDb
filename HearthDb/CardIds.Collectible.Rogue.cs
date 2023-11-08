@@ -199,6 +199,8 @@ namespace HearthDb
                 public const string ValeeraSanguinar_GloryseekerGaronaHeroHeroSkinsEnchantment = "HERO_03ae";
                 public const string ValeeraSanguinar_V07Tr0NHeroHeroSkins = "HERO_03af";
                 public const string ValeeraSanguinar_TrapperMaievHeroHeroSkins = "HERO_03ag";
+                public const string ValeeraSanguinarHeroic_CampchefScabbsHeroHeroSkins = "HERO_03ah_Scabbs";
+                public const string ValeeraSanguinar_BrawlerValeeraHeroHeroSkins = "HERO_03ai_Valeera";
                 public const string ValeeraSanguinar_CapNValeeraHeroHeroSkins = "HERO_03b";
                 public const string ValeeraSanguinar_NightslayerValeeraHeroHeroSkins = "HERO_03d";
                 public const string ValeeraSanguinar_DiaoChanValeeraHeroHeroSkinsEnchantment = "HERO_03e";
@@ -400,6 +402,16 @@ namespace HearthDb
                 public const string UndercityHucksterWONDERS = "WON_317";
                 public const string PoisonedBladeWONDERS = "WON_318";
                 public const string TombPillagerWONDERS = "WON_340";
+                public const string DartThrow = "WW_006";
+                public const string BountyWrangler = "WW_363";
+                public const string VelarokWindblade = "WW_364";
+                public const string TripleSevens = "WW_410";
+                public const string StickUp = "WW_411";
+                public const string BloodrockCoShovel = "WW_412";
+                public const string AntiqueFlinger = "WW_413";
+                public const string WishingWell = "WW_415";
+                public const string ShellGame = "WW_416";
+                public const string DrillyTheKid = "WW_417";
                 public const string Skyvateer = "YOD_016";
                 public const string ShadowSculptor = "YOD_017";
                 public const string Waxmancy = "YOD_018";

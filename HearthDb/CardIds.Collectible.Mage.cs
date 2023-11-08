@@ -209,6 +209,7 @@ namespace HearthDb
                 public const string JainaProudmoore_CelesteIalHeroHeroSkinsEnchantment = "HERO_08ao";
                 public const string JainaProudmoore_ShipmasterMedivhHeroHeroSkins = "HERO_08ap";
                 public const string JainaProudmoore_JainaSanguinarHeroHeroSkins = "HERO_08aq";
+                public const string JainaProudmoore_CardslingerSaraadHeroHeroSkins = "HERO_08ar_Saraad";
                 public const string JainaProudmoore_KhadgarHeroHeroSkins = "HERO_08b";
                 public const string JainaProudmoore_FireMageJainaHeroHeroSkins = "HERO_08c";
                 public const string JainaProudmoore_CelesteHeroHeroSkins = "HERO_08d";
@@ -411,6 +412,16 @@ namespace HearthDb
                 public const string KabalCrystalRunnerWONDERS = "WON_308";
                 public const string FlameLanceWONDERS = "WON_341";
                 public const string SpellslingerWONDERS = "WON_344";
+                public const string Cryopreservation = "WW_009";
+                public const string HeatWave = "WW_377";
+                public const string AzeriteVein = "WW_422";
+                public const string OverflowSurger = "WW_424";
+                public const string Stargazing = "WW_425";
+                public const string BlastmageMiner = "WW_426";
+                public const string SunsetVolley = "WW_427";
+                public const string MesaduneTheFractured = "WW_429";
+                public const string TaethelanBloodwatcher = "WW_430";
+                public const string ReliquaryResearcher = "WW_432";
                 public const string AnimatedAvalanche = "YOD_007";
                 public const string ArcaneAmplifier = "YOD_008";
                 public const string TheAmazingReno = "YOD_009";

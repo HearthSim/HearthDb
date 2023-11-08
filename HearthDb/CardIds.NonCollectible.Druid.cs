@@ -832,6 +832,10 @@ namespace HearthDb
                 public const string ForbiddenFruit_SinfulSampling = "YOG_529a";
                 public const string ForbiddenFruit_RejectTemptation = "YOG_529b";
                 public const string ForbiddenFruit_ForbiddenFruitEnchantment = "YOG_529e";
+                public const string TaketotheSkies_SoaaaringFlyyyyingEnchantment = "WW_816e";
+                public const string DragonTales_ShortStoriesToken = "WW_821t1";
+                public const string DragonTales_TallTalesToken = "WW_821t2";
+                public const string Rheastrasza_PurifiedDragonNestToken = "WW_824t";
                 public const string RatSensei_MonkTurtleToken1 = "WON_013t";
                 public const string RatSensei_MonkTurtleToken2 = "WON_013t2";
                 public const string RatSensei_MonkTurtleToken3 = "WON_013t3";

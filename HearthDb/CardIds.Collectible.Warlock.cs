@@ -203,6 +203,10 @@ namespace HearthDb
                 public const string Guldan_BonereaderTamsinHeroHeroSkins = "HERO_07af";
                 public const string Guldan_SargerasHeroHeroSkins = "HERO_07ag";
                 public const string GuldanHeroic_KabalNzothHeroHeroSkins = "HERO_07ah";
+                public const string Guldan_MechadrillJaraxxusHeroHeroSkins = "HERO_07ai_MechaJaraxxus";
+                public const string Guldan_TraderRafaamHeroHeroSkins = "HERO_07aj_Rafaam";
+                public const string Guldan_CorruptorGuldanHeroHeroSkins = "HERO_07ak_Guldan";
+                public const string Guldan_MaleficGuldanHeroHeroSkins = "HERO_07al_Guldan";
                 public const string Guldan_MechaJaraxxusHeroHeroSkins = "HERO_07b";
                 public const string Guldan_ShadowGuldanHeroHeroSkins = "HERO_07c";
                 public const string Guldan_NzothHeroHeroSkins = "HERO_07d";
@@ -408,6 +412,16 @@ namespace HearthDb
                 public const string UsherOfSoulsWONDERS = "WON_322";
                 public const string BaneOfDoomWONDERS = "WON_323";
                 public const string KrulTheUnshackledWONDERS = "WON_324";
+                public const string DisposalAssistant = "WW_041";
+                public const string WasteRemover = "WW_042";
+                public const string SludgeOnWheels = "WW_043";
+                public const string PopgarThePutrid = "WW_091";
+                public const string Fracking = "WW_092";
+                public const string Smokestack = "WW_378";
+                public const string TrolleyProblem = "WW_436";
+                public const string TramConductorGerry = "WW_437";
+                public const string FurnaceFuel = "WW_441";
+                public const string MoargDrillfist = "WW_442";
                 public const string TwistedKnowledge = "YOD_025";
                 public const string FiendishServant = "YOD_026";
                 public const string ChaosGazer = "YOD_027";

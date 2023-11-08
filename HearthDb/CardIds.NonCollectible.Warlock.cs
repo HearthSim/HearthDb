@@ -660,6 +660,10 @@ namespace HearthDb
                 public const string SargerastheDestroyer_FelblazeInfernalToken = "TTN_960t5";
                 public const string SargerastheDestroyer_FelblazeImpToken = "TTN_960t6";
                 public const string CurseofFlesh_CurseOfFleshEnchantment = "YOG_503e1";
+                public const string KoboldMiner_TheAzeriteSnakeToken = "WW_001t25";
+                public const string KoboldMiner_AzeriteDeficiencyToken = "WW_001t25e";
+                public const string KoboldMiner_AzeriteStrengthToken = "WW_001t25e2";
+                public const string TramConductorGerry_TramCarToken = "WW_437t";
                 public const string TinyKnightofEvil_FelrageEnchantmentWONDERS = "WON_099e";
                 public const string ChamberofViscidus_ViscYBusinessEnchantment = "WON_103e";
                 public const string Chogall_DarkPowerEnchantmentWONDERS = "WON_105e";

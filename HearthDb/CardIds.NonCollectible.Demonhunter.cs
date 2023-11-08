@@ -139,7 +139,6 @@ namespace HearthDb
                 public const string RedeemedPariah_PariahsResolveEnchantmentDARKMOON_FAIRE1 = "DMF_222e";
                 public const string RenownedPerformer_PerformersAssistantToken = "DMF_223t";
                 public const string InsatiableFelhound_InsatiableFelhoundToken = "DMF_247t";
-                public const string FelsteelExecutioner_WickedTransformationEnchantment = "DMF_248e";
                 public const string FelsteelExecutioner_FelsteelExecutionerToken = "DMF_248t";
                 public const string RedeemedPariah = "RLK_Prologue_DMF_222";
                 public const string RedeemedPariah_PariahsResolveEnchantmentDARKMOON_FAIRE2 = "RLK_Prologue_DMF_222e";
@@ -331,6 +330,19 @@ namespace HearthDb
                 public const string ArgustheEmeraldStar_CrystalElementalToken = "TTN_862t4";
                 public const string WeightoftheWorld_WeightOfTheWorldToken = "TTN_865t";
                 public const string SaroniteShambler_SpikyEnchantment = "YOG_521e";
+                public const string SnakeEyes_RolledAOneToken = "WW_400t1";
+                public const string SnakeEyes_RolledATwoToken = "WW_400t2";
+                public const string SnakeEyes_RolledAThreeToken = "WW_400t3";
+                public const string SnakeEyes_RolledAFourToken = "WW_400t4";
+                public const string SnakeEyes_RolledAFiveToken = "WW_400t5";
+                public const string SnakeEyes_RolledASixToken = "WW_400t6";
+                public const string PocketSand_SandInYourEyesEnchantment = "WW_403e";
+                public const string PocketSand_SandyEnchantment1 = "WW_403e1";
+                public const string PocketSand_SandyEnchantment2 = "WW_403e2";
+                public const string ParchedDesperado_GulpEnchantment = "WW_407e";
+                public const string LoadtheChamber_LoadedNagaEnchantment = "WW_409e";
+                public const string LoadtheChamber_LoadedFelSpellEnchantment = "WW_409e2";
+                public const string LoadtheChamber_LoadedWeaponEnchantment = "WW_409e3";
             }
         }
     }

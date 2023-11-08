@@ -203,6 +203,9 @@ namespace HearthDb
                 public const string UtherLightbringerHeroic_ShieldMaidenYrelHeroHeroSkins = "HERO_04ah";
                 public const string UtherLightbringer_NozdormuHeroHeroSkins = "HERO_04ai";
                 public const string UtherLightbringer_ChickenLeeroyHeroHeroSkins = "HERO_04aj";
+                public const string UtherLightbringer_FrontiersmanUtherHeroHeroSkins = "HERO_04ak_Uther";
+                public const string UtherLightbringer_CrystalforgeUtherHeroHeroSkins = "HERO_04al_Uther";
+                public const string UtherLightbringer_LightbringerUtherHeroHeroSkins = "HERO_04am_Uther";
                 public const string UtherLightbringer_PrinceArthasHeroHeroSkins = "HERO_04b";
                 public const string UtherLightbringer_SirAnnoyOHeroHeroSkins = "HERO_04c";
                 public const string UtherLightbringer_LightforgedUtherHeroHeroSkins = "HERO_04d";
@@ -412,6 +415,16 @@ namespace HearthDb
                 public const string WickerflameBurnbristleWONDERS = "WON_312";
                 public const string ALightInTheDarknessWONDERS = "WON_333";
                 public const string MysteriousChallengerWONDERS = "WON_334";
+                public const string Showdown = "WW_051";
+                public const string HolyCowboy = "WW_335";
+                public const string PrismaticBeam = "WW_336";
+                public const string SpiritOfTheBadlands = "WW_337";
+                public const string DeputizationAura = "WW_341";
+                public const string LawfulLongarm = "WW_342";
+                public const string HiHoSilverwing = "WW_344";
+                public const string TheBadlandsBandits = "WW_345";
+                public const string LayDownTheLaw = "WW_365";
+                public const string LivingHorizon = "WW_366";
                 public const string Shotbot = "YOD_010";
                 public const string AirRaid = "YOD_012";
                 public const string Scalelord = "YOD_043";

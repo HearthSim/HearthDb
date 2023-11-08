@@ -43,6 +43,7 @@ namespace HearthDb
                 public const string BristlemaneScrapsmith = "BG24_707";
                 public const string BristlemaneScrapsmith_BristlemaneScrapsmith = "BG24_707_G";
                 public const string EternalKnight_EternalKnightPlayerEnchant = "BG25_008pe";
+                public const string HunterofGatherers_GathererHunted = "BG25_027_Ge";
                 public const string HunterofGatherers_GathererHuntedEnchantment = "BG25_027e";
                 public const string MechaJaraxxus = "BG25_807";
                 public const string MechaJaraxxus_MechaJaraxxus = "BG25_807_G";

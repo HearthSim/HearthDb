@@ -204,6 +204,7 @@ namespace HearthDb
                 public const string MalfurionStormrage_AstralXuenHeroHeroSkins = "HERO_06ag";
                 public const string MalfurionStormrageHeroic_CthunHeroHeroSkins = "HERO_06ah";
                 public const string MalfurionStormrage_UlfarHeroHeroSkins = "HERO_06ai";
+                public const string MalfurionStormrage_DrifterGuffHeroHeroSkins = "HERO_06aj_Guff";
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
                 public const string MalfurionStormrage_DameHazelbarkHeroHeroSkins = "HERO_06d";
@@ -409,6 +410,16 @@ namespace HearthDb
                 public const string JadeBehemothWONDERS = "WON_303";
                 public const string DarkArakkoaWONDERS = "WON_304";
                 public const string MenagerieWardenWONDERS = "WON_305";
+                public const string TakeToTheSkies = "WW_816";
+                public const string CactusConstruct = "WW_818";
+                public const string SplishSplashWhelp = "WW_819";
+                public const string SpinetailDrake = "WW_820";
+                public const string DragonTales = "WW_821";
+                public const string DragonGolem = "WW_822";
+                public const string Rehydrate = "WW_823";
+                public const string Rheastrasza = "WW_824";
+                public const string FyeTheSettingSun = "WW_825";
+                public const string DesertNestmatron = "WW_826";
                 public const string RisingWinds = "YOD_001";
                 public const string WingedGuardian = "YOD_003";
                 public const string SteelBeetle = "YOD_040";

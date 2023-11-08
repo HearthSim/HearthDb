@@ -131,6 +131,9 @@ namespace HearthDb
                 public const string IllidanStormrage_RavenlordKurtrusHeroHeroSkins = "HERO_10ad";
                 public const string IllidanStormrage_OmenChainedHeroHeroSkinsEnchantment = "HERO_10ae";
                 public const string IllidanStormrage_PirateIllidanHeroHeroSkins = "HERO_10af";
+                public const string IllidanStormrage_GunslingerKurtrusHeroHeroSkins = "HERO_10ag_Kurtrus";
+                public const string IllidanStormrageHeroic_SecondSightIllidanHeroHeroSkins = "HERO_10ah_Illidan";
+                public const string IllidanStormrage_FelreaperIllidanHeroHeroSkins = "HERO_10ai_Illidan";
                 public const string IllidanStormrage_ArannaStarseekerHeroHeroSkins = "HERO_10b";
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
                 public const string IllidanStormrage_FelravagerIllidanHeroHeroSkins = "HERO_10d";
@@ -235,6 +238,16 @@ namespace HearthDb
                 public const string SigilOfSummoning = "WC_003";
                 public const string TaintheartTormenter = "WC_040";
                 public const string Felrattler = "WC_701";
+                public const string SnakeEyes = "WW_400";
+                public const string GunslingerKurtrus = "WW_401";
+                public const string BlindeyeSharpshooter = "WW_402";
+                public const string PocketSand = "WW_403";
+                public const string OasisOutlaws = "WW_404";
+                public const string FanTheHammer = "WW_405";
+                public const string MidnightWolf = "WW_406";
+                public const string ParchedDesperado = "WW_407";
+                public const string BartendOBot = "WW_408";
+                public const string LoadTheChamber = "WW_409";
                 public const string SigilOfTime = "YOG_401";
                 public const string Mindbender = "YOG_402";
                 public const string SaroniteShambler = "YOG_521";

@@ -32,6 +32,9 @@ namespace HearthDb
                 public const string TheLichKing_BloodQueenLanathelHeroHeroSkins = "HERO_11l";
                 public const string TheLichKing_FrostbringerArthasHeroHeroSkins = "HERO_11m";
                 public const string TheLichKing_ZombieQueenScarletHeroHeroSkins = "HERO_11n";
+                public const string TheLichKing_PitBossReskaHeroHeroSkinsEnchantment = "HERO_11o_ReskathePitBoss";
+                public const string TheLichKing_ScourgeborneArthasHeroHeroSkins = "HERO_11p_LichKing";
+                public const string TheLichKing_ThassarianArthasHeroHeroSkins = "HERO_11q_LichKing";
                 public const string YellingYodeler = "JAM_005";
                 public const string ColdFeet = "JAM_006";
                 public const string CoolGhoul = "JAM_007";
@@ -117,6 +120,16 @@ namespace HearthDb
                 public const string ThePrimus = "TTN_737";
                 public const string FrozenOver = "TTN_744";
                 public const string Helya = "TTN_850";
+                public const string SkeletonCrew = "WW_322";
+                public const string PileOfBones = "WW_324";
+                public const string ReapWhatYouSow = "WW_352";
+                public const string FistfulOfCorpses = "WW_354";
+                public const string HarrowingOx = "WW_356";
+                public const string MawAndPaw = "WW_357";
+                public const string FarmHand = "WW_358";
+                public const string CropRotation = "WW_368";
+                public const string ReskaThePitBoss = "WW_373";
+                public const string CorpseFarm = "WW_374";
                 public const string RunesOfDarkness = "YOG_511";
                 public const string SicklyGrimewalker = "YOG_512";
                 public const string SinisterSoulcage = "YOG_513";

@@ -572,6 +572,13 @@ namespace HearthDb
                 public const string DiscipleofGolganneth_WavelingToken = "TTN_833t";
                 public const string WeightoftheWorld_HeavyBurdenEnchantment = "TTN_865e";
                 public const string Conductivity_ConductiveEnchantment = "YOG_522e";
+                public const string FrogEnchantmentHeroic = "WW_010hexfrog";
+                public const string DoctorHollidae_StaffOfTheNineFrogsToken = "WW_010t";
+                public const string LivingPrairie_StartledCowToken = "WW_024t";
+                public const string GiantTumbleweed_TumbleweedToken = "WW_090t";
+                public const string CactusCutter_CactusCutterEnchantment1 = "WW_327e";
+                public const string CactusCutter_CactusCutterEnchantment2 = "WW_327e2";
+                public const string LoadtheChamber_LoadedUpEnchantment = "WW_409e1";
                 public const string PebblyPage_PebbledEnchantment = "WON_090e";
                 public const string SwattingInsectsEnchantment = "WON_092e";
                 public const string AlAkirtheWindsofTimeHeroic_WindsOfTimeEnchantment = "WON_092he";

@@ -197,6 +197,7 @@ namespace HearthDb
                 public const string Rexxar_RockabillyRexxarHeroHeroSkins = "HERO_05ac";
                 public const string Rexxar_EarthenBrannHeroHeroSkins = "HERO_05ad";
                 public const string Rexxar_StepfatherLorthemarHeroHeroSkinsEnchantment = "HERO_05ae";
+                public const string Rexxar_CowgirlAlleriaHeroHeroSkins = "HERO_05af_Alleria";
                 public const string Rexxar_WandererRexxarHeroHeroSkins = "HERO_05b";
                 public const string Rexxar_SylvanasWindrunnerHeroHeroSkins = "HERO_05c";
                 public const string Rexxar_WarsongRexxarHeroHeroSkins = "HERO_05d";
@@ -400,6 +401,16 @@ namespace HearthDb
                 public const string CobraShotWONDERS = "WON_306";
                 public const string ShakyZipgunnerWONDERS = "WON_307";
                 public const string SmugglersCrateWONDERS = "WON_347";
+                public const string SneakySnakes = "WW_806";
+                public const string MessengerBuzzard = "WW_807";
+                public const string SilverSerpent = "WW_808";
+                public const string BovineSkeleton = "WW_809";
+                public const string CamouflageMount = "WW_810";
+                public const string TenGallonHat = "WW_811";
+                public const string SaddleUp = "WW_812";
+                public const string Starshooter = "WW_813";
+                public const string Spurfang = "WW_814";
+                public const string TheldurinTheLost = "WW_815";
                 public const string ChopshopCopter = "YOD_004";
                 public const string FreshScent = "YOD_005";
                 public const string RotnestDrake = "YOD_036";

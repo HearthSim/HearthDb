@@ -661,6 +661,10 @@ namespace HearthDb
                 public const string CoppertailSnoop_CoppertailSnoopEnchantment = "TTN_921e";
                 public const string SP3Y3D3R_Sp3Y3D3rEnchantment = "TTN_923e";
                 public const string AssemblyLine_PremiumConditionEnchantment = "YOG_410e1";
+                public const string KoboldMiner_TheAzeriteScorpionToken = "WW_001t23";
+                public const string KoboldMiner_ScorpionsStingToken = "WW_001t23e";
+                public const string VelarokWindblade_VelarokTheDeceiverToken = "WW_364t";
+                public const string VelarokWindblade_VelarokTheDeceiverEnchantmentToken = "WW_364te";
                 public const string Anubarak_NerubianTokenWONDERS = "WON_076t";
                 public const string MountHyjalImposter_MountHyjalImposterEnchantment = "WON_077e2";
                 public const string TheScarabLord_ScarabGongToken = "WON_079t";

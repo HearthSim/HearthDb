@@ -205,6 +205,9 @@ namespace HearthDb
                 public const string Thrall_ThundercallerThrallHeroHeroSkins = "HERO_02al";
                 public const string Thrall_ThorimHeroHeroSkins = "HERO_02am";
                 public const string Thrall_JadeLightningKingHeroHeroSkins = "HERO_02an";
+                public const string Thrall_HoedownInzahHeroHeroSkinsEnchantment = "HERO_02ao_Inzah";
+                public const string Thrall_CataclysmThrallHeroHeroSkins = "HERO_02ap_Thrall";
+                public const string Thrall_SkyshatterThrallHeroHeroSkins = "HERO_02aq_Thrall";
                 public const string Thrall_KingRastakhanHeroHeroSkins = "HERO_02b";
                 public const string Thrall_TheThunderKingHeroHeroSkins = "HERO_02c";
                 public const string Thrall_WarchiefThrallHeroHeroSkins = "HERO_02d";
@@ -405,6 +408,16 @@ namespace HearthDb
                 public const string ChargedHammerWONDERS = "WON_321";
                 public const string ReincarnateWONDERS = "WON_335";
                 public const string HallazealTheAscendedWONDERS = "WON_336";
+                public const string DoctorHollidae = "WW_010";
+                public const string LivingPrairie = "WW_024";
+                public const string SkarrTheCatastrophe = "WW_026";
+                public const string TrustyCompanion = "WW_027";
+                public const string AmphibiousElixir = "WW_080";
+                public const string GiantTumbleweed = "WW_090";
+                public const string Dehydrate = "WW_325";
+                public const string MinecartCruiser = "WW_326";
+                public const string CactusCutter = "WW_327";
+                public const string WalkingMountain = "WW_382";
                 public const string ExplosiveEvolution = "YOD_020";
                 public const string EyeOfTheStorm = "YOD_041";
                 public const string TheFistOfRaDen = "YOD_042";

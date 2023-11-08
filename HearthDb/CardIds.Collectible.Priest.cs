@@ -211,6 +211,8 @@ namespace HearthDb
                 public const string AnduinWrynn_AnduinTheValorousHeroHeroSkins = "HERO_09af";
                 public const string AnduinWrynn_NightWarriorTyrandeHeroHeroSkins = "HERO_09ag";
                 public const string AnduinWrynnHeroic_InvestigatorXyrellaHeroHeroSkins = "HERO_09ah";
+                public const string AnduinWrynn_PianomanHedanisHeroHeroSkins = "HERO_09ai_Hedanis";
+                public const string AnduinWrynn_EliseTheLeaderHeroHeroSkins = "HERO_09aj_EliseStarseeker";
                 public const string AnduinWrynn_MadameLazulHeroHeroSkins = "HERO_09b";
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
                 public const string AnduinWrynn_AnduinOfProphecyHeroHeroSkins = "HERO_09d";
@@ -417,6 +419,16 @@ namespace HearthDb
                 public const string ShrinkmeisterWONDERS = "WON_314";
                 public const string DarkshireAlchemistWONDERS = "WON_315";
                 public const string ConvertWONDERS = "WON_342";
+                public const string SwarmOfLightbugs = "WW_052";
+                public const string TramHeist = "WW_053";
+                public const string InjuredHauler = "WW_381";
+                public const string BenevolentBanker = "WW_384";
+                public const string ThirstyDrifter = "WW_387";
+                public const string EliseBadlandsSavior = "WW_392";
+                public const string InvasiveShadeleaf = "WW_393";
+                public const string PipThePotent = "WW_394";
+                public const string HolySpringwater = "WW_395";
+                public const string PossePossession = "WW_600";
                 public const string ClericOfScales = "YOD_013";
                 public const string AeonReaver = "YOD_014";
                 public const string DarkProphecy = "YOD_015";

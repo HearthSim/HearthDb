@@ -735,6 +735,12 @@ namespace HearthDb
                 public const string GeneralVezax_UnstoppableEnchantment = "YOG_500e2";
                 public const string Sanitize_SanitizeToken = "YOG_502t";
                 public const string RunesofDarkness_DarkDesignEnchantment = "YOG_511e";
+                public const string KoboldMiner_TheAzeriteOxToken = "WW_001t27";
+                public const string CattleRustler_RustledEnchantment = "WW_351e";
+                public const string UnluckyPowderman_CoalDustEnchantment = "WW_367e";
+                public const string BoombossThogrun_TNTToken = "WW_372t";
+                public const string SlagmawtheSlumbering_SlumberingEnchantment = "WW_375e";
+                public const string SlagmawtheSlumbering_SlaggingEnchantment = "WW_375e2";
                 public const string RustyHookToken = "WON_106t";
                 public const string HobartGrapplehammer_SmugglingEnchantmentWONDERS = "WON_117e";
                 public const string Bash = "TUTR_AT_064";

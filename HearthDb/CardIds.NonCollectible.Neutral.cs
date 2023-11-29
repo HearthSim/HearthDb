@@ -5878,7 +5878,7 @@ namespace HearthDb
                 public const string FinickyHourglass = "BG27_Anomaly_001";
                 public const string PrudenceOfAmitus = "BG27_Anomaly_002";
                 public const string AntiGravityStadium = "BG27_Anomaly_004";
-                public const string AntiGravityStadium_AntiGravityEnchant = "BG27_Anomaly_004_e";
+                public const string AntiGravityStadium_ValuationInflationEnchantDnt = "BG27_Anomaly_004_e";
                 public const string AntiGravityStadium_AnomalySwapAttackHealth = "BG27_Anomaly_004_e1";
                 public const string MimironsClockworkStadium = "BG27_Anomaly_005";
                 public const string CurseOfAggramar = "BG27_Anomaly_006";

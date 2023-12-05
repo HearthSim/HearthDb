@@ -354,13 +354,10 @@ namespace HearthDb
                 public const string PogoHopper = "BGS_028";
                 public const string PogoHopper_Pogocounterenchantment = "BGS_028pe";
                 public const string Scallywag_SkyPirateToken = "BGS_061t";
-                public const string SaltyLooterBATTLEGROUNDS = "BGS_081";
                 public const string PocketChange = "BGS_Treasures_001";
                 public const string SmartSavingsTavernBrawl = "TB_BaconShop_HP_008";
                 public const string BobsBurglesTavernBrawl = "TB_BaconShop_HP_077";
                 public const string PogoHopperTavernBrawl = "TB_BaconUps_077";
-                public const string Scallywag_SkyPirateTokenTavernBrawl = "TB_BaconUps_141t";
-                public const string SaltyLooterTavernBrawl = "TB_BaconUps_143";
                 public const string FoxyFraud_EnablingEnchantment = "DMF_511e";
                 public const string FoxyFraud_CheaperCombosEnchantment = "DMF_511e2";
                 public const string CloakofShadows_SneakyEnchantment = "DMF_512e";

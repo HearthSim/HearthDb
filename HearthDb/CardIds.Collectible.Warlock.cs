@@ -207,6 +207,7 @@ namespace HearthDb
                 public const string Guldan_TraderRafaamHeroHeroSkins = "HERO_07aj_Rafaam";
                 public const string Guldan_CorruptorGuldanHeroHeroSkins = "HERO_07ak_Guldan";
                 public const string Guldan_MaleficGuldanHeroHeroSkins = "HERO_07al_Guldan";
+                public const string Guldan_LordGodfreyHeroHeroSkins = "HERO_07am_Godfrey";
                 public const string Guldan_MechaJaraxxusHeroHeroSkins = "HERO_07b";
                 public const string Guldan_ShadowGuldanHeroHeroSkins = "HERO_07c";
                 public const string Guldan_NzothHeroHeroSkins = "HERO_07d";

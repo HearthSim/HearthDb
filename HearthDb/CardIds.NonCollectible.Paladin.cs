@@ -132,7 +132,6 @@ namespace HearthDb
                 public const string DarkLightTavernBrawl = "TB_TagTeam_Paladin";
                 public const string SirFinleyTavernBrawl4 = "TB_TempleOutrun_Finley";
                 public const string KeeperofUldaman_WatchedEnchantment = "LOE_017e";
-                public const string SelflessHero = "BG_OG_221";
                 public const string VilefinInquisitor_SilverHandMurloc = "OG_006a";
                 public const string VilefinInquisitor_TheTidalHand = "OG_006b";
                 public const string RallyingBlade_RallyEnchantment = "OG_222e";
@@ -140,7 +139,6 @@ namespace HearthDb
                 public const string DivineStrength = "RLK_Prologue_OG_223";
                 public const string StandAgainstDarkness = "RLK_Prologue_OG_273";
                 public const string StewardOfDarkshire = "RLK_Prologue_OG_310";
-                public const string SelflessHeroTavernBrawl = "TB_BaconUps_014";
                 public const string NightbaneTemplar_Whelp = "KAR_010a";
                 public const string SmugglersRun_SmugglingEnchantment = "CFM_305e";
                 public const string LostInTheJungle = "RLK_Prologue_UNG_960";
@@ -192,11 +190,13 @@ namespace HearthDb
                 public const string SoundTheBells = "RLK_Prologue_GIL_145";
                 public const string SoundtheBells_DingDongEnchantmentGILNEAS2 = "RLK_Prologue_GIL_145e";
                 public const string ParagonOfLight = "RLK_Prologue_GIL_685";
+                public const string ReplicatingMenace_MicrobotTokenBOOMSDAY2 = "BG_BOT_312t";
                 public const string AnnoyOModule = "BG_BOT_911";
                 public const string PrismaticLens_SwappedCostEnchantment = "BOT_436e";
                 public const string MechanoEgg_RobosaurToken = "BOT_537t";
                 public const string GlowstoneTechnician_LightInfusedEnchantment = "BOT_910e";
                 public const string AnnoyoModule_AnnoyOModuleEnchantmentBOOMSDAY = "BOT_911e";
+                public const string ReplicatingMenace_MicrobotTokenTavernBrawl = "TB_BaconUps_032t";
                 public const string AnnoyOModuleTavernBrawl = "TB_BaconUps_099";
                 public const string TimeOut_TimeOutEnchantment = "TRL_302e";
                 public const string SpiritoftheTiger_TigerToken = "TRL_309t";
@@ -358,7 +358,9 @@ namespace HearthDb
                 public const string LordaeronAttendant = "Story_01_LordaeronAttendant";
                 public const string ArgentBraggartTavernBrawl = "TB_BaconUps_308";
                 public const string ArgentBraggart_BestestOfTheBestEnchantmentTavernBrawl = "TB_BaconUps_308e";
-                public const string AnnoyoModule_AnnoyOModuleEnchantmentBATTLEGROUNDS = "BG_BOT_911e";
+                public const string AnnoyOModuleEnchantment = "BG_BOT_9112e";
+                public const string AnnoyoModule_AnnoyOModuleEnchantmentBATTLEGROUNDS1 = "BG_BOT_911e";
+                public const string AnnoyoModule_AnnoyOModuleEnchantmentBATTLEGROUNDS2 = "BG_BOT_911e2";
                 public const string Rokara_RokaraArcaneWarrior = "BG20_HERO_100_SKIN_A4";
                 public const string Rokara_Mrrkara = "BG20_HERO_100_SKIN_B";
                 public const string Rokara_RustlinRokara = "BG20_HERO_100_SKIN_C";

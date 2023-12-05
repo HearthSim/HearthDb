@@ -210,6 +210,7 @@ namespace HearthDb
                 public const string JainaProudmoore_ShipmasterMedivhHeroHeroSkins = "HERO_08ap";
                 public const string JainaProudmoore_JainaSanguinarHeroHeroSkins = "HERO_08aq";
                 public const string JainaProudmoore_CardslingerSaraadHeroHeroSkins = "HERO_08ar_Saraad";
+                public const string JainaProudmoore_JusticeJainaHeroHeroSkins = "HERO_08as_Jaina";
                 public const string JainaProudmoore_KhadgarHeroHeroSkins = "HERO_08b";
                 public const string JainaProudmoore_FireMageJainaHeroHeroSkins = "HERO_08c";
                 public const string JainaProudmoore_CelesteHeroHeroSkins = "HERO_08d";

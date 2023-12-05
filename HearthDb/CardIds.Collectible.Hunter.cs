@@ -198,6 +198,7 @@ namespace HearthDb
                 public const string Rexxar_EarthenBrannHeroHeroSkins = "HERO_05ad";
                 public const string Rexxar_StepfatherLorthemarHeroHeroSkinsEnchantment = "HERO_05ae";
                 public const string Rexxar_CowgirlAlleriaHeroHeroSkins = "HERO_05af_Alleria";
+                public const string Rexxar_OutlawSylvanasHeroHeroSkins = "HERO_05ag_Sylvanas";
                 public const string Rexxar_WandererRexxarHeroHeroSkins = "HERO_05b";
                 public const string Rexxar_SylvanasWindrunnerHeroHeroSkins = "HERO_05c";
                 public const string Rexxar_WarsongRexxarHeroHeroSkins = "HERO_05d";

@@ -425,6 +425,10 @@ namespace HearthDb
                 public const string Diablo_MagicBlackSoulstone = "BG20_HERO_666p_t6b";
                 public const string Diablo_RareBlackSoulstone = "BG20_HERO_666p_t6c";
                 public const string Diablo_UniqueBlackSoulstone = "BG20_HERO_666p_t6d";
+                public const string Diablo_Soulstone1 = "BG20_HERO_666p2";
+                public const string Diablo_Soulstone2 = "BG20_HERO_666p2e";
+                public const string Diablo_SoulstoneWatcher = "BG20_HERO_666p2e2";
+                public const string Diablo_Soulstone3 = "BG20_HERO_666p2e3";
                 public const string Sneed = "BG21_HERO_030";
                 public const string Sneed_SubmersibleSneed = "BG21_HERO_030_SKIN_A";
                 public const string Sneed_SinstoneSneed = "BG21_HERO_030_SKIN_B3";
@@ -432,13 +436,11 @@ namespace HearthDb
                 public const string Sneed_SneedChariotRacer = "BG21_HERO_030_SKIN_D";
                 public const string DiremuckForager_Foraged = "BG27_556_Ge";
                 public const string DiremuckForager_ForagedEnchantment = "BG27_556e";
-                public const string HeraldOfFlameBATTLEGROUNDS = "BGS_032";
                 public const string FesterootHulkTavernBrawl = "TB_BaconUps_033";
                 public const string SecurityRoverTavernBrawl = "TB_BaconUps_041";
                 public const string SecurityRover_GuardBotTokenTavernBrawl = "TB_BaconUps_041t";
                 public const string ScrewjankClunkerTavernBrawl = "TB_BaconUps_069";
                 public const string ScrewjankClunker_ScrewyJankEnchantmentTavernBrawl = "TB_BaconUps_069e";
-                public const string HeraldOfFlameTavernBrawl = "TB_BaconUps_103";
                 public const string SwordEater_JawbreakerToken = "DMF_521t";
                 public const string RingmastersBaton_BigTopSpecialEnchantment = "DMF_524e";
                 public const string StageDive_StageDive = "DMF_526a";

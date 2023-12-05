@@ -231,7 +231,6 @@ namespace HearthDb
                 public const string MalfurionthePestilent_SpiderFangs = "ICC_832pb";
                 public const string MalfurionthePestilent_FrostWidowToken = "ICC_832t3";
                 public const string MalfurionthePestilent_ScarabBeetleToken = "ICC_832t4";
-                public const string StrongshellScavengerTavernBrawl = "TB_BaconUps_072";
                 public const string LesserJasperSpellstone_JasperSpellstoneToken = "LOOT_051t1";
                 public const string LesserJasperSpellstone_GreaterJasperSpellstoneToken = "LOOT_051t2";
                 public const string BranchingPaths_ExploreTheDarkness = "LOOT_054b";
@@ -281,6 +280,7 @@ namespace HearthDb
                 public const string FloopsGloriousGloop_GloopyEnchantment = "BOT_444e";
                 public const string Contamination2 = "BOTA_241";
                 public const string Contamination_ContaminatedEnchantment = "BOTA_241e";
+                public const string Tyrantus = "BOTA_UNG_852";
                 public const string BeastsTROLL1 = "PVPDR_Duels_Buckets_Beasts";
                 public const string IronhideDirehorn_IronhideRuntToken = "TRL_232t";
                 public const string MarkoftheLoa_GonksResilience = "TRL_254a";

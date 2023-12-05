@@ -114,6 +114,7 @@ namespace HearthDb
                 public const string KurtrusAshfallen_AshfallenFirewalker = "BG20_HERO_280_SKIN_B2";
                 public const string KurtrusAshfallen_TheHonorableAshfallen = "BG20_HERO_280_SKIN_C3";
                 public const string KurtrusAshfallen_MrrrtrusAshfallen = "BG20_HERO_280_SKIN_D";
+                public const string KurtrusAshfallen_GunglaiveKurtrus = "BG20_HERO_280_SKIN_E";
                 public const string KurtrusAshfallen_FinalShowdown = "BG20_HERO_280p";
                 public const string KurtrusAshfallen_GainMomentum = "BG20_HERO_280p2";
                 public const string KurtrusAshfallen_CloseThePortal = "BG20_HERO_280p3";
@@ -139,6 +140,7 @@ namespace HearthDb
                 public const string RedeemedPariah_PariahsResolveEnchantmentDARKMOON_FAIRE1 = "DMF_222e";
                 public const string RenownedPerformer_PerformersAssistantToken = "DMF_223t";
                 public const string InsatiableFelhound_InsatiableFelhoundToken = "DMF_247t";
+                public const string FelsteelExecutioner_WickedTransformationEnchantment = "DMF_248e";
                 public const string FelsteelExecutioner_FelsteelExecutionerToken = "DMF_248t";
                 public const string RedeemedPariah = "RLK_Prologue_DMF_222";
                 public const string RedeemedPariah_PariahsResolveEnchantmentDARKMOON_FAIRE2 = "RLK_Prologue_DMF_222e";

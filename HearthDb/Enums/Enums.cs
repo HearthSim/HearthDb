@@ -319,6 +319,7 @@ namespace HearthDb.Enums
         BATTLEGROUND_HERO_BUDDY = 24,
         LOCATION = 39,
         BATTLEGROUND_QUEST_REWARD = 40,
+        BATTLEGROUND_SPELL = 42,
         BATTLEGROUND_ANOMALY = 43,
     }
 
@@ -1312,6 +1313,7 @@ namespace HearthDb.Enums
         HERO_DOESNT_MOVE_ON_ATTACK = 3211,
         CURRENT_EXCAVATE_TIER = 3249,
         ALONE_RANGER = 3258,
+        CUTSCENE_CARD_TYPE = 3265,
         MAX_EXCAVATE_TIER = 3326,
     }
 
@@ -1756,6 +1758,7 @@ namespace HearthDb.Enums
         SHADOW = 6,
         FEL = 7,
         PHYSICAL_COMBAT = 8,
+        TAVERN = 9,
     }
 
     public enum State

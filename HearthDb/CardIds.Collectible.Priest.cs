@@ -128,6 +128,11 @@ namespace HearthDb
                 public const string AmuletOfUndying = "DED_512";
                 public const string DefiasLeper = "DED_513";
                 public const string Copycat = "DED_514";
+                public const string ShadowWordSteal = "DEEP_021";
+                public const string HiddenGem = "DEEP_023";
+                public const string GlowstoneGyreworm = "DEEP_024";
+                public const string ShatteredReflections = "DEEP_025";
+                public const string PendantOfEarth = "DEEP_026";
                 public const string BloodOfGhuun = "DMF_053";
                 public const string Insight = "DMF_054";
                 public const string IdolOfYshaarj = "DMF_055";
@@ -213,6 +218,7 @@ namespace HearthDb
                 public const string AnduinWrynnHeroic_InvestigatorXyrellaHeroHeroSkins = "HERO_09ah";
                 public const string AnduinWrynn_PianomanHedanisHeroHeroSkins = "HERO_09ai_Hedanis";
                 public const string AnduinWrynn_EliseTheLeaderHeroHeroSkins = "HERO_09aj_EliseStarseeker";
+                public const string AnduinWrynn_ScarletSallyHeroHeroSkins = "HERO_09ak_Sally";
                 public const string AnduinWrynn_MadameLazulHeroHeroSkins = "HERO_09b";
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
                 public const string AnduinWrynn_AnduinOfProphecyHeroHeroSkins = "HERO_09d";

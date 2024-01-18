@@ -119,6 +119,9 @@ namespace HearthDb
                 public const string DefiasBlastfisher = "DED_007";
                 public const string MonstrousParrot = "DED_008";
                 public const string DoggieBiscuit = "DED_009";
+                public const string MismatchedFossils = "DEEP_001";
+                public const string ShimmerShot = "DEEP_003";
+                public const string ObsidianRevenant = "DEEP_005";
                 public const string DancingCobra = "DMF_083";
                 public const string JewelOfNzoth = "DMF_084";
                 public const string DarkmoonTonk = "DMF_085";
@@ -199,6 +202,7 @@ namespace HearthDb
                 public const string Rexxar_StepfatherLorthemarHeroHeroSkinsEnchantment = "HERO_05ae";
                 public const string Rexxar_CowgirlAlleriaHeroHeroSkins = "HERO_05af_Alleria";
                 public const string Rexxar_OutlawSylvanasHeroHeroSkins = "HERO_05ag_Sylvanas";
+                public const string RexxarHeroic_FestivalHulnHeroHeroSkins = "HERO_05ah_Huln";
                 public const string Rexxar_WandererRexxarHeroHeroSkins = "HERO_05b";
                 public const string Rexxar_SylvanasWindrunnerHeroHeroSkins = "HERO_05c";
                 public const string Rexxar_WarsongRexxarHeroHeroSkins = "HERO_05d";

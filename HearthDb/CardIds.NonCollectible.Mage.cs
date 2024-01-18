@@ -647,6 +647,9 @@ namespace HearthDb
                 public const string ElementalInspiration_PrimordialVortexToken6 = "TTN_480t5";
                 public const string ElementalInspiration_PrimordialVortexToken7 = "TTN_480t6";
                 public const string ElementalInspiration_PrimordialVortexToken8 = "TTN_480t7";
+                public const string ElementalCompanion_HiffarToken = "DEEP_002t";
+                public const string ElementalCompanion_LuekkToken = "DEEP_002t2";
+                public const string ElementalCompanion_MeshoToken = "DEEP_002t3";
                 public const string KoboldMiner_TheAzeriteHawkToken = "WW_001t24";
                 public const string AzeriteVein_FracturedEnchantment1 = "WW_422e";
                 public const string AzeriteVein_FracturedEnchantment2 = "WW_422e2";

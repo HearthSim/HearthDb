@@ -124,6 +124,9 @@ namespace HearthDb
                 public const string ShadowbladeSlinger = "DED_503";
                 public const string WickedShipment = "DED_504";
                 public const string Hullbreaker = "DED_505";
+                public const string ElementiumGeode = "DEEP_030";
+                public const string ChaosCreation = "DEEP_031";
+                public const string Soulfreeze = "DEEP_032";
                 public const string FireBreather = "DMF_110";
                 public const string ManariMosher = "DMF_111";
                 public const string FreeAdmission = "DMF_113";

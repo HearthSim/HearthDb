@@ -124,6 +124,8 @@ namespace HearthDb
                 public const string BlackwaterCutlass = "DED_004";
                 public const string Parrrley = "DED_005";
                 public const string EdwinDefiasKingpin = "DED_510";
+                public const string QuickPick = "DEEP_014";
+                public const string FoolsGold = "DEEP_022";
                 public const string TenwuOfTheRedSmoke = "DMF_071";
                 public const string FoxyFraud = "DMF_511";
                 public const string CloakOfShadows = "DMF_512";

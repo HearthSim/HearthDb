@@ -124,6 +124,9 @@ namespace HearthDb
                 public const string WealthRedistributor = "DED_500";
                 public const string SunwingSquawker = "DED_501";
                 public const string RighteousDefense = "DED_502";
+                public const string SirFinleyTheIntrepid = "DEEP_007";
+                public const string Shroomscavate = "DEEP_018";
+                public const string FossilizedKaleidosaur = "DEEP_033";
                 public const string CarouselGryphon = "DMF_064";
                 public const string RedscaleDragontamer = "DMF_194";
                 public const string SnackRun = "DMF_195";

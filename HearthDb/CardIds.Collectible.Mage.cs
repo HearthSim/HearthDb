@@ -127,6 +127,9 @@ namespace HearthDb
                 public const string GreySageParrot = "DED_515";
                 public const string DeepwaterEvoker = "DED_516";
                 public const string ArcaneOverflow = "DED_517";
+                public const string SummoningWard = "DEEP_000";
+                public const string ElementalCompanion = "DEEP_002";
+                public const string MantleShaper = "DEEP_004";
                 public const string ConfectionCyclone = "DMF_100";
                 public const string FireworkElemental = "DMF_101";
                 public const string GameMaster = "DMF_102";
@@ -211,6 +214,7 @@ namespace HearthDb
                 public const string JainaProudmoore_JainaSanguinarHeroHeroSkins = "HERO_08aq";
                 public const string JainaProudmoore_CardslingerSaraadHeroHeroSkins = "HERO_08ar_Saraad";
                 public const string JainaProudmoore_JusticeJainaHeroHeroSkins = "HERO_08as_Jaina";
+                public const string JainaProudmoore_DragonDanceCelesteHeroHeroSkins = "HERO_08at_Celeste";
                 public const string JainaProudmoore_KhadgarHeroHeroSkins = "HERO_08b";
                 public const string JainaProudmoore_FireMageJainaHeroHeroSkins = "HERO_08c";
                 public const string JainaProudmoore_CelesteHeroHeroSkins = "HERO_08d";

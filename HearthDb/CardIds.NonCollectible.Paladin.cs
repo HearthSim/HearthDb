@@ -647,6 +647,8 @@ namespace HearthDb
                 public const string KeepersStrength_CrusadeEnchantment = "YOG_509e";
                 public const string AlarmedSecuritybot_EnforcedEnchantment = "YOG_510e2";
                 public const string MuscleoTron_MuscleOTronToken = "YOG_525t";
+                public const string TheAzeriteDragonToken = "DEEP_999t4";
+                public const string AzeriteSheenToken = "DEEP_999t4e";
                 public const string Showdown_OutlawToken = "WW_051t";
                 public const string HolyCowboy_HolyCowboyEnchantment = "WW_335e";
                 public const string SpiritoftheBadlands_MirageEnchantment = "WW_337e";

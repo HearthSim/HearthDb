@@ -39,10 +39,12 @@ namespace HearthDb
                 public const string Thrall_TotemicSlamHeroSkins2 = "HERO_02ajbp2";
                 public const string Thrall_TotemicCallHeroSkins3 = "HERO_02ambp";
                 public const string Thrall_TotemicSlamHeroSkins3 = "HERO_02ambp2";
-                public const string Thrall_TotemicCallHeroSkins4 = "HERO_02fbp";
-                public const string Thrall_TotemicSlamHeroSkins4 = "HERO_02fbp2";
-                public const string Thrall_TotemicCallHeroSkins5 = "HERO_02mbp";
-                public const string Thrall_TotemicSlamHeroSkins5 = "HERO_02mbp2";
+                public const string Thrall_TotemicCallHeroSkins4 = "HERO_02arhp";
+                public const string Thrall_TotemicSlamHeroSkins4 = "HERO_02arhp2";
+                public const string Thrall_TotemicCallHeroSkins5 = "HERO_02fbp";
+                public const string Thrall_TotemicSlamHeroSkins5 = "HERO_02fbp2";
+                public const string Thrall_TotemicCallHeroSkins6 = "HERO_02mbp";
+                public const string Thrall_TotemicSlamHeroSkins6 = "HERO_02mbp2";
                 public const string FireFestivalRagnaros = "AIBot_Event_Ragnaros_FireFestival_02m";
                 public const string Hex = "FB_Champs_EX1_246";
                 public const string FlametongueTotem = "FB_Champs_EX1_565";
@@ -572,6 +574,7 @@ namespace HearthDb
                 public const string DiscipleofGolganneth_WavelingToken = "TTN_833t";
                 public const string WeightoftheWorld_HeavyBurdenEnchantment = "TTN_865e";
                 public const string Conductivity_ConductiveEnchantment = "YOG_522e";
+                public const string TheAzeriteMurlocToken = "DEEP_999t5";
                 public const string FrogEnchantmentHeroic = "WW_010hexfrog";
                 public const string DoctorHollidae_StaffOfTheNineFrogsToken = "WW_010t";
                 public const string LivingPrairie_StartledCowToken = "WW_024t";

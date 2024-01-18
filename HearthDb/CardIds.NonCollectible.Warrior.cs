@@ -737,6 +737,7 @@ namespace HearthDb
                 public const string GeneralVezax_UnstoppableEnchantment = "YOG_500e2";
                 public const string Sanitize_SanitizeToken = "YOG_502t";
                 public const string RunesofDarkness_DarkDesignEnchantment = "YOG_511e";
+                public const string DeepminerBrann_DeepminingEnchantment = "DEEP_020e";
                 public const string KoboldMiner_TheAzeriteOxToken = "WW_001t27";
                 public const string CattleRustler_RustledEnchantment = "WW_351e";
                 public const string UnluckyPowderman_CoalDustEnchantment = "WW_367e";

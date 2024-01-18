@@ -128,6 +128,9 @@ namespace HearthDb
                 public const string DruidOfTheReef = "DED_001";
                 public const string MoonlitGuidance = "DED_002";
                 public const string JerryRigCarpenter = "DED_003";
+                public const string GloomstoneGuardian = "DEEP_027";
+                public const string CrystalCluster = "DEEP_028";
+                public const string TroggGemtosser = "DEEP_029";
                 public const string LunarEclipse = "DMF_057";
                 public const string SolarEclipse = "DMF_058";
                 public const string FizzyElemental = "DMF_059";

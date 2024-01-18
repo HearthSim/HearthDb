@@ -525,6 +525,11 @@ namespace HearthDb
                 public const string GolakkaGlutton = "DED_523";
                 public const string Multicaster = "DED_524";
                 public const string GoliathSneedsMasterpiece = "DED_525";
+                public const string StoneDrake = "DEEP_006";
+                public const string ShaleSpider = "DEEP_034";
+                public const string IridescentGyreworm = "DEEP_035";
+                public const string Therazane = "DEEP_036";
+                public const string MaruutStonebinder = "DEEP_037";
                 public const string NzothGodOfTheDeep = "DMF_002";
                 public const string YoggSaronMasterOfFate = "DMF_004";
                 public const string RockRager = "DMF_044";

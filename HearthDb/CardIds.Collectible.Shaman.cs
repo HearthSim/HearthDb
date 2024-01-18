@@ -125,6 +125,8 @@ namespace HearthDb
                 public const string BrilliantMacaw = "DED_509";
                 public const string Suckerhook = "DED_511";
                 public const string CookieTheCook = "DED_522";
+                public const string NeedlerockTotem = "DEEP_008";
+                public const string DiggingStraightDown = "DEEP_009";
                 public const string Revolve = "DMF_700";
                 public const string DunkTank = "DMF_701";
                 public const string Stormstrike = "DMF_702";
@@ -208,6 +210,7 @@ namespace HearthDb
                 public const string Thrall_HoedownInzahHeroHeroSkinsEnchantment = "HERO_02ao_Inzah";
                 public const string Thrall_CataclysmThrallHeroHeroSkins = "HERO_02ap_Thrall";
                 public const string Thrall_SkyshatterThrallHeroHeroSkins = "HERO_02aq_Thrall";
+                public const string Thrall_DisidraStormgloryHeroHeroSkins = "HERO_02ar_Disidra";
                 public const string Thrall_KingRastakhanHeroHeroSkins = "HERO_02b";
                 public const string Thrall_TheThunderKingHeroHeroSkins = "HERO_02c";
                 public const string Thrall_WarchiefThrallHeroHeroSkins = "HERO_02d";

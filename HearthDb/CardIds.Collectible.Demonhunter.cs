@@ -98,6 +98,8 @@ namespace HearthDb
                 public const string NeedForGreed = "DED_506";
                 public const string CrowsNestLookout = "DED_507";
                 public const string ProvingGrounds = "DED_508";
+                public const string ShadestoneSkulker = "DEEP_012";
+                public const string FelFissure = "DEEP_013";
                 public const string LineHopper = "DMF_217";
                 public const string RelentlessPursuit = "DMF_219";
                 public const string FelscreamBlast = "DMF_221";
@@ -135,6 +137,7 @@ namespace HearthDb
                 public const string IllidanStormrageHeroic_SecondSightIllidanHeroHeroSkins = "HERO_10ah_Illidan";
                 public const string IllidanStormrage_FelreaperIllidanHeroHeroSkins = "HERO_10ai_Illidan";
                 public const string IllidanStormrage_DeadeyeArannaHeroHeroSkins = "HERO_10aj_Aranna";
+                public const string IllidanStormrage_KaileneEvergazeHeroHeroSkins = "HERO_10ak_Kailene";
                 public const string IllidanStormrage_ArannaStarseekerHeroHeroSkins = "HERO_10b";
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
                 public const string IllidanStormrage_FelravagerIllidanHeroHeroSkins = "HERO_10d";

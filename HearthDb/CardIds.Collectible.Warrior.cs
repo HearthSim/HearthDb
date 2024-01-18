@@ -130,6 +130,10 @@ namespace HearthDb
                 public const string ManTheCannons = "DED_518";
                 public const string DefiasCannoneer = "DED_519";
                 public const string BlacksmithingHammer = "DED_527";
+                public const string Aftershocks = "DEEP_010";
+                public const string BurningHeart = "DEEP_011";
+                public const string CrimsonExpanse = "DEEP_019";
+                public const string DeepminerBrann = "DEEP_020";
                 public const string SwordEater = "DMF_521";
                 public const string MinefieldDARKMOON_FAIRE = "DMF_522";
                 public const string BumperCar = "DMF_523";
@@ -211,6 +215,7 @@ namespace HearthDb
                 public const string GarroshHellscream_TouringETCHeroHeroSkins = "HERO_01ak_ETC";
                 public const string GarroshHellscream_DestroyerGarroshHeroHeroSkins = "HERO_01al_Garrosh";
                 public const string GarroshHellscream_OnslaughtGarroshHeroHeroSkins = "HERO_01am_Garrosh";
+                public const string GarroshHellscream_LunarDeathwingHeroHeroSkins = "HERO_01an_Deathwing";
                 public const string GarroshHellscream_CorruptGarroshHeroHeroSkins = "HERO_01b";
                 public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";
                 public const string GarroshHellscream_NagrandGarroshHeroHeroSkins = "HERO_01d";

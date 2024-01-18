@@ -114,6 +114,7 @@ namespace HearthDb
                 public const string MirageCaller_MirageEnchantment = "UNG_022e";
                 public const string TortollanShellraiser_ShellshieldEnchantment = "UNG_037e";
                 public const string AwakentheMakers_AmaraWardenOfHopeToken = "UNG_940t8";
+                public const string AwakentheMakers_WardedByHopeToken = "UNG_940t8e";
                 public const string ShadowAscendant_AscendedEnchantment = "ICC_210e";
                 public const string ShadowreaperAnduin_Voidform = "ICC_830p";
                 public const string GildedGargoyle = "BG26_LOOT_534";
@@ -493,6 +494,7 @@ namespace HearthDb
                 public const string AmanThul_VisionOfHeroesToken = "TTN_429t3";
                 public const string CreationProtocol_CreationProtocolToken = "TTN_430t";
                 public const string Serenity_SereneEnchantment = "TTN_483e";
+                public const string GlowstoneGyreworm_GlowstoneGyrewormToken = "DEEP_024t";
                 public const string SwarmofLightbugs_LightbugToken = "WW_052t";
                 public const string SwarmofLightbugs_BottledLightbugsToken = "WW_052t2";
                 public const string EliseBadlandsSavior_HonoraryOutlawEnchantment = "WW_392e";

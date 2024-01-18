@@ -7,6 +7,9 @@ namespace HearthDb
         {
             public class Deathknight
             {
+                public const string ProstheticHand = "DEEP_015";
+                public const string QuartziteCrusher = "DEEP_016";
+                public const string MiningCasualties = "DEEP_017";
                 public const string HardcoreCultist = "ETC_209";
                 public const string ClimacticNecroticExplosion = "ETC_210";
                 public const string ArcaniteRipper = "ETC_423";
@@ -35,6 +38,7 @@ namespace HearthDb
                 public const string TheLichKing_PitBossReskaHeroHeroSkinsEnchantment = "HERO_11o_ReskathePitBoss";
                 public const string TheLichKing_ScourgeborneArthasHeroHeroSkins = "HERO_11p_LichKing";
                 public const string TheLichKing_ThassarianArthasHeroHeroSkins = "HERO_11q_LichKing";
+                public const string TheLichKing_FestiveSaiHeroHeroSkins = "HERO_11r_SaiShadestorm";
                 public const string YellingYodeler = "JAM_005";
                 public const string ColdFeet = "JAM_006";
                 public const string CoolGhoul = "JAM_007";

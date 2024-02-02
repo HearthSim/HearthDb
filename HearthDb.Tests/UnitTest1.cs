@@ -71,7 +71,7 @@ namespace HearthDb.Tests
 			Assert.IsTrue(galakrond.Text.Contains("Draw 1 card."));
 			Assert.IsTrue(galakrond.Text.Contains("It costs (0)."));
 
-            var eyeOfCthun = Cards.All[CardIds.NonCollectible.Neutral.CThuntheShattered_EyeOfCthunToken];
+			var eyeOfCthun = Cards.All[CardIds.NonCollectible.Neutral.CThuntheShattered_EyeOfCthunToken];
 			Assert.IsTrue(eyeOfCthun.Text.Contains("(0/4)"));
 			Assert.IsTrue(eyeOfCthun.Text.Contains("7 damage randomly"));
 
@@ -102,6 +102,31 @@ namespace HearthDb.Tests
 		{
 			Assert.AreEqual(1, Cards.All[CardIds.NonCollectible.Neutral.DeflectOBot].Entity.GetTag(GameTag.DIVINE_SHIELD));
 			Assert.AreEqual(1, Cards.All[CardIds.NonCollectible.Neutral.DeflectOBotTavernBrawl].Entity.GetTag(GameTag.DIVINE_SHIELD));
+		}
+
+		[TestMethod]
+		public void TestRuneCosts()
+		{
+			var shadowVisions = Cards.All[CardIds.Collectible.Priest.ShadowVisions];
+			Assert.AreEqual(0, shadowVisions.BloodCost);
+			Assert.AreEqual(0, shadowVisions.FrostCost);
+			Assert.AreEqual(0, shadowVisions.UnholyCost);
+
+			var climacticNecroticExplosion = Cards.All[CardIds.Collectible.Deathknight.ClimacticNecroticExplosion];
+			Assert.AreEqual(1, climacticNecroticExplosion.BloodCost);
+			Assert.AreEqual(1, climacticNecroticExplosion.FrostCost);
+			Assert.AreEqual(1, climacticNecroticExplosion.UnholyCost);
+			Assert.AreNotEqual(3, climacticNecroticExplosion.UnholyCost);
+
+			var plaguedGrain = Cards.All[CardIds.Collectible.Deathknight.PlaguedGrainCore];
+			Assert.AreEqual(0, plaguedGrain.BloodCost);
+			Assert.AreEqual(0, plaguedGrain.FrostCost);
+			Assert.AreEqual(3, plaguedGrain.UnholyCost);
+
+			var fistfulOfCorpses = Cards.All[CardIds.Collectible.Deathknight.FistfulOfCorpses];
+			Assert.AreEqual(1, fistfulOfCorpses.BloodCost);
+			Assert.AreEqual(0, fistfulOfCorpses.FrostCost);
+			Assert.AreEqual(1, fistfulOfCorpses.UnholyCost);
 		}
 	}
 }

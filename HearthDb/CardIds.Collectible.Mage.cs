@@ -82,6 +82,7 @@ namespace HearthDb
                 public const string CounterspellCore = "CORE_EX1_287";
                 public const string IceBarrierCore = "CORE_EX1_289";
                 public const string MirrorEntityPLACEHOLDER_202204 = "CORE_EX1_294";
+                public const string JainasGiftPLACEHOLDER_202204 = "CORE_GIFT_02";
                 public const string SnapFreezeCore = "CORE_GIL_801";
                 public const string IceWalkerInvalid = "CORE_ICC_068";
                 public const string GhastlyConjurerInvalid = "CORE_ICC_069";
@@ -175,6 +176,7 @@ namespace HearthDb
                 public const string SorcerersApprentice = "EX1_608";
                 public const string KirinTorMage = "EX1_612";
                 public const string Duplicate = "FP1_018";
+                public const string JainasGiftEVENT = "GIFT_02";
                 public const string ArcaneKeysmith = "GIL_116";
                 public const string Cinderstorm = "GIL_147";
                 public const string BookOfSpecters = "GIL_548";
@@ -215,6 +217,7 @@ namespace HearthDb
                 public const string JainaProudmoore_CardslingerSaraadHeroHeroSkins = "HERO_08ar_Saraad";
                 public const string JainaProudmoore_JusticeJainaHeroHeroSkins = "HERO_08as_Jaina";
                 public const string JainaProudmoore_DragonDanceCelesteHeroHeroSkins = "HERO_08at_Celeste";
+                public const string JainaProudmoore_ToastmasterMedivhHeroHeroSkins = "HERO_08au_Medivh";
                 public const string JainaProudmoore_KhadgarHeroHeroSkins = "HERO_08b";
                 public const string JainaProudmoore_FireMageJainaHeroHeroSkins = "HERO_08c";
                 public const string JainaProudmoore_CelesteHeroHeroSkins = "HERO_08d";

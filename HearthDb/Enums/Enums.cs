@@ -240,8 +240,10 @@ namespace HearthDb.Enums
         TITANS = 1858,
         PATH_OF_ARTHAS = 1869,
         WILD_WEST = 1892,
+        WHIZBANGS_WORKSHOP = 1897,
         WONDERS = 1898,
         TUTORIAL = 1904,
+        EVENT = 1941,
     }
 
     public enum CardTextBuilderType
@@ -1797,6 +1799,7 @@ namespace HearthDb.Enums
         FEL = 7,
         PHYSICAL_COMBAT = 8,
         TAVERN = 9,
+        SPELLCRAFT = 10,
     }
 
     public enum State
@@ -1885,6 +1888,7 @@ namespace HearthDb.Enums
         GRYPHON = 6,
         HYDRA = 7,
         WOLF = 8,
+        PEGASUS = 9,
     }
 
     public enum Zone

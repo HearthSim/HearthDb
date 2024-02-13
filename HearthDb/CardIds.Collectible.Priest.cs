@@ -87,6 +87,7 @@ namespace HearthDb
                 public const string ShadowWordDeathCore = "CORE_EX1_622";
                 public const string TempleEnforcerPLACEHOLDER_202204 = "CORE_EX1_623";
                 public const string ShadowformPLACEHOLDER_202204 = "CORE_EX1_625";
+                public const string AnduinsGiftPLACEHOLDER_202204 = "CORE_GIFT_12";
                 public const string LightbombCore = "CORE_GVG_008";
                 public const string DevourMindInvalid = "CORE_ICC_207";
                 public const string ShadowAscendantCore = "CORE_ICC_210";
@@ -188,6 +189,7 @@ namespace HearthDb
                 public const string ShadowformREWARD = "EX1_625";
                 public const string MassDispel = "EX1_626";
                 public const string DarkCultist = "FP1_023";
+                public const string AnduinsGiftEVENT = "GIFT_12";
                 public const string HolyWater = "GIL_134";
                 public const string Chameleos = "GIL_142";
                 public const string QuartzElemental = "GIL_156";

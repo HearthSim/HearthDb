@@ -91,6 +91,7 @@ namespace HearthDb
                 public const string EyeBeamCore = "CORE_BT_801";
                 public const string AldrachiWarbladesCore = "CORE_BT_921";
                 public const string KorvasBloodthorn = "CORE_CS3_019";
+                public const string IllidansGiftPLACEHOLDER_202204 = "CORE_GIFT_08";
                 public const string IllidariStudiesCore = "CORE_YOP_001";
                 public const string GanargGlaivesmithCore = "CS3_017";
                 public const string KorvasBloodthornLegacy = "CS3_019";
@@ -125,6 +126,7 @@ namespace HearthDb
                 public const string Snakebite = "ETC_410";
                 public const string Security = "ETC_411";
                 public const string GoingDownSwinging = "ETC_413";
+                public const string IllidansGiftEVENT = "GIFT_08";
                 public const string IllidanStormrageHeroHeroSkins = "HERO_10";
                 public const string IllidanStormrage_DemonicIllidanHeroHeroSkins = "HERO_10a";
                 public const string IllidanStormrage_EmoRockArannaHeroHeroSkins = "HERO_10aa";

@@ -505,6 +505,7 @@ namespace HearthDb
                 public const string Shadowfiend_ShadowfiendedEnchantmentWONDERS = "WON_061e";
                 public const string ShadowWordForbid_ShadowWordForbidToken = "WON_064ts";
                 public const string ShipsChirurgeon_MedicalAssistanceEnchantment = "WON_065e";
+                public const string Lightspawn = "HM_BG_001";
             }
         }
     }

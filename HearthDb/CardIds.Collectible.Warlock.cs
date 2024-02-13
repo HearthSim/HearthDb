@@ -85,6 +85,7 @@ namespace HearthDb
                 public const string FlameImpCore = "CORE_EX1_319";
                 public const string LordJaraxxusCore = "CORE_EX1_323";
                 public const string VoidcallerCore = "CORE_FP1_022";
+                public const string GuldansGiftPLACEHOLDER_202204 = "CORE_GIFT_11";
                 public const string FiendishCircleCore = "CORE_GIL_191";
                 public const string MalganisCore = "CORE_GVG_021";
                 public const string DefileCore = "CORE_ICC_041";
@@ -178,6 +179,7 @@ namespace HearthDb
                 public const string LordJaraxxus = "EX1_323";
                 public const string Demonfire = "EX1_596";
                 public const string Voidcaller = "FP1_022";
+                public const string GuldansGiftEVENT = "GIFT_11";
                 public const string FiendishCircle = "GIL_191";
                 public const string Duskbat = "GIL_508";
                 public const string Ratcatcher = "GIL_515";
@@ -211,6 +213,7 @@ namespace HearthDb
                 public const string Guldan_CorruptorGuldanHeroHeroSkins = "HERO_07ak_Guldan";
                 public const string Guldan_MaleficGuldanHeroHeroSkins = "HERO_07al_Guldan";
                 public const string Guldan_LordGodfreyHeroHeroSkins = "HERO_07am_Godfrey";
+                public const string Guldan_AnniversaryGuldanHeroHeroSkins = "HERO_07an_Guldan";
                 public const string Guldan_MechaJaraxxusHeroHeroSkins = "HERO_07b";
                 public const string Guldan_ShadowGuldanHeroHeroSkins = "HERO_07c";
                 public const string Guldan_NzothHeroHeroSkins = "HERO_07d";

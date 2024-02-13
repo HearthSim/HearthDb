@@ -86,6 +86,7 @@ namespace HearthDb
                 public const string AncientOfWarPLACEHOLDER_202204 = "CORE_EX1_178";
                 public const string ForceOfNaturePLACEHOLDER_202204 = "CORE_EX1_571";
                 public const string CenariusCore = "CORE_EX1_573";
+                public const string MalfurionsGiftPLACEHOLDER_202204 = "CORE_GIFT_10";
                 public const string WitchwoodAppleCore = "CORE_GIL_663";
                 public const string FatespinnerInvalid = "CORE_ICC_047";
                 public const string WebweaveInvalid = "CORE_ICC_050";
@@ -178,6 +179,7 @@ namespace HearthDb
                 public const string Cenarius = "EX1_573";
                 public const string Savagery = "EX1_578";
                 public const string PoisonSeeds = "FP1_019";
+                public const string MalfurionsGiftEVENT = "GIFT_10";
                 public const string GloomStag = "GIL_130";
                 public const string DruidOfTheScythe = "GIL_188";
                 public const string BewitchedGuardian = "GIL_507";
@@ -208,6 +210,7 @@ namespace HearthDb
                 public const string MalfurionStormrageHeroic_CthunHeroHeroSkins = "HERO_06ah";
                 public const string MalfurionStormrage_UlfarHeroHeroSkins = "HERO_06ai";
                 public const string MalfurionStormrage_DrifterGuffHeroHeroSkins = "HERO_06aj_Guff";
+                public const string MalfurionStormrage_AnniversaryMalfurionHeroHeroSkins = "HERO_06am_Malfurion";
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
                 public const string MalfurionStormrage_DameHazelbarkHeroHeroSkins = "HERO_06d";

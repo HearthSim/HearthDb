@@ -87,6 +87,7 @@ namespace HearthDb
                 public const string TirionFordringCore = "CORE_EX1_383";
                 public const string EqualityCore = "CORE_EX1_619";
                 public const string AvengePLACEHOLDER_202204 = "CORE_FP1_020";
+                public const string UthersGiftPLACEHOLDER_202204 = "CORE_GIFT_05";
                 public const string MusterForBattleCore = "CORE_GVG_061";
                 public const string ArrogantCrusaderInvalid = "CORE_ICC_034";
                 public const string RighteousProtectorCore = "CORE_ICC_038";
@@ -176,6 +177,7 @@ namespace HearthDb
                 public const string AvengingWrath = "EX1_384";
                 public const string Equality = "EX1_619";
                 public const string AvengeNAXX = "FP1_020";
+                public const string UthersGiftEVENT = "GIFT_05";
                 public const string SoundTheBells = "GIL_145";
                 public const string Rebuke = "GIL_203";
                 public const string GhostlyCharger = "GIL_545";
@@ -210,6 +212,7 @@ namespace HearthDb
                 public const string UtherLightbringer_CrystalforgeUtherHeroHeroSkins = "HERO_04al_Uther";
                 public const string UtherLightbringer_LightbringerUtherHeroHeroSkins = "HERO_04am_Uther";
                 public const string UtherLightbringer_DeputyLiadrinHeroHeroSkins = "HERO_04an_Liadrin";
+                public const string UtherLightbringer_AnniversaryFinleyHeroHeroSkinsEnchantment = "HERO_04ao_SirFinley";
                 public const string UtherLightbringer_PrinceArthasHeroHeroSkins = "HERO_04b";
                 public const string UtherLightbringer_SirAnnoyOHeroHeroSkins = "HERO_04c";
                 public const string UtherLightbringer_LightforgedUtherHeroHeroSkins = "HERO_04d";

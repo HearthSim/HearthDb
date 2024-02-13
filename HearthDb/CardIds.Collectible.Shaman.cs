@@ -86,6 +86,7 @@ namespace HearthDb
                 public const string FlametongueTotemCore = "CORE_EX1_565";
                 public const string DoomhammerCore = "CORE_EX1_567";
                 public const string ManaTideTotemPLACEHOLDER_202204 = "CORE_EX1_575";
+                public const string ThrallsGiftPLACEHOLDER_202204 = "CORE_GIFT_06";
                 public const string ZapCore = "CORE_GIL_600";
                 public const string CryostasisInvalid = "CORE_ICC_056";
                 public const string BrrrlocInvalid = "CORE_ICC_058";
@@ -175,6 +176,7 @@ namespace HearthDb
                 public const string ManaTideTotemExpert1 = "EX1_575";
                 public const string WindspeakerLegacy = "EX1_587";
                 public const string ReincarnateNAXX = "FP1_025";
+                public const string ThrallsGiftEVENT = "GIFT_06";
                 public const string HagathaTheWitch = "GIL_504";
                 public const string MurksparkEel = "GIL_530";
                 public const string WitchsApprentice = "GIL_531";

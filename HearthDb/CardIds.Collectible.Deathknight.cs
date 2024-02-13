@@ -7,6 +7,7 @@ namespace HearthDb
         {
             public class Deathknight
             {
+                public const string ArthassGiftPLACEHOLDER_202204 = "CORE_GIFT_04";
                 public const string ProstheticHand = "DEEP_015";
                 public const string QuartziteCrusher = "DEEP_016";
                 public const string MiningCasualties = "DEEP_017";
@@ -20,6 +21,7 @@ namespace HearthDb
                 public const string DeathMetalKnight = "ETC_523";
                 public const string CageHead = "ETC_526";
                 public const string MoshPit = "ETC_533";
+                public const string ArthassGiftEVENT = "GIFT_04";
                 public const string TheLichKingHeroHeroSkins = "HERO_11";
                 public const string TheLichKing_ArthasKingslayerHeroHeroSkins = "HERO_11a";
                 public const string TheLichKing_ArthasMenethilHeroHeroSkins = "HERO_11b";

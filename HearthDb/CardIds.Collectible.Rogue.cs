@@ -47,7 +47,7 @@ namespace HearthDb
                 public const string BlightnozzleCrawler = "BOT_565";
                 public const string CrazedChemist = "BOT_576";
                 public const string GangUp = "BRM_007";
-                public const string DarkIronSkulkerFP2 = "BRM_008";
+                public const string DarkIronSkulkerBRM = "BRM_008";
                 public const string Bamboozle = "BT_042";
                 public const string ShadowjewelerHanar = "BT_188";
                 public const string Spymistress = "BT_701";
@@ -85,6 +85,7 @@ namespace HearthDb
                 public const string ShadowstepCore = "CORE_EX1_144";
                 public const string PreparationCore = "CORE_EX1_145";
                 public const string PatientAssassinPLACEHOLDER_202204 = "CORE_EX1_522";
+                public const string ValeerasGiftPLACEHOLDER_202204 = "CORE_GIFT_09";
                 public const string TessGreymaneCore = "CORE_GIL_598";
                 public const string BoneBaronInvalid = "CORE_ICC_065";
                 public const string RollTheBonesInvalid = "CORE_ICC_201";
@@ -174,6 +175,7 @@ namespace HearthDb
                 public const string SapLegacy = "EX1_581";
                 public const string EdwinVancleef = "EX1_613";
                 public const string AnubarAmbusher = "FP1_026";
+                public const string ValeerasGiftEVENT = "GIFT_09";
                 public const string CheapShot = "GIL_506";
                 public const string Mistwraith = "GIL_510";
                 public const string CursedCastaway = "GIL_557";
@@ -204,6 +206,7 @@ namespace HearthDb
                 public const string ValeeraSanguinarHeroic_CampchefScabbsHeroHeroSkins = "HERO_03ah_Scabbs";
                 public const string ValeeraSanguinar_BrawlerValeeraHeroHeroSkins = "HERO_03ai_Valeera";
                 public const string ValeeraSanguinar_BanditEdwinHeroHeroSkins = "HERO_03aj_Edwin";
+                public const string ValeeraSanguinar_PatchesThePirateHeroHeroSkins = "HERO_03ak_Patches";
                 public const string ValeeraSanguinar_CapNValeeraHeroHeroSkins = "HERO_03b";
                 public const string ValeeraSanguinar_NightslayerValeeraHeroHeroSkins = "HERO_03d";
                 public const string ValeeraSanguinar_DiaoChanValeeraHeroHeroSkinsEnchantment = "HERO_03e";

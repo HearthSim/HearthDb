@@ -83,6 +83,7 @@ namespace HearthDb
                 public const string FreezingTrapCore = "CORE_EX1_611";
                 public const string DeadlyShotCore = "CORE_EX1_617";
                 public const string WebspinnerPLACEHOLDER_202204 = "CORE_FP1_011";
+                public const string RexxarsGiftPLACEHOLDER_202204 = "CORE_GIFT_03";
                 public const string HoundmasterShawPLACEHOLDER_202204 = "CORE_GIL_650";
                 public const string DireFrenzyPLACEHOLDER_202204 = "CORE_GIL_828";
                 public const string ExplodingBloatbatInvalid = "CORE_ICC_021";
@@ -175,6 +176,7 @@ namespace HearthDb
                 public const string FreezingTrap = "EX1_611";
                 public const string DeadlyShot = "EX1_617";
                 public const string WebspinnerNAXX = "FP1_011";
+                public const string RexxarsGiftEVENT = "GIFT_03";
                 public const string Emeriss = "GIL_128";
                 public const string DuskhavenHunter = "GIL_200";
                 public const string WingBlast = "GIL_518";

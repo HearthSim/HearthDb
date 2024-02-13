@@ -180,12 +180,12 @@ namespace HearthDb
                 public const string VolcanicDrake = "BRM_025";
                 public const string HungryDragon = "BRM_026";
                 public const string MajordomoExecutus = "BRM_027";
-                public const string EmperorThaurissanFP2 = "BRM_028";
+                public const string EmperorThaurissanBRM = "BRM_028";
                 public const string RendBlackhand = "BRM_029";
                 public const string Nefarian = "BRM_030";
                 public const string Chromaggus = "BRM_031";
                 public const string BlackwingTechnician = "BRM_033";
-                public const string BlackwingCorruptorFP2 = "BRM_034";
+                public const string BlackwingCorruptorBRM = "BRM_034";
                 public const string RustswornInitiate = "BT_008";
                 public const string FelfinNavigator = "BT_010";
                 public const string TeronGorefiend = "BT_126";
@@ -327,6 +327,7 @@ namespace HearthDb
                 public const string SeaGiantCore = "CORE_EX1_586";
                 public const string NerubianEggCore = "CORE_FP1_007";
                 public const string BaronRivendarePLACEHOLDER_202204 = "CORE_FP1_031";
+                public const string HarthStonebrewPLACEHOLDER_202204 = "CORE_GIFT_01";
                 public const string MossyHorrorPLACEHOLDER_202204 = "CORE_GIL_124";
                 public const string HenchClanThugCore = "CORE_GIL_534";
                 public const string LifedrinkerCore = "CORE_GIL_622";
@@ -759,6 +760,7 @@ namespace HearthDb
                 public const string DancingSwords = "FP1_029";
                 public const string Loatheb = "FP1_030";
                 public const string BaronRivendareNAXX = "FP1_031";
+                public const string HarthStonebrewEVENT = "GIFT_01";
                 public const string WorgenAbomination = "GIL_117";
                 public const string DerangedDoctor = "GIL_118";
                 public const string CauldronElemental = "GIL_119";
@@ -1226,6 +1228,8 @@ namespace HearthDb
                 public const string NeptulonTheTidehunter = "TID_712";
                 public const string Bubbler = "TID_713";
                 public const string CoilfangConstrictor = "TID_744";
+                public const string ColiferoTheArtist = "TOY_703";
+                public const string CorridorSleeper = "TOY_866";
                 public const string HalfTimeScavenger = "TRL_010";
                 public const string TicketScalper = "TRL_015";
                 public const string SightlessRanger = "TRL_020";

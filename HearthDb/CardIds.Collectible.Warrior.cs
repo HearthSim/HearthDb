@@ -47,7 +47,7 @@ namespace HearthDb
                 public const string OmegaAssembly = "BOT_299";
                 public const string Supercollider = "BOT_406";
                 public const string Revenge = "BRM_015";
-                public const string AxeFlingerFP2 = "BRM_016";
+                public const string AxeFlingerBRM = "BRM_016";
                 public const string Bladestorm = "BT_117";
                 public const string WarmaulChallenger = "BT_120";
                 public const string ImprisonedGanarg = "BT_121";
@@ -88,6 +88,7 @@ namespace HearthDb
                 public const string CruelTaskmasterCore = "CORE_EX1_603";
                 public const string FrothingBerserkerCore = "CORE_EX1_604";
                 public const string ShieldBlockCore = "CORE_EX1_606";
+                public const string GarroshsGiftPLACEHOLDER_202204 = "CORE_GIFT_07";
                 public const string DariusCrowleyPLACEHOLDER_202204 = "CORE_GIL_547";
                 public const string WoodcuttersAxeCore = "CORE_GIL_653";
                 public const string ShieldmaidenPLACEHOLDER_202204 = "CORE_GVG_053";
@@ -182,6 +183,7 @@ namespace HearthDb
                 public const string ShieldBlockLegacy = "EX1_606";
                 public const string InnerRage = "EX1_607";
                 public const string DeathsBite = "FP1_021";
+                public const string GarroshsGiftEVENT = "GIFT_07";
                 public const string RabidWorgen = "GIL_113";
                 public const string BlackhowlGunspire = "GIL_152";
                 public const string RedbandWasp = "GIL_155";

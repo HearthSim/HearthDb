@@ -16,7 +16,9 @@ namespace HearthDb
 			CardSet.KARA, CardSet.OG, CardSet.GANGS,
 			CardSet.UNGORO, CardSet.ICECROWN, CardSet.LOOTAPALOOZA,
 			CardSet.GILNEAS, CardSet.BOOMSDAY, CardSet.TROLL,
-			CardSet.DEMON_HUNTER_INITIATE,
+			CardSet.DALARAN, CardSet.ULDUM, CardSet.WILD_EVENT, CardSet.DRAGONS, CardSet.YEAR_OF_THE_DRAGON,
+			CardSet.BLACK_TEMPLE, CardSet.DEMON_HUNTER_INITIATE, CardSet.SCHOLOMANCE, CardSet.DARKMOON_FAIRE,
+			CardSet.THE_BARRENS, CardSet.WAILING_CAVERNS, CardSet.STORMWIND, CardSet.ALTERAC_VALLEY
 		};
 
 		public static CardSet[] ClassicSets = { CardSet.VANILLA };

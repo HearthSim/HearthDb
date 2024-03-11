@@ -666,6 +666,13 @@ namespace HearthDb
                 public const string TheBadlandsBandits_MoeToken = "WW_345t7";
                 public const string TheBadlandsBandits_BurlyToken = "WW_345t8";
                 public const string LayDowntheLaw_JusticeDispensedEnchantment = "WW_365e";
+                public const string SplendiferousWhizbang_DeckOfHeroesToken = "TOY_700t10";
+                public const string FlashSale_AmazingSavingsEnchantment = "TOY_716e";
+                public const string PaintersVirtue_ColorfulEnchantment = "TOY_810e";
+                public const string TigressPlushy_TigressPlushyToken = "TOY_811t";
+                public const string ToyCaptainTarim_ToytanicEnchantment = "TOY_813e3";
+                public const string ToyCaptainTarim_ToyCaptainTarimToken = "TOY_813t";
+                public const string FancyPackaging_VacuumSealedEnchantment = "TOY_881e";
                 public const string TimelessBlessing_TimelessBlessingEnchantment = "WON_051e";
                 public const string RuniTimeExplorer_OutskirtsOfLordaeronToken = "WON_053t";
                 public const string RuniTimeExplorer_WindRiderRoostToken = "WON_053t2";

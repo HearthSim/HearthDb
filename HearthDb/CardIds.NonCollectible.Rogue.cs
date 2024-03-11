@@ -35,6 +35,7 @@ namespace HearthDb
                 public const string ValeeraSanguinar_PoisonedDaggersHeroSkins2 = "HERO_03afbp2";
                 public const string ValeeraSanguinar_DaggerMasteryHeroSkins3 = "HERO_03akhp";
                 public const string ValeeraSanguinar_PoisonedDaggersHeroSkins3 = "HERO_03akhp2";
+                public const string ValeeraSanguinar_SlayerValeeraHeroSkins = "HERO_03am_Valeera_hnv";
                 public const string ValeeraSanguinar_DaggerMasteryHeroSkins4 = "HERO_03dbp";
                 public const string ValeeraSanguinar_DaggerMasteryHeroSkins5 = "HERO_03dbp_Copy";
                 public const string ValeeraSanguinar_PoisonedDaggersHeroSkins4 = "HERO_03dbp2";
@@ -664,6 +665,14 @@ namespace HearthDb
                 public const string KoboldMiner_ScorpionsStingToken = "WW_001t23e";
                 public const string VelarokWindblade_VelarokTheDeceiverToken = "WW_364t";
                 public const string VelarokWindblade_VelarokTheDeceiverEnchantmentToken = "WW_364te";
+                public const string PrizePlunderer_PrizePlunderer = "DMF_519_COPY";
+                public const string TheCrystalCove_CovetedCrystalsEnchantment = "TOY_512e";
+                public const string TheCrystalCove_TreasuresBelowEnchantment = "TOY_512e1";
+                public const string SandboxScoundrel_OnSaleEnchantment = "TOY_521e";
+                public const string SandboxScoundrel_OnSaleReductionEnchantment = "TOY_521e1";
+                public const string SandboxScoundrel_SandboxScoundrelToken = "TOY_521t1";
+                public const string Watercannon_WatersliderToken = "TOY_522t";
+                public const string SplendiferousWhizbang_DeckOfTreasuresToken = "TOY_700t3";
                 public const string Anubarak_NerubianTokenWONDERS = "WON_076t";
                 public const string MountHyjalImposter_MountHyjalImposterEnchantment = "WON_077e2";
                 public const string TheScarabLord_ScarabGongToken = "WON_079t";

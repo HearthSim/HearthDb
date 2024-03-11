@@ -25,13 +25,18 @@ namespace HearthDb
 
 		public static string[] SpellstoneStrings =
 		{
-			CardIds.Collectible.Druid.LesserJasperSpellstone,
+			CardIds.Collectible.Deathknight.LesserSpinelSpellstone,
+			CardIds.Collectible.Demonhunter.LesserOpalSpellstone,
+			CardIds.Collectible.Druid.LesserJasperSpellstoneInvalid,
+			CardIds.Collectible.Druid.LesserJasperSpellstoneLOOTAPALOOZA,
 			CardIds.Collectible.Mage.LesserRubySpellstone,
 			CardIds.Collectible.Paladin.LesserPearlSpellstone,
-			CardIds.Collectible.Priest.LesserDiamondSpellstone,
+			CardIds.Collectible.Priest.LesserDiamondSpellstoneInvalid,
+			CardIds.Collectible.Priest.LesserDiamondSpellstoneLOOTAPALOOZA,
 			CardIds.Collectible.Rogue.LesserOnyxSpellstone,
 			CardIds.Collectible.Shaman.LesserSapphireSpellstone,
-			CardIds.Collectible.Warlock.LesserAmethystSpellstone,
+			CardIds.Collectible.Warlock.LesserAmethystSpellstoneInvalid,
+			CardIds.Collectible.Warlock.LesserAmethystSpellstoneLOOTAPALOOZA,
 			CardIds.NonCollectible.Neutral.TheDarkness_TheDarkness
 		};
 	}

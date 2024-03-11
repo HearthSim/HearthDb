@@ -7,7 +7,7 @@ namespace HearthDb
         {
             public class Priest
             {
-                public const string HolyChampion = "AT_011";
+                public const string HolyChampionTGT = "AT_011";
                 public const string SpawnOfShadowsTGT = "AT_012";
                 public const string PowerWordGlory = "AT_013";
                 public const string ShadowfiendTGT = "AT_014";
@@ -61,22 +61,24 @@ namespace HearthDb
                 public const string RazaTheChained = "CFM_020";
                 public const string PotionOfMadness = "CFM_603";
                 public const string GreaterHealingPotion = "CFM_604";
-                public const string DrakonidOperative = "CFM_605";
+                public const string DrakonidOperativeGANGS = "CFM_605";
                 public const string ManaGeode = "CFM_606";
                 public const string KabalTalonpriest = "CFM_626";
                 public const string KabalSongstealer = "CFM_657";
                 public const string PintSizePotion = "CFM_661";
                 public const string DragonfirePotion = "CFM_662";
-                public const string HolyChampionCore = "CORE_AT_011";
+                public const string HolyChampionInvalid = "CORE_AT_011";
                 public const string FlashHealCore = "CORE_AT_055";
-                public const string DrakonidOperativeCore = "CORE_CFM_605";
+                public const string DrakonidOperativeInvalid = "CORE_CFM_605";
                 public const string ManaGeodeCore = "CORE_CFM_606";
                 public const string HolyNovaCore = "CORE_CS1_112";
                 public const string HolySmiteCore = "CORE_CS1_130";
+                public const string ShadowWordPain = "CORE_CS2_234";
                 public const string NorthshireClericPLACEHOLDER_202204 = "CORE_CS2_235";
                 public const string CrimsonClergyCore = "CORE_CS3_014";
                 public const string FocusedWill = "CORE_CS3_027";
                 public const string CatrinaMuerteCore = "CORE_DAL_721";
+                public const string MadameLazulInvalid = "CORE_DAL_729";
                 public const string MurozondTheInfinitePLACEHOLDER_202204 = "CORE_DRG_090";
                 public const string PsychicConjurerCore = "CORE_EX1_193";
                 public const string PowerInfusion = "CORE_EX1_194";
@@ -84,7 +86,7 @@ namespace HearthDb
                 public const string ShadowWordRuinCore = "CORE_EX1_197";
                 public const string NatalieSeline = "CORE_EX1_198";
                 public const string LightspawnPLACEHOLDER_202204 = "CORE_EX1_335";
-                public const string ShadowWordDeathCore = "CORE_EX1_622";
+                public const string ShadowWordDeath = "CORE_EX1_622";
                 public const string TempleEnforcerPLACEHOLDER_202204 = "CORE_EX1_623";
                 public const string ShadowformPLACEHOLDER_202204 = "CORE_EX1_625";
                 public const string AnduinsGiftPLACEHOLDER_202204 = "CORE_GIFT_12";
@@ -99,10 +101,13 @@ namespace HearthDb
                 public const string SpiritLashInvalid = "CORE_ICC_802";
                 public const string ShadowreaperAnduinInvalid = "CORE_ICC_830";
                 public const string EmbraceDarknessInvalid = "CORE_ICC_849";
-                public const string ShardOfTheNaaruCore = "CORE_SW_441";
-                public const string DarkbishopBenedictusCore = "CORE_SW_448";
+                public const string LesserDiamondSpellstoneInvalid = "CORE_LOOT_507";
+                public const string ShardOfTheNaaruInvalid = "CORE_SW_441";
+                public const string VoidShardInvalid = "CORE_SW_442";
+                public const string DarkbishopBenedictusInvalid = "CORE_SW_448";
                 public const string RadiantElementalPLACEHOLDER_202204 = "CORE_UNG_034";
                 public const string LyraTheSunshardPLACEHOLDER_202204 = "CORE_UNG_963";
+                public const string ShipsChirurgeonInvalid = "CORE_WON_065";
                 public const string HolyNovaLegacy = "CS1_112";
                 public const string MindControlLegacy = "CS1_113";
                 public const string InnerFire = "CS1_129";
@@ -112,7 +117,7 @@ namespace HearthDb
                 public const string ShadowWordPainLegacy = "CS2_234";
                 public const string NorthshireClericREWARD = "CS2_235";
                 public const string DivineSpirit = "CS2_236";
-                public const string ShadowedSpiritCore = "CS3_013";
+                public const string ShadowedSpiritInvalid1 = "CS3_013";
                 public const string CrimsonClergyLegacy = "CS3_014";
                 public const string FocusedWillLegacy = "CS3_027";
                 public const string ThriveInTheShadowsCore = "CS3_028";
@@ -125,7 +130,7 @@ namespace HearthDb
                 public const string CatrinaMuerte = "DAL_721";
                 public const string ForbiddenWords = "DAL_723";
                 public const string MassResurrection = "DAL_724";
-                public const string MadameLazul = "DAL_729";
+                public const string MadameLazulDALARAN = "DAL_729";
                 public const string AmuletOfUndying = "DED_512";
                 public const string DefiasLeper = "DED_513";
                 public const string Copycat = "DED_514";
@@ -221,6 +226,9 @@ namespace HearthDb
                 public const string AnduinWrynn_PianomanHedanisHeroHeroSkins = "HERO_09ai_Hedanis";
                 public const string AnduinWrynn_EliseTheLeaderHeroHeroSkins = "HERO_09aj_EliseStarseeker";
                 public const string AnduinWrynn_ScarletSallyHeroHeroSkins = "HERO_09ak_Sally";
+                public const string AnduinWrynn_MysticalMysteryballLazulHeroHeroSkins = "HERO_09al_Lazul_hls";
+                public const string AnduinWrynn_AvatarAnduinHeroHeroSkins = "HERO_09am_Anduin_hnv";
+                public const string AnduinWrynn_AbsolutionAnduinHeroHeroSkins = "HERO_09an_Anduin_hnv";
                 public const string AnduinWrynn_MadameLazulHeroHeroSkins = "HERO_09b";
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
                 public const string AnduinWrynn_AnduinOfProphecyHeroHeroSkins = "HERO_09d";
@@ -262,6 +270,7 @@ namespace HearthDb
                 public const string Purify = "KAR_013";
                 public const string PriestOfTheFeast = "KAR_035";
                 public const string OnyxBishopKARA = "KAR_204";
+                public const string ShadowedSpiritInvalid2 = "LEG_CS3_013";
                 public const string MuseumCuratorLOE = "LOE_006";
                 public const string Entomb = "LOE_104";
                 public const string ExcavatedEvil = "LOE_111";
@@ -271,7 +280,7 @@ namespace HearthDb
                 public const string UnidentifiedElixir = "LOOT_278";
                 public const string PsionicProbe = "LOOT_353";
                 public const string Duskbreaker = "LOOT_410";
-                public const string LesserDiamondSpellstone = "LOOT_507";
+                public const string LesserDiamondSpellstoneLOOTAPALOOZA = "LOOT_507";
                 public const string TwilightAcolyte = "LOOT_528";
                 public const string GildedGargoyle = "LOOT_534";
                 public const string Temporus = "LOOT_538";
@@ -326,16 +335,26 @@ namespace HearthDb
                 public const string ShadowclothNeedle = "SW_012";
                 public const string SeekGuidance = "SW_433";
                 public const string CallOfTheGrave = "SW_440";
-                public const string ShardOfTheNaaru = "SW_441";
-                public const string VoidShard = "SW_442";
+                public const string ShardOfTheNaaruSTORMWIND = "SW_441";
+                public const string VoidShardSTORMWIND = "SW_442";
                 public const string ElekkMount = "SW_443";
                 public const string TwilightDeceptor = "SW_444";
                 public const string Psyfiend = "SW_445";
                 public const string VoidtouchedAttendant = "SW_446";
-                public const string DarkbishopBenedictus = "SW_448";
+                public const string DarkbishopBenedictusSTORMWIND = "SW_448";
                 public const string HeraldOfLight = "TID_085";
                 public const string DisarmingElemental = "TID_700";
                 public const string Drown = "TID_920";
+                public const string ClayMatriarch = "TOY_380";
+                public const string PapercraftAngel = "TOY_381";
+                public const string CarelessCrafter = "TOY_382";
+                public const string RazaTheResealed = "TOY_383";
+                public const string PurifyingPower = "TOY_384";
+                public const string TimewinderZarimi = "TOY_385";
+                public const string ScaleReplica = "TOY_387";
+                public const string ChalkArtist = "TOY_388";
+                public const string FlyOffTheShelves = "TOY_714";
+                public const string Repackage = "TOY_879";
                 public const string Seance = "TRL_097";
                 public const string Regenerate = "TRL_128";
                 public const string SandDrudge = "TRL_131";
@@ -421,7 +440,7 @@ namespace HearthDb
                 public const string ShadowbomberWONDERS = "WON_062";
                 public const string ConfessorPaletressWONDERS = "WON_063";
                 public const string ShadowWordForbid = "WON_064";
-                public const string ShipsChirurgeon = "WON_065";
+                public const string ShipsChirurgeonWONDERS = "WON_065";
                 public const string MurozondThiefOfTime = "WON_066";
                 public const string HoodedAcolyteWONDERS = "WON_313";
                 public const string ShrinkmeisterWONDERS = "WON_314";

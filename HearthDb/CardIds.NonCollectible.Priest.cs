@@ -459,7 +459,6 @@ namespace HearthDb
                 public const string Switcheroo_SwitcheroodEnchantment = "TSC_702e";
                 public const string AzsharanRitual_SunkenRitualToken = "TSC_775t";
                 public const string ClearConscience_ClearedConscienceEnchantment = "MAW_021e";
-                public const string ClearConscience_InTheClearEnchantment = "MAW_021e2";
                 public const string TheftAccusation_TheftTrialEnchantment = "MAW_023e";
                 public const string TheftAccusation_AccusedOfTheftEnchantment = "MAW_023e2";
                 public const string TheHarvesterofEnvy_CopiedFromOpponentEnchantment = "REV_011e";
@@ -501,6 +500,16 @@ namespace HearthDb
                 public const string InvasiveShadeleaf_BottledShadeleafToken = "WW_393t";
                 public const string HolySpringwater_BottledSpringwaterToken = "WW_395t";
                 public const string PossePossession_PossessedYallEnchantment = "WW_600e";
+                public const string ClayMatriarch_ClayMatriarchToken = "TOY_380t";
+                public const string ClayMatriarch_ClayWhelpToken = "TOY_380t2";
+                public const string CarelessCrafter_BandageToken = "TOY_382t";
+                public const string RazatheResealed_RazaResealedEnchantEnchantment = "TOY_383e";
+                public const string PurifyingPower_PurifiedEnchantment = "TOY_384e";
+                public const string ChalkArtist_CoveredInChalkEnchantment = "TOY_388e2";
+                public const string ChalkArtist_ChalkDragonCostEnchantment = "TOY_388e3";
+                public const string SplendiferousWhizbang_SeptupletDeckToken = "TOY_700t1";
+                public const string Repackage_ResealedBoxTrackerEnchantment = "TOY_879e";
+                public const string Repackage_RepackagedBoxToken = "TOY_879t";
                 public const string MuseumCurator_CuratedEnchantment = "WON_056e";
                 public const string Shadowfiend_ShadowfiendedEnchantmentWONDERS = "WON_061e";
                 public const string ShadowWordForbid_ShadowWordForbidToken = "WON_064ts";

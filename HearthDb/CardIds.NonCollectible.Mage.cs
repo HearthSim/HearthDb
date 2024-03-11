@@ -654,6 +654,16 @@ namespace HearthDb
                 public const string AzeriteVein_FracturedEnchantment1 = "WW_422e";
                 public const string AzeriteVein_FracturedEnchantment2 = "WW_422e2";
                 public const string TaethelanBloodwatcher_ReliquaryFindingsEnchantment = "WW_430e";
+                public const string HiddenObjects_FoundItEnchantment = "TOY_037e";
+                public const string ManufacturingError_UniqueDefectEnchantment = "TOY_371e";
+                public const string PuzzlemasterKhadgar_MagicWisdomballPlayerEnchantmentEnchantment = "TOY_373e1";
+                public const string PuzzlemasterKhadgar_MagicWisdomballToken = "TOY_373t";
+                public const string SleetSkater_SleetSkaterToken = "TOY_375t";
+                public const string WatercolorArtist_WashedOutEnchantment = "TOY_376e";
+                public const string WatercolorArtist_DryingEnchantment = "TOY_376e1";
+                public const string SplendiferousWhizbang_MorphingCardToken = "TOY_700t13";
+                public const string SplendiferousWhizbang_MorphingToken = "TOY_700t13e";
+                public const string SplendiferousWhizbang_WonderfulDeckToken = "TOY_700t6";
                 public const string DiscoattheEndofTime_EndOfTheDiscoEnchantment = "WON_040e";
                 public const string ChromieTimehopper_OpeningTheDarkPortalToken = "WON_041t";
                 public const string ChromieTimehopper_BattleForMountHyjalToken = "WON_041t2";

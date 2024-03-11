@@ -582,6 +582,16 @@ namespace HearthDb
                 public const string CactusCutter_CactusCutterEnchantment1 = "WW_327e";
                 public const string CactusCutter_CactusCutterEnchantment2 = "WW_327e2";
                 public const string LoadtheChamber_LoadedUpEnchantment = "WW_409e1";
+                public const string IncredibleValue_FlameWreathedEnchantment = "TOY_046e";
+                public const string Shudderblock_ReadyForActionEnchantment = "TOY_501e";
+                public const string Shudderblock_ShudderblockToken = "TOY_501t";
+                public const string HagathatheFabled_FairyTaleSlimeToken = "TOY_504t";
+                public const string FairyTaleForest_EnchantedEnchantment = "TOY_507e";
+                public const string SandArtElemental_SwirlingColorsEnchantment = "TOY_513e";
+                public const string SandArtElemental_SandArtElementalToken = "TOY_513t";
+                public const string SplendiferousWhizbang_QuestAcceptedToken = "TOY_700t14";
+                public const string SplendiferousWhizbang_QuestingDeckToken = "TOY_700t8";
+                public const string WishUponaStar_WishGrantedEnchantment = "TOY_877e1";
                 public const string PebblyPage_PebbledEnchantment = "WON_090e";
                 public const string SwattingInsectsEnchantment = "WON_092e";
                 public const string AlAkirtheWindsofTimeHeroic_WindsOfTimeEnchantment = "WON_092he";

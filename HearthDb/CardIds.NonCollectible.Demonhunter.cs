@@ -95,6 +95,13 @@ namespace HearthDb
                 public const string SpectralSight = "RLK_Prologue_BT_491";
                 public const string ImmolationAuraBLACK_TEMPLE = "RLK_Prologue_BT_514";
                 public const string SkullOfGuldanBLACK_TEMPLE = "RLK_Prologue_BT_601";
+                public const string ImprisonedAntaenToken = "TOY_400t4";
+                public const string PriestessOfFuryToken = "TOY_400t5";
+                public const string MetamorphosisToken = "TOY_400t6";
+                public const string DemonicBlastToken1 = "TOY_400t6p";
+                public const string DemonicBlastToken2 = "TOY_400t6p2";
+                public const string WarglaivesOfAzzinothToken = "TOY_400t7";
+                public const string SkullOfGuldanToken = "TOY_401t";
                 public const string DoubleJump = "RLK_Prologue_SCH_422";
                 public const string CycleofHatred_SpiritOfVengeanceToken = "SCH_253t";
                 public const string AncientVoidHound_SiphonedEnchantment1 = "SCH_354e";
@@ -137,6 +144,12 @@ namespace HearthDb
                 public const string RagingFelscreamer = "RLK_Prologue_BT_416";
                 public const string RagingFelscreamer_FelscreamEnchantmentDEMON_HUNTER_INITIATE2 = "RLK_Prologue_BT_416e";
                 public const string TwinSliceDEMON_HUNTER_INITIATE = "RLK_Prologue_TwinSlice";
+                public const string TwinSliceToken1 = "TOY_400t3";
+                public const string TwinSliceToken2 = "TOY_400t3e";
+                public const string SecondSliceToken = "TOY_400t3t";
+                public const string EyeBeamToken = "TOY_400t8";
+                public const string AltruisTheOutcastToken = "TOY_401t2";
+                public const string CiCigi_BattlefiendToken = "TOY_913t2";
                 public const string LineHopper_MarkedForPassingEnchantment = "DMF_217e";
                 public const string RelentlessPursuit_OutForBloodEnchantment = "DMF_219e";
                 public const string RedeemedPariah_PariahsResolveEnchantmentDARKMOON_FAIRE1 = "DMF_222e";
@@ -269,6 +282,8 @@ namespace HearthDb
                 public const string IllidanStormrage_DemonsBiteLegacy1 = "HERO_10bp2";
                 public const string IllidanStormrage_DemonClawsLegacy2 = "HERO_10bpe";
                 public const string IllidanStormrage_DemonsBiteLegacy2 = "HERO_10pe2";
+                public const string CiCigi_AldrachiWarbladesLegacyToken = "TOY_913t1";
+                public const string CiCigi_GlaiveboundAdeptLegacyToken = "TOY_913t3";
                 public const string GanargGlaivesmith_FelfistCoreEnchantmentCORE1 = "CS3_017e";
                 public const string GanargGlaivesmithCore = "RLK_Prologue_CS3_017";
                 public const string GanargGlaivesmith_FelfistCoreEnchantmentCORE2 = "RLK_Prologue_CS3_017e";
@@ -348,6 +363,16 @@ namespace HearthDb
                 public const string LoadtheChamber_LoadedNagaEnchantment = "WW_409e";
                 public const string LoadtheChamber_LoadedFelSpellEnchantment = "WW_409e2";
                 public const string LoadtheChamber_LoadedWeaponEnchantment = "WW_409e3";
+                public const string SpiritoftheTeam_SpiritOfTheSnakeEnchantment = "TOY_028e";
+                public const string UmpiresGrasp_GameTimeEnchantment = "TOY_641e";
+                public const string LesserOpalSpellstone_OpalSpellstoneToken = "TOY_645t";
+                public const string LesserOpalSpellstone_GreaterOpalSpellstoneToken = "TOY_645t1";
+                public const string MagtheridonUnreleased_SweepingUpEnchantment = "TOY_647e2";
+                public const string MagtheridonUnreleased_WorkingOvertimeEnchantment = "TOY_647e3";
+                public const string WindowShopper_LiterallyMeEnchantment = "TOY_652e";
+                public const string WindowShopper_LiterallySameEnchantment = "TOY_652e2";
+                public const string WindowShopper_WindowShopperToken = "TOY_652t";
+                public const string SplendiferousWhizbang_DeckOfWishesToken = "TOY_700t9";
             }
         }
     }

@@ -78,12 +78,12 @@ namespace HearthDb
 					if (new[]
 					{
 						CardIds.Collectible.Mage.IceBlock,
-						CardIds.Collectible.Neutral.ColdlightOracle,
-						CardIds.Collectible.Neutral.MoltenGiant,
+						CardIds.Collectible.Neutral.ColdlightOracleREWARD,
+						CardIds.Collectible.Neutral.MoltenGiantREWARD,
 
 						//2019
 						CardIds.Collectible.Druid.Naturalize,
-						CardIds.Collectible.Warlock.Doomguard,
+						CardIds.Collectible.Warlock.DoomguardREWARD,
 						CardIds.Collectible.Paladin.DivineFavor,
 						CardIds.Collectible.Neutral.BakuTheMooneater,
 						CardIds.Collectible.Neutral.GennGreymane,
@@ -101,9 +101,9 @@ namespace HearthDb
 						CardIds.Collectible.Priest.NorthshireClericREWARD,
 						CardIds.Collectible.Neutral.AcolyteOfPainREWARD,
 						CardIds.Collectible.Neutral.Spellbreaker,
-						CardIds.Collectible.Neutral.MindControlTech,
-						CardIds.Collectible.Neutral.MountainGiant,
-						CardIds.Collectible.Neutral.LeeroyJenkins,
+						CardIds.Collectible.Neutral.MindControlTechREWARD,
+						CardIds.Collectible.Neutral.MountainGiantREWARD,
+						CardIds.Collectible.Neutral.LeeroyJenkinsREWARD,
 					}.Contains(Id))
 					{
 						_set = CardSet.HOF;

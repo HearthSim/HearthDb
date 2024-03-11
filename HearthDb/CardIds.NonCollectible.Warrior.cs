@@ -744,6 +744,10 @@ namespace HearthDb
                 public const string BoombossThogrun_TNTToken = "WW_372t";
                 public const string SlagmawtheSlumbering_SlumberingEnchantment = "WW_375e";
                 public const string SlagmawtheSlumbering_SlaggingEnchantment = "WW_375e2";
+                public const string WarsongCommanderToken = "TOY_409t";
+                public const string BoomWrench_BoomWrenchToken = "TOY_604t";
+                public const string SplendiferousWhizbang_DeckOfVillainsToken = "TOY_700t12";
+                public const string RiskySkipper_RiskySkipper = "YOD_022_COPY";
                 public const string RustyHookToken = "WON_106t";
                 public const string HobartGrapplehammer_SmugglingEnchantmentWONDERS = "WON_117e";
                 public const string Bash = "TUTR_AT_064";

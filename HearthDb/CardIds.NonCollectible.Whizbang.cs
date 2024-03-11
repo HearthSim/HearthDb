@@ -9,6 +9,7 @@ namespace HearthDb
             {
                 public const string WhizbangTheWonderfulHeroic = "BOT_914h";
                 public const string ZayleShadowCloakHeroic = "DAL_800h";
+                public const string WonderousWhizbangHeroic = "TOY_700h";
             }
         }
     }

@@ -650,7 +650,7 @@ namespace HearthDb
                 public const string SymphonyofSins_MovementOfGreedToken = "ETC_085t7";
                 public const string SymphonyofSins_MovementOfSlothToken = "ETC_085t8";
                 public const string BoredDoomlord = "ETC_t8t";
-                public const string BloodboundImp = "Core_SW_084";
+                public const string BloodboundImpCorePlaceholder = "Core_SW_084";
                 public const string ThornveilTentacle_CreepingUneaseEnchantment = "TTN_456e";
                 public const string ThornveilTentacle_CreepingStrengthEnchantment = "TTN_456e2";
                 public const string ForgeofWills_IronboundGiantToken = "TTN_465t";

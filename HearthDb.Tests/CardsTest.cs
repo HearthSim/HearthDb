@@ -16,7 +16,7 @@ namespace HearthDb.Tests
 		[TestMethod]
 		public void ArgentSquire_HasNoRace()
 		{
-			var squire = Cards.Collectible[CardIds.Collectible.Neutral.ArgentSquireExpert1];
+			var squire = Cards.Collectible[CardIds.Collectible.Neutral.ArgentSquire];
 			Assert.AreEqual(Race.INVALID, squire.Race);
 			Assert.AreEqual(Race.INVALID, squire.SecondaryRace);
 		}

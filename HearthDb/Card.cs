@@ -78,12 +78,12 @@ namespace HearthDb
 					if (new[]
 					{
 						CardIds.Collectible.Mage.IceBlock,
-						CardIds.Collectible.Neutral.ColdlightOracleREWARD,
-						CardIds.Collectible.Neutral.MoltenGiantREWARD,
+						CardIds.Collectible.Neutral.ColdlightOracle,
+						CardIds.Collectible.Neutral.MoltenGiant,
 
 						//2019
 						CardIds.Collectible.Druid.Naturalize,
-						CardIds.Collectible.Warlock.DoomguardREWARD,
+						CardIds.Collectible.Warlock.Doomguard,
 						CardIds.Collectible.Paladin.DivineFavor,
 						CardIds.Collectible.Neutral.BakuTheMooneater,
 						CardIds.Collectible.Neutral.GennGreymane,
@@ -95,15 +95,15 @@ namespace HearthDb
 						//2020
 						CardIds.Collectible.Priest.AuchenaiSoulpriest,
 						CardIds.Collectible.Priest.HolyFire,
-						CardIds.Collectible.Priest.ShadowformREWARD,
+						CardIds.Collectible.Priest.Shadowform,
 						CardIds.Collectible.Priest.ProphetVelen,
 						CardIds.Collectible.Priest.DivineSpirit,
-						CardIds.Collectible.Priest.NorthshireClericREWARD,
+						CardIds.Collectible.Priest.NorthshireCleric,
 						CardIds.Collectible.Neutral.AcolyteOfPainREWARD,
 						CardIds.Collectible.Neutral.Spellbreaker,
-						CardIds.Collectible.Neutral.MindControlTechREWARD,
-						CardIds.Collectible.Neutral.MountainGiantREWARD,
-						CardIds.Collectible.Neutral.LeeroyJenkinsREWARD,
+						CardIds.Collectible.Neutral.MindControlTech,
+						CardIds.Collectible.Neutral.MountainGiant,
+						CardIds.Collectible.Neutral.LeeroyJenkins,
 					}.Contains(Id))
 					{
 						_set = CardSet.HOF;

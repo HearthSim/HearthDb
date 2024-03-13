@@ -27,16 +27,16 @@ namespace HearthDb
 		{
 			CardIds.Collectible.Deathknight.LesserSpinelSpellstone,
 			CardIds.Collectible.Demonhunter.LesserOpalSpellstone,
-			CardIds.Collectible.Druid.LesserJasperSpellstoneInvalid,
-			CardIds.Collectible.Druid.LesserJasperSpellstoneLOOTAPALOOZA,
+			CardIds.Collectible.Druid.LesserJasperSpellstoneCorePlaceholder,
+			CardIds.Collectible.Druid.LesserJasperSpellstone,
 			CardIds.Collectible.Mage.LesserRubySpellstone,
 			CardIds.Collectible.Paladin.LesserPearlSpellstone,
-			CardIds.Collectible.Priest.LesserDiamondSpellstoneInvalid,
-			CardIds.Collectible.Priest.LesserDiamondSpellstoneLOOTAPALOOZA,
+			CardIds.Collectible.Priest.LesserDiamondSpellstoneCorePlaceholder,
+			CardIds.Collectible.Priest.LesserDiamondSpellstone,
 			CardIds.Collectible.Rogue.LesserOnyxSpellstone,
 			CardIds.Collectible.Shaman.LesserSapphireSpellstone,
-			CardIds.Collectible.Warlock.LesserAmethystSpellstoneInvalid,
-			CardIds.Collectible.Warlock.LesserAmethystSpellstoneLOOTAPALOOZA,
+			CardIds.Collectible.Warlock.LesserAmethystSpellstoneCorePlaceholder,
+			CardIds.Collectible.Warlock.LesserAmethystSpellstone,
 			CardIds.NonCollectible.Neutral.TheDarkness_TheDarkness
 		};
 	}

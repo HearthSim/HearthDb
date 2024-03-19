@@ -11,6 +11,7 @@ namespace HearthDb
 
 		public static CardSet[] WildSets =
 		{
+			CardSet.LEGACY,
 			CardSet.BRM, CardSet.LOE, CardSet.TGT, CardSet.HOF,
 			CardSet.FP1, CardSet.PE1, CardSet.PROMO,
 			CardSet.KARA, CardSet.OG, CardSet.GANGS,
@@ -20,6 +21,7 @@ namespace HearthDb
 			CardSet.BLACK_TEMPLE, CardSet.DEMON_HUNTER_INITIATE, CardSet.SCHOLOMANCE, CardSet.DARKMOON_FAIRE,
 			CardSet.THE_BARRENS, CardSet.WAILING_CAVERNS, CardSet.STORMWIND, CardSet.ALTERAC_VALLEY,
 			CardSet.THE_SUNKEN_CITY, CardSet.REVENDRETH, CardSet.RETURN_OF_THE_LICH_KING, CardSet.PATH_OF_ARTHAS,
+			CardSet.WONDERS,
 		};
 
 		public static CardSet[] ClassicSets = { CardSet.VANILLA };

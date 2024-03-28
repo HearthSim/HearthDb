@@ -68,54 +68,7 @@ namespace HearthDb
 		}
 
 		private CardSet? _set;
-		public CardSet Set
-		{
-			get
-			{
-				if (_set == null)
-				{
-					// HACK to fix missing set value on Hall of Fame cards
-					if (new[]
-					{
-						CardIds.Collectible.Mage.IceBlock,
-						CardIds.Collectible.Neutral.ColdlightOracle,
-						CardIds.Collectible.Neutral.MoltenGiant,
-
-						//2019
-						CardIds.Collectible.Druid.Naturalize,
-						CardIds.Collectible.Warlock.Doomguard,
-						CardIds.Collectible.Paladin.DivineFavor,
-						CardIds.Collectible.Neutral.BakuTheMooneater,
-						CardIds.Collectible.Neutral.GennGreymane,
-						CardIds.Collectible.Druid.GloomStag,
-						CardIds.Collectible.Mage.BlackCat,
-						CardIds.Collectible.Priest.GlitterMoth,
-						CardIds.Collectible.Shaman.MurksparkEel,
-
-						//2020
-						CardIds.Collectible.Priest.AuchenaiSoulpriest,
-						CardIds.Collectible.Priest.HolyFire,
-						CardIds.Collectible.Priest.Shadowform,
-						CardIds.Collectible.Priest.ProphetVelen,
-						CardIds.Collectible.Priest.DivineSpirit,
-						CardIds.Collectible.Priest.NorthshireCleric,
-						CardIds.Collectible.Neutral.AcolyteOfPainREWARD,
-						CardIds.Collectible.Neutral.Spellbreaker,
-						CardIds.Collectible.Neutral.MindControlTech,
-						CardIds.Collectible.Neutral.MountainGiant,
-						CardIds.Collectible.Neutral.LeeroyJenkins,
-					}.Contains(Id))
-					{
-						_set = CardSet.HOF;
-					}
-					else
-					{
-						_set = (CardSet)Entity.GetTag(CARD_SET);
-					}
-				}
-				return _set.Value;
-			}
-		}
+		public CardSet Set => _set ??= (CardSet)Entity.GetTag(CARD_SET);
 
 		public Faction Faction => (Faction)Entity.GetTag(FACTION);
 

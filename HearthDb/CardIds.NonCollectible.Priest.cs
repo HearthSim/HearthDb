@@ -291,6 +291,7 @@ namespace HearthDb
                 public const string UthertheLightbringer_Lit = "BG23_190_Ge";
                 public const string UthertheLightbringer_LitEnchantment = "BG23_190e";
                 public const string PerfectVision_HindsightEnchantment = "BG28_838e";
+                public const string TheNamelessOne = "BGDUO_HERO_100";
                 public const string GhastcoilerBATTLEGROUNDS = "BGS_008";
                 public const string TortollanShellraiserTavernBrawl = "TB_BaconUps_031";
                 public const string TortollanShellraiser_ShellshieldEnchantmentTavernBrawl = "TB_BaconUps_031e";
@@ -459,6 +460,7 @@ namespace HearthDb
                 public const string Switcheroo_SwitcheroodEnchantment = "TSC_702e";
                 public const string AzsharanRitual_SunkenRitualToken = "TSC_775t";
                 public const string ClearConscience_ClearedConscienceEnchantment = "MAW_021e";
+                public const string ClearConscience_InTheClearEnchantment = "MAW_021e2";
                 public const string TheftAccusation_TheftTrialEnchantment = "MAW_023e";
                 public const string TheftAccusation_AccusedOfTheftEnchantment = "MAW_023e2";
                 public const string TheHarvesterofEnvy_CopiedFromOpponentEnchantment = "REV_011e";
@@ -488,6 +490,8 @@ namespace HearthDb
                 public const string AmbientLightspawn_AmbienceEnchantment = "JAM_024e";
                 public const string Fanboy_ZokRocks = "JAM_027a";
                 public const string Fanboy_PoisonBloom = "JAM_027b";
+                public const string AstralAutomaton = "BG_TTN_401";
+                public const string AstralAutomaton_AstralAutomaton = "BG_TTN_401_G";
                 public const string AmanThul_ShapeTheStarsToken = "TTN_429t";
                 public const string AmanThul_StrikeFromHistoryToken = "TTN_429t2";
                 public const string AmanThul_VisionOfHeroesToken = "TTN_429t3";

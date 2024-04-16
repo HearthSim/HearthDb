@@ -41,6 +41,8 @@ namespace HearthDb
                 public const string Thrall_TotemicSlamHeroSkins3 = "HERO_02ambp2";
                 public const string Thrall_TotemicCallHeroSkins4 = "HERO_02arhp";
                 public const string Thrall_TotemicSlamHeroSkins4 = "HERO_02arhp2";
+                public const string ThrallHeroic_TotemicCallHeroSkins = "HERO_02athp";
+                public const string ThrallHeroic_TotemicSlamHeroSkins = "HERO_02athp2";
                 public const string Thrall_TotemicCallHeroSkins5 = "HERO_02fbp";
                 public const string Thrall_TotemicSlamHeroSkins5 = "HERO_02fbp2";
                 public const string Thrall_TotemicCallHeroSkins6 = "HERO_02mbp";

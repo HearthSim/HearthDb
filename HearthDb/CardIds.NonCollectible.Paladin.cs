@@ -192,13 +192,11 @@ namespace HearthDb
                 public const string SoundTheBells = "RLK_Prologue_GIL_145";
                 public const string SoundtheBells_DingDongEnchantmentGILNEAS2 = "RLK_Prologue_GIL_145e";
                 public const string ParagonOfLight = "RLK_Prologue_GIL_685";
-                public const string ReplicatingMenace_MicrobotTokenBOOMSDAY2 = "BG_BOT_312t";
                 public const string AnnoyOModule = "BG_BOT_911";
                 public const string PrismaticLens_SwappedCostEnchantment = "BOT_436e";
                 public const string MechanoEgg_RobosaurToken = "BOT_537t";
                 public const string GlowstoneTechnician_LightInfusedEnchantment = "BOT_910e";
                 public const string AnnoyoModule_AnnoyOModuleEnchantmentBOOMSDAY = "BOT_911e";
-                public const string ReplicatingMenace_MicrobotTokenTavernBrawl = "TB_BaconUps_032t";
                 public const string AnnoyOModuleTavernBrawl = "TB_BaconUps_099";
                 public const string TimeOut_TimeOutEnchantment = "TRL_302e";
                 public const string SpiritoftheTiger_TigerToken = "TRL_309t";
@@ -374,6 +372,7 @@ namespace HearthDb
                 public const string CarielRoame_RopeDarterRoame = "BG21_HERO_000_SKIN_B2";
                 public const string CarielRoame_CarielHammerOfLight = "BG21_HERO_000_SKIN_C4";
                 public const string CarielRoame_CarielTheChosen = "BG21_HERO_000_SKIN_D";
+                public const string CarielRoame_BenevolentCariel = "BG21_HERO_000_SKIN_E";
                 public const string CarielRoame_Conviction = "BG21_HERO_000p";
                 public const string CarielRoame_ConvictionRank2 = "BG21_HERO_000p2";
                 public const string CarielRoame_ConvictionRank3 = "BG21_HERO_000p3";

@@ -222,6 +222,7 @@ namespace HearthDb
                 public const string JainaProudmoore_ToastmasterMedivhHeroHeroSkins = "HERO_08au_Medivh";
                 public const string JainaProudmoore_TirisfalJainaHeroHeroSkins = "HERO_08av_Jaina_hnv";
                 public const string JainaProudmoore_TempestJainaHeroHeroSkins = "HERO_08aw_Jaina_hnv";
+                public const string JainaProudmoore_PrincessPrestorHeroHeroSkins = "HERO_08ax_Prestor_hls";
                 public const string JainaProudmoore_PlushieKitHeroHeroSkins = "HERO_08ay_KitWaxwhisker_hls";
                 public const string JainaProudmoore_KhadgarHeroHeroSkins = "HERO_08b";
                 public const string JainaProudmoore_FireMageJainaHeroHeroSkins = "HERO_08c";

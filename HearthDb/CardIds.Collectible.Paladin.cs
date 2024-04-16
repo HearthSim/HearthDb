@@ -219,6 +219,7 @@ namespace HearthDb
                 public const string UtherLightbringer_AnniversaryFinleyHeroHeroSkinsEnchantment = "HERO_04ao_SirFinley";
                 public const string UtherLightbringer_LeeroyTheLegendHeroHeroSkins = "HERO_04ap_Leeroy";
                 public const string UtherLightbringer_KeychainAnnoyOHeroHeroSkins = "HERO_04aq_AnnoyO_hls";
+                public const string UtherLightbringer_YrelTheKnightHeroHeroSkins = "HERO_04ar_Yrel_hls";
                 public const string UtherLightbringer_PrinceArthasHeroHeroSkins = "HERO_04b";
                 public const string UtherLightbringer_SirAnnoyOHeroHeroSkins = "HERO_04c";
                 public const string UtherLightbringer_LightforgedUtherHeroHeroSkins = "HERO_04d";

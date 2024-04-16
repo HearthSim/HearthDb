@@ -65,6 +65,8 @@ namespace HearthDb
                 public const string BlightChargeTavernBrawl = "TB_BotB_CageHead_001p";
                 public const string MetalStarTavernBrawl = "TB_BotB_RisingStar_DK";
                 public const string DeathKnightArthasTavernBrawl = "TB_HunterPrince_ArthasH";
+                public const string ColdBloodedHeroic1 = "TWI_001hp";
+                public const string ColdBloodedHeroic2 = "TWI_001hpe";
                 public const string TheLichKing_FrostmourneToken = "ICC_314t1";
                 public const string TheLichKing_ArmyOfTheFrozenThroneToken = "ICC_314t2";
                 public const string TheLichKing_DoomPactToken = "ICC_314t3";

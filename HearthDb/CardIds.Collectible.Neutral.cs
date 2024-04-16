@@ -669,7 +669,7 @@ namespace HearthDb
                 public const string YoungPriestess = "EX1_004";
                 public const string BigGameHunter = "EX1_005";
                 public const string AlarmOBot = "EX1_006";
-                public const string AcolyteOfPainREWARD = "EX1_007";
+                public const string AcolyteOfPainExpert1 = "EX1_007";
                 public const string ArgentSquire = "EX1_008";
                 public const string AngryChicken = "EX1_009";
                 public const string WorgenInfiltrator = "EX1_010";

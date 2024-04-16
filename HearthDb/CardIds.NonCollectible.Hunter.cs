@@ -122,8 +122,11 @@ namespace HearthDb
                 public const string WishforCompanionship_Misha = "LOEA02_10c";
                 public const string OntheHunt_MastiffToken = "OG_061t";
                 public const string InfestedWolf_Spider = "OG_216a";
+                public const string KindlyGrandmotherKARA2 = "BG_KAR_005";
+                public const string KindlyGrandmother_BigBadWolfKARA1 = "BG_KAR_005a";
                 public const string CatTrick_CatInAHat = "KAR_004a";
-                public const string KindlyGrandmother_BigBadWolf = "KAR_005a";
+                public const string KindlyGrandmother_BigBadWolfKARA2 = "KAR_005a";
+                public const string KindlyGrandmotherTavernBrawl = "TB_BaconUps_004";
                 public const string Alleycat = "BG_CFM_315";
                 public const string Alleycat_TabbycatTokenGANGS1 = "BG_CFM_315t";
                 public const string RatPack = "BG_CFM_316";
@@ -397,7 +400,7 @@ namespace HearthDb
                 public const string RabidSaurolisk_RabidEnchantment = "BGS_075e";
                 public const string VenomstrikeTrapTavernBrawl = "TB_Bacon_Secrets_01";
                 public const string SnakeTrapTavernBrawl = "TB_Bacon_Secrets_02";
-                public const string KindlyGrandmotherTavernBrawl = "TB_BaconUps_004";
+                public const string PackTacticsTavernBrawl = "TB_Bacon_Secrets_15";
                 public const string KindlyGrandmother_BigBadWolfTokenTavernBrawl = "TB_BaconUps_004t";
                 public const string InfestedWolfTavernBrawl = "TB_BaconUps_026";
                 public const string InfestedWolf_SpiderTokenTavernBrawl = "TB_BaconUps_026t";

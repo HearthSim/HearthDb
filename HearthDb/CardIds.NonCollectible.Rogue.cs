@@ -199,7 +199,7 @@ namespace HearthDb
                 public const string CaptainShiversHeroicGILNEAS = "GILA_BOSS_60h";
                 public const string AcademicEspionage_AcademicEspionageEnchantment = "BOT_087e";
                 public const string MyraRotspring_NecroalchemyEnchantment = "BOT_243e";
-                public const string PogoHopper_KineticEnergyEnchantment = "BOT_283e";
+                public const string PogoHopper_KineticEnergyEnchantmentBOOMSDAY = "BOT_283e";
                 public const string BlightnozzleCrawler_RadioactiveOozeToken = "BOT_565t";
                 public const string CrazedChemist_OverchargedEnchantment = "BOT_576e";
                 public const string GraltheShark_BloodInTheWaterEnchantment = "TRL_409e";

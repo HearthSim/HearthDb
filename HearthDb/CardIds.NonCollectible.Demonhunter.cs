@@ -64,6 +64,9 @@ namespace HearthDb
                 public const string KarnukTavernBrawl = "TB_Thunderdome_Karnuk";
                 public const string ShaljaTavernBrawl = "TB_Thunderdome_Shalja";
                 public const string SklibbTavernBrawl = "TB_Thunderdome_Sklibb";
+                public const string DrawnToDemonsHeroic = "TWI_002hp";
+                public const string SpinClawHeroic = "TWI_003hp";
+                public const string ImInCharrrgeHeroic = "TWI_005hp";
                 public const string Metamorphosis_DemonicBlast1 = "BT_429p";
                 public const string Metamorphosis_DemonicBlast2 = "BT_429p2";
                 public const string InnerDemon_BrandedEnchantment = "BT_512e3";

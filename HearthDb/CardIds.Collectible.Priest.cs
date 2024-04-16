@@ -116,7 +116,7 @@ namespace HearthDb
                 public const string PowerWordShieldLegacy = "CS2_004";
                 public const string ShadowWordPainLegacy = "CS2_234";
                 public const string NorthshireClericLegacy = "CS2_235";
-                public const string DivineSpirit = "CS2_236";
+                public const string DivineSpiritLegacy = "CS2_236";
                 public const string ShadowedSpiritCorePlaceholder = "CS3_013";
                 public const string CrimsonClergyLegacy = "CS3_014";
                 public const string FocusedWillLegacy = "CS3_027";

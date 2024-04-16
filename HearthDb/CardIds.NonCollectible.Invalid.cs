@@ -38,6 +38,7 @@ namespace HearthDb
                 public const string PyromancyEnchantment = "BTA_BOSS_25pe";
                 public const string ObserverofMyths_HigherInfluence = "BG_TTN_078_Ge";
                 public const string ObserverofMyths_HigherInfluenceEnchantmentBATTLEGROUNDS = "BG_TTN_078e";
+                public const string AstralAutomaton_AstralAutomatonPlayerEnchantDnt = "BG_TTN_401pe";
                 public const string QueenAzshara_AzsharasAmbition = "BG22_HERO_007p";
                 public const string Murky_BubbledUpEnchantment = "BG24_012e";
                 public const string EternalKnight_EternalKnightPlayerEnchant = "BG25_008pe";
@@ -77,6 +78,9 @@ namespace HearthDb
                 public const string TitusTribute = "BG28_843";
                 public const string TitusTribute_TitusTributePlayerEnchantDntEnchantment = "BG28_843e";
                 public const string PrimalStaff_PrimalStaffPlayerEnchantDntEnchantment = "BG28_955e";
+                public const string SilverGoose_SilverFledgling = "BG29_801_Gt";
+                public const string SilverGoose_SilverFledglingToken = "BG29_801t";
+                public const string SpikedSavior_SpikedAndSavedEnchantment = "BG29_808e";
                 public const string BigBrannPlay_BigBrannPlayEnchantment = "BGS_Treasures_030e";
                 public const string NewRecruit = "BGS_Treasures_033";
                 public const string NewRecruit_NewRecruitPlayerEnchantDntEnchantment = "BGS_Treasures_033e";

@@ -59,7 +59,7 @@ namespace HearthDb
 		public static Card GetFromName(string name, Locale lang, bool collectible = true)
 			=> (collectible ? Collectible : All).Values.FirstOrDefault(x => x.GetLocName(lang)?.Equals(name, StringComparison.InvariantCultureIgnoreCase) ?? false);
 
-		public static Card GetFromDbfId(int dbfId, bool collectible = true)
+		public static Card GetFromDbfId(int dbfId, bool collectible = false)
 			=> (collectible ? CollectibleByDbfId : AllByDbfId).TryGetValue(dbfId, out var card) ? card : null;
 
 		private static bool IsDeflectOBot(Entity entity) => entity.CardId == CardIds.NonCollectible.Neutral.DeflectOBot || entity.CardId == CardIds.NonCollectible.Neutral.DeflectOBotTavernBrawl;

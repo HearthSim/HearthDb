@@ -46,7 +46,7 @@ namespace HearthDb.Deckstrings
 		/// <summary>
 		/// Gets the card object for the given HeroDbfId
 		/// </summary>
-		public Card GetHero() => Cards.GetFromDbfId(HeroDbfId, false);
+		public Card GetHero() => Cards.GetFromDbfId(HeroDbfId);
 
 		/// <summary>
 		/// Converts (DbfId, Count) dictionary to (CardObject, Count).
@@ -61,10 +61,10 @@ namespace HearthDb.Deckstrings
 		public Dictionary<Card, Dictionary<Card, int>> GetSideboards() => Sideboards
 			.Select(x => new
 			{
-				Owner = Cards.GetFromDbfId(x.Key), 
+				Owner = Cards.GetFromDbfId(x.Key),
 				Sideboard = x.Value.Select(s => new
 				{
-					Card = Cards.GetFromDbfId(s.Key), 
+					Card = Cards.GetFromDbfId(s.Key),
 					Count = s.Value
 				}).Where(s => s.Card != null).ToDictionary(x => x.Card, x => x.Count)
 			})

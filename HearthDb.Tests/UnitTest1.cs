@@ -59,7 +59,7 @@ namespace HearthDb.Tests
 		[TestMethod]
 		public void TestCardText()
 		{
-			var lucentbark = Cards.GetFromDbfId(51796, false);
+			var lucentbark = Cards.GetFromDbfId(51796);
 			System.Console.WriteLine(lucentbark.Text);
 			Assert.IsTrue(lucentbark.Text.Contains("(5 left!)"));
 

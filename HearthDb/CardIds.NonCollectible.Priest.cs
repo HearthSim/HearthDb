@@ -511,7 +511,7 @@ namespace HearthDb
                 public const string PurifyingPower_PurifiedEnchantment = "TOY_384e";
                 public const string ChalkArtist_CoveredInChalkEnchantment = "TOY_388e2";
                 public const string ChalkArtist_ChalkDragonCostEnchantment = "TOY_388e3";
-                public const string SplendiferousWhizbang_SeptupletDeckToken = "TOY_700t1";
+                public const string SplendiferousWhizbang_NonupletDeckToken = "TOY_700t1";
                 public const string Repackage_ResealedBoxTrackerEnchantment = "TOY_879e";
                 public const string Repackage_RepackagedBoxToken = "TOY_879t";
                 public const string MuseumCurator_CuratedEnchantment = "WON_056e";

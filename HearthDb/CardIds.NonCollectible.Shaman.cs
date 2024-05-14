@@ -112,6 +112,16 @@ namespace HearthDb
                 public const string TotemsVersusSecretsTavernBrawl = "TB_TagTeam_Shaman";
                 public const string HagathaTavernBrawl2 = "TB_TempleOutrun_Hagatha";
                 public const string PillagerDrasarTavernBrawl = "TB_TempleOutrun_Pillager";
+                public const string TrickAndTreatHeroic = "THD_002hpe";
+                public const string AlakirTheWindlord = "THD_026";
+                public const string ObeyMyCommandHeroic = "THD_026hp";
+                public const string AlAkirtheWindlord_ElementalEvocation = "THD_026p";
+                public const string VenerableBrukan = "THD_027";
+                public const string StrikeTwiceHeroic = "THD_027hp";
+                public const string HagathaTheWitch = "THD_028";
+                public const string TotemicPowerHeroic = "THD_028hp";
+                public const string Ragnaros = "THD_029";
+                public const string WrynnfuryHeroic2 = "THD_037hpe";
                 public const string TunnelTrogg_TroggNoStupidEnchantment = "LOE_018e";
                 public const string HammerofTwilight_TwilightElemental = "OG_031a";
                 public const string EvolveTavernBrawl = "TB_OG_027";
@@ -584,6 +594,8 @@ namespace HearthDb
                 public const string CactusCutter_CactusCutterEnchantment1 = "WW_327e";
                 public const string CactusCutter_CactusCutterEnchantment2 = "WW_327e2";
                 public const string LoadtheChamber_LoadedUpEnchantment = "WW_409e1";
+                public const string MurlocGrowfin_MoldedTinyfinToken = "MIS_307t";
+                public const string MurlocGrowfin_MurlocGrowfinToken = "MIS_307t1";
                 public const string IncredibleValue_FlameWreathedEnchantment = "TOY_046e";
                 public const string Shudderblock_ReadyForActionEnchantment = "TOY_501e";
                 public const string Shudderblock_ShudderblockToken = "TOY_501t";

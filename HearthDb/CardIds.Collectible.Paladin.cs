@@ -274,6 +274,9 @@ namespace HearthDb
                 public const string JuryDuty = "MAW_015";
                 public const string OrderInTheCourt = "MAW_016";
                 public const string ClassActionLawyer = "MAW_017";
+                public const string WhackAGnoll = "MIS_700";
+                public const string HolyGlowsticks = "MIS_709";
+                public const string FlickeringLightbot = "MIS_918";
                 public const string KnightOfTheDead = "NX2_021";
                 public const string Goldwing = "NX2_022";
                 public const string ThePurator = "NX2_023";

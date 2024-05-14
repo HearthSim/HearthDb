@@ -1018,6 +1018,11 @@ namespace HearthDb
                 public const string TightLippedWitness = "MAW_032";
                 public const string SylvanasTheAccused = "MAW_033";
                 public const string TheJailer = "MAW_034";
+                public const string TheReplicatorInator = "MIS_025";
+                public const string PuppetmasterDorian = "MIS_026";
+                public const string Explodineer = "MIS_308";
+                public const string BuildingBlockGolem = "MIS_314";
+                public const string ProGamer = "MIS_916";
                 public const string CaptainsParrotLegacy = "NEW1_016";
                 public const string HungryCrab = "NEW1_017";
                 public const string BloodsailRaider = "NEW1_018";

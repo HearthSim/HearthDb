@@ -279,6 +279,9 @@ namespace HearthDb
                 public const string ImpOster = "MAW_000";
                 public const string ArsonAccusation = "MAW_001";
                 public const string HabeasCorpses = "MAW_002";
+                public const string DominoEffect = "MIS_027";
+                public const string Infernal = "MIS_703";
+                public const string MassProduction = "MIS_707";
                 public const string SacrificialPactLegacy = "NEW1_003";
                 public const string NofinsImpOssible = "NX2_016";
                 public const string PlagueEruption = "NX2_017";

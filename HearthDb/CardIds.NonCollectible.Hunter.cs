@@ -117,6 +117,21 @@ namespace HearthDb
                 public const string TrapRoomTavernBrawl = "TB_TempleOutrun_TrapRoom";
                 public const string DeathstalkerRexxarTavernBrawl2 = "TB_Zombeast_H";
                 public const string ZombeastEnchantTavernBrawl = "TB_ZombeastEnch";
+                public const string Zuljin = "THD_010";
+                public const string EnsnareHeroic1 = "THD_010hp";
+                public const string EnsnareHeroic2 = "THD_010hpe";
+                public const string Zuljin_WarriorsOfAmani = "THD_010p";
+                public const string Zuljin_Berserker = "THD_010pt";
+                public const string SylvanasWindrunnerTavernBrawl = "THD_011";
+                public const string KingKrushTavernBrawl = "THD_012";
+                public const string ApexPredatorHeroic1 = "THD_012hp";
+                public const string ApexPredatorHeroic2 = "THD_012hpe";
+                public const string KingKrush_KingsDecree1 = "THD_012p";
+                public const string KingKrush_KingsDecree2 = "THD_012pe2";
+                public const string BrannBronzebeardTavernBrawl2TavernBrawl = "THD_042";
+                public const string CrackTheWhipHeroic1 = "THD_042hp";
+                public const string CrackTheWhipHeroic2 = "THD_042hpe";
+                public const string BrannBronzebeard_BrannsSaddle = "THD_042p";
                 public const string ExplorersHat_ExplorersHatEnchantment = "LOE_105e";
                 public const string WishforCompanionship_Leokk = "LOEA02_10a";
                 public const string WishforCompanionship_Misha = "LOEA02_10c";
@@ -682,7 +697,7 @@ namespace HearthDb
                 public const string Malorne_MalornesSlumberEnchantment = "WON_011e";
                 public const string DurnholdeImposter_DurnholdeImposterEnchantment = "WON_026e2";
                 public const string ArcaneShotTUTORIAL = "TUTR_DS1_185s2";
-                public const string KingKrush = "TUTR_EX1_543";
+                public const string KingKrushTUTORIAL = "TUTR_EX1_543";
                 public const string Huffer = "TUTR_NEW1_034";
                 public const string RexxarTUTORIAL = "TUTR_Rexxar";
             }

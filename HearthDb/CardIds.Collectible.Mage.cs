@@ -280,6 +280,9 @@ namespace HearthDb
                 public const string Objection = "MAW_006";
                 public const string LifeSentence = "MAW_013";
                 public const string ContractConjurer = "MAW_101";
+                public const string Malfunction = "MIS_107";
+                public const string BuyOneGetOneFreeze = "MIS_302";
+                public const string DarkmoonMagician = "MIS_303";
                 public const string ManaWyrmExpert1 = "NEW1_012";
                 public const string TearReality = "NX2_001";
                 public const string SpectralTrainee = "NX2_002";

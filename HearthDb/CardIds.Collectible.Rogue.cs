@@ -269,6 +269,9 @@ namespace HearthDb
                 public const string Perjury = "MAW_018";
                 public const string MurderAccusation = "MAW_019";
                 public const string ScribblingStenographer = "MAW_020";
+                public const string DustBunny = "MIS_706";
+                public const string TwistedPack = "MIS_708";
+                public const string DubiousPurchase = "MIS_903";
                 public const string VanishLegacy = "NEW1_004";
                 public const string Kidnapper = "NEW1_005";
                 public const string MasterOfDisguise = "NEW1_014";

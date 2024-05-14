@@ -134,6 +134,14 @@ namespace HearthDb
                 public const string KingTogwaggleTavernBrawl3 = "TB_TempleOutrun_TogwaggleH";
                 public const string OlToombaTavernBrawl = "TB_TempleOutrun_Toomba";
                 public const string FriendshipCantBeSilencedTavernBrawl = "TB_TempleRun_BestFriendBuff";
+                public const string DeathmantleValeera = "THD_023";
+                public const string SleightOfHandHeroic = "THD_023hp";
+                public const string EdwinVancleef = "THD_024";
+                public const string InvestmentHeroic = "THD_024hp";
+                public const string EdwinVanCleef_HopingForAMiracle = "THD_024p";
+                public const string PatchesThePirateTavernBrawl3 = "THD_025";
+                public const string ImInCharrrgeHeroicTavernBrawl1 = "THD_025hp";
+                public const string PatchesthePirate_LockedAndLoaded = "THD_025p";
                 public const string CashIn = "TP_Bling_HP2";
                 public const string ColdBlood_ColdBlood = "VAN_CS2_073_puzzle";
                 public const string TombPillager = "BG_LOE_012";

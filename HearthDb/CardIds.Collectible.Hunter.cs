@@ -215,6 +215,7 @@ namespace HearthDb
                 public const string Rexxar_FigurineLorthemarHeroHeroSkins = "HERO_05ai_Lorthemar_hls";
                 public const string Rexxar_RiftStalkerRexxarHeroHeroSkins = "HERO_05aj_Rexxar_hnv";
                 public const string Rexxar_GronnstalkerRexxarHeroHeroSkins = "HERO_05ak_Rexxar_hnv";
+                public const string Rexxar_SquirrelAlleriaHeroHeroSkins = "HERO_05al_Alleria_hls";
                 public const string Rexxar_KingKrushHeroHeroSkins = "HERO_05am_KingKrush_h";
                 public const string Rexxar_WandererRexxarHeroHeroSkins = "HERO_05b";
                 public const string Rexxar_SylvanasWindrunnerHeroHeroSkins = "HERO_05c";
@@ -270,6 +271,9 @@ namespace HearthDb
                 public const string Shadehound = "MAW_009";
                 public const string MotionDenied = "MAW_010";
                 public const string DefenseAttorneyNathanos = "MAW_011";
+                public const string WildernessPack = "MIS_104";
+                public const string BargainBin = "MIS_105";
+                public const string Product9 = "MIS_914";
                 public const string AnimalCompanionLegacy = "NEW1_031";
                 public const string Zombeeees = "NX2_013";
                 public const string TrinketTracker = "NX2_014";

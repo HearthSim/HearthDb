@@ -16,6 +16,7 @@ namespace HearthDb
                 public const string CrimsonKnightSaiHeroic_GhoulFrenzy = "HERO_11hbp2";
                 public const string TheLichKing_GhoulFrenzy4 = "HERO_11ibp2";
                 public const string TheLichKing_GhoulFrenzyEnchantment = "HERO_11ohp2";
+                public const string TheLichKing_GhoulFrenzy5 = "HERO_11uhp2";
                 public const string TheLichKing_GhoulChargeHeroSkins1 = "HERO_11cbp";
                 public const string TheLichKing_GhoulChargeHeroSkins2 = "HERO_11fbp";
                 public const string TheLichKing_GhoulFrenzyHeroSkins = "HERO_11fbp2";
@@ -24,6 +25,7 @@ namespace HearthDb
                 public const string TheLichKing_GhoulChargeHeroSkins4 = "HERO_11ibp";
                 public const string TheLichKing_GhoulChargeHeroSkins5 = "HERO_11lbp";
                 public const string TheLichKing_GhoulChargeHeroSkinsEnchantment = "HERO_11ohp";
+                public const string TheLichKing_GhoulChargeHeroSkins6 = "HERO_11uhp";
                 public const string SoldiersOfTheColdDark = "FB_LK001";
                 public const string RemorselessWinterTavernBrawl = "FB_LK005";
                 public const string ToMyAidUnderling = "FB_LK006";
@@ -65,6 +67,23 @@ namespace HearthDb
                 public const string BlightChargeTavernBrawl = "TB_BotB_CageHead_001p";
                 public const string MetalStarTavernBrawl = "TB_BotB_RisingStar_DK";
                 public const string DeathKnightArthasTavernBrawl = "TB_HunterPrince_ArthasH";
+                public const string TheLichKingTavernBrawl = "THD_001";
+                public const string RelentlessGhoulHeroic1 = "THD_001hp";
+                public const string TheLichKing_CadaverCollector = "THD_001p";
+                public const string TheLichKing_RisenSkeleton = "THD_001pt";
+                public const string TheHeadlessHorseman = "THD_002";
+                public const string SquashlingTrickHeroic = "THD_002hp";
+                public const string SquashlingHeroic = "THD_002hpt";
+                public const string TheHeadlessHorseman_UnholyTreat3 = "THD_002p";
+                public const string PitBossReska = "THD_003";
+                public const string RelentlessGhoulHeroic2 = "THD_003hp";
+                public const string RelentlessGhoulHeroic3 = "THD_003hpt";
+                public const string PitBossReska_EndlessExcavation = "THD_003p";
+                public const string Arfus = "THD_100";
+                public const string GiveADogABoneHeroic2 = "THD_100hp";
+                public const string Arfus_DigUpUnholy = "THD_100p";
+                public const string Arfus_DigUpFrost = "THD_100p2";
+                public const string Arfus_DigUpBlood = "THD_100p3";
                 public const string ColdBloodedHeroic1 = "TWI_001hp";
                 public const string ColdBloodedHeroic2 = "TWI_001hpe";
                 public const string TheLichKing_FrostmourneToken = "ICC_314t1";
@@ -159,6 +178,7 @@ namespace HearthDb
                 public const string IcyRemembrance = "PVPDR_Sai_T3e1";
                 public const string FrostStrike_GlacialAdvanceEnchantment1 = "RLK_025e";
                 public const string FrostStrike_GlacialAdvanceEnchantment2 = "RLK_025o";
+                public const string VampiricBlood_VampiricStrengthEnchantment = "RLK_051e";
                 public const string Hematurge_WintersGiftEnchantment = "RLK_066e";
                 public const string LordMarrowgar_BonestormEnchantment = "RLK_085e";
                 public const string Blightfang_PlaguedEnchantment = "RLK_225e";
@@ -260,6 +280,9 @@ namespace HearthDb
                 public const string PileofBones_PileOfBonesEnchantment = "WW_324e";
                 public const string HarrowingOx_OxChillEnchantment = "WW_356e";
                 public const string CropRotation_GnomeOnTheRangeToken = "WW_368t";
+                public const string ToysnatchingGeist_CollectionBonusEnchantment = "MIS_006e1";
+                public const string ToysnatchingGeist_ToysnatchingGeistToken = "MIS_006t";
+                public const string HelmofHumiliation_HumiliatedEnchantment = "MIS_100e";
                 public const string SplendiferousWhizbang_RainbowDeckToken = "TOY_700t2";
                 public const string SilkStitching_DarknessWithinEnchantment = "TOY_822e";
                 public const string LesserSpinelSpellstone_LesserSoulbindEnchantment = "TOY_825e";

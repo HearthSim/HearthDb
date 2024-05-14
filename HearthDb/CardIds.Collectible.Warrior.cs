@@ -280,6 +280,9 @@ namespace HearthDb
                 public const string CallToTheStand = "MAW_027";
                 public const string MawswornBailiff = "MAW_028";
                 public const string WeaponsExpert = "MAW_029";
+                public const string StandardizedPack = "MIS_705";
+                public const string SafetyExpert = "MIS_711";
+                public const string PartScrapper = "MIS_902";
                 public const string KorkronEliteLegacy = "NEW1_011";
                 public const string CommandingShout = "NEW1_036";
                 public const string Fleshshaper = "NX2_027";

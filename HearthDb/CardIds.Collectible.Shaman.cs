@@ -219,6 +219,7 @@ namespace HearthDb
                 public const string Thrall_DisidraStormgloryHeroHeroSkins = "HERO_02ar_Disidra";
                 public const string Thrall_MarionetteThorimHeroHeroSkins = "HERO_02as_Thorim_hls";
                 public const string Thrall_NerzhulHeroHeroSkins = "HERO_02at_Nerzhul_hl";
+                public const string Thrall_ThunderApeHeroHeroSkins = "HERO_02au_ThunderKing_hls";
                 public const string Thrall_KingRastakhanHeroHeroSkins = "HERO_02b";
                 public const string Thrall_TheThunderKingHeroHeroSkins = "HERO_02c";
                 public const string Thrall_WarchiefThrallHeroHeroSkins = "HERO_02d";
@@ -273,6 +274,9 @@ namespace HearthDb
                 public const string TotemicEvidence = "MAW_003";
                 public const string Framester = "MAW_005";
                 public const string TorghastCustodian = "MAW_030";
+                public const string RocketHopper = "MIS_306";
+                public const string MurlocGrowfin = "MIS_307";
+                public const string WaveOfNostalgia = "MIS_701";
                 public const string AlakirTheWindlord = "NEW1_010";
                 public const string FrostfinChomper = "NX2_007";
                 public const string BlazingTransmutation = "NX2_008";

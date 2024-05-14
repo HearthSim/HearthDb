@@ -222,6 +222,7 @@ namespace HearthDb
                 public const string MalfurionStormrage_HappyHazelbarkHeroHeroSkins = "HERO_06al_Hazelbark_hls";
                 public const string MalfurionStormrage_AnniversaryMalfurionHeroHeroSkins = "HERO_06am_Malfurion";
                 public const string MalfurionStormrage_ThunderheartMalfurionHeroHeroSkins = "HERO_06an_Malfurion_hnv";
+                public const string MalfurionStormrage_RabbitFaelinHeroHeroSkinsEnchantment = "HERO_06ao_Faelin_hls";
                 public const string MalfurionStormrage_NordrassilMalfurionHeroHeroSkins = "HERO_06ap_Malfurion_hnv";
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
@@ -278,6 +279,9 @@ namespace HearthDb
                 public const string DewProcess = "MAW_024";
                 public const string AttorneyAtMaw = "MAW_025";
                 public const string Incarceration = "MAW_026";
+                public const string SnuggleTeddy = "MIS_300";
+                public const string OvergrownBeanstalk = "MIS_301";
+                public const string Toyrantus = "MIS_712";
                 public const string Starfall = "NEW1_007";
                 public const string AncientOfLore = "NEW1_008";
                 public const string DeathBeetle = "NX2_010";

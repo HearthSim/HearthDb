@@ -60,6 +60,7 @@ namespace HearthDb
                 public const string TheLichKing_FestiveSaiHeroHeroSkins = "HERO_11r_SaiShadestorm";
                 public const string TheLichKing_PorcelainScarletHeroHeroSkins = "HERO_11s_Scarlet_hls";
                 public const string TheLichKing_LanathelTheWitchHeroHeroSkinsToken = "HERO_11t_Lanathel_hls";
+                public const string TheLichKing_ArfusHeroHeroSkins = "HERO_11u_Arfus";
                 public const string YellingYodeler = "JAM_005";
                 public const string ColdFeet = "JAM_006";
                 public const string CoolGhoul = "JAM_007";
@@ -79,6 +80,9 @@ namespace HearthDb
                 public const string RuneforgingLegacy = "LEG_RLK_715";
                 public const string RimeSculptorLegacy = "LEG_RLK_752";
                 public const string BonediggerGeistLegacy = "LEG_RLK_753";
+                public const string ToysnatchingGeist = "MIS_006";
+                public const string HelmOfHumiliation = "MIS_100";
+                public const string Foamrender = "MIS_101";
                 public const string RimescaleSiren = "NX2_035";
                 public const string ConstructQuarter = "NX2_036";
                 public const string FrostQueenSindragosa = "NX2_037";

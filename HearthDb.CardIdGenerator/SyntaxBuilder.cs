@@ -67,6 +67,10 @@ namespace HearthDb.CardIdGenerator
 		{
 			if(card.Id == "GILA_BOSS_66p")
 				return "DotDotDot";
+			if (card.Id == "THD_040")
+				return "EliseStarseekerTavernBrawl2";
+			if (card.Id == "THD_042")
+				return "BrannBronzebeardTavernBrawl2";
 			if(name == "???")
 				return "QuestionQuestionQuestion";
 			return name;

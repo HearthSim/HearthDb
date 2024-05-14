@@ -67,7 +67,7 @@ namespace HearthDb
                 public const string JrNavigatorTavernBrawl = "PVPDR_Elise_T4";
                 public const string SrNavigatorTavernBrawl = "PVPDR_Elise_T4_2";
                 public const string StaffOfRenewalTavernBrawl = "PVPDR_Elise_T6";
-                public const string MindrenderIllucia = "PVPDR_Hero_Illucia";
+                public const string MindrenderIlluciaTavernBrawl1 = "PVPDR_Hero_Illucia";
                 public const string VanndarStormpikeTavernBrawl4 = "PVPDR_Hero_Vanndarv4";
                 public const string ShadowMend = "PVPDR_SCH_Priestp1";
                 public const string FracturedSpirits = "PVPDR_SCH_Priestt1";
@@ -107,6 +107,16 @@ namespace HearthDb
                 public const string SeteshTavernBrawl = "TB_TempleOutrun_Setesh";
                 public const string DarkRitualistZafarrTavernBrawl = "TB_TempleOutrun_Zafarr";
                 public const string KrizikiTavernBrawl = "TB_Thunderdome_Kriziki";
+                public const string MindrenderIlluciaTavernBrawl2 = "THD_021";
+                public const string EmptyTheMindHeroic = "THD_021hp";
+                public const string MindrenderIllucia_AfflictingThoughts1 = "THD_021p";
+                public const string MindrenderIllucia_AfflictingThoughtsPlayerEnch = "THD_021pe";
+                public const string MindrenderIllucia_AfflictingThoughts2 = "THD_021pe2";
+                public const string XyrellaTavernBrawl1 = "THD_022";
+                public const string SparkOfLightHeroic = "THD_022hp";
+                public const string Xyrella_PurifyTheShard = "THD_022p";
+                public const string Whitemane = "THD_104";
+                public const string Whitemane_UnexpectedInquisition2 = "THD_104p";
                 public const string PowerWordTentacles_TentaclesEnchantment = "OG_094e";
                 public const string PotionofMadness_MadnessPotionEnchantment = "CFM_603e";
                 public const string ManaGeode_CrystalToken = "CFM_606t";
@@ -399,7 +409,7 @@ namespace HearthDb
                 public const string ShardOfTheNaaru = "BOM_10_ShardOfTheNaaru_008s";
                 public const string XyrellaHopefulMotherToken = "BOM_10_Xyrella_004t";
                 public const string MidaPureLight_FragmentOfMidaToken = "ONY_028t";
-                public const string XyrellaTavernBrawl = "TB_01_BOM_Mercs_Xyrella_001p";
+                public const string XyrellaTavernBrawlALTERAC_VALLEY = "TB_01_BOM_Mercs_Xyrella_001p";
                 public const string GenerousSpiritLegacy = "BCON_015";
                 public const string HolySmite_HolySmiteLegacy = "CS1_130_Puzzle";
                 public const string PowerWordShield_PowerWordShieldLegacy = "CS2_004_Puzzle";
@@ -504,6 +514,9 @@ namespace HearthDb
                 public const string InvasiveShadeleaf_BottledShadeleafToken = "WW_393t";
                 public const string HolySpringwater_BottledSpringwaterToken = "WW_395t";
                 public const string PossePossession_PossessedYallEnchantment = "WW_600e";
+                public const string DelayedProduct_ProductDelayEnchantment = "MIS_305e";
+                public const string DelayedProduct_DelayedEnchantment = "MIS_305e2";
+                public const string PuppetTheatre_PuppetEnchantment = "MIS_919e";
                 public const string ClayMatriarch_ClayMatriarchToken = "TOY_380t";
                 public const string ClayMatriarch_ClayWhelpToken = "TOY_380t2";
                 public const string CarelessCrafter_BandageToken = "TOY_382t";

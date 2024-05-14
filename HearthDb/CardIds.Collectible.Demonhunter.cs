@@ -171,6 +171,9 @@ namespace HearthDb
                 public const string SightlessMagistrate = "MAW_008";
                 public const string AllFelBreaksLoose = "MAW_012";
                 public const string ProsecutorMeltranix = "MAW_014";
+                public const string ReturnPolicy = "MIS_102";
+                public const string SockPuppetSlitherspear = "MIS_710";
+                public const string GibberingReject = "MIS_911";
                 public const string ShamblingChow = "NX2_024";
                 public const string CalamitysGrasp = "NX2_025";
                 public const string FelscaleEvoker = "NX2_026";

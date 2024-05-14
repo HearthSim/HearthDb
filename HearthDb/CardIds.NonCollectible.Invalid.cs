@@ -19,6 +19,7 @@ namespace HearthDb
                 public const string RobotAssemblyTavernBrawl = "TB_Mimiron_faceoff_HP";
                 public const string SuperRobotAssemblyTavernBrawl = "TB_Mimiron_faceoff_HP2";
                 public const string DiabolicalPowersTavernBrawl = "TB_SPT_DPromoHP";
+                public const string SylvanasWindrunner_BrittleBones = "THD_011p";
                 public const string Zentimo_ZentimoSpellsurgeEnchantment = "TRL_085e";
                 public const string DaringFireEater_FlameweavingEnchantment2 = "TRL_390e";
                 public const string TallTales_GossipEnchantment = "DALA_913e";
@@ -5028,6 +5029,7 @@ namespace HearthDb
                 public const string SmallGlovesToken = "REV_777t40";
                 public const string TheStonewright_LivingStoneToken = "REV_921t";
                 public const string Freebird_AvianFreedomEnchantment = "ETC_336e";
+                public const string GibberingReject_SharpStatueEnchantment = "MIS_911e";
             }
         }
     }

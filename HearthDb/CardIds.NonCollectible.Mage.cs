@@ -161,6 +161,7 @@ namespace HearthDb
                 public const string LichBazhialTavernBrawl3 = "TB_TempleOutrun_LichBazhial";
                 public const string RajhTavernBrawl = "TB_TempleOutrun_Rajh";
                 public const string RenoJacksonTavernBrawl5 = "TB_TempleOutrun_Reno";
+                public const string HalveriaDarkraven_EmeraldSong1 = "THD_006pe3";
                 public const string ExplorerDawngrasp = "THD_013";
                 public const string FrostburnHeroic = "THD_013hp";
                 public const string ExplorerDawngrasp_FreezeSolid = "THD_013p";
@@ -172,14 +173,15 @@ namespace HearthDb
                 public const string KelthuzadTavernBrawl = "THD_016";
                 public const string KelThuzad_UnholyGift = "THD_016p";
                 public const string QueenAzsharaTavernBrawl = "THD_017";
-                public const string CommandMagicHeroic = "THD_017hp";
+                public const string CommandMagicHeroic1 = "THD_017hp";
                 public const string CommandNagaHeroic = "THD_017hp2";
+                public const string CommandMagicHeroic2 = "THD_017hp3";
                 public const string QueenAzshara_ShiftingTides = "THD_017p";
                 public const string KaelthasSunstriderTavernBrawl3 = "THD_043";
                 public const string UnstableMagicHeroic1 = "THD_043hp";
                 public const string UnstableMagicHeroic2 = "THD_043hpe";
-                public const string KaelThasSunstrider_FelFueled1 = "THD_043p";
-                public const string KaelThasSunstrider_FelFueled2 = "THD_043pe2";
+                public const string KaelthasSunstrider_FelFueled1 = "THD_043p";
+                public const string KaelthasSunstrider_FelFueled2 = "THD_043pe2";
                 public const string ForgottenTorch_RoaringTorchToken = "LOE_002t";
                 public const string FacelessSummoner = "Story_11_FacelessSummonPuzzle";
                 public const string Medivh = "KARA_00_03";

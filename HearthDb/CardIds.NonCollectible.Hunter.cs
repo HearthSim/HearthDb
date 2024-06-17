@@ -53,6 +53,8 @@ namespace HearthDb
                 public const string RexxarHeroic_BallistaShotHeroSkins = "HERO_05ahhp2";
                 public const string Rexxar_SteadyShotHeroSkins1 = "HERO_05ambp";
                 public const string Rexxar_BallistaShotHeroSkins1 = "HERO_05ambp2";
+                public const string Rexxar_SteadyShotHeroSkinsEnchantment = "HERO_05aohp";
+                public const string Rexxar_BallistaShotHeroSkinsEnchantment = "HERO_05aohp2";
                 public const string Rexxar_SteadyShotHeroSkins2 = "HERO_05dbp";
                 public const string Rexxar_BallistaShotHeroSkins2 = "HERO_05dbp2";
                 public const string Rexxar_SteadyShotHeroSkins3 = "HERO_05ybp";

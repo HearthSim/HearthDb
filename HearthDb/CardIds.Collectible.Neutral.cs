@@ -342,6 +342,8 @@ namespace HearthDb
                 public const string HenchClanThugCore = "CORE_GIL_534";
                 public const string LifedrinkerCore = "CORE_GIL_622";
                 public const string RottenApplebaumCorePlaceholder = "CORE_GIL_667";
+                public const string GennGreymaneInvalid = "CORE_GIL_692";
+                public const string BakuTheMooneaterInvalid = "CORE_GIL_826";
                 public const string CogmasterCorePlaceholder = "CORE_GVG_013";
                 public const string SpiderTankCorePlaceholder = "CORE_GVG_044";
                 public const string ExplosiveSheepCorePlaceholder = "CORE_GVG_076";
@@ -438,7 +440,6 @@ namespace HearthDb
                 public const string PrimordialDrakeCore = "CORE_UNG_848";
                 public const string TarCreeperCore = "CORE_UNG_928";
                 public const string AlexstraszaCore = "CORE_VAN_EX1_561";
-                public const string MalygosCorePlaceholder = "CORE_VAN_EX1_563";
                 public const string YseraCore = "CORE_VAN_EX1_572";
                 public const string EscapedManasaberCorePlaceholder = "CORE_YOD_006";
                 public const string ArmorVendorCore = "CORE_YOP_032";
@@ -822,12 +823,12 @@ namespace HearthDb
                 public const string NightmareAmalgam = "GIL_681";
                 public const string MuckHunter = "GIL_682";
                 public const string MarshDrake = "GIL_683";
-                public const string GennGreymane = "GIL_692";
+                public const string GennGreymaneGILNEAS = "GIL_692";
                 public const string UnpoweredSteambot = "GIL_809";
                 public const string BalefulBanker = "GIL_815";
                 public const string SwampDragonEgg = "GIL_816";
                 public const string WitchsCauldron = "GIL_819";
-                public const string BakuTheMooneater = "GIL_826";
+                public const string BakuTheMooneaterGILNEAS = "GIL_826";
                 public const string Mechwarper = "GVG_006";
                 public const string Cogmaster = "GVG_013";
                 public const string FelReaver = "GVG_016";
@@ -1503,6 +1504,7 @@ namespace HearthDb
                 public const string TarCreeper = "UNG_928";
                 public const string PrimalfinLookout = "UNG_937";
                 public const string GluttonousOoze = "UNG_946";
+                public const string MarinTheManager = "VAC_702";
                 public const string GoldshireFootmanVanilla = "VAN_CS1_042";
                 public const string FenCreeperVanilla = "VAN_CS1_069";
                 public const string EarthenRingFarseerVanilla = "VAN_CS2_117";

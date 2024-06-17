@@ -230,6 +230,7 @@ namespace HearthDb
                 public const string AnduinWrynn_AvatarAnduinHeroHeroSkins = "HERO_09am_Anduin_hnv";
                 public const string AnduinWrynn_AbsolutionAnduinHeroHeroSkins = "HERO_09an_Anduin_hnv";
                 public const string AnduinWrynn_CatHedanisHeroHeroSkinsEnchantment = "HERO_09ao_Hedanis_hls";
+                public const string AnduinWrynn_DemonWhitemaneHeroHeroSkins = "HERO_09aq";
                 public const string AnduinWrynn_MadameLazulHeroHeroSkins = "HERO_09b";
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
                 public const string AnduinWrynn_AnduinOfProphecyHeroHeroSkins = "HERO_09d";

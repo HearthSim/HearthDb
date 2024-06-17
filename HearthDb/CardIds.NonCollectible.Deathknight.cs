@@ -19,11 +19,12 @@ namespace HearthDb
                 public const string TheLichKing_GhoulFrenzy5 = "HERO_11uhp2";
                 public const string TheLichKing_GhoulChargeHeroSkins1 = "HERO_11cbp";
                 public const string TheLichKing_GhoulChargeHeroSkins2 = "HERO_11fbp";
-                public const string TheLichKing_GhoulFrenzyHeroSkins = "HERO_11fbp2";
+                public const string TheLichKing_GhoulFrenzyHeroSkins1 = "HERO_11fbp2";
                 public const string TheLichKing_GhoulChargeHeroSkins3 = "HERO_11gbp";
                 public const string CrimsonKnightSaiHeroic_GhoulChargeHeroSkins = "HERO_11hbp";
                 public const string TheLichKing_GhoulChargeHeroSkins4 = "HERO_11ibp";
                 public const string TheLichKing_GhoulChargeHeroSkins5 = "HERO_11lbp";
+                public const string TheLichKing_GhoulFrenzyHeroSkins2 = "HERO_11lbp2";
                 public const string TheLichKing_GhoulChargeHeroSkinsEnchantment = "HERO_11ohp";
                 public const string TheLichKing_GhoulChargeHeroSkins6 = "HERO_11uhp";
                 public const string SoldiersOfTheColdDark = "FB_LK001";
@@ -239,7 +240,7 @@ namespace HearthDb
                 public const string ThePrimus_RunesOfFrostToken = "TTN_737t3";
                 public const string ThePrimus_BloodOfThePrimusEnchantmentToken = "TTN_737te";
                 public const string FrozenOver_FrozenSolidEnchantment = "TTN_744e1";
-                public const string Helya_PlightOfTheDeadEnchantment = "TTN_850e1";
+                public const string Helya_HelyaEnchantment = "TTN_850e1";
                 public const string SinisterSoulcage_WithSoulEnchantment = "YOG_513e";
                 public const string DarkTransformation_UndeadMonstrosityToken = "RLK_057t";
                 public const string FrostwyrmsFury_FrostwyrmTokenPATH_OF_ARTHAS1 = "RLK_063t";

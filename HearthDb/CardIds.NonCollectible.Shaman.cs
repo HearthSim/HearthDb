@@ -122,6 +122,9 @@ namespace HearthDb
                 public const string TotemicPowerHeroic = "THD_028hp";
                 public const string Ragnaros = "THD_029";
                 public const string WrynnfuryHeroic2 = "THD_037hpe";
+                public const string ThorimStormlordTavernBrawl = "THD_105";
+                public const string HarnessTheStormHeroic = "THD_105hp";
+                public const string ThorimStormlord_TitanicSurge = "THD_105p";
                 public const string TunnelTrogg_TroggNoStupidEnchantment = "LOE_018e";
                 public const string HammerofTwilight_TwilightElemental = "OG_031a";
                 public const string EvolveTavernBrawl = "TB_OG_027";

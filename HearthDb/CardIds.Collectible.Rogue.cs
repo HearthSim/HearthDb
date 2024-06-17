@@ -216,6 +216,8 @@ namespace HearthDb
                 public const string ValeeraSanguinar_SlayerValeeraHeroHeroSkins = "HERO_03am_SlayerValeera_hnv";
                 public const string ValeeraSanguinar_PinocchioBlingtronHeroHeroSkins = "HERO_03an_Blingtron_hls";
                 public const string ValeeraSanguinar_KnickKnackScabbsHeroHeroSkinsEnchantment = "HERO_03ao_Scabbs_hls";
+                public const string ValeeraSanguinar_ReaverV07Tr0NHeroHeroSkins = "HERO_03aq";
+                public const string ValeeraSanguinar_MarinTheFoxHeroHeroSkins = "HERO_03ar";
                 public const string ValeeraSanguinar_CapNValeeraHeroHeroSkins = "HERO_03b";
                 public const string ValeeraSanguinar_NightslayerValeeraHeroHeroSkins = "HERO_03d";
                 public const string ValeeraSanguinar_DiaoChanValeeraHeroHeroSkinsEnchantment = "HERO_03e";

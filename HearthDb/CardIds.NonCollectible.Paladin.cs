@@ -148,6 +148,11 @@ namespace HearthDb
                 public const string SirFinleyMrrggltonTavernBrawl = "THD_044";
                 public const string FloatUpHeroic = "THD_044hp";
                 public const string SirFinleyMrrgglton_ScalesOfJustice = "THD_044p";
+                public const string LadyLiadrin = "THD_108";
+                public const string PatienceHeroic1 = "THD_108hp";
+                public const string PatienceHeroic2 = "THD_108hp2";
+                public const string LadyLiadrin_LiadrinsChampion1 = "THD_108p";
+                public const string LadyLiadrin_LiadrinsChampion2 = "THD_108pe";
                 public const string KeeperofUldaman_WatchedEnchantment = "LOE_017e";
                 public const string VilefinInquisitor_SilverHandMurloc = "OG_006a";
                 public const string VilefinInquisitor_TheTidalHand = "OG_006b";
@@ -394,6 +399,7 @@ namespace HearthDb
                 public const string FairyTaleCaroler_ComebackCoda = "BG26_001_Ge";
                 public const string FairyTaleCaroler_ComebackCodaEnchantment = "BG26_001e";
                 public const string LivingConstellation_YearOfTheAmalgamEnchantment = "BG27_001e";
+                public const string CloningConch_ClonedEnchantment = "BG28_601e";
                 public const string BuyTheHolyLight = "BGS_Treasures_015";
                 public const string AutodefenseMatrixTavernBrawl = "TB_Bacon_Secrets_07";
                 public const string AvengeTavernBrawl = "TB_Bacon_Secrets_08";

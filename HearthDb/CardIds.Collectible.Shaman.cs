@@ -220,6 +220,8 @@ namespace HearthDb
                 public const string Thrall_MarionetteThorimHeroHeroSkins = "HERO_02as_Thorim_hls";
                 public const string Thrall_NerzhulHeroHeroSkins = "HERO_02at_Nerzhul_hl";
                 public const string Thrall_ThunderApeHeroHeroSkins = "HERO_02au_ThunderKing_hls";
+                public const string Thrall_SurfheartHeroHeroSkins = "HERO_02av";
+                public const string Thrall_SurferRastakhanHeroHeroSkins = "HERO_02aw";
                 public const string Thrall_KingRastakhanHeroHeroSkins = "HERO_02b";
                 public const string Thrall_TheThunderKingHeroHeroSkins = "HERO_02c";
                 public const string Thrall_WarchiefThrallHeroHeroSkins = "HERO_02d";
@@ -392,6 +394,16 @@ namespace HearthDb
                 public const string HotSpringGuardian = "UNG_938";
                 public const string UniteTheMurlocs = "UNG_942";
                 public const string SpiritEcho = "UNG_956";
+                public const string RazzleDazzler = "VAC_301";
+                public const string FrostyDécor = "VAC_305";
+                public const string SirenSong = "VAC_308";
+                public const string MaltedMagma = "VAC_323";
+                public const string MatchingOutfits = "VAC_324";
+                public const string Meltemental = "VAC_328";
+                public const string NaturalTalent = "VAC_329";
+                public const string CarressCabaretStar = "VAC_449";
+                public const string CarefreeCookie = "VAC_450";
+                public const string CabaretHeadliner = "VAC_954";
                 public const string FrostShockVanilla = "VAN_CS2_037";
                 public const string AncestralSpiritVanilla = "VAN_CS2_038";
                 public const string WindfuryVanilla = "VAN_CS2_039";

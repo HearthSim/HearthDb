@@ -145,6 +145,7 @@ namespace HearthDb
                 public const string IllidanStormrage_KaileneEvergazeHeroHeroSkins = "HERO_10ak_Kailene";
                 public const string IllidanStormrage_ArannaDollHeroHeroSkins = "HERO_10al_Aranna_hls";
                 public const string IllidanStormrage_MetamorphosisIllidanHeroHeroSkins = "HERO_10am";
+                public const string IllidanStormrage_PierHalveriaHeroHeroSkins = "HERO_10an";
                 public const string IllidanStormrage_ArannaStarseekerHeroHeroSkins = "HERO_10b";
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
                 public const string IllidanStormrage_FelravagerIllidanHeroHeroSkins = "HERO_10d";
@@ -259,6 +260,16 @@ namespace HearthDb
                 public const string ArgusTheEmeraldStar = "TTN_862";
                 public const string WeightOfTheWorld = "TTN_865";
                 public const string MythicalTerror = "TTN_866";
+                public const string ArannaThrillSeeker = "VAC_501";
+                public const string SigilOfSkydiving = "VAC_925";
+                public const string CliffDive = "VAC_926";
+                public const string AdrenalineFiend = "VAC_927";
+                public const string Paraglide = "VAC_928";
+                public const string DangerousCliffside = "VAC_929";
+                public const string AllTerrainVoidhound = "VAC_930";
+                public const string SkirtingDeath = "VAC_931";
+                public const string ClimbingHook = "VAC_932";
+                public const string PatchesThePilot = "VAC_933";
                 public const string SigilOfSummoning = "WC_003";
                 public const string TaintheartTormenter = "WC_040";
                 public const string Felrattler = "WC_701";

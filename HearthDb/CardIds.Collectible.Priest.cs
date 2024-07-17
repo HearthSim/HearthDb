@@ -231,6 +231,8 @@ namespace HearthDb
                 public const string AnduinWrynn_AbsolutionAnduinHeroHeroSkins = "HERO_09an_Anduin_hnv";
                 public const string AnduinWrynn_CatHedanisHeroHeroSkinsEnchantment = "HERO_09ao_Hedanis_hls";
                 public const string AnduinWrynn_DemonWhitemaneHeroHeroSkins = "HERO_09aq";
+                public const string AnduinWrynn_TalanjiHeroHeroSkins = "HERO_09ar";
+                public const string AnduinWrynn_LifeguardHedanisHeroHeroSkins = "HERO_09as";
                 public const string AnduinWrynn_MadameLazulHeroHeroSkins = "HERO_09b";
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
                 public const string AnduinWrynn_AnduinOfProphecyHeroHeroSkins = "HERO_09d";
@@ -410,6 +412,16 @@ namespace HearthDb
                 public const string FreeFromAmber = "UNG_854";
                 public const string AwakenTheMakers = "UNG_940";
                 public const string LyraTheSunshard = "UNG_963";
+                public const string NightshadeTea = "VAC_404";
+                public const string HotCoals = "VAC_414";
+                public const string SensoryDeprivation = "VAC_417";
+                public const string SaunaRegular = "VAC_418";
+                public const string Acupuncture = "VAC_419";
+                public const string NarainSoothfancy = "VAC_420";
+                public const string TwilightMedium = "VAC_423";
+                public const string RestInPeace = "VAC_457";
+                public const string BrainMasseuse = "VAC_512";
+                public const string ChillinVoljin = "VAC_957";
                 public const string HolyNovaVanilla = "VAN_CS1_112";
                 public const string MindControlVanilla = "VAN_CS1_113";
                 public const string InnerFireVanilla = "VAN_CS1_129";

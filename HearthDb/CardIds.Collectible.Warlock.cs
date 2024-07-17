@@ -225,6 +225,8 @@ namespace HearthDb
                 public const string Guldan_BobbleMalganisHeroHeroSkins = "HERO_07ap_MalGanis_hls";
                 public const string Guldan_ZailStarfallenHeroHeroSkins = "HERO_07aq_ZailStarfallen_h";
                 public const string Guldan_LegionGodfreyHeroHeroSkins = "HERO_07ar";
+                public const string Guldan_VacationRafaamHeroHeroSkins = "HERO_07as";
+                public const string Guldan_NzothLastResortHeroHeroSkins = "HERO_07at";
                 public const string Guldan_MechaJaraxxusHeroHeroSkins = "HERO_07b";
                 public const string Guldan_ShadowGuldanHeroHeroSkins = "HERO_07c";
                 public const string Guldan_NzothHeroHeroSkins = "HERO_07d";
@@ -402,6 +404,16 @@ namespace HearthDb
                 public const string FeedingTime = "UNG_834";
                 public const string ChitteringTunneler = "UNG_835";
                 public const string ClutchmotherZavas = "UNG_836";
+                public const string SummonerDarkmarrow = "VAC_503";
+                public const string EatTheImp = "VAC_939";
+                public const string PartyFiend = "VAC_940";
+                public const string AnnounceDarkness = "VAC_941";
+                public const string FearlessFlamejuggler = "VAC_942";
+                public const string SacrificialImp = "VAC_943";
+                public const string CursedSouvenir = "VAC_944";
+                public const string PartyPlannerVona = "VAC_945";
+                public const string HealthDrink = "VAC_951";
+                public const string FelfireBonfire = "VAC_952";
                 public const string ShadowBoltVanilla = "VAN_CS2_057";
                 public const string BloodImpVanilla = "VAN_CS2_059";
                 public const string DrainLifeVanilla = "VAN_CS2_061";

@@ -220,6 +220,8 @@ namespace HearthDb
                 public const string UtherLightbringer_LeeroyTheLegendHeroHeroSkins = "HERO_04ap_Leeroy";
                 public const string UtherLightbringer_KeychainAnnoyOHeroHeroSkins = "HERO_04aq_AnnoyO_hls";
                 public const string UtherLightbringer_YrelTheKnightHeroHeroSkins = "HERO_04ar_Yrel_hls";
+                public const string UtherLightbringer_DetectoristFinleyHeroHeroSkins = "HERO_04as";
+                public const string UtherLightbringer_CastleNozdormuHeroHeroSkins = "HERO_04at";
                 public const string UtherLightbringer_PrinceArthasHeroHeroSkins = "HERO_04b";
                 public const string UtherLightbringer_SirAnnoyOHeroHeroSkins = "HERO_04c";
                 public const string UtherLightbringer_LightforgedUtherHeroHeroSkins = "HERO_04d";
@@ -401,6 +403,16 @@ namespace HearthDb
                 public const string LostInTheJungle = "UNG_960";
                 public const string Adaptation = "UNG_961";
                 public const string LightfusedStegodon = "UNG_962";
+                public const string SunsapperLynessa = "VAC_507";
+                public const string SeaShanty = "VAC_558";
+                public const string PowerSpike = "VAC_915";
+                public const string DivineBrew = "VAC_916";
+                public const string Grillmaster = "VAC_917";
+                public const string Lifeguard = "VAC_919";
+                public const string ServiceAce = "VAC_920";
+                public const string VolleyMaul = "VAC_921";
+                public const string LifesavingAura = "VAC_922";
+                public const string Sancazel = "VAC_923";
                 public const string BlessingOfMightVanilla = "VAN_CS2_087";
                 public const string GuardianOfKingsVanilla = "VAN_CS2_088";
                 public const string HolyLightVanilla = "VAN_CS2_089";

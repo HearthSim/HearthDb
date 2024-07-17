@@ -775,6 +775,15 @@ namespace HearthDb
                 public const string GarroshHellscreamTUTORIAL = "TUTR_Garrosh";
                 public const string ArmorUpTUTORIAL = "TUTR_HERO_01bp";
                 public const string BloodhoofBrave = "TUTR_OG_218";
+                public const string CupoMuscle_MealInACupEnchantment = "VAC_338e";
+                public const string CupoMuscle_CupOMuscleToken1 = "VAC_338t";
+                public const string CupoMuscle_CupOMuscleToken2 = "VAC_338t2";
+                public const string Muensterosity_CheeseElementalToken = "VAC_339t";
+                public const string HammtheHungry_StuffedEnchantment = "VAC_340e";
+                public const string TheRyecleaver_SandwichTrackerEnchantment = "VAC_525e";
+                public const string TheRyecleaver_SliceOfBreadToken = "VAC_525t1";
+                public const string TheRyecleaver_MinionSandwichToken = "VAC_525t2";
+                public const string FoodFight_EntréeToken = "VAC_533t";
             }
         }
     }

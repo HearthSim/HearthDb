@@ -224,7 +224,9 @@ namespace HearthDb
                 public const string JainaProudmoore_TempestJainaHeroHeroSkins = "HERO_08aw_Jaina_hnv";
                 public const string JainaProudmoore_PrincessPrestorHeroHeroSkins = "HERO_08ax_Prestor_hls";
                 public const string JainaProudmoore_PlushieKitHeroHeroSkins = "HERO_08ay_KitWaxwhisker_hls";
+                public const string JainaProudmoore_AFKayHeroHeroSkins = "HERO_08az";
                 public const string JainaProudmoore_KhadgarHeroHeroSkins = "HERO_08b";
+                public const string JainaProudmoore_MermaidKitHeroHeroSkins = "HERO_08ba";
                 public const string JainaProudmoore_FireMageJainaHeroHeroSkins = "HERO_08c";
                 public const string JainaProudmoore_CelesteHeroHeroSkins = "HERO_08d";
                 public const string JainaProudmoore_KelthuzadHeroHeroSkinsEnchantment = "HERO_08e";
@@ -399,6 +401,16 @@ namespace HearthDb
                 public const string PrimordialGlyph = "UNG_941";
                 public const string MoltenReflection = "UNG_948";
                 public const string Meteor = "UNG_955";
+                public const string RayllaSandSculptor = "VAC_424";
+                public const string GoWithTheFlow = "VAC_428";
+                public const string UnderTheSea = "VAC_431";
+                public const string MaroonedArchmage = "VAC_435";
+                public const string Surfalopod = "VAC_443";
+                public const string Tsunami = "VAC_509";
+                public const string SeabreezeChalice = "VAC_520";
+                public const string TidePools = "VAC_522";
+                public const string KingTide = "VAC_524";
+                public const string RisingWaves = "VAC_953";
                 public const string PolymorphVanilla = "VAN_CS2_022";
                 public const string ArcaneIntellectVanilla = "VAN_CS2_023";
                 public const string FrostboltVanilla = "VAN_CS2_024";

@@ -38,10 +38,12 @@ namespace HearthDb
                 public const string AnduinWrynn_HealHeroSkins3 = "HERO_09ajhp2";
                 public const string AnduinWrynn_LesserHealHeroSkins4 = "HERO_09aqhp";
                 public const string AnduinWrynn_HealHeroSkins4 = "HERO_09aqhp2";
-                public const string AnduinWrynn_LesserHealHeroSkins5 = "HERO_09dbp";
-                public const string AnduinWrynn_LesserHealHeroSkins6 = "HERO_09dbp_Copy";
-                public const string AnduinWrynn_HealHeroSkins5 = "HERO_09dbp2";
-                public const string AnduinWrynn_HealHeroSkins6 = "HERO_09dbp2_Copy";
+                public const string AnduinWrynn_LesserHealHeroSkins5 = "HERO_09arhp";
+                public const string AnduinWrynn_HealHeroSkins5 = "HERO_09arhp2";
+                public const string AnduinWrynn_LesserHealHeroSkins6 = "HERO_09dbp";
+                public const string AnduinWrynn_LesserHealHeroSkins7 = "HERO_09dbp_Copy";
+                public const string AnduinWrynn_HealHeroSkins6 = "HERO_09dbp2";
+                public const string AnduinWrynn_HealHeroSkins7 = "HERO_09dbp2_Copy";
                 public const string TestSubject_TestSubject = "BOT_558_puzzle";
                 public const string RazaTheChained = "FB_Champs_CFM_020";
                 public const string PriestTavernBrawl1 = "FB_Juggernaut_Priest";
@@ -535,6 +537,12 @@ namespace HearthDb
                 public const string Shadowfiend_ShadowfiendedEnchantmentWONDERS = "WON_061e";
                 public const string ShadowWordForbid_ShadowWordForbidToken = "WON_064ts";
                 public const string ShipsChirurgeon_MedicalAssistanceEnchantment = "WON_065e";
+                public const string NightshadeTea_NightshadeTeaToken1 = "VAC_404t1";
+                public const string NightshadeTea_NightshadeTeaToken2 = "VAC_404t2";
+                public const string NarainSoothfancy_FortuneEnchantment = "VAC_420e1";
+                public const string NarainSoothfancy_FortuneToken = "VAC_420t";
+                public const string ElizaGoreblade_VitalityShiftEnchantment = "VAC_426e";
+                public const string ElizaGoreblade_VitalizedEnchantment = "VAC_426e2";
                 public const string Lightspawn = "HM_BG_001";
             }
         }

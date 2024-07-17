@@ -45,18 +45,20 @@ namespace HearthDb
                 public const string JainaProudmoore_FireblastRank2HeroSkins3 = "HERO_08ambp2";
                 public const string JainaProudmoore_FireblastHeroSkins4 = "HERO_08ashp";
                 public const string JainaProudmoore_FireblastRank2HeroSkins4 = "HERO_08ashp2";
-                public const string JainaProudmoore_FireblastHeroSkins5 = "HERO_08dbp";
-                public const string JainaProudmoore_FireblastRank2HeroSkins5 = "HERO_08dbp2";
+                public const string JainaProudmoore_FireblastHeroSkins5 = "HERO_08azhp";
+                public const string JainaProudmoore_FireblastRank2HeroSkins5 = "HERO_08azhp2";
+                public const string JainaProudmoore_FireblastHeroSkins6 = "HERO_08dbp";
+                public const string JainaProudmoore_FireblastRank2HeroSkins6 = "HERO_08dbp2";
                 public const string JainaProudmoore_FireblastHeroSkinsEnchantment2 = "HERO_08ebp";
                 public const string JainaProudmoore_FireblastRank2HeroSkinsEnchantment2 = "HERO_08ebp2";
-                public const string JainaProudmoore_FireblastHeroSkins6 = "HERO_08fbp";
-                public const string JainaProudmoore_FireblastRank2HeroSkins6 = "HERO_08fbp2";
+                public const string JainaProudmoore_FireblastHeroSkins7 = "HERO_08fbp";
+                public const string JainaProudmoore_FireblastRank2HeroSkins7 = "HERO_08fbp2";
                 public const string JainaProudmoore_FireblastPrestorHeroSkins = "HERO_08fbp3";
-                public const string JainaProudmoore_FireblastHeroSkins7 = "HERO_08lbp";
-                public const string JainaProudmoore_FireblastRank2HeroSkins7 = "HERO_08lbp2";
+                public const string JainaProudmoore_FireblastHeroSkins8 = "HERO_08lbp";
+                public const string JainaProudmoore_FireblastRank2HeroSkins8 = "HERO_08lbp2";
                 public const string JainaProudmoore_FireblastHeroSkinsToken = "HERO_08tbp";
                 public const string JainaProudmoore_FireblastRank2HeroSkinsToken = "HERO_08tbp2";
-                public const string JainaProudmoore_FireblastHeroSkins8 = "HERO_08xbp";
+                public const string JainaProudmoore_FireblastHeroSkins9 = "HERO_08xbp";
                 public const string ArcaneMissilesTavernBrawl = "DH_Prologue_EX1_277";
                 public const string ManaWyrmTavernBrawl = "FB_Champs_NEW1_012";
                 public const string MageTavernBrawl1 = "FB_Juggernaut_Mage";
@@ -715,6 +717,14 @@ namespace HearthDb
                 public const string FirstFlame = "TUTR_SW_108";
                 public const string Ignite = "TUTR_SW_110";
                 public const string ArchmageAntonidasTUTORIAL = "TUTR_SW_113";
+                public const string MaroonedArchmage_MaroonedEnchantment = "VAC_435e";
+                public const string Surfalopod_RideTheWaveEnchantment = "VAC_443e";
+                public const string Surfalopod_RideTheWave2Enchantment = "VAC_443e2";
+                public const string Tsunami_WaterElementalToken = "VAC_509t";
+                public const string SeabreezeChalice_SeabreezeChaliceToken1 = "VAC_520t";
+                public const string SeabreezeChalice_SeabreezeChaliceToken2 = "VAC_520t2";
+                public const string KingTide_WaveridingEnchantment = "VAC_524e";
+                public const string KingTide_WaveridingRivalEnchantment = "VAC_524e2";
             }
         }
     }

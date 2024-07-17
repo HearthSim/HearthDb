@@ -396,6 +396,13 @@ namespace HearthDb
                 public const string WindowShopper_LiterallySameEnchantment = "TOY_652e2";
                 public const string WindowShopper_WindowShopperToken = "TOY_652t";
                 public const string SplendiferousWhizbang_DeckOfWishesToken = "TOY_700t9";
+                public const string CliffDive_FallingIllidariToken = "VAC_926t";
+                public const string AdrenalineFiend_AdrenalineEnchantment = "VAC_927e";
+                public const string AllTerrainVoidhound_OffRoadEnchantment = "VAC_930e";
+                public const string SkirtingDeath_SkirtingDeathEnchantment = "VAC_931e";
+                public const string SkirtingDeath_SkirtedEnchantment = "VAC_931e1";
+                public const string ClimbingHook_HookedEnchantment = "VAC_932e";
+                public const string PatchesthePilot_ParachuteToken = "VAC_933t";
             }
         }
     }

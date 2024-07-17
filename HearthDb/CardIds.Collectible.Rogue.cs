@@ -218,6 +218,8 @@ namespace HearthDb
                 public const string ValeeraSanguinar_KnickKnackScabbsHeroHeroSkinsEnchantment = "HERO_03ao_Scabbs_hls";
                 public const string ValeeraSanguinar_ReaverV07Tr0NHeroHeroSkins = "HERO_03aq";
                 public const string ValeeraSanguinar_MarinTheFoxHeroHeroSkins = "HERO_03ar";
+                public const string ValeeraSanguinar_SkatetronHeroHeroSkins = "HERO_03as";
+                public const string ValeeraSanguinar_HighseasEdwinHeroHeroSkins = "HERO_03at";
                 public const string ValeeraSanguinar_CapNValeeraHeroHeroSkins = "HERO_03b";
                 public const string ValeeraSanguinar_NightslayerValeeraHeroHeroSkins = "HERO_03d";
                 public const string ValeeraSanguinar_DiaoChanValeeraHeroHeroSkinsEnchantment = "HERO_03e";
@@ -391,6 +393,16 @@ namespace HearthDb
                 public const string TheCavernsBelow = "UNG_067";
                 public const string EnvenomWeapon = "UNG_823";
                 public const string Hallucination = "UNG_856";
+                public const string MetalDetector = "VAC_330";
+                public const string SeaShill = "VAC_332";
+                public const string ConnivingConman = "VAC_333";
+                public const string KnickknackShack = "VAC_334";
+                public const string PettyTheft = "VAC_335";
+                public const string MaestraMaskMerchant = "VAC_336";
+                public const string OhManager = "VAC_460";
+                public const string TreasureHunterEudora = "VAC_464";
+                public const string SnatchAndGrab = "VAC_700";
+                public const string SwarthySwordshiner = "VAC_701";
                 public const string BackstabVanilla = "VAN_CS2_072";
                 public const string ColdBloodVanilla = "VAN_CS2_073";
                 public const string DeadlyPoisonVanilla = "VAN_CS2_074";

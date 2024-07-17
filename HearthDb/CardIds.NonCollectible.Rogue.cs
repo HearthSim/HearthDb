@@ -692,6 +692,8 @@ namespace HearthDb
                 public const string MountHyjalImposter_MountHyjalImposterEnchantment = "WON_077e2";
                 public const string TheScarabLord_ScarabGongToken = "WON_079t";
                 public const string TheScarabLord_ScarabToken = "WON_079t2";
+                public const string SeaShill_SeaShillEnchantment = "VAC_332e";
+                public const string TreasureHunterEudora_EudorasTreasureHuntToken = "VAC_464t";
             }
         }
     }

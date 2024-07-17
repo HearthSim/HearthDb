@@ -705,6 +705,17 @@ namespace HearthDb
                 public const string TinyKnightofEvil_FelrageEnchantmentWONDERS = "WON_099e";
                 public const string ChamberofViscidus_ViscYBusinessEnchantment = "WON_103e";
                 public const string Chogall_DarkPowerEnchantmentWONDERS = "WON_105e";
+                public const string SummonerDarkmarrow_DarkmarrowDeathrattlesEnchantment = "VAC_503e";
+                public const string PartyFiend_FelbeastToken = "VAC_940t";
+                public const string FearlessFlamejuggler_HecticPlansEnchantment = "VAC_942e";
+                public const string SacrificialImp_MonstrousImpToken = "VAC_943t";
+                public const string CursedSouvenir_CursedSouvenirEnchantment = "VAC_944e";
+                public const string PartyPlannerVona_NecessaryExpendituresEnchantment = "VAC_945e";
+                public const string PartyPlannerVona_OurobosWorldSerpentToken = "VAC_945t";
+                public const string HealthDrink_HealthDrinkToken1 = "VAC_951t";
+                public const string HealthDrink_HealthDrinkToken2 = "VAC_951t2";
+                public const string FelfireBonfire_AmpleOfferingEnchantment = "VAC_952e";
+                public const string FelfireBonfire_OfferingAcceptedEnchantment = "VAC_952e2";
             }
         }
     }

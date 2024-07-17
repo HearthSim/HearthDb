@@ -218,6 +218,7 @@ namespace HearthDb
                 public const string Rexxar_SquirrelAlleriaHeroHeroSkins = "HERO_05al_Alleria_hls";
                 public const string Rexxar_KingKrushHeroHeroSkins = "HERO_05am_KingKrush_h";
                 public const string Rexxar_HakkarTheHoundmasterHeroHeroSkinsEnchantment = "HERO_05ao";
+                public const string Rexxar_CanoeHulnHeroHeroSkins = "HERO_05aq";
                 public const string Rexxar_WandererRexxarHeroHeroSkins = "HERO_05b";
                 public const string Rexxar_SylvanasWindrunnerHeroHeroSkins = "HERO_05c";
                 public const string Rexxar_WarsongRexxarHeroHeroSkins = "HERO_05d";
@@ -394,6 +395,16 @@ namespace HearthDb
                 public const string Dinomancy = "UNG_917";
                 public const string SwampKingDred = "UNG_919";
                 public const string TheMarshQueen = "UNG_920";
+                public const string ChattyMacaw = "VAC_407";
+                public const string Birdwatching = "VAC_408";
+                public const string ParrotSanctuary = "VAC_409";
+                public const string FuriousFowls = "VAC_410";
+                public const string CatchOfTheDay = "VAC_412";
+                public const string RangerGilly = "VAC_413";
+                public const string Sasquawk = "VAC_415";
+                public const string DeathRoll = "VAC_416";
+                public const string TrustyFishingRod = "VAC_960";
+                public const string PetParrot = "VAC_961";
                 public const string HuntersMarkVanilla = "VAN_CS2_084";
                 public const string StarvingBuzzardVanilla = "VAN_CS2_237";
                 public const string HoundmasterVanilla = "VAN_DS1_070";

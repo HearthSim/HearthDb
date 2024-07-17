@@ -886,6 +886,14 @@ namespace HearthDb
                 public const string Invigorate_Rejuvenate = "WON_014s";
                 public const string Invigorate_Enliven = "WON_014s2";
                 public const string CenarionHold_CenariOnHoldEnchantment = "WON_015e";
+                public const string DozingDragon_OversleepingEnchantment = "VAC_511e";
+                public const string DozingDragon_SleepyEnchantment = "VAC_511e2";
+                public const string DozingDragon_RestlessWhelpToken = "VAC_511t";
+                public const string TortollanTraveler_TravellingEnchantment = "VAC_518e";
+                public const string MistahVistah_ScenicVistaToken = "VAC_519t3";
+                public const string SleepUndertheStars_CatConstellationToken = "VAC_907t1";
+                public const string SleepUndertheStars_BearConstellationToken = "VAC_907t2";
+                public const string SleepUndertheStars_MoonkinConstellationToken = "VAC_907t3";
             }
         }
     }

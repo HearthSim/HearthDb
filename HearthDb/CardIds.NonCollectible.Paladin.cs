@@ -710,6 +710,19 @@ namespace HearthDb
                 public const string RuniTimeExplorer_TempleOfEarthToken = "WON_053t7";
                 public const string RuniTimeExplorer_DefenderOfDeepholmToken = "WON_053t7e";
                 public const string RuniTimeExplorer_XenedarEnchantEnchantmentToken = "WON_053te";
+                public const string SunsapperLynessa_SunbathingEnchantment = "VAC_507e";
+                public const string SeaShanty_ChorusCorsairToken = "VAC_558t";
+                public const string PowerSpike_PowerSpikeEnchantment = "VAC_915e";
+                public const string DivineBrew_ColdOneEnchantment = "VAC_916e";
+                public const string DivineBrew_DivineBrewToken1 = "VAC_916t2";
+                public const string DivineBrew_DivineBrewToken2 = "VAC_916t3";
+                public const string Grillmaster_SunscreenEnchantment = "VAC_917e";
+                public const string Grillmaster_SunscreenToken = "VAC_917t";
+                public const string Lifeguard_ProtectionEnchantment = "VAC_919e";
+                public const string ServiceAce_ExcellentServiceEnchantment = "VAC_920e";
+                public const string SancAzel_SandyCastleEnchantment = "VAC_923e";
+                public const string SancAzel_SandyEnchantment = "VAC_923e2";
+                public const string SancAzel_SancazelToken = "VAC_923t";
             }
         }
     }

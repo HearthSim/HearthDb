@@ -225,6 +225,8 @@ namespace HearthDb
                 public const string GarroshHellscream_GuardianAnnhyldeHeroHeroSkinsEnchantment = "HERO_01ao_Annhylde_hls";
                 public const string GarroshHellscream_BoulderfistTheOgreHeroHeroSkins = "HERO_01ap_Boulderfist_h";
                 public const string GarroshHellscream_FelironVarianHeroHeroSkins = "HERO_01aq";
+                public const string GarroshHellscream_FeastDenathriusHeroHeroSkins = "HERO_01ar";
+                public const string GarroshHellscream_HotSpringDeathwingHeroHeroSkins = "HERO_01as";
                 public const string GarroshHellscream_CorruptGarroshHeroHeroSkins = "HERO_01b";
                 public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";
                 public const string GarroshHellscream_NagrandGarroshHeroHeroSkins = "HERO_01d";
@@ -400,6 +402,16 @@ namespace HearthDb
                 public const string KingMosh = "UNG_933";
                 public const string FirePlumesHeart = "UNG_934";
                 public const string DirehornHatchling = "UNG_957";
+                public const string LineCook = "VAC_337";
+                public const string CupOMuscle = "VAC_338";
+                public const string Muensterosity = "VAC_339";
+                public const string HammTheHungry = "VAC_340";
+                public const string UndercookedCalamari = "VAC_341";
+                public const string TheRyecleaver = "VAC_525";
+                public const string Char = "VAC_526";
+                public const string DraconicDelicacy = "VAC_527";
+                public const string AllYouCanEat = "VAC_528";
+                public const string FoodFight = "VAC_533";
                 public const string ChargeVanilla = "VAN_CS2_103";
                 public const string RampageVanilla = "VAN_CS2_104";
                 public const string HeroicStrikeVanilla = "VAN_CS2_105";

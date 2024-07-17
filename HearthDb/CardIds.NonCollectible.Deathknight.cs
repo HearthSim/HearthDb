@@ -17,6 +17,7 @@ namespace HearthDb
                 public const string TheLichKing_GhoulFrenzy4 = "HERO_11ibp2";
                 public const string TheLichKing_GhoulFrenzyEnchantment = "HERO_11ohp2";
                 public const string TheLichKing_GhoulFrenzy5 = "HERO_11uhp2";
+                public const string TheLichKing_GhoulFrenzy6 = "HERO_11vhp2";
                 public const string TheLichKing_GhoulChargeHeroSkins1 = "HERO_11cbp";
                 public const string TheLichKing_GhoulChargeHeroSkins2 = "HERO_11fbp";
                 public const string TheLichKing_GhoulFrenzyHeroSkins1 = "HERO_11fbp2";
@@ -27,6 +28,7 @@ namespace HearthDb
                 public const string TheLichKing_GhoulFrenzyHeroSkins2 = "HERO_11lbp2";
                 public const string TheLichKing_GhoulChargeHeroSkinsEnchantment = "HERO_11ohp";
                 public const string TheLichKing_GhoulChargeHeroSkins6 = "HERO_11uhp";
+                public const string TheLichKing_GhoulChargeHeroSkins7 = "HERO_11vhp";
                 public const string SoldiersOfTheColdDark = "FB_LK001";
                 public const string RemorselessWinterTavernBrawl = "FB_LK005";
                 public const string ToMyAidUnderling = "FB_LK006";
@@ -280,6 +282,7 @@ namespace HearthDb
                 public const string KoboldMiner_AzeriteSoulToken = "WW_001t26e";
                 public const string PileofBones_PileOfBonesEnchantment = "WW_324e";
                 public const string HarrowingOx_OxChillEnchantment = "WW_356e";
+                public const string MawandPaw_FamilyValuesEnchantment = "WW_357e";
                 public const string CropRotation_GnomeOnTheRangeToken = "WW_368t";
                 public const string ToysnatchingGeist_CollectionBonusEnchantment = "MIS_006e1";
                 public const string ToysnatchingGeist_ToysnatchingGeistToken = "MIS_006t";
@@ -315,6 +318,8 @@ namespace HearthDb
                 public const string BonediggerGeist = "TUTR_RLK_753";
                 public const string TheScourgeTUTORIAL = "TUTR_TheScourge_003s";
                 public const string LichKing = "TUTR_Uther";
+                public const string GhoulsNight_SlumberingGhoulToken = "VAC_445t";
+                public const string DreadhoundHandler_DreadhoundToken = "VAC_514t";
             }
         }
     }

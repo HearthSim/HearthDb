@@ -224,6 +224,7 @@ namespace HearthDb
                 public const string MalfurionStormrage_ThunderheartMalfurionHeroHeroSkins = "HERO_06an_Malfurion_hnv";
                 public const string MalfurionStormrage_RabbitFaelinHeroHeroSkinsEnchantment = "HERO_06ao_Faelin_hls";
                 public const string MalfurionStormrage_NordrassilMalfurionHeroHeroSkins = "HERO_06ap_Malfurion_hnv";
+                public const string MalfurionStormrage_CatnapXuenHeroHeroSkins = "HERO_06aq";
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
                 public const string MalfurionStormrage_DameHazelbarkHeroHeroSkins = "HERO_06d";
@@ -401,6 +402,16 @@ namespace HearthDb
                 public const string LivingMana = "UNG_111";
                 public const string JungleGiants = "UNG_116";
                 public const string Tyrantus = "UNG_852";
+                public const string CruiseCaptainLora = "VAC_506";
+                public const string TrailMix = "VAC_508";
+                public const string DozingDragon = "VAC_511";
+                public const string HikingTrail = "VAC_517";
+                public const string TortollanTraveler = "VAC_518";
+                public const string MistahVistah = "VAC_519";
+                public const string SleepUnderTheStars = "VAC_907";
+                public const string HydrationStation = "VAC_948";
+                public const string NewHeights = "VAC_949";
+                public const string BoulderingBuddy = "VAC_950";
                 public const string ClawVanilla = "VAN_CS2_005";
                 public const string HealingTouchVanilla = "VAN_CS2_007";
                 public const string MoonfireVanilla = "VAN_CS2_008";

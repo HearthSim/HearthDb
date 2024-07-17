@@ -61,6 +61,8 @@ namespace HearthDb
                 public const string TheLichKing_PorcelainScarletHeroHeroSkins = "HERO_11s_Scarlet_hls";
                 public const string TheLichKing_LanathelTheWitchHeroHeroSkinsToken = "HERO_11t_Lanathel_hls";
                 public const string TheLichKing_ArfusHeroHeroSkins = "HERO_11u_Arfus";
+                public const string TheLichKing_PoxiHeroHeroSkins = "HERO_11v";
+                public const string TheLichKing_IcecreamSaiHeroHeroSkins = "HERO_11w";
                 public const string YellingYodeler = "JAM_005";
                 public const string ColdFeet = "JAM_006";
                 public const string CoolGhoul = "JAM_007";
@@ -174,6 +176,16 @@ namespace HearthDb
                 public const string ThePrimus = "TTN_737";
                 public const string FrozenOver = "TTN_744";
                 public const string Helya = "TTN_850";
+                public const string FrostbittenFreebooter = "VAC_402";
+                public const string HorizonsEdge = "VAC_425";
+                public const string ElizaGoreblade = "VAC_426";
+                public const string Corpsicle = "VAC_427";
+                public const string SnowShredder = "VAC_429";
+                public const string BrittleboneBuccaneer = "VAC_436";
+                public const string Buttons = "VAC_437";
+                public const string GhoulsNight = "VAC_445";
+                public const string SlipperySlope = "VAC_513";
+                public const string DreadhoundHandler = "VAC_514";
                 public const string SkeletonCrew = "WW_322";
                 public const string PileOfBones = "WW_324";
                 public const string ReapWhatYouSow = "WW_352";

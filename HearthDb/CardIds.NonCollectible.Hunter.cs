@@ -702,6 +702,11 @@ namespace HearthDb
                 public const string KingKrushTUTORIAL = "TUTR_EX1_543";
                 public const string Huffer = "TUTR_NEW1_034";
                 public const string RexxarTUTORIAL = "TUTR_Rexxar";
+                public const string Birdwatching_ABirdInTheHandEnchantment = "VAC_408e";
+                public const string FuriousFowls_AngryBirdToken = "VAC_410t";
+                public const string CatchoftheDay_DeliciousWormToken = "VAC_412t";
+                public const string RangerGilly_ToothyEnchantment = "VAC_413e3";
+                public const string RangerGilly_IslandCrocoliskToken = "VAC_413t";
             }
         }
     }

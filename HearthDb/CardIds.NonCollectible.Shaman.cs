@@ -613,6 +613,32 @@ namespace HearthDb
                 public const string SwattingInsectsEnchantment = "WON_092e";
                 public const string AlAkirtheWindsofTimeHeroic_WindsOfTimeEnchantment = "WON_092he";
                 public const string SwatInsects = "WON_092p";
+                public const string FrostyDécor_IceSculptureToken = "VAC_305t";
+                public const string MaltedMagma_MaltedMagmaToken1 = "VAC_323t";
+                public const string MaltedMagma_MaltedMagmaToken2 = "VAC_323t2";
+                public const string CarressCabaretStar_SirenSongsEnchantment = "VAC_449e1";
+                public const string CarressCabaretStar_CarressCabaretStarToken1 = "VAC_449t";
+                public const string CarressCabaretStar_CarressCabaretStarToken2 = "VAC_449t1";
+                public const string CarressCabaretStar_CarressCabaretStarToken3 = "VAC_449t10";
+                public const string CarressCabaretStar_CarressCabaretStarToken4 = "VAC_449t11";
+                public const string CarressCabaretStar_CarressCabaretStarToken5 = "VAC_449t12";
+                public const string CarressCabaretStar_CarressCabaretStarToken6 = "VAC_449t13";
+                public const string CarressCabaretStar_CarressCabaretStarToken7 = "VAC_449t14";
+                public const string CarressCabaretStar_CarressCabaretStarToken8 = "VAC_449t15";
+                public const string CarressCabaretStar_CarressCabaretStarToken9 = "VAC_449t16";
+                public const string CarressCabaretStar_CarressCabaretStarToken10 = "VAC_449t17";
+                public const string CarressCabaretStar_CarressCabaretStarToken11 = "VAC_449t18";
+                public const string CarressCabaretStar_CarressCabaretStarToken12 = "VAC_449t19";
+                public const string CarressCabaretStar_CarressCabaretStarToken13 = "VAC_449t2";
+                public const string CarressCabaretStar_CarressCabaretStarToken14 = "VAC_449t20";
+                public const string CarressCabaretStar_CarressCabaretStarToken15 = "VAC_449t3";
+                public const string CarressCabaretStar_CarressCabaretStarToken16 = "VAC_449t4";
+                public const string CarressCabaretStar_CarressCabaretStarToken17 = "VAC_449t5";
+                public const string CarressCabaretStar_CarressCabaretStarToken18 = "VAC_449t6";
+                public const string CarressCabaretStar_CarressCabaretStarToken19 = "VAC_449t7";
+                public const string CarressCabaretStar_CarressCabaretStarToken20 = "VAC_449t8";
+                public const string CarressCabaretStar_CarressCabaretStarToken21 = "VAC_449t9";
+                public const string CabaretHeadliner_SirenSerenadeEnchantment = "VAC_954e1";
             }
         }
     }

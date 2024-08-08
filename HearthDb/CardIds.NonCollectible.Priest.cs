@@ -306,6 +306,7 @@ namespace HearthDb
                 public const string Xyrella_PledgeOfPeace = "BG20_HERO_101pe2";
                 public const string UthertheLightbringer_Lit = "BG23_190_Ge";
                 public const string UthertheLightbringer_LitEnchantment = "BG23_190e";
+                public const string CultistSThara_CultishEnchantment = "BG27_081e";
                 public const string PerfectVision_HindsightEnchantment = "BG28_838e";
                 public const string TheNamelessOne = "BGDUO_HERO_100";
                 public const string GhastcoilerBATTLEGROUNDS = "BGS_008";

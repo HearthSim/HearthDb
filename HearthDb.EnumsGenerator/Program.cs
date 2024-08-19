@@ -72,7 +72,7 @@ namespace HearthDb.EnumsGenerator
 				prevEnums = sr.ReadToEnd();
 
 			string prevUtils;
-			using (var sr = new StreamReader(EnumsFile))
+			using (var sr = new StreamReader(UtilsFile))
 				prevUtils = sr.ReadToEnd();
 
 			if (enumsString != prevEnums)

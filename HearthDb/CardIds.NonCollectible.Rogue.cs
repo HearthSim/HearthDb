@@ -140,7 +140,7 @@ namespace HearthDb
                 public const string FriendshipCantBeSilencedTavernBrawl = "TB_TempleRun_BestFriendBuff";
                 public const string DeathmantleValeera = "THD_023";
                 public const string SleightOfHandHeroic = "THD_023hp";
-                public const string MarinTheManager = "THD_024";
+                public const string MarinTheManagerTavernBrawl = "THD_024";
                 public const string InvestmentHeroic = "THD_024hp";
                 public const string MarintheManager_SeizeTheOpportunity = "THD_024p";
                 public const string PatchesThePirateTavernBrawl3 = "THD_025";

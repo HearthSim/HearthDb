@@ -500,7 +500,7 @@ namespace HearthDb
                 public const string GuffRunetotemBATTLEGROUNDS = "BG20_HERO_242";
                 public const string GuffRunetotem_StormwindGuardGuff = "BG20_HERO_242_SKIN_A";
                 public const string GuffRunetotem_OasisGuff = "BG20_HERO_242_SKIN_B";
-                public const string GuffRunetotem_NaturalBalance = "BG20_HERO_242p";
+                public const string GuffRunetotem_ExodarGuff = "BG20_HERO_242_SKIN_C";
                 public const string FlobbidinousFloop = "BGDUO_HERO_101";
                 public const string MountedRaptor = "BGS_025";
                 public const string Costs0TavernBrawl = "TB_BaconShopBadsongE";

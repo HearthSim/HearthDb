@@ -507,8 +507,6 @@ namespace HearthDb
                 public const string AmbientLightspawn_AmbienceEnchantment = "JAM_024e";
                 public const string Fanboy_ZokRocks = "JAM_027a";
                 public const string Fanboy_PoisonBloom = "JAM_027b";
-                public const string AstralAutomaton = "BG_TTN_401";
-                public const string AstralAutomaton_AstralAutomaton = "BG_TTN_401_G";
                 public const string AmanThul_ShapeTheStarsToken = "TTN_429t";
                 public const string AmanThul_StrikeFromHistoryToken = "TTN_429t2";
                 public const string AmanThul_VisionOfHeroesToken = "TTN_429t3";

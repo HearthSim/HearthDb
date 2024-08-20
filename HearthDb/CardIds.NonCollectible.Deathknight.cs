@@ -278,6 +278,8 @@ namespace HearthDb
                 public const string DarkfallenNeophyte = "RLK_Prologue_RLK_731";
                 public const string DarkfallenNeophyte_FallenToDarkEnchantment2 = "RLK_Prologue_RLK_731e";
                 public const string MightOfMenethil = "RLK_Prologue_RLK_740";
+                public const string ProstheticHand = "BG_DEEP_015";
+                public const string ProstheticHand_ProstheticHand2 = "BG_DEEP_015_G";
                 public const string KoboldMiner_TheAzeriteRatToken = "WW_001t26";
                 public const string KoboldMiner_AzeriteSoulToken = "WW_001t26e";
                 public const string PileofBones_PileOfBonesEnchantment = "WW_324e";

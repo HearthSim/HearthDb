@@ -146,6 +146,7 @@ namespace HearthDb
                 public const string IllidanStormrage_ArannaDollHeroHeroSkins = "HERO_10al_Aranna_hls";
                 public const string IllidanStormrage_MetamorphosisIllidanHeroHeroSkins = "HERO_10am";
                 public const string IllidanStormrage_PierHalveriaHeroHeroSkins = "HERO_10an";
+                public const string IllidanStormrage_GnomereganOmenHeroHeroSkinsEnchantment = "HERO_10ao";
                 public const string IllidanStormrage_ArannaStarseekerHeroHeroSkins = "HERO_10b";
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
                 public const string IllidanStormrage_FelravagerIllidanHeroHeroSkins = "HERO_10d";

@@ -39,7 +39,7 @@ namespace HearthDb
                 public const string PyromancyEnchantment = "BTA_BOSS_25pe";
                 public const string ObserverofMyths_HigherInfluence = "BG_TTN_078_Ge";
                 public const string ObserverofMyths_HigherInfluenceEnchantmentBATTLEGROUNDS = "BG_TTN_078e";
-                public const string AstralAutomaton_AstralAutomatonPlayerEnchantDnt = "BG_TTN_401pe";
+                public const string AncestralAutomaton_AncestralAutomatonPlayerEnchantDnt = "BG_TTN_401pe";
                 public const string QueenAzshara_AzsharasAmbition = "BG22_HERO_007p";
                 public const string Murky_BubbledUpEnchantment = "BG24_012e";
                 public const string EternalKnight_EternalKnightPlayerEnchant = "BG25_008pe";

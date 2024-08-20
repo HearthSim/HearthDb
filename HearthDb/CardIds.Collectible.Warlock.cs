@@ -227,6 +227,7 @@ namespace HearthDb
                 public const string Guldan_LegionGodfreyHeroHeroSkins = "HERO_07ar";
                 public const string Guldan_VacationRafaamHeroHeroSkins = "HERO_07as";
                 public const string Guldan_NzothLastResortHeroHeroSkins = "HERO_07at";
+                public const string Guldan_PandariaMalganisHeroHeroSkins = "HERO_07au";
                 public const string Guldan_MechaJaraxxusHeroHeroSkins = "HERO_07b";
                 public const string Guldan_ShadowGuldanHeroHeroSkins = "HERO_07c";
                 public const string Guldan_NzothHeroHeroSkins = "HERO_07d";

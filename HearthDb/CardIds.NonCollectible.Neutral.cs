@@ -23,6 +23,7 @@ namespace HearthDb
                 public const string SouthseaCaptain = "BG_NEW1_027";
                 public const string FlesheatingGhoul = "BG26_tt_004";
                 public const string FlesheatingGhoul_CannibalizeEnchantmentExpert11 = "BG26_tt_004o";
+                public const string GiftOfTheGoldenKobold = "BG28_Reward_508";
                 public const string Squire = "CS2_152";
                 public const string InjuredBlademaster_FullStrengthEnchantment = "CS2_181e";
                 public const string AbusiveSergeant_InspiredEnchantment = "CS2_188o";
@@ -5650,6 +5651,8 @@ namespace HearthDb
                 public const string SlyRaptor_SlyRaptor = "BG25_806_G";
                 public const string SlyRaptor_Freed = "BG25_806_Ge";
                 public const string SlyRaptor_FreedEnchantment = "BG25_806e";
+                public const string MechaJaraxxus = "BG25_807";
+                public const string MechaJaraxxus_MechaJaraxxus = "BG25_807_G";
                 public const string MechaJaraxxus_RustedReggieEnchantment = "BG25_807e";
                 public const string MechaJaraxxus_MagtheridonPrimeEnchantment = "BG25_807e2";
                 public const string MechaJaraxxus_BaltharakEnchantment = "BG25_807e3";
@@ -6395,7 +6398,6 @@ namespace HearthDb
                 public const string TumblingDisaster = "BG28_Reward_505";
                 public const string TumblingDisaster_TumblingUpEnchantment = "BG28_Reward_505e";
                 public const string DoubleHeadedReward = "BG28_Reward_506";
-                public const string GiftOfTheGoldenKobold = "BG28_Reward_508";
                 public const string SecretCulprit = "BG28_Reward_510";
                 public const string OpenAuditions = "BG28_Reward_513";
                 public const string UntamedSorcery = "BG28_Reward_514";
@@ -6671,7 +6673,7 @@ namespace HearthDb
                 public const string EternalPortrait_PerennialPortraitEnchantment = "BG30_MagicItem_301e";
                 public const string AutomatonPortrait = "BG30_MagicItem_303";
                 public const string RivendarePortrait = "BG30_MagicItem_310";
-                public const string RivendarePortrait_LurkingBaronEnchantment = "BG30_MagicItem_310e";
+                public const string RivendarePortrait_TougherTitusEnchantment = "BG30_MagicItem_310e";
                 public const string ConductorPortrait = "BG30_MagicItem_402";
                 public const string IronforgeAnvil = "BG30_MagicItem_403";
                 public const string IronforgeAnvil_ForgedOnTheAnvilEnchantment = "BG30_MagicItem_403e";

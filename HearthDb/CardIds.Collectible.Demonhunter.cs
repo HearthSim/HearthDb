@@ -147,6 +147,7 @@ namespace HearthDb
                 public const string IllidanStormrage_MetamorphosisIllidanHeroHeroSkins = "HERO_10am";
                 public const string IllidanStormrage_PierHalveriaHeroHeroSkins = "HERO_10an";
                 public const string IllidanStormrage_GnomereganOmenHeroHeroSkinsEnchantment = "HERO_10ao";
+                public const string IllidanStormrage_HalveriaSteamravenHeroHeroSkins = "HERO_10aq";
                 public const string IllidanStormrage_ArannaStarseekerHeroHeroSkins = "HERO_10b";
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
                 public const string IllidanStormrage_FelravagerIllidanHeroHeroSkins = "HERO_10d";
@@ -274,6 +275,9 @@ namespace HearthDb
                 public const string SigilOfSummoning = "WC_003";
                 public const string TaintheartTormenter = "WC_040";
                 public const string Felrattler = "WC_701";
+                public const string DemonicDeal = "WORK_014";
+                public const string SpiritPeddler = "WORK_015";
+                public const string InfernalStapler = "WORK_016";
                 public const string SnakeEyes = "WW_400";
                 public const string GunslingerKurtrus = "WW_401";
                 public const string BlindeyeSharpshooter = "WW_402";

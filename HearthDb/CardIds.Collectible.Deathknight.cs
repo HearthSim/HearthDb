@@ -64,6 +64,7 @@ namespace HearthDb
                 public const string TheLichKing_PoxiHeroHeroSkins = "HERO_11v";
                 public const string TheLichKing_IcecreamSaiHeroHeroSkins = "HERO_11w";
                 public const string TheLichKing_GoldpanReskaHeroHeroSkins = "HERO_11x";
+                public const string TheLichKing_SteampunkLanathelHeroHeroSkins = "HERO_11y";
                 public const string YellingYodeler = "JAM_005";
                 public const string ColdFeet = "JAM_006";
                 public const string CoolGhoul = "JAM_007";
@@ -187,6 +188,9 @@ namespace HearthDb
                 public const string GhoulsNight = "VAC_445";
                 public const string SlipperySlope = "VAC_513";
                 public const string DreadhoundHandler = "VAC_514";
+                public const string TravelSecurity = "WORK_010";
+                public const string EternalLayover = "WORK_028";
+                public const string SoulSearching = "WORK_070";
                 public const string SkeletonCrew = "WW_322";
                 public const string PileOfBones = "WW_324";
                 public const string ReapWhatYouSow = "WW_352";

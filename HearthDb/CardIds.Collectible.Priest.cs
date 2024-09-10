@@ -463,6 +463,9 @@ namespace HearthDb
                 public const string ShrinkmeisterWONDERS = "WON_314";
                 public const string DarkshireAlchemistWONDERS = "WON_315";
                 public const string ConvertWONDERS = "WON_342";
+                public const string SilvermoonBrochure = "WORK_017";
+                public const string EnvoyOfProsperity = "WORK_031";
+                public const string JobShadower = "WORK_032";
                 public const string SwarmOfLightbugs = "WW_052";
                 public const string TramHeist = "WW_053";
                 public const string InjuredHauler = "WW_381";

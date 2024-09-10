@@ -453,6 +453,9 @@ namespace HearthDb
                 public const string KabalCrystalRunnerWONDERS = "WON_308";
                 public const string FlameLanceWONDERS = "WON_341";
                 public const string SpellslingerWONDERS = "WON_344";
+                public const string HuddleUp = "WORK_012";
+                public const string Burndown = "WORK_026";
+                public const string PortalmancerSkyla = "WORK_063";
                 public const string Cryopreservation = "WW_009";
                 public const string HeatWave = "WW_377";
                 public const string AzeriteVein = "WW_422";

@@ -707,6 +707,8 @@ namespace HearthDb
                 public const string CatchoftheDay_DeliciousWormToken = "VAC_412t";
                 public const string RangerGilly_ToothyEnchantment = "VAC_413e3";
                 public const string RangerGilly_IslandCrocoliskToken = "VAC_413t";
+                public const string Workhorse_WorkponyToken = "WORK_018t";
+                public const string BusyPeon_ZugZugEnchantment = "WORK_041e";
             }
         }
     }

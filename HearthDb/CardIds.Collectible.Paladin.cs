@@ -223,6 +223,7 @@ namespace HearthDb
                 public const string UtherLightbringer_DetectoristFinleyHeroHeroSkins = "HERO_04as";
                 public const string UtherLightbringer_CastleNozdormuHeroHeroSkins = "HERO_04at";
                 public const string UtherLightbringer_AponiBrightmaneHeroHeroSkins = "HERO_04au";
+                public const string UtherLightbringer_SteamraiderNozdormuHeroHeroSkins = "HERO_04av";
                 public const string UtherLightbringer_PrinceArthasHeroHeroSkins = "HERO_04b";
                 public const string UtherLightbringer_SirAnnoyOHeroHeroSkins = "HERO_04c";
                 public const string UtherLightbringer_LightforgedUtherHeroHeroSkins = "HERO_04d";
@@ -455,6 +456,9 @@ namespace HearthDb
                 public const string WickerflameBurnbristleWONDERS = "WON_312";
                 public const string ALightInTheDarknessWONDERS = "WON_333";
                 public const string MysteriousChallengerWONDERS = "WON_334";
+                public const string TrustFall = "WORK_001";
+                public const string BusyBot = "WORK_002";
+                public const string VacationPlanning = "WORK_003";
                 public const string Showdown = "WW_051";
                 public const string HolyCowboy = "WW_335";
                 public const string PrismaticBeam = "WW_336";

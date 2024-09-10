@@ -5294,6 +5294,7 @@ namespace HearthDb
                 public const string TreasureSeekerElise = "BG23_353";
                 public const string TreasureSeekerElise_TreasureSeekerElise = "BG23_353_G";
                 public const string TreasureSeekerElise_GoldenMonkey = "BG23_353_Gt";
+                public const string TreasureSeekerElise_GoldenMonkeyToken = "BG23_353t";
                 public const string MindMuck = "BG23_357";
                 public const string MindMuck_MindMuck = "BG23_357_G";
                 public const string MindMuck_MindMuckedEnchantment = "BG23_357e";
@@ -12014,7 +12015,6 @@ namespace HearthDb
                 public const string SeafloorTrawler = "VAC_320";
                 public const string Incindius_EruptionToken = "VAC_321t";
                 public const string Cryopractor_CryoBoutItEnchantment = "VAC_327e";
-                public const string Meltemental_StayFrostyEnchantment = "VAC_328e";
                 public const string SleepyResident_AsleepEnchantment = "VAC_406e";
                 public const string ParrotSanctuary_ParrotingEnchantment = "VAC_409e";
                 public const string SaunaRegular_SteamyEnchantment = "VAC_418e";
@@ -12092,6 +12092,21 @@ namespace HearthDb
                 public const string GriftahTrustedVendor_AmuletOfStridesToken2 = "VAC_959t10t";
                 public const string TheCoinISLAND_VACATION1 = "VAC_COIN1";
                 public const string TheCoinISLAND_VACATION2 = "VAC_COIN2";
+                public const string TrustFall_ReassuredEnchantment = "WORK_001e";
+                public const string BusyBot_BusyBusyBusyEnchantment = "WORK_002e";
+                public const string AgencyEspionage_EspionageEnchantment = "WORK_004e";
+                public const string SharpShipment_SharpEnchantment = "WORK_005e";
+                public const string SpiritPeddler_PeddledEnchantment = "WORK_015e";
+                public const string SilvermoonBrochure_InFlightEnchantment = "WORK_017e";
+                public const string SilvermoonBrochure_SilvermoonSouvenirEnchantment = "WORK_017e2";
+                public const string SilvermoonBrochure_GilneanCurseEnchantmentToken = "WORK_017te";
+                public const string HandlewithBear_CarefulEnchantmentToken = "WORK_024te";
+                public const string DreamplannerZephrys_ModestTourToken = "WORK_027t1";
+                public const string DreamplannerZephrys_ExtravagantTourToken = "WORK_027t2";
+                public const string DreamplannerZephrys_HecticTourToken = "WORK_027t3";
+                public const string CarnivorousCubicle_DigestingEnchantment = "WORK_042e";
+                public const string UnGoroBrochure_ExoticDestinationEnchantment = "WORK_050e";
+                public const string SoulSearching_SoulFoundEnchantment = "WORK_070e";
                 public const string GiftReceiptEnchantment = "GIFT_99e";
                 public const string QuestionQuestionQuestionEVENT1 = "HM_101";
                 public const string QuestionQuestionQuestionEVENT2 = "HM_102";
@@ -12100,6 +12115,7 @@ namespace HearthDb
                 public const string QuestionQuestionQuestionEVENT4 = "HM_BG_PlayerEnch";
                 public const string QuestionQuestionQuestionEVENT5 = "HM_BG_PlayerEnch_2";
                 public const string _QuestionQuestionQuestionTokenEVENT = "HM_BG_PlayerEnch_2t";
+                public const string TheCoinEVENT = "MUDAN_COIN1";
             }
         }
     }

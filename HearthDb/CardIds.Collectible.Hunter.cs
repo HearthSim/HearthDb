@@ -446,6 +446,9 @@ namespace HearthDb
                 public const string CobraShotWONDERS = "WON_306";
                 public const string ShakyZipgunnerWONDERS = "WON_307";
                 public const string SmugglersCrateWONDERS = "WON_347";
+                public const string Workhorse = "WORK_018";
+                public const string CashCow = "WORK_019";
+                public const string MonkeyBusiness = "WORK_020";
                 public const string SneakySnakes = "WW_806";
                 public const string MessengerBuzzard = "WW_807";
                 public const string SilverSerpent = "WW_808";

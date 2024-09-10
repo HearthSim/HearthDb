@@ -716,6 +716,9 @@ namespace HearthDb
                 public const string HealthDrink_HealthDrinkToken2 = "VAC_951t2";
                 public const string FelfireBonfire_AmpleOfferingEnchantment = "VAC_952e";
                 public const string FelfireBonfire_OfferingAcceptedEnchantment = "VAC_952e2";
+                public const string ImpspiredEnchantment = "Work_009e";
+                public const string Burndown_ThisIsFineEnchantment1 = "WORK_026e";
+                public const string Burndown_ThisIsFineEnchantment2 = "WORK_026e2";
             }
         }
     }

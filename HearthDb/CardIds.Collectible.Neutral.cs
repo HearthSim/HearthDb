@@ -1732,6 +1732,11 @@ namespace HearthDb
                 public const string AcolyteOfPainWONDERS = "WON_357";
                 public const string StreetTricksterWONDERS = "WON_365";
                 public const string WorgenGreaserWONDERS = "WON_366";
+                public const string DreamplannerZephrys = "WORK_027";
+                public const string ClumsySteward = "WORK_040";
+                public const string BusyPeon = "WORK_041";
+                public const string CarnivorousCubicle = "WORK_042";
+                public const string TravelmasterDungar = "WORK_043";
                 public const string KoboldMiner = "WW_001";
                 public const string BurrowBuster = "WW_002";
                 public const string BountyBoard = "WW_003";

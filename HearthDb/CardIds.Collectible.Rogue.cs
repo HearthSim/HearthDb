@@ -444,6 +444,9 @@ namespace HearthDb
                 public const string UndercityHucksterWONDERS = "WON_317";
                 public const string PoisonedBladeWONDERS = "WON_318";
                 public const string TombPillagerWONDERS = "WON_340";
+                public const string AgencyEspionage = "WORK_004";
+                public const string SharpShipment = "WORK_005";
+                public const string Robocaller = "WORK_006";
                 public const string DartThrow = "WW_006";
                 public const string BountyWrangler = "WW_363";
                 public const string VelarokWindblade = "WW_364";

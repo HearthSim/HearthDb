@@ -80,18 +80,20 @@ namespace HearthDb
                 public const string MalfurionStormrageHeroic_DireShapeshiftHeroSkins = "HERO_06ahbp2";
                 public const string MalfurionStormrage_ShapeshiftHeroSkins1 = "HERO_06aibp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkins1 = "HERO_06aibp2";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins2 = "HERO_06ashp";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins2 = "HERO_06ashp2";
                 public const string MalfurionStormrage_ShapeshiftHeroSkinsEnchantment = "HERO_06ebp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkinsEnchantment = "HERO_06ebp2";
-                public const string MalfurionStormrage_ShapeshiftHeroSkins2 = "HERO_06fbp";
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins2 = "HERO_06fbp2";
-                public const string MalfurionStormrage_ShapeshiftHeroSkins3 = "HERO_06pbp";
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins3 = "HERO_06pbp2";
-                public const string MalfurionStormrage_ShapeshiftHeroSkins4 = "HERO_06rbp";
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins4 = "HERO_06rbp2";
-                public const string MalfurionStormrage_ShapeshiftHeroSkins5 = "HERO_06ubp";
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins5 = "HERO_06ubp2";
-                public const string MalfurionStormrage_ShapeshiftHeroSkins6 = "HERO_06zbp";
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins6 = "HERO_06zbp2";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins3 = "HERO_06fbp";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins3 = "HERO_06fbp2";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins4 = "HERO_06pbp";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins4 = "HERO_06pbp2";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins5 = "HERO_06rbp";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins5 = "HERO_06rbp2";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins6 = "HERO_06ubp";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins6 = "HERO_06ubp2";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins7 = "HERO_06zbp";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins7 = "HERO_06zbp2";
                 public const string Devastation = "DH_Lunar_TBBucket_1";
                 public const string Outcast = "DH_Lunar_TBBucket_2";
                 public const string SacrificeTavernBrawl1 = "DH_Lunar_TBBucket_3";
@@ -894,6 +896,12 @@ namespace HearthDb
                 public const string SleepUndertheStars_CatConstellationToken = "VAC_907t1";
                 public const string SleepUndertheStars_BearConstellationToken = "VAC_907t2";
                 public const string SleepUndertheStars_MoonkinConstellationToken = "VAC_907t3";
+                public const string HandlewithBear_CarefulBearToken = "WORK_024t";
+                public const string NumberCruncher_AggressiveProjections = "WORK_025a";
+                public const string NumberCruncher_AggressiveProjectionsEnchantment = "WORK_025ae";
+                public const string NumberCruncher_ConservativeForecast = "WORK_025b";
+                public const string NumberCruncher_ConservativeForecastEnchantment = "WORK_025be";
+                public const string UnGoroBrochure_DalaranBrochureToken = "WORK_050t";
             }
         }
     }

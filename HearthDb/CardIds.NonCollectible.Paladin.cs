@@ -726,6 +726,7 @@ namespace HearthDb
                 public const string SancAzel_SandyCastleEnchantment = "VAC_923e";
                 public const string SancAzel_SandyEnchantment = "VAC_923e2";
                 public const string SancAzel_SancazelToken = "VAC_923t";
+                public const string TrustFall_TrustingEnchantment = "WORK_001e2";
             }
         }
     }

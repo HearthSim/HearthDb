@@ -228,6 +228,7 @@ namespace HearthDb
                 public const string GarroshHellscream_FeastDenathriusHeroHeroSkins = "HERO_01ar";
                 public const string GarroshHellscream_HotSpringDeathwingHeroHeroSkins = "HERO_01as";
                 public const string GarroshHellscream_CorruptGarroshHeroHeroSkins = "HERO_01b";
+                public const string GarroshHellscream_RagnarosTheFirelordHeroHeroSkins = "HERO_01bb";
                 public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";
                 public const string GarroshHellscream_NagrandGarroshHeroHeroSkins = "HERO_01d";
                 public const string GarroshHellscream_AnnhyldeHeroHeroSkinsEnchantment = "HERO_01e";
@@ -453,6 +454,9 @@ namespace HearthDb
                 public const string AxeFlingerWONDERS = "WON_338";
                 public const string AlleyArmorsmithWONDERS = "WON_339";
                 public const string IKnowAGuyWONDERS = "WON_350";
+                public const string ReservedSpot = "WORK_021";
+                public const string PunchCard = "WORK_022";
+                public const string AlloyAdvisor = "WORK_023";
                 public const string DetonationJuggernaut = "WW_329";
                 public const string ReinforcedPlating = "WW_334";
                 public const string BlastTortoise = "WW_346";

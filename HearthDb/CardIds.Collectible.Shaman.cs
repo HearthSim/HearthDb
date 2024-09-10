@@ -222,6 +222,8 @@ namespace HearthDb
                 public const string Thrall_ThunderApeHeroHeroSkins = "HERO_02au_ThunderKing_hls";
                 public const string Thrall_SurfheartHeroHeroSkins = "HERO_02av";
                 public const string Thrall_SurferRastakhanHeroHeroSkins = "HERO_02aw";
+                public const string Thrall_RagnarosTheFirelordHeroHeroSkins = "HERO_02ax";
+                public const string Thrall_OverchargedKingHeroHeroSkins = "HERO_02ay";
                 public const string Thrall_KingRastakhanHeroHeroSkins = "HERO_02b";
                 public const string Thrall_TheThunderKingHeroHeroSkins = "HERO_02c";
                 public const string Thrall_WarchiefThrallHeroHeroSkins = "HERO_02d";
@@ -445,6 +447,9 @@ namespace HearthDb
                 public const string ChargedHammerWONDERS = "WON_321";
                 public const string ReincarnateWONDERS = "WON_335";
                 public const string HallazealTheAscendedWONDERS = "WON_336";
+                public const string HydrationTotem = "WORK_011";
+                public const string Turbulus = "WORK_013";
+                public const string IcecrownBrochure = "WORK_030";
                 public const string DoctorHollidae = "WW_010";
                 public const string LivingPrairie = "WW_024";
                 public const string SkarrTheCatastrophe = "WW_026";

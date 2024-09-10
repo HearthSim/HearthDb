@@ -542,6 +542,7 @@ namespace HearthDb
                 public const string NarainSoothfancy_FortuneToken = "VAC_420t";
                 public const string ElizaGoreblade_VitalityShiftEnchantment = "VAC_426e";
                 public const string ElizaGoreblade_VitalizedEnchantment = "VAC_426e2";
+                public const string SilvermoonBrochure_GilneasBrochureToken = "WORK_017t";
                 public const string Lightspawn = "HM_BG_001";
             }
         }

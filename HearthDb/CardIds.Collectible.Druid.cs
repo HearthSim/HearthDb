@@ -226,6 +226,7 @@ namespace HearthDb
                 public const string MalfurionStormrage_NordrassilMalfurionHeroHeroSkins = "HERO_06ap_Malfurion_hnv";
                 public const string MalfurionStormrage_CatnapXuenHeroHeroSkins = "HERO_06aq";
                 public const string MalfurionStormrage_OrgrimmarFaelinHeroHeroSkins = "HERO_06ar";
+                public const string MalfurionStormrage_LeyaraHeroHeroSkins = "HERO_06as";
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
                 public const string MalfurionStormrage_DameHazelbarkHeroHeroSkins = "HERO_06d";
@@ -454,6 +455,9 @@ namespace HearthDb
                 public const string JadeBehemothWONDERS = "WON_303";
                 public const string DarkArakkoaWONDERS = "WON_304";
                 public const string MenagerieWardenWONDERS = "WON_305";
+                public const string HandleWithBear = "WORK_024";
+                public const string NumberCruncher = "WORK_025";
+                public const string UngoroBrochure = "WORK_050";
                 public const string TakeToTheSkies = "WW_816";
                 public const string CactusConstruct = "WW_818";
                 public const string SplishSplashWhelp = "WW_819";

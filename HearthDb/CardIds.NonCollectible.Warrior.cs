@@ -45,6 +45,8 @@ namespace HearthDb
                 public const string GarroshHellscream_ArmorUpHeroSkins3 = "HERO_01aphp";
                 public const string GarroshHellscream_TankUpHeroSkins3 = "HERO_01aphp2";
                 public const string GarroshHellscream_ArmorUpHeroSkins4 = "HERO_01aqhp";
+                public const string GarroshHellscreamHeroic_ArmorUpHeroSkins = "HERO_01bbhp";
+                public const string GarroshHellscreamHeroic_TankUpHeroSkins = "HERO_01bbhp2";
                 public const string GarroshHellscream_ArmorUpHeroSkins5 = "HERO_01dbp";
                 public const string GarroshHellscream_TankUpHeroSkins4 = "HERO_01dbp2";
                 public const string GarroshHellscream_ArmorUpHeroSkins6 = "HERO_01fbp";
@@ -784,6 +786,8 @@ namespace HearthDb
                 public const string TheRyecleaver_SliceOfBreadToken = "VAC_525t1";
                 public const string TheRyecleaver_MinionSandwichToken = "VAC_525t2";
                 public const string FoodFight_EntréeToken = "VAC_533t";
+                public const string ReservedSpot_ReservedEnchantment = "WORK_021e";
+                public const string PunchCard_PunchedInEnchantment = "WORK_022e";
             }
         }
     }

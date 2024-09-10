@@ -43,10 +43,12 @@ namespace HearthDb
                 public const string Thrall_TotemicSlamHeroSkins4 = "HERO_02arhp2";
                 public const string ThrallHeroic_TotemicCallHeroSkins = "HERO_02athp";
                 public const string ThrallHeroic_TotemicSlamHeroSkins = "HERO_02athp2";
-                public const string Thrall_TotemicCallHeroSkins5 = "HERO_02fbp";
-                public const string Thrall_TotemicSlamHeroSkins5 = "HERO_02fbp2";
-                public const string Thrall_TotemicCallHeroSkins6 = "HERO_02mbp";
-                public const string Thrall_TotemicSlamHeroSkins6 = "HERO_02mbp2";
+                public const string Thrall_TotemicCallHeroSkins5 = "HERO_02axhp";
+                public const string Thrall_TotemicSlamHeroSkins5 = "HERO_02axhp2";
+                public const string Thrall_TotemicCallHeroSkins6 = "HERO_02fbp";
+                public const string Thrall_TotemicSlamHeroSkins6 = "HERO_02fbp2";
+                public const string Thrall_TotemicCallHeroSkins7 = "HERO_02mbp";
+                public const string Thrall_TotemicSlamHeroSkins7 = "HERO_02mbp2";
                 public const string FireFestivalRagnaros = "AIBot_Event_Ragnaros_FireFestival_02m";
                 public const string Hex = "FB_Champs_EX1_246";
                 public const string FlametongueTotem = "FB_Champs_EX1_565";
@@ -639,6 +641,9 @@ namespace HearthDb
                 public const string CarressCabaretStar_CarressCabaretStarToken20 = "VAC_449t8";
                 public const string CarressCabaretStar_CarressCabaretStarToken21 = "VAC_449t9";
                 public const string CabaretHeadliner_SirenSerenadeEnchantment = "VAC_954e1";
+                public const string HydrationTotem_ChattingEnchantment = "WORK_011e";
+                public const string Turbulus_TurbulenceEnchantment = "WORK_013e";
+                public const string IcecrownBrochure_BlackrockBrochureToken = "WORK_030t";
             }
         }
     }

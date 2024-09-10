@@ -456,6 +456,9 @@ namespace HearthDb
                 public const string UsherOfSoulsWONDERS = "WON_322";
                 public const string BaneOfDoomWONDERS = "WON_323";
                 public const string KrulTheUnshackledWONDERS = "WON_324";
+                public const string Deadline = "WORK_007";
+                public const string FinePrint = "WORK_008";
+                public const string ImployeeOfTheMonth = "WORK_009";
                 public const string DisposalAssistant = "WW_041";
                 public const string WasteRemover = "WW_042";
                 public const string SludgeOnWheels = "WW_043";

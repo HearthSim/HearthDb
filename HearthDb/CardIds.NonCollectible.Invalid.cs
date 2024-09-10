@@ -5028,6 +5028,7 @@ namespace HearthDb
                 public const string TheStonewright_LivingStoneToken = "REV_921t";
                 public const string Freebird_AvianFreedomEnchantment = "ETC_336e";
                 public const string GibberingReject_SharpStatueEnchantment = "MIS_911e";
+                public const string PortalmancerSkyla_PortalledEnchantment = "WORK_063e";
             }
         }
     }

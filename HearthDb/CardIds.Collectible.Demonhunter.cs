@@ -94,6 +94,19 @@ namespace HearthDb
                 public const string KorvasBloodthornCorePlaceholder = "CORE_CS3_019";
                 public const string ExpendablePerformersCore = "CORE_DMF_224";
                 public const string IllidansGiftCorePlaceholder = "CORE_GIFT_08";
+                public const string SightlessMagistrateCorePlaceholder = "CORE_MAW_008";
+                public const string AllFelBreaksLooseCorePlaceholder = "CORE_MAW_012";
+                public const string ProsecutorMeltranixCorePlaceholder = "CORE_MAW_014";
+                public const string SinfulBrandCorePlaceholder = "CORE_REV_506";
+                public const string DisposeOfEvidenceCorePlaceholder = "CORE_REV_507";
+                public const string RelicOfDimensionsCorePlaceholder = "CORE_REV_508";
+                public const string MagnifyingGlaiveCorePlaceholder = "CORE_REV_509";
+                public const string KryxisTheVoraciousCorePlaceholder = "CORE_REV_510";
+                public const string BibliomiteCorePlaceholder = "CORE_REV_511";
+                public const string RelicOfExtinctionCorePlaceholder = "CORE_REV_834";
+                public const string ArtificerXymoxCorePlaceholder = "CORE_REV_937";
+                public const string RelicVaultCorePlaceholder = "CORE_REV_942";
+                public const string RelicOfPhantasmsCorePlaceholder = "CORE_REV_943";
                 public const string WaywardSageCore = "CORE_TSC_217";
                 public const string IllidariStudiesCore = "CORE_YOP_001";
                 public const string GanargGlaivesmithCore = "CS3_017";
@@ -148,6 +161,7 @@ namespace HearthDb
                 public const string IllidanStormrage_PierHalveriaHeroHeroSkins = "HERO_10an";
                 public const string IllidanStormrage_GnomereganOmenHeroHeroSkinsEnchantment = "HERO_10ao";
                 public const string IllidanStormrage_HalveriaSteamravenHeroHeroSkins = "HERO_10aq";
+                public const string IllidanStormrage_FiredancerKaileneHeroHeroSkins = "HERO_10ar";
                 public const string IllidanStormrage_ArannaStarseekerHeroHeroSkins = "HERO_10b";
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
                 public const string IllidanStormrage_FelravagerIllidanHeroHeroSkins = "HERO_10d";

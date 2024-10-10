@@ -7,7 +7,8 @@ namespace HearthDb
         {
             public class Warrior
             {
-                public const string GarroshHellscream_TankUp = "HERO_01aqhp2";
+                public const string GarroshHellscream_TankUp1 = "HERO_01aqhp2";
+                public const string GarroshHellscream_TankUp2 = "HERO_01auhp2";
                 public const string Rampage_RampageEnchantment = "CS2_104e";
                 public const string ArathiWeaponsmith_BattleAxeToken = "EX1_398t";
                 public const string Upgrade_UpgradedEnchantment = "EX1_409e";
@@ -45,19 +46,20 @@ namespace HearthDb
                 public const string GarroshHellscream_ArmorUpHeroSkins3 = "HERO_01aphp";
                 public const string GarroshHellscream_TankUpHeroSkins3 = "HERO_01aphp2";
                 public const string GarroshHellscream_ArmorUpHeroSkins4 = "HERO_01aqhp";
+                public const string GarroshHellscream_ArmorUpHeroSkins5 = "HERO_01auhp";
                 public const string GarroshHellscreamHeroic_ArmorUpHeroSkins = "HERO_01bbhp";
                 public const string GarroshHellscreamHeroic_TankUpHeroSkins = "HERO_01bbhp2";
-                public const string GarroshHellscream_ArmorUpHeroSkins5 = "HERO_01dbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins6 = "HERO_01dbp";
                 public const string GarroshHellscream_TankUpHeroSkins4 = "HERO_01dbp2";
-                public const string GarroshHellscream_ArmorUpHeroSkins6 = "HERO_01fbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins7 = "HERO_01fbp";
                 public const string GarroshHellscream_TankUpHeroSkins5 = "HERO_01fbp2";
                 public const string GarroshHellscream_ArmorUpHeroSkinsEnchantment = "HERO_01obp";
                 public const string GarroshHellscream_TankUpHeroSkinsEnchantment = "HERO_01obp2";
-                public const string GarroshHellscream_ArmorUpHeroSkins7 = "HERO_01qbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins8 = "HERO_01qbp";
                 public const string GarroshHellscream_TankUpHeroSkins6 = "HERO_01qbp2";
-                public const string GarroshHellscream_ArmorUpHeroSkins8 = "HERO_01vbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins9 = "HERO_01vbp";
                 public const string GarroshHellscream_TankUpHeroSkins7 = "HERO_01vbp2";
-                public const string GarroshHellscream_ArmorUpHeroSkins9 = "HERO_01wbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins10 = "HERO_01wbp";
                 public const string GarroshHellscream_TankUpHeroSkins8 = "HERO_01wbp2";
                 public const string FieryWarAxe = "FB_Champs_CS2_106";
                 public const string Execute = "FB_Champs_CS2_108";

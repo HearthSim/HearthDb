@@ -40,6 +40,8 @@ namespace HearthDb
                 public const string AnduinWrynn_HealHeroSkins4 = "HERO_09aqhp2";
                 public const string AnduinWrynn_LesserHealHeroSkins5 = "HERO_09arhp";
                 public const string AnduinWrynn_HealHeroSkins5 = "HERO_09arhp2";
+                public const string AnduinWrynnHeroic_LesserHealHeroSkins = "HERO_09athp";
+                public const string AnduinWrynnHeroic_HealHeroSkins = "HERO_09athp2";
                 public const string AnduinWrynn_LesserHealHeroSkins6 = "HERO_09dbp";
                 public const string AnduinWrynn_LesserHealHeroSkins7 = "HERO_09dbp_Copy";
                 public const string AnduinWrynn_HealHeroSkins6 = "HERO_09dbp2";

@@ -65,6 +65,7 @@ namespace HearthDb
                 public const string TheLichKing_IcecreamSaiHeroHeroSkins = "HERO_11w";
                 public const string TheLichKing_GoldpanReskaHeroHeroSkins = "HERO_11x";
                 public const string TheLichKing_SteampunkLanathelHeroHeroSkins = "HERO_11y";
+                public const string TheLichKing_BolvarFordragonHeroHeroSkins = "HERO_11z";
                 public const string YellingYodeler = "JAM_005";
                 public const string ColdFeet = "JAM_006";
                 public const string CoolGhoul = "JAM_007";

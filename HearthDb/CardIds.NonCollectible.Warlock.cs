@@ -401,7 +401,7 @@ namespace HearthDb
                 public const string SchoolSpirits_SoulFragmentToken = "SCH_307t";
                 public const string VoidDrinker_SoulPoweredEnchantment = "SCH_343e";
                 public const string SoulciologistMalicia_ReleasedSoulToken = "SCH_703t";
-                public const string Archimonde = "Story_01_Archimonde";
+                public const string ArchimondeSCHOLOMANCE = "Story_01_Archimonde";
                 public const string SchoolSpirits = "Story_09_SchoolSpirits";
                 public const string SoulShear = "Story_09_SoulShear";
                 public const string SpiritJailer = "Story_09_SpiritJailer";

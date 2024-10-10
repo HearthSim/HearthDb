@@ -102,6 +102,19 @@ namespace HearthDb
                 public const string ShadowreaperAnduinInvalid = "CORE_ICC_830";
                 public const string EmbraceDarknessInvalid = "CORE_ICC_849";
                 public const string LesserDiamondSpellstoneCore = "CORE_LOOT_507";
+                public const string ClearConscienceCorePlaceholder = "CORE_MAW_021";
+                public const string IncriminatingPsychicCorePlaceholder = "CORE_MAW_022";
+                public const string TheftAccusationCorePlaceholder = "CORE_MAW_023";
+                public const string SuspiciousUsherCorePlaceholder = "CORE_REV_002";
+                public const string TheHarvesterOfEnvyCorePlaceholder = "CORE_REV_011";
+                public const string MysteriousVisitorCorePlaceholder = "CORE_REV_246";
+                public const string PartnerInCrimeCorePlaceholder = "CORE_REV_247";
+                public const string BoonOfTheAscendedCorePlaceholder = "CORE_REV_248";
+                public const string TheLightItBurnsCorePlaceholder = "CORE_REV_249";
+                public const string PelagosCorePlaceholder = "CORE_REV_250";
+                public const string CleanTheSceneCorePlaceholder = "CORE_REV_252";
+                public const string IdentityTheftCorePlaceholder = "CORE_REV_253";
+                public const string CathedralOfAtonementCorePlaceholder = "CORE_REV_290";
                 public const string ShardOfTheNaaruCorePlaceholder = "CORE_SW_441";
                 public const string VoidShardCore = "CORE_SW_442";
                 public const string DarkbishopBenedictusCorePlaceholder = "CORE_SW_448";
@@ -233,6 +246,7 @@ namespace HearthDb
                 public const string AnduinWrynn_DemonWhitemaneHeroHeroSkins = "HERO_09aq";
                 public const string AnduinWrynn_TalanjiHeroHeroSkins = "HERO_09ar";
                 public const string AnduinWrynn_LifeguardHedanisHeroHeroSkins = "HERO_09as";
+                public const string AnduinWrynn_ProphetVelenHeroHeroSkins = "HERO_09at";
                 public const string AnduinWrynn_MadameLazulHeroHeroSkins = "HERO_09b";
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
                 public const string AnduinWrynn_AnduinOfProphecyHeroHeroSkins = "HERO_09d";

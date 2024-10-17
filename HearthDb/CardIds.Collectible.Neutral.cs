@@ -342,8 +342,8 @@ namespace HearthDb
                 public const string HenchClanThugCore = "CORE_GIL_534";
                 public const string LifedrinkerCore = "CORE_GIL_622";
                 public const string RottenApplebaumCorePlaceholder = "CORE_GIL_667";
-                public const string GennGreymaneCore = "CORE_GIL_692";
-                public const string BakuTheMooneaterCore = "CORE_GIL_826";
+                public const string GennGreymaneCorePlaceholder = "CORE_GIL_692";
+                public const string BakuTheMooneaterCorePlaceholder = "CORE_GIL_826";
                 public const string CogmasterCorePlaceholder = "CORE_GVG_013";
                 public const string SpiderTankCorePlaceholder = "CORE_GVG_044";
                 public const string ExplosiveSheepCorePlaceholder = "CORE_GVG_076";
@@ -427,7 +427,7 @@ namespace HearthDb
                 public const string MaskedRevelerCorePlaceholder = "CORE_REV_015";
                 public const string CrookedCookCorePlaceholder = "CORE_REV_016";
                 public const string InsatiableDevourerCorePlaceholder = "CORE_REV_017";
-                public const string PrinceRenathalInvalid = "CORE_REV_018";
+                public const string PrinceRenathalCore = "CORE_REV_018";
                 public const string FamishedFoolCorePlaceholder = "CORE_REV_019";
                 public const string DinnerPerformerCorePlaceholder = "CORE_REV_020";
                 public const string KaelthasSinstriderCorePlaceholder = "CORE_REV_021";
@@ -1153,7 +1153,7 @@ namespace HearthDb
                 public const string MaskedReveler = "REV_015";
                 public const string CrookedCook = "REV_016";
                 public const string InsatiableDevourer = "REV_017";
-                public const string PrinceRenathalREVENDRETH = "REV_018";
+                public const string PrinceRenathal = "REV_018";
                 public const string FamishedFool = "REV_019";
                 public const string DinnerPerformer = "REV_020";
                 public const string KaelthasSinstrider = "REV_021";

@@ -694,6 +694,9 @@ namespace HearthDb
                 public const string TheScarabLord_ScarabToken = "WON_079t2";
                 public const string SeaShill_SeaShillEnchantment = "VAC_332e";
                 public const string TreasureHunterEudora_EudorasTreasureHuntToken = "VAC_464t";
+                public const string ArkoniteDefenseCrystal_TheScavengersWillToken = "GDB_100t8";
+                public const string LuckyComet_ComboCometEnchantment = "GDB_873e";
+                public const string SpacerockCollector_RockCollectionEnchantment = "GDB_875e";
             }
         }
     }

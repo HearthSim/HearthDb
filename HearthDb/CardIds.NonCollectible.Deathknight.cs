@@ -324,6 +324,13 @@ namespace HearthDb
                 public const string LichKing = "TUTR_Uther";
                 public const string GhoulsNight_SlumberingGhoulToken = "VAC_445t";
                 public const string DreadhoundHandler_DreadhoundToken = "VAC_514t";
+                public const string ArkoniteDefenseCrystal_TheSpiritsPassageToken = "GDB_100t4";
+                public const string GuidingFigure_GuidingFigureEnchantment = "GDB_106e";
+                public const string SoulboundSpire_SoulboundSpireEnchantment = "GDB_112e";
+                public const string AirlockBreach_BreachedAirEnchantment = "GDB_113e";
+                public const string AirlockBreach_UnfortunateSoulToken = "GDB_113t";
+                public const string ExarchMaladaar_NecromanticPowerEnchantment = "GDB_470e";
+                public const string ExarchMaladaar_CostsCorpsesEnchantment = "GDB_470e2";
             }
         }
     }

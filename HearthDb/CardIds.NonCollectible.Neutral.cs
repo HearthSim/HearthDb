@@ -9,6 +9,7 @@ namespace HearthDb
             {
                 public const string BoulderfistOgreBASIC = "BG_CS2_200";
                 public const string BoulderfistOgre_BoulderfistOgre = "BG_CS2_200_G";
+                public const string Cost5Enchantment = "GBL_011e";
                 public const string TemporaryEnchantment = "GBL_999e";
                 public const string CrazedAlchemist = "BG_EX1_059";
                 public const string ColdlightSeer = "BG_EX1_103";
@@ -6043,6 +6044,8 @@ namespace HearthDb
                 public const string KingVarian_KingVarian = "BG27_508_G";
                 public const string PapaBear = "BG27_509";
                 public const string PapaBear_PapaBear = "BG27_509_G";
+                public const string PapaBear_RagingRampage = "BG27_509_Ge";
+                public const string PapaBear_RagingRampageEnchantment = "BG27_509e";
                 public const string TideOracleMorgl = "BG27_513";
                 public const string TideOracleMorgl_TideOracleMorgl = "BG27_513_G";
                 public const string SeaWitchZarjira = "BG27_514";
@@ -12180,7 +12183,49 @@ namespace HearthDb
                 public const string CarnivorousCubicle_DigestingEnchantment = "WORK_042e";
                 public const string UnGoroBrochure_ExoticDestinationEnchantment = "WORK_050e";
                 public const string SoulSearching_SoulFoundEnchantment = "WORK_070e";
+                public const string ArkoniteDefenseCrystal_EmergencyRepairs = "GDB_100a";
+                public const string ArkoniteDefenseCrystal_OffensiveFormation = "GDB_100b";
+                public const string ArkoniteDefenseCrystal_CrewTransport = "GDB_100c";
+                public const string ArkoniteDefenseCrystal_ArkoniteDefenseCrystalEnchantment = "GDB_100e";
+                public const string ArkoniteDefenseCrystal_SpaceshipPieceTrackerEnchantment = "GDB_100e1";
+                public const string ArkoniteDefenseCrystal_SpaceshipAssemblyEnchantment = "GDB_100e3";
+                public const string ArkoniteDefenseCrystal_StarshipPiecesToken = "GDB_100t1";
+                public const string ArkoniteDefenseCrystal_TheExilesHopeToken = "GDB_100t2";
+                public const string ArkoniteDefenseCrystal_StarshipLaunchButtonToken = "GDB_100t3";
+                public const string DimensionalCore_DimensionalCoreEnchantment = "GDB_101e";
+                public const string EmergencyMeeting_GoingIntoBattleEnchantment = "GDB_119e";
+                public const string Doommaiden_DoomInterrogationEnchantment = "GDB_129e";
+                public const string CrystalWelder_WeldingCompleteEnchantment = "GDB_130e";
+                public const string CelestialAura_CelestialEnchantment = "GDB_140e";
                 public const string NexusPrinceShaffar_ShaffarsBeaconEnchantment = "GDB_143e";
+                public const string Kiljaeden_KiljaedensPortalEnchantment = "GDB_145e";
+                public const string Kiljaeden_LegionsPowerEnchantment = "GDB_145e2";
+                public const string UnyieldingVindicator_UnyieldingVindicatorFutureBuffEnchantment = "GDB_232e";
+                public const string SplittingSpacerock_SplittingBoulderToken = "GDB_331t1";
+                public const string SplittingSpacerock_SplittingStoneToken = "GDB_331t2";
+                public const string SplittingSpacerock_PebbleToken = "GDB_331t3";
+                public const string SpacePirate_SpacePiracyEnchantment = "GDB_333e";
+                public const string Asteroid = "GDB_430";
+                public const string Anchorite_DevotionEnchantment = "GDB_441e";
+                public const string Murmur_MurmuringEnchantment = "GDB_448e";
+                public const string AceWayfinder_AceWayfinderFutureBuffEnchantment = "GDB_450e";
+                public const string TheGravitationalDisplacer_TheGravitationalDisplacerEnchantment = "GDB_466e";
+                public const string Talgath_TalgathsBetrayalEnchantment = "GDB_472e";
+                public const string StarlightWanderer_StarlightWandererFutureBuffEnchantment = "GDB_720e";
+                public const string StarlightWanderer_SparklingStarlightEnchantment = "GDB_720e1";
+                public const string CrimsonCommander_RedShirtEnchantment = "GDB_722e";
+                public const string StarscaleConstellar_StarscalesEnchantment = "GDB_860e";
+                public const string StrandedSpaceman_StrandedSpacemanFutureBuffEnchantment = "GDB_861e";
+                public const string StrandedSpaceman_ToTheRescueEnchantment = "GDB_861e2";
+                public const string LunarTrailblazer_TrailBlazedEnchantment = "GDB_863e";
+                public const string EredarSkulker_SkulkingEnchantment = "GDB_870e2";
+                public const string Astrobiologist_AstrobiologistEnchantment = "GDB_874e";
+                public const string EscapePod_EscapingEnchantment = "GDB_877e";
+                public const string Braingill_MrglgigaBrainEnchantment = "GDB_878e";
+                public const string LaunchStarship = "GDB_905";
+                public const string AbortLaunch = "GDB_906";
+                public const string TheCoinSPACE1 = "GDB_COIN1";
+                public const string TheCoinSPACE2 = "GDB_COIN2";
                 public const string GiftReceiptEnchantment = "GIFT_99e";
                 public const string QuestionQuestionQuestionEVENT1 = "HM_101";
                 public const string QuestionQuestionQuestionEVENT2 = "HM_102";
@@ -12190,6 +12235,8 @@ namespace HearthDb
                 public const string QuestionQuestionQuestionEVENT5 = "HM_BG_PlayerEnch_2";
                 public const string _QuestionQuestionQuestionTokenEVENT = "HM_BG_PlayerEnch_2t";
                 public const string TheCoinEVENT = "MUDAN_COIN1";
+                public const string ChampionsofAzeroth_ForTheAlliance = "WON_113a";
+                public const string ChampionsofAzeroth_ForTheHorde = "WON_113b";
             }
         }
     }

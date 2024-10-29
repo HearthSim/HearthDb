@@ -727,6 +727,9 @@ namespace HearthDb
                 public const string SeabreezeChalice_SeabreezeChaliceToken2 = "VAC_520t2";
                 public const string KingTide_WaveridingEnchantment = "VAC_524e";
                 public const string KingTide_WaveridingRivalEnchantment = "VAC_524e2";
+                public const string IngeniousArtificer_IngeniousArtficerFutureBuffEnchantment = "GDB_135e";
+                public const string ExarchHataaru_ExarchHataaruEnchantment = "GDB_136e";
+                public const string Saruun_HeatOfSaruunEnchantment = "GDB_304e";
             }
         }
     }

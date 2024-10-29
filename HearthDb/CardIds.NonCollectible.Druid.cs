@@ -902,6 +902,16 @@ namespace HearthDb
                 public const string NumberCruncher_ConservativeForecast = "WORK_025b";
                 public const string NumberCruncher_ConservativeForecastEnchantment = "WORK_025be";
                 public const string UnGoroBrochure_DalaranBrochureToken = "WORK_050t";
+                public const string ArkoniteDefenseCrystal_TheCelestialArchiveToken = "GDB_100t6";
+                public const string ShatariCloakfield_ShatariCloakfieldEnchantment = "GDB_103e";
+                public const string ShatariCloakfield_CloakedEnchantment = "GDB_103e2";
+                public const string StarlightReactor_StarlightReactorEnchantment = "GDB_108e";
+                public const string AstralPhaser_LethalRays = "GDB_851a";
+                public const string AstralPhaser_StunningStar = "GDB_851b";
+                public const string AstralPhaser_StunnedEnchantment = "GDB_851e";
+                public const string StarGrazer_WhaleStrikeEnchantment = "GDB_855e";
+                public const string CosmicPhenomenon_PhenomenalEnchantment = "GDB_882e";
+                public const string CosmicPhenomenon_LivingPulsarToken = "GDB_882t";
             }
         }
     }

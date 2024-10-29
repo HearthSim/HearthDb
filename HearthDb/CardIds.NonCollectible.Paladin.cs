@@ -727,6 +727,12 @@ namespace HearthDb
                 public const string SancAzel_SandyEnchantment = "VAC_923e2";
                 public const string SancAzel_SancazelToken = "VAC_923t";
                 public const string TrustFall_TrustingEnchantment = "WORK_001e2";
+                public const string LibramofClarity_ClarityEnchantment = "GDB_137e1";
+                public const string LibramofDivinity_DivineLearningsEnchantment = "GDB_138e";
+                public const string LibramofDivinity_LibramOfDivinityEnchantment = "GDB_138e2";
+                public const string LibramofFaith_LightforgedDraeneiToken = "GDB_139t";
+                public const string Lumia_LumiasProtectionEnchantment = "GDB_144e";
+                public const string InterstellarStarslicer_InterstellarLibramEnchantmentEnchantment = "GDB_726e";
             }
         }
     }

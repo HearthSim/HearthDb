@@ -55,12 +55,14 @@ namespace HearthDb
                 public const string Rexxar_BallistaShotHeroSkins1 = "HERO_05ambp2";
                 public const string Rexxar_SteadyShotHeroSkinsEnchantment = "HERO_05aohp";
                 public const string Rexxar_BallistaShotHeroSkinsEnchantment = "HERO_05aohp2";
-                public const string Rexxar_SteadyShotHeroSkins2 = "HERO_05dbp";
-                public const string Rexxar_BallistaShotHeroSkins2 = "HERO_05dbp2";
-                public const string Rexxar_SteadyShotHeroSkins3 = "HERO_05ybp";
-                public const string Rexxar_BallistaShotHeroSkins3 = "HERO_05ybp2";
-                public const string Rexxar_SteadyShotHeroSkins4 = "HERO_05zbp";
-                public const string Rexxar_BallistaShotHeroSkins4 = "HERO_05zbp2";
+                public const string Rexxar_SteadyShotHeroSkins2 = "HERO_05ashp";
+                public const string Rexxar_BallistaShotHeroSkins2 = "HERO_05ashp2";
+                public const string Rexxar_SteadyShotHeroSkins3 = "HERO_05dbp";
+                public const string Rexxar_BallistaShotHeroSkins3 = "HERO_05dbp2";
+                public const string Rexxar_SteadyShotHeroSkins4 = "HERO_05ybp";
+                public const string Rexxar_BallistaShotHeroSkins4 = "HERO_05ybp2";
+                public const string Rexxar_SteadyShotHeroSkins5 = "HERO_05zbp";
+                public const string Rexxar_BallistaShotHeroSkins5 = "HERO_05zbp2";
                 public const string HuntersMark = "FB_Champs_CS2_084";
                 public const string LesserEmeraldSpellstone = "FB_Champs_LOOT_080";
                 public const string LesserEmeraldSpellstone_EmeraldSpellstoneTokenTavernBrawl = "FB_Champs_LOOT_080t2";
@@ -709,6 +711,16 @@ namespace HearthDb
                 public const string RangerGilly_IslandCrocoliskToken = "VAC_413t";
                 public const string Workhorse_WorkponyToken = "WORK_018t";
                 public const string BusyPeon_ZugZugEnchantment = "WORK_041e";
+                public const string ArkoniteDefenseCrystal_TheAstralCompassToken = "GDB_100t7";
+                public const string SpecimenClaw_SpecimenClawEnchantment = "GDB_107e";
+                public const string Biopod_BiopodEnchantment = "GDB_111e";
+                public const string AlienEncounters_SnackingScrungukToken = "GDB_237t";
+                public const string ExtraterrestrialEgg_EggbursterToken = "GDB_840t";
+                public const string GormtheWorldeater_GormEnchantEnchantment = "GDB_842e";
+                public const string GormtheWorldeater_PlanetaryFeastEnchantment = "GDB_842e2";
+                public const string GormtheWorldeater_GormEatingEnchantEnchantment = "GDB_842e3";
+                public const string ParallaxCannon_AngularImmunityEnchantment = "GDB_843e2";
+                public const string TrackingHeroic = "GDB_846hp";
             }
         }
     }

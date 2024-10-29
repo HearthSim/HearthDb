@@ -545,6 +545,13 @@ namespace HearthDb
                 public const string ElizaGoreblade_VitalityShiftEnchantment = "VAC_426e";
                 public const string ElizaGoreblade_VitalizedEnchantment = "VAC_426e2";
                 public const string SilvermoonBrochure_GilneasBrochureToken = "WORK_017t";
+                public const string OrbitalHalo_OrbitingHaloEnchantment = "GDB_439e";
+                public const string MystifiedTocha_TheAnswerEnchantment = "GDB_440e";
+                public const string Askara_AskaraFutureBuffEnchantment = "GDB_455e";
+                public const string Lightspeed_SpeedOfLightEnchantment = "GDB_457e1";
+                public const string DivineStar_MoralCompassEnchantment = "GDB_460e2";
+                public const string GravityLapse_LowGravityEnchantment = "GDB_464e";
+                public const string GravityLapse_IntenseGravityEnchantment = "GDB_464e2";
                 public const string Lightspawn = "HM_BG_001";
             }
         }

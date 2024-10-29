@@ -719,6 +719,16 @@ namespace HearthDb
                 public const string ImpspiredEnchantment = "Work_009e";
                 public const string Burndown_ThisIsFineEnchantment1 = "WORK_026e";
                 public const string Burndown_ThisIsFineEnchantment2 = "WORK_026e2";
+                public const string ArkoniteDefenseCrystal_TheNethersEyeToken = "GDB_100t9";
+                public const string FelfireThrusters_FelfireThrustersEnchantment = "GDB_104e";
+                public const string HeartoftheLegion_HeartOfTheLegionEnchantment = "GDB_109e";
+                public const string ForebodingFlame_BurningLegionsBoonEnchantment = "GDB_121e";
+                public const string InfernalStratagem_InfernalStrategyEnchantment = "GDB_122e";
+                public const string InfernalStratagem_StrategicInfernoEnchantment = "GDB_122e2";
+                public const string BadOmen_BadOmenToken = "GDB_124t";
+                public const string BadOmen_FelborneOverfiendToken = "GDB_124t2";
+                public const string KaratheDarkStar_ConsumingVoidEnchantment = "GDB_127e2b";
+                public const string KaratheDarkStar_VoidConsumedEnchantment = "GDB_127eb";
             }
         }
     }

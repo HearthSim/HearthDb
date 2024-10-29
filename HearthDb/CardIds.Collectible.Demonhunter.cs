@@ -142,6 +142,16 @@ namespace HearthDb
                 public const string Snakebite = "ETC_410";
                 public const string Security = "ETC_411";
                 public const string GoingDownSwinging = "ETC_413";
+                public const string ShattershardTurret = "GDB_105";
+                public const string FelfusedBattery = "GDB_110";
+                public const string EldritchBeing = "GDB_116";
+                public const string DirdraRebelCaptain = "GDB_117";
+                public const string XortothBreakerOfStars = "GDB_118";
+                public const string EmergencyMeeting = "GDB_119";
+                public const string VoroneiRecruiter = "GDB_471";
+                public const string Headhunt = "GDB_473";
+                public const string WarpDrive = "GDB_474";
+                public const string Infiltrate = "GDB_902";
                 public const string IllidansGift = "GIFT_08";
                 public const string IllidanStormrageHeroHeroSkins = "HERO_10";
                 public const string IllidanStormrage_DemonicIllidanHeroHeroSkins = "HERO_10a";
@@ -162,6 +172,7 @@ namespace HearthDb
                 public const string IllidanStormrage_GnomereganOmenHeroHeroSkinsEnchantment = "HERO_10ao";
                 public const string IllidanStormrage_HalveriaSteamravenHeroHeroSkins = "HERO_10aq";
                 public const string IllidanStormrage_FiredancerKaileneHeroHeroSkins = "HERO_10ar";
+                public const string IllidanStormrage_StarhunterKurtrusHeroHeroSkins = "HERO_10at";
                 public const string IllidanStormrage_ArannaStarseekerHeroHeroSkins = "HERO_10b";
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
                 public const string IllidanStormrage_FelravagerIllidanHeroHeroSkins = "HERO_10d";

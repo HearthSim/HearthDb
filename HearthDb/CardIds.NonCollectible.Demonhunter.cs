@@ -403,6 +403,20 @@ namespace HearthDb
                 public const string SkirtingDeath_SkirtedEnchantment = "VAC_931e1";
                 public const string ClimbingHook_HookedEnchantment = "VAC_932e";
                 public const string PatchesthePilot_ParachuteToken = "VAC_933t";
+                public const string ArkoniteDefenseCrystal_TheLegionsBaneToken = "GDB_100t5";
+                public const string ShattershardTurret_ShattershardTurretEnchantment = "GDB_105e";
+                public const string FelfusedBattery_FelfusedBatteryEnchantment = "GDB_110e";
+                public const string FelfusedBattery_FelfusedEnchantment = "GDB_110e2";
+                public const string XortothBreakerofStars_StarOfOriginationToken = "GDB_118t";
+                public const string XortothBreakerofStars_StarOfConclusionToken = "GDB_118t2";
+                public const string VoroneiRecruiter_EngineCrewmateToken = "GDB_471t";
+                public const string VoroneiRecruiter_TacticalCrewmateToken = "GDB_471t2";
+                public const string VoroneiRecruiter_GunnerCrewmateToken = "GDB_471t3";
+                public const string VoroneiRecruiter_HelmCrewmateToken = "GDB_471t4";
+                public const string VoroneiRecruiter_ReconCrewmateToken = "GDB_471t5";
+                public const string VoroneiRecruiter_ResearchCrewmateToken = "GDB_471t6";
+                public const string VoroneiRecruiter_MedicalCrewmateToken = "GDB_471t7";
+                public const string VoroneiRecruiter_AdminCrewmateToken = "GDB_471t8";
             }
         }
     }

@@ -53,7 +53,6 @@ namespace HearthDb
                 public const string TheLichKing_ArthasKingslayerHeroHeroSkins = "HERO_11a";
                 public const string TheLichKing_AstroArfusHeroHeroSkins = "HERO_11aa";
                 public const string TheLichKing_ScoutPoxiHeroHeroSkins = "HERO_11ab";
-                public const string TheLichKing_NorthrendArthasHeroHeroSkins = "HERO_11ac";
                 public const string TheLichKing_ArthasMenethilHeroHeroSkins = "HERO_11b";
                 public const string TheLichKing_DarionMograineHeroHeroSkins = "HERO_11c";
                 public const string TheLichKing_DaringDarionHeroHeroSkins = "HERO_11d";

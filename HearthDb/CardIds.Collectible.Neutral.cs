@@ -427,7 +427,7 @@ namespace HearthDb
                 public const string MaskedRevelerCorePlaceholder = "CORE_REV_015";
                 public const string CrookedCookCorePlaceholder = "CORE_REV_016";
                 public const string InsatiableDevourerCorePlaceholder = "CORE_REV_017";
-                public const string PrinceRenathalCore = "CORE_REV_018";
+                public const string PrinceRenathalCorePlaceholder = "CORE_REV_018";
                 public const string FamishedFoolCorePlaceholder = "CORE_REV_019";
                 public const string DinnerPerformerCorePlaceholder = "CORE_REV_020";
                 public const string KaelthasSinstriderCorePlaceholder = "CORE_REV_021";

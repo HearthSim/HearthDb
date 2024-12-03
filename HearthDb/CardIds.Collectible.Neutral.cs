@@ -127,6 +127,7 @@ namespace HearthDb
                 public const string HecklefangHyena = "BAR_745";
                 public const string KindlingElemental = "BAR_854";
                 public const string CrossroadsGossiper = "BAR_890";
+                public const string BobTheBartender = "BG31_BOB";
                 public const string Skaterbot = "BOT_020";
                 public const string BronzeGatekeeper = "BOT_021";
                 public const string GoblinBomb = "BOT_031";

@@ -204,6 +204,8 @@ namespace HearthDb
                 public const string MoonshineHeroic = "THD_040hpae";
                 public const string RavenIdol_BreakFree = "LOE_115a";
                 public const string RavenIdol_Awakened = "LOE_115b";
+                public const string FandralStaghelm = "BG_OG_044";
+                public const string FandralStaghelm_FandralStaghelm = "BG_OG_044_G";
                 public const string Infest_NerubianSpores = "OG_045a";
                 public const string FeralRage_EvolveSpines = "OG_047a";
                 public const string FeralRage_EvolveScales = "OG_047b";
@@ -499,11 +501,9 @@ namespace HearthDb
                 public const string WildThrashing = "Story_02_MishaHP";
                 public const string Gibberling = "Story_08_Gibberling";
                 public const string LightningBloom = "Story_11_LightningBloom";
-                public const string GuffRunetotemBATTLEGROUNDS = "BG20_HERO_242";
                 public const string GuffRunetotem_StormwindGuardGuff = "BG20_HERO_242_SKIN_A";
                 public const string GuffRunetotem_OasisGuff = "BG20_HERO_242_SKIN_B";
                 public const string GuffRunetotem_ExodarGuff = "BG20_HERO_242_SKIN_C";
-                public const string FlobbidinousFloop = "BGDUO_HERO_101";
                 public const string MountedRaptor = "BGS_025";
                 public const string Costs0TavernBrawl = "TB_BaconShopBadsongE";
                 public const string MountedRaptorTavernBrawl = "TB_BaconUps_019";

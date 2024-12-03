@@ -244,6 +244,7 @@ namespace HearthDb
                 public const string Rexxar_CanoeHulnHeroHeroSkins = "HERO_05aq";
                 public const string Rexxar_BullseyeBrannHeroHeroSkins = "HERO_05ar";
                 public const string Rexxar_NathanosBlightcallerHeroHeroSkins = "HERO_05as";
+                public const string Rexxar_MechaKrushHeroHeroSkins = "HERO_05at";
                 public const string Rexxar_WandererRexxarHeroHeroSkins = "HERO_05b";
                 public const string Rexxar_SylvanasWindrunnerHeroHeroSkins = "HERO_05c";
                 public const string Rexxar_WarsongRexxarHeroHeroSkins = "HERO_05d";

@@ -451,11 +451,11 @@ namespace HearthDb
                 public const string WaterElementalSCHOLOMANCE1 = "Story_01_WaterElemental";
                 public const string WaterElementalSCHOLOMANCE2 = "Story_01_WaterElemental2";
                 public const string LadyDarkscale = "Story_02_Darkscale";
-                public const string VardenDawngraspBATTLEGROUNDS = "BG22_HERO_004";
                 public const string VardenDawngrasp_DawnGuardianVarden = "BG22_HERO_004_SKIN_A";
                 public const string VardenDawngrasp_MagisterDawngrasp = "BG22_HERO_004_SKIN_B";
                 public const string VardenDawngrasp_ValkyrVarden = "BG22_HERO_004_SKIN_C";
                 public const string VardenDawngrasp_AzeriteVarden = "BG22_HERO_004_SKIN_D";
+                public const string VardenDawngrasp_RebelVarden = "BG22_HERO_004_SKIN_E";
                 public const string SplittingImageTavernBrawl = "TB_Bacon_Secrets_04";
                 public const string EffigyTavernBrawl = "TB_Bacon_Secrets_05";
                 public const string IceBlockTavernBrawl = "TB_Bacon_Secrets_12";

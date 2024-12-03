@@ -362,7 +362,6 @@ namespace HearthDb
                 public const string FerociousQuilboar = "Story_02_Quilboar";
                 public const string GetOverHere = "Story_02_QuilboarHP";
                 public const string WinkFox = "Story_02_WinkFox";
-                public const string ScabbsCutterbutterBATTLEGROUNDS = "BG21_HERO_010";
                 public const string ScabbsCutterbutter_UndercoverChefCutterbutter = "BG21_HERO_010_SKIN_A3";
                 public const string ScabbsCutterbutter_StarScoutScabbs = "BG21_HERO_010_SKIN_B4";
                 public const string ScabbsCutterbutter_McScabbs = "BG21_HERO_010_SKIN_C";
@@ -542,12 +541,12 @@ namespace HearthDb
                 public const string GoneFishin = "Story_11_GoneFishinPuzzle";
                 public const string GraceFarsailHeroic = "Story_11_Grace_005hp";
                 public const string Swash1 = "Story_11_Grace_005p";
-                public const string GraceFarsail1 = "Story_11_Grace_1";
-                public const string GraceFarsail_GraceFarsail1 = "Story_11_Grace_1Dormant";
-                public const string GraceFarsail2 = "Story_11_Grace_2";
-                public const string GraceFarsail_GraceFarsail2 = "Story_11_Grace_2Dormant";
-                public const string GraceFarsail3 = "Story_11_Grace_3";
-                public const string GraceFarsail_GraceFarsail3 = "Story_11_Grace_3Dormant";
+                public const string GraceFarsailTHE_SUNKEN_CITY1 = "Story_11_Grace_1";
+                public const string GraceFarsail_GraceFarsailTHE_SUNKEN_CITY1 = "Story_11_Grace_1Dormant";
+                public const string GraceFarsailTHE_SUNKEN_CITY2 = "Story_11_Grace_2";
+                public const string GraceFarsail_GraceFarsailTHE_SUNKEN_CITY2 = "Story_11_Grace_2Dormant";
+                public const string GraceFarsailTHE_SUNKEN_CITY3 = "Story_11_Grace_3";
+                public const string GraceFarsail_GraceFarsailTHE_SUNKEN_CITY3 = "Story_11_Grace_3Dormant";
                 public const string GracefulBlade1 = "Story_11_GracefulBlade";
                 public const string GracefulBlade2 = "Story_11_GracefulBlade_005p";
                 public const string MoreGraceful = "Story_11_GracefulBladee";
@@ -555,7 +554,7 @@ namespace HearthDb
                 public const string GracefulBladeRank2 = "Story_11_GracefulSword2";
                 public const string GracefulSwordRank2 = "Story_11_GracefulSword2e";
                 public const string GracefulSword = "Story_11_GracefulSworde";
-                public const string GraceFarsail4 = "Story_11_GracePrologue";
+                public const string GraceFarsailTHE_SUNKEN_CITY4 = "Story_11_GracePrologue";
                 public const string HighSeasRevenge2 = "Story_11_HighSeasRevenge";
                 public const string CaptainHooktuskHeroicTHE_SUNKEN_CITY = "Story_11_Hooktusk_003hb";
                 public const string Ransom = "Story_11_Hooktusk_003p";

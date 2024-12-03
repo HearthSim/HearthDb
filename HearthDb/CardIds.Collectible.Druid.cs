@@ -251,6 +251,7 @@ namespace HearthDb
                 public const string MalfurionStormrage_OrgrimmarFaelinHeroHeroSkins = "HERO_06ar";
                 public const string MalfurionStormrage_LeyaraHeroHeroSkins = "HERO_06as";
                 public const string MalfurionStormrage_CarnivalCthunHeroHeroSkins = "HERO_06at";
+                public const string MalfurionStormrage_HolidayHazelbarkHeroHeroSkins = "HERO_06av";
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
                 public const string MalfurionStormrage_DameHazelbarkHeroHeroSkins = "HERO_06d";

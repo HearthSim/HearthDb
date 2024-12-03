@@ -416,10 +416,8 @@ namespace HearthDb
                 public const string GorgromTheDragonEater = "Story_02_Gorgrom";
                 public const string MonstrousGrowth = "Story_02_GorgromHP";
                 public const string Intimidation = "Story_02_Intimidation";
-                public const string RokaraBATTLEGROUNDS = "BG20_HERO_100";
                 public const string Rokara_GloryOfCombat = "BG20_HERO_100p";
                 public const string OverlordSaurfang_ForTheHorde3 = "BG20_HERO_102p";
-                public const string DiabloBATTLEGROUNDS = "BG20_HERO_666";
                 public const string Diablo_RealmOfTerror = "BG20_HERO_666p";
                 public const string Diablo_DiabloLordOfTerror = "BG20_HERO_666p_t0";
                 public const string Diablo_SigilOfHell = "BG20_HERO_666p_t1a";
@@ -449,7 +447,6 @@ namespace HearthDb
                 public const string Diablo_UniqueBlackSoulstone = "BG20_HERO_666p_t6d";
                 public const string Diablo_Soulstone1 = "BG20_HERO_666p2e";
                 public const string Diablo_Soulstone2 = "BG20_HERO_666p2e3";
-                public const string Sneed = "BG21_HERO_030";
                 public const string Sneed_SubmersibleSneed = "BG21_HERO_030_SKIN_A";
                 public const string Sneed_SinstoneSneed = "BG21_HERO_030_SKIN_B3";
                 public const string Sneed_BonethresherSneed = "BG21_HERO_030_SKIN_C";

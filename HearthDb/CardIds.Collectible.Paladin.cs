@@ -249,6 +249,7 @@ namespace HearthDb
                 public const string UtherLightbringer_SteamraiderNozdormuHeroHeroSkins = "HERO_04av";
                 public const string UtherLightbringer_ExarchYrelHeroHeroSkins = "HERO_04aw";
                 public const string UtherLightbringer_LibramAponiHeroHeroSkins = "HERO_04ax";
+                public const string UtherLightbringer_TirionFordringHeroHeroSkins = "HERO_04ay";
                 public const string UtherLightbringer_PrinceArthasHeroHeroSkins = "HERO_04b";
                 public const string UtherLightbringer_SirAnnoyOHeroHeroSkins = "HERO_04c";
                 public const string UtherLightbringer_LightforgedUtherHeroHeroSkins = "HERO_04d";

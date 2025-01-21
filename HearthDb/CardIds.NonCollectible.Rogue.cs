@@ -40,18 +40,22 @@ namespace HearthDb
                 public const string ValeeraSanguinar_PoisonedDaggersHeroSkins4 = "HERO_03aqhp2";
                 public const string ValeeraSanguinar_DaggerMasteryHeroSkins5 = "HERO_03arhp";
                 public const string ValeeraSanguinar_PoisonedDaggersHeroSkins5 = "HERO_03arhp2";
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins6 = "HERO_03dbp";
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins7 = "HERO_03dbp_Copy";
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins6 = "HERO_03dbp2";
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins7 = "HERO_03dbp2_Copy";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins6 = "HERO_03axhp";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins6 = "HERO_03axhp2";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins7 = "HERO_03bchp";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins7 = "HERO_03bchp2";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins8 = "HERO_03dbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins9 = "HERO_03dbp_Copy";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins8 = "HERO_03dbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins9 = "HERO_03dbp2_Copy";
                 public const string ValeeraSanguinar_DaggerMasteryHeroSkinsEnchantment = "HERO_03ebp";
                 public const string ValeeraSanguinar_PoisonedDaggersHeroSkinsEnchantment = "HERO_03ebp2";
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins8 = "HERO_03mbp";
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins8 = "HERO_03mbp2";
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins9 = "HERO_03rbp";
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins9 = "HERO_03rbp2";
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins10 = "HERO_03sbp";
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins10 = "HERO_03sbp2";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins10 = "HERO_03mbp";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins10 = "HERO_03mbp2";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins11 = "HERO_03rbp";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins11 = "HERO_03rbp2";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins12 = "HERO_03sbp";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins12 = "HERO_03sbp2";
                 public const string ThiefTavernBrawl1 = "EVILBRM_DALA_Rogue_02";
                 public const string ColdBlood = "FB_Champs_CS2_073";
                 public const string BladeFlurry = "FB_Champs_CS2_233";
@@ -696,6 +700,7 @@ namespace HearthDb
                 public const string ArkoniteDefenseCrystal_TheScavengersWillToken = "GDB_100t8";
                 public const string LuckyComet_ComboCometEnchantment = "GDB_873e";
                 public const string SpacerockCollector_RockCollectionEnchantment = "GDB_875e";
+                public const string ArchonToken = "SC_671t1";
             }
         }
     }

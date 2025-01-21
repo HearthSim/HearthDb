@@ -253,8 +253,10 @@ namespace HearthDb
                 public const string Guldan_PandariaMalganisHeroHeroSkins = "HERO_07au";
                 public const string Guldan_DarkmoonMalganisHeroHeroSkins = "HERO_07av";
                 public const string Guldan_PilotZailHeroHeroSkins = "HERO_07aw";
+                public const string Guldan_QueenTamsinHeroHeroSkins = "HERO_07ax";
                 public const string Guldan_MechaJaraxxusHeroHeroSkins = "HERO_07b";
                 public const string Guldan_FelfireRagnarosHeroHeroSkins = "HERO_07bc";
+                public const string Guldan_KerriganHeroHeroSkins = "HERO_07bd";
                 public const string Guldan_ShadowGuldanHeroHeroSkins = "HERO_07c";
                 public const string Guldan_NzothHeroHeroSkins = "HERO_07d";
                 public const string Guldan_FelheartGuldanHeroHeroSkinsEnchantment = "HERO_07e";
@@ -348,6 +350,9 @@ namespace HearthDb
                 public const string DevourerOfSouls = "RLK_538";
                 public const string DarkhanDrathir = "RLK_539";
                 public const string AmorphousSlime = "RLK_540";
+                public const string UltraliskCavern = "SC_019";
+                public const string Consume = "SC_020";
+                public const string SpineCrawler = "SC_023";
                 public const string BonewebEgg = "SCH_147";
                 public const string DemonicStudies = "SCH_158";
                 public const string ArchwitchWillow = "SCH_181";

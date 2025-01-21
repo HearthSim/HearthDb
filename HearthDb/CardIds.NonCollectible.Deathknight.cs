@@ -7,30 +7,32 @@ namespace HearthDb
         {
             public class Deathknight
             {
+                public const string TheLichKing_GhoulFrenzy1 = "HERO_11ajhp2";
                 public const string TheLichKing_GhoulCharge = "HERO_11bp";
-                public const string TheLichKing_GhoulFrenzy1 = "HERO_11bp2";
+                public const string TheLichKing_GhoulFrenzy2 = "HERO_11bp2";
                 public const string TheLichKing_FrenziedGhoul = "HERO_11bp2t";
                 public const string TheLichKing_FrailGhoul = "HERO_11bpt";
-                public const string TheLichKing_GhoulFrenzy2 = "HERO_11cbp2";
-                public const string TheLichKing_GhoulFrenzy3 = "HERO_11gbp2";
+                public const string TheLichKing_GhoulFrenzy3 = "HERO_11cbp2";
+                public const string TheLichKing_GhoulFrenzy4 = "HERO_11gbp2";
                 public const string CrimsonKnightSaiHeroic_GhoulFrenzy = "HERO_11hbp2";
-                public const string TheLichKing_GhoulFrenzy4 = "HERO_11ibp2";
+                public const string TheLichKing_GhoulFrenzy5 = "HERO_11ibp2";
                 public const string TheLichKing_GhoulFrenzyEnchantment = "HERO_11ohp2";
-                public const string TheLichKing_GhoulFrenzy5 = "HERO_11uhp2";
-                public const string TheLichKing_GhoulFrenzy6 = "HERO_11vhp2";
-                public const string TheLichKing_GhoulFrenzy7 = "HERO_11zhp2";
-                public const string TheLichKing_GhoulChargeHeroSkins1 = "HERO_11cbp";
-                public const string TheLichKing_GhoulChargeHeroSkins2 = "HERO_11fbp";
+                public const string TheLichKing_GhoulFrenzy6 = "HERO_11uhp2";
+                public const string TheLichKing_GhoulFrenzy7 = "HERO_11vhp2";
+                public const string TheLichKing_GhoulFrenzy8 = "HERO_11zhp2";
+                public const string TheLichKing_GhoulChargeHeroSkins1 = "HERO_11ajhp";
+                public const string TheLichKing_GhoulChargeHeroSkins2 = "HERO_11cbp";
+                public const string TheLichKing_GhoulChargeHeroSkins3 = "HERO_11fbp";
                 public const string TheLichKing_GhoulFrenzyHeroSkins1 = "HERO_11fbp2";
-                public const string TheLichKing_GhoulChargeHeroSkins3 = "HERO_11gbp";
+                public const string TheLichKing_GhoulChargeHeroSkins4 = "HERO_11gbp";
                 public const string CrimsonKnightSaiHeroic_GhoulChargeHeroSkins = "HERO_11hbp";
-                public const string TheLichKing_GhoulChargeHeroSkins4 = "HERO_11ibp";
-                public const string TheLichKing_GhoulChargeHeroSkins5 = "HERO_11lbp";
+                public const string TheLichKing_GhoulChargeHeroSkins5 = "HERO_11ibp";
+                public const string TheLichKing_GhoulChargeHeroSkins6 = "HERO_11lbp";
                 public const string TheLichKing_GhoulFrenzyHeroSkins2 = "HERO_11lbp2";
                 public const string TheLichKing_GhoulChargeHeroSkinsEnchantment = "HERO_11ohp";
-                public const string TheLichKing_GhoulChargeHeroSkins6 = "HERO_11uhp";
-                public const string TheLichKing_GhoulChargeHeroSkins7 = "HERO_11vhp";
-                public const string TheLichKing_GhoulChargeHeroSkins8 = "HERO_11zhp";
+                public const string TheLichKing_GhoulChargeHeroSkins7 = "HERO_11uhp";
+                public const string TheLichKing_GhoulChargeHeroSkins8 = "HERO_11vhp";
+                public const string TheLichKing_GhoulChargeHeroSkins9 = "HERO_11zhp";
                 public const string SoldiersOfTheColdDark = "FB_LK001";
                 public const string RemorselessWinterTavernBrawl = "FB_LK005";
                 public const string ToMyAidUnderling = "FB_LK006";
@@ -331,6 +333,9 @@ namespace HearthDb
                 public const string AirlockBreach_UnfortunateSoulToken = "GDB_113t";
                 public const string ExarchMaladaar_NecromanticPowerEnchantment = "GDB_470e";
                 public const string ExarchMaladaar_CostsCorpsesEnchantment = "GDB_470e2";
+                public const string Infestor_ForTheSwarmEnchantment1 = "SC_002e";
+                public const string Infestor_ForTheSwarmEnchantment2 = "SC_002e2";
+                public const string UltraliskCavern_BanelingToken = "SC_019t";
             }
         }
     }

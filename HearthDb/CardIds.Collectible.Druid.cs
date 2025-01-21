@@ -253,6 +253,8 @@ namespace HearthDb
                 public const string MalfurionStormrage_CarnivalCthunHeroHeroSkins = "HERO_06at";
                 public const string MalfurionStormrage_HolidayHazelbarkHeroHeroSkins = "HERO_06av";
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
+                public const string MalfurionStormrage_ArtanisHeroHeroSkins = "HERO_06ba";
+                public const string MalfurionStormrage_YellowbrowFaelinHeroHeroSkins = "HERO_06bb";
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
                 public const string MalfurionStormrage_DameHazelbarkHeroHeroSkins = "HERO_06d";
                 public const string MalfurionStormrage_CenarionMalfurionHeroHeroSkinsEnchantment = "HERO_06e";
@@ -347,6 +349,9 @@ namespace HearthDb
                 public const string ElderNadox = "RLK_658";
                 public const string Anubrekhan = "RLK_659";
                 public const string NerubianFlyer = "RLK_956";
+                public const string ConstructPylons = "SC_755";
+                public const string Carrier = "SC_756";
+                public const string Immortal = "SC_763";
                 public const string Gibberling = "SCH_242";
                 public const string NatureStudies = "SCH_333";
                 public const string LightningBloom = "SCH_427";

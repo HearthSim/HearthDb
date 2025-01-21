@@ -175,6 +175,7 @@ namespace HearthDb
                 public const string IllidanStormrage_StarhunterKurtrusHeroHeroSkins = "HERO_10at";
                 public const string IllidanStormrage_MurgulisHeroHeroSkins = "HERO_10au";
                 public const string IllidanStormrage_RuneplateArannaHeroHeroSkins = "HERO_10av";
+                public const string IllidanStormrage_KerriganHeroHeroSkins = "HERO_10aw";
                 public const string IllidanStormrage_FelfireRagnarosHeroHeroSkins = "HERO_10az";
                 public const string IllidanStormrage_ArannaStarseekerHeroHeroSkins = "HERO_10b";
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
@@ -232,6 +233,9 @@ namespace HearthDb
                 public const string VengefulWalloper = "RLK_213";
                 public const string SouleatersScythe = "RLK_214";
                 public const string FelerinTheForgotten = "RLK_215";
+                public const string Lurker = "SC_009";
+                public const string CreepTumor = "SC_011";
+                public const string Mutalisk = "SC_022";
                 public const string Marrowslicer = "SCH_252";
                 public const string CycleOfHatred = "SCH_253";
                 public const string Magehunter = "SCH_276";

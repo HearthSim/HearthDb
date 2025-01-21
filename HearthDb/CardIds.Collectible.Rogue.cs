@@ -246,7 +246,9 @@ namespace HearthDb
                 public const string ValeeraSanguinar_DaredevilPatchesHeroHeroSkins = "HERO_03au";
                 public const string ValeeraSanguinar_SmugglerMarinHeroHeroSkins = "HERO_03av";
                 public const string ValeeraSanguinar_SlicerGaronaHeroHeroSkins = "HERO_03aw";
+                public const string ValeeraSanguinar_ArchonV07Tr0NHeroHeroSkins = "HERO_03ax";
                 public const string ValeeraSanguinar_CapNValeeraHeroHeroSkins = "HERO_03b";
+                public const string ValeeraSanguinar_ArtanisHeroHeroSkins = "HERO_03bc";
                 public const string ValeeraSanguinar_NightslayerValeeraHeroHeroSkins = "HERO_03d";
                 public const string ValeeraSanguinar_DiaoChanValeeraHeroHeroSkinsEnchantment = "HERO_03e";
                 public const string ValeeraSanguinar_GladiatorValeeraHeroHeroSkins = "HERO_03f";
@@ -340,6 +342,9 @@ namespace HearthDb
                 public const string VileApothecary = "RLK_571";
                 public const string PotionmasterPutricide = "RLK_572";
                 public const string GhostlyStrike = "RLK_573";
+                public const string DarkTemplar = "SC_752";
+                public const string Blink = "SC_761";
+                public const string HighTemplar = "SC_765";
                 public const string ShiftySophomore = "SCH_234";
                 public const string SecretPassage = "SCH_305";
                 public const string InfiltratorLilian = "SCH_426";
@@ -418,7 +423,7 @@ namespace HearthDb
                 public const string SherazinCorpseFlower = "UNG_065";
                 public const string TheCavernsBelow = "UNG_067";
                 public const string EnvenomWeapon = "UNG_823";
-                public const string Hallucination = "UNG_856";
+                public const string SporeHallucination = "UNG_856";
                 public const string MetalDetector = "VAC_330";
                 public const string SeaShill = "VAC_332";
                 public const string ConnivingConman = "VAC_333";

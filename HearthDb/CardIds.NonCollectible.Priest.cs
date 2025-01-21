@@ -40,8 +40,10 @@ namespace HearthDb
                 public const string AnduinWrynn_HealHeroSkins4 = "HERO_09aqhp2";
                 public const string AnduinWrynn_LesserHealHeroSkins5 = "HERO_09arhp";
                 public const string AnduinWrynn_HealHeroSkins5 = "HERO_09arhp2";
-                public const string AnduinWrynnHeroic_LesserHealHeroSkins = "HERO_09athp";
-                public const string AnduinWrynnHeroic_HealHeroSkins = "HERO_09athp2";
+                public const string AnduinWrynnHeroic_LesserHealHeroSkins1 = "HERO_09athp";
+                public const string AnduinWrynnHeroic_HealHeroSkins1 = "HERO_09athp2";
+                public const string AnduinWrynnHeroic_LesserHealHeroSkins2 = "HERO_09bahp";
+                public const string AnduinWrynnHeroic_HealHeroSkins2 = "HERO_09bahp2";
                 public const string AnduinWrynn_LesserHealHeroSkins6 = "HERO_09dbp";
                 public const string AnduinWrynn_LesserHealHeroSkins7 = "HERO_09dbp_Copy";
                 public const string AnduinWrynn_HealHeroSkins6 = "HERO_09dbp2";
@@ -182,6 +184,7 @@ namespace HearthDb
                 public const string RecklessExperimenter_RecklessExperimentEnchantment1 = "BOT_566e";
                 public const string RecklessExperimenter_RecklessExperimentEnchantment2 = "BOT_566e2";
                 public const string ZereksCloningGallery_ClonedEnchantment = "BOT_567e";
+                public const string RadiantElemental = "BOTA_UNG_034";
                 public const string SandDrudge_ZombieToken = "TRL_131t";
                 public const string SurrendertoMadness_AbsolutelyMadEnchantment = "TRL_500e";
                 public const string SpiritoftheDead_PrayerToBwonsamdiEnchantment = "TRL_502e";
@@ -551,6 +554,7 @@ namespace HearthDb
                 public const string DivineStar_MoralCompassEnchantment = "GDB_460e2";
                 public const string GravityLapse_LowGravityEnchantment = "GDB_464e";
                 public const string GravityLapse_IntenseGravityEnchantment = "GDB_464e2";
+                public const string Hallucination_HallucinationEnchantment = "SC_757e";
                 public const string Lightspawn = "HM_BG_001";
             }
         }

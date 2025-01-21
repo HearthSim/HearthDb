@@ -56,17 +56,21 @@ namespace HearthDb
                 public const string Guldan_SoulTapHeroSkins3 = "HERO_07aqhp2";
                 public const string Guldan_LifeTapHeroSkins5 = "HERO_07arhp";
                 public const string Guldan_SoulTapHeroSkins4 = "HERO_07arhp2";
-                public const string Guldan_LifeTapHeroSkins6 = "HERO_07bchp";
-                public const string Guldan_SoulTapHeroSkins5 = "HERO_07bchp2";
-                public const string Guldan_LifeTapHeroSkins7 = "HERO_07dbp";
-                public const string Guldan_SoulTapHeroSkins6 = "HERO_07dbp2";
+                public const string Guldan_LifeTapHeroSkins6 = "HERO_07axhp";
+                public const string Guldan_SoulTapHeroSkins5 = "HERO_07axhp2";
+                public const string Guldan_LifeTapHeroSkins7 = "HERO_07bchp";
+                public const string Guldan_SoulTapHeroSkins6 = "HERO_07bchp2";
+                public const string Guldan_LifeTapHeroSkins8 = "HERO_07bdhp";
+                public const string Guldan_SoulTapHeroSkins7 = "HERO_07bdhp2";
+                public const string Guldan_LifeTapHeroSkins9 = "HERO_07dbp";
+                public const string Guldan_SoulTapHeroSkins8 = "HERO_07dbp2";
                 public const string Guldan_LifeTapHeroSkinsEnchantment = "HERO_07ebp";
                 public const string Guldan_SoulTapHeroSkinsEnchantment1 = "HERO_07ebp2";
                 public const string Guldan_SoulTapHeroSkinsEnchantment2 = "HERO_07ebp2_Copy";
-                public const string Guldan_LifeTapHeroSkins8 = "HERO_07ybp";
-                public const string Guldan_SoulTapHeroSkins7 = "HERO_07ybp2";
-                public const string Guldan_LifeTapHeroSkins9 = "HERO_07zbp";
-                public const string Guldan_SoulTapHeroSkins8 = "HERO_07zbp2";
+                public const string Guldan_LifeTapHeroSkins10 = "HERO_07ybp";
+                public const string Guldan_SoulTapHeroSkins9 = "HERO_07ybp2";
+                public const string Guldan_LifeTapHeroSkins11 = "HERO_07zbp";
+                public const string Guldan_SoulTapHeroSkins10 = "HERO_07zbp2";
                 public const string ShadowBolt = "DH_Prologue_CS2_057";
                 public const string SwarmingTavernBrawl1 = "EVILBRM_DALA_Warlock_02";
                 public const string DrawTavernBrawl5 = "EVILBRM_DALA_Warlock_03";
@@ -732,6 +736,8 @@ namespace HearthDb
                 public const string BadOmen_FelborneOverfiendToken = "GDB_124t2";
                 public const string KaratheDarkStar_ConsumingVoidEnchantment = "GDB_127e2b";
                 public const string KaratheDarkStar_VoidConsumedEnchantment = "GDB_127eb";
+                public const string Ultralisk = "SC_006";
+                public const string Consume_ConsumedEnchantment = "SC_020e";
             }
         }
     }

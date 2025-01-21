@@ -1250,8 +1250,9 @@ namespace HearthDb
                 public const string Coroner = "RLK_951";
                 public const string Enchanter = "RLK_952";
                 public const string SilvermoonArmorer = "RLK_955";
-                public const string Banshee = "RLK_957";
+                public const string WailingBanshee = "RLK_957";
                 public const string HawkstriderRancher = "RLK_970";
+                public const string Grunty = "SC_013";
                 public const string VoraciousReader = "SCH_142";
                 public const string DivineRager = "SCH_143";
                 public const string DeskImp = "SCH_145";
@@ -1437,7 +1438,7 @@ namespace HearthDb
                 public const string PiranhaSwarmer = "TSC_638";
                 public const string Reefwalker = "TSC_640";
                 public const string QueenAzshara = "TSC_641";
-                public const string Mothership = "TSC_645";
+                public const string StormcoilMothership = "TSC_645";
                 public const string SeascoutOperator = "TSC_646";
                 public const string PelicanDiver = "TSC_647";
                 public const string IniStormcoil = "TSC_649";

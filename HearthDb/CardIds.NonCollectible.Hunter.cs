@@ -59,12 +59,14 @@ namespace HearthDb
                 public const string Rexxar_BallistaShotHeroSkins2 = "HERO_05ashp2";
                 public const string RexxarHeroic_SteadyShotHeroSkins2 = "HERO_05athp";
                 public const string RexxarHeroic_BallistaShotHeroSkins2 = "HERO_05athp2";
-                public const string Rexxar_SteadyShotHeroSkins3 = "HERO_05dbp";
-                public const string Rexxar_BallistaShotHeroSkins3 = "HERO_05dbp2";
-                public const string Rexxar_SteadyShotHeroSkins4 = "HERO_05ybp";
-                public const string Rexxar_BallistaShotHeroSkins4 = "HERO_05ybp2";
-                public const string Rexxar_SteadyShotHeroSkins5 = "HERO_05zbp";
-                public const string Rexxar_BallistaShotHeroSkins5 = "HERO_05zbp2";
+                public const string Rexxar_SteadyShotHeroSkins3 = "HERO_05azhp";
+                public const string Rexxar_BallistaShotHeroSkins3 = "HERO_05azhp2";
+                public const string Rexxar_SteadyShotHeroSkins4 = "HERO_05dbp";
+                public const string Rexxar_BallistaShotHeroSkins4 = "HERO_05dbp2";
+                public const string Rexxar_SteadyShotHeroSkins5 = "HERO_05ybp";
+                public const string Rexxar_BallistaShotHeroSkins5 = "HERO_05ybp2";
+                public const string Rexxar_SteadyShotHeroSkins6 = "HERO_05zbp";
+                public const string Rexxar_BallistaShotHeroSkins6 = "HERO_05zbp2";
                 public const string HuntersMark = "FB_Champs_CS2_084";
                 public const string LesserEmeraldSpellstone = "FB_Champs_LOOT_080";
                 public const string LesserEmeraldSpellstone_EmeraldSpellstoneTokenTavernBrawl = "FB_Champs_LOOT_080t2";
@@ -723,6 +725,9 @@ namespace HearthDb
                 public const string GormtheWorldeater_GormEatingEnchantEnchantment = "GDB_842e3";
                 public const string ParallaxCannon_AngularImmunityEnchantment = "GDB_843e2";
                 public const string TrackingHeroic = "GDB_846hp";
+                public const string Roach_AdaptivePlatingEnchantment = "SC_012e";
+                public const string EvolutionChamber_PerfectEvolutionEnchantment = "SC_021e";
+                public const string EvolutionChamber_PrimalEvolutionEnchantment = "SC_021e2";
             }
         }
     }

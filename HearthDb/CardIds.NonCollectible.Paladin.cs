@@ -58,17 +58,21 @@ namespace HearthDb
                 public const string UtherLightbringer_TheSilverHandHeroSkins3 = "HERO_04auhp2";
                 public const string UtherLightbringer_ReinforceHeroSkins4 = "HERO_04ayhp";
                 public const string UtherLightbringer_TheSilverHandHeroSkins4 = "HERO_04ayhp2";
+                public const string UtherLightbringer_ReinforceHeroSkins5 = "HERO_04bchp";
+                public const string UtherLightbringer_TheSilverHandHeroSkins5 = "HERO_04bchp2";
+                public const string UtherLightbringer_ReinforceHeroSkins6 = "HERO_04bdhp";
+                public const string UtherLightbringer_TheSilverHandHeroSkins6 = "HERO_04bdhp2";
                 public const string UtherLightbringer_ReinforceHeroSkinsEnchantment = "HERO_04ebp";
                 public const string UtherLightbringer_TheSilverHandHeroSkinsEnchantment = "HERO_04ebp2";
-                public const string UtherLightbringer_ReinforceHeroSkins5 = "HERO_04fbp";
-                public const string UtherLightbringer_TheSilverHandHeroSkins5 = "HERO_04fbp2";
+                public const string UtherLightbringer_ReinforceHeroSkins7 = "HERO_04fbp";
+                public const string UtherLightbringer_TheSilverHandHeroSkins7 = "HERO_04fbp2";
                 public const string UtherLightbringer_Reinforce_YrelHeroSkins = "HERO_04fbp3";
-                public const string UtherLightbringer_ReinforceHeroSkins6 = "HERO_04lbp";
-                public const string UtherLightbringer_TheSilverHandHeroSkins6 = "HERO_04lbp2";
-                public const string UtherLightbringer_ReinforceHeroSkins7 = "HERO_04ubp";
-                public const string UtherLightbringer_TheSilverHandHeroSkins7 = "HERO_04ubp2";
-                public const string UtherLightbringer_ReinforceHeroSkins8 = "HERO_04wbp";
-                public const string UtherLightbringer_TheSilverHandHeroSkins8 = "HERO_04wbp2";
+                public const string UtherLightbringer_ReinforceHeroSkins8 = "HERO_04lbp";
+                public const string UtherLightbringer_TheSilverHandHeroSkins8 = "HERO_04lbp2";
+                public const string UtherLightbringer_ReinforceHeroSkins9 = "HERO_04ubp";
+                public const string UtherLightbringer_TheSilverHandHeroSkins9 = "HERO_04ubp2";
+                public const string UtherLightbringer_ReinforceHeroSkins10 = "HERO_04wbp";
+                public const string UtherLightbringer_TheSilverHandHeroSkins10 = "HERO_04wbp2";
                 public const string EqualityTavernBrawl = "FB_Champs_EX1_619";
                 public const string CallToArms = "FB_Champs_LOOT_093";
                 public const string LevelUpTavernBrawl2 = "FB_Champs_LOOT_333";
@@ -158,6 +162,7 @@ namespace HearthDb
                 public const string LadyLiadrin_LiadrinsChampion1 = "THD_108p";
                 public const string LadyLiadrin_LiadrinsChampion2 = "THD_108pe";
                 public const string KeeperofUldaman_WatchedEnchantment = "LOE_017e";
+                public const string SelflessHero = "BG_OG_221";
                 public const string VilefinInquisitor_SilverHandMurloc = "OG_006a";
                 public const string VilefinInquisitor_TheTidalHand = "OG_006b";
                 public const string RallyingBlade_RallyEnchantment = "OG_222e";
@@ -165,6 +170,7 @@ namespace HearthDb
                 public const string DivineStrength = "RLK_Prologue_OG_223";
                 public const string StandAgainstDarkness = "RLK_Prologue_OG_273";
                 public const string StewardOfDarkshire = "RLK_Prologue_OG_310";
+                public const string SelflessHeroTavernBrawl = "TB_BaconUps_014";
                 public const string NightbaneTemplar_Whelp = "KAR_010a";
                 public const string SmugglersRun_SmugglingEnchantment = "CFM_305e";
                 public const string LostInTheJungle = "RLK_Prologue_UNG_960";
@@ -567,7 +573,6 @@ namespace HearthDb
                 public const string PursuitofJustice_PursuitOfJusticeCoreEnchantmentCORE3 = "RLK_Prologue_CS3_029e";
                 public const string PursuitofJustice_PursuitOfJusticeCoreEnchantmentCORE4 = "RLK_Prologue_CS3_029e2";
                 public const string ResistanceAura_ResistanceCoreEnchantment = "TTN_851e";
-                public const string ResistanceAura_ResistingCoreEnchantment = "TTN_851e2";
                 public const string SilverHandRecruitVanillaToken = "VAN_CS2_101t";
                 public const string NobleSacrifice_DefenderVanilla = "VAN_EX1_130a";
                 public const string ReinforceVanilla = "VAN_HERO_04bp";
@@ -736,6 +741,12 @@ namespace HearthDb
                 public const string LibramofFaith_LightforgedDraeneiToken = "GDB_139t";
                 public const string Lumia_LumiasProtectionEnchantment = "GDB_144e";
                 public const string InterstellarStarslicer_InterstellarLibramEnchantmentEnchantment = "GDB_726e";
+                public const string UltraCapacitor_SelfReplicatingEnchantment = "SC_405e";
+                public const string UltraCapacitor_UltraCapacitorEnchantmentToken = "SC_405te";
+                public const string Hellion_SmartServosEnchantment = "SC_412e1";
+                public const string Hellion_SmarterServosEnchantment = "SC_412e2";
+                public const string Hellion_HellbatToken = "SC_412t";
+                public const string VoidRay_PrismaticAlignmentEnchantment = "SC_783e";
             }
         }
     }

@@ -22,18 +22,20 @@ namespace HearthDb
                 public const string IllidanStormrage_DemonsBiteHeroSkins3 = "HERO_10ashp2";
                 public const string IllidanStormrage_DemonClawsHeroSkins4 = "HERO_10auhp";
                 public const string IllidanStormrage_DemonsBiteHeroSkins4 = "HERO_10auhp2";
-                public const string IllidanStormrage_DemonClawsHeroSkins5 = "HERO_10azhp";
-                public const string IllidanStormrage_DemonsBiteHeroSkins5 = "HERO_10azhp2";
-                public const string IllidanStormrage_DemonClawsHeroSkins6 = "HERO_10bbp";
-                public const string IllidanStormrage_DemonsBiteHeroSkins6 = "HERO_10bbp2";
-                public const string IllidanStormrage_DemonClawsHeroSkins7 = "HERO_10cbp";
-                public const string IllidanStormrage_DemonsBiteHeroSkins7 = "HERO_10cbp2";
-                public const string IllidanStormrage_DemonClawsHeroSkins8 = "HERO_10lbp";
-                public const string IllidanStormrage_DemonsBiteHeroSkins8 = "HERO_10lbp2";
-                public const string IllidanStormrage_DemonClawsHeroSkins9 = "HERO_10xbp";
-                public const string IllidanStormrage_DemonsBiteHeroSkins9 = "HERO_10xbp2";
-                public const string IllidanStormrage_DemonClawsHeroSkins10 = "HERO_10zbp";
-                public const string IllidanStormrage_DemonsBiteHeroSkins10 = "HERO_10zbp2";
+                public const string IllidanStormrage_DemonClawsHeroSkins5 = "HERO_10awhp";
+                public const string IllidanStormrage_DemonsBiteHeroSkins5 = "HERO_10awhp2";
+                public const string IllidanStormrage_DemonClawsHeroSkins6 = "HERO_10azhp";
+                public const string IllidanStormrage_DemonsBiteHeroSkins6 = "HERO_10azhp2";
+                public const string IllidanStormrage_DemonClawsHeroSkins7 = "HERO_10bbp";
+                public const string IllidanStormrage_DemonsBiteHeroSkins7 = "HERO_10bbp2";
+                public const string IllidanStormrage_DemonClawsHeroSkins8 = "HERO_10cbp";
+                public const string IllidanStormrage_DemonsBiteHeroSkins8 = "HERO_10cbp2";
+                public const string IllidanStormrage_DemonClawsHeroSkins9 = "HERO_10lbp";
+                public const string IllidanStormrage_DemonsBiteHeroSkins9 = "HERO_10lbp2";
+                public const string IllidanStormrage_DemonClawsHeroSkins10 = "HERO_10xbp";
+                public const string IllidanStormrage_DemonsBiteHeroSkins10 = "HERO_10xbp2";
+                public const string IllidanStormrage_DemonClawsHeroSkins11 = "HERO_10zbp";
+                public const string IllidanStormrage_DemonsBiteHeroSkins11 = "HERO_10zbp2";
                 public const string DemonCrusher = "Bucket_DemonHunter_01";
                 public const string GlaivesOfFury = "Bucket_DemonHunter_02";
                 public const string GiftOfTheLegion = "PVPDR_035";
@@ -420,6 +422,7 @@ namespace HearthDb
                 public const string VoroneiRecruiter_ResearchCrewmateToken = "GDB_471t6";
                 public const string VoroneiRecruiter_MedicalCrewmateToken = "GDB_471t7";
                 public const string VoroneiRecruiter_AdminCrewmateToken = "GDB_471t8";
+                public const string CreepTumor_OnCreepEnchantment = "SC_011e";
             }
         }
     }

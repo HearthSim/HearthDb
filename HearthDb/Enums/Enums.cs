@@ -391,6 +391,17 @@ namespace HearthDb.Enums
         NEUTRAL = 3,
     }
 
+    public enum FactionColorType
+    {
+        GENERIC = 0,
+        GRIMY_GOONS = 1,
+        KABAL = 2,
+        JADE_LOTUS = 3,
+        ZERG = 4,
+        TERRAN = 5,
+        PROTOSS = 6,
+    }
+
     public enum FormatType
     {
         FT_UNKNOWN = 0,
@@ -1344,11 +1355,14 @@ namespace HearthDb.Enums
         SUPPRESS_HERO_STANDARD_SUMMON_FX = 3438,
         ZILLIAX_CUSTOMIZABLE_LINKED_COSMETICMOUDLE = 3450,
         BACON_SHOW_COST_ON_DISCOVER = 3456,
+        ZERG = 3457,
+        TERRAN = 3458,
         MIN_SIDEBOARD_CARDS = 3459,
         FORGETFUL_ATTACK_VISUAL = 3460,
         SHUDDERWOCKHIGHLIGHTHINT = 3463,
         NUM_TURNS_LAST_AFFECTED_BY = 3464,
         EXTRA_TURNS_SPELL_OVERRIDE = 3465,
+        PROTOSS = 3469,
         ZILLIAX_CUSTOMIZABLE_LINKED_FUNCTIONALMOUDLE = 3470,
         HIDE_HEALTH_NUMBER = 3471,
         HIDE_ATTACK_NUMBER = 3472,
@@ -1428,6 +1442,8 @@ namespace HearthDb.Enums
         BACON_SHOW_OVERRIDEN_MINION_COST = 3973,
         BACON_SHOW_REFRESH_LEFT_BANNER = 3982,
         SUPPRESS_SPELL_POWER_IN_TEXT = 3986,
+        STARSHIP_LAUNCH_TRIGGER = 4013,
+        IS_RELAUNCHED_STARSHIP = 4030,
         CARDTEXT_INHAND = 184,
         RECALL = 215,
         DEATH_RATTLE = 217,

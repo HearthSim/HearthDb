@@ -41,16 +41,22 @@ namespace HearthDb
                 public const string Thrall_TotemicSlamHeroSkins3 = "HERO_02ambp2";
                 public const string Thrall_TotemicCallHeroSkins4 = "HERO_02arhp";
                 public const string Thrall_TotemicSlamHeroSkins4 = "HERO_02arhp2";
-                public const string ThrallHeroic_TotemicCallHeroSkins = "HERO_02athp";
-                public const string ThrallHeroic_TotemicSlamHeroSkins = "HERO_02athp2";
+                public const string ThrallHeroic_TotemicCallHeroSkins1 = "HERO_02athp";
+                public const string ThrallHeroic_TotemicSlamHeroSkins1 = "HERO_02athp2";
                 public const string Thrall_TotemicCallHeroSkins5 = "HERO_02axhp";
                 public const string Thrall_TotemicSlamHeroSkins5 = "HERO_02axhp2";
                 public const string Thrall_TotemicCallHeroSkins6 = "HERO_02azhp";
                 public const string Thrall_TotemicSlamHeroSkins6 = "HERO_02azhp2";
-                public const string Thrall_TotemicCallHeroSkins7 = "HERO_02fbp";
-                public const string Thrall_TotemicSlamHeroSkins7 = "HERO_02fbp2";
-                public const string Thrall_TotemicCallHeroSkins8 = "HERO_02mbp";
-                public const string Thrall_TotemicSlamHeroSkins8 = "HERO_02mbp2";
+                public const string ThrallHeroic_TotemicCallHeroSkins2 = "HERO_02bbhp";
+                public const string ThrallHeroic_TotemicSlamHeroSkins2 = "HERO_02bbhp2";
+                public const string Thrall_TotemicCallHeroSkins7 = "HERO_02bghp";
+                public const string Thrall_TotemicSlamHeroSkins7 = "HERO_02bghp2";
+                public const string ThrallHeroic_TotemicCallHeroSkins3 = "HERO_02bhhp";
+                public const string ThrallHeroic_TotemicSlamHeroSkins3 = "HERO_02bhhp2";
+                public const string Thrall_TotemicCallHeroSkins8 = "HERO_02fbp";
+                public const string Thrall_TotemicSlamHeroSkins8 = "HERO_02fbp2";
+                public const string Thrall_TotemicCallHeroSkins9 = "HERO_02mbp";
+                public const string Thrall_TotemicSlamHeroSkins9 = "HERO_02mbp2";
                 public const string FireFestivalRagnaros = "AIBot_Event_Ragnaros_FireFestival_02m";
                 public const string Hex = "FB_Champs_EX1_246";
                 public const string FlametongueTotem = "FB_Champs_EX1_565";
@@ -648,6 +654,9 @@ namespace HearthDb
                 public const string IcecrownBrochure_BlackrockBrochureToken = "WORK_030t";
                 public const string ExarchHataaru_TheGalaxysLensToken = "GDB_136t";
                 public const string PlanetaryNavigator_PlanetaryNavigatorFutureBuffEnchantment = "GDB_444e";
+                public const string LockOn_LockedOnEnchantment = "SC_407e";
+                public const string MissilePod_MissilePodEnchantment = "SC_409e";
+                public const string SiegeTank_SiegeTankDeployedToken = "SC_413t";
             }
         }
     }

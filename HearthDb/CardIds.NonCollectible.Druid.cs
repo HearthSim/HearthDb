@@ -76,12 +76,14 @@ namespace HearthDb
                 public const string ShapeshiftHeroSkins2 = "CS2_017_HS2";
                 public const string ShapeshiftHeroSkins3 = "CS2_017_HS3";
                 public const string ShapeshiftHeroSkins4 = "CS2_017_HS4";
-                public const string MalfurionStormrageHeroic_ShapeshiftHeroSkins = "HERO_06ahbp";
-                public const string MalfurionStormrageHeroic_DireShapeshiftHeroSkins = "HERO_06ahbp2";
+                public const string MalfurionStormrageHeroic_ShapeshiftHeroSkins1 = "HERO_06ahbp";
+                public const string MalfurionStormrageHeroic_DireShapeshiftHeroSkins1 = "HERO_06ahbp2";
                 public const string MalfurionStormrage_ShapeshiftHeroSkins1 = "HERO_06aibp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkins1 = "HERO_06aibp2";
                 public const string MalfurionStormrage_ShapeshiftHeroSkins2 = "HERO_06ashp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkins2 = "HERO_06ashp2";
+                public const string MalfurionStormrageHeroic_ShapeshiftHeroSkins2 = "HERO_06bahp";
+                public const string MalfurionStormrageHeroic_DireShapeshiftHeroSkins2 = "HERO_06bahp2";
                 public const string MalfurionStormrage_ShapeshiftHeroSkinsEnchantment = "HERO_06ebp";
                 public const string MalfurionStormrage_DireShapeshiftHeroSkinsEnchantment = "HERO_06ebp2";
                 public const string MalfurionStormrage_ShapeshiftHeroSkins3 = "HERO_06fbp";
@@ -912,6 +914,9 @@ namespace HearthDb
                 public const string StarGrazer_WhaleStrikeEnchantment = "GDB_855e";
                 public const string CosmicPhenomenon_PhenomenalEnchantment = "GDB_882e";
                 public const string CosmicPhenomenon_LivingPulsarToken = "GDB_882t";
+                public const string ConstructPylons_PsionicMatrixEnchantment = "SC_755e2";
+                public const string Carrier_InterceptorToken = "SC_756t";
+                public const string Immortal_PlasmaShieldsEnchantment = "SC_763e";
             }
         }
     }

@@ -248,6 +248,9 @@ namespace HearthDb
                 public const string Thrall_OverchargedKingHeroHeroSkins = "HERO_02ay";
                 public const string Thrall_AkamaHeroHeroSkins = "HERO_02az";
                 public const string Thrall_KingRastakhanHeroHeroSkins = "HERO_02b";
+                public const string Thrall_ThorThorimHeroHeroSkins = "HERO_02bb";
+                public const string Thrall_JimRaynorHeroHeroSkins = "HERO_02bg";
+                public const string ThrallHeroic_NovaHeroHeroSkins = "HERO_02bh";
                 public const string Thrall_TheThunderKingHeroHeroSkins = "HERO_02c";
                 public const string Thrall_WarchiefThrallHeroHeroSkins = "HERO_02d";
                 public const string Thrall_LadyVashjHeroHeroSkinsEnchantment = "HERO_02e";
@@ -340,6 +343,9 @@ namespace HearthDb
                 public const string FromDeOtherSide = "RLK_911";
                 public const string ScourgeTroll = "RLK_912";
                 public const string OverlordDrakuru = "RLK_913";
+                public const string LockOn = "SC_407";
+                public const string MissilePod = "SC_409";
+                public const string SiegeTank = "SC_413";
                 public const string DiligentNotetaker = "SCH_236";
                 public const string MoltenBlast = "SCH_271";
                 public const string RuneDagger = "SCH_301";

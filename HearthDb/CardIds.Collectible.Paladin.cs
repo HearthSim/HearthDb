@@ -251,6 +251,8 @@ namespace HearthDb
                 public const string UtherLightbringer_LibramAponiHeroHeroSkins = "HERO_04ax";
                 public const string UtherLightbringer_TirionFordringHeroHeroSkins = "HERO_04ay";
                 public const string UtherLightbringer_PrinceArthasHeroHeroSkins = "HERO_04b";
+                public const string UtherLightbringer_JimRaynorHeroHeroSkins = "HERO_04bc";
+                public const string UtherLightbringer_NovaHeroHeroSkins = "HERO_04bd";
                 public const string UtherLightbringer_SirAnnoyOHeroHeroSkins = "HERO_04c";
                 public const string UtherLightbringer_LightforgedUtherHeroHeroSkins = "HERO_04d";
                 public const string UtherLightbringer_SecondWarUtherHeroHeroSkinsEnchantment = "HERO_04e";
@@ -342,6 +344,9 @@ namespace HearthDb
                 public const string FeastAndFamine = "RLK_923";
                 public const string BloodMatriarchLiadrin = "RLK_924";
                 public const string BloodCrusader = "RLK_927";
+                public const string SalvageTheBunker = "SC_404";
+                public const string UltraCapacitor = "SC_405";
+                public const string Hellion = "SC_412";
                 public const string TuralyonTheTenured = "SCH_135";
                 public const string BlessingOfAuthority = "SCH_138";
                 public const string DevoutPupil = "SCH_139";

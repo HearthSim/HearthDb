@@ -2469,7 +2469,6 @@ namespace HearthDb
                 public const string BrannBronzebeard_BrannBronzebeardMurlocDragonTokenTavernBrawl = "TB_BaconUps_045t";
                 public const string PsychOTron = "BG_OG_145";
                 public const string PsychoTron_PsychOTron = "BG_OG_145_G";
-                public const string SelflessHero = "BG_OG_221";
                 public const string SpawnOfNzothOG = "BG_OG_256";
                 public const string AmgamRager = "BG26_OG_248";
                 public const string ShadowyEnchantment = "LOOT_010e";
@@ -2521,7 +2520,6 @@ namespace HearthDb
                 public const string CyclopianHorror_EveOfDestructionEnchantment = "OG_337e";
                 public const string SkeramCultist_VassalsSubservienceEnchantment = "OG_339e";
                 public const string DivineStrength_OptimismEnchantmentOG2 = "RLK_Prologue_OG_223e";
-                public const string SelflessHeroTavernBrawl = "TB_BaconUps_014";
                 public const string SpawnOfNzothTavernBrawl = "TB_BaconUps_025";
                 public const string CellarSpider = "KAR_030";
                 public const string ArcaneAnomaly_ArcaneAnomaly = "KAR_036_Puzzle";
@@ -2995,7 +2993,6 @@ namespace HearthDb
                 public const string GluttonousTrogg = "LOOTA_109";
                 public const string GluttonousTrogg_DeliciousMagicEnchantment = "LOOTA_109e";
                 public const string PotionOfVitality = "LOOTA_800";
-                public const string PotionofVitality_PotionOfVitalityEnchantmentEnchantment = "LOOTA_800e";
                 public const string CrystalGemLOOTAPALOOZA = "LOOTA_801";
                 public const string JusticarsRing = "LOOTA_802";
                 public const string JusticarsRing_JusticarsRingEnchantmentEnchantment = "LOOTA_802e";
@@ -4364,7 +4361,6 @@ namespace HearthDb
                 public const string WasEnemyMinionMarker = "ULDA_BOSS_38p2e2";
                 public const string WasAlliedMinionMarker = "ULDA_BOSS_38p2e3";
                 public const string EarthenEnchantment = "ULDA_BOSS_39me";
-                public const string MadeOfMurlocsDamage = "ULDA_BOSS_39p1e";
                 public const string SandShapinDummy = "ULDA_BOSS_42d";
                 public const string SpoiledEnchantment = "ULDA_BOSS_43e1";
                 public const string EVILChargeEnchantment = "ULDA_BOSS_54e";
@@ -8230,7 +8226,7 @@ namespace HearthDb
                 public const string BulldogBobTavernBrawl = "TB_BaconShopBob_SKIN_AK";
                 public const string GriftahTavernBrawl = "TB_BaconShopBob_SKIN_AL";
                 public const string ArchimondeTavernBrawl = "TB_BaconShopBob_SKIN_AM";
-                public const string EpicBartenderTavernBrawl = "TB_BaconShopBob_SKIN_AN";
+                public const string ZeratulTavernBrawl = "TB_BaconShopBob_SKIN_AN";
                 public const string VenariTavernBrawl = "TB_BaconShopBob_SKIN_B";
                 public const string DragonspeakerBobTavernBrawl = "TB_BaconShopBob_SKIN_C";
                 public const string FizzyTavernBrawl = "TB_BaconShopBob_SKIN_D";
@@ -11794,7 +11790,7 @@ namespace HearthDb
                 public const string EssentialGalleyRecipesVol6 = "Story_11_Mission9a_Lorebook2";
                 public const string MeetTheMrrgltons = "Story_11_Mission9b_Lorebook1";
                 public const string ANoteOnTheCompass = "Story_11_Mission9b_Lorebook2";
-                public const string Mothership = "Story_11_Mothership";
+                public const string StormcoilMothership = "Story_11_Mothership";
                 public const string MostMotivated1 = "Story_11_Motivate3e2";
                 public const string Murgill = "Story_11_Murgill";
                 public const string MurlocMayhem = "Story_11_Murloc_009p";
@@ -11992,7 +11988,7 @@ namespace HearthDb
                 public const string Mistake_Mistake = "BG_NX2_050_G";
                 public const string FoulFowlToken1 = "BG_RLK_833t";
                 public const string FoulFowlToken2 = "BG_RLK_833t_G";
-                public const string BansheeRETURN_OF_THE_LICH_KING1 = "BG_RLK_957";
+                public const string WailingBansheeRETURN_OF_THE_LICH_KING1 = "BG_RLK_957";
                 public const string IncorporealCorporal = "BG26_RLK_117";
                 public const string IncorporealCorporal_IncorporealCorporal = "BG26_RLK_117_G";
                 public const string DrakkariEmbalmer = "BG26_RLK_119";
@@ -12025,7 +12021,7 @@ namespace HearthDb
                 public const string NerubianVizier_NerubianVisionEnchantment = "RLK_834e";
                 public const string VrykulNecrolyte_ItsNecroLitEnchantment = "RLK_867e";
                 public const string SilvermoonArmorer_SuppliedEnchantment = "RLK_955e";
-                public const string Banshee_BansheesWailEnchantment1 = "RLK_957e";
+                public const string WailingBanshee_BansheesWailEnchantment1 = "RLK_957e";
                 public const string HawkstriderRancher_HawkridingEnchantment = "RLK_970e";
                 public const string HawkstriderRancher_HawkstriderToken = "RLK_970t";
                 public const string TheCoinRETURN_OF_THE_LICH_KING1 = "RLK_COIN1";
@@ -12043,8 +12039,8 @@ namespace HearthDb
                 public const string InfectiousGhoul_InfectedEnchantment2 = "RLK_Prologue_RLK_653e";
                 public const string SilvermoonFarstrider_SilvermoonFarstriderSpellpowerEnchantment2 = "RLK_Prologue_RLK_826e";
                 public const string FleshBehemoth = "RLK_Prologue_RLK_830";
-                public const string BansheeRETURN_OF_THE_LICH_KING2 = "RLK_Prologue_RLK_957";
-                public const string Banshee_BansheesWailEnchantment2 = "RLK_Prologue_RLK_957e";
+                public const string WailingBansheeRETURN_OF_THE_LICH_KING2 = "RLK_Prologue_RLK_957";
+                public const string WailingBanshee_BansheesWailEnchantment2 = "RLK_Prologue_RLK_957e";
                 public const string StaticWaveform_FffttttttEnchantment = "ETC_089e";
                 public const string StaticWaveform_KssshhhEnchantment = "ETC_089e2";
                 public const string WorgenRoadie_InstrumentCaseToken = "ETC_098t";
@@ -12372,6 +12368,7 @@ namespace HearthDb
                 public const string KnightoftheWild_CallOfTheWildEnchantmentWONDERS = "WON_003e";
                 public const string AddledGrizzly_AddledEnchantmentWONDERS = "WON_009e";
                 public const string KlaxxiAmberWeaver_AmberCarapaceEnchantmentWONDERS = "WON_010e";
+                public const string WondersXlVigorEnchantment = "WON_01e";
                 public const string DurnholdeImposter_ShiftingEnchantment = "WON_026e";
                 public const string BlackMorassImposter_ShiftingEnchantment = "WON_039e";
                 public const string BlackMorassImposter_BlackMorassImposterEnchantment = "WON_039e2";
@@ -12502,7 +12499,6 @@ namespace HearthDb
                 public const string ArkoniteDefenseCrystal_SpaceshipAssemblyEnchantment = "GDB_100e3";
                 public const string ArkoniteDefenseCrystal_StarshipPiecesToken = "GDB_100t1";
                 public const string ArkoniteDefenseCrystal_TheExilesHopeToken = "GDB_100t2";
-                public const string ArkoniteDefenseCrystal_StarshipLaunchButtonToken = "GDB_100t3";
                 public const string DimensionalCore_DimensionalCoreEnchantment = "GDB_101e";
                 public const string EmergencyMeeting_GoingIntoBattleEnchantment = "GDB_119e";
                 public const string Doommaiden_DoomInterrogationEnchantment = "GDB_129e";
@@ -12537,6 +12533,22 @@ namespace HearthDb
                 public const string AbortLaunch = "GDB_906";
                 public const string TheCoinSPACE1 = "GDB_COIN1";
                 public const string TheCoinSPACE2 = "GDB_COIN2";
+                public const string SpawningPool_ZergRushEnchantmentToken1 = "SC_000te";
+                public const string SpawningPool_ZergRushEnchantmentToken2 = "SC_000te2";
+                public const string BroodQueen_TransformingLarvaEnchantmentToken = "SC_003te";
+                public const string NydusWorm_NydusNetworkEnchantment = "SC_015e";
+                public const string NydusWorm_NydusJawsEnchantment = "SC_015e2";
+                public const string JimRaynor_StimpackBoostEnchantment = "SC_400e";
+                public const string Starport_VikingEnchantment = "SC_403ae";
+                public const string Starport_LiberatorEnchantment = "SC_403be";
+                public const string Starport_Raven1 = "SC_403ce";
+                public const string Starport_Banshee1 = "SC_403de";
+                public const string Starport_Medivac1 = "SC_403fe";
+                public const string WaywardProbe = "SC_500";
+                public const string WarpGate_WarpConduitEnchantment = "SC_751e";
+                public const string Artanis_TwinBladesEnchantment = "SC_754e";
+                public const string ConstructPylons_PsionicPowerEnchantment = "SC_755e";
+                public const string ShieldBattery_KhalaiIngenuityEnchantment = "SC_759e";
                 public const string FreezeTheShop = "BG31_BOBt";
                 public const string RecruitAMinion = "BG31_BOBt2";
                 public const string RefreshTheTavern = "BG31_BOBt3";

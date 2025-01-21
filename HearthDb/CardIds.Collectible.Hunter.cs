@@ -245,6 +245,8 @@ namespace HearthDb
                 public const string Rexxar_BullseyeBrannHeroHeroSkins = "HERO_05ar";
                 public const string Rexxar_NathanosBlightcallerHeroHeroSkins = "HERO_05as";
                 public const string Rexxar_MechaKrushHeroHeroSkins = "HERO_05at";
+                public const string Rexxar_CupidBrannHeroHeroSkins = "HERO_05au";
+                public const string Rexxar_KerriganHeroHeroSkins = "HERO_05az";
                 public const string Rexxar_WandererRexxarHeroHeroSkins = "HERO_05b";
                 public const string Rexxar_SylvanasWindrunnerHeroHeroSkins = "HERO_05c";
                 public const string Rexxar_WarsongRexxarHeroHeroSkins = "HERO_05d";
@@ -338,6 +340,9 @@ namespace HearthDb
                 public const string SilvermoonFarstrider = "RLK_826";
                 public const string KeeneyeSpotter = "RLK_827";
                 public const string HopeOfQuelthalas = "RLK_828";
+                public const string Hydralisk = "SC_008";
+                public const string Roach = "SC_012";
+                public const string EvolutionChamber = "SC_021";
                 public const string Wolpertinger = "SCH_133";
                 public const string KroluskBarkstripper = "SCH_239";
                 public const string TeachersPet = "SCH_244";

@@ -252,6 +252,8 @@ namespace HearthDb
                 public const string GarroshHellscream_WarlordDrakaHeroHeroSkins = "HERO_01au";
                 public const string GarroshHellscream_CaptainVarianHeroHeroSkins = "HERO_01av";
                 public const string GarroshHellscream_HoggerHeroHeroSkins = "HERO_01aw";
+                public const string GarroshHellscream_JimRaynorHeroHeroSkins = "HERO_01ax";
+                public const string GarroshHellscream_NovaHeroHeroSkins = "HERO_01ay";
                 public const string GarroshHellscream_CorruptGarroshHeroHeroSkins = "HERO_01b";
                 public const string GarroshHellscream_RagnarosTheFirelordHeroHeroSkins = "HERO_01bb";
                 public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";
@@ -349,6 +351,9 @@ namespace HearthDb
                 public const string AsvedonTheGrandshield = "RLK_608";
                 public const string SunfuryChampion = "RLK_609";
                 public const string EmbersOfStrength = "RLK_960";
+                public const string YamatoCannon = "SC_406";
+                public const string ConcussiveShells = "SC_411";
+                public const string Thor = "SC_414";
                 public const string AthleticStudies = "SCH_237";
                 public const string ReapersScythe = "SCH_238";
                 public const string Playmaker = "SCH_317";

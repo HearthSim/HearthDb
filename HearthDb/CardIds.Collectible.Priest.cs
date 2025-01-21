@@ -259,7 +259,9 @@ namespace HearthDb
                 public const string AnduinWrynn_ProphetVelenHeroHeroSkins = "HERO_09at";
                 public const string AnduinWrynn_AstralTalanjiHeroHeroSkins = "HERO_09au";
                 public const string AnduinWrynn_MedicEliseHeroHeroSkins = "HERO_09av";
+                public const string AnduinWrynn_HeartbreakerWhitemaneHeroHeroSkins = "HERO_09aw";
                 public const string AnduinWrynn_MadameLazulHeroHeroSkins = "HERO_09b";
+                public const string AnduinWrynn_ArtanisHeroHeroSkins = "HERO_09ba";
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
                 public const string AnduinWrynn_AnduinOfProphecyHeroHeroSkins = "HERO_09d";
                 public const string AnduinWrynn_Si7AnduinHeroHeroSkinsEnchantment = "HERO_09e";
@@ -355,6 +357,9 @@ namespace HearthDb
                 public const string GraveDigging = "RLK_829";
                 public const string HighCultistBasaleph = "RLK_832";
                 public const string MindEater = "RLK_845";
+                public const string Hallucination = "SC_757";
+                public const string Mothership = "SC_762";
+                public const string Sentry = "SC_764";
                 public const string CabalAcolyte = "SCH_120";
                 public const string DisciplinarianGandling = "SCH_126";
                 public const string PowerWordFeast = "SCH_136";

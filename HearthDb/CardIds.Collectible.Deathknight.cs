@@ -53,6 +53,7 @@ namespace HearthDb
                 public const string TheLichKing_ArthasKingslayerHeroHeroSkins = "HERO_11a";
                 public const string TheLichKing_AstroArfusHeroHeroSkins = "HERO_11aa";
                 public const string TheLichKing_ScoutPoxiHeroHeroSkins = "HERO_11ab";
+                public const string TheLichKing_KerriganHeroHeroSkins = "HERO_11aj";
                 public const string TheLichKing_ArthasMenethilHeroHeroSkins = "HERO_11b";
                 public const string TheLichKing_DarionMograineHeroHeroSkins = "HERO_11c";
                 public const string TheLichKing_DaringDarionHeroHeroSkins = "HERO_11d";
@@ -171,6 +172,9 @@ namespace HearthDb
                 public const string RimeSculptorCorePlaceholder = "RLK_752";
                 public const string BonediggerGeistCorePlaceholder = "RLK_753";
                 public const string SkeletalSidekickCore = "RLK_958";
+                public const string BanelingBarrage = "SC_001";
+                public const string Infestor = "SC_002";
+                public const string Viper = "SC_018";
                 public const string RambunctiousStuffy = "TOY_821";
                 public const string SilkStitching = "TOY_822";
                 public const string RainbowSeamstress = "TOY_823";

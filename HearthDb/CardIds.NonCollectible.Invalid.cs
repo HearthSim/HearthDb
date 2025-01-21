@@ -5043,6 +5043,18 @@ namespace HearthDb
                 public const string Freebird_AvianFreedomEnchantment = "ETC_336e";
                 public const string GibberingReject_SharpStatueEnchantment = "MIS_911e";
                 public const string PortalmancerSkyla_PortalledEnchantment = "WORK_063e";
+                public const string BroodQueen_LarvaToken = "SC_003t";
+                public const string RavageHeroic = "SC_004hp";
+                public const string JimRaynor_Stimpack = "SC_400p";
+                public const string Starport_Viking = "SC_403a";
+                public const string Starport_Liberator = "SC_403b";
+                public const string Starport_Raven2 = "SC_403c";
+                public const string Starport_Banshee2 = "SC_403d";
+                public const string Starport_Medivac2 = "SC_403f";
+                public const string Starport_MarineToken = "SC_403t";
+                public const string WarpGate_ZealotToken = "SC_751t";
+                public const string Artanis_TwinBlades = "SC_754p";
+                public const string BattlecruiserToken = "SC_999t";
             }
         }
     }

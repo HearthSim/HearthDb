@@ -17,6 +17,15 @@ Full deck strings documentation can be found here: https://hearthsim.info/docs/d
 
 See [here](https://github.com/HearthSim/HearthDb/blob/master/HearthDb.Tests/UnitTest1.cs#L14-L25) for example usage.
 
+### Localized strings
+By default, HearthDb only loads locale data for enUS and zhCN. Additional language 
+data can be downloaded from `api.hearthstonejson.com`, e.g. `https://api.hearthstonejson.com/v1/latest/CardDefs.deDE.xml` and loaded at runtime via 
+`HearthDb.Cards.LoadLocaleData(...)`.
+
+If desired, all language data can be included by default by replacing the 
+`<BaseDataUrl>` in `HearthDb.csproj` with `https://github.
+com/HearthSim/hsdata/blob/master/CardDefs.xml`.
+
 ## CardIDs
 `HearthDb.CardIds` contains properly named constant for all cardIds existing in Hearthstone. 
 

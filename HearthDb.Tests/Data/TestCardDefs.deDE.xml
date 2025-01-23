@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CardDefs build="212197">
+    <Entity CardID="AT_001" ID="2539" version="2">
+        <Tag enumID="185" name="CARDNAME" type="LocString">
+            <deDE>Flammenlanze</deDE>
+        </Tag>
+        <Tag enumID="184" name="CARDTEXT" type="LocString">
+            <deDE>Fügt einem Diener $25 Schaden zu.</deDE>
+        </Tag>
+        <Tag enumID="351" name="FLAVORTEXT" type="LocString">
+            <deDE>Die Sommerversion der Eislanze. Gut gegen chronisch kalte Hände.</deDE>
+        </Tag>
+    </Entity>
+</CardDefs>

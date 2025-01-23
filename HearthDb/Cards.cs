@@ -15,20 +15,20 @@ namespace HearthDb
 {
 	public static class Cards
 	{
-		public static readonly Dictionary<string, Card> All = new Dictionary<string, Card>();
-		public static readonly Dictionary<int, Card> AllByDbfId = new Dictionary<int, Card>();
+		public static Dictionary<string, Card> All { get; private set; } = new Dictionary<string, Card>();
+		public static Dictionary<int, Card> AllByDbfId { get; private set; } = new Dictionary<int, Card>();
 
-		public static readonly Dictionary<string, Card> Collectible = new Dictionary<string, Card>();
-		public static readonly Dictionary<int, Card> CollectibleByDbfId = new Dictionary<int, Card>();
+		public static Dictionary<string, Card> Collectible { get; private set; } = new Dictionary<string, Card>();
+		public static Dictionary<int, Card> CollectibleByDbfId { get; private set; } = new Dictionary<int, Card>();
 
-		public static readonly Dictionary<string, Card> BaconPoolMinions = new Dictionary<string, Card>();
-		public static readonly Dictionary<int, Card> BaconPoolMinionsByDbfId = new Dictionary<int, Card>();
+		public static Dictionary<string, Card> BaconPoolMinions { get; private set; } = new Dictionary<string, Card>();
+		public static Dictionary<int, Card> BaconPoolMinionsByDbfId { get; private set; } = new Dictionary<int, Card>();
 
-		public static readonly Dictionary<string, string> NormalToTripleCardIds = new Dictionary<string, string>();
-		public static readonly Dictionary<string, string> TripleToNormalCardIds = new Dictionary<string, string>();
+		public static Dictionary<string, string> NormalToTripleCardIds { get; private set; } = new Dictionary<string, string>();
+		public static Dictionary<string, string> TripleToNormalCardIds { get; private set; } = new Dictionary<string, string>();
 
-		public static readonly Dictionary<int, int> NormalToTripleDbfIds = new Dictionary<int, int>();
-		public static readonly Dictionary<int, int> TripleToNormalDbfIds = new Dictionary<int, int>();
+		public static Dictionary<int, int> NormalToTripleDbfIds { get; private set; } = new Dictionary<int, int>();
+		public static Dictionary<int, int> TripleToNormalDbfIds { get; private set; } = new Dictionary<int, int>();
 
 		private static readonly HashSet<string> IgnoreTripleIds = new HashSet<string>
 		{
@@ -37,62 +37,201 @@ namespace HearthDb
 			CardIds.NonCollectible.Neutral.SeabreakerGoliathGILNEAS
 		};
 
+		private static readonly XmlSerializer CardDefsSerializer = new XmlSerializer(typeof(CardDefs.CardDefs));
+
+		public static string Build { get; private set; }
+
 		static Cards()
 		{
-			var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("HearthDb.CardDefs.xml");
-			if(stream == null)
-				return;
-			using(TextReader tr = new StreamReader(stream))
+			if(Config.AutoLoadCardDefs)
+				LoadBaseData();
+		}
+
+		public static CardDefs.CardDefs ParseCardDefs(Stream cardDefsData)
+		{
+			return (CardDefs.CardDefs)CardDefsSerializer.Deserialize(cardDefsData);
+		}
+
+		/// <summary>
+		/// Load base card data (non-localized card metadata, as well as
+		/// localized strings in enUS and zhCN) included with HearthDb.
+		/// </summary>
+		public static void LoadBaseData()
+		{
+			var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("HearthDb.CardDefs.base.xml");
+			if(stream != null)
+				LoadBaseData(stream);
+		}
+
+		/// <summary>
+		/// Load base card data, this should usually be a
+		/// <c>CardDefs.base.xml</c> file, that at least includes all
+		/// non-localized metadata.
+		///
+		/// This will clear any previously loaded data.
+		/// </summary>
+		public static void LoadBaseData(Stream cardDefsData) => LoadBaseData(ParseCardDefs(cardDefsData));
+
+		/// <summary>
+		/// Load base card data, this should usually be a
+		/// <c>CardDefs.base.xml</c> file, that at least includes all
+		/// non-localized metadata.
+		///
+		/// This will clear any previously loaded data.
+		/// </summary>
+		public static void LoadBaseData(CardDefs.CardDefs cardDefs)
+		{
+			// Instantiate new dictionaries here and re-assign once complete to avoid modifying collections.
+			// This may be called in a thread.
+
+			var all  = new Dictionary<string, Card>();
+			var allByDbfId  = new Dictionary<int, Card>();
+			var collectible  = new Dictionary<string, Card>();
+			var collectibleByDbfId  = new Dictionary<int, Card>();
+			var baconPoolMinions  = new Dictionary<string, Card>();
+			var baconPoolMinionsByDbfId  = new Dictionary<int, Card>();
+
+			Build = cardDefs.Build;
+
+			var baconTriples = new List<(Card, int)>();
+			var nonBaconTriples = new List<(Card, int)>();
+			foreach (var entity in cardDefs.Entites)
 			{
-				var xml = new XmlSerializer(typeof(CardDefs.CardDefs));
-				var cardDefs = (CardDefs.CardDefs)xml.Deserialize(tr);
-				var baconTriples = new List<(Card, int)>();
-				var nonBaconTriples = new List<(Card, int)>();
-				foreach(var entity in cardDefs.Entites)
+				// For some reason Deflect-o-bot is missing divine shield
+				if (IsDeflectOBot(entity) && !entity.Tags.Any(x => x.EnumId == (int)GameTag.DIVINE_SHIELD))
+					entity.Tags.Add(new Tag { EnumId = (int)GameTag.DIVINE_SHIELD, Value = 1 });
+
+				var card = new Card(entity);
+				all[entity.CardId] = card;
+				allByDbfId[entity.DbfId] = card;
+				if (card.Collectible && (card.Type != CardType.HERO || card.Set != CardSet.HERO_SKINS))
 				{
-					// For some reason Deflect-o-bot is missing divine shield
-					if (IsDeflectOBot(entity) && !entity.Tags.Any(x => x.EnumId == (int)GameTag.DIVINE_SHIELD))
-						entity.Tags.Add(new Tag { EnumId = (int)GameTag.DIVINE_SHIELD, Value = 1 });
+					collectible[entity.CardId] = card;
+					collectibleByDbfId[entity.DbfId] = card;
+				}
 
-					var card = new Card(entity);
-					All.Add(entity.CardId, card);
-					AllByDbfId.Add(entity.DbfId, card);
-					if (card.Collectible && (card.Type != CardType.HERO || card.Set != CardSet.HERO_SKINS))
-					{
-						Collectible.Add(entity.CardId, card);
-						CollectibleByDbfId.Add(entity.DbfId, card);
-					}
+				if (card.IsBaconPoolMinion)
+				{
+					baconPoolMinions[entity.CardId] = card;
+					baconPoolMinionsByDbfId[entity.DbfId] = card;
+				}
 
-					if (card.IsBaconPoolMinion)
+				if (!IgnoreTripleIds.Contains(entity.CardId))
+				{
+					var tripleDbfId = card.Entity.Tags.FirstOrDefault(x => x.EnumId == 1429);
+					if (tripleDbfId != null)
 					{
-						BaconPoolMinions.Add(entity.CardId, card);
-						BaconPoolMinionsByDbfId.Add(entity.DbfId, card);
-					}
-
-					if (!IgnoreTripleIds.Contains(entity.CardId))
-					{
-						var tripleDbfId = card.Entity.Tags.FirstOrDefault(x => x.EnumId == 1429);
-						if (tripleDbfId != null)
-						{
-							if(card.IsBaconPoolMinion)
-								baconTriples.Add((card, tripleDbfId.Value));
-							else
-								nonBaconTriples.Add((card, tripleDbfId.Value));
-						}
+						if (card.IsBaconPoolMinion)
+							baconTriples.Add((card, tripleDbfId.Value));
+						else
+							nonBaconTriples.Add((card, tripleDbfId.Value));
 					}
 				}
-				
-				// Triples have to be resolved after the first loop since we need to look up the triple card from the id
-				// Loop over non-bacon first in case both contain a mapping to the same card.
-				// We want to use the bacon one in that case.
-				foreach (var (card, tripleDbfId) in nonBaconTriples.Concat(baconTriples))
+			}
+
+			All = all;
+			AllByDbfId = allByDbfId;
+			Collectible = collectible;
+			CollectibleByDbfId = collectibleByDbfId;
+			BaconPoolMinions = baconPoolMinions;
+			BaconPoolMinionsByDbfId = baconPoolMinionsByDbfId;
+
+			var normalToTripleCardIds  = new Dictionary<string, string>();
+			var tripleToNormalCardIds  = new Dictionary<string, string>();
+			var normalToTripleDbfIds  = new Dictionary<int, int>();
+			var tripleToNormalDbfIds  = new Dictionary<int, int>();
+
+			// Triples have to be resolved after the first loop since we need to look up the triple card from the id
+			// Loop over non-bacon first in case both contain a mapping to the same card.
+			// We want to use the bacon one in that case.
+			foreach (var (card, tripleDbfId) in nonBaconTriples.Concat(baconTriples))
+			{
+				if (!AllByDbfId.TryGetValue(tripleDbfId, out var triple))
+					continue;
+				normalToTripleCardIds[card.Id] = triple.Id;
+				normalToTripleDbfIds[card.DbfId] = triple.DbfId;
+				tripleToNormalCardIds[triple.Id] = card.Id;
+				tripleToNormalDbfIds[triple.DbfId] = card.DbfId;
+			}
+
+			NormalToTripleCardIds = normalToTripleCardIds;
+			TripleToNormalCardIds = tripleToNormalCardIds;
+			NormalToTripleDbfIds = normalToTripleDbfIds;
+			TripleToNormalDbfIds = tripleToNormalDbfIds;
+
+		}
+
+		/// <summary>
+		/// Load additional locale specific card data (names, text, ...).
+		/// <c>LoadBaseData()</c> must have been previously called if
+		/// <c>Config.AutoLoadCardDefs</c> (enabled by default) was disabled.
+		/// </summary>
+		public static void LoadLocaleData(Stream cardDefsData, Locale locale) => LoadLocaleData(ParseCardDefs(cardDefsData), locale);
+
+		/// <summary>
+		/// Load additional locale specific card data (names, text, ...).
+		/// <c>LoadBaseData()</c> must have been previously called if
+		/// <c>Config.AutoLoadCardDefs</c> (enabled by default) was disabled.
+		/// </summary>
+		public static void LoadLocaleData(CardDefs.CardDefs cardDefs, Locale locale)
+		{
+			foreach (var entity in cardDefs.Entites)
+			{
+				if (!All.TryGetValue(entity.CardId, out var curr))
+					continue;
+				foreach (var tag in entity.Tags)
 				{
-					if (!AllByDbfId.TryGetValue(tripleDbfId, out var triple))
-						continue;
-					NormalToTripleCardIds[card.Id] = triple.Id;
-					NormalToTripleDbfIds[card.DbfId] = triple.DbfId;
-					TripleToNormalCardIds[triple.Id] = card.Id;
-					TripleToNormalDbfIds[triple.DbfId] = card.DbfId;
+					var currTag = curr.Entity.Tags.FirstOrDefault(x => x.EnumId == tag.EnumId);
+					if (currTag == null)
+						curr.Entity.Tags.Add(tag);
+					else
+					{
+						switch (locale)
+						{
+							case Locale.deDE:
+								currTag.LocStringDeDe = tag.LocStringDeDe;
+								break;
+							case Locale.enUS:
+								currTag.LocStringEnUs = tag.LocStringEnUs;
+								break;
+							case Locale.esES:
+								currTag.LocStringEsEs = tag.LocStringEsEs;
+								break;
+							case Locale.esMX:
+								currTag.LocStringEsMx = tag.LocStringEsMx;
+								break;
+							case Locale.frFR:
+								currTag.LocStringFrFr = tag.LocStringFrFr;
+								break;
+							case Locale.itIT:
+								currTag.LocStringItIt = tag.LocStringItIt;
+								break;
+							case Locale.jaJP:
+								currTag.LocStringJaJp = tag.LocStringJaJp;
+								break;
+							case Locale.koKR:
+								currTag.LocStringKoKr = tag.LocStringKoKr;
+								break;
+							case Locale.plPL:
+								currTag.LocStringPlPl = tag.LocStringPlPl;
+								break;
+							case Locale.ptBR:
+								currTag.LocStringPtBr = tag.LocStringPtBr;
+								break;
+							case Locale.ruRU:
+								currTag.LocStringRuRu = tag.LocStringRuRu;
+								break;
+							case Locale.zhCN:
+								currTag.LocStringZhCn = tag.LocStringZhCn;
+								break;
+							case Locale.zhTW:
+								currTag.LocStringZhTw = tag.LocStringZhTw;
+								break;
+							case Locale.thTH:
+								currTag.LocStringThTh = tag.LocStringThTh;
+								break;
+						}
+					}
 				}
 			}
 		}

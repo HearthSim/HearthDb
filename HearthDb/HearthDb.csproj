@@ -17,22 +17,27 @@
         <EmbeddedResource Remove="hsdata/**" />
         <None Remove="hsdata/**" />
 
-        <EmbeddedResource Include="hsdata/CardDefs.xml">
-            <LogicalName>$(RootNamespace).CardDefs.xml</LogicalName>
+        <EmbeddedResource Include="hsdata/CardDefs.base.xml">
+            <LogicalName>$(RootNamespace).CardDefs.base.xml</LogicalName>
         </EmbeddedResource>
     </ItemGroup>
 
-    <!-- Clone hsdata into a subdirectory of the project if it isn't there already -->
-    <Target Name="CloneHSData" Condition="!Exists('$(MSBuildProjectDirectory)/hsdata')" BeforeTargets="PreBuildEvent">
-        <Message Importance="normal" Text="Couldn't find hsdata repo." />
-        <Exec WorkingDirectory="$(MSBuildProjectDirectory)" Command="git clone --depth=1 https://github.com/HearthSim/hsdata.git hsdata" />
-    </Target>
+    <ItemGroup>
+        <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+            <_Parameter1>HearthDb.Tests</_Parameter1>
+        </AssemblyAttribute>
+    </ItemGroup>
 
-    <!-- If the hsdata repo is already there, fetch the latest. -->
-    <Target Name="UpdateHSData" Condition="Exists('$(MSBuildProjectDirectory)/hsdata')" BeforeTargets="PreBuildEvent">
-        <Message Importance="normal" Text="Fetching latest card data from hsdata repo." />
-        <Exec WorkingDirectory="$(MSBuildProjectDirectory)/hsdata" Command="git fetch" />
-        <Exec WorkingDirectory="$(MSBuildProjectDirectory)/hsdata" Command="git reset --hard origin/master" />
+  <PropertyGroup>
+    <!-- CardDefs.base.xml contains non localized tags and enUS tag -->
+    <!-- Other languages can be found under e.g. CardDefs.deDE.xml -->
+    <BaseDataUrl>https://api.hearthstonejson.com/v1/latest/CardDefs.base.xml</BaseDataUrl>
+  </PropertyGroup>
+
+    <Target Name="DownloadBaseData" BeforeTargets="PreBuildEvent">
+        <DownloadFile SourceUrl="$(BaseDataUrl)" DestinationFolder="$(MSBuildProjectDirectory)/hsdata" SkipUnchangedFiles="true">
+            <Output TaskParameter="DownloadedFile" ItemName="Content" />
+        </DownloadFile>
     </Target>
 
 </Project>

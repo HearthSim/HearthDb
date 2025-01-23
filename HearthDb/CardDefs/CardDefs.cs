@@ -12,5 +12,9 @@ namespace HearthDb.CardDefs
 	{
 		[XmlElement("Entity")]
 		public List<Entity> Entites { get; set; }
+
+
+		[XmlAttribute("build")]
+		public string Build { get; set; }
 	}
 }

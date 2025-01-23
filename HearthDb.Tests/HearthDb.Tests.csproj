@@ -17,4 +17,8 @@
     <ProjectReference Include="..\HearthDb\HearthDb.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Data/*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
 </Project>

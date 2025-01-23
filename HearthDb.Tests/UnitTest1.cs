@@ -11,7 +11,8 @@ namespace HearthDb.Tests
 		public void BasicTest()
 		{
 			Assert.AreEqual("Flame Lance", Cards.All["AT_001"].Name);
-			Assert.AreEqual("Flammenlanze", Cards.All["AT_001"].GetLocName(Locale.deDE));
+			//  non-enUS no longer included by default. CardDefsLoadTest verifies this works.
+			// Assert.AreEqual("Flammenlanze", Cards.All["AT_001"].GetLocName(Locale.deDE));
 			Assert.AreEqual("Nutthapon Petchthai", Cards.All["AT_001"].ArtistName);
 			Assert.AreEqual(CardSet.TGT, Cards.All["AT_001"].Set);
 			Assert.AreEqual(true, Cards.All["AT_001"].Collectible);
@@ -80,7 +81,7 @@ namespace HearthDb.Tests
 			Assert.IsTrue(cramSession.Text.Contains("improved by"));
 
 			var flameLance = Cards.All[CardIds.Collectible.Mage.FlameLanceTGT];
-			Assert.IsTrue(flameLance.GetLocText(Locale.frFR).Contains("$25"));
+			Assert.IsTrue(flameLance.GetLocText(Locale.enUS).Contains("$25"));
 
 			var elvenArcher = Cards.All[CardIds.Collectible.Neutral.ElvenArcherVanilla];
 			Assert.IsTrue(elvenArcher.Text.Contains("Deal 1 damage"));

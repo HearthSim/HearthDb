@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CardDefs build="212197">
+    <Entity CardID="AT_001" ID="2539" version="2">
+        <Tag enumID="185" name="CARDNAME" type="LocString">
+            <enUS>Flame Lance</enUS>
+        </Tag>
+        <Tag enumID="184" name="CARDTEXT" type="LocString">
+            <enUS>Deal $25 damage
+                to a minion.</enUS>
+        </Tag>
+        <Tag enumID="351" name="FLAVORTEXT" type="LocString">
+            <enUS>It's on the rack next to ice lance, acid lance, and English muffin lance.</enUS>
+        </Tag>
+        <Tag enumID="342" name="ARTISTNAME" type="String">Nutthapon Petchthai</Tag>
+        <Tag enumID="48" name="COST" type="Int" value="5"/>
+        <Tag enumID="183" name="CARD_SET" type="Int" value="15"/>
+        <Tag enumID="199" name="CLASS" type="Int" value="4"/>
+        <Tag enumID="202" name="CARDTYPE" type="Int" value="5"/>
+        <Tag enumID="203" name="RARITY" type="Int" value="1"/>
+        <Tag enumID="321" name="COLLECTIBLE" type="Int" value="1"/>
+        <Tag enumID="1635" name="SPELL_SCHOOL" type="Int" value="2"/>
+    </Entity>
+</CardDefs>

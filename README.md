@@ -1,6 +1,6 @@
 # HearthDb
 
-![Build & Deploy](https://github.com/HearthSim/HearthDb/workflows/Build%20&%20Deploy/badge.svg)
+[![Build & Deploy](https://github.com/HearthSim/HearthDb/actions/workflows/main.yml/badge.svg)](https://github.com/HearthSim/HearthDb/actions/workflows/main.yml)
 
 
 HearthDb is a .NET Hearthstone database.

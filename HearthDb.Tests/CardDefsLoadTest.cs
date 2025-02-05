@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using HearthDb.CardDefs;
 using HearthDb.Enums;
@@ -37,6 +38,14 @@ namespace HearthDb.Tests
             Assert.AreEqual("Nutthapon Petchthai", Cards.All["AT_001"].ArtistName);
             Assert.AreEqual("Flame Lance", Cards.All["AT_001"].GetLocName(Locale.enUS));
             Assert.AreEqual("Flammenlanze", Cards.All["AT_001"].GetLocName(Locale.deDE));
+        }
+
+        [TestMethod]
+        public void HasValidETagData()
+        {
+            var bundled = Cards.GetBundledCardDefsETag();
+            Assert.IsNotNull(bundled.ETag);
+            Assert.IsTrue(DateTime.TryParse(bundled.LastModified, out _));
         }
     }
 }

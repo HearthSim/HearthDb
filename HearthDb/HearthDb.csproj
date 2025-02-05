@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk" DefaultsTargets="DownloadBaseData">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -20,6 +20,9 @@
         <EmbeddedResource Include="hsdata/CardDefs.base.xml">
             <LogicalName>$(RootNamespace).CardDefs.base.xml</LogicalName>
         </EmbeddedResource>
+        <EmbeddedResource Include="hsdata/CardDefs.base.etag">
+            <LogicalName>$(RootNamespace).CardDefs.base.etag</LogicalName>
+        </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup>
@@ -29,15 +32,13 @@
     </ItemGroup>
 
   <PropertyGroup>
-    <!-- CardDefs.base.xml contains non localized tags and enUS tag -->
-    <!-- Other languages can be found under e.g. CardDefs.deDE.xml -->
-    <BaseDataUrl>https://api.hearthstonejson.com/v1/latest/CardDefs.base.xml</BaseDataUrl>
+    <DownloaderOutDir>$(SolutionDir)HearthDb.CardDefsDownloader/bin/Release/netcoreapp3.1/</DownloaderOutDir>
   </PropertyGroup>
 
-    <Target Name="DownloadBaseData" BeforeTargets="PreBuildEvent">
-        <DownloadFile SourceUrl="$(BaseDataUrl)" DestinationFolder="$(MSBuildProjectDirectory)/hsdata" SkipUnchangedFiles="true">
-            <Output TaskParameter="DownloadedFile" ItemName="Content" />
-        </DownloadFile>
-    </Target>
+  <Target Name="DownloadBaseData" BeforeTargets="PreBuildEvent">
+    <MSBuild Projects="$(SolutionDir)HearthDb.CardDefsDownloader/HearthDb.CardDefsDownloader.csproj" Properties="Configuration=Release"/>
+    <Exec Condition="Exists('$(DownloaderOutDir)HearthDb.CardDefsDownloader')" Command='"$(DownloaderOutDir)HearthDb.CardDefsDownloader" "$(SolutionDir)HearthDb/hsdata"'/>
+    <Exec Condition="Exists('$(DownloaderOutDir)HearthDb.CardDefsDownloader.exe')" Command='"$(DownloaderOutDir)HearthDb.CardDefsDownloader.exe" "$(SolutionDir)HearthDb/hsdata"'/>
+  </Target>
 
 </Project>

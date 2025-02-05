@@ -41,6 +41,25 @@ namespace HearthDb
 
 		public static string Build { get; private set; }
 
+		private static (string ETag, string LastModified)? _bundledCardDefsETag;
+		public static (string ETag, string LastModified) GetBundledCardDefsETag()
+		{
+			if(_bundledCardDefsETag == null)
+			{
+				using var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("HearthDb.CardDefs.base.etag")!;
+				using var reader = new StreamReader(stream);
+				var text = reader.ReadToEnd().Split('\n');
+				_bundledCardDefsETag = (text[0], text[1]);
+			}
+			return _bundledCardDefsETag.Value;
+		}
+
+		public static CardDefs.CardDefs GetBundledBaseData()
+		{
+			var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("HearthDb.CardDefs.base.xml")!;
+			return ParseCardDefs(stream);
+		}
+
 		static Cards()
 		{
 			if(Config.AutoLoadCardDefs)
@@ -54,14 +73,9 @@ namespace HearthDb
 
 		/// <summary>
 		/// Load base card data (non-localized card metadata, as well as
-		/// localized strings in enUS and zhCN) included with HearthDb.
+		/// localized strings in enUS and zhCN) bundled with HearthDb.
 		/// </summary>
-		public static void LoadBaseData()
-		{
-			var stream = Assembly.GetExecutingAssembly().GetManifestResourceStream("HearthDb.CardDefs.base.xml");
-			if(stream != null)
-				LoadBaseData(stream);
-		}
+		public static void LoadBaseData() => LoadBaseData(GetBundledBaseData());
 
 		/// <summary>
 		/// Load base card data, this should usually be a

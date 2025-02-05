@@ -22,9 +22,7 @@ By default, HearthDb only loads locale data for enUS and zhCN. Additional langua
 data can be downloaded from `api.hearthstonejson.com`, e.g. `https://api.hearthstonejson.com/v1/latest/CardDefs.deDE.xml` and loaded at runtime via 
 `HearthDb.Cards.LoadLocaleData(...)`.
 
-If desired, all language data can be included by default by replacing the 
-`<BaseDataUrl>` in `HearthDb.csproj` with `https://github.
-com/HearthSim/hsdata/blob/master/CardDefs.xml`.
+If desired, all language data can be included by default by replacing the url in `HearthDb.CardDefsDownloader` with `https://github.com/HearthSim/hsdata/blob/master/CardDefs.xml`.
 
 ## CardIDs
 `HearthDb.CardIds` contains properly named constant for all cardIds existing in Hearthstone. 

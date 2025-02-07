@@ -25,7 +25,7 @@ namespace HearthDb.CardDefsDownloader
 
 			var etag = response.Headers.ETag.Tag;
 			var lastModified = response.Content.Headers.LastModified;
-			File.WriteAllText(Path.Combine(outdir, "CardDefs.base.etag"), $"{etag}\n{lastModified.ToString()}");
+			File.WriteAllText(Path.Combine(outdir, "CardDefs.base.etag"), $"{etag}\n{lastModified.Value:yyyy-MM-dd hh:mm:ss tt zzzz}");
         }
     }
 }

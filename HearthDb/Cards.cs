@@ -29,6 +29,9 @@ namespace HearthDb
 
 		public static Dictionary<int, int> NormalToTripleDbfIds { get; private set; } = new Dictionary<int, int>();
 		public static Dictionary<int, int> TripleToNormalDbfIds { get; private set; } = new Dictionary<int, int>();
+		
+		public static Dictionary<string, int> CardIdToDbfId { get; private set; } = new Dictionary<string, int>();
+		public static Dictionary<int, string> DbfIdToCardId { get; private set; } = new Dictionary<int, string>();
 
 		private static readonly HashSet<string> IgnoreTripleIds = new HashSet<string>
 		{
@@ -104,6 +107,8 @@ namespace HearthDb
 			var collectibleByDbfId  = new Dictionary<int, Card>();
 			var baconPoolMinions  = new Dictionary<string, Card>();
 			var baconPoolMinionsByDbfId  = new Dictionary<int, Card>();
+			var cardIdToDbfId  = new Dictionary<string, int>();
+			var dbfIdToCardId = new Dictionary<int, string>();
 
 			Build = cardDefs.Build;
 
@@ -118,6 +123,8 @@ namespace HearthDb
 				var card = new Card(entity);
 				all[entity.CardId] = card;
 				allByDbfId[entity.DbfId] = card;
+				cardIdToDbfId[entity.CardId] = entity.DbfId;
+				dbfIdToCardId[entity.DbfId] = entity.CardId;
 				if (card.Collectible && (card.Type != CardType.HERO || card.Set != CardSet.HERO_SKINS))
 				{
 					collectible[entity.CardId] = card;
@@ -149,6 +156,8 @@ namespace HearthDb
 			CollectibleByDbfId = collectibleByDbfId;
 			BaconPoolMinions = baconPoolMinions;
 			BaconPoolMinionsByDbfId = baconPoolMinionsByDbfId;
+			CardIdToDbfId = cardIdToDbfId;
+			DbfIdToCardId = dbfIdToCardId;
 
 			var normalToTripleCardIds  = new Dictionary<string, string>();
 			var tripleToNormalCardIds  = new Dictionary<string, string>();

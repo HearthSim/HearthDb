@@ -293,6 +293,8 @@ namespace HearthDb
                 public const string StormwindChampionCore = "CORE_CS2_222";
                 public const string SunreaverSpyCorePlaceholder = "CORE_DAL_086";
                 public const string EvasiveWyrmCore = "CORE_DRG_079";
+                public const string DragonqueenAlexstraszaCorePlaceholder = "CORE_DRG_089";
+                public const string RaptorHerald = "CORE_EDR_004";
                 public const string TheBlackKnightCorePlaceholder = "CORE_EX1_002";
                 public const string YoungPriestessCorePlaceholder = "CORE_EX1_004";
                 public const string BigGameHunterCore = "CORE_EX1_005";
@@ -468,6 +470,7 @@ namespace HearthDb
                 public const string WarsongGruntCore = "CORE_TOY_103";
                 public const string ViciousSlitherspearCore = "CORE_TSC_827";
                 public const string FlesheatingGhoulCorePlaceholder = "CORE_tt_004";
+                public const string ZephrysTheGreatCorePlaceholder = "CORE_ULD_003";
                 public const string SiamatCore = "CORE_ULD_178";
                 public const string BeamingSidekickCore = "CORE_ULD_191";
                 public const string VulperaScoundrelCore = "CORE_ULD_209";
@@ -671,6 +674,8 @@ namespace HearthDb
                 public const string Sathrovarr = "DRG_402";
                 public const string BlowtorchSaboteur = "DRG_403";
                 public const string DarkscaleHealerLegacy = "DS1_055";
+                public const string YseraEmeraldAspect = "EDR_000";
+                public const string CreatureOfMadness = "EDR_105";
                 public const string ETCBandManager = "ETC_080";
                 public const string AmplifiedElekk = "ETC_086";
                 public const string AudioAmplifier = "ETC_087";

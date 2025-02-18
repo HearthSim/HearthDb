@@ -123,6 +123,7 @@ namespace HearthDb
                 public const string HeadhuntersHatchetCorePlaceholder = "CORE_TRL_111";
                 public const string MastersCallCore = "CORE_TRL_339";
                 public const string SpringpawCorePlaceholder = "CORE_TRL_348";
+                public const string DinotamerBrann_DinotamerBrannCorePlaceholderToken = "CORE_ULD_156t";
                 public const string JeweledMacawCore = "CORE_UNG_912";
                 public const string HuntersMarkLegacy = "CS2_084";
                 public const string StarvingBuzzardLegacy = "CS2_237";

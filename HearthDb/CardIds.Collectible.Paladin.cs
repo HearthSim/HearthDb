@@ -118,6 +118,7 @@ namespace HearthDb
                 public const string ElitistSnobCorePlaceholder = "CORE_REV_961";
                 public const string GreatHallCorePlaceholder = "CORE_REV_983";
                 public const string FlashOfLightCore = "CORE_TRL_307";
+                public const string SirFinleyoftheSands_SirFinleyOfTheSandsCorePlaceholderToken = "CORE_ULD_500t";
                 public const string SpikeridgedSteedCore = "CORE_UNG_952";
                 public const string BlessingOfMightLegacy = "CS2_087";
                 public const string GuardianOfKingsLegacy = "CS2_088";

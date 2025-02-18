@@ -8,7 +8,7 @@ namespace HearthDb
             public class Invalid
             {
                 public const string SpawningPool = "SC_000";
-                public const string BroodQueen = "SC_003";
+                public const string HiveQueen = "SC_003";
                 public const string KerriganQueenOfBlades = "SC_004";
                 public const string Zergling = "SC_010";
                 public const string NydusWorm = "SC_015";

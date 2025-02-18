@@ -248,7 +248,9 @@ namespace HearthDb
                 public const string Thrall_OverchargedKingHeroHeroSkins = "HERO_02ay";
                 public const string Thrall_AkamaHeroHeroSkins = "HERO_02az";
                 public const string Thrall_KingRastakhanHeroHeroSkins = "HERO_02b";
+                public const string Thrall_OrgrimmarThrallHeroHeroSkins = "HERO_02ba";
                 public const string Thrall_ThorThorimHeroHeroSkins = "HERO_02bb";
+                public const string Thrall_SpectralNerzhulHeroHeroSkins = "HERO_02bc";
                 public const string Thrall_JimRaynorHeroHeroSkins = "HERO_02bg";
                 public const string ThrallHeroic_NovaHeroHeroSkins = "HERO_02bh";
                 public const string Thrall_TheThunderKingHeroHeroSkins = "HERO_02c";

@@ -254,6 +254,7 @@ namespace HearthDb
                 public const string GarroshHellscream_HoggerHeroHeroSkins = "HERO_01aw";
                 public const string GarroshHellscream_JimRaynorHeroHeroSkins = "HERO_01ax";
                 public const string GarroshHellscream_NovaHeroHeroSkins = "HERO_01ay";
+                public const string GarroshHellscream_GennGreymaneHeroHeroSkins = "HERO_01az";
                 public const string GarroshHellscream_CorruptGarroshHeroHeroSkins = "HERO_01b";
                 public const string GarroshHellscream_RagnarosTheFirelordHeroHeroSkins = "HERO_01bb";
                 public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";

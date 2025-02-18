@@ -127,6 +127,7 @@ namespace HearthDb
                 public const string BestInShellCorePlaceholder = "CORE_SW_429";
                 public const string ParkPantherCore = "CORE_SW_431";
                 public const string PounceCorePlaceholder = "CORE_TRL_243";
+                public const string EliseTheEnlightenedCorePlaceholder = "CORE_ULD_139";
                 public const string EarthenScalesCorePlaceholder = "CORE_UNG_108";
                 public const string ClawLegacy = "CS2_005";
                 public const string HealingTouchLegacy = "CS2_007";
@@ -251,7 +252,9 @@ namespace HearthDb
                 public const string MalfurionStormrage_OrgrimmarFaelinHeroHeroSkins = "HERO_06ar";
                 public const string MalfurionStormrage_LeyaraHeroHeroSkins = "HERO_06as";
                 public const string MalfurionStormrage_CarnivalCthunHeroHeroSkins = "HERO_06at";
+                public const string MalfurionStormrage_EternalMalfurionHeroHeroSkins = "HERO_06au";
                 public const string MalfurionStormrage_HolidayHazelbarkHeroHeroSkins = "HERO_06av";
+                public const string MalfurionStormrage_YseraHeroHeroSkins = "HERO_06aw";
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
                 public const string MalfurionStormrage_ArtanisHeroHeroSkins = "HERO_06ba";
                 public const string MalfurionStormrage_YellowbrowFaelinHeroHeroSkins = "HERO_06bb";

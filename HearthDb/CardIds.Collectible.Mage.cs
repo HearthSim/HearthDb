@@ -115,6 +115,7 @@ namespace HearthDb
                 public const string DeathborneCorePlaceholder = "CORE_REV_840";
                 public const string FireSaleCorePlaceholder = "CORE_SW_107";
                 public const string PyromaniacCorePlaceholder = "CORE_TRL_315";
+                public const string RenoTheRelicologistCorePlaceholder = "CORE_ULD_238";
                 public const string FlameGeyserCore = "CORE_UNG_018";
                 public const string ArcanologistCore = "CORE_UNG_020";
                 public const string PrimordialGlyphCore = "CORE_UNG_941";
@@ -253,6 +254,7 @@ namespace HearthDb
                 public const string JainaProudmoore_DalaranKelthuzadHeroHeroSkins = "HERO_08bb";
                 public const string JainaProudmoore_MalygosHeroHeroSkins = "HERO_08bc";
                 public const string JainaProudmoore_NavigatorAFKayHeroHeroSkins = "HERO_08bd";
+                public const string JainaProudmoore_HearthglenJainaHeroHeroSkinsEnchantment = "HERO_08be";
                 public const string JainaProudmoore_JacksonFrostHeroHeroSkins = "HERO_08bf";
                 public const string JainaProudmoore_ArtanisHeroHeroSkins = "HERO_08bg";
                 public const string JainaProudmoore_FireMageJainaHeroHeroSkins = "HERO_08c";

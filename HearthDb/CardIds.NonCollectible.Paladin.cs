@@ -568,6 +568,7 @@ namespace HearthDb
                 public const string UtherLightbringer_ReinforceLegacy = "HERO_04bp";
                 public const string UtherLightbringer_TheSilverHandLegacy = "HERO_04bp2";
                 public const string PursuitOfJusticeLegacy = "RLK_Prologue_CS3_029";
+                public const string SirFinleyOfTheSandsCore = "CORE_ULD_500";
                 public const string PursuitofJustice_PursuitOfJusticeCoreEnchantmentCORE1 = "CS3_029e";
                 public const string PursuitofJustice_PursuitOfJusticeCoreEnchantmentCORE2 = "CS3_029e2";
                 public const string PursuitofJustice_PursuitOfJusticeCoreEnchantmentCORE3 = "RLK_Prologue_CS3_029e";

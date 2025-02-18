@@ -582,6 +582,7 @@ namespace HearthDb
                 public const string LeokkLegacy = "NEW1_033";
                 public const string Leokk_EyeInTheSkyLegacyEnchantment = "NEW1_033o";
                 public const string HufferLegacy = "NEW1_034";
+                public const string DinotamerBrannCore = "CORE_ULD_156";
                 public const string SnakeTrap_SnakeVanillaToken = "VAN_EX1_554t";
                 public const string SteadyShotVanilla = "VAN_HERO_05bp";
                 public const string BallistaShotVanilla = "VAN_HERO_05bp2";
@@ -728,6 +729,16 @@ namespace HearthDb
                 public const string Roach_AdaptivePlatingEnchantment = "SC_012e";
                 public const string EvolutionChamber_PerfectEvolutionEnchantment = "SC_021e";
                 public const string EvolutionChamber_PrimalEvolutionEnchantment = "SC_021e2";
+                public const string WellRestedToken2 = "EDR_100t1e";
+                public const string ShortClawsToken2 = "EDR_100t2e";
+                public const string BundledUpToken2 = "EDR_100t3e";
+                public const string InnerDemonsToken2 = "EDR_100t4e";
+                public const string LivingNightmareToken3 = "EDR_100t5e";
+                public const string SneakySleepwalkingToken = "EDR_100t6e";
+                public const string RudeAwakeningToken2 = "EDR_100t7e";
+                public const string SweetDreamsToken2 = "EDR_100t8e1";
+                public const string PersistingHorrorToken2 = "EDR_100t9e";
+                public const string WakingTerrorEnchantmentToken = "EDR_100te";
             }
         }
     }

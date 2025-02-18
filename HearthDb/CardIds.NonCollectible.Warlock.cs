@@ -736,7 +736,7 @@ namespace HearthDb
                 public const string BadOmen_FelborneOverfiendToken = "GDB_124t2";
                 public const string KaratheDarkStar_ConsumingVoidEnchantment = "GDB_127e2b";
                 public const string KaratheDarkStar_VoidConsumedEnchantment = "GDB_127eb";
-                public const string Ultralisk = "SC_006";
+                public const string UltraliskSPACE5 = "SC_006";
                 public const string Consume_ConsumedEnchantment = "SC_020e";
             }
         }

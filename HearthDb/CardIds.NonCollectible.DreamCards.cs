@@ -7,16 +7,70 @@ namespace HearthDb
         {
             public class DreamCards
             {
+                /// <summary>
+                /// Elusive<br/>
+                /// 2-Cost 3/5 Minion
+                /// </summary>
                 public const string LaughingSister = "DREAM_01";
+
+                /// <summary>
+                /// Deal $5 damage to all characters except Ysera.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string YseraAwakens = "DREAM_02";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 4-Cost 7/6 Dragon Minion
+                /// </summary>
                 public const string EmeraldDrake = "DREAM_03";
+
+                /// <summary>
+                /// Return a minion to its owner's hand.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Dream = "DREAM_04";
+
+                /// <summary>
+                /// Give a minion +5/+5. At the start of your next turn, destroy it.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string NightmareExpert1 = "DREAM_05";
+
+                /// <summary>
+                /// Deathrattle: Draw a card.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RepurposedEnchantmentTavernBrawl = "TB_MP_02e";
+
+                /// <summary>
+                /// Elusive<br/>
+                /// 2-Cost 3/5 Minion
+                /// </summary>
                 public const string LaughingSisterVanilla = "VAN_DREAM_01";
+
+                /// <summary>
+                /// Deal $5 damage to all characters except Ysera.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string YseraAwakensVanilla = "VAN_DREAM_02";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 4-Cost 7/6 Dragon Minion
+                /// </summary>
                 public const string EmeraldDrakeVanilla = "VAN_DREAM_03";
+
+                /// <summary>
+                /// Return a minion to its owner's hand.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DreamVanilla = "VAN_DREAM_04";
+
+                /// <summary>
+                /// Give a minion +5/+5. At the start of your next turn, destroy it.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string NightmareVanilla = "VAN_DREAM_05";
             }
         }

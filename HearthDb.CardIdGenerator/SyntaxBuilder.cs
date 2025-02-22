@@ -6,7 +6,9 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 using HearthDb.Enums;
+using Microsoft.CodeAnalysis;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using static HearthDb.Enums.CardType;
 using static Microsoft.CodeAnalysis.CSharp.SyntaxFactory;
 using static Microsoft.CodeAnalysis.CSharp.SyntaxKind;
 
@@ -44,7 +46,7 @@ namespace HearthDb.CardIdGenerator
 						name = Regex.Replace(name, @"[^\w\d]", "");
 						name = ResolveNameFromId(card, name);
 						name = ResolveNamingConflict(name, card, newNamingConflicts, className, conflicts);
-						cCard = cCard.AddMembers(GenerateConst(name, card.Id));
+						cCard = cCard.AddMembers(GenerateConst(name, card.Id).WithLeadingTrivia(GetCardDescription(card)));
 						anyCards = true;
 					}
 					if(anyCards)
@@ -180,7 +182,7 @@ namespace HearthDb.CardIdGenerator
 							name += "Hero";
 						name = ResolveNameFromId(card, name);
 						name = ResolveNamingConflict(name, card, newNamingConflicts, className, conflicts);
-						cCard = cCard.AddMembers(GenerateConst(name, card.Id));
+						cCard = cCard.AddMembers(GenerateConst(name, card.Id).WithLeadingTrivia(GetCardDescription(card)));
 						anyCards = true;
 					}
 					if (anyCards)
@@ -208,6 +210,93 @@ namespace HearthDb.CardIdGenerator
 				FieldDeclaration(VariableDeclaration(ParseTypeName("string"), declaration))
 					.AddModifiers(Token(PublicKeyword))
 					.AddModifiers(Token(ConstKeyword));
+		}
+
+		private static SyntaxTriviaList GetCardDescription(Card card)
+		{
+			var lines = new List<string> { GetText(card), GetInfo(card) };
+
+			if (Cards.NormalToTripleCardIds.TryGetValue(card.Id, out var tripleId))
+			{
+				lines.Insert(0, "Normal (this):");
+				var triple = Cards.All[tripleId];
+				lines.Add("--------------------");
+				lines.Add("Triple:");
+				lines.Add(GetText(triple));
+				lines.Add(GetInfo(triple));
+			}
+			else if (Cards.TripleToNormalCardIds.TryGetValue(card.Id, out var normalId))
+			{
+				lines.Insert(0, "Triple (this):");
+				var normal = Cards.All[normalId];
+				lines.Add("--------------------");
+				lines.Add("Normal:");
+				lines.Add(GetText(normal));
+				lines.Add(GetInfo(normal));
+			}
+
+			var summary = string.Join("<br/>\n/// ", lines);
+			return ParseLeadingTrivia($"/// <summary>\n/// {summary}\n/// </summary>\n");
+
+			string PrettyEnum(object value) => string.Join("", value.ToString().Split("_").Select(TitleCase));
+			string TitleCase(string value) => CultureInfo.InvariantCulture.TextInfo.ToTitleCase(value.ToLower());
+
+			bool HasCost(Card c)
+			{
+				if(c.Entity.GetTag(GameTag.HIDE_COST) > 0)
+					return false;
+				return c.Type switch
+				{
+					INVALID => false,
+					GAME => false,
+					PLAYER => false,
+					ENCHANTMENT => false,
+					ITEM => false,
+					BLANK => false,
+					GAME_MODE_BUTTON => false,
+					MOVE_MINION_HOVER_TARGET => false,
+					BATTLEGROUND_QUEST_REWARD => false,
+					BATTLEGROUND_ANOMALY => false,
+					BATTLEGROUND_CLICKABLE_BUTTON => false,
+					_ => true,
+				};
+			}
+
+			string GetText(Card c)
+			{
+				if(c.Text == null)
+					return "(No Text)";
+				var text = c.Text.Replace("\n", " ").Replace("[x]", "").Replace(" ", " ").Replace("&", "&amp;");
+				text = Regex.Replace(text, @"</?[iIbB]/?>", "");
+				return Regex.Replace(text, @"\s+", " ").Trim();
+			}
+
+			string GetInfo(Card c)
+			{
+				var info = new List<string>();
+
+				if (c.TechLevel > 0)
+					info.Add($"Tier-{c.TechLevel}");
+
+				if (!(c.Type == MINION && c.TechLevel > 0) && HasCost(c))
+					info.Add($"{c.Cost}-Cost");
+
+				if (c.Type == MINION)
+					info.Add($"{c.Attack}/{c.Health}");
+
+				if (c.Race != Race.INVALID)
+				{
+					var raceStr = $"{PrettyEnum(c.Race)}";
+					if (c.SecondaryRace != Race.INVALID)
+						raceStr += $"/{PrettyEnum(c.SecondaryRace)}";
+					info.Add(raceStr);
+				}
+
+				if (c.Type != INVALID)
+					info.Add(PrettyEnum(c.Type));
+				
+				return string.Join(" ", info);
+			}
 		}
 	}
 }

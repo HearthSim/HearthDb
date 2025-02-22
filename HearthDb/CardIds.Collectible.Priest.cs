@@ -7,513 +7,3057 @@ namespace HearthDb
         {
             public class Priest
             {
+                /// <summary>
+                /// Overheal: Gain +2 Attack.<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
                 public const string HolyChampion = "AT_011";
+
+                /// <summary>
+                /// Battlecry and Inspire: Deal 4 damage to each hero.<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string SpawnOfShadowsTGT = "AT_012";
+
+                /// <summary>
+                /// Choose a minion. Whenever it attacks, restore 4 Health to your hero.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PowerWordGlory = "AT_013";
+
+                /// <summary>
+                /// Whenever you draw a card, reduce its Cost by (1).<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string ShadowfiendTGT = "AT_014";
+
+                /// <summary>
+                /// Put a copy of an enemy minion into your hand. It costs (1).<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ConvertTGT = "AT_015";
+
+                /// <summary>
+                /// Swap the Attack and Health of all minions.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Confuse = "AT_016";
+
+                /// <summary>
+                /// Battlecry and Inspire: Summon a random Legendary minion.<br/>
+                /// 7-Cost 5/4 Minion
+                /// </summary>
                 public const string ConfessorPaletressTGT = "AT_018";
+
+                /// <summary>
+                /// Restore #5 Health.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string FlashHeal = "AT_055";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Dragon, gain +1 Attack and Taunt.<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
                 public const string WyrmrestAgent = "AT_116";
+
+                /// <summary>
+                /// Battlecry: Trigger the Deathrattle of every friendly minion that died this game.<br/>
+                /// 8-Cost Hero
+                /// </summary>
                 public const string XyrellaTheDevout = "AV_207";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. Honorable Kill: Summon a new 3/3 copy of it.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Deliverance = "AV_315";
+
+                /// <summary>
+                /// Choose a minion. It steals 1 Health from ALL other minions.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ShadowWordDevour = "AV_324";
+
+                /// <summary>
+                /// Taunt Deathrattle: Deal damage equal to this minion's Attack to all enemy minions.<br/>
+                /// 6-Cost 3/7 Undead Minion
+                /// </summary>
                 public const string UndyingDisciple = "AV_325";
+
+                /// <summary>
+                /// After a friendly minion is healed, give it +2 Attack.<br/>
+                /// 2-Cost 1/4 Elemental Minion
+                /// </summary>
                 public const string LuminousGeode = "AV_326";
+
+                /// <summary>
+                /// Taunt Deathrattle: Draw a Holy spell and a Shadow spell.<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string SpiritGuide = "AV_328";
+
+                /// <summary>
+                /// Give a minion +2 Health, then set its Attack to be equal to its Health.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Bless = "AV_329";
+
+                /// <summary>
+                /// Restore #3 Health to all characters. If any are still damaged, draw a card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string GiftOfTheNaaru = "AV_330";
+
+                /// <summary>
+                /// Battlecry: Take control of an enemy minion. Deathrattle: Give the minion back.<br/>
+                /// 4-Cost 1/4 Minion
+                /// </summary>
                 public const string NajakHexxen = "AV_331";
+
+                /// <summary>
+                /// At the end of your turn, give your minions +2 Health. Lasts 3 turns.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string StormpikeAidStation = "AV_664";
+
+                /// <summary>
+                /// Battlecry: For each spell in your hand, deal 1 damage to a random enemy minion.<br/>
+                /// 4-Cost 3/4 Undead Minion
+                /// </summary>
                 public const string VoidFlayer = "BAR_307";
+
+                /// <summary>
+                /// Give a minion +3/+5. Costs (1) less for each spell in your hand.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string PowerWordFortitude = "BAR_308";
+
+                /// <summary>
+                /// Restore #5 Health to each hero.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DesperatePrayer = "BAR_309";
+
+                /// <summary>
+                /// Taunt Deathrattle: Restore #8 Health to all friendly characters.<br/>
+                /// 6-Cost 6/6 Elemental Minion
+                /// </summary>
                 public const string LightshowerElemental = "BAR_310";
+
+                /// <summary>
+                /// Lifesteal. Deal $4 damage randomly split among all enemy minions.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string DevouringPlague = "BAR_311";
+
+                /// <summary>
+                /// At the start of your turn, copy a spell from your opponent's deck to your hand.<br/>
+                /// 2-Cost 1/3 Minion
+                /// </summary>
                 public const string SoothsayersCaravan = "BAR_312";
+
+                /// <summary>
+                /// Taunt. Battlecry: If you've restored Health this turn, gain +3/+3.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string PriestOfAnshe = "BAR_313";
+
+                /// <summary>
+                /// Deal $1 damage to all enemy minions. (Upgrades when you have 5 Mana.)<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string CondemnRank1 = "BAR_314";
+
+                /// <summary>
+                /// Battlecry: Choose an enemy minion. Steal Attack and Health from it until this has more.<br/>
+                /// 2-Cost 1/1 Minion
+                /// </summary>
                 public const string SerenaBloodfeather = "BAR_315";
+
+                /// <summary>
+                /// Battlecry: If you've restored Health this turn, deal that much damage to all enemy minions.<br/>
+                /// 4-Cost 4/4 Draenei Minion
+                /// </summary>
                 public const string Xyrella = "BAR_735";
+
+                /// <summary>
+                /// Battlecry: If you have 10 Mana Crystals, restore #10 Health to your hero.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string OmegaMedic = "BOT_216";
+
+                /// <summary>
+                /// Give a minion +2/+2. Add 'More Arms!' to your hand that gives +2/+2.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ExtraArms = "BOT_219";
+
+                /// <summary>
+                /// Deathrattle: If you've cast any spells on this minion, resummon it.<br/>
+                /// 6-Cost 5/5 Minion
+                /// </summary>
                 public const string ZerekMasterCloner = "BOT_258";
+
+                /// <summary>
+                /// Discover a copy of a minion in your opponent's deck.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string CloningDevice = "BOT_435";
+
+                /// <summary>
+                /// Deathrattle: Draw a Deathrattle minion from your deck.<br/>
+                /// 2-Cost 2/1 Mechanical/Undead Minion
+                /// </summary>
                 public const string DeadRinger = "BOT_509";
+
+                /// <summary>
+                /// Swap a minion's Attack and Health.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string TopsyTurvy = "BOT_517";
+
+                /// <summary>
+                /// Choose a friendly minion. Summon a 5/5 copy of it.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string PowerWordReplicate = "BOT_529";
+
+                /// <summary>
+                /// Deathrattle: Shuffle any spells you cast on this minion into your deck.<br/>
+                /// 1-Cost 0/2 Minion
+                /// </summary>
                 public const string TestSubject = "BOT_558";
+
+                /// <summary>
+                /// Deathrattle minions you play cost (3) less, but die at the end of the turn.<br/>
+                /// 5-Cost 4/6 Undead Minion
+                /// </summary>
                 public const string RecklessExperimenter = "BOT_566";
+
+                /// <summary>
+                /// Summon a 1/1 copy of each minion in your deck.<br/>
+                /// 9-Cost Spell
+                /// </summary>
                 public const string ZereksCloningGallery = "BOT_567";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Dragon, gain +2 Health.<br/>
+                /// 1-Cost 2/1 Dragon Minion
+                /// </summary>
                 public const string TwilightWhelp = "BRM_004";
+
+                /// <summary>
+                /// Summon a random friendly minion that died this game.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Resurrect = "BRM_017";
+
+                /// <summary>
+                /// Lifesteal Deathrattle: Shuffle 'Reliquary Prime' into your deck.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
                 public const string ReliquaryOfSouls = "BT_197";
+
+                /// <summary>
+                /// Summon copies of enemy minions. They attack their copies.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string SoulMirror = "BT_198";
+
+                /// <summary>
+                /// Restore #3 Health. Discover a spell.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Renew = "BT_252";
+
+                /// <summary>
+                /// Give a minion +1/+2. Summon a copy of it.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string PsycheSplit = "BT_253";
+
+                /// <summary>
+                /// After you cast a spell on a minion, add a Priest spell to your hand.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string SethekkVeilweaver = "BT_254";
+
+                /// <summary>
+                /// At the end of your turn, give another friendly minion +2/+2.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string DragonmawOverseer = "BT_256";
+
+                /// <summary>
+                /// Give a minion +2/+3 and Lifesteal.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Apotheosis = "BT_257";
+
+                /// <summary>
+                /// Dormant for 2 turns. Taunt<br/>
+                /// 1-Cost 2/5 Demon Minion
+                /// </summary>
                 public const string ImprisonedHomunculus = "BT_258";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Dragon, gain +1 Attack and Lifesteal.<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
                 public const string DragonmawSentinel = "BT_262";
+
+                /// <summary>
+                /// Taunt At the end of your turn, add a Dragon to your hand.<br/>
+                /// 7-Cost 4/9 Dragon/Undead Minion
+                /// </summary>
                 public const string SkeletalDragon = "BT_341";
+
+                /// <summary>
+                /// Battlecry: If your deck has no duplicates, your Hero Power costs (0) this game.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string RazaTheChained = "CFM_020";
+
+                /// <summary>
+                /// Gain control of an enemy minion with 2 or less Attack until end of turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PotionOfMadness = "CFM_603";
+
+                /// <summary>
+                /// Restore #12 Health to a friendly character.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string GreaterHealingPotion = "CFM_604";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Dragon, Discover a copy of a card in your opponent's deck.<br/>
+                /// 4-Cost 4/5 Dragon Minion
+                /// </summary>
                 public const string DrakonidOperative = "CFM_605";
+
+                /// <summary>
+                /// Overheal: Summon a 2/2 Crystal.<br/>
+                /// 2-Cost 2/3 Elemental Minion
+                /// </summary>
                 public const string ManaGeode = "CFM_606";
+
+                /// <summary>
+                /// Battlecry: Give a friendly minion +3 Health.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string KabalTalonpriest = "CFM_626";
+
+                /// <summary>
+                /// Battlecry: Silence a minion.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string KabalSongstealer = "CFM_657";
+
+                /// <summary>
+                /// Give all enemy minions -3 Attack this turn only.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PintSizePotion = "CFM_661";
+
+                /// <summary>
+                /// Deal $5 damage to all minions except Dragons.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string DragonfirePotion = "CFM_662";
+
+                /// <summary>
+                /// Overheal: Gain +2 Attack.<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
                 public const string HolyChampionCorePlaceholder = "CORE_AT_011";
+
+                /// <summary>
+                /// Restore #5 Health.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string FlashHealCore = "CORE_AT_055";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Dragon, Discover a copy of a card in your opponent's deck.<br/>
+                /// 4-Cost 4/5 Dragon Minion
+                /// </summary>
                 public const string DrakonidOperativeCorePlaceholder = "CORE_CFM_605";
+
+                /// <summary>
+                /// Overheal: Summon a 2/2 Crystal.<br/>
+                /// 2-Cost 2/3 Elemental Minion
+                /// </summary>
                 public const string ManaGeodeCore = "CORE_CFM_606";
+
+                /// <summary>
+                /// Deal $2 damage to all enemy minions. Restore #2 Health to all friendly characters.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string HolyNovaCore = "CORE_CS1_112";
+
+                /// <summary>
+                /// Deal $3 damage to a minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string HolySmiteCore = "CORE_CS1_130";
+
+                /// <summary>
+                /// Destroy a minion with 3 or less Attack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShadowWordPainCore = "CORE_CS2_234";
+
+                /// <summary>
+                /// Whenever a minion is healed, draw a card.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
                 public const string NorthshireClericCorePlaceholder = "CORE_CS2_235";
+
+                /// <summary>
+                /// Overheal: Draw a card.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
                 public const string CrimsonClergyCore = "CORE_CS3_014";
+
+                /// <summary>
+                /// Silence a minion, then give it +3 Health.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string FocusedWillCorePlaceholder = "CORE_CS3_027";
+
+                /// <summary>
+                /// At the end of your turn, resurrect another friendly Undead minion.<br/>
+                /// 7-Cost 6/8 Undead Minion
+                /// </summary>
                 public const string CatrinaMuerteCore = "CORE_DAL_721";
+
+                /// <summary>
+                /// Battlecry: Discover a copy of a card in your opponent's hand.<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
                 public const string MadameLazulCore = "CORE_DAL_729";
+
+                /// <summary>
+                /// Battlecry: Play all cards your opponent played last turn.<br/>
+                /// 8-Cost 8/8 Dragon Minion
+                /// </summary>
                 public const string MurozondTheInfiniteCorePlaceholder = "CORE_DRG_090";
+
+                /// <summary>
+                /// Battlecry: Copy a card in your opponent’s deck and add it to your hand.<br/>
+                /// 1-Cost 1/2 Undead Minion
+                /// </summary>
                 public const string PsychicConjurerCore = "CORE_EX1_193";
+
+                /// <summary>
+                /// Give a minion +2/+6.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string PowerInfusionCorePlaceholder = "CORE_EX1_194";
+
+                /// <summary>
+                /// Battlecry: Give a friendly minion +2 Health.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string KulTiranChaplainCorePlaceholder = "CORE_EX1_195";
+
+                /// <summary>
+                /// Destroy all minions with 5 or more Attack.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string ShadowWordRuinCore = "CORE_EX1_197";
+
+                /// <summary>
+                /// Battlecry: Destroy a minion and gain its Health.<br/>
+                /// 8-Cost 8/1 Minion
+                /// </summary>
                 public const string NatalieSelineCorePlaceholder = "CORE_EX1_198";
+
+                /// <summary>
+                /// This minion's Attack is always equal to its Health.<br/>
+                /// 3-Cost 0/4 Elemental Minion
+                /// </summary>
                 public const string LightspawnCorePlaceholder = "CORE_EX1_335";
+
+                /// <summary>
+                /// Destroy a minion with 5 or more Attack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShadowWordDeathCorePlaceholder = "CORE_EX1_622";
+
+                /// <summary>
+                /// Battlecry: Give a friendly minion +3 Health.<br/>
+                /// 5-Cost 5/6 Minion
+                /// </summary>
                 public const string TempleEnforcerCorePlaceholder = "CORE_EX1_623";
+
+                /// <summary>
+                /// Your Hero Power becomes 'Deal 2 damage.'<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShadowformCorePlaceholder = "CORE_EX1_625";
+
+                /// <summary>
+                /// Discover a Temporary Power Word: Shield, Shadow Word: Pain, or Mind Control.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string AnduinsGiftCorePlaceholder = "CORE_GIFT_12";
+
+                /// <summary>
+                /// Deal damage to each minion equal to its Attack.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string LightbombCore = "CORE_GVG_008";
+
+                /// <summary>
+                /// Copy 3 cards in your opponent's deck and add them to your hand.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string DevourMindCorePlaceholder = "CORE_ICC_207";
+
+                /// <summary>
+                /// At the end of your turn, give another random friendly minion +1/+1.<br/>
+                /// 2-Cost 2/3 Undead Minion
+                /// </summary>
                 public const string ShadowAscendantCore = "CORE_ICC_210";
+
+                /// <summary>
+                /// Lifesteal<br/>
+                /// 3-Cost 3/3 Undead Minion
+                /// </summary>
                 public const string AcolyteOfAgonyCorePlaceholder = "CORE_ICC_212";
+
+                /// <summary>
+                /// Discover a friendly minion that died this game. Summon it.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string EternalServitudeCorePlaceholder = "CORE_ICC_213";
+
+                /// <summary>
+                /// Taunt, Lifesteal Deathrattle: Destroy a random enemy minion.<br/>
+                /// 9-Cost 4/8 Minion
+                /// </summary>
                 public const string ObsidianStatueCore = "CORE_ICC_214";
+
+                /// <summary>
+                /// Battlecry: Shuffle a copy of your opponent's deck into your deck.<br/>
+                /// 7-Cost 4/6 Minion
+                /// </summary>
                 public const string ArchbishopBenedictusCorePlaceholder = "CORE_ICC_215";
+
+                /// <summary>
+                /// Summon a 5/5 copy of a random minion in your deck.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string ShadowEssenceCorePlaceholder = "CORE_ICC_235";
+
+                /// <summary>
+                /// Lifesteal Deal $1 damage to all minions.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SpiritLashCorePlaceholder = "CORE_ICC_802";
+
+                /// <summary>
+                /// Battlecry: Destroy all minions with 5 or more Attack.<br/>
+                /// 8-Cost Hero
+                /// </summary>
                 public const string ShadowreaperAnduinCorePlaceholder = "CORE_ICC_830";
+
+                /// <summary>
+                /// Choose an enemy minion. At the start of your turn, gain control of it.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string EmbraceDarknessCorePlaceholder = "CORE_ICC_849";
+
+                /// <summary>
+                /// Resurrect 2 different friendly minions. (Cast 4 spells to upgrade.)<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string LesserDiamondSpellstoneCore = "CORE_LOOT_507";
+
+                /// <summary>
+                /// Give a friendly minion +2/+3 and "Elusive on your opponent's turn."<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ClearConscienceCorePlaceholder = "CORE_MAW_021";
+
+                /// <summary>
+                /// Taunt Deathrattle: Copy two random cards from your opponent's hand.<br/>
+                /// 4-Cost 2/6 Dragon Minion
+                /// </summary>
                 public const string IncriminatingPsychicCorePlaceholder = "CORE_MAW_022";
+
+                /// <summary>
+                /// Choose a minion. Destroy it after you play a card copied from the opponent.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string TheftAccusationCorePlaceholder = "CORE_MAW_023";
+
+                /// <summary>
+                /// Battlecry: Discover a Legendary minion. If your opponent guesses your choice, they get a copy.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
                 public const string SuspiciousUsherCorePlaceholder = "CORE_REV_002";
+
+                /// <summary>
+                /// After you play a card copied from the opponent, steal the original.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string TheHarvesterOfEnvyCorePlaceholder = "CORE_REV_011";
+
+                /// <summary>
+                /// Battlecry: Reduce the Cost of cards copied from your opponent by (3).<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string MysteriousVisitorCorePlaceholder = "CORE_REV_246";
+
+                /// <summary>
+                /// Battlecry: Summon a copy of this minion at the end of your turn.<br/>
+                /// 4-Cost 2/5 Minion
+                /// </summary>
                 public const string PartnerInCrimeCorePlaceholder = "CORE_REV_247";
+
+                /// <summary>
+                /// Give a minion +2 Health. Summon a Kyrian with its stats and Taunt.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string BoonOfTheAscendedCorePlaceholder = "CORE_REV_248";
+
+                /// <summary>
+                /// Deal damage to a minion equal to its Attack.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string TheLightItBurnsCorePlaceholder = "CORE_REV_249";
+
+                /// <summary>
+                /// After you cast a spell on a friendly minion, set its Attack and Health to the higher of the two.<br/>
+                /// 3-Cost 1/6 Minion
+                /// </summary>
                 public const string PelagosCorePlaceholder = "CORE_REV_250";
+
+                /// <summary>
+                /// Destroy all minions with 3 or less Attack. Infuse (3): 6 or less.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string CleanTheSceneCorePlaceholder = "CORE_REV_252";
+
+                /// <summary>
+                /// Discover a copy of a card from your opponent's hand and deck.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string IdentityTheftCorePlaceholder = "CORE_REV_253";
+
+                /// <summary>
+                /// Give a minion +2/+1 and draw a card.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string CathedralOfAtonementCorePlaceholder = "CORE_REV_290";
+
+                /// <summary>
+                /// Tradeable Silence all enemy minions.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ShardOfTheNaaruCorePlaceholder = "CORE_SW_441";
+
+                /// <summary>
+                /// Lifesteal Deal $4 damage.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string VoidShardCore = "CORE_SW_442";
+
+                /// <summary>
+                /// Start of Game: If the spells in your deck are all Shadow, enter Shadowform.<br/>
+                /// 5-Cost 5/6 Minion
+                /// </summary>
                 public const string DarkbishopBenedictusCorePlaceholder = "CORE_SW_448";
+
+                /// <summary>
+                /// Your spells cost (1) less.<br/>
+                /// 2-Cost 2/3 Elemental Minion
+                /// </summary>
                 public const string RadiantElementalCorePlaceholder = "CORE_UNG_034";
+
+                /// <summary>
+                /// Whenever you cast a spell, add a random Priest spell to your hand.<br/>
+                /// 4-Cost 3/5 Elemental Minion
+                /// </summary>
                 public const string LyraTheSunshardCorePlaceholder = "CORE_UNG_963";
+
+                /// <summary>
+                /// After you summon a minion, give it +1 Health.<br/>
+                /// 1-Cost 1/2 Dragon/Pirate Minion
+                /// </summary>
                 public const string ShipsChirurgeonCore = "CORE_WON_065";
+
+                /// <summary>
+                /// Deal $2 damage to all enemy minions. Restore #2 Health to all friendly characters.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string HolyNovaLegacy = "CS1_112";
+
+                /// <summary>
+                /// Take control of an enemy minion.<br/>
+                /// 9-Cost Spell
+                /// </summary>
                 public const string MindControlLegacy = "CS1_113";
+
+                /// <summary>
+                /// Change a minion's Attack to be equal to its Health.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string InnerFire = "CS1_129";
+
+                /// <summary>
+                /// Deal $3 damage to a minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string HolySmiteLegacy = "CS1_130";
+
+                /// <summary>
+                /// Put a copy of a random card in your opponent's hand into your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string MindVisionLegacy = "CS2_003";
+
+                /// <summary>
+                /// Give a minion +2 Health. Draw a card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PowerWordShieldLegacy = "CS2_004";
+
+                /// <summary>
+                /// Destroy a minion with 3 or less Attack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShadowWordPainLegacy = "CS2_234";
+
+                /// <summary>
+                /// Whenever a minion is healed, draw a card.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
                 public const string NorthshireClericLegacy = "CS2_235";
+
+                /// <summary>
+                /// Double a minion's Health.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string DivineSpiritLegacy = "CS2_236";
+
+                /// <summary>
+                /// Deathrattle: Deal 3 damage to the enemy hero.<br/>
+                /// 3-Cost 4/3 Undead Minion
+                /// </summary>
                 public const string ShadowedSpiritCorePlaceholder = "CS3_013";
+
+                /// <summary>
+                /// Overheal: Draw a card.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
                 public const string CrimsonClergyLegacy = "CS3_014";
+
+                /// <summary>
+                /// Silence a minion, then give it +3 Health.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string FocusedWillLegacy = "CS3_027";
+
+                /// <summary>
+                /// Discover a spell from your deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ThriveInTheShadowsCore = "CS3_028";
+
+                /// <summary>
+                /// Reduce the Attack of an enemy minion by 1 until your next turn. (Upgrades each turn!)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string LazulsScheme = "DAL_011";
+
+                /// <summary>
+                /// Battlecry: Transform into a 2/2 copy of a friendly Deathrattle minion.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string ShadowyFigure = "DAL_030";
+
+                /// <summary>
+                /// Taunt Deathrattle: Destroy a random enemy minion.<br/>
+                /// 5-Cost 2/6 Minion
+                /// </summary>
                 public const string ConvincingInfiltrator = "DAL_039";
+
+                /// <summary>
+                /// Deathrattle: Restore 5 Health to the enemy hero.<br/>
+                /// 4-Cost 4/7 Quilboar Minion
+                /// </summary>
                 public const string HenchClanShadequill = "DAL_040";
+
+                /// <summary>
+                /// Silence a friendly minion, then summon a copy of it.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string UnsleepingSoul = "DAL_065";
+
+                /// <summary>
+                /// Deathrattle: Add a Lackey to your hand.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string EvilConscripter = "DAL_413";
+
+                /// <summary>
+                /// At the end of your turn, resurrect another friendly Undead minion.<br/>
+                /// 7-Cost 6/8 Undead Minion
+                /// </summary>
                 public const string CatrinaMuerte = "DAL_721";
+
+                /// <summary>
+                /// Spend all your Mana. Destroy a minion with that much Attack or less.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ForbiddenWords = "DAL_723";
+
+                /// <summary>
+                /// Summon 3 friendly minions that died this game.<br/>
+                /// 9-Cost Spell
+                /// </summary>
                 public const string MassResurrection = "DAL_724";
+
+                /// <summary>
+                /// Battlecry: Discover a copy of a card in your opponent's hand.<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
                 public const string MadameLazul = "DAL_729";
+
+                /// <summary>
+                /// Tradeable Resurrect 1 friendly Deathrattle minion. (Upgrades when Traded!)<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string AmuletOfUndying = "DED_512";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Shadow spell, deal 2 damage.<br/>
+                /// 2-Cost 3/2 Pirate Minion
+                /// </summary>
                 public const string DefiasLeper = "DED_513";
+
+                /// <summary>
+                /// Battlecry: Add a copy of the next card your opponent plays to your hand.<br/>
+                /// 3-Cost 3/4 Beast Minion
+                /// </summary>
                 public const string Copycat = "DED_514";
+
+                /// <summary>
+                /// Return an enemy minion to YOUR hand.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string ShadowWordSteal = "DEEP_021";
+
+                /// <summary>
+                /// Stealth At the end of your turn, restore #2 Health to all friendly characters.<br/>
+                /// 2-Cost 2/2 Elemental Minion
+                /// </summary>
                 public const string HiddenGem = "DEEP_023";
+
+                /// <summary>
+                /// Lifesteal Quickdraw: Deal 5 damage. Forge: Change Quickdraw to Battlecry.<br/>
+                /// 4-Cost 4/4 Elemental Minion
+                /// </summary>
                 public const string GlowstoneGyreworm = "DEEP_024";
+
+                /// <summary>
+                /// Choose a non-Titan minion. Add a copy of it to your deck and battlefield.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string ShatteredReflections = "DEEP_025";
+
+                /// <summary>
+                /// Discover a minion from your deck. Restore Health to your hero equal to its Cost.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string PendantOfEarth = "DEEP_026";
+
+                /// <summary>
+                /// Taunt At the end of your turn, summon a 5/5 copy of a minion in your deck.<br/>
+                /// 9-Cost 8/8 Elemental Minion
+                /// </summary>
                 public const string BloodOfGhuun = "DMF_053";
+
+                /// <summary>
+                /// Draw a minion. Corrupt: Reduce its Cost by (2).<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Insight = "DMF_054";
+
+                /// <summary>
+                /// Summon a 10/10 copy of a minion in your deck.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string IdolOfYshaarj = "DMF_055";
+
+                /// <summary>
+                /// Battlecry: Draw 2 cards. They cost Health instead of Mana.<br/>
+                /// 8-Cost 8/8 Minion
+                /// </summary>
                 public const string GhuunTheBloodGod = "DMF_056";
+
+                /// <summary>
+                /// Battlecry: Choose a minion. Become a 4/4 copy of it, then Silence it.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string TheNamelessOne = "DMF_116";
+
+                /// <summary>
+                /// After you cast a spell, reduce the Cost of a random card in your hand by (1).<br/>
+                /// 3-Cost 2/5 Minion
+                /// </summary>
                 public const string NazmaniBloodweaver = "DMF_120";
+
+                /// <summary>
+                /// Taunt Battlecry: Gain +1/+1 for each spell in your hand.<br/>
+                /// 5-Cost 3/3 Mechanical Minion
+                /// </summary>
                 public const string FortuneTeller = "DMF_121";
+
+                /// <summary>
+                /// Taunt Corrupt: Gain +4 Health.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string FairgroundFool = "DMF_184";
+
+                /// <summary>
+                /// Summon a random 4-Cost minion. Corrupt: Summon a 7-Cost minion instead.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string AuspiciousSpirits = "DMF_186";
+
+                /// <summary>
+                /// Discover a spell. Reduce the Cost of spells in your hand by (1).<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string PalmReading = "DMF_187";
+
+                /// <summary>
+                /// Battlecry: Play all cards your opponent played last turn.<br/>
+                /// 8-Cost 8/8 Dragon Minion
+                /// </summary>
                 public const string MurozondTheInfinite = "DRG_090";
+
+                /// <summary>
+                /// Destroy a minion. Invoke Galakrond.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string TimeRip = "DRG_246";
+
+                /// <summary>
+                /// Battlecry: If you've Invoked twice, reduce the Cost of cards in your hand by (1).<br/>
+                /// 4-Cost 3/6 Dragon Minion
+                /// </summary>
                 public const string FateWeaver = "DRG_300";
+
+                /// <summary>
+                /// Add a Lackey to your hand.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string WhispersOfEvil = "DRG_301";
+
+                /// <summary>
+                /// Give a minion "Deathrattle: Summon 2 copies of this."<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string GraveRune = "DRG_302";
+
+                /// <summary>
+                /// Battlecry: Invoke Galakrond.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
                 public const string DiscipleOfGalakrond = "DRG_303";
+
+                /// <summary>
+                /// Deathrattle: If you're holding a Dragon, deal 3 damage to all enemy minions.<br/>
+                /// 5-Cost 4/5 Dragon Minion
+                /// </summary>
                 public const string Chronobreaker = "DRG_304";
+
+                /// <summary>
+                /// Battlecry: Look at 3 cards. Guess which one is in your opponent's hand to get a copy of it.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string EnvoyOfLazul = "DRG_306";
+
+                /// <summary>
+                /// Deal $2 damage to all minions. If you're holding a Dragon, only damage enemies.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string BreathOfTheInfinite = "DRG_307";
+
+                /// <summary>
+                /// Battlecry: Choose an enemy minion. Deathrattle: Summon a new copy of it.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string MindflayerKaahrj = "DRG_308";
+
+                /// <summary>
+                /// Battlecry: Destroy 1 random enemy minion. ()<br/>
+                /// 7-Cost Hero
+                /// </summary>
                 public const string GalakrondTheUnspeakable = "DRG_660";
+
+                /// <summary>
+                /// Deal $5 damage to the enemy hero.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MindBlastLegacy = "DS1_233";
+
+                /// <summary>
+                /// Give a minion -5/-5. If it has 0 Attack, destroy it.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ShadowChordDistort = "ETC_305";
+
+                /// <summary>
+                /// Your Hero Power costs (0). After you use it, lose 1 Durability.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
                 public const string IdolsAdoration = "ETC_312";
+
+                /// <summary>
+                /// Deal $3 damage to all minions. Summon a 6/6 Popstar. (Swaps each turn.)<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string HarmonicPop = "ETC_314";
+
+                /// <summary>
+                /// Choose two enemy minions. They fight! Add copies of any that die to your hand.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string FightOverMe = "ETC_316";
+
+                /// <summary>
+                /// Battlecry: Restore #3 Health to all other friendly minions. Gain +1/+1 for each one Overhealed.<br/>
+                /// 2-Cost 1/2 Naga Minion
+                /// </summary>
                 public const string Dreamboat = "ETC_332";
+
+                /// <summary>
+                /// Battlecry: Deal 4 damage to this minion. Overheal: Deal 5 damage to a random enemy.<br/>
+                /// 4-Cost 4/8 Minion
+                /// </summary>
                 public const string HeartbreakerHedanis = "ETC_334";
+
+                /// <summary>
+                /// Your first spell each turn costs (2) less. Lasts until you don't play a spell on your turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string LoveEverlasting = "ETC_335";
+
+                /// <summary>
+                /// Choose a minion. Add a copy of it to your hand. Finale: Give both +1/+2.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PowerChordSynchronize = "ETC_338";
+
+                /// <summary>
+                /// Overheal: Summon a random minion with Cost equal to the amount Overhealed.<br/>
+                /// 3-Cost 2/5 Undead Minion
+                /// </summary>
                 public const string Heartthrob = "ETC_339";
+
+                /// <summary>
+                /// Restore #3 Health to all friendly characters.<br/>
+                /// 1-Cost Location
+                /// </summary>
                 public const string FanClub = "ETC_449";
+
+                /// <summary>
+                /// Battlecry: Take control of an enemy minion that has 2 or less Attack.<br/>
+                /// 6-Cost 4/5 Minion
+                /// </summary>
                 public const string CabalShadowPriest = "EX1_091";
+
+                /// <summary>
+                /// Restore #5 Health to your hero.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string RadianceLegacy = "EX1_192";
+
+                /// <summary>
+                /// Battlecry: Copy a card in your opponent’s deck and add it to your hand.<br/>
+                /// 1-Cost 1/2 Undead Minion
+                /// </summary>
                 public const string PsychicConjurerLegacy = "EX1_193";
+
+                /// <summary>
+                /// Give a minion +2/+6.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string PowerInfusionLegacy = "EX1_194";
+
+                /// <summary>
+                /// Battlecry: Give a friendly minion +2 Health.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string KulTiranChaplainLegacy = "EX1_195";
+
+                /// <summary>
+                /// Battlecry: Give an enemy minion -2 Attack until your next turn.<br/>
+                /// 1-Cost 2/1 Minion
+                /// </summary>
                 public const string ScarletSubjugatorLegacy = "EX1_196";
+
+                /// <summary>
+                /// Destroy all minions with 5 or more Attack.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string ShadowWordRuinLegacy = "EX1_197";
+
+                /// <summary>
+                /// Battlecry: Destroy a minion and gain its Health.<br/>
+                /// 8-Cost 8/1 Minion
+                /// </summary>
                 public const string NatalieSelineLegacy = "EX1_198";
+
+                /// <summary>
+                /// Silence a minion.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Silence = "EX1_332";
+
+                /// <summary>
+                /// Gain control of an enemy minion with 3 or less Attack until end of turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ShadowMadness = "EX1_334";
+
+                /// <summary>
+                /// This minion's Attack is always equal to its Health.<br/>
+                /// 3-Cost 0/4 Elemental Minion
+                /// </summary>
                 public const string Lightspawn = "EX1_335";
+
+                /// <summary>
+                /// Copy 2 cards in your opponent's deck and add them to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Thoughtsteal = "EX1_339";
+
+                /// <summary>
+                /// At the start of your turn, restore #3 Health to a damaged friendly character.<br/>
+                /// 2-Cost 0/5 Minion
+                /// </summary>
                 public const string Lightwell = "EX1_341";
+
+                /// <summary>
+                /// Put a copy of a random minion from your opponent's deck into the battlefield.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Mindgames = "EX1_345";
+
+                /// <summary>
+                /// Double the damage and healing of your spells and Hero Power.<br/>
+                /// 7-Cost 7/7 Draenei Minion
+                /// </summary>
                 public const string ProphetVelen = "EX1_350";
+
+                /// <summary>
+                /// Your cards and powers that restore Health now deal damage instead.<br/>
+                /// 4-Cost 3/5 Draenei Minion
+                /// </summary>
                 public const string AuchenaiSoulpriest = "EX1_591";
+
+                /// <summary>
+                /// Restore #4 Health to ALL minions.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string CircleOfHealing = "EX1_621";
+
+                /// <summary>
+                /// Destroy a minion with 5 or more Attack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShadowWordDeathLegacy = "EX1_622";
+
+                /// <summary>
+                /// Battlecry: Give a friendly minion +3 Health.<br/>
+                /// 5-Cost 5/6 Minion
+                /// </summary>
                 public const string TempleEnforcer = "EX1_623";
+
+                /// <summary>
+                /// Deal $5 damage. Restore #5 Health to your hero.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string HolyFire = "EX1_624";
+
+                /// <summary>
+                /// Your Hero Power becomes 'Deal 2 damage.'<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Shadowform = "EX1_625";
+
+                /// <summary>
+                /// Silence all enemy minions. Draw a card.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string MassDispel = "EX1_626";
+
+                /// <summary>
+                /// Deathrattle: Give a random friendly minion +3 Health.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string DarkCultist = "FP1_023";
+
+                /// <summary>
+                /// Give a minion +2/+1 and Divine Shield. Costs (0) if you played an adjacent card this turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string OrbitalHalo = "GDB_439";
+
+                /// <summary>
+                /// Battlecry: If the combined Health of both heroes is exactly 42, set your hero's Health to 42.<br/>
+                /// 4-Cost 4/2 Minion
+                /// </summary>
                 public const string MystifiedTocha = "GDB_440";
+
+                /// <summary>
+                /// Whenever another minion is Overhealed, give it that much extra Health.<br/>
+                /// 3-Cost 2/4 Draenei Minion
+                /// </summary>
                 public const string Anchorite = "GDB_441";
+
+                /// <summary>
+                /// Spellburst: Summon a random 3-Cost minion. (Holy spells don't remove this Spellburst.)<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string KureTheLightBeyond = "GDB_442";
+
+                /// <summary>
+                /// Taunt Divine Shield Lifesteal<br/>
+                /// 6-Cost 4/8 Draenei Minion
+                /// </summary>
                 public const string ShieldOfAskara = "GDB_452";
+
+                /// <summary>
+                /// Deathrattle: Restore #6 Health to the enemy hero. Spellburst: Silence this minion.<br/>
+                /// 1-Cost 3/3 Draenei Minion
+                /// </summary>
                 public const string OverzealousHealer = "GDB_454";
+
+                /// <summary>
+                /// Battlecry: The next Draenei you play summons a copy of itself.<br/>
+                /// 4-Cost 4/4 Draenei Minion
+                /// </summary>
                 public const string Askara = "GDB_455";
+
+                /// <summary>
+                /// Give a minion +1/+2 and Rush. Repeatable this turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Lightspeed = "GDB_457";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. Give a random minion in your hand +3 Health.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string DivineStar = "GDB_460";
+
+                /// <summary>
+                /// Set EVERY minion's Attack and Health to the lower of the two.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string GravityLapse = "GDB_464";
+
+                /// <summary>
+                /// Discover a Temporary Power Word: Shield, Shadow Word: Pain, or Mind Control.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string AnduinsGift = "GIFT_12";
+
+                /// <summary>
+                /// Deal $4 damage to a minion. If that kills it, add a copy of it to your hand.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string HolyWater = "GIL_134";
+
+                /// <summary>
+                /// Each turn this is in your hand, transform it into a card your opponent is holding.<br/>
+                /// 1-Cost 1/1 Beast Minion
+                /// </summary>
                 public const string Chameleos = "GIL_142";
+
+                /// <summary>
+                /// Can't attack while damaged.<br/>
+                /// 5-Cost 5/8 Elemental Minion
+                /// </summary>
                 public const string QuartzElemental = "GIL_156";
+
+                /// <summary>
+                /// Whenever a friendly minion is healed, summon a 3/3 Whelp.<br/>
+                /// 7-Cost 4/9 Dragon Minion
+                /// </summary>
                 public const string NightscaleMatriarch = "GIL_190";
+
+                /// <summary>
+                /// Restore #6 Health to all friendly characters.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string DivineHymn = "GIL_661";
+
+                /// <summary>
+                /// Deathrattle: Summon a Deathrattle minion from your hand.<br/>
+                /// 6-Cost 6/5 Undead Minion
+                /// </summary>
                 public const string CoffinCrasher = "GIL_805";
+
+                /// <summary>
+                /// Choose a friendly minion. Summon a copy of it with 1 Health remaining.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string VividNightmare = "GIL_813";
+
+                /// <summary>
+                /// Echo Battlecry: Restore #2 Health.<br/>
+                /// 2-Cost 2/1 Minion
+                /// </summary>
                 public const string Squashling = "GIL_835";
+
+                /// <summary>
+                /// Battlecry: If your deck has only odd-Cost cards, double the Health of your other minions.<br/>
+                /// 5-Cost 4/4 Beast Minion
+                /// </summary>
                 public const string GlitterMoth = "GIL_837";
+
+                /// <summary>
+                /// Battlecry: Cast 'Inner Fire' on every minion in your deck (set Attack equal to Health).<br/>
+                /// 6-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string LadyInWhite = "GIL_840";
+
+                /// <summary>
+                /// Deal damage to each minion equal to its Attack.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string Lightbomb = "GVG_008";
+
+                /// <summary>
+                /// Battlecry: Deal 3 damage to each hero.<br/>
+                /// 1-Cost 3/1 Minion
+                /// </summary>
                 public const string ShadowbomberGVG = "GVG_009";
+
+                /// <summary>
+                /// Give a minion +2/+4 and Spell Damage +1.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string VelensChosen = "GVG_010";
+
+                /// <summary>
+                /// Battlecry: Give a minion -3 Attack this turn.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string ShrinkmeisterGVG = "GVG_011";
+
+                /// <summary>
+                /// Restore #3 Health. If the target is still damaged, summon a Lightwarden.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LightOfTheNaaru = "GVG_012";
+
+                /// <summary>
+                /// Battlecry: Swap Health with another minion.<br/>
+                /// 5-Cost 6/2 Minion
+                /// </summary>
                 public const string Voljin = "GVG_014";
+
+                /// <summary>
+                /// Whenever a minion is healed, deal 1 damage to a random enemy.<br/>
+                /// 2-Cost 2/3 Mechanical Minion
+                /// </summary>
                 public const string Shadowboxer = "GVG_072";
+
+                /// <summary>
+                /// Battlecry: Give a friendly Mech +4 Health.<br/>
+                /// 5-Cost 5/5 Mechanical Minion
+                /// </summary>
                 public const string UpgradedRepairBot = "GVG_083";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynnHeroHeroSkins = "HERO_09";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_TyrandeWhisperwindHeroHeroSkins = "HERO_09a";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_ChampionTyrandeHeroHeroSkins = "HERO_09aa";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_HedanisHeroHeroSkins = "HERO_09ab";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_TeenIdolAnduinHeroHeroSkins = "HERO_09ac";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_ElectroSwingSallyHeroHeroSkins = "HERO_09ad";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_ApprenticeHedanisHeroHeroSkinsEnchantment = "HERO_09ae";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_AnduinTheValorousHeroHeroSkins = "HERO_09af";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_NightWarriorTyrandeHeroHeroSkins = "HERO_09ag";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynnHeroic_InvestigatorXyrellaHeroHeroSkins = "HERO_09ah";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_PianomanHedanisHeroHeroSkins = "HERO_09ai_Hedanis";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_EliseTheLeaderHeroHeroSkins = "HERO_09aj_EliseStarseeker";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_ScarletSallyHeroHeroSkins = "HERO_09ak_Sally";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_MysticalMysteryballLazulHeroHeroSkins = "HERO_09al_Lazul_hls";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_AvatarAnduinHeroHeroSkins = "HERO_09am_Anduin_hnv";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_AbsolutionAnduinHeroHeroSkins = "HERO_09an_Anduin_hnv";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_CatHedanisHeroHeroSkinsEnchantment = "HERO_09ao_Hedanis_hls";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_DemonWhitemaneHeroHeroSkins = "HERO_09aq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_TalanjiHeroHeroSkins = "HERO_09ar";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_LifeguardHedanisHeroHeroSkins = "HERO_09as";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_ProphetVelenHeroHeroSkins = "HERO_09at";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_AstralTalanjiHeroHeroSkins = "HERO_09au";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_MedicEliseHeroHeroSkins = "HERO_09av";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_HeartbreakerWhitemaneHeroHeroSkins = "HERO_09aw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_MadameLazulHeroHeroSkins = "HERO_09b";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_ArtanisHeroHeroSkins = "HERO_09ba";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_AnduinOfProphecyHeroHeroSkins = "HERO_09d";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_Si7AnduinHeroHeroSkinsEnchantment = "HERO_09e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_ZhugeLiangAnduinHeroHeroSkins = "HERO_09f";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_TranscendenceAnduinHeroHeroSkins = "HERO_09g";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SurvivorXyrellaHeroHeroSkinsHeroic = "HERO_09h";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_ShardseekerXyrellaHeroHeroSkins = "HERO_09i";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_LightweaverXyrellaHeroHeroSkins = "HERO_09j";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_ShadowTouchedXyrellaHeroHeroSkins = "HERO_09l";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_PrinceCharmingAnduinHeroHeroSkins = "HERO_09m";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_HolyLeviathanAnduinHeroHeroSkins = "HERO_09n";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_IceLadyTyrandeHeroHeroSkinsEnchantment = "HERO_09o";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_LittleLionAnduinHeroHeroSkins = "HERO_09q";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_HandmaidenTyrandeHeroHeroSkins = "HERO_09r";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_ButlerAnduinHeroHeroSkins = "HERO_09s";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_TorchbearerTyrandeHeroHeroSkinsToken = "HERO_09t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_KyrianTyrandeHeroHeroSkins = "HERO_09u";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_LoveGuardianTyrandeHeroHeroSkins = "HERO_09v";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_AppetizerAnduinHeroHeroSkins = "HERO_09w";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_BansheeTyrandeHeroHeroSkins = "HERO_09x";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_SallyWhitemaneHeroHeroSkins = "HERO_09y";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_RedeemerTyrandeHeroHeroSkins = "HERO_09z";
+
+                /// <summary>
+                /// Copy 3 cards in your opponent's deck and add them to your hand.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string DevourMind = "ICC_207";
+
+                /// <summary>
+                /// At the end of your turn, give another random friendly minion +1/+1.<br/>
+                /// 2-Cost 2/3 Undead Minion
+                /// </summary>
                 public const string ShadowAscendant = "ICC_210";
+
+                /// <summary>
+                /// Lifesteal<br/>
+                /// 3-Cost 3/3 Undead Minion
+                /// </summary>
                 public const string AcolyteOfAgony = "ICC_212";
+
+                /// <summary>
+                /// Discover a friendly minion that died this game. Summon it.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string EternalServitude = "ICC_213";
+
+                /// <summary>
+                /// Taunt, Lifesteal Deathrattle: Destroy a random enemy minion.<br/>
+                /// 9-Cost 4/8 Minion
+                /// </summary>
                 public const string ObsidianStatue = "ICC_214";
+
+                /// <summary>
+                /// Battlecry: Shuffle a copy of your opponent's deck into your deck.<br/>
+                /// 7-Cost 4/6 Minion
+                /// </summary>
                 public const string ArchbishopBenedictus = "ICC_215";
+
+                /// <summary>
+                /// Summon a 5/5 copy of a random minion in your deck.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string ShadowEssence = "ICC_235";
+
+                /// <summary>
+                /// Lifesteal Deal $1 damage to all minions.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SpiritLash = "ICC_802";
+
+                /// <summary>
+                /// Battlecry: Destroy all minions with 5 or more Attack.<br/>
+                /// 8-Cost Hero
+                /// </summary>
                 public const string ShadowreaperAnduin = "ICC_830";
+
+                /// <summary>
+                /// Choose an enemy minion. At the start of your turn, gain control of it.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string EmbraceDarkness = "ICC_849";
+
+                /// <summary>
+                /// Silence a minion. Combo: Also deal $2 damage to it.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Deafen = "JAM_022";
+
+                /// <summary>
+                /// Battlecry: Get a copy of the top card of your opponent's deck.<br/>
+                /// 3-Cost 4/3 Pirate Minion
+                /// </summary>
                 public const string Plagiarizarrr = "JAM_023";
+
+                /// <summary>
+                /// Finale and Overheal: Give another random friendly minion +2/+2.<br/>
+                /// 4-Cost 3/4 Elemental Minion
+                /// </summary>
                 public const string AmbientLightspawn = "JAM_024";
+
+                /// <summary>
+                /// Restore #3 Health to a minion and its neighbors. For each one Overhealed, refresh a Mana Crystal.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string FunnelCake = "JAM_025";
+
+                /// <summary>
+                /// Choose One - Give a friendly minion +2 Attack and Rush; or +2 Health and Lifesteal.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string Fanboy = "JAM_027";
+
+                /// <summary>
+                /// Silence a friendly minion. Draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Purify = "KAR_013";
+
+                /// <summary>
+                /// Whenever you cast a spell, restore #3 Health to your hero.<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
                 public const string PriestOfTheFeast = "KAR_035";
+
+                /// <summary>
+                /// Battlecry: Summon a random friendly minion that died this game.<br/>
+                /// 4-Cost 3/4 Minion
+                /// </summary>
                 public const string OnyxBishopKARA = "KAR_204";
+
+                /// <summary>
+                /// Deathrattle: Deal 3 damage to the enemy hero.<br/>
+                /// 3-Cost 4/3 Undead Minion
+                /// </summary>
                 public const string ShadowedSpiritLegacy = "LEG_CS3_013";
+
+                /// <summary>
+                /// Battlecry: Discover a Deathrattle card. It costs (1) less.<br/>
+                /// 2-Cost 1/2 Minion
+                /// </summary>
                 public const string MuseumCuratorLOE = "LOE_006";
+
+                /// <summary>
+                /// Choose an enemy minion. Shuffle it into your deck.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string Entomb = "LOE_104";
+
+                /// <summary>
+                /// Deal $3 damage to all minions. Shuffle this card into your opponent's deck.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string ExcavatedEvil = "LOE_111";
+
+                /// <summary>
+                /// Shuffle all minions into your opponent's deck.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string PsychicScream = "LOOT_008";
+
+                /// <summary>
+                /// Summon 1/1 copies of 2 friendly Deathrattle minions that died this game.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string TwilightsCall = "LOOT_187";
+
+                /// <summary>
+                /// After you cast 3 spells in a turn, summon a 5/5 Dragon.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string DragonSoul = "LOOT_209";
+
+                /// <summary>
+                /// Give a minion +2/+2. Gains a bonus effect in your hand.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string UnidentifiedElixir = "LOOT_278";
+
+                /// <summary>
+                /// Copy a spell in your opponent's deck and add it to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PsionicProbe = "LOOT_353";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Dragon, deal 3 damage to all other minions.<br/>
+                /// 4-Cost 3/3 Dragon Minion
+                /// </summary>
                 public const string Duskbreaker = "LOOT_410";
+
+                /// <summary>
+                /// Resurrect 2 different friendly minions. (Cast 4 spells to upgrade.)<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string LesserDiamondSpellstone = "LOOT_507";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Dragon, swap this minion's Attack with another minion's.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
                 public const string TwilightAcolyte = "LOOT_528";
+
+                /// <summary>
+                /// Deathrattle: Add a Coin to your hand.<br/>
+                /// 3-Cost 2/2 Undead Minion
+                /// </summary>
                 public const string GildedGargoyle = "LOOT_534";
+
+                /// <summary>
+                /// Battlecry: Your opponent takes two turns. Then you take two turns.<br/>
+                /// 7-Cost 6/6 Dragon Minion
+                /// </summary>
                 public const string Temporus = "LOOT_538";
+
+                /// <summary>
+                /// Give a friendly minion +2/+3 and "Elusive on your opponent's turn."<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ClearConscience = "MAW_021";
+
+                /// <summary>
+                /// Taunt Deathrattle: Copy two random cards from your opponent's hand.<br/>
+                /// 4-Cost 2/6 Dragon Minion
+                /// </summary>
                 public const string IncriminatingPsychic = "MAW_022";
+
+                /// <summary>
+                /// Choose a minion. Destroy it after you play a card copied from the opponent.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string TheftAccusation = "MAW_023";
+
+                /// <summary>
+                /// Discover and summon a minion that costs (8) or more. It goes Dormant for 2 turns.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string DelayedProduct = "MIS_305";
+
+                /// <summary>
+                /// Summon a copy of an enemy minion. It attacks the original.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string FunhouseMirror = "MIS_714";
+
+                /// <summary>
+                /// Choose an enemy minion. Get a 1/1 copy of it that costs (1).<br/>
+                /// 4-Cost Location
+                /// </summary>
                 public const string PuppetTheatre = "MIS_919";
+
+                /// <summary>
+                /// Battlecry: Dredge. If it's an Undead, deal 5 damage to the enemy hero.<br/>
+                /// 4-Cost 5/4 Undead Minion
+                /// </summary>
                 public const string RottingNecromancer = "NX2_018";
+
+                /// <summary>
+                /// Deal $2 damage to a minion. If it dies, deal $3 damage to the enemy hero.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string MindSear = "NX2_019";
+
+                /// <summary>
+                /// Destroy a minion. Restore its Health to all friendly characters.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Cannibalize = "NX2_020";
+
+                /// <summary>
+                /// Give a minion +2/+6.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string PowerWordTentacles = "OG_094";
+
+                /// <summary>
+                /// Battlecry: If your C'Thun has at least 10 Attack, restore #10 Health to your hero.<br/>
+                /// 5-Cost 6/5 Minion
+                /// </summary>
                 public const string TwilightDarkmender = "OG_096";
+
+                /// <summary>
+                /// Destroy all minions with 2 or less Attack.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string ShadowWordHorror = "OG_100";
+
+                /// <summary>
+                /// Spend all your Mana. Summon a random minion that costs that much.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ForbiddenShaping = "OG_101";
+
+                /// <summary>
+                /// This turn, your healing effects deal damage instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string EmbraceTheShadow = "OG_104";
+
+                /// <summary>
+                /// Battlecry: Restore #5 Health.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string DarkshireAlchemistOG = "OG_234";
+
+                /// <summary>
+                /// Battlecry: Summon a 1/1 copy of each of your other minions.<br/>
+                /// 6-Cost 5/5 Minion
+                /// </summary>
                 public const string HeraldVolazj = "OG_316";
+
+                /// <summary>
+                /// Taunt Whenever a character is healed, give your C'Thun +1/+1 (wherever it is).<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
                 public const string HoodedAcolyteOG = "OG_334";
+
+                /// <summary>
+                /// Deathrattle: Copy a card from your opponent's deck and add it to your hand.<br/>
+                /// 4-Cost 4/3 Undead Minion
+                /// </summary>
                 public const string ShiftingShade = "OG_335";
+
+                /// <summary>
+                /// Draw a minion. If it's a Dragon, summon two 2/1 Whelps with Rush.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string HornOfWrathion = "ONY_017";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Holy and a Shadow spell, deal 3 damage to all other minions.<br/>
+                /// 4-Cost 4/4 Dragon Minion
+                /// </summary>
                 public const string LightmawNetherdrake = "ONY_026";
+
+                /// <summary>
+                /// Divine Shield, Lifesteal Deathrattle: Shuffle a Fragment into your deck that resummons Mi'da when drawn.<br/>
+                /// 6-Cost 4/6 Minion
+                /// </summary>
                 public const string MidaPureLight = "ONY_028";
+
+                /// <summary>
+                /// Battlecry: Discover a Legendary minion. If your opponent guesses your choice, they get a copy.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
                 public const string SuspiciousUsher = "REV_002";
+
+                /// <summary>
+                /// After you play a card copied from the opponent, steal the original.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string TheHarvesterOfEnvy = "REV_011";
+
+                /// <summary>
+                /// Battlecry: Reduce the Cost of cards copied from your opponent by (3).<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string MysteriousVisitor = "REV_246";
+
+                /// <summary>
+                /// Battlecry: Summon a copy of this minion at the end of your turn.<br/>
+                /// 4-Cost 2/5 Minion
+                /// </summary>
                 public const string PartnerInCrime = "REV_247";
+
+                /// <summary>
+                /// Give a minion +2 Health. Summon a Kyrian with its stats and Taunt.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string BoonOfTheAscended = "REV_248";
+
+                /// <summary>
+                /// Deal damage to a minion equal to its Attack.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string TheLightItBurns = "REV_249";
+
+                /// <summary>
+                /// After you cast a spell on a friendly minion, set its Attack and Health to the higher of the two.<br/>
+                /// 3-Cost 1/6 Minion
+                /// </summary>
                 public const string Pelagos = "REV_250";
+
+                /// <summary>
+                /// Destroy all minions with 3 or less Attack. Infuse (3): 6 or less.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string CleanTheScene = "REV_252";
+
+                /// <summary>
+                /// Discover a copy of a card from your opponent's hand and deck.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string IdentityTheft = "REV_253";
+
+                /// <summary>
+                /// Give a minion +2/+1 and draw a card.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string CathedralOfAtonement = "REV_290";
+
+                /// <summary>
+                /// Resurrect a friendly minion that costs (3) or less.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string AnimateDead = "RLK_812";
+
+                /// <summary>
+                /// Taunt Deathrattle: Resurrect a friendly Undead that died this game.<br/>
+                /// 4-Cost 2/5 Minion
+                /// </summary>
                 public const string Bonecaller = "RLK_813";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Shadow spell, gain +1/+1.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
                 public const string CrystalsmithCultist = "RLK_814";
+
+                /// <summary>
+                /// Deal $2 damage to all enemies. If a friendly Undead died after your last turn, deal $2 more.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string ShadowWordUndeath = "RLK_815";
+
+                /// <summary>
+                /// Battlecry: Permanently add a Vision of Darkness to your hand.<br/>
+                /// 6-Cost 6/6 Undead Minion
+                /// </summary>
                 public const string SisterSvalna = "RLK_816";
+
+                /// <summary>
+                /// Deathrattle: Haunt a card in your hand. When you play it, summon a 4/3 Soldier.<br/>
+                /// 3-Cost 4/3 Undead Minion
+                /// </summary>
                 public const string HauntingNightmare = "RLK_822";
+
+                /// <summary>
+                /// After you play an Undead this turn, give it Reborn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string UndyingAllies = "RLK_823";
+
+                /// <summary>
+                /// Draw 2 cards. Costs (1) if a friendly Undead died after your last turn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string GraveDigging = "RLK_829";
+
+                /// <summary>
+                /// Battlecry: Resurrect all friendly Undead that died after your last turn.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
                 public const string HighCultistBasaleph = "RLK_832";
+
+                /// <summary>
+                /// Deathrattle: Add a copy of a card in your opponent's deck to your hand.<br/>
+                /// 2-Cost 3/2 Undead Minion
+                /// </summary>
                 public const string MindEater = "RLK_845";
+
+                /// <summary>
+                /// Summon a copy of a friendly Protoss minion. It takes double damage.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Hallucination = "SC_757";
+
+                /// <summary>
+                /// Taunt Battlecry and Deathrattle: Get two random Protoss minions.<br/>
+                /// 12-Cost 10/10 Mechanical Minion
+                /// </summary>
                 public const string Mothership = "SC_762";
+
+                /// <summary>
+                /// Lifesteal. Deathrattle: Your Protoss minions cost (1) less this game.<br/>
+                /// 2-Cost 2/2 Mechanical Minion
+                /// </summary>
                 public const string Sentry = "SC_764";
+
+                /// <summary>
+                /// Taunt Spellburst: Gain control of a random enemy minion with 2 or less Attack.<br/>
+                /// 4-Cost 2/6 Minion
+                /// </summary>
                 public const string CabalAcolyte = "SCH_120";
+
+                /// <summary>
+                /// After you play a minion, destroy it and summon a 4/4 Failed Student.<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
                 public const string DisciplinarianGandling = "SCH_126";
+
+                /// <summary>
+                /// Give a minion +2/+2. Restore it to full Health at the end of this turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PowerWordFeast = "SCH_136";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/4 Minion
+                /// </summary>
                 public const string FrazzledFreshman = "SCH_137";
+
+                /// <summary>
+                /// Costs (1) less for each time your hero's Health changed during your turns.<br/>
+                /// 10-Cost 8/8 Undead Minion
+                /// </summary>
                 public const string FleshGiant = "SCH_140";
+
+                /// <summary>
+                /// Battlecry: Replace your hand with a copy of your opponent's until end of turn.<br/>
+                /// 3-Cost 1/3 Minion
+                /// </summary>
                 public const string MindrenderIllucia = "SCH_159";
+
+                /// <summary>
+                /// Discover a Dragon. Your next one costs (1) less.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DraconicStudies = "SCH_233";
+
+                /// <summary>
+                /// Deal $4 damage to a minion. If that kills it, summon a new copy.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string Initiation = "SCH_512";
+
+                /// <summary>
+                /// Battlecry: If your hero's Health changed this turn, destroy a minion.<br/>
+                /// 4-Cost 3/3 Undead Minion
+                /// </summary>
                 public const string BrittleboneDestroyer = "SCH_513";
+
+                /// <summary>
+                /// Deal $3 damage to your hero. Return two friendly minions that died this game to your hand.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string RaiseDead = "SCH_514";
+
+                /// <summary>
+                /// After you cast a Shadow spell, deal 1 damage to all enemies. Lose 1 Durability.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
                 public const string ShadowclothNeedle = "SW_012";
+
+                /// <summary>
+                /// Questline: Play a 2, 3, and 4-Cost card. Reward: Discover a card from your deck.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SeekGuidance = "SW_433";
+
+                /// <summary>
+                /// Discover a Deathrattle minion. If you have enough Mana to play it, trigger its Deathrattle.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string CallOfTheGrave = "SW_440";
+
+                /// <summary>
+                /// Tradeable Silence all enemy minions.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ShardOfTheNaaru = "SW_441";
+
+                /// <summary>
+                /// Lifesteal Deal $4 damage.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string VoidShard = "SW_442";
+
+                /// <summary>
+                /// Give a minion +4/+7 and Taunt. When it dies, summon an Elekk.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string ElekkMount = "SW_443";
+
+                /// <summary>
+                /// Battlecry: If any hero took damage this turn, draw a Shadow spell.<br/>
+                /// 2-Cost 2/3 Draenei Minion
+                /// </summary>
                 public const string TwilightDeceptor = "SW_444";
+
+                /// <summary>
+                /// After you cast a Shadow spell, deal 2 damage to each hero.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string Psyfiend = "SW_445";
+
+                /// <summary>
+                /// Both heroes take one extra damage from all sources.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
                 public const string VoidtouchedAttendant = "SW_446";
+
+                /// <summary>
+                /// Start of Game: If the spells in your deck are all Shadow, enter Shadowform.<br/>
+                /// 5-Cost 5/6 Minion
+                /// </summary>
                 public const string DarkbishopBenedictus = "SW_448";
+
+                /// <summary>
+                /// Battlecry: If you've cast a Holy spell while holding this, restore #6 Health to all friendly characters.<br/>
+                /// 3-Cost 3/4 Naga Minion
+                /// </summary>
                 public const string HeraldOfLight = "TID_085";
+
+                /// <summary>
+                /// Battlecry: Dredge for your opponent. Set its Cost to (6).<br/>
+                /// 4-Cost 4/4 Elemental Minion
+                /// </summary>
                 public const string DisarmingElemental = "TID_700";
+
+                /// <summary>
+                /// Put an enemy minion on the bottom of your deck.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Drown = "TID_920";
+
+                /// <summary>
+                /// Miniaturize Taunt. Deathrattle: Summon a 4/4 Whelp with Elusive.<br/>
+                /// 6-Cost 3/7 Dragon Minion
+                /// </summary>
                 public const string ClayMatriarch = "TOY_380";
+
+                /// <summary>
+                /// Your Hero Power costs (0).<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string PapercraftAngel = "TOY_381";
+
+                /// <summary>
+                /// Deathrattle: Get two 0-Cost Bandages that restore 3 Health.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string CarelessCrafter = "TOY_382";
+
+                /// <summary>
+                /// Battlecry: For the rest of the game, your Hero Power refreshes whenever you play a card.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string RazaTheResealed = "TOY_383";
+
+                /// <summary>
+                /// Silence all friendly minions, then give them +1/+2.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PurifyingPower = "TOY_384";
+
+                /// <summary>
+                /// Battlecry: Once per game, if you've summoned 8 other Dragons, take an extra turn. ({0} left!) (Ready!)<br/>
+                /// 5-Cost 4/6 Dragon Minion
+                /// </summary>
                 public const string TimewinderZarimi = "TOY_385";
+
+                /// <summary>
+                /// Draw your lowest and highest Cost Dragon.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ScaleReplica = "TOY_387";
+
+                /// <summary>
+                /// Battlecry: Draw a minion. Transform it into a random Legendary one (keeping its original stats and Cost).<br/>
+                /// 4-Cost 4/3 Minion
+                /// </summary>
                 public const string ChalkArtist = "TOY_388";
+
+                /// <summary>
+                /// Deal $1 damage to all enemy minions. Repeat for each Dragon you're holding.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string FlyOffTheShelves = "TOY_714";
+
+                /// <summary>
+                /// Stuff all minions into a 2-Cost Box, then shuffle it into the opponent's deck.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string Repackage = "TOY_879";
+
+                /// <summary>
+                /// Choose a minion. Add a copy of it to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Seance = "TRL_097";
+
+                /// <summary>
+                /// Restore #3 Health.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Regenerate = "TRL_128";
+
+                /// <summary>
+                /// Whenever you cast a spell, summon a 1/1 Zombie with Taunt.<br/>
+                /// 3-Cost 3/3 Undead Minion
+                /// </summary>
                 public const string SandDrudge = "TRL_131";
+
+                /// <summary>
+                /// Force each minion to attack another random minion.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string MassHysteria = "TRL_258";
+
+                /// <summary>
+                /// Battlecry: Summon all minions from your hand that didn't start in your deck.<br/>
+                /// 8-Cost 7/5 Minion
+                /// </summary>
                 public const string PrincessTalanji = "TRL_259";
+
+                /// <summary>
+                /// Battlecry: Draw 1-Cost minions from your deck until your hand is full.<br/>
+                /// 7-Cost 7/7 Undead Minion
+                /// </summary>
                 public const string BwonsamdiTheDead = "TRL_260";
+
+                /// <summary>
+                /// Taunt Costs (1) less for each spell you've cast this game.<br/>
+                /// 12-Cost 7/8 Undead Minion
+                /// </summary>
                 public const string GraveHorror = "TRL_408";
+
+                /// <summary>
+                /// Destroy 3 of your Mana Crystals. Give all minions in your deck +2/+2.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SurrenderToMadness = "TRL_500";
+
+                /// <summary>
+                /// Battlecry: This turn, your healing effects deal damage instead.<br/>
+                /// 2-Cost 3/2 Undead/Draenei Minion
+                /// </summary>
                 public const string AuchenaiPhantasm = "TRL_501";
+
+                /// <summary>
+                /// Stealth for 1 turn. After a friendly minion dies, shuffle a 1-Cost copy of it into your deck.<br/>
+                /// 1-Cost 0/3 Undead Minion
+                /// </summary>
                 public const string SpiritOfTheDead = "TRL_502";
+
+                /// <summary>
+                /// Destroy all minions and all copies of them (wherever they are).<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string Whirlpool = "TSC_209";
+
+                /// <summary>
+                /// Dredge. If it's a spell, reduce its Cost by (3).<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Illuminate = "TSC_210";
+
+                /// <summary>
+                /// Silence a friendly minion, then deal damage equal to its Attack randomly split among all enemy minions.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string WhispersOfTheDeep = "TSC_211";
+
+                /// <summary>
+                /// Battlecry: If you've cast three spells while holding this, draw 3 cards. ({0} left!) (Ready!)<br/>
+                /// 3-Cost 3/2 Naga Minion
+                /// </summary>
                 public const string Handmaiden = "TSC_212";
+
+                /// <summary>
+                /// Battlecry: Gain +1/+1 for each spell you've cast this turn.<br/>
+                /// 2-Cost 2/3 Naga Minion
+                /// </summary>
                 public const string Queensguard = "TSC_213";
+
+                /// <summary>
+                /// Give a minion +1/+2. If you played a Naga while holding this, add a Serpent Wig to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SerpentWig = "TSC_215";
+
+                /// <summary>
+                /// Colossal +1 Lifesteal<br/>
+                /// 7-Cost 8/10 Beast Minion
+                /// </summary>
                 public const string BlackwaterBehemoth = "TSC_216";
+
+                /// <summary>
+                /// Draw 2 minions. Swap their Health.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string Switcheroo = "TSC_702";
+
+                /// <summary>
+                /// Silence a minion and summon a copy of it. Put a 'Sunken Ritual' on the bottom of your deck.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string AzsharanRitual = "TSC_775";
+
+                /// <summary>
+                /// Battlecry: Refresh an empty Mana Crystal for each spell you've cast this turn. ()<br/>
+                /// 1-Cost 1/1 Naga Minion
+                /// </summary>
                 public const string PriestessValishj = "TSC_828";
+
+                /// <summary>
+                /// Has +1/+1 for each other Astral Automaton you've summoned this game.<br/>
+                /// 1-Cost 1/2 Mechanical Minion
+                /// </summary>
                 public const string AstralAutomaton = "TTN_401";
+
+                /// <summary>
+                /// Titan After this uses an ability, Discover any Legendary minion from any class.<br/>
+                /// 7-Cost 3/10 Minion
+                /// </summary>
                 public const string Amanthul = "TTN_429";
+
+                /// <summary>
+                /// Discover a copy of a minion in your deck. Forge: Get another copy.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string CreationProtocol = "TTN_430";
+
+                /// <summary>
+                /// Battlecry: Transform into an 8/8 copy of a random minion in your hand.<br/>
+                /// 8-Cost 8/8 Minion
+                /// </summary>
                 public const string ShapelessConstellation = "TTN_441";
+
+                /// <summary>
+                /// Taunt. Deathrattle: Summon each other minion you've played this game that did not start in your deck.<br/>
+                /// 6-Cost 5/5 Minion
+                /// </summary>
                 public const string RaDen = "TTN_481";
+
+                /// <summary>
+                /// Deathrattle: Shuffle a copy of this into your deck with permanent +3/+3.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string StudentOfTheStars = "TTN_482";
+
+                /// <summary>
+                /// Give all enemy minions -2 Attack. Destroy any with 0 Attack.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Serenity = "TTN_483";
+
+                /// <summary>
+                /// Battlecry: Discover a Legendary Priest minion from the past.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string FalseDisciple = "TTN_484";
+
+                /// <summary>
+                /// Transform minions in your hand into ones that cost (3) more. (They keep their original Cost.)<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string TheStarsAlign = "TTN_485";
+
+                /// <summary>
+                /// Restore #8 Health. Discover a card that costs the amount Overhealed.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string GraceOfTheHighfather = "TTN_745";
+
+                /// <summary>
+                /// Whenever you summon a minion, set its Health equal to this minion's.<br/>
+                /// 4-Cost 2/7 Minion
+                /// </summary>
                 public const string HighPriestAmet = "ULD_262";
+
+                /// <summary>
+                /// Give a minion Reborn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string EmbalmingRitual = "ULD_265";
+
+                /// <summary>
+                /// Reborn Deathrattle: Give a random friendly minion +1/+1.<br/>
+                /// 2-Cost 1/2 Undead Minion
+                /// </summary>
                 public const string Grandmummy = "ULD_266";
+
+                /// <summary>
+                /// Battlecry: Summon a random friendly minion that died this game. Give it Reborn.<br/>
+                /// 4-Cost 3/1 Minion
+                /// </summary>
                 public const string Psychopomp = "ULD_268";
+
+                /// <summary>
+                /// Battlecry: Destroy a friendly minion, then return it to life with full Health.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string WretchedReclaimer = "ULD_269";
+
+                /// <summary>
+                /// At the end of your turn, restore #5 Health to a damaged friendly character.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string SandhoofWaterbearer = "ULD_270";
+
+                /// <summary>
+                /// Deal $1 damage to all enemies. Restore #1 Health to all friendly characters.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string HolyRipple = "ULD_272";
+
+                /// <summary>
+                /// Lifesteal Deal $3 damage to a minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Penance = "ULD_714";
+
+                /// <summary>
+                /// Silence and destroy all minions.<br/>
+                /// 9-Cost Spell
+                /// </summary>
                 public const string PlagueOfDeath = "ULD_718";
+
+                /// <summary>
+                /// Quest: Restore 15 Health. Reward: Obelisk's Eye.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ActivateTheObelisk = "ULD_724";
+
+                /// <summary>
+                /// Battlecry: Choose a minion. Summon a 1/1 copy of it.<br/>
+                /// 3-Cost 2/3 Minion
+                /// </summary>
                 public const string MirageCaller = "UNG_022";
+
+                /// <summary>
+                /// Discover a copy of a spell in your deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShadowVisions = "UNG_029";
+
+                /// <summary>
+                /// Restore #5 Health to a minion and your hero.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string BindingHeal = "UNG_030";
+
+                /// <summary>
+                /// Deathrattle: Copy a card from your opponent's deck and add it to your hand.<br/>
+                /// 1-Cost 1/2 Elemental Minion
+                /// </summary>
                 public const string CrystallineOracle = "UNG_032";
+
+                /// <summary>
+                /// Your spells cost (1) less (but not less than 1).<br/>
+                /// 2-Cost 2/3 Elemental Minion
+                /// </summary>
                 public const string RadiantElemental = "UNG_034";
+
+                /// <summary>
+                /// Battlecry: Look at 3 cards. Guess which one started in your opponent's deck to get a copy of it.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string CuriousGlimmerroot = "UNG_035";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// Taunt Deathrattle: Give a random friendly minion +1/+1.<br/>
+                /// Tier-3 2/5 Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// Taunt Deathrattle: Give a random friendly minion +2/+2.<br/>
+                /// Tier-3 4/10 Minion
+                /// </summary>
                 public const string TortollanShellraiser = "UNG_037";
+
+                /// <summary>
+                /// Discover a minion that costs (8) or more. Summon it.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string FreeFromAmber = "UNG_854";
+
+                /// <summary>
+                /// Quest: Summon 6 Deathrattle minions. Reward: Amara, Warden of Hope.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string AwakenTheMakers = "UNG_940";
+
+                /// <summary>
+                /// Whenever you cast a spell, add a random Priest spell to your hand.<br/>
+                /// 4-Cost 3/5 Elemental Minion
+                /// </summary>
                 public const string LyraTheSunshard = "UNG_963";
+
+                /// <summary>
+                /// Deal $2 damage to a minion. Deal $2 damage to your hero. (3 Drinks left!)<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string NightshadeTea = "VAC_404";
+
+                /// <summary>
+                /// Deal $2 damage to all enemies. If your hero took damage this turn, deal $1 more.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string HotCoals = "VAC_414";
+
+                /// <summary>
+                /// Summon a copy of an enemy minion. If you have 20 or less Health, destroy the original.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string SensoryDeprivation = "VAC_417";
+
+                /// <summary>
+                /// Taunt Costs (1) less for each time your hero has taken damage on your turn.<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string SaunaRegular = "VAC_418";
+
+                /// <summary>
+                /// Deal $4 damage to both heroes.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Acupuncture = "VAC_419";
+
+                /// <summary>
+                /// Battlecry: Get two Fortunes that are copies of the top card of your deck.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string NarainSoothfancy = "VAC_420";
+
+                /// <summary>
+                /// Taunt Battlecry: Set the Cost of the top card of your deck to (1).<br/>
+                /// 5-Cost 4/5 Minion
+                /// </summary>
                 public const string TwilightMedium = "VAC_423";
+
+                /// <summary>
+                /// Each player summons their highest Cost minion that died this game.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string RestInPeace = "VAC_457";
+
+                /// <summary>
+                /// Whenever this minion takes damage, also deal that amount to your hero.<br/>
+                /// 1-Cost 2/4 Undead/Pirate Minion
+                /// </summary>
                 public const string BrainMasseuse = "VAC_512";
+
+                /// <summary>
+                /// Hunter Tourist Battlecry: Choose 2 minions. Swap their stats.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string ChillinVoljin = "VAC_957";
+
+                /// <summary>
+                /// Deal $2 damage to all enemies. Restore #2 Health to all friendly characters.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string HolyNovaVanilla = "VAN_CS1_112";
+
+                /// <summary>
+                /// Take control of an enemy minion.<br/>
+                /// 10-Cost Spell
+                /// </summary>
                 public const string MindControlVanilla = "VAN_CS1_113";
+
+                /// <summary>
+                /// Change a minion's Attack to be equal to its Health.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string InnerFireVanilla = "VAN_CS1_129";
+
+                /// <summary>
+                /// Deal $2 damage.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string HolySmiteVanilla = "VAN_CS1_130";
+
+                /// <summary>
+                /// Put a copy of a random card in your opponent's hand into your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string MindVisionVanilla = "VAN_CS2_003";
+
+                /// <summary>
+                /// Give a minion +2 Health. Draw a card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PowerWordShieldVanilla = "VAN_CS2_004";
+
+                /// <summary>
+                /// Destroy a minion with 3 or less Attack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShadowWordPainVanilla = "VAN_CS2_234";
+
+                /// <summary>
+                /// Whenever a minion is healed, draw a card.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
                 public const string NorthshireClericVanilla = "VAN_CS2_235";
+
+                /// <summary>
+                /// Double a minion's Health.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string DivineSpiritVanilla = "VAN_CS2_236";
+
+                /// <summary>
+                /// Deal $5 damage to the enemy hero.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MindBlastVanilla = "VAN_DS1_233";
+
+                /// <summary>
+                /// Battlecry: Take control of an enemy minion that has 2 or less Attack.<br/>
+                /// 6-Cost 4/5 Minion
+                /// </summary>
                 public const string CabalShadowPriestVanilla = "VAN_EX1_091";
+
+                /// <summary>
+                /// Silence a minion.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SilenceVanilla = "VAN_EX1_332";
+
+                /// <summary>
+                /// Gain control of an enemy minion with 3 or less Attack until end of turn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string ShadowMadnessVanilla = "VAN_EX1_334";
+
+                /// <summary>
+                /// This minion's Attack is always equal to its Health.<br/>
+                /// 4-Cost 0/5 Minion
+                /// </summary>
                 public const string LightspawnVanilla = "VAN_EX1_335";
+
+                /// <summary>
+                /// Copy 2 cards in your opponent's deck and add them to your hand.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ThoughtstealVanilla = "VAN_EX1_339";
+
+                /// <summary>
+                /// At the start of your turn, restore #3 Health to a damaged friendly character.<br/>
+                /// 2-Cost 0/5 Minion
+                /// </summary>
                 public const string LightwellVanilla = "VAN_EX1_341";
+
+                /// <summary>
+                /// Put a copy of a random minion from your opponent's deck into the battlefield.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string MindgamesVanilla = "VAN_EX1_345";
+
+                /// <summary>
+                /// Double the damage and healing of your spells and Hero Power.<br/>
+                /// 7-Cost 7/7 Minion
+                /// </summary>
                 public const string ProphetVelenVanilla = "VAN_EX1_350";
+
+                /// <summary>
+                /// Your cards and powers that restore Health now deal damage instead.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
                 public const string AuchenaiSoulpriestVanilla = "VAN_EX1_591";
+
+                /// <summary>
+                /// Restore #4 Health to ALL minions.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string CircleOfHealingVanilla = "VAN_EX1_621";
+
+                /// <summary>
+                /// Destroy a minion with 5 or more Attack.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ShadowWordDeathVanilla = "VAN_EX1_622";
+
+                /// <summary>
+                /// Battlecry: Give a friendly minion +3 Health.<br/>
+                /// 6-Cost 6/6 Minion
+                /// </summary>
                 public const string TempleEnforcerVanilla = "VAN_EX1_623";
+
+                /// <summary>
+                /// Deal $5 damage. Restore #5 Health to your hero.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string HolyFireVanilla = "VAN_EX1_624";
+
+                /// <summary>
+                /// Your Hero Power becomes 'Deal 2 damage.' If already in Shadowform: 3 damage.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ShadowformVanilla = "VAN_EX1_625";
+
+                /// <summary>
+                /// Silence all enemy minions. Draw a card.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string MassDispelVanilla = "VAN_EX1_626";
+
+                /// <summary>
+                /// Battlecry: Draw a spell. If it's a Holy spell, reduce its Cost by (2).<br/>
+                /// 3-Cost 2/3 Minion
+                /// </summary>
                 public const string DevoutDungeoneer = "WC_013";
+
+                /// <summary>
+                /// Destroy ALL odd-Attack minions.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string AgainstAllOdds = "WC_014";
+
+                /// <summary>
+                /// Battlecry: If you've restored Health this turn, Discover a spell from your deck.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
                 public const string ClericOfAnshe = "WC_803";
+
+                /// <summary>
+                /// Battlecry: Discover a Deathrattle card. It costs (1) less.<br/>
+                /// 2-Cost 1/2 Minion
+                /// </summary>
                 public const string MuseumCuratorWONDERS = "WON_056";
+
+                /// <summary>
+                /// Battlecry: Summon a random friendly minion that died this game.<br/>
+                /// 4-Cost 3/4 Minion
+                /// </summary>
                 public const string OnyxBishopWONDERS = "WON_057";
+
+                /// <summary>
+                /// Battlecry and Inspire: Deal 4 damage to each hero.<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string SpawnOfShadowsWONDERS = "WON_058";
+
+                /// <summary>
+                /// Whenever you draw a card, reduce its Cost by (1).<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string ShadowfiendWONDERS = "WON_061";
+
+                /// <summary>
+                /// Battlecry: Deal 3 damage to each hero.<br/>
+                /// 1-Cost 3/1 Minion
+                /// </summary>
                 public const string ShadowbomberWONDERS = "WON_062";
+
+                /// <summary>
+                /// Battlecry and Inspire: Summon a random Legendary minion.<br/>
+                /// 7-Cost 5/4 Minion
+                /// </summary>
                 public const string ConfessorPaletressWONDERS = "WON_063";
+
+                /// <summary>
+                /// Tradeable Destroy a 4-Attack minion. Corrupt: Destroy ALL 4-Attack minions.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShadowWordForbid = "WON_064";
+
+                /// <summary>
+                /// After you summon a minion, give it +1 Health.<br/>
+                /// 1-Cost 1/2 Dragon/Pirate Minion
+                /// </summary>
                 public const string ShipsChirurgeon = "WON_065";
+
+                /// <summary>
+                /// Battlecry: If your deck has no duplicates, Discover a Dragon. Deal damage equal to its Cost to all other minions.<br/>
+                /// 7-Cost 6/6 Dragon Minion
+                /// </summary>
                 public const string MurozondThiefOfTime = "WON_066";
+
+                /// <summary>
+                /// Taunt Whenever a character is healed, give your C'Thun +1/+1 (wherever it is).<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
                 public const string HoodedAcolyteWONDERS = "WON_313";
+
+                /// <summary>
+                /// Battlecry: Give a minion -3 Attack this turn.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string ShrinkmeisterWONDERS = "WON_314";
+
+                /// <summary>
+                /// Battlecry: Restore #5 Health.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string DarkshireAlchemistWONDERS = "WON_315";
+
+                /// <summary>
+                /// Put a copy of an enemy minion into your hand. It costs (1).<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ConvertWONDERS = "WON_342";
+
+                /// <summary>
+                /// Give a minion Immune this turn and +2/+2. (Flips each turn.)<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SilvermoonBrochure = "WORK_017";
+
+                /// <summary>
+                /// Battlecry: Put the highest Cost card in your hand on top of your deck.<br/>
+                /// 2-Cost 4/4 Draenei Minion
+                /// </summary>
                 public const string EnvoyOfProsperity = "WORK_031";
+
+                /// <summary>
+                /// Battlecry: If your hero took damage this turn, summon a copy of this.<br/>
+                /// 3-Cost 4/3 Undead Minion
+                /// </summary>
                 public const string JobShadower = "WORK_032";
+
+                /// <summary>
+                /// Summon 10 1/1 Lightbugs with Lifesteal. Save any excess in a 1-Cost Bottle.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string SwarmOfLightbugs = "WW_052";
+
+                /// <summary>
+                /// Get a copy of each card your opponent played last turn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string TramHeist = "WW_053";
+
+                /// <summary>
+                /// Battlecry: Deal 4 damage to this minion. Overheal: Deal 1 damage to all enemy minions.<br/>
+                /// 3-Cost 3/7 Minion
+                /// </summary>
                 public const string InjuredHauler = "WW_381";
+
+                /// <summary>
+                /// Battlecry: Discover a spell from your deck. Quickdraw: Enemy deck instead.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
                 public const string BenevolentBanker = "WW_384";
+
+                /// <summary>
+                /// Taunt Costs (1) less for each 1-Cost card you've played this game.<br/>
+                /// 7-Cost 4/6 Minion
+                /// </summary>
                 public const string ThirstyDrifter = "WW_387";
+
+                /// <summary>
+                /// Battlecry: If your deck started with no duplicates, summon 5/5 copies of 4 random minions in your deck.<br/>
+                /// 8-Cost 5/5 Minion
+                /// </summary>
                 public const string EliseBadlandsSavior = "WW_392";
+
+                /// <summary>
+                /// Deal $10 damage to an enemy minion. Save any excess in a 1-Cost Bottle.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string InvasiveShadeleaf = "WW_393";
+
+                /// <summary>
+                /// Battlecry: Copy each 1-Cost card in your hand.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string PipThePotent = "WW_394";
+
+                /// <summary>
+                /// Restore #8 Health to a damaged character. Save any excess in a 1-Cost Bottle.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string HolySpringwater = "WW_395";
+
+                /// <summary>
+                /// Summon a 4/4 copy of a random minion in your opponent's hand.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string PossePossession = "WW_600";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Dragon, Discover a spell from your deck.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string ClericOfScales = "YOD_013";
+
+                /// <summary>
+                /// Battlecry: Deal damage to a minion equal to its Attack.<br/>
+                /// 6-Cost 4/4 Dragon Minion
+                /// </summary>
                 public const string AeonReaver = "YOD_014";
+
+                /// <summary>
+                /// Discover a 2-Cost minion. Summon it and give it +3 Health.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string DarkProphecy = "YOD_015";
+
+                /// <summary>
+                /// Battlecry: Your next healing effect deals damage instead.<br/>
+                /// 1-Cost 1/3 Undead Minion
+                /// </summary>
                 public const string ShadowtouchedKvaldir = "YOG_300";
+
+                /// <summary>
+                /// Choose a character. If it's friendly, restore #6 Health. If it's an enemy, deal $3 damage.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string TwilightTorrent = "YOG_508";
+
+                /// <summary>
+                /// After a friendly Undead dies, deal 2 damage to the enemy hero and get a random Shadow Priest spell.<br/>
+                /// 3-Cost 1/5 Undead Minion
+                /// </summary>
                 public const string SoulburnerVaria = "YOG_520";
+
+                /// <summary>
+                /// Battlecry: Reduce the Cost of all Corrupt and Corrupted cards in your hand and deck by (2).<br/>
+                /// 5-Cost 3/5 Minion
+                /// </summary>
                 public const string DarkInquisitorXanesh = "YOP_007";
+
+                /// <summary>
+                /// Your healing effects also give affected minions +2 Health.<br/>
+                /// 4-Cost 3/6 Elemental/Beast Minion
+                /// </summary>
                 public const string Lightsteed = "YOP_008";
             }
         }

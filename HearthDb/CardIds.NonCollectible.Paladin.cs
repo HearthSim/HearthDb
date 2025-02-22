@@ -7,746 +7,4545 @@ namespace HearthDb
         {
             public class Paladin
             {
+                /// <summary>
+                /// Give a minion +3 Attack.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string BlessingOfMight = "RLK_Prologue_CS2_087";
+
+                /// <summary>
+                /// Give a minion +3 Attack.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string BlessingofMight_BlessingOfMight = "RLK_Prologue_CS2_087_AI";
+
+                /// <summary>
+                /// +3 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessingofMight_BlessingOfMightEnchantment = "RLK_Prologue_CS2_087e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost Weapon
+                /// </summary>
                 public const string LightsJustice = "RLK_Prologue_CS2_091";
+
+                /// <summary>
+                /// Give a minion +4/+4. (+4 Attack/+4 Health)<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string BlessingOfKingsBASIC = "RLK_Prologue_CS2_092";
+
+                /// <summary>
+                /// Give a minion +4/+4. (+4 Attack/+4 Health)<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string BlessingofKings_BlessingOfKings = "RLK_Prologue_CS2_092_AI";
+
+                /// <summary>
+                /// +4/+4.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessingofKings_BlessingOfKingsEnchantment = "RLK_Prologue_CS2_092e";
+
+                /// <summary>
+                /// Deal $2 damage to all enemies.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Consecration = "RLK_Prologue_CS2_093";
+
+                /// <summary>
+                /// Deal $3 damage. Draw a card.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string HammerOfWrath = "RLK_Prologue_CS2_094";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 2/1 Draenei Minion
+                /// </summary>
                 public const string NobleSacrifice_Defender = "EX1_130a";
+
+                /// <summary>
+                /// This minion's Attack has been doubled.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessedChampion_BlessedChampionEnchantment = "EX1_355e";
+
+                /// <summary>
+                /// When this minion attacks, the player who blessed it draws a card.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessingofWisdom_BlessingOfWisdomEnchantment1 = "EX1_363e";
+
+                /// <summary>
+                /// When this minion attacks, the enemy player draws a card.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessingofWisdom_BlessingOfWisdomEnchantment2 = "EX1_363e2";
+
+                /// <summary>
+                /// Has +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SwordofJustice_JusticeServedEnchantment = "EX1_366e";
+
+                /// <summary>
+                /// Health reduced to 1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Repentance_RepentanceEnchantment = "EX1_379e";
+
+                /// <summary>
+                /// Attack changed to 1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string AldorPeacekeeper_StandDownEnchantment = "EX1_382e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 5-Cost Weapon
+                /// </summary>
                 public const string TirionFordring_AshbringerToken = "EX1_383t";
+
+                /// <summary>
+                /// Health changed to 1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Equality_EqualityEnchantmentExpert11 = "EX1_619e";
+
+                /// <summary>
+                /// Draw cards until you have as many in hand as your opponent.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string DivineFavor = "RLK_Prologue_EX1_349";
+
+                /// <summary>
+                /// Restore #8 Health. Draw 3 cards.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string LayOnHands = "RLK_Prologue_EX1_354";
+
+                /// <summary>
+                /// Change the Health of ALL minions to 1.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string EqualityExpert1 = "RLK_Prologue_EX1_619";
+
+                /// <summary>
+                /// Health changed to 1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Equality_EqualityEnchantmentExpert12 = "RLK_Prologue_EX1_619e";
+
+                /// <summary>
+                /// +3/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Avenge_VengeanceEnchantment = "FP1_020e";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Quartermaster_WellEquippedEnchantmentGVG1 = "GVG_060e";
+
+                /// <summary>
+                /// Increased Stats.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ScarletPurifier_PureEnchantment = "GVG_101e";
+
+                /// <summary>
+                /// Battlecry: Give your Silver Hand Recruits +2/+2.<br/>
+                /// 5-Cost 2/5 Minion
+                /// </summary>
                 public const string Quartermaster = "RLK_Prologue_GVG_060";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Quartermaster_WellEquippedEnchantmentGVG2 = "RLK_Prologue_GVG_060e";
+
+                /// <summary>
+                /// Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string MusterForBattle = "RLK_Prologue_GVG_061";
+
+                /// <summary>
+                /// Your next Dragon costs (2) less.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string DragonConsort_UnchainedEnchantment = "BRM_018e";
+
+                /// <summary>
+                /// +3 Attack and Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SealofChampions_SealOfChampionsEnchantmentTGT1 = "AT_074e2";
+
+                /// <summary>
+                /// Warhorse Trainer is granting +2 Attack and Taunt.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string WarhorseTrainer_MightOfTheHostlerEnchantmentTGT1 = "AT_075e";
+
+                /// <summary>
+                /// Attack changed to 1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string EadricthePure_PurifiedEnchantment = "AT_081e";
+
+                /// <summary>
+                /// Give a minion +3 Attack and Divine Shield.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SealOfChampions = "RLK_Prologue_AT_074";
+
+                /// <summary>
+                /// +3 Attack and Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SealofChampions_SealOfChampionsEnchantmentTGT2 = "RLK_Prologue_AT_074e2";
+
+                /// <summary>
+                /// Your Silver Hand Recruits have +2 Attack and Taunt.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string WarhorseTrainer = "RLK_Prologue_AT_075";
+
+                /// <summary>
+                /// Warhorse Trainer is granting +2 Attack and Taunt.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string WarhorseTrainer_MightOfTheHostlerEnchantmentTGT2 = "RLK_Prologue_AT_075e";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string ReinforceHeroSkins1 = "CS2_101_H1";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string TheSilverHandHeroSkins1 = "CS2_101_H1_AT_132";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string ReinforceHeroSkins2 = "CS2_101_H2";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string TheSilverHandHeroSkins2 = "CS2_101_H2_AT_132";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string ReinforceHeroSkins3 = "CS2_101_H3";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string TheSilverHandHeroSkins3 = "CS2_101_H3_AT_132";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string ReinforceHeroSkins4 = "CS2_101_H4";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkins1 = "HERO_04aibp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkins1 = "HERO_04aibp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkins2 = "HERO_04aphp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkins2 = "HERO_04aphp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkins3 = "HERO_04auhp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkins3 = "HERO_04auhp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkins4 = "HERO_04ayhp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkins4 = "HERO_04ayhp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkins5 = "HERO_04bchp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkins5 = "HERO_04bchp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkins6 = "HERO_04bdhp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkins6 = "HERO_04bdhp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkinsEnchantment = "HERO_04ebp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkinsEnchantment = "HERO_04ebp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkins7 = "HERO_04fbp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkins7 = "HERO_04fbp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_Reinforce_YrelHeroSkins = "HERO_04fbp3";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkins8 = "HERO_04lbp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkins8 = "HERO_04lbp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkins9 = "HERO_04ubp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkins9 = "HERO_04ubp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkins10 = "HERO_04wbp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandHeroSkins10 = "HERO_04wbp2";
+
+                /// <summary>
+                /// Change the Health of ALL minions to 1.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string EqualityTavernBrawl = "FB_Champs_EX1_619";
+
+                /// <summary>
+                /// Recruit 3 minions that cost (2) or less.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string CallToArms = "FB_Champs_LOOT_093";
+
+                /// <summary>
+                /// Give your Silver Hand Recruits +2/+2 and Taunt.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string LevelUpTavernBrawl2 = "FB_Champs_LOOT_333";
+
+                /// <summary>
+                /// Your opponent is a Paladin.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string PaladinTavernBrawl1 = "FB_Juggernaut_Paladin";
+
+                /// <summary>
+                /// Your opponent: Paladin<br/>
+                /// Enchantment
+                /// </summary>
                 public const string OpponentsClassPaladinEnch = "FB_Juggernaut_Paladin_Ench";
+
+                /// <summary>
+                /// Select Paladin as your next class.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string PaladinTavernBrawl2 = "FB_LK_Paladin_copy";
+
+                /// <summary>
+                /// Add Paladin cards to your deck.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string NextHeroPaladinEnchCopy = "FB_LK_Paladin_Ench_copy";
+
+                /// <summary>
+                /// Add Paladin cards to your deck.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string NextHeroPaladinEnch = "FB_TagTeam_Paladin_Ench";
+
+                /// <summary>
+                /// After you attack, Summon a legendary minion from your deck.<br/>
+                /// 6-Cost Weapon
+                /// </summary>
                 public const string GreatRoyalSword = "PCVPDR_SCH_Paladint1";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RushTheKeep2 = "PVPDR_AV_Neutralp6p3e1";
+
+                /// <summary>
+                /// Give all minions in your hand +3/+3 and Divine Shield. Allied: Paladin.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string ForgeInLight = "PVPDR_AV_Neutralt1";
+
+                /// <summary>
+                /// +3/+3<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ForgedInLight = "PVPDR_AV_Neutralt1e1";
+
+                /// <summary>
+                /// Stats changed to 10/10.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HeavyArmor2 = "PVPDR_AV_Passive32e2";
+
+                /// <summary>
+                /// Summon a 1/1 Silver Hand Recruit, then add one to your hand.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string BringOnRecruits = "PVPDR_DMF_Paladinp1";
+
+                /// <summary>
+                /// For the rest of the game, your Silver Hand Recruits have +2/+2.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string MenAtArms = "PVPDR_DMF_Paladint1";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ToArms1 = "PVPDR_DMF_Paladint1e";
+
+                /// <summary>
+                /// +2/+2<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ToArms2 = "PVPDR_DMF_Paladint1e2";
+
+                /// <summary>
+                /// Deathrattle: Draw a Dragon, Murloc, and Mech. They cost (3) less.<br/>
+                /// 4-Cost 4/6 Dragon Minion
+                /// </summary>
                 public const string Drocomurchanicas = "PVPDR_DMF_Paladint2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Murroar = "PVPDR_DMF_Paladint2e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string BlessingsTavernBrawl = "PVPDR_Duels_Buckets_PaBuffs";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Peacekeepers = "PVPDR_Duels_Buckets_PaControl";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string HolyWarriors = "PVPDR_Duels_Buckets_PaDivine";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DragonsTavernBrawl3 = "PVPDR_Duels_Buckets_PaDragon";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Caretaking = "PVPDR_Duels_Buckets_PaHealing";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Veterans = "PVPDR_Duels_Buckets_PaMid";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SecretWhispersTavernBrawl2 = "PVPDR_Duels_Buckets_PaSecrets";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string TheSilverHandTavernBrawl = "PVPDR_Duels_Buckets_PaSlver";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DivineEngines = "PVPDR_Duels_Buckets_PMech";
+
+                /// <summary>
+                /// Summon a 2/2 Amalgam with all minion types.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string NewRecruitsTavernBrawl = "PVPDR_Finley_HP1";
+
+                /// <summary>
+                /// Give a minion Windfury and Divine Shield. Overload: (2)<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string PowerUpTavernBrawl1 = "PVPDR_Finley_HP3";
+
+                /// <summary>
+                /// Give all friendly minions +2 Health. Shuffle this card into your deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string FinleysPithHelmetTavernBrawl = "PVPDR_Finley_T1";
+
+                /// <summary>
+                /// Rush. Reborn. Has +2 Attack for each other minion on the battlefield.<br/>
+                /// 5-Cost 3/5 Beast Minion
+                /// </summary>
                 public const string MaxwellMightySteedTavernBrawl = "PVPDR_Finley_T2";
+
+                /// <summary>
+                /// Battlecry: Summon six 1/1 Silver Hand Recruits and give all friendly minions Taunt and Divine Shield.<br/>
+                /// 10-Cost 6/6 Minion
+                /// </summary>
                 public const string KarlTheLostTavernBrawl = "PVPDR_Finley_T5";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CafeteriaBob = "PVPDR_Hero_Bob";
+
+                /// <summary>
+                /// Sir Finley rides into battle, ready to dispense justice against his final foe.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SirFinleyTavernBrawl = "PVPDR_Hero_Finley";
+
+                /// <summary>
+                /// Stat Increases Resurrection To punt is human; to shield, divine.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TuralyonTheTenured = "PVPDR_Hero_Turalyon";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string VanndarStormpikeTavernBrawl3 = "PVPDR_Hero_Vanndarv3";
+
+                /// <summary>
+                /// Resurrect a friendly minion with 1 Health remaining.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string FromGoldenLight = "PVPDR_SCH_Paladinp1";
+
+                /// <summary>
+                /// After your hero attacks, summon a Legendary minion from your deck.<br/>
+                /// 7-Cost Weapon
+                /// </summary>
                 public const string RoyalGreatsword = "PVPDR_SCH_Paladint1";
+
+                /// <summary>
+                /// Set a minion's Attack and Health to 3.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string ModestAspirations = "PVPDR_YOP_PaladinP1";
+
+                /// <summary>
+                /// Stats set to 3/3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ModestAspiration = "PVPDR_YOP_PaladinP1e1";
+
+                /// <summary>
+                /// Rush. Battlecry: Cast 1 random Blessing on this minion. (Improves during run)<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
                 public const string FavoredRacer = "PVPDR_YOP_PaladinT1";
+
+                /// <summary>
+                /// Change the Attack, Health, and Cost of all your minions to 3 for the rest of the game.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string HumbleBlessings = "PVPDR_YOP_PaladinT3";
+
+                /// <summary>
+                /// Your minions Cost, Attack, and Health are 3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HumbleBlessing1 = "PVPDR_YOP_PaladinT3e1";
+
+                /// <summary>
+                /// Cost, Attack, and Health are set 3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HumbleBlessing2 = "PVPDR_YOP_PaladinT3e2";
+
+                /// <summary>
+                /// Cost, Attack, and Health are set 3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HumbleBlessing3 = "PVPDR_YOP_PaladinT3e3";
+
+                /// <summary>
+                /// After you summon a minion, it gains Divine Shield and Rush.<br/>
+                /// Tier-4 2/6 Minion
+                /// </summary>
                 public const string SuLeadfoot = "PVPDR_YOP_WarPalT1";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string HanchoTavernBrawl = "TB_BossRumble_001";
+
+                /// <summary>
+                /// In a puzzling turn, Kangor has found himself thriving as a dance celebrity.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string KangorDancingKingTavernBrawl = "TB_BotB_Kangor";
+
+                /// <summary>
+                /// Summon a 1/2 Mech with Taunt. (Swaps to Light up the Stage)<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string GetOnTheFloorTavernBrawl = "TB_BotB_Kangor_001p";
+
+                /// <summary>
+                /// Give a friendly minion +1/+1 and Divine Shield. (Swaps to Get on the Floor)<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string LightUpTheStageTavernBrawl = "TB_BotB_Kangor_002p";
+
+                /// <summary>
+                /// +1/+1 and Divine Shield<br/>
+                /// Enchantment
+                /// </summary>
                 public const string InTheSpotlightTavernBrawl = "TB_BotB_Kangor_002pe";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string DiscoStarTavernBrawl = "TB_BotB_RisingStar_Paladin";
+
+                /// <summary>
+                /// Add Paladin cards to your deck.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SecondClassPaladinTavernBrawl = "TB_ClassRandom_Paladin";
+
+                /// <summary>
+                /// Change the Attack of all other minions to 1.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string FollowMyRulesTavernBrawl = "TB_CoOpv3_200";
+
+                /// <summary>
+                /// Battlecry: Equip a 5/3 Lifesteal weapon.<br/>
+                /// 9-Cost Hero
+                /// </summary>
                 public const string UtherOfTheEbonBladeTavernBrawl = "TB_DK_Uther";
+
+                /// <summary>
+                /// Programmed to delete all intruders!<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string OmnotronDefenseSystemTavernBrawl = "TB_EVILBRM_Omnotron01";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GeorgeTheFallenTavernBrawl2 = "TB_Henchmania_George";
+
+                /// <summary>
+                /// Last seen exploring the deserts of Tanaris.<br/>
+                /// 5-Cost Hero
+                /// </summary>
                 public const string SirFinleyMrrggltonTavernBrawl2 = "TB_LEAGUE_REVIVAL_FinleyHero";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string PrinceRenathalTavernBrawl4 = "TB_MAW_PrinceRen_P";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SireDenathriusTavernBrawl4 = "TB_MAW_SireDenathrius_P";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MimironsHeadTavernBrawl = "TB_Mimiron_faceoff";
+
+                /// <summary>
+                /// Bob can give you a second chance, even if you've had a third rate run.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AviatorBobTavernBrawl = "TB_RoadToNR_Bob";
+
+                /// <summary>
+                /// Has any opponent ever been THIS worthy?<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SirFinleyTavernBrawl2 = "TB_RoadToNR_Finley";
+
+                /// <summary>
+                /// Give a minion Divine Shield &amp; Windfury.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string PowerUpTavernBrawlTavernBrawl = "TB_RoadToNR_Finley_HP";
+
+                /// <summary>
+                /// Has any opponent ever been THIS worthy?<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SirFinleyTavernBrawl3 = "TB_RoadToNR_FinleyBoss";
+
+                /// <summary>
+                /// Bend the Light to your will, while you unleash the Apocalypse!<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DarkLightTavernBrawl = "TB_TagTeam_Paladin";
+
+                /// <summary>
+                /// Sir Finley rides into battle, ready to dispense justice against his final foe.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SirFinleyTavernBrawl4 = "TB_TempleOutrun_Finley";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string V07Tr0N = "THD_018";
+
+                /// <summary>
+                /// Passive After a friendly character loses Divine Shield, give a minion in your hand +1/+1.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string V07TR0N_ImpulseRedirection = "THD_018p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string LeeroyJenkins = "THD_019";
+
+                /// <summary>
+                /// The next minion you play this turn costs Health instead of Mana.<br/>
+                /// 0-Cost HeroPower
+                /// </summary>
                 public const string RecklessReinforcementsHeroic = "THD_019hp";
+
+                /// <summary>
+                /// The next minion you play this turn costs Health instead of Mana.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LeeroooyJeeenkinsHeroic = "THD_019hpe";
+
+                /// <summary>
+                /// Both players cards cost (1) less.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string LeeroyJenkins_LetsDoThis = "THD_019p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string NozdormuTavernBrawl = "THD_020";
+
+                /// <summary>
+                /// Draw a Dragon. It costs (1) less.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string DragonflightHeroic1 = "THD_020hp";
+
+                /// <summary>
+                /// Costs (1) less.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string DragonflightHeroic2 = "THD_020hpe";
+
+                /// <summary>
+                /// Start with an extra Mana Crystal. You only have 30 seconds to take your turn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Nozdormu_ItsAboutTime = "THD_020p";
+
+                /// <summary>
+                /// You only have 30 seconds to take your turn.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Nozdormu_ItsAboutTimeEnch = "THD_020pe";
+
+                /// <summary>
+                /// Give your hero Windfury this turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string WrynnfuryHeroic1 = "THD_037hp";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SirFinleyMrrggltonTavernBrawl = "THD_044";
+
+                /// <summary>
+                /// Draw a Murloc.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
                 public const string FloatUpHeroic = "THD_044hp";
+
+                /// <summary>
+                /// Your Murlocs have Rush.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SirFinleyMrrgglton_ScalesOfJustice = "THD_044p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string LadyLiadrin = "THD_108";
+
+                /// <summary>
+                /// Refresh your Mana Crystals. Lock this for that many turns.<br/>
+                /// 0-Cost HeroPower
+                /// </summary>
                 public const string PatienceHeroic1 = "THD_108hp";
+
+                /// <summary>
+                /// Refresh your Mana Crystals (Can be used again in turns!)<br/>
+                /// HeroPower
+                /// </summary>
                 public const string PatienceHeroic2 = "THD_108hp2";
+
+                /// <summary>
+                /// After you cast a spell on a friendly minion, draw a card. It costs (2) less. Once per turn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string LadyLiadrin_LiadrinsChampion1 = "THD_108p";
+
+                /// <summary>
+                /// Costs (2) less.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LadyLiadrin_LiadrinsChampion2 = "THD_108pe";
+
+                /// <summary>
+                /// Stats changed to 3/3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string KeeperofUldaman_WatchedEnchantment = "LOE_017e";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// Deathrattle: Give a random friendly minion Divine Shield.<br/>
+                /// Tier-2 2/1 Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// Deathrattle: Give 2 random friendly minions Divine Shield.<br/>
+                /// Tier-2 4/2 Minion
+                /// </summary>
                 public const string SelflessHero = "BG_OG_221";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Murloc Minion
+                /// </summary>
                 public const string VilefinInquisitor_SilverHandMurloc = "OG_006a";
+
+                /// <summary>
+                /// Summon a 1/1 Silver Hand Murloc.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string VilefinInquisitor_TheTidalHand = "OG_006b";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RallyingBlade_RallyEnchantment = "OG_222e";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ALightintheDarkness_BeaconOfHopeEnchantment = "OG_311e";
+
+                /// <summary>
+                /// Give a minion +1/+2.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DivineStrength = "RLK_Prologue_OG_223";
+
+                /// <summary>
+                /// Summon five 1/1 Silver Hand Recruits.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string StandAgainstDarkness = "RLK_Prologue_OG_273";
+
+                /// <summary>
+                /// Whenever you summon a 1-Health minion, give it Divine Shield.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string StewardOfDarkshire = "RLK_Prologue_OG_310";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// Deathrattle: Give 2 random friendly minions Divine Shield.<br/>
+                /// Tier-2 4/2 Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Deathrattle: Give a random friendly minion Divine Shield.<br/>
+                /// Tier-2 2/1 Minion
+                /// </summary>
                 public const string SelflessHeroTavernBrawl = "TB_BaconUps_014";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Dragon Minion
+                /// </summary>
                 public const string NightbaneTemplar_Whelp = "KAR_010a";
+
+                /// <summary>
+                /// +1/+1 from Smuggler's Run.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SmugglersRun_SmugglingEnchantment = "CFM_305e";
+
+                /// <summary>
+                /// Summon two 1/1 Silver Hand Recruits.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LostInTheJungle = "RLK_Prologue_UNG_960";
+
+                /// <summary>
+                /// Stats changed to 7/14.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Dinosize_RaaaarEnchantment = "UNG_004e";
+
+                /// <summary>
+                /// Stats changed to 3/3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SunkeeperTarim_WatchedEnchantment = "UNG_015e";
+
+                /// <summary>
+                /// +2/+6 and Taunt. Deathrattle: Summon a Stegodon.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SpikeridgedSteed_OnAStegodonEnchantment = "UNG_952e";
+
+                /// <summary>
+                /// Storing spell.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string PrimalfinChampion_InspiredEnchantment = "UNG_953e";
+
+                /// <summary>
+                /// Battlecry: Adapt 5 times.<br/>
+                /// 5-Cost 8/8 Beast Minion
+                /// </summary>
                 public const string TheLastKaleidosaur_GalvadonToken = "UNG_954t1";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LightsSorrow_DyingLightEnchantment = "ICC_071e";
+
+                /// <summary>
+                /// Deathrattle: Return this to life with 1 Health.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string DesperateStand_RedeemedEnchantment = "ICC_244e";
+
+                /// <summary>
+                /// Lifesteal<br/>
+                /// 8-Cost Weapon
+                /// </summary>
                 public const string UtheroftheEbonBlade_GraveVengeanceToken = "ICC_829t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost 2/2 Undead Minion
+                /// </summary>
                 public const string UtheroftheEbonBlade_DeathlordNazgrimToken = "ICC_829t2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost 2/2 Undead Minion
+                /// </summary>
                 public const string UtheroftheEbonBlade_ThorasTrollbaneToken = "ICC_829t3";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost 2/2 Undead Minion
+                /// </summary>
                 public const string UtheroftheEbonBlade_InquisitorWhitemaneToken = "ICC_829t4";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost 2/2 Undead Minion
+                /// </summary>
                 public const string UtheroftheEbonBlade_DarionMograineToken = "ICC_829t5";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BolvarFireblood_FadingLightEnchantment = "ICC_858e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TirionFordringICECROWN = "ICCA01_013";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 2-Cost 2/2 Undead Minion
+                /// </summary>
                 public const string LesserPearlSpellstone_GuardianSpiritToken1 = "LOOT_091t";
+
+                /// <summary>
+                /// Summon a 4/4 Spirit with Taunt.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string LesserPearlSpellstone_PearlSpellstoneToken = "LOOT_091t1";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 4-Cost 4/4 Undead Minion
+                /// </summary>
                 public const string LesserPearlSpellstone_GuardianSpiritToken2 = "LOOT_091t1t";
+
+                /// <summary>
+                /// Summon a 6/6 Spirit with Taunt.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string LesserPearlSpellstone_GreaterPearlSpellstoneToken = "LOOT_091t2";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 6-Cost 6/6 Undead Minion
+                /// </summary>
                 public const string LesserPearlSpellstone_GuardianSpiritToken3 = "LOOT_091t2t";
+
+                /// <summary>
+                /// Battlecry: Summon two 1/1 Silver Hand Recruits.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string UnidentifiedMaul_ChampionsMaulToken = "LOOT_286t1";
+
+                /// <summary>
+                /// Battlecry: Give your minions Taunt.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string UnidentifiedMaul_SacredMaulToken = "LOOT_286t2";
+
+                /// <summary>
+                /// Battlecry: Give your minions +1 Attack.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string UnidentifiedMaul_BlessedMaulToken = "LOOT_286t3";
+
+                /// <summary>
+                /// Battlecry: Give your minions Divine Shield.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string UnidentifiedMaul_PurifiersMaulToken = "LOOT_286t4";
+
+                /// <summary>
+                /// It is a dummy card for holding a effect to play when reequipping Val'anyr (LOOT 500)<br/>
+                /// 0-Cost Weapon
+                /// </summary>
                 public const string Valanyr_ValanyrReequipEffectDummy = "LOOT_500d";
+
+                /// <summary>
+                /// Swap George and Karl.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string TagTeam = "LOOTA_BOSS_110";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
                 public const string GeorgeAndKarlEnchantmentEnchantment = "LOOTA_BOSS_15e";
+
+                /// <summary>
+                /// These tag-team paladins went missing in Un'goro.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GeorgeAndKarlHeroic = "LOOTA_BOSS_15h";
+
+                /// <summary>
+                /// Don't let its growing, gooey friends get out of hand.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TheMothergloopHeroic = "LOOTA_BOSS_24h";
+
+                /// <summary>
+                /// These tag-team paladins went missing in Un'goro.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string KarlAndGeorgeHeroic = "LOOTA_BOSS_32h";
+
+                /// <summary>
+                /// Waylay this adventurer while she isn't paying attention!<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AFKayHeroic = "LOOTA_BOSS_54h";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SecretsLOOTAPALOOZA2 = "LOOTA_Paladin_01";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string HealingLOOTAPALOOZA = "LOOTA_Paladin_04";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DivineShieldLOOTAPALOOZA = "LOOTA_Paladin_05";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Justice = "LOOTA_Paladin_09";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string HelpingHand = "LOOTA_Paladin_11";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Dragonmaster = "LOOTA_Paladin_12";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SilverHand = "LOOTA_Paladin_14";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string LegendaryLOOTAPALOOZA2 = "LOOTA_Paladin_16";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string TauntLOOTAPALOOZA2 = "LOOTA_Paladin_19";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SacredArms = "LOOTA_Paladin_20";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string MurlocsLOOTAPALOOZA1 = "LOOTA_Paladin_21";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ManyBlessings = "LOOTA_Paladin_22";
+
+                /// <summary>
+                /// Give your Silver Hand Recruits +2/+2 and Taunt.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string LevelUpLOOTAPALOOZA = "RLK_Prologue_LOOT_333";
+
+                /// <summary>
+                /// +1/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SoundtheBells_DingDongEnchantmentGILNEAS1 = "GIL_145e";
+
+                /// <summary>
+                /// Corrupted. Banished. Hungry.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string VitusTheExiledHeroic = "GILA_BOSS_46h";
+
+                /// <summary>
+                /// Echo Give a minion +1/+2.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SoundTheBells = "RLK_Prologue_GIL_145";
+
+                /// <summary>
+                /// +1/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SoundtheBells_DingDongEnchantmentGILNEAS2 = "RLK_Prologue_GIL_145e";
+
+                /// <summary>
+                /// While this minion has 3 or more Attack, it has Taunt and Lifesteal.<br/>
+                /// 3-Cost 2/5 Minion
+                /// </summary>
                 public const string ParagonOfLight = "RLK_Prologue_GIL_685";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// Magnetic Divine Shield Taunt<br/>
+                /// Tier-3 2/4 Mechanical Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// Magnetic Divine Shield Taunt<br/>
+                /// Tier-3 4/8 Mechanical Minion
+                /// </summary>
                 public const string AnnoyOModule = "BG_BOT_911";
+
+                /// <summary>
+                /// Cost swapped.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string PrismaticLens_SwappedCostEnchantment = "BOT_436e";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// (No Text)<br/>
+                /// Tier-1 8/8 Mechanical/Beast Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// (No Text)<br/>
+                /// Tier-1 16/16 Mechanical/Beast Minion
+                /// </summary>
                 public const string MechanoEgg_RobosaurToken = "BOT_537t";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string GlowstoneTechnician_LightInfusedEnchantment = "BOT_910e";
+
+                /// <summary>
+                /// Taunt, Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string AnnoyoModule_AnnoyOModuleEnchantmentBOOMSDAY = "BOT_911e";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// Magnetic Divine Shield Taunt<br/>
+                /// Tier-3 4/8 Mechanical Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Magnetic Divine Shield Taunt<br/>
+                /// Tier-3 2/4 Mechanical Minion
+                /// </summary>
                 public const string AnnoyOModuleTavernBrawl = "TB_BaconUps_099";
+
+                /// <summary>
+                /// Immune until your next turn.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string TimeOut_TimeOutEnchantment = "TRL_302e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Beast Minion
+                /// </summary>
                 public const string SpiritoftheTiger_TigerToken = "TRL_309t";
+
+                /// <summary>
+                /// Shrine After a friendly minion survives damage, give it Divine Shield.<br/>
+                /// 0-Cost 0/4 Minion
+                /// </summary>
                 public const string ShirvallahsProtection = "TRLA_105";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost 0/0 Minion
+                /// </summary>
                 public const string ShirvallahsProtection_ShirvallahsProtectionToken = "TRLA_105t";
+
+                /// <summary>
+                /// Shrine Whenever your hero takes damage, deal 5 damage to the enemy hero.<br/>
+                /// 0-Cost 0/5 Minion
+                /// </summary>
                 public const string ShirvallahsVengeance = "TRLA_137";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost 0/0 Minion
+                /// </summary>
                 public const string ShirvallahsVengeance_ShirvallahsVengeanceToken = "TRLA_137t";
+
+                /// <summary>
+                /// Shrine After you cast a spell on a friendly minion, cast a copy of it on this one.<br/>
+                /// 0-Cost 0/5 Minion
+                /// </summary>
                 public const string ShirvallahsGrace = "TRLA_138";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost 0/0 Minion
+                /// </summary>
                 public const string ShirvallahsGrace_ShirvallahsGraceToken = "TRLA_138t";
+
+                /// <summary>
+                /// Start of Game: Draw this. Battlecry: Equip a Truesilver Champion.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string ParadingMarshal = "TRLA_139";
+
+                /// <summary>
+                /// Battlecry: Draw spells until your hand is full.<br/>
+                /// 4-Cost 4/5 Minion
+                /// </summary>
                 public const string BlessedOne = "TRLA_140";
+
+                /// <summary>
+                /// After a character is healed, destroy a random enemy minion.<br/>
+                /// 3-Cost 4/6 Minion
+                /// </summary>
                 public const string Lightchucker = "TRLA_141";
+
+                /// <summary>
+                /// Taunt This minion can only take 1 damage at a time.<br/>
+                /// 6-Cost 2/5 Minion
+                /// </summary>
                 public const string TheWalkingFortTROLL = "TRLA_142";
+
+                /// <summary>
+                /// Whenever this minion takes damage, your hero takes it instead.<br/>
+                /// 4-Cost 3/1 Minion
+                /// </summary>
                 public const string Gloryseeker = "TRLA_143";
+
+                /// <summary>
+                /// Divine Shield Overkill: Gain Divine Shield.<br/>
+                /// 5-Cost 5/7 Minion
+                /// </summary>
                 public const string ExactorOfJustice = "TRLA_144";
+
+                /// <summary>
+                /// Floats like a feather. Stings like a troll punching your face.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string HighPriestThekalHeroic = "TRLA_203h";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string RikkarHeroic_Rikkar4 = "TRLA_209h_Paladin";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Magnetic = "TRLA_Paladin_01";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string HealingTROLL1 = "TRLA_Paladin_02";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Recruits = "TRLA_Paladin_03";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SelfSacrifice = "TRLA_Paladin_04";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Teambuilding = "TRLA_Paladin_05";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ReinforceTROLL = "TRLA_Paladin_06";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string HolyArsenal = "TRLA_Paladin_07";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SecretsTROLL2 = "TRLA_Paladin_08";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DragonsTROLL = "TRLA_Paladin_09";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DivineLegends = "TRLA_Paladin_10";
+
+                /// <summary>
+                /// Cast a random Paladin Secret.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DesperateMeasures_DesperateMeasuresToken = "DAL_141ts";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 4-Cost 4/4 Dragon Minion
+                /// </summary>
                 public const string BronzeHerald_BronzeDragonToken = "DAL_146t";
+
+                /// <summary>
+                /// Lifesteal<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LightforgedBlessing_LightforgedBlessingEnchantment = "DAL_568e";
+
+                /// <summary>
+                /// Give a friendly minion Lifesteal.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string LightforgedBlessing_LightforgedBlessingToken = "DAL_568ts";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string MysteriousBlade_MysteriousEnchantment = "DAL_571e";
+
+                /// <summary>
+                /// Start the run with a deck of random cards.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string RandomPaladinDeck = "DALA_803";
+
+                /// <summary>
+                /// Some say art is subjective. Rasil prefers destructive.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string RasilFireborneHeroic = "DALA_BOSS_27h";
+
+                /// <summary>
+                /// Timothy has never dusted a golden. Not even once!<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TimothyJonesHeroic = "DALA_BOSS_31h";
+
+                /// <summary>
+                /// Handbuffing isn't particularly brilliant but the name stuck.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AkiTheBrilliantHeroic = "DALA_BOSS_39h";
+
+                /// <summary>
+                /// When time travel fails, bronze dragons often resort to random sand.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string NozariHeroic = "DALA_BOSS_50h";
+
+                /// <summary>
+                /// His smile is disarming, but his fancy armor is the real threat.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValderaHighborneHeroic = "DALA_BOSS_65h";
+
+                /// <summary>
+                /// Be careful, he's got an enormous exclamation point over his head.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CommanderBolanHeroic = "DALA_BOSS_75h";
+
+                /// <summary>
+                /// Sometimes you want to go where everybody knows your deck.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string BartendotronHeroic = "DALA_BOSS_98h";
+
+                /// <summary>
+                /// Sometimes you want to go where everybody knows your deck.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string BartenderBobHeroic = "DALA_BOSS_99h";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GeorgeTheFallen = "DALA_George";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SecretWhispersDALARAN = "DALA_Paladin_01";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SmallArmyDALARAN = "DALA_Paladin_02";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DragonsDALARAN = "DALA_Paladin_03";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string HolyInfusions = "DALA_Paladin_04";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string HealingHandsDALARAN3 = "DALA_Paladin_05";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Handbuff = "DALA_Paladin_06";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Murglgglgl = "DALA_Paladin_07";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Robotic = "DALA_Paladin_08";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string TheSilverHandDALARAN = "DALA_Paladin_09";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ProtectorsDALARAN2 = "DALA_Paladin_10";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Judgment = "DALA_Paladin_11";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string LegendsDALARAN4 = "DALA_Paladin_12";
+
+                /// <summary>
+                /// Add three 1/1 Silver Hand Recruits to your hand.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string Backup = "DALA_Paladin_HP1";
+
+                /// <summary>
+                /// Give a friendly minion Divine Shield.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string BoonOfLight = "DALA_Paladin_HP2";
+
+                /// <summary>
+                /// Give a minion "At the end of your turn, gain +1/+1."<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string BlessingOfAeons = "TOT_069";
+
+                /// <summary>
+                /// Gains +1/+1 at the end of your turn.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessingofAeons_WiseBeyondYearsEnchantment = "TOT_069e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Dragon Minion
+                /// </summary>
                 public const string WeeWhelpToken = "TOT_303t";
+
+                /// <summary>
+                /// When you draw this, summon a 1/1 Wee Whelp.<br/>
+                /// 5-Cost 6/6 Dragon Minion
+                /// </summary>
                 public const string BronzeBroodmother = "TOT_330";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// Reborn At the end of your turn, give another random friendly minion +1 Attack.<br/>
+                /// Tier-1 1/2 Mechanical/Undead Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// Reborn At the end of your turn, give another random friendly minion +2 Attack.<br/>
+                /// Tier-1 2/4 Mechanical/Undead Minion
+                /// </summary>
                 public const string MicroMummy = "BG_ULD_217";
+
+                /// <summary>
+                /// Whenever you summon a minion, gain +1 Attack.<br/>
+                /// 1-Cost 2/1 Minion
+                /// </summary>
                 public const string BrazenZealot = "RLK_Prologue_ULD_145";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BrazenZealot_ZealEnchantmentULDUM1 = "RLK_Prologue_ULD_145e";
+
+                /// <summary>
+                /// Set a minion's Attack and Health to 1.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Subdue = "RLK_Prologue_ULD_728";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// Reborn At the end of your turn, give another random friendly minion +2 Attack.<br/>
+                /// Tier-1 2/4 Mechanical/Undead Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Reborn At the end of your turn, give another random friendly minion +1 Attack.<br/>
+                /// Tier-1 1/2 Mechanical/Undead Minion
+                /// </summary>
                 public const string MicroMummyTavernBrawl = "TB_BaconUps_250";
+
+                /// <summary>
+                /// +4/+4, Divine Shield, and Taunt.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string PharaohsBlessing_PharaohsBlessingEnchantment = "ULD_143e";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BrazenZealot_ZealEnchantmentULDUM2 = "ULD_145e";
+
+                /// <summary>
+                /// 2/2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string MakingMummies_EmperorWrappedEnchantment = "ULD_431e";
+
+                /// <summary>
+                /// Summon a 2/2 copy of a friendly minion.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string MakingMummies_EmperorWraps = "ULD_431p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
                 public const string SandwaspQueen_SandwaspToken = "ULD_439t";
+
+                /// <summary>
+                /// Stats changed to 3/3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string TiptheScales_WatchedEnchantment = "ULD_716e2";
+
+                /// <summary>
+                /// Rush. Reborn. Has +2 Attack for each other minion on the battlefield.<br/>
+                /// 3-Cost 3/5 Beast Minion
+                /// </summary>
                 public const string MaxwellMightySteedULDUM = "ULDA_501";
+
+                /// <summary>
+                /// Give all friendly minions +2 Health. Shuffle this card into your deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string FinleysPithHelmetULDUM = "ULDA_502";
+
+                /// <summary>
+                /// +2 Health<br/>
+                /// Enchantment
+                /// </summary>
                 public const string FinleysPithHelmet_DesertExplorerEnchantment = "ULDA_502e";
+
+                /// <summary>
+                /// Battlecry: Summon six 1/1 Silver Hand Recruits and give all friendly minions Taunt and Divine Shield.<br/>
+                /// 5-Cost 6/6 Minion
+                /// </summary>
                 public const string KarlTheLostULDUM = "ULDA_507";
+
+                /// <summary>
+                /// Start the run with a deck of random cards.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string FinleyRandomDeck = "ULDA_902";
+
+                /// <summary>
+                /// The Reliquary is here, and their discoveries are bad news for you.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string IllidaraSunsdawnHeroic = "ULDA_BOSS_21h";
+
+                /// <summary>
+                /// Passive Whenever a Discover card is played, all minions gain +1/+1.<br/>
+                /// 0-Cost HeroPower
+                /// </summary>
                 public const string StakingAClaimULDUM = "ULDA_BOSS_21p";
+
+                /// <summary>
+                /// This smarmy leader of the Reliquary is a thief of the highest order.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string BellocBrightbladeHeroic = "ULDA_BOSS_45h";
+
+                /// <summary>
+                /// Passive After your opponent casts a spell, put a copy of it into your hand.<br/>
+                /// 0-Cost HeroPower
+                /// </summary>
                 public const string ReliquarysRelics = "ULDA_BOSS_45p";
+
+                /// <summary>
+                /// This great beast's roar bolsters allies and terrifies its foes.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string WingedGuardianHeroic = "ULDA_BOSS_57h";
+
+                /// <summary>
+                /// Set a minion's Attack and Health to 3.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string TitansBeast1 = "ULDA_BOSS_57p";
+
+                /// <summary>
+                /// Set a minion's Attack and Health to 3.<br/>
+                /// 0-Cost HeroPower
+                /// </summary>
                 public const string TitansBeast2 = "ULDA_BOSS_57px";
+
+                /// <summary>
+                /// Violence begets violence. Tarkus begets a whole lot.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TarkusHeroic = "ULDA_BOSS_76h";
+
+                /// <summary>
+                /// Deal damage to a random enemy minion equal to its Attack.<br/>
+                /// 4-Cost HeroPower
+                /// </summary>
                 public const string NobleChampion1 = "ULDA_BOSS_76p";
+
+                /// <summary>
+                /// Deal damage to a random enemy minion equal to its Attack.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
                 public const string NobleChampion2 = "ULDA_BOSS_76px";
+
+                /// <summary>
+                /// The friendliest face you could hope to meet in a plague-ridden desert.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string BazaarBobHeroic = "ULDA_BOSS_99h";
+
+                /// <summary>
+                /// Sir Finley rides into battle, ready to dispense justice against his final foe.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SirFinleyULDUM = "ULDA_Finley";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string FeebleSquires = "ULDA_Finley_01";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string FamilyTree = "ULDA_Finley_02";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SmallArmyULDUM = "ULDA_Finley_03";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DeadOrAlive = "ULDA_Finley_04";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string MightyChampions = "ULDA_Finley_05";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string LegendsULDUM2 = "ULDA_Finley_06";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ProtectorsULDUM2 = "ULDA_Finley_07";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string HarnessTheElementsULDUM = "ULDA_Finley_08";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string MarchOfTheMechs = "ULDA_Finley_09";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DivineShieldULDUM = "ULDA_Finley_10";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string HealingULDUM = "ULDA_Finley_11";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SharingStrength = "ULDA_Finley_12";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SuperiorSubjugation = "ULDA_Finley_13";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string NobleWeaponry = "ULDA_Finley_14";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string StrikeAtThee = "ULDA_Finley_15";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string BigBadSpells = "ULDA_Finley_16";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string OverloadedULDUM = "ULDA_Finley_17";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string MutualDestruction = "ULDA_Finley_18";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string DrawULDUM2 = "ULDA_Finley_19";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Discovery2 = "ULDA_Finley_20";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string BattlecryULDUM = "ULDA_Finley_21";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Transformations = "ULDA_Finley_22";
+
+                /// <summary>
+                /// Summon a 2/2 Amalgam with all minion types.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string NewRecruitsULDUM = "ULDA_Finley_HP1";
+
+                /// <summary>
+                /// Give a minion Divine Shield &amp; Windfury.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string PowerUpULDUM = "ULDA_Finley_HP3";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Embiggend = "ULDA_Finley_HP3e";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// Deathrattle: Give a Dragon in your hand +3/+3 and this Deathrattle.<br/>
+                /// Tier-4 3/3 Undead Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// Deathrattle: Give a Dragon in your hand +3/+3 and this Deathrattle, twice.<br/>
+                /// Tier-4 6/6 Undead Minion
+                /// </summary>
                 public const string DragonriderTalritha = "BG_DRG_235";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// Deathrattle: Give a Dragon in your hand +3/+3 and this Deathrattle, twice.<br/>
+                /// Tier-4 6/6 Undead Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Deathrattle: Give a Dragon in your hand +3/+3 and this Deathrattle.<br/>
+                /// Tier-4 3/3 Undead Minion
+                /// </summary>
                 public const string DragonriderTalritha_DragonriderTalritha = "BG_DRG_235_G";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Mechanical Minion
+                /// </summary>
                 public const string SkyClaw_MicrocopterToken = "DRG_225t";
+
+                /// <summary>
+                /// Whenever your hero attacks, restore #3 Health to it.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string LightforgedZealot_TruesilverChampionToken = "DRG_232t";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
                 public const string Sanctuary_IndomitableChampionToken = "DRG_258t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SirFinleyHeroicYEAR_OF_THE_DRAGON = "DRGA_BOSS_03h";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SirFinleyHeroic_SirFinley1 = "DRGA_BOSS_03h2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SirFinleyHeroic_SirFinley2 = "DRGA_BOSS_03h2_H";
+
+                /// <summary>
+                /// Give a friendly minion Rush and Divine Shield.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string LeadTheCharge1 = "DRGA_BOSS_03p";
+
+                /// <summary>
+                /// Give a friendly minion Rush and Divine Shield.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
                 public const string LeadTheCharge2 = "DRGA_BOSS_03p_H";
+
+                /// <summary>
+                /// Secret: When your hero takes fatal damage, prevent it and Hearthstone out.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string BubblehearthToken = "DRGA_BOSS_03t";
+
+                /// <summary>
+                /// Your hero is Immune this turn.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BubblehearthingEnchantmentToken = "DRGA_BOSS_03te";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GeorgeTheFallenHeroic = "DRGA_BOSS_11h";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GeorgetheFallenHeroic_GeorgeAndKarl = "DRGA_BOSS_11h2";
+
+                /// <summary>
+                /// Give your weapon +1 Attack.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string GoldenBlade1 = "DRGA_BOSS_11p";
+
+                /// <summary>
+                /// Give your weapon +1 Attack.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
                 public const string GoldenBlade2 = "DRGA_BOSS_11p_H";
+
+                /// <summary>
+                /// Swap to Karl. Give all minions in your deck +1/+1.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string HighFiveToken1 = "DRGA_BOSS_11t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string KarlTheSaviorHeroic = "DRGA_BOSS_12h";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string KarltheSaviorHeroic_KarlAndGeorge = "DRGA_BOSS_12h2";
+
+                /// <summary>
+                /// Give a friendly minion Divine Shield.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string GoldenAegis1 = "DRGA_BOSS_12p";
+
+                /// <summary>
+                /// Give a friendly minion Divine Shield.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string GoldenAegis2 = "DRGA_BOSS_12p_H";
+
+                /// <summary>
+                /// Divine Shield-like effect<br/>
+                /// Enchantment
+                /// </summary>
                 public const string GoldenAegisPlayerEnchantment = "DRGA_BOSS_12pe";
+
+                /// <summary>
+                /// Swap to George. Give your minions Divine Shield and Taunt.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string HighFiveToken2 = "DRGA_BOSS_12t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string DragonriderTalrithaHeroic = "DRGA_BOSS_23h";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string DragonriderTalrithaHeroic_DragonriderTalritha = "DRGA_BOSS_23h2";
+
+                /// <summary>
+                /// Passive After a friendly Dragon dies, give all minions +1/+1.<br/>
+                /// 0-Cost HeroPower
+                /// </summary>
                 public const string DragonbloodYEAR_OF_THE_DRAGON = "DRGA_BOSS_23p";
+
+                /// <summary>
+                /// Choose a minion. It gains the Deathrattle effects of all other minions.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string WillOfTheForsakenToken = "DRGA_BOSS_23t";
+
+                /// <summary>
+                /// Deathrattle effects copied.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string WillOfTheForsakenEnchantmentToken = "DRGA_BOSS_23te";
+
+                /// <summary>
+                /// Twinspell Summon two 1/1 Silver Hand Recruits with Taunt.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string AirRaid = "RLK_Prologue_YOD_012";
+
+                /// <summary>
+                /// Summon two 1/1 Silver Hand Recruits with Taunt.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string AirRaid_AirRaidTokenYEAR_OF_THE_DRAGON1 = "RLK_Prologue_YOD_012ts";
+
+                /// <summary>
+                /// Summon two 1/1 Silver Hand Recruits with Taunt.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string AirRaid_AirRaidTokenYEAR_OF_THE_DRAGON2 = "YOD_012ts";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Murloc Minion
+                /// </summary>
                 public const string ImprisonedSungill_SungillStreamrunnerToken = "BT_009t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost Weapon
+                /// </summary>
                 public const string LibramofJustice_OverdueJusticeToken = "BT_011t";
+
+                /// <summary>
+                /// Divine Shield Battlecry: Summon 4 random Murlocs. Give them Divine Shield.<br/>
+                /// 8-Cost 6/3 Murloc/Mechanical Minion
+                /// </summary>
                 public const string MurgurMurgurgle_MurgurglePrimeToken = "BT_019t";
+
+                /// <summary>
+                /// Taunt Divine Shield<br/>
+                /// 8-Cost 8/8 Minion
+                /// </summary>
                 public const string LibramofHope_AncientGuardianToken = "BT_024t";
+
+                /// <summary>
+                /// +1/+1. Deathrattle: Add 'Libram of Wisdom' to your hand.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LibramofWisdom_LightsWisdomEnchantment = "BT_025e";
+
+                /// <summary>
+                /// +2/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HandofAdal_HandOfAdalEnchantment = "BT_292e";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// Battlecry: Set this minion's Attack and Health to the highest in the battlefield.<br/>
+                /// Tier-4 1/1 Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// Battlecry: Set this minion's Attack and Health to double the highest in the battlefield.<br/>
+                /// Tier-4 2/2 Minion
+                /// </summary>
                 public const string ArgentBraggart = "BG_SCH_149";
+
+                /// <summary>
+                /// Stats set to highest.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ArgentBraggart_BestOfTheBestEnchantmentSCHOLOMANCE1 = "BG_SCH_149e";
+
+                /// <summary>
+                /// 3/3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string TuralyontheTenured_SchooledEnchantment = "SCH_135e";
+
+                /// <summary>
+                /// +8/+8.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessingofAuthority_BlessingOfAuthorityEnchantment = "SCH_138e";
+
+                /// <summary>
+                /// Can't attack heroes this turn.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessingofAuthority_HonorableIntentionsEnchantment = "SCH_138e2";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ArgentBraggart_BestOfTheBestEnchantmentSCHOLOMANCE2 = "SCH_149e";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string CeremonialMaul_HonorStudentToken = "SCH_523t";
+
+                /// <summary>
+                /// Taunt, Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Commencement_GraduatedEnchantment = "SCH_533e";
+
+                /// <summary>
+                /// No one knows yet, but his heart has already been corrupted by the Lich King's evil.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string PrinceArthas2 = "Story_01_Arthas";
+
+                /// <summary>
+                /// Give a minion +1/+1 and "Deathrattle: Add a 'Libram of Wisdom' spell to your hand."<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string LibramOfWisdomSCHOLOMANCE = "Story_01_LibramofWisdom";
+
+                /// <summary>
+                /// Battlecry: Reduce the Cost of your Librams by (1) this game.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
                 public const string LordaeronAttendant = "Story_01_LordaeronAttendant";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// Battlecry: Set this minion's Attack and Health to double the highest in the battlefield.<br/>
+                /// Tier-4 2/2 Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Battlecry: Set this minion's Attack and Health to the highest in the battlefield.<br/>
+                /// Tier-4 1/1 Minion
+                /// </summary>
                 public const string ArgentBraggartTavernBrawl = "TB_BaconUps_308";
+
+                /// <summary>
+                /// Stats set to double the highest.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ArgentBraggart_BestestOfTheBestEnchantmentTavernBrawl = "TB_BaconUps_308e";
+
+                /// <summary>
+                /// Taunt, Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string AnnoyOModuleEnchantment = "BG_BOT_9112e";
+
+                /// <summary>
+                /// Taunt, Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string AnnoyoModule_AnnoyOModuleEnchantmentBATTLEGROUNDS1 = "BG_BOT_911e";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// Enchantment
+                /// </summary>
                 public const string AnnoyoModule_AnnoyOModuleEnchantmentBATTLEGROUNDS2 = "BG_BOT_911e2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rokara_RokaraArcaneWarrior = "BG20_HERO_100_SKIN_A4";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rokara_Mrrkara = "BG20_HERO_100_SKIN_B";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rokara_RustlinRokara = "BG20_HERO_100_SKIN_C";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rokara_RockerRokara = "BG20_HERO_100_SKIN_D";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rokara_KeeperRokara = "BG20_HERO_100_SKIN_E";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rokara_ArenaChampionRokara = "BG20_HERO_100_SKIN_F";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielRoame_RacingCariel = "BG21_HERO_000_SKIN_A";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielRoame_RopeDarterRoame = "BG21_HERO_000_SKIN_B2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielRoame_CarielHammerOfLight = "BG21_HERO_000_SKIN_C4";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielRoame_CarielTheChosen = "BG21_HERO_000_SKIN_D";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielRoame_BenevolentCariel = "BG21_HERO_000_SKIN_E";
+
+                /// <summary>
+                /// Give {2} friendly minions +{0}/+{1}. (After you upgrade the Tavern, choose an improvement!)1Give {2} friendly minions +{0}/+{1}.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
                 public const string CarielRoame_Conviction = "BG21_HERO_000p";
+
+                /// <summary>
+                /// Give four random friendly minions +{0}/+{1}. (Upgrades at Tavern Tier 5.)<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
                 public const string CarielRoame_ConvictionRank2 = "BG21_HERO_000p2";
+
+                /// <summary>
+                /// Give all friendly minions +{0}/+{1}.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
                 public const string CarielRoame_ConvictionRank3 = "BG21_HERO_000p3";
+
+                /// <summary>
+                /// +4/+4.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string FairyTaleCaroler_ComebackCoda = "BG26_001_Ge";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string FairyTaleCaroler_ComebackCodaEnchantment = "BG26_001e";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LivingConstellation_YearOfTheAmalgamEnchantment = "BG27_001e";
+
+                /// <summary>
+                /// Stats set to another minion's.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string CloningConch_ClonedEnchantment = "BG28_601e";
+
+                /// <summary>
+                /// Give a friendly minion Divine Shield.<br/>
+                /// Tier-3 0-Cost Spell
+                /// </summary>
                 public const string BuyTheHolyLight = "BGS_Treasures_015";
+
+                /// <summary>
+                /// Secret: When one of your minions is attacked, give it Divine Shield.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string AutodefenseMatrixTavernBrawl = "TB_Bacon_Secrets_07";
+
+                /// <summary>
+                /// Secret: When one of your minions dies, give a random friendly minion +3/+2.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string AvengeTavernBrawl = "TB_Bacon_Secrets_08";
+
+                /// <summary>
+                /// Secret: When a friendly minion dies, return it to life with 1 Health.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string RedemptionTavernBrawl = "TB_Bacon_Secrets_10";
+
+                /// <summary>
+                /// Secret: When your second minion dies in a turn, return it to life.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string HandOfSalvationTavernBrawl = "TB_Bacon_Secrets_11";
+
+                /// <summary>
+                /// Secret: When your turn starts, give your minions +1/+1.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string CompetitiveSpiritTavernBrawl = "TB_Bacon_Secrets_13";
+
+                /// <summary>
+                /// Secret: After an enemy minion deals 3 or more damage, destroy it.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ReckoningTavernBrawl = "TB_Bacon_Secrets_14";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// Deathrattle: Summon a 16/16 Robosaur.<br/>
+                /// Tier-4 0/10 Mechanical Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Deathrattle: Summon an 8/8 Robosaur.<br/>
+                /// Tier-4 0/5 Mechanical Minion
+                /// </summary>
                 public const string MechanoEggTavernBrawl = "TB_BaconUps_039";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// (No Text)<br/>
+                /// Tier-1 16/16 Mechanical/Beast Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// (No Text)<br/>
+                /// Tier-1 8/8 Mechanical/Beast Minion
+                /// </summary>
                 public const string MechanoEgg_RobosaurTokenTavernBrawl = "TB_BaconUps_039t";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// Divine Shield After a friendly minion loses Divine Shield, gain +4 Attack.<br/>
+                /// Tier-4 2/14 Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Divine Shield After a friendly minion loses Divine Shield, gain +2 Attack.<br/>
+                /// Tier-4 1/7 Undead Minion
+                /// </summary>
                 public const string BolvarFirebloodTavernBrawl = "TB_BaconUps_047";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BolvarFireblood_FadingLightEnchantmentTavernBrawl = "TB_BaconUps_047e";
+
+                /// <summary>
+                /// Taunt, Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string AnnoyoModule_AnnoyOModuleEnchantmentTavernBrawl = "TB_BaconUps_099e";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// Taunt Divine Shield<br/>
+                /// Tier-1 2/2 Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Taunt Divine Shield<br/>
+                /// Tier-1 1/1 Minion
+                /// </summary>
                 public const string RighteousProtectorTavernBrawl = "TB_BaconUps_147";
+
+                /// <summary>
+                /// Corrupted Divine Shield, Taunt<br/>
+                /// 5-Cost 8/8 Mechanical/Beast Minion
+                /// </summary>
                 public const string CarouselGryphon_CarouselGryphonToken = "DMF_064t";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BalloonMerchant_FloatyEnchantment = "DMF_235e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
                 public const string OhMyYogg_OhMyYoggToken = "DMF_236t";
+
+                /// <summary>
+                /// +1/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string CarnivalBarker_AtTheFaireEnchantment = "DMF_237e";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 6-Cost 6/6 Elemental Minion
+                /// </summary>
                 public const string HammeroftheNaaru_HolyElementalToken = "DMF_238t";
+
+                /// <summary>
+                /// Corrupted Summon 5 Silver Hand Recruits.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string DayattheFaire_DayAtTheFaireToken = "DMF_244t";
+
+                /// <summary>
+                /// Inspire: Gain +2 Attack. Deathrattle: Go Dormant for 3 turns.<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
                 public const string PrinceArthas3 = "Story_04_ArthasMinion";
+
+                /// <summary>
+                /// Dormant<br/>
+                /// 11-Cost 0/1 Minion
+                /// </summary>
                 public const string PrinceArthas4 = "Story_04_ArthasMinionDormant";
+
+                /// <summary>
+                /// Quest: Survive 10 turns. Reward: Victory.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string FinalStand = "Story_04_FinalStand";
+
+                /// <summary>
+                /// Draw a card and deal damage equal to its Cost.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string HolyWrath = "Story_04_HolyWrath";
+
+                /// <summary>
+                /// Choose a friendly minion. Restore Health equal to its Attack to a random friendly minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LibramOfCompassion = "Story_04_LibramofCompassion";
+
+                /// <summary>
+                /// Give a minion +3 Health. Restore 3 Health to your hero.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LibramOfHoliness = "Story_04_LibramofHoliness";
+
+                /// <summary>
+                /// +3 Health.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LightsHoliness = "Story_04_LibramofHolinesse";
+
+                /// <summary>
+                /// Equip a 1/4 weapon. Change the Health of all enemy minions to 1.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string LibramOfJustice = "Story_04_LibramofJustice";
+
+                /// <summary>
+                /// After your hero attacks, give a random friendly minion Divine Shield and Taunt.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string HammerOfTheLightbringerDARKMOON_FAIRE = "Story_04_Lightbringer";
+
+                /// <summary>
+                /// Taunt, Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessedByLightbringer = "Story_04_Lightbringere";
+
+                /// <summary>
+                /// Taunt. Battlecry: Reduce the Cost of your Librams by (2) this game.<br/>
+                /// 5-Cost 4/6 Elemental Minion
+                /// </summary>
                 public const string RadiantLightspawn2 = "Story_04_RadiantLightspawn";
+
+                /// <summary>
+                /// Can't Attack. At the start of your turn, restore 5 Health to a damaged friendly minion.<br/>
+                /// 2-Cost 0/5 Minion
+                /// </summary>
                 public const string RoyalUrn = "Story_04_RoyalUrn";
+
+                /// <summary>
+                /// Battlecry: If your deck has no Neutral cards, add 5 random Paladin cards to your hand.<br/>
+                /// 7-Cost 7/7 Minion
+                /// </summary>
                 public const string SilverHandCrusader = "Story_04_SilverHandCrusader";
+
+                /// <summary>
+                /// Battlecry: If your deck has no Neutral cards, equip a 4/2 Truesilver Champion.<br/>
+                /// 4-Cost 4/2 Minion
+                /// </summary>
                 public const string SilverHandZealot = "Story_04_SilverHandZealot";
+
+                /// <summary>
+                /// Your hero is Immune until your next turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string TimeOut = "Story_04_TimeOut";
+
+                /// <summary>
+                /// Divine Shield, Taunt Deathrattle: Equip a 1/5 Sword of Justice.<br/>
+                /// 8-Cost 6/6 Minion
+                /// </summary>
                 public const string TirionFordringDARKMOON_FAIRE = "Story_04_Tirion";
+
+                /// <summary>
+                /// Rush. Whenever this attacks a minion, set the defender's Attack and Health to 3.<br/>
+                /// 6-Cost 3/12 Minion
+                /// </summary>
                 public const string Turalyon = "Story_04_TuralyonMinion";
+
+                /// <summary>
+                /// Give a minion +2/+2. Draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string UnbrokenFaith1 = "Story_04_UnbrokenFaith";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string UnbrokenFaith2 = "Story_04_UnbrokenFaithe";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer1 = "Story_04_Uther";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer2 = "Story_04_Uther2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer3 = "Story_04_Uther3";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer4 = "Story_04_Uther4";
+
+                /// <summary>
+                /// Equip a 3/4 Hammer that grants Taunt and Divine Shield to a friendly minion after attacking.<br/>
+                /// 4-Cost HeroPower
+                /// </summary>
                 public const string EquipLightbringerDARKMOON_FAIRE = "Story_04_UtherHP";
+
+                /// <summary>
+                /// Equip a 3/4 Hammer that grants Taunt and Divine Shield to a friendly minion after attacking.<br/>
+                /// 3-Cost HeroPower
+                /// </summary>
                 public const string EquipLightbringerRank2 = "Story_04_UtherHP2";
+
+                /// <summary>
+                /// Deal $4 damage to an enemy minion. Any excess damages both neighbors.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string DivineStorm = "Story_04_UtherHP3";
+
+                /// <summary>
+                /// Deal $5 damage to an enemy minion. Any excess damages both neighbors.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string DivineStormRank2 = "Story_04_UtherHP4";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer5 = "Story_04_UtherYoung";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer6 = "Story_04_UtherYoung2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer7 = "Story_04_UtherYoung3";
+
+                /// <summary>
+                /// If you control a minion, deal 10 damage to the Dark Portal.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
                 public const string BombardPortal = "Story_04_YoungUtherHP";
+
+                /// <summary>
+                /// Corrupted Lifesteal<br/>
+                /// 7-Cost Weapon
+                /// </summary>
                 public const string LibramofJudgment_LibramOfJudgmentToken = "YOP_011t";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 3-Cost 3/4 Beast Minion
+                /// </summary>
                 public const string GallopingSavior_HolySteedToken = "BAR_550t";
+
+                /// <summary>
+                /// Lifesteal<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string VeteranWarmedic_BattlefieldMedicToken = "BAR_878t";
+
+                /// <summary>
+                /// It's a secret...{0} is inside! (Only you can see this.)<br/>
+                /// Enchantment
+                /// </summary>
                 public const string CannonmasterSmythe_SecrecyEnchantment = "BAR_879e";
+
+                /// <summary>
+                /// Deathrattle: Transform back into a Secret.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string CannonmasterSmythe_NorthwatchSoldierToken = "BAR_879t";
+
+                /// <summary>
+                /// +3 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ConvictionRank1_BlessedEnchantment = "BAR_880e";
+
+                /// <summary>
+                /// Give two random friendly minions +3 Attack. (Upgrades when you have 10 Mana.)<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ConvictionRank1_ConvictionRank2Token = "BAR_880t";
+
+                /// <summary>
+                /// Give three random friendly minions +3 Attack.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ConvictionRank1_ConvictionRank3Token = "BAR_880t2";
+
+                /// <summary>
+                /// +1/+1<br/>
+                /// Enchantment
+                /// </summary>
                 public const string InvigoratingSermon_HolyMightEnchantment = "BAR_881e";
+
+                /// <summary>
+                /// Costs (1) less.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string CarielRoame_LightsStrengthEnchantment = "BAR_902e";
+
+                /// <summary>
+                /// Bael'dun Keep played a critical role establishing an Alliance foothold in the Barrens.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GeneralTwinbraidHeroic = "BOM_01_Twinbraid_006hb";
+
+                /// <summary>
+                /// Equip Kingsbane<br/>
+                /// Enchantment
+                /// </summary>
                 public const string KingsbaneEnchantment = "BOM_02_Garona_08pe";
+
+                /// <summary>
+                /// There is a name for Tavish's plan to break through the goblins' defenses. It's called "stealing."<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string EngineerWhirleygigHeroic = "BOM_02_Whirleygig_004hb";
+
+                /// <summary>
+                /// Give your hero +3 Attack and Immune this turn.<br/>
+                /// HeroPower
+                /// </summary>
                 public const string OnTheLoose = "BOM_02_Whirleygig_04p";
+
+                /// <summary>
+                /// +3 Attack this turn only<br/>
+                /// Enchantment
+                /// </summary>
                 public const string OnTheLooseEnchantment = "BOM_02_Whirleygig_04pe";
+
+                /// <summary>
+                /// Deep in the Wailing Caverns, Guff and company stumble upon a group of rival adventurers.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string APartyOfAdventurersHeroic = "BOM_03_Party_005hb";
+
+                /// <summary>
+                /// Summon two 2/2 Adventurers with random bonus effects.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string HelpWanted = "BOM_03_Party_05p";
+
+                /// <summary>
+                /// The caverns are filled with slimy, violent creatures. There are snapjaws there as well.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CannonmasterSmytheHeroic = "BOM_03_Smythe_004hb";
+
+                /// <summary>
+                /// Passive After you play a Secret, summon a 3/3 Soldier.<br/>
+                /// 3-Cost HeroPower
+                /// </summary>
                 public const string ToYourStations = "BOM_03_Smythe_04p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string NorthwatchSoldierToken = "BOM_03_Soldier_04t";
+
+                /// <summary>
+                /// Taunt Deathrattle: Go Dormant for 2 turns.<br/>
+                /// 1-Cost 4/5 Minion
+                /// </summary>
                 public const string CarielRoameToken1 = "BOM_04_Cariel_001t";
+
+                /// <summary>
+                /// Give your minions +1 Attack.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string Cariel4 = "BOM_04_Cariel_005p";
+
+                /// <summary>
+                /// +3 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessedTHE_BARRENS1 = "BOM_04_Cariel_005pe1";
+
+                /// <summary>
+                /// Give your minions +1 Attack.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string Cariel5 = "BOM_04_Cariel_006p";
+
+                /// <summary>
+                /// +3 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessedTHE_BARRENS2 = "BOM_04_Cariel_006pe1";
+
+                /// <summary>
+                /// Your hero is Immune.<br/>
+                /// 1-Cost 2/30 Minion
+                /// </summary>
                 public const string CarielRoameToken2 = "BOM_04_Cariel_008t";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Leadership1 = "BOM_04_Leadership_005pe1";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Leadership2 = "BOM_04_Leadership_006pe1";
+
+                /// <summary>
+                /// At the start of your turn, summon two 1/1 Silver Hand Recruits.<br/>
+                /// 2-Cost 1/3 Minion
+                /// </summary>
                 public const string SoldiersCaravan = "RLK_Prologue_BAR_871";
+
+                /// <summary>
+                /// 1/1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string JudgmentofJustice_JudgedEnchantment = "WC_033e";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// Divine Shield After a friendly minion loses Divine Shield, give a minion in your hand +5/+5.<br/>
+                /// Tier-5 5/5 Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// Divine Shield After a friendly minion loses Divine Shield, give a minion in your hand +10/+10.<br/>
+                /// Tier-5 10/10 Minion
+                /// </summary>
                 public const string HighlordFordragon = "BG26_SW_047";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// Divine Shield After a friendly minion loses Divine Shield, give a minion in your hand +10/+10.<br/>
+                /// Tier-5 10/10 Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Divine Shield After a friendly minion loses Divine Shield, give a minion in your hand +5/+5.<br/>
+                /// Tier-5 5/5 Minion
+                /// </summary>
                 public const string HighlordFordragon_HighlordFordragon = "BG26_SW_047_G";
+
+                /// <summary>
+                /// Tamsin must complete the ritual and summon Anetheron before she is overrun.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string BolvarFordragonHeroic = "BOM_05_Bolvar_007hb";
+
+                /// <summary>
+                /// Pirates are quite effective in battle, if you have the coin.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ElfarranHeroic = "BOM_05_Elfarran_003hb";
+
+                /// <summary>
+                /// Kurtrus and Cariel are both Immune until your next turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string BackToBack1 = "BOM_06_BackToBack_006s";
+
+                /// <summary>
+                /// Rush, Divine Shield Whenever this attacks, reduce the Cost of Holy spells in your hand by (1).<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string CaptainFairmountToken = "BOM_06_CaptainFairmount_004t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielHeroic1 = "BOM_06_Cariel_001hp";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielHeroic2 = "BOM_06_Cariel_002hp";
+
+                /// <summary>
+                /// Give a friendly minion Divine Shield.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string HandOfProtection1 = "BOM_06_Cariel_002p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielHeroic3 = "BOM_06_Cariel_003hp";
+
+                /// <summary>
+                /// Give a friendly minion Divine Shield.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string HandOfProtection2 = "BOM_06_Cariel_003p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielHeroic4 = "BOM_06_Cariel_004hp";
+
+                /// <summary>
+                /// Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string TheSilverHandSTORMWIND1 = "BOM_06_Cariel_004p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielHeroic5 = "BOM_06_Cariel_005hp";
+
+                /// <summary>
+                /// Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string TheSilverHandSTORMWIND2 = "BOM_06_Cariel_005p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielHeroic6 = "BOM_06_Cariel_006hp";
+
+                /// <summary>
+                /// Restore #3 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string HolyLight = "BOM_06_Cariel_006p";
+
+                /// <summary>
+                /// Resurrect your allies.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string Redemption = "BOM_06_Cariel_006p2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielHeroic7 = "BOM_06_Cariel_007hp";
+
+                /// <summary>
+                /// Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string TheSilverHandSTORMWIND3 = "BOM_06_Cariel_007p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string CarielHeroic8 = "BOM_06_Cariel_008hp";
+
+                /// <summary>
+                /// Summon three 1/1 Recruits.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
                 public const string TheSilverHandSTORMWIND4 = "BOM_06_Cariel_008p";
+
+                /// <summary>
+                /// Fire "Ensure" enchant at start of turn and when companion state changes.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string EnsureCarielHeroPowerEnchEnchantment = "BOM_06_Cariel_06e1";
+
+                /// <summary>
+                /// Ensure Cariel correctly has HP Holy Light or Redemption.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string EnsureCarielHeroPower = "BOM_06_Cariel_06s1";
+
+                /// <summary>
+                /// Restore #6 Health. Draw 2 cards.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string FriendInNeed = "BOM_06_CarielsHealing_006s";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost Weapon
+                /// </summary>
                 public const string HammerSTORMWIND = "BOM_06_Hammer_004w";
+
+                /// <summary>
+                /// Costs (1) less.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LightsStrengthEnchantment = "BOM_06_LightsStrength_004e";
+
+                /// <summary>
+                /// Fill both boards with copies of minions that started in your decks. Yours gain Rush.<br/>
+                /// 9-Cost Spell
+                /// </summary>
                 public const string AFathersMemory = "BOM_06_OldSisters_008s";
+
+                /// <summary>
+                /// Copy 2 cards in your opponent's deck and add them to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string AFathersLesson = "BOM_06_YoungSisters_001s";
+
+                /// <summary>
+                /// Divine Shield Deathrattle: Return this to your hand and give a random friendly minion Divine Shield.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string CarielRoameToken3 = "BOM_07_Scabbs_Cariel_008t";
+
+                /// <summary>
+                /// Scabbs and Dawngrasp must work together to escape the Stockade and warn their friends of Prestor's plan.<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string WardenThelwaterHeroic = "BOM_07_Scabbs_Thelwater_004hb";
+
+                /// <summary>
+                /// Attack was swapped.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string WealthRedistributor_RedistributedEnchantment = "DED_500e";
+
+                /// <summary>
+                /// 1/1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RighteousDefense_JustifiedEnchantment = "DED_502e";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RighteousDefense_LightsFavoredEnchantment = "DED_502e2";
+
+                /// <summary>
+                /// Costs (1) less.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RisetotheOccasion_PaveTheWayEnchantment = "SW_313e1";
+
+                /// <summary>
+                /// Questline: Play 3 different 1-Cost cards. Reward: Upgrade your Hero Power.<br/>
+                /// Spell
+                /// </summary>
                 public const string RisetotheOccasion_PaveTheWayToken = "SW_313t";
+
+                /// <summary>
+                /// Questline: Play 3 different 1-Cost cards. Reward: Lightborn Cariel.<br/>
+                /// Spell
+                /// </summary>
                 public const string RisetotheOccasion_AvengeTheFallenToken = "SW_313t2";
+
+                /// <summary>
+                /// Battlecry: For the rest of the game, your Silver Hand Recruits have +2/+2.<br/>
+                /// 5-Cost 7/7 Minion
+                /// </summary>
                 public const string RisetotheOccasion_LightbornCarielToken = "SW_313t4";
+
+                /// <summary>
+                /// For the rest of the game, your Silver Hand Recruits have +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RisetotheOccasion_LightsStrengthToken = "SW_313t4e";
+
+                /// <summary>
+                /// Divine Shield<br/>
+                /// 1-Cost 1/1 Beast Minion
+                /// </summary>
                 public const string NobleMount_CarielsWarhorseToken = "SW_316t";
+
+                /// <summary>
+                /// After another character is Attacked, restore # Health to them.<br/>
+                /// 3-Cost 2/3 Highelf Minion
+                /// </summary>
                 public const string NightbaneHeroic_NightbaneTemplar = "LT24_816H3";
+
+                /// <summary>
+                /// This doesn't lose Durability. Your hero takes half damage, rounded up.<br/>
+                /// 7-Cost Weapon
+                /// </summary>
                 public const string TheImmovableObject = "AV_146";
+
+                /// <summary>
+                /// Take half damage, rounded up.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string TheImmovableObject_ToughEnchantment = "AV_146e";
+
+                /// <summary>
+                /// No durability loss.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string TheImmovableObject_ResilientWeaponEnchantment = "AV_146e2";
+
+                /// <summary>
+                /// Give a random minion in your hand +4/+4.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string LightforgedCariel_BlessingOfQueens1 = "AV_206p";
+
+                /// <summary>
+                /// +4/+4.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LightforgedCariel_BlessingOfQueens2 = "AV_206pe";
+
+                /// <summary>
+                /// +2/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HoldtheBridge_HighMoraleEnchantment1 = "AV_338e";
+
+                /// <summary>
+                /// Lifesteal this turn.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HoldtheBridge_HighMoraleEnchantment2 = "AV_338e2";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string ProtecttheInnocent_StormpikeDefenderToken = "AV_342t";
+
+                /// <summary>
+                /// Costs (0) this turn.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string StonehearthVindicator_StoneFortitudeEnchantment = "AV_343e";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string DunBaldarBridge_ColdtoothSuppliesEnchantment = "AV_344e";
+
+                /// <summary>
+                /// Taunt Revive: (3)<br/>
+                /// 1-Cost 3/5 Human Minion
+                /// </summary>
                 public const string CarielToken1 = "BOM_08_Cariel_002t";
+
+                /// <summary>
+                /// Taunt Revive: (3)<br/>
+                /// 1-Cost 3/5 Human Minion
+                /// </summary>
                 public const string CarielToken2 = "BOM_08_Cariel_003t";
+
+                /// <summary>
+                /// Taunt Deathrattle: You lose the game.<br/>
+                /// 1-Cost 2/30 Human Minion
+                /// </summary>
                 public const string ImmovableCarielToken = "BOM_08_Cariel_006t";
+
+                /// <summary>
+                /// Taunt Revive: (3)<br/>
+                /// 5-Cost 2/5 Minion
+                /// </summary>
                 public const string CarielRoameToken4 = "BOM_09_Cariel_004t";
+
+                /// <summary>
+                /// Taunt Revive: (3)<br/>
+                /// 1-Cost 2/6 Minion
+                /// </summary>
                 public const string CarielToken3 = "BOM_09_Cariel_006t";
+
+                /// <summary>
+                /// Taunt Revive: (3)<br/>
+                /// 1-Cost 2/5 Minion
+                /// </summary>
                 public const string CarielToken4 = "BOM_09_Cariel_008t";
+
+                /// <summary>
+                /// Kurtrus and Cariel are both Immune until your next turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string BackToBack2 = "BOM_10_BackToBack_004s";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 4-Cost 5/6 Minion
+                /// </summary>
                 public const string CarielConflictedToken = "BOM_10_Cariel_004t";
+
+                /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string StormwindAvenger_EnGardeEnchantment = "ONY_020e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RingofCourage_HeroicEnchantment = "ONY_027e";
+
+                /// <summary>
+                /// Summon a friendly minion that died this game with 1 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string CarielTavernBrawl = "TB_01_BOM_Mercs_Cariel_001p";
+
+                /// <summary>
+                /// Secret: When your second minion dies in a turn, return it to life.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string HandOfSalvationLegacy = "BCON_012";
+
+                /// <summary>
+                /// +3 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessingofMight_BlessingOfMightLegacyEnchantment = "CS2_087e";
+
+                /// <summary>
+                /// +4/+4.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessingofKings_BlessingOfKingsLegacyEnchantment = "CS2_092e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string SilverHandRecruitLegacyToken1 = "CS2_101t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string SilverHandRecruitLegacyToken2 = "CS2_101t2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string SilverHandRecruitLegacyToken3 = "CS2_101t3";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string SilverHandRecruitLegacyToken4 = "CS2_101t4";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string SilverHandRecruitLegacyToken5 = "CS2_101t5";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Draenei Minion
+                /// </summary>
                 public const string SilverHandRecruitLegacyToken6 = "CS2_101t6";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string SilverHandRecruitLegacyToken7 = "CS2_101t7";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string SilverHandRecruitLegacyToken8 = "CS2_101t8";
+
+                /// <summary>
+                /// Attack has been changed to 1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Humility_HumilityLegacyEnchantment = "EX1_360e";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceLegacy = "HERO_04bp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_TheSilverHandLegacy = "HERO_04bp2";
+
+                /// <summary>
+                /// Give +1 Attack to Silver Hand Recruits you summon this game.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PursuitOfJusticeLegacy = "RLK_Prologue_CS3_029";
+
+                /// <summary>
+                /// Battlecry: If your deck has no duplicates, Discover an upgraded Hero Power.<br/>
+                /// 2-Cost 2/3 Murloc Minion
+                /// </summary>
                 public const string SirFinleyOfTheSandsCore = "CORE_ULD_500";
+
+                /// <summary>
+                /// Your Silver Hand Recruits have +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string PursuitofJustice_PursuitOfJusticeCoreEnchantmentCORE1 = "CS3_029e";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string PursuitofJustice_PursuitOfJusticeCoreEnchantmentCORE2 = "CS3_029e2";
+
+                /// <summary>
+                /// Your Silver Hand Recruits have +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string PursuitofJustice_PursuitOfJusticeCoreEnchantmentCORE3 = "RLK_Prologue_CS3_029e";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string PursuitofJustice_PursuitOfJusticeCoreEnchantmentCORE4 = "RLK_Prologue_CS3_029e2";
+
+                /// <summary>
+                /// Your opponent's spells cost (1) more.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ResistanceAura_ResistanceCoreEnchantment = "TTN_851e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string SilverHandRecruitVanillaToken = "VAN_CS2_101t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 2/1 Minion
+                /// </summary>
                 public const string NobleSacrifice_DefenderVanilla = "VAN_EX1_130a";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string ReinforceVanilla = "VAN_HERO_04bp";
+
+                /// <summary>
+                /// Hero Power Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string TheSilverHandVanilla = "VAN_HERO_04bp2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string PaladinTrainee = "AIBot_PaladinTrainee_005_hb";
+
+                /// <summary>
+                /// Divine Shield. Battlecry: Put a 'Sunken Mooncatcher' on the bottom of your deck.<br/>
+                /// 3-Cost 4/2 Mechanical Minion
+                /// </summary>
                 public const string AzsharanMooncatcher = "Story_11_AzsharanMoonPuzzle";
+
+                /// <summary>
+                /// Gives Ini Frenzy: Add a Seafloor Savior to your hand. It costs (0).<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string BrightIdea2 = "Story_11_BrightIdea";
+
+                /// <summary>
+                /// Battlecry: Give your other Mechs Divine Shield and Taunt.<br/>
+                /// 4-Cost 4/4 Mechanical Minion
+                /// </summary>
                 public const string Bubblebot = "Story_11_BubblebotPuzzle";
+
+                /// <summary>
+                /// Add a random Paladin spell to your deck each turn. It will only last in your hand for 1 turn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ExplorersPride2 = "Story_11_ExplorersPride";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string SirFinleyHeroicTHE_SUNKEN_CITY = "Story_11_Finley_009hp";
+
+                /// <summary>
+                /// Battlecry: Discover an ability. Deathrattle: Go Dormant for 2 turns.<br/>
+                /// 1-Cost 1/3 Murloc Minion
+                /// </summary>
                 public const string SirFinleyMrrggltonTHE_SUNKEN_CITY1 = "Story_11_Finley_1";
+
+                /// <summary>
+                /// Dormant<br/>
+                /// 11-Cost 0/1 Murloc Minion
+                /// </summary>
                 public const string SirFinleyMrrgglton_SirFinleyMrrgglton1 = "Story_11_Finley_1Dormant";
+
+                /// <summary>
+                /// Battlecry: Discover an ability. Deathrattle: Go Dormant for 2 turns.<br/>
+                /// 2-Cost 2/4 Murloc Minion
+                /// </summary>
                 public const string SirFinleyMrrggltonTHE_SUNKEN_CITY2 = "Story_11_Finley_2";
+
+                /// <summary>
+                /// Dormant<br/>
+                /// 11-Cost 0/1 Murloc Minion
+                /// </summary>
                 public const string SirFinleyMrrgglton_SirFinleyMrrgglton2 = "Story_11_Finley_2Dormant";
+
+                /// <summary>
+                /// Battlecry: Discover an ability. Deathrattle: Go Dormant for 2 turns.<br/>
+                /// 3-Cost 3/5 Murloc Minion
+                /// </summary>
                 public const string SirFinleyMrrggltonTHE_SUNKEN_CITY3 = "Story_11_Finley_3";
+
+                /// <summary>
+                /// Dormant<br/>
+                /// 11-Cost 0/1 Murloc Minion
+                /// </summary>
                 public const string SirFinleyMrrgglton_SirFinleyMrrgglton3 = "Story_11_Finley_3Dormant";
+
+                /// <summary>
+                /// This esteemed murloc relies on versatility and swapping cards to outsmart his foes.<br/>
+                /// 1-Cost 1/3 Murloc Minion
+                /// </summary>
                 public const string SirFinleyMrrggltonTHE_SUNKEN_CITY4 = "Story_11_FinleyPrologue";
+
+                /// <summary>
+                /// Finley deals 1 damage to a random enemy minion for each friendly minion at the end of your turn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string FinleysCompass2 = "Story_11_FinleysCompass";
+
+                /// <summary>
+                /// Deal 1 damage to a random enemy minion for each friendly minion.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string FinleysCompass3 = "Story_11_FinleysCompasse";
+
+                /// <summary>
+                /// At the start of your turn, give all friendly minions +2 Health.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string FinleysPithHelmetTHE_SUNKEN_CITY1 = "Story_11_FinleysPithHelmet";
+
+                /// <summary>
+                /// At the start of your turn, give all friendly minions +2 Health.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string FinleysPithHelmetTHE_SUNKEN_CITY2 = "Story_11_FinleysPithHelmete";
+
+                /// <summary>
+                /// Summon a minion from both player's decks. Repeat until either side of the battlefield is full.<br/>
+                /// 9-Cost Spell
+                /// </summary>
                 public const string FrontLines = "Story_11_FrontLines";
+
+                /// <summary>
+                /// Rush, Divine Shield After this attacks, draw a card.<br/>
+                /// 3-Cost 4/2 Mechanical Minion
+                /// </summary>
                 public const string TheLeviathansClaw = "Story_11_LeviathansClawPuzzle";
+
+                /// <summary>
+                /// Give Finley Divine Shield and Windfury.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string PowerUpTHE_SUNKEN_CITY1 = "Story_11_PowerUp";
+
+                /// <summary>
+                /// Give Ini Spellburst: Throw a random weapon to your hand.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string QuickFix7 = "Story_11_QuickFix";
+
+                /// <summary>
+                /// Give Ini Spellburst: Throw a better random weapon to your hand.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string QuickFixRank2 = "Story_11_QuickFix2";
+
+                /// <summary>
+                /// Scan the bottom 5 cards of your deck. Draw any Mechs found this way, then shuffle your deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string RadarDetector = "Story_11_RadarDetector";
+
+                /// <summary>
+                /// Battlecry: Dredge. If it's a minion, give it this minion's Attack and Health.<br/>
+                /// 2-Cost 2/2 Mechanical Minion
+                /// </summary>
                 public const string SeafloorSavior = "Story_11_SeafloorSaviorPuzzle";
+
+                /// <summary>
+                /// Gives Finley Battlecry: Receive an upgraded hero power.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SecretsOfTheSands = "Story_11_SecretsoftheSands";
+
+                /// <summary>
+                /// Give Ini a 50% chance to throw a bomb into the opponent's deck when they cast a spell.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SplosiveSolutions2 = "Story_11_SplosiveSolutions";
+
+                /// <summary>
+                /// Gives Ini Frenzy: Add a Bubblebot to your hand. It costs (0).<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SupportBot2 = "Story_11_SupportBot";
+
+                /// <summary>
+                /// Give Finley Spellburst: Add a Swap spell to your hand.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Swap2 = "Story_11_Swap";
+
+                /// <summary>
+                /// Give Finley Spellburst: Add a Swap Rank 2 spell to your hand.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SwapRank21 = "Story_11_Swap2";
+
+                /// <summary>
+                /// Give Finley Spellburst: Add a Swap Rank 3 spell to your hand.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string SwapRank31 = "Story_11_Swap3";
+
+                /// <summary>
+                /// Replace your hand with the bottom of your deck.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Swap3 = "Story_11_SwapPlayer";
+
+                /// <summary>
+                /// Replace your hand with the bottom of your deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SwapRank22 = "Story_11_SwapPlayer2";
+
+                /// <summary>
+                /// Replace your hand with the bottom of your deck.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SwapRank32 = "Story_11_SwapPlayer3";
+
+                /// <summary>
+                /// Gives Finley Frenzy: Summon a random murloc.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Valiance2 = "Story_11_Valiance";
+
+                /// <summary>
+                /// Rush, Divine Shield After this attacks, draw a card.<br/>
+                /// 3-Cost 4/2 Mechanical Minion
+                /// </summary>
                 public const string TheLeviathan_TheLeviathansClawToken = "TSC_030t2";
+
+                /// <summary>
+                /// This Counters the next Secretly chosen minion or spell your opponent plays.Okani will Secretly Counter the next minion your opponent plays.Okani will Secretly Counter the next spell your opponent plays.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlademasterOkani_BladeCounterEnchantment = "TSC_032e3";
+
+                /// <summary>
+                /// +4/+4 and Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string TheGardensGrace_GracedEnchantment = "TSC_061e";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 1-Cost 1/2 Elemental Minion
+                /// </summary>
                 public const string ImmortalizedinStone_WornStatueToken = "TSC_076t";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 3-Cost 2/4 Elemental Minion
+                /// </summary>
                 public const string ImmortalizedinStone_LivingStatueToken = "TSC_076t2";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 5-Cost 4/8 Elemental Minion
+                /// </summary>
                 public const string ImmortalizedinStone_PristineStatueToken = "TSC_076t3";
+
+                /// <summary>
+                /// Divine Shield. Battlecry: Summon a copy of this.<br/>
+                /// 3-Cost 4/2 Mechanical Minion
+                /// </summary>
                 public const string AzsharanMooncatcher_SunkenMooncatcherToken = "TSC_644t";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SecurityAutomaton_OverclockedEnchantment = "TSC_928e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string JuryDuty_JurySummonsEnchantment = "MAW_015e";
+
+                /// <summary>
+                /// 1/1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ClassActionLawyer_ClassActionEnchantment = "MAW_017e";
+
+                /// <summary>
+                /// {0} {1} {2} {3}<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string StewartTheSteward = "REV_784";
+
+                /// <summary>
+                /// {0} {1}<br/>
+                /// 2-Cost Location
+                /// </summary>
                 public const string GreatHall = "REV_794";
+
+                /// <summary>
+                /// +3/+3 and Taunt.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Promotion_PromotedEnchantment = "REV_842e";
+
+                /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Promotion_UnderNewLeadershipEnchantment = "REV_842e2";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string DivineToll_DivineTollEnchantment = "REV_950e";
+
+                /// <summary>
+                /// Costs (0).<br/>
+                /// Enchantment
+                /// </summary>
                 public const string TheCountess_GuestOfHonorEnchantment = "REV_951e";
+
+                /// <summary>
+                /// Discover a Legendary minion from another class. It costs (0).<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string TheCountess_LegendaryInvitationToken = "REV_951t";
+
+                /// <summary>
+                /// Your next Silver Hand Recruit carries on Stewart's legacy.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string StewarttheSteward_OpenPositionEnchantment = "REV_955e";
+
+                /// <summary>
+                /// +3/+3. Deathrattle: Your next Silver Hand Recruit has this enchant.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string StewarttheSteward_StewartsLegacyEnchantment = "REV_955e2";
+
+                /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BuffetBiggun_ServedEnchantment = "REV_958e";
+
+                /// <summary>
+                /// Infused. Battlecry: Summon two Silver Hand Recruits. Give them +2 Attack and Divine Shield.<br/>
+                /// 4-Cost 2/4 Minion
+                /// </summary>
                 public const string BuffetBiggun_BuffetBiggunToken = "REV_958t";
+
+                /// <summary>
+                /// Stats changed to 3/3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string GreatHall_GoodFoodEnchantment = "REV_983e";
+
+                /// <summary>
+                /// Has Divine Shield and Taunt.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Timewarden_FromTheFutureEnchantment = "RLK_527e2";
+
+                /// <summary>
+                /// +1/+1<br/>
+                /// Enchantment
+                /// </summary>
                 public const string DaringDrake_BraveryEnchantment = "RLK_916e";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 5-Cost 5/5 Dragon Minion
+                /// </summary>
                 public const string FlightoftheBronze_BronzeDefenderToken = "RLK_917t";
+
+                /// <summary>
+                /// +3 Attack<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ForQuelThalas_ForQuelthalasEnchantment1 = "RLK_918e";
+
+                /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ForQuelThalas_ForQuelthalasEnchantment2 = "RLK_918e2";
+
+                /// <summary>
+                /// Sending a minion 2 turns into the future.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Anachronos_TimeTravelEnchantment = "RLK_919e";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SealofBlood_BloodSealEnchantment = "RLK_922e";
+
+                /// <summary>
+                /// +3 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string FeastandFamine_FeastEnchantment = "RLK_923e1";
+
+                /// <summary>
+                /// Lifesteal this turn.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string FeastandFamine_FamineEnchantment = "RLK_923e3";
+
+                /// <summary>
+                /// Gains Rush and Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BloodMatriarchLiadrin_AnnointedInBloodEnchantment = "RLK_924e";
+
+                /// <summary>
+                /// Costs Health instead of Mana.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BloodCrusader_CrusadeEnchantment = "RLK_927e";
+
+                /// <summary>
+                /// Rush. Also damages the minions next to whomever he attacks.<br/>
+                /// 5-Cost 5/12 Bloodelf Minion
+                /// </summary>
                 public const string AnasterianSunstriderToken = "RLK_Prologue_Anasterian_003t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ArthasHeroic4 = "RLK_Prologue_Arthas_001hp";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ArthasHeroic5 = "RLK_Prologue_Arthas_001hp2";
+
+                /// <summary>
+                /// Hero Power Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string ReinforceRETURN_OF_THE_LICH_KING = "RLK_Prologue_Arthas_001p";
+
+                /// <summary>
+                /// Your Silver Hand Recruits have +1/+1.<br/>
+                /// 3-Cost 2/6 Minion
+                /// </summary>
                 public const string GavinradTheDireToken = "RLK_Prologue_Gavinrad_002t";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string InspiringPresenceEnchantmentToken = "RLK_Prologue_Gavinrad_002te1";
+
+                /// <summary>
+                /// Divine Shield.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string BlessedByLightbringerEnchantment = "RLK_Prologue_Lightbringer_003e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string HammerOfTheLightbringerRETURN_OF_THE_LICH_KING = "RLK_Prologue_Lightbringer_003w";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringerHeroicRETURN_OF_THE_LICH_KING = "RLK_Prologue_Uther_002hb";
+
+                /// <summary>
+                /// Hero Power Equip a 3/4 Lightbringer.<br/>
+                /// 4-Cost HeroPower
+                /// </summary>
                 public const string EquipLightbringerRETURN_OF_THE_LICH_KING = "RLK_Prologue_Uther_002p";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// Taunt, Divine Shield Deathrattle: Summon three 1/2 Mechs with Taunt and Divine Shield.<br/>
+                /// Tier-5 3/6 Mechanical Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// Taunt, Divine Shield Deathrattle: Summon three 2/4 Mechs with Taunt and Divine Shield.<br/>
+                /// Tier-5 6/12 Mechanical Minion
+                /// </summary>
                 public const string AnnoyOTroupe = "BG26_ETC_321";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// Taunt, Divine Shield Deathrattle: Summon three 2/4 Mechs with Taunt and Divine Shield.<br/>
+                /// Tier-5 6/12 Mechanical Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Taunt, Divine Shield Deathrattle: Summon three 1/2 Mechs with Taunt and Divine Shield.<br/>
+                /// Tier-5 3/6 Mechanical Minion
+                /// </summary>
                 public const string AnnoyoTroupe_AnnoyOTroupe = "BG26_ETC_321_G";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string DiscoMaul_PowerOfDiscoEnchantment = "ETC_317e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 5-Cost 5/5 Elemental Minion
+                /// </summary>
                 public const string Spotlight_LivingSpotlightToken = "ETC_320t";
+
+                /// <summary>
+                /// Gain Divine Shield after you cast a Holy spell.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string StarlightGroove_FeelingTheGrooveEnchantment = "ETC_330e1";
+
+                /// <summary>
+                /// +2 Attack<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Funkfin_FunkyEnchantment = "ETC_337e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HarmonicDisco_HarmonicGrooveEnchantment = "ETC_506e";
+
+                /// <summary>
+                /// Discover a 1-Cost minion. Summon it with +5/+5. (Swaps each turn.)<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string HarmonicDisco_DissonantDiscoToken = "ETC_506t";
+
+                /// <summary>
+                /// +5/+5.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HarmonicDisco_DissonantGrooveEnchantmentToken = "ETC_506te";
+
+                /// <summary>
+                /// Rush<br/>
+                /// Enchantment
+                /// </summary>
                 public const string DanceFloor_BoogieEnchantment = "JAM_009e";
+
+                /// <summary>
+                /// After this attacks, give a random minion in your hand +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string NobleMinibot_NobleMinibotEnchantment = "TTN_852e";
+
+                /// <summary>
+                /// Health set to 1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string JudgeUnworthy_UnworthyEnchantment = "TTN_853e";
+
+                /// <summary>
+                /// Your Mechs cost (1) less.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string InventorsAura_EmpoweredWorkshopEnchantment = "TTN_854e";
+
+                /// <summary>
+                /// Forged Resurrect 4 different minions from your class. Set their stats to 2/2.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string TyrsTears = "TTN_855";
+
+                /// <summary>
+                /// 2/2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string TyrsTears_TyrfulEnchantment = "TTN_855e1";
+
+                /// <summary>
+                /// Draw 2 minions. Set their Attack, Health, and Cost to 2.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string AmitusthePeacekeeper_ReinforcedToken = "TTN_858t1";
+
+                /// <summary>
+                /// Give your other minions +2/+2.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string AmitusthePeacekeeper_EmpoweredToken = "TTN_858t2";
+
+                /// <summary>
+                /// +2/+2<br/>
+                /// Enchantment
+                /// </summary>
                 public const string AmitusthePeacekeeper_WashedOverToken = "TTN_858t2e1";
+
+                /// <summary>
+                /// Set the Attack and Health of all enemy minions to 2.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string AmitusthePeacekeeper_PacifiedToken2 = "TTN_858t3";
+
+                /// <summary>
+                /// +1/+1<br/>
+                /// Enchantment
+                /// </summary>
                 public const string StoneheartKing_WillOfTheEarthenEnchantment1 = "TTN_900e1";
+
+                /// <summary>
+                /// +2/+2<br/>
+                /// Enchantment
+                /// </summary>
                 public const string StoneheartKing_WillOfTheEarthenEnchantment2 = "TTN_900e2";
+
+                /// <summary>
+                /// After this is summoned, gain +2/+2 for each other Earthen you've summoned this game.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string StoneheartKing_EarthenGolemToken = "TTN_900t";
+
+                /// <summary>
+                /// +2/+2<br/>
+                /// Enchantment
+                /// </summary>
                 public const string KeepersStrength_CrusadeEnchantment = "YOG_509e";
+
+                /// <summary>
+                /// Costs (5).<br/>
+                /// Enchantment
+                /// </summary>
                 public const string AlarmedSecuritybot_EnforcedEnchantment = "YOG_510e2";
+
+                /// <summary>
+                /// Forged Battlecry: Give all minions in your hand +2/+2.<br/>
+                /// 3-Cost 2/4 Mechanical Minion
+                /// </summary>
                 public const string MuscleoTron_MuscleOTronToken = "YOG_525t";
+
+                /// <summary>
+                /// Battlecry: Give all other minions in your hand, deck, and battlefield +3/+3.<br/>
+                /// 4-Cost 5/5 Elemental/Dragon Minion
+                /// </summary>
                 public const string TheAzeriteDragonToken = "DEEP_999t4";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string AzeriteSheenToken = "DEEP_999t4e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string Showdown_OutlawToken = "WW_051t";
+
+                /// <summary>
+                /// Your next Holy spell costs (2) less.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HolyCowboy_HolyCowboyEnchantment = "WW_335e";
+
+                /// <summary>
+                /// Transforming into minions in your deck.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SpiritoftheBadlands_MirageEnchantment = "WW_337e";
+
+                /// <summary>
+                /// At the start of your turn, transform into a copy of a minion in your deck. (This stays in your hand.)<br/>
+                /// Spell
+                /// </summary>
                 public const string SpiritoftheBadlands_MirageToken = "WW_337t";
+
+                /// <summary>
+                /// +1 Attack and Lifesteal.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string DeputizationAura_MyFavoriteDeputyEnchantment = "WW_341e";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LawfulLongarm_LawAbidingEnchantment = "WW_342e";
+
+                /// <summary>
+                /// Divine Shield<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string TheBadlandsBandits_CrustyToken = "WW_345t1";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string TheBadlandsBandits_RustyToken = "WW_345t2";
+
+                /// <summary>
+                /// Rush<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string TheBadlandsBandits_SandyRedToken = "WW_345t3";
+
+                /// <summary>
+                /// Windfury<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string TheBadlandsBandits_PearlyToken = "WW_345t4";
+
+                /// <summary>
+                /// Elusive<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string TheBadlandsBandits_SurlyToken = "WW_345t5";
+
+                /// <summary>
+                /// Poisonous<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string TheBadlandsBandits_DustyToken = "WW_345t6";
+
+                /// <summary>
+                /// Lifesteal<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string TheBadlandsBandits_MoeToken = "WW_345t7";
+
+                /// <summary>
+                /// Reborn<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string TheBadlandsBandits_BurlyToken = "WW_345t8";
+
+                /// <summary>
+                /// 1/1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LayDowntheLaw_JusticeDispensedEnchantment = "WW_365e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string WhackAGnoll_WhackEnchantment = "MIS_700e";
+
+                /// <summary>
+                /// +5/+5<br/>
+                /// Enchantment
+                /// </summary>
                 public const string HolyGlowsticks_RavingMadEnchantment = "MIS_709e1";
+
+                /// <summary>
+                /// Gigantic Costs (1) less for each Holy spell you've cast this game.<br/>
+                /// 8-Cost 8/8 Mechanical Minion
+                /// </summary>
                 public const string FlickeringLightbot_FlickeringLightbotToken = "MIS_918t";
+
+                /// <summary>
+                /// This deck is HEROIC!<br/>
+                /// Spell
+                /// </summary>
                 public const string SplendiferousWhizbang_DeckOfHeroesToken = "TOY_700t10";
+
+                /// <summary>
+                /// +1/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string FlashSale_AmazingSavingsEnchantment = "TOY_716e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string PaintersVirtue_ColorfulEnchantment = "TOY_810e";
+
+                /// <summary>
+                /// Mini Rush, Lifesteal, Divine Shield<br/>
+                /// 1-Cost 1/1 Beast Minion
+                /// </summary>
                 public const string TigressPlushy_TigressPlushyToken = "TOY_811t";
+
+                /// <summary>
+                /// Adjusted stats.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ToyCaptainTarim_ToytanicEnchantment = "TOY_813e3";
+
+                /// <summary>
+                /// Mini Taunt. Battlecry: Set a minion's Attack and Health to this minion's.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string ToyCaptainTarim_ToyCaptainTarimToken = "TOY_813t";
+
+                /// <summary>
+                /// +2/+3<br/>
+                /// Enchantment
+                /// </summary>
                 public const string FancyPackaging_VacuumSealedEnchantment = "TOY_881e";
+
+                /// <summary>
+                /// +{0}/+{0}.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string TimelessBlessing_TimelessBlessingEnchantment = "WON_051e";
+
+                /// <summary>
+                /// Choose a minion. Destroy all minions with less Attack than it.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string RuniTimeExplorer_OutskirtsOfLordaeronToken = "WON_053t";
+
+                /// <summary>
+                /// Summon a random 3-Cost minion. Give it Charge.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string RuniTimeExplorer_WindRiderRoostToken = "WON_053t2";
+
+                /// <summary>
+                /// Charge.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RuniTimeExplorer_RoostBoostToken = "WON_053t2e";
+
+                /// <summary>
+                /// Your next Battlecry this turn triggers twice.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string RuniTimeExplorer_XenedarToken = "WON_053t3";
+
+                /// <summary>
+                /// Your next Battlecry this turn triggers twice.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RuniTimeExplorer_LightOfTheXenedarToken = "WON_053t3e";
+
+                /// <summary>
+                /// Cast three random Paladin Secrets.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string RuniTimeExplorer_TheNightholdToken = "WON_053t4";
+
+                /// <summary>
+                /// Get two random Dragons with +2/+2.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string RuniTimeExplorer_ValdrakkenToken = "WON_053t5";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RuniTimeExplorer_DragonflightToken = "WON_053t5e";
+
+                /// <summary>
+                /// Draw 2 cards. Swap their Costs.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string RuniTimeExplorer_RuinsOfKoruneToken = "WON_053t6";
+
+                /// <summary>
+                /// Swapped Cost.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RuniTimeExplorer_KorunesBlessingToken = "WON_053t6e";
+
+                /// <summary>
+                /// Choose a friendly minion. Summon a copy of it with +3 Health and Taunt that can't attack.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string RuniTimeExplorer_TempleOfEarthToken = "WON_053t7";
+
+                /// <summary>
+                /// +3 Health and Taunt. Can't attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RuniTimeExplorer_DefenderOfDeepholmToken = "WON_053t7e";
+
+                /// <summary>
+                /// Your next Battlecry this turn triggers twice.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string RuniTimeExplorer_XenedarEnchantEnchantmentToken = "WON_053te";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SunsapperLynessa_SunbathingEnchantment = "VAC_507e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 5-Cost 5/5 Pirate Minion
+                /// </summary>
                 public const string SeaShanty_ChorusCorsairToken = "VAC_558t";
+
+                /// <summary>
+                /// +4/+4.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string PowerSpike_PowerSpikeEnchantment = "VAC_915e";
+
+                /// <summary>
+                /// +1 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string DivineBrew_ColdOneEnchantment = "VAC_916e";
+
+                /// <summary>
+                /// Give a character Divine Shield. If it already had one, give it +1 Attack this turn. (2 Drinks left!)<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DivineBrew_DivineBrewToken1 = "VAC_916t2";
+
+                /// <summary>
+                /// Give a character Divine Shield. If it already had one, give it +1 Attack this turn. (Last Drink!)<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DivineBrew_DivineBrewToken2 = "VAC_916t3";
+
+                /// <summary>
+                /// +1/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Grillmaster_SunscreenEnchantment = "VAC_917e";
+
+                /// <summary>
+                /// Give a minion +1/+2.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Grillmaster_SunscreenToken = "VAC_917t";
+
+                /// <summary>
+                /// Your next spell has Lifesteal.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Lifeguard_ProtectionEnchantment = "VAC_919e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Lifeguard_LifestealEnchantment = "VAC_919e2";
+
+                /// <summary>
+                /// Costs less.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ServiceAce_ExcellentServiceEnchantment = "VAC_920e";
+
+                /// <summary>
+                /// Has the stats of Sanc'Azel.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SancAzel_SandyCastleEnchantment = "VAC_923e";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string SancAzel_SandyEnchantment = "VAC_923e2";
+
+                /// <summary>
+                /// Give a friendly minion +3 Attack and Rush. Turn back into a minion.<br/>
+                /// 5-Cost Location
+                /// </summary>
                 public const string SancAzel_SancazelToken = "VAC_923t";
+
+                /// <summary>
+                /// Increased stats<br/>
+                /// Enchantment
+                /// </summary>
                 public const string TrustFall_TrustingEnchantment = "WORK_001e2";
+
+                /// <summary>
+                /// +2/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LibramofClarity_ClarityEnchantment = "GDB_137e1";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LibramofDivinity_DivineLearningsEnchantment = "GDB_138e";
+
+                /// <summary>
+                /// At the end of your turn, get a Libram of Divinity.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string LibramofDivinity_LibramOfDivinityEnchantment = "GDB_138e2";
+
+                /// <summary>
+                /// Divine Shield<br/>
+                /// 3-Cost 3/3 Draenei Minion
+                /// </summary>
                 public const string LibramofFaith_LightforgedDraeneiToken = "GDB_139t";
+
+                /// <summary>
+                /// Immune.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Lumia_LumiasProtectionEnchantment = "GDB_144e";
+
+                /// <summary>
+                /// Your Librams cost (1) less this game.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string InterstellarStarslicer_InterstellarLibramEnchantmentEnchantment = "GDB_726e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string UltraCapacitor_SelfReplicatingEnchantment = "SC_405e";
+
+                /// <summary>
+                /// Battlecry: Gain +1/+1 for each other friendly minion. Also triggers on launch.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string UltraCapacitor_UltraCapacitorEnchantmentToken = "SC_405te";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Hellion_SmartServosEnchantment = "SC_412e1";
+
+                /// <summary>
+                /// +2 Attack and Rush.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string Hellion_SmarterServosEnchantment = "SC_412e2";
+
+                /// <summary>
+                /// Your other minions have +2 Attack and Rush.<br/>
+                /// 4-Cost 4/4 Mechanical Minion
+                /// </summary>
                 public const string Hellion_HellbatToken = "SC_412t";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
                 public const string VoidRay_PrismaticAlignmentEnchantment = "SC_783e";
             }
         }

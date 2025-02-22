@@ -7,507 +7,3026 @@ namespace HearthDb
         {
             public class Druid
             {
+                /// <summary>
+                /// Choose One - Deal $2 damage; or Summon two 1/1 Saplings.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LivingRoots = "AT_037";
+
+                /// <summary>
+                /// Battlecry: Gain an empty Mana Crystal. Deathrattle: Lose a Mana Crystal.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string DarnassusAspirant = "AT_038";
+
+                /// <summary>
+                /// Inspire: Give your hero +2 Attack this turn.<br/>
+                /// 4-Cost 5/4 Beast Minion
+                /// </summary>
                 public const string SavageCombatant = "AT_039";
+
+                /// <summary>
+                /// Battlecry: Give a friendly Beast +3 Health.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string Wildwalker = "AT_040";
+
+                /// <summary>
+                /// Costs (1) less for each Beast you've summoned this game.<br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
                 public const string KnightOfTheWildTGT = "AT_041";
+
+                /// <summary>
+                /// Choose One - Transform into a 2/1 with Charge; or a 3/2 with Stealth.<br/>
+                /// 2-Cost 2/1 Minion
+                /// </summary>
                 public const string DruidOfTheSaber = "AT_042";
+
+                /// <summary>
+                /// Gain 10 Mana Crystals. Discard your hand.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string AstralCommunion = "AT_043";
+
+                /// <summary>
+                /// Destroy a minion. Add a random minion to your opponent's hand.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Mulch = "AT_044";
+
+                /// <summary>
+                /// Your minions cost (1).<br/>
+                /// 9-Cost 5/5 Minion
+                /// </summary>
                 public const string AvianaTGT = "AT_045";
+
+                /// <summary>
+                /// Battlecry: Set your maximum Mana to 20. Gain an empty Mana Crystal. Draw a card.<br/>
+                /// 5-Cost Hero
+                /// </summary>
                 public const string WildheartGuff = "AV_205";
+
+                /// <summary>
+                /// Battlecry: Cast the other choice from the last Choose One spell you've cast. Battlecry: {0}<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string Pathmaker = "AV_210";
+
+                /// <summary>
+                /// Stealth Deathrattle: Summon a 2/2 Wolf with Stealth.<br/>
+                /// 4-Cost 4/4 Beast Minion
+                /// </summary>
                 public const string DireFrostwolf = "AV_211";
+
+                /// <summary>
+                /// Taunt. Costs (1) less for each Beast you've summoned this game.<br/>
+                /// 7-Cost 4/5 Beast Minion
+                /// </summary>
                 public const string FrostsaberMatriarch = "AV_291";
+
+                /// <summary>
+                /// Give a minion +2/+2, then give your Beasts +1/+1.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string HeartOfTheWild = "AV_292";
+
+                /// <summary>
+                /// Rush. Your minions have "Honorable Kill: Summon a 2/2 Wyvern with Rush."<br/>
+                /// 4-Cost 2/5 Minion
+                /// </summary>
                 public const string WingCommanderMulverick = "AV_293";
+
+                /// <summary>
+                /// Battlecry: Give all other friendly characters +1 Attack this turn.<br/>
+                /// 2-Cost 2/3 Beast Minion
+                /// </summary>
                 public const string ClawfuryAdept = "AV_294";
+
+                /// <summary>
+                /// Choose One - Draw your lowest Cost card; or Draw your highest Cost card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string CaptureColdtoothMine = "AV_295";
+
+                /// <summary>
+                /// Battlecry: Your next Choose One card costs (2) less.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
                 public const string PrideSeeker = "AV_296";
+
+                /// <summary>
+                /// At the end of your turn, summon a 2/2 Wolf with Stealth. Lasts 3 turns.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string FrostwolfKennels = "AV_360";
+
+                /// <summary>
+                /// Summon two 1/2 Turtles with Taunt.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ThorngrowthSentries = "BAR_533";
+
+                /// <summary>
+                /// Give your minions +1/+3.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string PridesFury = "BAR_534";
+
+                /// <summary>
+                /// Taunt Deathrattle: Gain 5 Armor.<br/>
+                /// 4-Cost 3/5 Beast Minion
+                /// </summary>
                 public const string ThickhideKodo = "BAR_535";
+
+                /// <summary>
+                /// Draw a Beast. Reduce its Cost by (1). (Upgrades when you have 5 Mana.)<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string LivingSeedRank1 = "BAR_536";
+
+                /// <summary>
+                /// The first Taunt minion you play each turn costs (2) less.<br/>
+                /// 2-Cost 2/3 Quilboar Minion
+                /// </summary>
                 public const string RazormaneBattleguard = "BAR_537";
+
+                /// <summary>
+                /// Rush Frenzy: Transform into a 6/7 Kodo with Taunt.<br/>
+                /// 7-Cost 7/6 Beast Minion
+                /// </summary>
                 public const string DruidOfThePlains = "BAR_538";
+
+                /// <summary>
+                /// Set your Mana Crystals to 0. Set the Cost of cards in your hand and deck to (1).<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string CelestialAlignment = "BAR_539";
+
+                /// <summary>
+                /// After a friendly minion with Taunt dies, summon a new copy of it without Taunt.<br/>
+                /// 4-Cost 3/4 Quilboar/Undead Minion
+                /// </summary>
                 public const string PlaguemawTheRotting = "BAR_540";
+
+                /// <summary>
+                /// Give a minion +2/+2. If it has Taunt, add a copy of it to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MarkOfTheSpikeshell = "BAR_549";
+
+                /// <summary>
+                /// After you cast a Nature spell, give another friendly minion +2/+2.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
                 public const string GuffRunetotem = "BAR_720";
+
+                /// <summary>
+                /// Each player gains 2 Mana Crystals.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string BiologyProject = "BOT_054";
+
+                /// <summary>
+                /// Draw a 7, 8, 9, and 10-Cost minion from your deck.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string JuicyPsychmelon = "BOT_404";
+
+                /// <summary>
+                /// Battlecry: If you control a Treant, Discover a spell.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string Dendrologist = "BOT_419";
+
+                /// <summary>
+                /// Summon two 2/2 Treants.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Landscaping = "BOT_420";
+
+                /// <summary>
+                /// Choose One - Give your other minions +1/+1; or Summon two 2/2 Treants.<br/>
+                /// 6-Cost 3/4 Minion
+                /// </summary>
                 public const string TendingTauren = "BOT_422";
+
+                /// <summary>
+                /// At the end of your turn, reduce the Cost of a random minion in your hand by (7).<br/>
+                /// 7-Cost 4/4 Minion
+                /// </summary>
                 public const string DreampetalFlorist = "BOT_423";
+
+                /// <summary>
+                /// While in your hand, this is a 3/4 copy of the last minion you played.<br/>
+                /// 4-Cost 3/4 Minion
+                /// </summary>
                 public const string FlobbidinousFloop = "BOT_434";
+
+                /// <summary>
+                /// Whenever a minion dies this turn, refresh a Mana Crystal.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string FloopsGloriousGloop = "BOT_444";
+
+                /// <summary>
+                /// Battlecry: Summon a copy of each adjacent minion.<br/>
+                /// 7-Cost 4/4 Minion
+                /// </summary>
                 public const string GloopSprayer = "BOT_507";
+
+                /// <summary>
+                /// Rush. Costs (1) less for each friendly Treant that died this game.<br/>
+                /// 9-Cost 8/8 Mechanical/Beast Minion
+                /// </summary>
                 public const string Mulchmuncher = "BOT_523";
+
+                /// <summary>
+                /// Taunt Costs (1) less for each minion that died this turn.<br/>
+                /// 9-Cost 7/8 Minion
+                /// </summary>
                 public const string VolcanicLumberer = "BRM_009";
+
+                /// <summary>
+                /// Choose One - Transform into a 5/2 minion; or a 2/5 minion.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string DruidOfTheFlame = "BRM_010";
+
+                /// <summary>
+                /// Dormant for 2 turns. When this awakens, reduce the Cost of a random minion in your hand by (5).<br/>
+                /// 3-Cost 3/3 Demon Minion
+                /// </summary>
                 public const string ImprisonedSatyr = "BT_127";
+
+                /// <summary>
+                /// Draw 3 cards. Discard any minions drawn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string FungalFortunes = "BT_128";
+
+                /// <summary>
+                /// Summon a copy of a friendly minion. Give the copy Taunt.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Germination = "BT_129";
+
+                /// <summary>
+                /// Gain two empty Mana Crystals.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Overgrowth = "BT_130";
+
+                /// <summary>
+                /// Your spells cost (1).<br/>
+                /// 9-Cost 5/5 Minion
+                /// </summary>
                 public const string YsielWindsinger = "BT_131";
+
+                /// <summary>
+                /// Give a minion +1/+3 and Taunt. Costs (0) if you have at least 7 Mana Crystals.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Ironbark = "BT_132";
+
+                /// <summary>
+                /// Rush After this attacks, add a random 8-Cost minion to your hand.<br/>
+                /// 7-Cost 7/7 Beast/Mechanical Minion
+                /// </summary>
                 public const string MarshHydra = "BT_133";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. Costs (0) if you have at least 7 Mana Crystals.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Bogbeam = "BT_134";
+
+                /// <summary>
+                /// Summon a 2/2 Glowfly for each spell in your hand.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string GlowflySwarm = "BT_135";
+
+                /// <summary>
+                /// Taunt Deathrattle: Shuffle 'Msshi'fn Prime' into your deck.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string ArchsporeMsshifn = "BT_136";
+
+                /// <summary>
+                /// Choose One - Gain 10 Armor; or Refresh your Mana Crystals.<br/>
+                /// 10-Cost 7/7 Undead Minion
+                /// </summary>
                 public const string KunTheForgottenKing = "CFM_308";
+
+                /// <summary>
+                /// Taunt Battlecry: Summon a{1} {0} Jade Golem.Taunt Battlecry: Summon a Jade Golem.<br/>
+                /// 5-Cost 3/6 Minion
+                /// </summary>
                 public const string JadeBehemothGANGS = "CFM_343";
+
+                /// <summary>
+                /// Choose One - Summon a{1} {0} Jade Golem; or Shuffle 3 copies of this card into your deck.Choose One - Summon a Jade Golem; or Shuffle 3 copies of this card into your deck.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string JadeIdol = "CFM_602";
+
+                /// <summary>
+                /// Give your minions +1/+1.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string MarkOfTheLotus = "CFM_614";
+
+                /// <summary>
+                /// Gain an empty Mana Crystal for each friendly minion.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string PilferedPower = "CFM_616";
+
+                /// <summary>
+                /// Battlecry: If you control a minion with 5 or more Attack, gain +2/+2.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string CelestialDreamer = "CFM_617";
+
+                /// <summary>
+                /// Summon a{1} {0} Jade Golem. Gain an empty Mana Crystal.Summon a Jade Golem. Gain an empty Mana Crystal.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string JadeBlossom = "CFM_713";
+
+                /// <summary>
+                /// Draw 2 cards. Minions drawn cost (2) less.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string LunarVisions = "CFM_811";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// Battlecry: Give a friendly Beast +3/+3.<br/>
+                /// Tier-4 4/4 Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// Battlecry: Give a friendly Beast +4/+4.<br/>
+                /// Tier-4 8/10 Minion
+                /// </summary>
                 public const string VirmenSenseiGANGS = "CFM_816";
+
+                /// <summary>
+                /// Choose One - Deal $2 damage; or Summon two 1/1 Saplings.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LivingRootsCore = "CORE_AT_037";
+
+                /// <summary>
+                /// Taunt Deathrattle: Gain 5 Armor.<br/>
+                /// 4-Cost 3/5 Beast Minion
+                /// </summary>
                 public const string ThickhideKodoCore = "CORE_BAR_535";
+
+                /// <summary>
+                /// Summon two 2/2 Treants.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string LandscapingCorePlaceholder = "CORE_BOT_420";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. Costs (0) if you have at least 7 Mana Crystals.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string BogbeamCorePlaceholder = "CORE_BT_134";
+
+                /// <summary>
+                /// Deal $1 damage.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string MoonfireCorePlaceholder = "Core_CS2_008";
+
+                /// <summary>
+                /// Give a minion Taunt and +2/+3. (+2 Attack/+3 Health)<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MarkOfTheWildCore = "CORE_CS2_009";
+
+                /// <summary>
+                /// Deal $4 damage to an enemy and $1 damage to all other enemies.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SwipeCore = "CORE_CS2_012";
+
+                /// <summary>
+                /// Gain an empty Mana Crystal.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string WildGrowthCorePlaceholder = "CORE_CS2_013";
+
+                /// <summary>
+                /// Battlecry: The next spell you cast this turn costs (3) less.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
                 public const string NordrassilDruidCorePlaceholder = "CORE_CS3_012";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. Your next spell this turn costs (2) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string LunarEclipseCorePlaceholder = "CORE_DMF_057";
+
+                /// <summary>
+                /// The next spell you cast this turn casts twice.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SolarEclipseCorePlaceholder = "CORE_DMF_058";
+
+                /// <summary>
+                /// Rush Costs (1) less for each spell you've cast this game.<br/>
+                /// 7-Cost 4/4 Beast Minion
+                /// </summary>
                 public const string UmbralOwlCorePlaceholder = "CORE_DMF_060";
+
+                /// <summary>
+                /// Battlecry: Add a Solar Eclipse and Lunar Eclipse to your hand.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string KiriChosenOfEluneCorePlaceholder = "CORE_DMF_733";
+
+                /// <summary>
+                /// Taunt Deathrattle: Give a random friendly minion "Deathrattle: Summon Greybough."<br/>
+                /// 5-Cost 4/6 Minion
+                /// </summary>
                 public const string GreyboughCore = "CORE_DMF_734";
+
+                /// <summary>
+                /// Choose One - Deal $3 damage to a minion; or $1 damage and draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string WrathCore = "CORE_EX1_154";
+
+                /// <summary>
+                /// Give your minions "Deathrattle: Summon a 2/2 Treant."<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SoulOfTheForestCorePlaceholder = "CORE_EX1_158";
+
+                /// <summary>
+                /// Choose One - Give your minions +1/+1; or Summon a 3/2 Panther.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PowerOfTheWildCore = "CORE_EX1_160";
+
+                /// <summary>
+                /// Choose One - Gain 2 Mana Crystals; or Draw 3 cards.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string NourishCorePlaceholder = "CORE_EX1_164";
+
+                /// <summary>
+                /// Choose One - Transform into a 7/6 with Rush; or a 4/9 with Taunt.<br/>
+                /// 6-Cost 4/6 Minion
+                /// </summary>
                 public const string DruidOfTheClawCore = "CORE_EX1_165";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string InnervateCore = "CORE_EX1_169";
+
+                /// <summary>
+                /// Choose One - +5 Attack; or +5 Health and Taunt.<br/>
+                /// 7-Cost 5/5 Minion
+                /// </summary>
                 public const string AncientOfWarCorePlaceholder = "CORE_EX1_178";
+
+                /// <summary>
+                /// Summon three 2/2 Treants.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string ForceOfNatureCorePlaceholder = "CORE_EX1_571";
+
+                /// <summary>
+                /// Choose One - Give your other minions +2/+2; or Summon two 2/2 Treants with Taunt.<br/>
+                /// 8-Cost 5/8 Minion
+                /// </summary>
                 public const string CenariusCore = "CORE_EX1_573";
+
+                /// <summary>
+                /// Discover a Temporary Feral Rage, Wild Growth, or Swipe.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string MalfurionsGiftCorePlaceholder = "CORE_GIFT_10";
+
+                /// <summary>
+                /// Add two 2/2 Treants to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string WitchwoodAppleCore = "CORE_GIL_663";
+
+                /// <summary>
+                /// Choose a Deathrattle (Secretly) - Deal 3 damage to all minions; or Give them +2/+2.<br/>
+                /// 5-Cost 5/3 Undead Minion
+                /// </summary>
                 public const string FatespinnerCorePlaceholder = "CORE_ICC_047";
+
+                /// <summary>
+                /// Summon two 1/2 Poisonous Spiders.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string WebweaveCorePlaceholder = "CORE_ICC_050";
+
+                /// <summary>
+                /// Choose One - Transform into a 1/2 with Poisonous; or a 1/5 with Taunt.<br/>
+                /// 2-Cost 1/2 Minion
+                /// </summary>
                 public const string DruidOfTheSwarmCorePlaceholder = "CORE_ICC_051";
+
+                /// <summary>
+                /// Summon a 1/5 Scarab with Taunt. If your opponent has more minions, cast this again.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string SpreadingPlagueCorePlaceholder = "CORE_ICC_054";
+
+                /// <summary>
+                /// Give your hero +3 Attack this turn. Gain 3 Armor.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string GnashCorePlaceholder = "CORE_ICC_079";
+
+                /// <summary>
+                /// Deal $5 damage. Draw 5 cards. Gain 5 Armor. Summon a 5/5 Ghoul.<br/>
+                /// 10-Cost Spell
+                /// </summary>
                 public const string UltimateInfestationCorePlaceholder = "CORE_ICC_085";
+
+                /// <summary>
+                /// Battlecry: Give your Taunt minions +2/+2.<br/>
+                /// 4-Cost 2/3 Minion
+                /// </summary>
                 public const string StrongshellScavengerCorePlaceholder = "CORE_ICC_807";
+
+                /// <summary>
+                /// Taunt After you summon a minion, gain +1 Health.<br/>
+                /// 3-Cost 1/6 Undead Minion
+                /// </summary>
                 public const string CryptLordCorePlaceholder = "CORE_ICC_808";
+
+                /// <summary>
+                /// Choose One - Summon 2 Poisonous Spiders; or 2 Scarabs with Taunt.<br/>
+                /// 7-Cost Hero
+                /// </summary>
                 public const string MalfurionThePestilentCorePlaceholder = "CORE_ICC_832";
+
+                /// <summary>
+                /// Deathrattle: Summon your Taunt minions that died this game.<br/>
+                /// 9-Cost 3/7 Beast Minion
+                /// </summary>
                 public const string HadronoxCorePlaceholder = "CORE_ICC_835";
+
+                /// <summary>
+                /// Battlecry: Choose a friendly Beast. Summon a copy of it.<br/>
+                /// 5-Cost 5/4 Minion
+                /// </summary>
                 public const string MenagerieWardenCorePlaceholder = "CORE_KAR_065";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 2/2 Beast Minion
+                /// </summary>
                 public const string EnchantedRavenCorePlaceholder = "CORE_KAR_300";
+
+                /// <summary>
+                /// Deathrattle: Summon a random 1-Cost minion.<br/>
+                /// 3-Cost 3/2 Beast Minion
+                /// </summary>
                 public const string MountedRaptorCorePlaceholder = "CORE_LOE_050";
+
+                /// <summary>
+                /// Choose One - Discover a minion; or Discover a spell.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string RavenIdolCore = "Core_LOE_115";
+
+                /// <summary>
+                /// Deal $2 damage to a minion. (Gain 3 Armor to upgrade.)<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LesserJasperSpellstoneCore = "CORE_LOOT_051";
+
+                /// <summary>
+                /// Gain 6 Armor. Summon a minion from your deck that costs (4) or less.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string OakenSummonsCore = "CORE_LOOT_309";
+
+                /// <summary>
+                /// For the rest of the game, players draw an extra card at the start of their turn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string DewProcessCorePlaceholder = "CORE_MAW_024";
+
+                /// <summary>
+                /// Choose One - Silence a minion; or Give a minion Immune this turn.<br/>
+                /// 2-Cost 1/3 Minion
+                /// </summary>
                 public const string AttorneyAtMawCorePlaceholder = "CORE_MAW_025";
+
+                /// <summary>
+                /// Choose a minion. It goes Dormant for 3 turns.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string IncarcerationCorePlaceholder = "CORE_MAW_026";
+
+                /// <summary>
+                /// Choose One - Draw 2 cards; or Restore #7 Health.<br/>
+                /// 7-Cost 7/7 Minion
+                /// </summary>
                 public const string AncientOfLoreCore = "CORE_NEW1_008";
+
+                /// <summary>
+                /// Your Choose One cards and powers have both effects combined.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
                 public const string FandralStaghelmCorePlaceholder = "CORE_OG_044";
+
+                /// <summary>
+                /// Choose One - Give your hero +4 Attack this turn; or Gain 8 Armor.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string FeralRageCore = "CORE_OG_047";
+
+                /// <summary>
+                /// Deal $2 damage. Summon a 2/2 Treant.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string NaturalCausesCorePlaceholder = "CORE_REV_307";
+
+                /// <summary>
+                /// Battlecry: Draw a Deathrattle minion and gain its Deathrattle.<br/>
+                /// 5-Cost 6/5 Minion
+                /// </summary>
                 public const string DeathBlossomWhomperCorePlaceholder = "CORE_REV_310";
+
+                /// <summary>
+                /// Choose One - Discover a minion from your deck to summon; or a spell to cast.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string NightshadeBudCorePlaceholder = "CORE_REV_311";
+
+                /// <summary>
+                /// Discover a spell. It costs (2) less this turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PlantedEvidenceCorePlaceholder = "CORE_REV_313";
+
+                /// <summary>
+                /// Battlecry: For the rest of the game, after you cast a Nature spell, summon a 3/3 Whelp with Rush.<br/>
+                /// 7-Cost 5/5 Dragon Minion
+                /// </summary>
                 public const string TopiorTheShrubbagazzorCorePlaceholder = "CORE_REV_314";
+
+                /// <summary>
+                /// Battlecry: Draw a Nature spell. Gain an empty Mana Crystal.<br/>
+                /// 4-Cost 3/2 Minion
+                /// </summary>
                 public const string WidowbloomSeedsmanCorePlaceholder = "CORE_REV_318";
+
+                /// <summary>
+                /// Taunt Deathrattle: Draw a minion. Reduce its Cost by (8).<br/>
+                /// 8-Cost 8/8 Minion
+                /// </summary>
                 public const string SesselieOfTheFaeCourtCorePlaceholder = "CORE_REV_319";
+
+                /// <summary>
+                /// Trigger a friendly minion's Deathrattle.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string HedgeMazeCorePlaceholder = "CORE_REV_333";
+
+                /// <summary>
+                /// Summon two 2/2 Treants. Infuse (5): Two 5/5 Ancients instead.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string PlotOfSinCorePlaceholder = "CORE_REV_336";
+
+                /// <summary>
+                /// Cast 8 random Druid spells (targets chosen randomly).<br/>
+                /// 10-Cost Spell
+                /// </summary>
                 public const string ConvokeTheSpiritsCorePlaceholder = "CORE_REV_365";
+
+                /// <summary>
+                /// Tradeable Summon two 2/7 Turtles with Taunt.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string BestInShellCorePlaceholder = "CORE_SW_429";
+
+                /// <summary>
+                /// Rush. Whenever this attacks, give your hero +3 Attack this turn.<br/>
+                /// 4-Cost 4/4 Beast Minion
+                /// </summary>
                 public const string ParkPantherCore = "CORE_SW_431";
+
+                /// <summary>
+                /// Give your hero +2 Attack this turn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string PounceCorePlaceholder = "CORE_TRL_243";
+
+                /// <summary>
+                /// Battlecry: If your deck has no duplicates, duplicate your hand.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string EliseTheEnlightenedCorePlaceholder = "CORE_ULD_139";
+
+                /// <summary>
+                /// Give a friendly minion +1/+1, then gain Armor equal to its Attack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string EarthenScalesCorePlaceholder = "CORE_UNG_108";
+
+                /// <summary>
+                /// Give your hero +2 Attack this turn. Gain 2 Armor.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ClawLegacy = "CS2_005";
+
+                /// <summary>
+                /// Restore #8 Health.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string HealingTouchLegacy = "CS2_007";
+
+                /// <summary>
+                /// Deal $1 damage.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string MoonfireLegacy = "CS2_008";
+
+                /// <summary>
+                /// Give a minion Taunt and +2/+3. (+2 Attack/+3 Health)<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MarkOfTheWildLegacy = "CS2_009";
+
+                /// <summary>
+                /// Give your characters +2 Attack this turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SavageRoarLegacy = "CS2_011";
+
+                /// <summary>
+                /// Deal $4 damage to an enemy and $1 damage to all other enemies.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SwipeLegacy = "CS2_012";
+
+                /// <summary>
+                /// Gain an empty Mana Crystal.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string WildGrowthLegacy = "CS2_013";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 8-Cost 8/8 Minion
+                /// </summary>
                 public const string IronbarkProtectorLegacy = "CS2_232";
+
+                /// <summary>
+                /// Battlecry: The next spell you cast this turn costs (3) less.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
                 public const string NordrassilDruidLegacy = "CS3_012";
+
+                /// <summary>
+                /// Twinspell Summon five 2/2 Treants.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string TheForestsAid = "DAL_256";
+
+                /// <summary>
+                /// Choose One - Deal $2 damage to a minion; or Restore #5 Health.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string CrystalPower = "DAL_350";
+
+                /// <summary>
+                /// Twinspell Give your minions +1/+1.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string BlessingOfTheAncients = "DAL_351";
+
+                /// <summary>
+                /// Discover a Druid minion. If your hand has no minions, keep all 3 instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string CrystalsongPortal = "DAL_352";
+
+                /// <summary>
+                /// Deathrattle: Add two 1/1 Squirrels to your hand.<br/>
+                /// 1-Cost 2/1 Minion
+                /// </summary>
                 public const string Acornbearer = "DAL_354";
+
+                /// <summary>
+                /// Whenever you restore Health, add a random Druid spell to your hand.<br/>
+                /// 3-Cost 2/5 Minion
+                /// </summary>
                 public const string Lifeweaver = "DAL_355";
+
+                /// <summary>
+                /// Taunt Deathrattle: Go Dormant. Restore 5 Health to awaken this minion.<br/>
+                /// 8-Cost 4/8 Minion
+                /// </summary>
                 public const string Lucentbark = "DAL_357";
+
+                /// <summary>
+                /// After you cast a Choose One spell, add copies of both choices to your hand.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string KeeperStalladris = "DAL_732";
+
+                /// <summary>
+                /// Summon two 1/2 Dryads with Lifesteal.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string DreamwayGuardians = "DAL_733";
+
+                /// <summary>
+                /// Rush. Battlecry: If you've restored 5 Health this game, summon a copy of this.<br/>
+                /// 5-Cost 4/4 Beast Minion
+                /// </summary>
                 public const string CrystalStag = "DAL_799";
+
+                /// <summary>
+                /// Choose One - Transform into a 3/1 Shark with Rush; or a 1/3 Turtle with Taunt.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string DruidOfTheReef = "DED_001";
+
+                /// <summary>
+                /// Discover a copy of a card in your deck. If you play it this turn, draw the original.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MoonlitGuidance = "DED_002";
+
+                /// <summary>
+                /// Battlecry: Draw a Choose One spell and split it.<br/>
+                /// 2-Cost 2/1 Pirate Minion
+                /// </summary>
                 public const string JerryRigCarpenter = "DED_003";
+
+                /// <summary>
+                /// Taunt. Choose One - Discard 2 cards; or Destroy one of your Mana Crystals. Forge: Do NEITHER.<br/>
+                /// 4-Cost 6/8 Elemental Minion
+                /// </summary>
                 public const string GloomstoneGuardian = "DEEP_027";
+
+                /// <summary>
+                /// Gain three empty Mana Crystals. Any that can't fit summon a 3/7 Elemental with Taunt.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string CrystalCluster = "DEEP_028";
+
+                /// <summary>
+                /// Finale: Deal 1 damage to a random enemy for each of your Mana Crystals.<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
                 public const string TroggGemtosser = "DEEP_029";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. Your next spell this turn costs (2) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string LunarEclipse = "DMF_057";
+
+                /// <summary>
+                /// The next spell you cast this turn casts twice.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SolarEclipse = "DMF_058";
+
+                /// <summary>
+                /// Rush Taunt<br/>
+                /// 9-Cost 10/10 Elemental Minion
+                /// </summary>
                 public const string FizzyElemental = "DMF_059";
+
+                /// <summary>
+                /// Rush Costs (1) less for each spell you've cast this game.<br/>
+                /// 7-Cost 4/4 Beast Minion
+                /// </summary>
                 public const string UmbralOwl = "DMF_060";
+
+                /// <summary>
+                /// Choose One - Draw a card; or Summon a 2/2 Treant. Corrupt: Do both.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string FaireArborist = "DMF_061";
+
+                /// <summary>
+                /// Draw a card. Guess if your next card costs more or less to draw it.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string GuessTheWeight = "DMF_075";
+
+                /// <summary>
+                /// Give your hero +4 Attack this turn. Corrupt: And gain 6 Armor.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string MoontouchedAmulet = "DMF_730";
+
+                /// <summary>
+                /// Gain 8 Armor. Summon a random 8-Cost minion.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string CenarionWard = "DMF_732";
+
+                /// <summary>
+                /// Battlecry: Add a Solar Eclipse and Lunar Eclipse to your hand.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string KiriChosenOfElune = "DMF_733";
+
+                /// <summary>
+                /// Taunt Deathrattle: Give a random friendly minion "Deathrattle: Summon Greybough."<br/>
+                /// 5-Cost 4/6 Minion
+                /// </summary>
                 public const string Greybough = "DMF_734";
+
+                /// <summary>
+                /// Sidequest: Spend 10 Mana on minions. Reward: Summon a minion from your deck.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string StrengthInNumbers = "DRG_051";
+
+                /// <summary>
+                /// Choose One - Give a minion +2 Health and Taunt; or Summon a 2/2 Treant.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Treenforcements = "DRG_311";
+
+                /// <summary>
+                /// Battlecry: Summon a 2/2 Treant.<br/>
+                /// 2-Cost 1/1 Minion
+                /// </summary>
                 public const string Shrubadier = "DRG_312";
+
+                /// <summary>
+                /// Taunt Battlecry: Discover a Dragon.<br/>
+                /// 6-Cost 4/8 Dragon Minion
+                /// </summary>
                 public const string EmeraldExplorer = "DRG_313";
+
+                /// <summary>
+                /// Draw 2 cards. Costs (2) less for each Treant you control.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string Aeroponics = "DRG_314";
+
+                /// <summary>
+                /// Give all minions in your deck +2/+2. They cost (1) more (up to 10).<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Embiggen = "DRG_315";
+
+                /// <summary>
+                /// Sidequest: Attack twice with your hero. Reward: Add 3 'Claw' spells to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SecureTheDeck = "DRG_317";
+
+                /// <summary>
+                /// Draw a card. If you're holding a Dragon, gain an empty Mana Crystal.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string BreathOfDreams = "DRG_318";
+
+                /// <summary>
+                /// Taunt Battlecry: For the rest of the game, your Treants have +1/+1.<br/>
+                /// 7-Cost 5/10 Minion
+                /// </summary>
                 public const string GoruTheMightree = "DRG_319";
+
+                /// <summary>
+                /// Battlecry: Shuffle 7 Dream Portals into your deck. When drawn, summon a random Dragon.<br/>
+                /// 9-Cost 4/12 Dragon Minion
+                /// </summary>
                 public const string YseraUnleashed = "DRG_320";
+
+                /// <summary>
+                /// Choose One - Summon five 2/2 Treants; or Give your minions +2/+4 and Taunt.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string DrumCircle = "ETC_373";
+
+                /// <summary>
+                /// Choose One - Draw a Beast; or Discover one.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string PeacefulPiper = "ETC_375";
+
+                /// <summary>
+                /// Battlecry: Draw two cards that cost (6) or more. Finale: They cost (1) less.<br/>
+                /// 5-Cost 4/5 Minion
+                /// </summary>
                 public const string SummerFlowerchild = "ETC_376";
+
+                /// <summary>
+                /// Give your hero +2 Attack this turn. Gain 4 Armor. (Swaps each turn.)<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string HarmonicMood = "ETC_379";
+
+                /// <summary>
+                /// Battlecry and Deathrattle: Your Hero Power gains 1 more Armor this game.<br/>
+                /// 1-Cost 1/2 Beast/Undead Minion
+                /// </summary>
                 public const string FreeSpirit = "ETC_382";
+
+                /// <summary>
+                /// Draw 2 cards. Costs (1) less for each Attack your hero has.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string SpreadTheWord = "ETC_384";
+
+                /// <summary>
+                /// Battlecry and Deathrattle: Your Hero Power gives your hero 1 more Attack this game.<br/>
+                /// 2-Cost 2/1 Beast Minion
+                /// </summary>
                 public const string GroovyCat = "ETC_385";
+
+                /// <summary>
+                /// Battlecry: Summon two {0}/{1} Quilboar with Taunt. (Improved by your hero Attack &amp; Armor gained this turn!)<br/>
+                /// 6-Cost 6/6 Quilboar Minion
+                /// </summary>
                 public const string ZokFogsnout = "ETC_386";
+
+                /// <summary>
+                /// Choose One (Secretly) - Summon three 5/5 Ancients in 2 turns; or 8/8 Giants in 4 turns.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string RhythmAndRoots = "ETC_387";
+
+                /// <summary>
+                /// Deathrattle: Summon 1 5/5 Ancient. (Play cards that cost (5) or more while equipped to improve!)<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string TimberTambourine = "ETC_388";
+
+                /// <summary>
+                /// Choose One - Deal $3 damage to a minion; or $1 damage and draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Wrath = "EX1_154";
+
+                /// <summary>
+                /// Choose One - Give a minion +4 Attack; or +4 Health and Taunt.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string MarkOfNature = "EX1_155";
+
+                /// <summary>
+                /// Give your minions "Deathrattle: Summon a 2/2 Treant."<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SoulOfTheForest = "EX1_158";
+
+                /// <summary>
+                /// Choose One - Give your minions +1/+1; or Summon a 3/2 Panther.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PowerOfTheWild = "EX1_160";
+
+                /// <summary>
+                /// Destroy a minion. Your opponent draws 2 cards.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Naturalize = "EX1_161";
+
+                /// <summary>
+                /// Choose One - Gain 2 Mana Crystals; or Draw 3 cards.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string Nourish = "EX1_164";
+
+                /// <summary>
+                /// Choose One - Transform into a 7/6 with Rush; or a 4/9 with Taunt.<br/>
+                /// 6-Cost 4/6 Minion
+                /// </summary>
                 public const string DruidOfTheClaw = "EX1_165";
+
+                /// <summary>
+                /// Choose One - Deal 2 damage; or Silence a minion.<br/>
+                /// 4-Cost 2/4 Minion
+                /// </summary>
                 public const string KeeperOfTheGrove = "EX1_166";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string InnervateLegacy = "EX1_169";
+
+                /// <summary>
+                /// Deal $5 damage. Draw a card.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string StarfireLegacy = "EX1_173";
+
+                /// <summary>
+                /// Choose One - +5 Attack; or +5 Health and Taunt.<br/>
+                /// 7-Cost 5/5 Minion
+                /// </summary>
                 public const string AncientOfWar = "EX1_178";
+
+                /// <summary>
+                /// Give your minions +2/+2 and Taunt.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string GiftOfTheWildLegacy = "EX1_183";
+
+                /// <summary>
+                /// Give your hero +4 Attack this turn. Gain 4 Armor.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Bite = "EX1_570";
+
+                /// <summary>
+                /// Summon three 2/2 Treants.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string ForceOfNature = "EX1_571";
+
+                /// <summary>
+                /// Choose One - Give your other minions +2/+2; or Summon two 2/2 Treants with Taunt.<br/>
+                /// 8-Cost 5/8 Minion
+                /// </summary>
                 public const string Cenarius = "EX1_573";
+
+                /// <summary>
+                /// Deal damage equal to your hero's Attack to a minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Savagery = "EX1_578";
+
+                /// <summary>
+                /// Destroy all minions and summon 2/2 Treants to replace them.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string PoisonSeeds = "FP1_019";
+
+                /// <summary>
+                /// Elusive. Your first spell each turn costs (1) less. Starship Piece<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
                 public const string ShatariCloakfield = "GDB_103";
+
+                /// <summary>
+                /// After you cast an Arcane spell, recast it (targets chosen randomly). Starship Piece<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string StarlightReactor = "GDB_108";
+
+                /// <summary>
+                /// Choose One - Deal $2 damage to two random enemy minions; or Make one Dormant for 2 turns.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string AstralPhaser = "GDB_851";
+
+                /// <summary>
+                /// Draw a card. If it's a spell, it costs (1) less.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ArkoniteRevelation = "GDB_852";
+
+                /// <summary>
+                /// Each turn this is in your hand, gain two random Choose One choices.Choose One - {0}; or {1}.<br/>
+                /// 5-Cost 6/5 Beast Minion
+                /// </summary>
                 public const string UluuTheEverdrifter = "GDB_854";
+
+                /// <summary>
+                /// Elusive, Taunt Spellburst: Give your hero +8 Attack this turn and gain 8 Armor.<br/>
+                /// 8-Cost 8/8 Beast Minion
+                /// </summary>
                 public const string StarGrazer = "GDB_855";
+
+                /// <summary>
+                /// Battlecry: If you're building a Starship, get 3 different Arcane spells and reduce their Costs by (2).<br/>
+                /// 4-Cost 3/3 Draenei Minion
+                /// </summary>
                 public const string ExarchOthaar = "GDB_856";
+
+                /// <summary>
+                /// Discover a 10-Cost minion from the past. Set its Cost to (1).<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string FinalFrontier = "GDB_857";
+
+                /// <summary>
+                /// Summon three 2/3 Elementals with Taunt. If your board is full, give your minions +1/+1.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string CosmicPhenomenon = "GDB_882";
+
+                /// <summary>
+                /// Summon two random 2-Cost minions. Refresh 2 Mana Crystals.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string DistressSignal = "GDB_883";
+
+                /// <summary>
+                /// Discover a Temporary Feral Rage, Wild Growth, or Swipe.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string MalfurionsGift = "GIFT_10";
+
+                /// <summary>
+                /// Taunt Battlecry: If your deck has only odd-Cost cards, gain +2/+2.<br/>
+                /// 5-Cost 2/6 Beast Minion
+                /// </summary>
                 public const string GloomStag = "GIL_130";
+
+                /// <summary>
+                /// Choose One - Transform into a 4/2 with Rush; or a 2/4 with Taunt.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string DruidOfTheScythe = "GIL_188";
+
+                /// <summary>
+                /// Taunt Battlecry: Gain +1 Health for each card in your hand.<br/>
+                /// 5-Cost 4/1 Minion
+                /// </summary>
                 public const string BewitchedGuardian = "GIL_507";
+
+                /// <summary>
+                /// Summon a 1/1 Wisp for each card in your hand.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string WisperingWoods = "GIL_553";
+
+                /// <summary>
+                /// Summon a random friendly Beast that died this game.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string WitchingHour = "GIL_571";
+
+                /// <summary>
+                /// Draw a card. Gain 1 Armor for each card in your hand.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string FerociousHowl = "GIL_637";
+
+                /// <summary>
+                /// Battlecry: Choose a friendly minion. Add a 10/10 copy to your hand that costs (10).<br/>
+                /// 8-Cost 8/8 Undead Minion
+                /// </summary>
                 public const string Splintergraft = "GIL_658";
+
+                /// <summary>
+                /// Add two 2/2 Treants to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string WitchwoodApple = "GIL_663";
+
+                /// <summary>
+                /// On each player's turn, the first card played costs (0).<br/>
+                /// 5-Cost 3/7 Minion
+                /// </summary>
                 public const string DuskfallenAviana = "GIL_800";
+
+                /// <summary>
+                /// At the end of your turn, both players draw a card.<br/>
+                /// 4-Cost 1/6 Minion
+                /// </summary>
                 public const string ForestGuide = "GIL_833";
+
+                /// <summary>
+                /// Taunt. Choose One - +1 Attack; or +1 Health.<br/>
+                /// 2-Cost 2/2 Mechanical/Beast Minion
+                /// </summary>
                 public const string AnodizedRoboCub = "GVG_030";
+
+                /// <summary>
+                /// Shuffle an enemy minion into your opponent's deck.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string Recycle = "GVG_031";
+
+                /// <summary>
+                /// Choose One - Give each player a Mana Crystal; or Each player draws a card.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
                 public const string GroveTender = "GVG_032";
+
+                /// <summary>
+                /// Restore all characters to full Health.<br/>
+                /// 9-Cost Spell
+                /// </summary>
                 public const string TreeOfLife = "GVG_033";
+
+                /// <summary>
+                /// Whenever this minion takes damage, add a Spare Part card to your hand.<br/>
+                /// 6-Cost 7/6 Mechanical/Beast Minion
+                /// </summary>
                 public const string MechBearCat = "GVG_034";
+
+                /// <summary>
+                /// Deathrattle: Go Dormant. Revive after 2 friendly Beasts die.<br/>
+                /// 7-Cost 9/7 Beast Minion
+                /// </summary>
                 public const string MalorneGVG = "GVG_035";
+
+                /// <summary>
+                /// Choose One - Summon 5 Wisps; or Give a minion +5/+5 and Taunt.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string DarkWispers = "GVG_041";
+
+                /// <summary>
+                /// Battlecry: If you have a Beast, transform this minion into a 7/7.<br/>
+                /// 5-Cost 4/4 Minion
+                /// </summary>
                 public const string DruidOfTheFang = "GVG_080";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrageHeroHeroSkins = "HERO_06";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_LunaraHeroHeroSkins = "HERO_06a";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_EpicureanEliseHeroHeroSkins = "HERO_06aa";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_HamuulRunebladeHeroHeroSkins = "HERO_06ab";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_DreamgroveLunaraHeroHeroSkins = "HERO_06ac";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_FlowerchildLunaraHeroHeroSkins = "HERO_06ad";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_DameGroovybarkHeroHeroSkinsEnchantment = "HERO_06ae";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_BookwormEliseHeroHeroSkins = "HERO_06af";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_AstralXuenHeroHeroSkins = "HERO_06ag";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrageHeroic_CthunHeroHeroSkins = "HERO_06ah";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_UlfarHeroHeroSkins = "HERO_06ai";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_DrifterGuffHeroHeroSkins = "HERO_06aj_Guff";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_UlfarbyHeroHeroSkins = "HERO_06ak_Ulfar_hls";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_HappyHazelbarkHeroHeroSkins = "HERO_06al_Hazelbark_hls";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_AnniversaryMalfurionHeroHeroSkins = "HERO_06am_Malfurion";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_ThunderheartMalfurionHeroHeroSkins = "HERO_06an_Malfurion_hnv";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_RabbitFaelinHeroHeroSkinsEnchantment = "HERO_06ao_Faelin_hls";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_NordrassilMalfurionHeroHeroSkins = "HERO_06ap_Malfurion_hnv";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_CatnapXuenHeroHeroSkins = "HERO_06aq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_OrgrimmarFaelinHeroHeroSkins = "HERO_06ar";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_LeyaraHeroHeroSkins = "HERO_06as";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_CarnivalCthunHeroHeroSkins = "HERO_06at";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_EternalMalfurionHeroHeroSkins = "HERO_06au";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_HolidayHazelbarkHeroHeroSkins = "HERO_06av";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_YseraHeroHeroSkins = "HERO_06aw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_ArtanisHeroHeroSkins = "HERO_06ba";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_YellowbrowFaelinHeroHeroSkins = "HERO_06bb";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_DameHazelbarkHeroHeroSkins = "HERO_06d";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_CenarionMalfurionHeroHeroSkinsEnchantment = "HERO_06e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_HamuulRunetotemHeroHeroSkins = "HERO_06f";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_StormsRageMalfurionHeroHeroSkins = "HERO_06g";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_EmeraldMalfurionHeroHeroSkins = "HERO_06i";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_DruidOfTheFlameMalfurionHeroHeroSkins = "HERO_06j";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_GuffRunetotemHeroHeroSkins = "HERO_06k";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_SpelunkerGuffHeroHeroSkins = "HERO_06l";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_FangboundGuffHeroHeroSkins = "HERO_06m";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_FaunaFriendGuffHeroHeroSkins = "HERO_06n";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_WinterFuryMalfurionHeroHeroSkinsEnchantment = "HERO_06o";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_SteelGuardianMalfurionHeroHeroSkins = "HERO_06p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_IceLordMalfurionHeroHeroSkins = "HERO_06q";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_XuenHeroHeroSkins = "HERO_06r";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_CherryBlossomLunaraHeroHeroSkinsToken = "HERO_06t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_AmbassadorFaelinHeroHeroSkins = "HERO_06u";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_SeaDryadLunaraHeroHeroSkins = "HERO_06v";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_GuffMurtotemHeroHeroSkins = "HERO_06w";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_FireflowerLunaraHeroHeroSkins = "HERO_06x";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_ArdenwealdLunaraHeroHeroSkins = "HERO_06y";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_MagicalGuardianEliseHeroHeroSkins = "HERO_06z";
+
+                /// <summary>
+                /// Choose a Deathrattle (Secretly) - Deal 3 damage to all minions; or Give them +2/+2.<br/>
+                /// 5-Cost 5/3 Undead Minion
+                /// </summary>
                 public const string Fatespinner = "ICC_047";
+
+                /// <summary>
+                /// Summon two 1/2 Poisonous Spiders.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string Webweave = "ICC_050";
+
+                /// <summary>
+                /// Choose One - Transform into a 1/2 with Poisonous; or a 1/5 with Taunt.<br/>
+                /// 2-Cost 1/2 Minion
+                /// </summary>
                 public const string DruidOfTheSwarm = "ICC_051";
+
+                /// <summary>
+                /// Summon a 1/5 Scarab with Taunt. If your opponent has more minions, cast this again.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string SpreadingPlague = "ICC_054";
+
+                /// <summary>
+                /// Give your hero +3 Attack this turn. Gain 3 Armor.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Gnash = "ICC_079";
+
+                /// <summary>
+                /// Deal $5 damage. Draw 5 cards. Gain 5 Armor. Summon a 5/5 Ghoul.<br/>
+                /// 10-Cost Spell
+                /// </summary>
                 public const string UltimateInfestation = "ICC_085";
+
+                /// <summary>
+                /// Battlecry: Give your Taunt minions +2/+2.<br/>
+                /// 4-Cost 2/3 Minion
+                /// </summary>
                 public const string StrongshellScavenger = "ICC_807";
+
+                /// <summary>
+                /// Taunt After you summon a minion, gain +1 Health.<br/>
+                /// 3-Cost 1/6 Undead Minion
+                /// </summary>
                 public const string CryptLord = "ICC_808";
+
+                /// <summary>
+                /// Choose One - Summon 2 Poisonous Spiders; or 2 Scarabs with Taunt.<br/>
+                /// 7-Cost Hero
+                /// </summary>
                 public const string MalfurionThePestilent = "ICC_832";
+
+                /// <summary>
+                /// Deathrattle: Summon your Taunt minions that died this game.<br/>
+                /// 9-Cost 3/7 Beast Minion
+                /// </summary>
                 public const string Hadronox = "ICC_835";
+
+                /// <summary>
+                /// Choose One - Refresh your Hero Power; or Your next one costs (0).<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string PopularPixie = "JAM_026";
+
+                /// <summary>
+                /// Costs Health instead of Mana.<br/>
+                /// 5-Cost 2/2 Minion
+                /// </summary>
                 public const string BloodTreant = "JAM_028";
+
+                /// <summary>
+                /// Battlecry: Take one of your opponent's empty Mana Crystals.<br/>
+                /// 7-Cost 4/5 Minion
+                /// </summary>
                 public const string Doomkin = "JAM_029";
+
+                /// <summary>
+                /// Battlecry: Choose a friendly Beast. Summon a copy of it.<br/>
+                /// 5-Cost 5/4 Minion
+                /// </summary>
                 public const string MenagerieWardenKARA = "KAR_065";
+
+                /// <summary>
+                /// Restore #6 Health. Summon a random 6-Cost minion.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string MoongladePortal = "KAR_075";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 2/2 Beast Minion
+                /// </summary>
                 public const string EnchantedRaven = "KAR_300";
+
+                /// <summary>
+                /// Deathrattle: Summon a random 1-Cost minion.<br/>
+                /// 3-Cost 3/2 Beast Minion
+                /// </summary>
                 public const string MountedRaptor = "LOE_050";
+
+                /// <summary>
+                /// Both players have Spell Damage +2.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string JungleMoonkin = "LOE_051";
+
+                /// <summary>
+                /// Choose One - Discover a minion; or Discover a spell.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string RavenIdol = "LOE_115";
+
+                /// <summary>
+                /// Give a minion +3 Health. Gain 3 Armor.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Barkskin = "LOOT_047";
+
+                /// <summary>
+                /// Taunt Can only attack if you have 3 or more Armor.<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
                 public const string IronwoodGolem = "LOOT_048";
+
+                /// <summary>
+                /// Deal $2 damage to a minion. (Gain 3 Armor to upgrade.)<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LesserJasperSpellstone = "LOOT_051";
+
+                /// <summary>
+                /// Choose Twice - Draw a card; Give your minions +1 Attack; Gain 6 Armor.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string BranchingPaths = "LOOT_054";
+
+                /// <summary>
+                /// Deathrattle: Shuffle a copy of this minion into your deck.<br/>
+                /// 4-Cost 3/5 Beast Minion
+                /// </summary>
                 public const string AstralTiger = "LOOT_056";
+
+                /// <summary>
+                /// Gain 6 Armor. Summon a minion from your deck that costs (4) or less.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string OakenSummons = "LOOT_309";
+
+                /// <summary>
+                /// Taunt Deathrattle: Recruit 2 minions that cost (4) or less.<br/>
+                /// 8-Cost 3/5 Beast Minion
+                /// </summary>
                 public const string GrizzledGuardian = "LOOT_314";
+
+                /// <summary>
+                /// After you play a minion, summon a copy of it.<br/>
+                /// 5-Cost 2/4 Minion
+                /// </summary>
                 public const string IxlidFungalLord = "LOOT_329";
+
+                /// <summary>
+                /// Deathrattle: Gain an empty Mana Crystal.<br/>
+                /// 3-Cost 3/1 Minion
+                /// </summary>
                 public const string GreedySprite = "LOOT_351";
+
+                /// <summary>
+                /// Deathrattle: Refresh your Mana Crystals.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string TwigOfTheWorldTree = "LOOT_392";
+
+                /// <summary>
+                /// For the rest of the game, players draw an extra card at the start of their turn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string DewProcess = "MAW_024";
+
+                /// <summary>
+                /// Choose One - Silence a minion; or Give a minion Immune this turn.<br/>
+                /// 2-Cost 1/3 Minion
+                /// </summary>
                 public const string AttorneyAtMaw = "MAW_025";
+
+                /// <summary>
+                /// Choose a minion. It goes Dormant for 3 turns.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Incarceration = "MAW_026";
+
+                /// <summary>
+                /// Gigantify Elusive, Lifesteal, Taunt<br/>
+                /// 3-Cost 2/4 Beast Minion
+                /// </summary>
                 public const string SnuggleTeddy = "MIS_300";
+
+                /// <summary>
+                /// Summon a 2/2 Treant. Draw a card for each Treant you control.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string OvergrownBeanstalk = "MIS_301";
+
+                /// <summary>
+                /// Taunt, Elusive Battlecry: If you have 10 Mana Crystals, gain +7/+7.<br/>
+                /// 6-Cost 7/7 Beast Minion
+                /// </summary>
                 public const string Toyrantus = "MIS_712";
+
+                /// <summary>
+                /// Choose One - Deal $5 damage to a minion; or $2 damage to all enemy minions.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string Starfall = "NEW1_007";
+
+                /// <summary>
+                /// Choose One - Draw 2 cards; or Restore #7 Health.<br/>
+                /// 7-Cost 7/7 Minion
+                /// </summary>
                 public const string AncientOfLore = "NEW1_008";
+
+                /// <summary>
+                /// Taunt Manathirst (11): Gain +4/+4 and Charge.<br/>
+                /// 6-Cost 6/6 Undead/Beast Minion
+                /// </summary>
                 public const string DeathBeetle = "NX2_010";
+
+                /// <summary>
+                /// Draw 3 cards. Infuse (6): This costs (1).<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string LifeFromDeath = "NX2_011";
+
+                /// <summary>
+                /// Give your hero +2 Attack this turn. Deal damage equal to your hero's Attack to a minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Rake = "NX2_012";
+
+                /// <summary>
+                /// Your Choose One cards and powers have both effects combined.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
                 public const string FandralStaghelm = "OG_044";
+
+                /// <summary>
+                /// Choose One - Give your hero +4 Attack this turn; or Gain 8 Armor.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string FeralRage = "OG_047";
+
+                /// <summary>
+                /// Give a minion +2/+2. If it's a Beast, draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MarkOfYshaarj = "OG_048";
+
+                /// <summary>
+                /// Battlecry: Spend all your Mana. Gain +1/+1 for each Mana spent.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string ForbiddenAncient = "OG_051";
+
+                /// <summary>
+                /// Taunt Battlecry: If your C'Thun has at least 10 Attack, gain +5 Health.<br/>
+                /// 4-Cost 4/5 Minion
+                /// </summary>
                 public const string KlaxxiAmberWeaverOG = "OG_188";
+
+                /// <summary>
+                /// Choose One - Summon seven 1/1 Wisps; or Give your minions +2/+2.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string WispsOfTheOldGods = "OG_195";
+
+                /// <summary>
+                /// Choose One - Summon a 2/2 Slime; or Gain an empty Mana Crystal.<br/>
+                /// 4-Cost 3/4 Minion
+                /// </summary>
                 public const string MireKeeperOG = "OG_202";
+
+                /// <summary>
+                /// Taunt Battlecry: Give your C'Thun +4/+4 (wherever it is).<br/>
+                /// 6-Cost 5/7 Minion
+                /// </summary>
                 public const string DarkArakkoaOG = "OG_293";
+
+                /// <summary>
+                /// After you summon a Beast, give it +1/+1.<br/>
+                /// 2-Cost 2/3 Beast Minion
+                /// </summary>
                 public const string AddledGrizzlyOG = "OG_313";
+
+                /// <summary>
+                /// Choose One - Restore 8 Health to your hero; or Deal 4 damage.<br/>
+                /// 5-Cost 4/5 Minion
+                /// </summary>
                 public const string Boomkin = "ONY_018";
+
+                /// <summary>
+                /// Battlecry: Discover a Choose One card. It has both effects combined.<br/>
+                /// 4-Cost 3/4 Minion
+                /// </summary>
                 public const string RaidNegotiator = "ONY_019";
+
+                /// <summary>
+                /// Fill your board with 2/1 Whelps with Rush.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string ScaleOfOnyxia = "ONY_021";
+
+                /// <summary>
+                /// Deal $2 damage. Summon a 2/2 Treant.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string NaturalCauses = "REV_307";
+
+                /// <summary>
+                /// Battlecry: Draw a Deathrattle minion and gain its Deathrattle.<br/>
+                /// 5-Cost 6/5 Minion
+                /// </summary>
                 public const string DeathBlossomWhomper = "REV_310";
+
+                /// <summary>
+                /// Choose One - Discover a minion from your deck to summon; or a spell to cast.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string NightshadeBud = "REV_311";
+
+                /// <summary>
+                /// Discover a spell. It costs (2) less this turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PlantedEvidence = "REV_313";
+
+                /// <summary>
+                /// Battlecry: For the rest of the game, after you cast a Nature spell, summon a 3/3 Whelp with Rush.<br/>
+                /// 7-Cost 5/5 Dragon Minion
+                /// </summary>
                 public const string TopiorTheShrubbagazzor = "REV_314";
+
+                /// <summary>
+                /// Battlecry: Draw a Nature spell. Gain an empty Mana Crystal.<br/>
+                /// 4-Cost 3/2 Minion
+                /// </summary>
                 public const string WidowbloomSeedsman = "REV_318";
+
+                /// <summary>
+                /// Taunt Deathrattle: Draw a minion. Reduce its Cost by (8).<br/>
+                /// 8-Cost 8/8 Minion
+                /// </summary>
                 public const string SesselieOfTheFaeCourt = "REV_319";
+
+                /// <summary>
+                /// Trigger a friendly minion's Deathrattle.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string HedgeMaze = "REV_333";
+
+                /// <summary>
+                /// Summon two 2/2 Treants. Infuse (5): Two 5/5 Ancients instead.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string PlotOfSin = "REV_336";
+
+                /// <summary>
+                /// Cast 8 random Druid spells (targets chosen randomly).<br/>
+                /// 10-Cost Spell
+                /// </summary>
                 public const string ConvokeTheSpirits = "REV_365";
+
+                /// <summary>
+                /// Deathrattle: Summon a 1/1 Disarmed Zombie with "Deathrattle: Summon a 1/1 Zombie."<br/>
+                /// 1-Cost 1/1 Undead Minion
+                /// </summary>
                 public const string LingeringZombie = "RLK_650";
+
+                /// <summary>
+                /// Taunt. Costs (1) less for each Armor you have.<br/>
+                /// 8-Cost 4/6 Undead Minion
+                /// </summary>
                 public const string CryptKeeper = "RLK_651";
+
+                /// <summary>
+                /// Resurrect all friendly minions that cost (2) or less.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string UnendingSwarm = "RLK_652";
+
+                /// <summary>
+                /// Choose One - Gain 12 Armor; or Summon two 3/3 Beetles with Taunt.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string Beetlemancy = "RLK_654";
+
+                /// <summary>
+                /// Choose a minion. Each friendly Undead steals 1 Attack and Health from it.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Wither = "RLK_655";
+
+                /// <summary>
+                /// Gain 4 Armor. At the start of your next turn, gain 4 more.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ChitinousPlating = "RLK_656";
+
+                /// <summary>
+                /// Rush Battlecry and Deathrattle: Gain 6 Armor.<br/>
+                /// 7-Cost 6/6 Undead Minion
+                /// </summary>
                 public const string Underking = "RLK_657";
+
+                /// <summary>
+                /// Battlecry: Destroy a friendly Undead. Your minions gain its Attack.<br/>
+                /// 5-Cost 5/4 Undead Minion
+                /// </summary>
                 public const string ElderNadox = "RLK_658";
+
+                /// <summary>
+                /// Battlecry: Gain 5 Armor. Your next 3 minions this turn cost Armor instead of Mana.<br/>
+                /// 8-Cost 7/7 Undead Minion
+                /// </summary>
                 public const string Anubrekhan = "RLK_659";
+
+                /// <summary>
+                /// Battlecry: If a friendly Undead died after your last turn, summon a 2/2 Nerubian.<br/>
+                /// 2-Cost 2/3 Undead Minion
+                /// </summary>
                 public const string NerubianFlyer = "RLK_956";
+
+                /// <summary>
+                /// Your next Protoss card this turn costs (2) less.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ConstructPylons = "SC_755";
+
+                /// <summary>
+                /// At the end of your turn, summon four 4/1 Interceptors that attack random enemies.<br/>
+                /// 12-Cost 2/14 Mechanical Minion
+                /// </summary>
                 public const string Carrier = "SC_756";
+
+                /// <summary>
+                /// Taunt, Divine Shield Battlecry: Spend 4 Mana to double this minion's stats.<br/>
+                /// 7-Cost 5/8 Mechanical Minion
+                /// </summary>
                 public const string Immortal = "SC_763";
+
+                /// <summary>
+                /// Spellburst: Summon a Gibberling.<br/>
+                /// 2-Cost 1/1 Minion
+                /// </summary>
                 public const string Gibberling = "SCH_242";
+
+                /// <summary>
+                /// Discover a spell. Your next one costs (1) less.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string NatureStudies = "SCH_333";
+
+                /// <summary>
+                /// Refresh 2 Mana Crystals. Overload: (2)<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string LightningBloom = "SCH_427";
+
+                /// <summary>
+                /// Add a random 2-Cost and 3-Cost Beast to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PartnerAssignment = "SCH_606";
+
+                /// <summary>
+                /// Give +4/+4 to all minions in your hand, deck, and battlefield.<br/>
+                /// 10-Cost Spell
+                /// </summary>
                 public const string SurvivalOfTheFittest = "SCH_609";
+
+                /// <summary>
+                /// Choose One - Summon four 2/2 Treant Totems; or Overload: (2) to summon them with Rush.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string RunicCarvings = "SCH_612";
+
+                /// <summary>
+                /// Taunt Battlecry: If you're holding a spell that costs (5) or more, restore 5 Health.<br/>
+                /// 4-Cost 4/5 Minion
+                /// </summary>
                 public const string Groundskeeper = "SCH_613";
+
+                /// <summary>
+                /// Spellburst: Refresh your Mana Crystals.<br/>
+                /// 6-Cost 5/4 Minion
+                /// </summary>
                 public const string ForestWardenOmu = "SCH_614";
+
+                /// <summary>
+                /// Stealth Whenever this attacks, draw 2 cards.<br/>
+                /// 5-Cost 5/4 Beast Minion
+                /// </summary>
                 public const string TwilightRunner = "SCH_616";
+
+                /// <summary>
+                /// After you play a minion that costs (2) or less, summon a copy of it.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
                 public const string OracleOfElune = "SW_419";
+
+                /// <summary>
+                /// Choose One - Give your minions +1 Attack; or Summon a 2/2 Treant.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SowTheSoil = "SW_422";
+
+                /// <summary>
+                /// Questline: Gain 4 Attack with your hero. Reward: Gain 5 Armor.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LostInThePark = "SW_428";
+
+                /// <summary>
+                /// Tradeable Summon two 2/7 Turtles with Taunt.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string BestInShell = "SW_429";
+
+                /// <summary>
+                /// Rush. Whenever this attacks, give your hero +3 Attack this turn.<br/>
+                /// 4-Cost 4/4 Beast Minion
+                /// </summary>
                 public const string ParkPanther = "SW_431";
+
+                /// <summary>
+                /// Give a minion +4/+2 and Rush. When it dies, summon a Kodo.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string KodoMount = "SW_432";
+
+                /// <summary>
+                /// After your hero gains Attack, this minion gains +2 Attack.<br/>
+                /// 2-Cost 1/4 Beast Minion
+                /// </summary>
                 public const string Wickerclaw = "SW_436";
+
+                /// <summary>
+                /// Give your minions "Deathrattle: Draw a card."<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Composting = "SW_437";
+
+                /// <summary>
+                /// Deathrattle: Shuffle 4 Acorns into your deck. When drawn, summon a 2/1 Squirrel.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
                 public const string VibrantSquirrel = "SW_439";
+
+                /// <summary>
+                /// Battlecry: The next 3 spells you draw are Cast When Drawn.<br/>
+                /// 8-Cost 5/5 Minion
+                /// </summary>
                 public const string SheldrasMoontree = "SW_447";
+
+                /// <summary>
+                /// If you have any unspent Mana at the end of your turn, gain +1/+2.<br/>
+                /// 2-Cost 2/2 Elemental Minion
+                /// </summary>
                 public const string SpiritOfTheTides = "TID_000";
+
+                /// <summary>
+                /// Deal $1 damage to an enemy, twice.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Moonbeam = "TID_001";
+
+                /// <summary>
+                /// Battlecry: If you've cast a Nature spell while holding this, give your other minions +1/+1.<br/>
+                /// 3-Cost 3/3 Naga Minion
+                /// </summary>
                 public const string HeraldOfNature = "TID_002";
+
+                /// <summary>
+                /// Deal $2 damage. Your next card this turn costs that much less.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SparklingPhial = "TOY_800";
+
+                /// <summary>
+                /// Miniaturize Choose One - Gain Spell Damage +1; or Draw a spell.<br/>
+                /// 4-Cost 2/4 Dragon Minion
+                /// </summary>
                 public const string ChiaDrake = "TOY_801";
+
+                /// <summary>
+                /// Tradeable Battlecry: Refresh 1 Mana Crystal. (Trade to upgrade!)<br/>
+                /// 2-Cost 2/1 Minion
+                /// </summary>
                 public const string WindUpSapling = "TOY_802";
+
+                /// <summary>
+                /// Deathrattle: Your Jade Displays have +1/+1 this game. Shuffle 2 of them into your deck.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string JadeDisplay = "TOY_803";
+
+                /// <summary>
+                /// Summon two 2/5 Beetles with Taunt. Costs (3) less if you have Spell Damage.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string WoodlandWonders = "TOY_804";
+
+                /// <summary>
+                /// Reduce the Cost and Attack of minions in your deck by (1).<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Ensmallen = "TOY_805";
+
+                /// <summary>
+                /// Battlecry: Shuffle 10 random Legendary minions into your deck. They cost (1).<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string SkyMotherAviana = "TOY_806";
+
+                /// <summary>
+                /// Spell Damage +1 Your spells get double bonus from Spell Damage.<br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
                 public const string Owlonius = "TOY_807";
+
+                /// <summary>
+                /// Gain Spell Damage +1 this turn only.<br/>
+                /// 1-Cost Location
+                /// </summary>
                 public const string MagicalDollhouse = "TOY_850";
+
+                /// <summary>
+                /// Discover a card from your deck. If you have Spell Damage, copy it.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string BottomlessToyChest = "TOY_851";
+
+                /// <summary>
+                /// Stealth for 1 turn. After your hero attacks and kills a minion, draw a card.<br/>
+                /// 1-Cost 0/3 Undead/Beast Minion
+                /// </summary>
                 public const string SpiritOfTheRaptor = "TRL_223";
+
+                /// <summary>
+                /// Normal (this):<br/>
+                /// Overkill: Summon a 5/5 Ironhide Runt.<br/>
+                /// Tier-5 7/7 Beast Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// Overkill: Summon a 10/10 Ironhide Runt.<br/>
+                /// Tier-5 14/14 Beast Minion
+                /// </summary>
                 public const string IronhideDirehorn = "TRL_232";
+
+                /// <summary>
+                /// Battlecry: Deal damage to an enemy minion equal to your hero's Attack.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string SavageStriker = "TRL_240";
+
+                /// <summary>
+                /// After your hero attacks and kills a minion, it may attack again.<br/>
+                /// 7-Cost 4/9 Beast Minion
+                /// </summary>
                 public const string GonkTheRaptor = "TRL_241";
+
+                /// <summary>
+                /// Give your hero +2 Attack this turn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Pounce = "TRL_243";
+
+                /// <summary>
+                /// Draw a Beast from your deck. Double its Health.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string PredatoryInstincts = "TRL_244";
+
+                /// <summary>
+                /// Choose One - Give a minion +2/+4 and Taunt; or Summon two 3/2 Raptors.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string MarkOfTheLoa = "TRL_254";
+
+                /// <summary>
+                /// Summon a random Beast from your hand and give it Rush.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string StampedingRoar = "TRL_255";
+
+                /// <summary>
+                /// Battlecry: Transform your Treants into 5/5 Ancients.<br/>
+                /// 5-Cost 4/4 Minion
+                /// </summary>
                 public const string Treespeaker = "TRL_341";
+
+                /// <summary>
+                /// Choose One - Transform into one of Loti's four dinosaur forms.<br/>
+                /// 3-Cost 1/2 Minion
+                /// </summary>
                 public const string WardruidLoti = "TRL_343";
+
+                /// <summary>
+                /// Colossal +1 Immune while you control Colaque's Shell.<br/>
+                /// 7-Cost 6/5 Beast Minion
+                /// </summary>
                 public const string Colaque = "TSC_026";
+
+                /// <summary>
+                /// Choose One - Summon a 6/6 Orca with Taunt; or six 1/1 Otters with Rush.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string FlipperFriends = "TSC_650";
+
+                /// <summary>
+                /// Deal $4 damage to a minion. If you played a Naga while holding this, also give your hero +4 Attack this turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SeaweedStrike = "TSC_651";
+
+                /// <summary>
+                /// Battlecry: Refresh empty Mana Crystals equal to the Cost of the highest Cost spell in your hand.<br/>
+                /// 6-Cost 5/5 Naga Minion
+                /// </summary>
                 public const string GreenThumbGardener = "TSC_652";
+
+                /// <summary>
+                /// Deathrattle: Add a Bottomfeeder to the bottom of your deck with permanent +2/+2.<br/>
+                /// 1-Cost 1/3 Beast Minion
+                /// </summary>
                 public const string Bottomfeeder = "TSC_653";
+
+                /// <summary>
+                /// Dredge. If you have the Mana to play the card this turn, draw it.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string AquaticForm = "TSC_654";
+
+                /// <summary>
+                /// Draw 3 cards. Summon a Plant with Taunt and stats equal to your hand size.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string MiracleGrowth = "TSC_656";
+
+                /// <summary>
+                /// Rush. Starts Dormant. After you've cast 5 Mana worth of spells, awaken.<br/>
+                /// 1-Cost 4/4 Naga Minion
+                /// </summary>
                 public const string DozingKelpkeeper = "TSC_657";
+
+                /// <summary>
+                /// Battlecry: For each spell you've cast while holding this, summon a minion of that spell's Cost.<br/>
+                /// 7-Cost 4/5 Naga Minion
+                /// </summary>
                 public const string HedraTheHeretic = "TSC_658";
+
+                /// <summary>
+                /// Give all minions in your hand +1/+1. Put a 'Sunken Gardens' on the bottom of your deck.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string AzsharanGardens = "TSC_927";
+
+                /// <summary>
+                /// Battlecry: Your next Choose One card or power has both effects combined.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string DiscipleOfEonar = "TTN_503";
+
+                /// <summary>
+                /// Titan After this uses an ability, summon a 5/5 Ancient with Taunt.<br/>
+                /// 10-Cost 5/7 Minion
+                /// </summary>
                 public const string EonarTheLifeBinder = "TTN_903";
+
+                /// <summary>
+                /// Choose One - Summon three 2/2 Treants; or Transform your Treants into 5/5 Ancients with Taunt.<br/>
+                /// 7-Cost 5/5 Minion
+                /// </summary>
                 public const string AncientOfGrowth = "TTN_926";
+
+                /// <summary>
+                /// Battlecry: Transform a friendly Treant into a 5/5 Ancient with Taunt.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string ConservatorNymph = "TTN_927";
+
+                /// <summary>
+                /// Draw 1 card. Gain 5 Armor. (Blossoms in 3 turns.)<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string FrostLotusSeedling = "TTN_930";
+
+                /// <summary>
+                /// Choose One - Duplicate your hand; or Summon copies of all other friendly minions.<br/>
+                /// 8-Cost 4/6 Minion
+                /// </summary>
                 public const string FreyaKeeperOfNature = "TTN_940";
+
+                /// <summary>
+                /// Summon two 1/1 Saplings. (Blossoms in 2 turns.)<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ForestSeedlings = "TTN_950";
+
+                /// <summary>
+                /// Draw a Choose One card. Forge: It has both effects combined.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string EmbraceOfNature = "TTN_951";
+
+                /// <summary>
+                /// Give your minions +2/+2. Costs (1) less for each Treant you've summoned this game.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string Cultivation = "TTN_954";
+
+                /// <summary>
+                /// Choose One - Get 2 random Nature spells; or Reduce the Cost of spells in your hand by (1).<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string LifebindersGift = "TTN_955";
+
+                /// <summary>
+                /// Quest: End 4 turns with any unspent Mana. Reward: Ossirian Tear.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string UntappedPotential = "ULD_131";
+
+                /// <summary>
+                /// If you have any unspent Mana at the end of your turn, draw a card.<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
                 public const string CrystalMerchant = "ULD_133";
+
+                /// <summary>
+                /// Choose a minion. Summon four 1/1 Bees that attack it.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Beeees = "ULD_134";
+
+                /// <summary>
+                /// Choose One - Summon a 6/6 Ancient with Taunt; or Restore #12 Health.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string HiddenOasis = "ULD_135";
+
+                /// <summary>
+                /// Discover a Choose One card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string WorthyExpedition = "ULD_136";
+
+                /// <summary>
+                /// Battlecry: If you're holding a spell that costs (5) or more, summon two 2/2 Treants.<br/>
+                /// 4-Cost 2/3 Minion
+                /// </summary>
                 public const string GardenGnome = "ULD_137";
+
+                /// <summary>
+                /// Taunt. Costs (0) if you've cast a spell that costs (5) or more this turn.<br/>
+                /// 5-Cost 3/5 Minion
+                /// </summary>
                 public const string AnubisathDefender = "ULD_138";
+
+                /// <summary>
+                /// Battlecry: If your deck has no duplicates, duplicate your hand.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string EliseTheEnlightened = "ULD_139";
+
+                /// <summary>
+                /// Restore #5 Health to all characters. Draw 5 cards.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string Overflow = "ULD_273";
+
+                /// <summary>
+                /// Rush Choose One - Gain +2/+2; or Summon a copy of this minion.<br/>
+                /// 5-Cost 3/3 Elemental Minion
+                /// </summary>
                 public const string OasisSurger = "ULD_292";
+
+                /// <summary>
+                /// Battlecry: Add a random minion with 5 or more Attack to your hand.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string TortollanForager = "UNG_078";
+
+                /// <summary>
+                /// Taunt Deathrattle: Summon a minion from your hand with 5 or more Attack.<br/>
+                /// 7-Cost 5/3 Beast Minion
+                /// </summary>
                 public const string GiantAnaconda = "UNG_086";
+
+                /// <summary>
+                /// Battlecry: Adapt.<br/>
+                /// 5-Cost 5/5 Beast Minion
+                /// </summary>
                 public const string VerdantLongneck = "UNG_100";
+
+                /// <summary>
+                /// Choose One - Transform into a 5/3 with Stealth; or a 3/5 with Taunt.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
                 public const string Shellshifter = "UNG_101";
+
+                /// <summary>
+                /// Adapt your minions.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string EvolvingSpores = "UNG_103";
+
+                /// <summary>
+                /// Give a friendly minion +1/+1, then gain Armor equal to its Attack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string EarthenScales = "UNG_108";
+
+                /// <summary>
+                /// Battlecry: If you're holding a minion with 5 or more Attack, Adapt.<br/>
+                /// 3-Cost 5/1 Beast Minion
+                /// </summary>
                 public const string ElderLongneck = "UNG_109";
+
+                /// <summary>
+                /// Transform your Mana Crystals into 2/2 Treants. Recover the mana when they die.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string LivingMana = "UNG_111";
+
+                /// <summary>
+                /// Quest: Summon 4 minions with 5 or more Attack. Reward: Barnabus.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string JungleGiants = "UNG_116";
+
+                /// <summary>
+                /// Taunt Elusive<br/>
+                /// 10-Cost 14/14 Beast Minion
+                /// </summary>
                 public const string Tyrantus = "UNG_852";
+
+                /// <summary>
+                /// Battlecry: Summon 2 random locations.<br/>
+                /// 6-Cost 4/5 Pirate Minion
+                /// </summary>
                 public const string CruiseCaptainLora = "VAC_506";
+
+                /// <summary>
+                /// Gain 2 Mana Crystals next turn only.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string TrailMix = "VAC_508";
+
+                /// <summary>
+                /// Dormant for 2 turns. While Dormant, summon a 3/5 Dragon with Taunt at the end of your turn.<br/>
+                /// 5-Cost 3/5 Dragon Minion
+                /// </summary>
                 public const string DozingDragon = "VAC_511";
+
+                /// <summary>
+                /// Discover a Taunt minion. After you gain Armor, reopen this.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string HikingTrail = "VAC_517";
+
+                /// <summary>
+                /// Taunt Deathrattle: Draw another Taunt minion. Reduce its Cost by (2).<br/>
+                /// 3-Cost 1/5 Minion
+                /// </summary>
                 public const string TortollanTraveler = "VAC_518";
+
+                /// <summary>
+                /// Mage Tourist Battlecry: In 3 turns, replay every spell you've cast between now and then.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string MistahVistah = "VAC_519";
+
+                /// <summary>
+                /// Choose Thrice - Draw 2 cards; Gain 5 Armor; Refresh 3 Mana Crystals.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string SleepUnderTheStars = "VAC_907";
+
+                /// <summary>
+                /// Resurrect three of your different highest Cost Taunt minions.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string HydrationStation = "VAC_948";
+
+                /// <summary>
+                /// Increase your maximum Mana by 3 and gain an empty Mana Crystal.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string NewHeights = "VAC_949";
+
+                /// <summary>
+                /// Rush, Taunt Costs (1) if you have at least 10 Mana Crystals.<br/>
+                /// 7-Cost 6/7 Elemental Minion
+                /// </summary>
                 public const string BoulderingBuddy = "VAC_950";
+
+                /// <summary>
+                /// Give your hero +2 Attack this turn. Gain 2 Armor.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ClawVanilla = "VAN_CS2_005";
+
+                /// <summary>
+                /// Restore #8 Health.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string HealingTouchVanilla = "VAN_CS2_007";
+
+                /// <summary>
+                /// Deal $1 damage.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string MoonfireVanilla = "VAN_CS2_008";
+
+                /// <summary>
+                /// Give a minion Taunt and +2/+2. (+2 Attack/+2 Health)<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MarkOfTheWildVanilla = "VAN_CS2_009";
+
+                /// <summary>
+                /// Give your characters +2 Attack this turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SavageRoarVanilla = "VAN_CS2_011";
+
+                /// <summary>
+                /// Deal $4 damage to an enemy and $1 damage to all other enemies.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string SwipeVanilla = "VAN_CS2_012";
+
+                /// <summary>
+                /// Gain an empty Mana Crystal.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string WildGrowthVanilla = "VAN_CS2_013";
+
+                /// <summary>
+                /// Taunt<br/>
+                /// 8-Cost 8/8 Minion
+                /// </summary>
                 public const string IronbarkProtectorVanilla = "VAN_CS2_232";
+
+                /// <summary>
+                /// Choose One - Deal $3 damage to a minion; or $1 damage and draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string WrathVanilla = "VAN_EX1_154";
+
+                /// <summary>
+                /// Choose One - Give a minion +4 Attack; or +4 Health and Taunt.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string MarkOfNatureVanilla = "VAN_EX1_155";
+
+                /// <summary>
+                /// Give your minions "Deathrattle: Summon a 2/2 Treant."<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string SoulOfTheForestVanilla = "VAN_EX1_158";
+
+                /// <summary>
+                /// Choose One - Give your minions +1/+1; or Summon a 3/2 Panther.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PowerOfTheWildVanilla = "VAN_EX1_160";
+
+                /// <summary>
+                /// Destroy a minion. Your opponent draws 2 cards.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string NaturalizeVanilla = "VAN_EX1_161";
+
+                /// <summary>
+                /// Choose One - Gain 2 Mana Crystals; or Draw 3 cards.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string NourishVanilla = "VAN_EX1_164";
+
+                /// <summary>
+                /// Choose One - Charge; or +2 Health and Taunt.<br/>
+                /// 5-Cost 4/4 Minion
+                /// </summary>
                 public const string DruidOfTheClawVanilla = "VAN_EX1_165";
+
+                /// <summary>
+                /// Choose One - Deal 2 damage; or Silence a minion.<br/>
+                /// 4-Cost 2/4 Minion
+                /// </summary>
                 public const string KeeperOfTheGroveVanilla = "VAN_EX1_166";
+
+                /// <summary>
+                /// Gain 2 Mana Crystals this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string InnervateVanilla = "VAN_EX1_169";
+
+                /// <summary>
+                /// Deal $5 damage. Draw a card.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string StarfireVanilla = "VAN_EX1_173";
+
+                /// <summary>
+                /// Choose One - +5 Attack; or +5 Health and Taunt.<br/>
+                /// 7-Cost 5/5 Minion
+                /// </summary>
                 public const string AncientOfWarVanilla = "VAN_EX1_178";
+
+                /// <summary>
+                /// Give your hero +4 Attack this turn. Gain 4 Armor.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string BiteVanilla = "VAN_EX1_570";
+
+                /// <summary>
+                /// Summon three 2/2 Treants with Charge that die at the end of the turn.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string ForceOfNatureVanilla = "VAN_EX1_571";
+
+                /// <summary>
+                /// Choose One - Give your other minions +2/+2; or Summon two 2/2 Treants with Taunt.<br/>
+                /// 9-Cost 5/8 Minion
+                /// </summary>
                 public const string CenariusVanilla = "VAN_EX1_573";
+
+                /// <summary>
+                /// Deal damage equal to your hero's Attack to a minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SavageryVanilla = "VAN_EX1_578";
+
+                /// <summary>
+                /// Choose One - Deal $5 damage to a minion; or $2 damage to all enemy minions.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string StarfallVanilla = "VAN_NEW1_007";
+
+                /// <summary>
+                /// Choose One - Draw 2 cards; or Restore #5 Health.<br/>
+                /// 7-Cost 5/5 Minion
+                /// </summary>
                 public const string AncientOfLoreVanilla = "VAN_NEW1_008";
+
+                /// <summary>
+                /// Taunt Deathrattle: Reduce the Cost of a Beast in your hand by (2).<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string FangboundDruid = "WC_004";
+
+                /// <summary>
+                /// Your Nature spells cost (2) less.<br/>
+                /// 6-Cost 3/7 Minion
+                /// </summary>
                 public const string LadyAnacondra = "WC_006";
+
+                /// <summary>
+                /// After you cast a Nature spell, summon a 4/2 Viper with Rush.<br/>
+                /// 8-Cost 4/9 Beast Minion
+                /// </summary>
                 public const string DeviateDreadfang = "WC_036";
+
+                /// <summary>
+                /// Costs (1) less for each Beast you've summoned this game.<br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
                 public const string KnightOfTheWildWONDERS = "WON_003";
+
+                /// <summary>
+                /// After you summon a Beast, give it +1/+1.<br/>
+                /// 2-Cost 2/3 Beast Minion
+                /// </summary>
                 public const string AddledGrizzlyWONDERS = "WON_009";
+
+                /// <summary>
+                /// Taunt Battlecry: If your C'Thun has at least 10 Attack, gain +5 Health.<br/>
+                /// 4-Cost 4/5 Minion
+                /// </summary>
                 public const string KlaxxiAmberWeaverWONDERS = "WON_010";
+
+                /// <summary>
+                /// Deathrattle: Go Dormant. Revive after 2 friendly Beasts die.<br/>
+                /// 7-Cost 9/7 Beast Minion
+                /// </summary>
                 public const string MalorneWONDERS = "WON_011";
+
+                /// <summary>
+                /// Your minions cost (1).<br/>
+                /// 9-Cost 5/5 Minion
+                /// </summary>
                 public const string AvianaWONDERS = "WON_012";
+
+                /// <summary>
+                /// Battlecry and Deathrattle: Add two 1/1 Turtles with Taunt to your hand.<br/>
+                /// 2-Cost 2/2 Beast Minion
+                /// </summary>
                 public const string RatSensei = "WON_013";
+
+                /// <summary>
+                /// Choose One - Gain an empty Mana Crystal; or Draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Invigorate = "WON_014";
+
+                /// <summary>
+                /// Your next Choose One card this turn has both effects combined.<br/>
+                /// 1-Cost Location
+                /// </summary>
                 public const string CenarionHold = "WON_015";
+
+                /// <summary>
+                /// Battlecry: Give a friendly Beast +3/+3.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string VirmenSenseiWONDERS = "WON_300";
+
+                /// <summary>
+                /// Choose One - Summon a 2/2 Slime; or Gain an empty Mana Crystal.<br/>
+                /// 4-Cost 3/4 Minion
+                /// </summary>
                 public const string MireKeeperWONDERS = "WON_302";
+
+                /// <summary>
+                /// Taunt Battlecry: Summon a{1} {0} Jade Golem.Taunt Battlecry: Summon a Jade Golem.<br/>
+                /// 5-Cost 3/6 Minion
+                /// </summary>
                 public const string JadeBehemothWONDERS = "WON_303";
+
+                /// <summary>
+                /// Taunt Battlecry: Give your C'Thun +4/+4 (wherever it is).<br/>
+                /// 6-Cost 5/7 Minion
+                /// </summary>
                 public const string DarkArakkoaWONDERS = "WON_304";
+
+                /// <summary>
+                /// Battlecry: Choose a friendly Beast. Summon a copy of it.<br/>
+                /// 5-Cost 5/4 Minion
+                /// </summary>
                 public const string MenagerieWardenWONDERS = "WON_305";
+
+                /// <summary>
+                /// Get two 3/3 Bears with Taunt. Each turn they are in your hand, they gain +1/+1.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string HandleWithBear = "WORK_024";
+
+                /// <summary>
+                /// Rush, Taunt Choose Thrice - Gain +2 Attack; or +2 Health.<br/>
+                /// 4-Cost 2/1 Beast Minion
+                /// </summary>
                 public const string NumberCruncher = "WORK_025";
+
+                /// <summary>
+                /// Draw two minions. Give them +2/+2. (Flips each turn.)<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string UngoroBrochure = "WORK_050";
+
+                /// <summary>
+                /// Draw two Dragons. Give them +1/+1.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string TakeToTheSkies = "WW_816";
+
+                /// <summary>
+                /// Discover a 2-Cost minion. Summon a 1/1 copy of it.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string CactusConstruct = "WW_818";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Dragon, gain an empty Mana Crystal.<br/>
+                /// 3-Cost 3/2 Dragon Minion
+                /// </summary>
                 public const string SplishSplashWhelp = "WW_819";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Dragon, deal 5 damage to an enemy minion.<br/>
+                /// 4-Cost 5/4 Dragon Minion
+                /// </summary>
                 public const string SpinetailDrake = "WW_820";
+
+                /// <summary>
+                /// Choose One - Get two random Dragons that cost (5) or less; or Get two that cost more than (5).<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string DragonTales = "WW_821";
+
+                /// <summary>
+                /// Taunt Battlecry: Summon a copy of this for each Dragon in your hand.<br/>
+                /// 7-Cost 3/4 Dragon Minion
+                /// </summary>
                 public const string DragonGolem = "WW_822";
+
+                /// <summary>
+                /// Restore #7 Health. Quickdraw: Refresh 2 Mana Crystals.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Rehydrate = "WW_823";
+
+                /// <summary>
+                /// Battlecry: If your deck started with no duplicates, summon the Purified Dragon Nest.<br/>
+                /// 8-Cost 8/8 Dragon Minion
+                /// </summary>
                 public const string Rheastrasza = "WW_824";
+
+                /// <summary>
+                /// Rush, Lifesteal, Taunt Costs (1) less for each Dragon you've summoned this game.<br/>
+                /// 9-Cost 4/12 Dragon Minion
+                /// </summary>
                 public const string FyeTheSettingSun = "WW_825";
+
+                /// <summary>
+                /// Taunt. Battlecry: If you're holding a Dragon, refresh 4 Mana Crystals.<br/>
+                /// 4-Cost 3/4 Dragon Minion
+                /// </summary>
                 public const string DesertNestmatron = "WW_826";
+
+                /// <summary>
+                /// Twinspell Choose One - Draw a card; or Summon a 3/2 Eagle.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string RisingWinds = "YOD_001";
+
+                /// <summary>
+                /// Taunt Reborn Elusive<br/>
+                /// 7-Cost 6/8 Beast Minion
+                /// </summary>
                 public const string WingedGuardian = "YOD_003";
+
+                /// <summary>
+                /// Battlecry: If you're holding a spell that costs (5) or more, gain 5 Armor.<br/>
+                /// 2-Cost 2/3 Beast Minion
+                /// </summary>
                 public const string SteelBeetle = "YOD_040";
+
+                /// <summary>
+                /// Battlecry and Deathrattle: Summon a 2/2 Treant.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string Aerosoilizer = "YOG_403";
+
+                /// <summary>
+                /// Battlecry: If you've cast 5 or more spells this game, refresh 4 Mana Crystals. ({0} left!) (Ready!)<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string ContaminatedLasher = "YOG_528";
+
+                /// <summary>
+                /// Spend all your Mana. Choose One - Gain that much Attack this turn; or twice as much Armor.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ForbiddenFruit = "YOG_529";
+
+                /// <summary>
+                /// Taunt Corrupt: Gain +2/+2.<br/>
+                /// 3-Cost 3/4 Dragon Minion
+                /// </summary>
                 public const string DreamingDrake = "YOP_025";
+
+                /// <summary>
+                /// Summon two 2/2 Treants. Give your minions +2/+1.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string ArborUp = "YOP_026";
             }
         }

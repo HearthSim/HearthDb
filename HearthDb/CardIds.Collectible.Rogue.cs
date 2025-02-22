@@ -7,496 +7,2950 @@ namespace HearthDb
         {
             public class Rogue
             {
+                /// <summary>
+                /// Combo: Gain +4 Attack.<br/>
+                /// 5-Cost 3/7 Minion
+                /// </summary>
                 public const string ShadoPanRiderTGT = "AT_028";
+
+                /// <summary>
+                /// Whenever you equip a weapon, give it +1 Attack.<br/>
+                /// 1-Cost 2/1 Pirate Minion
+                /// </summary>
                 public const string Buccaneer = "AT_029";
+
+                /// <summary>
+                /// Combo: Deal 1 damage.<br/>
+                /// 2-Cost 3/2 Undead Minion
+                /// </summary>
                 public const string UndercityValiant = "AT_030";
+
+                /// <summary>
+                /// Whenever this minion attacks a hero, add the Coin to your hand.<br/>
+                /// 2-Cost 2/2 Undead Minion
+                /// </summary>
                 public const string Cutpurse = "AT_031";
+
+                /// <summary>
+                /// Battlecry: If you have a Pirate, gain +1/+1.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string ShadyDealer = "AT_032";
+
+                /// <summary>
+                /// Get 3 random cards (from your opponent's class).<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string BurgleTGT = "AT_033";
+
+                /// <summary>
+                /// Your Hero Power gives this +1 Attack instead of replacing it.<br/>
+                /// 2-Cost Weapon
+                /// </summary>
                 public const string PoisonedBladeTGT = "AT_034";
+
+                /// <summary>
+                /// Shuffle 3 Ambushes into your opponent's deck. When drawn, you summon a 4/4 Nerubian.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string BeneathTheGrounds = "AT_035";
+
+                /// <summary>
+                /// Deathrattle: Summon a 4/4 Nerubian with "Deathrattle: Summon Anub'arak."<br/>
+                /// 8-Cost 8/4 Undead Minion
+                /// </summary>
                 public const string AnubarakTGT = "AT_036";
+
+                /// <summary>
+                /// Combo: Gain +3 Attack.<br/>
+                /// 3-Cost 1/5 Minion
+                /// </summary>
                 public const string ColdtoothYeti = "AV_201";
+
+                /// <summary>
+                /// Battlecry: Return all minions to their owner's hands. Summon two 4/2 Shadows with Stealth.<br/>
+                /// 8-Cost Hero
+                /// </summary>
                 public const string ShadowcrafterScabbs = "AV_203";
+
+                /// <summary>
+                /// Rush Costs (1) less for each non-Rogue Class card added to your hand this game.<br/>
+                /// 6-Cost 3/5 Minion
+                /// </summary>
                 public const string WildpawGnoll = "AV_298";
+
+                /// <summary>
+                /// Your Deathrattles trigger twice. Lasts 3 turns.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string SnowfallGraveyard = "AV_400";
+
+                /// <summary>
+                /// Honorable Kill: Get a copy of the top card of your opponent's deck.<br/>
+                /// 2-Cost Weapon
+                /// </summary>
                 public const string TheLobotomizer = "AV_402";
+
+                /// <summary>
+                /// Battlecry: Replace your minions in hand and deck with ones from other classes. They cost (2) less.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string CerathineFleetrunner = "AV_403";
+
+                /// <summary>
+                /// Replay 5 cards from other classes you've played this game.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string ContrabandStash = "AV_405";
+
+                /// <summary>
+                /// Stealth. After you play a Deathrattle minion, become a 2/2 copy of it with Rush.<br/>
+                /// 2-Cost 2/2 Undead Minion
+                /// </summary>
                 public const string ForsakenLieutenant = "AV_601";
+
+                /// <summary>
+                /// Discover a Deathrattle minion from another class. It costs (2) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Reconnaissance = "AV_710";
+
+                /// <summary>
+                /// Battlecry: If you're holding a card from another class, summon a copy of this.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string DoubleAgent = "AV_711";
+
+                /// <summary>
+                /// Battlecry: Deal 2 damage. If this entered your hand this turn, deal 4 instead.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string OilRigAmbusher = "BAR_316";
+
+                /// <summary>
+                /// After you play a Battlecry or Combo card, draw a card.<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
                 public const string FieldContact = "BAR_317";
+
+                /// <summary>
+                /// Give your weapon "After your hero attacks, draw a card."<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SilverleafPoison = "BAR_318";
+
+                /// <summary>
+                /// Deal $2 damage. (Upgrades when you have 5 Mana.)<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string WickedStabRank1 = "BAR_319";
+
+                /// <summary>
+                /// Frenzy: Reduce the Cost of cards in your hand by (1).<br/>
+                /// 3-Cost 1/4 Mechanical/Beast Minion
+                /// </summary>
                 public const string EfficientOctoBot = "BAR_320";
+
+                /// <summary>
+                /// Give your weapon +1 Attack and "Your hero is Immune while attacking."<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ParalyticPoison = "BAR_321";
+
+                /// <summary>
+                /// After you play a Poison, gain +1 Durability.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string SwinetuskShank = "BAR_322";
+
+                /// <summary>
+                /// Discover a Hero Power and set its Cost to (0). Swap back after 2 uses.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Yoink = "BAR_323";
+
+                /// <summary>
+                /// Battlecry and Deathrattle: Add a random Poison to your hand.<br/>
+                /// 4-Cost 3/2 Undead Minion
+                /// </summary>
                 public const string ApothecaryHelbrim = "BAR_324";
+
+                /// <summary>
+                /// Combo: The next two cards you play this turn cost (3) less.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
                 public const string ScabbsCutterbutter = "BAR_552";
+
+                /// <summary>
+                /// Add 2 random Deathrattle cards to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string VioletHaze = "BOT_084";
+
+                /// <summary>
+                /// Shuffle 10 cards from your opponent's class into your deck. They cost (1).<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string AcademicEspionage = "BOT_087";
+
+                /// <summary>
+                /// Draw the rest of your deck.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string MyrasUnstableElement = "BOT_242";
+
+                /// <summary>
+                /// Battlecry: Discover a Deathrattle minion. Also gain its Deathrattle.<br/>
+                /// 5-Cost 4/2 Undead Minion
+                /// </summary>
                 public const string MyraRotspring = "BOT_243";
+
+                /// <summary>
+                /// Battlecry: Gain +2/+2 for each other Pogo-Hopper you played this game.<br/>
+                /// 1-Cost 1/1 Mechanical/Beast Minion
+                /// </summary>
                 public const string PogoHopper = "BOT_283";
+
+                /// <summary>
+                /// Deathrattle: Trigger the Deathrattle of a random friendly minion.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string NecriumBlade = "BOT_286";
+
+                /// <summary>
+                /// Battlecry: Shuffle 3 copies of a friendly minion into your deck.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string LabRecruiter = "BOT_288";
+
+                /// <summary>
+                /// Trigger a friendly minion's Deathrattle twice.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string NecriumVial = "BOT_508";
+
+                /// <summary>
+                /// Deathrattle: Summon a 1/1 Ooze with Poisonous and Rush.<br/>
+                /// 4-Cost 2/4 Mechanical Minion
+                /// </summary>
                 public const string BlightnozzleCrawler = "BOT_565";
+
+                /// <summary>
+                /// Combo: Give a friendly minion +4 Attack.<br/>
+                /// 5-Cost 4/4 Minion
+                /// </summary>
                 public const string CrazedChemist = "BOT_576";
+
+                /// <summary>
+                /// Choose a minion. Shuffle 3 copies of it into your deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string GangUp = "BRM_007";
-                public const string DarkIronSkulkerBRM = "BRM_008";
+
+                /// <summary>
+                /// Battlecry: Deal 2 damage to all undamaged enemy minions.<br/>
+                /// 4-Cost 4/3 Minion
+                /// </summary>
+                public const string DarkIronSkulkerFP2 = "BRM_008";
+
+                /// <summary>
+                /// Secret: When one of your minions is attacked, transform it into a random one that costs (3) more.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Bamboozle = "BT_042";
+
+                /// <summary>
+                /// After you play a Secret, Discover a Secret from a different class.<br/>
+                /// 2-Cost 1/4 Draenei Minion
+                /// </summary>
                 public const string ShadowjewelerHanar = "BT_188";
+
+                /// <summary>
+                /// Stealth<br/>
+                /// 1-Cost 3/1 Minion
+                /// </summary>
                 public const string Spymistress = "BT_701";
+
+                /// <summary>
+                /// Battlecry: Give a Stealthed minion +3 Attack and Immune this turn.<br/>
+                /// 2-Cost 3/2 Draenei Minion
+                /// </summary>
                 public const string AshtongueSlayer = "BT_702";
+
+                /// <summary>
+                /// Deathrattle: Summon a 7/5 Shadow with Stealth.<br/>
+                /// 7-Cost 7/5 Minion
+                /// </summary>
                 public const string CursedVagrant = "BT_703";
+
+                /// <summary>
+                /// Secret: After your opponent plays a minion, summon a 2/3 Ambusher with Poisonous.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Ambush = "BT_707";
+
+                /// <summary>
+                /// Secret: After your opponent casts a spell, draw 2 cards.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string DirtyTricks = "BT_709";
+
+                /// <summary>
+                /// Battlecry: If you control a Stealthed minion, draw 2 cards.<br/>
+                /// 3-Cost 3/3 Draenei Minion
+                /// </summary>
                 public const string GreyheartSage = "BT_710";
+
+                /// <summary>
+                /// Battlecry: If you control a Secret, return a minion to its owner's hand. It costs (2) more.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
                 public const string BlackjackStunner = "BT_711";
+
+                /// <summary>
+                /// Stealth Deathrattle: Shuffle 'Akama Prime' into your deck.<br/>
+                /// 3-Cost 3/4 Draenei Minion
+                /// </summary>
                 public const string Akama = "BT_713";
+
+                /// <summary>
+                /// Battlecry: If your weapon has at least 3 Attack, gain +4/+4.<br/>
+                /// 6-Cost 5/5 Pirate Minion
+                /// </summary>
                 public const string LuckydoBuccaneer = "CFM_342";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string CounterfeitCoin = "CFM_630";
+
+                /// <summary>
+                /// Stealth. Whenever this attacks and kills a minion, gain Stealth.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
                 public const string LotusAssassin = "CFM_634";
+
+                /// <summary>
+                /// Stealth<br/>
+                /// 3-Cost 5/1 Undead Minion
+                /// </summary>
                 public const string ShadowRager = "CFM_636";
+
+                /// <summary>
+                /// Deal $3 damage. Combo: Summon a{1} {0} Jade Golem.Deal $3 damage. Combo: Summon a Jade Golem.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string JadeShurikenGANGS = "CFM_690";
+
+                /// <summary>
+                /// Stealth Deathrattle: Summon a{1} {0} Jade Golem.Stealth Deathrattle: Summon a Jade Golem.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string JadeSwarmerGANGS = "CFM_691";
+
+                /// <summary>
+                /// Combo: Return a friendly minion to your hand.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string GadgetzanFerryman = "CFM_693";
+
+                /// <summary>
+                /// Battlecry: Give a Stealthed minion +2/+2.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string ShadowSensei = "CFM_694";
+
+                /// <summary>
+                /// Stealth. Whenever this attacks, add a random card to your hand (from your opponent's class).<br/>
+                /// 3-Cost 2/3 Minion
+                /// </summary>
                 public const string ShakuTheCollector = "CFM_781";
+
+                /// <summary>
+                /// Whenever you equip a weapon, give it +1 Attack.<br/>
+                /// 1-Cost 2/1 Pirate Minion
+                /// </summary>
                 public const string BuccaneerCorePlaceholder = "CORE_AT_029";
+
+                /// <summary>
+                /// After you play a Secret, Discover a Secret from a different class.<br/>
+                /// 2-Cost 1/4 Draenei Minion
+                /// </summary>
                 public const string ShadowjewelerHanarCorePlaceholder = "CORE_BT_188";
+
+                /// <summary>
+                /// Secret: After your opponent plays a minion, summon a 2/3 Ambusher with Poisonous.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string AmbushCorePlaceholder = "CORE_BT_707";
+
+                /// <summary>
+                /// Deal $2 damage to an undamaged minion.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string BackstabCore = "CORE_CS2_072";
+
+                /// <summary>
+                /// Give a minion +2 Attack. Combo: +4 Attack instead.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ColdBloodCorePlaceholder = "CORE_CS2_073";
+
+                /// <summary>
+                /// Give your weapon +2 Attack.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DeadlyPoisonCore = "CORE_CS2_074";
+
+                /// <summary>
+                /// Deal $3 damage to the enemy hero.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SinisterStrikeCorePlaceholder = "CORE_CS2_075";
+
+                /// <summary>
+                /// Destroy an enemy minion.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string AssassinateCore = "CORE_CS2_076";
+
+                /// <summary>
+                /// Draw 4 cards.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string SprintCorePlaceholder = "CORE_CS2_077";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string AssassinsBladeCorePlaceholder = "CORE_CS2_080";
+
+                /// <summary>
+                /// Combo: Add a copy of the last card your opponent played to your hand.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string VanessaVancleefCorePlaceholder = "CORE_CS3_005";
+
+                /// <summary>
+                /// Battlecry: Discover a spell from another class.<br/>
+                /// 4-Cost 4/4 Pirate Minion
+                /// </summary>
                 public const string HenchClanBurglarCore = "CORE_DAL_416";
+
+                /// <summary>
+                /// Battlecry: Destroy a minion and all copies of it (wherever they are).<br/>
+                /// 6-Cost 4/4 Minion
+                /// </summary>
                 public const string FlikSkyshivCore = "CORE_DRG_037";
+
+                /// <summary>
+                /// Deal $2 damage. Combo: Deal $4 damage instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string EviscerateCore = "CORE_EX1_124";
+
+                /// <summary>
+                /// Deal $1 damage to all enemy minions. Draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string FanOfKnivesCore = "CORE_EX1_129";
+
+                /// <summary>
+                /// Combo: Deal 2 damage.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string Si7AgentCore = "CORE_EX1_134";
+
+                /// <summary>
+                /// Return a friendly minion to your hand. It costs (2) less.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ShadowstepCore = "CORE_EX1_144";
+
+                /// <summary>
+                /// The next spell you cast this turn costs (2) less.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string PreparationCore = "CORE_EX1_145";
+
+                /// <summary>
+                /// Stealth Poisonous<br/>
+                /// 2-Cost 1/2 Minion
+                /// </summary>
                 public const string PatientAssassinCorePlaceholder = "CORE_EX1_522";
+
+                /// <summary>
+                /// Return an enemy minion to your opponent's hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SapCore = "CORE_EX1_581";
+
+                /// <summary>
+                /// Discover a Temporary Backstab, Deadly Poison, or Fan of Knives.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ValeerasGiftCorePlaceholder = "CORE_GIFT_09";
+
+                /// <summary>
+                /// Battlecry: Replay every card from another class you've played this game (targets chosen randomly).<br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
                 public const string TessGreymaneCore = "CORE_GIL_598";
+
+                /// <summary>
+                /// Lifesteal Whenever you play a card from another class, gain +1 Durability.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string SpectralCutlassCore = "CORE_GIL_672";
+
+                /// <summary>
+                /// Deathrattle: Add two 1/1 Skeletons to your hand.<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string BoneBaronCorePlaceholder = "CORE_ICC_065";
+
+                /// <summary>
+                /// Draw a card. If it has Deathrattle, cast this again.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string RollTheBonesCorePlaceholder = "CORE_ICC_201";
+
+                /// <summary>
+                /// Give your weapon Lifesteal this turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LeechingPoisonCorePlaceholder = "CORE_ICC_221";
+
+                /// <summary>
+                /// Throw your weapon at a minion. It deals its damage, then returns to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DoomerangCorePlaceholder = "CORE_ICC_233";
+
+                /// <summary>
+                /// During your turn, your weapon doesn't lose Durability.<br/>
+                /// 4-Cost 5/3 Undead Minion
+                /// </summary>
                 public const string RuneforgeHaunterCorePlaceholder = "CORE_ICC_240";
+
+                /// <summary>
+                /// Combo: Give a friendly minion Poisonous.<br/>
+                /// 3-Cost 2/3 Undead Minion
+                /// </summary>
                 public const string PlagueScientistCorePlaceholder = "CORE_ICC_809";
+
+                /// <summary>
+                /// Battlecry: Replace spells in your hand with random spells (from your opponent's class).<br/>
+                /// 4-Cost 4/5 Undead Minion
+                /// </summary>
                 public const string LilianVossCorePlaceholder = "CORE_ICC_811";
+
+                /// <summary>
+                /// Battlecry: Gain Stealth until your next turn.<br/>
+                /// 9-Cost Hero
+                /// </summary>
                 public const string ValeeraTheHollowCorePlaceholder = "CORE_ICC_827";
+
+                /// <summary>
+                /// Battlecry: Your hero is Immune this turn.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string ShadowbladeCorePlaceholder = "CORE_ICC_850";
+
+                /// <summary>
+                /// Combo: Deal damage equal to the number of other cards you've played this turn.<br/>
+                /// 6-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string SpectralPillagerCorePlaceholder = "CORE_ICC_910";
+
+                /// <summary>
+                /// Battlecry: Add a random card from another class to your hand.<br/>
+                /// 1-Cost 1/2 Pirate Minion
+                /// </summary>
                 public const string SwashburglarCore = "CORE_KAR_069";
+
+                /// <summary>
+                /// Deathrattle: Get a Coin.<br/>
+                /// 4-Cost 6/4 Undead Minion
+                /// </summary>
                 public const string TombPillagerCorePlaceholder = "CORE_LOE_012";
+
+                /// <summary>
+                /// Battlecry: Shuffle 3 Ambushes into your deck. When drawn, summon a 4/4 Spider.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string FaldoreiStriderCore = "CORE_LOOT_026";
+
+                /// <summary>
+                /// Secret: When a friendly minion dies, return it to your hand. It costs (2) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string CheatDeathCorePlaceholder = "CORE_LOOT_204";
+
+                /// <summary>
+                /// Combo: Draw 2 minions from your deck.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
                 public const string ElvenMinstrelCore = "CORE_LOOT_211";
+
+                /// <summary>
+                /// Secret: When your turn starts, Discover and cast a Secret from another class.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PerjuryCorePlaceholder = "CORE_MAW_018";
+
+                /// <summary>
+                /// Choose a minion. Destroy it after another enemy minion dies.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MurderAccusationCorePlaceholder = "CORE_MAW_019";
+
+                /// <summary>
+                /// Rush. Costs (1) less for each card you've played this turn.<br/>
+                /// 6-Cost 4/4 Minion
+                /// </summary>
                 public const string ScribblingStenographerCorePlaceholder = "CORE_MAW_020";
+
+                /// <summary>
+                /// Combo: Gain +1/+1.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
                 public const string BladedCultistCorePlaceholder = "CORE_OG_070";
+
+                /// <summary>
+                /// Summon a 1/1 Ghost. (Has +1/+1 for each other card you played this turn!)<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string SinstoneGraveyardCorePlaceholder = "CORE_REV_750";
+
+                /// <summary>
+                /// Secret: When your opponent spends all their Mana, draw two cards.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string DoubleCrossCorePlaceholder = "CORE_REV_825";
+
+                /// <summary>
+                /// Battlecry: Cast a Secret from your deck. Combo: Cast 2 instead.<br/>
+                /// 4-Cost 3/4 Minion
+                /// </summary>
                 public const string PrivateEyeCorePlaceholder = "CORE_REV_826";
+
+                /// <summary>
+                /// Secret: After your opponent casts a spell, summon a 3/4 Spider with Stealth.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string StickySituationCorePlaceholder = "CORE_REV_827";
+
+                /// <summary>
+                /// Secret: After your opponent plays a minion, stuff it in a 0/4 Sack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string KidnapCorePlaceholder = "CORE_REV_828";
+
+                /// <summary>
+                /// Stealth. Deathrattle: Store Halkias's soul inside of a friendly Secret. It resummons Halkias when triggered.<br/>
+                /// 4-Cost 5/4 Elemental Minion
+                /// </summary>
                 public const string HalkiasCorePlaceholder = "CORE_REV_829";
+
+                /// <summary>
+                /// Draw a spell. Infuse (2): Add a Temporary copy of it to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DoorOfShadowsCorePlaceholder = "CORE_REV_938";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. If it dies, your next card this turn costs (2) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SerratedBoneSpikeCorePlaceholder = "CORE_REV_939";
+
+                /// <summary>
+                /// Battlecry: Equip a 1/3 Dagger. (+1 Attack for each other card you played this turn!)<br/>
+                /// 5-Cost 3/4 Minion
+                /// </summary>
                 public const string NecrolordDrakaCorePlaceholder = "CORE_REV_940";
+
+                /// <summary>
+                /// Battlecry: If you control a Secret, choose a card in your opponent's hand to shuffle into their deck.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string GhastlyGravediggerCorePlaceholder = "CORE_REV_959";
+
+                /// <summary>
+                /// Secret: At the end of your opponent's turn, add copies of the cards they played to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PlagiarizeCorePlaceholder = "CORE_SCH_706";
+
+                /// <summary>
+                /// Draw 2 Pirates from your deck. Combo: And a weapon.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string RaidingPartyCore = "CORE_TRL_124";
+
+                /// <summary>
+                /// Deal $2 damage to an undamaged minion.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string BackstabLegacy = "CS2_072";
+
+                /// <summary>
+                /// Give a minion +2 Attack. Combo: +4 Attack instead.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ColdBlood = "CS2_073";
+
+                /// <summary>
+                /// Give your weapon +2 Attack.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DeadlyPoisonLegacy = "CS2_074";
+
+                /// <summary>
+                /// Deal $3 damage to the enemy hero.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SinisterStrikeLegacy = "CS2_075";
+
+                /// <summary>
+                /// Destroy an enemy minion.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string AssassinateLegacy = "CS2_076";
+
+                /// <summary>
+                /// Draw 4 cards.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string SprintLegacy = "CS2_077";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string AssassinsBladeLegacy = "CS2_080";
+
+                /// <summary>
+                /// Destroy your weapon and deal its damage to all enemy minions.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string BladeFlurry = "CS2_233";
+
+                /// <summary>
+                /// Combo: Add a copy of the last card your opponent played to your hand.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string VanessaVancleefLegacy = "CS3_005";
+
+                /// <summary>
+                /// Choose a minion. Shuffle 1 copy of it into your deck. (Upgrades each turn!)<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string TogwagglesScheme = "DAL_010";
+
+                /// <summary>
+                /// Destroy a minion. Gains a bonus effect in your hand.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string UnidentifiedContract = "DAL_366";
+
+                /// <summary>
+                /// Combo: Add two random Lackeys to your hand.<br/>
+                /// 3-Cost 1/5 Minion
+                /// </summary>
                 public const string EvilMiscreant = "DAL_415";
+
+                /// <summary>
+                /// Battlecry: Discover a spell from another class.<br/>
+                /// 4-Cost 4/4 Pirate Minion
+                /// </summary>
                 public const string HenchClanBurglar = "DAL_416";
+
+                /// <summary>
+                /// Battlecry: If you control a Lackey, choose a fantastic treasure.<br/>
+                /// 6-Cost 5/5 Minion
+                /// </summary>
                 public const string HeistbaronTogwaggle = "DAL_417";
+
+                /// <summary>
+                /// Battlecry: If you're holding a card from another class, gain +1/+1 and Rush.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string UnderbellyFence = "DAL_714";
+
+                /// <summary>
+                /// Deal $4 damage to a minion. Costs (0) if you're holding a card from another class.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Vendetta = "DAL_716";
+
+                /// <summary>
+                /// Whenever you shuffle a card into your deck, add a copy to your hand.<br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
                 public const string TakNozwhisker = "DAL_719";
+
+                /// <summary>
+                /// Deathrattle: Return a random friendly minion to your hand. It costs (2) less.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string WagglePick = "DAL_720";
+
+                /// <summary>
+                /// Return all friendly minions to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DaringEscape = "DAL_728";
+
+                /// <summary>
+                /// Tradeable After you Trade this, reduce the Cost of a spell in your hand by (1).<br/>
+                /// 1-Cost Weapon
+                /// </summary>
                 public const string BlackwaterCutlass = "DED_004";
+
+                /// <summary>
+                /// Swap this for a card in your opponent's deck.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Parrrley = "DED_005";
+
+                /// <summary>
+                /// Battlecry: Draw a card. If you play it this turn, gain +2/+2 and repeat this effect.<br/>
+                /// 4-Cost 4/4 Pirate Minion
+                /// </summary>
                 public const string EdwinDefiasKingpin = "DED_510";
+
+                /// <summary>
+                /// After your hero attacks, draw a card.<br/>
+                /// 2-Cost Weapon
+                /// </summary>
                 public const string QuickPick = "DEEP_014";
+
+                /// <summary>
+                /// Get a random Golden Pirate and Elemental from other classes.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string FoolsGold = "DEEP_022";
+
+                /// <summary>
+                /// Battlecry: Return a friendly minion to your hand. It costs (1) this turn.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string TenwuOfTheRedSmoke = "DMF_071";
+
+                /// <summary>
+                /// Battlecry: Your next Combo card this turn costs (2) less.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string FoxyFraud = "DMF_511";
+
+                /// <summary>
+                /// Give your hero Stealth until your next turn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string CloakOfShadows = "DMF_512";
+
+                /// <summary>
+                /// Secret: After a minion attacks your hero, summon a copy of it with Stealth.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShadowClone = "DMF_513";
+
+                /// <summary>
+                /// Deathrattle: Shuffle 3 Tickets into your deck. When drawn, summon a 3/3 Plush Bear.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string TicketMaster = "DMF_514";
+
+                /// <summary>
+                /// Draw a spell. Combo: And a minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Swindle = "DMF_515";
+
+                /// <summary>
+                /// Battlecry: Discover a card in your deck and draw all copies of it.<br/>
+                /// 6-Cost 5/7 Minion
+                /// </summary>
                 public const string GrandEmpressShekzara = "DMF_516";
+
+                /// <summary>
+                /// Corrupt: Gain +2 Attack and Stealth.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string SweetTooth = "DMF_517";
+
+                /// <summary>
+                /// Destroy a minion. Costs (1) less for each card in your deck that didn't start there.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string MalevolentStrike = "DMF_518";
+
+                /// <summary>
+                /// Combo: Deal 1 damage to a minion for each other card you've played this turn.<br/>
+                /// 1-Cost 2/1 Pirate Minion
+                /// </summary>
                 public const string PrizePlunderer = "DMF_519";
+
+                /// <summary>
+                /// Battlecry: If you've Invoked twice, add 3 Coins to your hand.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
                 public const string UmbralSkulker = "DRG_027";
+
+                /// <summary>
+                /// Discover a Legendary minion from another class.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DragonsHoard = "DRG_028";
+
+                /// <summary>
+                /// Give a minion +1 Attack. Invoke Galakrond.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PraiseGalakrond = "DRG_030";
+
+                /// <summary>
+                /// Combo: Draw a Deathrattle minion from your deck and gain its Deathrattle.<br/>
+                /// 4-Cost 2/5 Minion
+                /// </summary>
                 public const string NecriumApothecary = "DRG_031";
+
+                /// <summary>
+                /// Draw 3 cards. Costs (3) less while you're holding a Dragon.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string CandleBreath = "DRG_033";
+
+                /// <summary>
+                /// Battlecry: If there are cards in your deck that didn't start there, draw 2 of them.<br/>
+                /// 5-Cost 4/4 Minion
+                /// </summary>
                 public const string Stowaway = "DRG_034";
+
+                /// <summary>
+                /// Battlecry: Add two 1/1 Pirates to your hand.<br/>
+                /// 1-Cost 1/1 Pirate Minion
+                /// </summary>
                 public const string BloodsailFlybooter = "DRG_035";
+
+                /// <summary>
+                /// Deathrattle: Shuffle a Candle into your deck that resummons Waxadred when drawn.<br/>
+                /// 5-Cost 7/5 Dragon/Elemental Minion
+                /// </summary>
                 public const string Waxadred = "DRG_036";
+
+                /// <summary>
+                /// Battlecry: Destroy a minion and all copies of it (wherever they are).<br/>
+                /// 6-Cost 4/4 Minion
+                /// </summary>
                 public const string FlikSkyshiv = "DRG_037";
+
+                /// <summary>
+                /// Deal $3 damage to an undamaged character. Invoke Galakrond.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string SealFate = "DRG_247";
+
+                /// <summary>
+                /// Battlecry: Draw 1 card. It costs (0). ()<br/>
+                /// 7-Cost Hero
+                /// </summary>
                 public const string GalakrondTheNightmare = "DRG_610";
+
+                /// <summary>
+                /// Combo: Deal 4 damage randomly split among all enemies.<br/>
+                /// 3-Cost 4/3 Mechanical Minion
+                /// </summary>
                 public const string Beatboxer = "ETC_072";
+
+                /// <summary>
+                /// Rush Combo: Gain +1/+1 for each other Combo card you've played this game. ()<br/>
+                /// 3-Cost 1/3 Minion
+                /// </summary>
                 public const string RhymeSpinner = "ETC_073";
+
+                /// <summary>
+                /// Discover a copy of a card your opponent played this game.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Mixtape = "ETC_074";
+
+                /// <summary>
+                /// Draw 2 cards. Finale: Give your weapon +2 Attack.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string MicDrop = "ETC_075";
+
+                /// <summary>
+                /// Return a friendly minion to your hand. Summon a Dancer with its stats and Rush.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Breakdance = "ETC_076";
+
+                /// <summary>
+                /// Combo: Add a random Combo card to your hand.<br/>
+                /// 2-Cost 4/1 Mechanical/Beast Minion
+                /// </summary>
                 public const string DiscJockey = "ETC_077";
+
+                /// <summary>
+                /// Battlecry: Both players equip 1/2 Microphones. Your opponent's increases all damage they take by 1!<br/>
+                /// 5-Cost 5/5 Mechanical Minion
+                /// </summary>
                 public const string McBlingtron = "ETC_078";
+
+                /// <summary>
+                /// Return all friendly minions to your hand. They cost (1) this turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string BounceAroundFtGarona = "ETC_079";
+
+                /// <summary>
+                /// Deathrattle: Refresh 1 Mana Crystal. (Play Combo cards while equipped to improve!)<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string RecordScratcher = "ETC_518";
+
+                /// <summary>
+                /// Deal $1 damage. Give your weapon +3 Attack. (Swaps each turn.)<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string HarmonicHipHop = "ETC_717";
+
+                /// <summary>
+                /// Deal $2 damage. Combo: Deal $4 damage instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Eviscerate = "EX1_124";
+
+                /// <summary>
+                /// Force an enemy minion to deal its damage to the minions next to it.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Betrayal = "EX1_126";
+
+                /// <summary>
+                /// Give your minions Stealth until your next turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Conceal = "EX1_128";
+
+                /// <summary>
+                /// Deal $1 damage to all enemy minions. Draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string FanOfKnivesLegacy = "EX1_129";
+
+                /// <summary>
+                /// Combo: Summon a 2/1 Defias Bandit.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string DefiasRingleader = "EX1_131";
+
+                /// <summary>
+                /// Battlecry: Deal 1 damage. Combo: Deal 2 instead.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string PerditionsBlade = "EX1_133";
+
+                /// <summary>
+                /// Combo: Deal 2 damage.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string Si7Agent = "EX1_134";
+
+                /// <summary>
+                /// Deal $2 damage to the enemy hero. Combo: Return this to your hand next turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string Headcrack = "EX1_137";
+
+                /// <summary>
+                /// Return a friendly minion to your hand. It costs (2) less.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Shadowstep = "EX1_144";
+
+                /// <summary>
+                /// The next spell you cast this turn costs (2) less.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Preparation = "EX1_145";
+
+                /// <summary>
+                /// Add a random card from another class to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PilferLegacy = "EX1_182";
+
+                /// <summary>
+                /// Battlecry: Give a friendly minion Poisonous.<br/>
+                /// 4-Cost 3/3 Undead Minion
+                /// </summary>
                 public const string PlaguebringerLegacy = "EX1_191";
+
+                /// <summary>
+                /// Deal $1 damage. Draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShivLegacy = "EX1_278";
+
+                /// <summary>
+                /// Stealth Poisonous<br/>
+                /// 2-Cost 1/2 Minion
+                /// </summary>
                 public const string PatientAssassin = "EX1_522";
+
+                /// <summary>
+                /// Return an enemy minion to your opponent's hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SapLegacy = "EX1_581";
+
+                /// <summary>
+                /// Combo: Gain +2/+2 for each other card you've played this turn.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string EdwinVancleef = "EX1_613";
+
+                /// <summary>
+                /// Deathrattle: Return a random friendly minion to your hand.<br/>
+                /// 4-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string AnubarAmbusher = "FP1_026";
+
+                /// <summary>
+                /// Discover a Starship Piece from another class. It costs (1) less.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string StarshipSchematic = "GDB_102";
+
+                /// <summary>
+                /// Deal $5 damage to an undamaged character. Costs (1) if you're building a Starship.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string BarrelRoll = "GDB_465";
+
+                /// <summary>
+                /// Starship Piece When this is launched, summon a copy of the Starship.<br/>
+                /// 5-Cost 5/4 Minion
+                /// </summary>
                 public const string TheGravitationalDisplacer = "GDB_466";
+
+                /// <summary>
+                /// Shuffle your hand into your deck. Reduce the Cost of cards in your deck by (3).<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string Quasar = "GDB_467";
+
+                /// <summary>
+                /// Undamaged enemy minions take double damage. Combo: Get a Backstab.<br/>
+                /// 3-Cost 3/3 Demon Minion
+                /// </summary>
                 public const string Talgath = "GDB_472";
+
+                /// <summary>
+                /// Combo and Spellburst: Gain +2 Attack and Stealth.<br/>
+                /// 2-Cost 1/3 Demon Minion
+                /// </summary>
                 public const string EredarSkulker = "GDB_870";
+
+                /// <summary>
+                /// Discover a Combo minion. The next one you play triggers its Combo twice.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string LuckyComet = "GDB_873";
+
+                /// <summary>
+                /// Battlecry: Your next Combo card costs (1) less.<br/>
+                /// 1-Cost 2/1 Draenei Minion
+                /// </summary>
                 public const string SpacerockCollector = "GDB_875";
+
+                /// <summary>
+                /// Battlecry: Get a random Starship Piece from another class.<br/>
+                /// 2-Cost 3/2 Draenei Minion
+                /// </summary>
                 public const string ScroungingShipwright = "GDB_876";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. Reduce the Cost of Combo cards in your hand by (1).<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string PressurePoints = "GDB_881";
+
+                /// <summary>
+                /// Discover a Temporary Backstab, Deadly Poison, or Fan of Knives.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ValeerasGift = "GIFT_09";
+
+                /// <summary>
+                /// Echo Deal $2 damage to a minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string CheapShot = "GIL_506";
+
+                /// <summary>
+                /// Whenever you play an Echo card, gain +1/+1.<br/>
+                /// 4-Cost 3/5 Undead Minion
+                /// </summary>
                 public const string Mistwraith = "GIL_510";
+
+                /// <summary>
+                /// Rush Deathrattle: Draw a Combo card from your deck.<br/>
+                /// 6-Cost 5/3 Pirate/Undead Minion
+                /// </summary>
                 public const string CursedCastaway = "GIL_557";
+
+                /// <summary>
+                /// Battlecry: Replay every card from another class you've played this game (targets chosen randomly).<br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
                 public const string TessGreymane = "GIL_598";
+
+                /// <summary>
+                /// Lifesteal Whenever you play a card from another class, gain +1 Durability.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string SpectralCutlass = "GIL_672";
+
+                /// <summary>
+                /// Echo Battlecry: Add a random Legendary minion to your hand.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string FaceCollector = "GIL_677";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. If that kills it, add a Coin to your hand.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Wanted = "GIL_687";
+
+                /// <summary>
+                /// Echo Add a random card to your hand (from your opponent's class).<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PickPocket = "GIL_696";
+
+                /// <summary>
+                /// Battlecry: Add a random card to your hand (from your opponent's class).<br/>
+                /// 3-Cost 3/3 Beast Minion
+                /// </summary>
                 public const string BlinkFox = "GIL_827";
+
+                /// <summary>
+                /// Combo: Give your weapon +1 Attack.<br/>
+                /// 3-Cost 2/4 Pirate/Undead Minion
+                /// </summary>
                 public const string CutthroatBuccaneer = "GIL_902";
+
+                /// <summary>
+                /// Give your weapon +3 Attack. Combo: Give a random friendly minion +3 Attack.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string TinkersSharpswordOil = "GVG_022";
+
+                /// <summary>
+                /// Battlecry: Give your weapon +1 Attack.<br/>
+                /// 2-Cost 3/2 Mechanical Minion
+                /// </summary>
                 public const string GoblinAutoBarber = "GVG_023";
+
+                /// <summary>
+                /// Has +2 Attack while you have a Mech.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string CogmastersWrench = "GVG_024";
+
+                /// <summary>
+                /// Whenever you summon a Pirate, gain Stealth.<br/>
+                /// 2-Cost 4/1 Pirate Minion
+                /// </summary>
                 public const string OneEyedCheat = "GVG_025";
+
+                /// <summary>
+                /// At the end of your turn, give another friendly Mech +2/+2.<br/>
+                /// 3-Cost 2/2 Mechanical Minion
+                /// </summary>
                 public const string IronSensei = "GVG_027";
+
+                /// <summary>
+                /// Whenever your opponent casts a spell, gain a copy of it and give them a Coin.<br/>
+                /// 6-Cost 5/8 Minion
+                /// </summary>
                 public const string TradePrinceGallywix = "GVG_028";
+
+                /// <summary>
+                /// Destroy a random enemy minion. Combo: And your opponent's weapon.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string Sabotage = "GVG_047";
+
+                /// <summary>
+                /// Stealth 50% chance to attack the wrong enemy.<br/>
+                /// 5-Cost 6/6 Minion
+                /// </summary>
                 public const string OgreNinja = "GVG_088";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinarHeroHeroSkins = "HERO_03";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_MaievShadowsongHeroHeroSkins = "HERO_03a";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_MightyMaievHeroHeroSkins = "HERO_03aa";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_CenterStageValeeraHeroHeroSkins = "HERO_03ab";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_McBlingtronHeroHeroSkins = "HERO_03ac";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_McGaronaHeroHeroSkins = "HERO_03ad";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_GloryseekerGaronaHeroHeroSkinsEnchantment = "HERO_03ae";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_V07Tr0NHeroHeroSkins = "HERO_03af";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_TrapperMaievHeroHeroSkins = "HERO_03ag";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinarHeroic_CampchefScabbsHeroHeroSkins = "HERO_03ah_Scabbs";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_BrawlerValeeraHeroHeroSkins = "HERO_03ai_Valeera";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_BanditEdwinHeroHeroSkins = "HERO_03aj_Edwin";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_PatchesThePirateHeroHeroSkins = "HERO_03ak_Patches";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_BonemantleValeeraHeroHeroSkins = "HERO_03al_Valeera_hnv";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_SlayerValeeraHeroHeroSkins = "HERO_03am_SlayerValeera_hnv";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_PinocchioBlingtronHeroHeroSkins = "HERO_03an_Blingtron_hls";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_KnickKnackScabbsHeroHeroSkinsEnchantment = "HERO_03ao_Scabbs_hls";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_ReaverV07Tr0NHeroHeroSkins = "HERO_03aq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_MarinTheFoxHeroHeroSkins = "HERO_03ar";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_SkatetronHeroHeroSkins = "HERO_03as";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_HighseasEdwinHeroHeroSkins = "HERO_03at";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_DaredevilPatchesHeroHeroSkins = "HERO_03au";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_SmugglerMarinHeroHeroSkins = "HERO_03av";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_SlicerGaronaHeroHeroSkins = "HERO_03aw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_ArchonV07Tr0NHeroHeroSkins = "HERO_03ax";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_VanessaVancleefHeroHeroSkins = "HERO_03ay";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_CapNValeeraHeroHeroSkins = "HERO_03b";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_ArtanisHeroHeroSkins = "HERO_03bc";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_SpiderDemonKerriganHeroHeroSkins = "HERO_03bd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_NightslayerValeeraHeroHeroSkins = "HERO_03d";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_DiaoChanValeeraHeroHeroSkinsEnchantment = "HERO_03e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_GladiatorValeeraHeroHeroSkins = "HERO_03f";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_DeathmantleValeeraHeroHeroSkins = "HERO_03g";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_ChefScabbsHeroHeroSkins = "HERO_03i";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_AgentScabbsHeroHeroSkins = "HERO_03j";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_InvestigatorScabbsHeroHeroSkins = "HERO_03k";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_UndercoverScabbsHeroHeroSkins = "HERO_03l";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_EdwinVancleefHeroHeroSkins = "HERO_03m";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_TitanbladeValeeraHeroHeroSkins = "HERO_03n";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_ValeeraTheNiceHeroHeroSkinsEnchantment = "HERO_03o";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_GardenPartyValeeraHeroHeroSkins = "HERO_03q";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_GaronaHalforcenHeroHeroSkins = "HERO_03s";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_VendorMaievHeroHeroSkinsToken = "HERO_03t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_MarinerMaievHeroHeroSkins = "HERO_03u";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_MarshmallowMaievHeroHeroSkins = "HERO_03v";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_PoisonheartMaievHeroHeroSkins = "HERO_03w";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_SuspectMaievHeroHeroSkins = "HERO_03x";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_EbonAssassinGaronaHeroHeroSkins = "HERO_03y";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_EdwinTheRenegadeHeroHeroSkins = "HERO_03z";
+
+                /// <summary>
+                /// Deathrattle: Add two 1/1 Skeletons to your hand.<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string BoneBaron = "ICC_065";
+
+                /// <summary>
+                /// Draw a card. If it has Deathrattle, cast this again.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string RollTheBones = "ICC_201";
+
+                /// <summary>
+                /// Give your weapon Lifesteal this turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string LeechingPoison = "ICC_221";
+
+                /// <summary>
+                /// Throw your weapon at a minion. It deals its damage, then returns to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Doomerang = "ICC_233";
+
+                /// <summary>
+                /// During your turn, your weapon doesn't lose Durability.<br/>
+                /// 4-Cost 5/3 Undead Minion
+                /// </summary>
                 public const string RuneforgeHaunter = "ICC_240";
+
+                /// <summary>
+                /// Combo: Give a friendly minion Poisonous.<br/>
+                /// 3-Cost 2/3 Undead Minion
+                /// </summary>
                 public const string PlagueScientist = "ICC_809";
+
+                /// <summary>
+                /// Battlecry: Replace spells in your hand with random spells (from your opponent's class).<br/>
+                /// 4-Cost 4/5 Undead Minion
+                /// </summary>
                 public const string LilianVoss = "ICC_811";
+
+                /// <summary>
+                /// Battlecry: Gain Stealth until your next turn.<br/>
+                /// 9-Cost Hero
+                /// </summary>
                 public const string ValeeraTheHollow = "ICC_827";
+
+                /// <summary>
+                /// Battlecry: Your hero is Immune this turn.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string Shadowblade = "ICC_850";
+
+                /// <summary>
+                /// Combo: Deal 2 damage to a minion for each other card you've played this turn.<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string SpectralPillager = "ICC_910";
+
+                /// <summary>
+                /// Rush After your hero attacks, return this to your hand and set its Cost to (1).<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
                 public const string RhythmdancerRisa = "JAM_019";
+
+                /// <summary>
+                /// Outcast: Return a minion to its owner's hand.<br/>
+                /// 3-Cost 2/1 Demon Minion
+                /// </summary>
                 public const string ToughCrowd = "JAM_020";
+
+                /// <summary>
+                /// Rush Combo: Gain Poisonous.<br/>
+                /// 2-Cost 2/1 Undead Minion
+                /// </summary>
                 public const string OneHitWonder = "JAM_021";
+
+                /// <summary>
+                /// Battlecry: Add a random card from another class to your hand.<br/>
+                /// 1-Cost 1/2 Pirate Minion
+                /// </summary>
                 public const string Swashburglar = "KAR_069";
+
+                /// <summary>
+                /// Battlecry: If you're holding any cards from another class, reduce their Cost by (2).<br/>
+                /// 5-Cost 5/6 Minion
+                /// </summary>
                 public const string EtherealPeddler = "KAR_070";
+
+                /// <summary>
+                /// Deathrattle: Add a 3/2 weapon to your hand.<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
                 public const string DeadlyFork = "KAR_094";
+
+                /// <summary>
+                /// Poisonous<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
                 public const string PitSnake = "LOE_010";
+
+                /// <summary>
+                /// Deathrattle: Get a Coin.<br/>
+                /// Tier-3 6/4 Undead Minion
+                /// </summary>
                 public const string TombPillagerLOE = "LOE_012";
+
+                /// <summary>
+                /// Battlecry: Choose a friendly minion. Gain a copy of its Deathrattle.<br/>
+                /// 3-Cost 3/4 Undead/Beast Minion
+                /// </summary>
                 public const string UnearthedRaptor = "LOE_019";
+
+                /// <summary>
+                /// Battlecry: Shuffle 3 Ambushes into your deck. When drawn, summon a 4/4 Spider.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string FaldoreiStrider = "LOOT_026";
+
+                /// <summary>
+                /// Battlecry: Draw a weapon from your deck.<br/>
+                /// 2-Cost 3/1 Minion
+                /// </summary>
                 public const string CavernShinyfinder = "LOOT_033";
+
+                /// <summary>
+                /// After a friendly minion dies, add a 1/1 copy of it to your hand. It costs (1).<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string SonyaShadowdancer = "LOOT_165";
+
+                /// <summary>
+                /// Secret: When a friendly minion dies, return it to your hand. It costs (2) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string CheatDeath = "LOOT_204";
+
+                /// <summary>
+                /// Secret: When a minion attacks your hero, instead it attacks one of its neighbors.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SuddenBetrayal = "LOOT_210";
+
+                /// <summary>
+                /// Combo: Draw 2 minions from your deck.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
                 public const string ElvenMinstrel = "LOOT_211";
+
+                /// <summary>
+                /// Secret: After your hero takes damage, become Immune this turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Evasion = "LOOT_214";
+
+                /// <summary>
+                /// Deathrattle: Summon a 1/1 copy of a minion from your hand.<br/>
+                /// 5-Cost 3/3 Minion
+                /// </summary>
                 public const string KoboldIllusionist = "LOOT_412";
+
+                /// <summary>
+                /// Destroy 1 random enemy minion. (Play 3 Deathrattle cards to upgrade.)<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string LesserOnyxSpellstone = "LOOT_503";
+
+                /// <summary>
+                /// Always keeps enchantments. Deathrattle: Shuffle this into your deck.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
                 public const string Kingsbane = "LOOT_542";
+
+                /// <summary>
+                /// Secret: When your turn starts, Discover and cast a Secret from another class.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Perjury = "MAW_018";
+
+                /// <summary>
+                /// Choose a minion. Destroy it after another enemy minion dies.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MurderAccusation = "MAW_019";
+
+                /// <summary>
+                /// Rush. Costs (1) less for each card you've played this turn.<br/>
+                /// 6-Cost 4/4 Minion
+                /// </summary>
                 public const string ScribblingStenographer = "MAW_020";
+
+                /// <summary>
+                /// Battlecry and Deathrattle: Add a random piece of junk to your hand (a Coin, Rock, Banana, or Knife).<br/>
+                /// 3-Cost 3/2 Beast Minion
+                /// </summary>
                 public const string DustBunny = "MIS_706";
+
+                /// <summary>
+                /// Add 5 random cards from other classes to your hand. They are Temporary.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string TwistedPack = "MIS_708";
+
+                /// <summary>
+                /// Draw 3 cards. Combo: Destroy a random enemy minion.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string DubiousPurchase = "MIS_903";
+
+                /// <summary>
+                /// Return all minions to their owner's hand.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string VanishLegacy = "NEW1_004";
+
+                /// <summary>
+                /// Combo: Return a minion to its owner's hand.<br/>
+                /// 6-Cost 5/3 Undead Minion
+                /// </summary>
                 public const string Kidnapper = "NEW1_005";
+
+                /// <summary>
+                /// Battlecry: Give a friendly minion Stealth until your next turn.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string MasterOfDisguise = "NEW1_014";
+
+                /// <summary>
+                /// Deal $1 damage to a minion. If you've played a card from another class this turn, deal $4 instead.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string Ransack = "NX2_004";
+
+                /// <summary>
+                /// Combo: Gain +2/+2. Infuse ({0}): Gain +3/+3. Manathirst ({1}): Gain +4/+4.<br/>
+                /// 3-Cost 1/1 Undead Minion
+                /// </summary>
                 public const string StitchedCreation = "NX2_005";
+
+                /// <summary>
+                /// After your hero attacks, summon a 1/1 Undead Pirate.<br/>
+                /// 1-Cost 1/3 Pirate/Undead Minion
+                /// </summary>
                 public const string JollyRoger = "NX2_006";
+
+                /// <summary>
+                /// Combo: Gain +1/+1.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
                 public const string BladedCultist = "OG_070";
+
+                /// <summary>
+                /// Discover a Deathrattle card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string JourneyBelow = "OG_072";
+
+                /// <summary>
+                /// Draw a card. Add 2 extra copies of it to your hand.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string ThistleTea = "OG_073";
+
+                /// <summary>
+                /// Battlecry and Deathrattle: Add a random Toxin card to your hand.<br/>
+                /// 4-Cost 3/2 Minion
+                /// </summary>
                 public const string XarilPoisonedMind = "OG_080";
+
+                /// <summary>
+                /// Deal $5 damage to an undamaged character.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ShadowStrike = "OG_176";
+
+                /// <summary>
+                /// Deathrattle: Give your weapon +2 Attack.<br/>
+                /// 4-Cost 4/4 Pirate Minion
+                /// </summary>
                 public const string SouthseaSquidface = "OG_267";
+
+                /// <summary>
+                /// Battlecry: Destroy a minion. Add its Attack and Health to your C'Thun's (wherever it is).<br/>
+                /// 7-Cost 4/4 Minion
+                /// </summary>
                 public const string BladeOfCthunOG = "OG_282";
+
+                /// <summary>
+                /// Battlecry: Choose a friendly minion. Add a 1/1 copy to your hand that costs (1).<br/>
+                /// 5-Cost 4/4 Minion
+                /// </summary>
                 public const string Shadowcaster = "OG_291";
+
+                /// <summary>
+                /// Deathrattle: Get a random card (from your opponent's class).<br/>
+                /// 2-Cost 2/3 Undead Minion
+                /// </summary>
                 public const string UndercityHucksterOG = "OG_330";
+
+                /// <summary>
+                /// Battlecry: Summon a random 1-Cost minion. (Upgraded for each other SI:7 card you have played this game.)<br/>
+                /// 3-Cost 1/3 Minion
+                /// </summary>
                 public const string Si7Smuggler = "ONY_030";
+
+                /// <summary>
+                /// Draw 5 cards. Trigger any Deathrattles drawn.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string Smokescreen = "ONY_031";
+
+                /// <summary>
+                /// Deal $3 damage. Honorable Kill: Discover a spell from another class.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ToothOfNefarian = "ONY_032";
+
+                /// <summary>
+                /// Summon a 1/1 Ghost. (Has +1/+1 for each other card you played this turn!)<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string SinstoneGraveyard = "REV_750";
+
+                /// <summary>
+                /// Secret: When your opponent spends all their Mana, draw two cards.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string DoubleCross = "REV_825";
+
+                /// <summary>
+                /// Battlecry: Cast a Secret from your deck. Combo: Cast 2 instead.<br/>
+                /// 4-Cost 3/4 Minion
+                /// </summary>
                 public const string PrivateEye = "REV_826";
+
+                /// <summary>
+                /// Secret: After your opponent casts a spell, summon a 3/4 Spider with Stealth.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string StickySituation = "REV_827";
+
+                /// <summary>
+                /// Secret: After your opponent plays a minion, stuff it in a 0/4 Sack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Kidnap = "REV_828";
+
+                /// <summary>
+                /// Stealth. Deathrattle: Store Halkias's soul inside of a friendly Secret. It resummons Halkias when triggered.<br/>
+                /// 4-Cost 5/4 Elemental Minion
+                /// </summary>
                 public const string Halkias = "REV_829";
+
+                /// <summary>
+                /// Draw a spell. Infuse (2): Add a Temporary copy of it to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DoorOfShadows = "REV_938";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. If it dies, your next card this turn costs (2) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SerratedBoneSpike = "REV_939";
+
+                /// <summary>
+                /// Battlecry: Equip a 1/3 Dagger. (+1 Attack for each other card you played this turn!)<br/>
+                /// 5-Cost 3/4 Minion
+                /// </summary>
                 public const string NecrolordDraka = "REV_940";
+
+                /// <summary>
+                /// Battlecry: If you control a Secret, choose a card in your opponent's hand to shuffle into their deck.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string GhastlyGravedigger = "REV_959";
+
+                /// <summary>
+                /// Battlecry: Reduce the Cost of all Deathrattle cards in your deck by (1).<br/>
+                /// 2-Cost 2/1 Undead/Beast Minion
+                /// </summary>
                 public const string RottenRodent = "RLK_216";
+
+                /// <summary>
+                /// Deathrattle: Add a 4/4 copy of another Deathrattle minion in your deck to your hand. It costs (4) less.<br/>
+                /// 4-Cost 4/4 Undead Minion
+                /// </summary>
                 public const string ScourgeIllusionist = "RLK_217";
+
+                /// <summary>
+                /// Poisonous Battlecry: If a friendly Undead died after your last turn, deal 1 damage to a minion.<br/>
+                /// 4-Cost 2/5 Minion
+                /// </summary>
                 public const string NoxiousInfiltrator = "RLK_529";
+
+                /// <summary>
+                /// Each time you cast a spell, transform this into a copy of it.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ShadowOfDemise = "RLK_567";
+
+                /// <summary>
+                /// Battlecry: Add a random Concoction to your hand.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
                 public const string Concoctor = "RLK_568";
+
+                /// <summary>
+                /// Discover 2 Concoctions.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PotionBelt = "RLK_569";
+
+                /// <summary>
+                /// Battlecry: Your next Concoction costs (0).<br/>
+                /// 2-Cost 3/2 Undead Minion
+                /// </summary>
                 public const string GhoulishAlchemist = "RLK_570";
+
+                /// <summary>
+                /// At the end of your turn, add a random Concoction to your hand.<br/>
+                /// 3-Cost 2/4 Undead Minion
+                /// </summary>
                 public const string VileApothecary = "RLK_571";
+
+                /// <summary>
+                /// After a minion dies, add a Concoction to your hand.<br/>
+                /// 2-Cost 1/4 Undead Minion
+                /// </summary>
                 public const string PotionmasterPutricide = "RLK_572";
+
+                /// <summary>
+                /// Deal $1 damage. Combo: Draw a card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string GhostlyStrike = "RLK_573";
+
+                /// <summary>
+                /// Stealth. Battlecry: Destroy an enemy minion. Play another Templar to merge into an Archon!<br/>
+                /// 6-Cost 5/3 Minion
+                /// </summary>
                 public const string DarkTemplar = "SC_752";
+
+                /// <summary>
+                /// Draw a Protoss minion. Combo: It costs (2) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Blink = "SC_761";
+
+                /// <summary>
+                /// Battlecry: Deal 2 damage to all enemies. Play another Templar to merge into an Archon!<br/>
+                /// 6-Cost 3/5 Minion
+                /// </summary>
                 public const string HighTemplar = "SC_765";
+
+                /// <summary>
+                /// Stealth Spellburst: Add a Combo card to your hand.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string ShiftySophomore = "SCH_234";
+
+                /// <summary>
+                /// Replace your hand with 4 cards from your deck. Swap back next turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SecretPassage = "SCH_305";
+
+                /// <summary>
+                /// Stealth Deathrattle: Summon a 4/2 Forsaken Lilian that attacks a random enemy.<br/>
+                /// 4-Cost 4/2 Minion
+                /// </summary>
                 public const string InfiltratorLilian = "SCH_426";
+
+                /// <summary>
+                /// Your weapon has +2 Attack.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string VulperaToxinblade = "SCH_519";
+
+                /// <summary>
+                /// After your hero attacks, gain +1 Attack.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string SelfSharpeningSword = "SCH_622";
+
+                /// <summary>
+                /// Secret: At the end of your opponent's turn, add copies of the cards they played to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Plagiarize = "SCH_706";
+
+                /// <summary>
+                /// You start the game as a different class until you play a Rogue card.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string MaestraOfTheMasquerade = "SW_050";
+
+                /// <summary>
+                /// Questline: Play 2 SI:7 cards. Reward: Add a Spy Gizmo to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string FindTheImposter = "SW_052";
+
+                /// <summary>
+                /// Battlecry: Get a copy of a random friendly Deathrattle minion that died this game.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string CounterfeitBlade = "SW_310";
+
+                /// <summary>
+                /// Deal $2 damage to the enemy hero. Shuffle 3 Bleeds into your deck that deal $2 more when drawn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Garrote = "SW_311";
+
+                /// <summary>
+                /// Draw a Deathrattle card that costs (4) or less. Trigger its Deathrattle.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string SketchyInformation = "SW_405";
+
+                /// <summary>
+                /// Battlecry: Gain +1/+1 for each other SI:7 card you've played this game.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
                 public const string Si7Informant = "SW_411";
+
+                /// <summary>
+                /// Tradeable Deal $3 damage to an undamaged character.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string Si7Extortion = "SW_412";
+
+                /// <summary>
+                /// Rush After this attacks a minion, gain Stealth.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
                 public const string Si7Operative = "SW_413";
+
+                /// <summary>
+                /// Costs (1) less for each SI:7 card you've played this game. Combo: Destroy an enemy minion.<br/>
+                /// 7-Cost 4/4 Minion
+                /// </summary>
                 public const string Si7Assassin = "SW_417";
+
+                /// <summary>
+                /// Battlecry: Give your opponent a Coin. Deathrattle: You get two.<br/>
+                /// 3-Cost 3/4 Beast Minion
+                /// </summary>
                 public const string LoanShark = "SW_434";
+
+                /// <summary>
+                /// Battlecry: The next Deathrattle minion you play immediately dies.<br/>
+                /// 1-Cost 1/3 Elemental Minion
+                /// </summary>
                 public const string Shattershambler = "TID_078";
+
+                /// <summary>
+                /// Stealth Has +3 Attack and Immune while attacking.<br/>
+                /// 2-Cost 1/2 Naga Minion
+                /// </summary>
                 public const string InkveilAmbusher = "TID_080";
+
+                /// <summary>
+                /// Add two random spells from other classes that cost (5) or more to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Jackpot = "TID_931";
+
+                /// <summary>
+                /// After you summon a Pirate, draw a card.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
                 public const string ToyBoat = "TOY_505";
+
+                /// <summary>
+                /// Draw a minion. If it's a Pirate, get a Coin.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DigForTreasure = "TOY_510";
+
+                /// <summary>
+                /// After you summon a Pirate, summon a copy of it that attacks a random enemy, then dies.<br/>
+                /// 5-Cost 5/5 Pirate Minion
+                /// </summary>
                 public const string ShoplifterGoldbeard = "TOY_511";
+
+                /// <summary>
+                /// The next minion you summon this turn has its stats set to 5/5.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string TheCrystalCove = "TOY_512";
+
+                /// <summary>
+                /// Discover a spell from another class. Get a copy of it.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ThistleTeaSet = "TOY_514";
+
+                /// <summary>
+                /// After you play a 1-Cost minion, get a copy of it that costs (0).<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
                 public const string SonyaWaterdancer = "TOY_515";
+
+                /// <summary>
+                /// Rush Combo: Summon a copy of this.<br/>
+                /// 3-Cost 3/2 Pirate Minion
+                /// </summary>
                 public const string BargainBinBuccaneer = "TOY_516";
+
+                /// <summary>
+                /// Summon two random 4-Cost minions. Costs (1) less for each card you've drawn this turn.<br/>
+                /// 9-Cost Spell
+                /// </summary>
                 public const string EverythingMustGo = "TOY_519";
+
+                /// <summary>
+                /// Miniaturize Battlecry: Your next card this turn costs (3) less.<br/>
+                /// 5-Cost 4/3 Pirate Minion
+                /// </summary>
                 public const string SandboxScoundrel = "TOY_521";
+
+                /// <summary>
+                /// After your hero attacks, summon a 1/1 Pirate that attacks a random enemy.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string Watercannon = "TOY_522";
+
+                /// <summary>
+                /// Rush Battlecry: Gain +1/+1 for each other Pirate you control.<br/>
+                /// 2-Cost 1/1 Pirate Minion
+                /// </summary>
                 public const string BloodsailHowler = "TRL_071";
+
+                /// <summary>
+                /// Deathrattle: Give your minions Rush.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
                 public const string SerratedTooth = "TRL_074";
+
+                /// <summary>
+                /// Battlecry: Discover a 1/1 copy of a Battlecry minion. It costs (1).<br/>
+                /// 7-Cost 5/7 Minion
+                /// </summary>
                 public const string GurubashiHypemon = "TRL_077";
+
+                /// <summary>
+                /// Stealth for 1 turn. Your minions' Battlecries and Combos trigger twice.<br/>
+                /// 4-Cost 0/3 Undead/Beast Minion
+                /// </summary>
                 public const string SpiritOfTheShark = "TRL_092";
+
+                /// <summary>
+                /// Draw 2 Pirates from your deck. Combo: And a weapon.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string RaidingParty = "TRL_124";
+
+                /// <summary>
+                /// Battlecry: Summon 3 Pirates from your deck. Give them Rush.<br/>
+                /// 8-Cost 6/3 Pirate Minion
+                /// </summary>
                 public const string CaptainHooktusk = "TRL_126";
+
+                /// <summary>
+                /// Deal $3 damage to a random enemy. Repeat for each of your Pirates.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string CannonBarrage = "TRL_127";
+
+                /// <summary>
+                /// Discover a weapon (from another class).<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string StolenSteel = "TRL_156";
+
+                /// <summary>
+                /// Destroy an undamaged minion.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string WalkThePlank = "TRL_157";
+
+                /// <summary>
+                /// Battlecry: Eat a minion in your deck and gain its stats. Deathrattle: Add it to your hand.<br/>
+                /// 5-Cost 2/2 Beast Minion
+                /// </summary>
                 public const string GralTheShark = "TRL_409";
+
+                /// <summary>
+                /// After your hero attacks, draw a Pirate.<br/>
+                /// 3-Cost 2/5 Pirate/Undead Minion
+                /// </summary>
                 public const string CutlassCourier = "TSC_085";
+
+                /// <summary>
+                /// Battlecry: Dredge. If it's a Pirate, give this weapon and the Pirate +2 Attack.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string Swordfish = "TSC_086";
+
+                /// <summary>
+                /// Summon two 3/3 Pirates with Stealth. Put a 'Sunken Vessel' on the bottom of your deck.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string AzsharanVessel = "TSC_912";
+
+                /// <summary>
+                /// Dredge. Combo: Draw a card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string GoneFishin = "TSC_916";
+
+                /// <summary>
+                /// Deal $3 damage to an enemy. Summon a 5/5 Shark with Rush.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string BloodInTheWater = "TSC_932";
+
+                /// <summary>
+                /// Combo: Put an enemy minion on the bottom of your opponent's deck.<br/>
+                /// 5-Cost 4/4 Pirate/Undead Minion
+                /// </summary>
                 public const string BootstrapSunkeneer = "TSC_933";
+
+                /// <summary>
+                /// Battlecry: If you've summoned 7 other Pirates this game, plunder the enemy! ({0} left!) (Ready!)<br/>
+                /// 7-Cost 7/7 Pirate Minion
+                /// </summary>
                 public const string PirateAdmiralHooktusk = "TSC_934";
+
+                /// <summary>
+                /// Battlecry: Your next spell this turn costs (0).<br/>
+                /// 4-Cost 2/2 Naga Minion
+                /// </summary>
                 public const string SwiftscaleTrickster = "TSC_936";
+
+                /// <summary>
+                /// Colossal +2 Your Crabatoa Claws have +2 Attack.<br/>
+                /// 6-Cost 6/5 Beast Minion
+                /// </summary>
                 public const string Crabatoa = "TSC_937";
+
+                /// <summary>
+                /// Battlecry: Deal 1 damage.<br/>
+                /// 1-Cost 3/1 Pirate Minion
+                /// </summary>
                 public const string Filletfighter = "TSC_963";
+
+                /// <summary>
+                /// Get three 1/1 Magnetic Sparkbots with random Bonus Effects.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string FromTheScrapheap = "TTN_719";
+
+                /// <summary>
+                /// T1T4N This minion's abilities repeat on another random friendly minion.<br/>
+                /// 6-Cost 3/5 Mechanical Minion
+                /// </summary>
                 public const string V07Tr0NPrime = "TTN_721";
+
+                /// <summary>
+                /// Minions take double damage this turn. Deal $1 damage.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string TarSlick = "TTN_726";
+
+                /// <summary>
+                /// Discover a Mech from your deck. Give it +2/+1.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PitStop = "TTN_728";
+
+                /// <summary>
+                /// At the end of your turn, summon a copy of this. Forge: Gain Magnetic.<br/>
+                /// 5-Cost 3/2 Mechanical Minion
+                /// </summary>
                 public const string LabConstructor = "TTN_730";
+
+                /// <summary>
+                /// After you play a Mech, get a random one of Mimiron's Gadgets.<br/>
+                /// 3-Cost 2/5 Mechanical Minion
+                /// </summary>
                 public const string MimironTheMastermind = "TTN_920";
+
+                /// <summary>
+                /// Magnetic Whenever this attacks, get a Coin.<br/>
+                /// 3-Cost 3/2 Mechanical/Beast Minion
+                /// </summary>
                 public const string CoppertailSnoop = "TTN_921";
+
+                /// <summary>
+                /// Shuffle the two left-most cards in your hand into your deck. Draw 3 cards.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string GearShift = "TTN_922";
+
+                /// <summary>
+                /// Magnetic Stealth for 1 turn.<br/>
+                /// 3-Cost 3/4 Mechanical/Beast Minion
+                /// </summary>
                 public const string Sp3Y3D3r = "TTN_923";
+
+                /// <summary>
+                /// Battlecry: Discover a spell from another class that costs (3) or less.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
                 public const string KajamiteCreation = "TTN_925";
+
+                /// <summary>
+                /// Battlecry: Add a random Reborn minion to your hand.<br/>
+                /// 1-Cost 1/2 Beast/Undead Minion
+                /// </summary>
                 public const string PharaohCat = "ULD_186";
+
+                /// <summary>
+                /// Whenever you play a Combo card, add a random Combo card to your hand.<br/>
+                /// 2-Cost 1/2 Minion
+                /// </summary>
                 public const string WhirlkickMaster = "ULD_231";
+
+                /// <summary>
+                /// Deathrattle: Return a random enemy minion to your opponent's hand.<br/>
+                /// 4-Cost 4/4 Pirate Minion
+                /// </summary>
                 public const string SahketSapper = "ULD_280";
+
+                /// <summary>
+                /// Combo: Gain +2 Attack.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string HookedScimitar = "ULD_285";
+
+                /// <summary>
+                /// Choose a minion. Shuffle 3 'Shadows' into your deck that summon a copy when drawn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string ShadowOfDeath = "ULD_286";
+
+                /// <summary>
+                /// Battlecry: Change each Deathrattle minion in your hand into a 1/1 that costs (1).<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
                 public const string AnkaTheBuried = "ULD_288";
+
+                /// <summary>
+                /// Quest: Add 4 cards from other classes to your hand. Reward: Ancient Blades.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string BazaarBurglary = "ULD_326";
+
+                /// <summary>
+                /// Rush Battlecry: Add a random minion from another class to your hand.<br/>
+                /// 5-Cost 3/5 Minion
+                /// </summary>
                 public const string BazaarMugger = "ULD_327";
+
+                /// <summary>
+                /// Add 2 random spells from another class to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string CleverDisguise = "ULD_328";
+
+                /// <summary>
+                /// Each player equips a 2/2 Knife with Poisonous.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string PlagueOfMadness = "ULD_715";
+
+                /// <summary>
+                /// Add two Razorpetals to your hand that deal 2 damage.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string RazorpetalVolley = "UNG_057";
+
+                /// <summary>
+                /// Battlecry: Add a Razorpetal to your hand that deals 2 damage.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string RazorpetalLasher = "UNG_058";
+
+                /// <summary>
+                /// Draw a card, then add a copy of it to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string MimicPod = "UNG_060";
+
+                /// <summary>
+                /// Costs (1) less for each non-Rogue Class card added to your hand this game.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
                 public const string ObsidianShard = "UNG_061";
+
+                /// <summary>
+                /// Combo: Gain +1/+1 for each other card you've played this turn.<br/>
+                /// 2-Cost 1/2 Minion
+                /// </summary>
                 public const string Biteweed = "UNG_063";
+
+                /// <summary>
+                /// Combo: Destroy a minion.<br/>
+                /// 5-Cost 3/4 Minion
+                /// </summary>
                 public const string VilespineSlayer = "UNG_064";
+
+                /// <summary>
+                /// Deathrattle: Go Dormant. Play 4 cards in a turn to revive this minion.<br/>
+                /// 4-Cost 6/3 Minion
+                /// </summary>
                 public const string SherazinCorpseFlower = "UNG_065";
+
+                /// <summary>
+                /// Quest: Play four minions with the same name. Reward: Crystal Core.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string TheCavernsBelow = "UNG_067";
+
+                /// <summary>
+                /// Give your weapon Poisonous.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string EnvenomWeapon = "UNG_823";
+
+                /// <summary>
+                /// Discover a card from your opponent's class.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SporeHallucination = "UNG_856";
+
+                /// <summary>
+                /// After your hero attacks and kills a minion, get a Coin.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string MetalDetector = "VAC_330";
+
+                /// <summary>
+                /// Battlecry: The next card you play from another class costs (2) less.<br/>
+                /// 3-Cost 3/2 Pirate Minion
+                /// </summary>
                 public const string SeaShill = "VAC_332";
+
+                /// <summary>
+                /// Battlecry: Replay the last card you played from another class.<br/>
+                /// 4-Cost 4/4 Pirate Minion
+                /// </summary>
                 public const string ConnivingConman = "VAC_333";
+
+                /// <summary>
+                /// Draw a card. If you play it this turn, reopen this.<br/>
+                /// 3-Cost Location
+                /// </summary>
                 public const string KnickknackShack = "VAC_334";
+
+                /// <summary>
+                /// Get two random 1-Cost spells from other classes.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string PettyTheft = "VAC_335";
+
+                /// <summary>
+                /// Warlock Tourist Battlecry: Discover a Hero card from the past (from another class).<br/>
+                /// 5-Cost 6/5 Minion
+                /// </summary>
                 public const string MaestraMaskMerchant = "VAC_336";
+
+                /// <summary>
+                /// Deal $2 damage. Combo: Get a Coin.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string OhManager = "VAC_460";
+
+                /// <summary>
+                /// Battlecry: Go on a Sidequest to Discover amazing loot! Play 3 cards from other classes to complete it.<br/>
+                /// 5-Cost 4/5 Pirate Minion
+                /// </summary>
                 public const string TreasureHunterEudora = "VAC_464";
+
+                /// <summary>
+                /// Destroy two random enemy minions. Costs (1) less for each card you've played from another class.<br/>
+                /// 8-Cost Spell
+                /// </summary>
                 public const string SnatchAndGrab = "VAC_700";
+
+                /// <summary>
+                /// Battlecry: Set the Attack and Durability of your weapon to 3.<br/>
+                /// 3-Cost 3/3 Pirate Minion
+                /// </summary>
                 public const string SwarthySwordshiner = "VAC_701";
+
+                /// <summary>
+                /// Deal $2 damage to an undamaged minion.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string BackstabVanilla = "VAN_CS2_072";
+
+                /// <summary>
+                /// Give a minion +2 Attack. Combo: +4 Attack instead.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ColdBloodVanilla = "VAN_CS2_073";
+
+                /// <summary>
+                /// Give your weapon +2 Attack.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string DeadlyPoisonVanilla = "VAN_CS2_074";
+
+                /// <summary>
+                /// Deal $3 damage to the enemy hero.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SinisterStrikeVanilla = "VAN_CS2_075";
+
+                /// <summary>
+                /// Destroy an enemy minion.<br/>
+                /// 5-Cost Spell
+                /// </summary>
                 public const string AssassinateVanilla = "VAN_CS2_076";
+
+                /// <summary>
+                /// Draw 4 cards.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string SprintVanilla = "VAN_CS2_077";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 5-Cost Weapon
+                /// </summary>
                 public const string AssassinsBladeVanilla = "VAN_CS2_080";
+
+                /// <summary>
+                /// Destroy your weapon and deal its damage to all enemies.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string BladeFlurryVanilla = "VAN_CS2_233";
+
+                /// <summary>
+                /// Deal $2 damage. Combo: Deal $4 damage instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string EviscerateVanilla = "VAN_EX1_124";
+
+                /// <summary>
+                /// Force an enemy minion to deal its damage to the minions next to it.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string BetrayalVanilla = "VAN_EX1_126";
+
+                /// <summary>
+                /// Give your minions Stealth until your next turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string ConcealVanilla = "VAN_EX1_128";
+
+                /// <summary>
+                /// Deal $1 damage to all enemy minions. Draw a card.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string FanOfKnivesVanilla = "VAN_EX1_129";
+
+                /// <summary>
+                /// Combo: Summon a 2/1 Defias Bandit.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
                 public const string DefiasRingleaderVanilla = "VAN_EX1_131";
+
+                /// <summary>
+                /// Battlecry: Deal 1 damage. Combo: Deal 2 instead.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
                 public const string PerditionsBladeVanilla = "VAN_EX1_133";
+
+                /// <summary>
+                /// Combo: Deal 2 damage.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string Si7AgentVanilla = "VAN_EX1_134";
+
+                /// <summary>
+                /// Deal $2 damage to the enemy hero. Combo: Return this to your hand next turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string HeadcrackVanilla = "VAN_EX1_137";
+
+                /// <summary>
+                /// Return a friendly minion to your hand. It costs (2) less.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string ShadowstepVanilla = "VAN_EX1_144";
+
+                /// <summary>
+                /// The next spell you cast this turn costs (3) less.<br/>
+                /// 0-Cost Spell
+                /// </summary>
                 public const string PreparationVanilla = "VAN_EX1_145";
+
+                /// <summary>
+                /// Deal $1 damage. Draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShivVanilla = "VAN_EX1_278";
+
+                /// <summary>
+                /// Stealth. Destroy any minion damaged by this minion.<br/>
+                /// 2-Cost 1/1 Minion
+                /// </summary>
                 public const string PatientAssassinVanilla = "VAN_EX1_522";
+
+                /// <summary>
+                /// Return an enemy minion to your opponent's hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string SapVanilla = "VAN_EX1_581";
+
+                /// <summary>
+                /// Combo: Gain +2/+2 for each card played earlier this turn.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
                 public const string EdwinVancleefVanilla = "VAN_EX1_613";
+
+                /// <summary>
+                /// Return all minions to their owner's hand.<br/>
+                /// 6-Cost Spell
+                /// </summary>
                 public const string VanishVanilla = "VAN_NEW1_004";
+
+                /// <summary>
+                /// Combo: Return a minion to its owner's hand.<br/>
+                /// 6-Cost 5/3 Undead Minion
+                /// </summary>
                 public const string KidnapperVanilla = "VAN_NEW1_005";
+
+                /// <summary>
+                /// Battlecry: Give a friendly minion Stealth.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string MasterOfDisguiseVanilla = "VAN_NEW1_014";
+
+                /// <summary>
+                /// Stealth Has Poisonous while you have no other minions.<br/>
+                /// 3-Cost 2/5 Beast Minion
+                /// </summary>
                 public const string WaterMoccasin = "WC_015";
+
+                /// <summary>
+                /// Draw 2 minions. Any played this turn gain Stealth for 1 turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string ShroudOfConcealment = "WC_016";
+
+                /// <summary>
+                /// Transform a minion in both players' hands into a Pirate or Stealth minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string SavoryDeviateDelight = "WC_017";
+
+                /// <summary>
+                /// Stealth Deathrattle: Summon a{1} {0} Jade Golem.Stealth Deathrattle: Summon a Jade Golem.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
                 public const string JadeSwarmerWONDERS = "WON_067";
+
+                /// <summary>
+                /// Deal $3 damage. Combo: Summon a{1} {0} Jade Golem.Deal $3 damage. Combo: Summon a Jade Golem.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string JadeShurikenWONDERS = "WON_070";
+
+                /// <summary>
+                /// Get 3 random cards (from your opponent's class).<br/>
+                /// 3-Cost Spell
+                /// </summary>
                 public const string BurgleWONDERS = "WON_071";
+
+                /// <summary>
+                /// Battlecry: Deal 2 damage to all undamaged enemy minions.<br/>
+                /// 4-Cost 4/3 Minion
+                /// </summary>
                 public const string DarkIronSkulkerWONDERS = "WON_073";
+
+                /// <summary>
+                /// Battlecry: Destroy a minion. Add its Attack and Health to your C'Thun's (wherever it is).<br/>
+                /// 7-Cost 4/4 Minion
+                /// </summary>
                 public const string BladeOfCthunWONDERS = "WON_075";
+
+                /// <summary>
+                /// Deathrattle: Summon a 4/4 Nerubian with "Deathrattle: Summon Anub'arak."<br/>
+                /// 8-Cost 8/4 Undead Minion
+                /// </summary>
                 public const string AnubarakWONDERS = "WON_076";
+
+                /// <summary>
+                /// Each turn this is in your hand, transform it into a random 4-Cost minion that gains Stealth.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
                 public const string MountHyjalImposter = "WON_077";
+
+                /// <summary>
+                /// Look at 3 cards in your opponent's hand and shuffle one of them into their deck. Summon a{1} {0} Jade Golem.Look at 3 cards in your opponent's hand and shuffle one of them into their deck. Summon a Jade Golem.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string JadeTelegram = "WON_078";
+
+                /// <summary>
+                /// Battlecry: Summon a 0/1 Gong for your opponent. Combo: Gain Rush.<br/>
+                /// 4-Cost 3/3 Undead Minion
+                /// </summary>
                 public const string TheScarabLord = "WON_079";
+
+                /// <summary>
+                /// Combo: Gain +4 Attack.<br/>
+                /// 5-Cost 3/7 Minion
+                /// </summary>
                 public const string ShadoPanRiderWONDERS = "WON_316";
+
+                /// <summary>
+                /// Deathrattle: Get a random card (from your opponent's class).<br/>
+                /// 2-Cost 2/3 Undead Minion
+                /// </summary>
                 public const string UndercityHucksterWONDERS = "WON_317";
+
+                /// <summary>
+                /// Your Hero Power gives this +1 Attack instead of replacing it.<br/>
+                /// 2-Cost Weapon
+                /// </summary>
                 public const string PoisonedBladeWONDERS = "WON_318";
+
+                /// <summary>
+                /// Deathrattle: Get a Coin.<br/>
+                /// Tier-3 6/4 Undead Minion
+                /// </summary>
                 public const string TombPillagerWONDERS = "WON_340";
+
+                /// <summary>
+                /// Shuffle a card from each other class into your deck. They cost (1).<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string AgencyEspionage = "WORK_004";
+
+                /// <summary>
+                /// Give your weapon +2/+2.<br/>
+                /// 4-Cost Spell
+                /// </summary>
                 public const string SharpShipment = "WORK_005";
+
+                /// <summary>
+                /// Battlecry: Draw an {0}, {1}, and {2}-Cost card. (Numbers dialed randomly each turn!)<br/>
+                /// 3-Cost 3/2 Mechanical Minion
+                /// </summary>
                 public const string Robocaller = "WORK_006";
+
+                /// <summary>
+                /// Throw two $2 damage darts at random enemy minions. (If both hit the same minion, get a Coin!)<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string DartThrow = "WW_006";
+
+                /// <summary>
+                /// Quickdraw or Combo: Get a Coin.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
                 public const string BountyWrangler = "WW_363";
+
+                /// <summary>
+                /// While this is in your hand, play a card from another class to reveal Velarok's true form!<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string VelarokWindblade = "WW_364";
+
+                /// <summary>
+                /// Deal $7 damage to a minion. Draw 7 cards.<br/>
+                /// 7-Cost Spell
+                /// </summary>
                 public const string TripleSevens = "WW_410";
+
+                /// <summary>
+                /// Discover a Quickdraw card from another class.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string StickUp = "WW_411";
+
+                /// <summary>
+                /// Deathrattle: Excavate a treasure.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
                 public const string BloodrockCoShovel = "WW_412";
+
+                /// <summary>
+                /// Battlecry: If you've Excavated twice, destroy an enemy minion.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
                 public const string AntiqueFlinger = "WW_413";
+
+                /// <summary>
+                /// After you play a Coin, get a random Legendary minion from another class and set its Cost to (1).<br/>
+                /// 5-Cost 0/7 Minion
+                /// </summary>
                 public const string WishingWell = "WW_415";
+
+                /// <summary>
+                /// Get a random Epic, Rare, and Common card from other classes.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string ShellGame = "WW_416";
+
+                /// <summary>
+                /// Battlecry, Quickdraw, and Deathrattle: Excavate a treasure.<br/>
+                /// 4-Cost 4/3 Mechanical Minion
+                /// </summary>
                 public const string DrillyTheKid = "WW_417";
+
+                /// <summary>
+                /// Stealth Deathrattle: Draw a card.<br/>
+                /// 2-Cost 1/3 Pirate Minion
+                /// </summary>
                 public const string Skyvateer = "YOD_016";
+
+                /// <summary>
+                /// Combo: Draw a card for each card you've played this turn.<br/>
+                /// 5-Cost 3/2 Minion
+                /// </summary>
                 public const string ShadowSculptor = "YOD_017";
+
+                /// <summary>
+                /// Discover a Battlecry minion. Reduce its Cost by (2).<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Waxmancy = "YOD_018";
+
+                /// <summary>
+                /// Discover a Mech from another class.<br/>
+                /// 1-Cost Spell
+                /// </summary>
                 public const string AssemblyLine = "YOG_410";
+
+                /// <summary>
+                /// Deal $3 damage. Combo: Get a 1/1 Chaotic Tendril.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string TentacleGrip = "YOG_526";
+
+                /// <summary>
+                /// Battlecry: If you control another Mech, deal 4 damage.<br/>
+                /// 4-Cost 4/4 Mechanical Minion
+                /// </summary>
                 public const string TinyWorldbreaker = "YOG_527";
+
+                /// <summary>
+                /// Battlecry: If you're holding a Secret, cast it and draw a card.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
                 public const string SparkjoyCheat = "YOP_016";
+
+                /// <summary>
+                /// Secret: When your opponent draws their second card in a turn, transform it into a Banana.<br/>
+                /// 2-Cost Spell
+                /// </summary>
                 public const string Shenanigans = "YOP_017";
             }
         }

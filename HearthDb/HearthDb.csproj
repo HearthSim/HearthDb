@@ -35,6 +35,16 @@
     <DownloaderOutDir>$(SolutionDir)HearthDb.CardDefsDownloader/bin/Release/netcoreapp3.1/</DownloaderOutDir>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DocumentationFile>bin\Debug\HearthDb.xml</DocumentationFile>
+    <NoWarn>1701;1702;IL2121;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DocumentationFile>bin\Release\HearthDb.xml</DocumentationFile>
+    <NoWarn>1701;1702;IL2121;1591</NoWarn>
+  </PropertyGroup>
+
   <Target Name="DownloadBaseData" BeforeTargets="PreBuildEvent">
     <MSBuild Projects="$(SolutionDir)HearthDb.CardDefsDownloader/HearthDb.CardDefsDownloader.csproj" Properties="Configuration=Release"/>
     <Exec Condition="Exists('$(DownloaderOutDir)HearthDb.CardDefsDownloader')" Command='"$(DownloaderOutDir)HearthDb.CardDefsDownloader" "$(SolutionDir)HearthDb/hsdata"'/>

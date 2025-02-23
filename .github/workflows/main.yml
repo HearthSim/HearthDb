@@ -26,12 +26,16 @@ jobs:
       - name: Test
         run: dotnet test --no-restore --verbosity normal
 
+      - name: Bundle artifacts
+        run: |
+            cd ./HearthDb/bin/Release/netstandard2.0
+            zip HearthDb.zip HearthDb.dll HearthDb.xml
+
       - name: Upload artifact
-        if: github.event_name == 'push'
         uses: actions/upload-artifact@v4
         with:
-          name: HearthDb.dll
-          path: "./HearthDb/bin/Release/netstandard2.0/HearthDb.dll"
+          name: HearthDb.zip
+          path: "./HearthDb/bin/Release/netstandard2.0/HearthDb.zip"
 
   deploy:
     needs: build
@@ -44,7 +48,7 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:
-          name: HearthDb.dll
+          name: HearthDb.zip
           path: bin
 
       - name: Configure AWS Credentials
@@ -54,4 +58,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy
-        run: aws s3 cp bin/*.dll s3://libs.hearthsim.net/hdt/
+        run: aws s3 cp bin/*.zip s3://libs.hearthsim.net/hdt/

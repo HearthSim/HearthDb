@@ -24,8 +24,11 @@ namespace HearthDb.CardIdGenerator
 			var changes = 0;
 			var complete = 0;
 
-			var decls = SyntaxBuilder.GetCollectible().Concat(SyntaxBuilder.GetNonCollectible());
-			var total = decls.Count();
+
+			var collectible = Task.Run(SyntaxBuilder.GetCollectible);
+			var nonCollectible = Task.Run(SyntaxBuilder.GetNonCollectible);
+			var decls = collectible.Result.Concat(nonCollectible.Result).ToList();
+			var total = decls.Count;
 
 			Console.WriteLine("===== Formatting =====");
 			Parallel.ForEach(decls, (item) => {

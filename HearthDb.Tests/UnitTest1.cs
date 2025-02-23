@@ -95,6 +95,9 @@ namespace HearthDb.Tests
 
 			var hatredReactor = Cards.All[CardIds.NonCollectible.Warlock.HatredReactorToken];
 			Assert.IsTrue(hatredReactor.Text.Contains("give it +1/+1"));
+			
+			var candle = Cards.All[CardIds.NonCollectible.Neutral.EverburningCandleToken];
+			Assert.IsFalse(candle.Text.Contains("@"));
 
 		}
 

@@ -138,11 +138,14 @@ namespace HearthDb
 				text = text.Substring(0, atCounterMatch.Index) + replacement + text.Substring(atCounterMatch.Index + atCounterMatch.Length);
 			}
 
-			var parts = text.Split('@');
-			if (parts.Count() >= 2)
-				text = parts[0].Trim();
+			if (Entity.GetTag(PLAYER_TAG_THRESHOLD_TAG_ID) > 0)
+			{
+				var parts = text.Split('@');
+				if (parts.Count() >= 2)
+					text = parts[0].Trim();
+			}
 
-			return text;
+			return text.Replace("@", "");
 
 		}
 

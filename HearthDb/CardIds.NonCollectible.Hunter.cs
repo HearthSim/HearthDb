@@ -32,11 +32,11 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Deathrattle: Summon two 2/2 Hyenas.<br/>
+                /// <b>Deathrattle:</b> Summon two 2/2 Hyenas.<br/>
                 /// Tier-4 6/5 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Deathrattle: Summon two 4/4 Hyenas.<br/>
+                /// <b>Deathrattle:</b> Summon two 4/4 Hyenas.<br/>
                 /// Tier-4 12/10 Beast Minion
                 /// </summary>
                 public const string SavannahHighmane = "BG_EX1_534";
@@ -75,7 +75,7 @@ namespace HearthDb
                 public const string SnakeToken2 = "BG_EX1_554t_G";
 
                 /// <summary>
-                /// Your hero is Immune while attacking.<br/>
+                /// Your hero is <b>Immune</b> while attacking.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string GladiatorsLongbow_GladiatorsLongbowEnchantmentEnchantment = "DS1_188e";
@@ -99,13 +99,13 @@ namespace HearthDb
                 public const string EaglehornBow_UpgradedEnchantment = "EX1_536e";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string UnleashtheHounds_HoundToken = "EX1_538t";
 
                 /// <summary>
-                /// +2 Attack and Immune this turn.<br/>
+                /// +2 Attack and <b>Immune</b> this turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string BestialWrath_BestialWrathEnchantment = "EX1_549o";
@@ -117,19 +117,19 @@ namespace HearthDb
                 public const string SnakeTrap_SnakeToken = "EX1_554t";
 
                 /// <summary>
-                /// Will be Frozen again at the start of the next turn.<br/>
+                /// Will be <b>Frozen</b> again at the start of the next turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string FreezingTrap_TrappedEnchantment = "EX1_611e";
 
                 /// <summary>
-                /// Secret: After your opponent plays a minion, deal $4 damage to it.<br/>
+                /// <b>Secret:</b> After your opponent plays a minion, deal $4 damage to it.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Snipe = "RLK_Prologue_EX1_609";
 
                 /// <summary>
-                /// Secret: When your hero is attacked, deal $2 damage to all enemies.<br/>
+                /// <b>Secret:</b> When your hero is attacked, deal $2 damage to all enemies.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ExplosiveTrapExpert1 = "RLK_Prologue_EX1_610";
@@ -153,11 +153,11 @@ namespace HearthDb
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// Deathrattle: Summon two 4/4 Hyenas.<br/>
+                /// <b>Deathrattle:</b> Summon two 4/4 Hyenas.<br/>
                 /// Tier-4 12/10 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// Deathrattle: Summon two 2/2 Hyenas.<br/>
+                /// <b>Deathrattle:</b> Summon two 2/2 Hyenas.<br/>
                 /// Tier-4 6/5 Beast Minion
                 /// </summary>
                 public const string SavannahHighmaneTavernBrawl = "TB_BaconUps_049";
@@ -199,11 +199,11 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Battlecry: Give your other Mechs +2 Attack.<br/>
+                /// <b>Battlecry:</b> Give your other Mechs +2 Attack.<br/>
                 /// Tier-2 3/3 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Battlecry: Give your other Mechs +4 Attack.<br/>
+                /// <b>Battlecry:</b> Give your other Mechs +4 Attack.<br/>
                 /// Tier-2 6/6 Mechanical Minion
                 /// </summary>
                 public const string MetaltoothLeaperGVG1 = "BG_GVG_048";
@@ -233,18 +233,18 @@ namespace HearthDb
                 public const string Gahzrilla_MightOfZulfarrakEnchantment = "GVG_049e";
 
                 /// <summary>
-                /// Battlecry: Give your other Mechs +2 Attack.<br/>
+                /// <b>Battlecry:</b> Give your other Mechs +2 Attack.<br/>
                 /// 3-Cost 3/3 Mechanical Minion
                 /// </summary>
                 public const string MetaltoothLeaperGVG2 = "Story_11_MetaltoothLeapPuzzle";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// Battlecry: Give your other Mechs +4 Attack.<br/>
+                /// <b>Battlecry:</b> Give your other Mechs +4 Attack.<br/>
                 /// Tier-2 6/6 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// Battlecry: Give your other Mechs +2 Attack.<br/>
+                /// <b>Battlecry:</b> Give your other Mechs +2 Attack.<br/>
                 /// Tier-2 3/3 Mechanical Minion
                 /// </summary>
                 public const string MetaltoothLeaperTavernBrawl = "TB_BaconUps_066";
@@ -262,7 +262,7 @@ namespace HearthDb
                 public const string QuickShot = "RLK_Prologue_BRM_013";
 
                 /// <summary>
-                /// Immune this turn.<br/>
+                /// <b>Immune</b> this turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Stablemaster_GroomedEnchantment = "AT_057o";
@@ -274,145 +274,145 @@ namespace HearthDb
                 public const string LockandLoad_LockAndLoadEnchantment = "AT_061e";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string JusticarTrueheart_BallistaShotHeroSkins = "AT_132_HUNTER_H1";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string SteadyShotHeroSkins1 = "DS1h_292_H1";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string BallistaShotHeroSkins1 = "DS1h_292_H1_AT_132";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string SteadyShotHeroSkins2 = "DS1h_292_H2";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string SteadyShotHeroSkins3 = "DS1h_292_H3";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string BallistaShotHeroSkins2 = "DS1h_292_H3_AT_132";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string RexxarHeroic_SteadyShotHeroSkins1 = "HERO_05ahhp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string RexxarHeroic_BallistaShotHeroSkins1 = "HERO_05ahhp2";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_SteadyShotHeroSkins1 = "HERO_05ambp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_BallistaShotHeroSkins1 = "HERO_05ambp2";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_SteadyShotHeroSkinsEnchantment = "HERO_05aohp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_BallistaShotHeroSkinsEnchantment = "HERO_05aohp2";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_SteadyShotHeroSkins2 = "HERO_05ashp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_BallistaShotHeroSkins2 = "HERO_05ashp2";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string RexxarHeroic_SteadyShotHeroSkins2 = "HERO_05athp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string RexxarHeroic_BallistaShotHeroSkins2 = "HERO_05athp2";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_SteadyShotHeroSkins3 = "HERO_05azhp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_BallistaShotHeroSkins3 = "HERO_05azhp2";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_SteadyShotHeroSkins4 = "HERO_05dbp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_BallistaShotHeroSkins4 = "HERO_05dbp2";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_SteadyShotHeroSkins5 = "HERO_05ybp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_BallistaShotHeroSkins5 = "HERO_05ybp2";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_SteadyShotHeroSkins6 = "HERO_05zbp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_BallistaShotHeroSkins6 = "HERO_05zbp2";
@@ -424,13 +424,13 @@ namespace HearthDb
                 public const string HuntersMark = "FB_Champs_CS2_084";
 
                 /// <summary>
-                /// Summon two 3/3 Wolves. (Play a Secret to upgrade.)<br/>
+                /// Summon two 3/3 Wolves. <i>(Play a <b>Secret</b> to upgrade.)</i><br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string LesserEmeraldSpellstone = "FB_Champs_LOOT_080";
 
                 /// <summary>
-                /// Summon three 3/3 Wolves. (Play a Secret to upgrade.)<br/>
+                /// Summon three 3/3 Wolves. <i>(Play a <b>Secret</b> to upgrade.)</i><br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string LesserEmeraldSpellstone_EmeraldSpellstoneTokenTavernBrawl = "FB_Champs_LOOT_080t2";
@@ -478,7 +478,7 @@ namespace HearthDb
                 public const string SlatesSyringe = "PVPDR_036";
 
                 /// <summary>
-                /// Shuffle each Improved Secret into your deck. Allied: Hunter.<br/>
+                /// Shuffle each Improved <b>Secret</b> into your deck. <b>Allied:</b> Hunter.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string StalkersSupplies = "PVPDR_AV_Neutralt3";
@@ -490,7 +490,7 @@ namespace HearthDb
                 public const string SpreadShotTavernBrawl = "PVPDR_Brann_HP1";
 
                 /// <summary>
-                /// Discover a Beast from your class. Give it +1/+1.<br/>
+                /// <b>Discover</b> a Beast from your class. Give it +1/+1.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string DinoTrackingTavernBrawl1 = "PVPDR_Brann_HP3";
@@ -502,19 +502,19 @@ namespace HearthDb
                 public const string DinoTrackingTavernBrawl2 = "PVPDR_Brann_HP3e1";
 
                 /// <summary>
-                /// Give a friendly Beast +3/+3 and "Deathrattle: Give Brann's Saddle to another friendly Beast."<br/>
+                /// Give a friendly Beast +3/+3 and "<b>Deathrattle:</b> Give Brann's Saddle to another friendly Beast."<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string BrannsSaddleTavernBrawl = "PVPDR_Brann_T2";
 
                 /// <summary>
-                /// Battlecry: Draw 3 cards. Any minions you draw cost (2) less.<br/>
+                /// <b>Battlecry:</b> Draw 3 cards. Any minions you draw cost (2) less.<br/>
                 /// 5-Cost 2/5 Minion
                 /// </summary>
                 public const string JrExcavatorTavernBrawl = "PVPDR_Brann_T4";
 
                 /// <summary>
-                /// Battlecry: Draw 3 cards. Any minions you draw cost (2) less.<br/>
+                /// <b>Battlecry:</b> Draw 3 cards. Any minions you draw cost (2) less.<br/>
                 /// 5-Cost 3/6 Minion
                 /// </summary>
                 public const string SrExcavatorTavernBrawl = "PVPDR_Brann_T4_2";
@@ -532,13 +532,13 @@ namespace HearthDb
                 public const string BrannsEpicEggTavernBrawl = "PVPDR_Brann_T6";
 
                 /// <summary>
-                /// Trigger a random friendly minion's Deathrattle.<br/>
+                /// Trigger a random friendly minion's <b>Deathrattle</b>.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string DeathGames = "PVPDR_DMF_Hunterp1";
 
                 /// <summary>
-                /// Summon a random Beast. Repeat for each Secret you've played this game.<br/>
+                /// Summon a random Beast. Repeat for each <b>Secret</b> you've played this game.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string StalkingPride = "PVPDR_DMF_Huntert2";
@@ -592,7 +592,7 @@ namespace HearthDb
                 public const string VanndarStormpikeTavernBrawl2 = "PVPDR_Hero_Vanndarv2";
 
                 /// <summary>
-                /// Give a minion +1/+1 and "Deathrattle: Add an Explorer's Hat to your hand."<br/>
+                /// Give a minion +1/+1 and "<b>Deathrattle:</b> Add an Explorer's Hat to your hand."<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string SmartyPants = "PVPDR_LOOT_SmartyPants";
@@ -610,7 +610,7 @@ namespace HearthDb
                 public const string SurvivalTraining2 = "PVPDR_SCH_Hunterp1e1";
 
                 /// <summary>
-                /// Rush. Deathrattle: Summon two other minions with Deathrattle that died this game.<br/>
+                /// <b>Rush</b>. <b>Deathrattle</b>: Summon two other minions with <b>Deathrattle</b> that died this game.<br/>
                 /// 6-Cost 5/3 Beast Minion
                 /// </summary>
                 public const string Bonecrusher = "PVPDR_SCH_Huntert2";
@@ -622,13 +622,13 @@ namespace HearthDb
                 public const string TraktamerAelessa = "PVPDR_YOP_DemHun";
 
                 /// <summary>
-                /// Passive. After a friendly Secret is revealed, add a random 2-Cost Beast to your hand.<br/>
+                /// <b>Passive</b>. After a friendly <b>Secret</b> is revealed, add a random 2-Cost Beast to your hand.<br/>
                 /// 0-Cost HeroPower
                 /// </summary>
                 public const string SavageSecrets = "PVPDR_YOP_HunterP1";
 
                 /// <summary>
-                /// Battlecry: Trigger 1 random friendly minion's Deathrattle. (Improves during run)<br/>
+                /// <b>Battlecry:</b> Trigger 1 random friendly minion's <b>Deathrattle</b>. <i>(Improves during run)</i><br/>
                 /// 3-Cost 2/3 Beast Minion
                 /// </summary>
                 public const string Deathstrider = "PVPDR_YOP_HunterT1";
@@ -652,13 +652,13 @@ namespace HearthDb
                 public const string RotwingTavernBrawl = "TB_BBR3_BOSS_02";
 
                 /// <summary>
-                /// Trigger ALL Deathrattle effects.<br/>
+                /// Trigger ALL <b>Deathrattle</b> effects.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
                 public const string Rotwing_RotAuraTavernBrawl = "TB_BBR3_BOSS_02p";
 
                 /// <summary>
-                /// When it comes to folk music, he's a natural talent!<br/>
+                /// <i>When it comes to folk music, he's a natural talent!</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string MisterMuklaTavernBrawl = "TB_BotB_Mukla";
@@ -682,7 +682,7 @@ namespace HearthDb
                 public const string SecondClassHunterTavernBrawl = "TB_ClassRandom_Hunter";
 
                 /// <summary>
-                /// Battlecry: Deal 2 damage to all enemy minions.<br/>
+                /// <b>Battlecry:</b> Deal 2 damage to all enemy minions.<br/>
                 /// 6-Cost Hero
                 /// </summary>
                 public const string DeathstalkerRexxarTavernBrawl1 = "TB_DK_Rexxar";
@@ -748,13 +748,13 @@ namespace HearthDb
                 public const string BrannBronzebeardTavernBrawl5 = "TB_TempleOutrun_Brann";
 
                 /// <summary>
-                /// Is it still a trap if everyone knows it's a trap?<br/>
+                /// <i>Is it still a trap if everyone knows it's a trap?</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TrapRoomTavernBrawl = "TB_TempleOutrun_TrapRoom";
 
                 /// <summary>
-                /// Battlecry: Deal 2 damage to all enemy minions.<br/>
+                /// <b>Battlecry:</b> Deal 2 damage to all enemy minions.<br/>
                 /// 6-Cost Hero
                 /// </summary>
                 public const string DeathstalkerRexxarTavernBrawl2 = "TB_Zombeast_H";
@@ -772,7 +772,7 @@ namespace HearthDb
                 public const string Zuljin = "THD_010";
 
                 /// <summary>
-                /// Discover a Secret. It costs (1) less.<br/>
+                /// <b>Discover</b> a <b>Secret</b>. It costs (1) less.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string EnsnareHeroic1 = "THD_010hp";
@@ -784,7 +784,7 @@ namespace HearthDb
                 public const string EnsnareHeroic2 = "THD_010hpe";
 
                 /// <summary>
-                /// After you play a Secret, summon a 2/2 Berserker.<br/>
+                /// After you play a <b>Secret</b>, summon a 2/2 Berserker.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string Zuljin_WarriorsOfAmani = "THD_010p";
@@ -838,7 +838,7 @@ namespace HearthDb
                 public const string BrannBronzebeardTavernBrawl2TavernBrawl = "THD_042";
 
                 /// <summary>
-                /// Your next Battlecry triggers twice.<br/>
+                /// Your next <b>Battlecry</b> triggers twice.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
                 public const string CrackTheWhipHeroic1 = "THD_042hp";
@@ -850,13 +850,13 @@ namespace HearthDb
                 public const string CrackTheWhipHeroic2 = "THD_042hpe";
 
                 /// <summary>
-                /// After you play a Battlecry minion, transform it into a random Beast of the same cost.<br/>
+                /// After you play a <b>Battlecry</b> minion, transform it into a random Beast of the same cost.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string BrannBronzebeard_BrannsSaddle = "THD_042p";
 
                 /// <summary>
-                /// +1/+1. Deathrattle: Add an Explorer's Hat to your hand.<br/>
+                /// +1/+1. <b>Deathrattle:</b> Add an Explorer's Hat to your hand.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string ExplorersHat_ExplorersHatEnchantment = "LOE_105e";
@@ -868,7 +868,7 @@ namespace HearthDb
                 public const string WishforCompanionship_Leokk = "LOEA02_10a";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 0-Cost 4/4 Beast Minion
                 /// </summary>
                 public const string WishforCompanionship_Misha = "LOEA02_10c";
@@ -887,11 +887,11 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Deathrattle: Summon a 3/2 Big Bad Wolf.<br/>
+                /// <b>Deathrattle:</b> Summon a 3/2 Big Bad Wolf.<br/>
                 /// Tier-1 1/1 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Deathrattle: Summon a 6/4 Big Bad Wolf.<br/>
+                /// <b>Deathrattle:</b> Summon a 6/4 Big Bad Wolf.<br/>
                 /// Tier-1 2/2 Beast Minion
                 /// </summary>
                 public const string KindlyGrandmotherKARA2 = "BG_KAR_005";
@@ -908,7 +908,7 @@ namespace HearthDb
                 public const string KindlyGrandmother_BigBadWolfKARA1 = "BG_KAR_005a";
 
                 /// <summary>
-                /// Stealth<br/>
+                /// <b>Stealth</b><br/>
                 /// 3-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string CatTrick_CatInAHat = "KAR_004a";
@@ -921,22 +921,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// Deathrattle: Summon a 6/4 Big Bad Wolf.<br/>
+                /// <b>Deathrattle:</b> Summon a 6/4 Big Bad Wolf.<br/>
                 /// Tier-1 2/2 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// Deathrattle: Summon a 3/2 Big Bad Wolf.<br/>
+                /// <b>Deathrattle:</b> Summon a 3/2 Big Bad Wolf.<br/>
                 /// Tier-1 1/1 Beast Minion
                 /// </summary>
                 public const string KindlyGrandmotherTavernBrawl = "TB_BaconUps_004";
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Battlecry: Summon a 1/1 Cat.<br/>
+                /// <b>Battlecry:</b> Summon a 1/1 Cat.<br/>
                 /// Tier-1 1/1 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Battlecry: Summon a 2/2 Cat.<br/>
+                /// <b>Battlecry:</b> Summon a 2/2 Cat.<br/>
                 /// Tier-1 2/2 Beast Minion
                 /// </summary>
                 public const string Alleycat = "BG_CFM_315";
@@ -954,11 +954,11 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Deathrattle: Summon a number of 1/1 Rats equal to this minion's Attack.<br/>
+                /// <b>Deathrattle:</b> Summon a number of 1/1 Rats equal to this minion's Attack.<br/>
                 /// Tier-3 2/2 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Deathrattle: Summon a number of 2/2 Rats equal to this minion's Attack.<br/>
+                /// <b>Deathrattle:</b> Summon a number of 2/2 Rats equal to this minion's Attack.<br/>
                 /// Tier-3 4/4 Beast Minion
                 /// </summary>
                 public const string RatPack = "BG_CFM_316";
@@ -1006,11 +1006,11 @@ namespace HearthDb
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// Deathrattle: Summon a number of 2/2 Rats equal to this minion's Attack.<br/>
+                /// <b>Deathrattle:</b> Summon a number of 2/2 Rats equal to this minion's Attack.<br/>
                 /// Tier-3 4/4 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// Deathrattle: Summon a number of 1/1 Rats equal to this minion's Attack.<br/>
+                /// <b>Deathrattle:</b> Summon a number of 1/1 Rats equal to this minion's Attack.<br/>
                 /// Tier-3 2/2 Beast Minion
                 /// </summary>
                 public const string RatPackTavernBrawl = "TB_BaconUps_027";
@@ -1028,11 +1028,11 @@ namespace HearthDb
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// Battlecry: Summon a 2/2 Cat.<br/>
+                /// <b>Battlecry:</b> Summon a 2/2 Cat.<br/>
                 /// Tier-1 2/2 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// Battlecry: Summon a 1/1 Cat.<br/>
+                /// <b>Battlecry:</b> Summon a 1/1 Cat.<br/>
                 /// Tier-1 1/1 Beast Minion
                 /// </summary>
                 public const string AlleycatTavernBrawl = "TB_BaconUps_093";
@@ -1073,13 +1073,13 @@ namespace HearthDb
                 public const string Dinomancy_DinomancyToken = "UNG_917t1";
 
                 /// <summary>
-                /// Rush Battlecry: Shuffle 20 Raptors into your deck.<br/>
+                /// <b>Rush</b> <b>Battlecry:</b> Shuffle 20 Raptors into your deck.<br/>
                 /// 5-Cost 8/8 Beast Minion
                 /// </summary>
                 public const string TheMarshQueen_QueenCarnassaToken = "UNG_920t1";
 
                 /// <summary>
-                /// Battlecry: Draw a card.<br/>
+                /// <b>Battlecry:</b> Draw a card.<br/>
                 /// 1-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string TheMarshQueen_CarnassasBroodToken = "UNG_920t2";
@@ -1114,7 +1114,7 @@ namespace HearthDb
                 public const string FlankingStrike_WolfToken = "LOOT_077t";
 
                 /// <summary>
-                /// Summon three 3/3 Wolves. (Play a Secret to upgrade.)<br/>
+                /// Summon three 3/3 Wolves. <i>(Play a <b>Secret</b> to upgrade.)</i><br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string LesserEmeraldSpellstone_EmeraldSpellstoneTokenLOOTAPALOOZA = "LOOT_080t2";
@@ -1132,43 +1132,43 @@ namespace HearthDb
                 public const string ExplosiveEnchantment = "LOOT_440e";
 
                 /// <summary>
-                /// This kobold can candle-craft minions at will.<br/>
+                /// <i>This kobold can candle-craft minions at will.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string WaxmancerSturmiHeroic1 = "LOOTA_BOSS_04h";
 
                 /// <summary>
-                /// The bane of every young adventurer.<br/>
+                /// <i>The bane of every young adventurer.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string GiantRatHeroic = "LOOTA_BOSS_18h";
 
                 /// <summary>
-                /// Look, this murloc just wants to fish, okay?<br/>
+                /// <i>Look, this murloc just wants to fish, okay?</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TadHeroic = "LOOTA_BOSS_22h";
 
                 /// <summary>
-                /// This legendary furbolg hunter can quickly call on big friends.<br/>
+                /// <i>This legendary furbolg hunter can quickly call on big friends.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string BristlesnarlHeroic = "LOOTA_BOSS_23h";
 
                 /// <summary>
-                /// This kobold can candle-craft minions at will.<br/>
+                /// <i>This kobold can candle-craft minions at will.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string WaxmancerSturmiHeroic2 = "LOOTA_BOSS_27h";
 
                 /// <summary>
-                /// It's just a baby dragon. But it's still a dragon.<br/>
+                /// <i>It's just a baby dragon. But it's still a dragon.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string WeeWhelpHeroic = "LOOTA_BOSS_44h";
 
                 /// <summary>
-                /// Tread carefully. Don't... touch... anything!<br/>
+                /// <i>Tread carefully. Don't... touch... anything!</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TrappedRoomHeroic = "LOOTA_BOSS_48h";
@@ -1263,7 +1263,7 @@ namespace HearthDb
                 public const string CaveHydraTavernBrawl = "TB_BaconUps_151";
 
                 /// <summary>
-                /// Stealth Each turn this is in your hand, swap its Attack and Health.<br/>
+                /// <b>Stealth</b> Each turn this is in your hand, swap its Attack and Health.<br/>
                 /// 3-Cost 5/2 Minion
                 /// </summary>
                 public const string DuskhavenHunter_DuskhavenHunterToken = "GIL_200t";
@@ -1275,7 +1275,7 @@ namespace HearthDb
                 public const string RatTrap_DoomRatToken = "GIL_577t";
 
                 /// <summary>
-                /// Houndmaster Shaw grants Rush.<br/>
+                /// Houndmaster Shaw grants <b>Rush</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string HoundmasterShaw_HoundedEnchantment = "GIL_650e";
@@ -1287,49 +1287,49 @@ namespace HearthDb
                 public const string HoundmasterShawHeroic = "GILA_400h";
 
                 /// <summary>
-                /// Watch your step, this traitor is an expert trapper.<br/>
+                /// <i>Watch your step, this traitor is an expert trapper.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ManhunterIvanHeroic = "GILA_BOSS_25h";
 
                 /// <summary>
-                /// His enchanted scythe drinks deep from every harvest.<br/>
+                /// <i>His enchanted scythe drinks deep from every harvest.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TheScarecrowHeroic = "GILA_BOSS_33h";
 
                 /// <summary>
-                /// The feathered fiends of Gilneas flock to his sinister call.<br/>
+                /// <i>The feathered fiends of Gilneas flock to his sinister call.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string RavencallerCozzlewurtHeroic = "GILA_BOSS_38h";
 
                 /// <summary>
-                /// The Lord of Shadowfang Keep has a bullet to pick with Crowley.<br/>
+                /// <i>The Lord of Shadowfang Keep has a bullet to pick with Crowley.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string LordGodfreyHeroicGILNEAS = "GILA_BOSS_59h";
 
                 /// <summary>
-                /// Hagatha’s pet eats his way from the bottom of the food chain up.<br/>
+                /// <i>Hagatha’s pet eats his way from the bottom of the food chain up.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string GustaveTheGutripperHeroic = "GILA_BOSS_62h";
 
                 /// <summary>
-                /// Every dying beast makes this dreaded carrion bird stronger.<br/>
+                /// <i>Every dying beast makes this dreaded carrion bird stronger.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string GobblesHeroic = "GILA_BOSS_65h";
 
                 /// <summary>
-                /// Echo RushEcho, Rush<br/>
+                /// <b>Echo</b> <b>Rush</b><b>Echo</b>, <b>Rush</b><br/>
                 /// 2-Cost 2/1 Beast Minion
                 /// </summary>
                 public const string DeathstalkerRexxar_HuntingMastiffToken = "ICC_828t5";
 
                 /// <summary>
-                /// Poisonous RushPoisonous, Rush<br/>
+                /// <b>Poisonous</b> <b>Rush</b><b>Poisonous</b>, <b>Rush</b><br/>
                 /// 5-Cost 1/3 Beast Minion
                 /// </summary>
                 public const string DeathstalkerRexxar_VilebroodSkittererToken = "ICC_828t6";
@@ -1341,13 +1341,13 @@ namespace HearthDb
                 public const string FireworksTech_PrimedEnchantment = "BOT_038e";
 
                 /// <summary>
-                /// Deathrattle: Destroy a random enemy minion.<br/>
+                /// <b>Deathrattle:</b> Destroy a random enemy minion.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SpiderBomb_SpiderBombEnchantment = "BOT_251e";
 
                 /// <summary>
-                /// Deathrattle: Add a random Mech to your hand.<br/>
+                /// <b>Deathrattle:</b> Add a random Mech to your hand.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CybertechChip_ChippedEnchantment = "BOT_438e";
@@ -1365,7 +1365,7 @@ namespace HearthDb
                 public const string BaitedArrow_DevilsaurToken = "TRL_347t";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string Springpaw_LynxToken = "TRL_348t";
@@ -1377,7 +1377,7 @@ namespace HearthDb
                 public const string SteadyThrow = "TRLA_065p";
 
                 /// <summary>
-                /// Shrine After you cast a spell, put a random Hunter Secret into the battlefield.<br/>
+                /// <b>Shrine</b> After you cast a spell, put a random Hunter Secret into the battlefield.<br/>
                 /// 0-Cost 0/8 Minion
                 /// </summary>
                 public const string HalazzisTrap = "TRLA_110";
@@ -1389,13 +1389,13 @@ namespace HearthDb
                 public const string HalazzisTrap_HalazzisTrapToken = "TRLA_110t";
 
                 /// <summary>
-                /// Shrine Your minions have "Overkill: Cards in your hand cost (1) less."<br/>
+                /// <b>Shrine</b> Your minions have "<b>Overkill</b>: Cards in your hand cost (1) less."<br/>
                 /// 0-Cost 0/5 Minion
                 /// </summary>
                 public const string HalazzisHunt = "TRLA_162";
 
                 /// <summary>
-                /// Overkill: Reduce the cost of cards in your hand by (1).<br/>
+                /// <b>Overkill:</b> Reduce the cost of cards in your hand by (1).<br/>
                 /// Enchantment
                 /// </summary>
                 public const string HalazzisHunt_HalazzisHuntEnchantment = "TRLA_162e";
@@ -1413,25 +1413,25 @@ namespace HearthDb
                 public const string HalazzisHunt_HalazzisHuntToken = "TRLA_162t";
 
                 /// <summary>
-                /// Shrine Whenever you summon a Beast, it gains Rush, Taunt, or Poisonous<br/>
+                /// <b>Shrine</b> Whenever you summon a Beast, it gains <b>Rush</b>, <b>Taunt</b>, or <b>Poisonous</b><br/>
                 /// 0-Cost 0/6 Minion
                 /// </summary>
                 public const string HalazzisGuise = "TRLA_163";
 
                 /// <summary>
-                /// Rush.<br/>
+                /// <b>Rush</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string HalazzisGuise_HalazzisHasteEnchantment = "TRLA_163e";
 
                 /// <summary>
-                /// Taunt.<br/>
+                /// <b>Taunt</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string HalazzisGuise_HalazzisProtectorEnchantment = "TRLA_163e3";
 
                 /// <summary>
-                /// Poisonous.<br/>
+                /// <b>Poisonous</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string HalazzisGuise_HalazzisWrathEnchantment = "TRLA_163e4";
@@ -1443,25 +1443,25 @@ namespace HearthDb
                 public const string HalazzisGuise_HalazzisGuiseToken = "TRLA_163t";
 
                 /// <summary>
-                /// Your Beasts have Rush. Start of Game: Draw this.<br/>
+                /// Your Beasts have <b>Rush</b>. <b>Start of Game:</b> Draw this.<br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string ShadowmawPanther = "TRLA_164";
 
                 /// <summary>
-                /// Battlecry: Draw Beasts until your hand is full.<br/>
+                /// <b>Battlecry:</b> Draw Beasts until your hand is full.<br/>
                 /// 4-Cost 3/4 Beast Minion
                 /// </summary>
                 public const string BattlestarvedLynx = "TRLA_165";
 
                 /// <summary>
-                /// Taunt After a minion dies, add a random Hunter spell to your hand.<br/>
+                /// <b>Taunt</b> After a minion dies, add a random Hunter spell to your hand.<br/>
                 /// 5-Cost 8/8 Minion
                 /// </summary>
                 public const string TrollHarbinger = "TRLA_166";
 
                 /// <summary>
-                /// Poisonous Deathrattle: Deal 1 damage to all enemies.<br/>
+                /// <b>Poisonous</b> <b>Deathrattle:</b> Deal 1 damage to all enemies.<br/>
                 /// 3-Cost 4/1 Beast Minion
                 /// </summary>
                 public const string RabidSauroliskTROLL = "TRLA_167";
@@ -1473,7 +1473,7 @@ namespace HearthDb
                 public const string Streetsmuggler = "TRLA_168";
 
                 /// <summary>
-                /// Battlecry: Double the Attack of all your other minions.<br/>
+                /// <b>Battlecry:</b> Double the Attack of all your other minions.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
                 public const string SlammaJamma = "TRLA_169";
@@ -1485,7 +1485,7 @@ namespace HearthDb
                 public const string SlammaJamma_SlammdNJammdEnchantment = "TRLA_169e";
 
                 /// <summary>
-                /// Zul'jin's not ready to bury the hatchet. Unless it's in your shrine.<br/>
+                /// <i>Zul'jin's not ready to bury the hatchet. Unless it's in your shrine.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ZuljinHeroic = "TRLA_204h";
@@ -1563,25 +1563,25 @@ namespace HearthDb
                 public const string RapidFire_RapidFireTokenDALARAN1 = "DAL_373ts";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 5-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string UnleashtheBeast_WyvernToken = "DAL_378t1";
 
                 /// <summary>
-                /// Summon a 5/5 Wyvern with Rush.<br/>
+                /// Summon a 5/5 Wyvern with <b>Rush</b>.<br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string UnleashtheBeast_UnleashTheBeastToken = "DAL_378ts";
 
                 /// <summary>
-                /// You have Spell Damage +2 this turn.<br/>
+                /// You have <b>Spell Damage +2</b> this turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string VereesaWindrunner_StarsFuryEnchantment = "DAL_379e";
 
                 /// <summary>
-                /// After your hero attacks, gain Spell Damage +2 this turn.<br/>
+                /// After your hero attacks, gain <b>Spell Damage +2</b> this turn.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string VereesaWindrunner_ThoridalTheStarsFuryToken = "DAL_379t";
@@ -1599,49 +1599,49 @@ namespace HearthDb
                 public const string OlBarkeye = "DALA_Barkeye";
 
                 /// <summary>
-                /// Chomper survives the sewers by snacking on smaller minions.<br/>
+                /// <i>Chomper survives the sewers by snacking on smaller minions.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ChomperHeroic = "DALA_BOSS_01h";
 
                 /// <summary>
-                /// When it comes to Fight or Flight, Belnaara chooses both.<br/>
+                /// <i>When it comes to Fight or Flight, Belnaara chooses both.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string FlightMasterBelnaaraHeroic = "DALA_BOSS_07h";
 
                 /// <summary>
-                /// Battlecry havoc, and let slip the Alleycats of war!<br/>
+                /// <i>Battlecry havoc, and let slip the Alleycats of war!</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string RangerArhaHeroic = "DALA_BOSS_24h";
 
                 /// <summary>
-                /// Some assembly required.<br/>
+                /// <i>Some assembly required.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string JepettoJoybuzzHeroic = "DALA_BOSS_25h";
 
                 /// <summary>
-                /// Importer of rare and exotic pets. Many of them dangerous.<br/>
+                /// <i>Importer of rare and exotic pets. Many of them dangerous.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string DraemusHeroic = "DALA_BOSS_36h";
 
                 /// <summary>
-                /// He conjures up animals. And insults. And insulting animals.<br/>
+                /// <i>He conjures up animals. And insults. And insulting animals.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string UnganOddkindHeroic = "DALA_BOSS_41h";
 
                 /// <summary>
-                /// Former Boom protégé, Flark has a blast messing with minions.<br/>
+                /// <i>Former Boom protégé, Flark has a blast messing with minions.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string BoommasterFlarkHeroicDALARAN = "DALA_BOSS_58h";
 
                 /// <summary>
-                /// The only thing bigger than his moustache is his broadside.<br/>
+                /// <i>The only thing bigger than his moustache is his broadside.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string SkyCaptainSmiggsHeroic = "DALA_BOSS_70h";
@@ -1737,7 +1737,7 @@ namespace HearthDb
                 public const string ShiftingChameleon = "DALA_Hunter_HP2t";
 
                 /// <summary>
-                /// Twinspell Deal $2 damage.<br/>
+                /// <b>Twinspell</b> Deal $2 damage.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string RapidFireDALARAN = "RLK_Prologue_DAL_373";
@@ -1749,7 +1749,7 @@ namespace HearthDb
                 public const string RapidFire_RapidFireTokenDALARAN2 = "RLK_Prologue_DAL_373ts";
 
                 /// <summary>
-                /// Rush. After this attacks, shuffle it into your deck and give future Infinite Wolves +2/+2.<br/>
+                /// <b>Rush</b>. After this attacks, shuffle it into your deck and give future Infinite Wolves +2/+2.<br/>
                 /// 3-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string InfiniteWolf = "TOT_117";
@@ -1779,19 +1779,19 @@ namespace HearthDb
                 public const string UnsealtheVault_PharaohsWarmask = "ULD_155p";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 5-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string DinotamerBrann_DukeToken = "ULD_156t";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 5-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string DinotamerBrann_DuchessToken = "ULD_156t2";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 9-Cost 8/8 Beast Minion
                 /// </summary>
                 public const string DinotamerBrann_KingKrushToken = "ULD_156t3";
@@ -1803,7 +1803,7 @@ namespace HearthDb
                 public const string ScarletWebweaver_WeavedEnchantment = "ULD_410e";
 
                 /// <summary>
-                /// Battlecry: Draw 3 cards. Any minions you draw cost (2) less.<br/>
+                /// <b>Battlecry:</b> Draw 3 cards. Any minions you draw cost (2) less.<br/>
                 /// 4-Cost 2/5 Minion
                 /// </summary>
                 public const string JrExcavatorULDUM = "ULDA_018";
@@ -1815,7 +1815,7 @@ namespace HearthDb
                 public const string JrExcavator_ExcavatedEnchantment = "ULDA_018e";
 
                 /// <summary>
-                /// Battlecry: Draw 3 cards. Any minions you draw cost (5) less.<br/>
+                /// <b>Battlecry:</b> Draw 3 cards. Any minions you draw cost (5) less.<br/>
                 /// 4-Cost 3/6 Minion
                 /// </summary>
                 public const string SrExcavatorULDUM = "ULDA_023";
@@ -1827,13 +1827,13 @@ namespace HearthDb
                 public const string SrExcavator_VeryExcavatedEnchantmentULDUM = "ULDA_023e";
 
                 /// <summary>
-                /// Give a friendly Beast +3/+3 and "Deathrattle: Give Brann's Saddle to another friendly Beast."<br/>
+                /// Give a friendly Beast +3/+3 and "<b>Deathrattle:</b> Give Brann's Saddle to another friendly Beast."<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BrannsSaddleULDUM = "ULDA_402";
 
                 /// <summary>
-                /// +3/+3. Deathrattle: Give Brann's Saddle to another friendly Beast.<br/>
+                /// +3/+3. <b>Deathrattle:</b> Give Brann's Saddle to another friendly Beast.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string BrannsSaddle_SaddledUpEnchantment = "ULDA_402e";
@@ -1851,7 +1851,7 @@ namespace HearthDb
                 public const string BrannRandomDeck = "ULDA_903";
 
                 /// <summary>
-                /// Even if he bombs, he's having a blast freelancing for E.V.I.L.<br/>
+                /// <i>Even if he bombs, he's having a blast freelancing for E.V.I.L.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string WasteWandererCardishHeroic = "ULDA_BOSS_01h";
@@ -1869,7 +1869,7 @@ namespace HearthDb
                 public const string BoomBullets2 = "ULDA_BOSS_01px";
 
                 /// <summary>
-                /// Rumor has it this is merely the other end of Gnosh the Greatworm.<br/>
+                /// <i>Rumor has it this is merely the other end of Gnosh the Greatworm.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string NashTheGreatwormHeroic = "ULDA_BOSS_04h";
@@ -1887,7 +1887,7 @@ namespace HearthDb
                 public const string Belch2 = "ULDA_BOSS_04px";
 
                 /// <summary>
-                /// Elise's journal entry for Glack simply says, "Don't get stung".<br/>
+                /// <i>Elise's journal entry for Glack simply says, "Don't get stung".</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string GlackTheScorpidHeroic = "ULDA_BOSS_05h";
@@ -1899,7 +1899,7 @@ namespace HearthDb
                 public const string VenomousStinger = "ULDA_BOSS_05p";
 
                 /// <summary>
-                /// The best way to avoid a sinkhole is to - oh, too late.<br/>
+                /// <i>The best way to avoid a sinkhole is to - oh, too late.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string SinkholeHeroic = "ULDA_BOSS_08h";
@@ -1917,19 +1917,19 @@ namespace HearthDb
                 public const string SandSurge2 = "ULDA_BOSS_08px";
 
                 /// <summary>
-                /// Snakes with pointed snouts are venomous. And the best ammo.<br/>
+                /// <i>Snakes with pointed snouts are venomous. And the best ammo.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string SnakeflingerScalesnoutHeroic = "ULDA_BOSS_13h";
 
                 /// <summary>
-                /// Summon a 1/1 Snake and give it Poisonous.<br/>
+                /// Summon a 1/1 Snake and give it <b>Poisonous</b>.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Snakeshot = "ULDA_BOSS_13p";
 
                 /// <summary>
-                /// Alda's learned some tricks. Like sit. Stay. Loot. Summon beasts.<br/>
+                /// <i>Alda's learned some tricks. Like sit. Stay. Loot. Summon beasts.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string AldaPetrikHeroic = "ULDA_BOSS_41h";
@@ -1947,25 +1947,25 @@ namespace HearthDb
                 public const string RunningWild2 = "ULDA_BOSS_41px";
 
                 /// <summary>
-                /// Reno is especially good at detecting traps. With his face.<br/>
+                /// <i>Reno is especially good at detecting traps. With his face.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TrapRoomHeroic = "ULDA_BOSS_44h";
 
                 /// <summary>
-                /// Play a random Secret from your hand or deck.<br/>
+                /// Play a random <b>Secret</b> from your hand or deck.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string TricksAndTraps1 = "ULDA_BOSS_44p";
 
                 /// <summary>
-                /// Play a random Secret from your hand or deck.<br/>
+                /// Play a random <b>Secret</b> from your hand or deck.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
                 public const string TricksAndTraps2 = "ULDA_BOSS_44px";
 
                 /// <summary>
-                /// "Sand sharks aren't real" according to a half-eaten journal.<br/>
+                /// <i>"Sand sharks aren't real" according to a half-eaten journal.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string WildtoothHeroic = "ULDA_BOSS_46h";
@@ -1977,31 +1977,31 @@ namespace HearthDb
                 public const string MawOfTheDesert = "ULDA_BOSS_46p";
 
                 /// <summary>
-                /// Frustrated with just a rifle, Ol' Barkeye has taken up the blade.<br/>
+                /// <i>Frustrated with just a rifle, Ol' Barkeye has taken up the blade.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string OlBarkeyeHeroic = "ULDA_BOSS_50h";
 
                 /// <summary>
-                /// Passive After your hero attacks, add a random Hunter card to your hand.<br/>
+                /// <b>Passive</b> After your hero attacks, add a random Hunter card to your hand.<br/>
                 /// 0-Cost HeroPower
                 /// </summary>
                 public const string DesertWarfare = "ULDA_BOSS_50p";
 
                 /// <summary>
-                /// One puff's enough to bluff a minion's stuff.<br/>
+                /// <i>One puff's enough to bluff a minion's stuff.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string SandPufferFrogHeroic = "ULDA_BOSS_56h";
 
                 /// <summary>
-                /// Passive After you play a 1-Cost minion, give it Stealth.<br/>
+                /// <b>Passive</b> After you play a 1-Cost minion, give it <b>Stealth</b>.<br/>
                 /// 0-Cost HeroPower
                 /// </summary>
                 public const string SandySurpriseULDUM = "ULDA_BOSS_56p";
 
                 /// <summary>
-                /// They wouldn't be a problem if you just stopped feeding them.<br/>
+                /// <i>They wouldn't be a problem if you just stopped feeding them.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string DireBatHeroic = "ULDA_BOSS_59h";
@@ -2019,19 +2019,19 @@ namespace HearthDb
                 public const string FoodChain2 = "ULDA_BOSS_59px";
 
                 /// <summary>
-                /// Merciful shade. Fresh cool water. A perfectly balanced meta. Is it real?<br/>
+                /// <i>Merciful shade. Fresh cool water. A perfectly balanced meta. Is it real?</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ABeautifulOasisHeroic = "ULDA_BOSS_62h";
 
                 /// <summary>
-                /// You have Spell Damage +3 this turn.<br/>
+                /// You have <b>Spell Damage +3</b> this turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SunshineEnchantment = "ULDA_BOSS_70e";
 
                 /// <summary>
-                /// Avozu the Hunter will stop at nothing until his prey is subdued.<br/>
+                /// <i>Avozu the Hunter will stop at nothing until his prey is subdued.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string AvozuHeroic = "ULDA_BOSS_75h";
@@ -2193,7 +2193,7 @@ namespace HearthDb
                 public const string SpreadShotULDUM = "ULDA_Brann_HP1";
 
                 /// <summary>
-                /// Passive At the start of your turn, Discover which card you draw.<br/>
+                /// <b>Passive</b> At the start of your turn, <b>Discover</b> which card you draw.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string DinoTrackingULDUM = "ULDA_Brann_HP3";
@@ -2205,7 +2205,7 @@ namespace HearthDb
                 public const string Veranus_IntimidatedEnchantment = "DRG_095e";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 4-Cost 4/4 Beast Minion
                 /// </summary>
                 public const string CleartheWay_GryphonToken = "DRG_251t";
@@ -2235,13 +2235,13 @@ namespace HearthDb
                 public const string RotwingHeroic = "DRGA_BOSS_19h";
 
                 /// <summary>
-                /// At the start of your turn, trigger ALL Deathrattle effects.<br/>
+                /// At the start of your turn, trigger ALL <b>Deathrattle</b> effects.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
                 public const string RotAura1 = "DRGA_BOSS_19p";
 
                 /// <summary>
-                /// At the start of your turn, trigger ALL Deathrattle effects.<br/>
+                /// At the start of your turn, trigger ALL <b>Deathrattle</b> effects.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
                 public const string RotAura2 = "DRGA_BOSS_19p_H";
@@ -2253,19 +2253,19 @@ namespace HearthDb
                 public const string DragonslayerSkrukHeroic = "DRGA_BOSS_22h";
 
                 /// <summary>
-                /// Give your minions +1/+1 (wherever they are).<br/>
+                /// Give your minions +1/+1 <i>(wherever they are)</i>.<br/>
                 /// 0-Cost HeroPower
                 /// </summary>
                 public const string GronnicStrength1 = "DRGA_BOSS_22p";
 
                 /// <summary>
-                /// Give your minions +1/+1 (wherever they are).<br/>
+                /// Give your minions +1/+1 <i>(wherever they are)</i>.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
                 public const string GronnicStrength2 = "DRGA_BOSS_22p_H";
 
                 /// <summary>
-                /// Can't attack heroes. Your hero is Immune while attacking.<br/>
+                /// Can't attack heroes. Your hero is <b>Immune</b> while attacking.<br/>
                 /// 5-Cost Weapon
                 /// </summary>
                 public const string DragonslayersGreatbowToken1 = "DRGA_BOSS_22t";
@@ -2283,7 +2283,7 @@ namespace HearthDb
                 public const string HeartseekerToken2 = "DRGA_BOSS_22t3";
 
                 /// <summary>
-                /// Can't attack heroes. Your hero is Immune while attacking.<br/>
+                /// Can't attack heroes. Your hero is <b>Immune</b> while attacking.<br/>
                 /// 5-Cost Weapon
                 /// </summary>
                 public const string DragonslayersGreatbowToken2 = "DRGA_BOSS_22t4";
@@ -2295,7 +2295,7 @@ namespace HearthDb
                 public const string WarchiefSylvanasHeroic = "DRGA_BOSS_38h";
 
                 /// <summary>
-                /// Summon five minions from your deck. Give them +5 Attack and Rush.<br/>
+                /// Summon five minions from your deck. Give them +5 Attack and <b>Rush</b>.<br/>
                 /// 0-Cost HeroPower
                 /// </summary>
                 public const string ForTheHordeYEAR_OF_THE_DRAGON = "DRGA_BOSS_38p";
@@ -2325,13 +2325,13 @@ namespace HearthDb
                 public const string PackTactics_PackmateEnchantment = "BT_203e";
 
                 /// <summary>
-                /// Rush Battlecry: Summon 3 copies of this minion.<br/>
+                /// <b>Rush</b> <b>Battlecry:</b> Summon 3 copies of this minion.<br/>
                 /// 8-Cost 4/4 Beast/Mechanical Minion
                 /// </summary>
                 public const string ZixorApexPredator_ZixorPrimeToken = "BT_210t";
 
                 /// <summary>
-                /// Discover a card from your deck.<br/>
+                /// <b>Discover</b> a card from your deck.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string ArannaStarseeker_TheRightTool = "BTA_01p";
@@ -2361,13 +2361,13 @@ namespace HearthDb
                 public const string Clefthoof = "Story_09_Clefthoof";
 
                 /// <summary>
-                /// Deathrattle: Give a random Beast in your hand +1/+1.<br/>
+                /// <b>Deathrattle:</b> Give a random Beast in your hand +1/+1.<br/>
                 /// 1-Cost 2/1 Beast Minion
                 /// </summary>
                 public const string Helboar = "Story_09_Helboar";
 
                 /// <summary>
-                /// Summon a 2/1 Felhound with Rush.<br/>
+                /// Summon a 2/1 Felhound with <b>Rush</b>.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string FelWhipTavernBrawl = "TB_ReturningPlayer_HoundmastHP";
@@ -2385,7 +2385,7 @@ namespace HearthDb
                 public const string BloatedPython_HaplessHandlerToken = "SCH_340t";
 
                 /// <summary>
-                /// Immune while attacking.<br/>
+                /// <b>Immune</b> while attacking.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string AceHunterKreen_AceHuntersLessonEnchantment = "SCH_538e";
@@ -2427,13 +2427,13 @@ namespace HearthDb
                 public const string BloodHerald_BloodOfInnocentsEnchantment = "SCH_618e";
 
                 /// <summary>
-                /// You have Spell Damage +2 this turn.<br/>
+                /// You have <b>Spell Damage +2</b> this turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string ArcaneIntensity2 = "Story_01_AethasHPe";
 
                 /// <summary>
-                /// Stealth Battlecry: Destroy your opponent's left and right-most minions.<br/>
+                /// <b>Stealth</b> <b>Battlecry:</b> Destroy your opponent's left and right-most minions.<br/>
                 /// 7-Cost 5/6 Minion
                 /// </summary>
                 public const string ShandrisFeathermoon = "Story_01_Shandris";
@@ -2445,7 +2445,7 @@ namespace HearthDb
                 public const string BeastCompanion = "Story_02_BeastCompanion";
 
                 /// <summary>
-                /// Taunt Deathrattle: Deal 2 damage to all enemy minions.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Deal 2 damage to all enemy minions.<br/>
                 /// 3-Cost 4/5 Beast Minion
                 /// </summary>
                 public const string Haratha = "Story_02_Haratha";
@@ -2457,7 +2457,7 @@ namespace HearthDb
                 public const string HuntmastersBow = "Story_02_HuntmasterBow";
 
                 /// <summary>
-                /// Rexxar's father thinks he knows best. But does he truly?<br/>
+                /// <i>Rexxar's father thinks he knows best. But does he truly?</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Leoroxx = "Story_02_Leoroxx";
@@ -2469,7 +2469,7 @@ namespace HearthDb
                 public const string Reprimand2 = "Story_02_LeoroxxHP";
 
                 /// <summary>
-                /// Battlecry: If your deck has no minions, fill your hand with Hunter spells.<br/>
+                /// <b>Battlecry:</b> If your deck has no minions, fill your hand with Hunter spells.<br/>
                 /// 7-Cost Weapon
                 /// </summary>
                 public const string MoknathalBow = "Story_02_MokNathalBow";
@@ -2571,41 +2571,41 @@ namespace HearthDb
                 public const string MoreToTheSpore = "Story_02_Sporlare";
 
                 /// <summary>
-                /// Taunt Deathrattle: Summon a random 3-Cost Beast.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Summon a random 3-Cost Beast.<br/>
                 /// 5-Cost 4/5 Beast Minion
                 /// </summary>
                 public const string TeachersPet = "Story_02_TeachersPet";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 3-Cost 4/4 Beast Minion
                 /// </summary>
                 public const string Tethik = "Story_02_Tethik";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 3-Cost 4/3 Beast Minion
                 /// </summary>
                 public const string Tuffer = "Story_02_Tuffer";
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Battlecry: Give a friendly Beast +2/+2 and Taunt.<br/>
+                /// <b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.<br/>
                 /// Tier-3 4/3 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Battlecry: Give a friendly Beast +4/+4 and Taunt.<br/>
+                /// <b>Battlecry:</b> Give a friendly Beast +4/+4 and <b>Taunt</b>.<br/>
                 /// Tier-3 8/6 Minion
                 /// </summary>
                 public const string Houndmaster = "BG_DS1_070";
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// After you play a minion with Deathrattle, gain +1/+2.<br/>
+                /// After you play a minion with <b>Deathrattle</b>, gain +1/+2.<br/>
                 /// Tier-2 3/2 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// After you play a minion with Deathrattle, gain +2/+4.<br/>
+                /// After you play a minion with <b>Deathrattle</b>, gain +2/+4.<br/>
                 /// Tier-2 6/4 Beast Minion
                 /// </summary>
                 public const string RabidSauroliskBATTLEGROUNDS = "BGS_075";
@@ -2617,19 +2617,19 @@ namespace HearthDb
                 public const string RabidSaurolisk_RabidEnchantment = "BGS_075e";
 
                 /// <summary>
-                /// Secret: When one of your minions is attacked, summon a 2/3 Poisonous Cobra.<br/>
+                /// <b>Secret:</b> When one of your minions is attacked, summon a 2/3 <b>Poisonous</b> Cobra.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string VenomstrikeTrapTavernBrawl = "TB_Bacon_Secrets_01";
 
                 /// <summary>
-                /// Secret: When one of your minions is attacked, summon three 1/1 Snakes.<br/>
+                /// <b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string SnakeTrapTavernBrawl = "TB_Bacon_Secrets_02";
 
                 /// <summary>
-                /// Secret: When a friendly minion is attacked, summon a 3/3 copy.<br/>
+                /// <b>Secret:</b> When a friendly minion is attacked, summon a 3/3 copy.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string PackTacticsTavernBrawl = "TB_Bacon_Secrets_15";
@@ -2647,11 +2647,11 @@ namespace HearthDb
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// Deathrattle: Summon two 2/2 Spiders.<br/>
+                /// <b>Deathrattle:</b> Summon two 2/2 Spiders.<br/>
                 /// Tier-3 6/6 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// Deathrattle: Summon two 1/1 Spiders.<br/>
+                /// <b>Deathrattle:</b> Summon two 1/1 Spiders.<br/>
                 /// Tier-3 3/3 Beast Minion
                 /// </summary>
                 public const string InfestedWolfTavernBrawl = "TB_BaconUps_026";
@@ -2676,28 +2676,28 @@ namespace HearthDb
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// Battlecry: Give a friendly Beast +4/+4 and Taunt.<br/>
+                /// <b>Battlecry:</b> Give a friendly Beast +4/+4 and <b>Taunt</b>.<br/>
                 /// Tier-3 8/6 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// Battlecry: Give a friendly Beast +2/+2 and Taunt.<br/>
+                /// <b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.<br/>
                 /// Tier-3 4/3 Minion
                 /// </summary>
                 public const string HoundmasterTavernBrawl = "TB_BaconUps_068";
 
                 /// <summary>
-                /// +4/+4 and Taunt.<br/>
+                /// +4/+4 and <b>Taunt</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Houndmaster_MastersPresenceEnchantmentTavernBrawl = "TB_BaconUps_068e";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// After you play a minion with Deathrattle, gain +2/+4.<br/>
+                /// After you play a minion with <b>Deathrattle</b>, gain +2/+4.<br/>
                 /// Tier-2 6/4 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// After you play a minion with Deathrattle, gain +1/+2.<br/>
+                /// After you play a minion with <b>Deathrattle</b>, gain +1/+2.<br/>
                 /// Tier-2 3/2 Beast Minion
                 /// </summary>
                 public const string RabidSauroliskTavernBrawl = "TB_BaconUps_125";
@@ -2709,7 +2709,7 @@ namespace HearthDb
                 public const string RabidSaurolisk_RabidEnchantmentTavernBrawl = "TB_BaconUps_125e";
 
                 /// <summary>
-                /// Corrupted Poisonous<br/>
+                /// <b>Corrupted</b> <b>Poisonous</b><br/>
                 /// 2-Cost 1/5 Beast Minion
                 /// </summary>
                 public const string DancingCobra_DancingCobraToken = "DMF_083t";
@@ -2733,49 +2733,49 @@ namespace HearthDb
                 public const string DontFeedtheAnimals_WellFedEnchantment2 = "DMF_090e2";
 
                 /// <summary>
-                /// Corrupted Give all Beasts in your hand +2/+2.<br/>
+                /// <b>Corrupted</b> Give all Beasts in your hand +2/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DontFeedtheAnimals_DontFeedTheAnimalsToken = "DMF_090t";
 
                 /// <summary>
-                /// Deathrattle: Summon Greybough.<br/>
+                /// <b>Deathrattle:</b> Summon Greybough.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Greybough_GreybudEnchantment = "DMF_734e";
 
                 /// <summary>
-                /// Battlecry: Summon an Animal Companion.<br/>
+                /// <b>Battlecry:</b> Summon an Animal Companion.<br/>
                 /// 6-Cost 6/5 Minion
                 /// </summary>
                 public const string RexxarDARKMOON_FAIRE = "Story_03_Rexxar";
 
                 /// <summary>
-                /// At the start of your turn, deal 2 damage to the enemy hero. Deathrattle: Go Dormant for 3 turns.<br/>
+                /// At the start of your turn, deal 2 damage to the enemy hero. <b>Deathrattle:</b> Go <b>Dormant</b> for 3 turns.<br/>
                 /// 1-Cost 5/6 Minion
                 /// </summary>
                 public const string AlleriaWindrunner1 = "Story_05_Alleria";
 
                 /// <summary>
-                /// Dormant<br/>
+                /// <b>Dormant</b><br/>
                 /// 11-Cost 0/1 Minion
                 /// </summary>
                 public const string AlleriaWindrunner2 = "Story_05_AlleriaDormant";
 
                 /// <summary>
-                /// At the end of your turn, give another random friendly minion +1/+1. Deathrattle: Shuffle into your deck.<br/>
+                /// At the end of your turn, give another random friendly minion +1/+1. <b>Deathrattle:</b> Shuffle into your deck.<br/>
                 /// 6-Cost 5/5 Minion
                 /// </summary>
                 public const string LorthemarTheron = "Story_05_Lorthemar";
 
                 /// <summary>
-                /// Deal $4 damage to a minion. Discover a spell.<br/>
+                /// Deal $4 damage to a minion. <b>Discover</b> a spell.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string MarkedShot = "Story_05_MarkedShot";
 
                 /// <summary>
-                /// The latest Warchief has committed a shocking atrocity against the night elves.<br/>
+                /// <i>The latest Warchief has committed a shocking atrocity against the night elves.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string SylvanasWindrunnerDARKMOON_FAIRE = "Story_05_Sylvanas";
@@ -2799,37 +2799,37 @@ namespace HearthDb
                 public const string ProspectorsCaravan_ProspectorsFindingsEnchantment = "BAR_033e";
 
                 /// <summary>
-                /// Summon a 4/4 Beast with Rush. (Upgrades when you have 10 Mana.)<br/>
+                /// Summon a 4/4 Beast with <b>Rush</b>. <i>(Upgrades when you have 10 Mana.)</i><br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string TameBeastRank1_TameBeastRank2Token = "BAR_034t";
 
                 /// <summary>
-                /// Summon a 6/6 Beast with Rush.<br/>
+                /// Summon a 6/6 Beast with <b>Rush</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string TameBeastRank1_TameBeastRank3Token = "BAR_034t2";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 2-Cost 2/2 Beast Minion
                 /// </summary>
                 public const string TameBeastRank1_TamedCrabToken = "BAR_034t3";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 4-Cost 4/4 Beast Minion
                 /// </summary>
                 public const string TameBeastRank1_TamedScorpidToken = "BAR_034t4";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 6-Cost 6/6 Beast Minion
                 /// </summary>
                 public const string TameBeastRank1_TamedThunderLizardToken = "BAR_034t5";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string KolkarPackRunner_SwiftHyenaToken = "BAR_035t";
@@ -2841,19 +2841,19 @@ namespace HearthDb
                 public const string WarsongWrangler_CentaurCallEnchantment = "BAR_037e";
 
                 /// <summary>
-                /// The Kolkar clan loathes the Horde and will not tolerate any incursions into its domain.<br/>
+                /// <i>The Kolkar clan loathes the Horde and will not tolerate any incursions into its domain.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string HezrulBloodmarkHeroic = "BOM_01_HezrulBloodmark_002hb";
 
                 /// <summary>
-                /// Summon a 3/1 Hyena with Rush.<br/>
+                /// Summon a 3/1 Hyena with <b>Rush</b>.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string HyenaPack = "BOM_01_HezrulBloodmark_02p";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 1-Cost 3/1 Beast Minion
                 /// </summary>
                 public const string SwiftHyena = "BOM_01_SwiftHyena";
@@ -2871,19 +2871,19 @@ namespace HearthDb
                 public const string OneCoin = "BOM_02_OneCoin_01s";
 
                 /// <summary>
-                /// Sniggles outfitted the oil rig with the most dangerous security system this side of the Netherstorm.<br/>
+                /// <i>Sniggles outfitted the oil rig with the most dangerous security system this side of the Netherstorm.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TinkererSnigglesHeroic = "BOM_02_Sniggles_006hb";
 
                 /// <summary>
-                /// Add a copy of a Secret in your deck to your hand.<br/>
+                /// Add a copy of a <b>Secret</b> in your deck to your hand.<br/>
                 /// 0-Cost HeroPower
                 /// </summary>
                 public const string TightenDefenses = "BOM_02_Sniggles_06p";
 
                 /// <summary>
-                /// Rush. After this attacks and kills a minion, add Tavish's Loot to your hand. Deathrattle: Go Dormant until resurrected.<br/>
+                /// <b>Rush</b>. After this attacks and kills a minion, add <b>Tavish's Loot</b> to your hand. <b>Deathrattle:</b> Go <b>Dormant</b> until resurrected.<br/>
                 /// 2-Cost 2/4 Minion
                 /// </summary>
                 public const string TavishToken1 = "BOM_02_Tavish_01t";
@@ -2895,7 +2895,7 @@ namespace HearthDb
                 public const string TavishFiresAShot = "BOM_02_TavishFiresAShot_01s";
 
                 /// <summary>
-                /// Play a random Hunter Secret.<br/>
+                /// Play a random Hunter <b>Secret</b>.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string TavishSetsATrap = "BOM_02_TavishSetsATrap_01s";
@@ -2931,7 +2931,7 @@ namespace HearthDb
                 public const string TwoCoins = "BOM_02_TwoCoins_01s";
 
                 /// <summary>
-                /// Dawngrasp's theory leads the party to another Barrens oasis.<br/>
+                /// <i>Dawngrasp's theory leads the party to another Barrens oasis.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string BarakKodobaneHeroicTHE_BARRENS = "BOM_03_Barak_003hb";
@@ -2943,19 +2943,19 @@ namespace HearthDb
                 public const string KolkarMight = "BOM_03_Barak_03p";
 
                 /// <summary>
-                /// Rush Deathrattle: Go Dormant for 2 turns.<br/>
+                /// <b>Rush</b> <b>Deathrattle:</b> Go <b>Dormant</b> for 2 turns.<br/>
                 /// 1-Cost 3/4 Minion
                 /// </summary>
                 public const string TavishToken2 = "BOM_04_Tavish_004t";
 
                 /// <summary>
-                /// Summon a 2/2 Crabby with Rush.<br/>
+                /// Summon a 2/2 Crabby with <b>Rush</b>.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Tavish4 = "BOM_04_Tavish_005p";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 2-Cost 2/2 Beast Minion
                 /// </summary>
                 public const string CrabbyToken1 = "BOM_04_Tavish_006t";
@@ -2979,13 +2979,13 @@ namespace HearthDb
                 public const string Hopelessness = "Story_08_Hopelessness";
 
                 /// <summary>
-                /// Tensions between the Horde and Alliance have reached the breaking point under the new warchief.<br/>
+                /// <i>Tensions between the Horde and Alliance have reached the breaking point under the new warchief.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string SylvanasWindrunnerHeroicTHE_BARRENS = "Story_08_Sylvanas_008hb";
 
                 /// <summary>
-                /// Passive After a friendly minion dies, draw a card.<br/>
+                /// <b>Passive</b> After a friendly minion dies, draw a card.<br/>
                 /// 0-Cost HeroPower
                 /// </summary>
                 public const string Calculation = "Story_08_Sylvanas_008p";
@@ -3009,31 +3009,31 @@ namespace HearthDb
                 public const string FenrisWolfbrother3 = "Story_09_Fenris2";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 4-Cost 4/5 Beast Minion
                 /// </summary>
                 public const string Sporebat = "Story_09_Sporebat";
 
                 /// <summary>
-                /// Poisonous.<br/>
+                /// <b>Poisonous</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Serpentbloom_SerpentsBiteEnchantment = "WC_007e";
 
                 /// <summary>
-                /// Can't Attack. At the end of your turn, deal 3 damage to the enemy hero. Deathrattle: Lose the game.<br/>
+                /// Can't Attack. At the end of your turn, deal 3 damage to the enemy hero. <b>Deathrattle:</b> Lose the game.<br/>
                 /// 1-Cost 2/15 Minion
                 /// </summary>
                 public const string SniperTavishToken = "BOM_06_SniperTavish_004t";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 2-Cost 1/3 Beast Minion
                 /// </summary>
                 public const string CrabbyToken2 = "BOM_07_Crabby_007t";
 
                 /// <summary>
-                /// Deathrattle: Return this to your hand and deal 1 damage to all enemies.<br/>
+                /// <b>Deathrattle</b>: Return this to your hand and deal 1 damage to all enemies.<br/>
                 /// 2-Cost 3/3 Minion
                 /// </summary>
                 public const string TavishStormpikeToken = "BOM_07_Scabbs_Tavish_008t";
@@ -3057,25 +3057,25 @@ namespace HearthDb
                 public const string AimedShot_AimingEnchantment = "SW_321e";
 
                 /// <summary>
-                /// Questline: Deal damage with 2 spells. Reward: Set the Cost of your Hero Power to (0).<br/>
+                /// <b>Questline:</b> Deal damage with 2 spells. <b>Reward:</b> Set the Cost of your Hero Power to (0).<br/>
                 /// Spell
                 /// </summary>
                 public const string DefendtheDwarvenDistrict_TakeTheHighGroundToken = "SW_322t";
 
                 /// <summary>
-                /// Questline: Deal damage with 2 spells. Reward: Tavish, Master Marksman.<br/>
+                /// <b>Questline:</b> Deal damage with 2 spells. <b>Reward:</b> Tavish, Master Marksman.<br/>
                 /// Spell
                 /// </summary>
                 public const string DefendtheDwarvenDistrict_KnockEmDownToken = "SW_322t2";
 
                 /// <summary>
-                /// Battlecry: For the rest of the game, spells you cast refresh your Hero Power.<br/>
+                /// <b>Battlecry:</b> For the rest of the game, spells you cast refresh your Hero Power.<br/>
                 /// 5-Cost 7/7 Minion
                 /// </summary>
                 public const string DefendtheDwarvenDistrict_TavishMasterMarksmanToken = "SW_322t4";
 
                 /// <summary>
-                /// Dormant. Awaken after 5 friendly minions die.<br/>
+                /// <b>Dormant</b>. Awaken after 5 friendly minions die.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string TheRatKing_RatKingsSlumberEnchantment = "SW_323e";
@@ -3087,13 +3087,13 @@ namespace HearthDb
                 public const string RodentNest_RatToken = "SW_455t";
 
                 /// <summary>
-                /// +2/+2 and Immune while attacking. Deathrattle: Summon a Ram.<br/>
+                /// +2/+2 and <b>Immune</b> while attacking. <b>Deathrattle:</b> Summon a Ram.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string RammingMount_OnARamEnchantment = "SW_458e";
 
                 /// <summary>
-                /// Immune while attacking.<br/>
+                /// <b>Immune</b> while attacking.<br/>
                 /// 2-Cost 2/2 Beast Minion
                 /// </summary>
                 public const string RammingMount_TavishsRamToken = "SW_458t";
@@ -3105,7 +3105,7 @@ namespace HearthDb
                 public const string StormwindPiper_EntrancedEnchantment = "SW_459e";
 
                 /// <summary>
-                /// Poisonous Rush<br/>
+                /// <b>Poisonous</b> <b>Rush</b><br/>
                 /// 2-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string ImportedTarantula_InvasiveSpiderlingToken = "SW_463t";
@@ -3147,7 +3147,7 @@ namespace HearthDb
                 public const string Tethik5_Tethik5 = "LT24_022P3_05m";
 
                 /// <summary>
-                /// Immune while Attacking.<br/>
+                /// <b>Immune</b> while <b>Attacking</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string TheCroneHeroic_WhatBigImmuneYouHave = "LT24_814H4e";
@@ -3159,13 +3159,13 @@ namespace HearthDb
                 public const string BeaststalkerTavish_SummonPet = "AV_113p";
 
                 /// <summary>
-                /// Secret: When your hero is attacked, deal $3 damage to all enemies.<br/>
+                /// <b>Secret:</b> When your hero is attacked, deal $3 damage to all enemies.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BeaststalkerTavish_ImprovedExplosiveTrapToken = "AV_113t1";
 
                 /// <summary>
-                /// Secret: When an enemy minion attacks, return it to its owner's hand. It costs (4) more.<br/>
+                /// <b>Secret:</b> When an enemy minion attacks, return it to its owner's hand. It costs (4) more.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BeaststalkerTavish_ImprovedFreezingTrapToken = "AV_113t2";
@@ -3177,7 +3177,7 @@ namespace HearthDb
                 public const string BeaststalkerTavish_FreezingToken = "AV_113t2e";
 
                 /// <summary>
-                /// Secret: When one of your minions is attacked, summon three 2/2 Snakes.<br/>
+                /// <b>Secret:</b> When one of your minions is attacked, summon three 2/2 Snakes.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BeaststalkerTavish_ImprovedSnakeTrapToken = "AV_113t3";
@@ -3189,19 +3189,19 @@ namespace HearthDb
                 public const string BeaststalkerTavish_SnakeToken = "AV_113t3t2";
 
                 /// <summary>
-                /// Secret: When a friendly minion is attacked, summon two 3/3 copies.<br/>
+                /// <b>Secret:</b> When a friendly minion is attacked, summon two 3/3 copies.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BeaststalkerTavish_ImprovedPackTacticsToken = "AV_113t7";
 
                 /// <summary>
-                /// Secret: When your turn starts, if you control two minions, summon two Animal Companions.<br/>
+                /// <b>Secret:</b> When your turn starts, if you control two minions, summon two Animal Companions.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BeaststalkerTavish_ImprovedOpenTheCagesToken = "AV_113t8";
 
                 /// <summary>
-                /// Secret: When your opponent casts a spell, return it to their hand instead. It costs (2) more.<br/>
+                /// <b>Secret:</b> When your opponent casts a spell, return it to their hand instead. It costs (2) more.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BeaststalkerTavish_ImprovedIceTrapToken = "AV_113t9";
@@ -3249,19 +3249,19 @@ namespace HearthDb
                 public const string RamTamer_SneakingUpEnchantment = "AV_335e";
 
                 /// <summary>
-                /// If this kills a minion this turn, summon a random Beast from your deck and give it Rush.<br/>
+                /// If this kills a minion this turn, summon a random Beast from your deck and give it <b>Rush</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string WingCommanderIchman_FrightfulPackEnchantment = "AV_336e";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 3-Cost 2/4 Beast Minion
                 /// </summary>
                 public const string MountainBear_MountainCubToken = "AV_337t";
 
                 /// <summary>
-                /// A decadent meal for when you want to spice up your Lobster Stew.<br/>
+                /// <i>A decadent meal for when you want to spice up your Lobster Stew.</i><br/>
                 /// 2-Cost 0/1 Minion
                 /// </summary>
                 public const string HotSeafoodBisqueToken1 = "BOM_08_Bisque_004t";
@@ -3273,25 +3273,25 @@ namespace HearthDb
                 public const string CallPet = "BOM_08_CallPet_004s";
 
                 /// <summary>
-                /// Sweet and a bit sour. Perfect for dessert.<br/>
+                /// <i>Sweet and a bit sour. Perfect for dessert.</i><br/>
                 /// 2-Cost 0/1 Minion
                 /// </summary>
                 public const string WinterCherriesToken = "BOM_08_Cherries_004t";
 
                 /// <summary>
-                /// And for dessert...a large, tart tart.<br/>
+                /// <i>And for dessert...a large, tart tart.</i><br/>
                 /// 2-Cost 0/1 Minion
                 /// </summary>
                 public const string CherryPieToken = "BOM_08_CherryPie_004t";
 
                 /// <summary>
-                /// Must've been a monstrous chicken.<br/>
+                /// <i>Must've been a monstrous chicken.</i><br/>
                 /// 2-Cost 0/1 Minion
                 /// </summary>
                 public const string EggToken = "BOM_08_Egg_004t";
 
                 /// <summary>
-                /// A common ingredient.<br/>
+                /// <i>A common ingredient.</i><br/>
                 /// 2-Cost 0/1 Minion
                 /// </summary>
                 public const string SimpleFlourToken = "BOM_08_Flour_004t";
@@ -3303,43 +3303,43 @@ namespace HearthDb
                 public const string KillCommand = "BOM_08_KillCommand_004s";
 
                 /// <summary>
-                /// Battlecry: Draw a 1, 2, and 3-Cost spell.<br/>
+                /// <b>Battlecry:</b> Draw a 1, 2, and 3-Cost spell.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
                 public const string BarakKodobaneToken = "BOM_08_Kodobane_004t";
 
                 /// <summary>
-                /// Don't tell Crabby what's for dinner.<br/>
+                /// <i>Don't tell Crabby what's for dinner.</i><br/>
                 /// 1-Cost 0/1 Beast Minion
                 /// </summary>
                 public const string AlteracLobsterToken = "BOM_08_Lobster_004t";
 
                 /// <summary>
-                /// Locally sourced lobster. Just add water. Lots of water.<br/>
+                /// <i>Locally sourced lobster. Just add water. Lots of water.</i><br/>
                 /// 2-Cost 0/1 Minion
                 /// </summary>
                 public const string LobsterStewToken = "BOM_08_LobsterStew_004t";
 
                 /// <summary>
-                /// No monsters necessary. Just eggs and seasoning.<br/>
+                /// <i>No monsters necessary. Just eggs and seasoning.</i><br/>
                 /// 2-Cost 0/1 Minion
                 /// </summary>
                 public const string MonsterOmeletToken = "BOM_08_Omelet_004t";
 
                 /// <summary>
-                /// A common ingredient.<br/>
+                /// <i>A common ingredient.</i><br/>
                 /// 1-Cost 0/1 Minion
                 /// </summary>
                 public const string SimpleSpices = "BOM_08_SimpleSpices_004";
 
                 /// <summary>
-                /// Makes you feel warm inside.<br/>
+                /// <i>Makes you feel warm inside.</i><br/>
                 /// 1-Cost 0/1 Minion
                 /// </summary>
                 public const string SoothingSpicesToken = "BOM_08_SoothingSpices_004t";
 
                 /// <summary>
-                /// A simple recipe of flour and spices.<br/>
+                /// <i>A simple recipe of flour and spices.</i><br/>
                 /// 2-Cost 0/1 Minion
                 /// </summary>
                 public const string SpicedBreadToken = "BOM_08_SpiceBread_004t";
@@ -3393,7 +3393,7 @@ namespace HearthDb
                 public const string TavishHeroic8 = "BOM_08_Tavish_008hp";
 
                 /// <summary>
-                /// A decadent meal for when you want to spice up your Lobster Stew.<br/>
+                /// <i>A decadent meal for when you want to spice up your Lobster Stew.</i><br/>
                 /// 2-Cost 0/1 Minion
                 /// </summary>
                 public const string HotSeafoodBisqueToken2 = "BOM_08_Tavish_Bisque_004t";
@@ -3405,19 +3405,19 @@ namespace HearthDb
                 public const string CampfireALTERAC_VALLEY = "BOM_08_Tavish_Campfire_004p";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 2-Cost 2/4 Beast Minion
                 /// </summary>
                 public const string Crabby1 = "BOM_08_Tavish_Crabby_001p";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 2-Cost 3/5 Beast Minion
                 /// </summary>
                 public const string Crabby2 = "BOM_08_Tavish_Crabby_003p";
 
                 /// <summary>
-                /// Hero Power Summon Crabby. If he is already present, restore 1 Health to him.<br/>
+                /// <b>Hero Power</b> Summon Crabby. If he is already present, restore 1 Health to him.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string CallCrabby1 = "BOM_08_Tavish_Tavish_001p";
@@ -3465,19 +3465,19 @@ namespace HearthDb
                 public const string CallCrabby7 = "BOM_08_Tavish_Tavish_008p";
 
                 /// <summary>
-                /// Discover a card from your deck.<br/>
+                /// <b>Discover</b> a card from your deck.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string Tracking = "BOM_08_Tracking_004s";
 
                 /// <summary>
-                /// The base of many soups.<br/>
+                /// <i>The base of many soups.</i><br/>
                 /// 0-Cost 0/1 Minion
                 /// </summary>
                 public const string RefreshingSpringWaterToken = "BOM_08_Water_004t";
 
                 /// <summary>
-                /// This wing commander is a top pilot. They call him the Heart of the Gryphon.<br/>
+                /// <i>This wing commander is a top pilot. They call him the Heart of the Gryphon.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string WingCommanderIchmanHeroicALTERAC_VALLEY = "BOM_09_Ichman_003hb";
@@ -3489,19 +3489,19 @@ namespace HearthDb
                 public const string PrimalMagic2 = "BOM_09_Primalist_005pe1";
 
                 /// <summary>
-                /// Rush Revive: (2)<br/>
+                /// <b>Rush</b> <b>Revive</b>: (2)<br/>
                 /// 1-Cost 4/4 Minion
                 /// </summary>
                 public const string TavishToken3 = "BOM_09_Tavish_008t";
 
                 /// <summary>
-                /// After Prince Kael'thas betrayed his people, they did not look kindly on his apprentice Dawngrasp.<br/>
+                /// <i>After Prince Kael'thas betrayed his people, they did not look kindly on his apprentice Dawngrasp.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string LorthemarTheronHeroic = "BOM_10_Lorthemar_002hb";
 
                 /// <summary>
-                /// Add (1) to the Cost of a card in your opponent's hand. (Increases each turn.)<br/>
+                /// Add (1) to the Cost of a card in your opponent's hand. <i>(Increases each turn.)</i><br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string PiercingJudgment = "BOM_10_Lorthemar_002p";
@@ -3513,13 +3513,13 @@ namespace HearthDb
                 public const string CostXMore = "BOM_10_Lorthemar_002pe1";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 1-Cost 3/5 Beast Minion
                 /// </summary>
                 public const string RudolphusToken = "BOM_10_Rudolphus_006t";
 
                 /// <summary>
-                /// Battlecry: Summon a 3/5 Rudolphus with Rush.<br/>
+                /// <b>Battlecry:</b> Summon a 3/5 Rudolphus with <b>Rush</b>.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string TavishStormpikeMarshalToken = "BOM_10_Tavish_001t";
@@ -3531,7 +3531,7 @@ namespace HearthDb
                 public const string DragonbaneShot_DrakeshotEnchantment = "ONY_010e";
 
                 /// <summary>
-                /// Passive Choose an ally to help you in battle!<br/>
+                /// <b>Passive</b> Choose an ally to help you in battle!<br/>
                 /// 0-Cost HeroPower
                 /// </summary>
                 public const string ChooseAnAllyTavernBrawl = "TB_01_BookOfMercs_Tavish_001p";
@@ -3549,7 +3549,7 @@ namespace HearthDb
                 public const string HuntersMark_HuntersMarkLegacyEnchantment = "CS2_084e";
 
                 /// <summary>
-                /// +2/+2 and Taunt.<br/>
+                /// +2/+2 and <b>Taunt</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Houndmaster_MastersPresenceLegacyEnchantment = "DS1_070o";
@@ -3561,25 +3561,25 @@ namespace HearthDb
                 public const string TimberWolf_FuriousHowlLegacyEnchantment = "DS1_175o";
 
                 /// <summary>
-                /// {0} grants Charge.<br/>
+                /// {0} grants <b>Charge</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string TundraRhino_ChargeLegacyEnchantment = "DS1_178e";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_SteadyShotLegacy = "HERO_05bp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_BallistaShotLegacy = "HERO_05bp2";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 3-Cost 4/4 Beast Minion
                 /// </summary>
                 public const string MishaLegacy = "NEW1_032";
@@ -3597,13 +3597,13 @@ namespace HearthDb
                 public const string Leokk_EyeInTheSkyLegacyEnchantment = "NEW1_033o";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 3-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string HufferLegacy = "NEW1_034";
 
                 /// <summary>
-                /// Battlecry: If your deck has no duplicates, summon King Krush.<br/>
+                /// <b>Battlecry:</b> If your deck has no duplicates, summon King Krush.<br/>
                 /// 7-Cost 2/4 Minion
                 /// </summary>
                 public const string DinotamerBrannCore = "CORE_ULD_156";
@@ -3615,19 +3615,19 @@ namespace HearthDb
                 public const string SnakeTrap_SnakeVanillaToken = "VAN_EX1_554t";
 
                 /// <summary>
-                /// Hero Power Deal $2 damage to the enemy hero.Hero Power Deal $2 damage.<br/>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string SteadyShotVanilla = "VAN_HERO_05bp";
 
                 /// <summary>
-                /// Hero Power Deal $3 damage to the enemy hero.Hero Power Deal $3 damage.<br/>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string BallistaShotVanilla = "VAN_HERO_05bp2";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 3-Cost 4/4 Beast Minion
                 /// </summary>
                 public const string MishaVanilla = "VAN_NEW1_032";
@@ -3639,7 +3639,7 @@ namespace HearthDb
                 public const string LeokkVanilla = "VAN_NEW1_033";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 3-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string HufferVanilla = "VAN_NEW1_034";
@@ -3663,7 +3663,7 @@ namespace HearthDb
                 public const string DathrilEvenlarHeroic2 = "Story_11_Dathril_012hb";
 
                 /// <summary>
-                /// Upstanding noble and best friend to Faelin.<br/>
+                /// <i>Upstanding noble and best friend to Faelin.</i><br/>
                 /// 2-Cost 2/1 Minion
                 /// </summary>
                 public const string YoungDathrilEvenlar = "Story_11_DathrilMinion";
@@ -3693,19 +3693,19 @@ namespace HearthDb
                 public const string TwinbowTerrorcoil_TwinningEnchantment = "TSC_071e2";
 
                 /// <summary>
-                /// Secret: When a friendly minion dies, summon two copies of it. They're Dormant for 1 turn.<br/>
+                /// <b>Secret:</b> When a friendly minion dies, summon two copies of it. They're <b>Dormant</b> for 1 turn.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string EmergencyManeuvers_ImprovedEmergencyManeuversToken = "TSC_929t";
 
                 /// <summary>
-                /// Rush. Deathrattle: Summon a Beast from your deck.<br/>
+                /// <b><b>Rush</b>.</b> <b>Deathrattle:</b> Summon a Beast from your deck.<br/>
                 /// 4-Cost 4/3 Beast Minion
                 /// </summary>
                 public const string AzsharanSaber_SunkenSaberToken = "TSC_945t";
 
                 /// <summary>
-                /// Your spells are Poisonous.<br/>
+                /// Your spells are <b>Poisonous</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string UrchinSpines_PoisonousUrchinEnchantment = "TSC_946e";
@@ -3729,13 +3729,13 @@ namespace HearthDb
                 public const string NagasPride_LionfishToken = "TSC_947t";
 
                 /// <summary>
-                /// Deathrattle: If you control Hydralodon, summon 2 Hydralodon Heads.<br/>
+                /// <b>Deathrattle:</b> If you control Hydralodon, summon 2 Hydralodon Heads.<br/>
                 /// 2-Cost 3/1 Beast Minion
                 /// </summary>
                 public const string Hydralodon_HydralodonHeadToken1 = "TSC_950t";
 
                 /// <summary>
-                /// Deathrattle: If you control Hydralodon, summon 2 Hydralodon Heads.<br/>
+                /// <b>Deathrattle:</b> If you control Hydralodon, summon 2 Hydralodon Heads.<br/>
                 /// 2-Cost 3/1 Beast Minion
                 /// </summary>
                 public const string Hydralodon_HydralodonHeadToken2 = "TSC_950t2";
@@ -3747,19 +3747,19 @@ namespace HearthDb
                 public const string Shadehound_MawBoundEnchantment = "MAW_009e";
 
                 /// <summary>
-                /// Infused Rush. Whenever this attacks, give your other Beasts +2/+2.<br/>
+                /// <b>Infused</b> <b>Rush</b>. Whenever this attacks, give your other Beasts +2/+2.<br/>
                 /// 5-Cost 6/5 Beast Minion
                 /// </summary>
                 public const string Shadehound_ShadehoundToken = "MAW_009t";
 
                 /// <summary>
-                /// Secret: After your opponent plays three cards in a turn, deal $9 damage to the enemy hero.<br/>
+                /// <b>Secret:</b> After your opponent plays three cards in a turn, deal $9 damage to the enemy hero.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MotionDenied_ImprovedMotionDeniedToken = "MAW_010t";
 
                 /// <summary>
-                /// Copied Deathrattle from {0}.<br/>
+                /// Copied <b>Deathrattle</b> from {0}.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string DefenseAttorneyNathanos_DefendingDeathEnchantment = "MAW_011e";
@@ -3777,31 +3777,31 @@ namespace HearthDb
                 public const string FrenziedFangs_ThirstyBatToken = "REV_350t";
 
                 /// <summary>
-                /// Infused Summon two 2/1 Bats. Give them +1/+2.<br/>
+                /// <b>Infused</b> Summon two 2/1 Bats. Give them +1/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FrenziedFangs_FrenziedFangsToken = "REV_350t2";
 
                 /// <summary>
-                /// Infused Rush. Also damages the minions next to whomever this attacks.<br/>
+                /// <b>Infused</b> <b>Rush</b>. Also damages the minions next to whomever this attacks.<br/>
                 /// 4-Cost 3/5 Beast Minion
                 /// </summary>
                 public const string StoneboundGargon_StoneboundGargonToken = "REV_352t";
 
                 /// <summary>
-                /// Infused Battlecry: Summon 2 Gargon Companions. Infuse (4): Summon all 3!<br/>
+                /// <b>Infused</b> <b>Battlecry:</b> Summon 2 Gargon Companions. <b>Infuse (4):</b> Summon all 3!<br/>
                 /// 7-Cost 5/4 Minion
                 /// </summary>
                 public const string HuntsmanAltimor_HuntsmanAltimorToken1 = "REV_353t";
 
                 /// <summary>
-                /// Infused Battlecry: Summon all 3 Gargon Companions.<br/>
+                /// <b>Infused</b> <b>Battlecry:</b> Summon all 3 Gargon Companions.<br/>
                 /// 7-Cost 5/4 Minion
                 /// </summary>
                 public const string HuntsmanAltimor_HuntsmanAltimorToken2 = "REV_353t2";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 3-Cost 4/4 Beast Minion
                 /// </summary>
                 public const string HuntsmanAltimor_HecutisToken = "REV_353t3";
@@ -3819,37 +3819,37 @@ namespace HearthDb
                 public const string HuntsmanAltimor_BoneFromTheStoneToken = "REV_353t4e";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 3-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string HuntsmanAltimor_MargoreToken = "REV_353t5";
 
                 /// <summary>
-                /// Dormant for 1 turn. Rush<br/>
+                /// <b>Dormant</b> for 1 turn. <b>Rush</b><br/>
                 /// 1-Cost 3/1 Beast/Undead Minion
                 /// </summary>
                 public const string SpiritPoacher_FoxSpiritWildseedToken = "REV_360t";
 
                 /// <summary>
-                /// Dormant for 2 turns. Taunt<br/>
+                /// <b>Dormant</b> for 2 turns. <b>Taunt</b><br/>
                 /// 2-Cost 2/5 Beast/Undead Minion
                 /// </summary>
                 public const string SpiritPoacher_BearSpiritWildseedToken = "REV_360t1";
 
                 /// <summary>
-                /// Dormant. Awaken in 2 turns.<br/>
+                /// <b>Dormant</b>. Awaken in 2 turns.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SpiritPoacher_MatureWildseedToken = "REV_360t1e";
 
                 /// <summary>
-                /// Dormant for 3 turns. When this awakens, equip a 4/2 Greatbow.<br/>
+                /// <b>Dormant</b> for 3 turns. When this awakens, equip a 4/2 Greatbow.<br/>
                 /// 3-Cost 5/4 Beast/Undead Minion
                 /// </summary>
                 public const string SpiritPoacher_StagSpiritWildseedToken = "REV_360t2";
 
                 /// <summary>
-                /// Dormant. Awaken in 3 turns.<br/>
+                /// <b>Dormant</b>. Awaken in 3 turns.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SpiritPoacher_ElderWildseedToken = "REV_360t2e";
@@ -3861,7 +3861,7 @@ namespace HearthDb
                 public const string SpiritPoacher_StagpointWildbowToken = "REV_360t4";
 
                 /// <summary>
-                /// Dormant. Awaken in 1 turn.<br/>
+                /// <b>Dormant</b>. Awaken in 1 turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SpiritPoacher_YoungWildseedEnchantmentToken = "REV_360te";
@@ -3873,7 +3873,7 @@ namespace HearthDb
                 public const string CastleKennels_BeastModeEnchantment = "REV_362e";
 
                 /// <summary>
-                /// Immune this turn.<br/>
+                /// <b>Immune</b> this turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CastleKennels_ResistantEnchantment = "REV_362e2";
@@ -3897,7 +3897,7 @@ namespace HearthDb
                 public const string ZOMBEEEES_ZombeeToken1 = "NX2_013t";
 
                 /// <summary>
-                /// Secret: After your opponent plays a minion, summon four 2/2 Zombees to attack it.<br/>
+                /// <b>Secret:</b> After your opponent plays a minion, summon four 2/2 Zombees to attack it.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ZOMBEEEES_ImprovedZombeeeesToken = "NX2_013t2";
@@ -3909,13 +3909,13 @@ namespace HearthDb
                 public const string ZOMBEEEES_ZombeeToken2 = "NX2_013t3";
 
                 /// <summary>
-                /// Poisonous<br/>
+                /// <b>Poisonous</b><br/>
                 /// Enchantment
                 /// </summary>
                 public const string TrinketTracker_TaintedEnchantment = "NX2_014e";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 4-Cost 4/4 Beast Minion
                 /// </summary>
                 public const string EversongPortal_EversongLynxToken = "RLK_819t";
@@ -3945,13 +3945,13 @@ namespace HearthDb
                 public const string WindrunnersBowRETURN_OF_THE_LICH_KING = "RLK_Prologue_Bow_003w";
 
                 /// <summary>
-                /// Discover a spell from your deck. If it's Arcane, give it Spell Damage +1.<br/>
+                /// <b>Discover</b> a spell from your deck. If it's Arcane, give it <b>Spell Damage +1</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ArcaneQuiver = "RLK_Prologue_RLK_817";
 
                 /// <summary>
-                /// Battlecry: Give all Arcane spells in your hand Spell Damage +1.<br/>
+                /// <b>Battlecry:</b> Give all Arcane spells in your hand <b>Spell Damage +1</b>.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string SilvermoonFarstrider = "RLK_Prologue_RLK_826";
@@ -3963,7 +3963,7 @@ namespace HearthDb
                 public const string SylvanasWindrunnerHeroicRETURN_OF_THE_LICH_KING1 = "RLK_Prologue_Sylvanas_003hb";
 
                 /// <summary>
-                /// Hero Power Deal $1 damage to two random enemy minions.<br/>
+                /// <b>Hero Power</b> Deal $1 damage to two random enemy minions.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
                 public const string QuickFire = "RLK_Prologue_Sylvanas_003p";
@@ -3981,25 +3981,25 @@ namespace HearthDb
                 public const string BunchofBananas_BananaEnchantment = "ETC_201e";
 
                 /// <summary>
-                /// Give a minion +1/+1. (2 Bananas left!)<br/>
+                /// Give a minion +1/+1. <i>(2 Bananas left!)</i><br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string BunchofBananas_BunchOfBananasToken1 = "ETC_201t";
 
                 /// <summary>
-                /// Give a minion +1/+1. (Last Banana!)<br/>
+                /// Give a minion +1/+1. <i>(Last Banana!)</i><br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string BunchofBananas_BunchOfBananasToken2 = "ETC_201t2";
 
                 /// <summary>
-                /// Summon a 1/4 Monkey with Taunt. (2 Monkeys left!)<br/>
+                /// Summon a 1/4 Monkey with <b>Taunt</b>. <i>(2 Monkeys left!)</i><br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BarrelofMonkeys_BarrelOfMonkeysToken1 = "ETC_207t";
 
                 /// <summary>
-                /// Summon a 1/4 Monkey with Taunt. (Last Monkey!)<br/>
+                /// Summon a 1/4 Monkey with <b>Taunt</b>. <i>(Last Monkey!)</i><br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BarrelofMonkeys_BarrelOfMonkeysToken2 = "ETC_207t2";
@@ -4069,7 +4069,7 @@ namespace HearthDb
                 public const string AwakeningTremors_BurstingJormungarToken = "TTN_081t";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// Enchantment
                 /// </summary>
                 public const string AbsorbentParasite_AbsorbentParasiteEnchantment = "TTN_087e";
@@ -4081,19 +4081,19 @@ namespace HearthDb
                 public const string AggramartheAvenger_ScouringEnchantment = "TTN_092e";
 
                 /// <summary>
-                /// Summon a 3/3 Enforcer with Taunt after your hero attacks.<br/>
+                /// Summon a 3/3 Enforcer with <b>Taunt</b> after your hero attacks.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string AggramartheAvenger_CommandingEnchantment = "TTN_092e2";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string AggramartheAvenger_VrykulEnforcerEnchantment = "TTN_092e2t";
 
                 /// <summary>
-                /// +2 Attack and Immune while attacking.<br/>
+                /// +2 Attack and <b>Immune</b> while attacking.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string AggramartheAvenger_SwiftnessEnchantment = "TTN_092e3";
@@ -4111,19 +4111,19 @@ namespace HearthDb
                 public const string AggramartheAvenger_MaintainOrderToken = "TTN_092t1";
 
                 /// <summary>
-                /// Give your weapon "After your hero attacks, summon a 3/3 Enforcer with Taunt."<br/>
+                /// Give your weapon "After your hero attacks, summon a 3/3 Enforcer with <b>Taunt</b>."<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string AggramartheAvenger_CommandingPresenceToken = "TTN_092t2";
 
                 /// <summary>
-                /// Give your weapon +2 Attack and "Your hero is Immune while attacking."<br/>
+                /// Give your weapon +2 Attack and "Your hero is <b>Immune</b> while attacking."<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string AggramartheAvenger_SwiftSlashToken = "TTN_092t3";
 
                 /// <summary>
-                /// Forged Discover and cast two Secrets.<br/>
+                /// <b>Forged</b> <b>Discover</b> and cast two <b>Secrets</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string TitanforgedTraps_TitanforgedTrapsToken = "TTN_302t";
@@ -4141,7 +4141,7 @@ namespace HearthDb
                 public const string HodirFatherofGiants_GiantizeEnchantment = "TTN_752e";
 
                 /// <summary>
-                /// You have Spell Damage +2 for your next spell.<br/>
+                /// You have <b>Spell Damage +2</b> for your next spell.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CelestialShot_CelestialEmbraceEnchantment = "YOG_082e";
@@ -4159,13 +4159,13 @@ namespace HearthDb
                 public const string TwistedFrostwing_ChimaeraMatriarchToken = "YOG_506t";
 
                 /// <summary>
-                /// Bunny Stomper grants Rush.<br/>
+                /// Bunny Stomper grants <b>Rush</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string BunnyStomper_StompingEnchantment = "WW_435e";
 
                 /// <summary>
-                /// Stealth<br/>
+                /// <b>Stealth</b><br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string SneakySnakes_SidewinderToken = "WW_806t";
@@ -4177,121 +4177,121 @@ namespace HearthDb
                 public const string MessengerBuzzard_AMessageEnchantment = "WW_807e";
 
                 /// <summary>
-                /// Immune this turn.<br/>
+                /// <b>Immune</b> this turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SilverSerpent_SilverFangsEnchantment = "WW_808e";
 
                 /// <summary>
-                /// Divine Shield<br/>
+                /// <b>Divine Shield</b><br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string CamouflageMount_ChameleonToken1 = "WW_810t1";
 
                 /// <summary>
-                /// +3/+3 and Divine Shield. Deathrattle: Summon a Chameleon.<br/>
+                /// +3/+3 and <b>Divine Shield</b>. <b>Deathrattle:</b> Summon a Chameleon.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CamouflageMount_OnAChameleonToken1 = "WW_810t1e1";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string CamouflageMount_ChameleonToken2 = "WW_810t2";
 
                 /// <summary>
-                /// +3/+3 and Taunt. Deathrattle: Summon a Chameleon.<br/>
+                /// +3/+3 and <b>Taunt</b>. <b>Deathrattle:</b> Summon a Chameleon.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CamouflageMount_OnAChameleonToken2 = "WW_810t2e1";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string CamouflageMount_ChameleonToken3 = "WW_810t3";
 
                 /// <summary>
-                /// +3/+3 and Rush. Deathrattle: Summon a Chameleon.<br/>
+                /// +3/+3 and <b>Rush</b>. <b>Deathrattle:</b> Summon a Chameleon.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CamouflageMount_OnAChameleonToken3 = "WW_810t3e1";
 
                 /// <summary>
-                /// Windfury<br/>
+                /// <b>Windfury</b><br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string CamouflageMount_ChameleonToken4 = "WW_810t4";
 
                 /// <summary>
-                /// +3/+3 and Windfury. Deathrattle: Summon a Chameleon.<br/>
+                /// +3/+3 and <b>Windfury</b>. <b>Deathrattle:</b> Summon a Chameleon.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CamouflageMount_OnAChameleonToken4 = "WW_810t4e1";
 
                 /// <summary>
-                /// Elusive<br/>
+                /// <b>Elusive</b><br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string CamouflageMount_ChameleonToken5 = "WW_810t5";
 
                 /// <summary>
-                /// +3/+3 and Elusive. Deathrattle: Summon a Chameleon.<br/>
+                /// +3/+3 and <b>Elusive</b>. <b>Deathrattle:</b> Summon a Chameleon.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CamouflageMount_OnAChameleonToken5 = "WW_810t5e1";
 
                 /// <summary>
-                /// Poisonous<br/>
+                /// <b>Poisonous</b><br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string CamouflageMount_ChameleonToken6 = "WW_810t6";
 
                 /// <summary>
-                /// +3/+3 and Poisonous. Deathrattle: Summon a Chameleon.<br/>
+                /// +3/+3 and <b>Poisonous</b>. <b>Deathrattle:</b> Summon a Chameleon.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CamouflageMount_OnAChameleonToken6 = "WW_810t6e1";
 
                 /// <summary>
-                /// Lifesteal<br/>
+                /// <b>Lifesteal</b><br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string CamouflageMount_ChameleonToken7 = "WW_810t7";
 
                 /// <summary>
-                /// +3/+3 and Lifesteal. Deathrattle: Summon a Chameleon.<br/>
+                /// +3/+3 and <b>Lifesteal</b>. <b>Deathrattle:</b> Summon a Chameleon.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CamouflageMount_OnAChameleonToken7 = "WW_810t7e1";
 
                 /// <summary>
-                /// Reborn<br/>
+                /// <b>Reborn</b><br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string CamouflageMount_ChameleonToken8 = "WW_810t8";
 
                 /// <summary>
-                /// +3/+3 and Reborn. Deathrattle: Summon a Chameleon.<br/>
+                /// +3/+3 and <b>Reborn</b>. <b>Deathrattle:</b> Summon a Chameleon.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CamouflageMount_OnAChameleonToken8 = "WW_810t8e1";
 
                 /// <summary>
-                /// +1/+1. Deathrattle: Get a Ten Gallon Hat.<br/>
+                /// +1/+1. <b>Deathrattle:</b> Get a Ten Gallon Hat.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string TenGallonHat_TenGallonHatEnchantment = "WW_811e";
 
                 /// <summary>
-                /// Deathrattle: Summon a random Beast that costs (3) or less.<br/>
+                /// <b>Deathrattle:</b> Summon a random Beast that costs (3) or less.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SaddleUp_SaddledUpEnchantment = "WW_812e";
 
                 /// <summary>
-                /// Immune this turn.<br/>
+                /// <b>Immune</b> this turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string TheldurintheLost_TheldurinsRageEnchantment = "WW_815e";
@@ -4303,7 +4303,7 @@ namespace HearthDb
                 public const string MysteryEgg_HatchedEnchantment = "TOY_351e1";
 
                 /// <summary>
-                /// Mini Deathrattle: Get a copy of a random Beast in your deck. It costs (3) less.<br/>
+                /// <b>Mini</b> <b>Deathrattle:</b> Get a copy of a random Beast in your deck. It costs (3) less.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string MysteryEgg_MysteryEggToken = "TOY_351t";
@@ -4333,19 +4333,19 @@ namespace HearthDb
                 public const string RemoteControl_RCHoundToken = "TOY_358t";
 
                 /// <summary>
-                /// This deck is full of two copies of Legendary cards.<br/>
+                /// This deck is full of two copies of <b>Legendary</b> cards.<br/>
                 /// Spell
                 /// </summary>
                 public const string SplendiferousWhizbang_DeckOfLegendsToken = "TOY_700t11";
 
                 /// <summary>
-                /// Dormant. Awaken after 2 friendly Beasts die.<br/>
+                /// <b>Dormant</b>. Awaken after 2 friendly Beasts die.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Malorne_MalornesSlumberEnchantment = "WON_011e";
 
                 /// <summary>
-                /// Poisonous.<br/>
+                /// <b>Poisonous</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string DurnholdeImposter_DurnholdeImposterEnchantment = "WON_026e2";
@@ -4357,7 +4357,7 @@ namespace HearthDb
                 public const string ArcaneShotTUTORIAL = "TUTR_DS1_185s2";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 8/8 Minion
                 /// </summary>
                 public const string KingKrushTUTORIAL = "TUTR_EX1_543";
@@ -4381,7 +4381,7 @@ namespace HearthDb
                 public const string Birdwatching_ABirdInTheHandEnchantment = "VAC_408e";
 
                 /// <summary>
-                /// Immune while attacking.<br/>
+                /// <b>Immune</b> while attacking.<br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string FuriousFowls_AngryBirdToken = "VAC_410t";
@@ -4417,7 +4417,7 @@ namespace HearthDb
                 public const string BusyPeon_ZugZugEnchantment = "WORK_041e";
 
                 /// <summary>
-                /// Starship (Costs (5) Mana to launch.)Starship (Made of {0} pieces.)<br/>
+                /// <b>Starship</b> <i>(Costs (5) Mana to launch.)</i><b>Starship</b> <i>(Made of {0} pieces.)</i><br/>
                 /// 0/0 Minion
                 /// </summary>
                 public const string ArkoniteDefenseCrystal_TheAstralCompassToken = "GDB_100t7";
@@ -4429,13 +4429,13 @@ namespace HearthDb
                 public const string SpecimenClaw_SpecimenClawEnchantment = "GDB_107e";
 
                 /// <summary>
-                /// Deathrattle: Deal damage equal to this minion's Attack to a random enemy.<br/>
+                /// <b>Deathrattle:</b> Deal damage equal to this minion's Attack to a random enemy.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Biopod_BiopodEnchantment = "GDB_111e";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 3-Cost 2/5 Beast Minion
                 /// </summary>
                 public const string AlienEncounters_SnackingScrungukToken = "GDB_237t";
@@ -4453,7 +4453,7 @@ namespace HearthDb
                 public const string GormtheWorldeater_GormEnchantEnchantment = "GDB_842e";
 
                 /// <summary>
-                /// Dormant. Awaken in 5 turns.<br/>
+                /// <b>Dormant</b>. Awaken in 5 turns.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string GormtheWorldeater_PlanetaryFeastEnchantment = "GDB_842e2";
@@ -4465,13 +4465,13 @@ namespace HearthDb
                 public const string GormtheWorldeater_GormEatingEnchantEnchantment = "GDB_842e3";
 
                 /// <summary>
-                /// Immune this turn.<br/>
+                /// <b>Immune</b> this turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string ParallaxCannon_AngularImmunityEnchantment = "GDB_843e2";
 
                 /// <summary>
-                /// Discover a card from your deck.<br/>
+                /// <b>Discover</b> a card from your deck.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
                 public const string TrackingHeroic = "GDB_846hp";
@@ -4495,7 +4495,7 @@ namespace HearthDb
                 public const string EvolutionChamber_PrimalEvolutionEnchantment = "SC_021e2";
 
                 /// <summary>
-                /// +2/+2 and Elusive.<br/>
+                /// +2/+2 and <b>Elusive</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string WellRestedToken2 = "EDR_100t1e";
@@ -4507,13 +4507,13 @@ namespace HearthDb
                 public const string ShortClawsToken2 = "EDR_100t2e";
 
                 /// <summary>
-                /// +4 Health and Taunt.<br/>
+                /// +4 Health and <b>Taunt</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string BundledUpToken2 = "EDR_100t3e";
 
                 /// <summary>
-                /// Deathrattle: Draw 2 cards.<br/>
+                /// <b>Deathrattle:</b> Draw 2 cards.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string InnerDemonsToken2 = "EDR_100t4e";
@@ -4525,13 +4525,13 @@ namespace HearthDb
                 public const string LivingNightmareToken3 = "EDR_100t5e";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// Enchantment
                 /// </summary>
                 public const string SneakySleepwalkingToken = "EDR_100t6e";
 
                 /// <summary>
-                /// This minion's Battlecries trigger twice.<br/>
+                /// This minion's <b>Battlecries</b> trigger twice.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string RudeAwakeningToken2 = "EDR_100t7e";
@@ -4543,13 +4543,13 @@ namespace HearthDb
                 public const string SweetDreamsToken2 = "EDR_100t8e1";
 
                 /// <summary>
-                /// Reborn. Is Reborn with full Health and enchantments.<br/>
+                /// <b>Reborn</b>. Is <b>Reborn</b> with full Health and enchantments.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string PersistingHorrorToken2 = "EDR_100t9e";
 
                 /// <summary>
-                /// +3 Attack and Lifesteal.<br/>
+                /// +3 Attack and <b>Lifesteal</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string WakingTerrorEnchantmentToken = "EDR_100te";

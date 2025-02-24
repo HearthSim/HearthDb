@@ -8,7 +8,7 @@ namespace HearthDb
             public class Invalid
             {
                 /// <summary>
-                /// Get a 1/1 Zergling. Deathrattle: Your Zerg minions have Rush this turn.<br/>
+                /// Get a 1/1 Zergling. <b>Deathrattle:</b> Your Zerg minions have <b>Rush</b> this turn.<br/>
                 /// 1-Cost Location
                 /// </summary>
                 public const string SpawningPool = "SC_000";
@@ -20,13 +20,13 @@ namespace HearthDb
                 public const string HiveQueen = "SC_003";
 
                 /// <summary>
-                /// Battlecry: Summon two 2/5 Hive Queens. Deal 3 damage to all enemies.<br/>
+                /// <b>Battlecry:</b> Summon two 2/5 Hive Queens. Deal 3 damage to all enemies.<br/>
                 /// 7-Cost Hero
                 /// </summary>
                 public const string KerriganQueenOfBlades = "SC_004";
 
                 /// <summary>
-                /// Battlecry: Summon a copy of this.<br/>
+                /// <b>Battlecry:</b> Summon a copy of this.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string Zergling = "SC_010";
@@ -38,37 +38,37 @@ namespace HearthDb
                 public const string NydusWorm = "SC_015";
 
                 /// <summary>
-                /// Battlecry: Relaunch every Starship that you launched this game.<br/>
+                /// <b>Battlecry:</b> Relaunch every <b>Starship</b> that you launched this game.<br/>
                 /// 7-Cost Hero
                 /// </summary>
                 public const string JimRaynor = "SC_400";
 
                 /// <summary>
-                /// Battlecry: Your next Starship launch costs (2) less.<br/>
+                /// <b>Battlecry:</b> Your next <b>Starship</b> launch costs (2) less.<br/>
                 /// 1-Cost 1/3 Mechanical Minion
                 /// </summary>
                 public const string Scv = "SC_401";
 
                 /// <summary>
-                /// Summon a 2/1 Starship Piece with an effect when launched.<br/>
+                /// Summon a 2/1 <b>Starship Piece</b> with an effect when launched.<br/>
                 /// 2-Cost Location
                 /// </summary>
                 public const string Starport = "SC_403";
 
                 /// <summary>
-                /// Stealth. Battlecry: If you're building a Starship, destroy the lowest-Cost card in your opponent's hand.<br/>
+                /// <b>Stealth</b>. <b>Battlecry:</b> If you're building a <b>Starship</b>, destroy the lowest-Cost card in your opponent's hand.<br/>
                 /// 4-Cost 6/2 Minion
                 /// </summary>
                 public const string Ghost = "SC_408";
 
                 /// <summary>
-                /// Draw 2 Terran cards. Summon a 2/1 Starship Piece with an effect when launched.<br/>
+                /// Draw 2 Terran cards. Summon a 2/1 <b>Starship Piece</b> with an effect when launched.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string LiftOff = "SC_410";
 
                 /// <summary>
-                /// Draw 2 Protoss cards. Summon a 3/4 Zealot with Charge.<br/>
+                /// Draw 2 Protoss cards. Summon a 3/4 Zealot with <b>Charge</b>.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string ChronoBoost = "SC_750";
@@ -86,13 +86,13 @@ namespace HearthDb
                 public const string PhotonCannon = "SC_753";
 
                 /// <summary>
-                /// Battlecry: Summon two 3/4 Zealots with Charge. Your Protoss minions cost (2) less this game.<br/>
+                /// <b>Battlecry:</b> Summon two 3/4 Zealots with <b>Charge</b>. Your Protoss minions cost (2) less this game.<br/>
                 /// 7-Cost Hero
                 /// </summary>
                 public const string Artanis = "SC_754";
 
                 /// <summary>
-                /// Rush, Divine Shield Battlecry: If this costs (0), gain +2/+2.<br/>
+                /// <b>Rush</b>, <b>Divine Shield</b> <b>Battlecry:</b> If this costs (0), gain +2/+2.<br/>
                 /// 3-Cost 3/2 Mechanical Minion
                 /// </summary>
                 public const string VoidRay = "SC_783";

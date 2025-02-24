@@ -8,19 +8,19 @@ namespace HearthDb
             public class Deathknight
             {
                 /// <summary>
-                /// Discover a Temporary Dark Transformation, Howling Blast, or Death Strike.<br/>
+                /// <b>Discover</b> a <b>Temporary</b> Dark Transformation, Howling Blast, or Death Strike.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ArthassGiftCorePlaceholder = "CORE_GIFT_04";
 
                 /// <summary>
-                /// After your hero attacks and kills a minion, gain 2 Corpses.<br/>
+                /// After your hero attacks and kills a minion, gain 2 <b>Corpses</b>.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string SoulbreakerCore = "CORE_RLK_012";
 
                 /// <summary>
-                /// Detonate a Corpse to deal $1 damage to all minions. If any are still alive, repeat this.<br/>
+                /// Detonate a <b>Corpse</b> to deal $1 damage to all minions. If any are still alive, repeat this.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string CorpseExplosionCore = "CORE_RLK_035";
@@ -32,31 +32,31 @@ namespace HearthDb
                 public const string HornOfWinterCore = "CORE_RLK_042";
 
                 /// <summary>
-                /// Give your hero +5 Health. Spend 3 Corpses to gain 5 more and draw a card.<br/>
+                /// Give your hero +5 Health. Spend 3 <b>Corpses</b> to gain 5 more and draw a card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string VampiricBloodCore = "CORE_RLK_051";
 
                 /// <summary>
-                /// Taunt Battlecry: Summon two copies of this minion.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Summon two copies of this minion.<br/>
                 /// 4-Cost 1/3 Undead Minion
                 /// </summary>
                 public const string NerubianSwarmguardCore = "CORE_RLK_062";
 
                 /// <summary>
-                /// Deal $5 damage. Freeze all enemy minions. Summon a 5/5 Frostwyrm.<br/>
+                /// Deal $5 damage. <b>Freeze</b> all enemy minions. Summon a 5/5 Frostwyrm.<br/>
                 /// 7-Cost Spell
                 /// </summary>
                 public const string FrostwyrmsFuryCore = "CORE_RLK_063";
 
                 /// <summary>
-                /// Battlecry: Spend a Corpse to Discover a Blood Rune card.<br/>
+                /// <b>Battlecry:</b> Spend a <b>Corpse</b> to <b>Discover</b> a Blood Rune card.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string HematurgeCore = "CORE_RLK_066";
 
                 /// <summary>
-                /// Deathrattle: Summon every minion killed by this weapon.<br/>
+                /// <b>Deathrattle:</b> Summon every minion killed by this weapon.<br/>
                 /// 6-Cost Weapon
                 /// </summary>
                 public const string FrostmourneCore = "CORE_RLK_086";
@@ -68,7 +68,7 @@ namespace HearthDb
                 public const string AsphyxiateCore = "CORE_RLK_087";
 
                 /// <summary>
-                /// Battlecry: If a friendly Undead died after your last turn, Discover an Unholy Rune card.<br/>
+                /// <b>Battlecry:</b> If a friendly Undead died after your last turn, <b>Discover</b> an Unholy Rune card.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string NecroticMorticianCore = "CORE_RLK_116";
@@ -86,175 +86,175 @@ namespace HearthDb
                 public const string TheScourgeCore = "CORE_RLK_122";
 
                 /// <summary>
-                /// Battlecry: Spend up to 10 Corpses to summon a Risen Groom with Taunt and that much Attack and Health.<br/>
+                /// <b>Battlecry:</b> Spend up to 10 <b>Corpses</b> to summon a Risen Groom with <b>Taunt</b> and that much Attack and Health.<br/>
                 /// 5-Cost 4/4 Undead Minion
                 /// </summary>
                 public const string CorpseBrideCore = "CORE_RLK_504";
 
                 /// <summary>
-                /// Battlecry: Spend up to 5 Corpses. Deal 2 damage to a random enemy for each.<br/>
+                /// <b>Battlecry:</b> Spend up to 5 <b>Corpses</b>. Deal 2 damage to a random enemy for each.<br/>
                 /// 6-Cost 5/5 Undead Minion
                 /// </summary>
                 public const string MarrowManipulatorCore = "CORE_RLK_505";
 
                 /// <summary>
-                /// Give all minions in your hand +1/+1. Spend 2 Corpses to give them +1/+1 more.<br/>
+                /// Give all minions in your hand +1/+1. Spend 2 <b>Corpses</b> to give them +1/+1 more.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BloodTapCore = "CORE_RLK_712";
 
                 /// <summary>
-                /// Battlecry: Spend up to 3 Corpses. Freeze that many enemy minions.<br/>
+                /// <b>Battlecry:</b> Spend up to 3 <b>Corpses</b>. <b>Freeze</b> that many enemy minions.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string MightOfMenethilCore = "CORE_RLK_740";
 
                 /// <summary>
-                /// Battlecry: Destroy all other minions. Gain 1 Corpse for each enemy destroyed.<br/>
+                /// <b>Battlecry:</b> Destroy all other minions. Gain 1 <b>Corpse</b> for each enemy destroyed.<br/>
                 /// 8-Cost 5/5 Undead Minion
                 /// </summary>
                 public const string SoulstealerCore = "CORE_RLK_741";
 
                 /// <summary>
-                /// Magnetic, Reborn Can Magnetize to Mechs or Undead.<br/>
+                /// <b>Magnetic</b>, <b>Reborn</b> Can <b>Magnetize</b> to Mechs or Undead.<br/>
                 /// 3-Cost 3/1 Mechanical Minion
                 /// </summary>
                 public const string ProstheticHand = "DEEP_015";
 
                 /// <summary>
-                /// Lifesteal. Freeze any character damaged by your hero.<br/>
+                /// <b>Lifesteal</b>. <b>Freeze</b> any character damaged by your hero.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string QuartziteCrusher = "DEEP_016";
 
                 /// <summary>
-                /// Summon two 1/1 Silver Hand Recruits with "Deathrattle: Summon a 1/1 Frail Ghoul".<br/>
+                /// Summon two 1/1 Silver Hand Recruits with "<b>Deathrattle:</b> Summon a 1/1 Frail Ghoul".<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MiningCasualties = "DEEP_017";
 
                 /// <summary>
-                /// Battlecry: Deal 2 damage. Finale: To all enemies.<br/>
+                /// <b>Battlecry:</b> Deal 2 damage. <b>Finale:</b> To all enemies.<br/>
                 /// 3-Cost 2/1 Undead Minion
                 /// </summary>
                 public const string HardcoreCultist = "ETC_209";
 
                 /// <summary>
-                /// Lifesteal. Deal ${0} damage. Summon {1} {2}/{3} Souls. (Randomly improved by Corpses you've spent)<br/>
+                /// <b>Lifesteal</b>. Deal ${0} damage. Summon {1} {2}/{3} Souls. <i>(Randomly improved by <b>Corpses</b> you've spent)</i><br/>
                 /// 10-Cost Spell
                 /// </summary>
                 public const string ClimacticNecroticExplosion = "ETC_210";
 
                 /// <summary>
-                /// Deathrattle: Summon a 1/1 Lifesteal Undead. (Change your Health on your turn while equipped to improve!)<br/>
+                /// <b>Deathrattle:</b> Summon a 1/1 <b>Lifesteal</b> Undead. <i>(Change your Health on your turn while equipped to improve!)</i><br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string ArcaniteRipper = "ETC_423";
 
                 /// <summary>
-                /// Choose a minion. Spread its Deathrattle to adjacent minions.<br/>
+                /// Choose a minion. Spread its <b>Deathrattle</b> to adjacent minions.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string DeathGrowl = "ETC_424";
 
                 /// <summary>
-                /// Give 4 random minions in your hand +2/+2. (Swaps each turn.)<br/>
+                /// Give 4 random minions in your hand +2/+2. <i>(Swaps each turn.)</i><br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string HarmonicMetal = "ETC_427";
 
                 /// <summary>
-                /// Battlecry: Spend 5 Corpses to trigger and gain the Deathrattle of a random friendly minion that died this game.<br/>
+                /// <b>Battlecry:</b> Spend 5 <b>Corpses</b> to trigger and gain the <b>Deathrattle</b> of a random friendly minion that died this game.<br/>
                 /// 5-Cost 5/4 Undead Minion
                 /// </summary>
                 public const string Boneshredder = "ETC_428";
 
                 /// <summary>
-                /// Lifesteal After your hero gains Health, summon a Soul with that much Attack and Health.<br/>
+                /// <b>Lifesteal</b> After your hero gains Health, summon a Soul with that much Attack and Health.<br/>
                 /// 5-Cost 3/6 Undead Minion
                 /// </summary>
                 public const string ScreamingBanshee = "ETC_522";
 
                 /// <summary>
-                /// Taunt Costs Health instead of Mana if your hero was healed this turn.<br/>
+                /// <b>Taunt</b> Costs Health instead of Mana if your hero was healed this turn.<br/>
                 /// 3-Cost 3/4 Undead Minion
                 /// </summary>
                 public const string DeathMetalKnight = "ETC_523";
 
                 /// <summary>
-                /// Deathrattle: Summon a 9/9 Blight Boar with Charge and Taunt.<br/>
+                /// <b>Deathrattle:</b> Summon a 9/9 Blight Boar with <b>Charge</b> and <b>Taunt</b>.<br/>
                 /// 8-Cost 5/1 Undead Minion
                 /// </summary>
                 public const string CageHead = "ETC_526";
 
                 /// <summary>
-                /// Spend 3 Corpses to give a friendly minion Reborn.<br/>
+                /// Spend 3 <b>Corpses</b> to give a friendly minion <b>Reborn</b>.<br/>
                 /// 2-Cost Location
                 /// </summary>
                 public const string MoshPit = "ETC_533";
 
                 /// <summary>
-                /// Spellburst: Trigger a random friendly minion's Deathrattle. Starship Piece<br/>
+                /// <b><b>Spellburst</b>:</b> Trigger a random friendly minion's <b>Deathrattle</b>. <b>Starship Piece</b><br/>
                 /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string GuidingFigure = "GDB_106";
 
                 /// <summary>
-                /// Deathrattle: Summon a minion with Cost equal to this minion's Attack (up to 10). Starship Piece<br/>
+                /// <b>Deathrattle:</b> Summon a minion with Cost equal to this minion's Attack <i>(up to 10)</i>. <b>Starship Piece</b><br/>
                 /// 3-Cost 2/2 Minion
                 /// </summary>
                 public const string SoulboundSpire = "GDB_112";
 
                 /// <summary>
-                /// Summon a 5/5 Undead with Taunt and give your hero +5 Health. Spend 5 Corpses to do it again.<br/>
+                /// Summon a 5/5 Undead with <b>Taunt</b> and give your hero +5 Health. Spend 5 <b>Corpses</b> to do it again.<br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string AirlockBreach = "GDB_113";
 
                 /// <summary>
-                /// Taunt, Reborn Deathrattle: Resurrect a different friendly Deathrattle minion.<br/>
+                /// <b>Taunt</b>, <b>Reborn</b> <b>Deathrattle:</b> Resurrect a different friendly <b>Deathrattle</b> minion.<br/>
                 /// 10-Cost 8/7 Minion
                 /// </summary>
                 public const string WakenerOfSouls = "GDB_468";
 
                 /// <summary>
-                /// After another friendly minion is Reborn, summon a copy of it.<br/>
+                /// After another friendly minion is <b>Reborn</b>, summon a copy of it.<br/>
                 /// 1-Cost 1/3 Draenei Minion
                 /// </summary>
                 public const string AuchenaiDeathSpeaker = "GDB_469";
 
                 /// <summary>
-                /// Battlecry: The next card you play this turn costs Corpses instead of Mana.<br/>
+                /// <b>Battlecry:</b> The next card you play this turn costs <b>Corpses</b> instead of Mana.<br/>
                 /// 6-Cost 5/5 Draenei Minion
                 /// </summary>
                 public const string ExarchMaladaar = "GDB_470";
 
                 /// <summary>
-                /// Give a minion Taunt and Lifesteal. If you played an adjacent card this turn, also give it Reborn.<br/>
+                /// Give a minion <b>Taunt</b> and <b>Lifesteal</b>. If you played an adjacent card this turn, also give it <b>Reborn</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string OrbitalMoon = "GDB_475";
 
                 /// <summary>
-                /// Destroy a minion. If you're building a Starship, also destroy a random neighbor.<br/>
+                /// Destroy a minion. If you're building a <b>Starship</b>, also destroy a random neighbor.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string Suffocate = "GDB_476";
 
                 /// <summary>
-                /// Battlecry: Destroy both players' decks EXCEPT the 8 highest Cost cards in each.<br/>
+                /// <b>Battlecry:</b> Destroy both players' decks EXCEPT the 8 highest Cost cards in each.<br/>
                 /// 8-Cost 8/8 Beast Minion
                 /// </summary>
                 public const string The8HandsFromBeyond = "GDB_477";
 
                 /// <summary>
-                /// Discover a 3-Cost Deathrattle minion. Summon it with Reborn.<br/>
+                /// <b>Discover</b> a 3-Cost <b>Deathrattle</b> minion. Summon it with <b>Reborn</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string AssimilatingBlight = "GDB_478";
 
                 /// <summary>
-                /// Discover a Temporary Dark Transformation, Howling Blast, or Death Strike.<br/>
+                /// <b>Discover</b> a <b>Temporary</b> Dark Transformation, Howling Blast, or Death Strike.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ArthassGift = "GIFT_04";
@@ -464,7 +464,7 @@ namespace HearthDb
                 public const string TheLichKing_BolvarFordragonHeroHeroSkins = "HERO_11z";
 
                 /// <summary>
-                /// Battlecry: Trigger a friendly minion's Deathrattle twice.<br/>
+                /// <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle</b> twice.<br/>
                 /// 4-Cost 3/4 Undead Minion
                 /// </summary>
                 public const string YellingYodeler = "JAM_005";
@@ -476,7 +476,7 @@ namespace HearthDb
                 public const string ColdFeet = "JAM_006";
 
                 /// <summary>
-                /// Divine Shield Reborn<br/>
+                /// <b>Divine Shield</b> <b>Reborn</b><br/>
                 /// 4-Cost 3/1 Undead Minion
                 /// </summary>
                 public const string CoolGhoul = "JAM_007";
@@ -488,37 +488,37 @@ namespace HearthDb
                 public const string DeadAir = "JAM_008";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If that kills it, gain a Corpse.<br/>
+                /// Deal $3 damage to a minion. If that kills it, gain a <b>Corpse</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string HeartStrikeLegacy = "LEG_RLK_034";
 
                 /// <summary>
-                /// Lifesteal<br/>
+                /// <b>Lifesteal</b><br/>
                 /// 6-Cost Weapon
                 /// </summary>
                 public const string CorruptedAshbringerLegacy = "LEG_RLK_067";
 
                 /// <summary>
-                /// Battlecry: Destroy a random minion in your opponent's hand, deck, and battlefield.<br/>
+                /// <b>Battlecry:</b> Destroy a random minion in your opponent's hand, deck, and battlefield.<br/>
                 /// 7-Cost 4/6 Undead Minion
                 /// </summary>
                 public const string PatchwerkLegacy = "LEG_RLK_071";
 
                 /// <summary>
-                /// Battlecry: Summon two 1/1 Fighters with Rush and Reborn.<br/>
+                /// <b>Battlecry:</b> Summon two 1/1 Fighters with <b>Rush</b> and <b>Reborn</b>.<br/>
                 /// 5-Cost 3/3 Minion
                 /// </summary>
                 public const string PossessifierLegacy = "LEG_RLK_077";
 
                 /// <summary>
-                /// Battlecry: Raise ALL of your Corpses as 1/1 Risen Golems with Rush. For each that can't fit, give one +2/+2.<br/>
+                /// <b>Battlecry:</b> Raise ALL of your <b>Corpses</b> as 1/1 Risen Golems with <b>Rush</b>. For each that can't fit, give one +2/+2.<br/>
                 /// 8-Cost 9/7 Undead Minion
                 /// </summary>
                 public const string LordMarrowgarLegacy = "LEG_RLK_085";
 
                 /// <summary>
-                /// Draw a card. Spend 2 Corpses to draw another.<br/>
+                /// Draw a card. Spend 2 <b>Corpses</b> to draw another.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DefrostLegacy = "LEG_RLK_101";
@@ -536,19 +536,19 @@ namespace HearthDb
                 public const string ObliterateLegacy = "LEG_RLK_125";
 
                 /// <summary>
-                /// Battlecry: Draw 2 spells. If they're both Frost spells, deal 2 damage to all enemies.<br/>
+                /// <b>Battlecry:</b> Draw 2 spells. If they're both Frost spells, deal 2 damage to all enemies.<br/>
                 /// 6-Cost 3/6 Minion
                 /// </summary>
                 public const string OverseerFrigidaraLegacy = "LEG_RLK_224";
 
                 /// <summary>
-                /// Taunt. Deathrattle: Spend 3 Corpses to summon a 3/3 Risen Ymirjar with Taunt.<br/>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Spend 3 <b>Corpses</b> to summon a 3/3 Risen Ymirjar with <b>Taunt</b>.<br/>
                 /// 3-Cost 4/3 Undead Minion
                 /// </summary>
                 public const string YmirjarDeathbringerLegacy = "LEG_RLK_226";
 
                 /// <summary>
-                /// Summon two 1/1 Zombies with Reborn.<br/>
+                /// Summon two 1/1 Zombies with <b>Reborn</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string GraveyardShiftLegacy = "LEG_RLK_705";
@@ -560,25 +560,25 @@ namespace HearthDb
                 public const string RimefangSwordLegacy = "LEG_RLK_710";
 
                 /// <summary>
-                /// Draw a weapon. Spend a Corpse to reduce its Cost by (1).<br/>
+                /// Draw a weapon. Spend a <b>Corpse</b> to reduce its Cost by (1).<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string RuneforgingLegacy = "LEG_RLK_715";
 
                 /// <summary>
-                /// Battlecry: Summon two 2/1 Rime Elementals with "Deathrattle: Deal 2 damage to a random enemy."<br/>
+                /// <b>Battlecry:</b> Summon two 2/1 Rime Elementals with "<b>Deathrattle:</b> Deal 2 damage to a random enemy."<br/>
                 /// 5-Cost 4/3 Undead Minion
                 /// </summary>
                 public const string RimeSculptorLegacy = "LEG_RLK_752";
 
                 /// <summary>
-                /// Battlecry: Spend a Corpse to gain +1/+2.<br/>
+                /// <b>Battlecry:</b> Spend a <b>Corpse</b> to gain +1/+2.<br/>
                 /// 2-Cost 2/2 Undead Minion
                 /// </summary>
                 public const string BonediggerGeistLegacy = "LEG_RLK_753";
 
                 /// <summary>
-                /// Gigantify Battlecry: Discover an Undead. Reduce its Cost by this minion's Attack.<br/>
+                /// <b>Gigantify</b> <b>Battlecry:</b> <b>Discover</b> an Undead. Reduce its Cost by this minion's Attack.<br/>
                 /// 3-Cost 2/1 Undead Minion
                 /// </summary>
                 public const string ToysnatchingGeist = "MIS_006";
@@ -590,79 +590,79 @@ namespace HearthDb
                 public const string HelmOfHumiliation = "MIS_100";
 
                 /// <summary>
-                /// Whenever your hero attacks, spend 3 Corpses to gain +1 Durability.<br/>
+                /// Whenever your hero attacks, spend 3 <b>Corpses</b> to gain +1 Durability.<br/>
                 /// 5-Cost Weapon
                 /// </summary>
                 public const string Foamrender = "MIS_101";
 
                 /// <summary>
-                /// Battlecry: If you've cast three spells while holding this, Freeze 3 random enemy minions. ({0} left!) (Ready!)<br/>
+                /// <b>Battlecry:</b> If you've cast three spells while holding this, <b>Freeze</b> 3 random enemy minions. <i>({0} left!)</i> <i>(Ready!)</i><br/>
                 /// 3-Cost 2/3 Undead/Naga Minion
                 /// </summary>
                 public const string RimescaleSiren = "NX2_035";
 
                 /// <summary>
-                /// Destroy a friendly minion to summon a 4/5 Undead with Rush.<br/>
+                /// Destroy a friendly minion to summon a 4/5 Undead with <b>Rush</b>.<br/>
                 /// 3-Cost Location
                 /// </summary>
                 public const string ConstructQuarter = "NX2_036";
 
                 /// <summary>
-                /// Colossal +2 After an enemy minion is Frozen, destroy it.<br/>
+                /// <b>Colossal +2</b> After an enemy minion is <b>Frozen</b>, destroy it.<br/>
                 /// 7-Cost 6/6 Dragon/Undead Minion
                 /// </summary>
                 public const string FrostQueenSindragosa = "NX2_037";
 
                 /// <summary>
-                /// After your hero attacks and kills a minion, gain 2 Corpses.<br/>
+                /// After your hero attacks and kills a minion, gain 2 <b>Corpses</b>.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string Soulbreaker = "RLK_012";
 
                 /// <summary>
-                /// Deal $3 damage to an enemy and Freeze it. Deal $1 damage to all other enemies.<br/>
+                /// Deal $3 damage to an enemy and <b>Freeze</b> it. Deal $1 damage to all other enemies.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string HowlingBlast = "RLK_015";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If that kills it, summon a 2/2 Zombie with Rush.<br/>
+                /// Deal $3 damage to a minion. If that kills it, summon a 2/2 Zombie with <b>Rush</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string PlagueStrike = "RLK_018";
 
                 /// <summary>
-                /// Lifesteal Deal $6 damage to a minion.<br/>
+                /// <b>Lifesteal</b> Deal $6 damage to a minion.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string DeathStrikeCore = "RLK_024";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If that kills it, Discover a Frost Rune card.<br/>
+                /// Deal $3 damage to a minion. If that kills it, <b>Discover</b> a Frost Rune card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FrostStrikeCore = "RLK_025";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If that kills it, gain a Corpse.<br/>
+                /// Deal $3 damage to a minion. If that kills it, gain a <b>Corpse</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string HeartStrikeCorePlaceholder = "RLK_034";
 
                 /// <summary>
-                /// Detonate a Corpse to deal $1 damage to all minions. If any are still alive, repeat this.<br/>
+                /// Detonate a <b>Corpse</b> to deal $1 damage to all minions. If any are still alive, repeat this.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string CorpseExplosion = "RLK_035";
 
                 /// <summary>
-                /// Deal $2 damage to an enemy and Freeze it.<br/>
+                /// Deal $2 damage to an enemy and <b>Freeze</b> it.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string IcyTouch = "RLK_038";
 
                 /// <summary>
-                /// Gain 4 Corpses. Shuffle four Crates into your deck that summon a 2/2 Undead when drawn.<br/>
+                /// Gain 4 <b>Corpses</b>. Shuffle four Crates into your deck that summon a 2/2 Undead when drawn.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string PlaguedGrainCore = "RLK_039";
@@ -674,13 +674,13 @@ namespace HearthDb
                 public const string HornOfWinter = "RLK_042";
 
                 /// <summary>
-                /// Give your minions +1/+1 and Elusive.<br/>
+                /// Give your minions +1/+1 and <b>Elusive</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string AntiMagicShellCore = "RLK_048";
 
                 /// <summary>
-                /// Give your hero +5 Health. Spend 3 Corpses to gain 5 more and draw a card.<br/>
+                /// Give your hero +5 Health. Spend 3 <b>Corpses</b> to gain 5 more and draw a card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string VampiricBlood = "RLK_051";
@@ -692,67 +692,67 @@ namespace HearthDb
                 public const string UnholyFrenzy = "RLK_056";
 
                 /// <summary>
-                /// Transform an Undead into a 4/5 Undead Monstrosity with Rush.<br/>
+                /// Transform an Undead into a 4/5 Undead Monstrosity with <b>Rush</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DarkTransformation = "RLK_057";
 
                 /// <summary>
-                /// Raise up to 5 Corpses as 2/2 Risen Ghouls with Rush.<br/>
+                /// Raise up to 5 <b>Corpses</b> as 2/2 Risen Ghouls with <b>Rush</b>.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string ArmyOfTheDeadCore = "RLK_060";
 
                 /// <summary>
-                /// At the end of your turn, raise a Corpse as a 1/3 Risen Footman with Taunt.<br/>
+                /// At the end of your turn, raise a <b>Corpse</b> as a 1/3 Risen Footman with <b>Taunt</b>.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string BattlefieldNecromancerCore = "RLK_061";
 
                 /// <summary>
-                /// Taunt Battlecry: Summon two copies of this minion.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Summon two copies of this minion.<br/>
                 /// 4-Cost 1/3 Undead Minion
                 /// </summary>
                 public const string NerubianSwarmguard = "RLK_062";
 
                 /// <summary>
-                /// Deal $5 damage. Freeze all enemy minions. Summon a 5/5 Frostwyrm.<br/>
+                /// Deal $5 damage. <b>Freeze</b> all enemy minions. Summon a 5/5 Frostwyrm.<br/>
                 /// 7-Cost Spell
                 /// </summary>
                 public const string FrostwyrmsFury = "RLK_063";
 
                 /// <summary>
-                /// Battlecry: Spend a Corpse to Discover a Blood Rune card.<br/>
+                /// <b>Battlecry:</b> Spend a <b>Corpse</b> to <b>Discover</b> a Blood Rune card.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string Hematurge = "RLK_066";
 
                 /// <summary>
-                /// Lifesteal<br/>
+                /// <b>Lifesteal</b><br/>
                 /// 6-Cost Weapon
                 /// </summary>
                 public const string CorruptedAshbringerCorePlaceholder = "RLK_067";
 
                 /// <summary>
-                /// Battlecry: Destroy a random minion in your opponent's hand, deck, and battlefield.<br/>
+                /// <b>Battlecry:</b> Destroy a random minion in your opponent's hand, deck, and battlefield.<br/>
                 /// 7-Cost 4/6 Undead Minion
                 /// </summary>
                 public const string PatchwerkCorePlaceholder = "RLK_071";
 
                 /// <summary>
-                /// Battlecry: Summon two 1/1 Fighters with Rush and Reborn.<br/>
+                /// <b>Battlecry:</b> Summon two 1/1 Fighters with <b>Rush</b> and <b>Reborn</b>.<br/>
                 /// 5-Cost 3/3 Minion
                 /// </summary>
                 public const string PossessifierCorePlaceholder = "RLK_077";
 
                 /// <summary>
-                /// Battlecry: Deal 2 damage to an enemy and your hero.<br/>
+                /// <b>Battlecry</b>: Deal 2 damage to an enemy and your hero.<br/>
                 /// 1-Cost 1/2 Undead Minion
                 /// </summary>
                 public const string NoxiousCadaverCore = "RLK_079";
 
                 /// <summary>
-                /// Taunt Deathrattle: Return this to your hand. It costs Health instead of Mana.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Return this to your hand. It costs Health instead of Mana.<br/>
                 /// 5-Cost 3/6 Undead Minion
                 /// </summary>
                 public const string DeathbringerSaurfangCore = "RLK_082";
@@ -764,13 +764,13 @@ namespace HearthDb
                 public const string Deathchiller = "RLK_083";
 
                 /// <summary>
-                /// Battlecry: Raise ALL of your Corpses as 1/1 Risen Golems with Rush. For each that can't fit, give one +2/+2.<br/>
+                /// <b>Battlecry:</b> Raise ALL of your <b>Corpses</b> as 1/1 Risen Golems with <b>Rush</b>. For each that can't fit, give one +2/+2.<br/>
                 /// 8-Cost 9/7 Undead Minion
                 /// </summary>
                 public const string LordMarrowgarCorePlaceholder = "RLK_085";
 
                 /// <summary>
-                /// Deathrattle: Summon every minion killed by this weapon.<br/>
+                /// <b>Deathrattle:</b> Summon every minion killed by this weapon.<br/>
                 /// 6-Cost Weapon
                 /// </summary>
                 public const string Frostmourne = "RLK_086";
@@ -782,13 +782,13 @@ namespace HearthDb
                 public const string Asphyxiate = "RLK_087";
 
                 /// <summary>
-                /// Draw a card. Spend 2 Corpses to draw another.<br/>
+                /// Draw a card. Spend 2 <b>Corpses</b> to draw another.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DefrostCorePlaceholder = "RLK_101";
 
                 /// <summary>
-                /// Battlecry: Gain +1 Attack for each Frost spell in your hand.<br/>
+                /// <b>Battlecry:</b> Gain +1 Attack for each Frost spell in your hand.<br/>
                 /// 1-Cost 1/2 Minion
                 /// </summary>
                 public const string YmirjarFrostbreaker = "RLK_110";
@@ -800,19 +800,19 @@ namespace HearthDb
                 public const string RepulsiveGargantuanCorePlaceholder = "RLK_115";
 
                 /// <summary>
-                /// Battlecry: If a friendly Undead died after your last turn, Discover an Unholy Rune card.<br/>
+                /// <b>Battlecry:</b> If a friendly Undead died after your last turn, <b>Discover</b> an Unholy Rune card.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string NecroticMortician = "RLK_116";
 
                 /// <summary>
-                /// Summon two 2/2 Zombies with Taunt. Spend 4 Corpses to give them Reborn.<br/>
+                /// Summon two 2/2 Zombies with <b>Taunt</b>. Spend 4 <b>Corpses</b> to give them <b>Reborn</b>.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string TombGuardians = "RLK_118";
 
                 /// <summary>
-                /// Battlecry: Shred a random minion in your deck to gain 4 Corpses.<br/>
+                /// <b>Battlecry:</b> Shred a random minion in your deck to gain 4 <b>Corpses.</b><br/>
                 /// 3-Cost 3/4 Mechanical Minion
                 /// </summary>
                 public const string MeatGrinder = "RLK_120";
@@ -836,55 +836,55 @@ namespace HearthDb
                 public const string ObliterateCorePlaceholder = "RLK_125";
 
                 /// <summary>
-                /// Reborn Battlecry and Deathrattle: Deal 2 damage to a random enemy.<br/>
+                /// <b>Reborn</b> <b>Battlecry and Deathrattle:</b> Deal 2 damage to a random enemy.<br/>
                 /// 4-Cost 3/3 Undead Minion
                 /// </summary>
                 public const string ThassarianCore = "RLK_223";
 
                 /// <summary>
-                /// Battlecry: Draw 2 spells. If they're both Frost spells, deal 2 damage to all enemies.<br/>
+                /// <b>Battlecry:</b> Draw 2 spells. If they're both Frost spells, deal 2 damage to all enemies.<br/>
                 /// 6-Cost 3/6 Minion
                 /// </summary>
                 public const string OverseerFrigidaraCorePlaceholder = "RLK_224";
 
                 /// <summary>
-                /// Battlecry: Infect all enemy minions. When they die, you summon a 2/2 Zombie with Taunt.<br/>
+                /// <b>Battlecry:</b> Infect all enemy minions. When they die, you summon a 2/2 Zombie with <b>Taunt</b>.<br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string Blightfang = "RLK_225";
 
                 /// <summary>
-                /// Taunt. Deathrattle: Spend 3 Corpses to summon a 3/3 Risen Ymirjar with Taunt.<br/>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Spend 3 <b>Corpses</b> to summon a 3/3 Risen Ymirjar with <b>Taunt</b>.<br/>
                 /// 3-Cost 4/3 Undead Minion
                 /// </summary>
                 public const string YmirjarDeathbringerCorePlaceholder = "RLK_226";
 
                 /// <summary>
-                /// Battlecry: Gain a Corpse.<br/>
+                /// <b>Battlecry</b>: Gain a <b>Corpse</b>.<br/>
                 /// 1-Cost 1/3 Undead Minion
                 /// </summary>
                 public const string BodyBaggerCore = "RLK_503";
 
                 /// <summary>
-                /// Battlecry: Spend up to 10 Corpses to summon a Risen Groom with Taunt and that much Attack and Health.<br/>
+                /// <b>Battlecry:</b> Spend up to 10 <b>Corpses</b> to summon a Risen Groom with <b>Taunt</b> and that much Attack and Health.<br/>
                 /// 5-Cost 4/4 Undead Minion
                 /// </summary>
                 public const string CorpseBride = "RLK_504";
 
                 /// <summary>
-                /// Battlecry: Spend up to 5 Corpses. Deal 2 damage to a random enemy for each.<br/>
+                /// <b>Battlecry:</b> Spend up to 5 <b>Corpses</b>. Deal 2 damage to a random enemy for each.<br/>
                 /// 6-Cost 5/5 Undead Minion
                 /// </summary>
                 public const string MarrowManipulator = "RLK_505";
 
                 /// <summary>
-                /// Taunt Battlecry: Raise up to 6 Corpses as 1/3 Risen Footmen with Taunt.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Raise up to 6 <b>Corpses</b> as 1/3 Risen Footmen with <b>Taunt</b>.<br/>
                 /// 8-Cost 8/8 Undead Minion
                 /// </summary>
                 public const string BoneguardCommander = "RLK_506";
 
                 /// <summary>
-                /// Deathrattle: Draw a Frost spell.<br/>
+                /// <b>Deathrattle:</b> Draw a Frost spell.<br/>
                 /// 2-Cost 3/2 Undead Minion
                 /// </summary>
                 public const string HarbingerOfWinterCore = "RLK_511";
@@ -902,25 +902,25 @@ namespace HearthDb
                 public const string BoneBreaker = "RLK_516";
 
                 /// <summary>
-                /// Summon two 1/1 Zombies with Reborn.<br/>
+                /// Summon two 1/1 Zombies with <b>Reborn</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string GraveyardShiftCorePlaceholder = "RLK_705";
 
                 /// <summary>
-                /// Battlecry: For the rest of the game, deal 3 damage to your opponent at the end of your turns.<br/>
+                /// <b>Battlecry:</b> For the rest of the game, deal 3 damage to your opponent at the end of your turns.<br/>
                 /// 7-Cost 7/7 Undead Minion
                 /// </summary>
                 public const string AlexandrosMograine = "RLK_706";
 
                 /// <summary>
-                /// Give your minions +1 Attack. Spend 5 Corpses to give them +3 instead.<br/>
+                /// Give your minions +1 Attack. Spend 5 <b>Corpses</b> to give them +3 instead.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string GraveStrengthCore = "RLK_707";
 
                 /// <summary>
-                /// Battlecry and Deathrattle: Draw a card.<br/>
+                /// <b>Battlecry and Deathrattle:</b> Draw a card.<br/>
                 /// 3-Cost 2/2 Undead/Draenei Minion
                 /// </summary>
                 public const string ChillfallenBaronCore = "RLK_708";
@@ -938,85 +938,85 @@ namespace HearthDb
                 public const string RimefangSwordCorePlaceholder = "RLK_710";
 
                 /// <summary>
-                /// Battlecry: Give a minion in your hand Attack equal to this minion's Attack.<br/>
+                /// <b>Battlecry:</b> Give a minion in your hand Attack equal to this minion's Attack.<br/>
                 /// 2-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string ViciousBloodworm = "RLK_711";
 
                 /// <summary>
-                /// Give all minions in your hand +1/+1. Spend 2 Corpses to give them +1/+1 more.<br/>
+                /// Give all minions in your hand +1/+1. Spend 2 <b>Corpses</b> to give them +1/+1 more.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BloodTap = "RLK_712";
 
                 /// <summary>
-                /// Deathrattle: Copy all Frost spells in your hand.<br/>
+                /// <b>Deathrattle:</b> Copy all Frost spells in your hand.<br/>
                 /// 4-Cost 4/3 Undead Minion
                 /// </summary>
                 public const string LadyDeathwhisper = "RLK_713";
 
                 /// <summary>
-                /// Draw a weapon. Spend a Corpse to reduce its Cost by (1).<br/>
+                /// Draw a weapon. Spend a <b>Corpse</b> to reduce its Cost by (1).<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string RuneforgingCorePlaceholder = "RLK_715";
 
                 /// <summary>
-                /// Taunt, Lifesteal At the end of your turn, attack the lowest Health enemy.<br/>
+                /// <b>Taunt</b>, <b>Lifesteal</b> At the end of your turn, attack the lowest Health enemy.<br/>
                 /// 6-Cost 5/6 Undead Minion
                 /// </summary>
                 public const string GnomeMuncherCore = "RLK_720";
 
                 /// <summary>
-                /// Lifesteal Infect all enemy minions. At the end of your turns, they take 2 damage.<br/>
+                /// <b>Lifesteal</b> Infect all enemy minions. At the end of your turns, they take 2 damage.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string BloodBoil = "RLK_730";
 
                 /// <summary>
-                /// Battlecry: Spend 2 Corpses to give all minions in your hand +2 Attack.<br/>
+                /// <b>Battlecry:</b> Spend 2 <b>Corpses</b> to give all minions in your hand +2 Attack.<br/>
                 /// 3-Cost 2/5 Undead Minion
                 /// </summary>
                 public const string DarkfallenNeophyte = "RLK_731";
 
                 /// <summary>
-                /// Battlecry: Spend up to 3 Corpses. Freeze that many enemy minions.<br/>
+                /// <b>Battlecry:</b> Spend up to 3 <b>Corpses</b>. <b>Freeze</b> that many enemy minions.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string MightOfMenethil = "RLK_740";
 
                 /// <summary>
-                /// Battlecry: Destroy all other minions. Gain 1 Corpse for each enemy destroyed.<br/>
+                /// <b>Battlecry:</b> Destroy all other minions. Gain 1 <b>Corpse</b> for each enemy destroyed.<br/>
                 /// 8-Cost 5/5 Undead Minion
                 /// </summary>
                 public const string Soulstealer = "RLK_741";
 
                 /// <summary>
-                /// Costs (1) less for each Corpse you've spent this game.<br/>
+                /// Costs (1) less for each <b>Corpse</b> you've spent this game.<br/>
                 /// 9-Cost 8/8 Undead Minion
                 /// </summary>
                 public const string StitchedGiantCore = "RLK_744";
 
                 /// <summary>
-                /// Reborn At the end of your turn, spend 4 Corpses to summon a copy of this minion.<br/>
+                /// <b>Reborn</b> At the end of your turn, spend 4 <b>Corpses</b> to summon a copy of this minion.<br/>
                 /// 4-Cost 2/4 Undead Minion
                 /// </summary>
                 public const string MalignantHorror = "RLK_745";
 
                 /// <summary>
-                /// Battlecry: Summon two 2/1 Rime Elementals with "Deathrattle: Deal 2 damage to a random enemy."<br/>
+                /// <b>Battlecry:</b> Summon two 2/1 Rime Elementals with "<b>Deathrattle:</b> Deal 2 damage to a random enemy."<br/>
                 /// 5-Cost 4/3 Undead Minion
                 /// </summary>
                 public const string RimeSculptorCorePlaceholder = "RLK_752";
 
                 /// <summary>
-                /// Battlecry: Spend a Corpse to gain +1/+2.<br/>
+                /// <b>Battlecry:</b> Spend a <b>Corpse</b> to gain +1/+2.<br/>
                 /// 2-Cost 2/2 Undead Minion
                 /// </summary>
                 public const string BonediggerGeistCorePlaceholder = "RLK_753";
 
                 /// <summary>
-                /// Battlecry: Give a friendly Undead +2 Attack.<br/>
+                /// <b>Battlecry:</b> Give a friendly Undead +2 Attack.<br/>
                 /// Tier-1 1/2 Undead Minion
                 /// </summary>
                 public const string SkeletalSidekickCore = "RLK_958";
@@ -1028,31 +1028,31 @@ namespace HearthDb
                 public const string BanelingBarrage = "SC_001";
 
                 /// <summary>
-                /// Deathrattle: Your Zerg minions have +1/+1 for the rest of the game.<br/>
+                /// <b>Deathrattle:</b> Your Zerg minions have +1/+1 for the rest of the game.<br/>
                 /// 3-Cost 3/2 Minion
                 /// </summary>
                 public const string Infestor = "SC_002";
 
                 /// <summary>
-                /// Battlecry: Summon a minion from your opponent's hand. Your other Zerg minions gain Reborn and attack it.<br/>
+                /// <b>Battlecry:</b> Summon a minion from your opponent's hand. Your other Zerg minions gain <b>Reborn</b> and attack it.<br/>
                 /// 4-Cost 5/3 Minion
                 /// </summary>
                 public const string Viper = "SC_018";
 
                 /// <summary>
-                /// Rush After you cast a Frost spell, gain Reborn.<br/>
+                /// <b>Rush</b> After you cast a Frost spell, gain <b>Reborn</b>.<br/>
                 /// 3-Cost 4/2 Undead/Beast Minion
                 /// </summary>
                 public const string RambunctiousStuffy = "TOY_821";
 
                 /// <summary>
-                /// Choose a friendly minion. Discover a spell that costs (4) or less for it to cast when it dies.<br/>
+                /// Choose a friendly minion. <b>Discover</b> a spell that costs (4) or less for it to cast when it dies.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SilkStitching = "TOY_822";
 
                 /// <summary>
-                /// Battlecry: If your deck started with a Blood, Frost, or Unholy card, gain Lifesteal, Reborn, or Rush respectively.<br/>
+                /// <b>Battlecry:</b> If your deck started with a Blood, Frost, or Unholy card, gain <b>Lifesteal</b>, <b>Reborn</b>, or <b>Rush</b> respectively.<br/>
                 /// 3-Cost 3/3 Undead Minion
                 /// </summary>
                 public const string RainbowSeamstress = "TOY_823";
@@ -1064,43 +1064,43 @@ namespace HearthDb
                 public const string DarkthornQuilter = "TOY_824";
 
                 /// <summary>
-                /// Give Undead in your hand +1/+1. (Gain |4(Corpse, Corpses) to upgrade.)<br/>
+                /// Give Undead in your hand +1/+1. <i>(Gain |4(<b>Corpse</b>, <b>Corpses</b>) to upgrade.)</i><br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string LesserSpinelSpellstone = "TOY_825";
 
                 /// <summary>
-                /// Give all minions "Deathrattle: Deal 1 damage to all minions."<br/>
+                /// Give all minions "<b>Deathrattle:</b> Deal 1 damage to all minions."<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ThreadsOfDespair = "TOY_826";
 
                 /// <summary>
-                /// Taunt Battlecry: Spend 5 Corpses to summon a copy of this.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Spend 5 <b>Corpses</b> to summon a copy of this.<br/>
                 /// 2-Cost 3/2 Undead/Mechanical Minion
                 /// </summary>
                 public const string ShamblingZombietank = "TOY_827";
 
                 /// <summary>
-                /// Miniaturize, Taunt Deathrattle: Give Undead in your hand +2/+2.<br/>
+                /// <b>Miniaturize</b>, <b>Taunt</b> <b>Deathrattle:</b> Give Undead in your hand +2/+2.<br/>
                 /// 5-Cost 2/6 Undead Minion
                 /// </summary>
                 public const string AmateurPuppeteer = "TOY_828";
 
                 /// <summary>
-                /// Battlecry: Destroy the enemy minion with the most Attack! Shuffle my Head into your deck, you must get it back!<br/>
+                /// <b>Battlecry:</b> Destroy the enemy minion with the most <i>Attack!</i> Shuffle my Head into your deck, you must get it <i>back!</i><br/>
                 /// 6-Cost Hero
                 /// </summary>
                 public const string TheHeadlessHorseman = "TOY_829";
 
                 /// <summary>
-                /// Battlecry: Discover a 5, 3, and 1-Cost minion to stitch to this. Deathrattle: Summon the 5-Cost minion.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a 5, 3, and 1-Cost minion to stitch to this. <b>Deathrattle:</b> Summon the 5-Cost minion.<br/>
                 /// 6-Cost 6/4 Undead Minion
                 /// </summary>
                 public const string DrStitchensew = "TOY_830";
 
                 /// <summary>
-                /// Deathrattle: Shuffle two random Plagues into your opponent's deck.<br/>
+                /// <b>Deathrattle:</b> Shuffle two random Plagues into your opponent's deck.<br/>
                 /// 2-Cost 3/2 Undead Minion
                 /// </summary>
                 public const string DistressedKvaldir = "TTN_450";
@@ -1112,25 +1112,25 @@ namespace HearthDb
                 public const string DownWithTheShip = "TTN_454";
 
                 /// <summary>
-                /// Battlecry: Destroy a Plague in your opponent's deck to deal 3 damage to all enemy minions.<br/>
+                /// <b>Battlecry:</b> Destroy a Plague in your opponent's deck to deal 3 damage to all enemy minions.<br/>
                 /// 4-Cost 4/3 Minion
                 /// </summary>
                 public const string TombTraitor = "TTN_455";
 
                 /// <summary>
-                /// Battlecry: Spend 3 Corpses to deal 3 damage. Forge: Gain them instead.<br/>
+                /// <b>Battlecry:</b> Spend 3 <b>Corpses</b> to deal 3 damage. <b>Forge:</b> Gain them instead.<br/>
                 /// 3-Cost 3/3 Undead Minion
                 /// </summary>
                 public const string Eulogizer = "TTN_457";
 
                 /// <summary>
-                /// Rush, Reborn Costs (1) less for each Plague shuffled into the enemy deck this game.<br/>
+                /// <b><b>Rush</b>, Reborn</b> Costs (1) less for each Plague shuffled into the enemy deck this game.<br/>
                 /// 11-Cost 8/5 Minion
                 /// </summary>
                 public const string ChainedGuardian = "TTN_459";
 
                 /// <summary>
-                /// Discover a spell from your deck. If it's a Frost spell, Freeze a random enemy minion.<br/>
+                /// <b>Discover</b> a spell from your deck. If it's a Frost spell, <b>Freeze</b> a random enemy minion.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string NorthernNavigation = "TTN_735";
@@ -1142,7 +1142,7 @@ namespace HearthDb
                 public const string StaffOfThePrimus = "TTN_736";
 
                 /// <summary>
-                /// Titan After this uses an ability, Discover a card with that Rune.<br/>
+                /// <b>Titan</b> After this uses an ability, <b>Discover</b> a card with that Rune.<br/>
                 /// 8-Cost 7/9 Minion
                 /// </summary>
                 public const string ThePrimus = "TTN_737";
@@ -1154,13 +1154,13 @@ namespace HearthDb
                 public const string FrozenOver = "TTN_744";
 
                 /// <summary>
-                /// Battlecry: Shuffle all three Plagues into your opponent's deck. Plagues they draw this game are unending.<br/>
+                /// <b>Battlecry:</b> Shuffle all three Plagues into your opponent's deck. Plagues they draw this game are unending.<br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
                 public const string Helya = "TTN_850";
 
                 /// <summary>
-                /// Deathrattle: Freeze 3 random enemies. Any that were already Frozen take 5 damage instead.<br/>
+                /// <b><b>Deathrattle:</b> Freeze</b> 3 random enemies. Any that were already <b>Frozen</b> take 5 damage instead.<br/>
                 /// 3-Cost 2/2 Undead/Pirate Minion
                 /// </summary>
                 public const string FrostbittenFreebooter = "VAC_402";
@@ -1172,31 +1172,31 @@ namespace HearthDb
                 public const string HorizonsEdge = "VAC_425";
 
                 /// <summary>
-                /// Deathrattle: For the rest of the game, your minions have +1 Attack.<br/>
+                /// <b>Deathrattle:</b> For the rest of the game, your minions have +1 Attack.<br/>
                 /// 4-Cost 4/3 Pirate/Undead Minion
                 /// </summary>
                 public const string ElizaGoreblade = "VAC_426";
 
                 /// <summary>
-                /// Deal $3 damage. Spend 3 Corpses to return this to your hand at the end of your turn.<br/>
+                /// Deal $3 damage. Spend 3 <b>Corpses</b> to return this to your hand at the end of your turn.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Corpsicle = "VAC_427";
 
                 /// <summary>
-                /// Costs (1) if a character is Frozen.<br/>
+                /// Costs (1) if a character is <b>Frozen</b>.<br/>
                 /// 4-Cost 4/4 Undead Minion
                 /// </summary>
                 public const string SnowShredder = "VAC_429";
 
                 /// <summary>
-                /// Whenever you play a Deathrattle minion, give it Reborn.<br/>
+                /// Whenever you play a <b>Deathrattle</b> minion, give it <b>Reborn</b>.<br/>
                 /// 2-Cost 1/4 Undead/Pirate Minion
                 /// </summary>
                 public const string BrittleboneBuccaneer = "VAC_436";
 
                 /// <summary>
-                /// Shaman Tourist Battlecry: Draw a spell of each spell school.<br/>
+                /// <b>Shaman Tourist</b> <b>Battlecry:</b> Draw a spell of each spell school.<br/>
                 /// 4-Cost 4/4 Undead Minion
                 /// </summary>
                 public const string Buttons = "VAC_437";
@@ -1208,109 +1208,109 @@ namespace HearthDb
                 public const string GhoulsNight = "VAC_445";
 
                 /// <summary>
-                /// Freeze a character. Draw a card for each Frozen character.<br/>
+                /// <b>Freeze</b> a character. Draw a card for each <b>Frozen</b> character.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SlipperySlope = "VAC_513";
 
                 /// <summary>
-                /// Rush Deathrattle: Summon a 1/1 Dreadhound with Reborn.<br/>
+                /// <b>Rush</b> <b>Deathrattle:</b> Summon a 1/1 Dreadhound with <b>Reborn</b>.<br/>
                 /// 2-Cost 2/2 Pirate/Undead Minion
                 /// </summary>
                 public const string DreadhoundHandler = "VAC_514";
 
                 /// <summary>
-                /// Taunt. Deathrattle: Summon a random 8-Cost minion.<br/>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Summon a random 8-Cost minion.<br/>
                 /// 6-Cost 2/2 Undead Minion
                 /// </summary>
                 public const string TravelSecurity = "WORK_010";
 
                 /// <summary>
-                /// Give ALL minions Reborn, then destroy all minions.<br/>
+                /// Give ALL minions <b>Reborn</b>, then destroy all minions.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string EternalLayover = "WORK_028";
 
                 /// <summary>
-                /// Discover a card from your deck. Spend 5 Corpses to copy it.<br/>
+                /// <b>Discover</b> a card from your deck. Spend 5 <b>Corpses</b> to copy it.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SoulSearching = "WORK_070";
 
                 /// <summary>
-                /// Battlecry: Excavate a treasure. It costs (0).<br/>
+                /// <b>Battlecry:</b> <b>Excavate</b> a treasure. It costs (0).<br/>
                 /// 4-Cost 3/3 Undead Minion
                 /// </summary>
                 public const string SkeletonCrew = "WW_322";
 
                 /// <summary>
-                /// Deathrattle: The next time you Excavate, resummon this.<br/>
+                /// <b>Deathrattle:</b> The next time you <b>Excavate</b>, resummon this.<br/>
                 /// 2-Cost 2/1 Undead Minion
                 /// </summary>
                 public const string PileOfBones = "WW_324";
 
                 /// <summary>
-                /// Deal $3 damage. Excavate a treasure.<br/>
+                /// Deal $3 damage. <b>Excavate</b> a treasure.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ReapWhatYouSow = "WW_352";
 
                 /// <summary>
-                /// Deal damage to a minion equal to your Corpses.<br/>
+                /// Deal damage to a minion equal to your <b>Corpses</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string FistfulOfCorpses = "WW_354";
 
                 /// <summary>
-                /// Taunt Battlecry: If you've Excavated twice, your next card this turn costs (7) less.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> If you've <b>Excavated</b> twice, your next card this turn costs (7) less.<br/>
                 /// 7-Cost 7/7 Undead/Beast Minion
                 /// </summary>
                 public const string HarrowingOx = "WW_356";
 
                 /// <summary>
-                /// At the end of your turn, gain 5 Corpses. At the start of your turn, spend 5 Corpses to give your hero +5 Health.<br/>
+                /// At the end of your turn, gain 5 <b>Corpses</b>. At the start of your turn, spend 5 <b>Corpses</b> to give your hero +5 Health.<br/>
                 /// 4-Cost 2/8 Undead Minion
                 /// </summary>
                 public const string MawAndPaw = "WW_357";
 
                 /// <summary>
-                /// Battlecry: Discover an Undead. Quickdraw: It costs (2) less.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> an Undead. <b>Quickdraw:</b> It costs (2) less.<br/>
                 /// 3-Cost 4/3 Undead Minion
                 /// </summary>
                 public const string FarmHand = "WW_358";
 
                 /// <summary>
-                /// Summon four 1/1 Undead with Rush that die at the end of turn.<br/>
+                /// Summon four 1/1 Undead with <b>Rush</b> that die at the end of turn.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string CropRotation = "WW_368";
 
                 /// <summary>
-                /// Rush. Costs (1) less for each minion that died this game. Deathrattle: Take control of a random enemy minion.<br/>
+                /// <b>Rush</b>. Costs (1) less for each minion that died this game. <b>Deathrattle:</b> Take control of a random enemy minion.<br/>
                 /// 25-Cost 6/3 Undead Minion
                 /// </summary>
                 public const string ReskaThePitBoss = "WW_373";
 
                 /// <summary>
-                /// Spend up to 8 Corpses to summon a random minion of that Cost.<br/>
+                /// Spend up to 8 <b>Corpses</b> to summon a random minion of that Cost.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string CorpseFarm = "WW_374";
 
                 /// <summary>
-                /// Discover a weapon. Spend 3 Corpses to give it +1/+1.<br/>
+                /// <b>Discover</b> a weapon. Spend 3 <b>Corpses</b> to give it +1/+1.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string RunesOfDarkness = "YOG_511";
 
                 /// <summary>
-                /// After you summon an Undead, give it Poisonous.<br/>
+                /// After you summon an Undead, give it <b>Poisonous</b>.<br/>
                 /// 4-Cost 3/5 Undead Minion
                 /// </summary>
                 public const string SicklyGrimewalker = "YOG_512";
 
                 /// <summary>
-                /// Give a friendly Undead +2/+2. Spend 5 Corpses to summon a copy of it.<br/>
+                /// Give a friendly Undead +2/+2. Spend 5 <b>Corpses</b> to summon a copy of it.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string SinisterSoulcage = "YOG_513";

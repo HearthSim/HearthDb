@@ -14,13 +14,13 @@ namespace HearthDb
                 public const string Bash = "AT_064";
 
                 /// <summary>
-                /// Battlecry: If you have a minion with Taunt, gain +1 Durability.<br/>
+                /// <b>Battlecry:</b> If you have a minion with <b>Taunt</b>, gain +1 Durability.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string KingsDefender = "AT_065";
 
                 /// <summary>
-                /// Inspire: Give your weapon +1 Attack.<br/>
+                /// <b>Inspire:</b> Give your weapon +1 Attack.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string OrgrimmarAspirant = "AT_066";
@@ -32,25 +32,25 @@ namespace HearthDb
                 public const string MagnataurAlpha = "AT_067";
 
                 /// <summary>
-                /// Give your Taunt minions +2/+2.<br/>
+                /// Give your <b>Taunt</b> minions +2/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Bolster = "AT_068";
 
                 /// <summary>
-                /// Taunt Battlecry: Give a minion Taunt.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Give a minion <b>Taunt</b>.<br/>
                 /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string SparringPartner = "AT_069";
 
                 /// <summary>
-                /// Battlecry: If you're holding a Dragon, gain +1 Attack and Charge.<br/>
+                /// <b>Battlecry:</b> If you're holding a Dragon, gain +1 Attack and <b>Charge</b>.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string AlexstraszasChampion = "AT_071";
 
                 /// <summary>
-                /// Battlecry: Draw 3 cards. Put any minions you drew directly into the battlefield.<br/>
+                /// <b>Battlecry:</b> Draw 3 cards. Put any minions you drew directly into the battlefield.<br/>
                 /// 10-Cost 7/7 Minion
                 /// </summary>
                 public const string VarianWrynn = "AT_072";
@@ -74,43 +74,43 @@ namespace HearthDb
                 public const string FrozenBuckler = "AV_109";
 
                 /// <summary>
-                /// Your minions cost (2) less this turn (but not less than 1).<br/>
+                /// Your minions cost (2) less this turn <i>(but not less than 1)</i>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ToTheFront = "AV_119";
 
                 /// <summary>
-                /// Battlecry: If you have gained 15 or more Armor this game, gain +3/+3 and Charge.<br/>
+                /// <b>Battlecry:</b> If you have gained 15 or more Armor this game, gain +3/+3 and <b>Charge</b>.<br/>
                 /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string CaptainGalvangar = "AV_145";
 
                 /// <summary>
-                /// Battlecry: Equip a 5/2 Unstoppable Force.<br/>
+                /// <b>Battlecry:</b> Equip a 5/2 Unstoppable Force.<br/>
                 /// 7-Cost Hero
                 /// </summary>
                 public const string RokaraTheValorous = "AV_202";
 
                 /// <summary>
-                /// After you play a Taunt minion, draw a card.<br/>
+                /// After you play a <b>Taunt</b> minion, draw a card.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string GloryChaser = "AV_321";
 
                 /// <summary>
-                /// Destroy a damaged minion. Freeze all other minions.<br/>
+                /// Destroy a damaged minion. <b>Freeze</b> all other minions.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string SnowedIn = "AV_322";
 
                 /// <summary>
-                /// Taunt Battlecry: Add two 2/4 Grunts with Taunt to your hand.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Add two 2/4 Grunts with <b>Taunt</b> to your hand.<br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
                 public const string Scrapsmith = "AV_323";
 
                 /// <summary>
-                /// Rush. Honorable Kill: Draw a weapon.<br/>
+                /// <b>Rush</b>. <b>Honorable Kill:</b> Draw a weapon.<br/>
                 /// 4-Cost 3/5 Minion
                 /// </summary>
                 public const string AxeBerserker = "AV_565";
@@ -122,31 +122,31 @@ namespace HearthDb
                 public const string IcebloodGarrison = "AV_660";
 
                 /// <summary>
-                /// Battlecry: Resurrect 2 friendly Frenzy minions. Deal 1 damage to all other minions.<br/>
+                /// <b>Battlecry:</b> Resurrect 2 friendly <b>Frenzy</b> minions. Deal 1 damage to all other minions.<br/>
                 /// 7-Cost 5/4 Minion
                 /// </summary>
                 public const string OverlordSaurfang = "BAR_334";
 
                 /// <summary>
-                /// Battlecry and Frenzy: Deal 1 damage to all other minions.<br/>
+                /// <b>Battlecry and Frenzy:</b> Deal 1 damage to all other minions.<br/>
                 /// 4-Cost 3/6 Minion
                 /// </summary>
                 public const string WhirlingCombatant = "BAR_840";
 
                 /// <summary>
-                /// Give a random Taunt minion in your hand +1/+1 and copy it.<br/>
+                /// Give a random <b>Taunt</b> minion in your hand +1/+1 and copy it.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BulkUp = "BAR_841";
 
                 /// <summary>
-                /// Give minions in your hand +1/+1. (Upgrades when you have 5 Mana.)<br/>
+                /// Give minions in your hand +1/+1. <i>(Upgrades when you have 5 Mana.)</i><br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ConditioningRank1 = "BAR_842";
 
                 /// <summary>
-                /// Frenzy: Gain +1 Attack for each damaged character.<br/>
+                /// <b>Frenzy:</b> Gain +1 Attack for each damaged character.<br/>
                 /// 1-Cost 1/3 Minion
                 /// </summary>
                 public const string WarsongEnvoy = "BAR_843";
@@ -164,19 +164,19 @@ namespace HearthDb
                 public const string Rancor = "BAR_845";
 
                 /// <summary>
-                /// Taunt. Battlecry: If your hero attacked this turn, summon a copy of this.<br/>
+                /// <b>Taunt</b>. <b>Battlecry:</b> If your hero attacked this turn, summon a copy of this.<br/>
                 /// 5-Cost 4/4 Minion
                 /// </summary>
                 public const string MorshanElite = "BAR_846";
 
                 /// <summary>
-                /// Rush After a friendly minion attacks and survives, give it +1/+1.<br/>
+                /// <b>Rush</b> After a friendly minion attacks and survives, give it +1/+1.<br/>
                 /// 3-Cost 2/3 Minion
                 /// </summary>
                 public const string Rokara = "BAR_847";
 
                 /// <summary>
-                /// Rush Frenzy: Draw a card.<br/>
+                /// <b>Rush</b> <b>Frenzy:</b> Draw a card.<br/>
                 /// 5-Cost 4/6 Pirate Minion
                 /// </summary>
                 public const string StonemaulAnchorman = "BAR_896";
@@ -194,48 +194,48 @@ namespace HearthDb
                 public const string EterniumRover = "BOT_059";
 
                 /// <summary>
-                /// Give a minion Rush. Draw a card.<br/>
+                /// Give a minion <b>Rush</b>. Draw a card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string RocketBoots = "BOT_067";
 
                 /// <summary>
-                /// Summon 3 random minions from your hand. Give them Rush.<br/>
+                /// Summon 3 random minions from your hand. Give them <b>Rush</b>.<br/>
                 /// 9-Cost Spell
                 /// </summary>
                 public const string TheBoomship = "BOT_069";
 
                 /// <summary>
-                /// Battlecry: Deal 5 damage randomly split among all minions except Mechs.<br/>
+                /// <b>Battlecry:</b> Deal 5 damage randomly split among all minions except Mechs.<br/>
                 /// 5-Cost 3/4 Mechanical Minion
                 /// </summary>
                 public const string DynOMatic = "BOT_104";
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Whenever this minion takes damage, summon a 2/3 Mech with Taunt.<br/>
+                /// Whenever this minion takes damage, summon a 2/3 Mech with <b>Taunt</b>.<br/>
                 /// Tier-4 2/6 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Whenever this minion takes damage, summon a 4/6 Mech with Taunt.<br/>
+                /// Whenever this minion takes damage, summon a 4/6 Mech with <b>Taunt</b>.<br/>
                 /// Tier-4 4/12 Mechanical Minion
                 /// </summary>
                 public const string SecurityRover = "BOT_218";
 
                 /// <summary>
-                /// Magnetic Elusive<br/>
+                /// <b>Magnetic</b> <b>Elusive</b><br/>
                 /// 7-Cost 4/8 Mechanical Minion
                 /// </summary>
                 public const string BerylliumNullifier = "BOT_237";
 
                 /// <summary>
-                /// Battlecry: For the rest of the game, your Mechs have Rush.<br/>
+                /// <b>Battlecry:</b> For the rest of the game, your Mechs have <b>Rush</b>.<br/>
                 /// 7-Cost Hero
                 /// </summary>
                 public const string DrBoomMadGenius = "BOT_238";
 
                 /// <summary>
-                /// Discover a Mech. If you have 10 Mana Crystals, keep all 3 instead.<br/>
+                /// <b>Discover</b> a Mech. If you have 10 Mana Crystals, keep all 3 instead.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string OmegaAssembly = "BOT_299";
@@ -265,19 +265,19 @@ namespace HearthDb
                 public const string Bladestorm = "BT_117";
 
                 /// <summary>
-                /// Battlecry: Choose an enemy minion. Battle it to the death!<br/>
+                /// <b>Battlecry:</b> Choose an enemy minion. Battle it to the death!<br/>
                 /// 3-Cost 1/10 Minion
                 /// </summary>
                 public const string WarmaulChallenger = "BT_120";
 
                 /// <summary>
-                /// Dormant for 2 turns. When this awakens, equip a 3/2 Axe.<br/>
+                /// <b>Dormant</b> for 2 turns. When this awakens, equip a 3/2 Axe.<br/>
                 /// 1-Cost 2/2 Demon Minion
                 /// </summary>
                 public const string ImprisonedGanarg = "BT_121";
 
                 /// <summary>
-                /// Rush Deathrattle: Shuffle 'Kargath Prime' into your deck.<br/>
+                /// <b>Rush</b> <b>Deathrattle:</b> Shuffle 'Kargath Prime' into your deck.<br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
                 public const string KargathBladefist = "BT_123";
@@ -289,13 +289,13 @@ namespace HearthDb
                 public const string CorsairCache = "BT_124";
 
                 /// <summary>
-                /// Rush Costs (1) less for each damaged minion.<br/>
+                /// <b>Rush</b> Costs (1) less for each damaged minion.<br/>
                 /// 7-Cost 6/8 Minion
                 /// </summary>
                 public const string BloodboilBrute = "BT_138";
 
                 /// <summary>
-                /// Battlecry: If there is a damaged minion, gain +1/+1 and Rush.<br/>
+                /// <b>Battlecry:</b> If there is a damaged minion, gain +1/+1 and <b>Rush</b>.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string BonechewerRaider = "BT_140";
@@ -307,7 +307,7 @@ namespace HearthDb
                 public const string SwordAndBoard = "BT_233";
 
                 /// <summary>
-                /// Taunt. Deathrattle: Gain Armor equal to this minion's Attack.<br/>
+                /// <b>Taunt</b>. <b>Deathrattle</b>: Gain Armor equal to this minion's Attack.<br/>
                 /// 5-Cost 4/5 Mechanical Minion
                 /// </summary>
                 public const string ScrapGolem = "BT_249";
@@ -319,7 +319,7 @@ namespace HearthDb
                 public const string BulwarkOfAzzinoth = "BT_781";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 2-Cost 0/7 Minion
                 /// </summary>
                 public const string PublicDefender = "CFM_300";
@@ -331,7 +331,7 @@ namespace HearthDb
                 public const string BrassKnucklesGANGS = "CFM_631";
 
                 /// <summary>
-                /// Battlecry: If you have a weapon equipped, give all minions in your hand and deck +2/+2.<br/>
+                /// <b>Battlecry:</b> If you have a weapon equipped, give all minions in your hand and deck +2/+2.<br/>
                 /// 4-Cost 2/2 Minion
                 /// </summary>
                 public const string HobartGrapplehammerGANGS = "CFM_643";
@@ -343,7 +343,7 @@ namespace HearthDb
                 public const string SleepWithTheFishes = "CFM_716";
 
                 /// <summary>
-                /// Draw a Taunt minion. Give it +2/+2.<br/>
+                /// Draw a <b>Taunt</b> minion. Give it +2/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string StolenGoodsGANGS = "CFM_752";
@@ -355,19 +355,19 @@ namespace HearthDb
                 public const string GrimyGadgeteerGANGS = "CFM_754";
 
                 /// <summary>
-                /// Battlecry: Give a random weapon in your hand +1/+1.<br/>
+                /// <b>Battlecry:</b> Give a random weapon in your hand +1/+1.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string GrimestreetPawnbroker = "CFM_755";
 
                 /// <summary>
-                /// Taunt Whenever this minion deals damage, gain that much Armor.<br/>
+                /// <b>Taunt</b> Whenever this minion deals damage, gain that much Armor.<br/>
                 /// 5-Cost 3/7 Minion
                 /// </summary>
                 public const string AlleyArmorsmithGANGS = "CFM_756";
 
                 /// <summary>
-                /// Discover a Taunt minion. Give it +1/+2.<br/>
+                /// <b>Discover</b> a <b>Taunt</b> minion. Give it +1/+2.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string IKnowAGuyGANGS = "CFM_940";
@@ -379,7 +379,7 @@ namespace HearthDb
                 public const string BashCore = "CORE_AT_064";
 
                 /// <summary>
-                /// Battlecry: Deal 5 damage randomly split among all minions except Mechs.<br/>
+                /// <b>Battlecry:</b> Deal 5 damage randomly split among all minions except Mechs.<br/>
                 /// 5-Cost 3/4 Mechanical Minion
                 /// </summary>
                 public const string DynOMaticCorePlaceholder = "CORE_BOT_104";
@@ -403,7 +403,7 @@ namespace HearthDb
                 public const string ExecuteCore = "CORE_CS2_108";
 
                 /// <summary>
-                /// Battlecry: The next weapon you play costs (1) less.<br/>
+                /// <b>Battlecry:</b> The next weapon you play costs (1) less.<br/>
                 /// 1-Cost 2/1 Pirate Minion
                 /// </summary>
                 public const string BloodsailDeckhandCorePlaceholder = "CORE_CS3_008";
@@ -415,13 +415,13 @@ namespace HearthDb
                 public const string WarCacheCorePlaceholder = "CORE_CS3_009";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 4-Cost 5/4 Minion
                 /// </summary>
                 public const string WarsongOutriderCorePlaceholder = "CORE_CS3_030";
 
                 /// <summary>
-                /// Taunt Battlecry: Equip a 3/2 Sword.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Equip a 3/2 Sword.<br/>
                 /// 4-Cost 2/5 Pirate Minion
                 /// </summary>
                 public const string SwordEaterCorePlaceholder = "CORE_DMF_521";
@@ -433,13 +433,13 @@ namespace HearthDb
                 public const string MinefieldCorePlaceholder = "CORE_DMF_522";
 
                 /// <summary>
-                /// Battlecry: Attack ALL other minions.<br/>
+                /// <b>Battlecry:</b> Attack ALL other minions.<br/>
                 /// 8-Cost 12/12 Dragon Minion
                 /// </summary>
                 public const string DeathwingMadAspectCore = "CORE_DRG_026";
 
                 /// <summary>
-                /// Whenever you summon a minion with 3 or less Attack, give it Charge.<br/>
+                /// Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>.<br/>
                 /// 3-Cost 2/3 Minion
                 /// </summary>
                 public const string WarsongCommanderCorePlaceholder = "CORE_EX1_084";
@@ -463,7 +463,7 @@ namespace HearthDb
                 public const string ArmorsmithCorePlaceholder = "CORE_EX1_402";
 
                 /// <summary>
-                /// Destroy all minions except one. (chosen randomly)<br/>
+                /// Destroy all minions except one. <i>(chosen randomly)</i><br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string BrawlCore = "CORE_EX1_407";
@@ -481,13 +481,13 @@ namespace HearthDb
                 public const string GorehowlCorePlaceholder = "CORE_EX1_411";
 
                 /// <summary>
-                /// Charge Has +6 Attack while damaged.<br/>
+                /// <b>Charge</b> Has +6 Attack while damaged.<br/>
                 /// 8-Cost 4/9 Minion
                 /// </summary>
                 public const string GrommashHellscreamCore = "CORE_EX1_414";
 
                 /// <summary>
-                /// Battlecry: Deal 1 damage to a minion and give it +2 Attack.<br/>
+                /// <b>Battlecry:</b> Deal 1 damage to a minion and give it +2 Attack.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string CruelTaskmasterCorePlaceholder = "CORE_EX1_603";
@@ -505,43 +505,43 @@ namespace HearthDb
                 public const string ShieldBlockCore = "CORE_EX1_606";
 
                 /// <summary>
-                /// Discover a Temporary Execute, Shield Block, or Brawl.<br/>
+                /// <b>Discover</b> a <b>Temporary</b> Execute, Shield Block, or Brawl.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string GarroshsGiftCorePlaceholder = "CORE_GIFT_07";
 
                 /// <summary>
-                /// Rush After this attacks and kills a minion, gain +2/+2.<br/>
+                /// <b>Rush</b> After this attacks and kills a minion, gain +2/+2.<br/>
                 /// 5-Cost 4/5 Minion
                 /// </summary>
                 public const string DariusCrowleyCorePlaceholder = "CORE_GIL_547";
 
                 /// <summary>
-                /// Battlecry: Draw a Rush minion from your deck.<br/>
+                /// <b>Battlecry:</b> Draw a <b>Rush</b> minion from your deck.<br/>
                 /// 1-Cost 1/2 Minion
                 /// </summary>
                 public const string TownCrierCore = "CORE_GIL_580";
 
                 /// <summary>
-                /// Deathrattle: Give +2/+1 to a random friendly minion.<br/>
+                /// <b>Deathrattle:</b> Give +2/+1 to a random friendly minion.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
                 public const string WoodcuttersAxeCorePlaceholder = "CORE_GIL_653";
 
                 /// <summary>
-                /// Battlecry: Gain 5 Armor.<br/>
+                /// <b>Battlecry:</b> Gain 5 Armor.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
                 public const string ShieldmaidenCorePlaceholder = "CORE_GVG_053";
 
                 /// <summary>
-                /// Deathrattle: If it's your opponent's turn, gain 6 Armor.<br/>
+                /// <b>Deathrattle:</b> If it's your opponent's turn, gain 6 Armor.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string MountainfireArmorCorePlaceholder = "CORE_ICC_062";
 
                 /// <summary>
-                /// Battlecry and Deathrattle: Deal 1 damage to all minions.<br/>
+                /// <b>Battlecry and Deathrattle:</b> Deal 1 damage to all minions.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string BloodRazorCorePlaceholder = "CORE_ICC_064";
@@ -565,7 +565,7 @@ namespace HearthDb
                 public const string ForgeOfSoulsCorePlaceholder = "CORE_ICC_281";
 
                 /// <summary>
-                /// After this minion survives damage, summon a random Legendary minion.<br/>
+                /// After this minion survives damage, summon a random <b>Legendary</b> minion.<br/>
                 /// 8-Cost 4/6 Undead Minion
                 /// </summary>
                 public const string RotfaceCorePlaceholder = "CORE_ICC_405";
@@ -577,13 +577,13 @@ namespace HearthDb
                 public const string ValkyrSoulclaimerCorePlaceholder = "CORE_ICC_408";
 
                 /// <summary>
-                /// Battlecry: Gain +1/+1 for each damaged minion.<br/>
+                /// <b>Battlecry:</b> Gain +1/+1 for each damaged minion.<br/>
                 /// 5-Cost 3/3 Undead Minion
                 /// </summary>
                 public const string DeathRevenantCorePlaceholder = "CORE_ICC_450";
 
                 /// <summary>
-                /// Battlecry: Equip a 4/3 Shadowmourne that also damages adjacent minions.<br/>
+                /// <b>Battlecry</b>: Equip a 4/3 Shadowmourne that also damages adjacent minions.<br/>
                 /// 8-Cost Hero
                 /// </summary>
                 public const string ScourgelordGarroshCorePlaceholder = "CORE_ICC_834";
@@ -601,37 +601,37 @@ namespace HearthDb
                 public const string CallToTheStandCorePlaceholder = "CORE_MAW_027";
 
                 /// <summary>
-                /// Taunt. Battlecry: If you have 4 or more Armor, gain +4/+4.<br/>
+                /// <b><b>Taunt</b>.</b> <b>Battlecry:</b> If you have 4 or more Armor, gain +4/+4.<br/>
                 /// 5-Cost 4/4 Minion
                 /// </summary>
                 public const string MawswornBailiffCorePlaceholder = "CORE_MAW_028";
 
                 /// <summary>
-                /// Battlecry: If you have a weapon equipped, give it +1/+1. Otherwise, draw a weapon.<br/>
+                /// <b>Battlecry:</b> If you have a weapon equipped, give it +1/+1. Otherwise, draw a weapon.<br/>
                 /// 3-Cost 3/2 Minion
                 /// </summary>
                 public const string WeaponsExpertCorePlaceholder = "CORE_MAW_029";
 
                 /// <summary>
-                /// Taunt Has +3 Attack while damaged.<br/>
+                /// <b>Taunt</b> Has +3 Attack while damaged.<br/>
                 /// 4-Cost 2/6 Minion
                 /// </summary>
                 public const string BloodhoofBraveCorePlaceholder = "CORE_OG_218";
 
                 /// <summary>
-                /// Taunt Battlecry: Deal damage equal to your Armor to an enemy minion.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Deal damage equal to your Armor to an enemy minion.<br/>
                 /// 4-Cost 4/5 Dragon Minion
                 /// </summary>
                 public const string OnyxianDrakeCorePlaceholder = "CORE_ONY_024";
 
                 /// <summary>
-                /// Battlecry: Discover a weapon. If your opponent guesses your choice, they get a copy.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a weapon. If your opponent guesses your choice, they get a copy.<br/>
                 /// 3-Cost 3/4 Pirate Minion
                 /// </summary>
                 public const string SuspiciousPirateCorePlaceholder = "CORE_REV_006";
 
                 /// <summary>
-                /// Rush After this attacks, equip it.<br/>
+                /// <b>Rush</b> After this attacks, equip it.<br/>
                 /// 7-Cost 5/10 Minion
                 /// </summary>
                 public const string RemorniaLivingBladeCorePlaceholder = "CORE_REV_316";
@@ -643,7 +643,7 @@ namespace HearthDb
                 public const string AnimaExtractorCorePlaceholder = "CORE_REV_332";
 
                 /// <summary>
-                /// Summon three 1/3 Jailers with Taunt. If you have 20 or less Health, give them +1/+1.<br/>
+                /// Summon three 1/3 Jailers with <b>Taunt</b>. If you have 20 or less Health, give them +1/+1.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string BurdenOfPrideCorePlaceholder = "CORE_REV_334";
@@ -655,7 +655,7 @@ namespace HearthDb
                 public const string RiotCorePlaceholder = "CORE_REV_337";
 
                 /// <summary>
-                /// Has +2 Attack and Charge while damaged.<br/>
+                /// Has +2 Attack and <b>Charge</b> while damaged.<br/>
                 /// 2-Cost 1/4 Minion
                 /// </summary>
                 public const string CrazedWretchCorePlaceholder = "CORE_REV_930";
@@ -667,13 +667,13 @@ namespace HearthDb
                 public const string ConquerorsBannerCorePlaceholder = "CORE_REV_931";
 
                 /// <summary>
-                /// After your hero attacks, give your damaged minions +1/+2. Infuse (2): +2/+2 instead.<br/>
+                /// After your hero attacks, give your damaged minions +1/+2. <b>Infuse (2):</b> +2/+2 instead.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string ImbuedAxeCorePlaceholder = "CORE_REV_933";
 
                 /// <summary>
-                /// Battlecry: Gain +1/+1 for each damaged minion, then attack all enemies.<br/>
+                /// <b>Battlecry:</b> Gain +1/+1 for each damaged minion, then attack all enemies.<br/>
                 /// 6-Cost 3/7 Minion
                 /// </summary>
                 public const string DecimatorOlgraCorePlaceholder = "CORE_REV_934";
@@ -691,19 +691,19 @@ namespace HearthDb
                 public const string CargoGuardCore = "CORE_SW_030";
 
                 /// <summary>
-                /// Tradeable Gain 8 Armor.<br/>
+                /// <b>Tradeable</b> Gain 8 Armor.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string HeavyPlateCore = "CORE_SW_094";
 
                 /// <summary>
-                /// Taunt Battlecry: Discover a Taunt minion.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> <b>Discover</b> a <b>Taunt</b> minion.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string FrightenedFlunkyCore = "CORE_ULD_195";
 
                 /// <summary>
-                /// Taunt At the end of your turn, give all Taunt minions in your hand +2/+2.<br/>
+                /// <b>Taunt</b> At the end of your turn, give all <b>Taunt</b> minions in your hand +2/+2.<br/>
                 /// 6-Cost 4/8 Beast Minion
                 /// </summary>
                 public const string ArmagedilloCorePlaceholder = "CORE_ULD_258";
@@ -715,7 +715,7 @@ namespace HearthDb
                 public const string PlagueOfWrathCorePlaceholder = "CORE_ULD_707";
 
                 /// <summary>
-                /// Give a friendly minion +2 Attack and Charge.<br/>
+                /// Give a friendly minion +2 Attack and <b>Charge</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ChargeLegacy = "CS2_103";
@@ -757,7 +757,7 @@ namespace HearthDb
                 public const string CleaveLegacy = "CS2_114";
 
                 /// <summary>
-                /// Battlecry: The next weapon you play costs (1) less.<br/>
+                /// <b>Battlecry:</b> The next weapon you play costs (1) less.<br/>
                 /// 1-Cost 2/1 Pirate Minion
                 /// </summary>
                 public const string BloodsailDeckhandLegacy = "CS3_008";
@@ -769,13 +769,13 @@ namespace HearthDb
                 public const string WarCacheLegacy = "CS3_009";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 4-Cost 5/4 Minion
                 /// </summary>
                 public const string WarsongOutriderLegacy = "CS3_030";
 
                 /// <summary>
-                /// Gain 1 Armor. (Upgrades each turn!)<br/>
+                /// Gain 1 Armor. <i>(Upgrades each turn!)</i><br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string DrBoomsScheme = "DAL_008";
@@ -787,7 +787,7 @@ namespace HearthDb
                 public const string DimensionalRipper = "DAL_059";
 
                 /// <summary>
-                /// Battlecry: Shuffle a Bomb into your opponent's deck. When drawn, it explodes for 5 damage.<br/>
+                /// <b>Battlecry:</b> Shuffle a Bomb into your opponent's deck. When drawn, it explodes for 5 damage.<br/>
                 /// 3-Cost 3/3 Mechanical Minion
                 /// </summary>
                 public const string ClockworkGoblin = "DAL_060";
@@ -805,13 +805,13 @@ namespace HearthDb
                 public const string Wrenchcalibur = "DAL_063";
 
                 /// <summary>
-                /// Battlecry: Summon two 1/1 Boom Bots for each Bomb in your opponent's deck.<br/>
+                /// <b>Battlecry:</b> Summon two 1/1 Boom Bots for each Bomb in your opponent's deck.<br/>
                 /// 7-Cost 7/7 Minion
                 /// </summary>
                 public const string BlastmasterBoom = "DAL_064";
 
                 /// <summary>
-                /// Battlecry: Summon a copy of a minion in your deck. Give it Rush.<br/>
+                /// <b>Battlecry:</b> Summon a copy of a minion in your deck. Give it <b>Rush</b>.<br/>
                 /// 10-Cost 7/9 Mechanical Minion
                 /// </summary>
                 public const string TheBoomReaver = "DAL_070";
@@ -823,13 +823,13 @@ namespace HearthDb
                 public const string ViciousScraphound = "DAL_759";
 
                 /// <summary>
-                /// Deal $1 damage to a minion. If it survives, add a Lackey to your hand.<br/>
+                /// Deal $1 damage to a minion. If it survives, add a <b>Lackey</b> to your hand.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ImproveMorale = "DAL_769";
 
                 /// <summary>
-                /// Battlecry: If you have 10 Mana Crystals, deal 10 damage to a minion.<br/>
+                /// <b>Battlecry:</b> If you have 10 Mana Crystals, deal 10 damage to a minion.<br/>
                 /// 4-Cost 4/5 Mechanical Minion
                 /// </summary>
                 public const string OmegaDevastator = "DAL_770";
@@ -847,7 +847,7 @@ namespace HearthDb
                 public const string DefiasCannoneer = "DED_519";
 
                 /// <summary>
-                /// Tradeable After you Trade this, gain +2 Durability.<br/>
+                /// <b>Tradeable</b> After you <b>Trade</b> this, gain +2 Durability.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string BlacksmithingHammer = "DED_527";
@@ -865,19 +865,19 @@ namespace HearthDb
                 public const string BurningHeart = "DEEP_011";
 
                 /// <summary>
-                /// Choose a damaged minion. Summon a copy of it that goes Dormant for one turn.<br/>
+                /// Choose a damaged minion. Summon a copy of it that goes <b>Dormant</b> for one turn.<br/>
                 /// 4-Cost Location
                 /// </summary>
                 public const string CrimsonExpanse = "DEEP_019";
 
                 /// <summary>
-                /// Battlecry: If your deck started with no duplicates, your Battlecries trigger twice for the rest of the game.<br/>
+                /// <b>Battlecry:</b> If your deck started with no duplicates, your <b>Battlecries</b> trigger twice for the rest of the game.<br/>
                 /// 8-Cost 2/4 Minion
                 /// </summary>
                 public const string DeepminerBrann = "DEEP_020";
 
                 /// <summary>
-                /// Taunt Battlecry: Equip a 3/2 Sword.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Equip a 3/2 Sword.<br/>
                 /// 4-Cost 2/5 Pirate Minion
                 /// </summary>
                 public const string SwordEater = "DMF_521";
@@ -889,7 +889,7 @@ namespace HearthDb
                 public const string Minefield = "DMF_522";
 
                 /// <summary>
-                /// Rush Deathrattle: Add two 1/1 Riders with Rush to your hand.<br/>
+                /// <b>Rush</b> <b>Deathrattle:</b> Add two 1/1 Riders with <b>Rush</b> to your hand.<br/>
                 /// 2-Cost 1/3 Mechanical Minion
                 /// </summary>
                 public const string BumperCar = "DMF_523";
@@ -901,55 +901,55 @@ namespace HearthDb
                 public const string RingmastersBaton = "DMF_524";
 
                 /// <summary>
-                /// Battlecry: Draw a Mech, Dragon, and Pirate.<br/>
+                /// <b>Battlecry:</b> Draw a Mech, Dragon, and Pirate.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
                 public const string RingmasterWhatley = "DMF_525";
 
                 /// <summary>
-                /// Draw a Rush minion. Corrupt: Give it +2/+1.<br/>
+                /// Draw a <b>Rush</b> minion. <b>Corrupt:</b> Give it +2/+1.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string StageDive = "DMF_526";
 
                 /// <summary>
-                /// Rush. Costs (1) less for each friendly minion with a unique minion type.<br/>
+                /// <b><b>Rush</b>.</b> Costs (1) less for each friendly minion with a unique minion type.<br/>
                 /// 5-Cost 5/5 Dragon Minion
                 /// </summary>
                 public const string TentTrasher = "DMF_528";
 
                 /// <summary>
-                /// After a friendly Rush minion attacks, deal 2 damage to the enemy hero.<br/>
+                /// After a friendly <b>Rush</b> minion attacks, deal 2 damage to the enemy hero.<br/>
                 /// 2-Cost 1/4 Minion
                 /// </summary>
                 public const string ETCGodOfMetal = "DMF_529";
 
                 /// <summary>
-                /// Give a random Taunt minion in your hand +5/+5.<br/>
+                /// Give a random <b>Taunt</b> minion in your hand +5/+5.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string FeatOfStrength = "DMF_530";
 
                 /// <summary>
-                /// Battlecry: Give a random minion in your hand +1/+1.<br/>
+                /// <b>Battlecry:</b> Give a random minion in your hand +1/+1.<br/>
                 /// 2-Cost 3/2 Mechanical Minion
                 /// </summary>
                 public const string StageHand = "DMF_531";
 
                 /// <summary>
-                /// Rush. Battlecry: If you've Invoked twice, summon 2 copies of this.<br/>
+                /// <b>Rush</b>. <b>Battlecry:</b> If you've <b>Invoked</b> twice, summon 2 copies of this.<br/>
                 /// 3-Cost 3/2 Dragon Minion
                 /// </summary>
                 public const string ScionOfRuin = "DRG_019";
 
                 /// <summary>
-                /// Battlecry: Add a Lackey to your hand. Gain 3 Armor.<br/>
+                /// <b>Battlecry:</b> Add a <b>Lackey</b> to your hand. Gain 3 Armor.<br/>
                 /// 3-Cost 2/3 Minion
                 /// </summary>
                 public const string EvilQuartermaster = "DRG_020";
 
                 /// <summary>
-                /// Battlecry: Invoke Galakrond.<br/>
+                /// <b>Battlecry:</b> <b>Invoke</b> Galakrond.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
                 public const string RitualChopper = "DRG_021";
@@ -967,7 +967,7 @@ namespace HearthDb
                 public const string Skybarge = "DRG_023";
 
                 /// <summary>
-                /// Battlecry: Add a random Pirate to your hand.<br/>
+                /// <b>Battlecry:</b> Add a random Pirate to your hand.<br/>
                 /// 1-Cost 1/2 Pirate Minion
                 /// </summary>
                 public const string SkyRaider = "DRG_024";
@@ -979,13 +979,13 @@ namespace HearthDb
                 public const string Ancharrr = "DRG_025";
 
                 /// <summary>
-                /// Battlecry: Attack ALL other minions.<br/>
+                /// <b>Battlecry:</b> Attack ALL other minions.<br/>
                 /// 8-Cost 12/12 Dragon Minion
                 /// </summary>
                 public const string DeathwingMadAspect = "DRG_026";
 
                 /// <summary>
-                /// Invoke Galakrond. Deal $1 damage to all minions.<br/>
+                /// <b>Invoke</b> Galakrond. Deal $1 damage to all minions.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string Awaken = "DRG_249";
@@ -997,19 +997,19 @@ namespace HearthDb
                 public const string MoltenBreath = "DRG_500";
 
                 /// <summary>
-                /// Battlecry: Draw 1 minion. Give it +4/+4. ()<br/>
+                /// <b>Battlecry:</b> Draw 1 minion. Give it +4/+4. <i>()</i><br/>
                 /// 7-Cost Hero
                 /// </summary>
                 public const string GalakrondTheUnbreakable = "DRG_650";
 
                 /// <summary>
-                /// Taunt Battlecry: If you control no other minions, gain +2/+2 and Rush.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> If you control no other minions, gain +2/+2 and <b>Rush</b>.<br/>
                 /// 5-Cost 5/5 Dragon Minion
                 /// </summary>
                 public const string DrumSoloist = "ETC_035";
 
                 /// <summary>
-                /// Battlecry: Copy each minion of a different type in your hand.<br/>
+                /// <b>Battlecry:</b> Copy each minion of a different type in your hand.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string RockMasterVoone = "ETC_121";
@@ -1021,19 +1021,19 @@ namespace HearthDb
                 public const string RazorfenRockstar = "ETC_355";
 
                 /// <summary>
-                /// Give your hero +2 Attack this turn. Gain 2 Armor. Finale: Play your last Riff.<br/>
+                /// Give your hero +2 Attack this turn. Gain 2 Armor. <b>Finale:</b> Play your last Riff.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string VerseRiff = "ETC_363";
 
                 /// <summary>
-                /// Draw a minion. Give it +3/+3. Finale: Play your last Riff.<br/>
+                /// Draw a minion. Give it +3/+3. <b>Finale:</b> Play your last Riff.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ChorusRiff = "ETC_364";
 
                 /// <summary>
-                /// Summon a 3/4 Rocker with Taunt and a 4/3 with Rush. Finale: Play your last Riff.<br/>
+                /// Summon a 3/4 Rocker with <b>Taunt</b> and a 4/3 with <b>Rush</b>. <b>Finale:</b> Play your last Riff.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string BridgeRiff = "ETC_365";
@@ -1045,7 +1045,7 @@ namespace HearthDb
                 public const string RoaringApplause = "ETC_372";
 
                 /// <summary>
-                /// Rush. Battlecry: Gain +1/+1 for each minion of a different type you've played this game. ()<br/>
+                /// <b>Rush</b>. <b>Battlecry:</b> Gain +1/+1 for each minion of a different type you've played this game. <i>()</i><br/>
                 /// 3-Cost 2/3 Minion
                 /// </summary>
                 public const string PowerSlider = "ETC_408";
@@ -1057,13 +1057,13 @@ namespace HearthDb
                 public const string BlackrockNRoll = "ETC_417";
 
                 /// <summary>
-                /// Deathrattle: Deal 1 damage to all minions. (Gain Armor while equipped to improve!)<br/>
+                /// <b>Deathrattle:</b> Deal 1 damage to all minions. <i>(Gain Armor while equipped to improve!)</i><br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string KodohideDrumkit = "ETC_520";
 
                 /// <summary>
-                /// Whenever you summon a minion with 3 or less Attack, give it Charge.<br/>
+                /// Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>.<br/>
                 /// 3-Cost 2/3 Minion
                 /// </summary>
                 public const string WarsongCommanderLegacy = "EX1_084";
@@ -1081,7 +1081,7 @@ namespace HearthDb
                 public const string BattleRage = "EX1_392";
 
                 /// <summary>
-                /// Battlecry: Equip a 2/2 weapon.<br/>
+                /// <b>Battlecry:</b> Equip a 2/2 weapon.<br/>
                 /// 4-Cost 3/3 Minion
                 /// </summary>
                 public const string ArathiWeaponsmith = "EX1_398";
@@ -1099,7 +1099,7 @@ namespace HearthDb
                 public const string Armorsmith = "EX1_402";
 
                 /// <summary>
-                /// Destroy all minions except one. (chosen randomly)<br/>
+                /// Destroy all minions except one. <i>(chosen randomly)</i><br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string Brawl = "EX1_407";
@@ -1129,13 +1129,13 @@ namespace HearthDb
                 public const string Gorehowl = "EX1_411";
 
                 /// <summary>
-                /// Charge Has +6 Attack while damaged.<br/>
+                /// <b>Charge</b> Has +6 Attack while damaged.<br/>
                 /// 8-Cost 4/9 Minion
                 /// </summary>
                 public const string GrommashHellscream = "EX1_414";
 
                 /// <summary>
-                /// Battlecry: Deal 1 damage to a minion and give it +2 Attack.<br/>
+                /// <b>Battlecry:</b> Deal 1 damage to a minion and give it +2 Attack.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string CruelTaskmaster = "EX1_603";
@@ -1159,19 +1159,19 @@ namespace HearthDb
                 public const string InnerRage = "EX1_607";
 
                 /// <summary>
-                /// Deathrattle: Deal 1 damage to all minions.<br/>
+                /// <b>Deathrattle:</b> Deal 1 damage to all minions.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string DeathsBite = "FP1_021";
 
                 /// <summary>
-                /// Battlecry, Spellburst, and Deathrattle: Deal 2 damage to all other minions.<br/>
+                /// <b>Battlecry, <b>Spellburst</b>, and Deathrattle:</b> Deal 2 damage to all other minions.<br/>
                 /// 5-Cost 3/5 Demon Minion
                 /// </summary>
                 public const string HostileInvader = "GDB_226";
 
                 /// <summary>
-                /// Discover a spell. Spend 2 Armor to Discover another.<br/>
+                /// <b>Discover</b> a spell. Spend 2 Armor to <b>Discover</b> another.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Jettison = "GDB_227";
@@ -1183,13 +1183,13 @@ namespace HearthDb
                 public const string CaptainsLog = "GDB_228";
 
                 /// <summary>
-                /// Battlecry: The next Draenei you play immediately attacks a random enemy.<br/>
+                /// <b>Battlecry:</b> The next Draenei you play immediately attacks a random enemy.<br/>
                 /// 3-Cost 3/4 Draenei Minion
                 /// </summary>
                 public const string ExpeditionSergeant = "GDB_229";
 
                 /// <summary>
-                /// Immune while attacking. At the end of EACH turn, swap this minion's Attack and Health.<br/>
+                /// <b>Immune</b> while attacking. At the end of EACH turn, swap this minion's Attack and Health.<br/>
                 /// 4-Cost 7/2 Draenei Minion
                 /// </summary>
                 public const string StalwartAvenger = "GDB_230";
@@ -1201,7 +1201,7 @@ namespace HearthDb
                 public const string CrystallineGreatmace = "GDB_231";
 
                 /// <summary>
-                /// Battlecry: The next Draenei you play gives your hero its Attack for that turn.<br/>
+                /// <b>Battlecry:</b> The next Draenei you play gives your hero its Attack for that turn.<br/>
                 /// 4-Cost 5/4 Draenei Minion
                 /// </summary>
                 public const string UnyieldingVindicator = "GDB_232";
@@ -1213,25 +1213,25 @@ namespace HearthDb
                 public const string DwarfPlanet = "GDB_233";
 
                 /// <summary>
-                /// Start of Game: Shuffle 7 Replicating Spores into your deck.<br/>
+                /// <b>Start of Game:</b> Shuffle 7 Replicating Spores into your deck.<br/>
                 /// 6-Cost 6/7 Minion
                 /// </summary>
                 public const string SporeEmpressMoldara = "GDB_234";
 
                 /// <summary>
-                /// After this attacks, all other friendly minions can attack again (except Exarch Akama).<br/>
+                /// After this attacks, all other friendly minions can attack again <i>(except Exarch Akama)</i>.<br/>
                 /// 5-Cost 3/6 Draenei Minion
                 /// </summary>
                 public const string ExarchAkama = "GDB_235";
 
                 /// <summary>
-                /// Discover a Temporary Execute, Shield Block, or Brawl.<br/>
+                /// <b>Discover</b> a <b>Temporary</b> Execute, Shield Block, or Brawl.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string GarroshsGift = "GIFT_07";
 
                 /// <summary>
-                /// Rush<br/>
+                /// <b>Rush</b><br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string RabidWorgen = "GIL_113";
@@ -1243,7 +1243,7 @@ namespace HearthDb
                 public const string BlackhowlGunspire = "GIL_152";
 
                 /// <summary>
-                /// Rush Has +3 Attack while damaged.<br/>
+                /// <b>Rush</b> Has +3 Attack while damaged.<br/>
                 /// 2-Cost 1/3 Beast Minion
                 /// </summary>
                 public const string RedbandWasp = "GIL_155";
@@ -1255,25 +1255,25 @@ namespace HearthDb
                 public const string DeadlyArsenal = "GIL_537";
 
                 /// <summary>
-                /// Rush After this attacks and kills a minion, gain +2/+2.<br/>
+                /// <b>Rush</b> After this attacks and kills a minion, gain +2/+2.<br/>
                 /// 5-Cost 4/5 Minion
                 /// </summary>
                 public const string DariusCrowley = "GIL_547";
 
                 /// <summary>
-                /// Battlecry: Draw a Rush minion from your deck.<br/>
+                /// <b>Battlecry:</b> Draw a <b>Rush</b> minion from your deck.<br/>
                 /// 1-Cost 1/2 Minion
                 /// </summary>
                 public const string TownCrier = "GIL_580";
 
                 /// <summary>
-                /// Deathrattle: Give +2/+1 to a random friendly minion.<br/>
+                /// <b>Deathrattle:</b> Give +2/+1 to a random friendly minion.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
                 public const string WoodcuttersAxe = "GIL_653";
 
                 /// <summary>
-                /// Echo Deal $1 damage to all minions.<br/>
+                /// <b>Echo</b> Deal $1 damage to all minions.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Warpath = "GIL_654";
@@ -1290,7 +1290,7 @@ namespace HearthDb
                 public const string FesterootHulk = "GIL_655";
 
                 /// <summary>
-                /// Rush Battlecry: Gain +3 Attack this turn.<br/>
+                /// <b>Rush</b> <b>Battlecry:</b> Gain +3 Attack this turn.<br/>
                 /// 4-Cost 2/5 Minion
                 /// </summary>
                 public const string MilitiaCommander = "GIL_803";
@@ -1314,7 +1314,7 @@ namespace HearthDb
                 public const string Crush = "GVG_052";
 
                 /// <summary>
-                /// Battlecry: Gain 5 Armor.<br/>
+                /// <b>Battlecry:</b> Gain 5 Armor.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
                 public const string Shieldmaiden = "GVG_053";
@@ -1327,17 +1327,17 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Battlecry: Give a friendly Mech +2/+2.<br/>
+                /// <b>Battlecry:</b> Give a friendly Mech +2/+2.<br/>
                 /// Tier-3 2/5 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Battlecry: Give a friendly Mech +4/+4.<br/>
+                /// <b>Battlecry:</b> Give a friendly Mech +4/+4.<br/>
                 /// Tier-3 4/10 Mechanical Minion
                 /// </summary>
                 public const string ScrewjankClunker = "GVG_055";
 
                 /// <summary>
-                /// Battlecry and Deathrattle: Shuffle a Mine into your opponent's deck. When drawn, explode for 10 damage!<br/>
+                /// <b>Battlecry and Deathrattle:</b> Shuffle a Mine into your opponent's deck. When drawn, explode for 10 damage!<br/>
                 /// 6-Cost 6/5 Mechanical Minion
                 /// </summary>
                 public const string IronJuggernautGVG = "GVG_056";
@@ -1655,13 +1655,13 @@ namespace HearthDb
                 public const string GarroshHellscream_AnnhyldeDeathcallerHeroHeroSkins = "HERO_01z";
 
                 /// <summary>
-                /// Deathrattle: If it's your opponent's turn, gain 6 Armor.<br/>
+                /// <b>Deathrattle:</b> If it's your opponent's turn, gain 6 Armor.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string MountainfireArmor = "ICC_062";
 
                 /// <summary>
-                /// Battlecry and Deathrattle: Deal 1 damage to all minions.<br/>
+                /// <b>Battlecry and Deathrattle:</b> Deal 1 damage to all minions.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string BloodRazor = "ICC_064";
@@ -1685,7 +1685,7 @@ namespace HearthDb
                 public const string ForgeOfSouls = "ICC_281";
 
                 /// <summary>
-                /// After this minion survives damage, summon a random Legendary minion.<br/>
+                /// After this minion survives damage, summon a random <b>Legendary</b> minion.<br/>
                 /// 8-Cost 4/6 Undead Minion
                 /// </summary>
                 public const string Rotface = "ICC_405";
@@ -1697,13 +1697,13 @@ namespace HearthDb
                 public const string ValkyrSoulclaimer = "ICC_408";
 
                 /// <summary>
-                /// Battlecry: Gain +1/+1 for each damaged minion.<br/>
+                /// <b>Battlecry:</b> Gain +1/+1 for each damaged minion.<br/>
                 /// 5-Cost 3/3 Undead Minion
                 /// </summary>
                 public const string DeathRevenant = "ICC_450";
 
                 /// <summary>
-                /// Battlecry: Equip a 4/3 Shadowmourne that also damages adjacent minions.<br/>
+                /// <b>Battlecry</b>: Equip a 4/3 Shadowmourne that also damages adjacent minions.<br/>
                 /// 8-Cost Hero
                 /// </summary>
                 public const string ScourgelordGarrosh = "ICC_834";
@@ -1715,13 +1715,13 @@ namespace HearthDb
                 public const string BringItOn = "ICC_837";
 
                 /// <summary>
-                /// Give a friendly minion +3/+3. Deal $1 damage to all other minions. Overload: (1)<br/>
+                /// Give a friendly minion +3/+3. Deal $1 damage to all other minions. <b>Overload:</b> (1)<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string JamSession = "JAM_013";
 
                 /// <summary>
-                /// Taunt Battlecry: Transform a friendly minion into a copy of this.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Transform a friendly minion into a copy of this.<br/>
                 /// 4-Cost 4/5 Beast Minion
                 /// </summary>
                 public const string BackstageBouncer = "JAM_014";
@@ -1733,13 +1733,13 @@ namespace HearthDb
                 public const string RemixedTuningFork = "JAM_015";
 
                 /// <summary>
-                /// Give a minion Rush. Finale: And +1/+1.<br/>
+                /// Give a minion <b>Rush</b>. <b>Finale:</b> And +1/+1.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string ThroughFelAndFlames = "JAM_017";
 
                 /// <summary>
-                /// For each enemy minion, summon a 1/1 Pawn with Taunt.<br/>
+                /// For each enemy minion, summon a 1/1 Pawn with <b>Taunt</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ProtectTheKing = "KAR_026";
@@ -1757,13 +1757,13 @@ namespace HearthDb
                 public const string IronforgePortalKARA = "KAR_091";
 
                 /// <summary>
-                /// At the end of your turn, summon a 1/1 Scarab with Taunt.<br/>
+                /// At the end of your turn, summon a 1/1 Scarab with <b>Taunt</b>.<br/>
                 /// 7-Cost 7/7 Minion
                 /// </summary>
                 public const string ObsidianDestroyer = "LOE_009";
 
                 /// <summary>
-                /// Taunt<br/>
+                /// <b>Taunt</b><br/>
                 /// 3-Cost 3/4 Beast Minion
                 /// </summary>
                 public const string FierceMonkey = "LOE_022";
@@ -1787,7 +1787,7 @@ namespace HearthDb
                 public const string BladedGauntlet = "LOOT_044";
 
                 /// <summary>
-                /// Summon one 5/5 Mithril Golem. (Equip a weapon to upgrade.)<br/>
+                /// Summon one 5/5 Mithril Golem. <i>(Equip a weapon to upgrade.)</i><br/>
                 /// 7-Cost Spell
                 /// </summary>
                 public const string LesserMithrilSpellstone = "LOOT_203";
@@ -1805,31 +1805,31 @@ namespace HearthDb
                 public const string RecklessFlurry = "LOOT_364";
 
                 /// <summary>
-                /// Taunt Can only attack if you have 5 or more Armor.<br/>
+                /// <b>Taunt</b> Can only attack if you have 5 or more Armor.<br/>
                 /// 6-Cost 5/9 Minion
                 /// </summary>
                 public const string GemstuddedGolem = "LOOT_365";
 
                 /// <summary>
-                /// Battlecry: For each enemy minion, gain 2 Armor.<br/>
+                /// <b>Battlecry:</b> For each enemy minion, gain 2 Armor.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string DrywhiskerArmorer = "LOOT_367";
 
                 /// <summary>
-                /// Recruit a minion.<br/>
+                /// <b>Recruit</b> a minion.<br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string GatherYourParty = "LOOT_370";
 
                 /// <summary>
-                /// After your hero attacks, Recruit a minion.<br/>
+                /// After your hero attacks, <b>Recruit</b> a minion.<br/>
                 /// 8-Cost Weapon
                 /// </summary>
                 public const string Woecleaver = "LOOT_380";
 
                 /// <summary>
-                /// At the end of your turn, summon a random minion with Cost equal to your Armor (up to 10).<br/>
+                /// At the end of your turn, summon a random minion with Cost equal to your Armor <i>(up to 10)</i>.<br/>
                 /// 8-Cost 4/8 Minion
                 /// </summary>
                 public const string GeosculptorYip = "LOOT_519";
@@ -1841,25 +1841,25 @@ namespace HearthDb
                 public const string CallToTheStand = "MAW_027";
 
                 /// <summary>
-                /// Taunt. Battlecry: If you have 4 or more Armor, gain +4/+4.<br/>
+                /// <b><b>Taunt</b>.</b> <b>Battlecry:</b> If you have 4 or more Armor, gain +4/+4.<br/>
                 /// 5-Cost 4/4 Minion
                 /// </summary>
                 public const string MawswornBailiff = "MAW_028";
 
                 /// <summary>
-                /// Battlecry: If you have a weapon equipped, give it +1/+1. Otherwise, draw a weapon.<br/>
+                /// <b>Battlecry:</b> If you have a weapon equipped, give it +1/+1. Otherwise, draw a weapon.<br/>
                 /// 3-Cost 3/2 Minion
                 /// </summary>
                 public const string WeaponsExpert = "MAW_029";
 
                 /// <summary>
-                /// Add 5 random Taunt minions to your hand. They are Temporary.<br/>
+                /// Add 5 random <b>Taunt</b> minions to your hand. They are <b>Temporary</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string StandardizedPack = "MIS_705";
 
                 /// <summary>
-                /// Rush. Deathrattle: Shuffle three Bombs into your opponent's deck.<br/>
+                /// <b>Rush</b>. <b>Deathrattle:</b> Shuffle three Bombs into your opponent's deck.<br/>
                 /// 10-Cost 8/8 Mechanical Minion
                 /// </summary>
                 public const string SafetyExpert = "MIS_711";
@@ -1871,7 +1871,7 @@ namespace HearthDb
                 public const string PartScrapper = "MIS_902";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 4-Cost 4/3 Minion
                 /// </summary>
                 public const string KorkronEliteLegacy = "NEW1_011";
@@ -1883,7 +1883,7 @@ namespace HearthDb
                 public const string CommandingShout = "NEW1_036";
 
                 /// <summary>
-                /// Taunt. Battlecry: If you have 5 or more Armor, summon a copy of this.<br/>
+                /// <b>Taunt</b>. <b>Battlecry:</b> If you have 5 or more Armor, summon a copy of this.<br/>
                 /// 6-Cost 3/8 Undead Minion
                 /// </summary>
                 public const string Fleshshaper = "NX2_027";
@@ -1895,31 +1895,31 @@ namespace HearthDb
                 public const string Hookfist3000 = "NX2_028";
 
                 /// <summary>
-                /// Discover a Taunt minion. If you play it this turn, repeat this.<br/>
+                /// <b>Discover</b> a <b>Taunt</b> minion. If you play it this turn, repeat this.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string TrainingSession = "NX2_029";
 
                 /// <summary>
-                /// Deathrattle: Return this to your hand.<br/>
+                /// <b>Deathrattle:</b> Return this to your hand.<br/>
                 /// 5-Cost Weapon
                 /// </summary>
                 public const string TentaclesForArms = "OG_033";
 
                 /// <summary>
-                /// Battlecry: Deal 1 damage to all other minions.<br/>
+                /// <b>Battlecry:</b> Deal 1 damage to all other minions.<br/>
                 /// 3-Cost 3/3 Undead Minion
                 /// </summary>
                 public const string RavagingGhoul = "OG_149";
 
                 /// <summary>
-                /// Taunt Has +3 Attack while damaged.<br/>
+                /// <b>Taunt</b> Has +3 Attack while damaged.<br/>
                 /// 4-Cost 2/6 Minion
                 /// </summary>
                 public const string BloodhoofBrave = "OG_218";
 
                 /// <summary>
-                /// Battlecry: Equip a random weapon.<br/>
+                /// <b>Battlecry:</b> Equip a random weapon.<br/>
                 /// 7-Cost 6/5 Minion
                 /// </summary>
                 public const string Malkorok = "OG_220";
@@ -1931,13 +1931,13 @@ namespace HearthDb
                 public const string BloodWarriors = "OG_276";
 
                 /// <summary>
-                /// Battlecry: If your C'Thun has at least 10 Attack, gain 10 Armor.<br/>
+                /// <b>Battlecry:</b> If your C'Thun has at least 10 Attack, gain 10 Armor.<br/>
                 /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string AncientShieldbearerOG = "OG_301";
 
                 /// <summary>
-                /// Battlecry: Equip a 1/3 Rusty Hook.<br/>
+                /// <b>Battlecry:</b> Equip a 1/3 Rusty Hook.<br/>
                 /// 1-Cost 1/1 Pirate Minion
                 /// </summary>
                 public const string NzothsFirstMate = "OG_312";
@@ -1949,7 +1949,7 @@ namespace HearthDb
                 public const string BloodToIchor = "OG_314";
 
                 /// <summary>
-                /// Battlecry: If you control another Pirate, give your weapon +1/+1.<br/>
+                /// <b>Battlecry:</b> If you control another Pirate, give your weapon +1/+1.<br/>
                 /// 3-Cost 3/4 Pirate Minion
                 /// </summary>
                 public const string BloodsailCultist = "OG_315";
@@ -1961,25 +1961,25 @@ namespace HearthDb
                 public const string HitItVeryHard = "ONY_023";
 
                 /// <summary>
-                /// Taunt Battlecry: Deal damage equal to your Armor to an enemy minion.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Deal damage equal to your Armor to an enemy minion.<br/>
                 /// 4-Cost 4/5 Dragon Minion
                 /// </summary>
                 public const string OnyxianDrake = "ONY_024";
 
                 /// <summary>
-                /// Tradeable Give a minion +2/+1 and Rush.<br/>
+                /// <b>Tradeable</b> Give a minion +2/+1 and <b>Rush</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ShoulderCheck = "ONY_025";
 
                 /// <summary>
-                /// Battlecry: Discover a weapon. If your opponent guesses your choice, they get a copy.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a weapon. If your opponent guesses your choice, they get a copy.<br/>
                 /// 3-Cost 3/4 Pirate Minion
                 /// </summary>
                 public const string SuspiciousPirate = "REV_006";
 
                 /// <summary>
-                /// Rush After this attacks, equip it.<br/>
+                /// <b>Rush</b> After this attacks, equip it.<br/>
                 /// 7-Cost 5/10 Minion
                 /// </summary>
                 public const string RemorniaLivingBlade = "REV_316";
@@ -1991,7 +1991,7 @@ namespace HearthDb
                 public const string AnimaExtractor = "REV_332";
 
                 /// <summary>
-                /// Summon three 1/3 Jailers with Taunt. If you have 20 or less Health, give them +1/+1.<br/>
+                /// Summon three 1/3 Jailers with <b>Taunt</b>. If you have 20 or less Health, give them +1/+1.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string BurdenOfPride = "REV_334";
@@ -2003,7 +2003,7 @@ namespace HearthDb
                 public const string Riot = "REV_337";
 
                 /// <summary>
-                /// Has +2 Attack and Charge while damaged.<br/>
+                /// Has +2 Attack and <b>Charge</b> while damaged.<br/>
                 /// 2-Cost 1/4 Minion
                 /// </summary>
                 public const string CrazedWretch = "REV_930";
@@ -2015,13 +2015,13 @@ namespace HearthDb
                 public const string ConquerorsBanner = "REV_931";
 
                 /// <summary>
-                /// After your hero attacks, give your damaged minions +1/+2. Infuse (2): +2/+2 instead.<br/>
+                /// After your hero attacks, give your damaged minions +1/+2. <b>Infuse (2):</b> +2/+2 instead.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string ImbuedAxe = "REV_933";
 
                 /// <summary>
-                /// Battlecry: Gain +1/+1 for each damaged minion, then attack all enemies.<br/>
+                /// <b>Battlecry:</b> Gain +1/+1 for each damaged minion, then attack all enemies.<br/>
                 /// 6-Cost 3/7 Minion
                 /// </summary>
                 public const string DecimatorOlgra = "REV_934";
@@ -2039,13 +2039,13 @@ namespace HearthDb
                 public const string SunfireSmithing = "RLK_600";
 
                 /// <summary>
-                /// Draw a Taunt minion. Manathirst (7): Double its stats.<br/>
+                /// Draw a <b>Taunt</b> minion. <b>Manathirst (7):</b> Double its stats.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string LastStand = "RLK_601";
 
                 /// <summary>
-                /// Rush Elusive Taunt<br/>
+                /// <b>Rush</b> <b>Elusive</b> <b>Taunt</b><br/>
                 /// 6-Cost 4/8 Minion
                 /// </summary>
                 public const string SilverfuryStalwart = "RLK_602";
@@ -2057,7 +2057,7 @@ namespace HearthDb
                 public const string LightOfThePhoenix = "RLK_603";
 
                 /// <summary>
-                /// Rush. Deathrattle: Go Dormant. Cast a Fire spell to revive Thori'belore!<br/>
+                /// <b>Rush</b>. <b>Deathrattle:</b> Go <b>Dormant</b>. Cast a Fire spell to revive Thori'belore!<br/>
                 /// 4-Cost 4/4 Elemental/Beast Minion
                 /// </summary>
                 public const string Thoribelore = "RLK_604";
@@ -2075,7 +2075,7 @@ namespace HearthDb
                 public const string DisruptiveSpellbreaker = "RLK_607";
 
                 /// <summary>
-                /// Taunt Battlecry: Cast a copy of the last spell your opponent played.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Cast a copy of the last spell your opponent played.<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
                 public const string AsvedonTheGrandshield = "RLK_608";
@@ -2087,43 +2087,43 @@ namespace HearthDb
                 public const string SunfuryChampion = "RLK_609";
 
                 /// <summary>
-                /// Summon two 1/2 Guards with Taunt. Manathirst (6): Give them +1/+2.<br/>
+                /// Summon two 1/2 Guards with <b>Taunt</b>. <b>Manathirst (6):</b> Give them +1/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string EmbersOfStrength = "RLK_960";
 
                 /// <summary>
-                /// Starship Piece Battlecry: Destroy a random enemy minion. Also triggers on launch.<br/>
+                /// <b>Starship Piece</b> <b>Battlecry:</b> Destroy a random enemy minion. Also triggers on launch.<br/>
                 /// 4-Cost 3/3 Mechanical Minion
                 /// </summary>
                 public const string YamatoCannon = "SC_406";
 
                 /// <summary>
-                /// Deal $2 damage and gain 2 Armor. Your next Starship launch costs (2) less.<br/>
+                /// Deal $2 damage and gain 2 Armor. Your next <b>Starship</b> launch costs (2) less.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ConcussiveShells = "SC_411";
 
                 /// <summary>
-                /// Battlecry: Deal 5 damage. (Transforms if you launched a Starship this game.)<br/>
+                /// <b>Battlecry:</b> Deal 5 damage. <i>(Transforms if you launched a <b>Starship</b> this game.)</i><br/>
                 /// 8-Cost 8/8 Mechanical Minion
                 /// </summary>
                 public const string Thor = "SC_414";
 
                 /// <summary>
-                /// Discover a Rush minion. Your next one costs (1) less.<br/>
+                /// <b>Discover</b> a <b>Rush</b> minion. Your next one costs (1) less.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string AthleticStudies = "SCH_237";
 
                 /// <summary>
-                /// Spellburst: Also damages adjacent minions this turn.<br/>
+                /// <b>Spellburst</b>: Also damages adjacent minions this turn.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string ReapersScythe = "SCH_238";
 
                 /// <summary>
-                /// After you play a Rush minion, summon a copy with 1 Health remaining.<br/>
+                /// After you play a <b>Rush</b> minion, summon a copy with 1 Health remaining.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string Playmaker = "SCH_317";
@@ -2135,25 +2135,25 @@ namespace HearthDb
                 public const string Troublemaker = "SCH_337";
 
                 /// <summary>
-                /// Add 2 random Taunt minions to your hand.<br/>
+                /// Add 2 random <b>Taunt</b> minions to your hand.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string InFormation = "SCH_525";
 
                 /// <summary>
-                /// Deathrattle: Resummon this with -1/-1.<br/>
+                /// <b>Deathrattle:</b> Resummon this with -1/-1.<br/>
                 /// 9-Cost 9/9 Undead Minion
                 /// </summary>
                 public const string Rattlegore = "SCH_621";
 
                 /// <summary>
-                /// Deathrattle: Summon a minion from your deck.<br/>
+                /// <b>Deathrattle:</b> Summon a minion from your deck.<br/>
                 /// 6-Cost 6/2 Minion
                 /// </summary>
                 public const string CowardlyGrunt = "SW_021";
 
                 /// <summary>
-                /// Tradeable Choose a friendly minion. Enemy minions attack it.<br/>
+                /// <b>Tradeable</b> Choose a friendly minion. Enemy minions attack it.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string Provoke = "SW_023";
@@ -2171,13 +2171,13 @@ namespace HearthDb
                 public const string ShiverTheirTimbers = "SW_027";
 
                 /// <summary>
-                /// Questline: Play 3 Pirates. Reward: Draw a weapon.<br/>
+                /// <b>Questline:</b> Play 3 Pirates. <b>Reward:</b> Draw a weapon.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string RaidTheDocks = "SW_028";
 
                 /// <summary>
-                /// Battlecry: Draw a Pirate.<br/>
+                /// <b>Battlecry:</b> Draw a Pirate.<br/>
                 /// 2-Cost 2/2 Pirate Minion
                 /// </summary>
                 public const string HarborScamp = "SW_029";
@@ -2189,13 +2189,13 @@ namespace HearthDb
                 public const string CargoGuard = "SW_030";
 
                 /// <summary>
-                /// Battlecry: Give your hero +2 Attack this turn.<br/>
+                /// <b>Battlecry:</b> Give your hero +2 Attack this turn.<br/>
                 /// 3-Cost 3/4 Pirate Minion
                 /// </summary>
                 public const string StormwindFreebooter = "SW_093";
 
                 /// <summary>
-                /// Tradeable Gain 8 Armor.<br/>
+                /// <b>Tradeable</b> Gain 8 Armor.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string HeavyPlate = "SW_094";
@@ -2207,19 +2207,19 @@ namespace HearthDb
                 public const string RemoteControlledGolem = "SW_097";
 
                 /// <summary>
-                /// Taunt Battlecry: Dredge. Gain Armor equal to its Cost.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> <b>Dredge</b>. Gain Armor equal to its Cost.<br/>
                 /// 4-Cost 3/5 Elemental/Beast Minion
                 /// </summary>
                 public const string IgneousLavagorger = "TID_714";
 
                 /// <summary>
-                /// Add a random Colossal minion to both players' hands. Yours costs (2) less.<br/>
+                /// Add a random <b>Colossal</b> minion to both players' hands. Yours costs (2) less.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ClashOfTheColossals = "TID_715";
 
                 /// <summary>
-                /// Battlecry: Deal 5 damage. Gain 8 Armor.<br/>
+                /// <b>Battlecry:</b> Deal 5 damage. Gain 8 Armor.<br/>
                 /// 8-Cost 5/8 Elemental Minion
                 /// </summary>
                 public const string TidalRevenant = "TID_716";
@@ -2237,37 +2237,37 @@ namespace HearthDb
                 public const string WreckemAndDeckem = "TOY_603";
 
                 /// <summary>
-                /// Miniaturize Deathrattle: Trigger the Deathrattle of a random friendly Mech.<br/>
+                /// <b>Miniaturize</b> <b>Deathrattle:</b> Trigger the <b>Deathrattle</b> of a random friendly Mech.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string BoomWrench = "TOY_604";
 
                 /// <summary>
-                /// Draw 2 Taunt minions.<br/>
+                /// Draw 2 <b>Taunt</b> minions.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string QualityAssurance = "TOY_605";
 
                 /// <summary>
-                /// Taunt Deathrattle: Deal 8 damage randomly split among all enemies.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Deal 8 damage randomly split among all enemies.<br/>
                 /// 6-Cost 4/8 Mechanical Minion
                 /// </summary>
                 public const string TestingDummy = "TOY_606";
 
                 /// <summary>
-                /// Battlecry: Resurrect two different friendly Mechs that cost (5) or more. They attack random enemies.<br/>
+                /// <b>Battlecry:</b> Resurrect two different friendly Mechs that cost (5) or more. They attack random enemies.<br/>
                 /// 8-Cost 7/7 Minion
                 /// </summary>
                 public const string InventorBoom = "TOY_607";
 
                 /// <summary>
-                /// Whenever you gain armor, summon another Lab Patron (once per turn).<br/>
+                /// Whenever you gain armor, summon another Lab Patron <i>(once per turn)</i>.<br/>
                 /// 4-Cost 3/3 Minion
                 /// </summary>
                 public const string LabPatron = "TOY_651";
 
                 /// <summary>
-                /// Taunt After this takes damage, get two random Minis.<br/>
+                /// <b>Taunt</b> After this takes damage, get two random <b>Minis</b>.<br/>
                 /// 9-Cost 4/12 Mechanical Minion
                 /// </summary>
                 public const string Botface = "TOY_906";
@@ -2279,7 +2279,7 @@ namespace HearthDb
                 public const string SafetyGoggles = "TOY_907";
 
                 /// <summary>
-                /// Deathrattle: Summon two 1/1 Boom Bots. WARNING: Bots may explode.<br/>
+                /// <b>Deathrattle:</b> Summon two 1/1 Boom Bots. <i>WARNING: Bots may explode.</i><br/>
                 /// 5-Cost 5/5 Mechanical Minion
                 /// </summary>
                 public const string Fireworker = "TOY_908";
@@ -2291,43 +2291,43 @@ namespace HearthDb
                 public const string Devastate = "TRL_321";
 
                 /// <summary>
-                /// Battlecry: If you're holding a Dragon, gain 5 Armor.<br/>
+                /// <b>Battlecry:</b> If you're holding a Dragon, gain 5 Armor.<br/>
                 /// 5-Cost 5/5 Dragon Minion
                 /// </summary>
                 public const string EmberscaleDrake = "TRL_323";
 
                 /// <summary>
-                /// Summon a random minion with Cost equal to your Armor (up to 10).<br/>
+                /// Summon a random minion with Cost equal to your Armor <i>(up to 10).</i><br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string HeavyMetal = "TRL_324";
 
                 /// <summary>
-                /// Overkill: You may attack again.<br/>
+                /// <b>Overkill</b>: You may attack again.<br/>
                 /// 6-Cost Weapon
                 /// </summary>
                 public const string Sulthraze = "TRL_325";
 
                 /// <summary>
-                /// Battlecry: If you're holding a Dragon, destroy a damaged enemy minion.<br/>
+                /// <b>Battlecry:</b> If you're holding a Dragon, destroy a damaged enemy minion.<br/>
                 /// 3-Cost 3/2 Minion
                 /// </summary>
                 public const string SmolderthornLancer = "TRL_326";
 
                 /// <summary>
-                /// Stealth for 1 turn. Your Rush minions are Immune the turn they're summoned.<br/>
+                /// <b>Stealth</b> for 1 turn. Your <b>Rush</b> minions are <b>Immune</b> the turn they're summoned.<br/>
                 /// 1-Cost 0/3 Undead/Beast Minion
                 /// </summary>
                 public const string SpiritOfTheRhino = "TRL_327";
 
                 /// <summary>
-                /// Battlecry: Copy all Dragons in your hand.<br/>
+                /// <b>Battlecry:</b> Copy all Dragons in your hand.<br/>
                 /// 4-Cost 4/3 Minion
                 /// </summary>
                 public const string WarMasterVoone = "TRL_328";
 
                 /// <summary>
-                /// Rush Overkill: Draw a Rush minion from your deck. Give it +5/+5.<br/>
+                /// <b>Rush</b> <b>Overkill:</b> Draw a <b>Rush</b> minion from your deck. Give it +5/+5.<br/>
                 /// 8-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string AkaliTheRhino = "TRL_329";
@@ -2345,25 +2345,25 @@ namespace HearthDb
                 public const string DragonRoar = "TRL_362";
 
                 /// <summary>
-                /// Battlecry: Attack three different random enemies.<br/>
+                /// <b>Battlecry:</b> Attack three different random enemies.<br/>
                 /// 9-Cost 8/9 Beast Minion
                 /// </summary>
                 public const string Trenchstalker = "TSC_659";
 
                 /// <summary>
-                /// Colossal +1 Battlecry: Discover 3 Pirates to crew Nellie's Ship!<br/>
+                /// <b>Colossal +1</b> <b>Battlecry:</b> <b>Discover</b> 3 Pirates to crew Nellie's Ship!<br/>
                 /// 7-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string NellieTheGreatThresher = "TSC_660";
 
                 /// <summary>
-                /// Deathrattle: Put a 'Sunken Trident' on the bottom of your deck.<br/>
+                /// <b>Deathrattle:</b> Put a 'Sunken Trident' on the bottom of your deck.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string AzsharanTrident = "TSC_913";
 
                 /// <summary>
-                /// Taunt. Battlecry: If you have a weapon equipped, summon a 5/6 Naga with Rush.<br/>
+                /// <b>Taunt</b>. <b>Battlecry:</b> If you have a weapon equipped, summon a 5/6 Naga with <b>Rush</b>.<br/>
                 /// 7-Cost 5/6 Naga Minion
                 /// </summary>
                 public const string BlackscaleBrute = "TSC_917";
@@ -2375,25 +2375,25 @@ namespace HearthDb
                 public const string ForgedInFlame = "TSC_939";
 
                 /// <summary>
-                /// Reduce the Cost of the bottom five cards in your deck by (3), then Dredge.<br/>
+                /// Reduce the Cost of the bottom five cards in your deck by (3), then <b>Dredge</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string FromTheDepths = "TSC_940";
 
                 /// <summary>
-                /// Gain 3 Armor. Summon a 2/3 Naga with Taunt.<br/>
+                /// Gain 3 Armor. Summon a 2/3 Naga with <b>Taunt</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string GuardTheCity = "TSC_941";
 
                 /// <summary>
-                /// Battlecry: Dredge. If it's a minion or a weapon, give it +1/+1.<br/>
+                /// <b>Battlecry:</b> <b>Dredge</b>. If it's a minion or a weapon, give it +1/+1.<br/>
                 /// 2-Cost 3/2 Pirate Minion
                 /// </summary>
                 public const string Obsidiansmith = "TSC_942";
 
                 /// <summary>
-                /// Battlecry: Give all weapons in your hand, deck, and battlefield +1/+1.<br/>
+                /// <b>Battlecry:</b> Give all weapons in your hand, deck, and battlefield +1/+1.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
                 public const string LadyAshvane = "TSC_943";
@@ -2405,13 +2405,13 @@ namespace HearthDb
                 public const string TheFiresOfZinAzshari = "TSC_944";
 
                 /// <summary>
-                /// Titan After this uses an ability, gain Immune this turn and attack a random enemy minion.<br/>
+                /// <b>Titan</b> After this uses an ability, gain <b>Immune</b> this turn and attack a random enemy minion.<br/>
                 /// 6-Cost 4/5 Minion
                 /// </summary>
                 public const string Khazgoroth = "TTN_415";
 
                 /// <summary>
-                /// Rush Whenever this minion deals damage, gain that much Armor.<br/>
+                /// <b>Rush</b> Whenever this minion deals damage, gain that much Armor.<br/>
                 /// 6-Cost 5/5 Minion
                 /// </summary>
                 public const string Minotauren = "TTN_466";
@@ -2423,31 +2423,31 @@ namespace HearthDb
                 public const string CraftsmansHammer = "TTN_467";
 
                 /// <summary>
-                /// Battlecry: Draw a spell. Reduce the Cost of a Fire spell in your hand by (1).<br/>
+                /// <b>Battlecry:</b> Draw a spell. Reduce the Cost of a Fire spell in your hand by (1).<br/>
                 /// 3-Cost 3/3 Elemental Minion
                 /// </summary>
                 public const string SteamGuardian = "TTN_468";
 
                 /// <summary>
-                /// Battlecry: If your Armor changed this turn, draw 2 cards.<br/>
+                /// <b>Battlecry:</b> If your Armor changed this turn, draw 2 cards.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string StoneskinArmorer = "TTN_469";
 
                 /// <summary>
-                /// Summon five 1/1 Val'kyr with Rush. When one dies, give the others +1/+1.<br/>
+                /// Summon five 1/1 Val'kyr with <b>Rush</b>. When one dies, give the others +1/+1.<br/>
                 /// 7-Cost Spell
                 /// </summary>
                 public const string TrialByFire = "TTN_470";
 
                 /// <summary>
-                /// Magnetic Also damages minions next to whomever this attacks.<br/>
+                /// <b>Magnetic</b> Also damages minions next to whomever this attacks.<br/>
                 /// 2-Cost 1/3 Mechanical Minion
                 /// </summary>
                 public const string FuriousFurnace = "TTN_471";
 
                 /// <summary>
-                /// Deal $5 damage to a minion. Forge: Then deal $5 damage split among all enemy minions.<br/>
+                /// Deal $5 damage to a minion. <b>Forge:</b> Then deal $5 damage split among all enemy minions.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string BellowingFlames = "TTN_753";
@@ -2459,37 +2459,37 @@ namespace HearthDb
                 public const string Smelt = "TTN_803";
 
                 /// <summary>
-                /// Battlecry: For the rest of the game, after your hero gains Armor, they gain that much Attack for that turn.<br/>
+                /// <b>Battlecry:</b> For the rest of the game, after your hero gains Armor, they gain that much Attack for that turn.<br/>
                 /// 9-Cost 8/8 Minion
                 /// </summary>
                 public const string OdynPrimeDesignate = "TTN_811";
 
                 /// <summary>
-                /// Taunt Battlecry: Discover a Taunt minion.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> <b>Discover</b> a <b>Taunt</b> minion.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string FrightenedFlunky = "ULD_195";
 
                 /// <summary>
-                /// Rush Reborn<br/>
+                /// <b>Rush</b> <b>Reborn</b><br/>
                 /// 4-Cost 3/2 Undead Minion
                 /// </summary>
                 public const string RestlessMummy = "ULD_206";
 
                 /// <summary>
-                /// Taunt Battlecry: Summon a copy of this minion.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Summon a copy of this minion.<br/>
                 /// 8-Cost 3/6 Mechanical Minion
                 /// </summary>
                 public const string TombWarden = "ULD_253";
 
                 /// <summary>
-                /// Give all Taunt minions in your hand +2/+2.<br/>
+                /// Give all <b>Taunt</b> minions in your hand +2/+2.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string IntoTheFray = "ULD_256";
 
                 /// <summary>
-                /// Taunt At the end of your turn, give all Taunt minions in your hand +2/+2.<br/>
+                /// <b>Taunt</b> At the end of your turn, give all <b>Taunt</b> minions in your hand +2/+2.<br/>
                 /// 6-Cost 4/8 Beast Minion
                 /// </summary>
                 public const string Armagedillo = "ULD_258";
@@ -2501,7 +2501,7 @@ namespace HearthDb
                 public const string PlagueOfWrath = "ULD_707";
 
                 /// <summary>
-                /// After your hero attacks, add a Lackey to your hand.<br/>
+                /// After your hero attacks, add a <b>Lackey</b> to your hand.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string LivewireLance = "ULD_708";
@@ -2513,25 +2513,25 @@ namespace HearthDb
                 public const string ArmoredGoon = "ULD_709";
 
                 /// <summary>
-                /// Quest: Attack 5 times with your hero. Reward: Anraphet's Core.<br/>
+                /// <b>Quest:</b> Attack 5 times with your hero. <b>Reward:</b> Anraphet's Core.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string HackTheSystem = "ULD_711";
 
                 /// <summary>
-                /// Battlecry: Choose a damaged friendly minion. Summon a copy of it.<br/>
+                /// <b>Battlecry</b>: Choose a damaged friendly minion. Summon a copy of it.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string BloodswornMercenary = "ULD_720";
 
                 /// <summary>
-                /// Taunt Has +4 Attack during your opponent's turn.<br/>
+                /// <b>Taunt</b> Has +4 Attack during your opponent's turn.<br/>
                 /// 6-Cost 1/11 Elemental Minion
                 /// </summary>
                 public const string TarLord = "UNG_838";
 
                 /// <summary>
-                /// Replace your deck with copies of "Discover a card."<br/>
+                /// Replace your deck with copies of "<b>Discover</b> a card."<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ExploreUngoro = "UNG_922";
@@ -2543,13 +2543,13 @@ namespace HearthDb
                 public const string IronHide = "UNG_923";
 
                 /// <summary>
-                /// Taunt Battlecry: Adapt.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> <b>Adapt</b>.<br/>
                 /// 6-Cost 6/6 Beast Minion
                 /// </summary>
                 public const string OrneryDirehorn = "UNG_925";
 
                 /// <summary>
-                /// Taunt. Battlecry: Summon three 1/1 Raptors for your opponent.<br/>
+                /// <b>Taunt</b>. <b>Battlecry:</b> Summon three 1/1 Raptors for your opponent.<br/>
                 /// 2-Cost 2/6 Draenei Minion
                 /// </summary>
                 public const string CorneredSentry = "UNG_926";
@@ -2567,55 +2567,55 @@ namespace HearthDb
                 public const string MoltenBlade = "UNG_929";
 
                 /// <summary>
-                /// Battlecry: Destroy all damaged minions.<br/>
+                /// <b>Battlecry:</b> Destroy all damaged minions.<br/>
                 /// 7-Cost 9/7 Beast Minion
                 /// </summary>
                 public const string KingMosh = "UNG_933";
 
                 /// <summary>
-                /// Quest: Play 7 Taunt minions. Reward: Sulfuras.<br/>
+                /// <b>Quest:</b> Play 7 <b>Taunt</b> minions. <b>Reward:</b> Sulfuras.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string FirePlumesHeart = "UNG_934";
 
                 /// <summary>
-                /// Taunt Deathrattle: Shuffle an 8/12 Direhorn with Taunt into your deck.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Shuffle an 8/12 Direhorn with <b>Taunt</b> into your deck.<br/>
                 /// 5-Cost 4/6 Beast Minion
                 /// </summary>
                 public const string DirehornHatchling = "UNG_957";
 
                 /// <summary>
-                /// Tradeable Taunt. When you draw this, get a copy of it.<br/>
+                /// <b>Tradeable</b> <b>Taunt</b>. When you draw this, get a copy of it.<br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
                 public const string LineCook = "VAC_337";
 
                 /// <summary>
-                /// Give a minion in your hand +2/+1. (3 Drinks left!)<br/>
+                /// Give a minion in your hand +2/+1. <i>(3 Drinks left!)</i><br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string CupOMuscle = "VAC_338";
 
                 /// <summary>
-                /// Taunt. At the end of your turn, summon an Elemental with stats equal to this minion's.<br/>
+                /// <b>Taunt</b>. At the end of your turn, summon an Elemental with stats equal to this minion's.<br/>
                 /// 9-Cost 6/9 Elemental Minion
                 /// </summary>
                 public const string Muensterosity = "VAC_339";
 
                 /// <summary>
-                /// Druid Tourist Taunt. At the end of your turn, eat a minion in the enemy's deck to gain +2/+2.<br/>
+                /// <b>Druid Tourist</b> <b>Taunt</b>. At the end of your turn, eat a minion in the enemy's deck to gain +2/+2.<br/>
                 /// 6-Cost 3/3 Minion
                 /// </summary>
                 public const string HammTheHungry = "VAC_340";
 
                 /// <summary>
-                /// Battlecry: Destroy an enemy minion with Attack less than or equal to this minion's.<br/>
+                /// <b>Battlecry:</b> Destroy an enemy minion with Attack less than or equal to this minion's.<br/>
                 /// 4-Cost 3/4 Beast Minion
                 /// </summary>
                 public const string UndercookedCalamari = "VAC_341";
 
                 /// <summary>
-                /// Battlecry and Deathrattle: Get a Slice of Bread. (Get 2 to Sandwich any minions in between!)<br/>
+                /// <b>Battlecry and Deathrattle:</b> Get a Slice of Bread. <i>(Get 2 to Sandwich any minions in between!)</i><br/>
                 /// 5-Cost Weapon
                 /// </summary>
                 public const string TheRyecleaver = "VAC_525";
@@ -2627,7 +2627,7 @@ namespace HearthDb
                 public const string Char = "VAC_526";
 
                 /// <summary>
-                /// Rush, Elusive Can only take 1 damage at a time.<br/>
+                /// <b>Rush</b>, <b>Elusive</b> Can only take 1 damage at a time.<br/>
                 /// 8-Cost 6/6 Dragon Minion
                 /// </summary>
                 public const string DraconicDelicacy = "VAC_527";
@@ -2645,7 +2645,7 @@ namespace HearthDb
                 public const string FoodFight = "VAC_533";
 
                 /// <summary>
-                /// Give a friendly minion +2 Attack and Charge.<br/>
+                /// Give a friendly minion +2 Attack and <b>Charge</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ChargeVanilla = "VAN_CS2_103";
@@ -2687,7 +2687,7 @@ namespace HearthDb
                 public const string CleaveVanilla = "VAN_CS2_114";
 
                 /// <summary>
-                /// Whenever you summon a minion with 3 or less Attack, give it Charge.<br/>
+                /// Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>.<br/>
                 /// 3-Cost 2/3 Minion
                 /// </summary>
                 public const string WarsongCommanderVanilla = "VAN_EX1_084";
@@ -2705,7 +2705,7 @@ namespace HearthDb
                 public const string BattleRageVanilla = "VAN_EX1_392";
 
                 /// <summary>
-                /// Battlecry: Equip a 2/2 weapon.<br/>
+                /// <b>Battlecry:</b> Equip a 2/2 weapon.<br/>
                 /// 4-Cost 3/3 Minion
                 /// </summary>
                 public const string ArathiWeaponsmithVanilla = "VAN_EX1_398";
@@ -2723,7 +2723,7 @@ namespace HearthDb
                 public const string ArmorsmithVanilla = "VAN_EX1_402";
 
                 /// <summary>
-                /// Destroy all minions except one. (chosen randomly)<br/>
+                /// Destroy all minions except one. <i>(chosen randomly)</i><br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string BrawlVanilla = "VAN_EX1_407";
@@ -2753,13 +2753,13 @@ namespace HearthDb
                 public const string GorehowlVanilla = "VAN_EX1_411";
 
                 /// <summary>
-                /// Charge Enrage: +6 Attack<br/>
+                /// <b>Charge</b> <b>Enrage:</b> +6 Attack<br/>
                 /// 8-Cost 4/9 Minion
                 /// </summary>
                 public const string GrommashHellscreamVanilla = "VAN_EX1_414";
 
                 /// <summary>
-                /// Battlecry: Deal 1 damage to a minion and give it +2 Attack.<br/>
+                /// <b>Battlecry:</b> Deal 1 damage to a minion and give it +2 Attack.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string CruelTaskmasterVanilla = "VAN_EX1_603";
@@ -2783,7 +2783,7 @@ namespace HearthDb
                 public const string InnerRageVanilla = "VAN_EX1_607";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 4-Cost 4/3 Minion
                 /// </summary>
                 public const string KorkronEliteVanilla = "VAN_NEW1_011";
@@ -2795,7 +2795,7 @@ namespace HearthDb
                 public const string CommandingShoutVanilla = "VAN_NEW1_036";
 
                 /// <summary>
-                /// Battlecry: If you have a weapon equipped, gain +1/+1.<br/>
+                /// <b>Battlecry:</b> If you have a weapon equipped, gain +1/+1.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string ManAtArms = "WC_024";
@@ -2807,7 +2807,7 @@ namespace HearthDb
                 public const string WhetstoneHatchet = "WC_025";
 
                 /// <summary>
-                /// Frenzy: Gain 8 Armor. Deathrattle: Equip a 2/5 Turtle Spike.<br/>
+                /// <b>Frenzy:</b> Gain 8 Armor. <b>Deathrattle:</b> Equip a 2/5 Turtle Spike.<br/>
                 /// 6-Cost 3/9 Beast Minion
                 /// </summary>
                 public const string KreshLordOfTurtling = "WC_026";
@@ -2819,37 +2819,37 @@ namespace HearthDb
                 public const string GrimyGadgeteerWONDERS = "WON_108";
 
                 /// <summary>
-                /// Draw a Taunt minion. Give it +2/+2.<br/>
+                /// Draw a <b>Taunt</b> minion. Give it +2/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string StolenGoodsWONDERS = "WON_110";
 
                 /// <summary>
-                /// Battlecry: If your C'Thun has at least 10 Attack, gain 10 Armor.<br/>
+                /// <b>Battlecry:</b> If your C'Thun has at least 10 Attack, gain 10 Armor.<br/>
                 /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string AncientShieldbearerWONDERS = "WON_111";
 
                 /// <summary>
-                /// Battlecry and Deathrattle: Shuffle a Mine into your opponent's deck. When drawn, explode for 10 damage!<br/>
+                /// <b>Battlecry and Deathrattle:</b> Shuffle a Mine into your opponent's deck. When drawn, explode for 10 damage!<br/>
                 /// 6-Cost 6/5 Mechanical Minion
                 /// </summary>
                 public const string IronJuggernautWONDERS = "WON_114";
 
                 /// <summary>
-                /// Get 2 Spare Parts. Summon two 1/1 Boom Bots. Shuffle a Bomb into your opponent's deck.<br/>
+                /// Get 2 <b>Spare Parts</b>. Summon two 1/1 Boom Bots. Shuffle a Bomb into your opponent's deck.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string BlastFromThePast = "WON_115";
 
                 /// <summary>
-                /// Battlecry: Discover a Taunt minion. Gain Armor equal to its Cost.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a <b>Taunt</b> minion. Gain Armor equal to its Cost.<br/>
                 /// 4-Cost 4/3 Minion
                 /// </summary>
                 public const string IvoryRook = "WON_116";
 
                 /// <summary>
-                /// Battlecry: If you have a weapon equipped, give all minions in your hand and deck +2/+2.<br/>
+                /// <b>Battlecry:</b> If you have a weapon equipped, give all minions in your hand and deck +2/+2.<br/>
                 /// 4-Cost 2/2 Minion
                 /// </summary>
                 public const string HobartGrapplehammerWONDERS = "WON_117";
@@ -2879,13 +2879,13 @@ namespace HearthDb
                 public const string AxeFlingerWONDERS = "WON_338";
 
                 /// <summary>
-                /// Taunt Whenever this minion deals damage, gain that much Armor.<br/>
+                /// <b>Taunt</b> Whenever this minion deals damage, gain that much Armor.<br/>
                 /// 5-Cost 3/7 Minion
                 /// </summary>
                 public const string AlleyArmorsmithWONDERS = "WON_339";
 
                 /// <summary>
-                /// Discover a Taunt minion. Give it +1/+2.<br/>
+                /// <b>Discover</b> a <b>Taunt</b> minion. Give it +1/+2.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string IKnowAGuyWONDERS = "WON_350";
@@ -2903,67 +2903,67 @@ namespace HearthDb
                 public const string PunchCard = "WORK_022";
 
                 /// <summary>
-                /// Taunt Whenever this takes damage, gain 3 Armor.<br/>
+                /// <b>Taunt</b> Whenever this takes damage, gain 3 Armor.<br/>
                 /// 4-Cost 2/6 Mechanical Minion
                 /// </summary>
                 public const string AlloyAdvisor = "WORK_023";
 
                 /// <summary>
-                /// Taunt. Battlecry: Give Taunt minions in your hand +2/+2.<br/>
+                /// <b>Taunt</b>. <b>Battlecry:</b> Give <b>Taunt</b> minions in your hand +2/+2.<br/>
                 /// 4-Cost 3/4 Mechanical Minion
                 /// </summary>
                 public const string DetonationJuggernaut = "WW_329";
 
                 /// <summary>
-                /// Gain 6 Armor. Excavate a treasure.<br/>
+                /// Gain 6 Armor. <b>Excavate</b> a treasure.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ReinforcedPlating = "WW_334";
 
                 /// <summary>
-                /// Taunt Battlecry: Deal damage to all enemy minions equal to this minion's Attack.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Deal damage to all enemy minions equal to this minion's Attack.<br/>
                 /// 6-Cost 2/7 Beast Minion
                 /// </summary>
                 public const string BlastTortoise = "WW_346";
 
                 /// <summary>
-                /// After you play a Taunt minion, gain +1 Durability.<br/>
+                /// After you play a <b>Taunt</b> minion, gain +1 Durability.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string Battlepickaxe = "WW_347";
 
                 /// <summary>
-                /// Deal $3, $2, and $1 damage to random minions. Quickdraw: Choose the targets.<br/>
+                /// Deal $3, $2, and $1 damage to random minions. <b>Quickdraw:</b> Choose the targets.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Misfire = "WW_348";
 
                 /// <summary>
-                /// Battlecry: Start a Brawl! If you've Excavated twice, this always wins.<br/>
+                /// <b>Battlecry:</b> Start a Brawl! If you've <b>Excavated</b> twice, this always wins.<br/>
                 /// 7-Cost 4/4 Minion
                 /// </summary>
                 public const string BadlandsBrawler = "WW_349";
 
                 /// <summary>
-                /// Taunt Deathrattle: Give Taunt minions in your hand and deck +1/+1.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Give <b>Taunt</b> minions in your hand and deck +1/+1.<br/>
                 /// 2-Cost 2/2 Undead Minion
                 /// </summary>
                 public const string UnluckyPowderman = "WW_367";
 
                 /// <summary>
-                /// Battlecry: Shuffle 3 T.N.T. into your opponent's deck. When drawn, blow up a card in their hand, deck, and board.<br/>
+                /// <b>Battlecry:</b> Shuffle 3 T.N.T. into your opponent's deck. When drawn, blow up a card in their hand, deck, and board.<br/>
                 /// 8-Cost 7/7 Minion
                 /// </summary>
                 public const string BoombossThogrun = "WW_372";
 
                 /// <summary>
-                /// Rush, Taunt Dormant for 6 turns. (Excavate to awaken 2 turns sooner!)<br/>
+                /// <b>Rush</b>, <b>Taunt</b> <b>Dormant</b> for 6 turns. <i>(<b>Excavate</b> to awaken 2 turns sooner!)</i><br/>
                 /// 4-Cost 16/16 Beast/Elemental Minion
                 /// </summary>
                 public const string SlagmawTheSlumbering = "WW_375";
 
                 /// <summary>
-                /// Destroy a damaged enemy minion. Excavate a treasure.<br/>
+                /// Destroy a damaged enemy minion. <b>Excavate</b> a treasure.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BlastCharge = "WW_380";
@@ -2975,7 +2975,7 @@ namespace HearthDb
                 public const string RiskySkipper = "YOD_022";
 
                 /// <summary>
-                /// Discover a Lackey, Mech, or Dragon.<br/>
+                /// <b>Discover</b> a <b>Lackey</b>, Mech, or Dragon.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string BoomSquad = "YOD_023";
@@ -2987,19 +2987,19 @@ namespace HearthDb
                 public const string BombWrangler = "YOD_024";
 
                 /// <summary>
-                /// Rush Battlecry: Gain 4 Armor. Deathrattle: Lose 4 Armor to resummon this.<br/>
+                /// <b>Rush</b> <b>Battlecry:</b> Gain 4 Armor. <b>Deathrattle:</b> Lose 4 Armor to resummon this.<br/>
                 /// 7-Cost 7/6 Minion
                 /// </summary>
                 public const string GeneralVezax = "YOG_500";
 
                 /// <summary>
-                /// Battlecry: Transform into a copy of a damaged minion.<br/>
+                /// <b>Battlecry:</b> Transform into a copy of a damaged minion.<br/>
                 /// 3-Cost 2/2 Minion
                 /// </summary>
                 public const string BattlewornFaceless = "YOG_501";
 
                 /// <summary>
-                /// Deal damage equal to your Armor to all minions. Forge: Gain 4 Armor first.<br/>
+                /// Deal damage equal to your Armor to all minions. <b>Forge:</b> Gain 4 Armor first.<br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string Sanitize = "YOG_502";
@@ -3011,7 +3011,7 @@ namespace HearthDb
                 public const string SpikedWheel = "YOP_013";
 
                 /// <summary>
-                /// Battlecry: If your hero has Armor, gain +2/+2.<br/>
+                /// <b>Battlecry:</b> If your hero has Armor, gain +2/+2.<br/>
                 /// 3-Cost 2/4 Mechanical Minion
                 /// </summary>
                 public const string Ironclad = "YOP_014";

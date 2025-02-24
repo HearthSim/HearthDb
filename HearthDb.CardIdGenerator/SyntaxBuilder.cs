@@ -265,8 +265,43 @@ namespace HearthDb.CardIdGenerator
 				if(c.Text == null)
 					return "(No Text)";
 				var text = c.Text.Replace('\n', ' ').Replace("[x]", "").Replace(" ", " ").Replace("&", "&amp;");
-				text = CardTextTags.Replace(text, "");
+				if (!HasValidTags(text))
+				{
+					// Some cards have bad tags in their text, e.g. <b>foo<b> or <b>bar</B>. Leaving those in causes
+					// ParseLeadingTrivia to choke. Instead of trying to fix each type or error, we just remove them
+					// all together for the few cards with errors.
+					text = CardTextTags.Replace(text, "");
+				}
 				return CardTextWhitespace.Replace(text, " ").Trim();
+			}
+
+			bool HasValidTags(string text)
+			{
+				var openTags = new List<string>();
+				for (var i = 0; i < text.Length; i++)
+				{
+					if (text[i] != '<')
+						continue;
+
+					var isClosing = text[i + 1] == '/';
+					if (isClosing)
+						i++;
+
+					var tag = "";
+					while(i + 1 < text.Length && text[i + 1] != '>')
+						tag += text[++i];
+					i++;
+
+					if (isClosing)
+					{
+						var wasOpen = openTags.Remove(tag);
+						if (!wasOpen)
+							return false;
+					}
+					else
+						openTags.Add(tag);
+				}
+				return openTags.Count == 0;
 			}
 
 			string GetInfo(Card c)

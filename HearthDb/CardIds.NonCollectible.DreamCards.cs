@@ -8,7 +8,7 @@ namespace HearthDb
             public class DreamCards
             {
                 /// <summary>
-                /// Elusive<br/>
+                /// <b>Elusive</b><br/>
                 /// 2-Cost 3/5 Minion
                 /// </summary>
                 public const string LaughingSister = "DREAM_01";
@@ -38,13 +38,13 @@ namespace HearthDb
                 public const string NightmareExpert1 = "DREAM_05";
 
                 /// <summary>
-                /// Deathrattle: Draw a card.<br/>
+                /// <b>Deathrattle:</b> Draw a card.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string RepurposedEnchantmentTavernBrawl = "TB_MP_02e";
 
                 /// <summary>
-                /// Elusive<br/>
+                /// <b>Elusive</b><br/>
                 /// 2-Cost 3/5 Minion
                 /// </summary>
                 public const string LaughingSisterVanilla = "VAN_DREAM_01";

@@ -8,7 +8,7 @@ namespace HearthDb
             public class Hunter
             {
                 /// <summary>
-                /// Battlecry: If you have a Beast, summon a random Beast.<br/>
+                /// <b>Battlecry:</b> If you have a Beast, summon a random Beast.<br/>
                 /// 5-Cost 3/3 Minion
                 /// </summary>
                 public const string RamWrangler = "AT_010";
@@ -20,25 +20,25 @@ namespace HearthDb
                 public const string Powershot = "AT_056";
 
                 /// <summary>
-                /// Battlecry: Give a friendly Beast Immune this turn.<br/>
+                /// <b>Battlecry:</b> Give a friendly Beast <b>Immune</b> this turn.<br/>
                 /// 3-Cost 4/2 Minion
                 /// </summary>
                 public const string Stablemaster = "AT_057";
 
                 /// <summary>
-                /// Battlecry: Reveal a minion in each deck. If yours costs more, draw it.<br/>
+                /// <b>Battlecry:</b> Reveal a minion in each deck. If yours costs more, draw it.<br/>
                 /// 2-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string KingsElekk = "AT_058";
 
                 /// <summary>
-                /// Inspire: If your hand is empty, deal 2 damage to the enemy hero.<br/>
+                /// <b>Inspire:</b> If your hand is empty, deal 2 damage to the enemy hero.<br/>
                 /// 1-Cost 2/1 Minion
                 /// </summary>
                 public const string BraveArcher = "AT_059";
 
                 /// <summary>
-                /// Secret: After your hero is attacked, summon a 3/3 Bear with Taunt.<br/>
+                /// <b>Secret:</b> After your hero is attacked, summon a 3/3 Bear with <b>Taunt</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BearTrap = "AT_060";
@@ -50,7 +50,7 @@ namespace HearthDb
                 public const string LockAndLoadTGT = "AT_061";
 
                 /// <summary>
-                /// Summon three 1/1 Webspinners with "Deathrattle: Get a random Beast."<br/>
+                /// Summon three 1/1 Webspinners with "<b>Deathrattle:</b> Get a random Beast."<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string BallOfSpidersTGT = "AT_062";
@@ -68,73 +68,73 @@ namespace HearthDb
                 public const string Acidmaw_DreadscaleToken = "AT_063t";
 
                 /// <summary>
-                /// Battlecry: Discover and cast 2 Improved Secrets.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> and cast 2 Improved <b>Secrets</b>.<br/>
                 /// 6-Cost Hero
                 /// </summary>
                 public const string BeaststalkerTavish = "AV_113";
 
                 /// <summary>
-                /// At the end of your turn, draw a Secret and set its Cost to (1). Lasts 3 turns.<br/>
+                /// At the end of your turn, draw a <b>Secret</b> and set its Cost to (1). Lasts 3 turns.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DunBaldarBunker = "AV_147";
 
                 /// <summary>
-                /// Deal $3 damage to a minion and cast a Secret from your deck. Honorable Kill: Cast 2.<br/>
+                /// Deal $3 damage to a minion and cast a <b>Secret</b> from your deck. <b>Honorable Kill:</b> Cast 2.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string SpringTheTrap = "AV_224";
 
                 /// <summary>
-                /// Secret: When your opponent casts a spell, return it to their hand instead. It costs (1) more.<br/>
+                /// <b>Secret:</b> When your opponent casts a spell, return it to their hand instead. It costs (1) more.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string IceTrap = "AV_226";
 
                 /// <summary>
-                /// Honorable Kill: Gain +1/+1.<br/>
+                /// <b>Honorable Kill:</b> Gain +1/+1.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
                 public const string Bloodseeker = "AV_244";
 
                 /// <summary>
-                /// Discover a friendly Beast that died this game. Summon it.<br/>
+                /// <b>Discover</b> a friendly Beast that died this game. Summon it.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string RevivePet = "AV_333";
 
                 /// <summary>
-                /// Rush Deathrattle: Your next Beast costs (2) less.<br/>
+                /// <b>Rush</b> <b>Deathrattle:</b> Your next Beast costs (2) less.<br/>
                 /// 4-Cost 4/3 Beast Minion
                 /// </summary>
                 public const string StormpikeBattleRam = "AV_334";
 
                 /// <summary>
-                /// Battlecry: If you control a Secret, gain +1/+1 and Stealth.<br/>
+                /// <b>Battlecry:</b> If you control a <b>Secret</b>, gain +1/+1 and <b>Stealth</b>.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string RamTamer = "AV_335";
 
                 /// <summary>
-                /// Battlecry: Summon a Beast from your deck and give it Rush. If it kills a minion this turn, repeat.<br/>
+                /// <b>Battlecry:</b> Summon a Beast from your deck and give it <b>Rush</b>. If it kills a minion this turn, repeat.<br/>
                 /// 9-Cost 5/4 Minion
                 /// </summary>
                 public const string WingCommanderIchman = "AV_336";
 
                 /// <summary>
-                /// Taunt Deathrattle: Summon two 2/4 Cubs with Taunt.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Summon two 2/4 Cubs with <b>Taunt</b>.<br/>
                 /// 7-Cost 5/6 Beast Minion
                 /// </summary>
                 public const string MountainBear = "AV_337";
 
                 /// <summary>
-                /// Battlecry: Discover a Beast, Secret, or weapon.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a Beast, <b>Secret</b>, or weapon.<br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string PackKodo = "BAR_030";
 
                 /// <summary>
-                /// Frenzy: Shuffle a Sunscale Raptor into your deck with permanent +2/+1.<br/>
+                /// <b>Frenzy:</b> Shuffle a Sunscale Raptor into your deck with permanent +2/+1.<br/>
                 /// 1-Cost 1/3 Beast Minion
                 /// </summary>
                 public const string SunscaleRaptor = "BAR_031";
@@ -152,19 +152,19 @@ namespace HearthDb
                 public const string ProspectorsCaravan = "BAR_033";
 
                 /// <summary>
-                /// Summon a 2/2 Beast with Rush. (Upgrades when you have 5 Mana.)<br/>
+                /// Summon a 2/2 Beast with <b>Rush</b>. <i>(Upgrades when you have 5 Mana.)</i><br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string TameBeastRank1 = "BAR_034";
 
                 /// <summary>
-                /// After you cast a spell, summon a 1/1 Hyena with Rush.<br/>
+                /// After you cast a spell, summon a 1/1 Hyena with <b>Rush</b>.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string KolkarPackRunner = "BAR_035";
 
                 /// <summary>
-                /// Battlecry: Discover a Beast from your deck. Give all copies of it +2/+1 (wherever they are).<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a Beast from your deck. Give all copies of it +2/+1 <i>(wherever they are)</i>.<br/>
                 /// 4-Cost 3/4 Minion
                 /// </summary>
                 public const string WarsongWrangler = "BAR_037";
@@ -176,13 +176,13 @@ namespace HearthDb
                 public const string TavishStormpike = "BAR_038";
 
                 /// <summary>
-                /// Battlecry: Draw a 1, 2, and 3-Cost spell.<br/>
+                /// <b>Battlecry:</b> Draw a 1, 2, and 3-Cost spell.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
                 public const string BarakKodobane = "BAR_551";
 
                 /// <summary>
-                /// Deal $1 damage. Summon a 1/1 Hyena with Rush.<br/>
+                /// Deal $1 damage. Summon a 1/1 Hyena with <b>Rush</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string WoundPrey = "BAR_801";
@@ -194,37 +194,37 @@ namespace HearthDb
                 public const string BombToss = "BOT_033";
 
                 /// <summary>
-                /// Battlecry: Summon four 0/2 Goblin Bombs.<br/>
+                /// <b>Battlecry:</b> Summon four 0/2 Goblin Bombs.<br/>
                 /// 7-Cost 5/5 Minion
                 /// </summary>
                 public const string BoommasterFlark = "BOT_034";
 
                 /// <summary>
-                /// Magnetic Poisonous<br/>
+                /// <b>Magnetic</b> <b>Poisonous</b><br/>
                 /// 2-Cost 2/2 Mechanical Minion
                 /// </summary>
                 public const string Venomizer = "BOT_035";
 
                 /// <summary>
-                /// Battlecry: Give a friendly Mech +1/+1. If it has Deathrattle, trigger it.<br/>
+                /// <b>Battlecry:</b> Give a friendly Mech +1/+1. If it has <b>Deathrattle</b>, trigger it.<br/>
                 /// 2-Cost 2/1 Minion
                 /// </summary>
                 public const string FireworksTech = "BOT_038";
 
                 /// <summary>
-                /// Your Deathrattles trigger twice.<br/>
+                /// Your <b>Deathrattles</b> trigger twice.<br/>
                 /// 4-Cost 3/6 Minion
                 /// </summary>
                 public const string Necromechanic = "BOT_039";
 
                 /// <summary>
-                /// Magnetic Deathrattle: Destroy a random enemy minion.<br/>
+                /// <b>Magnetic</b> <b>Deathrattle:</b> Destroy a random enemy minion.<br/>
                 /// 3-Cost 2/2 Mechanical/Beast Minion
                 /// </summary>
                 public const string SpiderBomb = "BOT_251";
 
                 /// <summary>
-                /// Discover a Secret.<br/>
+                /// <b>Discover</b> a <b>Secret</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string SecretPlan = "BOT_402";
@@ -236,13 +236,13 @@ namespace HearthDb
                 public const string FlarksBoomZooka = "BOT_429";
 
                 /// <summary>
-                /// Give a friendly minion +3/+3 and Rush. It dies at end of turn.<br/>
+                /// Give a friendly minion +3/+3 and <b>Rush</b>. It dies at end of turn.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string GoblinPrank = "BOT_437";
 
                 /// <summary>
-                /// Give your minions "Deathrattle: Add a random Mech to your hand."<br/>
+                /// Give your minions "<b>Deathrattle:</b> Add a random Mech to your hand."<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string CybertechChip = "BOT_438";
@@ -254,7 +254,7 @@ namespace HearthDb
                 public const string QuickShot = "BRM_013";
 
                 /// <summary>
-                /// Battlecry: If your hand is empty, gain +3/+3.<br/>
+                /// <b>Battlecry:</b> If your hand is empty, gain +3/+3.<br/>
                 /// 4-Cost 4/4 Beast Minion
                 /// </summary>
                 public const string CoreRager = "BRM_014";
@@ -266,19 +266,19 @@ namespace HearthDb
                 public const string NagrandSlam = "BT_163";
 
                 /// <summary>
-                /// Deathrattle: Deal this minion's Attack damage randomly split among all enemies.<br/>
+                /// <b>Deathrattle</b>: Deal this minion's Attack damage randomly split among all enemies.<br/>
                 /// 3-Cost 2/4 Beast/Mechanical Minion
                 /// </summary>
                 public const string AugmentedPorcupine = "BT_201";
 
                 /// <summary>
-                /// Deathrattle: Give a random Beast in your hand +1/+1.<br/>
+                /// <b>Deathrattle:</b> Give a random Beast in your hand +1/+1.<br/>
                 /// 1-Cost 2/1 Beast Minion
                 /// </summary>
                 public const string Helboar = "BT_202";
 
                 /// <summary>
-                /// Secret: When a friendly minion is attacked, summon a 3/3 copy.<br/>
+                /// <b>Secret:</b> When a friendly minion is attacked, summon a 3/3 copy.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string PackTactics = "BT_203";
@@ -290,19 +290,19 @@ namespace HearthDb
                 public const string ScrapShot = "BT_205";
 
                 /// <summary>
-                /// Rush Deathrattle: Shuffle 'Zixor Prime' into your deck.<br/>
+                /// <b>Rush</b> <b>Deathrattle:</b> Shuffle 'Zixor Prime' into your deck.<br/>
                 /// 3-Cost 2/4 Beast Minion
                 /// </summary>
                 public const string ZixorApexPredator = "BT_210";
 
                 /// <summary>
-                /// Dormant for 2 turns. When this awakens, attack a random enemy.<br/>
+                /// <b>Dormant</b> for 2 turns. When this awakens, attack a random enemy.<br/>
                 /// 2-Cost 5/4 Demon Minion
                 /// </summary>
                 public const string ImprisonedFelmaw = "BT_211";
 
                 /// <summary>
-                /// Rush. Battlecry: Choose a friendly minion. Gain a copy of its Deathrattle.<br/>
+                /// <b>Rush</b>. <b>Battlecry:</b> Choose a friendly minion. Gain a copy of its <b>Deathrattle</b>.<br/>
                 /// 4-Cost 5/2 Beast Minion
                 /// </summary>
                 public const string MoknathalLion = "BT_212";
@@ -314,25 +314,25 @@ namespace HearthDb
                 public const string ScavengersIngenuity = "BT_213";
 
                 /// <summary>
-                /// Battlecry: Summon 3 Beasts from your hand.<br/>
+                /// <b>Battlecry:</b> Summon 3 Beasts from your hand.<br/>
                 /// 8-Cost 5/5 Minion
                 /// </summary>
                 public const string BeastmasterLeoroxx = "BT_214";
 
                 /// <summary>
-                /// Secret: After your opponent plays a minion, give a random minion in your hand +2/+2.<br/>
+                /// <b>Secret:</b> After your opponent plays a minion, give a random minion in your hand +2/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string HiddenCache = "CFM_026";
 
                 /// <summary>
-                /// Battlecry: Summon a 1/1 Cat.<br/>
+                /// <b>Battlecry:</b> Summon a 1/1 Cat.<br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string Alleycat = "CFM_315";
 
                 /// <summary>
-                /// Deathrattle: Summon a number of 1/1 Rats equal to this minion's Attack.<br/>
+                /// <b>Deathrattle:</b> Summon a number of 1/1 Rats equal to this minion's Attack.<br/>
                 /// 3-Cost 2/2 Beast Minion
                 /// </summary>
                 public const string RatPack = "CFM_316";
@@ -350,13 +350,13 @@ namespace HearthDb
                 public const string SmugglersCrateGANGS = "CFM_334";
 
                 /// <summary>
-                /// Battlecry: Deal damage equal to this minion's Attack.<br/>
+                /// <b>Battlecry:</b> Deal damage equal to this minion's Attack.<br/>
                 /// 4-Cost 2/4 Beast Minion
                 /// </summary>
                 public const string DispatchKodo = "CFM_335";
 
                 /// <summary>
-                /// Deathrattle: Give a random minion in your hand +2/+2.<br/>
+                /// <b>Deathrattle:</b> Give a random minion in your hand +2/+2.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string ShakyZipgunnerGANGS = "CFM_336";
@@ -368,7 +368,7 @@ namespace HearthDb
                 public const string PiranhaLauncher = "CFM_337";
 
                 /// <summary>
-                /// Battlecry: Give a random Beast in your hand +1/+1.<br/>
+                /// <b>Battlecry:</b> Give a random Beast in your hand +1/+1.<br/>
                 /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string TroggBeastrager = "CFM_338";
@@ -380,19 +380,19 @@ namespace HearthDb
                 public const string LockAndLoadCorePlaceholder = "CORE_AT_061";
 
                 /// <summary>
-                /// Summon three 1/1 Webspinners with "Deathrattle: Get a random Beast."<br/>
+                /// Summon three 1/1 Webspinners with "<b>Deathrattle:</b> Get a random Beast."<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string BallOfSpidersCore = "CORE_AT_062";
 
                 /// <summary>
-                /// Secret: When your opponent casts a spell, return it to their hand instead. It costs (1) more.<br/>
+                /// <b>Secret:</b> When your opponent casts a spell, return it to their hand instead. It costs (1) more.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string IceTrapCore = "CORE_AV_226";
 
                 /// <summary>
-                /// Battlecry: Draw a 1, 2, and 3-Cost spell.<br/>
+                /// <b>Battlecry:</b> Draw a 1, 2, and 3-Cost spell.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
                 public const string BarakKodobaneCore = "CORE_BAR_551";
@@ -404,13 +404,13 @@ namespace HearthDb
                 public const string QuickShotCore = "CORE_BRM_013";
 
                 /// <summary>
-                /// Deal $4 damage to a minion. Discover a spell.<br/>
+                /// Deal $4 damage to a minion. <b>Discover</b> a spell.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string MarkedShotCorePlaceholder = "CORE_DAL_371";
 
                 /// <summary>
-                /// Tradeable Give a minion +2/+3. After you Trade this, give a friendly minion Rush.<br/>
+                /// <b>Tradeable</b> Give a minion +2/+3. After you <b>Trade</b> this, give a friendly minion <b>Rush</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DoggieBiscuitCorePlaceholder = "CORE_DED_009";
@@ -422,7 +422,7 @@ namespace HearthDb
                 public const string DragonbaneCore = "CORE_DRG_256";
 
                 /// <summary>
-                /// Discover a card from your deck.<br/>
+                /// <b>Discover</b> a card from your deck.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string TrackingCore = "CORE_DS1_184";
@@ -440,7 +440,7 @@ namespace HearthDb
                 public const string ScavengingHyenaCorePlaceholder = "CORE_EX1_531";
 
                 /// <summary>
-                /// Deathrattle: Summon two 2/2 Hyenas.<br/>
+                /// <b>Deathrattle:</b> Summon two 2/2 Hyenas.<br/>
                 /// 6-Cost 7/5 Beast Minion
                 /// </summary>
                 public const string SavannahHighmaneCore = "CORE_EX1_534";
@@ -452,25 +452,25 @@ namespace HearthDb
                 public const string KillCommandCore = "CORE_EX1_539";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 9-Cost 8/8 Beast Minion
                 /// </summary>
                 public const string KingKrushCorePlaceholder = "CORE_EX1_543";
 
                 /// <summary>
-                /// Secret: When one of your minions is attacked, summon three 1/1 Snakes.<br/>
+                /// <b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SnakeTrapCorePlaceholder = "CORE_EX1_554";
 
                 /// <summary>
-                /// Secret: When your hero is attacked, deal $2 damage to all enemies.<br/>
+                /// <b>Secret:</b> When your hero is attacked, deal $2 damage to all enemies.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ExplosiveTrapCore = "CORE_EX1_610";
 
                 /// <summary>
-                /// Secret: When an enemy minion attacks, return it to its owner's hand. It costs (2) more.<br/>
+                /// <b>Secret:</b> When an enemy minion attacks, return it to its owner's hand. It costs (2) more.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FreezingTrapCore = "CORE_EX1_611";
@@ -482,31 +482,31 @@ namespace HearthDb
                 public const string DeadlyShotCore = "CORE_EX1_617";
 
                 /// <summary>
-                /// Summon two 3/3 Wolves. (Play a Secret to upgrade.)<br/>
+                /// Summon two 3/3 Wolves. <i>(Play a <b>Secret</b> to upgrade.)</i><br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string LesserEmeraldSpellstoneCore = "CORE_FB_Champs_LOOT_080";
 
                 /// <summary>
-                /// Deathrattle: Get a random Beast.<br/>
+                /// <b>Deathrattle:</b> Get a random Beast.<br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string WebspinnerCorePlaceholder = "CORE_FP1_011";
 
                 /// <summary>
-                /// Discover a Temporary Quick Shot, Deadly Shot, or Explosive Shot.<br/>
+                /// <b>Discover</b> a <b>Temporary</b> Quick Shot, Deadly Shot, or Explosive Shot.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string RexxarsGiftCorePlaceholder = "CORE_GIFT_03";
 
                 /// <summary>
-                /// Secret: After your opponent plays three cards in a turn, summon a 6/6 Rat.<br/>
+                /// <b>Secret:</b> After your opponent plays three cards in a turn, summon a 6/6 Rat.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string RatTrapCore = "CORE_GIL_577";
 
                 /// <summary>
-                /// Your other minions have Rush.<br/>
+                /// Your other minions have <b>Rush</b>.<br/>
                 /// 4-Cost 3/6 Minion
                 /// </summary>
                 public const string HoundmasterShawCorePlaceholder = "CORE_GIL_650";
@@ -518,103 +518,103 @@ namespace HearthDb
                 public const string DireFrenzyCorePlaceholder = "CORE_GIL_828";
 
                 /// <summary>
-                /// Deathrattle: Deal 2 damage to all enemy minions.<br/>
+                /// <b>Deathrattle:</b> Deal 2 damage to all enemy minions.<br/>
                 /// 4-Cost 2/1 Beast Minion
                 /// </summary>
                 public const string ExplodingBloatbatCorePlaceholder = "CORE_ICC_021";
 
                 /// <summary>
-                /// Deal $2 damage to a minion. If it survives, give it Poisonous.<br/>
+                /// Deal $2 damage to a minion. If it survives, give it <b>Poisonous</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ToxicArrowCorePlaceholder = "CORE_ICC_049";
 
                 /// <summary>
-                /// Trigger a friendly minion's Deathrattle.<br/>
+                /// Trigger a friendly minion's <b>Deathrattle</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string PlayDeadCorePlaceholder = "CORE_ICC_052";
 
                 /// <summary>
-                /// Secret: When one of your minions is attacked, summon a 2/3 Poisonous Cobra.<br/>
+                /// <b>Secret:</b> When one of your minions is attacked, summon a 2/3 <b>Poisonous</b> Cobra.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string VenomstrikeTrapCorePlaceholder = "CORE_ICC_200";
 
                 /// <summary>
-                /// After you play a Secret, put a random Hunter Secret into the battlefield.<br/>
+                /// After you play a <b>Secret</b>, put a random Hunter <b>Secret</b> into the battlefield.<br/>
                 /// 4-Cost 5/4 Undead Minion
                 /// </summary>
                 public const string ProfessorPutricideCorePlaceholder = "CORE_ICC_204";
 
                 /// <summary>
-                /// Your Deathrattle cards cost (2) less.<br/>
+                /// Your <b>Deathrattle</b> cards cost (2) less.<br/>
                 /// 5-Cost 4/6 Beast/Undead Minion
                 /// </summary>
                 public const string CorpseWidowCorePlaceholder = "CORE_ICC_243";
 
                 /// <summary>
-                /// Battlecry: Discover a copy of a minion in your deck.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a copy of a minion in your deck.<br/>
                 /// 3-Cost 2/2 Undead Minion
                 /// </summary>
                 public const string StitchedTrackerCorePlaceholder = "CORE_ICC_415";
 
                 /// <summary>
-                /// Elusive<br/>
+                /// <b>Elusive</b><br/>
                 /// 3-Cost 4/3 Beast/Undead Minion
                 /// </summary>
                 public const string BearsharkCorePlaceholder = "CORE_ICC_419";
 
                 /// <summary>
-                /// Deathrattle: Summon a random friendly Beast that died this game.<br/>
+                /// <b>Deathrattle:</b> Summon a random friendly Beast that died this game.<br/>
                 /// 7-Cost 6/7 Undead Minion
                 /// </summary>
                 public const string AbominableBowmanCorePlaceholder = "CORE_ICC_825";
 
                 /// <summary>
-                /// Battlecry: Deal 2 damage to all enemy minions.<br/>
+                /// <b>Battlecry:</b> Deal 2 damage to all enemy minions.<br/>
                 /// 6-Cost Hero
                 /// </summary>
                 public const string DeathstalkerRexxarCorePlaceholder = "CORE_ICC_828";
 
                 /// <summary>
-                /// Secret: After your opponent casts a spell, summon a 4/2 Panther with Stealth.<br/>
+                /// <b>Secret:</b> After your opponent casts a spell, summon a 4/2 Panther with <b>Stealth</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string CatTrickCorePlaceholder = "CORE_KAR_004";
 
                 /// <summary>
-                /// Your Secrets cost (0).<br/>
+                /// Your <b>Secrets</b> cost (0).<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
                 public const string CloakedHuntressCorePlaceholder = "CORE_KAR_006";
 
                 /// <summary>
-                /// Secret: When an enemy attacks your hero, summon a 3-Cost minion as the new target.<br/>
+                /// <b>Secret:</b> When an enemy attacks your hero, summon a 3-Cost minion as the new target.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string WanderingMonsterCorePlaceholder = "CORE_LOOT_079";
 
                 /// <summary>
-                /// Your hero is Immune while attacking.<br/>
+                /// Your hero is <b>Immune</b> while attacking.<br/>
                 /// 1-Cost Weapon
                 /// </summary>
                 public const string CandleshotCorePlaceholder = "CORE_LOOT_222";
 
                 /// <summary>
-                /// Whenever this attacks, give your other Beasts +2/+2. Infuse (3 Beasts): Gain Rush.<br/>
+                /// Whenever this attacks, give your other Beasts +2/+2. <b>Infuse (3 Beasts):</b> Gain <b>Rush</b>.<br/>
                 /// 5-Cost 6/5 Beast Minion
                 /// </summary>
                 public const string ShadehoundCorePlaceholder = "CORE_MAW_009";
 
                 /// <summary>
-                /// Secret: After your opponent plays three cards in a turn, deal $6 damage to the enemy hero.<br/>
+                /// <b>Secret:</b> After your opponent plays three cards in a turn, deal $6 damage to the enemy hero.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MotionDeniedCorePlaceholder = "CORE_MAW_010";
 
                 /// <summary>
-                /// Battlecry: Discover a friendly Deathrattle minion that died this game. Gain its Deathrattle and then trigger it.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a friendly <b>Deathrattle</b> minion that died this game. Gain its <b>Deathrattle</b> and then trigger it.<br/>
                 /// 6-Cost 4/4 Undead Minion
                 /// </summary>
                 public const string DefenseAttorneyNathanosCorePlaceholder = "CORE_MAW_011";
@@ -626,55 +626,55 @@ namespace HearthDb
                 public const string AnimalCompanionCore = "CORE_NEW1_031";
 
                 /// <summary>
-                /// Summon two 2/1 Bats. Infuse (3): Give them +1/+2.<br/>
+                /// Summon two 2/1 Bats. <b>Infuse (3):</b> Give them +1/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FrenziedFangsCorePlaceholder = "CORE_REV_350";
 
                 /// <summary>
-                /// Rush Infuse (3): Also damages the minions next to whomever this attacks.<br/>
+                /// <b>Rush</b> <b>Infuse (3):</b> Also damages the minions next to whomever this attacks.<br/>
                 /// 4-Cost 3/5 Beast Minion
                 /// </summary>
                 public const string StoneboundGargonCorePlaceholder = "CORE_REV_352";
 
                 /// <summary>
-                /// Battlecry: Summon a Gargon Companion. Infuse ({0}): Summon another. Infuse ({1}): And another!<br/>
+                /// <b>Battlecry:</b> Summon a Gargon Companion. <b>Infuse ({0}):</b> Summon another. <b>Infuse ({1}):</b> And another!<br/>
                 /// 7-Cost 5/4 Minion
                 /// </summary>
                 public const string HuntsmanAltimorCorePlaceholder = "CORE_REV_353";
 
                 /// <summary>
-                /// Deathrattle: Summon a 2/1 Bat.<br/>
+                /// <b>Deathrattle:</b> Summon a 2/1 Bat.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string BattyGuestCorePlaceholder = "CORE_REV_356";
 
                 /// <summary>
-                /// Battlecry: Summon a random Dormant Wildseed.<br/>
+                /// <b>Battlecry:</b> Summon a random <b>Dormant</b> Wildseed.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string SpiritPoacherCorePlaceholder = "CORE_REV_360";
 
                 /// <summary>
-                /// Summon two different Dormant Wildseeds. Make your Wildseeds awaken 1 turn sooner.<br/>
+                /// Summon two different <b>Dormant</b> Wildseeds. Make your Wildseeds awaken 1 turn sooner.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string WildSpiritsCorePlaceholder = "CORE_REV_361";
 
                 /// <summary>
-                /// Give a friendly minion +2 Attack. If it's a Beast, give it Rush.<br/>
+                /// Give a friendly minion +2 Attack. If it's a Beast, give it <b>Rush</b>.<br/>
                 /// 2-Cost Location
                 /// </summary>
                 public const string CastleKennelsCorePlaceholder = "CORE_REV_362";
 
                 /// <summary>
-                /// Battlecry: Summon one of each Dormant Wildseed.<br/>
+                /// <b>Battlecry:</b> Summon one of each <b>Dormant</b> Wildseed.<br/>
                 /// 5-Cost 4/5 Minion
                 /// </summary>
                 public const string AralonCorePlaceholder = "CORE_REV_363";
 
                 /// <summary>
-                /// Deal $3 damage. Summon a random Dormant Wildseed.<br/>
+                /// Deal $3 damage. Summon a random <b>Dormant</b> Wildseed.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string StagChargeCorePlaceholder = "CORE_REV_364";
@@ -686,31 +686,31 @@ namespace HearthDb
                 public const string CollateralDamageCorePlaceholder = "CORE_REV_369";
 
                 /// <summary>
-                /// Battlecry: If you control a Beast, gain +1 Durability.<br/>
+                /// <b>Battlecry:</b> If you control a Beast, gain +1 Durability.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
                 public const string HeadhuntersHatchetCorePlaceholder = "CORE_TRL_111";
 
                 /// <summary>
-                /// Discover a minion from your deck. If all 3 are Beasts, draw them all instead.<br/>
+                /// <b>Discover</b> a minion from your deck. If all 3 are Beasts, draw them all instead.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string MastersCallCore = "CORE_TRL_339";
 
                 /// <summary>
-                /// Rush Battlecry: Add a 1/1 Lynx with Rush to your hand.<br/>
+                /// <b>Rush</b> <b>Battlecry:</b> Add a 1/1 Lynx with <b>Rush</b> to your hand.<br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string SpringpawCorePlaceholder = "CORE_TRL_348";
 
                 /// <summary>
-                /// Battlecry: If your deck has no duplicates, summon King Krush.<br/>
+                /// <b>Battlecry:</b> If your deck has no duplicates, summon King Krush.<br/>
                 /// 7-Cost 2/4 Minion
                 /// </summary>
                 public const string DinotamerBrann_DinotamerBrannCorePlaceholderToken = "CORE_ULD_156t";
 
                 /// <summary>
-                /// Battlecry: Add a random Beast to your hand.<br/>
+                /// <b>Battlecry:</b> Add a random Beast to your hand.<br/>
                 /// 1-Cost 1/2 Beast Minion
                 /// </summary>
                 public const string JeweledMacawCore = "CORE_UNG_912";
@@ -728,13 +728,13 @@ namespace HearthDb
                 public const string StarvingBuzzardLegacy = "CS2_237";
 
                 /// <summary>
-                /// Battlecry: Discover a copy of a Beast in your deck.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a copy of a Beast in your deck.<br/>
                 /// 2-Cost 1/3 Minion
                 /// </summary>
                 public const string SelectiveBreederCorePlaceholder = "CS3_015";
 
                 /// <summary>
-                /// Deal $4 damage to a minion. Discover a spell.<br/>
+                /// Deal $4 damage to a minion. <b>Discover</b> a spell.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string MarkedShot = "DAL_371";
@@ -746,37 +746,37 @@ namespace HearthDb
                 public const string ArcaneFletcher = "DAL_372";
 
                 /// <summary>
-                /// Twinspell Deal $2 damage.<br/>
+                /// <b>Twinspell</b> Deal $2 damage.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string RapidFire = "DAL_373";
 
                 /// <summary>
-                /// Deathrattle: Summon a Mech from your hand and trigger its Deathrattle.<br/>
+                /// <b>Deathrattle:</b> Summon a Mech from your hand and trigger its <b>Deathrattle</b>.<br/>
                 /// 6-Cost 3/4 Mechanical Minion
                 /// </summary>
                 public const string Oblivitron = "DAL_376";
 
                 /// <summary>
-                /// Discover a friendly Deathrattle minion that died this game. Also trigger its Deathrattle.<br/>
+                /// <b>Discover</b> a friendly <b>Deathrattle</b> minion that died this game. Also trigger its <b>Deathrattle</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string NineLives = "DAL_377";
 
                 /// <summary>
-                /// Twinspell Summon a 5/5 Wyvern with Rush.<br/>
+                /// <b>Twinspell</b> Summon a 5/5 Wyvern with <b>Rush</b>.<br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string UnleashTheBeast = "DAL_378";
 
                 /// <summary>
-                /// Battlecry: Equip Thori'dal, the Stars' Fury.<br/>
+                /// <b>Battlecry:</b> Equip Thori'dal, the Stars' Fury.<br/>
                 /// 7-Cost 5/6 Minion
                 /// </summary>
                 public const string VereesaWindrunner = "DAL_379";
 
                 /// <summary>
-                /// Deathrattle: Add a random Hunter spell to your hand.<br/>
+                /// <b>Deathrattle:</b> Add a random Hunter spell to your hand.<br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string Shimmerfly = "DAL_587";
@@ -788,31 +788,31 @@ namespace HearthDb
                 public const string HuntingParty = "DAL_589";
 
                 /// <summary>
-                /// Deathrattle: Draw a Mech from your deck.<br/>
+                /// <b>Deathrattle:</b> Draw a Mech from your deck.<br/>
                 /// 3-Cost 3/3 Mechanical/Beast Minion
                 /// </summary>
                 public const string Ursatron = "DAL_604";
 
                 /// <summary>
-                /// Battlecry: Deal 2 damage to a random enemy. Repeat for each of your Beasts.<br/>
+                /// <b>Battlecry:</b> Deal 2 damage to a random enemy. Repeat for each of your Beasts.<br/>
                 /// 5-Cost 3/2 Pirate/Undead Minion
                 /// </summary>
                 public const string DefiasBlastfisher = "DED_007";
 
                 /// <summary>
-                /// Battlecry: Get a copy of the last friendly Deathrattle minion that died.<br/>
+                /// <b>Battlecry</b>: Get a copy of the last friendly <b>Deathrattle</b> minion that died.<br/>
                 /// 4-Cost 3/4 Beast Minion
                 /// </summary>
                 public const string MonstrousParrot = "DED_008";
 
                 /// <summary>
-                /// Tradeable Give a minion +2/+3. After you Trade this, give a friendly minion Rush.<br/>
+                /// <b>Tradeable</b> Give a minion +2/+3. After you <b>Trade</b> this, give a friendly minion <b>Rush</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DoggieBiscuit = "DED_009";
 
                 /// <summary>
-                /// Discover a Beast and an Undead. Swap their stats.<br/>
+                /// <b>Discover</b> a Beast and an Undead. Swap their stats.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string MismatchedFossils = "DEEP_001";
@@ -824,67 +824,67 @@ namespace HearthDb
                 public const string ShimmerShot = "DEEP_003";
 
                 /// <summary>
-                /// Taunt Deathrattle: Summon two random Deathrattle minions that cost (3) or less.<br/>
+                /// <b>Taunt</b> <b>Deathrattle</b>: Summon two random <b>Deathrattle</b> minions that cost (3) or less.<br/>
                 /// 6-Cost 4/6 Elemental Minion
                 /// </summary>
                 public const string ObsidianRevenant = "DEEP_005";
 
                 /// <summary>
-                /// Corrupt: Gain Poisonous.<br/>
+                /// <b>Corrupt:</b> Gain <b>Poisonous</b>.<br/>
                 /// 2-Cost 1/5 Beast Minion
                 /// </summary>
                 public const string DancingCobra = "DMF_083";
 
                 /// <summary>
-                /// Summon three friendly Deathrattle minions that died this game.<br/>
+                /// Summon three friendly <b>Deathrattle</b> minions that died this game.<br/>
                 /// 8-Cost Spell
                 /// </summary>
                 public const string JewelOfNzoth = "DMF_084";
 
                 /// <summary>
-                /// Deathrattle: Fire four missiles at random enemies that deal 2 damage each.<br/>
+                /// <b>Deathrattle:</b> Fire four missiles at random enemies that deal 2 damage each.<br/>
                 /// 7-Cost 8/5 Mechanical Minion
                 /// </summary>
                 public const string DarkmoonTonk = "DMF_085";
 
                 /// <summary>
-                /// Summon a 3/3 Strider. Repeat for each Secret you control.<br/>
+                /// Summon a 3/3 Strider. Repeat for each <b>Secret</b> you control.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string PettingZoo = "DMF_086";
 
                 /// <summary>
-                /// Rush. After this attacks and kills a minion, excess damage hits the enemy hero.<br/>
+                /// <b>Rush</b>. After this attacks and kills a minion, excess damage hits the enemy hero.<br/>
                 /// 5-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string TramplingRhino = "DMF_087";
 
                 /// <summary>
-                /// After your hero attacks, Discover a Secret and cast it.<br/>
+                /// After your hero attacks, <b>Discover</b> a <b>Secret</b> and cast it.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string RinlingsRifle = "DMF_088";
 
                 /// <summary>
-                /// Battlecry: Summon a minion from your deck. It attacks the enemy hero, then dies.<br/>
+                /// <b>Battlecry:</b> Summon a minion from your deck. It attacks the enemy hero, then dies.<br/>
                 /// 6-Cost 4/4 Minion
                 /// </summary>
                 public const string MaximaBlastenheimer = "DMF_089";
 
                 /// <summary>
-                /// Give all Beasts in your hand +1/+1. Corrupt: Give them +2/+2 instead.<br/>
+                /// Give all Beasts in your hand +1/+1. <b>Corrupt:</b> Give them +2/+2 instead.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DontFeedTheAnimals = "DMF_090";
 
                 /// <summary>
-                /// Battlecry: Discover a Secret.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a <b>Secret.</b><br/>
                 /// 1-Cost 1/1 Draenei Minion
                 /// </summary>
                 public const string MysteryWinner = "DMF_122";
 
                 /// <summary>
-                /// Secret: When your turn starts, if you control two minions, summon an Animal Companion.<br/>
+                /// <b>Secret:</b> When your turn starts, if you control two minions, summon an Animal Companion.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string OpenTheCages = "DMF_123";
@@ -902,25 +902,25 @@ namespace HearthDb
                 public const string Stormhammer = "DRG_007";
 
                 /// <summary>
-                /// Rush Battlecry: Draw a Rush minion from your deck.<br/>
+                /// <b>Rush</b> <b>Battlecry:</b> Draw a <b>Rush</b> minion from your deck.<br/>
                 /// 3-Cost 4/1 Beast Minion
                 /// </summary>
                 public const string DivingGryphon = "DRG_010";
 
                 /// <summary>
-                /// Battlecry: Change the Health of all enemy minions to 1.<br/>
+                /// <b>Battlecry:</b> Change the Health of all enemy minions to 1.<br/>
                 /// 6-Cost 7/6 Dragon Minion
                 /// </summary>
                 public const string Veranus = "DRG_095";
 
                 /// <summary>
-                /// Sidequest: Summon 3 Rush minions. Reward: Summon a 4/4 Gryphon with Rush.<br/>
+                /// <b>Sidequest:</b> Summon 3 <b>Rush</b> minions. <b>Reward:</b> Summon a 4/4 Gryphon with <b>Rush</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ClearTheWay = "DRG_251";
 
                 /// <summary>
-                /// After you use your Hero Power, cast a Secret from your deck.<br/>
+                /// After you use your Hero Power, cast a <b>Secret</b> from your deck.<br/>
                 /// 2-Cost 2/3 Beast Minion
                 /// </summary>
                 public const string PhaseStalker = "DRG_252";
@@ -932,13 +932,13 @@ namespace HearthDb
                 public const string DwarvenSharpshooter = "DRG_253";
 
                 /// <summary>
-                /// Poisonous Battlecry: Discover a Dragon.<br/>
+                /// <b>Poisonous</b> <b>Battlecry:</b> <b>Discover</b> a Dragon.<br/>
                 /// 3-Cost 2/3 Dragon Minion
                 /// </summary>
                 public const string PrimordialExplorer = "DRG_254";
 
                 /// <summary>
-                /// Sidequest: Use your Hero Power three times. Reward: Summon three 2/1 Leper Gnomes.<br/>
+                /// <b>Sidequest:</b> Use your Hero Power three times. <b>Reward:</b> Summon three 2/1 Leper Gnomes.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ToxicReinforcements = "DRG_255";
@@ -950,7 +950,7 @@ namespace HearthDb
                 public const string Dragonbane = "DRG_256";
 
                 /// <summary>
-                /// Battlecry: Give a friendly Beast +2/+2 and Taunt.<br/>
+                /// <b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.<br/>
                 /// 4-Cost 4/3 Minion
                 /// </summary>
                 public const string HoundmasterLegacy = "DS1_070";
@@ -962,7 +962,7 @@ namespace HearthDb
                 public const string TimberWolfLegacy = "DS1_175";
 
                 /// <summary>
-                /// Your Beasts have Charge.<br/>
+                /// Your Beasts have <b>Charge</b>.<br/>
                 /// 5-Cost 2/5 Beast Minion
                 /// </summary>
                 public const string TundraRhinoLegacy = "DS1_178";
@@ -974,7 +974,7 @@ namespace HearthDb
                 public const string MultiShotLegacy = "DS1_183";
 
                 /// <summary>
-                /// Discover a card from your deck.<br/>
+                /// <b>Discover</b> a card from your deck.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string TrackingLegacy = "DS1_184";
@@ -986,43 +986,43 @@ namespace HearthDb
                 public const string ArcaneShotLegacy = "DS1_185";
 
                 /// <summary>
-                /// Your hero is Immune while attacking.<br/>
+                /// Your hero is <b>Immune</b> while attacking.<br/>
                 /// 7-Cost Weapon
                 /// </summary>
                 public const string GladiatorsLongbow = "DS1_188";
 
                 /// <summary>
-                /// Battlecry: If you control no other minions, Discover and cast a Secret.<br/>
+                /// <b>Battlecry:</b> If you control no other minions, <b>Discover</b> and cast a <b>Secret</b>.<br/>
                 /// 3-Cost 4/2 Minion
                 /// </summary>
                 public const string HarmonicaSoloist = "ETC_028";
 
                 /// <summary>
-                /// Give a minion +1/+1. (3 Bananas left!)<br/>
+                /// Give a minion +1/+1. <i>(3 Bananas left!)</i><br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string BunchOfBananas = "ETC_201";
 
                 /// <summary>
-                /// Summon a 1/4 Monkey with Taunt. (3 Monkeys left!)<br/>
+                /// Summon a 1/4 Monkey with <b>Taunt</b>. <i>(3 Monkeys left!)</i><br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BarrelOfMonkeys = "ETC_207";
 
                 /// <summary>
-                /// Tradeable Resurrect all friendly Beasts that cost (5) or more.<br/>
+                /// <b>Tradeable</b> Resurrect all friendly Beasts that cost (5) or more.<br/>
                 /// 8-Cost Spell
                 /// </summary>
                 public const string StranglethornHeart = "ETC_208";
 
                 /// <summary>
-                /// Finale: The next Beast you summon gets +1/+1.<br/>
+                /// <b>Finale:</b> The next Beast you summon gets +1/+1.<br/>
                 /// 1-Cost 1/3 Quilboar Minion
                 /// </summary>
                 public const string ThornmantleMusician = "ETC_831";
 
                 /// <summary>
-                /// Deathrattle: Summon a random 1-Cost Beast. (Cast spells while equipped to improve!)<br/>
+                /// <b>Deathrattle:</b> Summon a random 1-Cost Beast. <i>(Cast spells while equipped to improve!)</i><br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string JungleJammer = "ETC_832";
@@ -1034,19 +1034,19 @@ namespace HearthDb
                 public const string ArrowSmith = "ETC_833";
 
                 /// <summary>
-                /// Rush. Battlecry: Fill your opponent's hand with Bananas.<br/>
+                /// <b>Rush</b>. <b>Battlecry:</b> Fill your opponent's hand with Bananas.<br/>
                 /// 6-Cost 10/10 Beast Minion
                 /// </summary>
                 public const string MisterMukla = "ETC_836";
 
                 /// <summary>
-                /// Summon the highest Cost Beast from your hand. It goes Dormant for 2 turns.<br/>
+                /// Summon the highest Cost Beast from your hand. It goes <b>Dormant</b> for 2 turns.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string BigDreams = "ETC_838";
 
                 /// <summary>
-                /// Rush Whenever this attacks, draw a Beast and gain its stats.<br/>
+                /// <b>Rush</b> Whenever this attacks, draw a Beast and gain its stats.<br/>
                 /// 10-Cost 5/6 Beast Minion
                 /// </summary>
                 public const string Banjosaur = "ETC_840";
@@ -1058,19 +1058,19 @@ namespace HearthDb
                 public const string ScavengingHyena = "EX1_531";
 
                 /// <summary>
-                /// Secret: When an enemy attacks your hero, instead it attacks another random character.<br/>
+                /// <b>Secret:</b> When an enemy attacks your hero, instead it attacks another random character.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Misdirection = "EX1_533";
 
                 /// <summary>
-                /// Deathrattle: Summon two 2/2 Hyenas.<br/>
+                /// <b>Deathrattle:</b> Summon two 2/2 Hyenas.<br/>
                 /// 6-Cost 7/5 Beast Minion
                 /// </summary>
                 public const string SavannahHighmane = "EX1_534";
 
                 /// <summary>
-                /// Whenever a friendly Secret is revealed, gain +1 Durability.<br/>
+                /// Whenever a friendly <b>Secret</b> is revealed, gain +1 Durability.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string EaglehornBow = "EX1_536";
@@ -1082,7 +1082,7 @@ namespace HearthDb
                 public const string ExplosiveShot = "EX1_537";
 
                 /// <summary>
-                /// For each enemy minion, summon a 1/1 Hound with Charge.<br/>
+                /// For each enemy minion, summon a 1/1 Hound with <b>Charge</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string UnleashTheHounds = "EX1_538";
@@ -1094,43 +1094,43 @@ namespace HearthDb
                 public const string KillCommandLegacy = "EX1_539";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 9-Cost 8/8 Beast Minion
                 /// </summary>
                 public const string KingKrush = "EX1_543";
 
                 /// <summary>
-                /// All minions lose Stealth. Destroy all enemy Secrets. Draw a card.<br/>
+                /// All minions lose <b>Stealth</b>. Destroy all enemy <b>Secrets</b>. Draw a card.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string Flare = "EX1_544";
 
                 /// <summary>
-                /// Give a friendly Beast +2 Attack and Immune this turn.<br/>
+                /// Give a friendly Beast +2 Attack and <b>Immune</b> this turn.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string BestialWrath = "EX1_549";
 
                 /// <summary>
-                /// Secret: When one of your minions is attacked, summon three 1/1 Snakes.<br/>
+                /// <b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SnakeTrap = "EX1_554";
 
                 /// <summary>
-                /// Secret: After your opponent plays a minion, deal $6 damage to it.<br/>
+                /// <b>Secret:</b> After your opponent plays a minion, deal $6 damage to it.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SnipeExpert1 = "EX1_609";
 
                 /// <summary>
-                /// Secret: When your hero is attacked, deal $2 damage to all enemies.<br/>
+                /// <b>Secret:</b> When your hero is attacked, deal $2 damage to all enemies.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ExplosiveTrap = "EX1_610";
 
                 /// <summary>
-                /// Secret: When an enemy minion attacks, return it to its owner's hand. It costs (2) more.<br/>
+                /// <b>Secret:</b> When an enemy minion attacks, return it to its owner's hand. It costs (2) more.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FreezingTrap = "EX1_611";
@@ -1142,85 +1142,85 @@ namespace HearthDb
                 public const string DeadlyShot = "EX1_617";
 
                 /// <summary>
-                /// Deathrattle: Get a random Beast.<br/>
+                /// <b>Deathrattle:</b> Get a random Beast.<br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string Webspinner = "FP1_011";
 
                 /// <summary>
-                /// After your opponent plays a minion, attack it. Starship Piece<br/>
+                /// After your opponent plays a minion, attack it. <b>Starship Piece</b><br/>
                 /// 3-Cost 2/6 Minion
                 /// </summary>
                 public const string SpecimenClaw = "GDB_107";
 
                 /// <summary>
-                /// Deathrattle: Deal damage equal to this minion's Attack to a random enemy. Starship Piece<br/>
+                /// <b>Deathrattle:</b> Deal damage equal to this minion's Attack to a random enemy. <b>Starship Piece</b><br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string Biopod = "GDB_111";
 
                 /// <summary>
-                /// Summon two 2/5 Beasts with Taunt. Costs (1) less for each card you Discovered this game.<br/>
+                /// Summon two 2/5 Beasts with <b>Taunt</b>. Costs (1) less for each card you <b><b>Discover</b>ed</b> this game.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string AlienEncounters = "GDB_237";
 
                 /// <summary>
-                /// Deathrattle: Summon a 3/5 Beast that attacks the lowest Health enemy.<br/>
+                /// <b>Deathrattle:</b> Summon a 3/5 Beast that attacks the lowest Health enemy.<br/>
                 /// 2-Cost 0/2 Minion
                 /// </summary>
                 public const string ExtraterrestrialEgg = "GDB_840";
 
                 /// <summary>
-                /// After you Discover a card, get a copy of it.<br/>
+                /// After you <b>Discover</b> a card, get a copy of it.<br/>
                 /// 1-Cost 1/2 Draenei Minion
                 /// </summary>
                 public const string RangariScout = "GDB_841";
 
                 /// <summary>
-                /// Dormant for 5 turns. At the end of your turn, destroy the minion to the right of this to awaken 1 turn sooner.<br/>
+                /// <b>Dormant</b> for 5 turns. At the end of your turn, destroy the minion to the right of this to awaken 1 turn sooner.<br/>
                 /// 3-Cost 12/12 Beast Minion
                 /// </summary>
                 public const string GormTheWorldeater = "GDB_842";
 
                 /// <summary>
-                /// Has +2 Attack if you've Discovered this turn. Spellburst: Your hero is Immune this turn.<br/>
+                /// Has +2 Attack if you've <b><b>Discover</b>ed</b> this turn. <b><b>Spellburst</b>:</b> Your hero is <b>Immune</b> this turn.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string ParallaxCannon = "GDB_843";
 
                 /// <summary>
-                /// Discover a Beast that costs (5) or more. Reduce its Cost by (2).<br/>
+                /// <b>Discover</b> a Beast that costs (5) or more. Reduce its Cost by (2).<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DetailedNotes = "GDB_844";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If you're building a Starship, also damage its neighbors.<br/>
+                /// Deal $3 damage to a minion. If you're building a <b>Starship</b>, also damage its neighbors.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string LaserBarrage = "GDB_845";
 
                 /// <summary>
-                /// Battlecry: Replace your Hero Power with Tracking (Discover a card from your deck).<br/>
+                /// <b>Battlecry:</b> Replace your Hero Power with Tracking <i>(<b>Discover</b> a card from your deck)</i>.<br/>
                 /// 3-Cost 3/4 Draenei Minion
                 /// </summary>
                 public const string ExarchNaielle = "GDB_846";
 
                 /// <summary>
-                /// Discover a Temporary Quick Shot, Deadly Shot, or Explosive Shot.<br/>
+                /// <b>Discover</b> a <b>Temporary</b> Quick Shot, Deadly Shot, or Explosive Shot.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string RexxarsGift = "GIFT_03";
 
                 /// <summary>
-                /// Battlecry: Double the Attack and Health of all minions in your hand.<br/>
+                /// <b>Battlecry:</b> Double the Attack and Health of all minions in your hand.<br/>
                 /// 10-Cost 8/8 Dragon Minion
                 /// </summary>
                 public const string Emeriss = "GIL_128";
 
                 /// <summary>
-                /// Stealth Each turn this is in your hand, swap its Attack and Health.<br/>
+                /// <b>Stealth</b> Each turn this is in your hand, swap its Attack and Health.<br/>
                 /// 3-Cost 2/5 Minion
                 /// </summary>
                 public const string DuskhavenHunter = "GIL_200";
@@ -1232,31 +1232,31 @@ namespace HearthDb
                 public const string WingBlast = "GIL_518";
 
                 /// <summary>
-                /// Poisonous Rush<br/>
+                /// <b>Poisonous</b> <b>Rush</b><br/>
                 /// 5-Cost 1/3 Beast Minion
                 /// </summary>
                 public const string VilebroodSkitterer = "GIL_562";
 
                 /// <summary>
-                /// Secret: After your opponent plays three cards in a turn, summon a 6/6 Rat.<br/>
+                /// <b>Secret:</b> After your opponent plays three cards in a turn, summon a 6/6 Rat.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string RatTrap = "GIL_577";
 
                 /// <summary>
-                /// Whenever you play a 1-Cost minion, give it Poisonous.<br/>
+                /// Whenever you play a 1-Cost minion, give it <b>Poisonous</b>.<br/>
                 /// 4-Cost 2/4 Minion
                 /// </summary>
                 public const string Toxmonger = "GIL_607";
 
                 /// <summary>
-                /// Echo Rush<br/>
+                /// <b>Echo</b> <b>Rush</b><br/>
                 /// 2-Cost 2/1 Beast Minion
                 /// </summary>
                 public const string Toxmonger_HuntingMastiffToken = "GIL_607t";
 
                 /// <summary>
-                /// Your other minions have Rush.<br/>
+                /// Your other minions have <b>Rush</b>.<br/>
                 /// 4-Cost 3/6 Minion
                 /// </summary>
                 public const string HoundmasterShaw = "GIL_650";
@@ -1268,7 +1268,7 @@ namespace HearthDb
                 public const string DireFrenzy = "GIL_828";
 
                 /// <summary>
-                /// Battlecry: If a minion died this turn, gain Poisonous.<br/>
+                /// <b>Battlecry:</b> If a minion died this turn, gain <b>Poisonous</b>.<br/>
                 /// 5-Cost 3/7 Dragon Minion
                 /// </summary>
                 public const string CarrionDrake = "GIL_905";
@@ -1280,25 +1280,25 @@ namespace HearthDb
                 public const string CallPet = "GVG_017";
 
                 /// <summary>
-                /// Trigger all Deathrattles on your minions.<br/>
+                /// Trigger all <b>Deathrattles</b> on your minions.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FeignDeath = "GVG_026";
 
                 /// <summary>
-                /// Battlecry: Give a random friendly minion +1 Attack.<br/>
+                /// <b>Battlecry:</b> Give a random friendly minion +1 Attack.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
                 public const string Glaivezooka = "GVG_043";
 
                 /// <summary>
-                /// Taunt Has +1 Attack for each other Beast you control.<br/>
+                /// <b>Taunt</b> Has +1 Attack for each other Beast you control.<br/>
                 /// 3-Cost 1/5 Beast Minion
                 /// </summary>
                 public const string KingOfBeastsGVG = "GVG_046";
 
                 /// <summary>
-                /// Battlecry: Give your other Mechs +2 Attack.<br/>
+                /// <b>Battlecry:</b> Give your other Mechs +2 Attack.<br/>
                 /// 3-Cost 3/3 Mechanical/Beast Minion
                 /// </summary>
                 public const string MetaltoothLeaper = "GVG_048";
@@ -1586,115 +1586,115 @@ namespace HearthDb
                 public const string Rexxar_SylvanasRangerGeneralHeroHeroSkins = "HERO_05z";
 
                 /// <summary>
-                /// Deathrattle: Deal 2 damage to all enemy minions.<br/>
+                /// <b>Deathrattle:</b> Deal 2 damage to all enemy minions.<br/>
                 /// 4-Cost 2/1 Beast Minion
                 /// </summary>
                 public const string ExplodingBloatbat = "ICC_021";
 
                 /// <summary>
-                /// Deal $2 damage to a minion. If it survives, give it Poisonous.<br/>
+                /// Deal $2 damage to a minion. If it survives, give it <b>Poisonous</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ToxicArrow = "ICC_049";
 
                 /// <summary>
-                /// Trigger a friendly minion's Deathrattle.<br/>
+                /// Trigger a friendly minion's <b>Deathrattle</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string PlayDead = "ICC_052";
 
                 /// <summary>
-                /// Secret: When one of your minions is attacked, summon a 2/3 Poisonous Cobra.<br/>
+                /// <b>Secret:</b> When one of your minions is attacked, summon a 2/3 <b>Poisonous</b> Cobra.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string VenomstrikeTrap = "ICC_200";
 
                 /// <summary>
-                /// After you play a Secret, put a random Hunter Secret into the battlefield.<br/>
+                /// After you play a <b>Secret</b>, put a random Hunter <b>Secret</b> into the battlefield.<br/>
                 /// 4-Cost 5/4 Undead Minion
                 /// </summary>
                 public const string ProfessorPutricide = "ICC_204";
 
                 /// <summary>
-                /// Your Deathrattle cards cost (2) less.<br/>
+                /// Your <b>Deathrattle</b> cards cost (2) less.<br/>
                 /// 5-Cost 4/6 Beast/Undead Minion
                 /// </summary>
                 public const string CorpseWidow = "ICC_243";
 
                 /// <summary>
-                /// Battlecry: Discover a copy of a minion in your deck.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a copy of a minion in your deck.<br/>
                 /// 3-Cost 2/2 Undead Minion
                 /// </summary>
                 public const string StitchedTracker = "ICC_415";
 
                 /// <summary>
-                /// Elusive<br/>
+                /// <b>Elusive</b><br/>
                 /// 3-Cost 4/3 Beast/Undead Minion
                 /// </summary>
                 public const string Bearshark = "ICC_419";
 
                 /// <summary>
-                /// Deathrattle: Summon a random friendly Beast that died this game.<br/>
+                /// <b>Deathrattle:</b> Summon a random friendly Beast that died this game.<br/>
                 /// 7-Cost 6/7 Undead Minion
                 /// </summary>
                 public const string AbominableBowman = "ICC_825";
 
                 /// <summary>
-                /// Battlecry: Deal 2 damage to all enemy minions.<br/>
+                /// <b>Battlecry:</b> Deal 2 damage to all enemy minions.<br/>
                 /// 6-Cost Hero
                 /// </summary>
                 public const string DeathstalkerRexxar = "ICC_828";
 
                 /// <summary>
-                /// Secret: When your opponent ends their turn with no Mana, summon a random 3-Cost minion.<br/>
+                /// <b>Secret:</b> When your opponent ends their turn with no Mana, summon a random 3-Cost minion.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string HiddenMeaning = "JAM_003";
 
                 /// <summary>
-                /// Lifesteal, Rush Also damages minions next to whomever this attacks.<br/>
+                /// <b>Lifesteal</b>, <b>Rush</b> Also damages minions next to whomever this attacks.<br/>
                 /// 6-Cost 3/4 Undead/Beast Minion
                 /// </summary>
                 public const string HollowHound = "JAM_004";
 
                 /// <summary>
-                /// Secret: After your opponent casts a spell, summon a 4/2 Panther with Stealth.<br/>
+                /// <b>Secret:</b> After your opponent casts a spell, summon a 4/2 Panther with <b>Stealth</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string CatTrick = "KAR_004";
 
                 /// <summary>
-                /// Deathrattle: Summon a 3/2 Big Bad Wolf.<br/>
+                /// <b>Deathrattle:</b> Summon a 3/2 Big Bad Wolf.<br/>
                 /// 2-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string KindlyGrandmother = "KAR_005";
 
                 /// <summary>
-                /// Your Secrets cost (0).<br/>
+                /// Your <b>Secrets</b> cost (0).<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
                 public const string CloakedHuntress = "KAR_006";
 
                 /// <summary>
-                /// Battlecry: Discover a copy of a Beast in your deck.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a copy of a Beast in your deck.<br/>
                 /// 2-Cost 1/3 Minion
                 /// </summary>
                 public const string SelectiveBreederLegacy = "LEG_CS3_015";
 
                 /// <summary>
-                /// Battlecry: Put a 1-Cost minion from each deck into the battlefield.<br/>
+                /// <b>Battlecry:</b> Put a 1-Cost minion from each deck into the battlefield.<br/>
                 /// 3-Cost 2/4 Beast Minion
                 /// </summary>
                 public const string DesertCamel = "LOE_020";
 
                 /// <summary>
-                /// Secret: After an opposing Hero Power is used, deal $5 damage to a random enemy.<br/>
+                /// <b>Secret:</b> After an opposing Hero Power is used, deal $5 damage to a random enemy.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DartTrap = "LOE_021";
 
                 /// <summary>
-                /// Give a minion +1/+1 and "Deathrattle: Get an Explorer's Hat."<br/>
+                /// Give a minion +1/+1 and "<b>Deathrattle:</b> Get an Explorer's Hat."<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ExplorersHatLOE = "LOE_105";
@@ -1712,19 +1712,19 @@ namespace HearthDb
                 public const string CaveHydra = "LOOT_078";
 
                 /// <summary>
-                /// Secret: When an enemy attacks your hero, summon a 3-Cost minion as the new target.<br/>
+                /// <b>Secret:</b> When an enemy attacks your hero, summon a 3-Cost minion as the new target.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string WanderingMonster = "LOOT_079";
 
                 /// <summary>
-                /// Summon two 3/3 Wolves. (Play a Secret to upgrade.)<br/>
+                /// Summon two 3/3 Wolves. <i>(Play a <b>Secret</b> to upgrade.)</i><br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string LesserEmeraldSpellstone = "LOOT_080";
 
                 /// <summary>
-                /// Battlecry: If your deck has no minions, fill your hand with Hunter spells.<br/>
+                /// <b>Battlecry:</b> If your deck has no minions, fill your hand with Hunter spells.<br/>
                 /// 7-Cost Weapon
                 /// </summary>
                 public const string Rhokdelar = "LOOT_085";
@@ -1736,19 +1736,19 @@ namespace HearthDb
                 public const string ToMySide = "LOOT_217";
 
                 /// <summary>
-                /// Your hero is Immune while attacking.<br/>
+                /// Your hero is <b>Immune</b> while attacking.<br/>
                 /// 1-Cost Weapon
                 /// </summary>
                 public const string Candleshot = "LOOT_222";
 
                 /// <summary>
-                /// Battlecry and Deathrattle: Recruit a Beast.<br/>
+                /// <b>Battlecry and Deathrattle:</b> <b>Recruit</b> a Beast.<br/>
                 /// 8-Cost 6/6 Minion
                 /// </summary>
                 public const string KathrenaWinterwisp = "LOOT_511";
 
                 /// <summary>
-                /// Battlecry: Gain the Deathrattle of a random minion in your deck.<br/>
+                /// <b>Battlecry:</b> Gain the <b>Deathrattle</b> of a random minion in your deck.<br/>
                 /// 6-Cost 5/4 Minion
                 /// </summary>
                 public const string SeepingOozeling = "LOOT_520";
@@ -1760,37 +1760,37 @@ namespace HearthDb
                 public const string CrushingWalls = "LOOT_522";
 
                 /// <summary>
-                /// Whenever this attacks, give your other Beasts +2/+2. Infuse (3 Beasts): Gain Rush.<br/>
+                /// Whenever this attacks, give your other Beasts +2/+2. <b>Infuse (3 Beasts):</b> Gain <b>Rush</b>.<br/>
                 /// 5-Cost 6/5 Beast Minion
                 /// </summary>
                 public const string Shadehound = "MAW_009";
 
                 /// <summary>
-                /// Secret: After your opponent plays three cards in a turn, deal $6 damage to the enemy hero.<br/>
+                /// <b>Secret:</b> After your opponent plays three cards in a turn, deal $6 damage to the enemy hero.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MotionDenied = "MAW_010";
 
                 /// <summary>
-                /// Battlecry: Discover a friendly Deathrattle minion that died this game. Gain its Deathrattle and then trigger it.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a friendly <b>Deathrattle</b> minion that died this game. Gain its <b>Deathrattle</b> and then trigger it.<br/>
                 /// 6-Cost 4/4 Undead Minion
                 /// </summary>
                 public const string DefenseAttorneyNathanos = "MAW_011";
 
                 /// <summary>
-                /// Add 5 random Beasts to your hand. They are Temporary.<br/>
+                /// Add 5 random Beasts to your hand. They are <b>Temporary</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string WildernessPack = "MIS_104";
 
                 /// <summary>
-                /// Secret: After your opponent plays a minion, spell, or weapon, draw a card of the other 2 types.<br/>
+                /// <b>Secret:</b> After your opponent plays a minion, spell, or weapon, draw a card of the other 2 types.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BargainBin = "MIS_105";
 
                 /// <summary>
-                /// Battlecry: Recast every friendly Secret that triggered this game.<br/>
+                /// <b>Battlecry:</b> Recast every friendly <b>Secret</b> that triggered this game.<br/>
                 /// 5-Cost 4/4 Beast/Mechanical Minion
                 /// </summary>
                 public const string Product9 = "MIS_914";
@@ -1802,25 +1802,25 @@ namespace HearthDb
                 public const string AnimalCompanionLegacy = "NEW1_031";
 
                 /// <summary>
-                /// Secret: After your opponent plays a minion, summon four 1/1 Zombees to attack it.<br/>
+                /// <b>Secret:</b> After your opponent plays a minion, summon four 1/1 Zombees to attack it.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Zombeeees = "NX2_013";
 
                 /// <summary>
-                /// Battlecry: Draw a 1-Cost spell.<br/>
+                /// <b>Battlecry:</b> Draw a 1-Cost spell.<br/>
                 /// 1-Cost 1/1 Undead Minion
                 /// </summary>
                 public const string TrinketTracker = "NX2_014";
 
                 /// <summary>
-                /// Discover a Beast from your deck and summon it. Manathirst (10): Also summon a copy of it.<br/>
+                /// <b>Discover</b> a Beast from your deck and summon it. <b>Manathirst (10):</b> Also summon a copy of it.<br/>
                 /// 7-Cost Spell
                 /// </summary>
                 public const string FaithfulCompanions = "NX2_015";
 
                 /// <summary>
-                /// Give your minions "Deathrattle: Add a random Beast to your hand."<br/>
+                /// Give your minions "<b>Deathrattle:</b> Add a random Beast to your hand."<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string Infest = "OG_045";
@@ -1832,7 +1832,7 @@ namespace HearthDb
                 public const string OnTheHunt = "OG_061";
 
                 /// <summary>
-                /// Deathrattle: Deal 1 damage to a random enemy.<br/>
+                /// <b>Deathrattle:</b> Deal 1 damage to a random enemy.<br/>
                 /// 1-Cost 2/1 Beast Minion
                 /// </summary>
                 public const string FieryBat = "OG_179";
@@ -1845,17 +1845,17 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Deathrattle: Summon two 1/1 Spiders.<br/>
+                /// <b>Deathrattle:</b> Summon two 1/1 Spiders.<br/>
                 /// Tier-3 3/3 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Deathrattle: Summon two 2/2 Spiders.<br/>
+                /// <b>Deathrattle:</b> Summon two 2/2 Spiders.<br/>
                 /// Tier-3 6/6 Beast Minion
                 /// </summary>
                 public const string InfestedWolf = "OG_216";
 
                 /// <summary>
-                /// Battlecry: Give all Deathrattle minions in your hand +1/+1.<br/>
+                /// <b>Battlecry:</b> Give all <b>Deathrattle</b> minions in your hand +1/+1.<br/>
                 /// 3-Cost 4/2 Minion
                 /// </summary>
                 public const string ForlornStalker = "OG_292";
@@ -1867,7 +1867,7 @@ namespace HearthDb
                 public const string GiantSandWorm = "OG_308";
 
                 /// <summary>
-                /// Battlecry: Trigger a friendly minion's Deathrattle.<br/>
+                /// <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle</b>.<br/>
                 /// 5-Cost 6/5 Beast Minion
                 /// </summary>
                 public const string PrincessHuhuran = "OG_309";
@@ -1885,67 +1885,67 @@ namespace HearthDb
                 public const string FuriousHowl = "ONY_008";
 
                 /// <summary>
-                /// Battlecry: Summon a Beast from your deck that costs (5) or less.<br/>
+                /// <b>Battlecry:</b> Summon a Beast from your deck that costs (5) or less.<br/>
                 /// 5-Cost 4/4 Minion
                 /// </summary>
                 public const string PetCollector = "ONY_009";
 
                 /// <summary>
-                /// Deal $2 damage. Honorable Kill: Add a Dragonbane Shot to your hand.<br/>
+                /// Deal $2 damage. <b>Honorable Kill:</b> Add a Dragonbane Shot to your hand.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DragonbaneShot = "ONY_010";
 
                 /// <summary>
-                /// Summon two 2/1 Bats. Infuse (3): Give them +1/+2.<br/>
+                /// Summon two 2/1 Bats. <b>Infuse (3):</b> Give them +1/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FrenziedFangs = "REV_350";
 
                 /// <summary>
-                /// Rush Infuse (3): Also damages the minions next to whomever this attacks.<br/>
+                /// <b>Rush</b> <b>Infuse (3):</b> Also damages the minions next to whomever this attacks.<br/>
                 /// 4-Cost 3/5 Beast Minion
                 /// </summary>
                 public const string StoneboundGargon = "REV_352";
 
                 /// <summary>
-                /// Battlecry: Summon a Gargon Companion. Infuse ({0}): Summon another. Infuse ({1}): And another!<br/>
+                /// <b>Battlecry:</b> Summon a Gargon Companion. <b>Infuse ({0}):</b> Summon another. <b>Infuse ({1}):</b> And another!<br/>
                 /// 7-Cost 5/4 Minion
                 /// </summary>
                 public const string HuntsmanAltimor = "REV_353";
 
                 /// <summary>
-                /// Deathrattle: Summon a 2/1 Bat.<br/>
+                /// <b>Deathrattle:</b> Summon a 2/1 Bat.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string BattyGuest = "REV_356";
 
                 /// <summary>
-                /// Battlecry: Summon a random Dormant Wildseed.<br/>
+                /// <b>Battlecry:</b> Summon a random <b>Dormant</b> Wildseed.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string SpiritPoacher = "REV_360";
 
                 /// <summary>
-                /// Summon two different Dormant Wildseeds. Make your Wildseeds awaken 1 turn sooner.<br/>
+                /// Summon two different <b>Dormant</b> Wildseeds. Make your Wildseeds awaken 1 turn sooner.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string WildSpirits = "REV_361";
 
                 /// <summary>
-                /// Give a friendly minion +2 Attack. If it's a Beast, give it Rush.<br/>
+                /// Give a friendly minion +2 Attack. If it's a Beast, give it <b>Rush</b>.<br/>
                 /// 2-Cost Location
                 /// </summary>
                 public const string CastleKennels = "REV_362";
 
                 /// <summary>
-                /// Battlecry: Summon one of each Dormant Wildseed.<br/>
+                /// <b>Battlecry:</b> Summon one of each <b>Dormant</b> Wildseed.<br/>
                 /// 5-Cost 4/5 Minion
                 /// </summary>
                 public const string Aralon = "REV_363";
 
                 /// <summary>
-                /// Deal $3 damage. Summon a random Dormant Wildseed.<br/>
+                /// Deal $3 damage. Summon a random <b>Dormant</b> Wildseed.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string StagCharge = "REV_364";
@@ -1957,13 +1957,13 @@ namespace HearthDb
                 public const string CollateralDamage = "REV_369";
 
                 /// <summary>
-                /// Deal $2 damage to a minion. Manathirst (6): Draw that many cards.<br/>
+                /// Deal $2 damage to a minion. <b>Manathirst (6):</b> Draw that many cards.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ConjuredArrow = "RLK_804";
 
                 /// <summary>
-                /// Discover a spell from your deck. If it's Arcane, give it Spell Damage +1.<br/>
+                /// <b>Discover</b> a spell from your deck. If it's Arcane, give it <b>Spell Damage +1</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ArcaneQuiver = "RLK_817";
@@ -1975,31 +1975,31 @@ namespace HearthDb
                 public const string RicochetShot = "RLK_818";
 
                 /// <summary>
-                /// Summon $1 4/4 Lynxes with Rush (improved by Spell Damage).<br/>
+                /// Summon $1 4/4 Lynxes with <b>Rush</b> <i>(improved by <b>Spell Damage</b>)</i>.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string EversongPortal = "RLK_819";
 
                 /// <summary>
-                /// Battlecry: Give all Arcane spells in your hand and deck Spell Damage +1.<br/>
+                /// <b>Battlecry:</b> Give all Arcane spells in your hand and deck <b>Spell Damage +1</b>.<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
                 public const string HalduronBrightwing = "RLK_820";
 
                 /// <summary>
-                /// Battlecry: Craft a custom Zombeast.<br/>
+                /// <b>Battlecry:</b> Craft a custom Zombeast.<br/>
                 /// 1-Cost 1/2 Undead Minion
                 /// </summary>
                 public const string ScourgeTamer = "RLK_821";
 
                 /// <summary>
-                /// Battlecry: Deal 1 damage. (Improved by your hero attacks this game!)<br/>
+                /// <b>Battlecry:</b> Deal 1 damage. <i>(Improved by your hero attacks this game!)</i><br/>
                 /// 4-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string Shockspitter = "RLK_825";
 
                 /// <summary>
-                /// Battlecry: Give all Arcane spells in your hand Spell Damage +1.<br/>
+                /// <b>Battlecry:</b> Give all Arcane spells in your hand <b>Spell Damage +1</b>.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string SilvermoonFarstrider = "RLK_826";
@@ -2011,19 +2011,19 @@ namespace HearthDb
                 public const string KeeneyeSpotter = "RLK_827";
 
                 /// <summary>
-                /// After your hero attacks, give your minions +1/+1 (wherever they are).<br/>
+                /// After your hero attacks, give your minions +1/+1 <i>(wherever they are).</i><br/>
                 /// 6-Cost Weapon
                 /// </summary>
                 public const string HopeOfQuelthalas = "RLK_828";
 
                 /// <summary>
-                /// Battlecry: Deal 2 damage to a random enemy. Repeat for each other Zerg minion you control.<br/>
+                /// <b>Battlecry:</b> Deal 2 damage to a random enemy. Repeat for each other Zerg minion you control.<br/>
                 /// 3-Cost 4/2 Minion
                 /// </summary>
                 public const string Hydralisk = "SC_008";
 
                 /// <summary>
-                /// When you draw this, get a copy of it. Battlecry: If you control another Zerg minion, gain +1/+2.<br/>
+                /// When you draw this, get a copy of it. <b>Battlecry:</b> If you control another Zerg minion, gain +1/+2.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string Roach = "SC_012";
@@ -2035,37 +2035,37 @@ namespace HearthDb
                 public const string EvolutionChamber = "SC_021";
 
                 /// <summary>
-                /// Battlecry: Summon a copy of this.<br/>
+                /// <b>Battlecry:</b> Summon a copy of this.<br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string Wolpertinger = "SCH_133";
 
                 /// <summary>
-                /// Spellburst: Destroy a random enemy minion.<br/>
+                /// <b>Spellburst:</b> Destroy a random enemy minion.<br/>
                 /// 4-Cost 3/5 Beast Minion
                 /// </summary>
                 public const string KroluskBarkstripper = "SCH_239";
 
                 /// <summary>
-                /// Taunt Deathrattle: Summon a random 3-Cost Beast.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Summon a random 3-Cost Beast.<br/>
                 /// 5-Cost 4/5 Beast Minion
                 /// </summary>
                 public const string TeachersPet = "SCH_244";
 
                 /// <summary>
-                /// Discover a Deathrattle minion. Your next one costs (1) less.<br/>
+                /// <b>Discover</b> a <b>Deathrattle</b> minion. Your next one costs (1) less.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string CarrionStudies = "SCH_300";
 
                 /// <summary>
-                /// Deathrattle: Summon a 4/4 Hapless Handler.<br/>
+                /// <b>Deathrattle:</b> Summon a 4/4 Hapless Handler.<br/>
                 /// 3-Cost 1/2 Beast Minion
                 /// </summary>
                 public const string BloatedPython = "SCH_340";
 
                 /// <summary>
-                /// Your spells are Poisonous.<br/>
+                /// Your spells are <b>Poisonous</b>.<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
                 public const string ProfessorSlate = "SCH_539";
@@ -2077,13 +2077,13 @@ namespace HearthDb
                 public const string Overwhelm = "SCH_604";
 
                 /// <summary>
-                /// Choose One - Give Beasts in your deck +1/+1; or Transform into a copy of a friendly Beast.<br/>
+                /// <b>Choose One -</b> Give Beasts in your deck +1/+1; or Transform into a copy of a friendly Beast.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string ShandoWildclaw = "SCH_607";
 
                 /// <summary>
-                /// Summon two Beasts that cost (5) or less from your deck. Give them Rush.<br/>
+                /// Summon two Beasts that cost (5) or less from your deck. Give them <b>Rush</b>.<br/>
                 /// 7-Cost Spell
                 /// </summary>
                 public const string GuardianAnimals = "SCH_610";
@@ -2107,19 +2107,19 @@ namespace HearthDb
                 public const string AimedShot = "SW_321";
 
                 /// <summary>
-                /// Questline: Deal damage with 3 spells. Reward: Your Hero Power can target minions.<br/>
+                /// <b>Questline:</b> Deal damage with 3 spells. <b>Reward:</b> Your Hero Power can target minions.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string DefendTheDwarvenDistrict = "SW_322";
 
                 /// <summary>
-                /// Rush. Deathrattle: Go Dormant. Revive after 5 friendly minions die.<br/>
+                /// <b>Rush</b>. <b>Deathrattle:</b> Go <b>Dormant</b>. Revive after 5 friendly minions die.<br/>
                 /// 5-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string TheRatKing = "SW_323";
 
                 /// <summary>
-                /// Deathrattle: Summon five 1/1 Rats.<br/>
+                /// <b>Deathrattle:</b> Summon five 1/1 Rats.<br/>
                 /// 4-Cost 2/2 Minion
                 /// </summary>
                 public const string RodentNest = "SW_455";
@@ -2131,7 +2131,7 @@ namespace HearthDb
                 public const string LeatherworkingKit = "SW_457";
 
                 /// <summary>
-                /// Give a minion +2/+2 and Immune while attacking. When it dies, summon a Ram.<br/>
+                /// Give a minion +2/+2 and <b>Immune</b> while attacking. When it dies, summon a Ram.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string RammingMount = "SW_458";
@@ -2149,13 +2149,13 @@ namespace HearthDb
                 public const string DevouringSwarm = "SW_460";
 
                 /// <summary>
-                /// Tradeable Deathrattle: Summon two 1/1 Spiders with Poisonous and Rush.<br/>
+                /// <b>Tradeable</b> <b>Deathrattle:</b> Summon two 1/1 Spiders with <b>Poisonous</b> and <b>Rush</b>.<br/>
                 /// 5-Cost 4/5 Beast Minion
                 /// </summary>
                 public const string ImportedTarantula = "SW_463";
 
                 /// <summary>
-                /// Battlecry: If you've cast three spells while holding this, deal 5 damage. ({0} left!) (Ready!)<br/>
+                /// <b>Battlecry:</b> If you've cast three spells while holding this, deal 5 damage. <i>({0} left!)</i> <i>(Ready!)</i><br/>
                 /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string AncientKrakenbane = "TID_074";
@@ -2167,19 +2167,19 @@ namespace HearthDb
                 public const string Shellshot = "TID_075";
 
                 /// <summary>
-                /// Battlecry: Dredge. If it's a 1-Cost minion, summon it.<br/>
+                /// <b>Battlecry:</b> <b>Dredge</b>. If it's a 1-Cost minion, summon it.<br/>
                 /// 2-Cost 2/3 Mechanical/Beast Minion
                 /// </summary>
                 public const string K90Tron = "TID_099";
 
                 /// <summary>
-                /// Battlecry: Give each other friendly Beast a random Bonus Effect.<br/>
+                /// <b>Battlecry:</b> Give each other friendly Beast a random <b>Bonus Effect</b>.<br/>
                 /// 2-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string PaintedCanvasaur = "TOY_350";
 
                 /// <summary>
-                /// Miniaturize Deathrattle: Get a copy of a random Beast in your deck. It costs (3) less.<br/>
+                /// <b>Miniaturize</b> <b>Deathrattle:</b> Get a copy of a random Beast in your deck. It costs (3) less.<br/>
                 /// 4-Cost 0/3 Minion
                 /// </summary>
                 public const string MysteryEgg = "TOY_351";
@@ -2203,19 +2203,19 @@ namespace HearthDb
                 public const string RCRampage = "TOY_354";
 
                 /// <summary>
-                /// After a friendly Beast dies, get a random Legendary Beast from the past. It costs (2) less.<br/>
+                /// After a friendly Beast dies, get a random <b>Legendary</b> Beast from the past. It costs (2) less.<br/>
                 /// 5-Cost 3/6 Minion
                 /// </summary>
                 public const string HemetFoamMarksman = "TOY_355";
 
                 /// <summary>
-                /// Rush Deathrattle: Deal 7 damage to a random enemy.<br/>
+                /// <b>Rush</b> <b>Deathrattle:</b> Deal 7 damage to a random enemy.<br/>
                 /// 7-Cost 7/7 Beast Minion
                 /// </summary>
                 public const string Toyrannosaurus = "TOY_356";
 
                 /// <summary>
-                /// Charge Battlecry: Return all minions with less Attack than this to their owner's decks.<br/>
+                /// <b>Charge</b> <b>Battlecry:</b> Return all minions with less Attack than this to their owner's decks.<br/>
                 /// 9-Cost 6/6 Beast Minion
                 /// </summary>
                 public const string KingPlush = "TOY_357";
@@ -2233,13 +2233,13 @@ namespace HearthDb
                 public const string JungleGym = "TOY_359";
 
                 /// <summary>
-                /// Battlecry: Cast all spells you've played this game (targets chosen randomly).<br/>
+                /// <b>Battlecry:</b> Cast all spells you've played this game <i>(targets chosen randomly)</i>.<br/>
                 /// 10-Cost Hero
                 /// </summary>
                 public const string Zuljin = "TRL_065";
 
                 /// <summary>
-                /// Battlecry: If you control a Beast, gain +1 Durability.<br/>
+                /// <b>Battlecry:</b> If you control a Beast, gain +1 Durability.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
                 public const string HeadhuntersHatchet = "TRL_111";
@@ -2251,25 +2251,25 @@ namespace HearthDb
                 public const string TheBeastWithin = "TRL_119";
 
                 /// <summary>
-                /// Discover a minion from your deck. If all 3 are Beasts, draw them all instead.<br/>
+                /// <b>Discover</b> a minion from your deck. If all 3 are Beasts, draw them all instead.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string MastersCall = "TRL_339";
 
                 /// <summary>
-                /// Deal $3 damage. Overkill: Summon a 5/5 Devilsaur.<br/>
+                /// Deal $3 damage. <b>Overkill:</b> Summon a 5/5 Devilsaur.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string BaitedArrow = "TRL_347";
 
                 /// <summary>
-                /// Rush Battlecry: Add a 1/1 Lynx with Rush to your hand.<br/>
+                /// <b>Rush</b> <b>Battlecry:</b> Add a 1/1 Lynx with <b>Rush</b> to your hand.<br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string Springpaw = "TRL_348";
 
                 /// <summary>
-                /// Battlecry: If you have a weapon equipped, Discover a spell.<br/>
+                /// <b>Battlecry:</b> If you have a weapon equipped, <b>Discover</b> a spell.<br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
                 public const string BloodscalpStrategist = "TRL_349";
@@ -2281,13 +2281,13 @@ namespace HearthDb
                 public const string RevengeOfTheWild = "TRL_566";
 
                 /// <summary>
-                /// Battlecry: Fill your hand with 1/1 Lynxes that have Rush.<br/>
+                /// <b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have <b>Rush</b>.<br/>
                 /// 5-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string HalazziTheLynx = "TRL_900";
 
                 /// <summary>
-                /// Stealth for 1 turn. Whenever you summon a Beast, give it +1/+1.<br/>
+                /// <b>Stealth</b> for 1 turn. Whenever you summon a Beast, give it +1/+1.<br/>
                 /// 3-Cost 0/3 Undead/Beast Minion
                 /// </summary>
                 public const string SpiritOfTheLynx = "TRL_901";
@@ -2299,13 +2299,13 @@ namespace HearthDb
                 public const string BarbedNets = "TSC_023";
 
                 /// <summary>
-                /// After your hero attacks, Dredge. If it's a Beast, reduce its Cost by (2).<br/>
+                /// After your hero attacks, <b>Dredge</b>. If it's a Beast, reduce its Cost by (2).<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string HarpoonGun = "TSC_070";
 
                 /// <summary>
-                /// Battlecry: If you've cast a spell while holding this, your next spell casts twice.<br/>
+                /// <b>Battlecry:</b> If you've cast a spell while holding this, your next spell casts twice.<br/>
                 /// 4-Cost 4/4 Naga Minion
                 /// </summary>
                 public const string TwinbowTerrorcoil = "TSC_071";
@@ -2323,19 +2323,19 @@ namespace HearthDb
                 public const string RajNazjan = "TSC_073";
 
                 /// <summary>
-                /// Secret: When a friendly minion dies, summon a copy of it. It's Dormant for 1 turn.<br/>
+                /// <b>Secret:</b> When a friendly minion dies, summon a copy of it. It's <b>Dormant</b> for 1 turn.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string EmergencyManeuvers = "TSC_929";
 
                 /// <summary>
-                /// Rush. Deathrattle: Put a 'Sunken Saber' on the bottom of your deck.<br/>
+                /// <b><b>Rush</b>.</b> <b>Deathrattle:</b> Put a 'Sunken Saber' on the bottom of your deck.<br/>
                 /// 4-Cost 4/3 Beast Minion
                 /// </summary>
                 public const string AzsharanSaber = "TSC_945";
 
                 /// <summary>
-                /// Your spells this turn are Poisonous.<br/>
+                /// Your spells this turn are <b>Poisonous</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string UrchinSpines = "TSC_946";
@@ -2347,7 +2347,7 @@ namespace HearthDb
                 public const string NagasPride = "TSC_947";
 
                 /// <summary>
-                /// Colossal +2 Battlecry: Give your Hydralodon Heads Rush.<br/>
+                /// <b>Colossal +2</b> <b>Battlecry:</b> Give your Hydralodon Heads <b>Rush</b>.<br/>
                 /// 7-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string Hydralodon = "TSC_950";
@@ -2365,7 +2365,7 @@ namespace HearthDb
                 public const string AlwaysABiggerJormungar = "TTN_079";
 
                 /// <summary>
-                /// Rush Battlecry: If you control a minion with 4 or more Attack, gain +2/+2.<br/>
+                /// <b>Rush</b> <b>Battlecry:</b> If you control a minion with 4 or more Attack, gain +2/+2.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string FableStablehand = "TTN_080";
@@ -2377,103 +2377,103 @@ namespace HearthDb
                 public const string AwakeningTremors = "TTN_081";
 
                 /// <summary>
-                /// Magnetic, Rush Can Magnetize to Mechs and Beasts.<br/>
+                /// <b>Magnetic</b>, <b>Rush</b> Can <b>Magnetize</b> to Mechs and Beasts.<br/>
                 /// 2-Cost 3/1 Minion
                 /// </summary>
                 public const string AbsorbentParasite = "TTN_087";
 
                 /// <summary>
-                /// Costs (1) less for each friendly Secret that has triggered this game.<br/>
+                /// Costs (1) less for each friendly <b>Secret</b> that has triggered this game.<br/>
                 /// 6-Cost Weapon
                 /// </summary>
                 public const string StarstrungBow = "TTN_088";
 
                 /// <summary>
-                /// Titan Battlecry: Equip a 3/3 Taeshalach.<br/>
+                /// <b>Titan</b> <b>Battlecry:</b> Equip a 3/3 Taeshalach.<br/>
                 /// 6-Cost 3/7 Minion
                 /// </summary>
                 public const string AggramarTheAvenger = "TTN_092";
 
                 /// <summary>
-                /// Discover and cast a Secret. Forge: Do it twice.<br/>
+                /// <b>Discover</b> and cast a <b>Secret</b>. <b>Forge:</b> Do it twice.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string TitanforgedTraps = "TTN_302";
 
                 /// <summary>
-                /// Secret: When a friendly minion is attacked, give it +3/+3.<br/>
+                /// <b>Secret:</b> When a friendly minion is attacked, give it +3/+3.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BaitAndSwitch = "TTN_504";
 
                 /// <summary>
-                /// Battlecry: Set the stats of the next three minions you play to 8/8.<br/>
+                /// <b>Battlecry:</b> Set the stats of the next three minions you play to 8/8.<br/>
                 /// 8-Cost 8/8 Minion
                 /// </summary>
                 public const string HodirFatherOfGiants = "TTN_752";
 
                 /// <summary>
-                /// Battlecry: Copy a random Beast in your hand.<br/>
+                /// <b>Battlecry:</b> Copy a random Beast in your hand.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string RamkahenWildtamer = "ULD_151";
 
                 /// <summary>
-                /// Secret: After your opponent casts a spell, destroy a random enemy minion.<br/>
+                /// <b>Secret:</b> After your opponent casts a spell, destroy a random enemy minion.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string PressurePlate = "ULD_152";
 
                 /// <summary>
-                /// Battlecry: If you control a Secret, summon two 2/2 Hyenas.<br/>
+                /// <b>Battlecry:</b> If you control a <b>Secret</b>, summon two 2/2 Hyenas.<br/>
                 /// 4-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string HyenaAlpha = "ULD_154";
 
                 /// <summary>
-                /// Quest: Summon 20 minions. Reward: Pharaoh's Warmask.<br/>
+                /// <b>Quest:</b> Summon 20 minions. <b>Reward:</b> Pharaoh's Warmask.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string UnsealTheVault = "ULD_155";
 
                 /// <summary>
-                /// Battlecry: If your deck has no duplicates, summon King Krush.<br/>
+                /// <b>Battlecry:</b> If your deck has no duplicates, summon King Krush.<br/>
                 /// 7-Cost 2/4 Minion
                 /// </summary>
                 public const string DinotamerBrann = "ULD_156";
 
                 /// <summary>
-                /// Battlecry: Summon a minion from your opponent's hand. Attack it.<br/>
+                /// <b>Battlecry:</b> Summon a minion from your opponent's hand. Attack it.<br/>
                 /// 6-Cost 6/9 Beast Minion
                 /// </summary>
                 public const string WildBloodstinger = "ULD_212";
 
                 /// <summary>
-                /// Battlecry: Reduce the Cost of a random Beast in your hand by (5).<br/>
+                /// <b>Battlecry:</b> Reduce the Cost of a random Beast in your hand by (5).<br/>
                 /// 6-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string ScarletWebweaver = "ULD_410";
 
                 /// <summary>
-                /// Add a random Hunter Beast, Secret, and weapon to your hand.<br/>
+                /// Add a random Hunter Beast, <b>Secret</b>, and weapon to your hand.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string HuntersPack = "ULD_429";
 
                 /// <summary>
-                /// After your hero attacks, summon a 1/1 Locust with Rush.<br/>
+                /// After your hero attacks, summon a 1/1 Locust with <b>Rush</b>.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string DesertSpear = "ULD_430";
 
                 /// <summary>
-                /// Summon seven 1/1 Locusts with Rush.<br/>
+                /// Summon seven 1/1 Locusts with <b>Rush</b>.<br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string SwarmOfLocusts = "ULD_713";
 
                 /// <summary>
-                /// Battlecry: Trigger a friendly minion's Deathrattle.<br/>
+                /// <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle</b>.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string TerrorscaleStalker = "UNG_800";
@@ -2485,25 +2485,25 @@ namespace HearthDb
                 public const string GrievousBite = "UNG_910";
 
                 /// <summary>
-                /// Battlecry: Add a random Beast to your hand.<br/>
+                /// <b>Battlecry:</b> Add a random Beast to your hand.<br/>
                 /// 1-Cost 1/2 Beast Minion
                 /// </summary>
                 public const string JeweledMacaw = "UNG_912";
 
                 /// <summary>
-                /// Battlecry: Draw two 1-Cost minions from your deck.<br/>
+                /// <b>Battlecry:</b> Draw two 1-Cost minions from your deck.<br/>
                 /// 4-Cost 3/4 Minion
                 /// </summary>
                 public const string TolvirWarden = "UNG_913";
 
                 /// <summary>
-                /// Deathrattle: Shuffle a 4/5 Raptor into your deck.<br/>
+                /// <b>Deathrattle:</b> Shuffle a 4/5 Raptor into your deck.<br/>
                 /// 1-Cost 2/1 Beast Minion
                 /// </summary>
                 public const string RaptorHatchling = "UNG_914";
 
                 /// <summary>
-                /// Battlecry: Adapt a friendly Beast.<br/>
+                /// <b>Battlecry:</b> <b>Adapt</b> a friendly Beast.<br/>
                 /// 2-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string CracklingRazormaw = "UNG_915";
@@ -2527,49 +2527,49 @@ namespace HearthDb
                 public const string SwampKingDred = "UNG_919";
 
                 /// <summary>
-                /// Quest: Play seven 1-Cost minions. Reward: Queen Carnassa.<br/>
+                /// <b>Quest:</b> Play seven 1-Cost minions. <b>Reward:</b> Queen Carnassa.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string TheMarshQueen = "UNG_920";
 
                 /// <summary>
-                /// Battlecry: Repeat the last spell you cast at an enemy (at a random enemy if possible).<br/>
+                /// <b>Battlecry:</b> Repeat the last spell you cast at an enemy <i>(at a random enemy if possible)</i>.<br/>
                 /// 3-Cost 3/3 Beast/Pirate Minion
                 /// </summary>
                 public const string ChattyMacaw = "VAC_407";
 
                 /// <summary>
-                /// Discover a minion from your deck. Give all copies of it +2/+1 (wherever they are).<br/>
+                /// <b>Discover</b> a minion from your deck. Give all copies of it +2/+1 <i>(wherever they are)</i>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Birdwatching = "VAC_408";
 
                 /// <summary>
-                /// Your next Battlecry minion costs (1) less. After you play a Battlecry minion, reopen this.<br/>
+                /// Your next <b>Battlecry</b> minion costs (1) less. After you play a <b>Battlecry</b> minion, reopen this.<br/>
                 /// 2-Cost Location
                 /// </summary>
                 public const string ParrotSanctuary = "VAC_409";
 
                 /// <summary>
-                /// Choose an enemy. Summon two 3/3 Birds with Immune while attacking to attack it.<br/>
+                /// Choose an enemy. Summon two 3/3 Birds with <b>Immune</b> while attacking to attack it.<br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string FuriousFowls = "VAC_410";
 
                 /// <summary>
-                /// Rush Battlecry: Summon a 2/1 Worm for your opponent.<br/>
+                /// <b>Rush</b> <b>Battlecry:</b> Summon a 2/1 Worm for your opponent.<br/>
                 /// 1-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string CatchOfTheDay = "VAC_412";
 
                 /// <summary>
-                /// Warrior Tourist. At the end of your turn, get a 2/3 Crocolisk. Deathrattle: Give all minions in your hand +2/+3.<br/>
+                /// <b>Warrior Tourist.</b> At the end of your turn, get a 2/3 Crocolisk. <b>Deathrattle:</b> Give all minions in your hand +2/+3.<br/>
                 /// 5-Cost 4/6 Minion
                 /// </summary>
                 public const string RangerGilly = "VAC_413";
 
                 /// <summary>
-                /// Battlecry: Repeat each card you played last turn.<br/>
+                /// <b>Battlecry:</b> Repeat each card you played last turn.<br/>
                 /// 7-Cost 4/5 Beast Minion
                 /// </summary>
                 public const string Sasquawk = "VAC_415";
@@ -2587,7 +2587,7 @@ namespace HearthDb
                 public const string TrustyFishingRod = "VAC_960";
 
                 /// <summary>
-                /// Battlecry: Repeat the last 1-Cost card you played.<br/>
+                /// <b>Battlecry:</b> Repeat the last 1-Cost card you played.<br/>
                 /// 2-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string PetParrot = "VAC_961";
@@ -2605,7 +2605,7 @@ namespace HearthDb
                 public const string StarvingBuzzardVanilla = "VAN_CS2_237";
 
                 /// <summary>
-                /// Battlecry: Give a friendly Beast +2/+2 and Taunt.<br/>
+                /// <b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.<br/>
                 /// 4-Cost 4/3 Minion
                 /// </summary>
                 public const string HoundmasterVanilla = "VAN_DS1_070";
@@ -2617,7 +2617,7 @@ namespace HearthDb
                 public const string TimberWolfVanilla = "VAN_DS1_175";
 
                 /// <summary>
-                /// Your Beasts have Charge.<br/>
+                /// Your Beasts have <b>Charge</b>.<br/>
                 /// 5-Cost 2/5 Beast Minion
                 /// </summary>
                 public const string TundraRhinoVanilla = "VAN_DS1_178";
@@ -2641,7 +2641,7 @@ namespace HearthDb
                 public const string ArcaneShotVanilla = "VAN_DS1_185";
 
                 /// <summary>
-                /// Your hero is Immune while attacking.<br/>
+                /// Your hero is <b>Immune</b> while attacking.<br/>
                 /// 7-Cost Weapon
                 /// </summary>
                 public const string GladiatorsLongbowVanilla = "VAN_DS1_188";
@@ -2653,19 +2653,19 @@ namespace HearthDb
                 public const string ScavengingHyenaVanilla = "VAN_EX1_531";
 
                 /// <summary>
-                /// Secret: When an enemy attacks your hero, instead it attacks another random character.<br/>
+                /// <b>Secret:</b> When an enemy attacks your hero, instead it attacks another random character.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MisdirectionVanilla = "VAN_EX1_533";
 
                 /// <summary>
-                /// Deathrattle: Summon two 2/2 Hyenas.<br/>
+                /// <b>Deathrattle:</b> Summon two 2/2 Hyenas.<br/>
                 /// 6-Cost 6/5 Beast Minion
                 /// </summary>
                 public const string SavannahHighmaneVanilla = "VAN_EX1_534";
 
                 /// <summary>
-                /// Whenever a Secret is revealed, gain +1 Durability.<br/>
+                /// Whenever a <b>Secret</b> is revealed, gain +1 Durability.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string EaglehornBowVanilla = "VAN_EX1_536";
@@ -2677,7 +2677,7 @@ namespace HearthDb
                 public const string ExplosiveShotVanilla = "VAN_EX1_537";
 
                 /// <summary>
-                /// For each enemy minion, summon a 1/1 Hound with Charge.<br/>
+                /// For each enemy minion, summon a 1/1 Hound with <b>Charge</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string UnleashTheHoundsVanilla = "VAN_EX1_538";
@@ -2689,43 +2689,43 @@ namespace HearthDb
                 public const string KillCommandVanilla = "VAN_EX1_539";
 
                 /// <summary>
-                /// Charge<br/>
+                /// <b>Charge</b><br/>
                 /// 9-Cost 8/8 Beast Minion
                 /// </summary>
                 public const string KingKrushVanilla = "VAN_EX1_543";
 
                 /// <summary>
-                /// All minions lose Stealth. Destroy all enemy Secrets. Draw a card.<br/>
+                /// All minions lose <b>Stealth</b>. Destroy all enemy <b>Secrets</b>. Draw a card.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string FlareVanilla = "VAN_EX1_544";
 
                 /// <summary>
-                /// Give a Beast +2 Attack and Immune this turn.<br/>
+                /// Give a Beast +2 Attack and <b>Immune</b> this turn.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string BestialWrathVanilla = "VAN_EX1_549";
 
                 /// <summary>
-                /// Secret: When one of your minions is attacked, summon three 1/1 Snakes.<br/>
+                /// <b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SnakeTrapVanilla = "VAN_EX1_554";
 
                 /// <summary>
-                /// Secret: After your opponent plays a minion, deal $4 damage to it.<br/>
+                /// <b>Secret:</b> After your opponent plays a minion, deal $4 damage to it.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SnipeVanilla = "VAN_EX1_609";
 
                 /// <summary>
-                /// Secret: When your hero is attacked, deal $2 damage to all enemies.<br/>
+                /// <b>Secret:</b> When your hero is attacked, deal $2 damage to all enemies.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string ExplosiveTrapVanilla = "VAN_EX1_610";
 
                 /// <summary>
-                /// Secret: When an enemy minion attacks, return it to its owner's hand. It costs (2) more.<br/>
+                /// <b>Secret:</b> When an enemy minion attacks, return it to its owner's hand. It costs (2) more.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FreezingTrapVanilla = "VAN_EX1_611";
@@ -2743,37 +2743,37 @@ namespace HearthDb
                 public const string AnimalCompanionVanilla = "VAN_NEW1_031";
 
                 /// <summary>
-                /// Give a friendly Beast Poisonous.<br/>
+                /// Give a friendly Beast <b>Poisonous</b>.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string Serpentbloom = "WC_007";
 
                 /// <summary>
-                /// Frenzy: Summon four 1/1 Hyenas with Rush.<br/>
+                /// <b>Frenzy:</b> Summon four 1/1 Hyenas with <b>Rush</b>.<br/>
                 /// 4-Cost 1/6 Minion
                 /// </summary>
                 public const string SindoreiScentfinder = "WC_008";
 
                 /// <summary>
-                /// Poisonous<br/>
+                /// <b>Poisonous</b><br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string VenomstrikeBow = "WC_037";
 
                 /// <summary>
-                /// Secret: After your opponent plays a minion, deal $6 damage to it.<br/>
+                /// <b>Secret:</b> After your opponent plays a minion, deal $6 damage to it.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SnipeWONDERS = "WON_018";
 
                 /// <summary>
-                /// Summon three 1/1 Webspinners with "Deathrattle: Get a random Beast."<br/>
+                /// Summon three 1/1 Webspinners with "<b>Deathrattle:</b> Get a random Beast."<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string BallOfSpidersWONDERS = "WON_021";
 
                 /// <summary>
-                /// Give a minion +1/+1 and "Deathrattle: Get an Explorer's Hat."<br/>
+                /// Give a minion +1/+1 and "<b>Deathrattle:</b> Get an Explorer's Hat."<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ExplorersHatWONDERS = "WON_022";
@@ -2797,13 +2797,13 @@ namespace HearthDb
                 public const string Dreadscale = "WON_025";
 
                 /// <summary>
-                /// Each turn this is in your hand, transform it into a random 3-Cost minion that gains Poisonous.<br/>
+                /// Each turn this is in your hand, transform it into a random 3-Cost minion that gains <b>Poisonous</b>.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string DurnholdeImposter = "WON_026";
 
                 /// <summary>
-                /// Echo Battlecry: Adapt your Time-Lost Raptors.<br/>
+                /// <b>Echo</b> <b>Battlecry:</b> <b>Adapt</b> your Time-Lost Raptors.<br/>
                 /// 2-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string TimeLostRaptor = "WON_027";
@@ -2815,7 +2815,7 @@ namespace HearthDb
                 public const string TrialOfTheJormungars = "WON_028";
 
                 /// <summary>
-                /// Taunt Has +1 Attack for each other Beast you control.<br/>
+                /// <b>Taunt</b> Has +1 Attack for each other Beast you control.<br/>
                 /// 3-Cost 1/5 Beast Minion
                 /// </summary>
                 public const string KingOfBeastsWONDERS = "WON_162";
@@ -2827,7 +2827,7 @@ namespace HearthDb
                 public const string CobraShotWONDERS = "WON_306";
 
                 /// <summary>
-                /// Deathrattle: Give a random minion in your hand +2/+2.<br/>
+                /// <b>Deathrattle:</b> Give a random minion in your hand +2/+2.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string ShakyZipgunnerWONDERS = "WON_307";
@@ -2839,13 +2839,13 @@ namespace HearthDb
                 public const string SmugglersCrateWONDERS = "WON_347";
 
                 /// <summary>
-                /// Deathrattle: Summon two 2/1 Ponies.<br/>
+                /// <b>Deathrattle:</b> Summon two 2/1 Ponies.<br/>
                 /// 3-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string Workhorse = "WORK_018";
 
                 /// <summary>
-                /// Taunt Whenever this takes damage, get a Coin.<br/>
+                /// <b>Taunt</b> Whenever this takes damage, get a Coin.<br/>
                 /// 5-Cost 3/7 Beast Minion
                 /// </summary>
                 public const string CashCow = "WORK_019";
@@ -2857,43 +2857,43 @@ namespace HearthDb
                 public const string MonkeyBusiness = "WORK_020";
 
                 /// <summary>
-                /// Summon two 1/1 Snakes with Stealth.<br/>
+                /// Summon two 1/1 Snakes with <b>Stealth</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string SneakySnakes = "WW_806";
 
                 /// <summary>
-                /// Deathrattle: Draw a Beast. Give minions in your hand +1/+1.<br/>
+                /// <b>Deathrattle:</b> Draw a Beast. Give minions in your hand +1/+1.<br/>
                 /// 2-Cost 1/2 Beast Minion
                 /// </summary>
                 public const string MessengerBuzzard = "WW_807";
 
                 /// <summary>
-                /// Rush, Poisonous Quickdraw: Gain Immune this turn.<br/>
+                /// <b><b>Rush</b>, <b>Poisonous</b> Quickdraw:</b> Gain <b>Immune</b> this turn.<br/>
                 /// 3-Cost 2/3 Beast Minion
                 /// </summary>
                 public const string SilverSerpent = "WW_808";
 
                 /// <summary>
-                /// Deathrattle: If this has 4 or more Attack, summon a Bovine Skeleton.<br/>
+                /// <b>Deathrattle:</b> If this has 4 or more Attack, summon a Bovine Skeleton.<br/>
                 /// 3-Cost 3/3 Beast/Undead Minion
                 /// </summary>
                 public const string BovineSkeleton = "WW_809";
 
                 /// <summary>
-                /// Give a minion +3/+3 and a random Bonus Effect. When it dies, summon a Chameleon.<br/>
+                /// Give a minion +3/+3 and a random <b>Bonus Effect</b>. When it dies, summon a Chameleon.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string CamouflageMount = "WW_810";
 
                 /// <summary>
-                /// Draw a minion. Give it +1/+1 and "Deathrattle: Get a Ten Gallon Hat."<br/>
+                /// Draw a minion. Give it +1/+1 and "<b>Deathrattle:</b> Get a Ten Gallon Hat."<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string TenGallonHat = "WW_811";
 
                 /// <summary>
-                /// Give your minions "Deathrattle: Summon a random Beast that costs (3) or less."<br/>
+                /// Give your minions "<b>Deathrattle:</b> Summon a random Beast that costs (3) or less."<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string SaddleUp = "WW_812";
@@ -2905,13 +2905,13 @@ namespace HearthDb
                 public const string Starshooter = "WW_813";
 
                 /// <summary>
-                /// Battlecry and Deathrattle: Summon a random Beast with Cost equal to this minion's Attack.<br/>
+                /// <b>Battlecry and Deathrattle:</b> Summon a random Beast with Cost equal to this minion's Attack.<br/>
                 /// 5-Cost 2/5 Beast Minion
                 /// </summary>
                 public const string Spurfang = "WW_814";
 
                 /// <summary>
-                /// Battlecry: If your deck started with no duplicates, gain Immune this turn and attack all enemies.<br/>
+                /// <b>Battlecry:</b> If your deck started with no duplicates, gain <b>Immune</b> this turn and attack all enemies.<br/>
                 /// 4-Cost 3/4 Minion
                 /// </summary>
                 public const string TheldurinTheLost = "WW_815";
@@ -2923,19 +2923,19 @@ namespace HearthDb
                 public const string ChopshopCopter = "YOD_004";
 
                 /// <summary>
-                /// Twinspell Give a Beast +2/+2.<br/>
+                /// <b>Twinspell</b> Give a Beast +2/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FreshScent = "YOD_005";
 
                 /// <summary>
-                /// Battlecry: If you're holding a Dragon, destroy a random enemy minion.<br/>
+                /// <b>Battlecry:</b> If you're holding a Dragon, destroy a random enemy minion.<br/>
                 /// 5-Cost 6/5 Dragon Minion
                 /// </summary>
                 public const string RotnestDrake = "YOD_036";
 
                 /// <summary>
-                /// Deal $3 damage. Your next spell has Spell Damage +2.<br/>
+                /// Deal $3 damage. Your next spell has <b>Spell Damage +2</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string CelestialShot = "YOG_082";
@@ -2947,7 +2947,7 @@ namespace HearthDb
                 public const string BestialMadness = "YOG_505";
 
                 /// <summary>
-                /// Rush Deathrattle: Summon a Chimaera with stats equal to this minion's Attack.<br/>
+                /// <b>Rush</b> <b>Deathrattle:</b> Summon a Chimaera with stats equal to this minion's Attack.<br/>
                 /// 4-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string TwistedFrostwing = "YOG_506";

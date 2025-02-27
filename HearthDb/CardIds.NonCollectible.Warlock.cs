@@ -158,11 +158,11 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// Whenever your hero takes damage on your turn, gain +2/+2.<br/>
-                /// Tier-4 4/4 Demon Minion<br/>
+                /// Tier-3 4/4 Demon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// Whenever your hero takes damage on your turn, gain +4/+4.<br/>
-                /// Tier-4 8/8 Demon Minion
+                /// Tier-3 8/8 Demon Minion
                 /// </summary>
                 public const string FloatingWatcher = "BG_GVG_100";
 
@@ -199,11 +199,11 @@ namespace HearthDb
                 /// <summary>
                 /// Triple (this):<br/>
                 /// Whenever your hero takes damage on your turn, gain +4/+4.<br/>
-                /// Tier-4 8/8 Demon Minion<br/>
+                /// Tier-3 8/8 Demon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// Whenever your hero takes damage on your turn, gain +2/+2.<br/>
-                /// Tier-4 4/4 Demon Minion
+                /// Tier-3 4/4 Demon Minion
                 /// </summary>
                 public const string FloatingWatcherTavernBrawl = "TB_BaconUps_101";
 

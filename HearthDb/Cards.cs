@@ -116,10 +116,6 @@ namespace HearthDb
 			var nonBaconTriples = new List<(Card, int)>();
 			foreach (var entity in cardDefs.Entites)
 			{
-				// For some reason Deflect-o-bot is missing divine shield
-				if (IsDeflectOBot(entity) && !entity.Tags.Any(x => x.EnumId == (int)GameTag.DIVINE_SHIELD))
-					entity.Tags.Add(new Tag { EnumId = (int)GameTag.DIVINE_SHIELD, Value = 1 });
-
 				var card = new Card(entity);
 				all[entity.CardId] = card;
 				allByDbfId[entity.DbfId] = card;
@@ -148,6 +144,13 @@ namespace HearthDb
 							nonBaconTriples.Add((card, tripleDbfId.Value));
 					}
 				}
+			}
+			
+			// For some reason these minions are missing divine shield
+			foreach (var minionCardId in MinionsMissingDivineShield)
+			{
+				if (all.TryGetValue(minionCardId, out var minionCard))
+					minionCard.Entity.Tags.Add(new Tag { EnumId = (int)GameTag.DIVINE_SHIELD, Value = 1 });
 			}
 
 			All = all;
@@ -181,7 +184,6 @@ namespace HearthDb
 			TripleToNormalCardIds = tripleToNormalCardIds;
 			NormalToTripleDbfIds = normalToTripleDbfIds;
 			TripleToNormalDbfIds = tripleToNormalDbfIds;
-
 		}
 
 		/// <summary>
@@ -272,7 +274,13 @@ namespace HearthDb
 
 		public static Card GetFromDbfId(int dbfId, bool collectible = false)
 			=> (collectible ? CollectibleByDbfId : AllByDbfId).TryGetValue(dbfId, out var card) ? card : null;
-
-		private static bool IsDeflectOBot(Entity entity) => entity.CardId == CardIds.NonCollectible.Neutral.DeflectOBot || entity.CardId == CardIds.NonCollectible.Neutral.DeflectOBotTavernBrawl;
+		
+		private static readonly List<string> MinionsMissingDivineShield = new List<string>
+		{
+			CardIds.NonCollectible.Neutral.DeflectOBot,
+			CardIds.NonCollectible.Neutral.DeflectOBotTavernBrawl,
+			CardIds.NonCollectible.Neutral.Gemsplitter,
+			CardIds.NonCollectible.Neutral.Gemsplitter_Gemsplitter,
+		};
 	}
 }

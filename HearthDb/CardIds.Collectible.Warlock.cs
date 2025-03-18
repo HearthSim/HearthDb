@@ -385,6 +385,12 @@ namespace HearthDb
                 public const string SpiritBombCore = "CORE_BOT_222";
 
                 /// <summary>
+                /// Draw 3 cards. They are <b>Temporary</b>.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string TheSoulariumCorePlaceholder = "CORE_BOT_568";
+
+                /// <summary>
                 /// Whenever this minion takes damage, summon a 1/1 Imp.<br/>
                 /// 3-Cost 2/4 Demon Minion
                 /// </summary>
@@ -536,7 +542,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// At the end of your turn, deal 1 damage to all enemy minions.<br/>
-                /// 5-Cost 4/5 Demon Minion
+                /// 5-Cost 4/6 Demon Minion
                 /// </summary>
                 public const string DespicableDreadlordCorePlaceholder = "CORE_ICC_075";
 
@@ -581,6 +587,12 @@ namespace HearthDb
                 /// 1-Cost 1/1 Undead Minion
                 /// </summary>
                 public const string SanguineRevelerCorePlaceholder = "CORE_ICC_903";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Deal 2 damage to your hero.<br/>
+                /// Tier-1 2/4 Demon Minion
+                /// </summary>
+                public const string VulgarHomunculusCorePlaceholder = "CORE_LOOT_013";
 
                 /// <summary>
                 /// <b>Lifesteal.</b> Deal $3 damage to a minion. <i>(Take damage from your cards to upgrade.)</i><br/>
@@ -691,6 +703,12 @@ namespace HearthDb
                 public const string DarkAlleyPactCore = "CORE_SW_085";
 
                 /// <summary>
+                /// Deal $3 damage. Summon two 1/3 Voidwalkers with <b>Taunt</b>.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string DemonicAssaultCorePlaceholder = "CORE_SW_088";
+
+                /// <summary>
                 /// <b>Taunt</b>, <b>Lifesteal</b> When you discard this, add 2 copies of it to your hand.<br/>
                 /// 4-Cost 3/5 Minion
                 /// </summary>
@@ -701,6 +719,18 @@ namespace HearthDb
                 /// 4-Cost 3/8 Demon Minion
                 /// </summary>
                 public const string LakkariFelhoundCorePlaceholder = "CORE_UNG_833";
+
+                /// <summary>
+                /// <b>Battlecry: Discover</b> a 1-Cost card.<br/>
+                /// 2-Cost 2/3 Undead Minion
+                /// </summary>
+                public const string DarkPeddlerCorePlaceholder = "CORE_WON_096";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give this minion's Attack to a random friendly minion.<br/>
+                /// Tier-1 2/1 Demon Minion
+                /// </summary>
+                public const string FiendishServantCorePlaceholder = "CORE_YOD_026";
 
                 /// <summary>
                 /// Deal $4 damage to a minion.<br/>
@@ -847,7 +877,7 @@ namespace HearthDb
                 public const string ElementiumGeode = "DEEP_030";
 
                 /// <summary>
-                /// Deal $5 damage. Summon a random 5-Cost minion. Destroy the bottom 5 cards of your deck.<br/>
+                /// Deal $6 damage. Summon a random 6-Cost minion. Destroy the bottom 6 cards of your deck.<br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string ChaosCreation = "DEEP_031";
@@ -985,6 +1015,66 @@ namespace HearthDb
                 public const string GalakrondTheWretched = "DRG_600";
 
                 /// <summary>
+                /// Restore #12 Health to your hero. For the next 2 turns, deal $3 damage to your hero.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string RottenApple = "EDR_482";
+
+                /// <summary>
+                /// Destroy one of your Mana Crystals. In 2 turns, gain two.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string FracturedPower = "EDR_483";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Draw a minion that costs (7) or more.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string RotheartDryad = "EDR_485";
+
+                /// <summary>
+                /// While this is in your hand or deck, it gains a copy of every <b>Dark Gift</b> given to your minions.<br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
+                public const string WallowTheWretched = "EDR_487";
+
+                /// <summary>
+                /// <b>Discover</b> a <b>Deathrattle</b> minion with a <b>Dark Gift</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string AvantGardening = "EDR_488";
+
+                /// <summary>
+                /// <b>Battlecry:</b> The next card you play costs your OPPONENT'S Health instead of Mana <i>(up to 10)</i>.<br/>
+                /// 10-Cost 8/9 Beast Minion
+                /// </summary>
+                public const string Agamaggan = "EDR_489";
+
+                /// <summary>
+                /// <b>Choose One - </b>Summon two 3/6 Demons with <b>Taunt</b> that can't attack; or Destroy an enemy minion.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string SleepParalysis = "EDR_490";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Gain the <b>Deathrattles</b> of your minions that died this turn.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
+                public const string ArchdruidOfThorns = "EDR_491";
+
+                /// <summary>
+                /// At the end of your turn, eat a minion in your deck and gain its stats. <b>Deathrattle:</b> Add them to your hand.<br/>
+                /// 8-Cost 6/7 Minion
+                /// </summary>
+                public const string HungeringAncient = "EDR_494";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Reduce the Cost of minions in your hand with <b>Dark Gifts</b> by (2).<br/>
+                /// 5-Cost 4/6 Minion
+                /// </summary>
+                public const string OvergrownHorror = "EDR_654";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If you control no other minions, deal 3 damage to all enemy minions.<br/>
                 /// 5-Cost 4/6 Demon Minion
                 /// </summary>
@@ -998,7 +1088,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Take Fatigue damage. Deal that much damage to all enemies.Take {0} Fatigue damage. Deal that much damage to all enemies.<br/>
-                /// 3-Cost Spell
+                /// 2-Cost Spell
                 /// </summary>
                 public const string Crescendo = "ETC_069";
 
@@ -1514,7 +1604,19 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Guldan_XaviusHeroHeroSkins = "HERO_07az";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Guldan_MechaJaraxxusHeroHeroSkins = "HERO_07b";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Guldan_NightmareZailHeroHeroSkins = "HERO_07ba";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1674,7 +1776,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// At the end of your turn, deal 1 damage to all enemy minions.<br/>
-                /// 5-Cost 4/5 Demon Minion
+                /// 5-Cost 4/6 Demon Minion
                 /// </summary>
                 public const string DespicableDreadlord = "ICC_075";
 
@@ -1859,7 +1961,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Deal $2 damage to a minion. Repeat to the left or right, dealing 1 more damage each time.<br/>
-                /// 3-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string DominoEffect = "MIS_027";
 
@@ -2453,7 +2555,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Choose a friendly minion. Summon a Giant with its stats and <b>Rush</b>.<br/>
-                /// 4-Cost Location
+                /// 3-Cost Location
                 /// </summary>
                 public const string ForgeOfWills = "TTN_465";
 
@@ -2939,13 +3041,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// At the end of your turn, destroy the bottom 3 cards of your deck.<br/>
-                /// 4-Cost 5/7 Demon Minion
+                /// 4-Cost 7/7 Demon Minion
                 /// </summary>
                 public const string WasteRemover = "WW_042";
 
                 /// <summary>
                 /// <b>Rush</b>. Whenever this takes damage, get a Barrel of Sludge and add one to the bottom of your deck.<br/>
-                /// 3-Cost 2/4 Minion
+                /// 3-Cost 2/5 Minion
                 /// </summary>
                 public const string SludgeOnWheels = "WW_043";
 

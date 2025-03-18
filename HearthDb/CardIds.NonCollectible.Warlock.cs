@@ -342,37 +342,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins7 = "HERO_07bchp";
+                public const string Guldan_LifeTapHeroSkins7 = "HERO_07azhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins6 = "HERO_07bchp2";
+                public const string Guldan_SoulTapHeroSkins6 = "HERO_07azhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins8 = "HERO_07bdhp";
+                public const string Guldan_LifeTapHeroSkins8 = "HERO_07bchp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins7 = "HERO_07bdhp2";
+                public const string Guldan_SoulTapHeroSkins7 = "HERO_07bchp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins9 = "HERO_07dbp";
+                public const string Guldan_LifeTapHeroSkins9 = "HERO_07bdhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins8 = "HERO_07dbp2";
+                public const string Guldan_SoulTapHeroSkins8 = "HERO_07bdhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_LifeTapHeroSkins10 = "HERO_07dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_SoulTapHeroSkins9 = "HERO_07dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
@@ -396,25 +408,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins10 = "HERO_07ybp";
+                public const string Guldan_LifeTapHeroSkins11 = "HERO_07ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins9 = "HERO_07ybp2";
+                public const string Guldan_SoulTapHeroSkins10 = "HERO_07ybp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins11 = "HERO_07zbp";
+                public const string Guldan_LifeTapHeroSkins12 = "HERO_07zbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins10 = "HERO_07zbp2";
+                public const string Guldan_SoulTapHeroSkins11 = "HERO_07zbp2";
 
                 /// <summary>
                 /// Deal $4 damage to a minion.<br/>
@@ -4115,7 +4127,7 @@ namespace HearthDb
                 public const string SymphonyofSins_MovementOfEnvyToken = "ETC_085t";
 
                 /// <summary>
-                /// Draw a minion. Reduce its Cost by (6).<br/>
+                /// Draw your highest Cost minion. Reduce its Cost by (6).<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string SymphonyofSins_MovementOfPrideToken = "ETC_085t2";
@@ -4241,7 +4253,7 @@ namespace HearthDb
                 public const string CurseofFlesh_CurseOfFleshEnchantment = "YOG_503e1";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Your hero steals 7 Health from the enemy hero.<br/>
+                /// <b>Battlecry:</b> Your hero steals 10 Health from the enemy hero.<br/>
                 /// 4-Cost 5/5 Elemental/Beast Minion
                 /// </summary>
                 public const string KoboldMiner_TheAzeriteSnakeToken = "WW_001t25";
@@ -4497,6 +4509,54 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Consume_ConsumedEnchantment = "SC_020e";
+
+                /// <summary>
+                /// At the end of your turn, deal $3 damage to your hero.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RottenApple_FractureEnchantment = "EDR_482e";
+
+                /// <summary>
+                /// Gain 2 mana in 2 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FracturedPower_DelayedManaEnchantment = "EDR_483e";
+
+                /// <summary>
+                /// The next card you play costs your OPPONENT's health instead of mana.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Agamaggan_CorruptedThornsEnchantment2 = "EDR_489e1";
+
+                /// <summary>
+                /// Summon two 3/6 Demons with <b>Taunt</b> that can't attack.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string SleepParalysis_FigureInTheDark = "EDR_490a";
+
+                /// <summary>
+                /// Destroy an enemy minion.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string SleepParalysis_WitsEnd = "EDR_490b";
+
+                /// <summary>
+                /// <b>Taunt</b> Can't attack.<br/>
+                /// 3-Cost 3/6 Demon Minion
+                /// </summary>
+                public const string SleepParalysis_NightTerrorToken = "EDR_490t";
+
+                /// <summary>
+                /// Copied <b>Deathrattle</b> from {0}.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ArchdruidofThorns_DevouredSoulEnchantment = "EDR_491e";
+
+                /// <summary>
+                /// +5 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string OvergrownHorror_OvergrownEnchantment = "EDR_654e";
             }
         }
     }

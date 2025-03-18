@@ -20449,7 +20449,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost 1/1 Undead Minion
                 /// </summary>
-                public const string WispToken = "GILA_BOSS_55t";
+                public const string WispTokenGILNEAS = "GILA_BOSS_55t";
 
                 /// <summary>
                 /// Destroy your Wisps. Gain control of a random enemy minion for each Wisp destroyed.<br/>
@@ -26734,7 +26734,7 @@ namespace HearthDb
                 public const string GrizzledWizard_GrizzledPowerEnchantment = "DRG_401e";
 
                 /// <summary>
-                /// Costs (3).<br/>
+                /// Costs (2) more.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string BlowtorchSaboteur_HotHotHotEnchantment = "DRG_403e";
@@ -28226,6 +28226,12 @@ namespace HearthDb
                 public const string TransferStudent_TransferStudentToken31 = "SCH_199t36";
 
                 /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a <b>Year of the Raptor</b> card.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string TransferStudent_TransferStudentToken32 = "SCH_199t37";
+
+                /// <summary>
                 /// +1/+2.<br/>
                 /// Enchantment
                 /// </summary>
@@ -28235,25 +28241,25 @@ namespace HearthDb
                 /// <b>Stealth</b> <b>Poisonous</b><br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken32 = "SCH_199t4";
+                public const string TransferStudent_TransferStudentToken33 = "SCH_199t4";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Add a random <b>Deathrattle</b> minion to your hand.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken33 = "SCH_199t5";
+                public const string TransferStudent_TransferStudentToken34 = "SCH_199t5";
 
                 /// <summary>
                 /// <b>Battlecry and Deathrattle:</b> Add a <b>Spare Part</b> card to your hand.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken34 = "SCH_199t6";
+                public const string TransferStudent_TransferStudentToken35 = "SCH_199t6";
 
                 /// <summary>
                 /// At the end of your turn, reduce the Cost of a random card in your hand by (2).<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken35 = "SCH_199t7";
+                public const string TransferStudent_TransferStudentToken36 = "SCH_199t7";
 
                 /// <summary>
                 /// Costs (2) less.<br/>
@@ -28265,13 +28271,13 @@ namespace HearthDb
                 /// <b>Inspire:</b> Draw a card.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken36 = "SCH_199t8";
+                public const string TransferStudent_TransferStudentToken37 = "SCH_199t8";
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Discover</b> a new basic Hero Power.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken37 = "SCH_199t9";
+                public const string TransferStudent_TransferStudentToken38 = "SCH_199t9";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -44529,13 +44535,13 @@ namespace HearthDb
                 public const string SkyPirateFlagbearer_SkyPirateFlagbearer = "BG30_119_G";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a Golden Scallywag. It attacks immediately.<br/>
+                /// <b>Deathrattle:</b> Summon a Golden Scallywag.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SkyPirateFlagbearer_Flagbearing = "BG30_119_Ge";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a Scallywag. It attacks immediately.<br/>
+                /// <b>Deathrattle:</b> Summon a Scallywag.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SkyPirateFlagbearer_FlagbearingEnchantment = "BG30_119e";
@@ -47769,22 +47775,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// After you summon a different minion in combat, summon an extra copy of it.<br/>
-                /// Tier-4 5/5 Pirate/Undead Minion<br/>
+                /// Tier-5 6/6 Pirate/Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// After you summon a different minion in combat, summon two extra copies of it.<br/>
-                /// Tier-4 10/10 Pirate/Undead Minion
+                /// Tier-5 12/12 Pirate/Undead Minion
                 /// </summary>
                 public const string CaptainBonerender = "BG31_840";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// After you summon a different minion in combat, summon two extra copies of it.<br/>
-                /// Tier-4 10/10 Pirate/Undead Minion<br/>
+                /// Tier-5 12/12 Pirate/Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// After you summon a different minion in combat, summon an extra copy of it.<br/>
-                /// Tier-4 5/5 Pirate/Undead Minion
+                /// Tier-5 6/6 Pirate/Undead Minion
                 /// </summary>
                 public const string CaptainBonerender_CaptainBonerender = "BG31_840_G";
 
@@ -48617,6 +48623,12 @@ namespace HearthDb
                 /// BattlegroundAnomaly
                 /// </summary>
                 public const string FactoryLine = "BG31_Anomaly_114";
+
+                /// <summary>
+                /// A ticket!<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MagicShop_ArcaneTicketEnchantment = "BG31_Anomaly_115e";
 
                 /// <summary>
                 /// After you <b>Refresh</b> two times, gain 1 Gold next turn. <i>(2 left!)</i><br/>
@@ -80736,7 +80748,7 @@ namespace HearthDb
                 public const string FrequencyOscillator_OscillatingEnchantment = "ETC_106e";
 
                 /// <summary>
-                /// While this is alive, {0} has +3 Attack.<br/>
+                /// While this is alive, {0} has +4 Attack.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string RowdyFan_RowdyEnchantment = "ETC_107e";
@@ -82169,7 +82181,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Tradeable</b> Deal $0 damage. <i>This seems useless...</i><br/>
-                /// 1-Cost Spell
+                /// 0-Cost Spell
                 /// </summary>
                 public const string MiracleSalesman_SnakeOilToken = "WW_331t";
 
@@ -82234,7 +82246,7 @@ namespace HearthDb
                 public const string TaketotheSkies_HappyWhelpToken = "WW_816t";
 
                 /// <summary>
-                /// Stats set to 1/1.<br/>
+                /// Stats set to 1/2.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CactusConstruct_WittleEnchantment = "WW_818e";
@@ -82456,8 +82468,8 @@ namespace HearthDb
                 public const string ZilliaxDeluxe3000_PylonsUnityToken = "TOY_330t95e1";
 
                 /// <summary>
-                /// <b>Elusive</b>, <b>Poisonous</b>, <b>Reborn</b><br/>
-                /// 4-Cost 1/4 Minion
+                /// <b>Elusive</b>, <b>Poisonous</b><br/>
+                /// 4-Cost 2/5 Minion
                 /// </summary>
                 public const string ZilliaxDeluxe3000_VirusModuleToken = "TOY_330t96";
 
@@ -82780,7 +82792,7 @@ namespace HearthDb
                 public const string MenagerieMug_SipOfTeaEnchantmentWONDERS = "WON_141e";
 
                 /// <summary>
-                /// +2/+2.<br/>
+                /// +3/+3.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string MenagerieJug_GulpOfTeaEnchantmentWONDERS = "WON_142e";
@@ -83576,7 +83588,7 @@ namespace HearthDb
                 public const string ArkoniteDefenseCrystal_CrewTransport = "GDB_100c";
 
                 /// <summary>
-                /// <b>Taunt</b>. <b>Deathrattle:</b> Gain 6 Armor.<br/>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Gain 4 Armor.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string ArkoniteDefenseCrystal_ArkoniteDefenseCrystalEnchantment = "GDB_100e";
@@ -83846,25 +83858,25 @@ namespace HearthDb
                 public const string JimRaynor_StimpackBoostEnchantment = "SC_400e";
 
                 /// <summary>
-                /// When this is launched, gain 7 Armor.<br/>
+                /// When this is launched, gain 5 Armor.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Starport_VikingEnchantment = "SC_403ae";
 
                 /// <summary>
-                /// When this is launched, deal 2 damage to all enemies.<br/>
+                /// When this is launched, deal 2 damage to all enemy minions.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Starport_LiberatorEnchantment = "SC_403be";
 
                 /// <summary>
-                /// When this is launched, gain 3 random <b>Bonus Effects</b><br/>
+                /// When this is launched, gain 2 random <b>Bonus Effects</b><br/>
                 /// Enchantment
                 /// </summary>
                 public const string Starport_Raven1 = "SC_403ce";
 
                 /// <summary>
-                /// When this is launched, deal 5 damage to a random enemy.<br/>
+                /// When this is launched, deal 3 damage to a random enemy.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Starport_Banshee1 = "SC_403de";
@@ -83888,7 +83900,7 @@ namespace HearthDb
                 public const string WarpGate_WarpConduitEnchantment = "SC_751e";
 
                 /// <summary>
-                /// +1 Attack this turn.<br/>
+                /// Increased Attack this turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Artanis_TwinBladesEnchantment = "SC_754e";
@@ -83912,7 +83924,7 @@ namespace HearthDb
                 public const string FreezeTheShop = "BG31_BOBt";
 
                 /// <summary>
-                /// Put an enemy minion into your hand. Your opponent gets 3 Coins.<br/>
+                /// Put a copy of an enemy minion into your hand. Your opponent gets 3 Coins.<br/>
                 /// Spell
                 /// </summary>
                 public const string RecruitAMinion = "BG31_BOBt2";
@@ -83996,6 +84008,12 @@ namespace HearthDb
                 public const string ChampionsofAzeroth_ForTheHorde = "WON_113b";
 
                 /// <summary>
+                /// Minions you summon this turn gain <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WardofEarth_WardOfEarthEnchantment = "EDR_060e";
+
+                /// <summary>
                 /// +3 Attack and <b>Lifesteal</b>.<br/>
                 /// Spell
                 /// </summary>
@@ -84044,6 +84062,12 @@ namespace HearthDb
                 public const string LivingNightmareToken1 = "EDR_100t5";
 
                 /// <summary>
+                /// 1/1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TinyNightmareToken = "EDR_100t5e2";
+
+                /// <summary>
                 /// 2/2.<br/>
                 /// Enchantment
                 /// </summary>
@@ -84077,19 +84101,133 @@ namespace HearthDb
                 /// Executes nightmare bonus<br/>
                 /// 0-Cost Spell
                 /// </summary>
-                public const string DarkGiftToken = "EDR_102t";
+                public const string TreacherousTormentor_DarkGiftToken = "EDR_102t";
 
                 /// <summary>
-                /// Your Dragons cost (1).<br/>
-                /// 7-Cost 7/7 Minion
+                /// Increased Attack.<br/>
+                /// Enchantment
                 /// </summary>
-                public const string NaralexHeraldOfTheFlights = "EDR_844";
+                public const string AnimatedMoonwell_OverflowingEnchantment = "EDR_254e1";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a <b>Legendary</b> Wild God. If you've <b>Imbued</b> your Hero Power 4 times, set its Cost to (1).<br/>
-                /// 8-Cost 8/6 Beast Minion
+                /// <b>Summoned When Drawn</b> <b>Taunt</b><br/>
+                /// 4-Cost 4/5 Dragon Minion
                 /// </summary>
-                public const string MalorneTheWaywatcher = "EDR_888";
+                public const string IllusoryGreenwing_IllusionToken = "EDR_260t";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken after you use your Hero Power.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SlumberingSprite_KnighttimeEnchantment = "EDR_469e";
+
+                /// <summary>
+                /// +2 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BarkshieldSentinel_AlertEnchantment = "EDR_470e";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ScavengingFlytrap_ScavengingEnchantment = "EDR_484e";
+
+                /// <summary>
+                /// The next card you play costs your OPPONENT's health instead of mana.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Agamaggan_CorruptedThornsEnchantment1 = "EDR_489e2";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 1-Cost 1/1 Beast Minion
+                /// </summary>
+                public const string MotherDuck_DucklingToken = "EDR_492t";
+
+                /// <summary>
+                /// Adjusted Cost.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Alarashi_DemonCostEnchantment = "EDR_493e";
+
+                /// <summary>
+                /// -2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TwistedTreant_TwistedEnchantment = "EDR_495e";
+
+                /// <summary>
+                /// <b><b>Battlecry:</b> Imbue</b> your Hero Power. Your next one costs (0).<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string FleeingTreant = "EDR_500";
+
+                /// <summary>
+                /// Your Hero Power costs (0).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FleeingTreant_RunForestEnchantment = "EDR_500e";
+
+                /// <summary>
+                /// This might be an illusion that dies when it takes damage.{0}<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BloodthistleIllusionist_IllusionEnchantment1 = "EDR_780e1";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GrotesqueRuneblade_UnholyCorruptionEnchantment = "EDR_812e";
+
+                /// <summary>
+                /// +1 Durability.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GrotesqueRuneblade_BloodyCorruptionEnchantment = "EDR_812e1";
+
+                /// <summary>
+                /// +5/+5.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Shaladrassil_NightmareToken = "EDR_846t1e";
+
+                /// <summary>
+                /// Corrupted Laughing Sister grants <b>Elusive</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Shaladrassil_LaughingToken = "EDR_846t3e";
+
+                /// <summary>
+                /// <b>Immune</b> this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Shaladrassil_EterenalNightmareEnchantmentToken = "EDR_846te2";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PetalPeddler_FloweryEnchantment = "EDR_889e";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 2 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AncientofYore_AncientSlumberEnchantment = "EDR_979e";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinEMERALD_DREAM1 = "EDR_COIN1";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinEMERALD_DREAM2 = "EDR_COIN2";
             }
         }
     }

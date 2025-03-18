@@ -398,6 +398,12 @@ namespace HearthDb
                 public const string AltruisTheOutcast = "BT_937";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Draw a <b>Deathrattle</b> minion.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
+                public const string TuskpiercerCorePlaceholder = "CORE_BAR_330";
+
+                /// <summary>
                 /// Give your hero +2 Attack this turn. Draw a card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -488,6 +494,12 @@ namespace HearthDb
                 public const string SpectralSightCore = "CORE_BT_491";
 
                 /// <summary>
+                /// At the end of your turn, deal 6 damage randomly split among all enemies.<br/>
+                /// 7-Cost 6/7 Demon Minion
+                /// </summary>
+                public const string PriestessOfFuryCorePlaceholder = "CORE_BT_493";
+
+                /// <summary>
                 /// Deal $1 damage to all minions twice.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -522,6 +534,12 @@ namespace HearthDb
                 /// 7-Cost Spell
                 /// </summary>
                 public const string ExpendablePerformersCore = "CORE_DMF_224";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Copy the left- and right-most cards in your hand.<br/>
+                /// 5-Cost 6/4 Minion
+                /// </summary>
+                public const string ZaiTheIncredibleCorePlaceholder = "CORE_DMF_231";
 
                 /// <summary>
                 /// <b>Discover</b> a <b>Temporary</b> Fel Barrage, Chaos Strike, or Chaos Nova.<br/>
@@ -612,6 +630,12 @@ namespace HearthDb
                 /// 2-Cost 2/2 Naga Minion
                 /// </summary>
                 public const string WaywardSageCore = "CORE_TSC_217";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Deathrattle:</b> Deal 1 damage to all enemy minions.<br/>
+                /// 3-Cost 3/2 Beast Minion
+                /// </summary>
+                public const string FelrattlerCorePlaceholder = "CORE_WC_701";
 
                 /// <summary>
                 /// <b>Discover</b> an <b>Outcast</b> card. Your next one costs (1) less.<br/>
@@ -735,7 +759,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Copy the left- and right-most cards in your hand.<br/>
-                /// 5-Cost 5/3 Minion
+                /// 5-Cost 6/4 Minion
                 /// </summary>
                 public const string ZaiTheIncredible = "DMF_231";
 
@@ -756,6 +780,66 @@ namespace HearthDb
                 /// 3-Cost Spell
                 /// </summary>
                 public const string Acrobatics = "DMF_249";
+
+                /// <summary>
+                /// <b>Rush</b>, <b>Windfury</b> <b>Deathrattle:</b> Deal 1 damage to all enemies. <i>(Improves after this attacks!)</i><br/>
+                /// 10-Cost 6/12 Beast/Demon Minion
+                /// </summary>
+                public const string Omen = "EDR_421";
+
+                /// <summary>
+                /// Battlecry: Transform minions in your hand into random Demons. (They keep their original stats and Cost.)<br/>
+                /// 5-Cost 5/5 Beast/Demon Minion
+                /// </summary>
+                public const string Alarashi = "EDR_493";
+
+                /// <summary>
+                /// <b>Choose One -</b> Summon two <b>Dormant</b> Dreadseeds; or Deal $2 damage to all minions.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string WyvernsSlumber = "EDR_820";
+
+                /// <summary>
+                /// Draw a card. Summon a random <b>Dormant</b> Dreadseed.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string GrimHarvest = "EDR_840";
+
+                /// <summary>
+                /// <b>Battlecry and Deathrattle:</b> Summon a random <b>Dormant</b> Dreadseed.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string DreadsoulCorrupter = "EDR_841";
+
+                /// <summary>
+                /// After your hero attacks an enemy, deal your hero's Attack damage to another random enemy.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string DefiledSpear = "EDR_842";
+
+                /// <summary>
+                /// <b>Discover</b> a Demon that costs (5) or more with a <b>Dark Gift</b>. Shuffle the other two into your deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Jumpscare = "EDR_882";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Reduce the Cost of the right-most card in your hand by (2).<br/>
+                /// 3-Cost 4/2 Dragon Minion
+                /// </summary>
+                public const string NightmareDragonkin = "EDR_890";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Resurrect a friendly <b>Deathrattle</b> minion that costs (4) or less. Summon a copy of it.<br/>
+                /// 5-Cost 5/3 Demon Minion
+                /// </summary>
+                public const string RavenousFelhunter = "EDR_891";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Resurrect a different friendly <b>Deathrattle</b> minion that costs (5) or more. Summon a copy of it.<br/>
+                /// 7-Cost 7/5 Demon Minion
+                /// </summary>
+                public const string FerociousFelbat = "EDR_892";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If you control no other minions, draw a spell, a minion, and a weapon.<br/>
@@ -1020,6 +1104,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string IllidanStormrage_KerriganHeroHeroSkins = "HERO_10aw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string IllidanStormrage_PiperKaileneHeroHeroSkins = "HERO_10ax";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string IllidanStormrage_MurgulisTheWildHeroHeroSkins = "HERO_10ay";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1839,7 +1935,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// After you play a Naga, deal 2 damage to a random enemy and draw a spell. <i>(Then switch!)</i>2After you cast a spell, deal 2 damage to a random enemy and draw a Naga. <i>(Then switch!)</i><br/>
-                /// 4-Cost 3/3 Naga Minion
+                /// 3-Cost 1/3 Naga Minion
                 /// </summary>
                 public const string BlindeyeSharpshooter = "WW_402";
 

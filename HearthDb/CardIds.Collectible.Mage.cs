@@ -380,6 +380,12 @@ namespace HearthDb
                 public const string ColdarraDrakeCorePlaceholder = "CORE_AT_008";
 
                 /// <summary>
+                /// <b>Secret:</b> When a friendly minion is attacked, summon a 3/6 Water Elemental.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string OasisAllyCorePlaceholder = "CORE_BAR_812";
+
+                /// <summary>
                 /// After you play the right-most card in your hand, draw a card.<br/>
                 /// 3-Cost 2/4 Draenei Minion
                 /// </summary>
@@ -434,6 +440,18 @@ namespace HearthDb
                 public const string KalecgosCore = "CORE_DAL_609";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Add an 'Arcane Missiles' spell to your hand.<br/>
+                /// 1-Cost 2/1 Elemental/Beast Minion
+                /// </summary>
+                public const string VioletSpellwingCorePlaceholder = "CORE_DRG_107";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Add 2 random Mage spells to your hand.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string BabblingBookcaseCorePlaceholder = "CORE_EDR_001";
+
+                /// <summary>
                 /// <b>Freeze</b> a minion and the minions next to it, and deal $1 damage to them.<br/>
                 /// 3-Cost Spell
                 /// </summary>
@@ -462,6 +480,12 @@ namespace HearthDb
                 /// 3-Cost Spell
                 /// </summary>
                 public const string MirrorEntityCorePlaceholder = "CORE_EX1_294";
+
+                /// <summary>
+                /// Whenever you cast a spell, add a 'Fireball' spell to your hand.<br/>
+                /// 7-Cost 5/7 Minion
+                /// </summary>
+                public const string ArchmageAntonidasCorePlaceholder = "CORE_EX1_559";
 
                 /// <summary>
                 /// <b>Discover</b> a <b>Temporary</b> Frostbolt, Arcane Intellect, or Fireball.<br/>
@@ -927,7 +951,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Add an 'Arcane Missiles' spell to your hand.<br/>
-                /// 1-Cost 1/1 Elemental/Beast Minion
+                /// 1-Cost 2/1 Elemental/Beast Minion
                 /// </summary>
                 public const string VioletSpellwing = "DRG_107";
 
@@ -966,6 +990,66 @@ namespace HearthDb
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ElementalAllies = "DRG_324";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If 20 friendly minions have died this game, deal 20 damage split among all enemies.<br/>
+                /// 8-Cost 6/8 Undead Minion
+                /// </summary>
+                public const string Aessina = "EDR_430";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a spell. Choose to keep it or put it on top of your opponent's deck.<br/>
+                /// 3-Cost 3/4 Beast Minion
+                /// </summary>
+                public const string Qonzu = "EDR_517";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Imbue</b> your Hero Power, then trigger it.<br/>
+                /// 5-Cost 4/4 Minion
+                /// </summary>
+                public const string Wisprider = "EDR_519";
+
+                /// <summary>
+                /// Spend all your Mana. Cast a random spell that costs that much.<br/>
+                /// 1-Cost Location
+                /// </summary>
+                public const string ForbiddenShrine = "EDR_520";
+
+                /// <summary>
+                /// Destroy a friendly Wisp to draw 3 cards.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Divination = "EDR_804";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a Wisp. <b>Imbue</b> your Hero Power.<br/>
+                /// 2-Cost 2/1 Minion
+                /// </summary>
+                public const string SpiritGatherer = "EDR_871";
+
+                /// <summary>
+                /// <b>Choose One - </b><b>Discover</b> a Mage spell; or <b>Discover</b> a Druid spell.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SparkOfLife = "EDR_872";
+
+                /// <summary>
+                /// Get a Moonfire and a Starfire. Give them <b>Spell Damage +1</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string StellarBalance = "EDR_874";
+
+                /// <summary>
+                /// At the end of your turn, gain 1 Armor. Repeat for each Wisp you control.<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
+                public const string MerryMoonkin = "EDR_940";
+
+                /// <summary>
+                /// Deal $1 damage to a minion. <i>(Improved by each friendly minion that died this game.)</i><br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Starsurge = "EDR_941";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If you control no other minions, summon two 1/2 Amps with <b>Spell Damage +1</b>.<br/>
@@ -1506,6 +1590,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string JainaProudmoore_ArtanisHeroHeroSkins = "HERO_08bg";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmooreHeroic_NaptimeAFKayHeroHeroSkins = "HERO_08bh";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_WhispererAzsharaHeroHeroSkins = "HERO_08bi";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2439,7 +2535,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 1 damage to all enemy minions. <i>(Improved by each spell school you've cast this game!)</i><br/>
-                /// 5-Cost 3/4 Mechanical Minion
+                /// 4-Cost 3/4 Mechanical Minion
                 /// </summary>
                 public const string InquisitiveCreation = "TTN_478";
 

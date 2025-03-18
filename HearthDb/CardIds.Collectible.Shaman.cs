@@ -392,6 +392,18 @@ namespace HearthDb
                 public const string MenacingNimbusCore = "CORE_BOT_533";
 
                 /// <summary>
+                /// <b>Battlecry:</b> If you cast a spell last turn, <b>Discover</b> a spell.<br/>
+                /// 3-Cost 3/4 Elemental Minion
+                /// </summary>
+                public const string MarshspawnCorePlaceholder = "CORE_BT_115";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Restore #6 Health. <b>Overload:</b> (1)<br/>
+                /// 4-Cost 4/6 Minion
+                /// </summary>
+                public const string JinyuWaterspeakerCorePlaceholder = "CORE_CFM_061";
+
+                /// <summary>
                 /// Give a minion <b>Windfury</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -447,7 +459,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Overload</b>: (2)<br/>
-                /// 5-Cost 7/8 Elemental Minion
+                /// 5-Cost 7/9 Elemental Minion
                 /// </summary>
                 public const string EarthElementalCorePlaceholder = "CORE_EX1_250";
 
@@ -492,6 +504,12 @@ namespace HearthDb
                 /// 0-Cost Spell
                 /// </summary>
                 public const string ZapCorePlaceholder = "CORE_GIL_600";
+
+                /// <summary>
+                /// <b>Discover</b> a <b>Battlecry</b> minion. It costs (1) less.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string BlazingInvocationCorePlaceholder = "CORE_GIL_836";
 
                 /// <summary>
                 /// Give a minion +3/+3 and <b>Freeze</b> it.<br/>
@@ -638,12 +656,6 @@ namespace HearthDb
                 public const string PrimordialWaveCorePlaceholder = "CORE_REV_924";
 
                 /// <summary>
-                /// If this would transform into a minion, summon that minion instead.<br/>
-                /// 4-Cost 3/6 Naga Minion
-                /// </summary>
-                public const string BaronessVashjCorePlaceholder = "CORE_REV_925";
-
-                /// <summary>
                 /// At the end of your turn, summon a random basic Totem. <b>Infuse (2):</b> Summon two instead.<br/>
                 /// 3-Cost 0/3 Totem Minion
                 /// </summary>
@@ -684,6 +696,12 @@ namespace HearthDb
                 /// 3-Cost Spell
                 /// </summary>
                 public const string TidalSurgeCorePlaceholder = "CORE_UNG_817";
+
+                /// <summary>
+                /// After you play an Elemental, gain +1 Attack.<br/>
+                /// 1-Cost 1/3 Elemental Minion
+                /// </summary>
+                public const string WailingVaporCorePlaceholder = "CORE_WC_042";
 
                 /// <summary>
                 /// Deal $1 damage to an enemy character and <b>Freeze</b> it.<br/>
@@ -956,6 +974,66 @@ namespace HearthDb
                 public const string GalakrondTheTempest = "DRG_620";
 
                 /// <summary>
+                /// At the end of your turn, play the top 3 cards from your deck.<br/>
+                /// 9-Cost 5/11 Beast Minion
+                /// </summary>
+                public const string Ohnahra = "EDR_031";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give +4/+4 to the top 3 minions in your deck.<br/>
+                /// 5-Cost 4/4 Elemental Minion
+                /// </summary>
+                public const string BeanstalkBrute = "EDR_230";
+
+                /// <summary>
+                /// Restore #4 Health. <b>Imbue</b> your Hero Power.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string AspectsEmbrace = "EDR_231";
+
+                /// <summary>
+                /// Each minion gets shuffled into a random player's deck.<br/>
+                /// 10-Cost Spell
+                /// </summary>
+                public const string Typhoon = "EDR_232";
+
+                /// <summary>
+                /// <b>Choose One -</b> Summon three 2/3 Wolves with <b>Taunt</b>; or Summon two 4/3 Falcons with <b>Windfury</b>.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string SpiritsOfTheForest = "EDR_233";
+
+                /// <summary>
+                /// Draw 2 cards. You can't play them for 2 turns.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string EmeraldBounty = "EDR_234";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Resurrect all different friendly minions that cost (8) or more.<br/>
+                /// 6-Cost 4/4 Minion
+                /// </summary>
+                public const string Merithra = "EDR_238";
+
+                /// <summary>
+                /// <b>Taunt</b>. Costs (1) less for each time you used your Hero Power this game.<br/>
+                /// 6-Cost 6/6 Minion
+                /// </summary>
+                public const string GlowrootLure = "EDR_477";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Imbue</b> your Hero Power. Reduce the Cost of a minion in your hand by (1).<br/>
+                /// 3-Cost 2/3 Elemental Minion
+                /// </summary>
+                public const string LivingGarden = "EDR_518";
+
+                /// <summary>
+                /// If this would transform into a minion, it transforms into one that costs (2) more.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
+                public const string PluckyPodling = "EDR_529";
+
+                /// <summary>
                 /// <b>Lifesteal</b> Deal $6 damage to a minion. Costs (3) less if you're <b>Overloaded</b>.<br/>
                 /// 5-Cost Spell
                 /// </summary>
@@ -1065,7 +1143,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> <b><b>Overload</b>:</b> (2)<br/>
-                /// 5-Cost 7/8 Elemental Minion
+                /// 5-Cost 7/9 Elemental Minion
                 /// </summary>
                 public const string EarthElemental = "EX1_250";
 
@@ -1238,7 +1316,7 @@ namespace HearthDb
                 public const string Shudderwock = "GIL_820";
 
                 /// <summary>
-                /// <b>Discover</b> a <b>Battlecry</b> minion.<br/>
+                /// <b>Discover</b> a <b>Battlecry</b> minion. It costs (1) less.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string BlazingInvocation = "GIL_836";
@@ -1470,6 +1548,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Thrall_SpectralNerzhulHeroHeroSkins = "HERO_02bc";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Thrall_DreamerFinleyHeroHeroSkins = "HERO_02bd";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2385,13 +2469,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// Draw a card. Next turn, your Nature spells cost (1) less.<br/>
-                /// 3-Cost Spell
+                /// 2-Cost Spell
                 /// </summary>
                 public const string FlashOfLightning = "TTN_830";
 
                 /// <summary>
                 /// Deal $3 damage to all enemies. Costs (1) less for each Nature spell you've cast this turn.<br/>
-                /// 6-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string CrashOfThunder = "TTN_831";
 

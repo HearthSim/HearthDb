@@ -379,6 +379,12 @@ namespace HearthDb
                 public const string WarhorseTrainerCore = "CORE_AT_075";
 
                 /// <summary>
+                /// After your Hero attacks, add a random Murloc to your hand.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string UnderlightAnglingRodCorePlaceholder = "CORE_BT_018";
+
+                /// <summary>
                 /// Give a minion +2/+1. Draw a card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -443,6 +449,12 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string PursuitOfJusticeCorePlaceholder = "CORE_CS3_029";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Draw a Dragon.<br/>
+                /// 2-Cost 2/3 Murloc Minion
+                /// </summary>
+                public const string RedscaleDragontamerCorePlaceholder = "CORE_DMF_194";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon a 6/6 Holy Elemental with <b>Taunt</b>.<br/>
@@ -673,10 +685,22 @@ namespace HearthDb
                 public const string GreatHallCorePlaceholder = "CORE_REV_983";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Send all other minions 2 turns into the future.<br/>
+                /// 7-Cost 8/8 Dragon Minion
+                /// </summary>
+                public const string AnachronosCorePlaceholder = "CORE_RLK_919";
+
+                /// <summary>
                 /// Restore #4 Health. Draw a card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FlashOfLightCore = "CORE_TRL_307";
+
+                /// <summary>
+                /// Summon a 4/8, 2/4, and 1/2 Elemental with <b>Taunt</b>.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string ImmortalizedInStoneCorePlaceholder = "CORE_TSC_076";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, <b>Discover</b> an upgraded Hero Power.<br/>
@@ -686,7 +710,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give a minion +2/+6 and <b>Taunt</b>. When it dies, summon a Stegodon.<br/>
-                /// 6-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string SpikeridgedSteedCore = "CORE_UNG_952";
 
@@ -965,6 +989,66 @@ namespace HearthDb
                 /// 4-Cost 8/8 Dragon Minion
                 /// </summary>
                 public const string NozdormuTheTimeless = "DRG_309";
+
+                /// <summary>
+                /// Draw a spell that started in your deck and one that didn't.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string DragonscaleArmaments = "EDR_251";
+
+                /// <summary>
+                /// Choose a minion. If it's an enemy, set its stats to 1/1. If it's friendly, set its stats to 3/3 instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string MarkOfUrsol = "EDR_252";
+
+                /// <summary>
+                /// After your hero attacks, draw your highest Cost card.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string UrsineMaul = "EDR_253";
+
+                /// <summary>
+                /// <b>Lifesteal</b>. Deal $5 damage to the lowest Health enemy, twice.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string RenewingFlames = "EDR_255";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Battlecry:</b> If there is a card in your deck that didn't start there, draw it and gain +2/+2.<br/>
+                /// 4-Cost 3/4 Dragon Minion
+                /// </summary>
+                public const string Dreamwarden = "EDR_256";
+
+                /// <summary>
+                /// <b><b>Taunt</b>.</b> <b>Choose One -</b> +3 Attack and <b>Divine Shield</b>; or +3 Health and <b>Lifesteal</b>.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
+                public const string Lightmender = "EDR_257";
+
+                /// <summary>
+                /// <b>Divine Shield</b>, <b>Taunt</b> Your <b><b>Divine Shield</b>s</b> take three hits to break.<br/>
+                /// 5-Cost 3/4 Minion
+                /// </summary>
+                public const string TorethTheUnbreaking = "EDR_258";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Cast the highest Cost spell from your hand as an Aura that lasts 3 turns.<br/>
+                /// 8-Cost 9/7 Beast Minion
+                /// </summary>
+                public const string Ursol = "EDR_259";
+
+                /// <summary>
+                /// Summon a random 1-Cost minion and give it <b>Taunt</b>. <b>Imbue</b> your Hero Power.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string AegisOfLight = "EDR_264";
+
+                /// <summary>
+                /// <b>Battlecry and Deathrattle:</b> <b>Imbue</b> your Hero Power.<br/>
+                /// 3-Cost 3/4 Dragon Minion
+                /// </summary>
+                public const string GoldpetalDrake = "EDR_451";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Give a random friendly minion +1/+1. <i>(Play minions while equipped to improve!)</i><br/>
@@ -1480,6 +1564,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string UtherLightbringer_DrakeriderLiadrinHeroHeroSkins = "HERO_04az";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer_PrinceArthasHeroHeroSkins = "HERO_04b";
 
                 /// <summary>
@@ -1829,7 +1919,7 @@ namespace HearthDb
                 public const string WhackAGnoll = "MIS_700";
 
                 /// <summary>
-                /// <b>Lifesteal</b> Deal $4 damage. Costs (1) if you've cast a Holy spell this turn.<br/>
+                /// <b>Lifesteal</b> Deal $4 damage to a minion. Costs (1) if you've cast a Holy spell this turn.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string HolyGlowsticks = "MIS_709";
@@ -2249,7 +2339,7 @@ namespace HearthDb
                 public const string CardboardGolem = "TOY_809";
 
                 /// <summary>
-                /// <b>Lifesteal</b> After your hero attacks, give minions in your hand +1/+1.<br/>
+                /// After your hero attacks, give minions in your hand +1/+1.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string PaintersVirtue = "TOY_810";
@@ -2381,7 +2471,7 @@ namespace HearthDb
                 public const string KotoriLightblade = "TSC_074";
 
                 /// <summary>
-                /// Summon a 1/2, 2/4, and 4/8 Elemental with <b>Taunt</b>.<br/>
+                /// Summon a 4/8, 2/4, and 1/2 Elemental with <b>Taunt</b>.<br/>
                 /// 7-Cost Spell
                 /// </summary>
                 public const string ImmortalizedInStone = "TSC_076";
@@ -2568,7 +2658,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give a minion +2/+6 and <b>Taunt</b>. When it dies, summon a Stegodon.<br/>
-                /// 6-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string SpikeridgedSteed = "UNG_952";
 
@@ -2928,7 +3018,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Both players summon three 3/3 Outlaws. Give yours <b>Rush</b>.<br/>
-                /// 3-Cost Spell
+                /// 2-Cost Spell
                 /// </summary>
                 public const string Showdown = "WW_051";
 
@@ -2939,8 +3029,8 @@ namespace HearthDb
                 public const string HolyCowboy = "WW_335";
 
                 /// <summary>
-                /// Deal $3 damage to all enemy minions. Costs (1) less for each enemy minion.<br/>
-                /// 8-Cost Spell
+                /// Deal $3 damage to all enemies. Costs (1) less for each enemy minion.<br/>
+                /// 7-Cost Spell
                 /// </summary>
                 public const string PrismaticBeam = "WW_336";
 
@@ -3006,7 +3096,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give a friendly minion +2/+2. Deal its Attack damage to all other minions.<br/>
-                /// 5-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string KeepersStrength = "YOG_509";
 

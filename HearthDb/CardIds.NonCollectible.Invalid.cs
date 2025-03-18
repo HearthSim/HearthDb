@@ -30606,25 +30606,25 @@ namespace HearthDb
                 public const string JimRaynor_Stimpack = "SC_400p";
 
                 /// <summary>
-                /// <b>Starship Piece</b> When this is launched, gain 7 Armor.<br/>
+                /// <b>Starship Piece</b> When this is launched, gain 5 Armor.<br/>
                 /// 1-Cost 2/1 Mechanical Minion
                 /// </summary>
                 public const string Starport_Viking = "SC_403a";
 
                 /// <summary>
-                /// <b>Starship Piece</b> When this is launched, deal 2 damage to all enemies.<br/>
+                /// <b>Starship Piece</b> When this is launched, deal 2 damage to all enemy minions.<br/>
                 /// 1-Cost 2/1 Mechanical Minion
                 /// </summary>
                 public const string Starport_Liberator = "SC_403b";
 
                 /// <summary>
-                /// <b>Starship Piece</b> When this is launched, gain 3 random <b>Bonus Effects</b>.<br/>
+                /// <b>Starship Piece</b> When this is launched, gain 2 random <b>Bonus Effects</b>.<br/>
                 /// 1-Cost 2/1 Mechanical Minion
                 /// </summary>
                 public const string Starport_Raven2 = "SC_403c";
 
                 /// <summary>
-                /// <b>Starship Piece</b> When this is launched, deal 5 damage to a random enemy.<br/>
+                /// <b>Starship Piece</b> When this is launched, deal 3 damage to a random enemy.<br/>
                 /// 1-Cost 2/1 Mechanical Minion
                 /// </summary>
                 public const string Starport_Banshee2 = "SC_403d";

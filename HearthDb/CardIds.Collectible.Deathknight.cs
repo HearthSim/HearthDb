@@ -8,6 +8,24 @@ namespace HearthDb
             public class Deathknight
             {
                 /// <summary>
+                /// Give a friendly Undead <b>Poisonous</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string PoisonBreathCorePlaceholder = "CORE_EDR_002";
+
+                /// <summary>
+                /// You gain twice as many <b>Corpses</b> as normal. <b>Battlecry:</b> Draw a card that spends <b>Corpses</b>.<br/>
+                /// 3-Cost 2/4 Undead Minion
+                /// </summary>
+                public const string FalricCorePlaceholder = "CORE_EDR_003";
+
+                /// <summary>
+                /// <b>Taunt</b> Costs Health instead of Mana if your hero was healed this turn.<br/>
+                /// 3-Cost 3/4 Undead Minion
+                /// </summary>
+                public const string DeathMetalKnightCorePlaceholder = "CORE_ETC_523";
+
+                /// <summary>
                 /// <b>Discover</b> a <b>Temporary</b> Dark Transformation, Howling Blast, or Death Strike.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -56,6 +74,12 @@ namespace HearthDb
                 public const string HematurgeCore = "CORE_RLK_066";
 
                 /// <summary>
+                /// After you cast a spell, deal 1 damage to two random enemies.<br/>
+                /// 2-Cost 2/3 Elemental Minion
+                /// </summary>
+                public const string DeathchillerCorePlaceholder = "CORE_RLK_083";
+
+                /// <summary>
                 /// <b>Deathrattle:</b> Summon every minion killed by this weapon.<br/>
                 /// 6-Cost Weapon
                 /// </summary>
@@ -72,6 +96,12 @@ namespace HearthDb
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string NecroticMorticianCore = "CORE_RLK_116";
+
+                /// <summary>
+                /// Summon two 2/2 Zombies with <b>Taunt</b>. Spend 4 <b>Corpses</b> to give them <b>Reborn</b>.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string TombGuardiansCorePlaceholder = "CORE_RLK_118";
 
                 /// <summary>
                 /// After a friendly Undead dies, draw a card.<br/>
@@ -116,6 +146,12 @@ namespace HearthDb
                 public const string SoulstealerCore = "CORE_RLK_741";
 
                 /// <summary>
+                /// <b>Reborn</b> At the end of your turn, spend 4 <b>Corpses</b> to summon a copy of this minion.<br/>
+                /// 4-Cost 2/4 Undead Minion
+                /// </summary>
+                public const string MalignantHorrorCorePlaceholder = "CORE_RLK_745";
+
+                /// <summary>
                 /// <b>Magnetic</b>, <b>Reborn</b> Can <b>Magnetize</b> to Mechs or Undead.<br/>
                 /// 3-Cost 3/1 Mechanical Minion
                 /// </summary>
@@ -132,6 +168,66 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MiningCasualties = "DEEP_017";
+
+                /// <summary>
+                /// Your Leeches steal 2 more Health from their victims. <b>Battlecry:</b> Summon two 0/2 Leeches.<br/>
+                /// 6-Cost 3/5 Undead/Beast Minion
+                /// </summary>
+                public const string HideousHusk = "EDR_810";
+
+                /// <summary>
+                /// <b>Discover</b> an Undead. Spend 2 <b>Corpses</b> to give it a <b>Dark Gift</b>.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string RiteOfAtrocity = "EDR_811";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If the last card you played had an Unholy rune, gain +1 Attack. Repeat for Blood and +1 Durability.<br/>
+                /// 2-Cost Weapon
+                /// </summary>
+                public const string GrotesqueRuneblade = "EDR_812";
+
+                /// <summary>
+                /// <b>Choose One -</b> Summon two 1/1 Ants; or Spend 2 <b>Corpses</b> to deal $4 damage to a minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string MorbidSwarm = "EDR_813";
+
+                /// <summary>
+                /// Deal $2 damage. Summon a 0/2 Leech.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string InfestedBreath = "EDR_814";
+
+                /// <summary>
+                /// After your opponent summons a minion, spend 2 <b>Corpses</b> to deal 3 damage to it.<br/>
+                /// 3-Cost 0/5 Undead Minion
+                /// </summary>
+                public const string CorpseFlower = "EDR_815";
+
+                /// <summary>
+                /// At the end of your turn, give your other minions +1 Attack.<br/>
+                /// 1-Cost 1/2 Beast Minion
+                /// </summary>
+                public const string MonstrousMosquito = "EDR_816";
+
+                /// <summary>
+                /// Draw 2 cards. Summon two 0/2 Leeches.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string SanguineInfestation = "EDR_817";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Split into 1/1 Beetles. At the start of your turn, reform with any remaining.<br/>
+                /// 7-Cost 7/7 Undead/Dragon Minion
+                /// </summary>
+                public const string Nythendra = "EDR_818";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Attack ALL other minions. <b>Deathrattle:</b> Resurrect any this killed.<br/>
+                /// 9-Cost 6/14 Beast Minion
+                /// </summary>
+                public const string Ursoc = "EDR_819";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 2 damage. <b>Finale:</b> To all enemies.<br/>
@@ -299,7 +395,13 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string TheLichKing_SpiderDemonKerriganHeroHeroSkins = "HERO_11ai";
+                public const string TheLichKing_UrsocHeroHeroSkinsEnchantment = "HERO_11ae";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKing_PoisonScarletHeroHeroSkins = "HERO_11af";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -494,6 +596,12 @@ namespace HearthDb
                 public const string HeartStrikeLegacy = "LEG_RLK_034";
 
                 /// <summary>
+                /// Gain 4 <b>Corpses</b>. Shuffle four Crates into your deck that summon a 2/2 Undead when drawn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string PlaguedGrainCorePlaceholder = "LEG_RLK_039";
+
+                /// <summary>
                 /// <b>Lifesteal</b><br/>
                 /// 6-Cost Weapon
                 /// </summary>
@@ -510,6 +618,12 @@ namespace HearthDb
                 /// 5-Cost 3/3 Minion
                 /// </summary>
                 public const string PossessifierLegacy = "LEG_RLK_077";
+
+                /// <summary>
+                /// <b>Battlecry</b>: Deal 2 damage to an enemy and your hero.<br/>
+                /// 1-Cost 1/2 Undead Minion
+                /// </summary>
+                public const string NoxiousCadaverCorePlaceholder = "LEG_RLK_079";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Raise ALL of your <b>Corpses</b> as 1/1 Risen Golems with <b>Rush</b>. For each that can't fit, give one +2/+2.<br/>
@@ -753,7 +867,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Return this to your hand. It costs Health instead of Mana.<br/>
-                /// 5-Cost 3/6 Undead Minion
+                /// 5-Cost 4/6 Undead Minion
                 /// </summary>
                 public const string DeathbringerSaurfangCore = "RLK_082";
 
@@ -1028,8 +1142,8 @@ namespace HearthDb
                 public const string BanelingBarrage = "SC_001";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Your Zerg minions have +1/+1 for the rest of the game.<br/>
-                /// 3-Cost 3/2 Minion
+                /// <b>Deathrattle:</b> Your Zerg minions have +1 Attack for the rest of the game.<br/>
+                /// 3-Cost 4/2 Minion
                 /// </summary>
                 public const string Infestor = "SC_002";
 
@@ -1215,7 +1329,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Rush</b> <b>Deathrattle:</b> Summon a 1/1 Dreadhound with <b>Reborn</b>.<br/>
-                /// 2-Cost 2/2 Pirate/Undead Minion
+                /// 2-Cost 2/1 Pirate/Undead Minion
                 /// </summary>
                 public const string DreadhoundHandler = "VAC_514";
 
@@ -1287,7 +1401,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Rush</b>. Costs (1) less for each minion that died this game. <b>Deathrattle:</b> Take control of a random enemy minion.<br/>
-                /// 25-Cost 6/3 Undead Minion
+                /// 20-Cost 6/3 Undead Minion
                 /// </summary>
                 public const string ReskaThePitBoss = "WW_373";
 
@@ -1305,7 +1419,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// After you summon an Undead, give it <b>Poisonous</b>.<br/>
-                /// 4-Cost 3/5 Undead Minion
+                /// 3-Cost 2/4 Undead Minion
                 /// </summary>
                 public const string SicklyGrimewalker = "YOG_512";
 

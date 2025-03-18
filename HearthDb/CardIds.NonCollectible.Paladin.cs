@@ -4547,6 +4547,66 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string VoidRay_PrismaticAlignmentEnchantment = "SC_783e";
+
+                /// <summary>
+                /// Stats set to 1/1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MarkofUrsol_MarkOfUrsolEnchantment = "EDR_252e";
+
+                /// <summary>
+                /// Stats set to 3/3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MarkofUrsol_MightOfUrsolEnchantment = "EDR_252e1";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Dreamwarden_PortalmancyEnchantment = "EDR_256e";
+
+                /// <summary>
+                /// +3 Attack and <b>Divine Shield</b>.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string Lightmender_HolyBond = "EDR_257a";
+
+                /// <summary>
+                /// +3 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Lightmender_HolyBondedEnchantment = "EDR_257ae";
+
+                /// <summary>
+                /// +3 Health and <b>Lifesteal</b>.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string Lightmender_EmbraceOfTheLight = "EDR_257b";
+
+                /// <summary>
+                /// +3 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Lightmender_LightsEmbraceEnchantment = "EDR_257be";
+
+                /// <summary>
+                /// At the end of your turn, cast {0}. Lasts turns.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string Ursol_UrsolsAuraEnchantment = "EDR_259e1";
+
+                /// <summary>
+                /// Shuffle two Emerald Portals into your deck. <i>(Your Portals summon <b>1</b>-Cost Dragons.)</i><br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string BlessingOfTheDragon = "EDR_445p";
+
+                /// <summary>
+                /// <b>Casts When Drawn</b> Summon a random 1-Cost Dragon.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string EmeraldPortal = "EDR_445pt3";
             }
         }
     }

@@ -21,12 +21,12 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon two 2/5 Hive Queens. Deal 3 damage to all enemies.<br/>
-                /// 7-Cost Hero
+                /// 8-Cost Hero
                 /// </summary>
                 public const string KerriganQueenOfBlades = "SC_004";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Summon a copy of this.<br/>
+                /// <b>Battlecry:</b> Summon a 1/1 Zergling.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string Zergling = "SC_010";
@@ -39,7 +39,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Relaunch every <b>Starship</b> that you launched this game.<br/>
-                /// 7-Cost Hero
+                /// 8-Cost Hero
                 /// </summary>
                 public const string JimRaynor = "SC_400";
 

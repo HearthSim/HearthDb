@@ -72,6 +72,36 @@ namespace HearthDb
                 /// 0-Cost Spell
                 /// </summary>
                 public const string NightmareVanilla = "VAN_DREAM_05";
+
+                /// <summary>
+                /// Give a minion +5/+5 and <b>Immune</b> this turn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string Shaladrassil_CorruptedNightmareToken = "EDR_846t1";
+
+                /// <summary>
+                /// Shuffle a minion into its owner's deck.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string Shaladrassil_CorruptedDreamToken = "EDR_846t2";
+
+                /// <summary>
+                /// <b>Elusive</b> Your hero is <b>Elusive</b>.<br/>
+                /// 2-Cost 6/10 Minion
+                /// </summary>
+                public const string Shaladrassil_CorruptedLaughingSisterToken = "EDR_846t3";
+
+                /// <summary>
+                /// Deal $5 damage to all enemies. <i>(ESPECIALLY Ysera!)</i><br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Shaladrassil_CorruptedAwakeningToken = "EDR_846t4";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 4-Cost 14/12 Dragon Minion
+                /// </summary>
+                public const string Shaladrassil_CorruptedDrakeToken = "EDR_846t5";
             }
         }
     }

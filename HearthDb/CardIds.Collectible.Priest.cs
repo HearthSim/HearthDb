@@ -326,7 +326,7 @@ namespace HearthDb
                 public const string PotionOfMadness = "CFM_603";
 
                 /// <summary>
-                /// Restore #12 Health to a friendly character.<br/>
+                /// Restore #12 Health to a friendly character. Draw a card.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string GreaterHealingPotion = "CFM_604";
@@ -380,6 +380,24 @@ namespace HearthDb
                 public const string FlashHealCore = "CORE_AT_055";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Draw a Holy spell and a Shadow spell.<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
+                public const string SpiritGuideCorePlaceholder = "CORE_AV_328";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Restore #8 Health to all friendly characters.<br/>
+                /// 6-Cost 6/6 Elemental Minion
+                /// </summary>
+                public const string LightshowerElementalCorePlaceholder = "CORE_BAR_310";
+
+                /// <summary>
+                /// Restore #12 Health to a friendly character. Draw a card.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string GreaterHealingPotionCorePlaceholder = "CORE_CFM_604";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b> a copy of a card in your opponent's deck.<br/>
                 /// 4-Cost 4/5 Dragon Minion
                 /// </summary>
@@ -402,6 +420,12 @@ namespace HearthDb
                 /// 1-Cost Spell
                 /// </summary>
                 public const string HolySmiteCore = "CORE_CS1_130";
+
+                /// <summary>
+                /// Give a minion +2 Health. Draw a card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string PowerWordShieldCorePlaceholder = "CORE_CS2_004";
 
                 /// <summary>
                 /// Destroy a minion with 3 or less Attack.<br/>
@@ -471,7 +495,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Destroy a minion and gain its Health.<br/>
-                /// 8-Cost 8/1 Minion
+                /// 7-Cost 7/1 Minion
                 /// </summary>
                 public const string NatalieSelineCorePlaceholder = "CORE_EX1_198";
 
@@ -674,7 +698,7 @@ namespace HearthDb
                 public const string DarkbishopBenedictusCorePlaceholder = "CORE_SW_448";
 
                 /// <summary>
-                /// Your spells cost (1) less.<br/>
+                /// Your spells cost (1) less <i>(but not less than 1)</i>.<br/>
                 /// 2-Cost 2/3 Elemental Minion
                 /// </summary>
                 public const string RadiantElementalCorePlaceholder = "CORE_UNG_034";
@@ -866,7 +890,7 @@ namespace HearthDb
                 public const string GlowstoneGyreworm = "DEEP_024";
 
                 /// <summary>
-                /// Choose a non-<b>Titan</b> minion. Add a copy of it to your deck and battlefield.<br/>
+                /// Choose a minion. Add a copy to your hand, deck, and battlefield.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string ShatteredReflections = "DEEP_025";
@@ -1010,6 +1034,66 @@ namespace HearthDb
                 public const string MindBlastLegacy = "DS1_233";
 
                 /// <summary>
+                /// <b>Lifesteal</b> <b>Battlecry:</b> <b>Imbue</b> your Hero Power.<br/>
+                /// 2-Cost 3/1 Beast Minion
+                /// </summary>
+                public const string LunarwingMessenger = "EDR_449";
+
+                /// <summary>
+                /// Deal $6 damage to a minion. <i>(Cast 3 spells to gain <b>Lifesteal</b>.)</i><br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string WishOfTheNewMoon = "EDR_460";
+
+                /// <summary>
+                /// Summon two random 3-Cost minions. <i>(Cast 3 spells to summon 6-Cost minions instead.)</i><br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string RitualOfTheNewMoon = "EDR_461";
+
+                /// <summary>
+                /// <b>Elusive</b> At the end of your turn, get a random Dragon.<br/>
+                /// 4-Cost 3/6 Dragon Minion
+                /// </summary>
+                public const string SelenicDrake = "EDR_462";
+
+                /// <summary>
+                /// <b>Choose One -</b> Destroy a minion with 3 or less Attack; or Summon a random 2-Cost minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string TwilightInfluence = "EDR_463";
+
+                /// <summary>
+                /// <b>Battlecry:</b> The next 3 spells you play cast twice.<br/>
+                /// 7-Cost 5/7 Minion
+                /// </summary>
+                public const string Tyrande = "EDR_464";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you're holding a spell that costs (5) or more, deal 3 damage.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string WeaverOfTheCycle = "EDR_472";
+
+                /// <summary>
+                /// Deal $4 damage to all enemy characters. Restore #4 Health to all friendly characters.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string Moonwell = "EDR_476";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Start a three turn lunar cycle. When the Full Moon rises, your cards cost (1) this game.<br/>
+                /// 9-Cost 7/11 Minion
+                /// </summary>
+                public const string AvianaElunesChosen = "EDR_895";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give all enemy minions -2 Attack until your next turn. <b>Imbue</b> your Hero Power.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string KaldoreiPriestess = "EDR_970";
+
+                /// <summary>
                 /// Give a minion -5/-5. If it has 0 Attack, destroy it.<br/>
                 /// 3-Cost Spell
                 /// </summary>
@@ -1113,7 +1197,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Destroy a minion and gain its Health.<br/>
-                /// 8-Cost 8/1 Minion
+                /// 7-Cost 7/1 Minion
                 /// </summary>
                 public const string NatalieSelineLegacy = "EX1_198";
 
@@ -1208,7 +1292,7 @@ namespace HearthDb
                 public const string DarkCultist = "FP1_023";
 
                 /// <summary>
-                /// Give a minion +2/+1 and <b>Divine Shield</b>. Costs (0) if you played an adjacent card this turn.<br/>
+                /// Give a minion +1/+1 and <b>Divine Shield</b>. Costs (0) if you played an adjacent card this turn.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string OrbitalHalo = "GDB_439";
@@ -1524,6 +1608,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string AnduinWrynn_HeartbreakerWhitemaneHeroHeroSkins = "HERO_09aw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_TwilightLazulHeroHeroSkins = "HERO_09ax";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_MoonblessedVelenHeroHeroSkins = "HERO_09ay";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2282,7 +2378,7 @@ namespace HearthDb
                 public const string CarelessCrafter = "TOY_382";
 
                 /// <summary>
-                /// <b>Battlecry:</b> For the rest of the game, your Hero Power refreshes whenever you play a card.<br/>
+                /// <b>Battlecry:</b> Shuffle copies of 5 random friendly minions that died this game into your deck. They cost (0).<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
                 public const string RazaTheResealed = "TOY_383";
@@ -2294,7 +2390,7 @@ namespace HearthDb
                 public const string PurifyingPower = "TOY_384";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Once per game, if you've summoned 8 other Dragons, take an extra turn. <i>({0} left!)</i> <i>(Ready!)</i><br/>
+                /// <b>Battlecry:</b> Once per game, if you've played 8 other Dragons, take an extra turn. <i>({0} left!)</i> <i>(Ready!)</i><br/>
                 /// 5-Cost 4/6 Dragon Minion
                 /// </summary>
                 public const string TimewinderZarimi = "TOY_385";
@@ -2965,7 +3061,7 @@ namespace HearthDb
                 public const string TramHeist = "WW_053";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Deal 4 damage to this minion. <b>Overheal:</b> Deal 1 damage to all enemy minions.<br/>
+                /// <b>Battlecry:</b> Deal 4 damage to this minion. <b>Overheal:</b> Deal 2 damage to all enemy minions.<br/>
                 /// 3-Cost 3/7 Minion
                 /// </summary>
                 public const string InjuredHauler = "WW_381";
@@ -2978,7 +3074,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> Costs (1) less for each 1-Cost card you've played this game.<br/>
-                /// 7-Cost 4/6 Minion
+                /// 6-Cost 4/6 Minion
                 /// </summary>
                 public const string ThirstyDrifter = "WW_387";
 

@@ -373,49 +373,61 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins3 = "HERO_05azhp";
+                public const string Rexxar_SteadyShotHeroSkins3 = "HERO_05avhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins3 = "HERO_05azhp2";
+                public const string Rexxar_BallistaShotHeroSkins3 = "HERO_05avhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins4 = "HERO_05dbp";
+                public const string Rexxar_SteadyShotHeroSkins4 = "HERO_05azhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins4 = "HERO_05dbp2";
+                public const string Rexxar_BallistaShotHeroSkins4 = "HERO_05azhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins5 = "HERO_05ybp";
+                public const string Rexxar_SteadyShotHeroSkins5 = "HERO_05dbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins5 = "HERO_05ybp2";
+                public const string Rexxar_BallistaShotHeroSkins5 = "HERO_05dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins6 = "HERO_05zbp";
+                public const string Rexxar_SteadyShotHeroSkins6 = "HERO_05ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins6 = "HERO_05zbp2";
+                public const string Rexxar_BallistaShotHeroSkins6 = "HERO_05ybp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_SteadyShotHeroSkins7 = "HERO_05zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_BallistaShotHeroSkins7 = "HERO_05zbp2";
 
                 /// <summary>
                 /// Change a minion's Health to 1.<br/>
@@ -4064,7 +4076,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// (No Text)<br/>
-                /// 1-Cost 3/1 Beast Minion
+                /// 1-Cost 4/1 Beast Minion
                 /// </summary>
                 public const string AwakeningTremors_BurstingJormungarToken = "TTN_081t";
 
@@ -4436,7 +4448,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b><br/>
-                /// 3-Cost 2/5 Beast Minion
+                /// 3-Cost 2/4 Beast Minion
                 /// </summary>
                 public const string AlienEncounters_SnackingScrungukToken = "GDB_237t";
 
@@ -4495,6 +4507,12 @@ namespace HearthDb
                 public const string EvolutionChamber_PrimalEvolutionEnchantment = "SC_021e2";
 
                 /// <summary>
+                /// Has a <b>Divine Shield</b> that takes 3 hits to break.<br/>
+                /// Spell
+                /// </summary>
+                public const string NightmareScalesToken = "EDR_100t10";
+
+                /// <summary>
                 /// +2/+2 and <b>Elusive</b>.<br/>
                 /// Enchantment
                 /// </summary>
@@ -4537,6 +4555,12 @@ namespace HearthDb
                 public const string RudeAwakeningToken2 = "EDR_100t7e";
 
                 /// <summary>
+                /// +3/+3 and shuffled stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TurtledUpToken = "EDR_100t8e";
+
+                /// <summary>
                 /// +4/+5.<br/>
                 /// Enchantment
                 /// </summary>
@@ -4553,6 +4577,162 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string WakingTerrorEnchantmentToken = "EDR_100te";
+
+                /// <summary>
+                /// <b>Divine Shield</b>, <b>Rush</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken1 = "EDR_101t";
+
+                /// <summary>
+                /// <b>Divine Shield</b>, <b>Lifesteal</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken2 = "EDR_101t1";
+
+                /// <summary>
+                /// <b>Lifesteal</b>, <b>Taunt</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken3 = "EDR_101t10";
+
+                /// <summary>
+                /// <b>Lifesteal</b>, <b>Poisonous</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken4 = "EDR_101t11";
+
+                /// <summary>
+                /// <b>Reborn</b>, <b>Taunt</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken5 = "EDR_101t12";
+
+                /// <summary>
+                /// <b>Reborn</b>, <b>Poisonous</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken6 = "EDR_101t13";
+
+                /// <summary>
+                /// <b>Taunt</b>, <b>Poisonous</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken7 = "EDR_101t14";
+
+                /// <summary>
+                /// <b>Divine Shield</b>, <b>Reborn</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken8 = "EDR_101t2";
+
+                /// <summary>
+                /// <b>Divine Shield</b>, <b>Taunt</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken9 = "EDR_101t3";
+
+                /// <summary>
+                /// <b>Divine Shield</b>, <b>Poisonous</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken10 = "EDR_101t4";
+
+                /// <summary>
+                /// <b>Rush</b>, <b>Lifesteal</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken11 = "EDR_101t5";
+
+                /// <summary>
+                /// <b>Rush</b>, <b>Reborn</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken12 = "EDR_101t6";
+
+                /// <summary>
+                /// <b>Rush</b>, <b>Taunt</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken13 = "EDR_101t7";
+
+                /// <summary>
+                /// <b>Rush</b>, <b>Poisonous</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken14 = "EDR_101t8";
+
+                /// <summary>
+                /// <b>Lifesteal</b>, <b>Reborn</b><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BlindingCarapaceToken15 = "EDR_101t9";
+
+                /// <summary>
+                /// +2/+2 and <b>Deathrattle:</b> Give a friendly minion +2/+2 and this <b>Deathrattle</b>. <i>( stacks)</i><br/>
+                /// Enchantment
+                /// </summary>
+                public const string AmphibiansSpirit_AmphibiansSpiritEnchantment = "EDR_261e";
+
+                /// <summary>
+                /// Deal $4 damage to the enemy hero.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string GraceoftheGreatwolf_GreatwolfsFerocity = "EDR_263a";
+
+                /// <summary>
+                /// Summon two 3/2 Wolves with <b>Rush</b>.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string GraceoftheGreatwolf_GreatwolfsGuidance = "EDR_263b";
+
+                /// <summary>
+                /// <b>Dormant</b> for 2 turns.<br/>
+                /// 2-Cost 3/3 Beast Minion
+                /// </summary>
+                public const string ShepherdsCrook_SleepySheepToken = "EDR_416t";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 2 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ShepherdsCrook_SleepyEnchantmentToken = "EDR_416te";
+
+                /// <summary>
+                /// <b>Poisonous</b> this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BarbedThorn_CorruptedToxinsEnchantment = "EDR_525e1";
+
+                /// <summary>
+                /// Give a random Beast in your hand +<b>1</b> Attack. It costs (<b>1</b>) less.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string BlessingOfTheWolf = "EDR_850p";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 2-Cost 3/2 Beast/Undead Minion
+                /// </summary>
+                public const string PlayfulPup = "EDR_850pe";
+
+                /// <summary>
+                /// + Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GoldrinnsCourage = "EDR_850pe1";
+
+                /// <summary>
+                /// Costs less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GreatWolfsHowl = "EDR_850pe5";
+
+                /// <summary>
+                /// Doubled Attack and Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BrollBearmantle_VerdantDreamsaberEnchantment = "EDR_853e";
             }
         }
     }

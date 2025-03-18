@@ -4371,6 +4371,60 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Saruun_HeatOfSaruunEnchantment = "GDB_304e";
+
+                /// <summary>
+                /// Keep the spell.<br/>
+                /// Spell
+                /// </summary>
+                public const string Qonzu_TranquilBreeze = "EDR_517A";
+
+                /// <summary>
+                /// Put it on top of your opponent's deck.<br/>
+                /// Spell
+                /// </summary>
+                public const string Qonzu_WindsOfChange = "EDR_517B";
+
+                /// <summary>
+                /// Increased Stats<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Wisprider_WispriderMagicEnchantment = "EDR_519e";
+
+                /// <summary>
+                /// Your next spell this turn has <b>Spell Damage +3</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ForbiddenShrine_LuminosityEnchantment = "EDR_520e";
+
+                /// <summary>
+                /// Summon <b>1 Wisp</b>. Deal <b>$1</b> damage randomly split among all enemies.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string BlessingOfTheWisp = "EDR_851p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost 1/1 Undead Minion
+                /// </summary>
+                public const string WispTokenEMERALD_DREAM = "EDR_851t";
+
+                /// <summary>
+                /// <b>Discover</b> a Mage spell.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SparkofLife_GiftOfFire = "EDR_872A";
+
+                /// <summary>
+                /// <b>Discover</b> a Druid spell.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SparkofLife_GiftOfNature = "EDR_872B";
+
+                /// <summary>
+                /// <b>Spell Damage +1</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string StellarBalance_StellarBalanceEnchantment = "EDR_874e";
             }
         }
     }

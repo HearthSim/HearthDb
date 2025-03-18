@@ -1356,7 +1356,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Stealth</b> Whenever this attacks and kills a minion, summon 2 Murlocs from your deck.<br/>
-                /// 5-Cost 2/4 Murloc Minion
+                /// 5-Cost 3/5 Murloc Minion
                 /// </summary>
                 public const string FinjaTheFlyingStar = "CFM_344";
 
@@ -1595,6 +1595,12 @@ namespace HearthDb
                 public const string IceRagerCorePlaceholder = "CORE_AT_092";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> If you're holding a Dragon, deal 3 damage to all minions.<br/>
+                /// 7-Cost 6/6 Dragon/Undead Minion
+                /// </summary>
+                public const string ChillmawCorePlaceholder = "CORE_AT_123";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Replace your starting Hero Power with a better one.<br/>
                 /// 5-Cost 6/4 Minion
                 /// </summary>
@@ -1641,6 +1647,12 @@ namespace HearthDb
                 /// 1-Cost 2/2 Undead Minion
                 /// </summary>
                 public const string MistressOfMixturesCorePlaceholder = "CORE_CFM_120";
+
+                /// <summary>
+                /// <b>Stealth</b> Whenever this attacks and kills a minion, summon 2 Murlocs from your deck.<br/>
+                /// 5-Cost 3/5 Murloc Minion
+                /// </summary>
+                public const string FinjaTheFlyingStarCorePlaceholder = "CORE_CFM_344";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Your opponent summons a random minion from their hand.<br/>
@@ -1727,14 +1739,26 @@ namespace HearthDb
                 public const string StormwindChampionCore = "CORE_CS2_222";
 
                 /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost 1/1 Undead Minion
+                /// </summary>
+                public const string WispCorePlaceholder = "CORE_CS2_231";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If you control a <b>Secret</b>, gain +1/+1.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string SunreaverSpyCorePlaceholder = "CORE_DAL_086";
 
                 /// <summary>
+                /// <b>Battlecry and Deathrattle:</b> Each player draws a card.<br/>
+                /// 2-Cost 2/3 Murloc Minion
+                /// </summary>
+                public const string PrizeVendorCorePlaceholder = "CORE_DMF_067";
+
+                /// <summary>
                 /// <b>Rush</b> <b>Divine Shield</b> <b>Elusive</b><br/>
-                /// 6-Cost 5/3 Dragon Minion
+                /// 6-Cost 5/4 Dragon Minion
                 /// </summary>
                 public const string EvasiveWyrmCore = "CORE_DRG_079";
 
@@ -1745,13 +1769,19 @@ namespace HearthDb
                 public const string DragonqueenAlexstraszaCorePlaceholder = "CORE_DRG_089";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Your opponent's next Hero Power costs (2) more.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string BlowtorchSaboteurCorePlaceholder = "CORE_DRG_403";
+
+                /// <summary>
                 /// <b>Battlecry:</b> <b>Discover</b> a Beast with a <b>Dark Gift</b>.<br/>
                 /// 3-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string RaptorHerald = "CORE_EDR_004";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Destroy an enemy minion with <b>Taunt</b>.<br/>
+                /// <b>Tradeable</b> <b>Battlecry:</b> Destroy an enemy minion with <b>Taunt</b>.<br/>
                 /// 4-Cost 4/4 Undead Minion
                 /// </summary>
                 public const string TheBlackKnightCorePlaceholder = "CORE_EX1_002";
@@ -1800,7 +1830,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Give your opponent 2 Bananas.<br/>
-                /// 3-Cost 5/5 Beast Minion
+                /// 3-Cost 5/6 Beast Minion
                 /// </summary>
                 public const string KingMuklaCorePlaceholder = "CORE_EX1_014";
 
@@ -1847,6 +1877,12 @@ namespace HearthDb
                 public const string ColdlightOracleCorePlaceholder = "CORE_EX1_050";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Give adjacent minions <b>Taunt</b>.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string SunfuryProtectorCorePlaceholder = "CORE_EX1_058";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Swap the Attack and Health of a minion.<br/>
                 /// Tier-1 2/2 Undead Minion
                 /// </summary>
@@ -1889,6 +1925,12 @@ namespace HearthDb
                 public const string LootHoarderCore = "CORE_EX1_096";
 
                 /// <summary>
+                /// Whenever a player casts a spell, put a copy into the other player’s hand.<br/>
+                /// 2-Cost 0/4 Minion
+                /// </summary>
+                public const string LorewalkerChoCorePlaceholder = "CORE_EX1_100";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Give your other Murlocs +2 Health.<br/>
                 /// 3-Cost 2/3 Murloc Minion
                 /// </summary>
@@ -1901,7 +1943,7 @@ namespace HearthDb
                 public const string MountainGiantCore = "CORE_EX1_105";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a 5/5 Baine Bloodhoof.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Summon a 5/5 Baine Bloodhoof.<br/>
                 /// 6-Cost 5/5 Minion
                 /// </summary>
                 public const string CairneBloodhoofCorePlaceholder = "CORE_EX1_110";
@@ -2004,7 +2046,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Costs (1) less for each Health your hero is missing.<br/>
-                /// 22-Cost 8/8 Elemental Minion
+                /// 20-Cost 8/8 Elemental Minion
                 /// </summary>
                 public const string MoltenGiantCore = "CORE_EX1_620";
 
@@ -2013,6 +2055,12 @@ namespace HearthDb
                 /// 2-Cost 0/2 Minion
                 /// </summary>
                 public const string NerubianEggCore = "CORE_FP1_007";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Enemy spells cost (5) more next turn.<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
+                public const string LoathebCorePlaceholder = "CORE_FP1_030";
 
                 /// <summary>
                 /// Your minions trigger their <b>Deathrattles</b> twice.<br/>
@@ -2097,6 +2145,12 @@ namespace HearthDb
                 /// 7-Cost 7/7 Minion
                 /// </summary>
                 public const string DrBoomCorePlaceholder = "CORE_GVG_110";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a random <b>Legendary</b> minion.<br/>
+                /// 7-Cost 5/7 Mechanical Minion
+                /// </summary>
+                public const string SneedsOldShredderCorePlaceholder = "CORE_GVG_114";
 
                 /// <summary>
                 /// Costs (1) less for each card in your opponent's hand.<br/>
@@ -2336,7 +2390,7 @@ namespace HearthDb
                 /// Your end of turn effects trigger twice.<br/>
                 /// 3-Cost 1/5 Minion
                 /// </summary>
-                public const string DrakkariEnchanterCorePlaceholder = "CORE_ICC_901";
+                public const string DrakkariEnchanterCore = "CORE_ICC_901";
 
                 /// <summary>
                 /// Hero Powers are disabled.<br/>
@@ -2379,6 +2433,18 @@ namespace HearthDb
                 /// 1-Cost 2/1 Elemental Minion
                 /// </summary>
                 public const string ArcaneAnomalyCorePlaceholder = "CORE_KAR_036";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Draw a Beast, Dragon, and Murloc from your deck.<br/>
+                /// 5-Cost 4/6 Mechanical Minion
+                /// </summary>
+                public const string TheCuratorCorePlaceholder = "CORE_KAR_061";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b> a Dragon.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string NetherspiteHistorianCorePlaceholder = "CORE_KAR_062";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, fully heal your hero.<br/>
@@ -2759,10 +2825,22 @@ namespace HearthDb
                 public const string RoyalLibrarianCore = "CORE_SW_066";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Gain 8 Armor.<br/>
+                /// 8-Cost 8/8 Demon/Mechanical Minion
+                /// </summary>
+                public const string MoargForgefiendCorePlaceholder = "CORE_SW_068";
+
+                /// <summary>
                 /// <b>Tradeable</b> <b>Battlecry:</b> Destroy your opponent's weapon.<br/>
                 /// 3-Cost 3/4 Beast Minion
                 /// </summary>
                 public const string RustrotViperCore = "CORE_SW_072";
+
+                /// <summary>
+                /// At the start and end of each player's turn, draw a card.<br/>
+                /// 6-Cost 4/5 Minion
+                /// </summary>
+                public const string CorneliusRoameCorePlaceholder = "CORE_SW_080";
 
                 /// <summary>
                 /// <b>Rush</b>. Also damages minions next to whomever this attacks. <b>Deathrattle:</b> Deal 2 damage to all enemies.<br/>
@@ -2807,6 +2885,12 @@ namespace HearthDb
                 public const string ZephrysTheGreatCorePlaceholder = "CORE_ULD_003";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Draw 8 cards.<br/>
+                /// 8-Cost 8/8 Beast Minion
+                /// </summary>
+                public const string OctosariCorePlaceholder = "CORE_ULD_177";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Gain 2 of <b>Rush</b>, <b>Taunt</b>, <b>Divine Shield</b>, or <b>Windfury</b> <i>(your choice).</i><br/>
                 /// 7-Cost 7/7 Elemental Minion
                 /// </summary>
@@ -2841,6 +2925,12 @@ namespace HearthDb
                 /// 3-Cost 1/5 Minion
                 /// </summary>
                 public const string StonehillDefenderCore = "Core_UNG_072";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 3 damage.<br/>
+                /// 4-Cost 3/4 Elemental/Beast Minion
+                /// </summary>
+                public const string FirePlumePhoenixCorePlaceholder = "CORE_UNG_084";
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Freeze</b> an enemy.<br/>
@@ -2891,6 +2981,18 @@ namespace HearthDb
                 public const string YseraCore = "CORE_VAN_EX1_572";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Give 3 random friendly minions of different minion types +1/+1.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string MenagerieMugCorePlaceholder = "CORE_WON_141";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give 3 random friendly minions of different minion types +3/+3.<br/>
+                /// 5-Cost 3/3 Minion
+                /// </summary>
+                public const string MenagerieJugCorePlaceholder = "CORE_WON_142";
+
+                /// <summary>
                 /// <b>Stealth</b> Whenever this attacks, gain 1 Mana Crystal this turn only.<br/>
                 /// 4-Cost 3/5 Beast Minion
                 /// </summary>
@@ -2901,6 +3003,12 @@ namespace HearthDb
                 /// 1-Cost 1/3 Minion
                 /// </summary>
                 public const string ArmorVendorCore = "CORE_YOP_032";
+
+                /// <summary>
+                /// At the end of your turn, deal 10 damage to a random enemy minion.<br/>
+                /// 10-Cost 10/10 Dragon Minion
+                /// </summary>
+                public const string RunawayBlackwingCorePlaceholder = "CORE_YOP_034";
 
                 /// <summary>
                 /// <b>Taunt</b><br/>
@@ -3610,7 +3718,7 @@ namespace HearthDb
                 public const string KnifeVendor = "DMF_066";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Each player draws a card.<br/>
+                /// <b>Battlecry and Deathrattle:</b> Each player draws a card.<br/>
                 /// 2-Cost 2/3 Murloc Minion
                 /// </summary>
                 public const string PrizeVendor = "DMF_067";
@@ -3917,7 +4025,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Rush</b> <b>Divine Shield</b> <b>Elusive</b><br/>
-                /// 6-Cost 5/3 Dragon Minion
+                /// 6-Cost 5/4 Dragon Minion
                 /// </summary>
                 public const string EvasiveWyrm = "DRG_079";
 
@@ -4018,8 +4126,8 @@ namespace HearthDb
                 public const string Sathrovarr = "DRG_402";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Your opponent's next Hero Power costs (3).<br/>
-                /// 3-Cost 3/4 Minion
+                /// <b>Battlecry:</b> Your opponent's next Hero Power costs (2) more.<br/>
+                /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string BlowtorchSaboteur = "DRG_403";
 
@@ -4036,10 +4144,208 @@ namespace HearthDb
                 public const string YseraEmeraldAspect = "EDR_000";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Get a random Dream card.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string HopefulDryad = "EDR_001";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a <b>Legendary</b> minion with a <b>Dark Gift</b>.<br/>
+                /// 4-Cost 5/4 Demon Minion
+                /// </summary>
+                public const string TreacherousTormentor = "EDR_102";
+
+                /// <summary>
                 /// <b>Battlecry:</b> <b>Discover</b> a 3-Cost minion with a <b>Dark Gift.</b><br/>
                 /// 2-Cost 1/2 Minion
                 /// </summary>
                 public const string CreatureOfMadness = "EDR_105";
+
+                /// <summary>
+                /// <b>Poisonous</b> <b>Deathrattle:</b> Deal 1 damage to a random enemy minion.<br/>
+                /// 5-Cost 1/5 Minion
+                /// </summary>
+                public const string Sporegnasher = "EDR_110";
+
+                /// <summary>
+                /// After you cast a spell, gain Attack equal to its Cost.<br/>
+                /// 3-Cost 1/4 Elemental Minion
+                /// </summary>
+                public const string AnimatedMoonwell = "EDR_254";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Shuffle two 4/5 Dragons with <b>Taunt</b> into your deck. They're <b>Summoned When Drawn</b>.<br/>
+                /// 4-Cost 4/5 Dragon Minion
+                /// </summary>
+                public const string IllusoryGreenwing = "EDR_260";
+
+                /// <summary>
+                /// At the end of your turn, attack a random enemy minion <i>(excess damage hits the enemy hero)</i>.<br/>
+                /// 10-Cost 12/7 Dragon Minion
+                /// </summary>
+                public const string BriarspawnDrake = "EDR_453";
+
+                /// <summary>
+                /// Starts <b>Dormant</b>. After you use your Hero Power, this awakens.<br/>
+                /// 1-Cost 3/3 Minion
+                /// </summary>
+                public const string SlumberingSprite = "EDR_469";
+
+                /// <summary>
+                /// <b>Taunt</b> After you use your Hero Power, gain +2 Health.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string BarkshieldSentinel = "EDR_470";
+
+                /// <summary>
+                /// After a minion dies, gain its Attack.<br/>
+                /// 7-Cost 2/7 Minion
+                /// </summary>
+                public const string ScavengingFlytrap = "EDR_484";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Lifesteal</b><br/>
+                /// 9-Cost 7/9 Demon Minion
+                /// </summary>
+                public const string ScorchingObserver = "EDR_486";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon three 1/1 Ducklings with <b>Rush</b>.<br/>
+                /// 4-Cost 2/3 Beast Minion
+                /// </summary>
+                public const string MotherDuck = "EDR_492";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give a random minion in each player's hand -2 Attack.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string TwistedTreant = "EDR_495";
+
+                /// <summary>
+                /// At the end of your turn, get a random Nature spell.<br/>
+                /// 2-Cost 0/4 Minion
+                /// </summary>
+                public const string DaydreamingPixie = "EDR_530";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Draw a spell that costs (5) or more.<br/>
+                /// 3-Cost 2/4 Dragon Minion
+                /// </summary>
+                public const string FaeTrickster = "EDR_571";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Draw 2 Dragons. Reduce their Costs by (1).<br/>
+                /// 5-Cost 5/5 Dragon Minion
+                /// </summary>
+                public const string TormentedDreadwing = "EDR_572";
+
+                /// <summary>
+                /// <b>Elusive</b><br/>
+                /// 3-Cost 5/1 Minion
+                /// </summary>
+                public const string DreamRager = "EDR_598";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon a copy of this. One secretly dies when it takes damage.<br/>
+                /// 3-Cost 2/4 Demon Minion
+                /// </summary>
+                public const string BloodthistleIllusionist = "EDR_780";
+
+                /// <summary>
+                /// <b><b>Taunt</b>, Divine Shield</b> <b>Battlecry:</b> <b>Imbue</b> your Hero Power.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string FlutterwingGuardian = "EDR_800";
+
+                /// <summary>
+                /// Your Dragons cost (1).<br/>
+                /// 7-Cost 7/7 Minion
+                /// </summary>
+                public const string NaralexHeraldOfTheFlights = "EDR_844";
+
+                /// <summary>
+                /// Get all 5 Dream cards. If you've played a higher Cost card while holding this, corrupt them!<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string Shaladrassil = "EDR_846";
+
+                /// <summary>
+                /// After you play a minion, give it a random <b>Bonus Effect</b>.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string DreamboundRaptor = "EDR_849";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Imbue</b> your Hero Power.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string BitterbloomKnight = "EDR_852";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a minion from your deck. Give it a <b>Dark Gift</b>.<br/>
+                /// 4-Cost 4/4 Demon Minion
+                /// </summary>
+                public const string NightmareLordXavius = "EDR_856";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you've <b>Imbued</b> your Hero Power twice, deal 5 damage to a minion.<br/>
+                /// 4-Cost 5/4 Minion
+                /// </summary>
+                public const string ResplendentDreamweaver = "EDR_860";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Both players gain an empty Mana Crystal.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string TranquilTreant = "EDR_861";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Transform all Neutral cards in your deck into random Druid ones.<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
+                public const string EnvoyOfTheGlade = "EDR_873";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a <b>Legendary</b> Wild God. If you've <b>Imbued</b> your Hero Power 4 times, set its Cost to (1).<br/>
+                /// 8-Cost 8/6 Beast Minion
+                /// </summary>
+                public const string MalorneTheWaywatcher = "EDR_888";
+
+                /// <summary>
+                /// At the end of your turn, give another random friendly Dragon +1/+1.<br/>
+                /// 2-Cost 1/4 Dragon Minion
+                /// </summary>
+                public const string PetalPeddler = "EDR_889";
+
+                /// <summary>
+                /// At the end of your turn, give your hero <b>Divine Shield</b>.<br/>
+                /// 4-Cost 3/5 Elemental Minion
+                /// </summary>
+                public const string CuriousCumulus = "EDR_942";
+
+                /// <summary>
+                /// At the end of your turn, restore #3 Health to both heroes.<br/>
+                /// 1-Cost 2/2 Minion
+                /// </summary>
+                public const string CritterCaretaker = "EDR_971";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Put a Meadowstrider on the bottom of your deck. It costs (1).<br/>
+                /// 8-Cost 6/11 Beast Minion
+                /// </summary>
+                public const string Meadowstrider = "EDR_978";
+
+                /// <summary>
+                /// <b>Dormant</b> for 2 turns. While <b>Dormant</b>, gain 5 Armor and draw a card at the end of your turn.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
+                public const string AncientOfYore = "EDR_979";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a random Murloc.<br/>
+                /// 1-Cost 1/1 Murloc Minion
+                /// </summary>
+                public const string GnawingGreenfin = "EDR_999";
 
                 /// <summary>
                 /// While building your deck, assemble a band of 3 cards. <b>Battlecry: Discover</b> one!<br/>
@@ -4120,7 +4426,7 @@ namespace HearthDb
                 public const string FrequencyOscillator = "ETC_106";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Choose a minion. It has +3 Attack while this is alive.<br/>
+                /// <b>Battlecry:</b> Choose a minion. It has +4 Attack while this is alive.<br/>
                 /// 3-Cost 1/5 Quilboar Minion
                 /// </summary>
                 public const string RowdyFan = "ETC_107";
@@ -4217,7 +4523,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Add two 3/3 Bots to your opponent's hand. <b>Deathrattle:</b> Summon them for yourself.<br/>
-                /// 4-Cost 4/4 Minion
+                /// 4-Cost 5/4 Minion
                 /// </summary>
                 public const string PozzikAudioEngineer = "ETC_425";
 
@@ -4258,7 +4564,7 @@ namespace HearthDb
                 public const string Lightwarden = "EX1_001";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Destroy an enemy minion with <b>Taunt</b>.<br/>
+                /// <b>Tradeable</b> <b>Battlecry:</b> Destroy an enemy minion with <b>Taunt</b>.<br/>
                 /// 4-Cost 4/4 Undead Minion
                 /// </summary>
                 public const string TheBlackKnight = "EX1_002";
@@ -4319,7 +4625,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Give your opponent 2 Bananas.<br/>
-                /// 3-Cost 5/5 Beast Minion
+                /// 3-Cost 5/6 Beast Minion
                 /// </summary>
                 public const string KingMukla = "EX1_014";
 
@@ -4574,7 +4880,7 @@ namespace HearthDb
                 public const string MountainGiant = "EX1_105";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a 5/5 Baine Bloodhoof.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Summon a 5/5 Baine Bloodhoof.<br/>
                 /// 6-Cost 5/5 Minion
                 /// </summary>
                 public const string CairneBloodhoof = "EX1_110";
@@ -4859,7 +5165,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Costs (1) less for each Health your hero is missing.<br/>
-                /// 22-Cost 8/8 Elemental Minion
+                /// 20-Cost 8/8 Elemental Minion
                 /// </summary>
                 public const string MoltenGiant = "EX1_620";
 
@@ -4995,7 +5301,7 @@ namespace HearthDb
                 public const string BaronRivendare = "FP1_031";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Gain 6 Armor. <b>Starship Piece</b><br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Gain 4 Armor. <b>Starship Piece</b><br/>
                 /// 4-Cost 3/4 Minion
                 /// </summary>
                 public const string ArkoniteDefenseCrystal = "GDB_100";
@@ -5038,7 +5344,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Costs (1) less for each time a card was drawn, played, or destroyed. <b>Battlecry:</b> Destroy all other minions.<br/>
-                /// 100-Cost 15/15 Minion
+                /// 100-Cost 10/10 Minion
                 /// </summary>
                 public const string TheCeaselessExpanse = "GDB_142";
 
@@ -5745,7 +6051,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Summon a random <b>Legendary</b> minion.<br/>
-                /// 8-Cost 5/7 Mechanical Minion
+                /// 7-Cost 5/7 Mechanical Minion
                 /// </summary>
                 public const string SneedsOldShredder = "GVG_114";
 
@@ -6146,13 +6452,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Draw a Beast, Dragon, and Murloc from your deck.<br/>
-                /// 7-Cost 4/6 Mechanical Minion
+                /// 5-Cost 4/6 Mechanical Minion
                 /// </summary>
                 public const string TheCurator = "KAR_061";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b> a Dragon.<br/>
-                /// 2-Cost 1/3 Minion
+                /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string NetherspiteHistorian = "KAR_062";
 
@@ -6221,10 +6527,28 @@ namespace HearthDb
                 public const string AlexstraszaTheLifeBinderLegacy = "LEG_CS3_031";
 
                 /// <summary>
+                /// At the end of each turn, fill your board with 1/1 Whelps.<br/>
+                /// 9-Cost 8/8 Dragon Minion
+                /// </summary>
+                public const string OnyxiaTheBroodmotherCorePlaceholder = "LEG_CS3_032";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Add one of each Dream card to your hand.<br/>
                 /// 9-Cost 4/12 Dragon Minion
                 /// </summary>
                 public const string YseraTheDreamerLegacy = "LEG_CS3_033";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw spells until your hand is full.<br/>
+                /// 9-Cost 4/12 Dragon Minion
+                /// </summary>
+                public const string MalygosTheSpellweaverCorePlaceholder = "LEG_CS3_034";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy all other minions. Discard a card for each destroyed.<br/>
+                /// 10-Cost 12/12 Dragon Minion
+                /// </summary>
+                public const string DeathwingTheDestroyerCorePlaceholder = "LEG_CS3_036";
 
                 /// <summary>
                 /// <b>Rush</b><br/>
@@ -8969,7 +9293,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Choose a friendly minion. Add a <b>Temporary</b> copy of it to your hand.<br/>
-                /// 3-Cost 3/3 Minion
+                /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string CelestialProjectionist = "TTN_742";
 
@@ -9381,7 +9705,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 3 damage.<br/>
-                /// 4-Cost 3/3 Elemental/Beast Minion
+                /// 4-Cost 3/4 Elemental/Beast Minion
                 /// </summary>
                 public const string FirePlumePhoenix = "UNG_084";
 
@@ -9579,7 +9903,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// At the end of your turn, upgrade your Eruptions. <b>Battlecry:</b> Shuffle 5 of them into your deck.<br/>
-                /// 6-Cost 2/10 Elemental Minion
+                /// 7-Cost 2/10 Elemental Minion
                 /// </summary>
                 public const string Incindius = "VAC_321";
 
@@ -9759,7 +10083,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Get a 2-Cost Cheese that summons three 1-Cost minions. It upgrades each turn.<br/>
-                /// 3-Cost 3/3 Dragon Minion
+                /// 4-Cost 4/4 Dragon Minion
                 /// </summary>
                 public const string Gorgonzormu = "VAC_955";
 
@@ -10851,12 +11175,12 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Give 3 random friendly minions of different minion types +1/+1.<br/>
-                /// 3-Cost 2/2 Minion
+                /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string MenagerieMug = "WON_141";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Give 3 random friendly minions of different minion types +2/+2.<br/>
+                /// <b>Battlecry:</b> Give 3 random friendly minions of different minion types +3/+3.<br/>
                 /// 5-Cost 3/3 Minion
                 /// </summary>
                 public const string MenagerieJug = "WON_142";
@@ -11007,7 +11331,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck started with no duplicates, remove all enemy minions from the game.<br/>
-                /// 10-Cost Hero
+                /// 8-Cost Hero
                 /// </summary>
                 public const string RenoLoneRanger = "WW_0700";
 
@@ -11253,7 +11577,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Titan</b> After this uses an ability, cast two random spells.<br/>
-                /// 10-Cost 7/5 Minion
+                /// 9-Cost 7/5 Minion
                 /// </summary>
                 public const string YoggSaronUnleashed = "YOG_516";
 
@@ -11342,8 +11666,8 @@ namespace HearthDb
                 public const string ArmorVendor = "YOP_032";
 
                 /// <summary>
-                /// At the end of your turn, deal 9 damage to a random enemy minion.<br/>
-                /// 9-Cost 9/9 Dragon Minion
+                /// At the end of your turn, deal 10 damage to a random enemy minion.<br/>
+                /// 10-Cost 10/10 Dragon Minion
                 /// </summary>
                 public const string RunawayBlackwing = "YOP_034";
 

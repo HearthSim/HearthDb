@@ -391,6 +391,12 @@ namespace HearthDb
                 public const string BladestormCore = "CORE_BT_117";
 
                 /// <summary>
+                /// Whenever your hero would take damage, this loses 1 Durability instead.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string BulwarkOfAzzinothCorePlaceholder = "CORE_BT_781";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// 2-Cost Weapon
                 /// </summary>
@@ -601,16 +607,22 @@ namespace HearthDb
                 public const string CallToTheStandCorePlaceholder = "CORE_MAW_027";
 
                 /// <summary>
-                /// <b><b>Taunt</b>.</b> <b>Battlecry:</b> If you have 4 or more Armor, gain +4/+4.<br/>
-                /// 5-Cost 4/4 Minion
-                /// </summary>
-                public const string MawswornBailiffCorePlaceholder = "CORE_MAW_028";
-
-                /// <summary>
                 /// <b>Battlecry:</b> If you have a weapon equipped, give it +1/+1. Otherwise, draw a weapon.<br/>
                 /// 3-Cost 3/2 Minion
                 /// </summary>
                 public const string WeaponsExpertCorePlaceholder = "CORE_MAW_029";
+
+                /// <summary>
+                /// After your hero attacks, gain 4 Armor and draw a card.<br/>
+                /// 3-Cost 4/3 Pirate/Mechanical Minion
+                /// </summary>
+                public const string Hookfist3000CorePlaceholder = "CORE_NX2_028";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 1 damage to all other minions.<br/>
+                /// 3-Cost 3/3 Undead Minion
+                /// </summary>
+                public const string RavagingGhoulCorePlaceholder = "CORE_OG_149";
 
                 /// <summary>
                 /// <b>Taunt</b> Has +3 Attack while damaged.<br/>
@@ -713,6 +725,12 @@ namespace HearthDb
                 /// 5-Cost Spell
                 /// </summary>
                 public const string PlagueOfWrathCorePlaceholder = "CORE_ULD_707";
+
+                /// <summary>
+                /// <b>Discover</b> a <b>Taunt</b> minion. Give it +1/+2.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string IKnowAGuyCorePlaceholder = "CORE_WON_350";
 
                 /// <summary>
                 /// Give a friendly minion +2 Attack and <b>Charge</b>.<br/>
@@ -853,7 +871,7 @@ namespace HearthDb
                 public const string BlacksmithingHammer = "DED_527";
 
                 /// <summary>
-                /// Deal $1 damage to all minions, three times. Costs (1) less if you cast a spell last turn.<br/>
+                /// Deal $1 damage to all minions, three times. Costs (2) less if you cast a spell last turn.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string Aftershocks = "DEEP_010";
@@ -872,7 +890,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck started with no duplicates, your <b>Battlecries</b> trigger twice for the rest of the game.<br/>
-                /// 8-Cost 2/4 Minion
+                /// 6-Cost 2/4 Minion
                 /// </summary>
                 public const string DeepminerBrann = "DEEP_020";
 
@@ -1001,6 +1019,66 @@ namespace HearthDb
                 /// 7-Cost Hero
                 /// </summary>
                 public const string GalakrondTheUnbreakable = "DRG_650";
+
+                /// <summary>
+                /// Choose a friendly Dragon. Summon a 0/2 Egg that hatches into a copy of it.<br/>
+                /// 2-Cost Location
+                /// </summary>
+                public const string ClutchOfCorruption = "EDR_454";
+
+                /// <summary>
+                /// <b>Discover</b> a friendly Dragon that died this game. Resummon it.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string SuccumbToMadness = "EDR_455";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b> a Dragon with a <b>Dark Gift</b>.<br/>
+                /// 1-Cost 1/1 Demon Minion
+                /// </summary>
+                public const string Darkrider = "EDR_456";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you're holding a Dragon, equip a 2/2 Sword.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string BroodKeeper = "EDR_457";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 3 damage to all other friendly minions. <b>Deathrattle:</b> Deal 3 damage to all enemy minions.<br/>
+                /// 4-Cost 6/6 Dragon Minion
+                /// </summary>
+                public const string AfflictedDevastator = "EDR_459";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Summon a random Dragon for each time Ysondre has died this game.<br/>
+                /// 7-Cost 8/5 Dragon Minion
+                /// </summary>
+                public const string Ysondre = "EDR_465";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 1 damage to a minion and give it +4 Attack.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
+                public const string Eggbasher = "EDR_468";
+
+                /// <summary>
+                /// <b>Taunt</b>, <b>Elusive</b> After this takes damage, gain 1 Armor and give this minion +1 Attack.<br/>
+                /// 10-Cost 1/30 Beast Minion
+                /// </summary>
+                public const string Tortolla = "EDR_471";
+
+                /// <summary>
+                /// Destroy a friendly minion to gain 8 Armor.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SiphoningGrowth = "EDR_531";
+
+                /// <summary>
+                /// <b>Choose One - </b>Deal $1 damage to all minions; or Give a damaged minion +2/+2.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string OminousNightmares = "EDR_570";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> If you control no other minions, gain +2/+2 and <b>Rush</b>.<br/>
@@ -1478,6 +1556,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string GarroshHellscream_DragonbaneBoulderfistHeroHeroSkins = "HERO_01at";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GarroshHellscream_WarlordDrakaHeroHeroSkins = "HERO_01au";
 
                 /// <summary>
@@ -1521,6 +1605,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string GarroshHellscream_RagnarosTheFirelordHeroHeroSkins = "HERO_01bb";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_ShadowDrakaHeroHeroSkins = "HERO_01bc";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2261,7 +2351,7 @@ namespace HearthDb
                 public const string InventorBoom = "TOY_607";
 
                 /// <summary>
-                /// Whenever you gain armor, summon another Lab Patron <i>(once per turn)</i>.<br/>
+                /// Whenever you gain Armor, summon another Lab Patron <i>(once per turn)</i>.<br/>
                 /// 4-Cost 3/3 Minion
                 /// </summary>
                 public const string LabPatron = "TOY_651";
@@ -2417,7 +2507,7 @@ namespace HearthDb
                 public const string Minotauren = "TTN_466";
 
                 /// <summary>
-                /// Whenever your hero attacks, gain 3 Armor.<br/>
+                /// Whenever your hero attacks, gain 4 Armor.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string CraftsmansHammer = "TTN_467";
@@ -2460,7 +2550,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> For the rest of the game, after your hero gains Armor, they gain that much Attack for that turn.<br/>
-                /// 9-Cost 8/8 Minion
+                /// 8-Cost 8/8 Minion
                 /// </summary>
                 public const string OdynPrimeDesignate = "TTN_811";
 
@@ -2994,13 +3084,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Transform into a copy of a damaged minion.<br/>
-                /// 3-Cost 2/2 Minion
+                /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string BattlewornFaceless = "YOG_501";
 
                 /// <summary>
-                /// Deal damage equal to your Armor to all minions. <b>Forge:</b> Gain 4 Armor first.<br/>
-                /// 6-Cost Spell
+                /// Deal damage equal to your Armor to all minions. <b>Forge:</b> Gain 3 Armor first.<br/>
+                /// 4-Cost Spell
                 /// </summary>
                 public const string Sanitize = "YOG_502";
 

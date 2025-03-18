@@ -3161,6 +3161,12 @@ namespace HearthDb
                 public const string RazatheResealed_RazaResealedEnchantEnchantment = "TOY_383e";
 
                 /// <summary>
+                /// Costs (0)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RazatheResealed_ResealedEnchantment = "TOY_383e2";
+
+                /// <summary>
                 /// +1/+2.<br/>
                 /// Enchantment
                 /// </summary>
@@ -3263,7 +3269,7 @@ namespace HearthDb
                 public const string SilvermoonBrochure_GilneasBrochureToken = "WORK_017t";
 
                 /// <summary>
-                /// +2/+1.<br/>
+                /// +1/+1.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string OrbitalHalo_OrbitingHaloEnchantment = "GDB_439e";
@@ -3315,6 +3321,66 @@ namespace HearthDb
                 /// Tier-1 0/4 Elemental Minion
                 /// </summary>
                 public const string Lightspawn = "HM_BG_001";
+
+                /// <summary>
+                /// Costs less. Discard this at the end of your turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LunarwingMessenger_FleetingMagicEnchantment = "EDR_449e";
+
+                /// <summary>
+                /// Choose a Priest minion or Priest spell to add to your hand. It costs (<b>1</b>) less, but is <b>Temporary</b>.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string LunarwingMessenger_BlessingOfTheMoon = "EDR_449p";
+
+                /// <summary>
+                /// <b>Lifesteal</b> Deal $6 damage to a minion.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string WishoftheNewMoon_WishOfTheFullMoonToken = "EDR_460t";
+
+                /// <summary>
+                /// Summon two random 6-Cost minions.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string RitualoftheNewMoon_RitualOfTheFullMoonToken = "EDR_461t";
+
+                /// <summary>
+                /// Destroy a minion with 3 or less Attack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string TwilightInfluence_ConstrictingThorns = "EDR_463a";
+
+                /// <summary>
+                /// Summon a random 2-Cost minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string TwilightInfluence_ControllingVines = "EDR_463b";
+
+                /// <summary>
+                /// Your next 3 spells cast twice.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Tyrande_PullOfTheMoonEnchantment = "EDR_464e2";
+
+                /// <summary>
+                /// Your cards cost (1).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AvianaElunesChosen_FullMoonEnchantment = "EDR_895e";
+
+                /// <summary>
+                /// In 3 turns, your cards cost (1).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AvianaElunesChosen_MoonCycleToken = "EDR_895t";
+
+                /// <summary>
+                /// -2 Attack until your next turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string KaldoreiPriestess_PacifiedEnchantment = "EDR_970e";
             }
         }
     }

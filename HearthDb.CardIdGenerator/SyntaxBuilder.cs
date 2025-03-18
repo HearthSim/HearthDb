@@ -255,7 +255,6 @@ namespace HearthDb.CardIdGenerator
 					MOVE_MINION_HOVER_TARGET => false,
 					BATTLEGROUND_QUEST_REWARD => false,
 					BATTLEGROUND_ANOMALY => false,
-					BATTLEGROUND_CLICKABLE_BUTTON => false,
 					_ => true,
 				};
 			}

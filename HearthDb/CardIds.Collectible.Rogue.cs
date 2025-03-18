@@ -363,7 +363,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Stealth</b>. Whenever this attacks, add a random card to your hand <i>(from your opponent's class).</i><br/>
-                /// 3-Cost 2/3 Minion
+                /// 3-Cost 2/4 Minion
                 /// </summary>
                 public const string ShakuTheCollector = "CFM_781";
 
@@ -384,6 +384,12 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string AmbushCorePlaceholder = "CORE_BT_707";
+
+                /// <summary>
+                /// <b>Stealth</b>. Whenever this attacks, add a random card to your hand <i>(from your opponent's class).</i><br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string ShakuTheCollectorCorePlaceholder = "CORE_CFM_781";
 
                 /// <summary>
                 /// Deal $2 damage to an undamaged minion.<br/>
@@ -440,6 +446,18 @@ namespace HearthDb
                 public const string HenchClanBurglarCore = "CORE_DAL_416";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Return a random friendly minion to your hand. It costs (2) less.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string WagglePickCorePlaceholder = "CORE_DAL_720";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your next <b>Combo</b> card this turn costs (2) less.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
+                public const string FoxyFraudCorePlaceholder = "CORE_DMF_511";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Destroy a minion and all copies of it <i>(wherever they are)</i>.<br/>
                 /// 6-Cost 4/4 Minion
                 /// </summary>
@@ -458,7 +476,13 @@ namespace HearthDb
                 public const string FanOfKnivesCore = "CORE_EX1_129";
 
                 /// <summary>
-                /// <b>Combo:</b> Deal 2 damage.<br/>
+                /// <b>Combo:</b> Summon a 2/1 Defias Bandit.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
+                public const string DefiasRingleaderCorePlaceholder = "CORE_EX1_131";
+
+                /// <summary>
+                /// <b>Combo:</b> Deal 3 damage.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string Si7AgentCore = "CORE_EX1_134";
@@ -587,7 +611,7 @@ namespace HearthDb
                 /// <b>Secret:</b> When a friendly minion dies, return it to your hand. It costs (2) less.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string CheatDeathCorePlaceholder = "CORE_LOOT_204";
+                public const string Core2024CheatDeathCorePlaceholder = "CORE_LOOT_204";
 
                 /// <summary>
                 /// <b>Combo:</b> Draw 2 minions from your deck.<br/>
@@ -618,6 +642,12 @@ namespace HearthDb
                 /// 1-Cost 1/2 Minion
                 /// </summary>
                 public const string BladedCultistCorePlaceholder = "CORE_OG_070";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get a random card <i>(from your opponent's class)</i>.<br/>
+                /// 2-Cost 2/3 Undead Minion
+                /// </summary>
+                public const string UndercityHucksterCorePlaceholder = "CORE_OG_330";
 
                 /// <summary>
                 /// Summon a 1/1 Ghost. <i>(Has +1/+1 for each other card you played this turn!)</i><br/>
@@ -962,6 +992,66 @@ namespace HearthDb
                 public const string GalakrondTheNightmare = "DRG_610";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Get a copy of the lowest Cost card in your opponent's hand.<br/>
+                /// 3-Cost 4/3 Demon Minion
+                /// </summary>
+                public const string TrickySatyr = "EDR_521";
+
+                /// <summary>
+                /// Your opponent draws 2 cards. You get copies of them.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string Mimicry = "EDR_522";
+
+                /// <summary>
+                /// Return a friendly minion to your hand to summon a 4/4 Spider with <b>Stealth</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string WebOfDeception = "EDR_523";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you're holding one of the same cards as your opponent, shuffle theirs into their deck.<br/>
+                /// 4-Cost 3/5 Demon Minion
+                /// </summary>
+                public const string ShadowcloakedAssailant = "EDR_524";
+
+                /// <summary>
+                /// <b>Choose One -</b> Gain <b>Poisonous</b> this turn; or Gain "<b>Deathrattle:</b> Deal 2 damage to all enemies."<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string BarbedThorn = "EDR_525";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Trap 1 random card in your opponent's hand for a turn. <i>(Improved for each time you've played this.)</i><br/>
+                /// 3-Cost 3/3 Beast Minion
+                /// </summary>
+                public const string RenferalTheMalignant = "EDR_526";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Fill your hand with copies of cards from your opponent's deck. They cost (3) less.<br/>
+                /// 9-Cost 7/7 Beast Minion
+                /// </summary>
+                public const string Ashamane = "EDR_527";
+
+                /// <summary>
+                /// <b>Discover</b> a copy of a minion in your opponent's deck. <b>Combo:</b> With a <b>Dark Gift</b>.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string NightmareFuel = "EDR_528";
+
+                /// <summary>
+                /// Whenever you play another minion you've already played, draw a card.<br/>
+                /// 1-Cost 1/3 Beast Minion
+                /// </summary>
+                public const string TwistedWebweaver = "EDR_540";
+
+                /// <summary>
+                /// Whenever this enters your hand from the battlefield, summon two random 2-Cost minions.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string HarbingerOfTheBlighted = "EDR_781";
+
+                /// <summary>
                 /// <b>Combo:</b> Deal 4 damage randomly split among all enemies.<br/>
                 /// 3-Cost 4/3 Mechanical Minion
                 /// </summary>
@@ -1047,7 +1137,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Combo:</b> Summon a 2/1 Defias Bandit.<br/>
-                /// 2-Cost 2/2 Minion
+                /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string DefiasRingleader = "EX1_131";
 
@@ -1058,7 +1148,7 @@ namespace HearthDb
                 public const string PerditionsBlade = "EX1_133";
 
                 /// <summary>
-                /// <b>Combo:</b> Deal 2 damage.<br/>
+                /// <b>Combo:</b> Deal 3 damage.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string Si7Agent = "EX1_134";
@@ -1457,19 +1547,25 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string ValeeraSanguinar_WoodlandValeeraHeroHeroSkins = "HERO_03az";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_CapNValeeraHeroHeroSkins = "HERO_03b";
 
                 /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string ValeeraSanguinar_ArtanisHeroHeroSkins = "HERO_03bc";
+                public const string ValeeraSanguinar_WebweaverPatchesHeroHeroSkins = "HERO_03ba";
 
                 /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string ValeeraSanguinar_SpiderDemonKerriganHeroHeroSkins = "HERO_03bd";
+                public const string ValeeraSanguinar_ArtanisHeroHeroSkins = "HERO_03bc";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2144,7 +2240,7 @@ namespace HearthDb
                 public const string LoanShark = "SW_434";
 
                 /// <summary>
-                /// <b>Battlecry:</b> The next <b>Deathrattle</b> minion you play immediately dies.<br/>
+                /// <b>Battlecry:</b> Your next <b>Deathrattle</b> minion costs (1) less, but immediately dies when played.<br/>
                 /// 1-Cost 1/3 Elemental Minion
                 /// </summary>
                 public const string Shattershambler = "TID_078";
@@ -2367,7 +2463,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// At the end of your turn, summon a copy of this. <b>Forge:</b> Gain <b>Magnetic</b>.<br/>
-                /// 5-Cost 3/2 Mechanical Minion
+                /// 4-Cost 3/2 Mechanical Minion
                 /// </summary>
                 public const string LabConstructor = "TTN_730";
 
@@ -2379,7 +2475,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Magnetic</b> Whenever this attacks, get a Coin.<br/>
-                /// 3-Cost 3/2 Mechanical/Beast Minion
+                /// 3-Cost 4/3 Mechanical/Beast Minion
                 /// </summary>
                 public const string CoppertailSnoop = "TTN_921";
 
@@ -2655,7 +2751,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Combo:</b> Summon a 2/1 Defias Bandit.<br/>
-                /// 2-Cost 2/2 Minion
+                /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string DefiasRingleaderVanilla = "VAN_EX1_131";
 

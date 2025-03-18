@@ -326,6 +326,12 @@ namespace HearthDb
                 public const string FireFestivalRagnaros = "AIBot_Event_Ragnaros_FireFestival_02m";
 
                 /// <summary>
+                /// <b>Taunt</b> <b><b>Overload</b>:</b> (2)<br/>
+                /// 5-Cost 7/8 Elemental Minion
+                /// </summary>
+                public const string EarthElemental_EarthElemental = "EX1_250_puzzle";
+
+                /// <summary>
                 /// Transform a minion into a 0/1 Frog with <b>Taunt</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
@@ -3918,6 +3924,54 @@ namespace HearthDb
                 /// 5-Cost 5/5 Mechanical Minion
                 /// </summary>
                 public const string SiegeTank_SiegeTankDeployedToken = "SC_413t";
+
+                /// <summary>
+                /// Selected minion triggers its battlecry twice.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DoublebattlecrytwistToken = "EDR_100t7e1";
+
+                /// <summary>
+                /// +4/+4.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BeanstalkBrute_EnchantedEnchantment = "EDR_230e";
+
+                /// <summary>
+                /// Summon three 2/3 Wolves with <b>Taunt</b>.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string SpiritsoftheForest_WolfsStrength = "EDR_233a";
+
+                /// <summary>
+                /// Summon two 4/3 Falcons with <b>Windfury</b>.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string SpiritsoftheForest_FalconsDexterity = "EDR_233b";
+
+                /// <summary>
+                /// <b>Windfury</b><br/>
+                /// 3-Cost 4/3 Beast/Undead Minion
+                /// </summary>
+                public const string SpiritsoftheForest_SpiritFalconToken = "EDR_233t2";
+
+                /// <summary>
+                /// Can't be played for 2 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EmeraldBounty_StillGrowingEnchantment = "EDR_234e2";
+
+                /// <summary>
+                /// Transform a friendly minion into a random one that costs (<b>1</b>) more.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string BlessingOfTheWind = "EDR_448p";
+
+                /// <summary>
+                /// Can't be played for a turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RenferaltheMalignant_WebbedEnchantment = "EDR_526e";
             }
         }
     }

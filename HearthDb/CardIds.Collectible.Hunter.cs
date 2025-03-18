@@ -392,10 +392,22 @@ namespace HearthDb
                 public const string IceTrapCore = "CORE_AV_226";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Summon two 2/4 Cubs with <b>Taunt</b>.<br/>
+                /// 7-Cost 5/6 Beast Minion
+                /// </summary>
+                public const string MountainBearCorePlaceholder = "CORE_AV_337";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Draw a 1, 2, and 3-Cost spell.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
                 public const string BarakKodobaneCore = "CORE_BAR_551";
+
+                /// <summary>
+                /// Deal $1 damage. Summon a 1/1 Hyena with <b>Rush</b>.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string WoundPreyCorePlaceholder = "CORE_BAR_801";
 
                 /// <summary>
                 /// Deal $3 damage. If your hand is empty, draw a card.<br/>
@@ -414,6 +426,12 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DoggieBiscuitCorePlaceholder = "CORE_DED_009";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Change the Health of all enemy minions to 1.<br/>
+                /// 6-Cost 7/6 Dragon Minion
+                /// </summary>
+                public const string VeranusCorePlaceholder = "CORE_DRG_095";
 
                 /// <summary>
                 /// After you use your Hero Power, deal 5 damage to a random enemy.<br/>
@@ -710,6 +728,12 @@ namespace HearthDb
                 public const string DinotamerBrann_DinotamerBrannCorePlaceholderToken = "CORE_ULD_156t";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle</b>.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string TerrorscaleStalkerCorePlaceholder = "CORE_UNG_800";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Add a random Beast to your hand.<br/>
                 /// 1-Cost 1/2 Beast Minion
                 /// </summary>
@@ -992,6 +1016,66 @@ namespace HearthDb
                 public const string GladiatorsLongbow = "DS1_188";
 
                 /// <summary>
+                /// <b>Battlecry:</b> If this costs (3) or less, attack two random enemy minions.<br/>
+                /// 5-Cost 4/7 Beast Minion
+                /// </summary>
+                public const string VerdantDreamsaber = "EDR_014";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a Beast. <b>Imbue</b> your Hero Power.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string ExoticHoundmaster = "EDR_226";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Deathrattle:</b> <b>Imbue</b> your Hero Power.<br/>
+                /// 4-Cost 5/2 Beast Minion
+                /// </summary>
+                public const string Umbraclaw = "EDR_227";
+
+                /// <summary>
+                /// Give a minion +2/+2 and "<b>Deathrattle:</b> Give a friendly minion +2/+2 and this <b>Deathrattle</b>."<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string AmphibiansSpirit = "EDR_261";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. If that kills it, summon a 3/2 Wolf with <b>Rush</b>.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string SpiritBond = "EDR_262";
+
+                /// <summary>
+                /// <b>Choose One -</b> Deal $4 damage to the enemy hero; or Summon two 3/2 Wolves with <b>Rush</b>.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string GraceOfTheGreatwolf = "EDR_263";
+
+                /// <summary>
+                /// After your hero attacks, summon a 3/3 Sheep that's <b>Dormant</b> for 2 turns.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string ShepherdsCrook = "EDR_416";
+
+                /// <summary>
+                /// <b>Rush</b> Friendly Beasts deal double damage.<br/>
+                /// 9-Cost 9/9 Beast Minion
+                /// </summary>
+                public const string Goldrinn = "EDR_480";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Battlecry:</b> If this has 4 or more Attack, summon a copy of this.<br/>
+                /// 4-Cost 3/4 Beast Minion
+                /// </summary>
+                public const string MythicalRunebear = "EDR_481";
+
+                /// <summary>
+                /// After you cast a spell, summon a random Animal Companion.<br/>
+                /// 5-Cost 3/5 Minion
+                /// </summary>
+                public const string BrollBearmantle = "EDR_853";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If you control no other minions, <b>Discover</b> and cast a <b>Secret</b>.<br/>
                 /// 3-Cost 4/2 Minion
                 /// </summary>
@@ -1160,7 +1244,7 @@ namespace HearthDb
                 public const string Biopod = "GDB_111";
 
                 /// <summary>
-                /// Summon two 2/5 Beasts with <b>Taunt</b>. Costs (1) less for each card you <b><b>Discover</b>ed</b> this game.<br/>
+                /// Summon two 2/4 Beasts with <b>Taunt</b>. Costs (1) less for each card you <b><b>Discover</b>ed</b> this game.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string AlienEncounters = "GDB_237";
@@ -1446,6 +1530,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Rexxar_CupidBrannHeroHeroSkins = "HERO_05au";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_VivianSharpshadeHeroHeroSkins = "HERO_05av";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_DefilerNathanosHeroHeroSkins = "HERO_05aw";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2371,7 +2467,7 @@ namespace HearthDb
                 public const string FableStablehand = "TTN_080";
 
                 /// <summary>
-                /// Get three 3/1 Worms. They cost (1).<br/>
+                /// Get three 4/1 Worms. They cost (1).<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string AwakeningTremors = "TTN_081";
@@ -2894,7 +2990,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give your minions "<b>Deathrattle:</b> Summon a random Beast that costs (3) or less."<br/>
-                /// 4-Cost Spell
+                /// 3-Cost Spell
                 /// </summary>
                 public const string SaddleUp = "WW_812";
 

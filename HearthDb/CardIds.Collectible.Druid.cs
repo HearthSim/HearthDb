@@ -644,7 +644,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Your <b>Choose One</b> cards and powers have both effects combined.<br/>
-                /// 4-Cost 3/5 Minion
+                /// 4-Cost 3/6 Minion
                 /// </summary>
                 public const string FandralStaghelmCorePlaceholder = "CORE_OG_044";
 
@@ -727,10 +727,22 @@ namespace HearthDb
                 public const string ParkPantherCore = "CORE_SW_431";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Shuffle 4 Acorns into your deck. When drawn, summon a 2/1 Squirrel.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string VibrantSquirrelCorePlaceholder = "CORE_SW_439";
+
+                /// <summary>
                 /// Give your hero +2 Attack this turn.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string PounceCorePlaceholder = "CORE_TRL_243";
+
+                /// <summary>
+                /// <b>Choose One</b> - Summon a 6/6 Orca with <b>Taunt</b>; or six 1/1 Otters with <b>Rush</b>.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string FlipperFriendsCorePlaceholder = "CORE_TSC_650";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, duplicate your hand.<br/>
@@ -1013,6 +1025,66 @@ namespace HearthDb
                 /// 9-Cost 4/12 Dragon Minion
                 /// </summary>
                 public const string YseraUnleashed = "DRG_320";
+
+                /// <summary>
+                /// Gain 5 Armor. Summon a random 5-Cost minion and give it <b>Taunt</b>.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string WardOfEarth = "EDR_060";
+
+                /// <summary>
+                /// <b>Choose Thrice -</b> Give your other minions +1/+3; or Summon a 5/5 Ancient with <b>Taunt</b>.<br/>
+                /// 10-Cost 5/8 Minion
+                /// </summary>
+                public const string ForestLordCenarius = "EDR_209";
+
+                /// <summary>
+                /// <b>Discover</b> a Nature spell. It costs (2) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string HornOfPlenty = "EDR_270";
+
+                /// <summary>
+                /// After you cast a Nature spell, summon a 2/2 Treant with "<b>Deathrattle:</b> Get a copy of that spell."<br/>
+                /// 5-Cost 3/6 Minion
+                /// </summary>
+                public const string GroveShaper = "EDR_271";
+
+                /// <summary>
+                /// <b>Elusive</b> <b>Lifesteal</b> <b>Taunt</b><br/>
+                /// 6-Cost 6/7 Beast Minion
+                /// </summary>
+                public const string EvergreenStag = "EDR_272";
+
+                /// <summary>
+                /// <b>Discover</b> a <b>Choose One</b> card from another class.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string Symbiosis = "EDR_273";
+
+                /// <summary>
+                /// <b>Choose One -</b> Draw a spell; or Draw a minion. <i>(Hold this for 3 turns to do both!)</i><br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Reforestation = "EDR_843";
+
+                /// <summary>
+                /// <b>Start of Game:</b> If each spell in your deck is Nature, <b>Imbue</b> your Hero Power. Repeat this every 2 spells you cast.<br/>
+                /// 5-Cost 5/6 Minion
+                /// </summary>
+                public const string HamuulRunetotem = "EDR_845";
+
+                /// <summary>
+                /// <b>Battlecry and Deathrattle:</b> Your next Hero Power costs (0).<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string DreamboundDisciple = "EDR_847";
+
+                /// <summary>
+                /// Restore #6 Health. Get 3 random Druid spells.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Photosynthesis = "EDR_848";
 
                 /// <summary>
                 /// <b>Choose One -</b> Summon five 2/2 Treants; or Give your minions +2/+4 and <b>Taunt</b>.<br/>
@@ -1504,6 +1576,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string MalfurionStormrage_EmeraldLeyaraHeroHeroSkins = "HERO_06ax";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
 
                 /// <summary>
@@ -1724,7 +1802,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Take one of your opponent's empty Mana Crystals.<br/>
-                /// 7-Cost 4/5 Minion
+                /// 6-Cost 4/5 Minion
                 /// </summary>
                 public const string Doomkin = "JAM_029";
 
@@ -1892,7 +1970,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Your <b>Choose One</b> cards and powers have both effects combined.<br/>
-                /// 4-Cost 3/5 Minion
+                /// 4-Cost 3/6 Minion
                 /// </summary>
                 public const string FandralStaghelm = "OG_044";
 
@@ -2641,7 +2719,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Resurrect three of your different highest Cost <b>Taunt</b> minions.<br/>
-                /// 8-Cost Spell
+                /// 10-Cost Spell
                 /// </summary>
                 public const string HydrationStation = "VAC_948";
 
@@ -2928,14 +3006,14 @@ namespace HearthDb
                 public const string TakeToTheSkies = "WW_816";
 
                 /// <summary>
-                /// <b>Discover</b> a 2-Cost minion. Summon a 1/1 copy of it.<br/>
+                /// <b>Discover</b> a 2-Cost minion. Summon a 1/2 copy of it.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string CactusConstruct = "WW_818";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If you're holding a Dragon, gain an empty Mana Crystal.<br/>
-                /// 3-Cost 3/2 Dragon Minion
+                /// 2-Cost 2/1 Dragon Minion
                 /// </summary>
                 public const string SplishSplashWhelp = "WW_819";
 
@@ -2977,7 +3055,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b>. <b>Battlecry:</b> If you're holding a Dragon, refresh 4 Mana Crystals.<br/>
-                /// 4-Cost 3/4 Dragon Minion
+                /// 4-Cost 3/5 Dragon Minion
                 /// </summary>
                 public const string DesertNestmatron = "WW_826";
 

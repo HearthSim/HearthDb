@@ -2150,6 +2150,12 @@ namespace HearthDb
                 public const string RemixedRhapsody_WailingFanaticToken = "JAM_018t5";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Give your hero +1 Attack this turn.<br/>
+                /// 1-Cost 2/1 Demon Minion
+                /// </summary>
+                public const string ShadowhoofSlayerCorePlaceholder = "CORE_BT_142";
+
+                /// <summary>
                 /// Your hero has +1 Attack this turn.<br/>
                 /// Enchantment
                 /// </summary>
@@ -2502,6 +2508,78 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string CreepTumor_OnCreepEnchantment = "SC_011e";
+
+                /// <summary>
+                /// Adjusted stats and Cost.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Alarashi_DemonFormEnchantment = "EDR_493e2";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TrickySatyr_TrickyEnchantment = "EDR_521e1";
+
+                /// <summary>
+                /// -1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TrickySatyr_TrickedEnchantment = "EDR_521e2";
+
+                /// <summary>
+                /// Summon two random <b>Dormant</b> Dreadseeds.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string WyvernsSlumber_EncroachingFear = "EDR_820a";
+
+                /// <summary>
+                /// Deal $2 damage to all minions.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string WyvernsSlumber_AwokenDarkness = "EDR_820b";
+
+                /// <summary>
+                /// <b>Dormant</b> for 2 turns. When this awakens, give your hero +3 Attack this turn.<br/>
+                /// 2-Cost 4/4 Beast/Undead Minion
+                /// </summary>
+                public const string GrimHarvest_HoundDreadseedToken = "EDR_840t";
+
+                /// <summary>
+                /// <b>Elusive</b> <b>Dormant</b> for 1 turn.<br/>
+                /// 1-Cost 3/3 Beast/Undead Minion
+                /// </summary>
+                public const string GrimHarvest_CrowDreadseedToken = "EDR_840t1";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 2 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GrimHarvest_DreamingHoundToken = "EDR_840t1e";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 1 turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GrimHarvest_DreamingCrowToken = "EDR_840t1e1";
+
+                /// <summary>
+                /// <b>Taunt</b>, <b>Lifesteal</b> <b>Dormant</b> for 3 turns.<br/>
+                /// 3-Cost 5/5 Beast/Undead Minion
+                /// </summary>
+                public const string GrimHarvest_SerpentDreadseedToken = "EDR_840t2";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 3 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GrimHarvest_DreamingSerpentToken = "EDR_840t2e1";
+
+                /// <summary>
+                /// +3 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GrimHarvest_HoundsFangsEnchantmentToken = "EDR_840te";
             }
         }
     }

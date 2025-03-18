@@ -4609,7 +4609,7 @@ namespace HearthDb
                 public const string HeraldofNature_NaturesBountyEnchantment = "TID_002e";
 
                 /// <summary>
-                /// Your next <b>Deathrattle</b> minion dies immediately.<br/>
+                /// Your next <b>Deathrattle</b> minion costs (1) less, but immediately dies when played.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Shattershambler_InShamblesEnchantment = "TID_078e";
@@ -5203,6 +5203,12 @@ namespace HearthDb
                 public const string Rheastrasza_PurifiedDragonNestToken = "WW_824t";
 
                 /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WorldTreesEmbraceEnchantment = "EDR_080e1";
+
+                /// <summary>
                 /// <b>Gigantic</b> <b>Elusive</b>, <b>Lifesteal</b>, <b>Taunt</b><br/>
                 /// 8-Cost 8/8 Beast Minion
                 /// </summary>
@@ -5513,6 +5519,96 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Immortal_PlasmaShieldsEnchantment = "SC_763e";
+
+                /// <summary>
+                /// Give your other minions +1/+3.<br/>
+                /// 10-Cost Spell
+                /// </summary>
+                public const string ForestLordCenarius_GrowthOfDreams = "EDR_209a";
+
+                /// <summary>
+                /// Summon a 5/5 Ancient with <b>Taunt</b>.<br/>
+                /// 10-Cost Spell
+                /// </summary>
+                public const string ForestLordCenarius_AncientsOfTheDream = "EDR_209b";
+
+                /// <summary>
+                /// +1/+3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ForestLordCenarius_GuidanceOfTheForestEnchantment = "EDR_209e2";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
+                public const string ForestLordCenarius_AncientToken = "EDR_209t5";
+
+                /// <summary>
+                /// Your next Nature spell costs (2) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HornofPlenty_HornOfPlentyEnchantment = "EDR_270e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get {0}.<br/>
+                /// 1-Cost 2/2 Minion
+                /// </summary>
+                public const string GroveShaper_TreantOfLifeToken = "EDR_271t";
+
+                /// <summary>
+                /// Draw a spell.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Reforestation_AidOfTheForest = "EDR_843a";
+
+                /// <summary>
+                /// Draw a minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Reforestation_Fertilize = "EDR_843b";
+
+                /// <summary>
+                /// Draw a spell and a minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Reforestation_ReforestationToken = "EDR_843t1";
+
+                /// <summary>
+                /// After you cast two spells, Imbue your Hero Power. <i>(2 left!)</i><br/>
+                /// Enchantment
+                /// </summary>
+                public const string HamuulRunetotem_RunetotemsFavorEnchantment = "EDR_845e1";
+
+                /// <summary>
+                /// Your next Hero Power costs (0).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DreamboundDisciple_DreamboundEnchantment = "EDR_847e";
+
+                /// <summary>
+                /// Summon a <b>1</b>/<b>1</b> Plant Golem.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string DreamboundDisciple_BlessingOfTheGolem = "EDR_847p";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string DreamboundDisciple_PlantGolem1 = "EDR_847pt2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string DreamboundDisciple_PlantGolem2 = "EDR_847pt3";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string DreamboundDisciple_PlantGolem3 = "EDR_847pt4";
             }
         }
     }

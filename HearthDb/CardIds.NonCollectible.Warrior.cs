@@ -4563,8 +4563,8 @@ namespace HearthDb
                 public const string GeneralVezax_UnstoppableEnchantment = "YOG_500e2";
 
                 /// <summary>
-                /// <b>Forged</b> Gain 4 Armor, then deal damage equal to your Armor to all minions.<br/>
-                /// 6-Cost Spell
+                /// <b>Forged</b> Gain 3 Armor, then deal damage equal to your Armor to all minions.<br/>
+                /// 4-Cost Spell
                 /// </summary>
                 public const string Sanitize_SanitizeToken = "YOG_502t";
 
@@ -4819,6 +4819,54 @@ namespace HearthDb
                 /// 8-Cost 8/8 Mechanical Minion
                 /// </summary>
                 public const string Thor_ThorExplosivePayloadToken = "SC_414t";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon {0}.<br/>
+                /// 1-Cost 0/2 Minion
+                /// </summary>
+                public const string ClutchofCorruption_HorribleEggToken = "EDR_454t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost Weapon
+                /// </summary>
+                public const string BroodKeeper_NightmareSlicerToken = "EDR_457t";
+
+                /// <summary>
+                /// +4 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Eggbasher_ScrambledAttackEnchantment = "EDR_468e1";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Tortolla_TortollasRageEnchantment = "EDR_471e";
+
+                /// <summary>
+                /// +2 Attack. This minion's <b>Deathrattles</b> trigger twice.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SiphoningGrowth_SiphonedGrowthEnchantment = "EDR_531e";
+
+                /// <summary>
+                /// Deal $1 damage to all minions.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string OminousNightmares_NightmarishBurst = "EDR_570A";
+
+                /// <summary>
+                /// Give a damaged minion +2/+2.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string OminousNightmares_UnstablePower = "EDR_570B";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string OminousNightmares_TerrorOfTheNightEnchantment = "EDR_570e";
             }
         }
     }

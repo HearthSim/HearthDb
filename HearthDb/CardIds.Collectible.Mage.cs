@@ -383,19 +383,19 @@ namespace HearthDb
                 /// <b>Secret:</b> When a friendly minion is attacked, summon a 3/6 Water Elemental.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string OasisAllyCorePlaceholder = "CORE_BAR_812";
+                public const string OasisAllyCore = "CORE_BAR_812";
 
                 /// <summary>
                 /// After you play the right-most card in your hand, draw a card.<br/>
                 /// 3-Cost 2/4 Draenei Minion
                 /// </summary>
-                public const string StargazerLunaCore = "CORE_BOT_103";
+                public const string StargazerLunaCorePlaceholder = "CORE_BOT_103";
 
                 /// <summary>
                 /// Deal $1 damage to a minion and the minions next to it.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string ShootingStarCore = "CORE_BOT_453";
+                public const string ShootingStarCorePlaceholder = "CORE_BOT_453";
 
                 /// <summary>
                 /// Draw 2 cards.<br/>
@@ -443,13 +443,13 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Add an 'Arcane Missiles' spell to your hand.<br/>
                 /// 1-Cost 2/1 Elemental/Beast Minion
                 /// </summary>
-                public const string VioletSpellwingCorePlaceholder = "CORE_DRG_107";
+                public const string VioletSpellwingCore = "CORE_DRG_107";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Add 2 random Mage spells to your hand.<br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
-                public const string BabblingBookcaseCorePlaceholder = "CORE_EDR_001";
+                public const string BabblingBookcaseCore = "CORE_EDR_001";
 
                 /// <summary>
                 /// <b>Freeze</b> a minion and the minions next to it, and deal $1 damage to them.<br/>
@@ -485,7 +485,7 @@ namespace HearthDb
                 /// Whenever you cast a spell, add a 'Fireball' spell to your hand.<br/>
                 /// 7-Cost 5/7 Minion
                 /// </summary>
-                public const string ArchmageAntonidasCorePlaceholder = "CORE_EX1_559";
+                public const string ArchmageAntonidasCore = "CORE_EX1_559";
 
                 /// <summary>
                 /// <b>Discover</b> a <b>Temporary</b> Frostbolt, Arcane Intellect, or Fireball.<br/>
@@ -563,7 +563,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Add a random Mage spell to your hand.<br/>
                 /// 1-Cost 1/2 Minion
                 /// </summary>
-                public const string BabblingBookCore = "CORE_KAR_009";
+                public const string BabblingBookCorePlaceholder = "CORE_KAR_009";
 
                 /// <summary>
                 /// Deal $6 damage. Summon a random 6-Cost minion.<br/>
@@ -695,7 +695,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Draw a <b>Secret</b>.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
-                public const string ArcanologistCore = "CORE_UNG_020";
+                public const string ArcanologistCorePlaceholder = "CORE_UNG_020";
 
                 /// <summary>
                 /// <b>Discover</b> a spell. Reduce its Cost by (2).<br/>

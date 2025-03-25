@@ -377,13 +377,13 @@ namespace HearthDb
                 /// Draw 2 cards. <b>Overload:</b> (1)<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string AncestralKnowledgeCore = "CORE_AT_053";
+                public const string AncestralKnowledgeCorePlaceholder = "CORE_AT_053";
 
                 /// <summary>
                 /// Summon two 1/1 Sparks with <b>Rush</b>. <b>Overload:</b> (1)<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string VoltaicBurstCorePlaceholder = "CORE_BOT_451";
+                public const string VoltaicBurstCore = "CORE_BOT_451";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Add a random Elemental to your hand.<br/>
@@ -395,13 +395,13 @@ namespace HearthDb
                 /// <b>Battlecry:</b> If you cast a spell last turn, <b>Discover</b> a spell.<br/>
                 /// 3-Cost 3/4 Elemental Minion
                 /// </summary>
-                public const string MarshspawnCorePlaceholder = "CORE_BT_115";
+                public const string MarshspawnCore = "CORE_BT_115";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Restore #6 Health. <b>Overload:</b> (1)<br/>
                 /// 4-Cost 4/6 Minion
                 /// </summary>
-                public const string JinyuWaterspeakerCorePlaceholder = "CORE_CFM_061";
+                public const string JinyuWaterspeakerCore = "CORE_CFM_061";
 
                 /// <summary>
                 /// Give a minion <b>Windfury</b>.<br/>
@@ -461,7 +461,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Overload</b>: (2)<br/>
                 /// 5-Cost 7/9 Elemental Minion
                 /// </summary>
-                public const string EarthElementalCorePlaceholder = "CORE_EX1_250";
+                public const string EarthElementalCore = "CORE_EX1_250";
 
                 /// <summary>
                 /// After you play a card with <b>Overload</b>, gain +1/+1.<br/>
@@ -509,7 +509,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Battlecry</b> minion. It costs (1) less.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string BlazingInvocationCorePlaceholder = "CORE_GIL_836";
+                public const string BlazingInvocationCore = "CORE_GIL_836";
 
                 /// <summary>
                 /// Give a minion +3/+3 and <b>Freeze</b> it.<br/>
@@ -575,7 +575,7 @@ namespace HearthDb
                 /// Has +2 Attack while you have <b>Spell Damage</b>.<br/>
                 /// 1-Cost Weapon
                 /// </summary>
-                public const string SpiritClawsCore = "CORE_KAR_063";
+                public const string SpiritClawsCorePlaceholder = "CORE_KAR_063";
 
                 /// <summary>
                 /// Deal $1 damage to all enemy minions. Summon a random 1-Cost minion.<br/>
@@ -611,7 +611,7 @@ namespace HearthDb
                 /// <b>Taunt</b> Costs (1) less for each Totem you've summoned this game.<br/>
                 /// 6-Cost 5/5 Minion
                 /// </summary>
-                public const string ThingFromBelowCore = "CORE_OG_028";
+                public const string ThingFromBelowCorePlaceholder = "CORE_OG_028";
 
                 /// <summary>
                 /// Choose a friendly minion. Summon 3 copies of it. <b>Overload:</b> (2)<br/>
@@ -647,7 +647,7 @@ namespace HearthDb
                 /// Transform a friendly minion into one that costs (1) more.<br/>
                 /// 1-Cost Location
                 /// </summary>
-                public const string MuckPoolsCore = "CORE_REV_923";
+                public const string MuckPoolsCorePlaceholder = "CORE_REV_923";
 
                 /// <summary>
                 /// Transform enemy minions into ones that cost (1) less and friendly minions into ones that cost (1) more.<br/>
@@ -671,25 +671,25 @@ namespace HearthDb
                 /// <b>Tradeable</b> Unlock your <b>Overloaded</b> Mana Crystals to deal that much damage.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string OverdraftCore = "CORE_SW_114";
+                public const string OverdraftCorePlaceholder = "CORE_SW_114";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Return all spells you played last turn to your hand.<br/>
                 /// 6-Cost 4/6 Beast Minion
                 /// </summary>
-                public const string KragwaTheFrogCorePlaceholder = "CORE_TRL_345";
+                public const string KragwaTheFrogCore = "CORE_TRL_345";
 
                 /// <summary>
                 /// <b>Elusive</b><br/>
                 /// 1-Cost 3/1 Elemental Minion
                 /// </summary>
-                public const string AirElementalCore = "Core_UNG_019";
+                public const string AirElementalCorePlaceholder = "Core_UNG_019";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If you played an Elemental last turn, cast an Elemental Invocation.<br/>
                 /// 7-Cost 7/7 Elemental Minion
                 /// </summary>
-                public const string KalimosPrimalLordCore = "Core_UNG_211";
+                public const string KalimosPrimalLordCorePlaceholder = "Core_UNG_211";
 
                 /// <summary>
                 /// <b>Lifesteal</b> Deal $5 damage to a minion.<br/>
@@ -701,7 +701,7 @@ namespace HearthDb
                 /// After you play an Elemental, gain +1 Attack.<br/>
                 /// 1-Cost 1/3 Elemental Minion
                 /// </summary>
-                public const string WailingVaporCorePlaceholder = "CORE_WC_042";
+                public const string WailingVaporCore = "CORE_WC_042";
 
                 /// <summary>
                 /// Deal $1 damage to an enemy character and <b>Freeze</b> it.<br/>

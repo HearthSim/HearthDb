@@ -484,7 +484,7 @@ namespace HearthDb
                 /// <b>Choose One -</b> Transform into a 7/6 with <b>Rush</b>; or a 4/9 with <b>Taunt</b>.<br/>
                 /// 6-Cost 4/6 Minion
                 /// </summary>
-                public const string DruidOfTheClawCore = "CORE_EX1_165";
+                public const string DruidOfTheClawCorePlaceholder = "CORE_EX1_165";
 
                 /// <summary>
                 /// Gain 1 Mana Crystal this turn only.<br/>
@@ -508,7 +508,7 @@ namespace HearthDb
                 /// <b>Choose One -</b> Give your other minions +2/+2; or Summon two 2/2 Treants with <b>Taunt</b>.<br/>
                 /// 8-Cost 5/8 Minion
                 /// </summary>
-                public const string CenariusCore = "CORE_EX1_573";
+                public const string CenariusCorePlaceholder = "CORE_EX1_573";
 
                 /// <summary>
                 /// <b>Discover</b> a <b>Temporary</b> Feral Rage, Wild Growth, or Swipe.<br/>
@@ -610,7 +610,7 @@ namespace HearthDb
                 /// Deal $2 damage to a minion. <i>(Gain 3 Armor to upgrade.)</i><br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string LesserJasperSpellstoneCore = "CORE_LOOT_051";
+                public const string LesserJasperSpellstoneCorePlaceholder = "CORE_LOOT_051";
 
                 /// <summary>
                 /// Gain 6 Armor. Summon a minion from your deck that costs (4) or less.<br/>
@@ -640,13 +640,13 @@ namespace HearthDb
                 /// <b>Choose One -</b> Draw 2 cards; or Restore #7 Health.<br/>
                 /// 7-Cost 7/7 Minion
                 /// </summary>
-                public const string AncientOfLoreCore = "CORE_NEW1_008";
+                public const string AncientOfLoreCorePlaceholder = "CORE_NEW1_008";
 
                 /// <summary>
                 /// Your <b>Choose One</b> cards and powers have both effects combined.<br/>
                 /// 4-Cost 3/6 Minion
                 /// </summary>
-                public const string FandralStaghelmCorePlaceholder = "CORE_OG_044";
+                public const string FandralStaghelmCore = "CORE_OG_044";
 
                 /// <summary>
                 /// <b>Choose One -</b> Give your hero +4 Attack this turn; or Gain 8 Armor.<br/>
@@ -718,7 +718,7 @@ namespace HearthDb
                 /// <b>Tradeable</b> Summon two 2/7 Turtles with <b>Taunt</b>.<br/>
                 /// 6-Cost Spell
                 /// </summary>
-                public const string BestInShellCorePlaceholder = "CORE_SW_429";
+                public const string BestInShellCore = "CORE_SW_429";
 
                 /// <summary>
                 /// <b>Rush</b>. Whenever this attacks, give your hero +3 Attack this turn.<br/>
@@ -730,7 +730,7 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Shuffle 4 Acorns into your deck. When drawn, summon a 2/1 Squirrel.<br/>
                 /// 1-Cost 2/1 Beast Minion
                 /// </summary>
-                public const string VibrantSquirrelCorePlaceholder = "CORE_SW_439";
+                public const string VibrantSquirrelCore = "CORE_SW_439";
 
                 /// <summary>
                 /// Give your hero +2 Attack this turn.<br/>
@@ -742,7 +742,7 @@ namespace HearthDb
                 /// <b>Choose One</b> - Summon a 6/6 Orca with <b>Taunt</b>; or six 1/1 Otters with <b>Rush</b>.<br/>
                 /// 5-Cost Spell
                 /// </summary>
-                public const string FlipperFriendsCorePlaceholder = "CORE_TSC_650";
+                public const string FlipperFriendsCore = "CORE_TSC_650";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, duplicate your hand.<br/>

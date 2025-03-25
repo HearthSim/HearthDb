@@ -388,13 +388,13 @@ namespace HearthDb
                 /// Deal $1 damage to all minions. Repeat until one dies.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string BladestormCore = "CORE_BT_117";
+                public const string BladestormCorePlaceholder = "CORE_BT_117";
 
                 /// <summary>
                 /// Whenever your hero would take damage, this loses 1 Durability instead.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
-                public const string BulwarkOfAzzinothCorePlaceholder = "CORE_BT_781";
+                public const string BulwarkOfAzzinothCore = "CORE_BT_781";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -442,7 +442,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Attack ALL other minions.<br/>
                 /// 8-Cost 12/12 Dragon Minion
                 /// </summary>
-                public const string DeathwingMadAspectCore = "CORE_DRG_026";
+                public const string DeathwingMadAspectCorePlaceholder = "CORE_DRG_026";
 
                 /// <summary>
                 /// Whenever you summon a minion with 3 or less Attack, give it <b>Charge</b>.<br/>
@@ -460,7 +460,7 @@ namespace HearthDb
                 /// Deal $1 damage to ALL minions.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string WhirlwindCore = "CORE_EX1_400";
+                public const string WhirlwindCorePlaceholder = "CORE_EX1_400";
 
                 /// <summary>
                 /// Whenever a friendly minion takes damage, gain 1 Armor.<br/>
@@ -526,7 +526,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Draw a <b>Rush</b> minion from your deck.<br/>
                 /// 1-Cost 1/2 Minion
                 /// </summary>
-                public const string TownCrierCore = "CORE_GIL_580";
+                public const string TownCrierCorePlaceholder = "CORE_GIL_580";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Give +2/+1 to a random friendly minion.<br/>
@@ -616,19 +616,19 @@ namespace HearthDb
                 /// After your hero attacks, gain 4 Armor and draw a card.<br/>
                 /// 3-Cost 4/3 Pirate/Mechanical Minion
                 /// </summary>
-                public const string Hookfist3000CorePlaceholder = "CORE_NX2_028";
+                public const string Hookfist3000Core = "CORE_NX2_028";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 1 damage to all other minions.<br/>
                 /// 3-Cost 3/3 Undead Minion
                 /// </summary>
-                public const string RavagingGhoulCorePlaceholder = "CORE_OG_149";
+                public const string RavagingGhoulCore = "CORE_OG_149";
 
                 /// <summary>
                 /// <b>Taunt</b> Has +3 Attack while damaged.<br/>
                 /// 4-Cost 2/6 Minion
                 /// </summary>
-                public const string BloodhoofBraveCorePlaceholder = "CORE_OG_218";
+                public const string BloodhoofBraveCore = "CORE_OG_218";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Deal damage equal to your Armor to an enemy minion.<br/>
@@ -712,7 +712,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Battlecry:</b> <b>Discover</b> a <b>Taunt</b> minion.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
-                public const string FrightenedFlunkyCore = "CORE_ULD_195";
+                public const string FrightenedFlunkyCorePlaceholder = "CORE_ULD_195";
 
                 /// <summary>
                 /// <b>Taunt</b> At the end of your turn, give all <b>Taunt</b> minions in your hand +2/+2.<br/>
@@ -730,7 +730,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Taunt</b> minion. Give it +1/+2.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string IKnowAGuyCorePlaceholder = "CORE_WON_350";
+                public const string IKnowAGuyCore = "CORE_WON_350";
 
                 /// <summary>
                 /// Give a friendly minion +2 Attack and <b>Charge</b>.<br/>

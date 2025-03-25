@@ -383,19 +383,19 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Deathrattle:</b> Draw a Holy spell and a Shadow spell.<br/>
                 /// 5-Cost 5/5 Undead Minion
                 /// </summary>
-                public const string SpiritGuideCorePlaceholder = "CORE_AV_328";
+                public const string SpiritGuideCore = "CORE_AV_328";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Restore #8 Health to all friendly characters.<br/>
                 /// 6-Cost 6/6 Elemental Minion
                 /// </summary>
-                public const string LightshowerElementalCorePlaceholder = "CORE_BAR_310";
+                public const string LightshowerElementalCore = "CORE_BAR_310";
 
                 /// <summary>
                 /// Restore #12 Health to a friendly character. Draw a card.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string GreaterHealingPotionCorePlaceholder = "CORE_CFM_604";
+                public const string GreaterHealingPotionCore = "CORE_CFM_604";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b> a copy of a card in your opponent's deck.<br/>
@@ -407,7 +407,7 @@ namespace HearthDb
                 /// <b>Overheal:</b> Summon a 2/2 Crystal.<br/>
                 /// 2-Cost 2/3 Elemental Minion
                 /// </summary>
-                public const string ManaGeodeCore = "CORE_CFM_606";
+                public const string ManaGeodeCorePlaceholder = "CORE_CFM_606";
 
                 /// <summary>
                 /// Deal $2 damage to all enemy minions. Restore #2 Health to all friendly characters.<br/>
@@ -425,13 +425,13 @@ namespace HearthDb
                 /// Give a minion +2 Health. Draw a card.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string PowerWordShieldCorePlaceholder = "CORE_CS2_004";
+                public const string PowerWordShieldCore = "CORE_CS2_004";
 
                 /// <summary>
                 /// Destroy a minion with 3 or less Attack.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string ShadowWordPainCore = "CORE_CS2_234";
+                public const string ShadowWordPainCorePlaceholder = "CORE_CS2_234";
 
                 /// <summary>
                 /// Whenever a minion is healed, draw a card.<br/>
@@ -443,7 +443,7 @@ namespace HearthDb
                 /// <b>Overheal:</b> Draw a card.<br/>
                 /// 1-Cost 1/3 Minion
                 /// </summary>
-                public const string CrimsonClergyCore = "CORE_CS3_014";
+                public const string CrimsonClergyCorePlaceholder = "CORE_CS3_014";
 
                 /// <summary>
                 /// <b>Silence</b> a minion, then give it +3 Health.<br/>
@@ -455,7 +455,7 @@ namespace HearthDb
                 /// At the end of your turn, resurrect another friendly Undead minion.<br/>
                 /// 7-Cost 6/8 Undead Minion
                 /// </summary>
-                public const string CatrinaMuerteCore = "CORE_DAL_721";
+                public const string CatrinaMuerteCorePlaceholder = "CORE_DAL_721";
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Discover</b> a copy of a card in your opponent's hand.<br/>
@@ -497,7 +497,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Destroy a minion and gain its Health.<br/>
                 /// 7-Cost 7/1 Minion
                 /// </summary>
-                public const string NatalieSelineCorePlaceholder = "CORE_EX1_198";
+                public const string NatalieSelineCore = "CORE_EX1_198";
 
                 /// <summary>
                 /// This minion's Attack is always equal to its Health.<br/>
@@ -599,7 +599,7 @@ namespace HearthDb
                 /// Resurrect 2 different friendly minions. <i>(Cast 4 spells to upgrade.)</i><br/>
                 /// 7-Cost Spell
                 /// </summary>
-                public const string LesserDiamondSpellstoneCore = "CORE_LOOT_507";
+                public const string LesserDiamondSpellstoneCorePlaceholder = "CORE_LOOT_507";
 
                 /// <summary>
                 /// Give a friendly minion +2/+3 and "<b>Elusive</b> on your opponent's turn."<br/>

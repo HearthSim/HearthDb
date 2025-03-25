@@ -11,19 +11,19 @@ namespace HearthDb
                 /// Give a friendly Undead <b>Poisonous</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string PoisonBreathCorePlaceholder = "CORE_EDR_002";
+                public const string PoisonBreathCore = "CORE_EDR_002";
 
                 /// <summary>
                 /// You gain twice as many <b>Corpses</b> as normal. <b>Battlecry:</b> Draw a card that spends <b>Corpses</b>.<br/>
                 /// 3-Cost 2/4 Undead Minion
                 /// </summary>
-                public const string FalricCorePlaceholder = "CORE_EDR_003";
+                public const string FalricCore = "CORE_EDR_003";
 
                 /// <summary>
                 /// <b>Taunt</b> Costs Health instead of Mana if your hero was healed this turn.<br/>
                 /// 3-Cost 3/4 Undead Minion
                 /// </summary>
-                public const string DeathMetalKnightCorePlaceholder = "CORE_ETC_523";
+                public const string DeathMetalKnightCore = "CORE_ETC_523";
 
                 /// <summary>
                 /// <b>Discover</b> a <b>Temporary</b> Dark Transformation, Howling Blast, or Death Strike.<br/>
@@ -77,7 +77,7 @@ namespace HearthDb
                 /// After you cast a spell, deal 1 damage to two random enemies.<br/>
                 /// 2-Cost 2/3 Elemental Minion
                 /// </summary>
-                public const string DeathchillerCorePlaceholder = "CORE_RLK_083";
+                public const string DeathchillerCore = "CORE_RLK_083";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Summon every minion killed by this weapon.<br/>
@@ -101,7 +101,7 @@ namespace HearthDb
                 /// Summon two 2/2 Zombies with <b>Taunt</b>. Spend 4 <b>Corpses</b> to give them <b>Reborn</b>.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string TombGuardiansCorePlaceholder = "CORE_RLK_118";
+                public const string TombGuardiansCore = "CORE_RLK_118";
 
                 /// <summary>
                 /// After a friendly Undead dies, draw a card.<br/>
@@ -113,13 +113,13 @@ namespace HearthDb
                 /// Fill your board with random Undead.<br/>
                 /// 9-Cost Spell
                 /// </summary>
-                public const string TheScourgeCore = "CORE_RLK_122";
+                public const string TheScourgeCorePlaceholder = "CORE_RLK_122";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Spend up to 10 <b>Corpses</b> to summon a Risen Groom with <b>Taunt</b> and that much Attack and Health.<br/>
                 /// 5-Cost 4/4 Undead Minion
                 /// </summary>
-                public const string CorpseBrideCore = "CORE_RLK_504";
+                public const string CorpseBrideCorePlaceholder = "CORE_RLK_504";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Spend up to 5 <b>Corpses</b>. Deal 2 damage to a random enemy for each.<br/>
@@ -137,19 +137,19 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Spend up to 3 <b>Corpses</b>. <b>Freeze</b> that many enemy minions.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
-                public const string MightOfMenethilCore = "CORE_RLK_740";
+                public const string MightOfMenethilCorePlaceholder = "CORE_RLK_740";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Destroy all other minions. Gain 1 <b>Corpse</b> for each enemy destroyed.<br/>
                 /// 8-Cost 5/5 Undead Minion
                 /// </summary>
-                public const string SoulstealerCore = "CORE_RLK_741";
+                public const string SoulstealerCorePlaceholder = "CORE_RLK_741";
 
                 /// <summary>
                 /// <b>Reborn</b> At the end of your turn, spend 4 <b>Corpses</b> to summon a copy of this minion.<br/>
                 /// 4-Cost 2/4 Undead Minion
                 /// </summary>
-                public const string MalignantHorrorCorePlaceholder = "CORE_RLK_745";
+                public const string MalignantHorrorCore = "CORE_RLK_745";
 
                 /// <summary>
                 /// <b>Magnetic</b>, <b>Reborn</b> Can <b>Magnetize</b> to Mechs or Undead.<br/>
@@ -599,7 +599,7 @@ namespace HearthDb
                 /// Gain 4 <b>Corpses</b>. Shuffle four Crates into your deck that summon a 2/2 Undead when drawn.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string PlaguedGrainCorePlaceholder = "LEG_RLK_039";
+                public const string PlaguedGrainLegacy = "LEG_RLK_039";
 
                 /// <summary>
                 /// <b>Lifesteal</b><br/>
@@ -623,7 +623,7 @@ namespace HearthDb
                 /// <b>Battlecry</b>: Deal 2 damage to an enemy and your hero.<br/>
                 /// 1-Cost 1/2 Undead Minion
                 /// </summary>
-                public const string NoxiousCadaverCorePlaceholder = "LEG_RLK_079";
+                public const string NoxiousCadaverLegacy = "LEG_RLK_079";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Raise ALL of your <b>Corpses</b> as 1/1 Risen Golems with <b>Rush</b>. For each that can't fit, give one +2/+2.<br/>
@@ -779,7 +779,7 @@ namespace HearthDb
                 /// Gain 4 <b>Corpses</b>. Shuffle four Crates into your deck that summon a 2/2 Undead when drawn.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string PlaguedGrainCore = "RLK_039";
+                public const string PlaguedGrainCorePlaceholder = "RLK_039";
 
                 /// <summary>
                 /// Refresh 2 Mana Crystals.<br/>
@@ -863,7 +863,7 @@ namespace HearthDb
                 /// <b>Battlecry</b>: Deal 2 damage to an enemy and your hero.<br/>
                 /// 1-Cost 1/2 Undead Minion
                 /// </summary>
-                public const string NoxiousCadaverCore = "RLK_079";
+                public const string NoxiousCadaverCorePlaceholder = "RLK_079";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Return this to your hand. It costs Health instead of Mana.<br/>

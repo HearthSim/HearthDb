@@ -401,7 +401,7 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Draw a <b>Deathrattle</b> minion.<br/>
                 /// 1-Cost Weapon
                 /// </summary>
-                public const string TuskpiercerCorePlaceholder = "CORE_BAR_330";
+                public const string TuskpiercerCore = "CORE_BAR_330";
 
                 /// <summary>
                 /// Give your hero +2 Attack this turn. Draw a card.<br/>
@@ -413,7 +413,7 @@ namespace HearthDb
                 /// Summon three 1/1 Illidari with <b>Rush</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string CoordinatedStrikeCore = "CORE_BT_036";
+                public const string CoordinatedStrikeCorePlaceholder = "CORE_BT_036";
 
                 /// <summary>
                 /// <b>Charge</b> All friendly attacks ignore <b>Taunt</b>.<br/>
@@ -473,7 +473,7 @@ namespace HearthDb
                 /// Swap your Hero Power to "Deal 5 damage." After 2 uses, swap it back.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string MetamorphosisCore = "CORE_BT_429";
+                public const string MetamorphosisCorePlaceholder = "CORE_BT_429";
 
                 /// <summary>
                 /// After attacking a minion, your hero may attack again.<br/>
@@ -497,7 +497,7 @@ namespace HearthDb
                 /// At the end of your turn, deal 6 damage randomly split among all enemies.<br/>
                 /// 7-Cost 6/7 Demon Minion
                 /// </summary>
-                public const string PriestessOfFuryCorePlaceholder = "CORE_BT_493";
+                public const string PriestessOfFuryCore = "CORE_BT_493";
 
                 /// <summary>
                 /// Deal $1 damage to all minions twice.<br/>
@@ -521,7 +521,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Summon two 1/1 Felwings.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
-                public const string UmberwingCore = "CORE_BT_922";
+                public const string UmberwingCorePlaceholder = "CORE_BT_922";
 
                 /// <summary>
                 /// <b>Charge</b>, <b>Lifesteal</b> After you play a card with <b>Outcast</b>, return this to your hand.<br/>
@@ -533,13 +533,13 @@ namespace HearthDb
                 /// Summon seven 1/1 Illidari with <b>Rush</b>. If they all die this turn, summon seven more.<br/>
                 /// 7-Cost Spell
                 /// </summary>
-                public const string ExpendablePerformersCore = "CORE_DMF_224";
+                public const string ExpendablePerformersCorePlaceholder = "CORE_DMF_224";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Copy the left- and right-most cards in your hand.<br/>
                 /// 5-Cost 6/4 Minion
                 /// </summary>
-                public const string ZaiTheIncredibleCorePlaceholder = "CORE_DMF_231";
+                public const string ZaiTheIncredibleCore = "CORE_DMF_231";
 
                 /// <summary>
                 /// <b>Discover</b> a <b>Temporary</b> Fel Barrage, Chaos Strike, or Chaos Nova.<br/>
@@ -635,7 +635,7 @@ namespace HearthDb
                 /// <b>Rush</b> <b>Deathrattle:</b> Deal 1 damage to all enemy minions.<br/>
                 /// 3-Cost 3/2 Beast Minion
                 /// </summary>
-                public const string FelrattlerCorePlaceholder = "CORE_WC_701";
+                public const string FelrattlerCore = "CORE_WC_701";
 
                 /// <summary>
                 /// <b>Discover</b> an <b>Outcast</b> card. Your next one costs (1) less.<br/>

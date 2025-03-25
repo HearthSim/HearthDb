@@ -388,7 +388,7 @@ namespace HearthDb
                 /// Draw 3 cards. They are <b>Temporary</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string TheSoulariumCorePlaceholder = "CORE_BOT_568";
+                public const string TheSoulariumCore = "CORE_BOT_568";
 
                 /// <summary>
                 /// Whenever this minion takes damage, summon a 1/1 Imp.<br/>
@@ -424,7 +424,7 @@ namespace HearthDb
                 /// <b>Taunt</b><br/>
                 /// 1-Cost 1/3 Demon Minion
                 /// </summary>
-                public const string VoidwalkerCore = "CORE_CS2_065";
+                public const string VoidwalkerCorePlaceholder = "CORE_CS2_065";
 
                 /// <summary>
                 /// Destroy a friendly minion. If you had 5 or more, summon a 5/5 Demon.<br/>
@@ -448,7 +448,7 @@ namespace HearthDb
                 /// <b><b>Taunt</b> Battlecry:</b> Replace your hand and deck with <b>Legendary</b> minions.<br/>
                 /// 7-Cost 7/8 Minion
                 /// </summary>
-                public const string ArchVillainRafaamCore = "CORE_DAL_422";
+                public const string ArchVillainRafaamCorePlaceholder = "CORE_DAL_422";
 
                 /// <summary>
                 /// Deal $1 damage to a minion. If that kills it, draw a card.<br/>
@@ -478,7 +478,7 @@ namespace HearthDb
                 /// Destroy all minions and locations.<br/>
                 /// 8-Cost Spell
                 /// </summary>
-                public const string TwistingNetherCore = "CORE_EX1_312";
+                public const string TwistingNetherCorePlaceholder = "CORE_EX1_312";
 
                 /// <summary>
                 /// Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.<br/>
@@ -502,7 +502,7 @@ namespace HearthDb
                 /// Whenever this attacks, deal 2 damage to your hero.<br/>
                 /// 2-Cost 2/5 Demon Minion
                 /// </summary>
-                public const string BloodboundImpCore = "CORE_FIX_SW_084";
+                public const string BloodboundImpCorePlaceholder = "CORE_FIX_SW_084";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Put a random Demon from your hand into the battlefield.<br/>
@@ -532,7 +532,7 @@ namespace HearthDb
                 /// Deal $1 damage to all minions. If any die, cast this again.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string DefileCore = "CORE_ICC_041";
+                public const string DefileCorePlaceholder = "CORE_ICC_041";
 
                 /// <summary>
                 /// <b>Lifesteal</b> Deal $3 damage to a minion.<br/>
@@ -544,7 +544,7 @@ namespace HearthDb
                 /// At the end of your turn, deal 1 damage to all enemy minions.<br/>
                 /// 5-Cost 4/6 Demon Minion
                 /// </summary>
-                public const string DespicableDreadlordCorePlaceholder = "CORE_ICC_075";
+                public const string DespicableDreadlordCore = "CORE_ICC_075";
 
                 /// <summary>
                 /// Choose a friendly minion and give it to your opponent.<br/>
@@ -592,13 +592,13 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Battlecry:</b> Deal 2 damage to your hero.<br/>
                 /// Tier-1 2/4 Demon Minion
                 /// </summary>
-                public const string VulgarHomunculusCorePlaceholder = "CORE_LOOT_013";
+                public const string VulgarHomunculusCore = "CORE_LOOT_013";
 
                 /// <summary>
                 /// <b>Lifesteal.</b> Deal $3 damage to a minion. <i>(Take damage from your cards to upgrade.)</i><br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string LesserAmethystSpellstoneCore = "CORE_LOOT_043";
+                public const string LesserAmethystSpellstoneCorePlaceholder = "CORE_LOOT_043";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Choose a friendly Imp. Transform into a copy of it.<br/>
@@ -706,7 +706,7 @@ namespace HearthDb
                 /// Deal $3 damage. Summon two 1/3 Voidwalkers with <b>Taunt</b>.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string DemonicAssaultCorePlaceholder = "CORE_SW_088";
+                public const string DemonicAssaultCore = "CORE_SW_088";
 
                 /// <summary>
                 /// <b>Taunt</b>, <b>Lifesteal</b> When you discard this, add 2 copies of it to your hand.<br/>
@@ -724,13 +724,13 @@ namespace HearthDb
                 /// <b>Battlecry: Discover</b> a 1-Cost card.<br/>
                 /// 2-Cost 2/3 Undead Minion
                 /// </summary>
-                public const string DarkPeddlerCorePlaceholder = "CORE_WON_096";
+                public const string DarkPeddlerCore = "CORE_WON_096";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Give this minion's Attack to a random friendly minion.<br/>
                 /// Tier-1 2/1 Demon Minion
                 /// </summary>
-                public const string FiendishServantCorePlaceholder = "CORE_YOD_026";
+                public const string FiendishServantCore = "CORE_YOD_026";
 
                 /// <summary>
                 /// Deal $4 damage to a minion.<br/>

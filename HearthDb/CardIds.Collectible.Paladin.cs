@@ -376,13 +376,13 @@ namespace HearthDb
                 /// Your Silver Hand Recruits have +2 Attack and <b>Taunt</b>.<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
-                public const string WarhorseTrainerCore = "CORE_AT_075";
+                public const string WarhorseTrainerCorePlaceholder = "CORE_AT_075";
 
                 /// <summary>
                 /// After your Hero attacks, add a random Murloc to your hand.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
-                public const string UnderlightAnglingRodCorePlaceholder = "CORE_BT_018";
+                public const string UnderlightAnglingRodCore = "CORE_BT_018";
 
                 /// <summary>
                 /// Give a minion +2/+1. Draw a card.<br/>
@@ -394,7 +394,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Add a copy of each spell you cast on friendly characters this game to your hand.<br/>
                 /// 7-Cost 4/6 Minion
                 /// </summary>
-                public const string LadyLiadrinCore = "CORE_BT_334";
+                public const string LadyLiadrinCorePlaceholder = "CORE_BT_334";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Give all minions in your hand +1/+1.<br/>
@@ -454,13 +454,13 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Draw a Dragon.<br/>
                 /// 2-Cost 2/3 Murloc Minion
                 /// </summary>
-                public const string RedscaleDragontamerCorePlaceholder = "CORE_DMF_194";
+                public const string RedscaleDragontamerCore = "CORE_DMF_194";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon a 6/6 Holy Elemental with <b>Taunt</b>.<br/>
                 /// 6-Cost Weapon
                 /// </summary>
-                public const string HammerOfTheNaaruCore = "CORE_DMF_238";
+                public const string HammerOfTheNaaruCorePlaceholder = "CORE_DMF_238";
 
                 /// <summary>
                 /// <b>Battlecry:</b> For the rest of the game, after you summon a Silver Hand Recruit, give it <b>Divine Shield</b>.<br/>
@@ -622,7 +622,7 @@ namespace HearthDb
                 /// Summon five 1/1 Silver Hand Recruits.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string StandAgainstDarknessCore = "CORE_OG_273";
+                public const string StandAgainstDarknessCorePlaceholder = "CORE_OG_273";
 
                 /// <summary>
                 /// Give a Silver Hand Recruit +3/+3 and <b>Taunt</b>.<br/>
@@ -688,7 +688,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Send all other minions 2 turns into the future.<br/>
                 /// 7-Cost 8/8 Dragon Minion
                 /// </summary>
-                public const string AnachronosCorePlaceholder = "CORE_RLK_919";
+                public const string AnachronosCore = "CORE_RLK_919";
 
                 /// <summary>
                 /// Restore #4 Health. Draw a card.<br/>
@@ -700,7 +700,7 @@ namespace HearthDb
                 /// Summon a 4/8, 2/4, and 1/2 Elemental with <b>Taunt</b>.<br/>
                 /// 7-Cost Spell
                 /// </summary>
-                public const string ImmortalizedInStoneCorePlaceholder = "CORE_TSC_076";
+                public const string ImmortalizedInStoneCore = "CORE_TSC_076";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, <b>Discover</b> an upgraded Hero Power.<br/>

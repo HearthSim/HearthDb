@@ -395,7 +395,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Deathrattle:</b> Summon two 2/4 Cubs with <b>Taunt</b>.<br/>
                 /// 7-Cost 5/6 Beast Minion
                 /// </summary>
-                public const string MountainBearCorePlaceholder = "CORE_AV_337";
+                public const string MountainBearCore = "CORE_AV_337";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw a 1, 2, and 3-Cost spell.<br/>
@@ -407,7 +407,7 @@ namespace HearthDb
                 /// Deal $1 damage. Summon a 1/1 Hyena with <b>Rush</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string WoundPreyCorePlaceholder = "CORE_BAR_801";
+                public const string WoundPreyCore = "CORE_BAR_801";
 
                 /// <summary>
                 /// Deal $3 damage. If your hand is empty, draw a card.<br/>
@@ -431,13 +431,13 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Change the Health of all enemy minions to 1.<br/>
                 /// 6-Cost 7/6 Dragon Minion
                 /// </summary>
-                public const string VeranusCorePlaceholder = "CORE_DRG_095";
+                public const string VeranusCore = "CORE_DRG_095";
 
                 /// <summary>
                 /// After you use your Hero Power, deal 5 damage to a random enemy.<br/>
                 /// 4-Cost 3/5 Mechanical Minion
                 /// </summary>
-                public const string DragonbaneCore = "CORE_DRG_256";
+                public const string DragonbaneCorePlaceholder = "CORE_DRG_256";
 
                 /// <summary>
                 /// <b>Discover</b> a card from your deck.<br/>
@@ -461,13 +461,13 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Summon two 2/2 Hyenas.<br/>
                 /// 6-Cost 7/5 Beast Minion
                 /// </summary>
-                public const string SavannahHighmaneCore = "CORE_EX1_534";
+                public const string SavannahHighmaneCorePlaceholder = "CORE_EX1_534";
 
                 /// <summary>
                 /// Deal $3 damage. If you control a Beast, deal $5 damage instead.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string KillCommandCore = "CORE_EX1_539";
+                public const string KillCommandCorePlaceholder = "CORE_EX1_539";
 
                 /// <summary>
                 /// <b>Charge</b><br/>
@@ -503,7 +503,7 @@ namespace HearthDb
                 /// Summon two 3/3 Wolves. <i>(Play a <b>Secret</b> to upgrade.)</i><br/>
                 /// 5-Cost Spell
                 /// </summary>
-                public const string LesserEmeraldSpellstoneCore = "CORE_FB_Champs_LOOT_080";
+                public const string LesserEmeraldSpellstoneCorePlaceholder = "CORE_FB_Champs_LOOT_080";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Get a random Beast.<br/>
@@ -731,7 +731,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle</b>.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
-                public const string TerrorscaleStalkerCorePlaceholder = "CORE_UNG_800";
+                public const string TerrorscaleStalkerCore = "CORE_UNG_800";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Add a random Beast to your hand.<br/>

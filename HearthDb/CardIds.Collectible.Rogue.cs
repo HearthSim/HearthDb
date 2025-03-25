@@ -389,7 +389,7 @@ namespace HearthDb
                 /// <b>Stealth</b>. Whenever this attacks, add a random card to your hand <i>(from your opponent's class).</i><br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
-                public const string ShakuTheCollectorCorePlaceholder = "CORE_CFM_781";
+                public const string ShakuTheCollectorCore = "CORE_CFM_781";
 
                 /// <summary>
                 /// Deal $2 damage to an undamaged minion.<br/>
@@ -449,19 +449,19 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Return a random friendly minion to your hand. It costs (2) less.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
-                public const string WagglePickCorePlaceholder = "CORE_DAL_720";
+                public const string WagglePickCore = "CORE_DAL_720";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Your next <b>Combo</b> card this turn costs (2) less.<br/>
                 /// 2-Cost 3/2 Minion
                 /// </summary>
-                public const string FoxyFraudCorePlaceholder = "CORE_DMF_511";
+                public const string FoxyFraudCore = "CORE_DMF_511";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Destroy a minion and all copies of it <i>(wherever they are)</i>.<br/>
                 /// 6-Cost 4/4 Minion
                 /// </summary>
-                public const string FlikSkyshivCore = "CORE_DRG_037";
+                public const string FlikSkyshivCorePlaceholder = "CORE_DRG_037";
 
                 /// <summary>
                 /// Deal $2 damage. <b>Combo:</b> Deal $4 damage instead.<br/>
@@ -479,7 +479,7 @@ namespace HearthDb
                 /// <b>Combo:</b> Summon a 2/1 Defias Bandit.<br/>
                 /// 2-Cost 3/2 Minion
                 /// </summary>
-                public const string DefiasRingleaderCorePlaceholder = "CORE_EX1_131";
+                public const string DefiasRingleaderCore = "CORE_EX1_131";
 
                 /// <summary>
                 /// <b>Combo:</b> Deal 3 damage.<br/>
@@ -509,7 +509,7 @@ namespace HearthDb
                 /// Return an enemy minion to your opponent's hand.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string SapCore = "CORE_EX1_581";
+                public const string SapCorePlaceholder = "CORE_EX1_581";
 
                 /// <summary>
                 /// <b>Discover</b> a <b>Temporary</b> Backstab, Deadly Poison, or Fan of Knives.<br/>
@@ -527,7 +527,7 @@ namespace HearthDb
                 /// <b>Lifesteal</b> Whenever you play a card from another class, gain +1 Durability.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
-                public const string SpectralCutlassCore = "CORE_GIL_672";
+                public const string SpectralCutlassCorePlaceholder = "CORE_GIL_672";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Add two 1/1 Skeletons to your hand.<br/>
@@ -605,7 +605,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Shuffle 3 Ambushes into your deck. When drawn, summon a 4/4 Spider.<br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
-                public const string FaldoreiStriderCore = "CORE_LOOT_026";
+                public const string FaldoreiStriderCorePlaceholder = "CORE_LOOT_026";
 
                 /// <summary>
                 /// <b>Secret:</b> When a friendly minion dies, return it to your hand. It costs (2) less.<br/>
@@ -617,7 +617,7 @@ namespace HearthDb
                 /// <b>Combo:</b> Draw 2 minions from your deck.<br/>
                 /// 4-Cost 3/3 Minion
                 /// </summary>
-                public const string ElvenMinstrelCore = "CORE_LOOT_211";
+                public const string ElvenMinstrelCorePlaceholder = "CORE_LOOT_211";
 
                 /// <summary>
                 /// <b>Secret:</b> When your turn starts, <b>Discover</b> and cast a <b>Secret</b> from another class.<br/>
@@ -647,7 +647,7 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Get a random card <i>(from your opponent's class)</i>.<br/>
                 /// 2-Cost 2/3 Undead Minion
                 /// </summary>
-                public const string UndercityHucksterCorePlaceholder = "CORE_OG_330";
+                public const string UndercityHucksterCore = "CORE_OG_330";
 
                 /// <summary>
                 /// Summon a 1/1 Ghost. <i>(Has +1/+1 for each other card you played this turn!)</i><br/>

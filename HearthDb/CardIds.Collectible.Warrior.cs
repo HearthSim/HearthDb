@@ -2730,7 +2730,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Summon a 0/4 Entrée for your opponent. When it dies, summon a minion from your deck.<br/>
-                /// 3-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string FoodFight = "VAC_533";
 

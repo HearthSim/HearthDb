@@ -170,7 +170,7 @@ namespace HearthDb
                 public const string MiningCasualties = "DEEP_017";
 
                 /// <summary>
-                /// Your Leeches steal 2 more Health from their victims. <b>Battlecry:</b> Summon two 0/2 Leeches.<br/>
+                /// Your Leeches steal 1 more Health from their victims. <b>Battlecry:</b> Summon two 0/2 Leeches.<br/>
                 /// 6-Cost 3/5 Undead/Beast Minion
                 /// </summary>
                 public const string HideousHusk = "EDR_810";

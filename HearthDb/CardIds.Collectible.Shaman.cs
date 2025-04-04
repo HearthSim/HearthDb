@@ -986,7 +986,7 @@ namespace HearthDb
                 public const string BeanstalkBrute = "EDR_230";
 
                 /// <summary>
-                /// Restore #4 Health. <b>Imbue</b> your Hero Power.<br/>
+                /// Restore #4 Health. Draw a card. <b>Imbue</b> your Hero Power.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string AspectsEmbrace = "EDR_231";
@@ -1023,7 +1023,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Imbue</b> your Hero Power. Reduce the Cost of a minion in your hand by (1).<br/>
-                /// 3-Cost 2/3 Elemental Minion
+                /// 3-Cost 2/4 Elemental Minion
                 /// </summary>
                 public const string LivingGarden = "EDR_518";
 
@@ -1227,7 +1227,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Your <b>Battlecry</b> minions cost (1), but immediately die after being played.<br/>
-                /// 6-Cost 6/6 Elemental Minion
+                /// 7-Cost 6/6 Elemental Minion
                 /// </summary>
                 public const string Murmur = "GDB_448";
 

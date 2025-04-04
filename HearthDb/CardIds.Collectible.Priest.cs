@@ -1035,7 +1035,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Lifesteal</b> <b>Battlecry:</b> <b>Imbue</b> your Hero Power.<br/>
-                /// 2-Cost 3/1 Beast Minion
+                /// 2-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string LunarwingMessenger = "EDR_449";
 
@@ -1089,7 +1089,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Give all enemy minions -2 Attack until your next turn. <b>Imbue</b> your Hero Power.<br/>
-                /// 4-Cost 4/4 Minion
+                /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string KaldoreiPriestess = "EDR_970";
 

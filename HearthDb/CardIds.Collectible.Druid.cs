@@ -1057,7 +1057,7 @@ namespace HearthDb
                 public const string EvergreenStag = "EDR_272";
 
                 /// <summary>
-                /// <b>Discover</b> a <b>Choose One</b> card from another class.<br/>
+                /// <b>Discover</b> a <b>Choose One</b> card from another class. It costs (1) less.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string Symbiosis = "EDR_273";
@@ -1802,7 +1802,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Take one of your opponent's empty Mana Crystals.<br/>
-                /// 6-Cost 4/5 Minion
+                /// 6-Cost 3/4 Minion
                 /// </summary>
                 public const string Doomkin = "JAM_029";
 

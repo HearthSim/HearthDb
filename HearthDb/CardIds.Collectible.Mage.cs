@@ -1040,7 +1040,7 @@ namespace HearthDb
                 public const string StellarBalance = "EDR_874";
 
                 /// <summary>
-                /// At the end of your turn, gain 1 Armor. Repeat for each Wisp you control.<br/>
+                /// At the end of your turn, gain 1 Armor. <i>(Improved by Wisps you control!)</i><br/>
                 /// 4-Cost 3/6 Minion
                 /// </summary>
                 public const string MerryMoonkin = "EDR_940";

@@ -9,7 +9,7 @@ namespace HearthDb
             {
                 /// <summary>
                 /// Get a 1/1 Zergling. <b>Deathrattle:</b> Your Zerg minions have <b>Rush</b> this turn.<br/>
-                /// 1-Cost Location
+                /// 2-Cost Location
                 /// </summary>
                 public const string SpawningPool = "SC_000";
 
@@ -63,13 +63,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// Draw 2 Terran cards. Summon a 2/1 <b>Starship Piece</b> with an effect when launched.<br/>
-                /// 3-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string LiftOff = "SC_410";
 
                 /// <summary>
                 /// Draw 2 Protoss cards. Summon a 3/4 Zealot with <b>Charge</b>.<br/>
-                /// 4-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string ChronoBoost = "SC_750";
 
@@ -87,7 +87,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon two 3/4 Zealots with <b>Charge</b>. Your Protoss minions cost (2) less this game.<br/>
-                /// 7-Cost Hero
+                /// 8-Cost Hero
                 /// </summary>
                 public const string Artanis = "SC_754";
 

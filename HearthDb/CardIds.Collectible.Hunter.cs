@@ -1035,7 +1035,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give a minion +2/+2 and "<b>Deathrattle:</b> Give a friendly minion +2/+2 and this <b>Deathrattle</b>."<br/>
-                /// 2-Cost Spell
+                /// 3-Cost Spell
                 /// </summary>
                 public const string AmphibiansSpirit = "EDR_261";
 

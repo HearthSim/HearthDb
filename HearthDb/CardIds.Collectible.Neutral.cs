@@ -2387,12 +2387,6 @@ namespace HearthDb
                 public const string NecroticGeistCorePlaceholder = "CORE_ICC_900";
 
                 /// <summary>
-                /// Your end of turn effects trigger twice.<br/>
-                /// 3-Cost 1/5 Minion
-                /// </summary>
-                public const string DrakkariEnchanterCore = "CORE_ICC_901";
-
-                /// <summary>
                 /// Hero Powers are disabled.<br/>
                 /// 3-Cost 2/5 Undead Minion
                 /// </summary>
@@ -4288,8 +4282,8 @@ namespace HearthDb
                 public const string NightmareLordXavius = "EDR_856";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If you've <b>Imbued</b> your Hero Power twice, deal 5 damage to a minion.<br/>
-                /// 4-Cost 5/4 Minion
+                /// <b>Lifesteal</b> <b>Battlecry:</b> If you've <b>Imbued</b> your Hero Power twice, deal 4 damage to a minion.<br/>
+                /// 4-Cost 4/4 Minion
                 /// </summary>
                 public const string ResplendentDreamweaver = "EDR_860";
 
@@ -5302,7 +5296,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Gain 4 Armor. <b>Starship Piece</b><br/>
-                /// 4-Cost 3/4 Minion
+                /// 5-Cost 4/5 Minion
                 /// </summary>
                 public const string ArkoniteDefenseCrystal = "GDB_100";
 
@@ -5344,7 +5338,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Costs (1) less for each time a card was drawn, played, or destroyed. <b>Battlecry:</b> Destroy all other minions.<br/>
-                /// 100-Cost 10/10 Minion
+                /// 125-Cost 10/10 Minion
                 /// </summary>
                 public const string TheCeaselessExpanse = "GDB_142";
 
@@ -9944,8 +9938,8 @@ namespace HearthDb
                 public const string TravelAgent = "VAC_438";
 
                 /// <summary>
-                /// Costs (2) less for each time you've used a location this game.<br/>
-                /// 10-Cost 8/8 Minion
+                /// Costs (1) less for each time you've used a location this game.<br/>
+                /// 9-Cost 8/8 Minion
                 /// </summary>
                 public const string SeasideGiant = "VAC_439";
 
@@ -11295,7 +11289,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon three minions from your deck that are from different expansions.<br/>
-                /// 9-Cost 3/3 Minion
+                /// 10-Cost 3/3 Minion
                 /// </summary>
                 public const string TravelmasterDungar = "WORK_043";
 

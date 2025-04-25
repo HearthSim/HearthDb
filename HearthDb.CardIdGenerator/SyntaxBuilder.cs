@@ -34,7 +34,7 @@ namespace HearthDb.CardIdGenerator
 					var classDecl = ClassDeclaration("NonCollectible").AddModifiers(Token(PublicKeyword), Token(PartialKeyword));
 					var cCard = ClassDeclaration(className).AddModifiers(Token(PublicKeyword));
 					var members = new List<MemberDeclarationSyntax>();
-					foreach(var card in cards.Where(x => x.Class == cardClass))
+					foreach(var card in cards.Where(x => GetClass(x) == cardClass))
 					{
 						var name = CultureInfo.InvariantCulture.TextInfo.ToTitleCase(card.Name.ToLower());
 						name = NameOverrides(card, name);
@@ -59,6 +59,16 @@ namespace HearthDb.CardIdGenerator
 
 				Console.WriteLine($"NonCollectible New Conflicts: {newNamingConflicts.Sum(x => x.Value.Count)}, Total Unique: {conflicts.Sum(x => x.Value.Count)}");
 			}
+		}
+
+		static CardClass GetClass(Card card)
+		{
+			if (card.Set == Enums.CardSet.BATTLEGROUNDS || card.Id.StartsWith("BG_"))
+			{
+				return CardClass.NEUTRAL;
+			}
+
+			return card.Class;
 		}
 
 		public static string NameOverrides(Card card, string name)

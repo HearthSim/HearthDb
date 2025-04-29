@@ -902,6 +902,24 @@ namespace HearthDb
                 public const string GoingDownSwinging = "ETC_413";
 
                 /// <summary>
+                /// At the start of your next turn, deal $6 damage randomly split among all enemies.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SigilOfCinder = "FIR_902";
+
+                /// <summary>
+                /// After you cast a Fel spell, destroy this and deal 2 damage to all enemies.<br/>
+                /// 2-Cost 2/3 Elemental Minion
+                /// </summary>
+                public const string FelfireBlaze = "FIR_904";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a Fel spell. Reduce the Cost of Fel spells in your hand by (1).<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string Scorchreaver = "FIR_952";
+
+                /// <summary>
                 /// <b>Rush</b>, <b>Windfury</b> <b>Starship Piece</b><br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
@@ -1128,6 +1146,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string IllidanStormrage_ArannaStarseekerHeroHeroSkins = "HERO_10b";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string IllidanStormrage_ArachnidKerriganHeroHeroSkins = "HERO_10bd";
 
                 /// <summary>
                 /// (No Text)<br/>

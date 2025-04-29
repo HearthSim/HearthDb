@@ -1190,6 +1190,24 @@ namespace HearthDb
                 public const string WindspeakerLegacy = "EX1_587";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Deal 9 damage to all enemy minions.<br/>
+                /// 9-Cost 9/9 Elemental Minion
+                /// </summary>
+                public const string AvatarOfDestruction = "FIR_778";
+
+                /// <summary>
+                /// Deal $4 damage to a random enemy minion. If you're holding a card that costs (8) or more, deal $8 instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string FlamesOfTheFirelord = "FIR_923";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a 5-Cost card. Gain 1 Mana Crystal next turn only.<br/>
+                /// 3-Cost 3/2 Dragon Minion
+                /// </summary>
+                public const string EmberscarredWhelp = "FIR_927";
+
+                /// <summary>
                 /// Destroy a minion, then return it to life with full Health.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -1554,6 +1572,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Thrall_DreamerFinleyHeroHeroSkins = "HERO_02bd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Thrall_ShadeOfAkamaHeroHeroSkinsEnchantment = "HERO_02be";
 
                 /// <summary>
                 /// (No Text)<br/>

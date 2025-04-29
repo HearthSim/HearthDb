@@ -1254,6 +1254,24 @@ namespace HearthDb
                 public const string Demonfire = "EX1_596";
 
                 /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a Demon with a <b>Dark Gift</b>. Get a copy of it.<br/>
+                /// 4-Cost 4/3 Beast/Elemental Minion
+                /// </summary>
+                public const string ShadowflameStalker = "FIR_924";
+
+                /// <summary>
+                /// Deal $5 damage to a minion. Its owner draws a card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string Conflagrate = "FIR_954";
+
+                /// <summary>
+                /// Whenever your hero takes damage on your turn, deal 3 damage to a random enemy minion.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string EmberrootDestroyer = "FIR_955";
+
+                /// <summary>
                 /// <b>Deathrattle:</b> Put a random Demon from your hand into the battlefield.<br/>
                 /// 4-Cost 3/4 Demon Minion
                 /// </summary>
@@ -1629,6 +1647,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Guldan_KerriganHeroHeroSkins = "HERO_07bd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Guldan_ArachnidKerriganHeroHeroSkins = "HERO_07bg";
 
                 /// <summary>
                 /// (No Text)<br/>

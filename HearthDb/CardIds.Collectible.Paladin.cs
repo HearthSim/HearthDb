@@ -703,12 +703,6 @@ namespace HearthDb
                 public const string ImmortalizedInStoneCore = "CORE_TSC_076";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If your deck has no duplicates, <b>Discover</b> an upgraded Hero Power.<br/>
-                /// 2-Cost 2/3 Murloc Minion
-                /// </summary>
-                public const string SirFinleyoftheSands_SirFinleyOfTheSandsCorePlaceholderToken = "CORE_ULD_500t";
-
-                /// <summary>
                 /// Give a minion +2/+6 and <b>Taunt</b>. When it dies, summon a Stegodon.<br/>
                 /// 5-Cost Spell
                 /// </summary>
@@ -1217,6 +1211,24 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Equality = "EX1_619";
+
+                /// <summary>
+                /// Give a friendly minion +{0}/+{0}. <i>(Upgrades each turn, but discards after {1}!)</i>1Give a friendly minion +{0}/+{0}. <i>(Discards this turn!)</i><br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SmolderingStrength = "FIR_914";
+
+                /// <summary>
+                /// Draw a minion. Summon an 8/8 copy of it with <b>Divine Shield</b>.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string SearingReflection = "FIR_941";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you're holding a spell that costs (5) or more, gain <b>Divine Shield</b> and <b>Lifesteal</b>.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
+                public const string AshleafPixie = "FIR_961";
 
                 /// <summary>
                 /// <b>Secret:</b> When one of your minions dies, give a random friendly minion +3/+2.<br/>

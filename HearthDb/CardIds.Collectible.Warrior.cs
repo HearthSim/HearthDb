@@ -1237,6 +1237,24 @@ namespace HearthDb
                 public const string InnerRage = "EX1_607";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Give all minions in your hand +3/+3. They are discarded in 3 turns.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
+                public const string KeeperOfFlame = "FIR_928";
+
+                /// <summary>
+                /// Deal $3 damage. <b>Discover</b> a Warrior minion with a <b>Dark Gift</b>.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ShadowflameSuffusion = "FIR_939";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you're holding a minion with a <b>Dark Gift</b>, give your hero +3 Attack this turn and 6 Armor.<br/>
+                /// 4-Cost 3/6 Beast/Dragon Minion
+                /// </summary>
+                public const string DragonTurtle = "FIR_956";
+
+                /// <summary>
                 /// <b>Deathrattle:</b> Deal 1 damage to all minions.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
@@ -1363,7 +1381,7 @@ namespace HearthDb
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// After a friendly minion attacks, gain +2 Attack.<br/>
-                /// Tier-4 4/14 Minion
+                /// Tier-4 4/14 Undead Minion
                 /// </summary>
                 public const string FesterootHulk = "GIL_655";
 

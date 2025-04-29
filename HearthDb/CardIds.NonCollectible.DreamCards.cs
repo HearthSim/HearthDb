@@ -74,7 +74,7 @@ namespace HearthDb
                 public const string NightmareVanilla = "VAN_DREAM_05";
 
                 /// <summary>
-                /// Give a minion +5/+5 and <b>Immune</b> this turn.<br/>
+                /// Give a minion <b>Immune</b> this turn and +5/+5.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string Shaladrassil_CorruptedNightmareToken = "EDR_846t1";

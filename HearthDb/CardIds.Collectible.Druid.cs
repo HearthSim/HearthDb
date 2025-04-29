@@ -745,12 +745,6 @@ namespace HearthDb
                 public const string FlipperFriendsCore = "CORE_TSC_650";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If your deck has no duplicates, duplicate your hand.<br/>
-                /// 5-Cost 5/5 Minion
-                /// </summary>
-                public const string EliseTheEnlightenedCorePlaceholder = "CORE_ULD_139";
-
-                /// <summary>
                 /// Give a friendly minion +1/+1, then gain Armor equal to its Attack.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -1243,6 +1237,24 @@ namespace HearthDb
                 public const string Savagery = "EX1_578";
 
                 /// <summary>
+                /// Give your minions +1/+1. Discard a random Nature spell to give them +1/+1 more.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Overheat = "FIR_906";
+
+                /// <summary>
+                /// Summon a 1-Cost minion. Gain 1 Armor. Draw 1 card. Refresh 1 Mana Crystal. <i>(Improves each use!)</i><br/>
+                /// 4-Cost Location
+                /// </summary>
+                public const string Amirdrassil = "FIR_907";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you've used your Hero Power this turn, give a friendly minion +1/+2 and <b>Rush</b>.<br/>
+                /// 1-Cost 1/2 Beast Minion
+                /// </summary>
+                public const string CharredChameleon = "FIR_908";
+
+                /// <summary>
                 /// Destroy all minions and summon 2/2 Treants to replace them.<br/>
                 /// 4-Cost Spell
                 /// </summary>
@@ -1577,6 +1589,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string MalfurionStormrage_EmeraldLeyaraHeroHeroSkins = "HERO_06ax";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MalfurionStormrage_WinterQueenHeroHeroSkins = "HERO_06ay";
 
                 /// <summary>
                 /// (No Text)<br/>

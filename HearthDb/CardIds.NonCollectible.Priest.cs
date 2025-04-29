@@ -788,12 +788,6 @@ namespace HearthDb
                 public const string ShadowreaperAnduin_Voidform = "ICC_830p";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Add a Coin to your hand.<br/>
-                /// Tier-3 2/2 Undead Minion
-                /// </summary>
-                public const string GildedGargoyle = "BG26_LOOT_534";
-
-                /// <summary>
                 /// (No Text)<br/>
                 /// 5-Cost 5/5 Dragon/Undead Minion
                 /// </summary>
@@ -1806,81 +1800,6 @@ namespace HearthDb
                 /// 0-Cost Spell
                 /// </summary>
                 public const string RaiseDeadSCHOLOMANCE = "Story_09_RaiseDead";
-
-                /// <summary>
-                /// Choose a minion in the Tavern. Set its stats to 2 and add it to your hand.<br/>
-                /// 2-Cost HeroPower
-                /// </summary>
-                public const string Xyrella_SeeTheLight = "BG20_HERO_101p";
-
-                /// <summary>
-                /// Attack and Health set<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Xyrella_PledgeOfPeace = "BG20_HERO_101pe2";
-
-                /// <summary>
-                /// Attack and Health set to 30.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string UthertheLightbringer_Lit = "BG23_190_Ge";
-
-                /// <summary>
-                /// Attack and Health set to 15.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string UthertheLightbringer_LitEnchantment = "BG23_190e";
-
-                /// <summary>
-                /// Attack and Health set to maximum.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string CultistSThara_CultishEnchantment = "BG27_081e";
-
-                /// <summary>
-                /// Attack and Health set to 20.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string PerfectVision_HindsightEnchantment = "BG28_838e";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> Summon 2 random <b>Deathrattle</b> minions.<br/>
-                /// Tier-6 7/7 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Deathrattle:</b> Summon 4 random <b>Deathrattle</b> minions.<br/>
-                /// Tier-6 14/14 Beast Minion
-                /// </summary>
-                public const string GhastcoilerBATTLEGROUNDS = "BGS_008";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Give a random friendly minion +2/+2.<br/>
-                /// Tier-3 4/10 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Give a random friendly minion +1/+1.<br/>
-                /// Tier-3 2/5 Minion
-                /// </summary>
-                public const string TortollanShellraiserTavernBrawl = "TB_BaconUps_031";
-
-                /// <summary>
-                /// +2/+2.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string TortollanShellraiser_ShellshieldEnchantmentTavernBrawl = "TB_BaconUps_031e";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Summon 4 random <b>Deathrattle</b> minions.<br/>
-                /// Tier-6 14/14 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Deathrattle:</b> Summon 2 random <b>Deathrattle</b> minions.<br/>
-                /// Tier-6 7/7 Beast Minion
-                /// </summary>
-                public const string GhastcoilerTavernBrawl = "TB_BaconUps_057";
 
                 /// <summary>
                 /// <b>Corrupted</b> Draw a minion. Reduce its Cost by (2).<br/>
@@ -3381,6 +3300,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string KaldoreiPriestess_PacifiedEnchantment = "EDR_970e";
+
+                /// <summary>
+                /// Give a minion +3/+3. Add a Light of the New Moon to your hand.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string LightoftheNewMoon_LightOfTheFullMoonToken = "FIR_918t";
             }
         }
     }

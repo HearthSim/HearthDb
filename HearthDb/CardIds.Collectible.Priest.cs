@@ -1286,6 +1286,24 @@ namespace HearthDb
                 public const string MassDispel = "EX1_626";
 
                 /// <summary>
+                /// <b>Taunt</b>, <b>Lifesteal</b> <b>Battlecry:</b> If you used your Hero Power this turn, gain +2/+2.<br/>
+                /// 2-Cost 1/3 Undead Minion
+                /// </summary>
+                public const string SpiritOfTheKaldorei = "FIR_777";
+
+                /// <summary>
+                /// Deal ${0} damage to all enemy minions. <i>(Upgrades each turn, but discards after {1}!)</i>1Deal ${0} damage to all enemy minions. <i>(Discards this turn!)</i><br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SmolderingAscent = "FIR_916";
+
+                /// <summary>
+                /// Give a minion +3/+3. <i>(Cast 3 spells to return this to your hand when played.)</i><br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string LightOfTheNewMoon = "FIR_918";
+
+                /// <summary>
                 /// <b>Deathrattle:</b> Give a random friendly minion +3 Health.<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
@@ -1620,6 +1638,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string AnduinWrynn_MoonblessedVelenHeroHeroSkins = "HERO_09ay";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_KyrianWhitemaneHeroHeroSkins = "HERO_09az";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2696,13 +2720,8 @@ namespace HearthDb
                 public const string CuriousGlimmerroot = "UNG_035";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Give a random friendly minion +1/+1.<br/>
-                /// Tier-3 2/5 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Give a random friendly minion +2/+2.<br/>
-                /// Tier-3 4/10 Minion
+                /// Tier-3 2/5 Minion
                 /// </summary>
                 public const string TortollanShellraiser = "UNG_037";
 

@@ -176,6 +176,17 @@ namespace HearthDb
                 public const string MusterForBattle = "RLK_Prologue_GVG_061";
 
                 /// <summary>
+                /// Triple (this):<br/>
+                /// Also damages the minions next to whomever it attacks.<br/>
+                /// Tier-6 12/18 Mechanical Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// Also damages the minions next to whomever it attacks.<br/>
+                /// Tier-6 6/9 Mechanical Minion
+                /// </summary>
+                public const string FoeReaper4000TavernBrawl = "TB_BaconUps_153";
+
+                /// <summary>
                 /// Your next Dragon costs (2) less.<br/>
                 /// Enchantment
                 /// </summary>
@@ -938,17 +949,6 @@ namespace HearthDb
                 public const string KeeperofUldaman_WatchedEnchantment = "LOE_017e";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> Give a random friendly minion <b>Divine Shield</b>.<br/>
-                /// Tier-2 2/1 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Deathrattle:</b> Give 2 random friendly minions <b>Divine Shield</b>.<br/>
-                /// Tier-2 4/2 Minion
-                /// </summary>
-                public const string SelflessHero = "BG_OG_221";
-
-                /// <summary>
                 /// (No Text)<br/>
                 /// 1-Cost 1/1 Murloc Minion
                 /// </summary>
@@ -989,17 +989,6 @@ namespace HearthDb
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string StewardOfDarkshire = "RLK_Prologue_OG_310";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Give 2 random friendly minions <b>Divine Shield</b>.<br/>
-                /// Tier-2 4/2 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Deathrattle:</b> Give a random friendly minion <b>Divine Shield</b>.<br/>
-                /// Tier-2 2/1 Minion
-                /// </summary>
-                public const string SelflessHeroTavernBrawl = "TB_BaconUps_014";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1308,17 +1297,6 @@ namespace HearthDb
                 public const string ParagonOfLight = "RLK_Prologue_GIL_685";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Magnetic</b> <b>Divine Shield</b> <b>Taunt</b><br/>
-                /// Tier-3 2/4 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Magnetic</b> <b>Divine Shield</b> <b>Taunt</b><br/>
-                /// Tier-3 4/8 Mechanical Minion
-                /// </summary>
-                public const string AnnoyOModule = "BG_BOT_911";
-
-                /// <summary>
                 /// Cost swapped.<br/>
                 /// Enchantment
                 /// </summary>
@@ -1349,14 +1327,14 @@ namespace HearthDb
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Magnetic</b> <b>Divine Shield</b> <b>Taunt</b><br/>
-                /// Tier-3 4/8 Mechanical Minion<br/>
+                /// <b>Deathrattle:</b> Deal {0} damage to a random enemy minion, twice.4<b>Deathrattle:</b> Deal <b>*{0}*</b> damage to a random enemy minion, twice.<br/>
+                /// Tier-2 4/4 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Magnetic</b> <b>Divine Shield</b> <b>Taunt</b><br/>
-                /// Tier-3 2/4 Mechanical Minion
+                /// <b>Deathrattle:</b> Deal {0} damage to a random enemy minion.4<b>Deathrattle:</b> Deal <b>*{0}*</b> damage to a random enemy minion.<br/>
+                /// Tier-2 2/2 Mechanical Minion
                 /// </summary>
-                public const string AnnoyOModuleTavernBrawl = "TB_BaconUps_099";
+                public const string KaboomBotTavernBrawl = "TB_BaconUps_028";
 
                 /// <summary>
                 /// <b>Immune</b> until your next turn.<br/>
@@ -1713,17 +1691,6 @@ namespace HearthDb
                 public const string BronzeBroodmother = "TOT_330";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Reborn</b> At the end of your turn, give another random friendly minion +1 Attack.<br/>
-                /// Tier-1 1/2 Mechanical/Undead Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Reborn</b> At the end of your turn, give another random friendly minion +2 Attack.<br/>
-                /// Tier-1 2/4 Mechanical/Undead Minion
-                /// </summary>
-                public const string MicroMummy = "BG_ULD_217";
-
-                /// <summary>
                 /// Whenever you summon a minion, gain +1 Attack.<br/>
                 /// 1-Cost 2/1 Minion
                 /// </summary>
@@ -2041,28 +2008,6 @@ namespace HearthDb
                 public const string Embiggend = "ULDA_Finley_HP3e";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> Give a Dragon in your hand +3/+3 and this <b>Deathrattle</b>.<br/>
-                /// Tier-4 3/3 Undead Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Deathrattle:</b> Give a Dragon in your hand +3/+3 and this <b>Deathrattle</b>, twice.<br/>
-                /// Tier-4 6/6 Undead Minion
-                /// </summary>
-                public const string DragonriderTalritha = "BG_DRG_235";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Give a Dragon in your hand +3/+3 and this <b>Deathrattle</b>, twice.<br/>
-                /// Tier-4 6/6 Undead Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Deathrattle:</b> Give a Dragon in your hand +3/+3 and this <b>Deathrattle</b>.<br/>
-                /// Tier-4 3/3 Undead Minion
-                /// </summary>
-                public const string DragonriderTalritha_DragonriderTalritha = "BG_DRG_235_G";
-
-                /// <summary>
                 /// (No Text)<br/>
                 /// 1-Cost 1/1 Mechanical Minion
                 /// </summary>
@@ -2273,23 +2218,6 @@ namespace HearthDb
                 public const string HandofAdal_HandOfAdalEnchantment = "BT_292e";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Battlecry:</b> Set this minion's Attack and Health to the highest in the battlefield.<br/>
-                /// Tier-4 1/1 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Set this minion's Attack and Health to double the highest in the battlefield.<br/>
-                /// Tier-4 2/2 Minion
-                /// </summary>
-                public const string ArgentBraggart = "BG_SCH_149";
-
-                /// <summary>
-                /// Stats set to highest.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string ArgentBraggart_BestOfTheBestEnchantmentSCHOLOMANCE1 = "BG_SCH_149e";
-
-                /// <summary>
                 /// 3/3.<br/>
                 /// Enchantment
                 /// </summary>
@@ -2344,245 +2272,10 @@ namespace HearthDb
                 public const string LordaeronAttendant = "Story_01_LordaeronAttendant";
 
                 /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Battlecry:</b> Set this minion's Attack and Health to double the highest in the battlefield.<br/>
-                /// Tier-4 2/2 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Battlecry:</b> Set this minion's Attack and Health to the highest in the battlefield.<br/>
-                /// Tier-4 1/1 Minion
-                /// </summary>
-                public const string ArgentBraggartTavernBrawl = "TB_BaconUps_308";
-
-                /// <summary>
                 /// Stats set to double the highest.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string ArgentBraggart_BestestOfTheBestEnchantmentTavernBrawl = "TB_BaconUps_308e";
-
-                /// <summary>
-                /// <b>Taunt</b>, <b>Divine Shield</b>.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string AnnoyOModuleEnchantment = "BG_BOT_9112e";
-
-                /// <summary>
-                /// <b>Taunt</b>, <b>Divine Shield</b>.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string AnnoyoModule_AnnoyOModuleEnchantmentBATTLEGROUNDS1 = "BG_BOT_911e";
-
-                /// <summary>
-                /// <b>Taunt</b><br/>
-                /// Enchantment
-                /// </summary>
-                public const string AnnoyoModule_AnnoyOModuleEnchantmentBATTLEGROUNDS2 = "BG_BOT_911e2";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string Rokara_RokaraArcaneWarrior = "BG20_HERO_100_SKIN_A4";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string Rokara_Mrrkara = "BG20_HERO_100_SKIN_B";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string Rokara_RustlinRokara = "BG20_HERO_100_SKIN_C";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string Rokara_RockerRokara = "BG20_HERO_100_SKIN_D";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string Rokara_KeeperRokara = "BG20_HERO_100_SKIN_E";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string Rokara_ArenaChampionRokara = "BG20_HERO_100_SKIN_F";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string CarielRoame_RacingCariel = "BG21_HERO_000_SKIN_A";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string CarielRoame_RopeDarterRoame = "BG21_HERO_000_SKIN_B2";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string CarielRoame_CarielHammerOfLight = "BG21_HERO_000_SKIN_C4";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string CarielRoame_CarielTheChosen = "BG21_HERO_000_SKIN_D";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string CarielRoame_BenevolentCariel = "BG21_HERO_000_SKIN_E";
-
-                /// <summary>
-                /// Give {2} friendly minions +{0}/+{1}. <i>(After you upgrade the Tavern, choose an improvement!)</i>1Give {2} friendly minions +{0}/+{1}.<br/>
-                /// 1-Cost HeroPower
-                /// </summary>
-                public const string CarielRoame_Conviction = "BG21_HERO_000p";
-
-                /// <summary>
-                /// Give four random friendly minions +{0}/+{1}. <i>(Upgrades at Tavern Tier 5.)</i><br/>
-                /// 1-Cost HeroPower
-                /// </summary>
-                public const string CarielRoame_ConvictionRank2 = "BG21_HERO_000p2";
-
-                /// <summary>
-                /// Give all friendly minions +{0}/+{1}.<br/>
-                /// 1-Cost HeroPower
-                /// </summary>
-                public const string CarielRoame_ConvictionRank3 = "BG21_HERO_000p3";
-
-                /// <summary>
-                /// +4/+4.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string FairyTaleCaroler_ComebackCoda = "BG26_001_Ge";
-
-                /// <summary>
-                /// +2/+2.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string FairyTaleCaroler_ComebackCodaEnchantment = "BG26_001e";
-
-                /// <summary>
-                /// Increased stats.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string LivingConstellation_YearOfTheAmalgamEnchantment = "BG27_001e";
-
-                /// <summary>
-                /// Stats set to another minion's.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string CloningConch_ClonedEnchantment = "BG28_601e";
-
-                /// <summary>
-                /// Give a friendly minion <b>Divine Shield</b>.<br/>
-                /// Tier-3 0-Cost Spell
-                /// </summary>
-                public const string BuyTheHolyLight = "BGS_Treasures_015";
-
-                /// <summary>
-                /// <b>Secret:</b> When one of your minions is attacked, give it <b>Divine Shield</b>.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string AutodefenseMatrixTavernBrawl = "TB_Bacon_Secrets_07";
-
-                /// <summary>
-                /// <b>Secret:</b> When one of your minions dies, give a random friendly minion +3/+2.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string AvengeTavernBrawl = "TB_Bacon_Secrets_08";
-
-                /// <summary>
-                /// <b>Secret:</b> When a friendly minion dies, return it to life with 1 Health.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string RedemptionTavernBrawl = "TB_Bacon_Secrets_10";
-
-                /// <summary>
-                /// <b>Secret:</b> When your second minion dies in a turn, return it to life.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string HandOfSalvationTavernBrawl = "TB_Bacon_Secrets_11";
-
-                /// <summary>
-                /// <b>Secret:</b> When your turn starts, give your minions +1/+1.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string CompetitiveSpiritTavernBrawl = "TB_Bacon_Secrets_13";
-
-                /// <summary>
-                /// <b>Secret:</b> After an enemy minion deals 3 or more damage, destroy it.<br/>
-                /// 1-Cost Spell
-                /// </summary>
-                public const string ReckoningTavernBrawl = "TB_Bacon_Secrets_14";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Summon a 16/16 Robosaur.<br/>
-                /// Tier-4 0/10 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Deathrattle:</b> Summon an 8/8 Robosaur.<br/>
-                /// Tier-4 0/5 Mechanical Minion
-                /// </summary>
-                public const string MechanoEggTavernBrawl = "TB_BaconUps_039";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 16/16 Mechanical/Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 8/8 Mechanical/Beast Minion
-                /// </summary>
-                public const string MechanoEgg_RobosaurTokenTavernBrawl = "TB_BaconUps_039t";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, gain +4 Attack.<br/>
-                /// Tier-4 2/14 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, gain +2 Attack.<br/>
-                /// Tier-4 1/7 Undead Minion
-                /// </summary>
-                public const string BolvarFirebloodTavernBrawl = "TB_BaconUps_047";
-
-                /// <summary>
-                /// Increased Attack.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string BolvarFireblood_FadingLightEnchantmentTavernBrawl = "TB_BaconUps_047e";
-
-                /// <summary>
-                /// <b>Taunt</b>, <b>Divine Shield</b>.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string AnnoyoModule_AnnoyOModuleEnchantmentTavernBrawl = "TB_BaconUps_099e";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Taunt</b> <b>Divine Shield</b><br/>
-                /// Tier-1 2/2 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Taunt</b> <b>Divine Shield</b><br/>
-                /// Tier-1 1/1 Minion
-                /// </summary>
-                public const string RighteousProtectorTavernBrawl = "TB_BaconUps_147";
 
                 /// <summary>
                 /// <b>Corrupted</b> <b>Divine Shield,</b> <b>Taunt</b><br/>
@@ -3459,12 +3152,6 @@ namespace HearthDb
                 public const string PursuitOfJusticeLegacy = "RLK_Prologue_CS3_029";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If your deck has no duplicates, <b>Discover</b> an upgraded Hero Power.<br/>
-                /// 2-Cost 2/3 Murloc Minion
-                /// </summary>
-                public const string SirFinleyOfTheSandsCore = "CORE_ULD_500";
-
-                /// <summary>
                 /// Your Silver Hand Recruits have +1 Attack.<br/>
                 /// Enchantment
                 /// </summary>
@@ -3979,28 +3666,6 @@ namespace HearthDb
                 /// 4-Cost HeroPower
                 /// </summary>
                 public const string EquipLightbringerRETURN_OF_THE_LICH_KING = "RLK_Prologue_Uther_002p";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Taunt</b>, <b>Divine Shield</b> <b>Deathrattle:</b> Summon three 1/2 Mechs with <b>Taunt</b> and <b>Divine Shield</b>.<br/>
-                /// Tier-5 3/6 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Taunt</b>, <b>Divine Shield</b> <b>Deathrattle:</b> Summon three 2/4 Mechs with <b>Taunt</b> and <b>Divine Shield</b>.<br/>
-                /// Tier-5 6/12 Mechanical Minion
-                /// </summary>
-                public const string AnnoyOTroupe = "BG26_ETC_321";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Taunt</b>, <b>Divine Shield</b> <b>Deathrattle:</b> Summon three 2/4 Mechs with <b>Taunt</b> and <b>Divine Shield</b>.<br/>
-                /// Tier-5 6/12 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Taunt</b>, <b>Divine Shield</b> <b>Deathrattle:</b> Summon three 1/2 Mechs with <b>Taunt</b> and <b>Divine Shield</b>.<br/>
-                /// Tier-5 3/6 Mechanical Minion
-                /// </summary>
-                public const string AnnoyoTroupe_AnnoyOTroupe = "BG26_ETC_321_G";
 
                 /// <summary>
                 /// Increased stats.<br/>
@@ -4607,6 +4272,18 @@ namespace HearthDb
                 /// 1-Cost Spell
                 /// </summary>
                 public const string EmeraldPortal = "EDR_445pt3";
+
+                /// <summary>
+                /// +{0}/+{0}.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SmolderingStrength_SmolderingStrengthEnchantment = "FIR_914e";
+
+                /// <summary>
+                /// Stats set to 8/8.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SearingReflection_SearingReflectionEnchantment = "FIR_941e1";
             }
         }
     }

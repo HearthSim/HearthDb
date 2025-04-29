@@ -680,12 +680,6 @@ namespace HearthDb
                 public const string PyromaniacCorePlaceholder = "CORE_TRL_315";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If your deck has no duplicates, deal 10 damage randomly split among all enemy minions.<br/>
-                /// 6-Cost 4/6 Minion
-                /// </summary>
-                public const string RenoTheRelicologistCorePlaceholder = "CORE_ULD_238";
-
-                /// <summary>
                 /// Deal $2 damage. Add a 1/2 Elemental to your hand.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -1196,6 +1190,24 @@ namespace HearthDb
                 public const string KirinTorMage = "EX1_612";
 
                 /// <summary>
+                /// Deal $3 damage. Discard a random Fire spell to deal $3 more.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ScorchingWinds = "FIR_910";
+
+                /// <summary>
+                /// Draw {0} card. <i>(Upgrades each turn, but discards after {1}!)</i>1Draw {0} cards. <i>(Discards this turn!)</i><br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SmolderingGrove = "FIR_911";
+
+                /// <summary>
+                /// After you cast a Fire spell, get a random Elemental and reduce its Cost by (3).<br/>
+                /// 4-Cost 3/6 Elemental Minion
+                /// </summary>
+                public const string InfernoHerald = "FIR_913";
+
+                /// <summary>
                 /// <b>Secret:</b> When a friendly minion dies, put 2 copies of it into your hand.<br/>
                 /// 3-Cost Spell
                 /// </summary>
@@ -1602,6 +1614,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string JainaProudmoore_WhispererAzsharaHeroHeroSkins = "HERO_08bi";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_FrostWyrmMalygosHeroHeroSkins = "HERO_08bj";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_StudyKayHeroHeroSkins = "HERO_08br";
 
                 /// <summary>
                 /// (No Text)<br/>

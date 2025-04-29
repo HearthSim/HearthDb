@@ -290,6 +290,24 @@ namespace HearthDb
                 public const string MoshPit = "ETC_533";
 
                 /// <summary>
+                /// <b>Discover</b> a minion with a <b>Dark Gift</b>. It costs (2) less.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Cremate = "FIR_900";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you're holding a minion with a <b>Dark Gift</b>, summon two 4/4 Dragons with <b>Taunt</b>.<br/>
+                /// 5-Cost 4/4 Dragon Minion
+                /// </summary>
+                public const string FrostburnMatriarch = "FIR_901";
+
+                /// <summary>
+                /// <b>Rush, Taunt</b> <b>Battlecry:</b> Choose to spend 10, 20, or 30 <b>Corpses</b> to gain that many stats.<br/>
+                /// 8-Cost 5/5 Elemental/Beast Minion
+                /// </summary>
+                public const string Volcoross = "FIR_951";
+
+                /// <summary>
                 /// <b><b>Spellburst</b>:</b> Trigger a random friendly minion's <b>Deathrattle</b>. <b>Starship Piece</b><br/>
                 /// 2-Cost 3/2 Minion
                 /// </summary>
@@ -402,6 +420,24 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TheLichKing_PoisonScarletHeroHeroSkins = "HERO_11af";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKing_TheJailerHeroHeroSkins = "HERO_11ag";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKingHeroic_IcebloomIngeHeroHeroSkins = "HERO_11ah";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKing_ArachnidKerriganHeroHeroSkins = "HERO_11ai";
 
                 /// <summary>
                 /// (No Text)<br/>

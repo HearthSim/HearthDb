@@ -1763,12 +1763,6 @@ namespace HearthDb
                 public const string EvasiveWyrmCore = "CORE_DRG_079";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If your deck has no duplicates, add 2 other random Dragons to your hand. They cost (0).<br/>
-                /// 9-Cost 8/8 Dragon Minion
-                /// </summary>
-                public const string DragonqueenAlexstraszaCorePlaceholder = "CORE_DRG_089";
-
-                /// <summary>
                 /// <b>Battlecry:</b> Your opponent's next Hero Power costs (2) more.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
@@ -2871,12 +2865,6 @@ namespace HearthDb
                 /// Tier-3 3/3 Undead Minion
                 /// </summary>
                 public const string FlesheatingGhoulCorePlaceholder = "CORE_tt_004";
-
-                /// <summary>
-                /// <b>Battlecry:</b> If your deck has no duplicates, wish for the perfect card.<br/>
-                /// 2-Cost 3/2 Elemental Minion
-                /// </summary>
-                public const string ZephrysTheGreatCorePlaceholder = "CORE_ULD_003";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Draw 8 cards.<br/>
@@ -5162,6 +5150,36 @@ namespace HearthDb
                 /// 20-Cost 8/8 Elemental Minion
                 /// </summary>
                 public const string MoltenGiant = "EX1_620";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you've <b>Imbued</b> your Hero Power twice, draw 2 cards.<br/>
+                /// 3-Cost 2/3 Draenei Minion
+                /// </summary>
+                public const string PetalPicker = "FIR_921";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Draw a Fire spell.<br/>
+                /// 2-Cost 2/2 Elemental Minion
+                /// </summary>
+                public const string LivingFlame = "FIR_929";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If every card in your hand is of a different Cost, reduce their Costs by (2).<br/>
+                /// 6-Cost 4/4 Minion
+                /// </summary>
+                public const string ZaqaliFlamemancer = "FIR_940";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal 1 damage to all enemies. If it's your opponent's turn, deal 4 damage instead.<br/>
+                /// 4-Cost 4/3 Minion
+                /// </summary>
+                public const string TindralSageswift = "FIR_958";
+
+                /// <summary>
+                /// <b>Immune</b> to Fire spells. <b>Battlecry:</b> Cast 20 Mana worth of Fire spells at random enemies.<br/>
+                /// 9-Cost 7/7 Dragon Minion
+                /// </summary>
+                public const string FyrakkTheBlazing = "FIR_959";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Restore #5 Health to the enemy hero.<br/>

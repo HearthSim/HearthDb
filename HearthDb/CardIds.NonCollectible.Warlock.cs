@@ -8,17 +8,6 @@ namespace HearthDb
             public class Warlock
             {
                 /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Taunt</b><br/>
-                /// Tier-1 1/3 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Taunt</b><br/>
-                /// Tier-1 2/6 Demon Minion
-                /// </summary>
-                public const string VoidwalkerBASIC = "BG_CS2_065";
-
-                /// <summary>
                 /// Deal $1 damage to a minion. If that kills it, draw a card.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -156,23 +145,6 @@ namespace HearthDb
                 public const string HeiganTheUncleanHeroic = "NAX5_01H";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// Whenever your hero takes damage on your turn, gain +2/+2.<br/>
-                /// Tier-3 4/4 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Whenever your hero takes damage on your turn, gain +4/+4.<br/>
-                /// Tier-3 8/8 Demon Minion
-                /// </summary>
-                public const string FloatingWatcher = "BG_GVG_100";
-
-                /// <summary>
-                /// Increased stats.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string FloatingWatcher_BrowFurrowEnchantmentGVG1 = "BG_GVG_100e";
-
-                /// <summary>
                 /// +5/+5.<br/>
                 /// Enchantment
                 /// </summary>
@@ -195,28 +167,6 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string FloatingWatcher_BrowFurrowEnchantmentGVG2 = "GVG_100e";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// Whenever your hero takes damage on your turn, gain +4/+4.<br/>
-                /// Tier-3 8/8 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// Whenever your hero takes damage on your turn, gain +2/+2.<br/>
-                /// Tier-3 4/4 Demon Minion
-                /// </summary>
-                public const string FloatingWatcherTavernBrawl = "TB_BaconUps_101";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// Whenever this minion takes damage, summon a 1/1 Imp.<br/>
-                /// Tier-2 2/4 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Whenever this minion takes damage, summon a 2/2 Imp.<br/>
-                /// Tier-2 4/8 Demon Minion
-                /// </summary>
-                public const string ImpGangBoss = "BG_BRM_006";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -378,13 +328,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins10 = "HERO_07dbp";
+                public const string Guldan_LifeTapHeroSkins10 = "HERO_07bghp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins9 = "HERO_07dbp2";
+                public const string Guldan_SoulTapHeroSkins9 = "HERO_07bghp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_LifeTapHeroSkins11 = "HERO_07dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_SoulTapHeroSkins10 = "HERO_07dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
@@ -408,25 +370,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins11 = "HERO_07ybp";
+                public const string Guldan_LifeTapHeroSkins12 = "HERO_07ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins10 = "HERO_07ybp2";
+                public const string Guldan_SoulTapHeroSkins11 = "HERO_07ybp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins12 = "HERO_07zbp";
+                public const string Guldan_LifeTapHeroSkins13 = "HERO_07zbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins11 = "HERO_07zbp2";
+                public const string Guldan_SoulTapHeroSkins12 = "HERO_07zbp2";
 
                 /// <summary>
                 /// Deal $4 damage to a minion.<br/>
@@ -1141,17 +1103,6 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string DrainSoul = "RLK_Prologue_ICC_055";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Summon three 1/3 Demons with <b>Taunt</b>.<br/>
-                /// Tier-5 3/9 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Summon three 2/6 Demons with <b>Taunt</b>.<br/>
-                /// Tier-5 6/18 Demon Minion
-                /// </summary>
-                public const string Voidlord = "BG_LOOT_368";
 
                 /// <summary>
                 /// <b>Lifesteal.</b> Deal $5 damage to a minion. <i>(Take damage from your cards to upgrade.)</i><br/>
@@ -2489,170 +2440,6 @@ namespace HearthDb
                 /// 5-Cost 4/5 Demon Minion
                 /// </summary>
                 public const string VoidDrinkerSCHOLOMANCE = "Story_09_VoidDrinker";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 1/1 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 2/2 Demon Minion
-                /// </summary>
-                public const string ImpGangBoss_ImpTokenBATTLEGROUNDS = "BG_BRM_006t";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string TamsinRoame_BallroomTamsin = "BG20_HERO_282_SKIN_A";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string TamsinRoame_DancinTamsin = "BG20_HERO_282_SKIN_B";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string TamsinRoame_TamsinShadowMage = "BG20_HERO_282_SKIN_C4";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string TamsinRoame_TreasonTamsin = "BG20_HERO_282_SKIN_D";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string TamsinRoame_HackerTamsin = "BG20_HERO_282_SKIN_E";
-
-                /// <summary>
-                /// <b>Start of Combat:</b> Destroy your lowest Health minion. Give its stats to your other minions.<br/>
-                /// 0-Cost HeroPower
-                /// </summary>
-                public const string TamsinRoame_FragrantPhylactery = "BG20_HERO_282p";
-
-                /// <summary>
-                /// <b>Taunt</b><br/>
-                /// Enchantment
-                /// </summary>
-                public const string ImpMama_ProtectMamaEnchantment = "BGS_044e";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// Whenever this minion takes damage, summon a 2/2 Imp.<br/>
-                /// Tier-2 4/8 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// Whenever this minion takes damage, summon a 1/1 Imp.<br/>
-                /// Tier-2 2/4 Demon Minion
-                /// </summary>
-                public const string ImpGangBossTavernBrawl = "TB_BaconUps_030";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 2/2 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 1/1 Demon Minion
-                /// </summary>
-                public const string ImpGangBoss_ImpTokenTavernBrawl = "TB_BaconUps_030t";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Taunt</b> Your other Demons have +2 Attack.<br/>
-                /// Tier-4 10/16 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Taunt</b> Your other Demons have +1 Attack.<br/>
-                /// Tier-4 5/8 Demon Minion
-                /// </summary>
-                public const string SiegebreakerTavernBrawl = "TB_BaconUps_053";
-
-                /// <summary>
-                /// Siegebreaker is granting +2 Attack.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Siegebreaker_SiegebreakingEnchantmentTavernBrawl = "TB_BaconUps_053e";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// Your other Demons have +4/+4. Your hero is <b>Immune</b>.<br/>
-                /// Tier-5 18/14 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// Your hero is <b>Immune</b>. Your other Demons have +2/+2.<br/>
-                /// Tier-5 9/7 Demon Minion
-                /// </summary>
-                public const string MalganisTavernBrawl = "TB_BaconUps_060";
-
-                /// <summary>
-                /// Mal'Ganis is granting +4/+4.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string MalGanis_GraspOfMalganisEnchantmentTavernBrawl = "TB_BaconUps_060e";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Battlecry:</b> Give your Demons +2/+2.<br/>
-                /// Tier-3 10/8 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Battlecry:</b> Give your Demons +1/+1.<br/>
-                /// Tier-3 5/4 Draenei Minion
-                /// </summary>
-                public const string CrystalweaverTavernBrawl = "TB_BaconUps_070";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Give this minion's Attack to a random friendly minion, twice.<br/>
-                /// Tier-1 4/2 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Deathrattle:</b> Give this minion's Attack to a random friendly minion.<br/>
-                /// Tier-1 2/1 Demon Minion
-                /// </summary>
-                public const string FiendishServantTavernBrawl = "TB_BaconUps_112";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Taunt</b> <b>Battlecry:</b> Deal 2 damage to your hero.<br/>
-                /// Tier-1 4/8 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Taunt</b> <b>Battlecry:</b> Deal 2 damage to your hero.<br/>
-                /// Tier-1 2/4 Demon Minion
-                /// </summary>
-                public const string VulgarHomunculusTavernBrawl = "TB_BaconUps_148";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Summon two 3/2 Imps.<br/>
-                /// Tier-4 6/4 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Summon two 6/4 Imps.<br/>
-                /// Tier-4 12/8 Demon Minion
-                /// </summary>
-                public const string RingMatron = "BG_DMF_533";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 3/2 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 6/4 Demon Minion
-                /// </summary>
-                public const string RingMatron_FieryImpTokenDARKMOON_FAIRE1 = "BG_DMF_533t";
 
                 /// <summary>
                 /// +3 Attack and <b>Lifesteal</b> until end of turn.<br/>
@@ -4031,28 +3818,6 @@ namespace HearthDb
                 /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string ImpKingRafaam_ImpKingRafaamToken = "REV_835t";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// After a friendly minion dies, gain its <b>Deathrattle</b>.<br/>
-                /// Tier-7 1/3 Undead Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// After a friendly minion dies, gain its <b>Deathrattle</b>.<br/>
-                /// Tier-7 1/3 Undead Minion
-                /// </summary>
-                public const string DevourerOfSouls = "BG_RLK_538";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// After a friendly minion dies, gain its <b>Deathrattle</b>.<br/>
-                /// Tier-7 1/3 Undead Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// After a friendly minion dies, gain its <b>Deathrattle</b>.<br/>
-                /// Tier-7 1/3 Undead Minion
-                /// </summary>
-                public const string DevourerofSouls_DevourerOfSouls = "BG_RLK_538_G";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Summon a 2/2 Imploc.<br/>

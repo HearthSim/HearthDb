@@ -50,17 +50,6 @@ namespace HearthDb
                 public const string MasterofDisguise_DisguisedEnchantment = "NEW1_014e";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// At the end of your turn, give another friendly Mech +2/+2.<br/>
-                /// Tier-3 2/2 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// At the end of your turn, give another friendly Mech +4/+4.<br/>
-                /// Tier-3 4/4 Mechanical Minion
-                /// </summary>
-                public const string IronSensei = "BG_GVG_027";
-
-                /// <summary>
                 /// Increased stats.<br/>
                 /// Enchantment
                 /// </summary>
@@ -252,28 +241,46 @@ namespace HearthDb
                 public const string ValeeraSanguinar_PoisonedDaggersHeroSkins8 = "HERO_03bchp2";
 
                 /// <summary>
-                /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
-                /// 2-Cost HeroPower
+                /// (No Text)<br/>
+                /// 0-Cost Hero
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins9 = "HERO_03dbp";
+                public const string ValeeraSanguinar_ArachnidKerriganHeroSkins = "HERO_03bd";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins10 = "HERO_03dbp_Copy";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins9 = "HERO_03bdhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins9 = "HERO_03dbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins9 = "HERO_03bdhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins10 = "HERO_03dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins11 = "HERO_03dbp_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins10 = "HERO_03dbp2_Copy";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins10 = "HERO_03dbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins11 = "HERO_03dbp2_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
@@ -291,37 +298,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins11 = "HERO_03mbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins12 = "HERO_03mbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins11 = "HERO_03mbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins12 = "HERO_03mbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins12 = "HERO_03rbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins13 = "HERO_03rbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins12 = "HERO_03rbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins13 = "HERO_03rbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins13 = "HERO_03sbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins14 = "HERO_03sbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins13 = "HERO_03sbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins14 = "HERO_03sbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -906,12 +913,6 @@ namespace HearthDb
                 public const string ColdBlood_ColdBlood = "VAN_CS2_073_puzzle";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Add a Coin to your hand.<br/>
-                /// Tier-4 5/4 Undead Minion
-                /// </summary>
-                public const string TombPillager = "BG_LOE_012";
-
-                /// <summary>
                 /// Copied <b>Deathrattle</b> from {0}.<br/>
                 /// Enchantment
                 /// </summary>
@@ -966,12 +967,6 @@ namespace HearthDb
                 public const string DeadlyFork_SharpFork = "KAR_094a";
 
                 /// <summary>
-                /// <b>Stealth</b><br/>
-                /// Tier-4 5/1 Undead Minion
-                /// </summary>
-                public const string ShadowRager = "BG26_CFM_636";
-
-                /// <summary>
                 /// +4/+4.<br/>
                 /// Enchantment
                 /// </summary>
@@ -1006,12 +1001,6 @@ namespace HearthDb
                 /// 5-Cost Spell
                 /// </summary>
                 public const string TheCavernsBelow_CrystalCoreTokenUNGORO = "UNG_067t1";
-
-                /// <summary>
-                /// <b>Deathrattle:</b> Add two 1/1 Skeletons to your hand.<br/>
-                /// Tier-6 5/5 Undead Minion
-                /// </summary>
-                public const string BoneBaron = "BG26_ICC_065";
 
                 /// <summary>
                 /// Increased stats.<br/>
@@ -2016,12 +2005,6 @@ namespace HearthDb
                 public const string Waxmancy_ForgedInWaxEnchantment = "YOD_018e";
 
                 /// <summary>
-                /// <b>Stealth</b><br/>
-                /// Tier-5 7/5 Undead Minion
-                /// </summary>
-                public const string CursedShadowToken = "BG_BT_703t";
-
-                /// <summary>
                 /// Copied <b>Deathrattle</b> from {0}.<br/>
                 /// Enchantment
                 /// </summary>
@@ -2188,87 +2171,6 @@ namespace HearthDb
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string WinkFox = "Story_02_WinkFox";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string ScabbsCutterbutter_UndercoverChefCutterbutter = "BG21_HERO_010_SKIN_A3";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string ScabbsCutterbutter_StarScoutScabbs = "BG21_HERO_010_SKIN_B4";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string ScabbsCutterbutter_McScabbs = "BG21_HERO_010_SKIN_C";
-
-                /// <summary>
-                /// <b>Discover</b> a plain copy of a minion from your next opponent's warband.<br/>
-                /// 2-Cost HeroPower
-                /// </summary>
-                public const string ScabbsCutterbutter_ISpy = "BG21_HERO_010p";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Battlecry:</b> Gain +2/+2 for each other Pogo-Hopper you played this game.<br/>
-                /// Tier-2 1/1 Mechanical/Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Gain +4/+4 for each other Pogo-Hopper you played this game.<br/>
-                /// Tier-2 2/2 Mechanical/Beast Minion
-                /// </summary>
-                public const string PogoHopper = "BGS_028";
-
-                /// <summary>
-                /// Counts the number of Pogo-Hoppers played.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string PogoHopper_Pogocounterenchantment = "BGS_028pe";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 1/1 Pirate Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 2/2 Pirate Minion
-                /// </summary>
-                public const string Scallywag_SkyPirateToken = "BGS_061t";
-
-                /// <summary>
-                /// Get 2 Gold Coins.<br/>
-                /// Tier-1 0-Cost Spell
-                /// </summary>
-                public const string PocketChange = "BGS_Treasures_001";
-
-                /// <summary>
-                /// <b>Passive</b> After you sell a minion, gain 1 Gold next turn.<b>Passive</b> After you sell a minion, gain 1 Gold next turn. <i>({0} Gold saved.)</i><br/>
-                /// HeroPower
-                /// </summary>
-                public const string SmartSavingsTavernBrawl = "TB_BaconShop_HP_008";
-
-                /// <summary>
-                /// <b>Refresh</b> the Tavern with plain copies of your last opponent's warband.<br/>
-                /// 1-Cost HeroPower
-                /// </summary>
-                public const string BobsBurglesTavernBrawl = "TB_BaconShop_HP_077";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Battlecry:</b> Gain +4/+4 for each other Pogo-Hopper you played this game.<br/>
-                /// Tier-2 2/2 Mechanical/Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Battlecry:</b> Gain +2/+2 for each other Pogo-Hopper you played this game.<br/>
-                /// Tier-2 1/1 Mechanical/Beast Minion
-                /// </summary>
-                public const string PogoHopperTavernBrawl = "TB_BaconUps_077";
 
                 /// <summary>
                 /// Your next <b>Combo</b> card costs (2) less.<br/>
@@ -2881,6 +2783,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string SneedHeroicSTORMWIND = "BOM_07_Scabbs_Sneed_005hb";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a 1/1 Pirate. It attacks immediately.<br/>
+                /// 1-Cost 2/1 Pirate Minion
+                /// </summary>
+                public const string ScallywagToken = "BOM_07_Scallywag_001t";
 
                 /// <summary>
                 /// Add four Spy Gizmos to your hand.<br/>
@@ -4249,6 +4157,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string BloodthistleIllusionist_IllusionEnchantment2 = "EDR_780e";
+
+                /// <summary>
+                /// +3 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Cindersword_FieryEnchantment = "FIR_922e";
             }
         }
     }

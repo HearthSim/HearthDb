@@ -170,28 +170,6 @@ namespace HearthDb
                 public const string AlexstraszasChampion_AlexstraszasBoonEnchantment = "AT_071e";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Taunt</b> <b>Battlecry:</b> Give a minion <b>Taunt</b>.<br/>
-                /// Tier-2 3/2 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Taunt</b> <b>Battlecry:</b> Give a minion <b>Taunt</b>.<br/>
-                /// Tier-2 6/4 Minion
-                /// </summary>
-                public const string SparringPartner = "BG_AT_069";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Taunt</b> <b>Battlecry:</b> Give a minion <b>Taunt</b>.<br/>
-                /// Tier-2 6/4 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Taunt</b> <b>Battlecry:</b> Give a minion <b>Taunt</b>.<br/>
-                /// Tier-2 3/2 Minion
-                /// </summary>
-                public const string SparringPartner_SparringPartner = "BG_AT_069_G";
-
-                /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
@@ -1404,12 +1382,6 @@ namespace HearthDb
                 public const string Recruiter = "LOOTA_Warrior_13";
 
                 /// <summary>
-                /// After a friendly minion attacks, gain +1 Attack.<br/>
-                /// Tier-5 2/7 Undead Minion
-                /// </summary>
-                public const string FesterootHulk = "BG_GIL_655";
-
-                /// <summary>
                 /// +3 Attack this turn.<br/>
                 /// Enchantment
                 /// </summary>
@@ -2524,279 +2496,6 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Intimidation = "Story_02_Intimidation";
-
-                /// <summary>
-                /// <b>Passive.</b> After a friendly minion kills an enemy, give it +1 Attack permanently.<br/>
-                /// HeroPower
-                /// </summary>
-                public const string Rokara_GloryOfCombat = "BG20_HERO_100p";
-
-                /// <summary>
-                /// Give a minion in the Tavern +{1}/+{2}. <i>(Doubles every {0} turns!)</i>3Give a minion in the Tavern +{1}/+{2}. <i>(Doubles in {0} turns!)</i><br/>
-                /// 1-Cost HeroPower
-                /// </summary>
-                public const string OverlordSaurfang_ForTheHorde3 = "BG20_HERO_102p";
-
-                /// <summary>
-                /// <b>Passive.</b> Every 4 turns, ALL enemies fight the Lord of Terror and your warband for loot. <i>({0} turns left!)</i>4<b>Passive.</b> Every 4 turns, ALL enemies fight the Lord of Terror and your warband for loot. <i>(Next combat!)</i><br/>
-                /// HeroPower
-                /// </summary>
-                public const string Diablo_RealmOfTerror = "BG20_HERO_666p";
-
-                /// <summary>
-                /// <b>Deathrattle:</b> Give your opponent 2 loot! <i>(If this survives, Diablo gets 2 loot instead.)</i><br/>
-                /// Tier-1 4/4 Demon Minion
-                /// </summary>
-                public const string Diablo_DiabloLordOfTerror = "BG20_HERO_666p_t0";
-
-                /// <summary>
-                /// <b>Start of Combat:</b> Deal 1 damage to 3 random enemy minions.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_SigilOfHell = "BG20_HERO_666p_t1a";
-
-                /// <summary>
-                /// <b>Start of Combat:</b> Deal 3 damage to 3 random enemy minions.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_MagicSigilOfHell = "BG20_HERO_666p_t1b";
-
-                /// <summary>
-                /// <b>Start of Combat:</b> Deal 9 damage to 3 random enemy minions.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_RareSigilOfHell = "BG20_HERO_666p_t1c";
-
-                /// <summary>
-                /// <b>Start of Combat:</b> Deal 27 damage to 3 random enemy minions.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_UniqueSigilOfHell = "BG20_HERO_666p_t1d";
-
-                /// <summary>
-                /// +{0}/+{1} until next turn.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Diablo_Terrifying = "BG20_HERO_666p_t3_e";
-
-                /// <summary>
-                /// Give a friendly minion +2/+2 until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_ClawsOfTerror = "BG20_HERO_666p_t3a";
-
-                /// <summary>
-                /// Give a friendly minion +6/+6 until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_MagicClawsOfTerror = "BG20_HERO_666p_t3b";
-
-                /// <summary>
-                /// Give a friendly minion +12/+12 until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_RareClawsOfTerror = "BG20_HERO_666p_t3c";
-
-                /// <summary>
-                /// Double a friendly minion's Attack and Health until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_UniqueClawsOfTerror = "BG20_HERO_666p_t3d";
-
-                /// <summary>
-                /// Give a friendly minion <b>Windfury</b> until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_MagmaHorns = "BG20_HERO_666p_t4a";
-
-                /// <summary>
-                /// <b>Windfury</b> until next turn.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Diablo_FuriousHorns = "BG20_HERO_666p_t4a_e";
-
-                /// <summary>
-                /// <b>Reborn</b> until next turn.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Diablo_ResilientHorns = "BG20_HERO_666p_t4a_e2";
-
-                /// <summary>
-                /// <b>Divine Shield</b> until next turn.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Diablo_HardenedHorns = "BG20_HERO_666p_t4a_e3";
-
-                /// <summary>
-                /// Give a friendly minion <b>Reborn</b> until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_MagicMagmaHorns = "BG20_HERO_666p_t4b";
-
-                /// <summary>
-                /// Give a friendly minion <b>Divine Shield</b> until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_RareMagmaHorns = "BG20_HERO_666p_t4c";
-
-                /// <summary>
-                /// Give a friendly minion <b>Windfury</b>, <b>Reborn</b>, and <b>Divine Shield</b> until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_UniqueMagmaHorns = "BG20_HERO_666p_t4d";
-
-                /// <summary>
-                /// + Attack until next turn.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Diablo_Hooved = "BG20_HERO_666p_t5_e";
-
-                /// <summary>
-                /// Give your minions +1 Attack until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_HellfireHooves = "BG20_HERO_666p_t5a";
-
-                /// <summary>
-                /// Give your minions +3 Attack until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_MagicHellfireHooves = "BG20_HERO_666p_t5b";
-
-                /// <summary>
-                /// Give your minions +9 Attack until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_RareHellfireHooves = "BG20_HERO_666p_t5c";
-
-                /// <summary>
-                /// Give your minions +27 Attack until next turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_UniqueHellfireHooves = "BG20_HERO_666p_t5d";
-
-                /// <summary>
-                /// <b>Secret:</b> After your last minion dies, summon a random Demon.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_BlackSoulstone = "BG20_HERO_666p_t6a";
-
-                /// <summary>
-                /// <b>Secret:</b> After your last minion dies, summon 2 random Demons.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_MagicBlackSoulstone = "BG20_HERO_666p_t6b";
-
-                /// <summary>
-                /// <b>Secret:</b> After your last minion dies, summon 3 random Demons.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_RareBlackSoulstone = "BG20_HERO_666p_t6c";
-
-                /// <summary>
-                /// <b>Secret:</b> After your last minion dies, summon 4 random Demons.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Diablo_UniqueBlackSoulstone = "BG20_HERO_666p_t6d";
-
-                /// <summary>
-                /// Stored minion. If you win you gain a copy.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Diablo_Soulstone1 = "BG20_HERO_666p2e";
-
-                /// <summary>
-                /// Terror is coming...<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Diablo_Soulstone2 = "BG20_HERO_666p2e3";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string Sneed_SubmersibleSneed = "BG21_HERO_030_SKIN_A";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string Sneed_SinstoneSneed = "BG21_HERO_030_SKIN_B3";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string Sneed_BonethresherSneed = "BG21_HERO_030_SKIN_C";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string Sneed_SneedChariotRacer = "BG21_HERO_030_SKIN_D";
-
-                /// <summary>
-                /// +4/+4.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string DiremuckForager_Foraged = "BG27_556_Ge";
-
-                /// <summary>
-                /// +2/+2.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string DiremuckForager_ForagedEnchantment = "BG27_556e";
-
-                /// <summary>
-                /// <b>Taunt</b><br/>
-                /// Enchantment
-                /// </summary>
-                public const string AssistantGuard_AsIsTauntEnchantment = "BG29_845e2";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// After a friendly minion attacks, gain +2 Attack.<br/>
-                /// Tier-4 4/14 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// After a friendly minion attacks, gain +1 Attack.<br/>
-                /// Tier-4 2/7 Undead Minion
-                /// </summary>
-                public const string FesterootHulkTavernBrawl = "TB_BaconUps_033";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// Whenever this minion takes damage, summon a 4/6 Mech with <b>Taunt</b>.<br/>
-                /// Tier-4 4/12 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// Whenever this minion takes damage, summon a 2/3 Mech with <b>Taunt</b>.<br/>
-                /// Tier-4 2/6 Mechanical Minion
-                /// </summary>
-                public const string SecurityRoverTavernBrawl = "TB_BaconUps_041";
-
-                /// <summary>
-                /// <b>Taunt</b><br/>
-                /// Tier-1 4/6 Mechanical Minion
-                /// </summary>
-                public const string SecurityRover_GuardBotTokenTavernBrawl = "TB_BaconUps_041t";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Battlecry:</b> Give a friendly Mech +4/+4.<br/>
-                /// Tier-3 4/10 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Battlecry:</b> Give a friendly Mech +2/+2.<br/>
-                /// Tier-3 2/5 Mechanical Minion
-                /// </summary>
-                public const string ScrewjankClunkerTavernBrawl = "TB_BaconUps_069";
-
-                /// <summary>
-                /// +4/+4.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string ScrewjankClunker_ScrewyJankEnchantmentTavernBrawl = "TB_BaconUps_069e";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -4867,6 +4566,18 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string OminousNightmares_TerrorOfTheNightEnchantment = "EDR_570e";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string KeeperofFlame_BlazingStrengthEnchantment = "FIR_928e";
+
+                /// <summary>
+                /// +3 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DragonTurtle_TurtleMawEnchantment = "FIR_956e";
             }
         }
     }

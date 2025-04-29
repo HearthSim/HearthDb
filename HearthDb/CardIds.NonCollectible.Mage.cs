@@ -1634,17 +1634,6 @@ namespace HearthDb
                 public const string ChaosTROLL = "TRLA_Mage_10";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// Your cards that summon minions summon twice as many.<br/>
-                /// Tier-3 2/2 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Your cards that summon minions summon three times as many.<br/>
-                /// Tier-3 4/4 Minion
-                /// </summary>
-                public const string KhadgarDALARAN = "BG_DAL_575";
-
-                /// <summary>
                 /// Destroy a minion. Summon 2 minions of the same Cost to replace it.<br/>
                 /// 3-Cost Spell
                 /// </summary>
@@ -2692,65 +2681,6 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string LadyDarkscale = "Story_02_Darkscale";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string VardenDawngrasp_DawnGuardianVarden = "BG22_HERO_004_SKIN_A";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string VardenDawngrasp_MagisterDawngrasp = "BG22_HERO_004_SKIN_B";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string VardenDawngrasp_ValkyrVarden = "BG22_HERO_004_SKIN_C";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string VardenDawngrasp_AzeriteVarden = "BG22_HERO_004_SKIN_D";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string VardenDawngrasp_RebelVarden = "BG22_HERO_004_SKIN_E";
-
-                /// <summary>
-                /// <b>Secret:</b> When one of your minions is attacked, summon a copy of it.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string SplittingImageTavernBrawl = "TB_Bacon_Secrets_04";
-
-                /// <summary>
-                /// <b>Secret:</b> When a friendly minion dies, summon a random minion with the same Cost.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string EffigyTavernBrawl = "TB_Bacon_Secrets_05";
-
-                /// <summary>
-                /// <b>Secret:</b> When your hero takes fatal damage, prevent it and become <b>Immune</b> this turn.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string IceBlockTavernBrawl = "TB_Bacon_Secrets_12";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// Whenever this attacks, triple its Attack.<br/>
-                /// Tier-2 4/8 Dragon/Undead Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// Whenever this attacks, double its Attack.<br/>
-                /// Tier-2 2/4 Dragon/Undead Minion
-                /// </summary>
-                public const string GlyphGuardianTavernBrawl = "TB_BaconUps_115";
 
                 /// <summary>
                 /// (No Text)<br/>

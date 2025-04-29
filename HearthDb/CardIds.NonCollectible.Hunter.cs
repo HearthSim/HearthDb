@@ -20,61 +20,6 @@ namespace HearthDb
                 public const string ArcaneShotBASIC = "RLK_Prologue_DS1_185";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// Whenever a friendly Beast dies, gain +2/+1.<br/>
-                /// Tier-1 2/2 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Whenever a friendly Beast dies, gain +4/+2.<br/>
-                /// Tier-1 4/4 Beast Minion
-                /// </summary>
-                public const string ScavengingHyenaExpert1 = "BG_EX1_531";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> Summon two 2/2 Hyenas.<br/>
-                /// Tier-4 6/5 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Deathrattle:</b> Summon two 4/4 Hyenas.<br/>
-                /// Tier-4 12/10 Beast Minion
-                /// </summary>
-                public const string SavannahHighmane = "BG_EX1_534";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 2/2 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 4/4 Beast Minion
-                /// </summary>
-                public const string SavannahHighmane_HyenaTokenExpert11 = "BG_EX1_534t";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 1/1 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 2/2 Beast Minion
-                /// </summary>
-                public const string SnakeToken1 = "BG_EX1_554t";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 2/2 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 1/1 Beast Minion
-                /// </summary>
-                public const string SnakeToken2 = "BG_EX1_554t_G";
-
-                /// <summary>
                 /// Your hero is <b>Immune</b> while attacking.<br/>
                 /// Enchantment
                 /// </summary>
@@ -196,17 +141,6 @@ namespace HearthDb
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ArcaneShotMissions = "TU5_DS1_185";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Battlecry:</b> Give your other Mechs +2 Attack.<br/>
-                /// Tier-2 3/3 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Give your other Mechs +4 Attack.<br/>
-                /// Tier-2 6/6 Mechanical Minion
-                /// </summary>
-                public const string MetaltoothLeaperGVG1 = "BG_GVG_048";
 
                 /// <summary>
                 /// +2 Attack.<br/>
@@ -397,37 +331,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins5 = "HERO_05dbp";
+                public const string Rexxar_SteadyShotHeroSkins5 = "HERO_05bfhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins5 = "HERO_05dbp2";
+                public const string Rexxar_BallistaShotHeroSkins5 = "HERO_05bfhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins6 = "HERO_05ybp";
+                public const string Rexxar_SteadyShotHeroSkins6 = "HERO_05dbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins6 = "HERO_05ybp2";
+                public const string Rexxar_BallistaShotHeroSkins6 = "HERO_05dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins7 = "HERO_05zbp";
+                public const string Rexxar_SteadyShotHeroSkins7 = "HERO_05ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins7 = "HERO_05zbp2";
+                public const string Rexxar_BallistaShotHeroSkins7 = "HERO_05ybp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_SteadyShotHeroSkins8 = "HERO_05zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_BallistaShotHeroSkins8 = "HERO_05zbp2";
 
                 /// <summary>
                 /// Change a minion's Health to 1.<br/>
@@ -898,28 +844,6 @@ namespace HearthDb
                 public const string InfestedWolf_Spider = "OG_216a";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> Summon a 3/2 Big Bad Wolf.<br/>
-                /// Tier-1 1/1 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Deathrattle:</b> Summon a 6/4 Big Bad Wolf.<br/>
-                /// Tier-1 2/2 Beast Minion
-                /// </summary>
-                public const string KindlyGrandmotherKARA2 = "BG_KAR_005";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 3/2 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 6/4 Beast Minion
-                /// </summary>
-                public const string KindlyGrandmother_BigBadWolfKARA1 = "BG_KAR_005a";
-
-                /// <summary>
                 /// <b>Stealth</b><br/>
                 /// 3-Cost 4/2 Beast Minion
                 /// </summary>
@@ -943,50 +867,6 @@ namespace HearthDb
                 public const string KindlyGrandmotherTavernBrawl = "TB_BaconUps_004";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Battlecry:</b> Summon a 1/1 Cat.<br/>
-                /// Tier-1 1/1 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Summon a 2/2 Cat.<br/>
-                /// Tier-1 2/2 Beast Minion
-                /// </summary>
-                public const string Alleycat = "BG_CFM_315";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 1/1 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 2/2 Beast Minion
-                /// </summary>
-                public const string Alleycat_TabbycatTokenGANGS1 = "BG_CFM_315t";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> Summon a number of 1/1 Rats equal to this minion's Attack.<br/>
-                /// Tier-3 2/2 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Deathrattle:</b> Summon a number of 2/2 Rats equal to this minion's Attack.<br/>
-                /// Tier-3 4/4 Beast Minion
-                /// </summary>
-                public const string RatPack = "BG_CFM_316";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 1/1 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 2/2 Beast Minion
-                /// </summary>
-                public const string RatPack_RatTokenGANGS1 = "BG_CFM_316t";
-
-                /// <summary>
                 /// +2/+2 from Hidden Cache.<br/>
                 /// Enchantment
                 /// </summary>
@@ -996,7 +876,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
-                public const string Alleycat_TabbycatTokenGANGS2 = "CFM_315t";
+                public const string Alleycat_TabbycatTokenGANGS = "CFM_315t";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1037,28 +917,6 @@ namespace HearthDb
                 /// Tier-1 1/1 Beast Minion
                 /// </summary>
                 public const string RatPack_RatTokenTavernBrawl = "TB_BaconUps_027t";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Battlecry:</b> Summon a 2/2 Cat.<br/>
-                /// Tier-1 2/2 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Battlecry:</b> Summon a 1/1 Cat.<br/>
-                /// Tier-1 1/1 Beast Minion
-                /// </summary>
-                public const string AlleycatTavernBrawl = "TB_BaconUps_093";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 2/2 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 1/1 Beast Minion
-                /// </summary>
-                public const string Alleycat_TabbycatTokenTavernBrawl = "TB_BaconUps_093t";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1107,17 +965,6 @@ namespace HearthDb
                 /// 0-Cost 1/1 Beast/Undead Minion
                 /// </summary>
                 public const string DeathstalkerRexxar_ZombeastToken = "ICC_828t";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// Also damages the minions next to whomever this attacks.<br/>
-                /// Tier-4 2/4 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Also damages the minions next to whomever this attacks.<br/>
-                /// Tier-4 4/8 Beast Minion
-                /// </summary>
-                public const string CaveHydra = "BG_LOOT_078";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1262,17 +1109,6 @@ namespace HearthDb
                 /// 7-Cost Spell
                 /// </summary>
                 public const string CrushingWalls = "RLK_Prologue_LOOT_522";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// Also damages the minions next to whomever this attacks.<br/>
-                /// Tier-4 4/8 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// Also damages the minions next to whomever this attacks.<br/>
-                /// Tier-4 2/4 Beast Minion
-                /// </summary>
-                public const string CaveHydraTavernBrawl = "TB_BaconUps_151";
 
                 /// <summary>
                 /// <b>Stealth</b> Each turn this is in your hand, swap its Attack and Health.<br/>
@@ -2601,126 +2437,6 @@ namespace HearthDb
                 public const string Tuffer = "Story_02_Tuffer";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.<br/>
-                /// Tier-3 4/3 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Give a friendly Beast +4/+4 and <b>Taunt</b>.<br/>
-                /// Tier-3 8/6 Minion
-                /// </summary>
-                public const string Houndmaster = "BG_DS1_070";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// After you play a minion with <b>Deathrattle</b>, gain +1/+2.<br/>
-                /// Tier-2 3/2 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// After you play a minion with <b>Deathrattle</b>, gain +2/+4.<br/>
-                /// Tier-2 6/4 Beast Minion
-                /// </summary>
-                public const string RabidSauroliskBATTLEGROUNDS = "BGS_075";
-
-                /// <summary>
-                /// +1/+2.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string RabidSaurolisk_RabidEnchantment = "BGS_075e";
-
-                /// <summary>
-                /// <b>Secret:</b> When one of your minions is attacked, summon a 2/3 <b>Poisonous</b> Cobra.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string VenomstrikeTrapTavernBrawl = "TB_Bacon_Secrets_01";
-
-                /// <summary>
-                /// <b>Secret:</b> When one of your minions is attacked, summon three 1/1 Snakes.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string SnakeTrapTavernBrawl = "TB_Bacon_Secrets_02";
-
-                /// <summary>
-                /// <b>Secret:</b> When a friendly minion is attacked, summon a 3/3 copy.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string PackTacticsTavernBrawl = "TB_Bacon_Secrets_15";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// (No Text)<br/>
-                /// Tier-1 6/4 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// (No Text)<br/>
-                /// Tier-1 3/2 Beast Minion
-                /// </summary>
-                public const string KindlyGrandmother_BigBadWolfTokenTavernBrawl = "TB_BaconUps_004t";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Summon two 2/2 Spiders.<br/>
-                /// Tier-3 6/6 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Deathrattle:</b> Summon two 1/1 Spiders.<br/>
-                /// Tier-3 3/3 Beast Minion
-                /// </summary>
-                public const string InfestedWolfTavernBrawl = "TB_BaconUps_026";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// Tier-1 2/2 Beast Minion
-                /// </summary>
-                public const string InfestedWolf_SpiderTokenTavernBrawl = "TB_BaconUps_026t";
-
-                /// <summary>
-                /// Increased Attack and Health.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string ScavengingHyena_WellFedEnchantmentTavernBrawl = "TB_BaconUps_043e";
-
-                /// <summary>
-                /// +4 Attack.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string MetaltoothLeaper_MetalTeethEnchantmentTavernBrawl = "TB_BaconUps_066e";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Battlecry:</b> Give a friendly Beast +4/+4 and <b>Taunt</b>.<br/>
-                /// Tier-3 8/6 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Taunt</b>.<br/>
-                /// Tier-3 4/3 Minion
-                /// </summary>
-                public const string HoundmasterTavernBrawl = "TB_BaconUps_068";
-
-                /// <summary>
-                /// +4/+4 and <b>Taunt</b>.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Houndmaster_MastersPresenceEnchantmentTavernBrawl = "TB_BaconUps_068e";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// After you play a minion with <b>Deathrattle</b>, gain +2/+4.<br/>
-                /// Tier-2 6/4 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// After you play a minion with <b>Deathrattle</b>, gain +1/+2.<br/>
-                /// Tier-2 3/2 Beast Minion
-                /// </summary>
-                public const string RabidSauroliskTavernBrawl = "TB_BaconUps_125";
-
-                /// <summary>
-                /// +2/+4.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string RabidSaurolisk_RabidEnchantmentTavernBrawl = "TB_BaconUps_125e";
-
-                /// <summary>
                 /// <b>Corrupted</b> <b>Poisonous</b><br/>
                 /// 2-Cost 1/5 Beast Minion
                 /// </summary>
@@ -3615,12 +3331,6 @@ namespace HearthDb
                 public const string HufferLegacy = "NEW1_034";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If your deck has no duplicates, summon King Krush.<br/>
-                /// 7-Cost 2/4 Minion
-                /// </summary>
-                public const string DinotamerBrannCore = "CORE_ULD_156";
-
-                /// <summary>
                 /// (No Text)<br/>
                 /// Tier-1 1/1 Beast Minion
                 /// </summary>
@@ -4033,28 +3743,6 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Banjosaur_DinoStarEnchantment = "ETC_840e";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// After you summon a minion with more Attack than this, give all friendly minions +1 Attack.<br/>
-                /// Tier-3 1/4 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// After you summon a minion with more Attack than this, give all friendly minions +2 Attack.<br/>
-                /// Tier-3 2/8 Minion
-                /// </summary>
-                public const string ObserverOfMyths = "BG_TTN_078";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// After you summon a minion with more Attack than this, give all friendly minions +2 Attack.<br/>
-                /// Tier-3 2/8 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// After you summon a minion with more Attack than this, give all friendly minions +1 Attack.<br/>
-                /// Tier-3 1/4 Minion
-                /// </summary>
-                public const string ObserverofMyths_ObserverOfMyths = "BG_TTN_078_G";
 
                 /// <summary>
                 /// +1 Attack.<br/>
@@ -4669,7 +4357,7 @@ namespace HearthDb
                 public const string BlindingCarapaceToken15 = "EDR_101t9";
 
                 /// <summary>
-                /// +2/+2 and <b>Deathrattle:</b> Give a friendly minion +2/+2 and this <b>Deathrattle</b>. <i>( stacks)</i><br/>
+                /// +2/+2 and <b>Deathrattle:</b> Give a friendly minion +2/+2 and this <b>Deathrattle</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string AmphibiansSpirit_AmphibiansSpiritEnchantment = "EDR_261e";
@@ -4697,6 +4385,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string ShepherdsCrook_SleepyEnchantmentToken = "EDR_416te";
+
+                /// <summary>
+                /// Deals double damage.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Goldrinn_GreatwolfsFerocityEnchantment = "EDR_480e";
 
                 /// <summary>
                 /// <b>Poisonous</b> this turn.<br/>

@@ -32,6 +32,17 @@ namespace HearthDb
                 public const string SpiritWolf = "EX1_tk11";
 
                 /// <summary>
+                /// Triple (this):<br/>
+                /// <b>Battlecry:</b> Give your other Murlocs +4 Health.<br/>
+                /// Tier-2 4/6 Murloc Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// <b>Battlecry:</b> Give your other Murlocs +2 Health.<br/>
+                /// Tier-2 2/3 Murloc Minion
+                /// </summary>
+                public const string ColdlightSeerTavernBrawl = "TB_BaconUps_064";
+
+                /// <summary>
                 /// +2/+2.<br/>
                 /// Enchantment
                 /// </summary>
@@ -1914,42 +1925,6 @@ namespace HearthDb
                 /// 7-Cost Spell
                 /// </summary>
                 public const string Monsoon = "Story_02_Monsoon";
-
-                /// <summary>
-                /// Give 4 random friendly minions "<b>Deathrattle:</b> Summon a 1/1 Elemental."<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Brukan_EarthInvocation2 = "BG22_HERO_001p_t1_s";
-
-                /// <summary>
-                /// Double your left-most minion's Attack.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Brukan_FireInvocation2 = "BG22_HERO_001p_t2_s";
-
-                /// <summary>
-                /// Give your right-most minion +3 Health and <b>Taunt</b>.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Brukan_WaterInvocation2 = "BG22_HERO_001p_t3_s";
-
-                /// <summary>
-                /// Deal 1 damage to 5 random enemy minions.<br/>
-                /// 0-Cost Spell
-                /// </summary>
-                public const string Brukan_LightningInvocation2 = "BG22_HERO_001p_t4_s";
-
-                /// <summary>
-                /// Replace all minions in the Tavern with ones of a Tier higher.<br/>
-                /// Tier-2 0-Cost Spell
-                /// </summary>
-                public const string EvolvingTavern = "BGS_Treasures_006";
-
-                /// <summary>
-                /// <b>Passive</b> After you upgrade the Tavern, replace its minions with ones of a higher Tier.<br/>
-                /// HeroPower
-                /// </summary>
-                public const string EvolvingElectricityTavernBrawl = "TB_BaconShop_HP_067";
 
                 /// <summary>
                 /// <b>Corrupted</b> Deal $4 damage, then deal $2 damage to all enemy minions.<br/>

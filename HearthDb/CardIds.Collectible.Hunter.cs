@@ -722,12 +722,6 @@ namespace HearthDb
                 public const string SpringpawCorePlaceholder = "CORE_TRL_348";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If your deck has no duplicates, summon King Krush.<br/>
-                /// 7-Cost 2/4 Minion
-                /// </summary>
-                public const string DinotamerBrann_DinotamerBrannCorePlaceholderToken = "CORE_ULD_156t";
-
-                /// <summary>
                 /// <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle</b>.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
@@ -1226,6 +1220,24 @@ namespace HearthDb
                 public const string DeadlyShot = "EX1_617";
 
                 /// <summary>
+                /// Deal $2 damage to three random enemies.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string BurstingShot = "FIR_909";
+
+                /// <summary>
+                /// <b>Rush</b>. After this attacks a minion and survives, deal this minion's Attack damage split among all enemies.<br/>
+                /// 8-Cost 5/8 Beast/Elemental Minion
+                /// </summary>
+                public const string MagmaHound = "FIR_953";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Copy the lowest Cost Beast in your hand.<br/>
+                /// 3-Cost 3/2 Dragon Minion
+                /// </summary>
+                public const string TendingDragonkin = "FIR_960";
+
+                /// <summary>
                 /// <b>Deathrattle:</b> Get a random Beast.<br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
@@ -1547,6 +1559,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Rexxar_ArdenwealdHulnHeroHeroSkins = "HERO_05ax";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_KerriganHeroHeroSkins = "HERO_05az";
 
                 /// <summary>
@@ -1554,6 +1572,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Rexxar_WandererRexxarHeroHeroSkins = "HERO_05b";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_ArachnidKerriganHeroHeroSkins = "HERO_05bf";
 
                 /// <summary>
                 /// (No Text)<br/>

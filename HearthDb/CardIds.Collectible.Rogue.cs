@@ -1208,6 +1208,24 @@ namespace HearthDb
                 public const string EdwinVancleef = "EX1_613";
 
                 /// <summary>
+                /// Costs (1) less for each card you've played this turn. <b>Deathrattle:</b> Return this to your hand.<br/>
+                /// 4-Cost 2/2 Elemental Minion
+                /// </summary>
+                public const string EverburningPhoenix = "FIR_919";
+
+                /// <summary>
+                /// <b>Discover</b> a <b>Combo</b>, <b>Battlecry</b>, or <b>Stealth</b> minion with a <b>Dark Gift</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SmokeBomb = "FIR_920";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you're holding a minion with a <b>Dark Gift</b>, gain +3 Attack.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
+                public const string Cindersword = "FIR_922";
+
+                /// <summary>
                 /// <b>Deathrattle:</b> Return a random friendly minion to your hand.<br/>
                 /// 4-Cost 5/5 Undead Minion
                 /// </summary>

@@ -473,6 +473,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string MalfurionStormrage_ShapeshiftHeroSkins4 = "HERO_06ayhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins4 = "HERO_06ayhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string MalfurionStormrageHeroic_ShapeshiftHeroSkins2 = "HERO_06bahp";
 
                 /// <summary>
@@ -497,61 +509,61 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins4 = "HERO_06fbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins5 = "HERO_06fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins4 = "HERO_06fbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins5 = "HERO_06fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins5 = "HERO_06pbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins6 = "HERO_06pbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins5 = "HERO_06pbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins6 = "HERO_06pbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins6 = "HERO_06rbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins7 = "HERO_06rbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins6 = "HERO_06rbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins7 = "HERO_06rbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins7 = "HERO_06ubp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins8 = "HERO_06ubp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins7 = "HERO_06ubp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins8 = "HERO_06ubp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins8 = "HERO_06zbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins9 = "HERO_06zbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins8 = "HERO_06zbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins9 = "HERO_06zbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1214,28 +1226,6 @@ namespace HearthDb
                 public const string RavenIdol_Awakened = "LOE_115b";
 
                 /// <summary>
-                /// Normal (this):<br/>
-                /// Your <b>Choose One</b> cards and powers have both effects combined.<br/>
-                /// Tier-5 3/5 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Your <b>Choose One</b> cards and powers have both effects combined.<br/>
-                /// Tier-5 6/10 Minion
-                /// </summary>
-                public const string FandralStaghelm = "BG_OG_044";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// Your <b>Choose One</b> cards and powers have both effects combined.<br/>
-                /// Tier-5 6/10 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// Your <b>Choose One</b> cards and powers have both effects combined.<br/>
-                /// Tier-5 3/5 Minion
-                /// </summary>
-                public const string FandralStaghelm_FandralStaghelm = "BG_OG_044_G";
-
-                /// <summary>
                 /// Get a Beast when this dies.<br/>
                 /// Enchantment
                 /// </summary>
@@ -1396,17 +1386,6 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string JungleGiants_RomperStompersEnchantmentToken = "UNG_116te";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Battlecry:</b> Give your <b>Taunt</b> minions +2/+2.<br/>
-                /// Tier-4 2/3 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Give your <b>Taunt</b> minions +4/+4.<br/>
-                /// Tier-4 4/6 Minion
-                /// </summary>
-                public const string StrongshellScavenger = "BG_ICC_807";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Give all minions +2/+2.<br/>
@@ -3009,80 +2988,6 @@ namespace HearthDb
                 /// 0-Cost Spell
                 /// </summary>
                 public const string LightningBloom = "Story_11_LightningBloom";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string GuffRunetotem_StormwindGuardGuff = "BG20_HERO_242_SKIN_A";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string GuffRunetotem_OasisGuff = "BG20_HERO_242_SKIN_B";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string GuffRunetotem_ExodarGuff = "BG20_HERO_242_SKIN_C";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> Summon a random 1-Cost minion.<br/>
-                /// Tier-2 3/2 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Deathrattle:</b> Summon two random 1-Cost minions.<br/>
-                /// Tier-2 6/4 Beast Minion
-                /// </summary>
-                public const string MountedRaptor = "BGS_025";
-
-                /// <summary>
-                /// Costs (0).<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Costs0TavernBrawl = "TB_BaconShopBadsongE";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Summon two random 1-Cost minions.<br/>
-                /// Tier-2 6/4 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Deathrattle:</b> Summon a random 1-Cost minion.<br/>
-                /// Tier-2 3/2 Beast Minion
-                /// </summary>
-                public const string MountedRaptorTavernBrawl = "TB_BaconUps_019";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Overkill:</b> Summon a 10/10 Ironhide Runt.<br/>
-                /// Tier-5 14/14 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Overkill:</b> Summon a 5/5 Ironhide Runt.<br/>
-                /// Tier-5 7/7 Beast Minion
-                /// </summary>
-                public const string IronhideDirehornTavernBrawl = "TB_BaconUps_051";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// Tier-1 10/10 Beast Minion
-                /// </summary>
-                public const string IronhideDirehorn_IronhideRuntTokenTavernBrawl = "TB_BaconUps_051t";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Battlecry:</b> Give a friendly Beast +4/+4.<br/>
-                /// Tier-4 8/10 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Battlecry:</b> Give a friendly Beast +3/+3.<br/>
-                /// Tier-4 4/4 Minion
-                /// </summary>
-                public const string VirmenSenseiTavernBrawl = "TB_BaconUps_074";
 
                 /// <summary>
                 /// The next spell you cast costs (2) less.<br/>
@@ -5609,6 +5514,30 @@ namespace HearthDb
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string DreamboundDisciple_PlantGolem3 = "EDR_847pt4";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Overheat_OverheatedEnchantment = "FIR_906e";
+
+                /// <summary>
+                /// +1/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CharredChameleon_SpreadingFlamesEnchantment = "FIR_908e3";
+
+                /// <summary>
+                /// This card is on fire!<br/>
+                /// Enchantment
+                /// </summary>
+                public const string KeeperofFlame_BurningUpEnchantment1 = "FIR_928e2";
+
+                /// <summary>
+                /// This card is on fire!<br/>
+                /// Enchantment
+                /// </summary>
+                public const string KeeperofFlame_BurningUpEnchantment2 = "FIR_928e3";
             }
         }
     }

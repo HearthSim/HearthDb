@@ -137,49 +137,61 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins8 = "HERO_10cbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins8 = "HERO_10bdhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins8 = "HERO_10cbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins8 = "HERO_10bdhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins9 = "HERO_10lbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins9 = "HERO_10cbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins9 = "HERO_10lbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins9 = "HERO_10cbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins10 = "HERO_10xbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins10 = "HERO_10lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins10 = "HERO_10xbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins10 = "HERO_10lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins11 = "HERO_10zbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins11 = "HERO_10xbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins11 = "HERO_10zbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins11 = "HERO_10xbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrage_DemonClawsHeroSkins12 = "HERO_10zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrage_DemonsBiteHeroSkins12 = "HERO_10zbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -846,72 +858,6 @@ namespace HearthDb
                 /// 1-Cost 1/1 Demon Minion
                 /// </summary>
                 public const string VilefiendTrainer_SnarlingVilefiendToken = "SCH_705t";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string KurtrusAshfallen_SuedeKurtrus = "BG20_HERO_280_SKIN_A";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string KurtrusAshfallen_AshfallenFirewalker = "BG20_HERO_280_SKIN_B2";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string KurtrusAshfallen_TheHonorableAshfallen = "BG20_HERO_280_SKIN_C3";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string KurtrusAshfallen_MrrrtrusAshfallen = "BG20_HERO_280_SKIN_D";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
-                public const string KurtrusAshfallen_GunglaiveKurtrus = "BG20_HERO_280_SKIN_E";
-
-                /// <summary>
-                /// <b>Passive</b> Buy 3 minions in 1 turn to give them +2/+2 and progress this. <i>(3 left!)</i><br/>
-                /// HeroPower
-                /// </summary>
-                public const string KurtrusAshfallen_FinalShowdown = "BG20_HERO_280p";
-
-                /// <summary>
-                /// <b>Passive.</b> Buy 4 minions in 1 turn to give your hand and board +2/+2 and progress this. <i>(4 left!)</i><br/>
-                /// HeroPower
-                /// </summary>
-                public const string KurtrusAshfallen_GainMomentum = "BG20_HERO_280p2";
-
-                /// <summary>
-                /// <b>Passive.</b> Buy 5 minions in 1 turn to give ALL your minions this game +2/+2 and complete this. <i>({0} left!)</i>5<b>Passive.</b> Buy 5 minions in 1 turn to give ALL your minions this game +2/+2. <i>(Complete!)</i><br/>
-                /// HeroPower
-                /// </summary>
-                public const string KurtrusAshfallen_CloseThePortal = "BG20_HERO_280p3";
-
-                /// <summary>
-                /// <b>Passive</b> The first minion you buy each turn is free.<br/>
-                /// HeroPower
-                /// </summary>
-                public const string DemonHunterTraining_SpectralSightTokenTavernBrawl = "TB_BaconShop_HP_065t2";
-
-                /// <summary>
-                /// <b>Passive.</b> <b>Start of Combat:</b> Your left and right-most minions gain +2/+1 and attack immediately.<br/>
-                /// HeroPower
-                /// </summary>
-                public const string WingmenTavernBrawl = "TB_BaconShop_HP_069";
-
-                /// <summary>
-                /// +2/+1.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Wingmen_WingmenEnchantmentTavernBrawl = "TB_BaconShop_HP_069e";
 
                 /// <summary>
                 /// Your hero has +2 Attack this turn.<br/>

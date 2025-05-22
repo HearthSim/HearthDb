@@ -4263,7 +4263,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Shuffle two Emerald Portals into your deck. <i>(Your Portals summon <b>1</b>-Cost Dragons.)</i><br/>
-                /// 2-Cost HeroPower
+                /// 1-Cost HeroPower
                 /// </summary>
                 public const string BlessingOfTheDragon = "EDR_445p";
 

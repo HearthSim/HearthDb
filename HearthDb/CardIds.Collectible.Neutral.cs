@@ -4240,14 +4240,14 @@ namespace HearthDb
                 public const string FlutterwingGuardian = "EDR_800";
 
                 /// <summary>
-                /// Your Dragons cost (1).<br/>
+                /// Your first Dragon each turn costs (1).<br/>
                 /// 7-Cost 7/7 Minion
                 /// </summary>
                 public const string NaralexHeraldOfTheFlights = "EDR_844";
 
                 /// <summary>
                 /// Get all 5 Dream cards. If you've played a higher Cost card while holding this, corrupt them!<br/>
-                /// 7-Cost Spell
+                /// 8-Cost Spell
                 /// </summary>
                 public const string Shaladrassil = "EDR_846";
 
@@ -5159,7 +5159,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Draw a Fire spell.<br/>
-                /// 2-Cost 2/2 Elemental Minion
+                /// 2-Cost 3/2 Elemental Minion
                 /// </summary>
                 public const string LivingFlame = "FIR_929";
 
@@ -6241,7 +6241,7 @@ namespace HearthDb
                 public const string TheLichKing = "ICC_314";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Battlecry:</b> Summon a copy of this minion.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Summon a Saronite Chain Gang.<br/>
                 /// 4-Cost 2/3 Draenei Minion
                 /// </summary>
                 public const string SaroniteChainGang = "ICC_466";
@@ -8543,7 +8543,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Your Hero Power triggers twice.<br/>
-                /// 2-Cost 1/4 Mechanical Minion
+                /// 3-Cost 2/4 Mechanical Minion
                 /// </summary>
                 public const string SingAlongBuddy = "TOY_528";
 

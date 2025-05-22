@@ -1070,7 +1070,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Reduce the Cost of minions in your hand with <b>Dark Gifts</b> by (2).<br/>
-                /// 5-Cost 4/6 Minion
+                /// 4-Cost 3/5 Minion
                 /// </summary>
                 public const string OvergrownHorror = "EDR_654";
 
@@ -2387,7 +2387,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give a friendly minion "<b>Deathrattle:</b> Summon two copies of this minion that are <b>Dormant</b> for 2 turns."<br/>
-                /// 3-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string CursedCampaign = "TOY_527";
 

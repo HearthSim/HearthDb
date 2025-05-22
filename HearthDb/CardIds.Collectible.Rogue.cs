@@ -176,7 +176,7 @@ namespace HearthDb
                 public const string ApothecaryHelbrim = "BAR_324";
 
                 /// <summary>
-                /// <b>Combo:</b> The next two cards you play this turn cost (3) less.<br/>
+                /// <b>Combo:</b> The next two cards you play this turn cost (2) less.<br/>
                 /// 4-Cost 3/3 Minion
                 /// </summary>
                 public const string ScabbsCutterbutter = "BAR_552";
@@ -1047,7 +1047,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Whenever this enters your hand from the battlefield, summon two random 2-Cost minions.<br/>
-                /// 2-Cost 2/3 Minion
+                /// 3-Cost 2/3 Minion
                 /// </summary>
                 public const string HarbingerOfTheBlighted = "EDR_781";
 

@@ -1051,7 +1051,7 @@ namespace HearthDb
                 public const string EvergreenStag = "EDR_272";
 
                 /// <summary>
-                /// <b>Discover</b> a <b>Choose One</b> card from another class. It costs (1) less.<br/>
+                /// <b>Discover</b> a <b>Choose One</b> card from another class.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string Symbiosis = "EDR_273";

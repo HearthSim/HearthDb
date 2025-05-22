@@ -2539,7 +2539,7 @@ namespace HearthDb
                 public const string Yoink_YoinkEnchantment = "BAR_323e";
 
                 /// <summary>
-                /// The next two cards you play this turn costs (3) less.<br/>
+                /// The next two cards you play this turn costs (2) less.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string ScabbsCutterbutter_CookinEnchantment2 = "BAR_552o";

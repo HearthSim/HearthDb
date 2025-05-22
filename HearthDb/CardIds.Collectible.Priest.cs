@@ -1286,7 +1286,7 @@ namespace HearthDb
                 public const string MassDispel = "EX1_626";
 
                 /// <summary>
-                /// <b>Taunt</b>, <b>Lifesteal</b> <b>Battlecry:</b> If you used your Hero Power this turn, gain +2/+2.<br/>
+                /// <b>Taunt</b>, <b>Lifesteal</b> <b>Battlecry:</b> If you used your Hero Power this turn, gain +3/+3.<br/>
                 /// 2-Cost 1/3 Undead Minion
                 /// </summary>
                 public const string SpiritOfTheKaldorei = "FIR_777";
@@ -2355,7 +2355,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Both heroes take one extra damage from all sources.<br/>
-                /// 1-Cost 1/3 Minion
+                /// 2-Cost 1/3 Minion
                 /// </summary>
                 public const string VoidtouchedAttendant = "SW_446";
 

@@ -1233,7 +1233,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Copy the lowest Cost Beast in your hand.<br/>
-                /// 3-Cost 3/2 Dragon Minion
+                /// 5-Cost 5/4 Dragon Minion
                 /// </summary>
                 public const string TendingDragonkin = "FIR_960";
 
@@ -2335,7 +2335,7 @@ namespace HearthDb
                 public const string Toyrannosaurus = "TOY_356";
 
                 /// <summary>
-                /// <b>Charge</b> <b>Battlecry:</b> Return all minions with less Attack than this to their owner's decks.<br/>
+                /// <b>Battlecry:</b> If your opponent has 15 or less health, return all other minions to their owner's decks and gain <b>Charge</b>.<br/>
                 /// 9-Cost 6/6 Beast Minion
                 /// </summary>
                 public const string KingPlush = "TOY_357";

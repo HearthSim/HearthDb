@@ -1863,7 +1863,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Summon 2 minions from your deck and give them <b>Rush</b>. They go back at the end of your turn.<br/>
-                /// 6-Cost Spell
+                /// 7-Cost Spell
                 /// </summary>
                 public const string CliffDive = "VAC_926";
 

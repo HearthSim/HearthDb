@@ -3248,7 +3248,7 @@ namespace HearthDb
                 public const string LunarwingMessenger_FleetingMagicEnchantment = "EDR_449e";
 
                 /// <summary>
-                /// Choose a Priest minion or Priest spell to add to your hand. It costs (<b>1</b>) less, but is <b>Temporary</b>.<br/>
+                /// Choose a playable Priest minion or spell to add to your hand. It costs (1) less, but is <b>Temporary</b>.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string LunarwingMessenger_BlessingOfTheMoon = "EDR_449p";

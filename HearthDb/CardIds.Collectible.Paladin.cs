@@ -602,7 +602,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Reorder your deck from highest Cost to lowest Cost. Draw a card.<br/>
-                /// 2-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string OrderInTheCourtCorePlaceholder = "CORE_MAW_016";
 
@@ -1914,7 +1914,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Reorder your deck from highest Cost to lowest Cost. Draw a card.<br/>
-                /// 2-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string OrderInTheCourt = "MAW_016";
 
@@ -1938,7 +1938,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Gigantify</b> Costs (1) less for each Holy spell you've cast this game.<br/>
-                /// 3-Cost 3/3 Mechanical Minion
+                /// 5-Cost 3/3 Mechanical Minion
                 /// </summary>
                 public const string FlickeringLightbot = "MIS_918";
 

@@ -1600,6 +1600,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string MalfurionStormrage_IcebladeHamuulHeroHeroSkins = "HERO_06az";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_EliseStarseekerHeroHeroSkins = "HERO_06b";
 
                 /// <summary>

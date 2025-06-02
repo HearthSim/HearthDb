@@ -1583,6 +1583,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Thrall_LordAhuneHeroHeroSkins = "HERO_02bf";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Thrall_JimRaynorHeroHeroSkins = "HERO_02bg";
 
                 /// <summary>

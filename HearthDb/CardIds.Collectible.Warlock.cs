@@ -1640,6 +1640,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Guldan_SpiritsingerUmbraHeroHeroSkins = "HERO_07bb";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Guldan_FelfireRagnarosHeroHeroSkins = "HERO_07bc";
 
                 /// <summary>
@@ -1653,6 +1659,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Guldan_ArachnidKerriganHeroHeroSkins = "HERO_07bg";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GuldanHeroic_TreasonTamsinHeroHeroSkins = "HERO_07bh";
 
                 /// <summary>
                 /// (No Text)<br/>

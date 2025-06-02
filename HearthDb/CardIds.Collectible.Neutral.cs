@@ -4306,6 +4306,12 @@ namespace HearthDb
                 public const string CuriousCumulus = "EDR_942";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Draw a card. It costs (1) less this turn. <i>(I know its name!)</i><b>Battlecry:</b> Draw a card. It costs (1) less this turn. <i>(It's {5}!)</i><br/>
+                /// 3-Cost 2/3 Minion
+                /// </summary>
+                public const string SharpEyedLookout = "EDR_950";
+
+                /// <summary>
                 /// At the end of your turn, restore #3 Health to both heroes.<br/>
                 /// 1-Cost 2/2 Minion
                 /// </summary>
@@ -8426,6 +8432,24 @@ namespace HearthDb
                 /// 4-Cost 5/4 Beast Minion
                 /// </summary>
                 public const string CoilfangConstrictor = "TID_744";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Trigger the <b>Deathrattles</b> of 5 friendly minions that died this game.<br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
+                public const string EndbringerUmbra = "TLC_106";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy a friendly minion. Spit out the Bones of its Attack and Health into your hand.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string DissolvingOoze = "TLC_252";
+
+                /// <summary>
+                /// <b>Poisonous</b>, <b>Taunt</b> <b>Deathrattle:</b> Summon a 1/2 Blob with <b>Poisonous</b> and a 1/2 Blob with <b>Taunt</b>.<br/>
+                /// 4-Cost 2/4 Elemental Minion
+                /// </summary>
+                public const string BlobOfTar = "TLC_468";
 
                 /// <summary>
                 /// <b>Taunt</b> Has +2 Attack during your opponent's turn.<br/>

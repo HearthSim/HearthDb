@@ -1209,7 +1209,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Costs (1) less for each card you've played this turn. <b>Deathrattle:</b> Return this to your hand.<br/>
-                /// 4-Cost 2/2 Elemental Minion
+                /// 4-Cost 2/2 Elemental/Beast Minion
                 /// </summary>
                 public const string EverburningPhoenix = "FIR_919";
 
@@ -1578,6 +1578,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ValeeraSanguinar_WebweaverPatchesHeroHeroSkins = "HERO_03ba";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinar_FrostbowVanessaHeroHeroSkins = "HERO_03bb";
 
                 /// <summary>
                 /// (No Text)<br/>

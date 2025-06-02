@@ -304,6 +304,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string GuldanHeroic_LifeTapHeroSkins = "HERO_07bbhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GuldanHeroic_SoulTapHeroSkins = "HERO_07bbhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string Guldan_LifeTapHeroSkins8 = "HERO_07bchp";
 
                 /// <summary>
@@ -982,7 +994,13 @@ namespace HearthDb
                 /// Costs Health instead of Mana.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string Chogall_DarkPowerEnchantmentOG = "OG_121e";
+                public const string Chogall_DarkPowerEnchantmentOG1 = "OG_121e";
+
+                /// <summary>
+                /// Costs Health instead of Mana.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Chogall_DarkPowerEnchantmentOG2 = "OG_121e2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -4202,6 +4220,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Burndown_ThisIsFineEnchantment2 = "WORK_026e2";
+
+                /// <summary>
+                /// This card is on fire!<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Burndown_EngulfedInFlameEnchantment = "WORK_026e3";
 
                 /// <summary>
                 /// <b>Starship</b> <i>(Costs (5) Mana to launch.)</i><b>Starship</b> <i>(Made of {0} pieces.)</i><br/>

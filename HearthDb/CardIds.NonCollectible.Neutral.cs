@@ -25689,7 +25689,7 @@ namespace HearthDb
                 /// Summon 7 Murlocs and give them <b>Rush</b>. At the start of your next turn, do it again.<br/>
                 /// 7-Cost Spell
                 /// </summary>
-                public const string MurkysBattleHornULDUM = "ULDA_406";
+                public const string MurkysBattleHorn = "ULDA_406";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -28761,6 +28761,18 @@ namespace HearthDb
                 public const string Houndmaster = "BG_DS1_070";
 
                 /// <summary>
+                /// Give a minion +1/+1.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string BananasToken = "BG_EX1_014t";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BananasEnchantmentToken = "BG_EX1_014te";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Swap the Attack and Health of a minion.<br/>
                 /// Tier-1 2/2 Undead Minion
                 /// </summary>
@@ -29037,6 +29049,18 @@ namespace HearthDb
                 /// Tier-4 2/2 Minion
                 /// </summary>
                 public const string ArgentBraggart = "BG_SCH_149";
+
+                /// <summary>
+                /// Give a minion +2/+2.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string BigBananaBATTLEGROUNDS1 = "BG_TB_006";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BigBanana_BigBananaEnchantmentBATTLEGROUNDS1 = "BG_TB_006e";
 
                 /// <summary>
                 /// Normal (this):<br/>
@@ -43215,6 +43239,12 @@ namespace HearthDb
                 public const string DefendersRites_StopRiteThereEnchantment = "BG28_825e";
 
                 /// <summary>
+                /// <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DefendersRites_StopRiteThereTauntEnchantment = "BG28_825e2";
+
+                /// <summary>
                 /// Your next three <b>Refreshes</b> cost (0).<br/>
                 /// Tier-2 2-Cost BattlegroundSpell
                 /// </summary>
@@ -47190,7 +47220,7 @@ namespace HearthDb
                 public const string NazjatarPostcard = "BG30_MagicItem_919";
 
                 /// <summary>
-                /// Get a Spitescale Special. Your first two <b>Spellcraft</b> spells each turn cast twice. <i>(2 left!)</i><br/>
+                /// Get a Spitescale Special. You cast your first two <b>Spellcraft</b> spells each turn twice. <i>(2 left!)</i><br/>
                 /// 4-Cost BattlegroundTrinket
                 /// </summary>
                 public const string SpitescaleSushiRoll = "BG30_MagicItem_920";
@@ -52438,6 +52468,24 @@ namespace HearthDb
                 public const string BoundingFelstalker_BoundingEnchantment = "BG32_893e";
 
                 /// <summary>
+                /// On Turn 6 and 9, buy a Greater <b>Trinket</b>. There are no Lesser <b>Trinkets</b> in this game.<br/>
+                /// BattlegroundAnomaly
+                /// </summary>
+                public const string GreaterPouches = "BG32_Anomaly_001";
+
+                /// <summary>
+                /// On Turns 6 and 7, buy a Lesser <b>Trinket</b>. There are no Greater <b>Trinkets</b> in this game.<br/>
+                /// BattlegroundAnomaly
+                /// </summary>
+                public const string LesserPouches = "BG32_Anomaly_002";
+
+                /// <summary>
+                /// Buy your Lesser <b>Trinket</b> on Turn 5, and your Greater <b>Trinket</b> on Turn 8.<br/>
+                /// BattlegroundAnomaly
+                /// </summary>
+                public const string ImpressiveForesight = "BG32_Anomaly_003";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
@@ -52456,7 +52504,7 @@ namespace HearthDb
                 public const string Buttons = "BG32_HERO_002";
 
                 /// <summary>
-                /// <b>Passive</b> On Turn 8, choose a Greater <b>Trinket</b> to buy. <i>(8 turns left!)</i><br/>
+                /// <b>Passive</b> On Turn 8, choose a Greater <b>Trinket</b> to buy. <i>(7 turns left!)</i><br/>
                 /// HeroPower
                 /// </summary>
                 public const string Buttons_GrowingCollection = "BG32_HERO_002p";
@@ -52924,16 +52972,16 @@ namespace HearthDb
                 public const string RendleSticker = "BG32_MagicItem_817";
 
                 /// <summary>
-                /// At the start if your turn you are in the bottom 4, gain 4 Gold.<br/>
-                /// 0-Cost BattlegroundTrinket
-                /// </summary>
-                public const string MurkysBattleHornBATTLEGROUNDS = "BG32_MagicItem_818";
-
-                /// <summary>
                 /// Get a 6/6 Impulsive Trickster. Your Impulsive Tricksters' <b>Deathrattles</b> target adjacent minions.<br/>
                 /// 1-Cost BattlegroundTrinket
                 /// </summary>
                 public const string ImpulsivePortrait = "BG32_MagicItem_820";
+
+                /// <summary>
+                /// Attack and Health set to 6/6.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ImpulsivePortrait_ImpulsiveEnchantment = "BG32_MagicItem_820e";
 
                 /// <summary>
                 /// 1 Demon each turn costs Health instead of Gold to buy. <i>(1 left!)</i><br/>
@@ -55862,13 +55910,13 @@ namespace HearthDb
                 /// Give a minion +2/+2.<br/>
                 /// 0-Cost Spell
                 /// </summary>
-                public const string BigBanana = "BGS_Treasures_000";
+                public const string BigBananaBATTLEGROUNDS2 = "BGS_Treasures_000";
 
                 /// <summary>
                 /// Has +2/+2.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string BigBanana_BigBananaEnchantment = "BGS_Treasures_000e";
+                public const string BigBanana_BigBananaEnchantmentBATTLEGROUNDS2 = "BGS_Treasures_000e";
 
                 /// <summary>
                 /// Get 2 Gold Coins.<br/>
@@ -59382,7 +59430,7 @@ namespace HearthDb
                 public const string CaptainEudora_DagwikStickytoeTavernBrawl1 = "TB_BaconShop_HERO_64_Buddy";
 
                 /// <summary>
-                /// +5/+5.<br/>
+                /// Increased stats.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CaptainEudora_GoldAboundTavernBrawl1 = "TB_BaconShop_HERO_64_Buddy_e";
@@ -60253,6 +60301,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string YShaarj_MurShrrgjTavernBrawl = "TB_BaconShop_HERO_92_SKIN_B";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string YShaarj_YshaarjTheCorruptTavernBrawl = "TB_BaconShop_HERO_92_SKIN_C";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -88679,6 +88733,12 @@ namespace HearthDb
                 public const string FindATriple = "BG31_BOBt4";
 
                 /// <summary>
+                /// Costs (1) less this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SharpEyedLookout_NewlyDiscoveredEnchantment = "EDR_950e";
+
+                /// <summary>
                 /// Destroy this at the end of your turn.<br/>
                 /// Enchantment
                 /// </summary>
@@ -88983,6 +89043,36 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string PetalPicker_ManaBloomEnchantment = "FIR_921e";
+
+                /// <summary>
+                /// Copied <b>Deathrattle</b> from {0}.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EndbringerUmbra_EndTimesEnchantment = "TLC_106e";
+
+                /// <summary>
+                /// <b>Poisonous</b><br/>
+                /// 2-Cost 1/2 Elemental Minion
+                /// </summary>
+                public const string BlobofTar_LankyBlobToken = "TLC_468t1";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 2-Cost 1/2 Elemental Minion
+                /// </summary>
+                public const string BlobofTar_RobustBlobToken = "TLC_468t2";
+
+                /// <summary>
+                /// Give a minion +{0}/+{1}.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string BonesToken = "TLC_829t";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BonesOfPreyEnchantmentToken = "TLC_829te";
             }
         }
     }

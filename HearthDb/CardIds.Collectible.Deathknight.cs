@@ -449,6 +449,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string TheLichKing_EbonBladeWhitemaneHeroHeroSkins = "HERO_11ak";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TheLichKing_LüBuArthasHeroHeroSkins = "HERO_11am";
 
                 /// <summary>

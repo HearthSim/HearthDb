@@ -1588,6 +1588,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string UtherLightbringer_HolyFireTirionHeroHeroSkins = "HERO_04ba";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer_JimRaynorHeroHeroSkins = "HERO_04bc";
 
                 /// <summary>

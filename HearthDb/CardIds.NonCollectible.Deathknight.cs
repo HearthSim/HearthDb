@@ -704,6 +704,12 @@ namespace HearthDb
                 public const string FrostmourneICECROWN3 = "Story_10_Frostmourne";
 
                 /// <summary>
+                /// Increased Health<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HealthEnchantment = "LOOTA_Health";
+
+                /// <summary>
                 /// <i>The undead nerubians were quick to attack the Horde... and their peons.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>

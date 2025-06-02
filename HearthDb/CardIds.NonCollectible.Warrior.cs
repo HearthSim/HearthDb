@@ -50,6 +50,12 @@ namespace HearthDb
                 public const string GarroshHellscreamHeroic_TankUp = "HERO_01bahp2";
 
                 /// <summary>
+                /// <b>Hero Power</b> Gain $d4 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_TankUp7 = "HERO_01bdhp2";
+
+                /// <summary>
                 /// +3/+3.<br/>
                 /// Enchantment
                 /// </summary>
@@ -317,7 +323,19 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins10 = "HERO_01dbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins10 = "HERO_01bdhp";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_MecathunHeroSkinsEnchantment = "HERO_01be";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_ArmorUpHeroSkins11 = "HERO_01dbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
@@ -329,7 +347,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins11 = "HERO_01fbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins12 = "HERO_01fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
@@ -353,7 +371,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins12 = "HERO_01qbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins13 = "HERO_01qbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
@@ -365,7 +383,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins13 = "HERO_01vbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins14 = "HERO_01vbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
@@ -377,7 +395,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins14 = "HERO_01wbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins15 = "HERO_01wbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>

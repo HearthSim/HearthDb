@@ -1237,7 +1237,7 @@ namespace HearthDb
                 public const string InnerRage = "EX1_607";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Give all minions in your hand +3/+3. They are discarded in 3 turns.<br/>
+                /// <b>Battlecry:</b> Give all minions in your hand +3/+3. They are destroyed in 3 turns.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
                 public const string KeeperOfFlame = "FIR_928";
@@ -1629,6 +1629,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string GarroshHellscream_ShadowDrakaHeroHeroSkins = "HERO_01bc";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_WrathionHeroHeroSkins = "HERO_01bd";
 
                 /// <summary>
                 /// (No Text)<br/>

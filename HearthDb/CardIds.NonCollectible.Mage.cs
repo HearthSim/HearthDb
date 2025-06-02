@@ -4327,7 +4327,7 @@ namespace HearthDb
                 public const string ForbiddenShrine_LuminosityEnchantment = "EDR_520e";
 
                 /// <summary>
-                /// Summon <b>1 Wisp</b>. Deal <b>$1</b> damage randomly split among all enemies.<br/>
+                /// Summon <b>1</b> Wisp. Deal <b>$1</b> damage randomly split among all enemies.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string BlessingOfTheWisp = "EDR_851p";

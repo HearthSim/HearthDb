@@ -4076,13 +4076,13 @@ namespace HearthDb
                 public const string DivineBrew_ColdOneEnchantment = "VAC_916e";
 
                 /// <summary>
-                /// Give a character <b>Divine Shield</b>. If it already had one, give it +1 Attack this turn. <i>(2 Drinks left!)</i><br/>
+                /// Give a character <b>Divine Shield</b>. <i>(2 Drinks left!)</i><br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string DivineBrew_DivineBrewToken1 = "VAC_916t2";
 
                 /// <summary>
-                /// Give a character <b>Divine Shield</b>. If it already had one, give it +1 Attack this turn. <i>(Last Drink!)</i><br/>
+                /// Give a character <b>Divine Shield</b>. <i>(Last Drink!)</i><br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string DivineBrew_DivineBrewToken2 = "VAC_916t3";

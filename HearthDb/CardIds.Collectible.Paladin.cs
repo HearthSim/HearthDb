@@ -2729,7 +2729,7 @@ namespace HearthDb
                 public const string PowerSpike = "VAC_915";
 
                 /// <summary>
-                /// Give a character <b>Divine Shield</b>. If it already had one, give it +1 Attack this turn. <i>(3 Drinks left!)</i><br/>
+                /// Give a character <b>Divine Shield</b>. <i>(3 Drinks left!)</i><br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string DivineBrew = "VAC_916";

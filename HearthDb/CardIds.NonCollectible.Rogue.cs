@@ -4021,13 +4021,13 @@ namespace HearthDb
                 public const string PrizePlunderer_PrizePlunderer = "DMF_519_COPY";
 
                 /// <summary>
-                /// Stats set to 5/5.<br/>
+                /// Stats set to 4/4.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string TheCrystalCove_CovetedCrystalsEnchantment = "TOY_512e";
 
                 /// <summary>
-                /// The next minion you summon is set to 5/5.<br/>
+                /// The next minion you summon is set to 4/4.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string TheCrystalCove_TreasuresBelowEnchantment = "TOY_512e1";

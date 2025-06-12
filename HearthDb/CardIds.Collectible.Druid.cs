@@ -2384,7 +2384,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Gain <b>Spell Damage +1</b> this turn only.<br/>
-                /// 1-Cost Location
+                /// 2-Cost Location
                 /// </summary>
                 public const string MagicalDollhouse = "TOY_850";
 

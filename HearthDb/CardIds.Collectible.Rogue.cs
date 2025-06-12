@@ -698,7 +698,7 @@ namespace HearthDb
                 public const string SerratedBoneSpikeCorePlaceholder = "CORE_REV_939";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Equip a 1/3 Dagger. <i>(+1 Attack for each other card you played this turn!)</i><br/>
+                /// <b>Battlecry:</b> Equip a 1/3 Dagger. <i>(+1 Attack for each other card you played this turn, up to 10!)</i><br/>
                 /// 5-Cost 3/4 Minion
                 /// </summary>
                 public const string NecrolordDrakaCorePlaceholder = "CORE_REV_940";
@@ -1041,7 +1041,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Whenever you play another minion you've already played, draw a card.<br/>
-                /// 1-Cost 1/3 Beast Minion
+                /// 2-Cost 2/3 Beast Minion
                 /// </summary>
                 public const string TwistedWebweaver = "EDR_540";
 
@@ -2078,7 +2078,7 @@ namespace HearthDb
                 public const string SerratedBoneSpike = "REV_939";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Equip a 1/3 Dagger. <i>(+1 Attack for each other card you played this turn!)</i><br/>
+                /// <b>Battlecry:</b> Equip a 1/3 Dagger. <i>(+1 Attack for each other card you played this turn, up to 10!)</i><br/>
                 /// 5-Cost 3/4 Minion
                 /// </summary>
                 public const string NecrolordDraka = "REV_940";
@@ -2300,7 +2300,7 @@ namespace HearthDb
                 public const string ShoplifterGoldbeard = "TOY_511";
 
                 /// <summary>
-                /// The next minion you summon this turn has its stats set to 5/5.<br/>
+                /// The next minion you summon this turn has its stats set to 4/4.<br/>
                 /// 3-Cost Location
                 /// </summary>
                 public const string TheCrystalCove = "TOY_512";

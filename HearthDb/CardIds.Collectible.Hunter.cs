@@ -1583,6 +1583,24 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Rexxar_GonkHeroHeroSkins = "HERO_05ba";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_DinoHunterLorthemarHeroHeroSkins = "HERO_05bb";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_DinoWranglerBrannHeroHeroSkins = "HERO_05bc";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_ArachnidKerriganHeroHeroSkins = "HERO_05bf";
 
                 /// <summary>
@@ -2297,6 +2315,66 @@ namespace HearthDb
                 /// 2-Cost 2/3 Mechanical/Beast Minion
                 /// </summary>
                 public const string K90Tron = "TID_099";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Kindred:</b> Costs (2) less.<br/>
+                /// 6-Cost 7/5 Beast Minion
+                /// </summary>
+                public const string PterrorwingRavager = "TLC_366";
+
+                /// <summary>
+                /// At the end of your turn, reduce the Cost of a random Beast in your hand by (1).<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string Dinositter = "TLC_822";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. The next Beast you play this turn costs (2) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string CowerInFear = "TLC_823";
+
+                /// <summary>
+                /// <b>Discover</b> an odd-Attack Beast. If you play it this turn, also pick one of the others.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string OddMap = "TLC_824";
+
+                /// <summary>
+                /// <b>Kindred:</b> Deal damage to an enemy minion equal to this minion's Attack.<br/>
+                /// 4-Cost 5/4 Beast Minion
+                /// </summary>
+                public const string RavasaurMatriarch = "TLC_825";
+
+                /// <summary>
+                /// Shuffle ten 1-Cost 3/2 Raptors into your deck with "<b>Battlecry:</b> Draw a card."<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string StoryOfCarnassa = "TLC_826";
+
+                /// <summary>
+                /// At the end of your turn, gain +1 Attack <i>(even while in hand or deck)</i>.<br/>
+                /// 3-Cost 0/5 Beast Minion
+                /// </summary>
+                public const string GrazingStegodon = "TLC_827";
+
+                /// <summary>
+                /// Give +2/+2 to all Beasts in your hand, deck, and battlefield.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string SupremeDinomancy = "TLC_828";
+
+                /// <summary>
+                /// <b>Quest:</b> Play a 1, 3, 5, and 7-Attack Beast. <b>Reward:</b> Shokk.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string TheFoodChain = "TLC_830";
+
+                /// <summary>
+                /// Whenever you play a 1-Cost minion, double its stats. Whenever you cast a 1-Cost spell, cast it twice.<br/>
+                /// 3-Cost 2/5 Minion
+                /// </summary>
+                public const string NiriOfTheCrater = "TLC_836";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Give each other friendly Beast a random <b>Bonus Effect</b>.<br/>

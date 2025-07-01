@@ -1601,6 +1601,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Thrall_CrystalCarverDisidraHeroHeroSkins = "HERO_02bi";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Thrall_JungleJamInzahHeroHeroSkins = "HERO_02bl";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Thrall_TheThunderKingHeroHeroSkins = "HERO_02c";
 
                 /// <summary>
@@ -2280,6 +2292,66 @@ namespace HearthDb
                 /// 5-Cost Spell
                 /// </summary>
                 public const string CommandOfNeptulon = "TID_005";
+
+                /// <summary>
+                /// Deal $3 damage. Summon that many 2/1 Sizzling Cinders.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string SizzlingSwarm = "TLC_221";
+
+                /// <summary>
+                /// Draw two minions of different minion types. Give them +2/+2.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string FlightOfTheFirehawk = "TLC_222";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a Fire spell. <b>Kindred:</b> Give it <b>Spell Damage +2</b>.<br/>
+                /// 3-Cost 2/3 Elemental/Beast Minion
+                /// </summary>
+                public const string VolcanicThrasher = "TLC_223";
+
+                /// <summary>
+                /// Whenever you play a Fire spell, gain stats equal to its Cost.<br/>
+                /// 4-Cost 2/5 Elemental/Mechanical Minion
+                /// </summary>
+                public const string MechanizedMagma = "TLC_224";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a 2/1 Sizzling Cinder.<br/>
+                /// 2-Cost 1/2 Elemental/Murloc Minion
+                /// </summary>
+                public const string Cinderfin = "TLC_225";
+
+                /// <summary>
+                /// Deal $2 damage to the lowest Health enemy, three times. <b>Overload:</b> (1)<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string LavaFlow = "TLC_227";
+
+                /// <summary>
+                /// Your Elementals deal 1 extra damage.<br/>
+                /// 3-Cost 1/5 Minion
+                /// </summary>
+                public const string BralmaSearstone = "TLC_228";
+
+                /// <summary>
+                /// <b>Quest:</b> Play 7 minions of unique types. <b>Reward:</b> Ashalon.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SpiritOfTheMountain = "TLC_229";
+
+                /// <summary>
+                /// <b>Discover</b> a minion with a type you haven't played. If you play it this turn, also pick one of the others.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string MountainMap = "TLC_464";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon two 2/1 Sizzling Cinders. <b>Kindred:</b> Trigger your Sizzling Cinders' <b>Deathrattles.</b><br/>
+                /// 5-Cost 3/4 Elemental/Dragon Minion
+                /// </summary>
+                public const string Slagclaw = "TLC_482";
 
                 /// <summary>
                 /// <b>Discover</b> a 4-Cost minion. Set its Attack and Health to 7.<br/>

@@ -1595,6 +1595,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string ValeeraSanguinar_TreasureHunterMarinHeroHeroSkinsEnchantment = "HERO_03be";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinarHeroic_PoolPartyMaievHeroHeroSkins = "HERO_03bh";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_NightslayerValeeraHeroHeroSkins = "HERO_03d";
 
                 /// <summary>
@@ -2280,6 +2292,66 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Jackpot = "TID_931";
+
+                /// <summary>
+                /// <b>Quest:</b> Shuffle cards into your deck, 5 times. <b>Reward: </b>Master Dusk.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string LieInWait = "TLC_513";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a <b>Legendary</b> minion. Shuffle the other two into your deck.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
+                public const string MerchantOfLegend = "TLC_514";
+
+                /// <summary>
+                /// <b>Discover</b> a card from your deck. If you play it this turn, also pick one of the others.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string CultistMap = "TLC_515";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a random weapon from another class. <b>Combo:</b> Give it +2 Attack.<br/>
+                /// 4-Cost 5/4 Minion
+                /// </summary>
+                public const string NefersetWeaponsmith = "TLC_516";
+
+                /// <summary>
+                /// Deal $1 damage to a minion <i>(improved for each time you've shuffled cards into your deck)</i>.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string Knockback = "TLC_517";
+
+                /// <summary>
+                /// Shuffle three 3/3 Ninjas with <b>Stealth</b> into your deck that are <b>Summoned When Drawn</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Interrogation = "TLC_518";
+
+                /// <summary>
+                /// Summon a 1/1 Spitter with <b>Stealth</b> and <b>Poisonous</b>. <b>Kindred:</b> Do it again.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string AmbushPredators = "TLC_519";
+
+                /// <summary>
+                /// <b>Rush</b> Costs (1) less for each time you've shuffled cards into your deck.<br/>
+                /// 7-Cost 5/5 Minion
+                /// </summary>
+                public const string UnderbrushTracker = "TLC_520";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Look at 3 cards in your enemy's deck. Pick one to put on top.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string EyesInTheSky = "TLC_521";
+
+                /// <summary>
+                /// <b>Battlecry, Combo, and Deathrattle:</b> Cast 'Fan of Knives'.<br/>
+                /// 6-Cost 6/4 Minion
+                /// </summary>
+                public const string OpuTheUnseen = "TLC_522";
 
                 /// <summary>
                 /// After you summon a Pirate, draw a card.<br/>

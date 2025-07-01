@@ -20,6 +20,12 @@ namespace HearthDb
                 public const string FarSight_FarSightEnchantment = "CS2_053e";
 
                 /// <summary>
+                /// <b>Taunt</b> <b><b>Overload</b>:</b> (2)<br/>
+                /// 5-Cost 7/8 Elemental Minion
+                /// </summary>
+                public const string EarthElemental_EarthElemental = "EX1_250_puzzle";
+
+                /// <summary>
                 /// Increased stats.<br/>
                 /// Enchantment
                 /// </summary>
@@ -41,6 +47,12 @@ namespace HearthDb
                 /// Tier-2 2/3 Murloc Minion
                 /// </summary>
                 public const string ColdlightSeerTavernBrawl = "TB_BaconUps_064";
+
+                /// <summary>
+                /// Destroy a minion, then return it to life with full Health.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string Reincarnate_Reincarnate = "FP1_025_Puzzle";
 
                 /// <summary>
                 /// +2/+2.<br/>
@@ -347,12 +359,6 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string FireFestivalRagnaros = "AIBot_Event_Ragnaros_FireFestival_02m";
-
-                /// <summary>
-                /// <b>Taunt</b> <b><b>Overload</b>:</b> (2)<br/>
-                /// 5-Cost 7/8 Elemental Minion
-                /// </summary>
-                public const string EarthElemental_EarthElemental = "EX1_250_puzzle";
 
                 /// <summary>
                 /// Transform a minion into a 0/1 Frog with <b>Taunt</b>.<br/>
@@ -3959,6 +3965,42 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string RenferaltheMalignant_WebbedEnchantment = "EDR_526e";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FlightoftheFirehawk_IgnitedEnchantment = "TLC_222e";
+
+                /// <summary>
+                /// <b>Spell Damage +2</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string VolcanicThrasher_VolcanicEnchantment = "TLC_223e";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MechanizedMagma_FannedFlameEnchantment = "TLC_224e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Adapt</b> twice. For the rest of the game, give minions you play those <b>Adaptations</b>.<br/>
+                /// 5-Cost 8/8 Elemental/Beast Minion
+                /// </summary>
+                public const string SpiritoftheMountain_AshalonRidgeGuardianToken = "TLC_229t14";
+
+                /// <summary>
+                /// For the rest of the game, give minions you play those <b>Adaptations</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SpiritoftheMountain_PerfectEvolutionToken = "TLC_229t14e";
+
+                /// <summary>
+                /// If you play the <b>Discover</b>ed card this turn, also choose one of the other two options.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MountainMap_MountaineeringMapPlayerEnchantEnchantment = "TLC_464e";
             }
         }
     }

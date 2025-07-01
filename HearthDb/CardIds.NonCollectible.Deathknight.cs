@@ -1821,7 +1821,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>When Drawn, this Casts</b> and your enemy will <i>cower!</i> Imbue the souls of Undead into your <i>Hero Power!</i><br/>
-                /// 2-Cost Undead Spell
+                /// 2-Cost Spell
                 /// </summary>
                 public const string TheHeadlessHorseman_HorsemansHeadToken = "TOY_829t";
 
@@ -2094,6 +2094,36 @@ namespace HearthDb
                 /// Spell
                 /// </summary>
                 public const string Volcoross_LavaWaveToken = "FIR_951t4";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Open Terror's Grave. It has "<b>Deathrattle:</b> Resummon Tyrax."<br/>
+                /// 5-Cost 8/8 Undead/Beast Minion
+                /// </summary>
+                public const string ReanimatetheTerror_TyraxBoneTerrorToken = "TLC_433t";
+
+                /// <summary>
+                /// Deal 4 damage. <b>Deathrattle:</b> Resummon Tyrax, Bone Terror.<br/>
+                /// 5-Cost Location
+                /// </summary>
+                public const string ReanimatetheTerror_TerrorsGraveToken = "TLC_433t2";
+
+                /// <summary>
+                /// If you play the <b>Discover</b>ed card this turn, also choose one of the other two options.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CryptMap_CryptMapPlayerEnchantEnchantment = "TLC_435e";
+
+                /// <summary>
+                /// Costs (2) more.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WaveofTar_StuckEnchantment = "TLC_439e2";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 2-Cost 2/2 Undead/Beast Minion
+                /// </summary>
+                public const string ReluctantWrangler_ReanimatedOssodonToken = "TLC_443t";
             }
         }
     }

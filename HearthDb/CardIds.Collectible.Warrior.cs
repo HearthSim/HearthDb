@@ -1640,6 +1640,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string GarroshHellscream_MechathunHeroHeroSkinsEnchantment = "HERO_01be";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_ShandrisFeathermoonHeroHeroSkins = "HERO_01bf";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";
 
                 /// <summary>
@@ -2337,6 +2349,66 @@ namespace HearthDb
                 /// 8-Cost 5/8 Elemental Minion
                 /// </summary>
                 public const string TidalRevenant = "TID_716";
+
+                /// <summary>
+                /// After your hero attacks, deal 1 damage to all minions.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string AxeOfTheForefathers = "TLC_478";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 5 damage and gain 5 Armor. <b>Kindred:</b> Costs (3) less.<br/>
+                /// 8-Cost 6/6 Dragon Minion
+                /// </summary>
+                public const string WindpeakWyrm = "TLC_600";
+
+                /// <summary>
+                /// Spend up to 5 Armor. For each spent, deal 1 damage to all minions.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string Shellnado = "TLC_601";
+
+                /// <summary>
+                /// <b>Quest:</b> Survive 10 turns. <b>Reward: </b>Latorvius, Gaze of the City.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string EnterTheLostCity = "TLC_602";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 2 damage to an enemy minion. If it dies, gain 5 Armor.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string LatorvianArmorer = "TLC_606";
+
+                /// <summary>
+                /// Gain 3 Armor. Deal damage equal to your Armor to an enemy minion.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Fortify = "TLC_620";
+
+                /// <summary>
+                /// Summon two 0/6 Security with <b>Taunt</b>. They gain +1 Attack when damaged.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string CityDefenses = "TLC_622";
+
+                /// <summary>
+                /// At the end of your turn, give a random friendly damaged minion +2/+2.<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
+                public const string Stonecarver = "TLC_623";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon copies of your damaged minions. Give the copies <b>Rush</b>.<br/>
+                /// 6-Cost 5/7 Minion
+                /// </summary>
+                public const string NablyaTheWatcher = "TLC_624";
+
+                /// <summary>
+                /// Swap your Hero Power to "Deal 8 damage to a random enemy." After 2 uses, swap back.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string StoryOfSulfuras = "TLC_632";
 
                 /// <summary>
                 /// Summon the highest Cost minion from your hand, then deal $5 damage to it.<br/>

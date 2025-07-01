@@ -4346,6 +4346,54 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string OvergrownHorror_OvergrownEnchantment = "EDR_654e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EscapetheUnderfel_UnderfelRiftEnchantmentEnchantment = "TLC_446e";
+
+                /// <summary>
+                /// Open a Rift to the Underfel. Throw a card in to summon 2 random Fel Beasts. <i>(Once per turn.)</i><br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string EscapetheUnderfel_UnderfelRiftToken1 = "TLC_446t";
+
+                /// <summary>
+                /// Select the Rift to activate. Throw a card in to summon 2 random Fel Beasts. <i>(Once per turn.)</i><br/>
+                /// 0/1 Minion
+                /// </summary>
+                public const string EscapetheUnderfel_UnderfelRiftToken2 = "TLC_446t1";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Lifesteal</b><br/>
+                /// 5-Cost 5/3 Beast/Demon Minion
+                /// </summary>
+                public const string EscapetheUnderfel_FelscreamerToken = "TLC_446t2";
+
+                /// <summary>
+                /// <b>Charge</b> <b>Elusive</b><br/>
+                /// 5-Cost 4/4 Beast/Demon Minion
+                /// </summary>
+                public const string EscapetheUnderfel_FelraptorToken = "TLC_446t3";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Reborn</b><br/>
+                /// 5-Cost 3/5 Beast/Demon Minion
+                /// </summary>
+                public const string EscapetheUnderfel_FelhornToken = "TLC_446t4";
+
+                /// <summary>
+                /// Your next <b>Temporary</b> card costs (2) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Spelunker_SpelunkerEnchantPlayerEnchantment = "TLC_450e";
+
+                /// <summary>
+                /// Costs Health instead of Mana.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WhisperingStone_TheStonesWhispersEnchantment = "TLC_467e";
             }
         }
     }

@@ -1625,7 +1625,31 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string JainaProudmoore_AegwynnHeroHeroSkins = "HERO_08bk";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_ArchaeoLichKelthuzadHeroHeroSkins = "HERO_08bl";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_RelicHunterRenoHeroHeroSkins = "HERO_08bm";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string JainaProudmoore_StudyKayHeroHeroSkins = "HERO_08br";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_SunloungerAFKayHeroHeroSkins = "HERO_08bs";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2322,6 +2346,66 @@ namespace HearthDb
                 /// 5-Cost 5/5 Naga Minion
                 /// </summary>
                 public const string LadyNazjar = "TID_709";
+
+                /// <summary>
+                /// After you summon an Elemental, deal 3 damage to a random enemy.<br/>
+                /// 4-Cost 4/5 Elemental Minion
+                /// </summary>
+                public const string WindsweptPageturner = "TLC_220";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Draw a spell. <b>Kindred:</b> Summon a copy of this.<br/>
+                /// 3-Cost 2/2 Elemental Minion
+                /// </summary>
+                public const string ConjuredBookkeeper = "TLC_226";
+
+                /// <summary>
+                /// <b>Discover</b> a spell from any class that costs (8) or more. It costs (1).<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string RelicOfKings = "TLC_334";
+
+                /// <summary>
+                /// Reduce the Cost of cards in your hand that didn't start in your deck by (1).<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string StoryOfTheWaygate = "TLC_364";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. Costs (0) if you've <b>Discovered</b> this turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string StorageScuffle = "TLC_365";
+
+                /// <summary>
+                /// Gains a random <b>Titan</b> ability in your hand that changes each turn.<br/>
+                /// 7-Cost 7/7 Minion
+                /// </summary>
+                public const string TitanographerOsk = "TLC_452";
+
+                /// <summary>
+                /// <b>Quest:</b> <b>Discover</b> 8 cards. <b>Reward:</b> The Origin Stone.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string TheForbiddenSequence = "TLC_460";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a card with Cost equal to your remaining Mana Crystals.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string ScrappyScavenger = "TLC_461";
+
+                /// <summary>
+                /// Summon a random 2-Cost minion. If you've <b><b>Discover</b>ed</b> this turn, summon a random 4-Cost minion instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string UnearthedArtifacts = "TLC_462";
+
+                /// <summary>
+                /// After you <b>Discover</b> a card, reduce its Cost by (1).<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string VaultBreaker = "TLC_483";
 
                 /// <summary>
                 /// <b>Discover</b> a <b>Secret</b>. Set its Cost to (1).<br/>

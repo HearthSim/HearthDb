@@ -1661,6 +1661,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string AnduinWrynn_DinomancerLazulHeroHeroSkins = "HERO_09bb";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
 
                 /// <summary>
@@ -2382,6 +2388,66 @@ namespace HearthDb
                 /// 4-Cost Spell
                 /// </summary>
                 public const string Drown = "TID_920";
+
+                /// <summary>
+                /// Whenever another friendly minion attacks, set its Health equal to this minion's Health.<br/>
+                /// 3-Cost 1/6 Beast Minion
+                /// </summary>
+                public const string Archaios = "TLC_811";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get a random Holy and Shadow spell.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
+                public const string TwilightMender = "TLC_814";
+
+                /// <summary>
+                /// Summon a random 4-Cost minion and give it <b>Taunt</b>. <b>Kindred:</b> Do it again.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string GravedawnVoidbulb = "TLC_815";
+
+                /// <summary>
+                /// Draw 2 cards. <b>Kindred:</b> This costs (2) less.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string GravedawnSunbloom = "TLC_816";
+
+                /// <summary>
+                /// <b>Quest:</b> Cast 5 Holy spells <b>Reward:</b> Life's Breath. <b>Quest:</b> Cast 5 Shadow spells. <b>Reward:</b> Death's Touch.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string ReachEquilibrium = "TLC_817";
+
+                /// <summary>
+                /// Resurrect a 1, 2, and 3-Cost minion. Give them <b>Reborn</b>.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string Resuscitate = "TLC_818";
+
+                /// <summary>
+                /// <b>Lifesteal</b> Costs (1) if you've played a Holy and Shadow spell this turn.<br/>
+                /// 6-Cost 4/7 Naga Minion
+                /// </summary>
+                public const string GladesongSiren = "TLC_819";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get a 1-Cost Holy spell that gives a minion +2 or -2 Health.<br/>
+                /// 1-Cost 2/1 Minion
+                /// </summary>
+                public const string GladeEcologist = "TLC_820";
+
+                /// <summary>
+                /// <b>Lifesteal</b> Whenever you heal an enemy, this attacks it.<br/>
+                /// 7-Cost 7/7 Elemental Minion
+                /// </summary>
+                public const string WiltedShadow = "TLC_821";
+
+                /// <summary>
+                /// Set your hero's Health to 40.<br/>
+                /// 10-Cost Spell
+                /// </summary>
+                public const string StoryOfAmara = "TLC_835";
 
                 /// <summary>
                 /// <b>Miniaturize</b> <b>Taunt</b>. <b>Deathrattle:</b> Summon a 4/4 Whelp with <b>Elusive</b>.<br/>

@@ -2526,6 +2526,54 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string GrimHarvest_HoundsFangsEnchantmentToken = "EDR_840te";
+
+                /// <summary>
+                /// Deal $2 damage. Summon a 2/1 Grub with <b>Rush</b>.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string GorishiWasp_GorishiStingerToken = "TLC_630t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string UnleashtheColossus_GorishisFavorEnchantment = "TLC_631e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> For the rest of the game, whenever you deal exactly 2 damage to an enemy, deal 2 more.<br/>
+                /// 5-Cost 8/8 Beast Minion
+                /// </summary>
+                public const string UnleashtheColossus_GorishiColossusToken = "TLC_631t";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Free {0}!<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EntomologistToru_JarringEnchantment = "TLC_841e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Release nothing. <i>(It's just an empty jar.)</i><b>Deathrattle:</b> Release {5}!<br/>
+                /// 1-Cost 0/1 Minion
+                /// </summary>
+                public const string EntomologistToru_SpecimenJarToken = "TLC_841t";
+
+                /// <summary>
+                /// If you play the <b>Discover</b>ed card this turn, also choose one of the other two options.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HiveMap_HiveMapEnchantment = "TLC_900e";
+
+                /// <summary>
+                /// +5 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SilithidQueen_QueensStingerEnchantment = "TLC_903e";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string SilithidQueen_SilithidGrubToken = "TLC_903t";
             }
         }
     }

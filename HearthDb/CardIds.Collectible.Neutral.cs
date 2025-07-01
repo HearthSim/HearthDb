@@ -1769,7 +1769,7 @@ namespace HearthDb
                 public const string BlowtorchSaboteurCore = "CORE_DRG_403";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a Beast with a <b>Dark Gift</b>.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a Beast with a <b>Dark Gift</b>. <b>Kindred:</b> It costs (1) less.<br/>
                 /// 3-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string RaptorHerald = "CORE_EDR_004";
@@ -8434,10 +8434,106 @@ namespace HearthDb
                 public const string CoilfangConstrictor = "TID_744";
 
                 /// <summary>
+                /// <b>Battlecry:</b> If your deck started with 10 cards of different Costs, craft a custom location.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
+                public const string EliseTheNavigator = "TLC_100";
+
+                /// <summary>
+                /// <b>Taunt</b>, <b>Reborn</b> Has +3 Attack while damaged.<br/>
+                /// 3-Cost 2/3 Minion
+                /// </summary>
+                public const string UndercoverCultist = "TLC_101";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a <b>Kindred</b> card and another card that activates it.<br/>
+                /// 4-Cost 2/7 Beast/Undead Minion
+                /// </summary>
+                public const string Torga = "TLC_102";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Trigger the <b>Deathrattles</b> of 5 friendly minions that died this game.<br/>
                 /// 7-Cost 6/6 Minion
                 /// </summary>
                 public const string EndbringerUmbra = "TLC_106";
+
+                /// <summary>
+                /// Whenever this attacks, deal 3 damage to the target first. <b>Kindred:</b> Gain <b>Rush</b>.<br/>
+                /// 5-Cost 3/6 Elemental Minion
+                /// </summary>
+                public const string Stormbrewer = "TLC_107";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy the top card of your deck. <b>Discover</b> a card of the same Rarity.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string RelicMiner = "TLC_109";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If every minion in your deck shares a minion type, give your other minions +2/+2 <i>(wherever they are)</i>.<br/>
+                /// 6-Cost 5/7 Minion
+                /// </summary>
+                public const string CityChiefEsho = "TLC_110";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose to gain <b>Taunt</b>, <b>Poisonous</b>, or +1/+1.<br/>
+                /// 3-Cost 1/5 Beast Minion
+                /// </summary>
+                public const string AncientStegodon = "TLC_242";
+
+                /// <summary>
+                /// <b>Rush</b>, <b>Windfury</b> <b>Kindred:</b> Gain <b>Immune</b> this turn.<br/>
+                /// 9-Cost 8/8 Elemental/Dragon Minion
+                /// </summary>
+                public const string WhirlingStormdrake = "TLC_243";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Reduce the Cost of a minion in your opponent's hand by (2).<br/>
+                /// 2-Cost 3/5 Minion
+                /// </summary>
+                public const string CuriousExplorer = "TLC_244";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose to gain +3 Attack, <b>Divine Shield</b>, or "<b>Deathrattle:</b> Summon two 1/1 Plants."<br/>
+                /// 2-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string AncientRaptor = "TLC_245";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose to gain <b>Stealth</b> until your next turn, <b>Elusive</b>, or <b>Windfury</b>.<br/>
+                /// 4-Cost 4/4 Beast Minion
+                /// </summary>
+                public const string AncientPterrordax = "TLC_246";
+
+                /// <summary>
+                /// <b>Stealth</b> After this attacks and kills a minion, get a copy of it.<br/>
+                /// 4-Cost 5/3 Beast Minion
+                /// </summary>
+                public const string PrimalSabretooth = "TLC_247";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 11-Cost 14/28 Beast Minion
+                /// </summary>
+                public const string Ultragigasaur = "TLC_248";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal 2 damage randomly split among all enemies.<br/>
+                /// 1-Cost 2/1 Elemental Minion
+                /// </summary>
+                public const string SizzlingCinder = "TLC_249";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Until the start of your next turn, the enemy hero can't be healed.<br/>
+                /// 4-Cost 5/4 Beast Minion
+                /// </summary>
+                public const string CraterGator = "TLC_250";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your next <b>Kindred</b> triggers twice.<br/>
+                /// 3-Cost 3/2 Murloc Minion
+                /// </summary>
+                public const string PrimalfinChallenger = "TLC_251";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Destroy a friendly minion. Spit out the Bones of its Attack and Health into your hand.<br/>
@@ -8446,10 +8542,106 @@ namespace HearthDb
                 public const string DissolvingOoze = "TLC_252";
 
                 /// <summary>
+                /// Starts <b>Dormant. </b>While <b>Dormant</b>, gain +2/+2 at the start of your turn. <i>(50% chance to awaken instead.)</i><br/>
+                /// 3-Cost 5/5 Minion
+                /// </summary>
+                public const string PetrifiedOgre = "TLC_253";
+
+                /// <summary>
+                /// At the end of your turn, give +1/+1 to each friendly minion of a different type.<br/>
+                /// 2-Cost 1/2 Minion
+                /// </summary>
+                public const string TortollanStoryteller = "TLC_254";
+
+                /// <summary>
+                /// <b>Tradeable</b> <b>Battlecry:</b> Gain empty Mana Crystals until both players have the same Mana.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string CrystalTender = "TLC_255";
+
+                /// <summary>
+                /// After you cast a spell, gain <b>Divine Shield</b>.<br/>
+                /// 3-Cost 3/3 Beast Minion
+                /// </summary>
+                public const string MarshlandThresher = "TLC_256";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a 1-Cost Rock that deals $3 damage.<br/>
+                /// 2-Cost 1/3 Murloc Minion
+                /// </summary>
+                public const string Rockskipper = "TLC_427";
+
+                /// <summary>
+                /// <b>Kindred:</b> Summon two 1/1 Murlocs with <b>Rush</b>.<br/>
+                /// 4-Cost 4/3 Murloc Minion
+                /// </summary>
+                public const string SteamfinThief = "TLC_429";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy the lowest Attack enemy minion. <b>Kindred:</b> The highest Attack instead.<br/>
+                /// 6-Cost 3/6 Beast Minion
+                /// </summary>
+                public const string ScalehideKodo = "TLC_454";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give a random friendly minion a random <b>Bonus Effect</b> and this <b>Deathrattle</b>.<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
+                public const string Stranglevine = "TLC_465";
+
+                /// <summary>
                 /// <b>Poisonous</b>, <b>Taunt</b> <b>Deathrattle:</b> Summon a 1/2 Blob with <b>Poisonous</b> and a 1/2 Blob with <b>Taunt</b>.<br/>
                 /// 4-Cost 2/4 Elemental Minion
                 /// </summary>
                 public const string BlobOfTar = "TLC_468";
+
+                /// <summary>
+                /// At the end of your turn, set the Attack and Health of all enemy minions to 1.<br/>
+                /// 9-Cost 8/7 Beast Minion
+                /// </summary>
+                public const string KrogCraterKing = "TLC_480";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a card. <b>Deathrattle:</b> Discard it.<br/>
+                /// 1-Cost 1/2 Beast Minion
+                /// </summary>
+                public const string Platysaur = "TLC_603";
+
+                /// <summary>
+                /// <b>Taunt</b>, <b>Lifesteal</b> Has +6 Attack during your opponent's turn.<br/>
+                /// 8-Cost 1/12 Elemental Minion
+                /// </summary>
+                public const string TarTyrant = "TLC_605";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Destroy the top 3 cards of your deck.<br/>
+                /// 4-Cost 4/7 Minion
+                /// </summary>
+                public const string WillfulWatcher = "TLC_621";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy a minion. <b>Kindred:</b> Gain its stats.<br/>
+                /// 7-Cost 3/3 Beast Minion
+                /// </summary>
+                public const string RavenousDevilsaur = "TLC_829";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a 3/3 Pterrordax that steals 1 Health from all other minions.<br/>
+                /// 3-Cost 0/3 Minion
+                /// </summary>
+                public const string PterrordaxEgg = "TLC_831";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a copy of another Elemental or Dragon in your hand.<br/>
+                /// 4-Cost 4/3 Elemental/Dragon Minion
+                /// </summary>
+                public const string CloudSerpent = "TLC_888";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you played a <b>Quest</b> this game, deal 2 damage.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
+                public const string QuestingAssistant = "TLC_987";
 
                 /// <summary>
                 /// <b>Taunt</b> Has +2 Attack during your opponent's turn.<br/>

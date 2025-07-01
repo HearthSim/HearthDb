@@ -47,6 +47,18 @@ namespace HearthDb
                 public const string Cost5Enchantment = "GBL_011e";
 
                 /// <summary>
+                /// Costs (6) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Cost6Enchantment = "GBL_012e";
+
+                /// <summary>
+                /// Costs (7) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Cost7Enchantment = "GBL_013e";
+
+                /// <summary>
                 /// Discarded at the end of your turn.<br/>
                 /// Enchantment
                 /// </summary>
@@ -1755,10 +1767,22 @@ namespace HearthDb
                 public const string FoeReaper4000 = "BG_GVG_113";
 
                 /// <summary>
+                /// Your Mechs cost (1) less.<br/>
+                /// 2-Cost 2/3 Mechanical Minion
+                /// </summary>
+                public const string Mechwarper_Mechwarper = "GVG_006_puzzle";
+
+                /// <summary>
                 /// Costs (1) less.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string Mechwarper_WarpingInEnchantment = "GVG_006e";
+                public const string Mechwarper_WarpingInEnchantment1 = "GVG_006e";
+
+                /// <summary>
+                /// Costs (1) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Mechwarper_WarpingInEnchantment2 = "GVG_006e_Puzzle";
 
                 /// <summary>
                 /// +2/+4 and <b>Spell Damage +1</b>.<br/>
@@ -1819,6 +1843,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string BurlyRockjawTrogg_MetabolizedMagic = "GVG_068a";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal 2 damage to all minions.<br/>
+                /// 2-Cost 1/1 Mechanical/Beast Minion
+                /// </summary>
+                public const string ExplosiveSheep_ExplosiveSheep = "GVG_076_Puzzle";
 
                 /// <summary>
                 /// Increased Attack.<br/>
@@ -5908,12 +5938,6 @@ namespace HearthDb
                 /// 0-Cost Spell
                 /// </summary>
                 public const string TheMysteryCard = "FB_TopX_Mystery";
-
-                /// <summary>
-                /// Your Mechs cost (1) less.<br/>
-                /// 2-Cost 2/3 Mechanical Minion
-                /// </summary>
-                public const string Mechwarper_Mechwarper = "GVG_006_puzzle";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -15293,7 +15317,7 @@ namespace HearthDb
                 /// Increased Health.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string ArcaneAnomaly_EatingEnchantment = "KAR_036e";
+                public const string ArcaneAnomaly_EatingEnchantment1 = "KAR_036e";
 
                 /// <summary>
                 /// +1/+1 and <b>Taunt</b>.<br/>
@@ -16256,6 +16280,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string BlubberBaron_SizeIncreaseEnchantment = "CFM_064e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Restore #4 Health to each hero.<br/>
+                /// 1-Cost 2/2 Undead Minion
+                /// </summary>
+                public const string MistressofMixtures_MistressOfMixtures = "CFM_120_Puzzle";
 
                 /// <summary>
                 /// +2 Attack.<br/>
@@ -17267,6 +17297,12 @@ namespace HearthDb
                 public const string GraveShambler_ArmedAndDangerousEnchantment = "ICC_097e";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Deal 5 damage to your minions.<br/>
+                /// Tier-1 5/6 Undead Minion
+                /// </summary>
+                public const string TickingAbomination_TickingAbomination = "ICC_099_Puzzle";
+
+                /// <summary>
                 /// Attack and Health set to 5.<br/>
                 /// Enchantment
                 /// </summary>
@@ -17853,10 +17889,22 @@ namespace HearthDb
                 public const string VioletWurm_GrubToken = "LOOT_153t1";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Destroy a friendly minion. <b>Deathrattle:</b> Summon 2 copies of it.<br/>
+                /// 5-Cost 4/6 Minion
+                /// </summary>
+                public const string CarnivorousCube_CarnivorousCube = "LOOT_161_Puzzle";
+
+                /// <summary>
                 /// Destroyed {0}.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string CarnivorousCube_CarnivorousCubeEnchantment = "LOOT_161e";
+                public const string CarnivorousCube_CarnivorousCubeEnchantment1 = "LOOT_161e";
+
+                /// <summary>
+                /// Destroyed {0}.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CarnivorousCube_CarnivorousCubeEnchantment2 = "LOOT_161e_Puzzle";
 
                 /// <summary>
                 /// Sonya Shadowdancer made this 1/1.<br/>
@@ -19029,6 +19077,12 @@ namespace HearthDb
                 public const string DariusCrowley_BloodfangEnchantment = "GIL_547e";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Refresh your Hero Power.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
+                public const string BlackwaldPixie_BlackwaldPixie = "GIL_561_Puzzle";
+
+                /// <summary>
                 /// Increased stats.<br/>
                 /// Enchantment
                 /// </summary>
@@ -19105,6 +19159,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string CurioCollector_RareFindEnchantment = "GIL_640e";
+
+                /// <summary>
+                /// Double the damage and healing of your Hero Power.<br/>
+                /// 5-Cost 4/4 Mechanical Minion
+                /// </summary>
+                public const string ClockworkAutomaton_ClockworkAutomaton = "GIL_646_Puzzle";
 
                 /// <summary>
                 /// +2/+1.<br/>
@@ -20603,10 +20663,28 @@ namespace HearthDb
                 public const string Skaterbot_SkaterbotEnchantment = "BOT_020e";
 
                 /// <summary>
+                /// <b>Magnetic</b> <b>Taunt</b><br/>
+                /// 3-Cost 2/5 Mechanical Minion
+                /// </summary>
+                public const string BronzeGatekeeper_BronzeGatekeeper = "BOT_021_Puzzle";
+
+                /// <summary>
                 /// <b>Taunt</b>.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string BronzeGatekeeper_BronzeGatekeeperEnchantment = "BOT_021e";
+                public const string BronzeGatekeeper_BronzeGatekeeperEnchantment1 = "BOT_021e";
+
+                /// <summary>
+                /// <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BronzeGatekeeper_BronzeGatekeeperEnchantment2 = "BOT_021e_Puzzle";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal 2 damage to the enemy hero.<br/>
+                /// 1-Cost 0/2 Mechanical Minion
+                /// </summary>
+                public const string GoblinBomb_GoblinBomb = "BOT_031_Puzzle";
 
                 /// <summary>
                 /// <b>Poisonous</b>.<br/>
@@ -21903,6 +21981,12 @@ namespace HearthDb
                 /// 9-Cost 6/10 Beast Minion
                 /// </summary>
                 public const string GiantMastodon = "BOTA_UNG_071";
+
+                /// <summary>
+                /// Increased Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ArcaneAnomaly_EatingEnchantment2 = "KAR_036e_Puzzle";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -46968,7 +47052,7 @@ namespace HearthDb
                 public const string SmugglerPortrait = "BG30_MagicItem_825";
 
                 /// <summary>
-                /// Stats set.<br/>
+                /// Stats set to 12/12.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SmugglerPortrait_DragonizedEnchantment = "BG30_MagicItem_825e";
@@ -52948,10 +53032,22 @@ namespace HearthDb
                 public const string BattlecruiserPortrait = "BG32_MagicItem_806";
 
                 /// <summary>
+                /// Stats set to 8/8.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BattlecruiserPortrait_TerranTechEnchantment = "BG32_MagicItem_806e";
+
+                /// <summary>
                 /// Get a 20/20 Mishmash and a 20/20 Amalgam with <b>Venomous</b>.<br/>
                 /// 2-Cost BattlegroundTrinket
                 /// </summary>
                 public const string CuratorSticker = "BG32_MagicItem_807";
+
+                /// <summary>
+                /// Stats set to 20/20.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CuratorSticker_MassiveMenagerieEnchantment = "BG32_MagicItem_807e";
 
                 /// <summary>
                 /// After you cast 5 spells, play a <b>Blood Gem</b> on all your minions. <i>(5 left!)</i><br/>
@@ -89051,10 +89147,280 @@ namespace HearthDb
                 public const string PetalPicker_ManaBloomEnchantment = "FIR_921e";
 
                 /// <summary>
-                /// Copied <b>Deathrattle</b> from {0}.<br/>
+                /// {0} {1}<br/>
+                /// 1-Cost Location
+                /// </summary>
+                public const string ElisetheNavigator_UngoroJungleToken = "TLC_100t1";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal 3 damage to all enemies.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_BurstingGeyserToken1 = "TLC_100t11";
+
+                /// <summary>
+                /// Your next spell has <b>Spell Damage +1</b>.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_ShiningMoonlightToken1 = "TLC_100t12";
+
+                /// <summary>
+                /// Your next spell has <b>Spell Damage +1</b>.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string EndbringerUmbra_EndTimesEnchantment = "TLC_106e";
+                public const string ElisetheNavigator_ShiningMoonlightEnchantPlayerToken1 = "TLC_100t12e";
+
+                /// <summary>
+                /// <b>Discover</b> a spell. It costs (1) less.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_RunicInscriptionsToken1 = "TLC_100t13";
+
+                /// <summary>
+                /// Give your characters +1 Attack this turn.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_SnappingPlantsToken1 = "TLC_100t14";
+
+                /// <summary>
+                /// Your characters have +1 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_SnapToken1 = "TLC_100t14e";
+
+                /// <summary>
+                /// +1 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_SnapToken2 = "TLC_100t14e2";
+
+                /// <summary>
+                /// Summon a 2/1 Raptor with <b>Rush</b>.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_NestingGroundsToken1 = "TLC_100t15";
+
+                /// <summary>
+                /// Gain 3 Armor.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_LavaStreamToken1 = "TLC_100t16";
+
+                /// <summary>
+                /// Summon a 1/1 copy of a friendly minion.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_RadiantCrystalsToken1 = "TLC_100t17";
+
+                /// <summary>
+                /// 1/1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_RadiantReflectionToken1 = "TLC_100t17e";
+
+                /// <summary>
+                /// {0} {1}<br/>
+                /// 5-Cost Location
+                /// </summary>
+                public const string ElisetheNavigator_TerrorRunToken = "TLC_100t2";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal 5 damage to all enemies.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_BurstingGeyserToken2 = "TLC_100t21";
+
+                /// <summary>
+                /// Your next spell has <b>Spell Damage +2</b>.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_ShiningMoonlightToken2 = "TLC_100t22";
+
+                /// <summary>
+                /// Your next spell has <b>Spell Damage +2</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_ShiningMoonlightEnchantPlayerToken2 = "TLC_100t22e";
+
+                /// <summary>
+                /// <b>Discover</b> a spell. It costs (4) less.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_RunicInscriptionsToken2 = "TLC_100t23";
+
+                /// <summary>
+                /// Give your characters +2 Attack this turn.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_SnappingPlantsToken2 = "TLC_100t24";
+
+                /// <summary>
+                /// Your characters have +2 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_SnapToken3 = "TLC_100t24e";
+
+                /// <summary>
+                /// +2 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_SnapToken4 = "TLC_100t24e2";
+
+                /// <summary>
+                /// Summon three 2/1 Raptors with <b>Rush</b>.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_NestingGroundsToken2 = "TLC_100t25";
+
+                /// <summary>
+                /// Gain 6 Armor.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_LavaStreamToken2 = "TLC_100t26";
+
+                /// <summary>
+                /// Summon a 5/5 copy of a friendly minion.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_RadiantCrystalsToken2 = "TLC_100t27";
+
+                /// <summary>
+                /// 5/5.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_RadiantReflectionToken2 = "TLC_100t27e";
+
+                /// <summary>
+                /// {0} {1}<br/>
+                /// 10-Cost Location
+                /// </summary>
+                public const string ElisetheNavigator_FirePlumeRidgeToken = "TLC_100t3";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal 10 damage to all enemies.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_BurstingGeyserToken3 = "TLC_100t31";
+
+                /// <summary>
+                /// Your next spell has <b>Spell Damage +4</b>.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_ShiningMoonlightToken3 = "TLC_100t32";
+
+                /// <summary>
+                /// Your next spell has <b>Spell Damage +4</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_ShiningMoonlightEnchantPlayerToken3 = "TLC_100t32e";
+
+                /// <summary>
+                /// <b>Discover</b> a spell. It costs (7) less.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_RunicInscriptionsToken3 = "TLC_100t33";
+
+                /// <summary>
+                /// Give your characters +4 Attack this turn.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_SnappingPlantsToken3 = "TLC_100t34";
+
+                /// <summary>
+                /// Your characters have +4 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_SnapToken5 = "TLC_100t34e";
+
+                /// <summary>
+                /// +4 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_SnapToken6 = "TLC_100t34e2";
+
+                /// <summary>
+                /// Summon six 2/1 Raptors with <b>Rush</b>.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_NestingGroundsToken3 = "TLC_100t35";
+
+                /// <summary>
+                /// Gain 12 Armor.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_LavaStreamToken3 = "TLC_100t36";
+
+                /// <summary>
+                /// Summon a 10/10 copy of a friendly minion.<br/>
+                /// Spell
+                /// </summary>
+                public const string ElisetheNavigator_RadiantCrystalsToken3 = "TLC_100t37";
+
+                /// <summary>
+                /// 10/10.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElisetheNavigator_RadiantReflectionToken3 = "TLC_100t37e";
+
+                /// <summary>
+                /// +3 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string UndercoverCultist_EnragedEnchantment = "TLC_101e";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CityChiefEsho_KinEnchantment = "TLC_110e";
+
+                /// <summary>
+                /// <b>Immune</b> this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WhirlingStormdrake_StormCloudsEnchantment = "TLC_243e";
+
+                /// <summary>
+                /// Until the start of your next turn, the opponent's hero can't restore health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CraterGator_CraterGatorPlayerEnchantEnchantment = "TLC_250e";
+
+                /// <summary>
+                /// Your next <b>Kindred</b> triggers twice.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PrimalfinChallenger_ChallengersEnchantmentEnchantment = "TLC_251e";
+
+                /// <summary>
+                /// <b>Dormant</b>. 50% chance to awaken.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PetrifiedOgre_PetrifiedEnchantment = "TLC_253e";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PetrifiedOgre_PetrifiedStrengthEnchantment = "TLC_253e2";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TortollanStoryteller_ImmersedEnchantment = "TLC_254e";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 1-Cost 1/1 Murloc Minion
+                /// </summary>
+                public const string SteamfinThief_JuvenileSteamfinToken = "TLC_429t";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give a random friendly minion a random <b>Bonus Effect</b> and this <b>Deathrattle</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Stranglevine_TwiningTendrilsEnchantment = "TLC_465e";
 
                 /// <summary>
                 /// <b>Poisonous</b><br/>
@@ -89069,16 +89435,100 @@ namespace HearthDb
                 public const string BlobofTar_RobustBlobToken = "TLC_468t2";
 
                 /// <summary>
+                /// 1/1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string KrogCraterKing_KroginatedEnchantment = "TLC_480e2";
+
+                /// <summary>
+                /// When this dies, discard the card it drew.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Platysaur_PlatysaurEnchantment1 = "TLC_603e";
+
+                /// <summary>
+                /// Discard when Platysaur dies.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Platysaur_PlatysaurEnchantment2 = "TLC_603e2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Platysaur_PlatysaurEnchantment3 = "TLC_603e3";
+
+                /// <summary>
                 /// Give a minion +{0}/+{1}.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string BonesToken = "TLC_829t";
+                public const string RavenousDevilsaur_BonesToken = "TLC_829t";
 
                 /// <summary>
                 /// Increased stats.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string BonesOfPreyEnchantmentToken = "TLC_829te";
+                public const string RavenousDevilsaur_BonesOfPreyEnchantmentToken = "TLC_829te";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RavenousDevilsaur_RavenousEnchantmentToken = "TLC_829te2";
+
+                /// <summary>
+                /// Reduced Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PterrordaxEgg_PterrifiedEnchantment = "TLC_831e";
+
+                /// <summary>
+                /// Increased Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PterrordaxEgg_PterrifyingEnchantment = "TLC_831e2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 3-Cost 3/3 Beast Minion
+                /// </summary>
+                public const string PterrordaxEgg_JuvenilePterrordaxToken = "TLC_831t";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinTHE_LOST_CITY1 = "TLC_COIN1";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinTHE_LOST_CITY2 = "TLC_COIN2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string ClassicKrush = "PET_2_1";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string DevilsaurKrush = "PET_2_2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string KingPlush = "PET_2_3";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string CrystalKrush = "PET_2_4";
             }
         }
     }

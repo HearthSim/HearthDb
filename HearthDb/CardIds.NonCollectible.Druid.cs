@@ -1502,6 +1502,12 @@ namespace HearthDb
                 public const string MalfurionthePestilent_ScarabBeetleToken = "ICC_832t4";
 
                 /// <summary>
+                /// <b>Taunt</b> Can only attack if you have 3 or more Armor.<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
+                public const string IronwoodGolem_IronwoodGolem = "LOOT_048_Puzzle";
+
+                /// <summary>
                 /// Deal $4 damage to a minion.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -5538,6 +5544,60 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string KeeperofFlame_BurningUpEnchantment2 = "FIR_928e3";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 2/2 Minion
+                /// </summary>
+                public const string TREEEES_TreantToken = "TLC_230t";
+
+                /// <summary>
+                /// +5 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string StoryofBarnabus_MightOfBarnabusEnchantment = "TLC_231e";
+
+                /// <summary>
+                /// At the start of your next turn, summon three 2/1 Hatchlings.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RavenousFlock_RavenousFlockPlayerEnchantEnchantment = "TLC_232e";
+
+                /// <summary>
+                /// +1/+2 and <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HatcheryHelper_IncubateEnchantment = "TLC_233e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a 5/1 Eternal Bloodpetal.<br/>
+                /// 4-Cost 0/1 Minion
+                /// </summary>
+                public const string EternalBloodpetal_EternalSeedlingToken = "TLC_234t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string SkyscreamerEggs_SkyscreamerHatchlingToken = "TLC_237t";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RestoretheWild_FullBloomEnchantment = "TLC_239e";
+
+                /// <summary>
+                /// After your hero attacks, give your minions +2/+2.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string RestoretheWild_TheEverbloomToken = "TLC_239t";
+
+                /// <summary>
+                /// Your minions cost (5) this game.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LohtheLivingLegend_LivingLegendEnchantment = "TLC_257e1";
             }
         }
     }

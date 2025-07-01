@@ -1594,6 +1594,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string UtherLightbringer_JungleExplorerYrelHeroHeroSkins = "HERO_04bb";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer_JimRaynorHeroHeroSkins = "HERO_04bc";
 
                 /// <summary>
@@ -1601,6 +1607,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string UtherLightbringer_NovaHeroHeroSkins = "HERO_04bd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string UtherLightbringer_AdventureFinleyHeroHeroSkinsEnchantment = "HERO_04be";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string UtherLightbringer_CarielTheChosenHeroHeroSkins = "HERO_04bj";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2337,6 +2355,66 @@ namespace HearthDb
                 /// 9-Cost Spell
                 /// </summary>
                 public const string FrontLines = "TID_949";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Deathrattle:</b> Summon three 2/1 Murlocs. Give them each a random <b>Bonus Effect</b>.<br/>
+                /// 6-Cost 6/3 Beast/Murloc Minion
+                /// </summary>
+                public const string Tyrannogill = "TLC_240";
+
+                /// <summary>
+                /// While this is alive, you get a 2-Cost Holy spell that gives a minion +2/+2 and <b>Divine Shield</b>.<br/>
+                /// 4-Cost 2/7 Minion
+                /// </summary>
+                public const string IdoOfTheThreshfleet = "TLC_241";
+
+                /// <summary>
+                /// <b>Repeatable Quest:</b> Summon 5 Murlocs. <b>Reward:</b> Murlocs you summon gain +1/+1.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string DiveTheGolakkaDepths = "TLC_426";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your next Murloc costs (2) less. <b>Kindred:</b> And gains <b>Divine Shield</b>.<br/>
+                /// 3-Cost 2/4 Murloc Minion
+                /// </summary>
+                public const string HotSpringGlider = "TLC_428";
+
+                /// <summary>
+                /// At the end of your turn, recast a random Holy spell you cast this turn <i>(targets this if possible)</i>.<br/>
+                /// 4-Cost 2/5 Beast Minion
+                /// </summary>
+                public const string CreatureOfTheSacredCave = "TLC_430";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Cast a random spell from your deck that costs (2) or less <i>(targets this if possible)</i>.<br/>
+                /// 2-Cost 1/2 Murloc Minion
+                /// </summary>
+                public const string VioletTreasuregill = "TLC_438";
+
+                /// <summary>
+                /// Give +1/+2 to a friendly minion and your other minions that share a type with it.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ReadyTheFleet = "TLC_441";
+
+                /// <summary>
+                /// <b>Discover</b> a Murloc. If you play it this turn, also pick one of the others.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SubmergedMap = "TLC_442";
+
+                /// <summary>
+                /// Give a minion three random <b>Bonus Effects</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string StoryOfGalvadon = "TLC_444";
+
+                /// <summary>
+                /// Give a friendly minion +4/+4 and "<b>Deathrattle:</b> Summon a random 4-Cost minion."<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string ThreshridersBlessing = "TLC_477";
 
                 /// <summary>
                 /// Summon a 1/2 Mech with <b>Divine Shield</b> and <b>Taunt</b>. Give your minions +1/+2.<br/>

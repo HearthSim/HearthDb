@@ -1151,6 +1151,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string IllidanStormrage_DinoFestivalOmenHeroHeroSkins = "HERO_10ba";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string IllidanStormrage_ArachnidKerriganHeroHeroSkins = "HERO_10bd";
 
                 /// <summary>
@@ -1668,6 +1674,66 @@ namespace HearthDb
                 /// 3-Cost 3/4 Naga Minion
                 /// </summary>
                 public const string HeraldOfChaos = "TID_706";
+
+                /// <summary>
+                /// Whenever this takes damage, get a 1-Cost Gorishi Stinger.<br/>
+                /// 6-Cost 2/8 Beast Minion
+                /// </summary>
+                public const string GorishiWasp = "TLC_630";
+
+                /// <summary>
+                /// <b>Quest:</b> Deal exactly 2 damage to an enemy on your turn, 15 times. <b>Reward:</b> Gorishi Colossus.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string UnleashTheColossus = "TLC_631";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 6 damage to an enemy minion with a minion type.<br/>
+                /// 4-Cost 5/3 Minion
+                /// </summary>
+                public const string Bugsquasher = "TLC_633";
+
+                /// <summary>
+                /// After your hero attacks, summon a 2/1 Grub with <b>Rush</b>.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string InsectClaw = "TLC_833";
+
+                /// <summary>
+                /// <b>Stealth</b> After this attacks, deal 2 damage to the enemy hero.<br/>
+                /// 3-Cost 2/4 Beast Minion
+                /// </summary>
+                public const string GorishiTunneler = "TLC_840";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Put each minion in your hand into 0/1 Jars that cost (1). Break them to release the minions!<br/>
+                /// 9-Cost 7/7 Minion
+                /// </summary>
+                public const string EntomologistToru = "TLC_841";
+
+                /// <summary>
+                /// <b>Discover</b> a Fel spell. If you play it this turn, also pick one of the others.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string HiveMap = "TLC_900";
+
+                /// <summary>
+                /// Deal $3 damage to a minion and all others of the same minion type.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Fumigate = "TLC_901";
+
+                /// <summary>
+                /// Get two 1-Cost Gorishi Stingers. Each one deals $2 damage and summons a 2/1 Grub with <b>Rush</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Infestation = "TLC_902";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Kindred</b>: Give your hero +5 Attack this turn.<br/>
+                /// 5-Cost 5/2 Beast Minion
+                /// </summary>
+                public const string SilithidQueen = "TLC_903";
 
                 /// <summary>
                 /// <b>Stealth</b> for 1 turn. Your hero has +2 Attack on your turn.<br/>

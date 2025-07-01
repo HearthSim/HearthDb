@@ -14,10 +14,22 @@ namespace HearthDb
                 public const string ColdBlood_ColdBloodEnchantment1 = "CS2_073e";
 
                 /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ColdBlood_ColdBloodEnchantment2 = "CS2_073e_Puzzle";
+
+                /// <summary>
                 /// +4 Attack.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string ColdBlood_ColdBloodEnchantment2 = "CS2_073e2";
+                public const string ColdBlood_ColdBloodEnchantment3 = "CS2_073e2";
+
+                /// <summary>
+                /// +4 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ColdBlood_ColdBloodEnchantment4 = "CS2_073e2_Puzzle";
 
                 /// <summary>
                 /// Stealthed until your next turn.<br/>
@@ -905,12 +917,6 @@ namespace HearthDb
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string CashIn = "TP_Bling_HP2";
-
-                /// <summary>
-                /// Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.<br/>
-                /// 2-Cost Spell
-                /// </summary>
-                public const string ColdBlood_ColdBlood = "VAN_CS2_073_puzzle";
 
                 /// <summary>
                 /// Copied <b>Deathrattle</b> from {0}.<br/>
@@ -3121,6 +3127,12 @@ namespace HearthDb
                 public const string ValeeraSanguinar_PoisonedDaggersLegacy = "HERO_03bp2";
 
                 /// <summary>
+                /// Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string ColdBlood_ColdBloodVanilla = "VAN_CS2_073_puzzle";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// 1-Cost Weapon
                 /// </summary>
@@ -4163,6 +4175,54 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Cindersword_FieryEnchantment = "FIR_922e";
+
+                /// <summary>
+                /// When this dies, shuffle it into your deck.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LieinWait_SneakyEnchantment = "TLC_513e1";
+
+                /// <summary>
+                /// When a Ninja dies, shuffle it into your deck.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LieinWait_MasterDuskReshufflePlayerEnchantEnchantment = "TLC_513e2";
+
+                /// <summary>
+                /// Draw 2 cards that didn't start in your deck.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string WayOfTheShellHeroic = "TLC_513hp";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon two 3/3 Ninjas with <b>Stealth</b>. Your Ninjas now shuffle back into your deck when they die.<br/>
+                /// 5-Cost Hero
+                /// </summary>
+                public const string LieinWait_MasterDuskToken = "TLC_513t";
+
+                /// <summary>
+                /// <b>Summoned When Drawn</b> <b>Stealth</b><br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string LieinWait_TortollanNinjaToken = "TLC_513t2";
+
+                /// <summary>
+                /// If you play the <b>Discover</b>ed card this turn, also choose one of the other two options.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CultistMap_CultistMapPlayerEnchantEnchantment = "TLC_515e";
+
+                /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string NefersetWeaponsmith_WickedWeaponryEnchantment = "TLC_516e";
+
+                /// <summary>
+                /// <b>Stealth</b> <b>Poisonous</b><br/>
+                /// 2-Cost 1/1 Beast Minion
+                /// </summary>
+                public const string AmbushPredators_VenomousSpitterToken = "TLC_519t";
             }
         }
     }

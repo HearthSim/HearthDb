@@ -449,13 +449,19 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string TheLichKing_EbonBladeWhitemaneHeroHeroSkins = "HERO_11ak";
+                public const string TheLichKing_LavaLordBolvarHeroHeroSkins = "HERO_11al";
 
                 /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TheLichKing_LüBuArthasHeroHeroSkins = "HERO_11am";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKing_BonediggerArfusHeroHeroSkins = "HERO_11an";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1194,6 +1200,66 @@ namespace HearthDb
                 /// 4-Cost 5/3 Minion
                 /// </summary>
                 public const string Viper = "SC_018";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal 6 damage to three random enemies.<br/>
+                /// 6-Cost 6/3 Undead/Beast Minion
+                /// </summary>
+                public const string BonechillStegodon = "TLC_401";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a <b>Deathrattle</b> minion that costs (3) or less. <b>Kindred:</b> It costs (0).<br/>
+                /// 4-Cost 3/4 Undead/Beast Minion
+                /// </summary>
+                public const string DreadRaptor = "TLC_432";
+
+                /// <summary>
+                /// <b>Quest:</b> Spend 18 <b>Corpses</b>. <b>Reward:</b> Tyrax, Bone Terror.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string ReanimateTheTerror = "TLC_433";
+
+                /// <summary>
+                /// <b>Discover</b> an Undead. Spend 5 <b>Corpses</b> to keep all 3 instead.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Paleomancy = "TLC_434";
+
+                /// <summary>
+                /// <b>Discover</b> a Frost Rune card. If you play it this turn, also pick one of the others.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string CryptMap = "TLC_435";
+
+                /// <summary>
+                /// <b><b>Rush</b>, Lifesteal</b> Costs <b>Corpses</b> instead of Mana.<br/>
+                /// 5-Cost 4/3 Undead/Beast Minion
+                /// </summary>
+                public const string ReanimatedPterrordax = "TLC_436";
+
+                /// <summary>
+                /// Deal $2 damage to all enemy minions. Enemy minions cost (2) more next turn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string WaveOfTar = "TLC_439";
+
+                /// <summary>
+                /// Deal $4 damage and draw a card. <b>Kindred: </b>Draw another.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string Cryosleep = "TLC_440";
+
+                /// <summary>
+                /// <b>Reborn</b> <b>Deathrattle:</b> Summon a 2/2 Undead Beast with <b>Taunt</b>.<br/>
+                /// 3-Cost 1/1 Minion
+                /// </summary>
+                public const string ReluctantWrangler = "TLC_443";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon two <b>Deathrattle</b> minions from your deck. They fight!<br/>
+                /// 8-Cost 8/6 Minion
+                /// </summary>
+                public const string HighCultistHerenn = "TLC_810";
 
                 /// <summary>
                 /// <b>Rush</b> After you cast a Frost spell, gain <b>Reborn</b>.<br/>

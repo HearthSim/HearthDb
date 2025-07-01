@@ -331,6 +331,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string RexxarHeroic_SteadyShotHeroSkins3 = "HERO_05bahp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string RexxarHeroic_BallistaShotHeroSkins3 = "HERO_05bahp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string Rexxar_SteadyShotHeroSkins5 = "HERO_05bfhp";
 
                 /// <summary>
@@ -953,6 +965,12 @@ namespace HearthDb
                 /// 1-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string TheMarshQueen_CarnassasBroodToken = "UNG_920t2";
+
+                /// <summary>
+                /// Trigger a friendly minion's <b>Deathrattle</b>.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string PlayDead_PlayDead = "ICC_052_Puzzle";
 
                 /// <summary>
                 /// {0} and {1}.<br/>
@@ -4427,6 +4445,48 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string BrollBearmantle_VerdantDreamsaberEnchantment = "EDR_853e";
+
+                /// <summary>
+                /// The next Beast you play this turn costs (2) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CowerinFear_CowerInFearPlayerEnchantEnchantment = "TLC_823e1";
+
+                /// <summary>
+                /// If you play the <b>Discover</b>ed card this turn, also choose one of the other two options.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string OddMap_OddMapPlayerEnchantEnchantment = "TLC_824e";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GrazingStegodon_NomNomNomEnchantment = "TLC_827e";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SupremeDinomancy_SupremelyDinomancedEnchantment = "TLC_828e";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Battlecry:</b> Get a random 8, 6, and 4-Attack Beast. Set their Costs to (2).<br/>
+                /// 5-Cost 9/9 Beast Minion
+                /// </summary>
+                public const string TheFoodChain_ShokkJungleTyrantToken = "TLC_830t";
+
+                /// <summary>
+                /// Stats Doubled.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string NirioftheCrater_EndemicFaunaEnchantment = "TLC_836e";
+
+                /// <summary>
+                /// 1-Cost spells cast twice<br/>
+                /// Enchantment
+                /// </summary>
+                public const string NirioftheCrater_NiriOfTheCraterPlayerEnchEnchantment = "TLC_836e2";
             }
         }
     }

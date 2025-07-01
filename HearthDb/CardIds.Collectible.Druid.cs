@@ -1243,7 +1243,7 @@ namespace HearthDb
                 public const string Overheat = "FIR_906";
 
                 /// <summary>
-                /// Summon a 1-Cost minion. Gain 1 Armor. Draw 1 card. Refresh 1 Mana Crystal. <i>(Improves each use!)</i><br/>
+                /// Summon a 1-Cost minion. Gain 1 Armor. Draw 1 card. Refresh 1 Mana |4(Crystal, Crystals). <i>(Improves each use!)</i><br/>
                 /// 4-Cost Location
                 /// </summary>
                 public const string Amirdrassil = "FIR_907";
@@ -1619,6 +1619,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string MalfurionStormrage_YellowbrowFaelinHeroHeroSkins = "HERO_06bb";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MalfurionStormrage_FieldResearcherEliseHeroHeroSkins = "HERO_06bc";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MalfurionStormrage_DinoDreamerYseraHeroHeroSkins = "HERO_06bd";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2333,6 +2345,66 @@ namespace HearthDb
                 /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string HeraldOfNature = "TID_002";
+
+                /// <summary>
+                /// Choose a minion. Summon four 2/2 Treants that attack it.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string Treeees = "TLC_230";
+
+                /// <summary>
+                /// Draw a minion. If it has 5 or more Attack, give it +5 Health and gain 5 Armor.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string StoryOfBarnabus = "TLC_231";
+
+                /// <summary>
+                /// At the start of your next turn, summon three 2/1 Hatchlings.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string RavenousFlock = "TLC_232";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give your other minions with 2 or less Attack +1/+2 and <b>Taunt</b>.<br/>
+                /// 3-Cost 2/3 Minion
+                /// </summary>
+                public const string HatcheryHelper = "TLC_233";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a 0/1 Eternal Seedling.<br/>
+                /// 4-Cost 5/1 Minion
+                /// </summary>
+                public const string EternalBloodpetal = "TLC_234";
+
+                /// <summary>
+                /// Destroy a minion. Summon a random minion of the same Cost to replace it.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string LifeCycle = "TLC_235";
+
+                /// <summary>
+                /// Draw a 1, 2, 3, and 4-Cost minion. <b>Kindred:</b> They cost (1) less.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string Hybridization = "TLC_236";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon four 2/1 Hatchlings.<br/>
+                /// 3-Cost 0/2 Minion
+                /// </summary>
+                public const string SkyscreamerEggs = "TLC_237";
+
+                /// <summary>
+                /// <b>Quest:</b> Fill your board on 3 of your turns. <b>Reward:</b> The Everbloom.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string RestoreTheWild = "TLC_239";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your minions cost (5) this game.<br/>
+                /// 7-Cost 5/5 Minion
+                /// </summary>
+                public const string LohTheLivingLegend = "TLC_257";
 
                 /// <summary>
                 /// Deal $2 damage. Your next card this turn costs that much less.<br/>

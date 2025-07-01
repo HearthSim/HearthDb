@@ -4284,6 +4284,90 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string SearingReflection_SearingReflectionEnchantment = "FIR_941e1";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost 2/1 Murloc Minion
+                /// </summary>
+                public const string Tyrannogill_DinolocToken1 = "TLC_240t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost 2/1 Murloc Minion
+                /// </summary>
+                public const string Tyrannogill_DinolocToken2 = "TLC_240t2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost 2/1 Murloc Minion
+                /// </summary>
+                public const string Tyrannogill_DinolocToken3 = "TLC_240t3";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string IdooftheThreshfleet_ThreshriderEnchantment = "TLC_241e";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string IdooftheThreshfleet_ThreshriderTrackerEnchantment = "TLC_241e2";
+
+                /// <summary>
+                /// Give a minion +2/+2 and <b>Divine Shield</b>. <i>(This stays in your hand while Ido is alive!)</i><br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string IdooftheThreshfleet_CallTheThreshfleetToken = "TLC_241t";
+
+                /// <summary>
+                /// Murlocs you summon gain +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DivetheGolakkaDepths_GolakkaQuestPlayerEnchantEnchantment = "TLC_426e";
+
+                /// <summary>
+                /// +{0}/+{1}.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DivetheGolakkaDepths_SacredEnchantment = "TLC_426e2";
+
+                /// <summary>
+                /// Whenever you summon a Murloc, give it +1/+1.<br/>
+                /// Spell
+                /// </summary>
+                public const string DivetheGolakkaDepths_TheSacredCaveToken = "TLC_426t";
+
+                /// <summary>
+                /// Your next Murloc this turn costs (2) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HotSpringGlider_WeeeeeEnchantment = "TLC_428e";
+
+                /// <summary>
+                /// When this minion attacks, it gains +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ReadytheFleet_FleetFormationEnchantment = "TLC_441e";
+
+                /// <summary>
+                /// +1/+2<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ReadytheFleet_FleetFootedEnchantment = "TLC_441e2";
+
+                /// <summary>
+                /// If you play the <b>Discover</b>ed card this turn, also choose one of the other two options.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SubmergedMap_SubmergedMapPlayerEnchantEnchantment = "TLC_442e";
+
+                /// <summary>
+                /// +4/+4 and <b>Deathrattle:</b> Summon a random 4-Cost minion.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ThreshridersBlessing_ThresherSaddleEnchantment = "TLC_477e";
             }
         }
     }

@@ -30120,6 +30120,12 @@ namespace HearthDb
                 /// 0/0 Mechanical Minion
                 /// </summary>
                 public const string BattlecruiserToken = "SC_999t";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string UndercoverCultist_NestingRaptorToken = "TLC_101t";
             }
         }
     }

@@ -56,6 +56,12 @@ namespace HearthDb
                 public const string GarroshHellscream_TankUp7 = "HERO_01bdhp2";
 
                 /// <summary>
+                /// <b>Hero Power</b> Gain $d4 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_TankUp8 = "HERO_01bfhp2";
+
+                /// <summary>
                 /// +3/+3.<br/>
                 /// Enchantment
                 /// </summary>
@@ -326,16 +332,16 @@ namespace HearthDb
                 public const string GarroshHellscream_ArmorUpHeroSkins10 = "HERO_01bdhp";
 
                 /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
+                /// <b>Hero Power</b> Gain $d2 Armor.<br/>
+                /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_MecathunHeroSkinsEnchantment = "HERO_01be";
+                public const string GarroshHellscream_ArmorUpHeroSkins11 = "HERO_01bfhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins11 = "HERO_01dbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins12 = "HERO_01dbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
@@ -347,7 +353,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins12 = "HERO_01fbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins13 = "HERO_01fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
@@ -371,7 +377,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins13 = "HERO_01qbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins14 = "HERO_01qbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
@@ -383,7 +389,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins14 = "HERO_01vbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins15 = "HERO_01vbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
@@ -395,7 +401,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins15 = "HERO_01wbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins16 = "HERO_01wbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
@@ -1398,6 +1404,12 @@ namespace HearthDb
                 /// 0-Cost Spell
                 /// </summary>
                 public const string Recruiter = "LOOTA_Warrior_13";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string RabidWorgen_RabidWorgen = "GIL_113_Puzzle";
 
                 /// <summary>
                 /// +3 Attack this turn.<br/>
@@ -4596,6 +4608,42 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string DragonTurtle_TurtleMawEnchantment = "FIR_956e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get 2 random 'Journey to Un'Goro' <b>Quest Rewards</b>. Shuffle the rest into your deck.<br/>
+                /// 5-Cost 8/8 Minion
+                /// </summary>
+                public const string EntertheLostCity_LatorviusGazeOfTheCityToken = "TLC_602t";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CityDefenses_StandStrongEnchantment = "TLC_622e";
+
+                /// <summary>
+                /// <b>Taunt</b> After this takes damage, gain +1 Attack.<br/>
+                /// 2-Cost 0/6 Minion
+                /// </summary>
+                public const string CityDefenses_SteadfastSecurityToken = "TLC_622t";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Stonecarver_TortollanCarvingEnchantment = "TLC_623e";
+
+                /// <summary>
+                /// Deal $8 damage to a random enemy. <i>(Two uses left!)</i><br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string StoryofSulfuras_DieInsectToken1 = "TLC_632t";
+
+                /// <summary>
+                /// Deal $8 damage to a random enemy. <i>(Last use!)</i><br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string StoryofSulfuras_DieInsectToken2 = "TLC_632t2";
             }
         }
     }

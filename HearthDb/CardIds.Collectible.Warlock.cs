@@ -1658,6 +1658,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Guldan_CuratorRafaamHeroHeroSkinsEnchantment = "HERO_07be";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Guldan_CityChiefUmbraHeroHeroSkins = "HERO_07bf";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Guldan_ArachnidKerriganHeroHeroSkins = "HERO_07bg";
 
                 /// <summary>
@@ -2384,6 +2396,66 @@ namespace HearthDb
                 /// 5-Cost 7/7 Minion
                 /// </summary>
                 public const string CommanderUlthok = "TID_719";
+
+                /// <summary>
+                /// <b>Quest:</b> Play 6 <b>Temporary</b> cards. <b>Reward:</b> Underfel Rift.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string EscapeTheUnderfel = "TLC_446";
+
+                /// <summary>
+                /// Destroy an enemy minion. <b>Kindred:</b> Deal $2 damage to all minions.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string CausticFumes = "TLC_447";
+
+                /// <summary>
+                /// <b>Discover</b> a <b>Temporary</b> 1-Cost minion.<br/>
+                /// 1-Cost Location
+                /// </summary>
+                public const string BloodpetalBiome = "TLC_449";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your next <b>Temporary</b> card costs (2) less.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string Spelunker = "TLC_450";
+
+                /// <summary>
+                /// <b>Discover</b> a minion from your deck. Make it <b>Temporary</b>.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string CursedCatacombs = "TLC_451";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Discard a random card from your hand. <b>Kindred:</b> Your opponent's hand instead.<br/>
+                /// 4-Cost 7/7 Demon/Beast Minion
+                /// </summary>
+                public const string Razidir = "TLC_463";
+
+                /// <summary>
+                /// At the end of your turn, discard a card and fill your board with 3/2 Imps. Lasts 3 turns.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string StoryOfLakkari = "TLC_466";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Get 2 random Fel spells. They cost Health instead of Mana.<br/>
+                /// 5-Cost 0/8 Minion
+                /// </summary>
+                public const string WhisperingStone = "TLC_467";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get two random <b>Temporary</b> 2-Cost minions.<br/>
+                /// 3-Cost 4/3 Beast Minion
+                /// </summary>
+                public const string TunnelTerror = "TLC_469";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Summon a random Fel Beast.<br/>
+                /// 6-Cost 2/8 Minion
+                /// </summary>
+                public const string DeathrotMaw = "TLC_479";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw a Demon. <b>Deathrattle:</b> Swap places with it.<br/>

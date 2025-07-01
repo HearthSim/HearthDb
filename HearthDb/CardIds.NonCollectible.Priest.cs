@@ -8,6 +8,12 @@ namespace HearthDb
             public class Priest
             {
                 /// <summary>
+                /// +2 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PowerWordShield_PowerWordShieldEnchantment = "CS2_004e_Puzzle";
+
+                /// <summary>
                 /// This minion's Attack is equal to its Health.<br/>
                 /// Enchantment
                 /// </summary>
@@ -252,12 +258,6 @@ namespace HearthDb
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string AnduinWrynn_HealHeroSkins7 = "HERO_09dbp2_Copy";
-
-                /// <summary>
-                /// <b>Deathrattle:</b> Return any spells you cast on this minion to your hand.<br/>
-                /// 1-Cost 0/2 Minion
-                /// </summary>
-                public const string TestSubject_TestSubject = "BOT_558_puzzle";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, your Hero Power costs (0) this game.<br/>
@@ -950,6 +950,12 @@ namespace HearthDb
                 public const string NightscaleMatriarch_NightscaleWhelpToken = "GIL_190t";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Summon a <b>Deathrattle</b> minion from your hand.<br/>
+                /// 6-Cost 6/5 Undead Minion
+                /// </summary>
+                public const string CoffinCrasher_CoffinCrasher = "GIL_805_Puzzle";
+
+                /// <summary>
                 /// Has Attack equal to its Health.<br/>
                 /// Enchantment
                 /// </summary>
@@ -1032,6 +1038,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string PowerWordReplicate_ReplicatedEnchantment = "BOT_529e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Return any spells you cast on this minion to your hand.<br/>
+                /// 1-Cost 0/2 Minion
+                /// </summary>
+                public const string TestSubject_TestSubject = "BOT_558_puzzle";
 
                 /// <summary>
                 /// Storing spell.<br/>
@@ -1392,6 +1404,12 @@ namespace HearthDb
                 /// 1-Cost Spell
                 /// </summary>
                 public const string RippleInTime = "TOT_345";
+
+                /// <summary>
+                /// Health changed.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Archaios_ArchaiosAegisEnchantment = "TLC_811e";
 
                 /// <summary>
                 /// Health changed.<br/>
@@ -3306,6 +3324,66 @@ namespace HearthDb
                 /// 3-Cost Spell
                 /// </summary>
                 public const string LightoftheNewMoon_LightOfTheFullMoonToken = "FIR_918t";
+
+                /// <summary>
+                /// Choose a minion. If it's friendly, give it +2 Health. If it's an enemy, give it -2 Health.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string PurifyingVines = "TLC_813";
+
+                /// <summary>
+                /// +2 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PurifyingVines_VerdantVinesEnchantment = "TLC_813e";
+
+                /// <summary>
+                /// -2 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PurifyingVines_WitheringVinesEnchantment = "TLC_813e2";
+
+                /// <summary>
+                /// <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GravedawnVoidbulb_VoidTouchedEnchantment = "TLC_815e";
+
+                /// <summary>
+                /// <b>Quest:</b> Cast 5 Holy spells. <b>Reward:</b> Life's Breath.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string ReachEquilibrium_CleanseTheShadowToken = "TLC_817t";
+
+                /// <summary>
+                /// <b>Quest:</b> Cast 5 Shadow spells. <b>Reward:</b> Death's Touch.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string ReachEquilibrium_CorruptTheLightToken = "TLC_817t2";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Battlecry:</b> Summon a copy of this. <i>If you're holding both halves of Sol'etos, combine!</i><br/>
+                /// 5-Cost 4/4 Elemental Minion
+                /// </summary>
+                public const string ReachEquilibrium_SoletosLifesBreathToken = "TLC_817t3";
+
+                /// <summary>
+                /// <b>Reborn</b>. <b>Deathrattle:</b> Deal 5 damage to a random enemy. <i>If you're holding both halves of Sol'etos, combine!</i><br/>
+                /// 5-Cost 4/4 Elemental Minion
+                /// </summary>
+                public const string ReachEquilibrium_SoletosDeathsTouchToken = "TLC_817t4";
+
+                /// <summary>
+                /// <b>Taunt</b>, <b>Reborn</b>. <b>Battlecry:</b> Summon a copy of this. <b>Deathrattle:</b> Deal 5 damage to a random enemy.<br/>
+                /// 5-Cost 8/8 Elemental Minion
+                /// </summary>
+                public const string ReachEquilibrium_SoletosCyclesRebirthToken = "TLC_817t5";
+
+                /// <summary>
+                /// Increased Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string StoryofAmara_WardedByAmaraEnchantment = "TLC_835e";
             }
         }
     }

@@ -4471,7 +4471,7 @@ namespace HearthDb
                 public const string SupremeDinomancy_SupremelyDinomancedEnchantment = "TLC_828e";
 
                 /// <summary>
-                /// <b>Rush</b> <b>Battlecry:</b> Get a random 8, 6, and 4-Attack Beast. Set their Costs to (2).<br/>
+                /// <b>Rush</b> <b>Battlecry:</b> <b>Discover</b> any 8, 6, and 4-Attack Beast. Set their Costs to (2).<br/>
                 /// 5-Cost 9/9 Beast Minion
                 /// </summary>
                 public const string TheFoodChain_ShokkJungleTyrantToken = "TLC_830t";

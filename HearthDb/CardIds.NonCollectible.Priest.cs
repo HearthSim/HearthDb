@@ -3350,13 +3350,13 @@ namespace HearthDb
                 public const string GravedawnVoidbulb_VoidTouchedEnchantment = "TLC_815e";
 
                 /// <summary>
-                /// <b>Quest:</b> Cast 5 Holy spells. <b>Reward:</b> Life's Breath.<br/>
+                /// <b>Quest:</b> Cast 4 Holy spells. <b>Reward:</b> Life's Breath.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ReachEquilibrium_CleanseTheShadowToken = "TLC_817t";
 
                 /// <summary>
-                /// <b>Quest:</b> Cast 5 Shadow spells. <b>Reward:</b> Death's Touch.<br/>
+                /// <b>Quest:</b> Cast 4 Shadow spells. <b>Reward:</b> Death's Touch.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ReachEquilibrium_CorruptTheLightToken = "TLC_817t2";

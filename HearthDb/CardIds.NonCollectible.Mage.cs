@@ -4400,187 +4400,187 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Destroy an enemy minion. This minion and your hero gain its Health.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken1 = "TLC_452t1";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 5 damage.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken2 = "TLC_452t13";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Cast 1 random Mage <b>Secret</b>.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken3 = "TLC_452t14";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Enemy cards cost (1) more next turn.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken4 = "TLC_452t15";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Set the Attack and Health of all enemy minions to 2.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken5 = "TLC_452t16";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Give your other minions +2/+2.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken6 = "TLC_452t17";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw 2 minions. Set their Attack, Health, and Cost to 2.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken7 = "TLC_452t18";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Choose a non-<b>Titan</b> minion. Summon a copy of it with +2/+2.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken8 = "TLC_452t19";
 
                 /// <summary>
                 /// <b>Battlecry:</b> The next spell you cast costs (3) less and has <b>Spell Damage +3</b>.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken9 = "TLC_452t2";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon a random 6-Cost minion. Give it <b>Taunt</b> and <b>Lifesteal</b>.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken10 = "TLC_452t20";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Choose two enemy minions. Remove them from the game.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken11 = "TLC_452t21";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Gain +2/+1. Deal 4 damage to a random enemy.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken12 = "TLC_452t22";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Gain +1/+2. Draw a card.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken13 = "TLC_452t23";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Gain +3 Health and <b>Elusive</b>.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken14 = "TLC_452t24";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 20 damage to another minion.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken15 = "TLC_452t26";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 3 damage to all enemies and restore 6 Health to all friendly characters.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken16 = "TLC_452t27";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon two 6/6 Infernals.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken17 = "TLC_452t28";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Send all other minions into the Twisting Nether.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken18 = "TLC_452t29";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon two 3/3 Undead with <b>Taunt</b> and <b>Reborn</b>.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken19 = "TLC_452t3";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Gain +5 Health. Give your hero 5 Armor.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken20 = "TLC_452t30";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Gain +5 Attack. Give your hero +5 Attack this turn.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken21 = "TLC_452t31";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Gain +2/+2. Draw a weapon.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken22 = "TLC_452t32";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Fill your hand with 1/1 Chaotic Tendrils.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken23 = "TLC_452t33";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Force each enemy minion to attack a random enemy minion.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken24 = "TLC_452t34";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Take control of an enemy minion.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken25 = "TLC_452t35";
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Discover</b> a <b>Deathrattle</b> minion. It costs (3) less.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken26 = "TLC_452t4";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Reduce the Cost of all minions in your hand by (2).<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken27 = "TLC_452t5";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon four 2/2 Elementals with <b>Taunt</b>.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken28 = "TLC_452t6";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw cards until your hand is full.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken29 = "TLC_452t7";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Restore your hero to full Health.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken30 = "TLC_452t8";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Refresh your Mana Crystals.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk_TitanographerOskToken31 = "TLC_452t9";
 

@@ -309,7 +309,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b><b>Spellburst</b>:</b> Trigger a random friendly minion's <b>Deathrattle</b>. <b>Starship Piece</b><br/>
-                /// 2-Cost 3/2 Minion
+                /// 3-Cost 3/2 Minion
                 /// </summary>
                 public const string GuidingFigure = "GDB_106";
 
@@ -1214,7 +1214,7 @@ namespace HearthDb
                 public const string DreadRaptor = "TLC_432";
 
                 /// <summary>
-                /// <b>Quest:</b> Spend 18 <b>Corpses</b>. <b>Reward:</b> Tyrax, Bone Terror.<br/>
+                /// <b>Quest:</b> Spend 15 <b>Corpses</b>. <b>Reward:</b> Tyrax, Bone Terror.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ReanimateTheTerror = "TLC_433";
@@ -1413,7 +1413,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Whenever you play a <b>Deathrattle</b> minion, give it <b>Reborn</b>.<br/>
-                /// 2-Cost 1/4 Undead/Pirate Minion
+                /// 2-Cost 1/3 Undead/Pirate Minion
                 /// </summary>
                 public const string BrittleboneBuccaneer = "VAC_436";
 

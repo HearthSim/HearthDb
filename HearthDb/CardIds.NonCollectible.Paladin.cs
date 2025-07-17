@@ -4340,7 +4340,7 @@ namespace HearthDb
                 public const string DivetheGolakkaDepths_TheSacredCaveToken = "TLC_426t";
 
                 /// <summary>
-                /// Your next Murloc this turn costs (2) less.<br/>
+                /// Your next Murloc this turn costs (1) less.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string HotSpringGlider_WeeeeeEnchantment = "TLC_428e";

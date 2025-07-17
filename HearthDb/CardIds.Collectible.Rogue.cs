@@ -1208,8 +1208,8 @@ namespace HearthDb
                 public const string EdwinVancleef = "EX1_613";
 
                 /// <summary>
-                /// Costs (1) less for each card you've played this turn. <b>Deathrattle:</b> Return this to your hand.<br/>
-                /// 4-Cost 2/2 Elemental/Beast Minion
+                /// Costs (1) less for each card you've played this turn. <b>Deathrattle:</b> Return this to hand at end of turn.<br/>
+                /// 4-Cost 3/2 Elemental/Beast Minion
                 /// </summary>
                 public const string EverburningPhoenix = "FIR_919";
 
@@ -2337,7 +2337,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Rush</b> Costs (1) less for each time you've shuffled cards into your deck.<br/>
-                /// 7-Cost 5/5 Minion
+                /// 6-Cost 5/5 Minion
                 /// </summary>
                 public const string UnderbrushTracker = "TLC_520";
 
@@ -2348,7 +2348,7 @@ namespace HearthDb
                 public const string EyesInTheSky = "TLC_521";
 
                 /// <summary>
-                /// <b>Battlecry, Combo, and Deathrattle:</b> Cast 'Fan of Knives'.<br/>
+                /// <b><b>Stealth</b>.</b> <b>Battlecry, Combo, and Deathrattle:</b> Cast 'Fan of Knives'.<br/>
                 /// 6-Cost 6/4 Minion
                 /// </summary>
                 public const string OpuTheUnseen = "TLC_522";

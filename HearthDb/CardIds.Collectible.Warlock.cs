@@ -2398,7 +2398,7 @@ namespace HearthDb
                 public const string CommanderUlthok = "TID_719";
 
                 /// <summary>
-                /// <b>Quest:</b> Play 6 <b>Temporary</b> cards. <b>Reward:</b> Underfel Rift.<br/>
+                /// <b>Quest:</b> Play 5 <b>Temporary</b> cards. <b>Reward:</b> Underfel Rift.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string EscapeTheUnderfel = "TLC_446";

@@ -1323,7 +1323,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// This minion's Attack is improved by your hero's.<br/>
-                /// 1-Cost 1/3 Naga Minion
+                /// 1-Cost 1/2 Naga Minion
                 /// </summary>
                 public const string SockPuppetSlitherspear = "MIS_710";
 
@@ -1676,13 +1676,13 @@ namespace HearthDb
                 public const string HeraldOfChaos = "TID_706";
 
                 /// <summary>
-                /// Whenever this takes damage, get a 1-Cost Gorishi Stinger.<br/>
-                /// 6-Cost 2/8 Beast Minion
+                /// <b>Rush</b>. Whenever this takes damage, get a 1-Cost Gorishi Stinger.<br/>
+                /// 5-Cost 2/7 Beast Minion
                 /// </summary>
                 public const string GorishiWasp = "TLC_630";
 
                 /// <summary>
-                /// <b>Quest:</b> Deal exactly 2 damage to an enemy on your turn, 15 times. <b>Reward:</b> Gorishi Colossus.<br/>
+                /// <b>Quest:</b> Deal exactly 2 damage to an enemy on your turn, 12 times. <b>Reward:</b> Gorishi Colossus.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string UnleashTheColossus = "TLC_631";
@@ -1707,7 +1707,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Put each minion in your hand into 0/1 Jars that cost (1). Break them to release the minions!<br/>
-                /// 9-Cost 7/7 Minion
+                /// 8-Cost 7/7 Minion
                 /// </summary>
                 public const string EntomologistToru = "TLC_841";
 
@@ -1754,7 +1754,7 @@ namespace HearthDb
                 public const string UmpiresGrasp = "TOY_641";
 
                 /// <summary>
-                /// <b>Lifesteal</b> <b>Battlecry and Deathrattle:</b> Deal 3 damage to the lowest Health enemy.<br/>
+                /// <b>Lifesteal</b> <b>Battlecry and Deathrattle:</b> Deal 2 damage to the lowest Health enemy.<br/>
                 /// 4-Cost 3/3 Quilboar Minion
                 /// </summary>
                 public const string BallHog = "TOY_642";

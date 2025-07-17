@@ -2414,7 +2414,7 @@ namespace HearthDb
                 public const string GravedawnSunbloom = "TLC_816";
 
                 /// <summary>
-                /// <b>Quest:</b> Cast 5 Holy spells <b>Reward:</b> Life's Breath. <b>Quest:</b> Cast 5 Shadow spells. <b>Reward:</b> Death's Touch.<br/>
+                /// <b>Quest:</b> Cast 4 Holy spells <b>Reward:</b> Life's Breath. <b>Quest:</b> Cast 4 Shadow spells. <b>Reward:</b> Death's Touch.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ReachEquilibrium = "TLC_817";
@@ -2439,7 +2439,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Lifesteal</b> Whenever you heal an enemy, this attacks it.<br/>
-                /// 7-Cost 7/7 Elemental Minion
+                /// 7-Cost 6/7 Elemental Minion
                 /// </summary>
                 public const string WiltedShadow = "TLC_821";
 
@@ -2859,7 +2859,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Whenever this minion takes damage, also deal that amount to your hero.<br/>
-                /// 1-Cost 2/4 Undead/Pirate Minion
+                /// 1-Cost 2/3 Undead/Pirate Minion
                 /// </summary>
                 public const string BrainMasseuse = "VAC_512";
 

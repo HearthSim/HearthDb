@@ -2379,7 +2379,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Gains a random <b>Titan</b> ability in your hand that changes each turn.<br/>
-                /// 7-Cost 7/7 Minion
+                /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string TitanographerOsk = "TLC_452";
 

@@ -2969,7 +2969,7 @@ namespace HearthDb
                 public const string MenagerieMugCore = "CORE_WON_141";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Give 3 random friendly minions of different minion types +3/+3.<br/>
+                /// <b>Battlecry:</b> Give 3 random friendly minions of different minion types +2/+2.<br/>
                 /// 5-Cost 3/3 Minion
                 /// </summary>
                 public const string MenagerieJugCore = "CORE_WON_142";
@@ -5523,8 +5523,8 @@ namespace HearthDb
                 public const string EscapePod = "GDB_877";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Give all friendly Murlocs "<b>Deathrattle:</b> Draw a card."<br/>
-                /// 2-Cost 2/1 Murloc Minion
+                /// <b>Battlecry:</b> Give your other Murlocs "<b>Deathrattle:</b> Draw a card."<br/>
+                /// 3-Cost 3/2 Murloc Minion
                 /// </summary>
                 public const string Braingill = "GDB_878";
 
@@ -8633,12 +8633,12 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Get a copy of another Elemental or Dragon in your hand.<br/>
-                /// 4-Cost 4/3 Elemental/Dragon Minion
+                /// 3-Cost 3/3 Elemental/Dragon Minion
                 /// </summary>
                 public const string CloudSerpent = "TLC_888";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If you played a <b>Quest</b> this game, deal 2 damage.<br/>
+                /// <b>Battlecry:</b> If you played a <b>Quest</b> this game, deal 3 damage to an enemy minion.<br/>
                 /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string QuestingAssistant = "TLC_987";
@@ -11408,7 +11408,7 @@ namespace HearthDb
                 public const string MenagerieMug = "WON_141";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Give 3 random friendly minions of different minion types +3/+3.<br/>
+                /// <b>Battlecry:</b> Give 3 random friendly minions of different minion types +2/+2.<br/>
                 /// 5-Cost 3/3 Minion
                 /// </summary>
                 public const string MenagerieJug = "WON_142";

@@ -1244,7 +1244,7 @@ namespace HearthDb
                 public const string FarseerNobundo = "GDB_447";
 
                 /// <summary>
-                /// Your <b>Battlecry</b> minions cost (1), but immediately die after being played.<br/>
+                /// Your first <b>Battlecry</b> minion each turn costs (1), but immediately dies after being played.<br/>
                 /// 7-Cost 6/6 Elemental Minion
                 /// </summary>
                 public const string Murmur = "GDB_448";
@@ -2336,7 +2336,7 @@ namespace HearthDb
                 public const string BralmaSearstone = "TLC_228";
 
                 /// <summary>
-                /// <b>Quest:</b> Play 7 minions of unique types. <b>Reward:</b> Ashalon.<br/>
+                /// <b>Quest:</b> Play 6 minions of unique types. <b>Reward:</b> Ashalon.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string SpiritOfTheMountain = "TLC_229";

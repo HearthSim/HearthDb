@@ -1033,8 +1033,8 @@ namespace HearthDb
                 public const string Ursol = "EDR_259";
 
                 /// <summary>
-                /// Summon a random 1-Cost minion and give it <b>Taunt</b>. <b>Imbue</b> your Hero Power.<br/>
-                /// 1-Cost Spell
+                /// Summon a random 2-Cost minion and give it <b>Taunt</b>. <b>Imbue</b> your Hero Power.<br/>
+                /// 2-Cost Spell
                 /// </summary>
                 public const string AegisOfLight = "EDR_264";
 
@@ -2375,7 +2375,7 @@ namespace HearthDb
                 public const string DiveTheGolakkaDepths = "TLC_426";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Your next Murloc costs (2) less. <b>Kindred:</b> And gains <b>Divine Shield</b>.<br/>
+                /// <b>Battlecry:</b> Your next Murloc costs (1) less. <b>Kindred:</b> And gains <b>Divine Shield</b>.<br/>
                 /// 3-Cost 2/4 Murloc Minion
                 /// </summary>
                 public const string HotSpringGlider = "TLC_428";

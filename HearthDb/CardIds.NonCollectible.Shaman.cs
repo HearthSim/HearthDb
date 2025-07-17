@@ -3985,7 +3985,7 @@ namespace HearthDb
                 public const string MechanizedMagma_FannedFlameEnchantment = "TLC_224e";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Adapt</b> twice. For the rest of the game, give minions you play those <b>Adaptations</b>.<br/>
+                /// <b>Rush</b>. <b>Battlecry:</b> <b>Adapt</b> twice. For the rest of the game, give minions you play those <b><b>Adapt</b>ations</b>.<br/>
                 /// 5-Cost 8/8 Elemental/Beast Minion
                 /// </summary>
                 public const string SpiritoftheMountain_AshalonRidgeGuardianToken = "TLC_229t14";

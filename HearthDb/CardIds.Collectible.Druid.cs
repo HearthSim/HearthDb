@@ -2402,7 +2402,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Your minions cost (5) this game.<br/>
-                /// 7-Cost 5/5 Minion
+                /// 9-Cost 5/5 Minion
                 /// </summary>
                 public const string LohTheLivingLegend = "TLC_257";
 

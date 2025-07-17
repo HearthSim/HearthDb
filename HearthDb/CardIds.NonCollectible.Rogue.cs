@@ -4196,7 +4196,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon two 3/3 Ninjas with <b>Stealth</b>. Your Ninjas now shuffle back into your deck when they die.<br/>
-                /// 5-Cost Hero
+                /// 3-Cost Hero
                 /// </summary>
                 public const string LieinWait_MasterDuskToken = "TLC_513t";
 

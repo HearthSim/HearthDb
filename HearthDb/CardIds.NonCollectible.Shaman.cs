@@ -38,17 +38,6 @@ namespace HearthDb
                 public const string SpiritWolf = "EX1_tk11";
 
                 /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Battlecry:</b> Give your other Murlocs +4 Health.<br/>
-                /// Tier-2 4/6 Murloc Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Battlecry:</b> Give your other Murlocs +2 Health.<br/>
-                /// Tier-2 2/3 Murloc Minion
-                /// </summary>
-                public const string ColdlightSeerTavernBrawl = "TB_BaconUps_064";
-
-                /// <summary>
                 /// Destroy a minion, then return it to life with full Health.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -1396,7 +1385,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> <b>Freeze</b> a minion until this leaves the battlefield.<br/>
                 /// 4-Cost 3/5 Elemental Minion
                 /// </summary>
-                public const string StasisElementalTAVERNS_OF_TIME = "TOT_118";
+                public const string StasisElemental = "TOT_118";
 
                 /// <summary>
                 /// <b>Frozen</b> until Stasis Elemental leaves the battlefield.<br/>

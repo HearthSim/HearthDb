@@ -1601,6 +1601,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Rexxar_MonsterSlayerVivianHeroHeroSkins = "HERO_05bd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_ArachnidKerriganHeroHeroSkins = "HERO_05bf";
 
                 /// <summary>
@@ -1988,13 +1994,8 @@ namespace HearthDb
                 public const string CallOfTheWild = "OG_211";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Deathrattle:</b> Summon two 1/1 Spiders.<br/>
-                /// Tier-3 3/3 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Deathrattle:</b> Summon two 2/2 Spiders.<br/>
-                /// Tier-3 6/6 Beast Minion
+                /// Tier-3 3/3 Beast Minion
                 /// </summary>
                 public const string InfestedWolf = "OG_216";
 

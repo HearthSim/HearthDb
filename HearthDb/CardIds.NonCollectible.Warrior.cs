@@ -611,7 +611,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string DiabloTavernBrawl1 = "PVPDR_Hero_Diablo";
+                public const string Diablo = "PVPDR_Hero_Diablo";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -749,7 +749,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string DiabloTavernBrawlTavernBrawl = "TB_Diablo4_Promo_Hero2";
+                public const string DiabloTavernBrawl = "TB_Diablo4_Promo_Hero2";
 
                 /// <summary>
                 /// <b>Secret:</b> Both heroes take double damage.<br/>
@@ -803,7 +803,7 @@ namespace HearthDb
                 /// <i>He eats E.V.I.L. for breakfast, but only if there’s nothing G.O.O.D. around.</i><br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string AtramedesTavernBrawlTavernBrawl = "TB_EVILBRM_Atramedes";
+                public const string AtramedesTavernBrawl = "TB_EVILBRM_Atramedes";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1673,7 +1673,7 @@ namespace HearthDb
                 /// Whenever you play a Dragon, give it <b>Rush</b> and draw a Dragon.<br/>
                 /// 4-Cost 7/7 Dragon Minion
                 /// </summary>
-                public const string HeraldOfFlameTROLL = "TRLA_176";
+                public const string HeraldOfFlame = "TRLA_176";
 
                 /// <summary>
                 /// Has <b>Rush</b>.<br/>

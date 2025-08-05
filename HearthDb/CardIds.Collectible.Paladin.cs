@@ -1618,6 +1618,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string UtherLightbringer_DinoKnightLiadrinHeroHeroSkins = "HERO_04bi";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer_CarielTheChosenHeroHeroSkins = "HERO_04bj";
 
                 /// <summary>
@@ -1759,13 +1765,8 @@ namespace HearthDb
                 public const string ArrogantCrusader = "ICC_034";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Taunt</b> <b>Divine Shield</b><br/>
-                /// Tier-1 1/1 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Taunt</b> <b>Divine Shield</b><br/>
-                /// Tier-1 2/2 Minion
+                /// Tier-1 1/1 Minion
                 /// </summary>
                 public const string RighteousProtector = "ICC_038";
 
@@ -1812,13 +1813,8 @@ namespace HearthDb
                 public const string UtherOfTheEbonBlade = "ICC_829";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, gain +2 Attack.<br/>
-                /// Tier-4 1/7 Undead Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, gain +4 Attack.<br/>
-                /// Tier-4 2/14 Minion
+                /// Tier-4 1/7 Undead Minion
                 /// </summary>
                 public const string BolvarFireblood = "ICC_858";
 

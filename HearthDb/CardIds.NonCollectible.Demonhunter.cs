@@ -125,6 +125,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
+                public const string IllidanStormrageHeroic_DemonClawsHeroSkins = "HERO_10bbhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrageHeroic_DemonsBiteHeroSkins = "HERO_10bbhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
                 public const string IllidanStormrage_DemonClawsHeroSkins7 = "HERO_10bbp";
 
                 /// <summary>

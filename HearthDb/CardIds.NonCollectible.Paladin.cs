@@ -1326,17 +1326,6 @@ namespace HearthDb
                 public const string AnnoyoModule_AnnoyOModuleEnchantmentBOOMSDAY = "BOT_911e";
 
                 /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Deal {0} damage to a random enemy minion, twice.4<b>Deathrattle:</b> Deal <b>*{0}*</b> damage to a random enemy minion, twice.<br/>
-                /// Tier-2 4/4 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Deathrattle:</b> Deal {0} damage to a random enemy minion.4<b>Deathrattle:</b> Deal <b>*{0}*</b> damage to a random enemy minion.<br/>
-                /// Tier-2 2/2 Mechanical Minion
-                /// </summary>
-                public const string KaboomBotTavernBrawl = "TB_BaconUps_028";
-
-                /// <summary>
                 /// <b>Immune</b> until your next turn.<br/>
                 /// Enchantment
                 /// </summary>
@@ -1707,17 +1696,6 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Subdue = "RLK_Prologue_ULD_728";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Reborn</b> At the end of your turn, give another random friendly minion +2 Attack.<br/>
-                /// Tier-1 2/4 Mechanical/Undead Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Reborn</b> At the end of your turn, give another random friendly minion +1 Attack.<br/>
-                /// Tier-1 1/2 Mechanical/Undead Minion
-                /// </summary>
-                public const string MicroMummyTavernBrawl = "TB_BaconUps_250";
 
                 /// <summary>
                 /// +4/+4, <b>Divine Shield</b>, and <b>Taunt</b>.<br/>
@@ -2239,7 +2217,7 @@ namespace HearthDb
                 /// Increased stats.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string ArgentBraggart_BestOfTheBestEnchantmentSCHOLOMANCE2 = "SCH_149e";
+                public const string ArgentBraggart_BestOfTheBestEnchantmentSCHOLOMANCE = "SCH_149e";
 
                 /// <summary>
                 /// <b>Taunt</b><br/>
@@ -2270,12 +2248,6 @@ namespace HearthDb
                 /// 1-Cost 1/3 Minion
                 /// </summary>
                 public const string LordaeronAttendant = "Story_01_LordaeronAttendant";
-
-                /// <summary>
-                /// Stats set to double the highest.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string ArgentBraggart_BestestOfTheBestEnchantmentTavernBrawl = "TB_BaconUps_308e";
 
                 /// <summary>
                 /// <b>Corrupted</b> <b>Divine Shield,</b> <b>Taunt</b><br/>
@@ -2678,28 +2650,6 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string JudgmentofJustice_JudgedEnchantment = "WC_033e";
-
-                /// <summary>
-                /// Normal (this):<br/>
-                /// <b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, give a minion in your hand +5/+5.<br/>
-                /// Tier-5 5/5 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, give a minion in your hand +10/+10.<br/>
-                /// Tier-5 10/10 Minion
-                /// </summary>
-                public const string HighlordFordragon = "BG26_SW_047";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, give a minion in your hand +10/+10.<br/>
-                /// Tier-5 10/10 Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, give a minion in your hand +5/+5.<br/>
-                /// Tier-5 5/5 Minion
-                /// </summary>
-                public const string HighlordFordragon_HighlordFordragon = "BG26_SW_047_G";
 
                 /// <summary>
                 /// Tamsin must complete the ritual and summon Anetheron before she is overrun.<br/>

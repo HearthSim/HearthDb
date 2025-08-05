@@ -1375,13 +1375,8 @@ namespace HearthDb
                 public const string Warpath = "GIL_654";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// After a friendly minion attacks, gain +1 Attack.<br/>
-                /// Tier-4 2/7 Undead Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// After a friendly minion attacks, gain +2 Attack.<br/>
-                /// Tier-4 4/14 Undead Minion
+                /// Tier-4 2/7 Undead Minion
                 /// </summary>
                 public const string FesterootHulk = "GIL_655";
 
@@ -1422,13 +1417,8 @@ namespace HearthDb
                 public const string OgreWarmaul = "GVG_054";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Battlecry:</b> Give a friendly Mech +2/+2.<br/>
-                /// Tier-3 2/5 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Give a friendly Mech +4/+4.<br/>
-                /// Tier-3 4/10 Mechanical Minion
+                /// Tier-3 2/5 Mechanical Minion
                 /// </summary>
                 public const string ScrewjankClunker = "GVG_055";
 
@@ -2363,7 +2353,7 @@ namespace HearthDb
                 public const string WindpeakWyrm = "TLC_600";
 
                 /// <summary>
-                /// Spend up to 5 Armor. For each spent, deal 1 damage to all minions.<br/>
+                /// Spend up to 5 Armor. For each spent, deal $1 damage to all minions.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string Shellnado = "TLC_601";

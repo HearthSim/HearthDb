@@ -242,13 +242,8 @@ namespace HearthDb
                 public const string FrostGiant = "AT_120";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// Whenever you play a card with <b>Battlecry</b>, gain +1/+1.<br/>
-                /// Tier-3 4/4 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Whenever you play a card with <b>Battlecry</b>, gain +2/+2.<br/>
-                /// Tier-3 8/8 Minion
+                /// Tier-3 4/4 Minion
                 /// </summary>
                 public const string CrowdFavorite = "AT_121";
 
@@ -631,13 +626,8 @@ namespace HearthDb
                 public const string BurningBladeAcolyte = "BAR_072";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Frenzy:</b> Give your other minions +2/+2.<br/>
-                /// Tier-3 3/5 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Frenzy:</b> Give your other minions +4/+4.<br/>
-                /// Tier-3 6/10 Minion
+                /// Tier-3 3/5 Minion
                 /// </summary>
                 public const string BarrensBlacksmith = "BAR_073";
 
@@ -3515,13 +3505,8 @@ namespace HearthDb
                 public const string ArchivistElysiana = "DAL_736";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// Your minions with <b>Windfury</b> have <b>Mega-Windfury</b>.<br/>
-                /// Tier-4 6/6 Elemental Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Your minions with <b>Windfury</b> have <b>Mega-Windfury</b>.<br/>
-                /// Tier-4 12/12 Elemental Minion
+                /// Tier-4 6/6 Elemental Minion
                 /// </summary>
                 public const string WhirlwindTempest = "DAL_742";
 
@@ -4756,13 +4741,8 @@ namespace HearthDb
                 public const string CrazedAlchemist = "EX1_059";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Charge</b>. Has +1 Attack for each other Murloc on the battlefield.<br/>
-                /// Tier-2 2/4 Murloc Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Charge</b>. Has +2 Attack for each other Murloc on the battlefield.<br/>
-                /// Tier-2 4/8 Murloc Minion
+                /// Tier-2 2/4 Murloc Minion
                 /// </summary>
                 public const string OldMurkEyeLegacy = "EX1_062";
 
@@ -4815,13 +4795,8 @@ namespace HearthDb
                 public const string ArcaneGolem = "EX1_089";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Battlecry:</b> Give adjacent minions +1/+1 and <b>Taunt</b>.<br/>
-                /// Tier-4 3/3 Draenei Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Give adjacent minions +2/+2 and <b>Taunt</b>.<br/>
-                /// Tier-4 6/6 Minion
+                /// Tier-4 3/3 Draenei Minion
                 /// </summary>
                 public const string DefenderOfArgus = "EX1_093";
 
@@ -4886,13 +4861,8 @@ namespace HearthDb
                 public const string LeeroyJenkins = "EX1_116";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// Adjacent minions have +1 Attack.<br/>
-                /// Tier-1 2/2 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Adjacent minions have +2 Attack.<br/>
-                /// Tier-1 4/4 Beast Minion
+                /// Tier-1 2/2 Beast Minion
                 /// </summary>
                 public const string DireWolfAlpha = "EX1_162";
 
@@ -4993,13 +4963,8 @@ namespace HearthDb
                 public const string RagingWorgen = "EX1_412";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Battlecry:</b> Summon a 1/1 Murloc Scout.<br/>
-                /// Tier-1 2/1 Murloc Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Summon a 2/2 Murloc Scout.<br/>
-                /// Tier-1 4/2 Murloc Minion
+                /// Tier-1 2/1 Murloc Minion
                 /// </summary>
                 public const string MurlocTidehunterLegacy = "EX1_506";
 
@@ -5016,13 +4981,8 @@ namespace HearthDb
                 public const string GrimscaleOracleLegacy = "EX1_508";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// Whenever you summon a Murloc, gain +1 Attack.<br/>
-                /// Tier-1 1/2 Murloc Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Whenever you summon a Murloc, gain +2 Attack.<br/>
-                /// Tier-1 2/4 Murloc Minion
+                /// Tier-1 1/2 Murloc Minion
                 /// </summary>
                 public const string MurlocTidecaller = "EX1_509";
 
@@ -5081,13 +5041,8 @@ namespace HearthDb
                 public const string Ysera = "EX1_572";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Deathrattle:</b> Summon a 3/3 Pip Quickwit for your opponent.<br/>
-                /// Tier-3 9/7 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Deathrattle:</b> Summon a 3/3 Pip Quickwit for your opponent.<br/>
-                /// Tier-3 18/14 Beast Minion
+                /// Tier-3 9/7 Beast Minion
                 /// </summary>
                 public const string TheBeast = "EX1_577";
 
@@ -5236,13 +5191,8 @@ namespace HearthDb
                 public const string Deathlord = "FP1_009";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Poisonous</b><br/>
-                /// Tier-6 2/8 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Poisonous</b><br/>
-                /// Tier-6 4/16 Beast Minion
+                /// Tier-6 2/8 Beast Minion
                 /// </summary>
                 public const string Maexxna = "FP1_010";
 
@@ -6015,13 +5965,8 @@ namespace HearthDb
                 public const string PilotedSkyGolem = "GVG_105";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// Whenever a friendly Mech dies, gain +2/+2.<br/>
-                /// Tier-4 1/5 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Whenever a friendly Mech dies, gain +4/+4.<br/>
-                /// Tier-4 2/10 Mechanical Minion
+                /// Tier-4 1/5 Mechanical Minion
                 /// </summary>
                 public const string Junkbot = "GVG_106";
 
@@ -6158,13 +6103,8 @@ namespace HearthDb
                 public const string SunborneValkyr = "ICC_028";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// At the end of your turn, give another random friendly minion +3 Attack.<br/>
-                /// Tier-4 5/5 Dragon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// At the end of your turn, give another random friendly minion +6 Attack.<br/>
-                /// Tier-4 10/10 Dragon Minion
+                /// Tier-4 5/5 Dragon Minion
                 /// </summary>
                 public const string CobaltScalebane = "ICC_029";
 
@@ -6481,13 +6421,8 @@ namespace HearthDb
                 public const string NetherspiteHistorian = "KAR_062";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +1/+1.<br/>
-                /// Tier-2 3/3 Mechanical Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +2/+2.<br/>
-                /// Tier-2 6/6 Mechanical Minion
+                /// Tier-2 3/3 Mechanical Minion
                 /// </summary>
                 public const string Zoobot = "KAR_095";
 
@@ -6510,13 +6445,8 @@ namespace HearthDb
                 public const string Barnes = "KAR_114";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +2/+2.<br/>
-                /// Tier-4 4/4 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Give a random friendly Beast, Dragon, and Murloc +4/+4.<br/>
-                /// Tier-4 8/8 Minion
+                /// Tier-4 4/4 Minion
                 /// </summary>
                 public const string MenagerieMagician = "KAR_702";
 
@@ -7391,13 +7321,8 @@ namespace HearthDb
                 public const string CultApothecaryOG = "OG_295";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// Whenever this attacks and kills a minion, gain +2/+2.<br/>
-                /// Tier-4 6/7 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Whenever this attacks and kills a minion, gain +4/+4.<br/>
-                /// Tier-4 12/14 Minion
+                /// Tier-4 6/7 Minion
                 /// </summary>
                 public const string TheBoogeymonster = "OG_300";
 
@@ -8765,7 +8690,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Costs (1) less for each card you've drawn this game.<br/>
-                /// 20-Cost 8/8 Mechanical Minion
+                /// 25-Cost 8/8 Mechanical Minion
                 /// </summary>
                 public const string PlayhouseGiant = "TOY_530";
 
@@ -9604,13 +9529,8 @@ namespace HearthDb
                 public const string Siamat = "ULD_178";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// Your <b>Taunt</b> minions have +2 Attack.<br/>
-                /// Tier-3 4/5 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Your <b>Taunt</b> minions have +4 Attack.<br/>
-                /// Tier-3 8/10 Minion
+                /// Tier-3 4/5 Minion
                 /// </summary>
                 public const string PhalanxCommander = "ULD_179";
 
@@ -9867,13 +9787,8 @@ namespace HearthDb
                 public const string RavasaurRunt = "UNG_009";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Summon three 1/1 Murlocs.<br/>
-                /// Tier-5 5/8 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Deathrattle:</b> Summon three 2/2 Murlocs.<br/>
-                /// Tier-5 10/14 Beast Minion
+                /// Tier-5 5/8 Beast Minion
                 /// </summary>
                 public const string SatedThreshadon = "UNG_010";
 

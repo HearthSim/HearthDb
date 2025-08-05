@@ -35,7 +35,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 2-Cost 2/2 Beast Minion
                 /// </summary>
-                public const string SavannahHighmane_HyenaTokenExpert12 = "EX1_534t";
+                public const string SavannahHighmane_HyenaTokenExpert1 = "EX1_534t";
 
                 /// <summary>
                 /// Increased Durability.<br/>
@@ -170,7 +170,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Give your other Mechs +2 Attack.<br/>
                 /// 3-Cost 3/3 Mechanical Minion
                 /// </summary>
-                public const string MetaltoothLeaperGVG2 = "Story_11_MetaltoothLeapPuzzle";
+                public const string MetaltoothLeaperGVG = "Story_11_MetaltoothLeapPuzzle";
 
                 /// <summary>
                 /// Triple (this):<br/>
@@ -865,7 +865,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// Tier-1 3/2 Beast Minion
                 /// </summary>
-                public const string KindlyGrandmother_BigBadWolfKARA2 = "KAR_005a";
+                public const string KindlyGrandmother_BigBadWolfKARA = "KAR_005a";
 
                 /// <summary>
                 /// Triple (this):<br/>
@@ -894,7 +894,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
-                public const string RatPack_RatTokenGANGS2 = "CFM_316t";
+                public const string RatPack_RatTokenGANGS = "CFM_316t";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -907,17 +907,6 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string TroggBeastrager_SmugglingEnchantment = "CFM_338e";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Summon a number of 2/2 Rats equal to this minion's Attack.<br/>
-                /// Tier-3 4/4 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// <b>Deathrattle:</b> Summon a number of 1/1 Rats equal to this minion's Attack.<br/>
-                /// Tier-3 2/2 Beast Minion
-                /// </summary>
-                public const string RatPackTavernBrawl = "TB_BaconUps_027";
 
                 /// <summary>
                 /// Triple (this):<br/>
@@ -3766,7 +3755,7 @@ namespace HearthDb
                 /// +1 Attack.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string ObserverofMyths_HigherInfluenceEnchantmentTITANS = "TTN_078e";
+                public const string ObserverofMyths_HigherInfluenceEnchantment = "TTN_078e";
 
                 /// <summary>
                 /// Excess damage hits the enemy hero.<br/>
@@ -4163,12 +4152,6 @@ namespace HearthDb
                 /// 4-Cost 3/5 Beast Minion
                 /// </summary>
                 public const string ExtraterrestrialEgg_EggbursterToken = "GDB_840t";
-
-                /// <summary>
-                /// Stores data for Gorm the Worldeater.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string GormtheWorldeater_GormEnchantEnchantment = "GDB_842e";
 
                 /// <summary>
                 /// <b>Dormant</b>. Awaken in 5 turns.<br/>

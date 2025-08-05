@@ -326,13 +326,8 @@ namespace HearthDb
                 public const string BlastcrystalPotion = "CFM_608";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Battlecry:</b> Give your Demons +1/+1.<br/>
-                /// Tier-3 5/4 Draenei Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Give your Demons +2/+2.<br/>
-                /// Tier-3 10/8 Minion
+                /// Tier-3 5/4 Draenei Minion
                 /// </summary>
                 public const string Crystalweaver = "CFM_610";
 
@@ -1141,13 +1136,8 @@ namespace HearthDb
                 public const string CallOfTheVoidLegacy = "EX1_181";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Taunt</b> Your other Demons have +1 Attack.<br/>
-                /// Tier-4 5/8 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Taunt</b> Your other Demons have +2 Attack.<br/>
-                /// Tier-4 10/16 Demon Minion
+                /// Tier-4 5/8 Demon Minion
                 /// </summary>
                 public const string SiegebreakerLegacy = "EX1_185";
 
@@ -1428,13 +1418,8 @@ namespace HearthDb
                 public const string FelCannon = "GVG_020";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// Your hero is <b>Immune</b>. Your other Demons have +2/+2.<br/>
-                /// Tier-5 9/7 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// Your other Demons have +4/+4. Your hero is <b>Immune</b>.<br/>
-                /// Tier-5 18/14 Demon Minion
+                /// Tier-5 9/7 Demon Minion
                 /// </summary>
                 public const string Malganis = "GVG_021";
 
@@ -1677,6 +1662,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string GuldanHeroic_TreasonTamsinHeroHeroSkins = "HERO_07bh";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Guldan_DarkmoonYoggSaronHeroHeroSkins = "HERO_07bl";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1925,13 +1916,8 @@ namespace HearthDb
                 public const string ReliquarySeeker = "LOE_116";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Taunt</b> <b>Battlecry:</b> Deal 2 damage to your hero.<br/>
-                /// Tier-1 2/4 Demon Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Taunt</b> <b>Battlecry:</b> Deal 2 damage to your hero.<br/>
-                /// Tier-1 4/8 Demon Minion
+                /// Tier-1 2/4 Demon Minion
                 /// </summary>
                 public const string VulgarHomunculus = "LOOT_013";
 
@@ -2422,7 +2408,7 @@ namespace HearthDb
                 public const string Spelunker = "TLC_450";
 
                 /// <summary>
-                /// <b>Discover</b> a minion from your deck. Make it <b>Temporary</b>.<br/>
+                /// <b>Discover</b> another card from your deck. Make it <b>Temporary</b>.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string CursedCatacombs = "TLC_451";

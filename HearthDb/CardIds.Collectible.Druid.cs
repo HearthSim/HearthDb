@@ -362,13 +362,8 @@ namespace HearthDb
                 public const string LunarVisions = "CFM_811";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Battlecry:</b> Give a friendly Beast +3/+3.<br/>
-                /// Tier-4 4/4 Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Battlecry:</b> Give a friendly Beast +4/+4.<br/>
-                /// Tier-4 8/10 Minion
+                /// Tier-4 4/4 Minion
                 /// </summary>
                 public const string VirmenSenseiGANGS = "CFM_816";
 
@@ -2473,13 +2468,8 @@ namespace HearthDb
                 public const string SpiritOfTheRaptor = "TRL_223";
 
                 /// <summary>
-                /// Normal (this):<br/>
                 /// <b>Overkill:</b> Summon a 5/5 Ironhide Runt.<br/>
-                /// Tier-5 7/7 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Triple:<br/>
-                /// <b>Overkill:</b> Summon a 10/10 Ironhide Runt.<br/>
-                /// Tier-5 14/14 Beast Minion
+                /// Tier-5 7/7 Beast Minion
                 /// </summary>
                 public const string IronhideDirehorn = "TRL_232";
 

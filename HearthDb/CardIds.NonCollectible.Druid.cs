@@ -4625,13 +4625,7 @@ namespace HearthDb
                 /// <b>Dormant</b>. Awaken in 3 turns.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string Incarceration_DoingTimeEnchantment1 = "MAW_026e";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Incarceration_DoingTimeEnchantment2 = "MAW_026e2";
+                public const string Incarceration_DoingTimeEnchantment = "MAW_026e";
 
                 /// <summary>
                 /// Copied <b>Deathrattle</b> from {0}.<br/>

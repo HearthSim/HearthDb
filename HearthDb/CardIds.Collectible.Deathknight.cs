@@ -467,6 +467,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string TheLichKing_KingBoneKrusherHeroHeroSkinsEnchantment = "HERO_11ao";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TheLichKing_ArthasMenethilHeroHeroSkins = "HERO_11b";
 
                 /// <summary>
@@ -1260,6 +1266,12 @@ namespace HearthDb
                 /// 8-Cost 8/6 Minion
                 /// </summary>
                 public const string HighCultistHerenn = "TLC_810";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Destroy all minions.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string StaffOfTheEndbringer = "TLC_EVENT_402";
 
                 /// <summary>
                 /// <b>Rush</b> After you cast a Frost spell, gain <b>Reborn</b>.<br/>

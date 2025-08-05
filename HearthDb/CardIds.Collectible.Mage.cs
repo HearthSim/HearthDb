@@ -1643,6 +1643,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string JainaProudmoore_DarkmoonYoggSaronHeroHeroSkins = "HERO_08bn";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string JainaProudmoore_StudyKayHeroHeroSkins = "HERO_08br";
 
                 /// <summary>
@@ -2384,7 +2390,7 @@ namespace HearthDb
                 public const string TitanographerOsk = "TLC_452";
 
                 /// <summary>
-                /// <b>Quest:</b> <b>Discover</b> 8 cards. <b>Reward:</b> The Origin Stone.<br/>
+                /// <b>Quest:</b> <b>Discover</b> 7 cards. <b>Reward:</b> The Origin Stone.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string TheForbiddenSequence = "TLC_460";

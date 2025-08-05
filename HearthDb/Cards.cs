@@ -36,7 +36,7 @@ namespace HearthDb
 		private static readonly HashSet<string> IgnoreTripleIds = new HashSet<string>
 		{
 			CardIds.NonCollectible.Priest.GhastcoilerTROLL,
-			CardIds.NonCollectible.Mage.GlyphGuardianTROLL,
+			CardIds.NonCollectible.Mage.GlyphGuardian,
 			CardIds.NonCollectible.Neutral.SeabreakerGoliathGILNEAS
 		};
 

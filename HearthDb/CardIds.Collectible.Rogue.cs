@@ -1208,7 +1208,7 @@ namespace HearthDb
                 public const string EdwinVancleef = "EX1_613";
 
                 /// <summary>
-                /// Costs (1) less for each card you've played this turn. <b>Deathrattle:</b> Return this to hand at end of turn.<br/>
+                /// Costs (1) less for each card you've played this turn. <b>Deathrattle: </b>At end of turn, get another Phoenix.<br/>
                 /// 4-Cost 3/2 Elemental/Beast Minion
                 /// </summary>
                 public const string EverburningPhoenix = "FIR_919";
@@ -1596,6 +1596,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ValeeraSanguinar_TreasureHunterMarinHeroHeroSkinsEnchantment = "HERO_03be";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinar_DinoPiratePatchesHeroHeroSkins = "HERO_03bf";
 
                 /// <summary>
                 /// (No Text)<br/>

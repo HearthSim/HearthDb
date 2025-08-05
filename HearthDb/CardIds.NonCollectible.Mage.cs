@@ -293,13 +293,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins9 = "HERO_08dbp";
+                public const string JainaProudmoore_FireblastHeroSkins9 = "HERO_08bnhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins9 = "HERO_08dbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins9 = "HERO_08bnhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins10 = "HERO_08dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins10 = "HERO_08dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -317,13 +329,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins10 = "HERO_08fbp";
+                public const string JainaProudmoore_FireblastHeroSkins11 = "HERO_08fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins10 = "HERO_08fbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins11 = "HERO_08fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
@@ -335,13 +347,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins11 = "HERO_08lbp";
+                public const string JainaProudmoore_FireblastHeroSkins12 = "HERO_08lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins11 = "HERO_08lbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins12 = "HERO_08lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -359,7 +371,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins12 = "HERO_08xbp";
+                public const string JainaProudmoore_FireblastHeroSkins13 = "HERO_08xbp";
 
                 /// <summary>
                 /// Deal $3 damage randomly split among all enemies.<br/>
@@ -1577,7 +1589,7 @@ namespace HearthDb
                 /// Whenever a character is <b>Frozen</b>, gain <b>Spell Damage +1</b>.<br/>
                 /// 4-Cost 4/6 Dragon Minion
                 /// </summary>
-                public const string GlyphGuardianTROLL = "TRLA_131";
+                public const string GlyphGuardian = "TRLA_131";
 
                 /// <summary>
                 /// Your Hero Power also <b><b>Freeze</b>s</b> the target. If the target is a <b>Frozen</b> minion, destroy it.<br/>

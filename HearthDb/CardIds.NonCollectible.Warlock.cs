@@ -166,7 +166,7 @@ namespace HearthDb
                 /// Increased stats.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string FloatingWatcher_BrowFurrowEnchantmentGVG2 = "GVG_100e";
+                public const string FloatingWatcher_BrowFurrowEnchantmentGVG = "GVG_100e";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -352,13 +352,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins11 = "HERO_07dbp";
+                public const string Guldan_LifeTapHeroSkins11 = "HERO_07blhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins10 = "HERO_07dbp2";
+                public const string Guldan_SoulTapHeroSkins10 = "HERO_07blhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_LifeTapHeroSkins12 = "HERO_07dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_SoulTapHeroSkins11 = "HERO_07dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
@@ -382,25 +394,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins12 = "HERO_07ybp";
+                public const string Guldan_LifeTapHeroSkins13 = "HERO_07ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins11 = "HERO_07ybp2";
+                public const string Guldan_SoulTapHeroSkins12 = "HERO_07ybp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins13 = "HERO_07zbp";
+                public const string Guldan_LifeTapHeroSkins14 = "HERO_07zbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins12 = "HERO_07zbp2";
+                public const string Guldan_SoulTapHeroSkins13 = "HERO_07zbp2";
 
                 /// <summary>
                 /// Deal $4 damage to a minion.<br/>
@@ -2493,7 +2505,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 2-Cost 3/2 Demon Minion
                 /// </summary>
-                public const string RingMatron_FieryImpTokenDARKMOON_FAIRE2 = "DMF_533t";
+                public const string RingMatron_FieryImpTokenDARKMOON_FAIRE = "DMF_533t";
 
                 /// <summary>
                 /// <i>The Horde came from this mysterious portal, and now they seek to return to it while they still can.</i><br/>
@@ -2547,7 +2559,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Summon a random Demon from your hand and deck.<br/>
                 /// 8-Cost 5/5 Demon Minion
                 /// </summary>
-                public const string KathranatirDARKMOON_FAIRE = "Story_06_Kathranatir";
+                public const string Kathranatir = "Story_06_Kathranatir";
 
                 /// <summary>
                 /// Return a minion in your opponent's hand to their deck.<br/>
@@ -4291,7 +4303,7 @@ namespace HearthDb
                 /// <b>Rush</b><br/>
                 /// 8-Cost 8/8 Minion
                 /// </summary>
-                public const string UltraliskSPACE5 = "SC_006";
+                public const string Ultralisk = "SC_006";
 
                 /// <summary>
                 /// +10 Health.<br/>

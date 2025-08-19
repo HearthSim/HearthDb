@@ -3068,7 +3068,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give a random minion in your hand +4/+4. If it's the only one there, reduce its Cost by (2).<br/>
-                /// 3-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string ReservedSpot = "WORK_021";
 

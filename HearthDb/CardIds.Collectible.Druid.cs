@@ -1239,7 +1239,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Summon a 1-Cost minion. Gain 1 Armor. Draw 1 card. Refresh 1 Mana |4(Crystal, Crystals). <i>(Improves each use!)</i><br/>
-                /// 4-Cost Location
+                /// 5-Cost Location
                 /// </summary>
                 public const string Amirdrassil = "FIR_907";
 

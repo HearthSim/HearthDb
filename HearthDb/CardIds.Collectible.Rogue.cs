@@ -866,6 +866,24 @@ namespace HearthDb
                 public const string FoolsGold = "DEEP_022";
 
                 /// <summary>
+                /// While in your hand, this is a 3/3 copy of the last minion your opponent played.<br/>
+                /// 3-Cost 3/3 Beast/Elemental Minion
+                /// </summary>
+                public const string MirrexTheCrystalline = "DINO_407";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Shuffle the left- most card in your hand into your deck. <b>Deathrattle:</b> Draw 2 cards.<br/>
+                /// 2-Cost Weapon
+                /// </summary>
+                public const string CrystalTusk = "DINO_408";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a random Mask from another class. <b>Combo:</b> It costs (2) less.<br/>
+                /// 3-Cost 1/3 Minion
+                /// </summary>
+                public const string CostumeMerchant = "DINO_427";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Return a friendly minion to your hand. It costs (1) this turn.<br/>
                 /// 2-Cost 3/2 Minion
                 /// </summary>

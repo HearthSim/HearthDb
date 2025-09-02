@@ -2096,6 +2096,12 @@ namespace HearthDb
                 public const string Volcoross_LavaWaveToken = "FIR_951t4";
 
                 /// <summary>
+                /// +1 Attack and <b>Rush</b>. At the end of your turn, this minion dies.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SoulrestCeremony_SoulrestEnchantment = "DINO_417e";
+
+                /// <summary>
                 /// <b>Deathrattle:</b> Open Terror's Grave. It has "<b>Deathrattle:</b> Resummon Tyrax."<br/>
                 /// 5-Cost 8/8 Undead/Beast Minion
                 /// </summary>

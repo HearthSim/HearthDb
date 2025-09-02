@@ -3536,6 +3536,12 @@ namespace HearthDb
                 public const string Scrapsmith_ScrappyGruntToken = "AV_323t";
 
                 /// <summary>
+                /// <b>Taunt</b><br/>
+                /// Tier-1 2/3 Dragon Minion
+                /// </summary>
+                public const string DragonspawnLieutenant = "BGS_039";
+
+                /// <summary>
                 /// Activate this turn's Juggernaut Power!<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
@@ -4608,6 +4614,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string DragonTurtle_TurtleMawEnchantment = "FIR_956e";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BarricadeBasher_BashfulEnchantment = "DINO_400e";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Get 2 random 'Journey to Un'Goro' <b>Quest Rewards</b>. Shuffle the rest into your deck.<br/>

@@ -848,6 +848,24 @@ namespace HearthDb
                 public const string ObsidianRevenant = "DEEP_005";
 
                 /// <summary>
+                /// Set a minion's stats to 8/8. Give it <b>Charge</b>.<br/>
+                /// 8-Cost Spell
+                /// </summary>
+                public const string DevilsaurMask = "DINO_403";
+
+                /// <summary>
+                /// <b><b>Taunt</b>. Deathrattle:</b> Summon two random 3-Cost Beasts. They attack random enemies.<br/>
+                /// 8-Cost 7/7 Beast Minion
+                /// </summary>
+                public const string Ankylodon = "DINO_422";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a random 1-Cost minion. <b><b>Deathrattle:</b> </b>Get a random 1-Cost spell.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string RaptorNestNurse = "DINO_434";
+
+                /// <summary>
                 /// <b>Corrupt:</b> Gain <b>Poisonous</b>.<br/>
                 /// 2-Cost 1/5 Beast Minion
                 /// </summary>
@@ -1602,6 +1620,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Rexxar_MonsterSlayerVivianHeroHeroSkins = "HERO_05bd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_VoidAlleriaHeroHeroSkinsEnchantment = "HERO_05be";
 
                 /// <summary>
                 /// (No Text)<br/>

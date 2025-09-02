@@ -29924,6 +29924,12 @@ namespace HearthDb
                 public const string BattlecruiserToken = "SC_999t";
 
                 /// <summary>
+                /// <b>Immune</b> while attacking.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HornofFeasting_FeastingEnchantment = "DINO_136e";
+
+                /// <summary>
                 /// <b>Rush</b><br/>
                 /// 1-Cost 2/1 Beast Minion
                 /// </summary>

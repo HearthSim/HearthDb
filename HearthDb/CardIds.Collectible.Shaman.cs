@@ -848,6 +848,24 @@ namespace HearthDb
                 public const string DiggingStraightDown = "DEEP_009";
 
                 /// <summary>
+                /// Deal $4 damage. Give your Elementals +1/+1.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string FireBreath = "DINO_406";
+
+                /// <summary>
+                /// At the end of your turn, get a random minion with multiple minion types.<br/>
+                /// 2-Cost 0/4 Totem Minion
+                /// </summary>
+                public const string Tortotem = "DINO_412";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 2 damage to two random enemy minions. <b>Kindred:</b> And <b>Freeze</b> them.<br/>
+                /// 4-Cost 3/4 Beast/Elemental Minion
+                /// </summary>
+                public const string ChillspineStegodon = "DINO_413";
+
+                /// <summary>
                 /// Transform all minions into random ones with the same Cost.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -1602,6 +1620,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Thrall_CrystalCarverDisidraHeroHeroSkins = "HERO_02bi";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Thrall_WorldShamanThrallHeroHeroSkins = "HERO_02bk";
 
                 /// <summary>
                 /// (No Text)<br/>

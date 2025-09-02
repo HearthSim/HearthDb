@@ -865,6 +865,24 @@ namespace HearthDb
                 public const string FossilizedKaleidosaur = "DEEP_033";
 
                 /// <summary>
+                /// <b>Kindred:</b> Give your other minions <b>Rush</b>.<br/>
+                /// 2-Cost 3/2 Murloc/Elemental Minion
+                /// </summary>
+                public const string Firegill = "DINO_404";
+
+                /// <summary>
+                /// At the end of your next turn, give your minions +2/+2.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string HatchingCeremony = "DINO_405";
+
+                /// <summary>
+                /// <b>Discover</b> a <b>Legendary</b> minion to summon. Set its stats to 10/10.<br/>
+                /// 8-Cost Spell
+                /// </summary>
+                public const string HerosWelcome = "DINO_424";
+
+                /// <summary>
                 /// <b>Divine Shield</b> <b>Corrupt:</b> Gain +3/+3 and <b>Taunt</b>.<br/>
                 /// 5-Cost 5/5 Mechanical/Beast Minion
                 /// </summary>
@@ -1613,6 +1631,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string UtherLightbringer_AdventureFinleyHeroHeroSkinsEnchantment = "HERO_04be";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string UtherLightbringer_FaerinLotharHeroHeroSkins = "HERO_04bg";
 
                 /// <summary>
                 /// (No Text)<br/>

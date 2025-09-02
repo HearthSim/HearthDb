@@ -352,6 +352,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string UtherLightbringer_ReinforceHeroSkins7 = "HERO_04bghp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string UtherLightbringer_TheSilverHandHeroSkins7 = "HERO_04bghp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkinsEnchantment = "HERO_04ebp";
 
                 /// <summary>
@@ -364,13 +376,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins7 = "HERO_04fbp";
+                public const string UtherLightbringer_ReinforceHeroSkins8 = "HERO_04fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins7 = "HERO_04fbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins8 = "HERO_04fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
@@ -382,37 +394,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins8 = "HERO_04lbp";
+                public const string UtherLightbringer_ReinforceHeroSkins9 = "HERO_04lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins8 = "HERO_04lbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins9 = "HERO_04lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins9 = "HERO_04ubp";
+                public const string UtherLightbringer_ReinforceHeroSkins10 = "HERO_04ubp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins9 = "HERO_04ubp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins10 = "HERO_04ubp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins10 = "HERO_04wbp";
+                public const string UtherLightbringer_ReinforceHeroSkins11 = "HERO_04wbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins10 = "HERO_04wbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins11 = "HERO_04wbp2";
 
                 /// <summary>
                 /// Change the Health of ALL minions to 1.<br/>
@@ -4234,6 +4246,18 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string SearingReflection_SearingReflectionEnchantment = "FIR_941e1";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HatchingCeremony_HatchedEnchantment = "DINO_405e";
+
+                /// <summary>
+                /// 10/10.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HerosWelcome_HerosCelebrationEnchantment = "DINO_424e";
 
                 /// <summary>
                 /// (No Text)<br/>

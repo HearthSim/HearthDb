@@ -896,6 +896,24 @@ namespace HearthDb
                 public const string TroggGemtosser = "DEEP_029";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Summon a 1/2 Beast. Give your minions +1/+1.<br/>
+                /// 2-Cost 0/2 Minion
+                /// </summary>
+                public const string LongneckEgg = "DINO_130";
+
+                /// <summary>
+                /// <b>Taunt</b>, <b>Elusive</b> <b>Deathrattle:</b> Give all minions in your hand and deck +3/+3.<br/>
+                /// 9-Cost 9/9 Beast Minion
+                /// </summary>
+                public const string Seismopod = "DINO_421";
+
+                /// <summary>
+                /// Set a minion's stats to 5/4 and give it <b>Stealth</b>. Draw 2 cards.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string PantherMask = "DINO_432";
+
+                /// <summary>
                 /// Deal $3 damage to a minion. Your next spell this turn costs (2) less.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -1626,6 +1644,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string MalfurionStormrage_DinoDreamerYseraHeroHeroSkins = "HERO_06bd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MalfurionStormrage_OrweynaHeroHeroSkinsEnchantment = "HERO_06be";
 
                 /// <summary>
                 /// (No Text)<br/>

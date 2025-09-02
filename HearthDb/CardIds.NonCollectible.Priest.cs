@@ -239,25 +239,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins6 = "HERO_09dbp";
+                public const string AnduinWrynn_LesserHealHeroSkins6 = "HERO_09bdhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #4 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_HealHeroSkins6 = "HERO_09bdhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins7 = "HERO_09dbp_Copy";
+                public const string AnduinWrynn_LesserHealHeroSkins7 = "HERO_09dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #2 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_LesserHealHeroSkins8 = "HERO_09dbp_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins6 = "HERO_09dbp2";
+                public const string AnduinWrynn_HealHeroSkins7 = "HERO_09dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins7 = "HERO_09dbp2_Copy";
+                public const string AnduinWrynn_HealHeroSkins8 = "HERO_09dbp2_Copy";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, your Hero Power costs (0) this game.<br/>
@@ -3324,6 +3336,18 @@ namespace HearthDb
                 /// 3-Cost Spell
                 /// </summary>
                 public const string LightoftheNewMoon_LightOfTheFullMoonToken = "FIR_918t";
+
+                /// <summary>
+                /// 2/2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RitualofLife_LastingLifeEnchantment = "DINO_426e";
+
+                /// <summary>
+                /// 8/10 and <b>Lifesteal</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BehemothMask_BehemothMaskEnchantment = "DINO_428e";
 
                 /// <summary>
                 /// Choose a minion. If it's friendly, give it +2 Health. If it's an enemy, give it -2 Health.<br/>

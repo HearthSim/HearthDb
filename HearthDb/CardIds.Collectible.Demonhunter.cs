@@ -692,6 +692,24 @@ namespace HearthDb
                 public const string FelFissure = "DEEP_013";
 
                 /// <summary>
+                /// Summon three 2/1 Raptors with <b>Rush</b>. <b>Outcast:</b> Give them <b>Immune</b> while attacking this turn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string HornOfFeasting = "DINO_136";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Reduce the Cost of adjacent cards in your hand by (1).<br/>
+                /// 3-Cost 4/2 Minion
+                /// </summary>
+                public const string SkittishSaucier = "DINO_137";
+
+                /// <summary>
+                /// <b>Kindred:</b> Deal 6 damage to your opponent's left and right-most minions.<br/>
+                /// 6-Cost 6/5 Beast/Demon Minion
+                /// </summary>
+                public const string DiabolusRex = "DINO_138";
+
+                /// <summary>
                 /// Your <b>Outcast</b> cards cost (1) less.<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
@@ -1164,6 +1182,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string IllidanStormrage_ArachnidKerriganHeroHeroSkins = "HERO_10bd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string IllidanStormrageHeroic_SecretDestinyArannaHeroHeroSkins = "HERO_10bh";
 
                 /// <summary>
                 /// (No Text)<br/>

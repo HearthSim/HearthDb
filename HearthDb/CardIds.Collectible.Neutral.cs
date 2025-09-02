@@ -3649,6 +3649,36 @@ namespace HearthDb
                 public const string MaruutStonebinder = "DEEP_037";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Summon a slightly cracked Egg. <i>(Break 5 times to hatch into a 20/20 Beast!)</i><br/>
+                /// 3-Cost 0/3 Minion
+                /// </summary>
+                public const string TheEggOfKhelos = "DINO_410";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a 0-Attack minion.<br/>
+                /// 2-Cost 1/2 Minion
+                /// </summary>
+                public const string HolyEggbearer = "DINO_411";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give a friendly Beast +2/+2 and <b>Rush</b>.<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
+                public const string HerbivoreAssistant = "DINO_419";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a <b>Legendary</b> Beast from any class to gain its stats. <b>Deathrattle:</b> Summon it.<br/>
+                /// 7-Cost 2/2 Minion
+                /// </summary>
+                public const string BeastSpeakerTaka = "DINO_430";
+
+                /// <summary>
+                /// <b>Kindred:</b> Summon a copy of this.<br/>
+                /// 5-Cost 3/4 All Minion
+                /// </summary>
+                public const string CraterExperiment = "DINO_435";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Resurrect a friendly minion of each minion type.<br/>
                 /// 9-Cost 5/7 Minion
                 /// </summary>

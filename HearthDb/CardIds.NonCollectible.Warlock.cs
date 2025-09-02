@@ -4360,6 +4360,12 @@ namespace HearthDb
                 public const string OvergrownHorror_OvergrownEnchantment = "EDR_654e";
 
                 /// <summary>
+                /// 1/1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BatMask_BatMaskEnchantment = "DINO_402e";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// Enchantment
                 /// </summary>

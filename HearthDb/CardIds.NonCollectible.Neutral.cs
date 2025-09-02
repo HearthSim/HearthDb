@@ -31402,6 +31402,12 @@ namespace HearthDb
 
                 /// <summary>
                 /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string CarielRoame_LynxriderCariel = "BG21_HERO_000_SKIN_F";
+
+                /// <summary>
+                /// (No Text)<br/>
                 /// Enchantment
                 /// </summary>
                 public const string CarielRoame_CarielWatcherEnchantment = "BG21_HERO_000e";
@@ -32295,6 +32301,12 @@ namespace HearthDb
                 public const string VanndarStormpike_VanndarCavedweller = "BG22_HERO_003_SKIN_D";
 
                 /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string VanndarStormpike_EarthenVanndar = "BG22_HERO_003_SKIN_E";
+
+                /// <summary>
                 /// Increased Health.<br/>
                 /// Enchantment
                 /// </summary>
@@ -32451,6 +32463,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string QueenAzshara_PrimalNagaQueenAzshara = "BG22_HERO_007_SKIN_Ct";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string QueenAzshara_NerubianQueenAzshara = "BG22_HERO_007_SKIN_D";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string QueenAzshara_NerubianNagaQueenAzshara = "BG22_HERO_007_SKIN_Dt";
 
                 /// <summary>
                 /// <b>Passive.</b> When your warband reaches 30 total Attack, begin your Naga Conquest.<b>Passive.</b> When your warband reaches 30 total Attack, begin your Naga Conquest. <i>({0} left!)</i><br/>
@@ -33743,6 +33767,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string HeistbaronTogwaggle_SafecrackerTogwaggle = "BG23_HERO_305_SKIN_D";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string HeistbaronTogwaggle_CandleKingTogwaggle = "BG23_HERO_305_SKIN_E";
 
                 /// <summary>
                 /// Steal all cards from the Tavern. Each turn, your next Hero Power costs (1) less.<br/>
@@ -43143,22 +43173,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Choose One - </b>Your <b>Blood Gems</b> give an extra +1/+1 this game; or Get 4 <b>Blood Gems</b>.<br/>
-                /// Tier-4 3/5 Quilboar Minion<br/>
+                /// Tier-5 3/5 Quilboar Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Choose One - </b>Your <b>Blood Gems</b> give an extra +2/+2 this game; or Get 8 <b>Blood Gems</b>.<br/>
-                /// Tier-4 6/10 Quilboar Minion
+                /// Tier-5 6/10 Quilboar Minion
                 /// </summary>
                 public const string FearlessFoodie = "BG30_123";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Choose One - </b>Your <b>Blood Gems</b> give an extra +2/+2 this game; or Get 8 <b>Blood Gems</b>.<br/>
-                /// Tier-4 6/10 Quilboar Minion<br/>
+                /// Tier-5 6/10 Quilboar Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Choose One - </b>Your <b>Blood Gems</b> give an extra +1/+1 this game; or Get 4 <b>Blood Gems</b>.<br/>
-                /// Tier-4 3/5 Quilboar Minion
+                /// Tier-5 3/5 Quilboar Minion
                 /// </summary>
                 public const string FearlessFoodie_FearlessFoodie = "BG30_123_G";
 
@@ -43513,6 +43543,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string MarinTheManagerBATTLEGROUNDS = "BG30_HERO_304";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MarintheManager_AviatorMarin = "BG30_HERO_304_SKIN_A";
 
                 /// <summary>
                 /// <b>Passive</b> On Turn 5, choose a Lesser <b>Trinket</b> to buy. <i>({0} turns left!)</i>4<b>Passive</b> On Turn 5, choose a Lesser <b>Trinket</b> to buy.<br/>
@@ -47111,6 +47147,12 @@ namespace HearthDb
                 public const string FarseerNobundo = "BG31_HERO_003";
 
                 /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string FarseerNobundo_LamplighterNobundo = "BG31_HERO_003_SKIN_A";
+
+                /// <summary>
                 /// Get a copy of the last Tavern spell you cast. Each turn, your next Hero Power costs (1) less.<br/>
                 /// 3-Cost HeroPower
                 /// </summary>
@@ -47139,6 +47181,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ExarchOthaar = "BG31_HERO_006";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ExarchOthaar_ArathiOthaar = "BG31_HERO_006_SKIN_A";
 
                 /// <summary>
                 /// The next Tavern spell you buy costs (1) less. <i>(Unlocks on Turn 3.)</i><br/>
@@ -49869,7 +49917,7 @@ namespace HearthDb
                 public const string WornTreasureMap = "BG32_MagicItem_428";
 
                 /// <summary>
-                /// 'Your Tavern spells that give stats grant an extra +{0}/+{1}. At the start of each turn, improve this.<br/>
+                /// Your Tavern spells that give stats grant an extra +{0}/+{1}. At the start of each turn, improve this.<br/>
                 /// 2-Cost BattlegroundTrinket
                 /// </summary>
                 public const string MarvelousMushroom = "BG32_MagicItem_700";
@@ -50333,22 +50381,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Deathrattle</b>: Get a Haunted Carapace.<br/>
-                /// Tier-4 6/3 Undead Minion<br/>
+                /// Tier-5 6/3 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Deathrattle</b>: Get 2 Haunted Carapaces.<br/>
-                /// Tier-4 12/6 Undead Minion
+                /// Tier-5 12/6 Undead Minion
                 /// </summary>
                 public const string CarapaceRaiser = "BG33_111";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Deathrattle</b>: Get 2 Haunted Carapaces.<br/>
-                /// Tier-4 12/6 Undead Minion<br/>
+                /// Tier-5 12/6 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Deathrattle</b>: Get a Haunted Carapace.<br/>
-                /// Tier-4 6/3 Undead Minion
+                /// Tier-5 6/3 Undead Minion
                 /// </summary>
                 public const string CarapaceRaiser_CarapaceRaiser = "BG33_111_G";
 
@@ -55230,6 +55278,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string TradePrinceGallywix_DarkfuseGallywixTavernBrawl = "TB_BaconShop_HERO_10_SKIN_F";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TradePrinceGallywix_TradePrinceGallywixTavernBrawl = "TB_BaconShop_HERO_10_Tutorial";
 
                 /// <summary>
@@ -57130,6 +57184,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string DinotamerBrann_DelveExplorerBrannTavernBrawl = "TB_BaconShop_HERO_43_SKIN_H";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string IvoryQueenSylvanasTavernBrawl = "TB_BaconShop_HERO_44_SKIN_A";
 
                 /// <summary>
@@ -58966,6 +59026,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string NZoth_AerialNzothTavernBrawl = "TB_BaconShop_HERO_93_SKIN_E";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TickatusTavernBrawl = "TB_BaconShop_HERO_94";
 
                 /// <summary>
@@ -60136,6 +60202,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string MagniBronzebeardTavernBrawl = "TB_BaconShopBob_SKIN_AP";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AlleriaTavernBrawl = "TB_BaconShopBob_SKIN_AQ";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string XalatathTavernBrawl = "TB_BaconShopBob_SKIN_AR";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -62660,6 +62738,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string ScabbsCutterbutter_CookinEnchantment1 = "BAR_552e";
+
+                /// <summary>
+                /// Your next two cards this turn costs (3) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ScabbsCutterbutter_CookinEnchantment2 = "BAR_552e_bom_puzzle";
 
                 /// <summary>
                 /// Triggers at the start of your next turn.<br/>
@@ -83228,10 +83312,10 @@ namespace HearthDb
                 public const string DopEmergencyEnchant1CorePlaceholderEnchantment = "DOP_001e";
 
                 /// <summary>
-                /// Get Everburning Phoenix at the end of the turn.<br/>
+                /// Use this enchant (present but unused in client builds for emergency hotfixes) when we need to add an enchantment to a hotfix.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string EverburningCorePlaceholderEnchantment = "DOP_002e";
+                public const string DopEmergencyEnchant2CorePlaceholderEnchantment = "DOP_002e";
 
                 /// <summary>
                 /// Use this enchant (present but unused in client builds for emergency hotfixes) when we need to add an enchantment to a hotfix.<br/>
@@ -86358,10 +86442,70 @@ namespace HearthDb
                 public const string LightoftheNewMoon_ElunesLightEnchantment = "FIR_918e1";
 
                 /// <summary>
+                /// Get Everburning Phoenix at the end of the turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EverburningPhoenix_EverburningEnchantment = "FIR_919e";
+
+                /// <summary>
                 /// Gain 1 Mana Crystal this turn only.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string PetalPicker_ManaBloomEnchantment = "FIR_921e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 10-Cost 20/20 Beast Minion
+                /// </summary>
+                public const string TheEggofKhelos_KhelosToken = "DINO_410t";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a more cracked Egg. <i>(Break 4 more times to hatch into a 20/20 Beast!)</i><br/>
+                /// 3-Cost 0/3 Minion
+                /// </summary>
+                public const string TheEggofKhelos_TheEggOfKhelosToken1 = "DINO_410t2";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a very cracked Egg. <i>(Break 3 more times to hatch into a 20/20 Beast!)</i><br/>
+                /// 3-Cost 0/3 Minion
+                /// </summary>
+                public const string TheEggofKhelos_TheEggOfKhelosToken2 = "DINO_410t3";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon the most cracked Egg. <i>(Break 2 more times to hatch into a 20/20 Beast!)</i><br/>
+                /// 3-Cost 0/3 Minion
+                /// </summary>
+                public const string TheEggofKhelos_TheEggOfKhelosToken3 = "DINO_410t4";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a 20/20 Khelos. <i>(Break to hatch!)</i><br/>
+                /// 3-Cost 0/3 Minion
+                /// </summary>
+                public const string TheEggofKhelos_TheEggOfKhelosToken4 = "DINO_410t5";
+
+                /// <summary>
+                /// +2/+2 and <b>Rush</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HerbivoreAssistant_MakingProgressEnchantment = "DINO_419e";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BeastSpeakerTaka_LegendaryMountEnchantment = "DINO_430e";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinTHE_LOST_CITY1 = "DINO_COIN1";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinTHE_LOST_CITY2 = "DINO_COIN2";
 
                 /// <summary>
                 /// {0} {1}<br/>
@@ -86616,7 +86760,7 @@ namespace HearthDb
                 public const string PetrifiedOgre_PetrifiedEnchantment = "TLC_253e";
 
                 /// <summary>
-                /// <b>Dormant</b>. 50% chance to awaken.<br/>
+                /// Apply +2/+2 while dormant<br/>
                 /// Enchantment
                 /// </summary>
                 public const string PetrifiedOgre_PetrifiedPowerupEnchantment = "TLC_253e1";
@@ -86676,7 +86820,7 @@ namespace HearthDb
                 public const string Platysaur_PlatysaurEnchantment2 = "TLC_603e2";
 
                 /// <summary>
-                /// (No Text)<br/>
+                /// <b>Deathrattle:</b> Discard {0}.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Platysaur_PlatysaurEnchantment3 = "TLC_603e3";
@@ -86721,37 +86865,61 @@ namespace HearthDb
                 /// Gain 1 Mana Crystal this turn only.<br/>
                 /// 0-Cost Spell
                 /// </summary>
-                public const string TheCoinTHE_LOST_CITY1 = "TLC_COIN1";
+                public const string TheCoinTHE_LOST_CITY3 = "TLC_COIN1";
 
                 /// <summary>
                 /// Gain 1 Mana Crystal this turn only.<br/>
                 /// 0-Cost Spell
                 /// </summary>
-                public const string TheCoinTHE_LOST_CITY2 = "TLC_COIN2";
+                public const string TheCoinTHE_LOST_CITY4 = "TLC_COIN2";
 
                 /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Pet
                 /// </summary>
-                public const string ClassicKrush = "PET_2_1";
+                public const string ClassicKrush = "PET_3_1";
 
                 /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Pet
                 /// </summary>
-                public const string DevilsaurKrush = "PET_2_2";
+                public const string DevilsaurKrush = "PET_3_2";
 
                 /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Pet
                 /// </summary>
-                public const string KingPlush = "PET_2_3";
+                public const string KingPlush = "PET_3_3";
 
                 /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Pet
                 /// </summary>
-                public const string CrystalKrush = "PET_2_4";
+                public const string CrystalKrush = "PET_3_4";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string Rabbitath = "PET_4_1";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string AngelicRabbitath = "PET_4_2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string EtherealRabbitath = "PET_4_3";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string CorruptedRabbitath = "PET_4_4";
             }
         }
     }

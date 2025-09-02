@@ -323,6 +323,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a random basic Totem.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string ThrallHeroic_TotemicCallHeroSkins4 = "HERO_02bhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ThrallHeroic_TotemicSlamHeroSkins4 = "HERO_02bhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string Thrall_TotemicCallHeroSkins10 = "HERO_02fbp";
 
                 /// <summary>
@@ -3954,6 +3966,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string RenferaltheMalignant_WebbedEnchantment = "EDR_526e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FireBreath_FireBreatherEnchantment = "DINO_406e";
 
                 /// <summary>
                 /// +2/+2.<br/>

@@ -6,8 +6,8 @@
     <Company>HearthSim</Company>
     <Product>HearthDb</Product>
     <Copyright>Copyright © HearthSim 2023</Copyright>
-    <AssemblyVersion>33.2.2</AssemblyVersion>
-    <FileVersion>33.2.2</FileVersion>
+    <AssemblyVersion>33.4.0</AssemblyVersion>
+    <FileVersion>33.4.0</FileVersion>
     <LangVersion>8</LangVersion>
   </PropertyGroup>
 

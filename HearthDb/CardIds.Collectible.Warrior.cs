@@ -895,6 +895,24 @@ namespace HearthDb
                 public const string DeepminerBrann = "DEEP_020";
 
                 /// <summary>
+                /// Whenever you gain Armor, gain +2/+2 and attack a random enemy minion.<br/>
+                /// 3-Cost 4/3 Beast Minion
+                /// </summary>
+                public const string BarricadeBasher = "DINO_400";
+
+                /// <summary>
+                /// <b>Rush</b> After this attacks an enemy minion, it damages ALL other enemy minions.<br/>
+                /// 8-Cost 5/12 Beast/Dragon Minion
+                /// </summary>
+                public const string TheGreatDracorex = "DINO_401";
+
+                /// <summary>
+                /// Summon a random 6, 4, and 2-Cost <b>Taunt</b> minion.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string GuardDuty = "DINO_433";
+
+                /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Equip a 3/2 Sword.<br/>
                 /// 4-Cost 2/5 Pirate Minion
                 /// </summary>
@@ -1637,6 +1655,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string GarroshHellscream_ShandrisFeathermoonHeroHeroSkins = "HERO_01bf";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_MagniReforgedHeroHeroSkins = "HERO_01bg";
 
                 /// <summary>
                 /// (No Text)<br/>

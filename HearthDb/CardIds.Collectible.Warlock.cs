@@ -884,6 +884,24 @@ namespace HearthDb
                 public const string Soulfreeze = "DEEP_032";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Summon a random Beast from your deck. Give it <b>Lifesteal</b>.<br/>
+                /// 6-Cost 2/2 Minion
+                /// </summary>
+                public const string PossessedAnimancer = "DINO_131";
+
+                /// <summary>
+                /// <b>Taunt</b>. At the end of your turn, deal 5 damage to a random enemy minion.<br/>
+                /// 8-Cost 6/10 Beast/Demon Minion
+                /// </summary>
+                public const string Asphyxiodon = "DINO_132";
+
+                /// <summary>
+                /// Set a friendly minion's stats to 1/1. Fill your board with copies of it.<br/>
+                /// 8-Cost Spell
+                /// </summary>
+                public const string BatMask = "DINO_402";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Deal 2 damage to all minions except Demons.<br/>
                 /// 4-Cost 4/3 Demon Minion
                 /// </summary>

@@ -2545,10 +2545,22 @@ namespace HearthDb
                 public const string Yoink_YoinkEnchantment = "BAR_323e";
 
                 /// <summary>
+                /// <b>Combo:</b> The next two cards you play this turn cost (3) less.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
+                public const string ScabbsCutterbutter_ScabbsCutterbutter = "BAR_552_bom_puzzle";
+
+                /// <summary>
                 /// The next two cards you play this turn costs (2) less.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string ScabbsCutterbutter_CookinEnchantment2 = "BAR_552o";
+                public const string ScabbsCutterbutter_CookinEnchantment3 = "BAR_552o";
+
+                /// <summary>
+                /// The next two cards you play this turn costs (3) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ScabbsCutterbutter_CookinEnchantment4 = "BAR_552o_bom_puzzle";
 
                 /// <summary>
                 /// Equip Kingsbane.<br/>
@@ -4175,6 +4187,18 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Cindersword_FieryEnchantment = "FIR_922e";
+
+                /// <summary>
+                /// Transforming into the last minion your opponent plays.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MirrextheCrystalline_ReflectingEnchantment = "DINO_407e";
+
+                /// <summary>
+                /// 3/3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MirrextheCrystalline_CrystallineEnchantment = "DINO_407e2";
 
                 /// <summary>
                 /// When this dies, shuffle it into your deck.<br/>

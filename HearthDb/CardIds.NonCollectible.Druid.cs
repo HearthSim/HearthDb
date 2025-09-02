@@ -497,6 +497,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string MalfurionStormrageHeroic_ShapeshiftHeroSkinsEnchantment = "HERO_06behp";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string MalfurionStormrageHeroic_DireShapeshiftHeroSkinsEnchantment = "HERO_06behp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string MalfurionStormrage_ShapeshiftHeroSkinsEnchantment = "HERO_06ebp";
 
                 /// <summary>
@@ -5264,13 +5276,13 @@ namespace HearthDb
                 public const string CenarionHold_CenariOnHoldEnchantment = "WON_015e";
 
                 /// <summary>
-                /// <b>Dormant</b>. Awaken in 2 turns.<br/>
+                /// End of turn summon<br/>
                 /// Enchantment
                 /// </summary>
                 public const string DozingDragon_OversleepingEnchantment = "VAC_511e";
 
                 /// <summary>
-                /// (No Text)<br/>
+                /// <b>Dormant</b>. Awaken in 2 turns.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string DozingDragon_SleepyEnchantment = "VAC_511e2";
@@ -5538,6 +5550,30 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string KeeperofFlame_BurningUpEnchantment2 = "FIR_928e3";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LongneckEgg_LongNeckEnchantment = "DINO_130e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/2 Beast Minion
+                /// </summary>
+                public const string LongneckEgg_LittleLongneckToken = "DINO_130t";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Seismopod_SeismicEnchantment = "DINO_421e";
+
+                /// <summary>
+                /// 5/4 and <b>Stealth</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PantherMask_PantherMaskEnchantment = "DINO_432e";
 
                 /// <summary>
                 /// (No Text)<br/>

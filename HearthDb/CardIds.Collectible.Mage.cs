@@ -866,6 +866,24 @@ namespace HearthDb
                 public const string MantleShaper = "DEEP_004";
 
                 /// <summary>
+                /// <b>Taunt</b>. Costs (1) less for each card you played this game that didn't start in your deck.<br/>
+                /// 7-Cost 3/6 Beast/Mechanical Minion
+                /// </summary>
+                public const string Techysaurus = "DINO_409";
+
+                /// <summary>
+                /// Choose a minion. Choose a different minion to transform it into.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string TributeDance = "DINO_414";
+
+                /// <summary>
+                /// Set a minion's stats to 1/1 and give it "<b>Deathrattle:</b> Deal 2 damage to all minions."<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string SheepMask = "DINO_429";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Add two 1/2 Sugar Elementals to your hand.<br/>
                 /// 2-Cost 3/2 Elemental Minion
                 /// </summary>

@@ -170,6 +170,24 @@ namespace HearthDb
                 public const string MiningCasualties = "DEEP_017";
 
                 /// <summary>
+                /// <b>Discover</b> a <b>Deathrattle</b> minion that costs (5) or more. Summon it and trigger its <b>Deathrattle</b>.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string StoryOfUmbra = "DINO_415";
+
+                /// <summary>
+                /// <b>Rush</b> After a friendly minion dies, spend 3 <b>Corpses</b> to gain <b>Reborn</b>.<br/>
+                /// 5-Cost 5/4 Beast/Undead Minion
+                /// </summary>
+                public const string HollowDirehorn = "DINO_416";
+
+                /// <summary>
+                /// Give your minions +1 Attack and <b>Rush</b>. They die at the end of your turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SoulrestCeremony = "DINO_417";
+
+                /// <summary>
                 /// Your Leeches steal 1 more Health from their victims. <b>Battlecry:</b> Summon two 0/2 Leeches.<br/>
                 /// 6-Cost 3/5 Undead/Beast Minion
                 /// </summary>

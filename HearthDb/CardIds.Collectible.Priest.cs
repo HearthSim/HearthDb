@@ -902,6 +902,24 @@ namespace HearthDb
                 public const string PendantOfEarth = "DEEP_026";
 
                 /// <summary>
+                /// <b>Discover</b> a 3-Cost minion. Summon a 2/2 copy of it.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string RitualOfLife = "DINO_426";
+
+                /// <summary>
+                /// Set a minion's stats to 8/10 and give it <b>Lifesteal</b>. Force a random enemy minion to attack it.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string BehemothMask = "DINO_428";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Summon a random <b>Taunt</b> minion that costs (5) or more.<br/>
+                /// 8-Cost 5/10 Beast Minion
+                /// </summary>
+                public const string Atlasaurus = "DINO_431";
+
+                /// <summary>
                 /// <b>Taunt</b> At the end of your turn, summon a 5/5 copy of a minion in your deck.<br/>
                 /// 9-Cost 8/8 Elemental Minion
                 /// </summary>
@@ -1668,6 +1686,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string AnduinWrynn_FieldMedicXyrellaHeroHeroSkins = "HERO_09bc";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_XalatathHeroHeroSkins = "HERO_09bd";
 
                 /// <summary>
                 /// (No Text)<br/>

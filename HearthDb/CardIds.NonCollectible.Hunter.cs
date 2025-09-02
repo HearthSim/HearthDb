@@ -4430,6 +4430,12 @@ namespace HearthDb
                 public const string BrollBearmantle_VerdantDreamsaberEnchantment = "EDR_853e";
 
                 /// <summary>
+                /// 8/8 and <b>Charge</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DevilsaurMask_DevilsaurMaskEnchantment = "DINO_403e";
+
+                /// <summary>
                 /// The next Beast you play this turn costs (2) less.<br/>
                 /// Enchantment
                 /// </summary>

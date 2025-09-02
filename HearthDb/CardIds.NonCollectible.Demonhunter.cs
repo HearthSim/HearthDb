@@ -2540,6 +2540,12 @@ namespace HearthDb
                 public const string GrimHarvest_HoundsFangsEnchantmentToken = "EDR_840te";
 
                 /// <summary>
+                /// <b>Rush</b><br/>
+                /// 2-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string HornofFeasting_RavenousRaptorToken = "DINO_136t";
+
+                /// <summary>
                 /// Deal $2 damage. Summon a 2/1 Grub with <b>Rush</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>

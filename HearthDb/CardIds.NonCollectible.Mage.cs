@@ -4411,6 +4411,18 @@ namespace HearthDb
                 public const string StellarBalance_StellarBalanceEnchantment = "EDR_874e";
 
                 /// <summary>
+                /// This minion has been transformed.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TributeDance_TributeEnchantment = "DINO_414e";
+
+                /// <summary>
+                /// 1/1 and <b>Deathrattle:</b> Deal 2 damage to all minions.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SheepMask_SheepMaskEnchantment = "DINO_429e";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Destroy an enemy minion. This minion and your hero gain its Health.<br/>
                 /// 6-Cost 6/6 Minion
                 /// </summary>

@@ -4195,7 +4195,7 @@ namespace HearthDb
                 public const string MirrextheCrystalline_ReflectingEnchantment = "DINO_407e";
 
                 /// <summary>
-                /// 3/3.<br/>
+                /// 3/4.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string MirrextheCrystalline_CrystallineEnchantment = "DINO_407e2";

@@ -902,7 +902,7 @@ namespace HearthDb
                 public const string PendantOfEarth = "DEEP_026";
 
                 /// <summary>
-                /// <b>Discover</b> a 3-Cost minion. Summon a 2/2 copy of it.<br/>
+                /// <b>Discover</b> a 3-Cost minion. Summon a 2/3 copy of it.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string RitualOfLife = "DINO_426";

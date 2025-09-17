@@ -3649,7 +3649,7 @@ namespace HearthDb
                 public const string MaruutStonebinder = "DEEP_037";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a slightly cracked Egg. <i>(Break 5 times to hatch into a 20/20 Beast!)</i><br/>
+                /// <b>Deathrattle:</b> Summon a slightly cracked Egg. <i>(Break 5 times to hatch a 20/20 Beast with <b>Taunt</b>!)</i><br/>
                 /// 3-Cost 0/3 Minion
                 /// </summary>
                 public const string TheEggOfKhelos = "DINO_410";

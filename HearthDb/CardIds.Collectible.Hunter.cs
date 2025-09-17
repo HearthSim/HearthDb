@@ -855,7 +855,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b><b>Taunt</b>. Deathrattle:</b> Summon two random 3-Cost Beasts. They attack random enemies.<br/>
-                /// 8-Cost 7/7 Beast Minion
+                /// 6-Cost 7/5 Beast Minion
                 /// </summary>
                 public const string Ankylodon = "DINO_422";
 

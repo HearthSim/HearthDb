@@ -3338,7 +3338,7 @@ namespace HearthDb
                 public const string LightoftheNewMoon_LightOfTheFullMoonToken = "FIR_918t";
 
                 /// <summary>
-                /// 2/2.<br/>
+                /// 2/3.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string RitualofLife_LastingLifeEnchantment = "DINO_426e";

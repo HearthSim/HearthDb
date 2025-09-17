@@ -855,7 +855,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// At the end of your turn, get a random minion with multiple minion types.<br/>
-                /// 2-Cost 0/4 Totem Minion
+                /// 1-Cost 0/3 Totem Minion
                 /// </summary>
                 public const string Tortotem = "DINO_412";
 

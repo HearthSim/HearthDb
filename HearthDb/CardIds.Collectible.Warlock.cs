@@ -885,13 +885,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Summon a random Beast from your deck. Give it <b>Lifesteal</b>.<br/>
-                /// 6-Cost 2/2 Minion
+                /// 5-Cost 2/2 Minion
                 /// </summary>
                 public const string PossessedAnimancer = "DINO_131";
 
                 /// <summary>
                 /// <b>Taunt</b>. At the end of your turn, deal 5 damage to a random enemy minion.<br/>
-                /// 8-Cost 6/10 Beast/Demon Minion
+                /// 8-Cost 6/12 Beast/Demon Minion
                 /// </summary>
                 public const string Asphyxiodon = "DINO_132";
 

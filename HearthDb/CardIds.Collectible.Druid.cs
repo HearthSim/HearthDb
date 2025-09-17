@@ -896,7 +896,7 @@ namespace HearthDb
                 public const string TroggGemtosser = "DEEP_029";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a 1/2 Beast. Give your minions +1/+1.<br/>
+                /// <b>Deathrattle:</b> Summon a 3/3 Beast. Give your minions +1/+1.<br/>
                 /// 2-Cost 0/2 Minion
                 /// </summary>
                 public const string LongneckEgg = "DINO_130";

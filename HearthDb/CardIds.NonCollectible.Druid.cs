@@ -5559,7 +5559,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// (No Text)<br/>
-                /// 1-Cost 1/2 Beast Minion
+                /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string LongneckEgg_LittleLongneckToken = "DINO_130t";
 

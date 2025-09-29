@@ -63,6 +63,7 @@ namespace HearthDb.Enums
 			{GameTag.AFFECTED_BY_SPELL_POWER, "AffectedBySpellPower"},
 			{GameTag.SPARE_PART, "SparePart"},
 			{GameTag.LIFESTEAL, "Lifesteal"},
+			{GameTag.BACON_RALLY, "Rally"},
 		};
 
 		public static Dictionary<GameTag, string> Mechanics = new Dictionary<GameTag, string>
@@ -83,6 +84,7 @@ namespace HearthDb.Enums
 			{GameTag.ImmuneToSpellpower, "ImmuneToSpellpower"},
 			{GameTag.POISONOUS, "Poisonous"},
 			{GameTag.LIFESTEAL, "Lifesteal"},
+			{GameTag.BACON_RALLY, "Rally"},
 		};
 
 		public static Dictionary<GameTag, string> ReferencedMechanics = new Dictionary<GameTag, string>
@@ -139,7 +141,8 @@ namespace HearthDb.Enums
 			{GameTag.AFFECTED_BY_SPELL_POWER, typeof(bool)},
 			{GameTag.SPARE_PART, typeof(bool)},
 			{GameTag.LIFESTEAL, typeof(bool)},
-			{GameTag.RECRUIT, typeof(bool)}
+			{GameTag.RECRUIT, typeof(bool)},
+			{GameTag.BACON_RALLY, typeof(bool)},
 		};
 	}
 }

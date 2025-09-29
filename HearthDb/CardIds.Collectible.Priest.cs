@@ -1697,6 +1697,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string AnduinWrynn_EmpressAlexstraszaHeroHeroSkinsEnchantment = "HERO_09be";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
 
                 /// <summary>

@@ -1666,6 +1666,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string GarroshHellscreamHeroic_DeathwingTheWorldbreakerHeroHeroSkins = "HERO_01bh";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";
 
                 /// <summary>

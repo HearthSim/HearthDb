@@ -29928,12 +29928,6 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string HornofFeasting_FeastingEnchantment = "DINO_136e";
-
-                /// <summary>
-                /// <b>Rush</b><br/>
-                /// 1-Cost 2/1 Beast Minion
-                /// </summary>
-                public const string UndercoverCultist_NestingRaptorToken = "TLC_101t";
             }
         }
     }

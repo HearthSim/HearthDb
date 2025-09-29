@@ -8389,6 +8389,24 @@ namespace HearthDb
                 public const string CoilfangConstrictor = "TID_744";
 
                 /// <summary>
+                /// <b>Rewind</b> <b>Battlecry:</b> Draw a random minion. Give it +2/+2.<br/>
+                /// 3-Cost 2/2 Dragon Minion
+                /// </summary>
+                public const string PortalVanguard = "TIME_003";
+
+                /// <summary>
+                /// <b>Rewind</b>, <b>Rewind</b>, <b>Rewind</b> <b>Battlecry:</b> Summon 2 random <b>Legendary</b> minions.<br/>
+                /// 8-Cost 3/3 Mechanical Minion
+                /// </summary>
+                public const string MisterClocksworth = "TIME_038";
+
+                /// <summary>
+                /// <b>Dormant</b> for 5 turns. <b>Rush</b>. After you play a card from the newest expansion, awaken 1 turn sooner.<br/>
+                /// 3-Cost 8/8 Dragon Minion
+                /// </summary>
+                public const string TimelordNozdormu = "TIME_063";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If your deck started with 10 cards of different Costs, craft a custom location.<br/>
                 /// 4-Cost 3/5 Minion
                 /// </summary>
@@ -8597,6 +8615,12 @@ namespace HearthDb
                 /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string QuestingAssistant = "TLC_987";
+
+                /// <summary>
+                /// <b>Sidequest:</b> Play 3 Beasts or Undead. <b>Reward:</b> Craft a custom Zombeast. It costs (3) less.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string StormTheGates = "TLC_EVENT_400";
 
                 /// <summary>
                 /// <b>Taunt</b> Has +2 Attack during your opponent's turn.<br/>

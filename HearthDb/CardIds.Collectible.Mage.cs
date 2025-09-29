@@ -1667,6 +1667,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string JainaProudmoore_TimewalkerChromieHeroHeroSkinsEnchantment = "HERO_08bo";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_OnyxiaRevealedHeroHeroSkins = "HERO_08bq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string JainaProudmoore_StudyKayHeroHeroSkins = "HERO_08br";
 
                 /// <summary>
@@ -2370,6 +2382,12 @@ namespace HearthDb
                 /// 5-Cost 5/5 Naga Minion
                 /// </summary>
                 public const string LadyNazjar = "TID_709";
+
+                /// <summary>
+                /// <b>Rewind</b> Add a random minion to your hand. It costs (3) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SemiStablePortal = "TIME_000";
 
                 /// <summary>
                 /// After you summon an Elemental, deal 3 damage to a random enemy.<br/>

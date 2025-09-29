@@ -251,6 +251,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string AnduinWrynnHeroic_LesserHealHeroSkinsEnchantment = "HERO_09behp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #4 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynnHeroic_HealHeroSkinsEnchantment = "HERO_09behp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #2 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string AnduinWrynn_LesserHealHeroSkins7 = "HERO_09dbp";
 
                 /// <summary>

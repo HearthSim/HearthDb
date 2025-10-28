@@ -877,6 +877,18 @@ namespace HearthDb
                 public const string FriendshipCantBeSilencedTavernBrawl = "TB_TempleRun_BestFriendBuff";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Return all minions to their owner's hands. Summon two 4/2 Shadows with <b>Stealth</b>.<br/>
+                /// 7-Cost Hero
+                /// </summary>
+                public const string ShadowcrafterScabbsTavernBrawl = "TB_World007";
+
+                /// <summary>
+                /// Replace your hand with 4 cards from your deck. Swap back next turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SecretPassageTavernBrawl = "TB_World008";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
@@ -4265,6 +4277,48 @@ namespace HearthDb
                 /// 2-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string AmbushPredators_VenomousSpitterToken = "TLC_519t";
+
+                /// <summary>
+                /// Costs (2) more.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RoyalInformant_ThreatMitigationEnchantment = "TIME_036e";
+
+                /// <summary>
+                /// Increase the Cost of your opponent's card by (2).<br/>
+                /// Spell
+                /// </summary>
+                public const string RoyalInformant_MitigateThreatToken = "TIME_036t";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Flashback_MemoriesEnchantment = "TIME_711e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Fill your opponent's hand with Coins.<br/>
+                /// 3-Cost 0/8 Minion
+                /// </summary>
+                public const string TimeAdmralHooktail_TimelessChestToken = "TIME_713t";
+
+                /// <summary>
+                /// <b>Start of Game:</b> Hide from Garona in the enemy's deck. <b>Battlecry:</b> Draw a card. Shuffle this back into your deck.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string GaronaHalforcen_KingLlaneToken = "TIME_875t";
+
+                /// <summary>
+                /// After your hero attacks, both players draw a <b>Legendary</b> card.<br/>
+                /// 2-Cost Weapon
+                /// </summary>
+                public const string GaronaHalforcen_TheKingslayersToken = "TIME_875t1";
+
+                /// <summary>
+                /// Transforming into a random minion in your opponent's hand.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Shapeshifter_ShapeshiftingEnchantment = "TIME_876e";
             }
         }
     }

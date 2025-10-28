@@ -4656,6 +4656,60 @@ namespace HearthDb
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string StoryofSulfuras_DieInsectToken2 = "TLC_632t2";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string StadiumAnnouncer_UpperHandEnchantment = "TIME_034e";
+
+                /// <summary>
+                /// Costs (1) more.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SlowMotion_SloooowweddDooowwwnnnEnchantment = "TIME_716e";
+
+                /// <summary>
+                /// Your cards cost (1) more this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SlowMotion_SlowedDownEnchantment = "TIME_716e3";
+
+                /// <summary>
+                /// +5/+5.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LoGoshBloodFighter_CrimsonBloodEnchantment = "TIME_850e";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Summon a Blood Fighter from your hand. Give it +5/+5 and <b>Taunt</b>.<br/>
+                /// 7-Cost 7/7 Minion
+                /// </summary>
+                public const string LoGoshBloodFighter_BrollBloodFighterToken = "TIME_850t";
+
+                /// <summary>
+                /// <b>Elusive</b> <b>Deathrattle:</b> Summon a Blood Fighter from your hand. Give it +5/+5 and <b>Elusive</b>.<br/>
+                /// 7-Cost 7/7 Minion
+                /// </summary>
+                public const string LoGoshBloodFighter_ValeeraBloodFighterToken = "TIME_850t1";
+
+                /// <summary>
+                /// <b>Stealth</b><br/>
+                /// 5-Cost 5/5 Beast Minion
+                /// </summary>
+                public const string GladiatorialCombat_ColiseumTigerToken = "TIME_870t";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HeirofHereafter_BloodthirstyEnchantment = "TIME_871e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost 2/3 Beast Minion
+                /// </summary>
+                public const string UnleashtheCrocolisks_ColiseumCrocoliskToken = "TIME_873t";
             }
         }
     }

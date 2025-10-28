@@ -1136,6 +1136,18 @@ namespace HearthDb
                 public const string EliseOfTheWastelandTavernBrawl = "TB_Thunderdome_Elise";
 
                 /// <summary>
+                /// Your <b>Choose One</b> cards and powers have both effects combined.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
+                public const string FandralStaghelmTavernBrawl = "TB_World_003";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Summon a{1} {0} <b>Jade Golem</b>.<b>Taunt</b> <b>Battlecry:</b> Summon a <b>Jade Golem</b>.<br/>
+                /// 6-Cost 3/6 Minion
+                /// </summary>
+                public const string JadeBehemothTavernBrawl = "TB_World_004";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
@@ -5640,6 +5652,66 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string LohtheLivingLegend_LivingLegendEnchantment = "TLC_257e1";
+
+                /// <summary>
+                /// The minions summoned by Zin-Azshari will have doubled stats. Destroy The Well of Eternity.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string LadyAzshara_EmpowerZinAzshari = "TIME_211a";
+
+                /// <summary>
+                /// The spells created by The Well of Eternity will cast twice. Destroy Zin-Azshari.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string LadyAzshara_EmpowerTheWell = "TIME_211b";
+
+                /// <summary>
+                /// Fill your hand with random <b>Temporary</b> spells.<br/>
+                /// 4-Cost Location
+                /// </summary>
+                public const string LadyAzshara_TheWellOfEternityToken1 = "TIME_211t1";
+
+                /// <summary>
+                /// Fill your hand with random <b>Temporary</b> spells. They cast twice.<br/>
+                /// 4-Cost Location
+                /// </summary>
+                public const string LadyAzshara_TheWellOfEternityToken2 = "TIME_211t1t";
+
+                /// <summary>
+                /// Casts twice.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LadyAzshara_EternalizedToken = "TIME_211t1te";
+
+                /// <summary>
+                /// Summon a copy of a friendly minion.<br/>
+                /// 4-Cost Location
+                /// </summary>
+                public const string LadyAzshara_ZinAzshariToken1 = "TIME_211t2";
+
+                /// <summary>
+                /// Summon a copy of a friendly minion with its stats doubled.<br/>
+                /// 4-Cost Location
+                /// </summary>
+                public const string LadyAzshara_ZinAzshariToken2 = "TIME_211t2t";
+
+                /// <summary>
+                /// Doubled stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LadyAzshara_TheCitysStrengthToken = "TIME_211t2te";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Cast {0}.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string HighborneMentor_HighbornePupilToken = "TIME_704t";
+
+                /// <summary>
+                /// +5/+5.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string KaldoreiCultivator_NurturedEnchantment = "TIME_730e";
             }
         }
     }

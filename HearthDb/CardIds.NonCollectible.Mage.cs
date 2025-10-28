@@ -1022,6 +1022,18 @@ namespace HearthDb
                 public const string RenoJacksonTavernBrawl5 = "TB_TempleOutrun_Reno";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Add a random Mage spell to your hand.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string BabblingBookTavernBrawl = "TB_World_001";
+
+                /// <summary>
+                /// Deal $5 damage. Summon a random 5-Cost minion.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string FirelandsPortalTavernBrawl = "TB_World_002";
+
+                /// <summary>
                 /// Costs (1) less.<br/>
                 /// Enchantment
                 /// </summary>
@@ -4637,6 +4649,36 @@ namespace HearthDb
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string TheForbiddenSequence_TheOriginStoneToken = "TLC_460t";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 1-Cost 0/4 Minion
+                /// </summary>
+                public const string MirrorDimension_MirroredMageToken = "TIME_006t1";
+
+                /// <summary>
+                /// If you control another Dragon, your Arcane spells cast twice.<br/>
+                /// 5-Cost 2/8 Dragon Minion
+                /// </summary>
+                public const string AzureQueenSindragosa_AzureKingMalygosToken = "TIME_852t1";
+
+                /// <summary>
+                /// Summon your Dragons that died this game.<br/>
+                /// 8-Cost Spell
+                /// </summary>
+                public const string AzureQueenSindragosa_AzureOathstoneToken = "TIME_852t3";
+
+                /// <summary>
+                /// Attack and Health scrambled.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Anomalize_AnomalizedEnchantment = "TIME_859e";
+
+                /// <summary>
+                /// Play the 4 spells created by Toki to create Toki.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TimelooperToki_LoopingTimeEnchantment = "TIME_861e1";
             }
         }
     }

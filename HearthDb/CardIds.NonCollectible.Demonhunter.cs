@@ -149,61 +149,73 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins8 = "HERO_10bdhp";
+                public const string IllidanStormrage_DemonClawsHeroSkins8 = "HERO_10bchp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins8 = "HERO_10bdhp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins8 = "HERO_10bchp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins9 = "HERO_10cbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins9 = "HERO_10bdhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins9 = "HERO_10cbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins9 = "HERO_10bdhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins10 = "HERO_10lbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins10 = "HERO_10cbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins10 = "HERO_10lbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins10 = "HERO_10cbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins11 = "HERO_10xbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins11 = "HERO_10lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins11 = "HERO_10xbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins11 = "HERO_10lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins12 = "HERO_10zbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins12 = "HERO_10xbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins12 = "HERO_10zbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins12 = "HERO_10xbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrage_DemonClawsHeroSkins13 = "HERO_10zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrage_DemonsBiteHeroSkins13 = "HERO_10zbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -438,6 +450,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string SklibbTavernBrawl = "TB_Thunderdome_Sklibb";
+
+                /// <summary>
+                /// Deal damage equal to your hero's Attack to 3 random enemy minions.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string BladeDanceTavernBrawl = "TB_World_006";
 
                 /// <summary>
                 /// <b>Passive</b> After the first time a friendly Demon dies in a turn, draw a minion from your deck and give it +1 Attack.<br/>
@@ -2592,6 +2610,102 @@ namespace HearthDb
                 /// 1-Cost 2/1 Beast Minion
                 /// </summary>
                 public const string SilithidQueen_SilithidGrubToken = "TLC_903t";
+
+                /// <summary>
+                /// <b>Lifesteal</b> After your hero attacks and kills a minion, draw a Portal to Argus.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string Broxigar_AxeOfCenariusToken = "TIME_020t1";
+
+                /// <summary>
+                /// Summon a 1/1 Demon for your opponent. When it dies, draw a card and shuffle the next Portal into your deck.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string Broxigar_FirstPortalToArgusToken = "TIME_020t2";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Your opponent draws a card. Shuffle the Second Portal to Argus into their deck.<br/>
+                /// 1-Cost 1/1 Demon Minion
+                /// </summary>
+                public const string Broxigar_FleeingUrzulToken = "TIME_020t2t";
+
+                /// <summary>
+                /// Summon a 2/1 Demon for your opponent. When it dies, draw a card and shuffle the next Portal into your deck.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string Broxigar_SecondPortalToArgusToken = "TIME_020t3";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Your opponent draws a card. Shuffle the Third Portal to Argus into their deck.<br/>
+                /// 2-Cost 2/1 Demon Minion
+                /// </summary>
+                public const string Broxigar_FleeingIncubusToken = "TIME_020t3t";
+
+                /// <summary>
+                /// Summon a 3/1 Demon for your opponent. When it dies, draw a card and shuffle the next Portal into your deck.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string Broxigar_ThirdPortalToArgusToken = "TIME_020t4";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Your opponent draws a card. Shuffle the Final Portal to Argus into their deck.<br/>
+                /// 3-Cost 3/1 Demon Minion
+                /// </summary>
+                public const string Broxigar_FleeingWrathguardToken = "TIME_020t4t";
+
+                /// <summary>
+                /// Summon a 4/1 Demon for your opponent. When it dies, Broxigar reappears in your hand.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string Broxigar_FinalPortalToArgusToken = "TIME_020t5";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Broxigar reappears in your opponent's hand.<br/>
+                /// 4-Cost 4/1 Demon Minion
+                /// </summary>
+                public const string Broxigar_FleeingTerrorguardToken = "TIME_020t5t";
+
+                /// <summary>
+                /// You can only play the left and right-most cards in your hand.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PlayAfterRewind = "TIME_110";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 10000 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TimewayWarden_EternalImprisonmentEnchantment = "TIME_442e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 3-Cost 3/3 Demon Minion
+                /// </summary>
+                public const string HoundsofFury_SargeranFelhoundToken1 = "TIME_443t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 3-Cost 3/3 Demon Minion
+                /// </summary>
+                public const string HoundsofFury_SargeranFelhoundToken2 = "TIME_443t2";
+
+                /// <summary>
+                /// Your next minion costs (0).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TheEternalHold_JailbreakEnchantment = "TIME_446e";
+
+                /// <summary>
+                /// +4 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LastingLegacy_BroxigarsHonorEnchantment = "TIME_449e1";
+
+                /// <summary>
+                /// +4 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LastingLegacy_BroxigarsLegacyEnchantment = "TIME_449e2";
             }
         }
     }

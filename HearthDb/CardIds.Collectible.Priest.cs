@@ -1703,6 +1703,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string AnduinWrynn_WardenTyrandeHeroHeroSkins = "HERO_09bg";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_MedivhMasterOfDovesHeroHeroSkins = "HERO_09bk";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
 
                 /// <summary>
@@ -2424,6 +2436,66 @@ namespace HearthDb
                 /// 4-Cost Spell
                 /// </summary>
                 public const string Drown = "TID_920";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a minion. Give minions in your hand +2 Health.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
+                public const string DiscipleOfTheDove = "TIME_037";
+
+                /// <summary>
+                /// <b>Lifesteal</b> <b>Battlecry:</b> Deal damage to an enemy minion equal to this minion's Health.<br/>
+                /// 4-Cost 2/3 Elemental Minion
+                /// </summary>
+                public const string CleansingLightspawn = "TIME_427";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Set the Attack and Health of every minion in your hand to the higher of the two stats.<br/>
+                /// 5-Cost 5/5 Draenei Minion
+                /// </summary>
+                public const string DivineAugur = "TIME_429";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Restore Health to a character equal to this minion's Health.<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
+                public const string AmberPriestess = "TIME_431";
+
+                /// <summary>
+                /// <b>Discover</b> a copy of a card from your deck and one from your opponent's.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string IntertwinedFate = "TIME_432";
+
+                /// <summary>
+                /// <b>Rewind</b> <b>Silence</b> and destroy a random enemy minion.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string CeaseToExist = "TIME_433";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Take control of an enemy minion with this minion's Health or less.<br/>
+                /// 6-Cost 6/2 Dragon Minion
+                /// </summary>
+                public const string Eternus = "TIME_435";
+
+                /// <summary>
+                /// Summon a random Dragon that costs (5) or more. <i>Advance to the present!</i><br/>
+                /// 7-Cost Location
+                /// </summary>
+                public const string PastConflux = "TIME_436";
+
+                /// <summary>
+                /// Give a character <b>Divine Shield</b>. Give minions in your hand +2 Health.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string PowerWordBarrier = "TIME_447";
+
+                /// <summary>
+                /// <b>Fabled</b>. Costs (0) if you control Karazhan. <b>Battlecry:</b> <b>Silence</b> and destroy all other minions.<br/>
+                /// 10-Cost 7/7 Minion
+                /// </summary>
+                public const string MedivhTheHallowed = "TIME_890";
 
                 /// <summary>
                 /// Whenever another friendly minion attacks, set its Health equal to this minion's Health.<br/>

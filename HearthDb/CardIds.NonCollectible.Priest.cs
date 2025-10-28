@@ -3420,6 +3420,48 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string StoryofAmara_WardedByAmaraEnchantment = "TLC_835e";
+
+                /// <summary>
+                /// Attack increased.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DivineAugur_LightIntensityEnchantment = "TIME_429e1";
+
+                /// <summary>
+                /// Health increased.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DivineAugur_LightPolarityEnchantment = "TIME_429e2";
+
+                /// <summary>
+                /// <b>Discover</b> a Dragon that costs (5) or more and summon it. <i>Advance to the future!</i><br/>
+                /// 7-Cost Location
+                /// </summary>
+                public const string PastConflux_PresentConfluxToken = "TIME_436t1";
+
+                /// <summary>
+                /// <b>Discover</b> a Dragon that costs (5) or more and summon it. Also get a copy of it.<br/>
+                /// 7-Cost Location
+                /// </summary>
+                public const string PastConflux_FutureConfluxToken = "TIME_436t2";
+
+                /// <summary>
+                /// +2 Health<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PowerWordBarrier_BarrierEnchantment = "TIME_447e2";
+
+                /// <summary>
+                /// Costs (0) if you control Medivh. Double the damage and healing of your spells.<br/>
+                /// 10-Cost Weapon
+                /// </summary>
+                public const string MedivhtheHallowed_AtieshTheGreatstaffToken = "TIME_890t";
+
+                /// <summary>
+                /// Costs (0) if you're wielding Atiesh. Summon two random 8-Cost minions.<br/>
+                /// 10-Cost Location
+                /// </summary>
+                public const string MedivhtheHallowed_KarazhanTheSanctumToken = "TIME_890t2";
             }
         }
     }

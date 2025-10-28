@@ -1661,6 +1661,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string MalfurionStormrage_DruidIllidanHeroHeroSkins = "HERO_06bg";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MalfurionStormrageHeroic_OldWaysUlfarHeroHeroSkins = "HERO_06bh";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_EmpressAlexstraszaHeroHeroSkins = "HERO_06bj";
 
                 /// <summary>
@@ -2376,6 +2388,66 @@ namespace HearthDb
                 /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string HeraldOfNature = "TID_002";
+
+                /// <summary>
+                /// Draw the bottom two cards from your deck.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Contingency = "TIME_023";
+
+                /// <summary>
+                /// <b>Rewind</b> <b>Battlecry:</b> Cast 2 random Nature spells.<br/>
+                /// 6-Cost 3/5 Minion
+                /// </summary>
+                public const string DruidOfRegrowth = "TIME_033";
+
+                /// <summary>
+                /// <b>Fabled</b>. <b>Choose One -</b> Empower Zin-Azshari; or The Well of Eternity. <i>(The other gets destroyed!)</i><br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
+                public const string LadyAzshara = "TIME_211";
+
+                /// <summary>
+                /// <b>Discover</b> a card from your deck. The others get put on the bottom.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string Waveshaping = "TIME_701";
+
+                /// <summary>
+                /// Deal $3 damage. If you played a minion while holding this, gain 5 Armor.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string EbbAndFlow = "TIME_702";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> If you have 10 or less Health, gain +5/+5 and summon a copy of this.<br/>
+                /// 5-Cost 5/5 Beast Minion
+                /// </summary>
+                public const string EndangeredDodo = "TIME_703";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a 2/2 Pupil. <b>Discover</b> a spell that costs (7) or more from the past to teach it.<br/>
+                /// 8-Cost 6/6 Minion
+                /// </summary>
+                public const string HighborneMentor = "TIME_704";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Set the Costs of the bottom 5 cards of your deck to (1).<br/>
+                /// 6-Cost 4/7 Minion
+                /// </summary>
+                public const string KronaKeeperOfEons = "TIME_705";
+
+                /// <summary>
+                /// Replace your hand and deck with random <b>Choose One</b> cards from the past. They cost (1) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string AlternateReality = "TIME_707";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> 2 Beasts. Put them on the bottom of your deck with +5/+5.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
+                public const string KaldoreiCultivator = "TIME_730";
 
                 /// <summary>
                 /// Choose a minion. Summon four 2/2 Treants that attack it.<br/>

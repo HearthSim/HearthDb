@@ -491,6 +491,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string TheLichKing_HuskEternalReaperHeroHeroSkins = "HERO_11aq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKing_NewlyRisenScarletHeroHeroSkins = "HERO_11ar";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TheLichKing_ArthasMenethilHeroHeroSkins = "HERO_11b";
 
                 /// <summary>
@@ -1224,6 +1236,66 @@ namespace HearthDb
                 /// 4-Cost 5/3 Minion
                 /// </summary>
                 public const string Viper = "SC_018";
+
+                /// <summary>
+                /// <b>Rewind</b> Summon four 3/2 Shades. They each gain two random <b>Bonus Effects</b>.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string ShadowsOfYesterday = "TIME_610";
+
+                /// <summary>
+                /// Deal $3 damage. <b>Freeze</b> two random enemy minions.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Timestop = "TIME_611";
+
+                /// <summary>
+                /// <b>Discover</b> a spell. This costs Health instead of Mana.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string BloodDraw = "TIME_612";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get a random <b>Legendary</b> minion. Reduce its Cost by (1).<br/>
+                /// 1-Cost 2/1 Minion
+                /// </summary>
+                public const string CryofrozenChampion = "TIME_613";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If your hero's Health changed this turn, deal 6 damage to an enemy minion.<br/>
+                /// 3-Cost 3/4 Undead Minion
+                /// </summary>
+                public const string Liferender = "TIME_614";
+
+                /// <summary>
+                /// Fill your hand with random Undead. They cost Health instead of Mana this turn.<br/>
+                /// 8-Cost Spell
+                /// </summary>
+                public const string ForgottenMillennium = "TIME_615";
+
+                /// <summary>
+                /// Summon the highest Cost friendly Undead that died this game.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string MemoriamManifest = "TIME_616";
+
+                /// <summary>
+                /// You no longer draw a card at the start of your turn.<br/>
+                /// 4-Cost 8/7 Undead Minion
+                /// </summary>
+                public const string Chronochiller = "TIME_617";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give your hero "<b>Deathrattle:</b> Spend up to 20 <b>Corpses</b> to resurrect with that much Health."<br/>
+                /// 4-Cost 5/3 Undead Minion
+                /// </summary>
+                public const string HuskEternalReaper = "TIME_618";
+
+                /// <summary>
+                /// <b>Fabled.</b> <b>Battlecry:</b> Draw Bwonsamdi <i>(or resurrect him if he has died)</i>. Choose a Boon to give him.<br/>
+                /// 4-Cost 4/5 Undead Minion
+                /// </summary>
+                public const string TalanjiOfTheGraves = "TIME_619";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Deal 6 damage to three random enemies.<br/>

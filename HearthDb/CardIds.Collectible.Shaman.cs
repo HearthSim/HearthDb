@@ -1625,6 +1625,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Thrall_FarseerWoHeroHeroSkins = "HERO_02bj";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Thrall_WorldShamanThrallHeroHeroSkins = "HERO_02bk";
 
                 /// <summary>
@@ -1638,6 +1644,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Thrall_SnakespeakerVashjHeroHeroSkinsEnchantment = "HERO_02bo";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Thrall_StormbringerMagniHeroHeroSkins = "HERO_02bq";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2322,6 +2334,66 @@ namespace HearthDb
                 /// 5-Cost Spell
                 /// </summary>
                 public const string CommandOfNeptulon = "TID_005";
+
+                /// <summary>
+                /// <b>Elusive</b> After you cast a spell, <b>Discover</b> a Nature spell from the past.<br/>
+                /// 4-Cost 2/6 Minion
+                /// </summary>
+                public const string FarseerWo = "TIME_013";
+
+                /// <summary>
+                /// <b>Rewind</b> Summon 12 Mana worth of random minions. <b>Overload:</b> (3)<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string InstantMultiverse = "TIME_014";
+
+                /// <summary>
+                /// <b>Fabled</b>, <b>Rush</b>. <b>Battlecry:</b> Bring the High King's Hammer to ME! <b>Deathrattle:</b> Add it to your hand.<br/>
+                /// 5-Cost 3/2 Minion
+                /// </summary>
+                public const string MuradinHighKing = "TIME_209";
+
+                /// <summary>
+                /// Deal $2 damage to a friendly minion to deal $4 damage to a random enemy minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string LightningRod = "TIME_212";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you've cast a Nature spell while holding this, gain +1/+1 and draw a card.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string PrimordialOverseer = "TIME_213";
+
+                /// <summary>
+                /// <b>Taunt</b> Whenever you would damage this with a Nature spell, it gains +2/+1 instead.<br/>
+                /// 2-Cost 1/4 Elemental Minion
+                /// </summary>
+                public const string FluxRevenant = "TIME_214";
+
+                /// <summary>
+                /// Deal $1 damage to all minions. Get a Static Shock.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Thunderquake = "TIME_215";
+
+                /// <summary>
+                /// Deal $5 damage to a minion. If it survives, draw 2 cards.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string NascentBolt = "TIME_216";
+
+                /// <summary>
+                /// Whenever you would damage this with a Nature spell, summon a random 5-Cost minion instead.<br/>
+                /// 5-Cost 5/5 Elemental/Beast Minion
+                /// </summary>
+                public const string Stormrook = "TIME_217";
+
+                /// <summary>
+                /// Deal $1 damage to a minion. Give your hero +1 Attack this turn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string StaticShock = "TIME_218";
 
                 /// <summary>
                 /// Deal $3 damage. Summon that many 2/1 Sizzling Cinders.<br/>
@@ -3122,7 +3194,7 @@ namespace HearthDb
                 public const string CactusCutter = "WW_327";
 
                 /// <summary>
-                /// <b>Rush</b>, <b>Lifesteal</b>, <b>Mega-Windfury</b> <b>Overload: (2)</b><br/>
+                /// <b>Rush</b>, <b>Lifesteal</b>, <b>Mega-Windfury</b> <b>Overload:</b> (2)<br/>
                 /// 9-Cost 4/16 Elemental Minion
                 /// </summary>
                 public const string WalkingMountain = "WW_382";

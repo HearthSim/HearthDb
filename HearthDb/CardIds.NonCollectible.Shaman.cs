@@ -335,25 +335,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a random basic Totem.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins10 = "HERO_02fbp";
+                public const string Thrall_TotemicCallHeroSkins10 = "HERO_02bjhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins10 = "HERO_02fbp2";
+                public const string Thrall_TotemicSlamHeroSkins10 = "HERO_02bjhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a random basic Totem.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins11 = "HERO_02mbp";
+                public const string Thrall_TotemicCallHeroSkins11 = "HERO_02fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins11 = "HERO_02mbp2";
+                public const string Thrall_TotemicSlamHeroSkins11 = "HERO_02fbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicCallHeroSkins12 = "HERO_02mbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicSlamHeroSkins12 = "HERO_02mbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -744,6 +756,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string PillagerDrasarTavernBrawl = "TB_TempleOutrun_Pillager";
+
+                /// <summary>
+                /// Transform a minion into a 0/1 Frog with <b>Taunt</b>.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string HexTavernBrawl = "TB_World_005";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Summon a 2/1 Squashling with <b>Rush</b>.<br/>
@@ -4008,6 +4026,42 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string MountainMap_MountaineeringMapPlayerEnchantEnchantment = "TLC_464e";
+
+                /// <summary>
+                /// Holding the High King's Hammer. <b>Deathrattle:</b> Add it to your hand.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MuradinHighKing_HammerOfTheHighKingEnchantment = "TIME_209e";
+
+                /// <summary>
+                /// <b>Windfury</b> <b>Deathrattle:</b> Shuffle this into your deck with +2 Attack permanently.<br/>
+                /// 6-Cost Weapon
+                /// </summary>
+                public const string MuradinHighKing_HighKingsHammerToken = "TIME_209t";
+
+                /// <summary>
+                /// Give a friendly character +2 Attack and "After this attacks, deal 2 damage to all enemies" this turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string MuradinHighKing_AvatarFormToken1 = "TIME_209t2";
+
+                /// <summary>
+                /// +2 Attack and After this attacks, deal 2 damage to all enemies this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MuradinHighKing_AvatarFormToken2 = "TIME_209t2e";
+
+                /// <summary>
+                /// +2/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FluxRevenant_FluxOvercapacityEnchantment = "TIME_214e";
+
+                /// <summary>
+                /// +1 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string StaticShock_StaticallyChargedEnchantment = "TIME_218e";
             }
         }
     }

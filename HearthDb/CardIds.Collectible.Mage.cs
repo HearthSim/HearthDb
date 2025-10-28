@@ -1691,6 +1691,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string JainaProudmoore_KirinTorKelthuzadHeroHeroSkins = "HERO_08bt";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_OmencallerPrestorHeroHeroSkins = "HERO_08bx";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string JainaProudmoore_FireMageJainaHeroHeroSkins = "HERO_08c";
 
                 /// <summary>
@@ -2388,6 +2400,60 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SemiStablePortal = "TIME_000";
+
+                /// <summary>
+                /// Summon a 0/4 minion with <b>Taunt</b>. If you are holding a Dragon, summon another.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string MirrorDimension = "TIME_006";
+
+                /// <summary>
+                /// <b>Fabled</b> If you control another Dragon, your Arcane spells cost (2) less.<br/>
+                /// 5-Cost 2/8 Dragon Minion
+                /// </summary>
+                public const string AzureQueenSindragosa = "TIME_852";
+
+                /// <summary>
+                /// Deal $3 damage to an enemy and $2 damage to two other random ones.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ArcaneBarrage = "TIME_855";
+
+                /// <summary>
+                /// <b>Spell Damage +2</b><br/>
+                /// 5-Cost 4/7 Dragon Minion
+                /// </summary>
+                public const string AlgetharInstructor = "TIME_856";
+
+                /// <summary>
+                /// <b>Discover</b> two Arcane spells from the past. They cost (2) less.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string AlterTime = "TIME_857";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 5 damage to an enemy minion. Draw cards equal to the excess damage.<br/>
+                /// 7-Cost 5/5 Elemental Minion
+                /// </summary>
+                public const string TemporalConstruct = "TIME_858";
+
+                /// <summary>
+                /// Summon a random 10 and 1-Cost minion. Scramble their stats.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string Anomalize = "TIME_859";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Look at 2 random <b>Secrets</b>. Pick one to cast for yourself. The other casts for your opponent.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string FacelessEnigma = "TIME_860";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get 4 random spells from the past. When you play ALL 4, get another Timelooper Toki.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string TimelooperToki = "TIME_861";
 
                 /// <summary>
                 /// After you summon an Elemental, deal 3 damage to a random enemy.<br/>

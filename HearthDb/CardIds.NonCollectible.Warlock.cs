@@ -4412,6 +4412,102 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string WhisperingStone_TheStonesWhispersEnchantment = "TLC_467e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Draw a Rafaam.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string TimethiefRafaam_TinyRafaamToken = "TIME_005t1";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give Rafaams in your hand +2/+2.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string TimethiefRafaam_GreenRafaamToken = "TIME_005t2";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TimethiefRafaam_SupremeGreenologyToken = "TIME_005t2e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a Rafaam from your deck.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string TimethiefRafaam_ExplorerRafaamToken = "TIME_005t3";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Gain 5 Armor. If you control another Rafaam, gain 5 more.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
+                public const string TimethiefRafaam_WarchiefRafaamToken = "TIME_005t4";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> If you're holding another Rafaam, summon a copy of this.<br/>
+                /// 7-Cost 7/7 Minion
+                /// </summary>
+                public const string TimethiefRafaam_MindflayerRfaamToken = "TIME_005t5";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 6 damage to all minions that aren't Rafaam.<br/>
+                /// 6-Cost 6/6 Demon Minion
+                /// </summary>
+                public const string TimethiefRafaam_CalamitousRafaamToken = "TIME_005t6";
+
+                /// <summary>
+                /// <b>Rush</b>. Costs (1) less for each Rafaam you've played this game.<br/>
+                /// 8-Cost 8/8 Minion
+                /// </summary>
+                public const string TimethiefRafaam_GiantRafaamToken = "TIME_005t7";
+
+                /// <summary>
+                /// <b>Battlecry:</b> The next Rafaam you play costs (3) less.<br/>
+                /// 3-Cost 3/3 Murloc Minion
+                /// </summary>
+                public const string TimethiefRafaam_MurlocRafaamToken = "TIME_005t8";
+
+                /// <summary>
+                /// Your next Rafaam costs (3) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TimethiefRafaam_MrgleermMrgloslgyToken = "TIME_005t8e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Transform all minions that aren't Rafaam into 1/1 Sheep.<br/>
+                /// 9-Cost 9/9 Minion
+                /// </summary>
+                public const string TimethiefRafaam_ArchmageRafaamToken = "TIME_005t9";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Beast Minion
+                /// </summary>
+                public const string TimethiefRafaam_BaaaafamToken = "TIME_005t9t";
+
+                /// <summary>
+                /// <b>Casts When Drawn</b> Deal $3 damage to your hero.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TwilightTimehopper_ShredOfTimeToken = "TIME_025t";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Fatebreaker_FateBrokenEnchantment = "TIME_028e";
+
+                /// <summary>
+                /// Cost split in half.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Divergence_DivergentEnchantment = "TIME_030e1";
+
+                /// <summary>
+                /// Attack and Health split in half.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Divergence_DivergedEnchantment = "TIME_030e2";
             }
         }
     }

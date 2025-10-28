@@ -1636,6 +1636,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string UtherLightbringer_GelbinMekkatorqueHeroHeroSkins = "HERO_04bf";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer_FaerinLotharHeroHeroSkins = "HERO_04bg";
 
                 /// <summary>
@@ -2381,6 +2387,66 @@ namespace HearthDb
                 /// 9-Cost Spell
                 /// </summary>
                 public const string FrontLines = "TID_949";
+
+                /// <summary>
+                /// <b>Fabled</b> <b>Battlecry:</b> Put one of each Aura from your deck into the battlefield.<br/>
+                /// 8-Cost 6/6 Mechanical Minion
+                /// </summary>
+                public const string GelbinOfTomorrow = "TIME_009";
+
+                /// <summary>
+                /// <b>Divine Shield</b> <b>Battlecry:</b> Restore #3 Health to your hero and give them <b>Divine Shield</b>.<br/>
+                /// 2-Cost 2/1 Mechanical Minion
+                /// </summary>
+                public const string HardlightProtector = "TIME_015";
+
+                /// <summary>
+                /// <b>Discover</b> a Paladin Mech from the past. Give it +5/+5.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string NeonInnovation = "TIME_016";
+
+                /// <summary>
+                /// <b>Divine Shield</b> <b>Deathrattle:</b> Summon a 7/7 Tank with <b>Divine Shield</b>.<br/>
+                /// 4-Cost 2/1 Mechanical Minion
+                /// </summary>
+                public const string Tankgineer = "TIME_017";
+
+                /// <summary>
+                /// <b>Rewind</b> Get 2 random Holy spells. Restore Health to your hero equal to their Costs.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string MendTheTimeline = "TIME_018";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you control an Aura, deal 3 damage to all enemies.<br/>
+                /// 4-Cost 3/3 Elemental Minion
+                /// </summary>
+                public const string ManifestedTimeways = "TIME_019";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Set a friendly minion's Attack and Health to 8. It can't attack heroes this turn.<br/>
+                /// 6-Cost 4/4 Mechanical Minion
+                /// </summary>
+                public const string PmmInfinitizer = "TIME_043";
+
+                /// <summary>
+                /// Give a minion +2/+1. <i>Advance to the present!</i><br/>
+                /// 2-Cost Location
+                /// </summary>
+                public const string PastGnomeregan = "TIME_044";
+
+                /// <summary>
+                /// At the end of your turn, summon a 3/5 Dragon with <b>Taunt</b>. Lasts 3 turns.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string ChronologicalAura = "TIME_700";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Replace your hand with your starting hand. Swap back at the end of your turn.<br/>
+                /// 2-Cost 2/3 Murloc Minion
+                /// </summary>
+                public const string TheFinsBeyondTime = "TIME_706";
 
                 /// <summary>
                 /// <b>Rush</b> <b>Deathrattle:</b> Summon three 2/1 Murlocs. Give them each a random <b>Bonus Effect</b>.<br/>

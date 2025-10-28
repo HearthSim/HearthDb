@@ -352,13 +352,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins7 = "HERO_04bghp";
+                public const string UtherLightbringer_ReinforceHeroSkins7 = "HERO_04bfhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins7 = "HERO_04bghp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins7 = "HERO_04bfhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string UtherLightbringer_ReinforceHeroSkins8 = "HERO_04bghp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string UtherLightbringer_TheSilverHandHeroSkins8 = "HERO_04bghp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
@@ -376,13 +388,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins8 = "HERO_04fbp";
+                public const string UtherLightbringer_ReinforceHeroSkins9 = "HERO_04fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins8 = "HERO_04fbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins9 = "HERO_04fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
@@ -394,37 +406,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins9 = "HERO_04lbp";
+                public const string UtherLightbringer_ReinforceHeroSkins10 = "HERO_04lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins9 = "HERO_04lbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins10 = "HERO_04lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins10 = "HERO_04ubp";
+                public const string UtherLightbringer_ReinforceHeroSkins11 = "HERO_04ubp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins10 = "HERO_04ubp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins11 = "HERO_04ubp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins11 = "HERO_04wbp";
+                public const string UtherLightbringer_ReinforceHeroSkins12 = "HERO_04wbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins11 = "HERO_04wbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins12 = "HERO_04wbp2";
 
                 /// <summary>
                 /// Change the Health of ALL minions to 1.<br/>
@@ -4342,6 +4354,84 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string ThreshridersBlessing_ThresherSaddleEnchantment = "TLC_477e";
+
+                /// <summary>
+                /// <b>Tradeable</b> At the end of your turn, restore #4 Health to all your characters. Lasts 3 turns.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string GelbinofTomorrow_GnomishAuraToken = "TIME_009t1";
+
+                /// <summary>
+                /// <b>Tradeable</b>. At the end of your turn, give a random friendly minion +4/+4 and <b>Divine Shield</b>. Lasts 3 turns.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string GelbinofTomorrow_MekkatorquesAuraToken = "TIME_009t2";
+
+                /// <summary>
+                /// +4/+4.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GelbinofTomorrow_ForGnomereganToken = "TIME_009t2e";
+
+                /// <summary>
+                /// +5/+5.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string NeonInnovation_NeonSignEnchantment = "TIME_016e";
+
+                /// <summary>
+                /// Stats changed to 8/8.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PMMInfinitizer_InfinitizedEnchantment = "TIME_043e";
+
+                /// <summary>
+                /// Can't attack heroes this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PMMInfinitizer_PacifitizedEnchantment = "TIME_043e2";
+
+                /// <summary>
+                /// +2/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PastGnomeregan_GnomishStrengthEnchantment = "TIME_044e";
+
+                /// <summary>
+                /// Give a minion +2/+1 and "<b>Deathrattle:</b> Deal 2 damage to the enemy hero." <i>Advance to the future!</i><br/>
+                /// 2-Cost Location
+                /// </summary>
+                public const string PastGnomeregan_PresentGnomereganToken = "TIME_044t1";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal 2 damage to the enemy hero.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PastGnomeregan_LeperStrengthToken = "TIME_044t1e";
+
+                /// <summary>
+                /// Give a minion +2/+1, <b>Divine Shield</b>, and "<b>Deathrattle:</b> Deal 2 damage to the enemy hero."<br/>
+                /// 2-Cost Location
+                /// </summary>
+                public const string PastGnomeregan_FutureGnomereganToken = "TIME_044t2";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 4-Cost 3/5 Dragon Minion
+                /// </summary>
+                public const string ChronologicalAura_ChronologicalDrakeToken = "TIME_700t";
+
+                /// <summary>
+                /// Cleanup enchant for TIME 706<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TheFinsBeyondTime_TimeAlteredEnchantment = "TIME_706e2";
+
+                /// <summary>
+                /// Your hand is swapped with your starting hand this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TheFinsBeyondTime_BeyondTimeEnchantment = "TIME_706e3";
             }
         }
     }

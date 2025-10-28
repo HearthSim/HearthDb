@@ -1672,6 +1672,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string GarroshHellscream_WarchiefGennHeroHeroSkins = "HERO_01bi";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";
 
                 /// <summary>
@@ -2369,6 +2375,66 @@ namespace HearthDb
                 /// 8-Cost 5/8 Elemental Minion
                 /// </summary>
                 public const string TidalRevenant = "TID_716";
+
+                /// <summary>
+                /// <b>Rewind</b> <b>Battlecry:</b> Both players equip a random weapon. Give yours +1/+1.<br/>
+                /// 4-Cost 3/3 Dragon Minion
+                /// </summary>
+                public const string StadiumAnnouncer = "TIME_034";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy all minions that your opponent played last turn.<br/>
+                /// 6-Cost 7/5 Dragon Minion
+                /// </summary>
+                public const string ChronoLordEpoch = "TIME_714";
+
+                /// <summary>
+                /// Draw 2 cards. Costs (1) less for each minion your opponent controls.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string ForGlory = "TIME_715";
+
+                /// <summary>
+                /// Your opponent's cards cost (1) more next turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SlowMotion = "TIME_716";
+
+                /// <summary>
+                /// Deal $3 damage. If you're holding a minion that costs (5) or more, draw a minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string PrecursoryStrike = "TIME_750";
+
+                /// <summary>
+                /// <b>Fabled</b>, <b>Rush</b>. <b>Deathrattle:</b> Summon a Blood Fighter from your hand. It gains +5/+5 and attacks a random enemy.<br/>
+                /// 7-Cost 7/7 Minion
+                /// </summary>
+                public const string LogoshBloodFighter = "TIME_850";
+
+                /// <summary>
+                /// Summon a random minion from your deck. Summon a 5/5 Tiger with <b>Stealth</b> for your opponent.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string GladiatorialCombat = "TIME_870";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Gain +2/+2 for each damaged minion.<br/>
+                /// 5-Cost 2/6 Dragon Minion
+                /// </summary>
+                public const string HeirOfHereafter = "TIME_871";
+
+                /// <summary>
+                /// <b>Rush</b>. <b>Battlecry:</b> Fill your opponent's board with random 1-Cost minions.<br/>
+                /// 8-Cost 13/13 Minion
+                /// </summary>
+                public const string UndefeatedChampion = "TIME_872";
+
+                /// <summary>
+                /// Gain 10 Armor. Summon two 2/3 Beasts for your opponent.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string UnleashTheCrocolisks = "TIME_873";
 
                 /// <summary>
                 /// After your hero attacks, deal 1 damage to all minions.<br/>

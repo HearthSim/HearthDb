@@ -1181,7 +1181,25 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string IllidanStormrage_BroxigarHeroHeroSkins = "HERO_10bc";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string IllidanStormrage_ArachnidKerriganHeroHeroSkins = "HERO_10bd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string IllidanStormrage_DemonHunterMalfurionHeroHeroSkinsEnchantment = "HERO_10be";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string IllidanStormrage_PopPunkHalveriaHeroHeroSkins = "HERO_10bf";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1704,6 +1722,66 @@ namespace HearthDb
                 /// 3-Cost 3/4 Naga Minion
                 /// </summary>
                 public const string HeraldOfChaos = "TID_706";
+
+                /// <summary>
+                /// <b>Fabled, Charge</b> <b>Start of Game:</b> Disappear. Kill all 4 Demons from Argus to reappear in hand.<br/>
+                /// 2-Cost 12/12 Minion
+                /// </summary>
+                public const string Broxigar = "TIME_020";
+
+                /// <summary>
+                /// <b>Outcast:</b> Your hero is <b>Immune</b> until your next turn.<br/>
+                /// 5-Cost 5/4 Minion
+                /// </summary>
+                public const string DoomsdayPrepper = "TIME_021";
+
+                /// <summary>
+                /// <b>Rush</b> Costs (4) less if a minion is <b>Dormant</b>.<br/>
+                /// 8-Cost 7/9 Beast Minion
+                /// </summary>
+                public const string PerennialSerpent = "TIME_022";
+
+                /// <summary>
+                /// <b>Rewind</b> Deal $4 damage to two random enemies.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string AeonRend = "TIME_441";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Imprison an enemy minion. It goes <b>Dormant</b> for 10,000 turns. <b>Deathrattle:</b> Awaken it.<br/>
+                /// 4-Cost 2/6 Minion
+                /// </summary>
+                public const string TimewayWarden = "TIME_442";
+
+                /// <summary>
+                /// Summon two 3/3 Demons. If your deck has no minions, they attack the lowest Health enemy.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string HoundsOfFury = "TIME_443";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get a random Demon from the past.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
+                public const string TimeLostGlaive = "TIME_444";
+
+                /// <summary>
+                /// Get a Demon that costs (5) or more. If your deck has no minions, your next one costs (0).<br/>
+                /// 6-Cost Location
+                /// </summary>
+                public const string TheEternalHold = "TIME_446";
+
+                /// <summary>
+                /// <b>Discover</b> a minion. If your deck has no minions, reduce the Cost of any in your hand by (2).<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Solitude = "TIME_448";
+
+                /// <summary>
+                /// Give your hero +4 Attack this turn. If your deck has no minions, give any in hand +4 Attack.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string LastingLegacy = "TIME_449";
 
                 /// <summary>
                 /// <b>Rush</b>. Whenever this takes damage, get a 1-Cost Gorishi Stinger.<br/>

@@ -1637,6 +1637,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string ValeeraSanguinar_HopefulVanessaHeroHeroSkins = "HERO_03bj";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_NightslayerValeeraHeroHeroSkins = "HERO_03d";
 
                 /// <summary>
@@ -2322,6 +2328,66 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Jackpot = "TID_931";
+
+                /// <summary>
+                /// <b>Rewind</b> Throw 3 knives at random enemies that deal $2 damage each.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ChronoDaggers = "TIME_001";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Look at the right- most card in your opponent's hand. Either get a copy of it or increase its Cost by (2).<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string RoyalInformant = "TIME_036";
+
+                /// <summary>
+                /// <b>Discover</b> a copy of a card in your opponent's hand. It costs (1) less.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string DejaVu = "TIME_039";
+
+                /// <summary>
+                /// <b>Stealth</b> <b>Combo:</b> Summon a copy of this.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
+                public const string TroubledDouble = "TIME_710";
+
+                /// <summary>
+                /// Summon two random 1-Cost minions from the past. <b>Combo:</b> With +1 Attack.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Flashback = "TIME_711";
+
+                /// <summary>
+                /// Destroy a minion. <b>Combo:</b> Summon a random 8-Cost minion.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string Dethrone = "TIME_712";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon a 0/8 Chest for your opponent. <i>It's FULL of Coins!</i><br/>
+                /// 5-Cost 4/6 Pirate/Dragon Minion
+                /// </summary>
+                public const string TimeAdmralHooktail = "TIME_713";
+
+                /// <summary>
+                /// Draw 2 cards. Pick one to have its Cost reduced by (2).<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string FastForward = "TIME_770";
+
+                /// <summary>
+                /// <b>Fabled</b>. <b>Battlecry:</b> If your opponent is holding King Llane, destroy him and cut their Health in half.<br/>
+                /// 4-Cost 5/4 Minion
+                /// </summary>
+                public const string GaronaHalforcen = "TIME_875";
+
+                /// <summary>
+                /// Each turn this is in your hand, transform into a random minion in your opponent's hand.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string Shapeshifter = "TIME_876";
 
                 /// <summary>
                 /// <b>Quest:</b> Shuffle cards into your deck, 5 times. <b>Reward: </b>Master Dusk.<br/>

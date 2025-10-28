@@ -13053,6 +13053,18 @@ namespace HearthDb
                 public const string GametypeWinstonTavernBrawl = "TB_WinstonDraft_PlayWinston";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Gain 6 Armor. <b>Starship Piece</b><br/>
+                /// 4-Cost 3/4 Minion
+                /// </summary>
+                public const string ArkoniteDefenseCrystalTavernBrawl = "TB_World011";
+
+                /// <summary>
+                /// Costs (1) less for each time a card was drawn, played, or destroyed. <b>Battlecry:</b> Destroy all other minions.<br/>
+                /// 100-Cost 15/15 Minion
+                /// </summary>
+                public const string TheCeaselessExpanseTavernBrawl = "TB_World012";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// Enchantment
                 /// </summary>
@@ -29973,22 +29985,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// After you get a <b>Blood Gem</b>, get an extra one.<br/>
-                /// Tier-5 3/7 Quilboar/Undead Minion<br/>
+                /// Tier-3 3/7 Quilboar/Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// After you get a <b>Blood Gem</b>, get two extra.<br/>
-                /// Tier-5 6/14 Quilboar/Undead Minion
+                /// Tier-3 6/14 Quilboar/Undead Minion
                 /// </summary>
                 public const string DeathSpeakerBlackthorn_DeathsHeadSage1 = "BG20_HERO_103_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// After you get a <b>Blood Gem</b>, get two extra.<br/>
-                /// Tier-5 6/14 Quilboar/Undead Minion<br/>
+                /// Tier-3 6/14 Quilboar/Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// After you get a <b>Blood Gem</b>, get an extra one.<br/>
-                /// Tier-5 3/7 Quilboar/Undead Minion
+                /// Tier-3 3/7 Quilboar/Undead Minion
                 /// </summary>
                 public const string DeathSpeakerBlackthorn_DeathsHeadSage2 = "BG20_HERO_103_Buddy_G";
 
@@ -31433,22 +31445,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// At the start of your turn, get your next opponent's Buddy.<br/>
-                /// Tier-4 2/6 Minion<br/>
+                /// Tier-3 2/6 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// At the start of your turn, get 2 of your next opponent's Buddy.<br/>
-                /// Tier-4 4/12 Minion
+                /// Tier-3 4/12 Minion
                 /// </summary>
                 public const string ScabbsCutterbutter_WardenThelwater1 = "BG21_HERO_010_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// At the start of your turn, get 2 of your next opponent's Buddy.<br/>
-                /// Tier-4 4/12 Minion<br/>
+                /// Tier-3 4/12 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// At the start of your turn, get your next opponent's Buddy.<br/>
-                /// Tier-4 2/6 Minion
+                /// Tier-3 2/6 Minion
                 /// </summary>
                 public const string ScabbsCutterbutter_WardenThelwater2 = "BG21_HERO_010_Buddy_G";
 
@@ -31555,11 +31567,11 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Start of Combat:</b> Copy your two left-most <b>Deathrattles</b> <i>(except Piloted Whirl-O-Tron)</i>.<br/>
-                /// Tier-6 6/4 Mechanical Minion<br/>
+                /// Tier-5 6/4 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Start of Combat:</b> Copy your two left-most <b>Deathrattles</b> twice <i>(except Piloted Whirl-O-Tron)</i>.<br/>
-                /// Tier-6 12/8 Mechanical Minion
+                /// Tier-5 12/8 Mechanical Minion
                 /// </summary>
                 public const string Sneed_PilotedWhirlOTron1 = "BG21_HERO_030_Buddy";
 
@@ -31572,11 +31584,11 @@ namespace HearthDb
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Start of Combat:</b> Copy your two left-most <b>Deathrattles</b> twice <i>(except Piloted Whirl-O-Tron)</i>.<br/>
-                /// Tier-6 12/8 Mechanical Minion<br/>
+                /// Tier-5 12/8 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Start of Combat:</b> Copy your two left-most <b>Deathrattles</b> <i>(except Piloted Whirl-O-Tron)</i>.<br/>
-                /// Tier-6 6/4 Mechanical Minion
+                /// Tier-5 6/4 Mechanical Minion
                 /// </summary>
                 public const string Sneed_PilotedWhirlOTron2 = "BG21_HERO_030_Buddy_G";
 
@@ -35006,22 +35018,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// After a friendly minion is <b>Reborn</b>, gain +{0}/+{1} permanently.<br/>
+                /// After a friendly minion is <b>Reborn</b>, gain +2/+3 permanently.<br/>
                 /// Tier-3 2/3 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// After a friendly minion is <b>Reborn</b>, gain +{0}/+{1} permanently.<br/>
+                /// After a friendly minion is <b>Reborn</b>, gain +4/+6 permanently.<br/>
                 /// Tier-3 4/6 Undead Minion
                 /// </summary>
                 public const string JellyBelly = "BG25_005";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// After a friendly minion is <b>Reborn</b>, gain +{0}/+{1} permanently.<br/>
+                /// After a friendly minion is <b>Reborn</b>, gain +4/+6 permanently.<br/>
                 /// Tier-3 4/6 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// After a friendly minion is <b>Reborn</b>, gain +{0}/+{1} permanently.<br/>
+                /// After a friendly minion is <b>Reborn</b>, gain +2/+3 permanently.<br/>
                 /// Tier-3 2/3 Undead Minion
                 /// </summary>
                 public const string JellyBelly_JellyBelly = "BG25_005_G";
@@ -37913,22 +37925,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// At the end of every 2 turns, get a plain copy of the left-most card in your hand. <i>({0} turns left!)</i>2At the end of every 2 turns, get a plain copy of the left-most card in your hand. <i>(End of this turn!)</i><br/>
-                /// Tier-2 6/6 Beast Minion<br/>
+                /// Tier-3 6/6 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// At the end of every turn, get a plain copy of the left-most card in your hand.<br/>
-                /// Tier-2 12/12 Beast Minion
+                /// Tier-3 12/12 Beast Minion
                 /// </summary>
                 public const string RockMasterVoone_AkaliRockRhino1 = "BG26_HERO_104_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// At the end of every turn, get a plain copy of the left-most card in your hand.<br/>
-                /// Tier-2 12/12 Beast Minion<br/>
+                /// Tier-3 12/12 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// At the end of every 2 turns, get a plain copy of the left-most card in your hand. <i>({0} turns left!)</i>2At the end of every 2 turns, get a plain copy of the left-most card in your hand. <i>(End of this turn!)</i><br/>
-                /// Tier-2 6/6 Beast Minion
+                /// Tier-3 6/6 Beast Minion
                 /// </summary>
                 public const string RockMasterVoone_AkaliRockRhino2 = "BG26_HERO_104_Buddy_G";
 
@@ -43521,22 +43533,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// At the end of your turn, get a helpful card.<br/>
-                /// Tier-6 6/6 Pirate Minion<br/>
+                /// Tier-5 6/6 Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// At the end of your turn, get 2 helpful cards.<br/>
-                /// Tier-6 12/12 Pirate Minion
+                /// Tier-5 12/12 Pirate Minion
                 /// </summary>
                 public const string MarintheManager_FantasticBellhop1 = "BG30_HERO_304_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// At the end of your turn, get 2 helpful cards.<br/>
-                /// Tier-6 12/12 Pirate Minion<br/>
+                /// Tier-5 12/12 Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// At the end of your turn, get a helpful card.<br/>
-                /// Tier-6 6/6 Pirate Minion
+                /// Tier-5 6/6 Pirate Minion
                 /// </summary>
                 public const string MarintheManager_FantasticBellhop2 = "BG30_HERO_304_Buddy_G";
 
@@ -43607,7 +43619,7 @@ namespace HearthDb
                 public const string ButchersSickle = "BG30_MagicItem_406";
 
                 /// <summary>
-                /// <b>Start of Combat:</b> Get and summon a random Pirate. It attacks immediately.<br/>
+                /// <b>Start of Combat:</b> Summon and get a random Pirate. It attacks immediately.<br/>
                 /// 0-Cost BattlegroundTrinket
                 /// </summary>
                 public const string ShipInABottle = "BG30_MagicItem_407";
@@ -47271,22 +47283,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// After you cast two Tavern spells, get a random Battlecruiser Upgrade. <i>(2 left!)</i><br/>
-                /// Tier-4 4/6 Minion<br/>
+                /// Tier-2 4/6 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// After you cast two Tavern spells, get 2 random Battlecruiser Upgrades. <i>(2 left!)</i><br/>
-                /// Tier-4 8/12 Minion
+                /// Tier-2 8/12 Minion
                 /// </summary>
                 public const string JimRaynor_TychusFindlay1 = "BG31_HERO_801_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// After you cast two Tavern spells, get 2 random Battlecruiser Upgrades. <i>(2 left!)</i><br/>
-                /// Tier-4 8/12 Minion<br/>
+                /// Tier-2 8/12 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// After you cast two Tavern spells, get a random Battlecruiser Upgrade. <i>(2 left!)</i><br/>
-                /// Tier-4 4/6 Minion
+                /// Tier-2 4/6 Minion
                 /// </summary>
                 public const string JimRaynor_TychusFindlay2 = "BG31_HERO_801_Buddy_G";
 
@@ -47871,22 +47883,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// When you sell this, <b>Discover</b> a Zerg minion and set its stats to 6/6. It doesn't morph.<br/>
-                /// Tier-4 4/4 Minion<br/>
+                /// Tier-6 4/4 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// When you sell this, <b>Discover</b> two Zerg minions and set their stats to 6/6. They don't morph.<br/>
-                /// Tier-4 8/8 Minion
+                /// Tier-6 8/8 Minion
                 /// </summary>
                 public const string KerriganQueenofBlades_BrokenHorn1 = "BG31_HERO_811_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// When you sell this, <b>Discover</b> two Zerg minions and set their stats to 6/6. They don't morph.<br/>
-                /// Tier-4 8/8 Minion<br/>
+                /// Tier-6 8/8 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// When you sell this, <b>Discover</b> a Zerg minion and set its stats to 6/6. It doesn't morph.<br/>
-                /// Tier-4 4/4 Minion
+                /// Tier-6 4/4 Minion
                 /// </summary>
                 public const string KerriganQueenofBlades_BrokenHorn2 = "BG31_HERO_811_Buddy_G";
 
@@ -49721,22 +49733,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Deathrattle:</b> Get a helpful card.<br/>
-                /// Tier-5 5/5 Undead Minion<br/>
+                /// Tier-4 5/5 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Deathrattle:</b> Get 2 helpful cards.<br/>
-                /// Tier-5 10/10 Undead Minion
+                /// Tier-4 10/10 Undead Minion
                 /// </summary>
                 public const string Buttons_Zippers1 = "BG32_HERO_002_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Deathrattle:</b> Get 2 helpful cards.<br/>
-                /// Tier-5 10/10 Undead Minion<br/>
+                /// Tier-4 10/10 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Deathrattle:</b> Get a helpful card.<br/>
-                /// Tier-5 5/5 Undead Minion
+                /// Tier-4 5/5 Undead Minion
                 /// </summary>
                 public const string Buttons_Zippers2 = "BG32_HERO_002_Buddy_G";
 
@@ -51448,22 +51460,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Rally:</b> Get and summon a random <b>Rally</b> minion.<br/>
+                /// <b>Rally:</b> Summon and get a random <b>Rally</b> minion.<br/>
                 /// Tier-4 6/4 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Rally:</b> Get and summon 2 random <b>Rally</b> minions.<br/>
+                /// <b>Rally:</b> Summon and get 2 random <b>Rally</b> minions.<br/>
                 /// Tier-4 12/8 Minion
                 /// </summary>
                 public const string FriendlyBouncer = "BG33_700";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Rally:</b> Get and summon 2 random <b>Rally</b> minions.<br/>
+                /// <b>Rally:</b> Summon and get 2 random <b>Rally</b> minions.<br/>
                 /// Tier-4 12/8 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Rally:</b> Get and summon a random <b>Rally</b> minion.<br/>
+                /// <b>Rally:</b> Summon and get a random <b>Rally</b> minion.<br/>
                 /// Tier-4 6/4 Minion
                 /// </summary>
                 public const string FriendlyBouncer_FriendlyBouncer = "BG33_700_G";
@@ -52567,22 +52579,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Start of Combat:</b> Copy all friendly <b>Rallies</b> <i>(except Stoneshell Guardian)</i>.<br/>
-                /// Tier-5 3/7 Minion<br/>
+                /// Tier-4 3/7 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Start of Combat:</b> Copy all friendly <b>Rallies</b> twice <i>(except Stoneshell Guardian)</i>.<br/>
-                /// Tier-5 6/14 Minion
+                /// Tier-4 6/14 Minion
                 /// </summary>
                 public const string StoneshellGuardian1 = "BG33_HERO_000_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Start of Combat:</b> Copy all friendly <b>Rallies</b> twice <i>(except Stoneshell Guardian)</i>.<br/>
-                /// Tier-5 6/14 Minion<br/>
+                /// Tier-4 6/14 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Start of Combat:</b> Copy all friendly <b>Rallies</b> <i>(except Stoneshell Guardian)</i>.<br/>
-                /// Tier-5 3/7 Minion
+                /// Tier-4 3/7 Minion
                 /// </summary>
                 public const string StoneshellGuardian2 = "BG33_HERO_000_Buddy_G";
 
@@ -56055,11 +56067,11 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// At the end of your turn, give this minion's stats to a Tier 3 minion.<br/>
-                /// Tier-5 6/6 Minion<br/>
+                /// Tier-6 6/6 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// At the end of your turn, give this minion's stats to a Tier 3 minion twice.<br/>
-                /// Tier-5 12/12 Minion
+                /// Tier-6 12/12 Minion
                 /// </summary>
                 public const string AFKay_SnackVendorTavernBrawl1 = "TB_BaconShop_HERO_16_Buddy";
 
@@ -56072,11 +56084,11 @@ namespace HearthDb
                 /// <summary>
                 /// Triple (this):<br/>
                 /// At the end of your turn, give this minion's stats to a Tier 3 minion twice.<br/>
-                /// Tier-5 12/12 Minion<br/>
+                /// Tier-6 12/12 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// At the end of your turn, give this minion's stats to a Tier 3 minion.<br/>
-                /// Tier-5 6/6 Minion
+                /// Tier-6 6/6 Minion
                 /// </summary>
                 public const string AFKay_SnackVendorTavernBrawl2 = "TB_BaconShop_HERO_16_Buddy_G";
 
@@ -56201,22 +56213,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Battlecry, Deathrattle, and Rally:</b> Get a random <b>Bounty</b>.<br/>
-                /// Tier-6 6/6 Pirate Minion<br/>
+                /// Tier-5 6/6 Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Battlecry, Deathrattle, and Rally:</b> Get 2 random <b>Bounties</b>.<br/>
-                /// Tier-6 12/12 Pirate Minion
+                /// Tier-5 12/12 Pirate Minion
                 /// </summary>
                 public const string PatchesthePirate_TuskarrRaiderTavernBrawl1 = "TB_BaconShop_HERO_18_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Battlecry, Deathrattle, and Rally:</b> Get 2 random <b>Bounties</b>.<br/>
-                /// Tier-6 12/12 Pirate Minion<br/>
+                /// Tier-5 12/12 Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Battlecry, Deathrattle, and Rally:</b> Get a random <b>Bounty</b>.<br/>
-                /// Tier-6 6/6 Pirate Minion
+                /// Tier-5 6/6 Pirate Minion
                 /// </summary>
                 public const string PatchesthePirate_TuskarrRaiderTavernBrawl2 = "TB_BaconShop_HERO_18_Buddy_G";
 
@@ -56405,22 +56417,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Battlecry:</b> Get a random <b>Battlecry</b> minion.<br/>
-                /// Tier-3 5/5 Minion<br/>
+                /// Tier-4 5/5 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Battlecry:</b> Get 2 random <b>Battlecry</b> minions.<br/>
-                /// Tier-3 10/10 Minion
+                /// Tier-4 10/10 Minion
                 /// </summary>
                 public const string Shudderwock_MuckslingerTavernBrawl1 = "TB_BaconShop_HERO_23_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Battlecry:</b> Get 2 random <b>Battlecry</b> minions.<br/>
-                /// Tier-3 10/10 Minion<br/>
+                /// Tier-4 10/10 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Battlecry:</b> Get a random <b>Battlecry</b> minion.<br/>
-                /// Tier-3 5/5 Minion
+                /// Tier-4 5/5 Minion
                 /// </summary>
                 public const string Shudderwock_MuckslingerTavernBrawl2 = "TB_BaconShop_HERO_23_Buddy_G";
 
@@ -57095,22 +57107,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Get a random Demon.<br/>
-                /// Tier-3 3/6 Demon Minion<br/>
+                /// Tier-2 3/6 Demon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Get 2 random Demons.<br/>
-                /// Tier-3 6/12 Demon Minion
+                /// Tier-2 6/12 Demon Minion
                 /// </summary>
                 public const string LordJaraxxus_KilrekTavernBrawl1 = "TB_BaconShop_HERO_37_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Get 2 random Demons.<br/>
-                /// Tier-3 6/12 Demon Minion<br/>
+                /// Tier-2 6/12 Demon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Get a random Demon.<br/>
-                /// Tier-3 3/6 Demon Minion
+                /// Tier-2 3/6 Demon Minion
                 /// </summary>
                 public const string LordJaraxxus_KilrekTavernBrawl2 = "TB_BaconShop_HERO_37_Buddy_G";
 
@@ -57217,11 +57229,11 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// Whenever a different minion in your hand or board gains Health, this also gains it.<br/>
-                /// Tier-5 5/2 Elemental Minion<br/>
+                /// Tier-3 5/2 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// Whenever a different minion in your hand or board gains Health, this also gains twice that amount.<br/>
-                /// Tier-5 10/4 Elemental Minion
+                /// Tier-3 10/4 Elemental Minion
                 /// </summary>
                 public const string Pyramad_TitanicGuardianTavernBrawl1 = "TB_BaconShop_HERO_39_Buddy";
 
@@ -57234,11 +57246,11 @@ namespace HearthDb
                 /// <summary>
                 /// Triple (this):<br/>
                 /// Whenever a different minion in your hand or board gains Health, this also gains twice that amount.<br/>
-                /// Tier-5 10/4 Elemental Minion<br/>
+                /// Tier-3 10/4 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// Whenever a different minion in your hand or board gains Health, this also gains it.<br/>
-                /// Tier-5 5/2 Elemental Minion
+                /// Tier-3 5/2 Elemental Minion
                 /// </summary>
                 public const string Pyramad_TitanicGuardianTavernBrawl2 = "TB_BaconShop_HERO_39_Buddy_G";
 
@@ -57801,11 +57813,11 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// Whenever a friendly minion gains Attack during combat, give it +1 Health permanently.<br/>
-                /// Tier-4 2/6 Dragon Minion<br/>
+                /// Tier-2 2/6 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// Whenever a friendly minion gains Attack during combat, give it +2 Health permanently.<br/>
-                /// Tier-4 4/12 Dragon Minion
+                /// Tier-2 4/12 Dragon Minion
                 /// </summary>
                 public const string Deathwing_SinestraTavernBrawl1 = "TB_BaconShop_HERO_52_Buddy";
 
@@ -57818,11 +57830,11 @@ namespace HearthDb
                 /// <summary>
                 /// Triple (this):<br/>
                 /// Whenever a friendly minion gains Attack during combat, give it +2 Health permanently.<br/>
-                /// Tier-4 4/12 Dragon Minion<br/>
+                /// Tier-2 4/12 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// Whenever a friendly minion gains Attack during combat, give it +1 Health permanently.<br/>
-                /// Tier-4 2/6 Dragon Minion
+                /// Tier-2 2/6 Dragon Minion
                 /// </summary>
                 public const string Deathwing_SinestraTavernBrawl2 = "TB_BaconShop_HERO_52_Buddy_G";
 
@@ -57865,22 +57877,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// Whenever a Dragon enters your warband or the Tavern, gain +1/+1.<br/>
-                /// Tier-2 6/4 Dragon Minion<br/>
+                /// Tier-1 6/4 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// Whenever a Dragon enters your warband or the Tavern, gain +2/+2.<br/>
-                /// Tier-2 12/8 Dragon Minion
+                /// Tier-1 12/8 Dragon Minion
                 /// </summary>
                 public const string Ysera_ValithriaDreamwalkerTavernBrawl1 = "TB_BaconShop_HERO_53_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// Whenever a Dragon enters your warband or the Tavern, gain +2/+2.<br/>
-                /// Tier-2 12/8 Dragon Minion<br/>
+                /// Tier-1 12/8 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// Whenever a Dragon enters your warband or the Tavern, gain +1/+1.<br/>
-                /// Tier-2 6/4 Dragon Minion
+                /// Tier-1 6/4 Dragon Minion
                 /// </summary>
                 public const string Ysera_ValithriaDreamwalkerTavernBrawl2 = "TB_BaconShop_HERO_53_Buddy_G";
 
@@ -58413,11 +58425,11 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// At the end of your turn, give a random friendly Golden minion +5/+5.<br/>
-                /// Tier-3 5/5 Pirate Minion<br/>
+                /// Tier-2 5/5 Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// At the end of your turn, give a random friendly Golden minion +10/+10.<br/>
-                /// Tier-3 10/10 Pirate Minion
+                /// Tier-2 10/10 Pirate Minion
                 /// </summary>
                 public const string CaptainEudora_DagwikStickytoeTavernBrawl1 = "TB_BaconShop_HERO_64_Buddy";
 
@@ -58430,11 +58442,11 @@ namespace HearthDb
                 /// <summary>
                 /// Triple (this):<br/>
                 /// At the end of your turn, give a random friendly Golden minion +10/+10.<br/>
-                /// Tier-3 10/10 Pirate Minion<br/>
+                /// Tier-2 10/10 Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// At the end of your turn, give a random friendly Golden minion +5/+5.<br/>
-                /// Tier-3 5/5 Pirate Minion
+                /// Tier-2 5/5 Pirate Minion
                 /// </summary>
                 public const string CaptainEudora_DagwikStickytoeTavernBrawl2 = "TB_BaconShop_HERO_64_Buddy_G";
 
@@ -58535,22 +58547,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// When you sell this, <b>Refresh</b> your Hero Power.<br/>
-                /// Tier-4 5/3 Beast/Pirate Minion<br/>
+                /// Tier-5 5/3 Beast/Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// When you sell this, <b>Refresh</b> your Hero Power.<br/>
-                /// Tier-4 10/6 Beast/Pirate Minion
+                /// Tier-5 10/6 Beast/Pirate Minion
                 /// </summary>
                 public const string SkycapnKragg_SharkbaitTavernBrawl1 = "TB_BaconShop_HERO_68_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// When you sell this, <b>Refresh</b> your Hero Power.<br/>
-                /// Tier-4 10/6 Beast/Pirate Minion<br/>
+                /// Tier-5 10/6 Beast/Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// When you sell this, <b>Refresh</b> your Hero Power.<br/>
-                /// Tier-4 5/3 Beast/Pirate Minion
+                /// Tier-5 5/3 Beast/Pirate Minion
                 /// </summary>
                 public const string SkycapnKragg_SharkbaitTavernBrawl2 = "TB_BaconShop_HERO_68_Buddy_G";
 
@@ -59053,22 +59065,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// The Tavern offers an extra <b>Frozen</b> Elemental whenever it is <b>Refreshed</b>.<br/>
-                /// Tier-2 5/4 Elemental Minion<br/>
+                /// Tier-3 5/4 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// The Tavern offers 2 extra <b>Frozen</b> Elementals whenever it is <b>Refreshed</b>.<br/>
-                /// Tier-2 10/8 Elemental Minion
+                /// Tier-3 10/8 Elemental Minion
                 /// </summary>
                 public const string Chenvaala_SnowElementalTavernBrawl1 = "TB_BaconShop_HERO_78_Buddy";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// The Tavern offers 2 extra <b>Frozen</b> Elementals whenever it is <b>Refreshed</b>.<br/>
-                /// Tier-2 10/8 Elemental Minion<br/>
+                /// Tier-3 10/8 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// The Tavern offers an extra <b>Frozen</b> Elemental whenever it is <b>Refreshed</b>.<br/>
-                /// Tier-2 5/4 Elemental Minion
+                /// Tier-3 5/4 Elemental Minion
                 /// </summary>
                 public const string Chenvaala_SnowElementalTavernBrawl2 = "TB_BaconShop_HERO_78_Buddy_G";
 
@@ -59249,7 +59261,7 @@ namespace HearthDb
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// After you summon a minion of your Tier, give your minions +2/+2.<br/>
-                /// Tier-3 12/12 Minion
+                /// Tier-4 12/12 Minion
                 /// </summary>
                 public const string YShaarj_BabyYshaarjTavernBrawl1 = "TB_BaconShop_HERO_92_Buddy";
 
@@ -59262,7 +59274,7 @@ namespace HearthDb
                 /// <summary>
                 /// Triple (this):<br/>
                 /// After you summon a minion of your Tier, give your minions +2/+2.<br/>
-                /// Tier-3 12/12 Minion<br/>
+                /// Tier-4 12/12 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// After you summon a minion of your Tier, give your minions +1/+1.<br/>
@@ -87204,6 +87216,12 @@ namespace HearthDb
                 public const string TheCoinTHE_LOST_CITY4 = "TLC_COIN2";
 
                 /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DummyEnch = "NEW_4183_Copy";
+
+                /// <summary>
                 /// Do nothing. <i>This timeline is perfect as-is!</i><br/>
                 /// Spell
                 /// </summary>
@@ -87220,6 +87238,30 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string PortalVanguard_GuardingTimeEnchantment = "TIME_003e";
+
+                /// <summary>
+                /// Attack set to INFINITY!<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MurozondUnbounded_InfinitePowerEnchantment = "TIME_024e";
+
+                /// <summary>
+                /// At the start of your next turn, set Murozond's Attack to INFINITY!<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MurozondUnbounded_MurozondEndOfTimeEnchantment = "TIME_024e2";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EntropicContinuity_RupturedRealityEnchantment = "TIME_026e";
+
+                /// <summary>
+                /// +2 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DiscipleoftheDove_DovesBlessingEnchantment = "TIME_037e";
 
                 /// <summary>
                 /// <b>Rewind</b>, <b>Rewind</b> <b>Battlecry:</b> Summon 2 random <b>Legendary</b> minions.<br/>
@@ -87240,6 +87282,54 @@ namespace HearthDb
                 public const string MisterClocksworth_MisterClocksworthToken3 = "TIME_038t3";
 
                 /// <summary>
+                /// +4 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FuturisticForefather_InfiltrationEnchantment = "TIME_041e2";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 3 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CyborgPatriarch_PrimeApeEnchantment = "TIME_046e";
+
+                /// <summary>
+                /// Increased Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ClockworkRager_ClockworkRageEnchantment = "TIME_048e";
+
+                /// <summary>
+                /// Attack and Health swapped.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SentientHourglass_SandFlowEnchantment = "TIME_050e";
+
+                /// <summary>
+                /// Doubled Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SoldieroftheInfinite_InfiniteScalesEnchantment = "TIME_051e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TimeSkipper_SkippingTimeEnchantment = "TIME_054e";
+
+                /// <summary>
+                /// Cost changed.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WizenedTruthseeker_TrueWisdomEnchantment = "TIME_057e";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 2 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PaltryFlutterwing_ConsequencesEnchantment = "TIME_058e";
+
+                /// <summary>
                 /// <b>Dormant</b>. Awaken in 5 turns.<br/>
                 /// Enchantment
                 /// </summary>
@@ -87250,6 +87340,66 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string TimelordNozdormu_NozdormuPlayEnchantEnchantment = "TIME_063e2";
+
+                /// <summary>
+                /// Your <b>Battlecries</b>, <b>Deathrattles</b>, Hero Power, and end of turn effects trigger twice.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ChronoLordDeios_DeiosInfluenceEnchantment = "TIME_064e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HourglassAttendant_SandyPolishEnchantment = "TIME_100e";
+
+                /// <summary>
+                /// Reduces Cost each turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Circadiamancer_MetaphysicalEnchantment = "TIME_102e";
+
+                /// <summary>
+                /// +1 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Yesterloc_MrrglsOfYoreEnchantment = "TIME_428e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 3-Cost 4/1 Minion
+                /// </summary>
+                public const string TemporalTraveler_TemporalShadowToken = "TIME_434t";
+
+                /// <summary>
+                /// Your hero has been resurrected.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HuskEternalReaper_ASecondChanceEnchantment = "TIME_618e2";
+
+                /// <summary>
+                /// +5/+5.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EndangeredDodo_EndangeredEnchantment = "TIME_703e";
+
+                /// <summary>
+                /// Doubled Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SoldieroftheBronze_BronzeScalesEnchantment = "TIME_720e";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinTIME_TRAVEL1 = "TIME_COIN1";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinTIME_TRAVEL2 = "TIME_COIN2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -87298,6 +87448,30 @@ namespace HearthDb
                 /// 0-Cost Pet
                 /// </summary>
                 public const string CorruptedRabbitath = "PET_4_4";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string BestestBoyArfus = "PET_6_1";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string ArfusHoundOfMenethil = "PET_6_2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string PutridPupperArfus = "PET_6_3";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string HelmedHoundArfus = "PET_6_4";
             }
         }
     }

@@ -1759,7 +1759,7 @@ namespace HearthDb
                 public const string BlowtorchSaboteurCore = "CORE_DRG_403";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a Beast with a <b>Dark Gift</b>. <b>Kindred:</b> It costs (1) less.<br/>
+                /// <b>Rewind</b> <b>Battlecry:</b> <b>Discover</b> a Beast with a <b>Dark Gift</b>. <b>Kindred:</b> It costs (1) less.<br/>
                 /// 3-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string RaptorHerald = "CORE_EDR_004";
@@ -8389,22 +8389,214 @@ namespace HearthDb
                 public const string CoilfangConstrictor = "TID_744";
 
                 /// <summary>
+                /// <b>Rewind</b> <b>Battlecry:</b> Get 2 random spells from your class.<br/>
+                /// 5-Cost 3/5 Minion
+                /// </summary>
+                public const string AeonWizard = "TIME_002";
+
+                /// <summary>
                 /// <b>Rewind</b> <b>Battlecry:</b> Draw a random minion. Give it +2/+2.<br/>
                 /// 3-Cost 2/2 Dragon Minion
                 /// </summary>
                 public const string PortalVanguard = "TIME_003";
 
                 /// <summary>
-                /// <b>Rewind</b>, <b>Rewind</b>, <b>Rewind</b> <b>Battlecry:</b> Summon 2 random <b>Legendary</b> minions.<br/>
+                /// <b>Rewind</b> <b>Battlecry:</b> Deal 7 damage to a random enemy.<br/>
+                /// 7-Cost 7/7 Dragon Minion
+                /// </summary>
+                public const string ConfluxCrasher = "TIME_004";
+
+                /// <summary>
+                /// <b>Battlecry:</b> At the start of your next turn, set this minion's Attack to INFINITY!<br/>
+                /// 9-Cost 8/8 Dragon Minion
+                /// </summary>
+                public const string MurozondUnbounded = "TIME_024";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Get a random <b>Rewind</b> card.<br/>
+                /// 6-Cost 6/6 Mechanical Minion
+                /// </summary>
+                public const string TimeMachine = "TIME_035";
+
+                /// <summary>
+                /// <b>Rewind</b>, <b>Rewind</b> <b>Battlecry:</b> Summon 2 random <b>Legendary</b> minions.<br/>
                 /// 8-Cost 3/3 Mechanical Minion
                 /// </summary>
                 public const string MisterClocksworth = "TIME_038";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get a random 5-Cost minion from the past.<br/>
+                /// 4-Cost 6/3 Undead Minion
+                /// </summary>
+                public const string FadingMemory = "TIME_040";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Battlecry:</b> Look at 3 cards. Guess which one is in your opponent's hand to gain +4 Health.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string FuturisticForefather = "TIME_041";
+
+                /// <summary>
+                /// <b>Poisonous</b> <b>Reborn</b><br/>
+                /// 3-Cost 1/4 Dragon Minion
+                /// </summary>
+                public const string WhelpOfTheInfinite = "TIME_045";
+
+                /// <summary>
+                /// <b>Dormant</b> for 3 turns. <b>Taunt</b><br/>
+                /// 3-Cost 3/12 Beast/Mechanical Minion
+                /// </summary>
+                public const string CyborgPatriarch = "TIME_046";
+
+                /// <summary>
+                /// <b>Stealth</b>. Costs (1) less for each time the enemy hero took damage this turn.<br/>
+                /// 5-Cost 5/3 Beast Minion
+                /// </summary>
+                public const string DeviousCoyote = "TIME_047";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Gain +1 Health for each turn you've taken this game. <i>( turns)</i><br/>
+                /// 5-Cost 5/1 Mechanical Minion
+                /// </summary>
+                public const string ClockworkRager = "TIME_048";
+
+                /// <summary>
+                /// At the start of your turn, transform into a random 5-Cost minion.<br/>
+                /// 2-Cost 1/1 Minion
+                /// </summary>
+                public const string DangerousVariant = "TIME_049";
+
+                /// <summary>
+                /// <b>Rush</b> After this minion survives damage, swap its stats.<br/>
+                /// 6-Cost 4/9 Elemental Minion
+                /// </summary>
+                public const string SentientHourglass = "TIME_050";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Battlecry:</b> Double this minion's Attack.<br/>
+                /// 5-Cost 3/5 Dragon Minion
+                /// </summary>
+                public const string SoldierOfTheInfinite = "TIME_051";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Summon a random minion from the past.<br/>
+                /// 8-Cost 4/12 Dragon Minion
+                /// </summary>
+                public const string AmberWarden = "TIME_052";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 3-Cost 7/2 Beast/Elemental Minion
+                /// </summary>
+                public const string Sandmaw = "TIME_053";
+
+                /// <summary>
+                /// At the end of each player's turn, give them a Coin.<br/>
+                /// 4-Cost 3/4 Pirate Minion
+                /// </summary>
+                public const string TimeSkipper = "TIME_054";
+
+                /// <summary>
+                /// After this survives damage, transform into a random 7-Cost minion.<br/>
+                /// 5-Cost 4/5 Minion
+                /// </summary>
+                public const string UnknownVoyager = "TIME_055";
+
+                /// <summary>
+                /// <b>Lifesteal</b> <b>Divine Shield</b><br/>
+                /// 3-Cost 4/1 Dragon Minion
+                /// </summary>
+                public const string WhelpOfTheBronze = "TIME_056";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Set the Cost of every card in both player's hands back to their original Costs.<br/>
+                /// 4-Cost 4/5 Draenei Minion
+                /// </summary>
+                public const string WizenedTruthseeker = "TIME_057";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a random 2-Cost minion that is <b>Dormant</b> for 2 turns.<br/>
+                /// 1-Cost 1/1 Beast Minion
+                /// </summary>
+                public const string PaltryFlutterwing = "TIME_058";
+
+                /// <summary>
+                /// <b>Elusive</b> <b>Battlecry:</b> Summon two 2/1 Living Paradoxes with <b>Elusive</b>.<br/>
+                /// 3-Cost 2/1 Minion
+                /// </summary>
+                public const string LivingParadox = "TIME_059";
+
+                /// <summary>
+                /// This minion takes double damage from all sources.<br/>
+                /// 3-Cost 4/9 Mechanical Minion
+                /// </summary>
+                public const string QuantumDestabilizer = "TIME_060";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Reverse the order of your deck.<br/>
+                /// 2-Cost 3/2 Elemental Minion
+                /// </summary>
+                public const string TimelessCausality = "TIME_061";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you're holding a Dragon, gain <b>Taunt</b> and <b>Divine Shield</b>.<br/>
+                /// 4-Cost 3/6 Minion
+                /// </summary>
+                public const string ChronicleKeeper = "TIME_062";
 
                 /// <summary>
                 /// <b>Dormant</b> for 5 turns. <b>Rush</b>. After you play a card from the newest expansion, awaken 1 turn sooner.<br/>
                 /// 3-Cost 8/8 Dragon Minion
                 /// </summary>
                 public const string TimelordNozdormu = "TIME_063";
+
+                /// <summary>
+                /// Your <b>Battlecries</b>, <b>Deathrattles</b>, Hero Power, and end of turn effects trigger twice.<br/>
+                /// 7-Cost 4/8 Minion
+                /// </summary>
+                public const string ChronoLordDeios = "TIME_064";
+
+                /// <summary>
+                /// <b>Divine Shield</b> At the end of your turn, give all minions in your hand +1/+1.<br/>
+                /// 4-Cost 2/4 Minion
+                /// </summary>
+                public const string HourglassAttendant = "TIME_100";
+
+                /// <summary>
+                /// Whenever you <b>Shatter</b> a card, deal 2 damage to all enemy minions.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
+                public const string MisplacedPyromancer = "TIME_101";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Add a random 8-Cost minion to your hand. At the start of your turns, reduce its Cost by (1).<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
+                public const string Circadiamancer = "TIME_102";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Draw another copy of cards you've played this game. <i>( cards)</i><br/>
+                /// 6-Cost 4/6 Minion
+                /// </summary>
+                public const string Chromie = "TIME_103";
+
+                /// <summary>
+                /// At the end of your turn, give your other minions +1 Health.<br/>
+                /// 2-Cost 3/1 Murloc Minion
+                /// </summary>
+                public const string Yesterloc = "TIME_428";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a 4/1 Shadow that attacks a random enemy minion.<br/>
+                /// 3-Cost 4/1 Minion
+                /// </summary>
+                public const string TemporalTraveler = "TIME_434";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Double this minion's Health.<br/>
+                /// 5-Cost 5/3 Dragon Minion
+                /// </summary>
+                public const string SoldierOfTheBronze = "TIME_720";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck started with 10 cards of different Costs, craft a custom location.<br/>

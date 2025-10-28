@@ -4476,6 +4476,54 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string NirioftheCrater_NiriOfTheCraterPlayerEnchEnchantment = "TLC_836e2";
+
+                /// <summary>
+                /// Give a minion +1/+1. <i>(This stays in your hand.)</i><br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string KingMaluk_InfiniteBananaToken = "TIME_042t";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string KingMaluk_InfiniteBananaEnchantmentToken = "TIME_042te";
+
+                /// <summary>
+                /// Your Hero Power costs (0).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string QueldoreiFletcher_FletchingEnchantment = "TIME_606e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a spell. If you've played Sylvanas or Vereesa, repeat for each.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string RangerGeneralSylvanas_RangerCaptainAlleriaToken = "TIME_609t1";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give minions in your deck +1/+1. If you've played Alleria or Sylvanas, repeat for each.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string RangerGeneralSylvanas_RangerInitiateVereesaToken = "TIME_609t2";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RangerGeneralSylvanas_WindrunnersAllegianceToken = "TIME_609t2e";
+
+                /// <summary>
+                /// Deal 5 damage to a random enemy minion. Excess hits the enemy hero. <i>Advance to the future!</i><br/>
+                /// 4-Cost Location
+                /// </summary>
+                public const string PastSilvermoon_PresentSilvermoonToken = "TIME_810t1";
+
+                /// <summary>
+                /// Deal 5 damage to the lowest Health enemy minion. Excess damage hits the enemy hero.<br/>
+                /// 4-Cost Location
+                /// </summary>
+                public const string PastSilvermoon_FutureSilvermoonToken = "TIME_810t2";
             }
         }
     }

@@ -32,6 +32,12 @@ namespace HearthDb
                 public const string TheLichKing_GhoulFrenzy3 = "HERO_11ajhp2";
 
                 /// <summary>
+                /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string TheLichKing_GhoulFrenzy4 = "HERO_11aqhp2";
+
+                /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
@@ -41,7 +47,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy4 = "HERO_11bp2";
+                public const string TheLichKing_GhoulFrenzy5 = "HERO_11bp2";
 
                 /// <summary>
                 /// <b>Charge</b> At the end of your turn, this minion dies.<br/>
@@ -59,13 +65,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy5 = "HERO_11cbp2";
+                public const string TheLichKing_GhoulFrenzy6 = "HERO_11cbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy6 = "HERO_11gbp2";
+                public const string TheLichKing_GhoulFrenzy7 = "HERO_11gbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -77,7 +83,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy7 = "HERO_11ibp2";
+                public const string TheLichKing_GhoulFrenzy8 = "HERO_11ibp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -89,19 +95,19 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy8 = "HERO_11uhp2";
+                public const string TheLichKing_GhoulFrenzy9 = "HERO_11uhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy9 = "HERO_11vhp2";
+                public const string TheLichKing_GhoulFrenzy10 = "HERO_11vhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy10 = "HERO_11zhp2";
+                public const string TheLichKing_GhoulFrenzy11 = "HERO_11zhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -131,13 +137,19 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins4 = "HERO_11cbp";
+                public const string TheLichKing_GhoulChargeHeroSkins4 = "HERO_11aqhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins5 = "HERO_11fbp";
+                public const string TheLichKing_GhoulChargeHeroSkins5 = "HERO_11cbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string TheLichKing_GhoulChargeHeroSkins6 = "HERO_11fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -149,7 +161,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins6 = "HERO_11gbp";
+                public const string TheLichKing_GhoulChargeHeroSkins7 = "HERO_11gbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -161,13 +173,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins7 = "HERO_11ibp";
+                public const string TheLichKing_GhoulChargeHeroSkins8 = "HERO_11ibp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins8 = "HERO_11lbp";
+                public const string TheLichKing_GhoulChargeHeroSkins9 = "HERO_11lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -185,19 +197,19 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins9 = "HERO_11uhp";
+                public const string TheLichKing_GhoulChargeHeroSkins10 = "HERO_11uhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins10 = "HERO_11vhp";
+                public const string TheLichKing_GhoulChargeHeroSkins11 = "HERO_11vhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins11 = "HERO_11zhp";
+                public const string TheLichKing_GhoulChargeHeroSkins12 = "HERO_11zhp";
 
                 /// <summary>
                 /// Draw 4 cards.<br/>
@@ -444,6 +456,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string DeathKnightArthasTavernBrawl = "TB_HunterPrince_ArthasH";
+
+                /// <summary>
+                /// Whenever you play a <b>Deathrattle</b> minion, give it <b>Reborn</b>.<br/>
+                /// 2-Cost 1/4 Undead/Pirate Minion
+                /// </summary>
+                public const string BrittleboneBuccaneerTavernBrawl = "TB_World009";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Deathrattle:</b> Summon a 1/1 Dreadhound with <b>Reborn</b>.<br/>
+                /// 2-Cost 2/2 Pirate/Undead Minion
+                /// </summary>
+                public const string DreadhoundHandlerTavernBrawl = "TB_World010";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2130,6 +2154,96 @@ namespace HearthDb
                 /// 2-Cost 2/2 Undead/Beast Minion
                 /// </summary>
                 public const string ReluctantWrangler_ReanimatedOssodonToken = "TLC_443t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost 3/2 Undead Minion
+                /// </summary>
+                public const string ShadowsofYesterday_AnomalousShadeToken = "TIME_610t2";
+
+                /// <summary>
+                /// Costs Health instead of Mana.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ForgottenMillennium_ForgottenEnchantment = "TIME_615e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Spend up to 20 <b>Corpses</b> to resurrect with that much Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HuskEternalReaper_EternalLifePlayerEnchantEnchantment = "TIME_618e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Spend up to 20 <b>Corpses</b> to resurrect with that much Health.<br/>
+                /// Spell
+                /// </summary>
+                public const string HuskEternalReaper_EternalLifeToken = "TIME_618t";
+
+                /// <summary>
+                /// Give Bwonsamdi <b>Taunt</b> <i>permanently</i>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TalanjioftheGraves_BoonOfPowerPlayerEnchEnchantment = "TIME_619e";
+
+                /// <summary>
+                /// Give Bwonsamdi <b>Lifesteal</b> <i>permanently</i>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TalanjioftheGraves_BoonOfLongevityPlayerEnchEnchantment = "TIME_619e2";
+
+                /// <summary>
+                /// Give Bwonsamdi <b>Rush</b> <i>permanently</i>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TalanjioftheGraves_BoonOfSpeedPlayerEnchEnchantment = "TIME_619e3";
+
+                /// <summary>
+                /// <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TalanjioftheGraves_PactForPowerEnchantment = "TIME_619e4";
+
+                /// <summary>
+                /// <b>Lifesteal</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TalanjioftheGraves_PactForLongevityEnchantment = "TIME_619e5";
+
+                /// <summary>
+                /// <b>Rush</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TalanjioftheGraves_PactForSpeedEnchantment = "TIME_619e6";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a random 4-Cost minion. <i>(Any Boons given to Bwonsamdi carry over.)</i><br/>
+                /// 6-Cost 6/6 Undead Minion
+                /// </summary>
+                public const string TalanjioftheGraves_BwonsamdiToken = "TIME_619t";
+
+                /// <summary>
+                /// Deal $2 damage to all enemies. Choose a Boon to give to Bwonsamdi.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string TalanjioftheGraves_WhatBefellZandalarToken = "TIME_619t2";
+
+                /// <summary>
+                /// Give Bwonsamdi <b>Taunt</b> <i>permanently</i>. Minions summoned by his <b>Deathrattle</b> cost (2) more.<br/>
+                /// Spell
+                /// </summary>
+                public const string TalanjioftheGraves_BoonOfPowerToken = "TIME_619t3";
+
+                /// <summary>
+                /// Give Bwonsamdi <b>Lifesteal</b> <i>permanently</i>. Minions summoned by his <b>Deathrattle</b> cost (2) more.<br/>
+                /// Spell
+                /// </summary>
+                public const string TalanjioftheGraves_BoonOfLongevityToken = "TIME_619t4";
+
+                /// <summary>
+                /// Give Bwonsamdi <b>Rush</b> <i>permanently</i>. Minions summoned by his <b>Deathrattle</b> cost (2) more.<br/>
+                /// Spell
+                /// </summary>
+                public const string TalanjioftheGraves_BoonOfSpeedToken = "TIME_619t5";
             }
         }
     }

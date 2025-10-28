@@ -1637,6 +1637,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Rexxar_RangerLordNathanosHeroHeroSkins = "HERO_05bg";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_SylvanasBreezerunnerHeroHeroSkins = "HERO_05bk";
 
                 /// <summary>
@@ -2346,6 +2352,66 @@ namespace HearthDb
                 /// 2-Cost 2/3 Mechanical/Beast Minion
                 /// </summary>
                 public const string K90Tron = "TID_099";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Discard your hand. Get an Infinite Banana.<br/>
+                /// 4-Cost 5/6 Beast Minion
+                /// </summary>
+                public const string KingMaluk = "TIME_042";
+
+                /// <summary>
+                /// Deal $3 damage. If this is EXACTLY in the center of your hand, deal $5 instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string PreciseShot = "TIME_600";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw until you have 3 cards.<br/>
+                /// 2-Cost 3/1 Beast Minion
+                /// </summary>
+                public const string ArrowRetriever = "TIME_601";
+
+                /// <summary>
+                /// <b>Rewind</b> Summon a random 3-Cost Beast. It attacks a random enemy.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Wormhole = "TIME_602";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Destroy a random enemy minion.<br/>
+                /// 2-Cost 1/1 Mechanical Minion
+                /// </summary>
+                public const string TickingTimebomb = "TIME_603";
+
+                /// <summary>
+                /// <b>Rush</b>, <b>Elusive</b> <b>Battlecry:</b> Summon a copy of this.<br/>
+                /// 6-Cost 3/4 Beast Minion
+                /// </summary>
+                public const string EpochStalker = "TIME_605";
+
+                /// <summary>
+                /// Your Hero Power costs (0) while your hand has 3 or less cards.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
+                public const string QueldoreiFletcher = "TIME_606";
+
+                /// <summary>
+                /// <b>Fabled</b>. <b>Battlecry:</b> Deal 2 damage to all enemies. If you've played Alleria or Vereesa, repeat for each.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string RangerGeneralSylvanas = "TIME_609";
+
+                /// <summary>
+                /// <b>Secret:</b> When a friendly minion dies the turn after being played, resummon it.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string UntimelyDeath = "TIME_620";
+
+                /// <summary>
+                /// Deal 5 damage to a random enemy minion. <i>Advance to the present!</i><br/>
+                /// 4-Cost Location
+                /// </summary>
+                public const string PastSilvermoon = "TIME_810";
 
                 /// <summary>
                 /// <b>Rush</b> <b>Kindred:</b> Costs (2) less.<br/>

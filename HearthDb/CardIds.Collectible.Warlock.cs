@@ -1685,6 +1685,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Guldan_XaviusTheExileHeroHeroSkins = "HERO_07bi";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Guldan_DarkmoonYoggSaronHeroHeroSkins = "HERO_07bl";
 
                 /// <summary>
@@ -2400,6 +2406,66 @@ namespace HearthDb
                 /// 5-Cost 7/7 Minion
                 /// </summary>
                 public const string CommanderUlthok = "TID_719";
+
+                /// <summary>
+                /// <b>Fabled+</b>. Your deck size is 40, but has 10 Rafaams! <b>Battlecry:</b> If you played the rest, destroy the enemy hero. <i>({0} left!)</i> <i>(Ready!)</i><br/>
+                /// 10-Cost 10/10 Minion
+                /// </summary>
+                public const string TimethiefRafaam = "TIME_005";
+
+                /// <summary>
+                /// <b>Rewind</b> <b>Battlecry:</b> Both players discard a random card.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string BygoneDoomspeaker = "TIME_008";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Shuffle 2 Shreds of Time into your deck. When drawn, deal 3 damage to your hero.<br/>
+                /// 2-Cost 4/4 Dragon Minion
+                /// </summary>
+                public const string TwilightTimehopper = "TIME_025";
+
+                /// <summary>
+                /// Give your minions +1/+1. Shuffle 2 Shreds of Time into your deck.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string EntropicContinuity = "TIME_026";
+
+                /// <summary>
+                /// Deal $6 damage split among all enemies. Shuffle 2 Shreds of Time into your deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string TachyonBarrage = "TIME_027";
+
+                /// <summary>
+                /// <b>Lifesteal</b> <b>Battlecry:</b> Cast a Shred of Time from your deck to gain +3/+3.<br/>
+                /// 4-Cost 4/4 Dragon Minion
+                /// </summary>
+                public const string Fatebreaker = "TIME_028";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Battlecry:</b> Cast a Shred of Time from your deck to summon a copy of this.<br/>
+                /// 5-Cost 5/5 Dragon Minion
+                /// </summary>
+                public const string RuinousVelocidrake = "TIME_029";
+
+                /// <summary>
+                /// Split a random minion in your hand into two halves.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string Divergence = "TIME_030";
+
+                /// <summary>
+                /// Draw 3 cards of different Costs.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string RafaamLadder = "TIME_031";
+
+                /// <summary>
+                /// <b>Battlecry:</b> You draw your 2 highest Cost cards. Your opponent draws your 2 lowest Cost cards.<br/>
+                /// 6-Cost 6/7 Dragon Minion
+                /// </summary>
+                public const string Chronogor = "TIME_032";
 
                 /// <summary>
                 /// <b>Quest:</b> Play 5 <b>Temporary</b> cards. <b>Reward:</b> Underfel Rift.<br/>

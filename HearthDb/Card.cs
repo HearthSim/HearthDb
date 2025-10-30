@@ -75,6 +75,15 @@ namespace HearthDb
 		private int? _cost;
 		public int Cost => _cost ??= Entity.GetTag(COST);
 
+		private int? _bloodCost;
+		public int BloodCost => _bloodCost ??= Entity.GetTag(COST_BLOOD);
+
+		private int? _frostCost;
+		public int FrostCost => _frostCost ??= Entity.GetTag(COST_FROST);
+
+		private int? _unholyCost;
+		public int UnholyCost => _unholyCost ??= Entity.GetTag(COST_UNHOLY);
+
 		private int? _attack;
 		public int Attack => _attack ??= Entity.GetTag(ATK);
 

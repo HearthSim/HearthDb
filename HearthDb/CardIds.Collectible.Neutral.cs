@@ -4339,7 +4339,7 @@ namespace HearthDb
                 public const string Meadowstrider = "EDR_978";
 
                 /// <summary>
-                /// <b>Dormant</b> for 2 turns. While <b>Dormant</b>, gain 5 Armor and draw a card at the end of your turn.<br/>
+                /// <b>Dormant</b> for 2 turns. While <b>Dormant</b>, gain 3 Armor and draw a card at the end of your turn.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
                 public const string AncientOfYore = "EDR_979";
@@ -5167,8 +5167,8 @@ namespace HearthDb
                 public const string TindralSageswift = "FIR_958";
 
                 /// <summary>
-                /// <b>Immune</b> to Fire spells. <b>Battlecry:</b> Cast 20 Mana worth of Fire spells at random enemies.<br/>
-                /// 9-Cost 7/7 Dragon Minion
+                /// <b>Immune</b> to Fire spells. <b>Battlecry:</b> Cast 15 Mana worth of Fire spells at random enemies.<br/>
+                /// 10-Cost 7/7 Dragon Minion
                 /// </summary>
                 public const string FyrakkTheBlazing = "FIR_959";
 
@@ -5299,7 +5299,7 @@ namespace HearthDb
                 public const string BaronRivendare = "FP1_031";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Gain 4 Armor. <b>Starship Piece</b><br/>
+                /// <b>Deathrattle:</b> Gain 4 Armor. <b>Starship Piece</b><br/>
                 /// 5-Cost 4/5 Minion
                 /// </summary>
                 public const string ArkoniteDefenseCrystal = "GDB_100";

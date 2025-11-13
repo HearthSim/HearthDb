@@ -2498,7 +2498,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Summon the highest Cost minion from your hand, then deal $5 damage to it.<br/>
-                /// 5-Cost Spell
+                /// 6-Cost Spell
                 /// </summary>
                 public const string ChemicalSpill = "TOY_602";
 
@@ -2521,7 +2521,7 @@ namespace HearthDb
                 public const string QualityAssurance = "TOY_605";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Deal 8 damage randomly split among all enemies.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Deal 8 damage randomly split among all enemy minions.<br/>
                 /// 6-Cost 4/8 Mechanical Minion
                 /// </summary>
                 public const string TestingDummy = "TOY_606";

@@ -2498,7 +2498,7 @@ namespace HearthDb
                 public const string EverythingMustGo = "TOY_519";
 
                 /// <summary>
-                /// <b>Miniaturize</b> <b>Battlecry:</b> Your next card this turn costs (3) less.<br/>
+                /// <b>Miniaturize</b> <b>Battlecry:</b> Your next card this turn costs (2) less.<br/>
                 /// 5-Cost 4/3 Pirate Minion
                 /// </summary>
                 public const string SandboxScoundrel = "TOY_521";
@@ -2810,7 +2810,7 @@ namespace HearthDb
                 public const string SporeHallucination = "UNG_856";
 
                 /// <summary>
-                /// After your hero attacks and kills a minion, get a Coin.<br/>
+                /// <b>Deathrattle:</b> Get a Coin.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string MetalDetector = "VAC_330";

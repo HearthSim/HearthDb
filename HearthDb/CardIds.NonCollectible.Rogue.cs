@@ -4087,19 +4087,19 @@ namespace HearthDb
                 public const string TheCrystalCove_TreasuresBelowEnchantment = "TOY_512e1";
 
                 /// <summary>
-                /// The next card you play this turn costs (3) less.<br/>
+                /// The next card you play this turn costs (2) less.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SandboxScoundrel_OnSaleEnchantment = "TOY_521e";
 
                 /// <summary>
-                /// Your next card this turn costs (3) less.<br/>
+                /// Your next card this turn costs (2) less.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string SandboxScoundrel_OnSaleReductionEnchantment = "TOY_521e1";
 
                 /// <summary>
-                /// <b>Mini</b> <b>Battlecry:</b> Your next card this turn costs (3) less.<br/>
+                /// <b>Mini</b> <b>Battlecry:</b> Your next card this turn costs (2) less.<br/>
                 /// 1-Cost 1/1 Pirate Minion
                 /// </summary>
                 public const string SandboxScoundrel_SandboxScoundrelToken = "TOY_521t1";

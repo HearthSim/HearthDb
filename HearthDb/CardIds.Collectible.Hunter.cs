@@ -2499,7 +2499,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Summon six 1/1 Hounds. Any that can't fit give the others +1/+1.<br/>
-                /// 4-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string RCRampage = "TOY_354";
 

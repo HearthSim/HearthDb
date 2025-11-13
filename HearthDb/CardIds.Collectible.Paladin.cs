@@ -1183,8 +1183,8 @@ namespace HearthDb
                 public const string BlessingOfWisdom = "EX1_363";
 
                 /// <summary>
-                /// Draw a card and deal damage equal to its Cost.<br/>
-                /// 5-Cost Spell
+                /// Draw a card and deal damage equal to its Cost to a minion.<br/>
+                /// 3-Cost Spell
                 /// </summary>
                 public const string HolyWrath = "EX1_365";
 
@@ -2461,7 +2461,7 @@ namespace HearthDb
                 public const string IdoOfTheThreshfleet = "TLC_241";
 
                 /// <summary>
-                /// <b>Repeatable Quest:</b> Summon 5 Murlocs. <b>Reward:</b> Murlocs you summon gain +1/+1.<br/>
+                /// <b>Repeatable Quest:</b> Summon 6 Murlocs. <b>Reward:</b> Murlocs you summon gain +1/+1.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string DiveTheGolakkaDepths = "TLC_426";

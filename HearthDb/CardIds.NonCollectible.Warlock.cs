@@ -4373,7 +4373,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Open a Rift to the Underfel. Throw a card in to summon 2 random Fel Beasts. <i>(Once per turn.)</i><br/>
-                /// 3-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string EscapetheUnderfel_UnderfelRiftToken1 = "TLC_446t";
 

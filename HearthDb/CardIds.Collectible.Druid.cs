@@ -2511,7 +2511,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Deal $2 damage. Your next card this turn costs that much less.<br/>
-                /// 3-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string SparklingPhial = "TOY_800";
 

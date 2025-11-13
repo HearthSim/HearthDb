@@ -1911,7 +1911,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Whenever you discard a card, draw a card.<br/>
-                /// 1-Cost 1/3 Demon Minion
+                /// 2-Cost 1/3 Demon Minion
                 /// </summary>
                 public const string MalchezaarsImp = "KAR_089";
 
@@ -2253,7 +2253,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Deal 1 damage to all enemies. <b>Deathrattle:</b> Summon an 8/8 Ultralisk with <b>Rush</b>.<br/>
-                /// 3-Cost Location
+                /// 4-Cost Location
                 /// </summary>
                 public const string UltraliskCavern = "SC_019";
 
@@ -2468,7 +2468,7 @@ namespace HearthDb
                 public const string Chronogor = "TIME_032";
 
                 /// <summary>
-                /// <b>Quest:</b> Play 5 <b>Temporary</b> cards. <b>Reward:</b> Underfel Rift.<br/>
+                /// <b>Quest:</b> Play 6 <b>Temporary</b> cards. <b>Reward:</b> Underfel Rift.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string EscapeTheUnderfel = "TLC_446";

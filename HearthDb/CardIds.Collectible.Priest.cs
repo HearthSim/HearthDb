@@ -2529,7 +2529,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Resurrect a 1, 2, and 3-Cost minion. Give them <b>Reborn</b>.<br/>
-                /// 5-Cost Spell
+                /// 6-Cost Spell
                 /// </summary>
                 public const string Resuscitate = "TLC_818";
 

@@ -231,7 +231,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Draw 2 cards. Summon two 0/2 Leeches.<br/>
-                /// 4-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string SanguineInfestation = "EDR_817";
 
@@ -1503,7 +1503,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Deal $3 damage. Spend 3 <b>Corpses</b> to return this to your hand at the end of your turn.<br/>
-                /// 2-Cost Spell
+                /// 3-Cost Spell
                 /// </summary>
                 public const string Corpsicle = "VAC_427";
 

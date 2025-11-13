@@ -189,7 +189,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// After your hero attacks, gain +1 Attack.<br/>
-                /// 1-Cost 1/3 Demon Minion
+                /// 1-Cost 1/2 Demon Minion
                 /// </summary>
                 public const string Battlefiend = "BT_351";
 
@@ -441,7 +441,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// After your hero attacks, gain +1 Attack.<br/>
-                /// 1-Cost 1/3 Demon Minion
+                /// 1-Cost 1/2 Demon Minion
                 /// </summary>
                 public const string BattlefiendCore = "CORE_BT_351";
 

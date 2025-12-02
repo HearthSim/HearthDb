@@ -1666,6 +1666,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string UtherLightbringer_TuralyonHeroHeroSkins = "HERO_04bk";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string UtherLightbringer_FinleyMetzenHeroHeroSkins = "HERO_04bs";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer_SirAnnoyOHeroHeroSkins = "HERO_04c";
 
                 /// <summary>
@@ -2447,6 +2459,12 @@ namespace HearthDb
                 /// 2-Cost 2/3 Murloc Minion
                 /// </summary>
                 public const string TheFinsBeyondTime = "TIME_706";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Send all minions in your hand 2 turns into the future. They return with +5/+5.<br/>
+                /// 5-Cost 5/5 Draenei Minion
+                /// </summary>
+                public const string RuniTemporalGuardian = "TIME_EVENT_998";
 
                 /// <summary>
                 /// <b>Rush</b> <b>Deathrattle:</b> Summon three 2/1 Murlocs. Give them each a random <b>Bonus Effect</b>.<br/>

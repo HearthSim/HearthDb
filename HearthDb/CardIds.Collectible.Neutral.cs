@@ -8419,7 +8419,7 @@ namespace HearthDb
                 public const string TimeMachine = "TIME_035";
 
                 /// <summary>
-                /// <b>Rewind</b>, <b>Rewind</b> <b>Battlecry:</b> Summon 2 random <b>Legendary</b> minions.<br/>
+                /// <b>Rewind</b>, <b>Rewind</b>, <b>Rewind</b> <b>Battlecry:</b> Summon 2 random <b>Legendary</b> minions.<br/>
                 /// 8-Cost 3/3 Mechanical Minion
                 /// </summary>
                 public const string MisterClocksworth = "TIME_038";
@@ -8597,6 +8597,12 @@ namespace HearthDb
                 /// 5-Cost 5/3 Dragon Minion
                 /// </summary>
                 public const string SoldierOfTheBronze = "TIME_720";
+
+                /// <summary>
+                /// Reopen a location. Give it "<b>Deathrattle:</b> Summon a random 3-Cost minion."<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string WelcomeHome = "TIME_EVENT_997";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck started with 10 cards of different Costs, craft a custom location.<br/>

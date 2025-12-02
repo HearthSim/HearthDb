@@ -29,7 +29,7 @@ namespace HearthDb
                 /// Increased Attack and Health.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string ScavengingHyena_WellFedEnchantment = "EX1_531e";
+                public const string ScavengingHyena_WellFedEnchantmentExpert1 = "EX1_531e";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -84,17 +84,6 @@ namespace HearthDb
                 /// 3-Cost Spell
                 /// </summary>
                 public const string DeadlyShot = "RLK_Prologue_EX1_617";
-
-                /// <summary>
-                /// Triple (this):<br/>
-                /// Whenever a friendly Beast dies, gain +4/+2.<br/>
-                /// Tier-1 4/4 Beast Minion<br/>
-                /// --------------------<br/>
-                /// Normal:<br/>
-                /// Whenever a friendly Beast dies, gain +2/+1.<br/>
-                /// Tier-1 2/2 Beast Minion
-                /// </summary>
-                public const string ScavengingHyenaTavernBrawl = "TB_BaconUps_043";
 
                 /// <summary>
                 /// Triple (this):<br/>
@@ -350,6 +339,18 @@ namespace HearthDb
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Rexxar_BallistaShotHeroSkins5 = "HERO_05bfhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string RexxarHeroic_SteadyShotHeroSkins4 = "HERO_05bhhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string RexxarHeroic_BallistaShotHeroSkins4 = "HERO_05bhhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>

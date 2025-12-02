@@ -1205,6 +1205,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string IllidanStormrage_AllariTheSouleaterHeroHeroSkins = "HERO_10bg";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string IllidanStormrageHeroic_SecretDestinyArannaHeroHeroSkins = "HERO_10bh";
 
                 /// <summary>

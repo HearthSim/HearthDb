@@ -1643,6 +1643,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string RexxarHeroic_BansheeQueenSylvanasHeroHeroSkins = "HERO_05bh";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_SylvanasBreezerunnerHeroHeroSkins = "HERO_05bk";
 
                 /// <summary>

@@ -173,49 +173,61 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins10 = "HERO_10cbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins10 = "HERO_10bghp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins10 = "HERO_10cbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins10 = "HERO_10bghp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins11 = "HERO_10lbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins11 = "HERO_10cbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins11 = "HERO_10lbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins11 = "HERO_10cbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins12 = "HERO_10xbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins12 = "HERO_10lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins12 = "HERO_10xbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins12 = "HERO_10lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins13 = "HERO_10zbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins13 = "HERO_10xbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins13 = "HERO_10zbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins13 = "HERO_10xbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrage_DemonClawsHeroSkins14 = "HERO_10zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrage_DemonsBiteHeroSkins14 = "HERO_10zbp2";
 
                 /// <summary>
                 /// (No Text)<br/>

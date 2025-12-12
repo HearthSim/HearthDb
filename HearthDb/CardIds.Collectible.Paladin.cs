@@ -2540,7 +2540,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Increase the duration of Auras in your hand, deck, and battlefield by 1.<br/>
-                /// 4-Cost 4/4 Minion
+                /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string CardboardGolem = "TOY_809";
 

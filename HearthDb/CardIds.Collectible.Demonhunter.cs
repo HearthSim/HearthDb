@@ -1772,14 +1772,14 @@ namespace HearthDb
                 public const string TimeLostGlaive = "TIME_444";
 
                 /// <summary>
-                /// Get a Demon that costs (5) or more. If your deck has no minions, your next one costs (0).<br/>
+                /// <b>Discover</b> any Demon that costs (5) or more. If your deck has no minions, your next one costs (0).<br/>
                 /// 6-Cost Location
                 /// </summary>
                 public const string TheEternalHold = "TIME_446";
 
                 /// <summary>
-                /// <b>Discover</b> a minion. If your deck has no minions, reduce the Cost of any in your hand by (2).<br/>
-                /// 2-Cost Spell
+                /// <b>Discover</b> 2 minions. If your deck has no minions, reduce the Cost of any in your hand by (2).<br/>
+                /// 3-Cost Spell
                 /// </summary>
                 public const string Solitude = "TIME_448";
 

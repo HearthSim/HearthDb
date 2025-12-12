@@ -2427,7 +2427,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Get a 2/2 Pupil. <b>Discover</b> a spell that costs (7) or more from the past to teach it.<br/>
-                /// 8-Cost 6/6 Minion
+                /// 7-Cost 6/6 Minion
                 /// </summary>
                 public const string HighborneMentor = "TIME_704";
 
@@ -2445,7 +2445,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Discover</b> 2 Beasts. Put them on the bottom of your deck with +5/+5.<br/>
-                /// 3-Cost 3/4 Minion
+                /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string KaldoreiCultivator = "TIME_730";
 

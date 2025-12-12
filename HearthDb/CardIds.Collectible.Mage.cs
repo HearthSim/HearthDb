@@ -2450,8 +2450,8 @@ namespace HearthDb
                 public const string FacelessEnigma = "TIME_860";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Get 4 random spells from the past. When you play ALL 4, get another Timelooper Toki.<br/>
-                /// 4-Cost 4/4 Minion
+                /// <b>Battlecry:</b> Get 3 random spells from the past. When you play ALL 3, get another Timelooper Toki.<br/>
+                /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string TimelooperToki = "TIME_861";
 

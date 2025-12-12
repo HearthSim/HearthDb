@@ -4426,13 +4426,13 @@ namespace HearthDb
                 public const string WhisperingStone_TheStonesWhispersEnchantment = "TLC_467e";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Draw a Rafaam.<br/>
+                /// <b>Battlecry and Deathrattle:</b> Draw a Rafaam.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string TimethiefRafaam_TinyRafaamToken = "TIME_005t1";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Give Rafaams in your hand +2/+2.<br/>
+                /// <b>Battlecry:</b> Give Rafaams in your hand and battlefield +2/+2.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string TimethiefRafaam_GreenRafaamToken = "TIME_005t2";
@@ -4450,7 +4450,7 @@ namespace HearthDb
                 public const string TimethiefRafaam_ExplorerRafaamToken = "TIME_005t3";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Gain 5 Armor. If you control another Rafaam, gain 5 more.<br/>
+                /// <b>Battlecry:</b> Gain 5 Armor. If you're holding another Rafaam, gain 5 more.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
                 public const string TimethiefRafaam_WarchiefRafaamToken = "TIME_005t4";

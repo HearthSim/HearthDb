@@ -2457,7 +2457,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Set the Attack and Health of every minion in your hand to the higher of the two stats.<br/>
-                /// 5-Cost 5/5 Draenei Minion
+                /// 4-Cost 4/5 Draenei Minion
                 /// </summary>
                 public const string DivineAugur = "TIME_429";
 
@@ -2493,7 +2493,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give a character <b>Divine Shield</b>. Give minions in your hand +2 Health.<br/>
-                /// 2-Cost Spell
+                /// 1-Cost Spell
                 /// </summary>
                 public const string PowerWordBarrier = "TIME_447";
 

@@ -31267,22 +31267,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Avenge ({2}):</b> Give adjacent minions +{0}/+{1} permanently.<br/>
-                /// Tier-3 1/4 Minion<br/>
+                /// Tier-3 1/5 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Avenge ({2}):</b> Give adjacent minions +{0}/+{1} permanently.<br/>
-                /// Tier-3 2/8 Minion
+                /// Tier-3 2/10 Minion
                 /// </summary>
                 public const string BuddingGreenthumb = "BG21_030";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Avenge ({2}):</b> Give adjacent minions +{0}/+{1} permanently.<br/>
-                /// Tier-3 2/8 Minion<br/>
+                /// Tier-3 2/10 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Avenge ({2}):</b> Give adjacent minions +{0}/+{1} permanently.<br/>
-                /// Tier-3 1/4 Minion
+                /// Tier-3 1/5 Minion
                 /// </summary>
                 public const string BuddingGreenthumb_BuddingGreenthumb = "BG21_030_G";
 
@@ -31570,7 +31570,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Discover</b> a plain copy of a minion from your next opponent's warband.<br/>
-                /// 3-Cost HeroPower
+                /// 2-Cost HeroPower
                 /// </summary>
                 public const string ScabbsCutterbutter_ISpy = "BG21_HERO_010p";
 
@@ -33952,7 +33952,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Discover</b> a plain copy of a minion that died last combat. <i>(Unlocks on Turn 3.)</i><br/>
-                /// 3-Cost HeroPower
+                /// 2-Cost HeroPower
                 /// </summary>
                 public const string SylvanasWindrunner_ReclaimedSouls = "BG23_HERO_306p";
 
@@ -35119,22 +35119,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Avenge ({2}):</b> Give a friendly minion of each type +{0}/+{1} permanently.<br/>
-                /// Tier-5 2/8 Undead Minion<br/>
+                /// Tier-5 2/7 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Avenge ({2}):</b> Give a friendly minion of each type +{0}/+{1} permanently.<br/>
-                /// Tier-5 4/16 Undead Minion
+                /// Tier-5 4/14 Undead Minion
                 /// </summary>
                 public const string GhoulOfTheFeast = "BG25_002";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Avenge ({2}):</b> Give a friendly minion of each type +{0}/+{1} permanently.<br/>
-                /// Tier-5 4/16 Undead Minion<br/>
+                /// Tier-5 4/14 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Avenge ({2}):</b> Give a friendly minion of each type +{0}/+{1} permanently.<br/>
-                /// Tier-5 2/8 Undead Minion
+                /// Tier-5 2/7 Undead Minion
                 /// </summary>
                 public const string GhouloftheFeast_GhoulOfTheFeast = "BG25_002_G";
 
@@ -35532,23 +35532,23 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Reborn</b> <b>Start of Combat:</b> Give a friendly <b>Deathrattle</b> minion <b>Reborn</b>.<br/>
-                /// Tier-4 5/2 Undead Minion<br/>
+                /// <b>Reborn</b> <b>Start of Combat:</b> Give a friendly Undead <b>Reborn</b>.<br/>
+                /// Tier-4 4/2 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Reborn</b> <b>Start of Combat:</b> Give 2 friendly <b>Deathrattle</b> minions <b>Reborn</b>.<br/>
-                /// Tier-4 10/4 Undead Minion
+                /// <b>Reborn</b> <b>Start of Combat:</b> Give 2 friendly Undead <b>Reborn</b>.<br/>
+                /// Tier-4 8/4 Undead Minion
                 /// </summary>
                 public const string Soulsplitter = "BG25_023";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Reborn</b> <b>Start of Combat:</b> Give 2 friendly <b>Deathrattle</b> minions <b>Reborn</b>.<br/>
-                /// Tier-4 10/4 Undead Minion<br/>
+                /// <b>Reborn</b> <b>Start of Combat:</b> Give 2 friendly Undead <b>Reborn</b>.<br/>
+                /// Tier-4 8/4 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Reborn</b> <b>Start of Combat:</b> Give a friendly <b>Deathrattle</b> minion <b>Reborn</b>.<br/>
-                /// Tier-4 5/2 Undead Minion
+                /// <b>Reborn</b> <b>Start of Combat:</b> Give a friendly Undead <b>Reborn</b>.<br/>
+                /// Tier-4 4/2 Undead Minion
                 /// </summary>
                 public const string Soulsplitter_Soulsplitter = "BG25_023_G";
 
@@ -36657,22 +36657,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// At the end of your turn, give your minions +{0}/+{1} for each <b>Magnetization</b> they have.<br/>
-                /// Tier-6 6/8 Mechanical Minion<br/>
+                /// Tier-6 5/7 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// At the end of your turn, give your minions +{0}/+{1} for each <b>Magnetization</b> they have.<br/>
-                /// Tier-6 12/16 Mechanical Minion
+                /// Tier-6 10/14 Mechanical Minion
                 /// </summary>
                 public const string UtilityDrone = "BG26_152";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// At the end of your turn, give your minions +{0}/+{1} for each <b>Magnetization</b> they have.<br/>
-                /// Tier-6 12/16 Mechanical Minion<br/>
+                /// Tier-6 10/14 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// At the end of your turn, give your minions +{0}/+{1} for each <b>Magnetization</b> they have.<br/>
-                /// Tier-6 6/8 Mechanical Minion
+                /// Tier-6 5/7 Mechanical Minion
                 /// </summary>
                 public const string UtilityDrone_UtilityDrone = "BG26_152_G";
 
@@ -37759,22 +37759,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// After you gain Gold, gain +{0}/+{1}.<br/>
-                /// Tier-3 1/1 Pirate Minion<br/>
+                /// Tier-3 4/4 Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// After you gain Gold, gain +{0}/+{1}.<br/>
-                /// Tier-3 2/2 Pirate Minion
+                /// Tier-3 8/8 Pirate Minion
                 /// </summary>
                 public const string UnderhandedDealer = "BG26_815";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// After you gain Gold, gain +{0}/+{1}.<br/>
-                /// Tier-3 2/2 Pirate Minion<br/>
+                /// Tier-3 8/8 Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// After you gain Gold, gain +{0}/+{1}.<br/>
-                /// Tier-3 1/1 Pirate Minion
+                /// Tier-3 4/4 Pirate Minion
                 /// </summary>
                 public const string UnderhandedDealer_UnderhandedDealer = "BG26_815_G";
 
@@ -38949,22 +38949,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Avenge ({1}):</b> Your Undead have +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 3/13 Undead Minion<br/>
+                /// Tier-5 2/10 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Avenge ({1}):</b> Your Undead have +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 6/26 Undead Minion
+                /// Tier-5 4/20 Undead Minion
                 /// </summary>
                 public const string ChampionOfThePrimus = "BG27_029";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Avenge ({1}):</b> Your Undead have +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 6/26 Undead Minion<br/>
+                /// Tier-5 4/20 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Avenge ({1}):</b> Your Undead have +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 3/13 Undead Minion
+                /// Tier-5 2/10 Undead Minion
                 /// </summary>
                 public const string ChampionofthePrimus_ChampionOfThePrimus = "BG27_029_G";
 
@@ -40501,22 +40501,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// Whenever you cast a Tavern spell, give a friendly minion of each type +{0}/+{1}.<br/>
-                /// Tier-5 5/8 Minion<br/>
+                /// Tier-5 5/7 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// Whenever you cast a Tavern spell, give a friendly minion of each type +{0}/+{1}.<br/>
-                /// Tier-5 10/16 Minion
+                /// Tier-5 10/14 Minion
                 /// </summary>
                 public const string NalaaTheRedeemerBATTLEGROUNDS = "BG28_551";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// Whenever you cast a Tavern spell, give a friendly minion of each type +{0}/+{1}.<br/>
-                /// Tier-5 10/16 Minion<br/>
+                /// Tier-5 10/14 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// Whenever you cast a Tavern spell, give a friendly minion of each type +{0}/+{1}.<br/>
-                /// Tier-5 5/8 Minion
+                /// Tier-5 5/7 Minion
                 /// </summary>
                 public const string NalaatheRedeemer_NalaaTheRedeemer = "BG28_551_G";
 
@@ -40928,23 +40928,23 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Windfury</b> <b>Rally:</b> Get a random Tavern spell.<br/>
-                /// Tier-6 7/4 Mechanical Minion<br/>
+                /// <b>Divine Shield</b>, <b>Windfury</b> <b>Rally:</b> Get a random Tavern spell.<br/>
+                /// Tier-6 6/3 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Windfury</b> <b>Rally:</b> Get 2 random Tavern spells.<br/>
-                /// Tier-6 14/8 Mechanical Minion
+                /// <b>Divine Shield</b>, <b>Windfury</b> <b>Rally:</b> Get 2 random Tavern spells.<br/>
+                /// Tier-6 12/6 Mechanical Minion
                 /// </summary>
                 public const string WhirlingLassOMatic = "BG28_635";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Windfury</b> <b>Rally:</b> Get 2 random Tavern spells.<br/>
-                /// Tier-6 14/8 Mechanical Minion<br/>
+                /// <b>Divine Shield</b>, <b>Windfury</b> <b>Rally:</b> Get 2 random Tavern spells.<br/>
+                /// Tier-6 12/6 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Windfury</b> <b>Rally:</b> Get a random Tavern spell.<br/>
-                /// Tier-6 7/4 Mechanical Minion
+                /// <b>Divine Shield</b>, <b>Windfury</b> <b>Rally:</b> Get a random Tavern spell.<br/>
+                /// Tier-6 6/3 Mechanical Minion
                 /// </summary>
                 public const string WhirlingLassoMatic_WhirlingLassOMatic = "BG28_635_G";
 
@@ -41069,22 +41069,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Divine Shield</b> Whenever you cast a Tavern spell, give your minions with <b>Divine Shield</b> +{0} Attack.<br/>
-                /// Tier-5 5/3 Mechanical Minion<br/>
+                /// Tier-5 4/2 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Divine Shield</b> Whenever you cast a Tavern spell, give your minions with <b>Divine Shield</b> +{0} Attack.<br/>
-                /// Tier-5 10/6 Mechanical Minion
+                /// Tier-5 8/4 Mechanical Minion
                 /// </summary>
                 public const string ChargingCzarina = "BG28_741";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Divine Shield</b> Whenever you cast a Tavern spell, give your minions with <b>Divine Shield</b> +{0} Attack.<br/>
-                /// Tier-5 10/6 Mechanical Minion<br/>
+                /// Tier-5 8/4 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Divine Shield</b> Whenever you cast a Tavern spell, give your minions with <b>Divine Shield</b> +{0} Attack.<br/>
-                /// Tier-5 5/3 Mechanical Minion
+                /// Tier-5 4/2 Mechanical Minion
                 /// </summary>
                 public const string ChargingCzarina_ChargingCzarina = "BG28_741_G";
 
@@ -45333,7 +45333,7 @@ namespace HearthDb
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Magnetic</b><br/>
-                /// Tier-1 3/3 Mechanical Minion
+                /// Tier-1 4/4 Mechanical Minion
                 /// </summary>
                 public const string MoonsteelJuggernaut_Satellite1 = "BG31_171_Gt";
 
@@ -45352,7 +45352,7 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Magnetic</b><br/>
-                /// Tier-1 3/3 Mechanical Minion<br/>
+                /// Tier-1 4/4 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Magnetic</b><br/>
@@ -46081,22 +46081,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Start of Combat:</b> Give your other Elementals +{0}/+{1}. <i>(Improves after you play an Elemental!)</i><br/>
-                /// Tier-6 5/2 Elemental Minion<br/>
+                /// Tier-6 6/3 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Start of Combat:</b> Give your other Elementals +{0}/+{1}. <i>(Improves after you play an Elemental!)</i><br/>
-                /// Tier-6 10/4 Elemental Minion
+                /// Tier-6 12/6 Elemental Minion
                 /// </summary>
                 public const string UltravioletAscendant = "BG31_810";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Start of Combat:</b> Give your other Elementals +{0}/+{1}. <i>(Improves after you play an Elemental!)</i><br/>
-                /// Tier-6 10/4 Elemental Minion<br/>
+                /// Tier-6 12/6 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Start of Combat:</b> Give your other Elementals +{0}/+{1}. <i>(Improves after you play an Elemental!)</i><br/>
-                /// Tier-6 5/2 Elemental Minion
+                /// Tier-6 6/3 Elemental Minion
                 /// </summary>
                 public const string UltravioletAscendant_UltravioletAscendant = "BG31_810_G";
 
@@ -46963,22 +46963,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// When you sell this, get a copy of a Tavern spell in the Tavern.<br/>
-                /// Tier-4 3/6 Demon Minion<br/>
+                /// Tier-3 3/4 Demon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// When you sell this, get 2 copies of a Tavern spell in the Tavern.<br/>
-                /// Tier-4 6/12 Demon Minion
+                /// Tier-3 6/8 Demon Minion
                 /// </summary>
                 public const string TardyTraveler = "BG31_875";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// When you sell this, get 2 copies of a Tavern spell in the Tavern.<br/>
-                /// Tier-4 6/12 Demon Minion<br/>
+                /// Tier-3 6/8 Demon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// When you sell this, get a copy of a Tavern spell in the Tavern.<br/>
-                /// Tier-4 3/6 Demon Minion
+                /// Tier-3 3/4 Demon Minion
                 /// </summary>
                 public const string TardyTraveler_TardyTraveler = "BG31_875_G";
 
@@ -49393,22 +49393,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Start of Combat:</b> Give your Dragons +{0}/+{1}. After you cast a Tavern spell, improve this.<br/>
-                /// Tier-6 9/6 Dragon Minion<br/>
+                /// Tier-6 8/5 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Start of Combat:</b> Give your Dragons +{0}/+{1}. After you cast a Tavern spell, improve this.<br/>
-                /// Tier-6 18/12 Dragon Minion
+                /// Tier-6 16/10 Dragon Minion
                 /// </summary>
                 public const string FireForgedEvoker = "BG32_822";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Start of Combat:</b> Give your Dragons +{0}/+{1}. After you cast a Tavern spell, improve this.<br/>
-                /// Tier-6 18/12 Dragon Minion<br/>
+                /// Tier-6 16/10 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Start of Combat:</b> Give your Dragons +{0}/+{1}. After you cast a Tavern spell, improve this.<br/>
-                /// Tier-6 9/6 Dragon Minion
+                /// Tier-6 8/5 Dragon Minion
                 /// </summary>
                 public const string FireforgedEvoker_FireForgedEvoker = "BG32_822_G";
 
@@ -53022,22 +53022,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> Give your minions +{0} Health. <i>(Improves permanently after this gains Attack!)</i><br/>
+                /// <b>Deathrattle:</b> Give your other minions +{0} Health. <i>(Improves permanently after this gains Attack!)</i><br/>
                 /// Tier-5 8/4 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Deathrattle:</b> Give your minions +{0} Health. <i>(Improves permanently after this gains Attack!)</i><br/>
+                /// <b>Deathrattle:</b> Give your other minions +{0} Health. <i>(Improves permanently after this gains Attack!)</i><br/>
                 /// Tier-5 16/8 Undead Minion
                 /// </summary>
                 public const string SepulchralSergeant = "BG34_111";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Give your minions +{0} Health. <i>(Improves permanently after this gains Attack!)</i><br/>
+                /// <b>Deathrattle:</b> Give your other minions +{0} Health. <i>(Improves permanently after this gains Attack!)</i><br/>
                 /// Tier-5 16/8 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Deathrattle:</b> Give your minions +{0} Health. <i>(Improves permanently after this gains Attack!)</i><br/>
+                /// <b>Deathrattle:</b> Give your other minions +{0} Health. <i>(Improves permanently after this gains Attack!)</i><br/>
                 /// Tier-5 8/4 Undead Minion
                 /// </summary>
                 public const string SepulchralSergeant_SepulchralSergeant = "BG34_111_G";
@@ -53078,23 +53078,23 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Divine Shield</b> <b>Start of Combat:</b> Gain the stats of the highest-Attack minion in your hand.<br/>
-                /// Tier-4 3/5 Murloc Minion<br/>
+                /// <b>Divine Shield</b> <b>Start of Combat:</b> Gain the Attack of the highest-Attack minion in your hand.<br/>
+                /// Tier-5 4/5 Murloc Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Divine Shield</b> <b>Start of Combat:</b> Gain double the stats of the highest-Attack minion in your hand.<br/>
-                /// Tier-4 6/10 Murloc Minion
+                /// <b>Divine Shield</b>. <b>Start of Combat:</b> Gain double the Attack of the highest-Attack minion in your hand.<br/>
+                /// Tier-5 8/10 Murloc Minion
                 /// </summary>
                 public const string CostumeEnthusiast = "BG34_142";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Divine Shield</b> <b>Start of Combat:</b> Gain double the stats of the highest-Attack minion in your hand.<br/>
-                /// Tier-4 6/10 Murloc Minion<br/>
+                /// <b>Divine Shield</b>. <b>Start of Combat:</b> Gain double the Attack of the highest-Attack minion in your hand.<br/>
+                /// Tier-5 8/10 Murloc Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Divine Shield</b> <b>Start of Combat:</b> Gain the stats of the highest-Attack minion in your hand.<br/>
-                /// Tier-4 3/5 Murloc Minion
+                /// <b>Divine Shield</b> <b>Start of Combat:</b> Gain the Attack of the highest-Attack minion in your hand.<br/>
+                /// Tier-5 4/5 Murloc Minion
                 /// </summary>
                 public const string CostumeEnthusiast_CostumeEnthusiast = "BG34_142_G";
 
@@ -53106,23 +53106,23 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> Give two other friendly Murlocs the stats of the highest-Attack minion in your hand.<br/>
-                /// Tier-6 9/2 Murloc Minion<br/>
+                /// <b>Deathrattle:</b> Give {0} other friendly Murlocs the Attack of the highest-Attack minion in your hand.<br/>
+                /// Tier-6 10/2 Murloc Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Deathrattle:</b> Give two other friendly Murlocs the stats of the highest-Attack minion in your hand, twice.<br/>
-                /// Tier-6 18/4 Murloc Minion
+                /// <b>Deathrattle:</b> Give {0} other friendly Murlocs the Attack of the highest-Attack minion in your hand, twice.<br/>
+                /// Tier-6 20/4 Murloc Minion
                 /// </summary>
                 public const string Dramaloc = "BG34_143";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Give two other friendly Murlocs the stats of the highest-Attack minion in your hand, twice.<br/>
-                /// Tier-6 18/4 Murloc Minion<br/>
+                /// <b>Deathrattle:</b> Give {0} other friendly Murlocs the Attack of the highest-Attack minion in your hand, twice.<br/>
+                /// Tier-6 20/4 Murloc Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Deathrattle:</b> Give two other friendly Murlocs the stats of the highest-Attack minion in your hand.<br/>
-                /// Tier-6 9/2 Murloc Minion
+                /// <b>Deathrattle:</b> Give {0} other friendly Murlocs the Attack of the highest-Attack minion in your hand.<br/>
+                /// Tier-6 10/2 Murloc Minion
                 /// </summary>
                 public const string Dramaloc_Dramaloc = "BG34_143_G";
 
@@ -53203,44 +53203,44 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Magnetic</b>. The first time this is played or <b>Magnetized</b>, your Volumizers have +{1} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-2 3/1 Mechanical Minion<br/>
+                /// Tier-2 4/1 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Magnetic</b>. The first time this is played or <b>Magnetized</b>, your Volumizers have +{1} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-2 6/2 Mechanical Minion
+                /// Tier-2 8/2 Mechanical Minion
                 /// </summary>
                 public const string AutoAccelerator_RedVolumizerToken1 = "BG34_170t";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Magnetic</b>. The first time this is played or <b>Magnetized</b>, your Volumizers have +{1} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-2 6/2 Mechanical Minion<br/>
+                /// Tier-2 8/2 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Magnetic</b>. The first time this is played or <b>Magnetized</b>, your Volumizers have +{1} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-2 3/1 Mechanical Minion
+                /// Tier-2 4/1 Mechanical Minion
                 /// </summary>
                 public const string AutoAccelerator_RedVolumizerToken2 = "BG34_170t_G";
 
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Magnetic</b>. The first time this is played or <b>Magnetized</b>, your Volumizers have +{1} Health this game <i>(wherever they are)</i>.<br/>
-                /// Tier-2 1/3 Mechanical Minion<br/>
+                /// Tier-2 1/4 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Magnetic</b>. The first time this is played or <b>Magnetized</b>, your Volumizers have +{1} Health this game <i>(wherever they are)</i>.<br/>
-                /// Tier-2 2/6 Mechanical Minion
+                /// Tier-2 2/8 Mechanical Minion
                 /// </summary>
                 public const string AutoAccelerator_BlueVolumizerToken1 = "BG34_170t2";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Magnetic</b>. The first time this is played or <b>Magnetized</b>, your Volumizers have +{1} Health this game <i>(wherever they are)</i>.<br/>
-                /// Tier-2 2/6 Mechanical Minion<br/>
+                /// Tier-2 2/8 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Magnetic</b>. The first time this is played or <b>Magnetized</b>, your Volumizers have +{1} Health this game <i>(wherever they are)</i>.<br/>
-                /// Tier-2 1/3 Mechanical Minion
+                /// Tier-2 1/4 Mechanical Minion
                 /// </summary>
                 public const string AutoAccelerator_BlueVolumizerToken2 = "BG34_170t2_G";
 
@@ -53320,23 +53320,23 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> <b>Magnetize</b> a {0}/{1} Green Volumizer to {2} other friendly Mechs.<br/>
-                /// Tier-6 7/4 Mechanical Minion<br/>
+                /// <b>Deathrattle:</b> <b>Magnetize</b> a random Volumizer to {2} other friendly Mechs.<br/>
+                /// Tier-6 6/4 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Deathrattle:</b> <b>Magnetize</b> two {0}/{1} Green Volumizers to {2} other friendly Mechs.<br/>
-                /// Tier-6 14/8 Mechanical Minion
+                /// <b>Deathrattle:</b> <b>Magnetize</b> two random Volumizers to {2} other friendly Mechs.<br/>
+                /// Tier-6 12/8 Mechanical Minion
                 /// </summary>
                 public const string ApexisGuardian = "BG34_173";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> <b>Magnetize</b> two {0}/{1} Green Volumizers to {2} other friendly Mechs.<br/>
-                /// Tier-6 14/8 Mechanical Minion<br/>
+                /// <b>Deathrattle:</b> <b>Magnetize</b> two random Volumizers to {2} other friendly Mechs.<br/>
+                /// Tier-6 12/8 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Deathrattle:</b> <b>Magnetize</b> a {0}/{1} Green Volumizer to {2} other friendly Mechs.<br/>
-                /// Tier-6 7/4 Mechanical Minion
+                /// <b>Deathrattle:</b> <b>Magnetize</b> a random Volumizer to {2} other friendly Mechs.<br/>
+                /// Tier-6 6/4 Mechanical Minion
                 /// </summary>
                 public const string ApexisGuardian_ApexisGuardian = "BG34_173_G";
 
@@ -53365,22 +53365,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// Whenever a minion is <b>Magnetized</b> to this, give your minions +{0}/+{1}.<br/>
-                /// Tier-5 6/6 Mechanical Minion<br/>
+                /// Tier-5 6/5 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// Whenever a minion is <b>Magnetized</b> to this, give your minions +{0}/+{1}.<br/>
-                /// Tier-5 12/12 Mechanical Minion
+                /// Tier-5 12/10 Mechanical Minion
                 /// </summary>
                 public const string JunkJouster = "BG34_175";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// Whenever a minion is <b>Magnetized</b> to this, give your minions +{0}/+{1}.<br/>
-                /// Tier-5 12/12 Mechanical Minion<br/>
+                /// Tier-5 12/10 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// Whenever a minion is <b>Magnetized</b> to this, give your minions +{0}/+{1}.<br/>
-                /// Tier-5 6/6 Mechanical Minion
+                /// Tier-5 6/5 Mechanical Minion
                 /// </summary>
                 public const string JunkJouster_JunkJouster = "BG34_175_G";
 
@@ -53392,23 +53392,23 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Avenge ({0}):</b> Get a random <b>Magnetic</b> Volumizer.<br/>
-                /// Tier-5 1/8 Mechanical Minion<br/>
+                /// <b>Divine Shield</b> <b>Avenge ({0}):</b> Get a random <b>Magnetic</b> Volumizer.<br/>
+                /// Tier-5 2/7 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Avenge ({0}):</b> Get 2 random <b>Magnetic</b> Volumizers.<br/>
-                /// Tier-5 2/16 Mechanical Minion
+                /// <b>Divine Shield</b> <b>Avenge ({0}):</b> Get 2 random <b>Magnetic</b> Volumizers.<br/>
+                /// Tier-5 4/14 Mechanical Minion
                 /// </summary>
                 public const string MetalDispenser = "BG34_176";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Avenge ({0}):</b> Get 2 random <b>Magnetic</b> Volumizers.<br/>
-                /// Tier-5 2/16 Mechanical Minion<br/>
+                /// <b>Divine Shield</b> <b>Avenge ({0}):</b> Get 2 random <b>Magnetic</b> Volumizers.<br/>
+                /// Tier-5 4/14 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Avenge ({0}):</b> Get a random <b>Magnetic</b> Volumizer.<br/>
-                /// Tier-5 1/8 Mechanical Minion
+                /// <b>Divine Shield</b> <b>Avenge ({0}):</b> Get a random <b>Magnetic</b> Volumizer.<br/>
+                /// Tier-5 2/7 Mechanical Minion
                 /// </summary>
                 public const string MetalDispenser_MetalDispenser = "BG34_176_G";
 
@@ -53502,23 +53502,23 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// After you gain Gold, give your Pirates +{0}/+{1}.<br/>
-                /// Tier-6 3/8 Pirate Minion<br/>
+                /// After you gain Gold, give your other Pirates +{0}/+{1}.<br/>
+                /// Tier-5 3/7 Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// After you gain Gold, give your Pirates +{0}/+{1}.<br/>
-                /// Tier-6 6/16 Pirate Minion
+                /// After you gain Gold, give your other Pirates +{0}/+{1}.<br/>
+                /// Tier-5 6/14 Pirate Minion
                 /// </summary>
                 public const string CannonCorsair = "BG34_236";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// After you gain Gold, give your Pirates +{0}/+{1}.<br/>
-                /// Tier-6 6/16 Pirate Minion<br/>
+                /// After you gain Gold, give your other Pirates +{0}/+{1}.<br/>
+                /// Tier-5 6/14 Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// After you gain Gold, give your Pirates +{0}/+{1}.<br/>
-                /// Tier-6 3/8 Pirate Minion
+                /// After you gain Gold, give your other Pirates +{0}/+{1}.<br/>
+                /// Tier-5 3/7 Pirate Minion
                 /// </summary>
                 public const string CannonCorsair_CannonCorsair = "BG34_236_G";
 
@@ -53586,45 +53586,45 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Deathrattle and Rally:</b> Get a random Tier 6 minion.<br/>
-                /// Tier-7 7/7 Minion<br/>
+                /// <b>Battlecry, Deathrattle and Rally:</b> Get a random Tier 6 minion.<br/>
+                /// Tier-7 6/6 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Deathrattle and Rally:</b> Get two random Tier 6 minions.<br/>
-                /// Tier-7 14/14 Minion
+                /// <b>Battlecry, Deathrattle and Rally:</b> Get two random Tier 6 minions.<br/>
+                /// Tier-7 12/12 Minion
                 /// </summary>
                 public const string HighkeeperRa = "BG34_319";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Deathrattle and Rally:</b> Get two random Tier 6 minions.<br/>
-                /// Tier-7 14/14 Minion<br/>
+                /// <b>Battlecry, Deathrattle and Rally:</b> Get two random Tier 6 minions.<br/>
+                /// Tier-7 12/12 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Deathrattle and Rally:</b> Get a random Tier 6 minion.<br/>
-                /// Tier-7 7/7 Minion
+                /// <b>Battlecry, Deathrattle and Rally:</b> Get a random Tier 6 minion.<br/>
+                /// Tier-7 6/6 Minion
                 /// </summary>
                 public const string HighkeeperRa_HighkeeperRa = "BG34_319_G";
 
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Rally:</b> Give a friendly minion of each type +{0}/+{1} permanently.<br/>
-                /// Tier-7 7/7 All Minion<br/>
+                /// Tier-7 9/9 All Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Rally:</b> Give a friendly minion of each type +{0}/+{1} permanently.<br/>
-                /// Tier-7 14/14 All Minion
+                /// Tier-7 18/18 All Minion
                 /// </summary>
                 public const string TheLastOneStanding = "BG34_320";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Rally:</b> Give a friendly minion of each type +{0}/+{1} permanently.<br/>
-                /// Tier-7 14/14 All Minion<br/>
+                /// Tier-7 18/18 All Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Rally:</b> Give a friendly minion of each type +{0}/+{1} permanently.<br/>
-                /// Tier-7 7/7 All Minion
+                /// Tier-7 9/9 All Minion
                 /// </summary>
                 public const string TheLastOneStanding_TheLastOneStanding = "BG34_320_G";
 
@@ -53664,23 +53664,23 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// After you summon a minion in combat, give it this minion's stats. <i>(3 times per combat.)</i>3After you summon a minion in combat, give it this minion's stats. <i>({0} left!)</i><br/>
-                /// Tier-7 6/12 Beast Minion<br/>
+                /// After you summon a minion in combat, give it this minion's maximum stats. <i>(3 times per combat.)</i>3After you summon a minion in combat, give it this minion's maximum stats. <i>({0} left!)</i><br/>
+                /// Tier-7 8/16 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// After you summon a minion in combat, give it double this minion's stats. <i>(3 times per combat.)</i>3After you summon a minion in combat, give it double this minion's stats. <i>({0} left!)</i><br/>
-                /// Tier-7 12/24 Beast Minion
+                /// After you summon a minion in combat, give it double this minion's maximum stats. <i>(3 times per combat.)</i>3After you summon a minion in combat, give it double this minion's maximum stats. <i>({0} left!)</i><br/>
+                /// Tier-7 16/32 Beast Minion
                 /// </summary>
                 public const string StalwartKodo = "BG34_322";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// After you summon a minion in combat, give it double this minion's stats. <i>(3 times per combat.)</i>3After you summon a minion in combat, give it double this minion's stats. <i>({0} left!)</i><br/>
-                /// Tier-7 12/24 Beast Minion<br/>
+                /// After you summon a minion in combat, give it double this minion's maximum stats. <i>(3 times per combat.)</i>3After you summon a minion in combat, give it double this minion's maximum stats. <i>({0} left!)</i><br/>
+                /// Tier-7 16/32 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// After you summon a minion in combat, give it this minion's stats. <i>(3 times per combat.)</i>3After you summon a minion in combat, give it this minion's stats. <i>({0} left!)</i><br/>
-                /// Tier-7 6/12 Beast Minion
+                /// After you summon a minion in combat, give it this minion's maximum stats. <i>(3 times per combat.)</i>3After you summon a minion in combat, give it this minion's maximum stats. <i>({0} left!)</i><br/>
+                /// Tier-7 8/16 Beast Minion
                 /// </summary>
                 public const string StalwartKodo_StalwartKodo = "BG34_322_G";
 
@@ -53771,22 +53771,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// Whenever you cast a Tavern spell, give three random friendly minions +{0}/+{1}.<br/>
-                /// Tier-4 6/4 Undead/Pirate Minion<br/>
+                /// Tier-4 5/4 Undead/Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// Whenever you cast a Tavern spell, give three random friendly minions +{0}/+{1}.<br/>
-                /// Tier-4 12/8 Undead/Pirate Minion
+                /// Tier-4 10/8 Undead/Pirate Minion
                 /// </summary>
                 public const string Plankwalker = "BG34_521";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// Whenever you cast a Tavern spell, give three random friendly minions +{0}/+{1}.<br/>
-                /// Tier-4 12/8 Undead/Pirate Minion<br/>
+                /// Tier-4 10/8 Undead/Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// Whenever you cast a Tavern spell, give three random friendly minions +{0}/+{1}.<br/>
-                /// Tier-4 6/4 Undead/Pirate Minion
+                /// Tier-4 5/4 Undead/Pirate Minion
                 /// </summary>
                 public const string Plankwalker_Plankwalker = "BG34_521_G";
 
@@ -53893,22 +53893,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Rally:</b> Summon a 3/3 Whelp to attack the target first.<br/>
-                /// Tier-2 1/3 Dragon Minion<br/>
+                /// Tier-2 1/4 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Rally:</b> Summon a 6/6 Whelp to attack the target first.<br/>
-                /// Tier-2 2/6 Dragon Minion
+                /// Tier-2 2/8 Dragon Minion
                 /// </summary>
                 public const string WhelpWatcher = "BG34_631";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Rally:</b> Summon a 6/6 Whelp to attack the target first.<br/>
-                /// Tier-2 2/6 Dragon Minion<br/>
+                /// Tier-2 2/8 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Rally:</b> Summon a 3/3 Whelp to attack the target first.<br/>
-                /// Tier-2 1/3 Dragon Minion
+                /// Tier-2 1/4 Dragon Minion
                 /// </summary>
                 public const string WhelpWatcher_WhelpWatcher = "BG34_631_G";
 
@@ -53926,28 +53926,28 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Divine Shield</b> After the Tavern is <b>Refreshed</b>, give its right-most minion <b>Divine Shield</b>.<br/>
-                /// Tier-3 3/2 Mechanical Minion<br/>
+                /// <b>Divine Shield</b> After the Tavern is <b>Refreshed</b>, give its right-most minion +{0}/+{1} and <b>Divine Shield</b>.<br/>
+                /// Tier-3 4/2 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Divine Shield</b> After the Tavern is <b>Refreshed</b>, give its 2 right-most minions <b>Divine Shield</b>.<br/>
-                /// Tier-3 6/4 Mechanical Minion
+                /// <b>Divine Shield</b> After the Tavern is <b>Refreshed</b>, give its right-most minion +{0}/+{1} and <b>Divine Shield</b>.<br/>
+                /// Tier-3 8/4 Mechanical Minion
                 /// </summary>
                 public const string PrehistoricTinkerer = "BG34_641";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Divine Shield</b> After the Tavern is <b>Refreshed</b>, give its 2 right-most minions <b>Divine Shield</b>.<br/>
-                /// Tier-3 6/4 Mechanical Minion<br/>
+                /// <b>Divine Shield</b> After the Tavern is <b>Refreshed</b>, give its right-most minion +{0}/+{1} and <b>Divine Shield</b>.<br/>
+                /// Tier-3 8/4 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Divine Shield</b> After the Tavern is <b>Refreshed</b>, give its right-most minion <b>Divine Shield</b>.<br/>
-                /// Tier-3 3/2 Mechanical Minion
+                /// <b>Divine Shield</b> After the Tavern is <b>Refreshed</b>, give its right-most minion +{0}/+{1} and <b>Divine Shield</b>.<br/>
+                /// Tier-3 4/2 Mechanical Minion
                 /// </summary>
                 public const string PrehistoricTinkerer_PrehistoricTinkerer = "BG34_641_G";
 
                 /// <summary>
-                /// <b><b>Divine Shield</b>.</b><br/>
+                /// +{0}/+{1} and <b>Divine Shield</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string PrehistoricTinkerer_TinkeredWithEnchantment = "BG34_641e";
@@ -54021,44 +54021,44 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Deathrattle:</b> Get a Blood Gem Barrage.<br/>
-                /// Tier-5 5/3 Quilboar Minion<br/>
+                /// Tier-4 5/3 Quilboar Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Deathrattle:</b> Get 2 Blood Gem Barrages.<br/>
-                /// Tier-5 10/6 Quilboar Minion
+                /// Tier-4 10/6 Quilboar Minion
                 /// </summary>
                 public const string RazorfenFlapper = "BG34_682";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Deathrattle:</b> Get 2 Blood Gem Barrages.<br/>
-                /// Tier-5 10/6 Quilboar Minion<br/>
+                /// Tier-4 10/6 Quilboar Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Deathrattle:</b> Get a Blood Gem Barrage.<br/>
-                /// Tier-5 5/3 Quilboar Minion
+                /// Tier-4 5/3 Quilboar Minion
                 /// </summary>
                 public const string RazorfenFlapper_RazorfenFlapper = "BG34_682_G";
 
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Battlecry:</b> Get a Blood Gem Barrage.<br/>
-                /// Tier-4 5/2 Quilboar Minion<br/>
+                /// Tier-3 5/2 Quilboar Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Battlecry:</b> Get 2 Blood Gem Barrages.<br/>
-                /// Tier-4 10/4 Quilboar Minion
+                /// Tier-3 10/4 Quilboar Minion
                 /// </summary>
                 public const string BriarbackDrummer = "BG34_683";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Battlecry:</b> Get 2 Blood Gem Barrages.<br/>
-                /// Tier-4 10/4 Quilboar Minion<br/>
+                /// Tier-3 10/4 Quilboar Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Battlecry:</b> Get a Blood Gem Barrage.<br/>
-                /// Tier-4 5/2 Quilboar Minion
+                /// Tier-3 5/2 Quilboar Minion
                 /// </summary>
                 public const string BriarbackDrummer_BriarbackDrummer = "BG34_683_G";
 
@@ -54098,28 +54098,28 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// After the Tavern is <b>Refreshed</b>, give its right-most minion <b>Reborn</b>.<br/>
-                /// Tier-2 4/2 Undead Minion<br/>
+                /// After the Tavern is <b>Refreshed</b>, give its right-most minion +{0} Attack and <b>Reborn</b>.<br/>
+                /// Tier-2 3/2 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// After the Tavern is <b>Refreshed</b>, give its 2 right- most minions <b>Reborn</b>.<br/>
-                /// Tier-2 8/4 Undead Minion
+                /// After the Tavern is <b>Refreshed</b>, give its right-most minion +{0} Attack and <b>Reborn</b>.<br/>
+                /// Tier-2 6/4 Undead Minion
                 /// </summary>
                 public const string EmbalmingExpert = "BG34_691";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// After the Tavern is <b>Refreshed</b>, give its 2 right- most minions <b>Reborn</b>.<br/>
-                /// Tier-2 8/4 Undead Minion<br/>
+                /// After the Tavern is <b>Refreshed</b>, give its right-most minion +{0} Attack and <b>Reborn</b>.<br/>
+                /// Tier-2 6/4 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// After the Tavern is <b>Refreshed</b>, give its right-most minion <b>Reborn</b>.<br/>
-                /// Tier-2 4/2 Undead Minion
+                /// After the Tavern is <b>Refreshed</b>, give its right-most minion +{0} Attack and <b>Reborn</b>.<br/>
+                /// Tier-2 3/2 Undead Minion
                 /// </summary>
                 public const string EmbalmingExpert_EmbalmingExpert = "BG34_691_G";
 
                 /// <summary>
-                /// <b>Reborn</b>.<br/>
+                /// +{0}/+{1} and <b>Reborn</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string EmbalmingExpert_EmbalmedEnchantment = "BG34_691e";
@@ -54127,22 +54127,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// After you cast a Tavern spell, your Undead have +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-6 4/8 Undead Minion<br/>
+                /// Tier-6 3/8 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// After you cast a Tavern spell, your Undead have +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-6 8/16 Undead Minion
+                /// Tier-6 6/16 Undead Minion
                 /// </summary>
                 public const string ForsakenWeaver = "BG34_692";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// After you cast a Tavern spell, your Undead have +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-6 8/16 Undead Minion<br/>
+                /// Tier-6 6/16 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// After you cast a Tavern spell, your Undead have +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-6 4/8 Undead Minion
+                /// Tier-6 3/8 Undead Minion
                 /// </summary>
                 public const string ForsakenWeaver_ForsakenWeaver = "BG34_692_G";
 
@@ -54215,22 +54215,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Avenge ({0}):</b> Give this minion's Attack to two different friendly minions.<br/>
-                /// Tier-6 9/5 Dragon Minion<br/>
+                /// Tier-5 9/5 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Avenge ({0}):</b> Give this minion's Attack to two different friendly minions, twice.<br/>
-                /// Tier-6 18/10 Dragon Minion
+                /// Tier-5 18/10 Dragon Minion
                 /// </summary>
                 public const string Stuntdrake = "BG34_732";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Avenge ({0}):</b> Give this minion's Attack to two different friendly minions, twice.<br/>
-                /// Tier-6 18/10 Dragon Minion<br/>
+                /// Tier-5 18/10 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Avenge ({0}):</b> Give this minion's Attack to two different friendly minions.<br/>
-                /// Tier-6 9/5 Dragon Minion
+                /// Tier-5 9/5 Dragon Minion
                 /// </summary>
                 public const string Stuntdrake_Stuntdrake = "BG34_732_G";
 
@@ -54319,22 +54319,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// After you <b>Refresh</b> {1} times, gain the stats of the right-most minion in the Tavern. <i>({0} left!)</i><br/>
-                /// Tier-6 4/4 Elemental Minion<br/>
+                /// Tier-6 6/6 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// After you <b>Refresh</b> {1} times, gain double the stats of the right-most minion in the Tavern. <i>({0} left!)</i><br/>
-                /// Tier-6 8/8 Elemental Minion
+                /// Tier-6 12/12 Elemental Minion
                 /// </summary>
                 public const string AcidRainfall = "BG34_857";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// After you <b>Refresh</b> {1} times, gain double the stats of the right-most minion in the Tavern. <i>({0} left!)</i><br/>
-                /// Tier-6 8/8 Elemental Minion<br/>
+                /// Tier-6 12/12 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// After you <b>Refresh</b> {1} times, gain the stats of the right-most minion in the Tavern. <i>({0} left!)</i><br/>
-                /// Tier-6 4/4 Elemental Minion
+                /// Tier-6 6/6 Elemental Minion
                 /// </summary>
                 public const string AcidRainfall_AcidRainfall = "BG34_857_G";
 
@@ -54369,22 +54369,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Battlecry:</b> After the Tavern is <b>Refreshed</b> this game, give its right-most minion +{0}/+{1}.<br/>
-                /// Tier-4 5/5 Elemental Minion<br/>
+                /// Tier-4 4/4 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Battlecry:</b> After the Tavern is <b>Refreshed</b> this game, give its right-most minion +{0}/+{1} twice.<br/>
-                /// Tier-4 10/10 Elemental Minion
+                /// Tier-4 8/8 Elemental Minion
                 /// </summary>
                 public const string EnDjinnBlazer = "BG34_865";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Battlecry:</b> After the Tavern is <b>Refreshed</b> this game, give its right-most minion +{0}/+{1} twice.<br/>
-                /// Tier-4 10/10 Elemental Minion<br/>
+                /// Tier-4 8/8 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Battlecry:</b> After the Tavern is <b>Refreshed</b> this game, give its right-most minion +{0}/+{1}.<br/>
-                /// Tier-4 5/5 Elemental Minion
+                /// Tier-4 4/4 Elemental Minion
                 /// </summary>
                 public const string EnDjinnBlazer_EnDjinnBlazer = "BG34_865_G";
 
@@ -54486,23 +54486,23 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Once per turn, double the stats of the next minion you buy.<br/>
-                /// Tier-7 5/9 Elemental Minion<br/>
+                /// After you buy a minion, give it +{0}/+{1} and double its stats. <i>(Once per turn.)</i><br/>
+                /// Tier-7 5/10 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Once per turn, triple the stats of the next minion you buy.<br/>
-                /// Tier-7 10/18 Elemental Minion
+                /// After you buy a minion, give it +{0}/+{1} and triple its stats. <i>(Once per turn.)</i><br/>
+                /// Tier-7 10/20 Elemental Minion
                 /// </summary>
                 public const string StoneAgeSlab = "BG34_950";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// Once per turn, triple the stats of the next minion you buy.<br/>
-                /// Tier-7 10/18 Elemental Minion<br/>
+                /// After you buy a minion, give it +{0}/+{1} and triple its stats. <i>(Once per turn.)</i><br/>
+                /// Tier-7 10/20 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// Once per turn, double the stats of the next minion you buy.<br/>
-                /// Tier-7 5/9 Elemental Minion
+                /// After you buy a minion, give it +{0}/+{1} and double its stats. <i>(Once per turn.)</i><br/>
+                /// Tier-7 5/10 Elemental Minion
                 /// </summary>
                 public const string StoneAgeSlab_StoneAgeSlab = "BG34_950_G";
 
@@ -54572,22 +54572,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// When you sell this, it plays {0} <b>Blood Gem</b> on all your minions. <i>(Improves each turn!)</i><br/>
+                /// After you sell a Quilboar, this plays 2 <b>Blood Gems</b> on a random friendly minion.<br/>
                 /// Tier-3 3/4 Quilboar Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// When you sell this, it plays {0} <b>Blood Gems</b> on all your minions. <i>(Improves each turn!)</i><br/>
+                /// After you sell a Quilboar, this plays 4 <b>Blood Gems</b> on a random friendly minion.<br/>
                 /// Tier-3 6/8 Quilboar Minion
                 /// </summary>
                 public const string TimewarpedRelaxer = "BG34_Giant_002";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// When you sell this, it plays {0} <b>Blood Gems</b> on all your minions. <i>(Improves each turn!)</i><br/>
+                /// After you sell a Quilboar, this plays 4 <b>Blood Gems</b> on a random friendly minion.<br/>
                 /// Tier-3 6/8 Quilboar Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// When you sell this, it plays {0} <b>Blood Gem</b> on all your minions. <i>(Improves each turn!)</i><br/>
+                /// After you sell a Quilboar, this plays 2 <b>Blood Gems</b> on a random friendly minion.<br/>
                 /// Tier-3 3/4 Quilboar Minion
                 /// </summary>
                 public const string TimewarpedRelaxer_TimewarpedRelaxer = "BG34_Giant_002_G";
@@ -55037,22 +55037,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Rally:</b> Trigger your right-most <b>Battlecry</b> and <b>Deathrattle</b>.<br/>
-                /// Tier-5 7/11 Dragon Minion<br/>
+                /// Tier-3 5/9 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Rally:</b> Trigger your right-most <b>Battlecry</b> and <b>Deathrattle</b> twice.<br/>
-                /// Tier-5 14/22 Dragon Minion
+                /// Tier-3 10/18 Dragon Minion
                 /// </summary>
                 public const string TimewarpedGreenskeeper = "BG34_Giant_041";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Rally:</b> Trigger your right-most <b>Battlecry</b> and <b>Deathrattle</b> twice.<br/>
-                /// Tier-5 14/22 Dragon Minion<br/>
+                /// Tier-3 10/18 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Rally:</b> Trigger your right-most <b>Battlecry</b> and <b>Deathrattle</b>.<br/>
-                /// Tier-5 7/11 Dragon Minion
+                /// Tier-3 5/9 Dragon Minion
                 /// </summary>
                 public const string TimewarpedGreenskeeper_TimewarpedGreenskeeper = "BG34_Giant_041_G";
 
@@ -55103,87 +55103,87 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// At the end of your turn, give +{0} Attack to your minions with less Attack than this. Repeat with Health.<br/>
-                /// Tier-3 7/7 Dragon Minion<br/>
+                /// Tier-3 10/10 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// At the end of your turn, give +{0} Attack to your minions with less Attack than this. Repeat with Health.<br/>
-                /// Tier-3 14/14 Dragon Minion
+                /// Tier-3 20/20 Dragon Minion
                 /// </summary>
                 public const string TimewarpedLowFlier = "BG34_Giant_065";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// At the end of your turn, give +{0} Attack to your minions with less Attack than this. Repeat with Health.<br/>
-                /// Tier-3 14/14 Dragon Minion<br/>
+                /// Tier-3 20/20 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// At the end of your turn, give +{0} Attack to your minions with less Attack than this. Repeat with Health.<br/>
-                /// Tier-3 7/7 Dragon Minion
+                /// Tier-3 10/10 Dragon Minion
                 /// </summary>
                 public const string TimewarpedLowFlier_TimewarpedLowFlier = "BG34_Giant_065_G";
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// The Tavern always offers {0} extra Tavern spell.<br/>
+                /// The Tavern always offers {0} extra Tavern spell. Your Tavern spells give an extra +1/+1.<br/>
                 /// Tier-3 5/7 Elemental/Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// The Tavern always offers {0} extra Tavern spells.<br/>
+                /// The Tavern always offers {0} extra Tavern spells. Your Tavern spells give an extra +2/+2.<br/>
                 /// Tier-3 10/14 Elemental/Pirate Minion
                 /// </summary>
                 public const string TimewarpedLubber = "BG34_Giant_066";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// The Tavern always offers {0} extra Tavern spells.<br/>
+                /// The Tavern always offers {0} extra Tavern spells. Your Tavern spells give an extra +2/+2.<br/>
                 /// Tier-3 10/14 Elemental/Pirate Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// The Tavern always offers {0} extra Tavern spell.<br/>
+                /// The Tavern always offers {0} extra Tavern spell. Your Tavern spells give an extra +1/+1.<br/>
                 /// Tier-3 5/7 Elemental/Pirate Minion
                 /// </summary>
                 public const string TimewarpedLubber_TimewarpedLubber = "BG34_Giant_066_G";
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// At the end of your turn, get a 3/3 Elemental.<br/>
+                /// At the end of your turn, get a Sellemental.<br/>
                 /// Tier-3 8/8 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// At the end of your turn, get two 3/3 Elementals.<br/>
+                /// At the end of your turn, get two a Sellementals.<br/>
                 /// Tier-3 16/16 Elemental Minion
                 /// </summary>
                 public const string TimewarpedSellemental = "BG34_Giant_067";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// At the end of your turn, get two 3/3 Elementals.<br/>
+                /// At the end of your turn, get two a Sellementals.<br/>
                 /// Tier-3 16/16 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// At the end of your turn, get a 3/3 Elemental.<br/>
+                /// At the end of your turn, get a Sellemental.<br/>
                 /// Tier-3 8/8 Elemental Minion
                 /// </summary>
                 public const string TimewarpedSellemental_TimewarpedSellemental = "BG34_Giant_067_G";
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Rally:</b> Give a different friendly minion <b>Divine Shield</b> permanently.<br/>
+                /// <b>Divine Shield</b> <b>Rally:</b> Give a different friendly minion <b>Divine Shield</b> permanently.<br/>
                 /// Tier-3 3/7 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Rally:</b> Give 2 different friendly minions <b>Divine Shield</b> permanently.<br/>
+                /// <b>Divine Shield</b> <b>Rally:</b> Give 2 different friendly minions <b>Divine Shield</b> permanently.<br/>
                 /// Tier-3 6/14 Mechanical Minion
                 /// </summary>
                 public const string TimewarpedGuard = "BG34_Giant_068";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Rally:</b> Give 2 different friendly minions <b>Divine Shield</b> permanently.<br/>
+                /// <b>Divine Shield</b> <b>Rally:</b> Give 2 different friendly minions <b>Divine Shield</b> permanently.<br/>
                 /// Tier-3 6/14 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Rally:</b> Give a different friendly minion <b>Divine Shield</b> permanently.<br/>
+                /// <b>Divine Shield</b> <b>Rally:</b> Give a different friendly minion <b>Divine Shield</b> permanently.<br/>
                 /// Tier-3 3/7 Mechanical Minion
                 /// </summary>
                 public const string TimewarpedGuard_TimewarpedGuard = "BG34_Giant_068_G";
@@ -55438,22 +55438,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// After {1} <b>Blood Gems</b> are played on this, cast Blood Gem Barrage. <i>({0} left!)</i><br/>
+                /// After you play a <b>Blood Gem</b> on this, cast Blood Gem Barrage.<br/>
                 /// Tier-5 7/5 Quilboar Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// After {1} <b>Blood Gems</b> are played on this, cast Blood Gem Barrage twice. <i>({0} left!)</i><br/>
+                /// After you play a <b>Blood Gem</b> on this, cast Blood Gem Barrage twice.<br/>
                 /// Tier-5 14/10 Quilboar Minion
                 /// </summary>
                 public const string TimewarpedTwirler = "BG34_Giant_105";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// After {1} <b>Blood Gems</b> are played on this, cast Blood Gem Barrage twice. <i>({0} left!)</i><br/>
+                /// After you play a <b>Blood Gem</b> on this, cast Blood Gem Barrage twice.<br/>
                 /// Tier-5 14/10 Quilboar Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// After {1} <b>Blood Gems</b> are played on this, cast Blood Gem Barrage. <i>({0} left!)</i><br/>
+                /// After you play a <b>Blood Gem</b> on this, cast Blood Gem Barrage.<br/>
                 /// Tier-5 7/5 Quilboar Minion
                 /// </summary>
                 public const string TimewarpedTwirler_TimewarpedTwirler = "BG34_Giant_105_G";
@@ -55488,22 +55488,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// Whenever you play or <b>Magnetize</b> a Mech, give your Mechs+{0}/+{1}.<br/>
+                /// Whenever you play or <b>Magnetize</b> a Mech, give your Mechs +{0}/+{1}.<br/>
                 /// Tier-5 6/8 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// Whenever you play or <b>Magnetize</b> a Mech, give your Mechs+{0}/+{1}.<br/>
+                /// Whenever you play or <b>Magnetize</b> a Mech, give your Mechs +{0}/+{1}.<br/>
                 /// Tier-5 12/16 Mechanical Minion
                 /// </summary>
                 public const string TimewarpedInterpreter = "BG34_Giant_120";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// Whenever you play or <b>Magnetize</b> a Mech, give your Mechs+{0}/+{1}.<br/>
+                /// Whenever you play or <b>Magnetize</b> a Mech, give your Mechs +{0}/+{1}.<br/>
                 /// Tier-5 12/16 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// Whenever you play or <b>Magnetize</b> a Mech, give your Mechs+{0}/+{1}.<br/>
+                /// Whenever you play or <b>Magnetize</b> a Mech, give your Mechs +{0}/+{1}.<br/>
                 /// Tier-5 6/8 Mechanical Minion
                 /// </summary>
                 public const string TimewarpedInterpreter_TimewarpedInterpreter = "BG34_Giant_120_G";
@@ -55705,22 +55705,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// At the end of your turn, give adjacent Mechs +{0}/+{1}.<br/>
-                /// Tier-3 4/4 Mechanical Minion<br/>
+                /// Tier-3 6/6 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// At the end of your turn, give adjacent Mechs +{0}/+{1}.<br/>
-                /// Tier-3 8/8 Mechanical Minion
+                /// Tier-3 12/12 Mechanical Minion
                 /// </summary>
                 public const string TimewarpedSensei = "BG34_Giant_209";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// At the end of your turn, give adjacent Mechs +{0}/+{1}.<br/>
-                /// Tier-3 8/8 Mechanical Minion<br/>
+                /// Tier-3 12/12 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// At the end of your turn, give adjacent Mechs +{0}/+{1}.<br/>
-                /// Tier-3 4/4 Mechanical Minion
+                /// Tier-3 6/6 Mechanical Minion
                 /// </summary>
                 public const string TimewarpedSensei_TimewarpedSensei = "BG34_Giant_209_G";
 
@@ -55773,22 +55773,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Avenge ({0}):</b> Get a random <b>Spellcraft</b> spell and Tavern spell.<br/>
-                /// Tier-3 6/7 Naga Minion<br/>
+                /// Tier-3 9/10 Naga Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Avenge ({0}):</b> Get 2 random <b>Spellcraft</b> spells and Tavern spells.<br/>
-                /// Tier-3 12/14 Naga Minion
+                /// Tier-3 18/20 Naga Minion
                 /// </summary>
                 public const string TimewarpedPashmar = "BG34_Giant_211";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Avenge ({0}):</b> Get 2 random <b>Spellcraft</b> spells and Tavern spells.<br/>
-                /// Tier-3 12/14 Naga Minion<br/>
+                /// Tier-3 18/20 Naga Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Avenge ({0}):</b> Get a random <b>Spellcraft</b> spell and Tavern spell.<br/>
-                /// Tier-3 6/7 Naga Minion
+                /// Tier-3 9/10 Naga Minion
                 /// </summary>
                 public const string TimewarpedPashmar_TimewarpedPashmar = "BG34_Giant_211_G";
 
@@ -55856,22 +55856,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Avenge ({0}):</b> Get a random Mech.<br/>
+                /// <b>Divine Shield</b> <b>Avenge ({0}):</b> Get a random Mech.<br/>
                 /// Tier-3 4/6 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Avenge ({0}):</b> Get 2 random Mechs.<br/>
+                /// <b>Divine Shield</b> <b>Avenge ({0}):</b> Get 2 random Mechs.<br/>
                 /// Tier-3 8/12 Mechanical Minion
                 /// </summary>
                 public const string TimewarpedCopter = "BG34_Giant_302";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Avenge ({0}):</b> Get 2 random Mechs.<br/>
+                /// <b>Divine Shield</b> <b>Avenge ({0}):</b> Get 2 random Mechs.<br/>
                 /// Tier-3 8/12 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Avenge ({0}):</b> Get a random Mech.<br/>
+                /// <b>Divine Shield</b> <b>Avenge ({0}):</b> Get a random Mech.<br/>
                 /// Tier-3 4/6 Mechanical Minion
                 /// </summary>
                 public const string TimewarpedCopter_TimewarpedCopter = "BG34_Giant_302_G";
@@ -55988,22 +55988,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Divine Shield</b> Whenever a minion is consumed, this gains its stats.<br/>
+                /// Whenever a minion is consumed, this gains its stats.<br/>
                 /// Tier-5 4/2 Demon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Divine Shield</b> Whenever a minion is consumed, this gains double its stats.<br/>
+                /// Whenever a minion is consumed, this gains double its stats.<br/>
                 /// Tier-5 8/4 Demon Minion
                 /// </summary>
                 public const string TimewarpedShivarra = "BG34_Giant_311";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Divine Shield</b> Whenever a minion is consumed, this gains double its stats.<br/>
+                /// Whenever a minion is consumed, this gains double its stats.<br/>
                 /// Tier-5 8/4 Demon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Divine Shield</b> Whenever a minion is consumed, this gains its stats.<br/>
+                /// Whenever a minion is consumed, this gains its stats.<br/>
                 /// Tier-5 4/2 Demon Minion
                 /// </summary>
                 public const string TimewarpedShivarra_TimewarpedShivarra = "BG34_Giant_311_G";
@@ -56110,22 +56110,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// At the end of your turn, give adjacent minions +{0}/+{1}. <i>(Improved by cards from Tier 3 or below played this turn!) </i><br/>
+                /// At the end of your turn, give adjacent minions +{0}/+{1}. After you play a card from Tier 3 or below improve this.<br/>
                 /// Tier-5 4/9 Murloc Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// At the end of your turn, give adjacent minions +{0}/+{1}. <i>(Improved by cards from Tier 3 or below played this turn!) </i><br/>
+                /// At the end of your turn, give adjacent minions +{0}/+{1}. After you play a card from Tier 3 or below improve this.<br/>
                 /// Tier-5 8/18 Murloc Minion
                 /// </summary>
                 public const string TimewarpedPainter = "BG34_Giant_319";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// At the end of your turn, give adjacent minions +{0}/+{1}. <i>(Improved by cards from Tier 3 or below played this turn!) </i><br/>
+                /// At the end of your turn, give adjacent minions +{0}/+{1}. After you play a card from Tier 3 or below improve this.<br/>
                 /// Tier-5 8/18 Murloc Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// At the end of your turn, give adjacent minions +{0}/+{1}. <i>(Improved by cards from Tier 3 or below played this turn!) </i><br/>
+                /// At the end of your turn, give adjacent minions +{0}/+{1}. After you play a card from Tier 3 or below improve this.<br/>
                 /// Tier-5 4/9 Murloc Minion
                 /// </summary>
                 public const string TimewarpedPainter_TimewarpedPainter = "BG34_Giant_319_G";
@@ -56509,22 +56509,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Deathrattle:</b> Your Beasts have +{0}/+{1} this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 4/4 Beast Minion<br/>
+                /// Tier-5 6/4 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Deathrattle:</b> Your Beasts have +{0}/+{1} this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 8/8 Beast Minion
+                /// Tier-5 12/8 Beast Minion
                 /// </summary>
                 public const string TimewarpedGoldrinn = "BG34_Giant_362";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Deathrattle:</b> Your Beasts have +{0}/+{1} this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 8/8 Beast Minion<br/>
+                /// Tier-5 12/8 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Deathrattle:</b> Your Beasts have +{0}/+{1} this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 4/4 Beast Minion
+                /// Tier-5 6/4 Beast Minion
                 /// </summary>
                 public const string TimewarpedGoldrinn_TimewarpedGoldrinn = "BG34_Giant_362_G";
 
@@ -56586,22 +56586,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Start of Combat:</b> Deal {0} damage to a random enemy minion.<br/>
+                /// <b>Start of Combat:</b> Deal this minion's Attack to the highest-Health enemy minion.<br/>
                 /// Tier-3 8/8 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Start of Combat:</b> Deal {0} damage to a random enemy minion.<br/>
+                /// <b>Start of Combat:</b> Deal double this minion's Attack to the highest-Health enemy minion.<br/>
                 /// Tier-3 16/16 Elemental Minion
                 /// </summary>
                 public const string TimewarpedRagnaros = "BG34_Giant_580";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Start of Combat:</b> Deal {0} damage to a random enemy minion.<br/>
+                /// <b>Start of Combat:</b> Deal double this minion's Attack to the highest-Health enemy minion.<br/>
                 /// Tier-3 16/16 Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Start of Combat:</b> Deal {0} damage to a random enemy minion.<br/>
+                /// <b>Start of Combat:</b> Deal this minion's Attack to the highest-Health enemy minion.<br/>
                 /// Tier-3 8/8 Elemental Minion
                 /// </summary>
                 public const string TimewarpedRagnaros_TimewarpedRagnaros = "BG34_Giant_580_G";
@@ -56630,22 +56630,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Get a random Tavern spell.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Get a random Tavern spell that costs (2) or more.<br/>
                 /// Tier-3 9/2 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Get 2 random Tavern spells.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Get 2 random Tavern spells that cost (2) or more.<br/>
                 /// Tier-3 18/4 Beast Minion
                 /// </summary>
                 public const string TimewarpedSporebat = "BG34_Giant_582";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Get 2 random Tavern spells.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Get 2 random Tavern spells that cost (2) or more.<br/>
                 /// Tier-3 18/4 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Get a random Tavern spell.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Get a random Tavern spell that costs (2) or more.<br/>
                 /// Tier-3 9/2 Beast Minion
                 /// </summary>
                 public const string TimewarpedSporebat_TimewarpedSporebat = "BG34_Giant_582_G";
@@ -57061,22 +57061,22 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// At the end of your turn, get {0} random Tavern spells that give stats.<br/>
-                /// Tier-5 7/5 Minion<br/>
+                /// Tier-3 7/5 Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// At the end of your turn, get {0} random Tavern spells that give stats.<br/>
-                /// Tier-5 14/10 Minion
+                /// Tier-3 14/10 Minion
                 /// </summary>
                 public const string TimewarpedTender = "BG34_Giant_603";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// At the end of your turn, get {0} random Tavern spells that give stats.<br/>
-                /// Tier-5 14/10 Minion<br/>
+                /// Tier-3 14/10 Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// At the end of your turn, get {0} random Tavern spells that give stats.<br/>
-                /// Tier-5 7/5 Minion
+                /// Tier-3 7/5 Minion
                 /// </summary>
                 public const string TimewarpedTender_TimewarpedTender = "BG34_Giant_603_G";
 
@@ -57170,23 +57170,23 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Deathrattle:</b> Summon six 1/1 Skeletons. Any that don't fit give your Undead +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 6/6 Undead Minion<br/>
+                /// <b>Deathrattle:</b> Summon four 1/1 Skeletons. Any that don't fit give your Undead +{0} Attack this game <i>(wherever they are)</i>.<br/>
+                /// Tier-5 4/4 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Deathrattle:</b> Summon twelve 1/1 Skeletons. Any that don't fit give your Undead +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 12/12 Undead Minion
+                /// <b>Deathrattle:</b> Summon eight 1/1 Skeletons. Any that don't fit give your Undead +{0} Attack this game <i>(wherever they are)</i>.<br/>
+                /// Tier-5 8/8 Undead Minion
                 /// </summary>
                 public const string TimewarpedCaretaker = "BG34_Giant_618";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Deathrattle:</b> Summon twelve 1/1 Skeletons. Any that don't fit give your Undead +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 12/12 Undead Minion<br/>
+                /// <b>Deathrattle:</b> Summon eight 1/1 Skeletons. Any that don't fit give your Undead +{0} Attack this game <i>(wherever they are)</i>.<br/>
+                /// Tier-5 8/8 Undead Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Deathrattle:</b> Summon six 1/1 Skeletons. Any that don't fit give your Undead +{0} Attack this game <i>(wherever they are)</i>.<br/>
-                /// Tier-5 6/6 Undead Minion
+                /// <b>Deathrattle:</b> Summon four 1/1 Skeletons. Any that don't fit give your Undead +{0} Attack this game <i>(wherever they are)</i>.<br/>
+                /// Tier-5 4/4 Undead Minion
                 /// </summary>
                 public const string TimewarpedCaretaker_TimewarpedCaretaker = "BG34_Giant_618_G";
 
@@ -57322,7 +57322,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Casts When Bought</b> Make 'Snicker-Snack' your second Hero Power.<br/>
-                /// Tier-3 2-Cost BattlegroundSpell
+                /// Tier-3 1-Cost BattlegroundSpell
                 /// </summary>
                 public const string PowerOfShudderwock = "BG34_HeroPowerSpell_008";
 
@@ -57352,7 +57352,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Casts When Bought</b> Make 'Gone Fishing' your second Hero Power.<br/>
-                /// Tier-3 1-Cost BattlegroundSpell
+                /// Tier-3 2-Cost BattlegroundSpell
                 /// </summary>
                 public const string PowerOfFlurgl = "BG34_HeroPowerSpell_016";
 
@@ -57446,22 +57446,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// After you summon a Beast, give it +{0}/+{1}. Improves after you cast a spell.<br/>
+                /// <b>Stealth</b> After you summon a Beast, give it +{0}/+{1}. Improves after you cast a spell.<br/>
                 /// Tier-5 8/12 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// After you summon a Beast, give it +{0}/+{1}. Improves after you cast a spell.<br/>
+                /// <b>Stealth</b> After you summon a Beast, give it +{0}/+{1}. Improves after you cast a spell.<br/>
                 /// Tier-5 16/24 Beast Minion
                 /// </summary>
                 public const string TimewarpedJungleKing = "BG34_PreMadeChamp_004";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// After you summon a Beast, give it +{0}/+{1}. Improves after you cast a spell.<br/>
+                /// <b>Stealth</b> After you summon a Beast, give it +{0}/+{1}. Improves after you cast a spell.<br/>
                 /// Tier-5 16/24 Beast Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// After you summon a Beast, give it +{0}/+{1}. Improves after you cast a spell.<br/>
+                /// <b>Stealth</b> After you summon a Beast, give it +{0}/+{1}. Improves after you cast a spell.<br/>
                 /// Tier-5 8/12 Beast Minion
                 /// </summary>
                 public const string TimewarpedJungleKing_TimewarpedJungleKing = "BG34_PreMadeChamp_004_G";
@@ -57552,22 +57552,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// <b>Avenge ({0}):</b> Get a random Tavern spell that gives stats.<br/>
+                /// <b>Avenge ({0}):</b> Get an Azerite Empowerment.<br/>
                 /// Tier-5 8/12 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// <b>Avenge ({0}):</b> Get 2 random Tavern spells that give stats.<br/>
+                /// <b>Avenge ({0}):</b> Get 2 Azerite Empowerments.<br/>
                 /// Tier-5 16/24 Dragon Minion
                 /// </summary>
                 public const string TimewarpedPrismscale = "BG34_PreMadeChamp_022";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// <b>Avenge ({0}):</b> Get 2 random Tavern spells that give stats.<br/>
+                /// <b>Avenge ({0}):</b> Get 2 Azerite Empowerments.<br/>
                 /// Tier-5 16/24 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// <b>Avenge ({0}):</b> Get a random Tavern spell that gives stats.<br/>
+                /// <b>Avenge ({0}):</b> Get an Azerite Empowerment.<br/>
                 /// Tier-5 8/12 Dragon Minion
                 /// </summary>
                 public const string TimewarpedPrismscale_TimewarpedPrismscale = "BG34_PreMadeChamp_022_G";
@@ -57618,22 +57618,22 @@ namespace HearthDb
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// At the end of your turn, get {0} random <b>Magnetic</b> Volumizers.<br/>
+                /// At the end of your turn, get one of each <b>Magnetic</b> Volumizer.<br/>
                 /// Tier-5 13/7 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// At the end of your turn, get {0} random <b>Magnetic</b> Volumizers.<br/>
+                /// At the end of your turn, get two of each <b>Magnetic</b> Volumizer.<br/>
                 /// Tier-5 26/14 Mechanical Minion
                 /// </summary>
                 public const string TimewarpedSteamer = "BG34_PreMadeChamp_038";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// At the end of your turn, get {0} random <b>Magnetic</b> Volumizers.<br/>
+                /// At the end of your turn, get two of each <b>Magnetic</b> Volumizer.<br/>
                 /// Tier-5 26/14 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// At the end of your turn, get {0} random <b>Magnetic</b> Volumizers.<br/>
+                /// At the end of your turn, get one of each <b>Magnetic</b> Volumizer.<br/>
                 /// Tier-5 13/7 Mechanical Minion
                 /// </summary>
                 public const string TimewarpedSteamer_TimewarpedSteamer = "BG34_PreMadeChamp_038_G";
@@ -57885,43 +57885,43 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Battlecry, Deathrattle, and Rally:</b> Get a random Tavern spell.<br/>
-                /// Tier-5 6/7 Demon Minion<br/>
+                /// Tier-5 12/14 Demon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Battlecry, Deathrattle, and Rally:</b> Get 2 random Tavern spells.<br/>
-                /// Tier-5 12/14 Demon Minion
+                /// Tier-5 24/28 Demon Minion
                 /// </summary>
                 public const string TimewarpedCalligrapher = "BG34_PreMadeChamp_091";
 
                 /// <summary>
                 /// Triple (this):<br/>
                 /// <b>Battlecry, Deathrattle, and Rally:</b> Get 2 random Tavern spells.<br/>
-                /// Tier-5 12/14 Demon Minion<br/>
+                /// Tier-5 24/28 Demon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Battlecry, Deathrattle, and Rally:</b> Get a random Tavern spell.<br/>
-                /// Tier-5 6/7 Demon Minion
+                /// Tier-5 12/14 Demon Minion
                 /// </summary>
                 public const string TimewarpedCalligrapher_TimewarpedCalligrapher = "BG34_PreMadeChamp_091_G";
 
                 /// <summary>
                 /// Normal (this):<br/>
-                /// After you cast a Tavern spell, get an extra copy of it. <i>({1} times per turn.)</i>2After you cast a Tavern spell, get an extra copy of it. <i>({0} left!)</i><br/>
+                /// After you cast a Tavern spell, get an extra copy of it. <i>({1} times per turn.)</i>3After you cast a Tavern spell, get an extra copy of it. <i>({0} left!)</i><br/>
                 /// Tier-5 8/8 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
-                /// After you cast a Tavern spell, get 2 extra copies of it. <i>({1} times per turn.)</i>2After you cast a Tavern spell, get 2 extra copies of it. <i>({0} left!)</i><br/>
+                /// After you cast a Tavern spell, get 2 extra copies of it. <i>({1} times per turn.)</i>3After you cast a Tavern spell, get 2 extra copies of it. <i>({0} left!)</i><br/>
                 /// Tier-5 16/16 Dragon Minion
                 /// </summary>
                 public const string TimewarpedCenturion = "BG34_PreMadeChamp_200";
 
                 /// <summary>
                 /// Triple (this):<br/>
-                /// After you cast a Tavern spell, get 2 extra copies of it. <i>({1} times per turn.)</i>2After you cast a Tavern spell, get 2 extra copies of it. <i>({0} left!)</i><br/>
+                /// After you cast a Tavern spell, get 2 extra copies of it. <i>({1} times per turn.)</i>3After you cast a Tavern spell, get 2 extra copies of it. <i>({0} left!)</i><br/>
                 /// Tier-5 16/16 Dragon Minion<br/>
                 /// --------------------<br/>
                 /// Normal:<br/>
-                /// After you cast a Tavern spell, get an extra copy of it. <i>({1} times per turn.)</i>2After you cast a Tavern spell, get an extra copy of it. <i>({0} left!)</i><br/>
+                /// After you cast a Tavern spell, get an extra copy of it. <i>({1} times per turn.)</i>3After you cast a Tavern spell, get an extra copy of it. <i>({0} left!)</i><br/>
                 /// Tier-5 8/8 Dragon Minion
                 /// </summary>
                 public const string TimewarpedCenturion_TimewarpedCenturion = "BG34_PreMadeChamp_200_G";
@@ -57946,7 +57946,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Discover</b> a Tier 3 Darkmoon Prize. Repeat at the start of every two turns.<br/>
-                /// Tier-3 1-Cost BattlegroundSpell
+                /// Tier-3 2-Cost BattlegroundSpell
                 /// </summary>
                 public const string TimewarpedBigWinner = "BG34_Treasure_606";
 
@@ -58071,7 +58071,7 @@ namespace HearthDb
                 public const string TimewarpedNewRecruit_TimewarpedNewRecruitPlayerEnchDntEnchantment = "BG34_Treasure_917e";
 
                 /// <summary>
-                /// <b>Discover</b> a Tier 7 minion. Get a random Tier 7 spell.<br/>
+                /// <b>Discover</b> two Tier 7 minions.<br/>
                 /// Tier-5 2-Cost BattlegroundSpell
                 /// </summary>
                 public const string TimewarpedRitual = "BG34_Treasure_919";
@@ -58089,7 +58089,7 @@ namespace HearthDb
                 public const string TimewarpedStrikeOil = "BG34_Treasure_932";
 
                 /// <summary>
-                /// Choose a minion. <b>Discover</b> a Tier 6 minion to transform it into. It keeps its stats.<br/>
+                /// Choose a minion. <b>Discover</b> a Tier 6 minion to transform it into. Set its stats to 30/30.<br/>
                 /// Tier-5 1-Cost BattlegroundSpell
                 /// </summary>
                 public const string TimewarpedEvolution = "BG34_Treasure_933";
@@ -58101,14 +58101,14 @@ namespace HearthDb
                 public const string TimewarpedArmorStash = "BG34_Treasure_934";
 
                 /// <summary>
-                /// <b>Discover</b> a <b>Deathrattle</b> minon from Tier 5 or higher. Give it <b><b>Reborn</b>.</b><br/>
+                /// <b>Discover</b> a <b>Deathrattle</b> minion from Tier 5 or higher. Give it <b><b>Reborn</b>.</b><br/>
                 /// Tier-5 1-Cost BattlegroundSpell
                 /// </summary>
                 public const string TimewarpedCorpse = "BG34_Treasure_937";
 
                 /// <summary>
                 /// Choose a minion. Get a random minion of the same type from Tiers 4, 5, and 6.<br/>
-                /// Tier-5 2-Cost BattlegroundSpell
+                /// Tier-5 1-Cost BattlegroundSpell
                 /// </summary>
                 public const string TimewarpedChefsChoice = "BG34_Treasure_940";
 
@@ -65766,7 +65766,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Refresh</b> the Tavern with plain copies of your last opponent's warband.<br/>
-                /// 2-Cost HeroPower
+                /// 1-Cost HeroPower
                 /// </summary>
                 public const string BobsBurglesTavernBrawl = "TB_BaconShop_HP_077";
 

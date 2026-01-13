@@ -860,6 +860,12 @@ namespace HearthDb
                 public const string FerociousFelbat = "EDR_892";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Give your hero +3 Attack this turn, next turn, and the turn after.<br/>
+                /// 5-Cost 3/5 Dragon Minion
+                /// </summary>
+                public const string Chronikar = "END_006";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If you control no other minions, draw a spell, a minion, and a weapon.<br/>
                 /// 5-Cost 4/3 Minion
                 /// </summary>

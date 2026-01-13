@@ -1088,6 +1088,12 @@ namespace HearthDb
                 public const string OvergrownHorror = "EDR_654";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Set the Cost of a random card in your hand to INFINITY! <b>Deathrattle:</b> Change it back.<br/>
+                /// 3-Cost 5/5 Dragon Minion
+                /// </summary>
+                public const string AcolyteOfInfinity = "END_018";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If you control no other minions, deal 3 damage to all enemy minions.<br/>
                 /// 5-Cost 4/6 Demon Minion
                 /// </summary>
@@ -1704,6 +1710,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Guldan_DarkmoonYoggSaronHeroHeroSkins = "HERO_07bl";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Guldan_MurozondTheInevitableHeroHeroSkins = "HERO_07bt";
 
                 /// <summary>
                 /// (No Text)<br/>

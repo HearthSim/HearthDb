@@ -304,13 +304,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GuldanHeroic_LifeTapHeroSkins = "HERO_07bbhp";
+                public const string GuldanHeroic_LifeTapHeroSkins1 = "HERO_07bbhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GuldanHeroic_SoulTapHeroSkins = "HERO_07bbhp2";
+                public const string GuldanHeroic_SoulTapHeroSkins1 = "HERO_07bbhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
@@ -371,6 +371,18 @@ namespace HearthDb
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string Guldan_SoulTapHeroSkins11 = "HERO_07blhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GuldanHeroic_LifeTapHeroSkins2 = "HERO_07bthp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GuldanHeroic_SoulTapHeroSkins2 = "HERO_07bthp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
@@ -1806,14 +1818,20 @@ namespace HearthDb
                 public const string JumboImpDALARAN = "Story_09_JumboImpPuzzle";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Discard a random minion. <b>Deathrattle:</b> Summon it.<br/>
+                /// <b>Battlecry:</b> Put a random minion that costs (5) or more on top of your deck. It costs (0).<br/>
                 /// 7-Cost 7/7 Dragon Minion
                 /// </summary>
                 public const string RiftWarden = "TOT_102";
 
                 /// <summary>
-                /// Draw 2 cards. They cost (2) less.<br/>
-                /// 4-Cost Spell
+                /// Costs (0).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RiftWarden_WardedEnchantment = "TOT_102e";
+
+                /// <summary>
+                /// This is a copy of the top card of your deck.<br/>
+                /// Spell
                 /// </summary>
                 public const string GraspTheFuture = "TOT_103";
 
@@ -4426,13 +4444,25 @@ namespace HearthDb
                 public const string WhisperingStone_TheStonesWhispersEnchantment = "TLC_467e";
 
                 /// <summary>
+                /// Cost set to INFINITY!<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AcolyteofInfinity_InfiniteDelayEnchantment = "END_018e";
+
+                /// <summary>
+                /// Cost returned to normal.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AcolyteofInfinity_PreservedEssenceEnchantment = "END_018e2";
+
+                /// <summary>
                 /// <b>Battlecry and Deathrattle:</b> Draw a Rafaam.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string TimethiefRafaam_TinyRafaamToken = "TIME_005t1";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Give Rafaams in your hand and battlefield +2/+2.<br/>
+                /// <b>Battlecry:</b> Give other Rafaams in your hand and battlefield +2/+2.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string TimethiefRafaam_GreenRafaamToken = "TIME_005t2";

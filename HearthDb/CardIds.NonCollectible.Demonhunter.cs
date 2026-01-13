@@ -2624,6 +2624,12 @@ namespace HearthDb
                 public const string SilithidQueen_SilithidGrubToken = "TLC_903t";
 
                 /// <summary>
+                /// +3 Attack for 3 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Chronikar_EonFragmentsEnchantment = "END_006e";
+
+                /// <summary>
                 /// <b>Lifesteal</b> After your hero attacks and kills a minion, draw a Portal to Argus.<br/>
                 /// 3-Cost Weapon
                 /// </summary>

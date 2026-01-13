@@ -1412,13 +1412,13 @@ namespace HearthDb
                 public const string Vessina = "DALA_Vessina";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Freeze</b> a minion until this leaves the battlefield.<br/>
+                /// <b>Battlecry:</b> <b>Freeze</b> any minions your opponent summons next turn.<br/>
                 /// 4-Cost 3/5 Elemental Minion
                 /// </summary>
                 public const string StasisElemental = "TOT_118";
 
                 /// <summary>
-                /// <b>Frozen</b> until Stasis Elemental leaves the battlefield.<br/>
+                /// <b>Freeze</b> minions your opponent summons.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string StasisElemental_StasisEnchantment = "TOT_118e";
@@ -4026,6 +4026,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string MountainMap_MountaineeringMapPlayerEnchantEnchantment = "TLC_464e";
+
+                /// <summary>
+                /// <b>Immune</b> this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WingedAberration_AberrantEnchantment = "END_032e";
 
                 /// <summary>
                 /// Holding the High King's Hammer. <b>Deathrattle:</b> Add it to your hand.<br/>

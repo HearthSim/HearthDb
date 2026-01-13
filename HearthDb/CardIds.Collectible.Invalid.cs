@@ -8,6 +8,138 @@ namespace HearthDb
             public class Invalid
             {
                 /// <summary>
+                /// <b>Battlecry:</b> <b>Imbue</b> your Hero Power.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string JaggedEdgeOfTime = "END_001";
+
+                /// <summary>
+                /// <b>Reborn</b>. <b>Deathrattle:</b> Equip a 1/2 Dagger. If you already have a weapon equipped, give it +2 Attack instead.<br/>
+                /// 4-Cost 4/3 Undead Minion
+                /// </summary>
+                public const string WickedBlightspawn = "END_002";
+
+                /// <summary>
+                /// Costs (1) less for each minion that died this turn. <b>Battlecry:</b> Draw 2 cards.<br/>
+                /// 7-Cost 6/5 Demon/Undead Minion
+                /// </summary>
+                public const string RemnantOfRage = "END_004";
+
+                /// <summary>
+                /// Summon a random 4-Cost minion. Spend 4 <b>Corpses</b> to summon another. <b>Outcast:</b> And another.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string BygoneEchoes = "END_005";
+
+                /// <summary>
+                /// Deal $1 damage. Give your hero +1 Attack this turn. Draw 1 card. Gain 1 Armor.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string PressTheAdvantage = "END_007";
+
+                /// <summary>
+                /// After you use your Hero Power, refresh 2 Mana Crystals.<br/>
+                /// 3-Cost 3/4 Beast Minion
+                /// </summary>
+                public const string EnduringRoach = "END_008";
+
+                /// <summary>
+                /// <b>Choose One -</b> Set the Attack of all other minions to 1; or Health to 1.<br/>
+                /// 6-Cost 5/5 Dragon Minion
+                /// </summary>
+                public const string TwilightTimereaver = "END_010";
+
+                /// <summary>
+                /// At the start of your turn, gain a temporary Mana Crystal. Lasts 3 turns.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string AccelerationAura = "END_011";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a 1-Cost minion with a <b>Dark Gift</b>.<br/>
+                /// 3-Cost 3/3 Beast Minion
+                /// </summary>
+                public const string BrutishEndmaw = "END_013";
+
+                /// <summary>
+                /// Deal $3 damage to an enemy. If it dies, give a random friendly minion +3/+3.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string SynchronizedSpark = "END_014";
+
+                /// <summary>
+                /// After your hero attacks, discard your highest Cost card.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string Chronoclaws = "END_016";
+
+                /// <summary>
+                /// <b>Quest:</b> Fill your hand, then empty it. <b>Reward: </b>Tick and Tock.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string BattleAtTheEndTime = "END_017";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Battlecry:</b> If your hero took damage this turn, gain +3/+3.<br/>
+                /// 5-Cost 5/6 Minion
+                /// </summary>
+                public const string EndtimeSurvivor = "END_019";
+
+                /// <summary>
+                /// Deal $1 damage to a minion. If it survives, draw a card. If it dies, summon a random 1-Cost minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string EternalToil = "END_020";
+
+                /// <summary>
+                /// Has <b>Spell Damage +2</b> while damaged.<br/>
+                /// 1-Cost 1/3 Dragon Minion
+                /// </summary>
+                public const string TimeTwistedSeer = "END_022";
+
+                /// <summary>
+                /// <b>Freeze</b> a minion and its neighbors. Destroy any that are damaged.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string BitterEnd = "END_023";
+
+                /// <summary>
+                /// <b>Lifesteal</b> Deal $3 damage to a minion. If it dies, return this to your hand at the end of your turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string EternalFirebolt = "END_025";
+
+                /// <summary>
+                /// After you cast a spell on a minion, draw a card.<br/>
+                /// 4-Cost 3/6 Elemental Minion
+                /// </summary>
+                public const string FragmentOfNothing = "END_026";
+
+                /// <summary>
+                /// Destroy all minions with 4 or less Attack. <b>Overload:</b> (2)<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string ForAllTime = "END_028";
+
+                /// <summary>
+                /// At the end of your turn, get a random Shadow spell.<br/>
+                /// 2-Cost 0/4 Totem Minion
+                /// </summary>
+                public const string VoodooTotem = "END_029";
+
+                /// <summary>
+                /// <b>Stealth</b> <b>Spell Damage +1</b><br/>
+                /// 3-Cost 3/3 Undead Minion
+                /// </summary>
+                public const string ShadeOfTheEndTime = "END_031";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Combo and Overload (2)</b>: Gain <b>Immune</b> this turn and <b>Windfury</b>.<br/>
+                /// 4-Cost 4/4 Dragon Minion
+                /// </summary>
+                public const string WingedAberration = "END_032";
+
+                /// <summary>
                 /// Get a 1/1 Zergling. <b>Deathrattle:</b> Your Zerg minions have <b>Rush</b> this turn.<br/>
                 /// 2-Cost Location
                 /// </summary>

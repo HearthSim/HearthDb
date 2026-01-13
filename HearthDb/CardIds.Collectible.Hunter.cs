@@ -1088,6 +1088,12 @@ namespace HearthDb
                 public const string BrollBearmantle = "EDR_853";
 
                 /// <summary>
+                /// <b>Kindred and Deathrattle:</b> Get a random <b>Deathrattle</b> minion. It costs (2) less.<br/>
+                /// 5-Cost 5/5 Beast Minion
+                /// </summary>
+                public const string TrienniumRex = "END_015";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If you control no other minions, <b>Discover</b> and cast a <b>Secret</b>.<br/>
                 /// 3-Cost 4/2 Minion
                 /// </summary>
@@ -1644,6 +1650,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string RexxarHeroic_BansheeQueenSylvanasHeroHeroSkins = "HERO_05bh";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_KingMalukHeroHeroSkins = "HERO_05bi";
 
                 /// <summary>
                 /// (No Text)<br/>

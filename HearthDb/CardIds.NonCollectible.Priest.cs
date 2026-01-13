@@ -263,37 +263,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins7 = "HERO_09bqhp";
+                public const string AnduinWrynn_LesserHealHeroSkins7 = "HERO_09bihp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins7 = "HERO_09bqhp2";
+                public const string AnduinWrynn_HealHeroSkins7 = "HERO_09bihp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins8 = "HERO_09dbp";
+                public const string AnduinWrynn_LesserHealHeroSkins8 = "HERO_09bqhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #4 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_HealHeroSkins8 = "HERO_09bqhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins9 = "HERO_09dbp_Copy";
+                public const string AnduinWrynn_LesserHealHeroSkins9 = "HERO_09dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #2 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_LesserHealHeroSkins10 = "HERO_09dbp_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins8 = "HERO_09dbp2";
+                public const string AnduinWrynn_HealHeroSkins9 = "HERO_09dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins9 = "HERO_09dbp2_Copy";
+                public const string AnduinWrynn_HealHeroSkins10 = "HERO_09dbp2_Copy";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, your Hero Power costs (0) this game.<br/>
@@ -1430,13 +1442,13 @@ namespace HearthDb
                 public const string Soothe = "DALA_Priest_HP2";
 
                 /// <summary>
-                /// Add two random cards your opponent played this game to your hand.<br/>
+                /// Get copies of the last two cards your opponent played.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Reminisce = "TOT_343";
 
                 /// <summary>
-                /// <b>Discover</b> a minion. If you play it this turn, it has <b>Echo</b>.<br/>
+                /// <b>Discover</b> a minion from your deck. It has <b>Echo</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string RippleInTime = "TOT_345";

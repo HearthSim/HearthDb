@@ -29928,6 +29928,24 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string HornofFeasting_FeastingEnchantment = "DINO_136e";
+
+                /// <summary>
+                /// Set the Attack of all other minions to 1.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string TwilightTimereaver_FiniteWill = "END_010a";
+
+                /// <summary>
+                /// Set the Health of all other minions to 1.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string TwilightTimereaver_FiniteResolve = "END_010b";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw until your hand is full. <b>Deathrattle:</b> Empty the opponent's hand.<br/>
+                /// 5-Cost 8/8 Dragon Minion
+                /// </summary>
+                public const string BattleattheEndTime_TickAndTockToken = "END_017t";
             }
         }
     }

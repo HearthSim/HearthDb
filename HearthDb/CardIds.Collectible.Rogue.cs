@@ -1070,6 +1070,12 @@ namespace HearthDb
                 public const string HarbingerOfTheBlighted = "EDR_781";
 
                 /// <summary>
+                /// Deal $2 damage. <b>Imbue</b> your Hero Power.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Eventuality = "END_000";
+
+                /// <summary>
                 /// <b>Combo:</b> Deal 4 damage randomly split among all enemies.<br/>
                 /// 3-Cost 4/3 Mechanical Minion
                 /// </summary>
@@ -1638,6 +1644,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ValeeraSanguinar_HopefulVanessaHeroHeroSkins = "HERO_03bj";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinar_BeastTessHeroHeroSkinsEnchantment = "HERO_03bo";
 
                 /// <summary>
                 /// (No Text)<br/>

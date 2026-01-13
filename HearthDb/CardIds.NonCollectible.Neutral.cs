@@ -24450,58 +24450,52 @@ namespace HearthDb
                 public const string SandySpeedEnchantment = "ULDA_BOSS_42e3";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Shuffle four Historical Epochs into your deck.<br/>
-                /// 4-Cost 5/5 Minion
+                /// <b>Battlecry and Deathrattle:</b> Shuffle four Historical Epochs into your deck.<br/>
+                /// 4-Cost 4/5 Minion
                 /// </summary>
-                public const string Chromie = "TOT_030";
+                public const string ChromieBronzeEmissary = "TOT_030";
 
                 /// <summary>
                 /// <b>Casts When Drawn</b> Add two random Legendary minions to your hand.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string Chromie_OpeningTheDarkPortalToken = "TOT_030t1";
+                public const string ChromieBronzeEmissary_OpeningTheDarkPortalToken = "TOT_030t1";
 
                 /// <summary>
                 /// <b>Casts When Drawn</b> Give your minions +2/+2.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string Chromie_BattleForMountHyjalToken = "TOT_030t2";
+                public const string ChromieBronzeEmissary_BattleForMountHyjalToken = "TOT_030t2";
 
                 /// <summary>
                 /// +2/+2.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string Chromie_BattleBlessingToken = "TOT_030t2e";
+                public const string ChromieBronzeEmissary_BattleBlessingToken = "TOT_030t2e";
 
                 /// <summary>
                 /// <b>Casts When Drawn</b> Add two random spells to your hand.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string Chromie_EscapeFromDurnholdeToken = "TOT_030t3";
+                public const string ChromieBronzeEmissary_EscapeFromDurnholdeToken = "TOT_030t3";
 
                 /// <summary>
                 /// <b>Casts When Drawn</b> Deal $2 damage to all enemies.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string Chromie_CullingOfStratholmeToken = "TOT_030t4";
+                public const string ChromieBronzeEmissary_CullingOfStratholmeToken = "TOT_030t4";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Add a random card from the Hall of Fame to your hand.<br/>
-                /// 5-Cost 5/5 Minion
+                /// <b>Rewind</b> <b>Battlecry:</b> Get a random card from The Taverns of Time.<br/>
+                /// 3-Cost 2/2 Minion
                 /// </summary>
                 public const string WildlandsAdventurer = "TOT_056";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Shuffle an Infinite Murloc into your deck. Your future Infinite Murlocs get +1/+1.<br/>
+                /// <b>Battlecry:</b> Shuffle two Infinite Murlocs into your deck. Your future Infinite Murlocs get +1/+2.<br/>
                 /// 1-Cost 2/2 Murloc Minion
                 /// </summary>
                 public const string InfiniteMurloc = "TOT_067";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// Enchantment
-                /// </summary>
-                public const string InfiniteMurloc_LiterallyInfiniteMurlocsEnchantment = "TOT_067e";
 
                 /// <summary>
                 /// Bonus per number played.<br/>
@@ -24516,16 +24510,22 @@ namespace HearthDb
                 public const string BlessingofAeons_LearnedEnchantment = "TOT_069ee";
 
                 /// <summary>
-                /// Destroy card if in hand at the end of turn.<br/>
+                /// Transforming into the top card of your deck.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string GrasptheFuture_TavernsEchoEnchantment = "TOT_103e";
 
                 /// <summary>
-                /// Starts dormant. This awakens with <b>Rush</b> after two turns.<br/>
-                /// 6-Cost 10/10 Dragon Minion
+                /// <b>Rush</b>. After this attacks, go <b>Dormant</b> for 1 turn.<br/>
+                /// 6-Cost 8/8 Dragon Minion
                 /// </summary>
                 public const string StasisDragon = "TOT_109";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 1 turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string StasisDragon_StasisEnchantment = "TOT_109e";
 
                 /// <summary>
                 /// 2<br/>
@@ -24534,38 +24534,26 @@ namespace HearthDb
                 public const string StasisDragon_StasisDragonToken = "TOT_109t";
 
                 /// <summary>
-                /// Costs (1) less for each card you've drawn.<br/>
-                /// 15-Cost 8/8 Minion
+                /// Costs (1) less for each turn you've taken this game.<br/>
+                /// 10-Cost 8/8 Minion
                 /// </summary>
                 public const string TimeboundGiant = "TOT_110";
 
                 /// <summary>
                 /// Instead of drawing your normal card each turn, <b>Discover</b> a card from your deck.<br/>
-                /// 3-Cost 2/4 Minion
+                /// 3-Cost 3/4 Minion
                 /// </summary>
                 public const string TimelineWitness = "TOT_111";
 
                 /// <summary>
-                /// (No Text)<br/>
-                /// Enchantment
-                /// </summary>
-                public const string TimelineWitness_ChronomancingEnchantment = "TOT_111e";
-
-                /// <summary>
-                /// <b>Battlecry:</b> Shuffle your hand into your deck. Draw that many cards.<br/>
-                /// 4-Cost 4/6 Dragon Minion
+                /// <b>Battlecry:</b> Shuffle your hand into your deck. Draw 4 cards.<br/>
+                /// 4-Cost 4/4 Dragon Minion
                 /// </summary>
                 public const string PossibilitySeeker = "TOT_112";
 
                 /// <summary>
-                /// Growth happening<br/>
-                /// Enchantment
-                /// </summary>
-                public const string PossibilitySeeker_CavernGrowthEnchantment = "TOT_112e";
-
-                /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a spell. Reduce its cost by (5) then put it on top of your deck.<br/>
-                /// 5-Cost 6/3 Minion
+                /// <b>Battlecry:</b> <b>Discover</b> a spell to put on top of your deck. It costs (5) less.<br/>
+                /// 5-Cost 6/5 Minion
                 /// </summary>
                 public const string TimewayWanderer = "TOT_116";
 
@@ -24576,7 +24564,7 @@ namespace HearthDb
                 public const string TimewayWanderer_ClockedEnchantment = "TOT_116e";
 
                 /// <summary>
-                /// +2/+2 for each time Infinite Wolf attacked.<br/>
+                /// +4/+3.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string InfiniteWolf_RewoundEnchantment = "TOT_117e";
@@ -24588,25 +24576,19 @@ namespace HearthDb
                 public const string DraconicHerald_ProphecysChosenEnchantment = "TOT_316e";
 
                 /// <summary>
-                /// <b>Battlecry:</b> From now on, your turns are 15 seconds and you draw 2 extra cards.<br/>
+                /// <b>Rewind</b> <b>Battlecry:</b> Get a random <b>Fabled</b> minion and its bundled cards.<br/>
                 /// 7-Cost 6/6 Dragon Minion
                 /// </summary>
                 public const string MurozondTAVERNS_OF_TIME = "TOT_332";
 
                 /// <summary>
-                /// Your turns last 20 seconds. You draw 2 cards each turn.<br/>
-                /// Enchantment
-                /// </summary>
-                public const string Murozond_TimeWarpedEnchantment = "TOT_332e";
-
-                /// <summary>
-                /// When you draw this, add a random spell to your hand <i>(from your class).</i><br/>
+                /// <b>Tradeable</b>. When you draw this, get a random spell <i>(from your class).</i><br/>
                 /// 2-Cost 2/3 Elemental Minion
                 /// </summary>
                 public const string TemporalAnomaly = "TOT_334";
 
                 /// <summary>
-                /// Echo this turn.<br/>
+                /// <b>Echo</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string RippleinTime_TimeRippleEnchantment = "TOT_345e";
@@ -36855,6 +36837,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Xylobones_OssumPerformanceEnchantment = "BG26_172e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Tier-5 1/8 Undead Minion
+                /// </summary>
+                public const string BgtemplateVfxDummy = "BG26_173";
 
                 /// <summary>
                 /// Normal (this):<br/>
@@ -66119,6 +66107,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string ChihuWrathionTavernBrawl = "TB_BaconShopBob_SKIN_BJ";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string DragonspeakerBobTavernBrawl = "TB_BaconShopBob_SKIN_C";
 
                 /// <summary>
@@ -66468,6 +66462,17 @@ namespace HearthDb
                 /// Tier-1 4/6 Mechanical Minion
                 /// </summary>
                 public const string SecurityRover_GuardBotTokenTavernBrawl = "TB_BaconUps_041t";
+
+                /// <summary>
+                /// Triple (this):<br/>
+                /// <b>Deathrattle:</b> Summon a 3/3 Pip Quickwit for your opponent.<br/>
+                /// Tier-3 18/14 Beast Minion<br/>
+                /// --------------------<br/>
+                /// Normal:<br/>
+                /// <b>Deathrattle:</b> Summon a 3/3 Pip Quickwit for your opponent.<br/>
+                /// Tier-3 9/7 Beast Minion
+                /// </summary>
+                public const string TheBeastTavernBrawl = "TB_BaconUps_042";
 
                 /// <summary>
                 /// Triple (this):<br/>
@@ -88785,6 +88790,12 @@ namespace HearthDb
                 public const string BonelordFrostwhisper_LichDeathCounterEnchantment = "RLK_591e";
 
                 /// <summary>
+                /// Your hero dies in 3 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BonelordFrostwhisper_LichDeathcurseDiscountEnchantment = "RLK_591e1";
+
+                /// <summary>
                 /// Costs (0).<br/>
                 /// Enchantment
                 /// </summary>
@@ -92809,6 +92820,66 @@ namespace HearthDb
                 public const string TheCoinTHE_LOST_CITY4 = "TLC_COIN2";
 
                 /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WickedBlightspawn_WickedEnchantment = "END_002e";
+
+                /// <summary>
+                /// +1 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PresstheAdvantage_ClawsOfFuryEnchantment = "END_007e1";
+
+                /// <summary>
+                /// Attack set to 1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TwilightTimereaver_FiniteWillEnchantment = "END_010ae";
+
+                /// <summary>
+                /// Health set to 1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TwilightTimereaver_FiniteResolveEnchantment = "END_010be";
+
+                /// <summary>
+                /// Attack and Health set to 1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TwilightTimereaver_FiniteExistenceEnchantment = "END_010e";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SynchronizedSpark_InSyncEnchantment = "END_014e";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EndtimeSurvivor_AloneInTimeEnchantment = "END_019e";
+
+                /// <summary>
+                /// <b>Spell Damage +2</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TimeTwistedSeer_TimeTwistedEnchantment = "END_022e";
+
+                /// <summary>
+                /// Get an Eternal Flame at the end of the turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EternalFirebolt_EternalFireboltEnchantment = "END_025e";
+
+                /// <summary>
+                /// Your <b>Rewinds</b> keep BOTH outcomes.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Morchie_MultiversalSingularityEnchantment = "END_036e";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// Enchantment
                 /// </summary>
@@ -92995,10 +93066,22 @@ namespace HearthDb
                 public const string TheCoinTIME_TRAVEL2 = "TIME_COIN2";
 
                 /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinTIME_TRAVEL3 = "TIME_COIN3";
+
+                /// <summary>
                 /// <b>Deathrattle:</b> Summon a random 3-Cost minion.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string WelcomeHome_NewResidentEnchantment = "TIME_EVENT_997e";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinTIME_TRAVEL4 = "TIME_EVENT_COIN";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -93071,6 +93154,30 @@ namespace HearthDb
                 /// 0-Cost Pet
                 /// </summary>
                 public const string HelmedHoundArfus = "PET_6_4";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string YseraTheAlert = "PET_7_1";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string ArdenwealdYsera = "PET_7_2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string YseraOfTheBronze = "PET_7_3";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Pet
+                /// </summary>
+                public const string CorruptedYsera = "PET_7_4";
             }
         }
     }

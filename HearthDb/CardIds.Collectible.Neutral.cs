@@ -4351,6 +4351,36 @@ namespace HearthDb
                 public const string GnawingGreenfin = "EDR_999";
 
                 /// <summary>
+                /// <b>Elusive</b> Costs (3) less if you're holding another Dragon.<br/>
+                /// 7-Cost 6/9 Dragon Minion
+                /// </summary>
+                public const string PrescientSlitherdrake = "END_033";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy a random enemy minion, location, and weapon.<br/>
+                /// 8-Cost 8/6 Dragon Minion
+                /// </summary>
+                public const string Crumblecrusher = "END_034";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If your deck is empty, destroy the top 5 cards of the enemy deck.<br/>
+                /// 5-Cost 5/5 Dragon Minion
+                /// </summary>
+                public const string OmenOfTheEnd = "END_035";
+
+                /// <summary>
+                /// Your <b>Rewinds</b> keep BOTH potential outcomes. <b>Battlecry:</b> <b>Discover</b> a <b>Rewind</b> card from any class.<br/>
+                /// 4-Cost 2/5 Minion
+                /// </summary>
+                public const string Morchie = "END_036";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Fill your board with random Dragons. Fully heal your hero. Skip your next turn.<br/>
+                /// 9-Cost 4/6 Minion
+                /// </summary>
+                public const string EndtimeMurozond = "END_037";
+
+                /// <summary>
                 /// While building your deck, assemble a band of 3 cards. <b>Battlecry: Discover</b> one!<br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
@@ -5071,8 +5101,13 @@ namespace HearthDb
                 public const string Ysera = "EX1_572";
 
                 /// <summary>
+                /// Normal (this):<br/>
                 /// <b>Deathrattle:</b> Summon a 3/3 Pip Quickwit for your opponent.<br/>
-                /// Tier-3 9/7 Beast Minion
+                /// Tier-3 9/7 Beast Minion<br/>
+                /// --------------------<br/>
+                /// Triple:<br/>
+                /// <b>Deathrattle:</b> Summon a 3/3 Pip Quickwit for your opponent.<br/>
+                /// Tier-3 18/14 Beast Minion
                 /// </summary>
                 public const string TheBeast = "EX1_577";
 

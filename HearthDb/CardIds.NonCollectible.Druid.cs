@@ -2306,14 +2306,26 @@ namespace HearthDb
                 public const string CrystalPower = "Story_11_CrystalPowerPuzzle";
 
                 /// <summary>
-                /// Each player gains two Mana Crystals and draws two cards.<br/>
+                /// <b>Choose One -</b> Draw two cards; or gain two Mana Crystals. Your opponent does the other.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FlashForward = "TOT_105";
 
                 /// <summary>
-                /// At the start of your turn, summon the highest-cost minion from each player's deck.<br/>
-                /// 6-Cost 6/7 Dragon Minion
+                /// Draw two cards. Your opponent gains two Mana Crystals.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string FlashForward_AccelerateToken = "TOT_105t";
+
+                /// <summary>
+                /// Gain two Mana Crystals. Your opponent draws two cards.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string FlashForward_ExpediteToken = "TOT_105t2";
+
+                /// <summary>
+                /// <b><b>Rush</b> Deathrattle:</b> Refresh your Mana Crystals.<br/>
+                /// 5-Cost 5/4 Dragon Minion
                 /// </summary>
                 public const string HarbingerOfCatastrophe = "TOT_320";
 
@@ -5652,6 +5664,18 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string LohtheLivingLegend_LivingLegendEnchantment = "TLC_257e1";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SplinteredReality_SplinteredEnchantment = "END_009e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 2/2 Minion
+                /// </summary>
+                public const string SplinteredReality_TreantToken = "END_009t";
 
                 /// <summary>
                 /// The minions summoned by Zin-Azshari will have doubled stats. Destroy The Well of Eternity.<br/>

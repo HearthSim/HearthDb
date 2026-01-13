@@ -1946,13 +1946,13 @@ namespace HearthDb
                 public const string ClockworkGoblin = "Story_11_ClockworkGoblinPuzzle";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a minion. Give it +3/+3 then put it on top of your deck.<br/>
-                /// 6-Cost 6/6 Dragon Minion
+                /// <b>Battlecry:</b> <b>Discover</b> a Dragon. If you're holding a Dragon, summon it.<br/>
+                /// 7-Cost 6/6 Dragon Minion
                 /// </summary>
                 public const string DraconicHerald = "TOT_316";
 
                 /// <summary>
-                /// After this kills a minion, destroy all copies of it <i>(wherever they are).</i><br/>
+                /// After you attack a minion, destroy all copies of it <i>(wherever they are).</i><br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string Fatecleaver = "TOT_342";
@@ -4656,6 +4656,12 @@ namespace HearthDb
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string StoryofSulfuras_DieInsectToken2 = "TLC_632t2";
+
+                /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DimensionalWeaponsmith_CuttingEdgeEnchantment = "END_021e";
 
                 /// <summary>
                 /// +1/+1.<br/>

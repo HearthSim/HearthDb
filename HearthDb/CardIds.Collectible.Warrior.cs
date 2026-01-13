@@ -1099,6 +1099,12 @@ namespace HearthDb
                 public const string OminousNightmares = "EDR_570";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Give all minions and weapons in your hand +2 Attack.<br/>
+                /// 3-Cost 2/5 Dragon Minion
+                /// </summary>
+                public const string DimensionalWeaponsmith = "END_021";
+
+                /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> If you control no other minions, gain +2/+2 and <b>Rush</b>.<br/>
                 /// 5-Cost 5/5 Dragon Minion
                 /// </summary>

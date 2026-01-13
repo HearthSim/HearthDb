@@ -1112,6 +1112,12 @@ namespace HearthDb
                 public const string KaldoreiPriestess = "EDR_970";
 
                 /// <summary>
+                /// <b>Discover</b> a Dragon from the past with a <b>Dark Gift</b>.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string WingsOfEternity = "END_027";
+
+                /// <summary>
                 /// Give a minion -5/-5. If it has 0 Attack, destroy it.<br/>
                 /// 3-Cost Spell
                 /// </summary>
@@ -1704,6 +1710,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string AnduinWrynn_WardenTyrandeHeroHeroSkins = "HERO_09bg";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_VelenTheBronzeHeroHeroSkins = "HERO_09bj";
 
                 /// <summary>
                 /// (No Text)<br/>

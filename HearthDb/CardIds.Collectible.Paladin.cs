@@ -1063,6 +1063,12 @@ namespace HearthDb
                 public const string GoldpetalDrake = "EDR_451";
 
                 /// <summary>
+                /// Can't attack heroes. <b>Battlecry:</b> Set this weapon's Attack to INFINITY this turn!<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string HandOfInfinity = "END_012";
+
+                /// <summary>
                 /// <b>Deathrattle:</b> Give a random friendly minion +1/+1. <i>(Play minions while equipped to improve!)</i><br/>
                 /// 3-Cost Weapon
                 /// </summary>

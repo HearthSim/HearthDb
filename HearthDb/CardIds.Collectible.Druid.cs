@@ -1094,6 +1094,12 @@ namespace HearthDb
                 public const string Photosynthesis = "EDR_848";
 
                 /// <summary>
+                /// Summon two 2/2 Treants. They gain +1/+1 for each friendly Treant that died this game. <i>()</i><br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string SplinteredReality = "END_009";
+
+                /// <summary>
                 /// <b>Choose One -</b> Summon five 2/2 Treants; or Give your minions +2/+4 and <b>Taunt</b>.<br/>
                 /// 7-Cost Spell
                 /// </summary>
@@ -1668,6 +1674,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string MalfurionStormrageHeroic_OldWaysUlfarHeroHeroSkins = "HERO_06bh";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MalfurionStormrage_ChaofengLunaraHeroHeroSkins = "HERO_06bi";
 
                 /// <summary>
                 /// (No Text)<br/>

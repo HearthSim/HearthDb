@@ -1064,6 +1064,12 @@ namespace HearthDb
                 public const string Starsurge = "EDR_941";
 
                 /// <summary>
+                /// <b>Secret:</b> When your enemy's turn ends, deal INFINITE damage to their highest Health minion.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string FlamesOfInfinity = "END_024";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If you control no other minions, summon two 1/2 Amps with <b>Spell Damage +1</b>.<br/>
                 /// 4-Cost 2/4 Naga Minion
                 /// </summary>
@@ -1692,6 +1698,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string JainaProudmoore_KirinTorKelthuzadHeroHeroSkins = "HERO_08bt";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_MorchieHeroHeroSkins = "HERO_08bu";
 
                 /// <summary>
                 /// (No Text)<br/>

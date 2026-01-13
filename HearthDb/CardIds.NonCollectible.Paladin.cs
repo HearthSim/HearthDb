@@ -1692,13 +1692,13 @@ namespace HearthDb
                 public const string BoonOfLight = "DALA_Paladin_HP2";
 
                 /// <summary>
-                /// Give a minion "At the end of your turn, gain +1/+1."<br/>
-                /// 0-Cost Spell
+                /// Give a minion +1/+2 and "At the end of your turn, restore this to full Health."<br/>
+                /// 1-Cost Spell
                 /// </summary>
                 public const string BlessingOfAeons = "TOT_069";
 
                 /// <summary>
-                /// Gains +1/+1 at the end of your turn.<br/>
+                /// Restores to full Health at the end of your turn.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string BlessingofAeons_WiseBeyondYearsEnchantment = "TOT_069e";
@@ -1710,10 +1710,16 @@ namespace HearthDb
                 public const string WeeWhelpToken = "TOT_303t";
 
                 /// <summary>
-                /// When you draw this, summon a 1/1 Wee Whelp.<br/>
-                /// 5-Cost 6/6 Dragon Minion
+                /// <b>Tradeable</b>. When you draw this, summon two 1/1 Whelps. <b>Battlecry:</b> Give your other Dragons +2/+2.<br/>
+                /// 5-Cost 5/5 Dragon Minion
                 /// </summary>
                 public const string BronzeBroodmother = "TOT_330";
+
+                /// <summary>
+                /// +2/+2<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BronzeBroodmother_TimeAttackEnchantment = "TOT_330e";
 
                 /// <summary>
                 /// Whenever you summon a minion, gain +1 Attack.<br/>
@@ -4366,6 +4372,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string ThreshridersBlessing_ThresherSaddleEnchantment = "TLC_477e";
+
+                /// <summary>
+                /// Attack set to INFINITY this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HandofInfinity_InfiniteSharpnessEnchantment = "END_012e";
 
                 /// <summary>
                 /// <b>Tradeable</b> At the end of your turn, restore #4 Health to all your characters. Lasts 3 turns.<br/>

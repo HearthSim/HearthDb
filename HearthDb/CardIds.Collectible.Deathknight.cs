@@ -248,6 +248,12 @@ namespace HearthDb
                 public const string Ursoc = "EDR_819";
 
                 /// <summary>
+                /// Draw an Undead. <b>Imbue</b> your Hero Power twice.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Finality = "END_003";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Deal 2 damage. <b>Finale:</b> To all enemies.<br/>
                 /// 3-Cost 2/1 Undead Minion
                 /// </summary>
@@ -467,6 +473,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string TheLichKing_EbonBladeWhitemaneHeroHeroSkins = "HERO_11ak";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TheLichKing_LavaLordBolvarHeroHeroSkins = "HERO_11al";
 
                 /// <summary>
@@ -498,6 +510,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TheLichKing_NewlyRisenScarletHeroHeroSkins = "HERO_11ar";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKing_InfiniteIngeHeroHeroSkins = "HERO_11as";
 
                 /// <summary>
                 /// (No Text)<br/>

@@ -1940,15 +1940,21 @@ namespace HearthDb
 
                 /// <summary>
                 /// At the end of your turn, add a random spell that costs (2) or less to your hand.<br/>
-                /// 2-Cost 1/3 Minion
+                /// 1-Cost 1/3 Minion
                 /// </summary>
                 public const string CavernDreamer = "TOT_308";
 
                 /// <summary>
-                /// Add 3 random spells from the past to your hand.<br/>
-                /// 3-Cost Spell
+                /// <b>Discover</b> a spell from the past. When you cast it, return this to your hand.<br/>
+                /// 1-Cost Spell
                 /// </summary>
                 public const string ConsiderThePast = "TOT_341";
+
+                /// <summary>
+                /// Returns Consider the Past to your hand when played.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ConsiderthePast_ConsiderThePastEnchantment = "TOT_341e";
 
                 /// <summary>
                 /// Add a random Mage spell to your hand. It costs (2) less.<br/>

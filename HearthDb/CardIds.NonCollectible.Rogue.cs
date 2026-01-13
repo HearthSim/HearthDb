@@ -1669,16 +1669,16 @@ namespace HearthDb
                 public const string CutLess = "DALA_Rogue_HP2";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Add a copy of the top card of your opponent's deck to your hand.<br/>
+                /// <b>Battlecry:</b> Steal the top card of your opponent's deck.<br/>
                 /// 3-Cost 4/3 Minion
                 /// </summary>
                 public const string ThiefOfFutures = "TOT_107";
 
                 /// <summary>
-                /// <b>Discover</b> a copy of a spell you played this game.<br/>
-                /// 0-Cost Spell
+                /// <b>Discover</b> a copy of a spell you played this game. <b>Combo:</b> And a minion.<br/>
+                /// 1-Cost Spell
                 /// </summary>
-                public const string DéjàVu = "TOT_108";
+                public const string VujaDe = "TOT_108";
 
                 /// <summary>
                 /// +2 Attack.<br/>
@@ -4277,6 +4277,18 @@ namespace HearthDb
                 /// 2-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string AmbushPredators_VenomousSpitterToken = "TLC_519t";
+
+                /// <summary>
+                /// Reduced Cost.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Eventuality_DimensionallyShiftedEnchantment = "END_000e";
+
+                /// <summary>
+                /// <b>Rewind</b> Get a random minion from another class. It costs (1) less.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string Eventuality_BlessingOfTheBronze = "END_000p";
 
                 /// <summary>
                 /// Costs (2) more.<br/>

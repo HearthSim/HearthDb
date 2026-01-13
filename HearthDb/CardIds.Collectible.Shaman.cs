@@ -1052,6 +1052,12 @@ namespace HearthDb
                 public const string PluckyPodling = "EDR_529";
 
                 /// <summary>
+                /// <b>Elusive,</b> <b>Taunt</b> Costs (1) less for each Mana Crystal you've <b>Overloaded</b> this game.<br/>
+                /// 6-Cost 4/6 Dragon/Beast Minion
+                /// </summary>
+                public const string HaywireHornswog = "END_030";
+
+                /// <summary>
                 /// <b>Lifesteal</b> Deal $6 damage to a minion. Costs (3) less if you're <b>Overloaded</b>.<br/>
                 /// 5-Cost Spell
                 /// </summary>

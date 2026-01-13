@@ -356,37 +356,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins6 = "HERO_05dbp";
+                public const string Rexxar_SteadyShotHeroSkins6 = "HERO_05bihp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins6 = "HERO_05dbp2";
+                public const string Rexxar_BallistaShotHeroSkins6 = "HERO_05bihp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins7 = "HERO_05ybp";
+                public const string Rexxar_SteadyShotHeroSkins7 = "HERO_05dbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins7 = "HERO_05ybp2";
+                public const string Rexxar_BallistaShotHeroSkins7 = "HERO_05dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins8 = "HERO_05zbp";
+                public const string Rexxar_SteadyShotHeroSkins8 = "HERO_05ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins8 = "HERO_05zbp2";
+                public const string Rexxar_BallistaShotHeroSkins8 = "HERO_05ybp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_SteadyShotHeroSkins9 = "HERO_05zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_BallistaShotHeroSkins9 = "HERO_05zbp2";
 
                 /// <summary>
                 /// Change a minion's Health to 1.<br/>
@@ -1605,8 +1617,8 @@ namespace HearthDb
                 public const string RapidFire_RapidFireTokenDALARAN2 = "RLK_Prologue_DAL_373ts";
 
                 /// <summary>
-                /// <b>Rush</b>. After this attacks, shuffle it into your deck and give future Infinite Wolves +2/+2.<br/>
-                /// 3-Cost 5/5 Beast Minion
+                /// <b><b>Rush</b>. Deathrattle:</b> Shuffle an Infinite Wolf into your deck. Give future Infinite Wolves +4/+3.<br/>
+                /// 3-Cost 4/3 Beast Minion
                 /// </summary>
                 public const string InfiniteWolf = "TOT_117";
 

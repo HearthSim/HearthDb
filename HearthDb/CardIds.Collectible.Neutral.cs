@@ -4370,7 +4370,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Your <b>Rewinds</b> keep BOTH potential outcomes. <b>Battlecry:</b> <b>Discover</b> a <b>Rewind</b> card from any class.<br/>
-                /// 4-Cost 2/5 Minion
+                /// 4-Cost 3/6 Minion
                 /// </summary>
                 public const string Morchie = "END_036";
 

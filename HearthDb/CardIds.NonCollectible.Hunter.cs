@@ -1618,7 +1618,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b><b>Rush</b>. Deathrattle:</b> Shuffle an Infinite Wolf into your deck. Give future Infinite Wolves +4/+3.<br/>
-                /// 3-Cost 4/3 Beast Minion
+                /// 4-Cost 4/3 Beast Minion
                 /// </summary>
                 public const string InfiniteWolf = "TOT_117";
 

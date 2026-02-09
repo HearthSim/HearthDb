@@ -1667,6 +1667,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Thrall_EternalflameRagnarosHeroHeroSkins = "HERO_02bw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Thrall_TheThunderKingHeroHeroSkins = "HERO_02c";
 
                 /// <summary>
@@ -2871,7 +2877,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// While in your hand, play two different spell schools to transform. <i>({0} left!)</i> <i>(Ready!)</i><br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar = "VAC_449";
 

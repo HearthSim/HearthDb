@@ -1333,7 +1333,7 @@ namespace HearthDb
                 public const string DwarfPlanet = "GDB_233";
 
                 /// <summary>
-                /// <b>Start of Game:</b> Shuffle 7 Replicating Spores into your deck.<br/>
+                /// <b>Start of Game:</b> Shuffle 7 Replicating Spores into your deck. <b>Battlecry:</b> Cast one.<br/>
                 /// 6-Cost 6/7 Minion
                 /// </summary>
                 public const string SporeEmpressMoldara = "GDB_234";
@@ -1685,6 +1685,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string GarroshHellscream_EndTimeGarroshHeroHeroSkins = "HERO_01bj";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_LionsLandingVarianHeroHeroSkins1 = "HERO_01bk";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_LionsLandingVarianHeroHeroSkins2 = "HERO_01bk_gold";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2552,7 +2564,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> After this takes damage, get two random <b>Minis</b>.<br/>
-                /// 9-Cost 4/12 Mechanical Minion
+                /// 7-Cost 4/12 Mechanical Minion
                 /// </summary>
                 public const string Botface = "TOY_906";
 

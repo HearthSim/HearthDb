@@ -3176,6 +3176,12 @@ namespace HearthDb
                 public const string SplendiferousWhizbang_NonupletDeckToken = "TOY_700t1";
 
                 /// <summary>
+                /// Your Lackeys cost (0).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SplendiferousWhizbang_DeckOfVillainsDiscountToken = "TOY_700t12e";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// Enchantment
                 /// </summary>
@@ -3266,7 +3272,7 @@ namespace HearthDb
                 public const string MystifiedTocha_TheAnswerEnchantment = "GDB_440e";
 
                 /// <summary>
-                /// The next Draenei you play summons a copy of itself.<br/>
+                /// The next two Draenei you play summon a copy of themselves.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string Askara_AskaraFutureBuffEnchantment = "GDB_455e";

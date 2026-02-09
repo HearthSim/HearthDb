@@ -1305,7 +1305,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Each turn this is in your hand, gain two random <b>Choose One</b> choices.<b>Choose One -</b> {0}; or {1}.<br/>
-                /// 5-Cost 6/5 Beast Minion
+                /// 4-Cost 5/4 Beast Minion
                 /// </summary>
                 public const string UluuTheEverdrifter = "GDB_854";
 
@@ -1317,7 +1317,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> If you're building a <b>Starship</b>, get 3 different Arcane spells and reduce their Costs by (2).<br/>
-                /// 4-Cost 3/3 Draenei Minion
+                /// 3-Cost 3/3 Draenei Minion
                 /// </summary>
                 public const string ExarchOthaar = "GDB_856";
 
@@ -1679,7 +1679,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string MalfurionStormrage_ChaofengLunaraHeroHeroSkins = "HERO_06bi";
+                public const string MalfurionStormrage_ChaoFengLunaraHeroHeroSkins = "HERO_06bi";
 
                 /// <summary>
                 /// (No Text)<br/>

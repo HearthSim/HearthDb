@@ -329,13 +329,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins11 = "HERO_08dbp";
+                public const string JainaProudmoore_FireblastHeroSkins11 = "HERO_08bvhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins11 = "HERO_08dbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins11 = "HERO_08bvhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins12 = "HERO_08bwhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins12 = "HERO_08bwhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins13 = "HERO_08dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins13 = "HERO_08dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -353,13 +377,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins12 = "HERO_08fbp";
+                public const string JainaProudmoore_FireblastHeroSkins14 = "HERO_08fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins12 = "HERO_08fbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins14 = "HERO_08fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
@@ -371,13 +395,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins13 = "HERO_08lbp";
+                public const string JainaProudmoore_FireblastHeroSkins15 = "HERO_08lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins13 = "HERO_08lbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins15 = "HERO_08lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -395,7 +419,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins14 = "HERO_08xbp";
+                public const string JainaProudmoore_FireblastHeroSkins16 = "HERO_08xbp";
 
                 /// <summary>
                 /// Deal $3 damage randomly split among all enemies.<br/>
@@ -4135,7 +4159,7 @@ namespace HearthDb
                 public const string WatercolorArtist_DryingEnchantment = "TOY_376e1";
 
                 /// <summary>
-                /// Each turn this is in your hand, transform it into a random playable Mage or Neutral card.<br/>
+                /// Each turn this is in your hand, transform it into a random playable Mage or Neutral card. It costs (1) less.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string SplendiferousWhizbang_MorphingCardToken = "TOY_700t13";

@@ -1819,7 +1819,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Put a random minion that costs (5) or more on top of your deck. It costs (0).<br/>
-                /// 7-Cost 7/7 Dragon Minion
+                /// 6-Cost 6/6 Dragon Minion
                 /// </summary>
                 public const string RiftWarden = "TOT_102";
 

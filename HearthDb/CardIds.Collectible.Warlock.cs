@@ -1317,7 +1317,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Get a random Demon. Reduce its Cost by (2). Repeatable this turn.<br/>
-                /// 2-Cost Spell
+                /// 1-Cost Spell
                 /// </summary>
                 public const string AbductionRay = "GDB_123";
 
@@ -1347,7 +1347,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon every Demon you played this game that didn't start in your deck.<br/>
-                /// 7-Cost 7/7 Demon Minion
+                /// 6-Cost 6/6 Demon Minion
                 /// </summary>
                 public const string Archimonde = "GDB_128";
 
@@ -2931,7 +2931,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Replace your Hero Power and non-Warlock cards with Warlock ones. They cost (1) less.<br/>
-                /// 2-Cost Spell
+                /// 1-Cost Spell
                 /// </summary>
                 public const string AnnounceDarkness = "VAC_941";
 

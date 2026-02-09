@@ -2256,6 +2256,12 @@ namespace HearthDb
                 /// Spell
                 /// </summary>
                 public const string TalanjioftheGraves_BoonOfSpeedToken = "TIME_619t5";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Dragon/Undead Minion
+                /// </summary>
+                public const string VictorNefarius_NefariansCreationToken = "CATA_470t1";
             }
         }
     }

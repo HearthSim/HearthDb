@@ -1245,13 +1245,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// At the end of your turn, deal 3 damage to a random enemy. <b><b>Spellburst</b>:</b> Summon an Arkwing Pilot.<br/>
-                /// 7-Cost 4/3 Draenei Minion
+                /// 6-Cost 4/3 Draenei Minion
                 /// </summary>
                 public const string ArkwingPilot = "GDB_134";
 
                 /// <summary>
                 /// <b>Battlecry:</b> The next Draenei you play refreshes Mana Crystals equal to its Attack.<br/>
-                /// 5-Cost 4/6 Draenei Minion
+                /// 4-Cost 4/5 Draenei Minion
                 /// </summary>
                 public const string IngeniousArtificer = "GDB_135";
 
@@ -1704,6 +1704,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string JainaProudmoore_MorchieHeroHeroSkins = "HERO_08bu";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_QiuNiuTsulongHeroHeroSkins = "HERO_08bv";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_TwilightHammerChogallHeroHeroSkins = "HERO_08bw";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2547,7 +2559,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Cast 5 random spells. If your deck has no minions, the spells cast cost (5) or more.<br/>
-                /// 8-Cost Spell
+                /// 7-Cost Spell
                 /// </summary>
                 public const string YoggInTheBox = "TOY_372";
 

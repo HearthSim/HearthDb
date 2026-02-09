@@ -8,6 +8,12 @@ namespace HearthDb
             public class Deathknight
             {
                 /// <summary>
+                /// <b>Battlecry:</b> If you're holding a Dragon, craft a custom Undead Dragon. It costs (3) less.<br/>
+                /// 5-Cost 5/5 Undead Minion
+                /// </summary>
+                public const string VictorNefarius = "CATA_470";
+
+                /// <summary>
                 /// Give a friendly Undead <b>Poisonous</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -473,12 +479,6 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string TheLichKing_EbonBladeWhitemaneHeroHeroSkins = "HERO_11ak";
-
-                /// <summary>
-                /// (No Text)<br/>
-                /// 0-Cost Hero
-                /// </summary>
                 public const string TheLichKing_LavaLordBolvarHeroHeroSkins = "HERO_11al";
 
                 /// <summary>
@@ -516,6 +516,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TheLichKing_InfiniteIngeHeroHeroSkins = "HERO_11as";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKing_TheFutureKingHeroHeroSkins = "HERO_11az";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1437,7 +1443,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Discover</b> a 5, 3, and 1-Cost minion to stitch to this. <b>Deathrattle:</b> Summon the 5-Cost minion.<br/>
-                /// 6-Cost 6/4 Undead Minion
+                /// 5-Cost 5/4 Undead Minion
                 /// </summary>
                 public const string DrStitchensew = "TOY_830";
 

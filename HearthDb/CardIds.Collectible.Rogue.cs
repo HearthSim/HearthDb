@@ -398,12 +398,6 @@ namespace HearthDb
                 public const string BackstabCore = "CORE_CS2_072";
 
                 /// <summary>
-                /// Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.<br/>
-                /// 1-Cost Spell
-                /// </summary>
-                public const string ColdBloodCorePlaceholder = "CORE_CS2_073";
-
-                /// <summary>
                 /// Give your weapon +2 Attack.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -1649,6 +1643,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string ValeeraSanguinar_SinestraHeroHeroSkins = "HERO_03bk";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_BeastTessHeroHeroSkinsEnchantment = "HERO_03bo";
 
                 /// <summary>
@@ -2847,13 +2847,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// Get two random 1-Cost spells from other classes.<br/>
-                /// 2-Cost Spell
+                /// 1-Cost Spell
                 /// </summary>
                 public const string PettyTheft = "VAC_335";
 
                 /// <summary>
                 /// <b>Warlock Tourist</b> <b><b>Battlecry:</b> Discover</b> a Hero card from the past <i>(from another class)</i>.<br/>
-                /// 5-Cost 6/5 Minion
+                /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string MaestraMaskMerchant = "VAC_336";
 
@@ -2865,7 +2865,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Go on a <b>Sidequest</b> to <b>Discover</b> amazing loot! Play 3 cards from other classes to complete it.<br/>
-                /// 5-Cost 4/5 Pirate Minion
+                /// 4-Cost 4/5 Pirate Minion
                 /// </summary>
                 public const string TreasureHunterEudora = "VAC_464";
 
@@ -3128,7 +3128,7 @@ namespace HearthDb
                 public const string TombPillagerWONDERS = "WON_340";
 
                 /// <summary>
-                /// Shuffle a card from each other class into your deck. They cost (1).<br/>
+                /// Shuffle a card from each other class into your deck. They cost (1). Draw one.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string AgencyEspionage = "WORK_004";

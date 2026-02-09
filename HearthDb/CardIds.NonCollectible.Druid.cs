@@ -2306,19 +2306,19 @@ namespace HearthDb
                 public const string CrystalPower = "Story_11_CrystalPowerPuzzle";
 
                 /// <summary>
-                /// <b>Choose One -</b> Draw two cards; or gain two Mana Crystals. Your opponent does the other.<br/>
-                /// 2-Cost Spell
+                /// <b>Choose One -</b> Draw two cards; or gain a Mana Crystal. Your opponent does the other.<br/>
+                /// 1-Cost Spell
                 /// </summary>
                 public const string FlashForward = "TOT_105";
 
                 /// <summary>
-                /// Draw two cards. Your opponent gains two Mana Crystals.<br/>
+                /// Draw two cards. Your opponent gains a Mana Crystal.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FlashForward_AccelerateToken = "TOT_105t";
 
                 /// <summary>
-                /// Gain two Mana Crystals. Your opponent draws two cards.<br/>
+                /// Gain a Mana Crystal. Your opponent draws two cards.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FlashForward_ExpediteToken = "TOT_105t2";

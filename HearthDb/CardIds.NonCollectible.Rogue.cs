@@ -292,25 +292,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins11 = "HERO_03dbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins11 = "HERO_03bkhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins11 = "HERO_03bkhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins12 = "HERO_03dbp_Copy";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins12 = "HERO_03dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins13 = "HERO_03dbp_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins11 = "HERO_03dbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins12 = "HERO_03dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins12 = "HERO_03dbp2_Copy";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins13 = "HERO_03dbp2_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
@@ -328,37 +340,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins13 = "HERO_03mbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins14 = "HERO_03mbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins13 = "HERO_03mbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins14 = "HERO_03mbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins14 = "HERO_03rbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins15 = "HERO_03rbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins14 = "HERO_03rbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins15 = "HERO_03rbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins15 = "HERO_03sbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins16 = "HERO_03sbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins15 = "HERO_03sbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins16 = "HERO_03sbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1670,7 +1682,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Steal the top card of your opponent's deck.<br/>
-                /// 3-Cost 4/3 Minion
+                /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string ThiefOfFutures = "TOT_107";
 
@@ -2234,7 +2246,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// (No Text)<br/>
-                /// 3-Cost 3/3 Minion
+                /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string TicketMaster_PlushBearToken = "DMF_514t2";
 
@@ -3847,6 +3859,12 @@ namespace HearthDb
                 public const string HarmonicHipHop_DissonantBeatsEnchantmentToken = "ETC_717te";
 
                 /// <summary>
+                /// Give a minion +2 Attack. <b>Combo:</b> +4 Attack instead.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string ColdBloodCorePlaceholder = "CORE_CS2_073";
+
+                /// <summary>
                 /// Costs (2) less.<br/>
                 /// Enchantment
                 /// </summary>
@@ -4111,7 +4129,7 @@ namespace HearthDb
                 public const string Watercannon_WatersliderToken = "TOY_522t";
 
                 /// <summary>
-                /// This deck has 5 Treasures in it.<br/>
+                /// This deck has 8 Treasures in it.<br/>
                 /// Spell
                 /// </summary>
                 public const string SplendiferousWhizbang_DeckOfTreasuresToken = "TOY_700t3";

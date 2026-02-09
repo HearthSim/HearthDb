@@ -1370,7 +1370,7 @@ namespace HearthDb
                 public const string OverzealousHealer = "GDB_454";
 
                 /// <summary>
-                /// <b>Battlecry:</b> The next Draenei you play summons a copy of itself.<br/>
+                /// <b>Battlecry:</b> The next two Draenei you play summon a copy of themselves.<br/>
                 /// 4-Cost 4/4 Draenei Minion
                 /// </summary>
                 public const string Askara = "GDB_455";
@@ -1728,6 +1728,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string AnduinWrynn_TuralyonHeroHeroSkins = "HERO_09bq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_RapunzelXyrellaHeroHeroSkins = "HERO_09br";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2972,7 +2978,7 @@ namespace HearthDb
                 public const string NarainSoothfancy = "VAC_420";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Battlecry:</b> Set the Cost of the top card of your deck to (1).<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> Set the Cost of the top card of your deck to (0).<br/>
                 /// 5-Cost 4/5 Minion
                 /// </summary>
                 public const string TwilightMedium = "VAC_423";

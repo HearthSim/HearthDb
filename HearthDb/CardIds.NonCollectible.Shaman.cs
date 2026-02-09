@@ -1413,7 +1413,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Freeze</b> any minions your opponent summons next turn.<br/>
-                /// 4-Cost 3/5 Elemental Minion
+                /// 3-Cost 3/4 Elemental Minion
                 /// </summary>
                 public const string StasisElemental = "TOT_118";
 
@@ -1425,7 +1425,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// After you summon a minion, transform it into a random minion that costs (2) more.<br/>
-                /// 6-Cost 5/8 Minion
+                /// 5-Cost 4/7 Minion
                 /// </summary>
                 public const string MasterOfRealitiesTAVERNS_OF_TIME = "TOT_313";
 
@@ -3759,127 +3759,127 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw 2 cards. Deal 6 damage to the enemy hero.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken1 = "VAC_449t";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw 2 cards. <b>Freeze</b> three random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken2 = "VAC_449t1";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 6 damage to the enemy hero. Deal 2 damage to all enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken3 = "VAC_449t10";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Gain +2/+2 and <b>Taunt</b>. <b>Freeze</b> three random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken4 = "VAC_449t11";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Restore 6 Health to your hero. <b>Freeze</b> three random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken5 = "VAC_449t12";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Destroy two random enemy minions. <b>Freeze</b> three random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken6 = "VAC_449t13";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 2 damage to all enemy minions. <b>Freeze</b> three random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken7 = "VAC_449t14";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Gain +2/+2 and <b>Taunt</b>. Restore 6 Health to your hero.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken8 = "VAC_449t15";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Gain +2/+2 and <b>Taunt</b>. Destroy 2 random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken9 = "VAC_449t16";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Gain +2/+2 and <b>Taunt</b>. Deal 2 damage to all enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken10 = "VAC_449t17";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Restore 6 Health to your hero. Destroy 2 random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken11 = "VAC_449t18";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Restore 6 Health to your hero. Deal 2 damage to all enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken12 = "VAC_449t19";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw 2 cards. Gain +2/+2 and <b>Taunt</b>.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken13 = "VAC_449t2";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 2 damage to all enemy minions. Destroy 2 random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken14 = "VAC_449t20";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw 2 cards. Restore 6 Health to your hero.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken15 = "VAC_449t3";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw 2 cards. Destroy 2 random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken16 = "VAC_449t4";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw 2 cards. Deal 2 damage to all enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken17 = "VAC_449t5";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 6 damage to the enemy hero. <b>Freeze</b> three random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken18 = "VAC_449t6";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 6 damage to the enemy hero. Gain +2/+2 and <b>Taunt</b>.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken19 = "VAC_449t7";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 6 damage to the enemy hero. Restore 6 Health to your hero.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken20 = "VAC_449t8";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 6 damage to the enemy hero. Destroy 2 random enemy minions.<br/>
-                /// 5-Cost 5/5 Naga Minion
+                /// 3-Cost 3/3 Naga Minion
                 /// </summary>
                 public const string CarressCabaretStar_CarressCabaretStarToken21 = "VAC_449t9";
 

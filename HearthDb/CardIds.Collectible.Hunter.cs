@@ -255,7 +255,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your hand is empty, gain +3/+3.<br/>
-                /// 4-Cost 4/4 Beast Minion
+                /// 4-Cost 4/4 Beast/Elemental Minion
                 /// </summary>
                 public const string CoreRager = "BRM_014";
 
@@ -1298,7 +1298,7 @@ namespace HearthDb
                 public const string RangariScout = "GDB_841";
 
                 /// <summary>
-                /// <b>Dormant</b> for 5 turns. At the end of your turn, destroy the minion to the right of this to awaken 1 turn sooner.<br/>
+                /// <b>Dormant</b> for 5 turns. At the end of your turn, destroy the minion to the right of this to awaken 2 turns sooner.<br/>
                 /// 3-Cost 12/12 Beast Minion
                 /// </summary>
                 public const string GormTheWorldeater = "GDB_842";
@@ -1661,7 +1661,25 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Rexxar_AncientWarriorHulnHeroHeroSkins = "HERO_05bj";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_SylvanasBreezerunnerHeroHeroSkins = "HERO_05bk";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_LionsLandingVarianHeroHeroSkins1 = "HERO_05bm";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_LionsLandingVarianHeroHeroSkins2 = "HERO_05bm_gold";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2523,7 +2541,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// After a friendly Beast dies, get a random <b>Legendary</b> Beast from the past. It costs (2) less.<br/>
-                /// 5-Cost 3/6 Minion
+                /// 3-Cost 3/4 Minion
                 /// </summary>
                 public const string HemetFoamMarksman = "TOY_355";
 

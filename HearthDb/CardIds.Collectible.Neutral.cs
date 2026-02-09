@@ -339,7 +339,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Honorable Kill:</b> Give your other minions <b>Divine Shield</b>.<br/>
-                /// 2-Cost 2/3 Minion
+                /// 2-Cost 2/3 Draenei Minion
                 /// </summary>
                 public const string Corporal = "AV_122";
 
@@ -1271,6 +1271,12 @@ namespace HearthDb
                 /// 4-Cost 12/12 Demon Minion
                 /// </summary>
                 public const string Magtheridon = "BT_850";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy all cards that cost (2) or less in both player's hands and decks.<br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
+                public const string WarmasterBlackhorn = "CATA_720";
 
                 /// <summary>
                 /// Whenever this attacks a minion and survives, draw a card.<br/>
@@ -3200,7 +3206,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// (No Text)<br/>
-                /// 7-Cost 9/5 Beast Minion
+                /// 7-Cost 9/5 Beast/Elemental Minion
                 /// </summary>
                 public const string CoreHoundLegacy = "CS2_201";
 
@@ -5103,7 +5109,7 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Deathrattle:</b> Summon a 3/3 Pip Quickwit for your opponent.<br/>
-                /// Tier-3 9/7 Beast Minion<br/>
+                /// Tier-3 9/7 Beast/Elemental Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Deathrattle:</b> Summon a 3/3 Pip Quickwit for your opponent.<br/>
@@ -5490,7 +5496,7 @@ namespace HearthDb
                 public const string StarlightWanderer = "GDB_720";
 
                 /// <summary>
-                /// <b>Battlecry and Deathrattle:</b> Give all Draenei in your hand +1/+1.<br/>
+                /// <b>Battlecry and Deathrattle:</b> Give all Draenei in your hand +2/+1.<br/>
                 /// 3-Cost 4/3 Draenei Minion
                 /// </summary>
                 public const string CrimsonCommander = "GDB_722";
@@ -8634,10 +8640,28 @@ namespace HearthDb
                 public const string SoldierOfTheBronze = "TIME_720";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Summon a 0/7 Doomsayer that destroys ALL minions at the start of your turn.<br/>
+                /// 4-Cost 7/4 Minion
+                /// </summary>
+                public const string DarkIronHarbinger = "TIME_EVENT_300";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Randomly destroy another minion. Repeat for each Dragon you're holding.<br/>
+                /// 8-Cost 8/8 Dragon Minion
+                /// </summary>
+                public const string DiscipleOfDemise = "TIME_EVENT_301";
+
+                /// <summary>
                 /// Reopen a location. Give it "<b>Deathrattle:</b> Summon a random 3-Cost minion."<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string WelcomeHome = "TIME_EVENT_997";
+
+                /// <summary>
+                /// <b>Rewind</b> <b>Discover</b> a spell from ANY class. <i>(Or just your class after you <b>Rewind</b>!)</i><br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SandsOfTime = "TIME_EVENT_999";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck started with 10 cards of different Costs, craft a custom location.<br/>
@@ -9253,7 +9277,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Silence</b> an enemy minion with <b>Taunt</b>.<br/>
-                /// 2-Cost 2/1 Minion
+                /// 2-Cost 2/1 Draenei Minion
                 /// </summary>
                 public const string Shieldbreaker = "TRL_524";
 

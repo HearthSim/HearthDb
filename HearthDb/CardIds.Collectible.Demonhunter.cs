@@ -969,13 +969,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Add two Stars to both sides of your hand. When they collide, deal 5 damage to all enemies.<br/>
-                /// 6-Cost 5/5 Demon Minion
+                /// 5-Cost 5/5 Demon Minion
                 /// </summary>
                 public const string XortothBreakerOfStars = "GDB_118";
 
                 /// <summary>
                 /// Get two 4/4 Crewmates. Put a random Demon that costs (3) or less between them.<br/>
-                /// 2-Cost Spell
+                /// 1-Cost Spell
                 /// </summary>
                 public const string EmergencyMeeting = "GDB_119";
 
@@ -1911,7 +1911,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry, Outcast, and Deathrattle:</b> Get a random first-edition Demon Hunter card <i>(in mint condition)</i>.<br/>
-                /// 4-Cost 4/4 Minion
+                /// 3-Cost 4/4 Minion
                 /// </summary>
                 public const string Cicigi = "TOY_913";
 

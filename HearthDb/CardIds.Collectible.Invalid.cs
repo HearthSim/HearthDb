@@ -134,7 +134,7 @@ namespace HearthDb
                 public const string ShadeOfTheEndTime = "END_031";
 
                 /// <summary>
-                /// <b>Rush</b> <b>Combo and Overload (2)</b>: Gain <b>Immune</b> this turn and <b>Windfury</b>.<br/>
+                /// <b>Rush</b> <b><b>Combo:</b> Overload</b> for (2) to gain <b>Immune</b> this turn and <b>Windfury</b>.<br/>
                 /// 4-Cost 4/4 Dragon Minion
                 /// </summary>
                 public const string WingedAberration = "END_032";

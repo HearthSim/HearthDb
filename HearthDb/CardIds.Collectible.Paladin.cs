@@ -1286,7 +1286,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Rush</b> <b>Deathrattle:</b> Get three different Librams from an older timeline!<br/>
-                /// 4-Cost 3/3 Draenei Minion
+                /// 3-Cost 3/3 Draenei Minion
                 /// </summary>
                 public const string YrelBeaconOfHope = "GDB_141";
 
@@ -1303,7 +1303,7 @@ namespace HearthDb
                 public const string OrbitalSatellite = "GDB_462";
 
                 /// <summary>
-                /// <b>Divine Shield</b> <b>Battlecry:</b> Reduce the Cost of your Librams by (1) this game.<br/>
+                /// <b>Divine Shield</b>. <b>Battlecry and Deathrattle:</b> Reduce the Cost of your Librams by (1) this game.<br/>
                 /// 4-Cost 4/2 Draenei Minion
                 /// </summary>
                 public const string InterstellarWayfarer = "GDB_721";
@@ -1678,6 +1678,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string UtherLightbringer_BrokenShoreTirionHeroHeroSkins = "HERO_04bl";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer_FinleyMetzenHeroHeroSkins = "HERO_04bs";
 
                 /// <summary>
@@ -1952,7 +1958,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Divine Shield</b> Costs (1) less for each Silver Hand Recruit you control.<br/>
-                /// 6-Cost 5/5 Minion
+                /// 6-Cost 5/5 Beast/Elemental Minion
                 /// </summary>
                 public const string CrystalLion = "LOOT_313";
 
@@ -3326,7 +3332,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Dormant</b> for 2 turns. <b>Spellburst</b>: Give your minions <b>Divine Shield</b>.<br/>
-                /// 3-Cost 4/5 Minion
+                /// 3-Cost 4/5 Beast Minion
                 /// </summary>
                 public const string ImprisonedCelestial = "YOP_010";
 

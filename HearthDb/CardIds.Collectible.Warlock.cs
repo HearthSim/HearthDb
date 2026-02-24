@@ -2234,8 +2234,8 @@ namespace HearthDb
                 public const string ScourgeSupplies = "RLK_533";
 
                 /// <summary>
-                /// When you play or discard this, deal $6 damage randomly split among all enemies.<br/>
-                /// 5-Cost Spell
+                /// When you play or discard this, deal $5 damage randomly split among all enemies.<br/>
+                /// 4-Cost Spell
                 /// </summary>
                 public const string SoulBarrage = "RLK_534";
 

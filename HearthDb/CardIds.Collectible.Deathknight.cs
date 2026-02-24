@@ -8,8 +8,8 @@ namespace HearthDb
             public class Deathknight
             {
                 /// <summary>
-                /// <b>Battlecry:</b> If you're holding a Dragon, craft a custom Undead Dragon. It costs (3) less.<br/>
-                /// 5-Cost 5/5 Undead Minion
+                /// <b>Battlecry:</b> Craft a custom Undead Dragon. If you're holding a Dragon, reduce the Creation's Cost by (3).<br/>
+                /// 4-Cost 4/4 Undead Minion
                 /// </summary>
                 public const string VictorNefarius = "CATA_470";
 

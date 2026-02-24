@@ -278,7 +278,7 @@ namespace HearthDb
                 public const string Overgrowth = "BT_130";
 
                 /// <summary>
-                /// Your spells cost (1).<br/>
+                /// <b>Battlecry:</b> Your spells cost (1) this turn.<br/>
                 /// 9-Cost 5/5 Minion
                 /// </summary>
                 public const string YsielWindsinger = "BT_131";

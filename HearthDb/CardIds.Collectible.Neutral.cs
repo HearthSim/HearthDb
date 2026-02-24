@@ -1273,7 +1273,7 @@ namespace HearthDb
                 public const string Magtheridon = "BT_850";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Destroy all cards that cost (2) or less in both player's hands and decks.<br/>
+                /// <b>Battlecry:</b> Destroy all cards that cost (2) or less in both players' decks.<br/>
                 /// 7-Cost 6/6 Minion
                 /// </summary>
                 public const string WarmasterBlackhorn = "CATA_720";
@@ -10321,7 +10321,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// After you summon a minion, trigger its <b>Deathrattle</b> effect.<br/>
-                /// 4-Cost 3/4 Minion
+                /// 5-Cost 3/4 Minion
                 /// </summary>
                 public const string SpiritsingerUmbra = "UNG_900";
 

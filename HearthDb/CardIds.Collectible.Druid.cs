@@ -314,6 +314,66 @@ namespace HearthDb
                 public const string ArchsporeMsshifn = "BT_136";
 
                 /// <summary>
+                /// Whenever you spend your last Mana Crystal, gain +1/+1.<br/>
+                /// 1-Cost 1/2 Beast Minion
+                /// </summary>
+                public const string CrystalspineCub = "CATA_130";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Gain a temporary Mana Crystal. If you spent 4 Mana while holding this, it's permanent. <i>({0} left!)</i>4<b>Battlecry:</b> Gain a temporary Mana Crystal. If you spent 4 Mana while holding this, it's permanent. <i>(Ready!)</i>4<b>Battlecry:</b> Gain a temporary Mana Crystal. If you spent 4 Mana while holding this, it's permanent.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string FelwoodTreant = "CATA_131";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get two 3/3 Whelps with <b>Taunt</b>. If you spent 8 Mana while holding this, summon them. <i>({0} left!)</i>8<b>Battlecry:</b> Get two 3/3 Whelps with <b>Taunt</b>. If you spent 8 Mana while holding this, summon them. <i>(Ready!)</i>8<b>Battlecry:</b> Get two 3/3 Whelps with <b>Taunt</b>. If you spent 8 Mana while holding this, summon them.<br/>
+                /// 4-Cost 4/5 Dragon Minion
+                /// </summary>
+                public const string Broodwatcher = "CATA_132";
+
+                /// <summary>
+                /// <b>Elusive</b> At the end of your turn, give your other minions +1/+1.<br/>
+                /// 5-Cost 4/5 Dragon Minion
+                /// </summary>
+                public const string IridescentFlitterwing = "CATA_133";
+
+                /// <summary>
+                /// <b>Shatter</b>. Summon two 2/2 Treants. Give your minions "<b>Deathrattle:</b> Summon a 2/2 Treant."122972Summon two 2/2 Treants. Give your minions "<b>Deathrattle:</b> Summon a 2/2 Treant."<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string WildwoodCircle = "CATA_134";
+
+                /// <summary>
+                /// Summon two 1/2 Golems. Spend all your Mana to give them +1/+1 for each Mana spent.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Mossbinding = "CATA_135";
+
+                /// <summary>
+                /// Shuffle 5 random minions into your deck that cost (8) or more. Double their stats.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string AzsharasTriumph = "CATA_136";
+
+                /// <summary>
+                /// Give a friendly minion +1/+1 for each minion you control.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string ForestsGift = "CATA_138";
+
+                /// <summary>
+                /// <b>Colossal +4</b> After one of Wickerfang's Legs gains stats, this gains them too.<br/>
+                /// 6-Cost 0/5 Minion
+                /// </summary>
+                public const string Wickerfang = "CATA_139";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Fill your hand with random Dragons. If you spent 25 Mana while holding this, they cost (1). <i>({0} left!)</i>25<b>Battlecry:</b> Fill your hand with random Dragons. If you spent 25 Mana while holding this, they cost (1). <i>(Ready!)</i>25<b>Battlecry:</b> Fill your hand with random Dragons. If you spent 25 Mana while holding this, they cost (1).<br/>
+                /// 8-Cost 4/12 Dragon Minion
+                /// </summary>
+                public const string MerithraOfTheDream = "CATA_140";
+
+                /// <summary>
                 /// <b>Choose One -</b> Gain 10 Armor; or Refresh your Mana Crystals.<br/>
                 /// 10-Cost 7/7 Undead Minion
                 /// </summary>
@@ -390,6 +450,12 @@ namespace HearthDb
                 /// 3-Cost Spell
                 /// </summary>
                 public const string BogbeamCorePlaceholder = "CORE_BT_134";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give your other minions "<b>Deathrattle:</b> Summon a minion with this minion's Cost."<br/>
+                /// 6-Cost 4/3 Beast Minion
+                /// </summary>
+                public const string UlfarCorePlaceholder = "CORE_CATA_006";
 
                 /// <summary>
                 /// Deal $1 damage.<br/>
@@ -650,6 +716,12 @@ namespace HearthDb
                 public const string FeralRageCore = "CORE_OG_047";
 
                 /// <summary>
+                /// <b>Choose One - </b>Restore #8 Health to your hero; or Deal 4 damage.<br/>
+                /// 5-Cost 4/5 Minion
+                /// </summary>
+                public const string BoomkinCorePlaceholder = "CORE_ONY_018";
+
+                /// <summary>
                 /// Deal $2 damage. Summon a 2/2 Treant.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -710,6 +782,12 @@ namespace HearthDb
                 public const string ConvokeTheSpiritsCorePlaceholder = "CORE_REV_365";
 
                 /// <summary>
+                /// <b>Rush</b> <b>Battlecry and Deathrattle:</b> Gain 6 Armor.<br/>
+                /// 7-Cost 6/6 Undead Minion
+                /// </summary>
+                public const string UnderkingCorePlaceholder = "CORE_RLK_657";
+
+                /// <summary>
                 /// <b>Tradeable</b> Summon two 2/7 Turtles with <b>Taunt</b>.<br/>
                 /// 6-Cost Spell
                 /// </summary>
@@ -728,6 +806,12 @@ namespace HearthDb
                 public const string VibrantSquirrelCore = "CORE_SW_439";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Deal damage to an enemy minion equal to your hero's Attack.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string SavageStrikerCorePlaceholder = "CORE_TRL_240";
+
+                /// <summary>
                 /// Give your hero +2 Attack this turn.<br/>
                 /// 0-Cost Spell
                 /// </summary>
@@ -738,6 +822,12 @@ namespace HearthDb
                 /// 5-Cost Spell
                 /// </summary>
                 public const string FlipperFriendsCore = "CORE_TSC_650";
+
+                /// <summary>
+                /// If you have any unspent Mana at the end of your turn, draw a card.<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
+                public const string CrystalMerchantCorePlaceholder = "CORE_ULD_133";
 
                 /// <summary>
                 /// Give a friendly minion +1/+1, then gain Armor equal to its Attack.<br/>
@@ -1691,6 +1781,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string MalfurionStormrage_MerithraHeroHeroSkins = "HERO_06bm";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MalfurionStormrage_AssassinLeyaraHeroHeroSkins = "HERO_06bn";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
 
                 /// <summary>
@@ -2114,7 +2216,7 @@ namespace HearthDb
                 public const string AddledGrizzlyOG = "OG_313";
 
                 /// <summary>
-                /// <b>Choose One - </b>Restore 8 Health to your hero; or Deal 4 damage.<br/>
+                /// <b>Choose One - </b>Restore #8 Health to your hero; or Deal 4 damage.<br/>
                 /// 5-Cost 4/5 Minion
                 /// </summary>
                 public const string Boomkin = "ONY_018";
@@ -2306,7 +2408,7 @@ namespace HearthDb
                 public const string RunicCarvings = "SCH_612";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Battlecry:</b> If you're holding a spell that costs (5) or more, restore 5 Health.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> If you're holding a spell that costs (5) or more, restore #5 Health.<br/>
                 /// 4-Cost 4/5 Minion
                 /// </summary>
                 public const string Groundskeeper = "SCH_613";
@@ -2529,7 +2631,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Miniaturize</b> <b>Choose One -</b> Gain <b>Spell Damage +1</b>; or Draw a spell.<br/>
-                /// 4-Cost 2/4 Dragon Minion
+                /// 4-Cost 3/5 Dragon Minion
                 /// </summary>
                 public const string ChiaDrake = "TOY_801";
 
@@ -2925,7 +3027,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Resurrect three of your different highest Cost <b>Taunt</b> minions.<br/>
-                /// 10-Cost Spell
+                /// 8-Cost Spell
                 /// </summary>
                 public const string HydrationStation = "VAC_948";
 

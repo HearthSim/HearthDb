@@ -9811,6 +9811,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// Enchantment
                 /// </summary>
+                public const string AprilFoolsEnchantPlayerTavernBrawl = "TB_AprilFools_Enchant";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
                 public const string ArchivistEnchantNotPlayerFacingTavernBrawl = "TB_ArchivistEnch";
 
                 /// <summary>
@@ -17875,7 +17881,7 @@ namespace HearthDb
                 public const string GoldenKobold = "LOOT_998k";
 
                 /// <summary>
-                /// Draw 3 cards. Reduce their Costs by (3).<br/>
+                /// Draw 3 cards. Set their Cost to 1.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string WondrousWand = "LOOT_998l";
@@ -27834,6 +27840,12 @@ namespace HearthDb
                 public const string TransferStudent_TransferStudentToken32 = "SCH_199t37";
 
                 /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a <b>Year of the Scarab</b> card.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string TransferStudent_TransferStudentToken33 = "SCH_199t38";
+
+                /// <summary>
                 /// +1/+2.<br/>
                 /// Enchantment
                 /// </summary>
@@ -27843,25 +27855,25 @@ namespace HearthDb
                 /// <b>Stealth</b> <b>Poisonous</b><br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken33 = "SCH_199t4";
+                public const string TransferStudent_TransferStudentToken34 = "SCH_199t4";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Add a random <b>Deathrattle</b> minion to your hand.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken34 = "SCH_199t5";
+                public const string TransferStudent_TransferStudentToken35 = "SCH_199t5";
 
                 /// <summary>
                 /// <b>Battlecry and Deathrattle:</b> Add a <b>Spare Part</b> card to your hand.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken35 = "SCH_199t6";
+                public const string TransferStudent_TransferStudentToken36 = "SCH_199t6";
 
                 /// <summary>
                 /// At the end of your turn, reduce the Cost of a random card in your hand by (2).<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken36 = "SCH_199t7";
+                public const string TransferStudent_TransferStudentToken37 = "SCH_199t7";
 
                 /// <summary>
                 /// Costs (2) less.<br/>
@@ -27873,13 +27885,13 @@ namespace HearthDb
                 /// <b>Inspire:</b> Draw a card.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken37 = "SCH_199t8";
+                public const string TransferStudent_TransferStudentToken38 = "SCH_199t8";
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Discover</b> a new basic Hero Power.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string TransferStudent_TransferStudentToken38 = "SCH_199t9";
+                public const string TransferStudent_TransferStudentToken39 = "SCH_199t9";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -32798,7 +32810,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string AmbassadorFaelin_ZinAshariFaelin = "BG22_HERO_201_SKIN_F";
+                public const string AmbassadorFaelin_ZinAzshariFaelin = "BG22_HERO_201_SKIN_F";
 
                 /// <summary>
                 /// Skip your first turn. <b>Discover</b> a Tier 6, 4, and 2 minion to get at those Tiers.<br/>
@@ -48157,7 +48169,7 @@ namespace HearthDb
                 /// <summary>
                 /// Normal (this):<br/>
                 /// <b>Avenge (4):</b> Summon a {1}/{1} Interceptor. Then improve this permanently.<br/>
-                /// Tier-7 4/12 Mechanical Minion<br/>
+                /// Tier-5 4/12 Mechanical Minion<br/>
                 /// --------------------<br/>
                 /// Triple:<br/>
                 /// <b>Avenge (4):</b> Summon a {1}/{1} Interceptor. Then improve this permanently.<br/>
@@ -48172,7 +48184,7 @@ namespace HearthDb
                 /// --------------------<br/>
                 /// Normal:<br/>
                 /// <b>Avenge (4):</b> Summon a {1}/{1} Interceptor. Then improve this permanently.<br/>
-                /// Tier-7 4/12 Mechanical Minion
+                /// Tier-5 4/12 Mechanical Minion
                 /// </summary>
                 public const string Artanis_Carrier2 = "BG31_HERO_802pt1_G";
 
@@ -86968,6 +86980,36 @@ namespace HearthDb
                 public const string Footman_FootmansProtectionLegacyEnchantment = "TOY_102e";
 
                 /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string SlimescaleMyrmidonCore = "CORE_CATA_013";
+
+                /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string CrystalweaverCore = "CORE_CATA_014";
+
+                /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string TrickyGeistCore = "CORE_CATA_015";
+
+                /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string WildSynthesisCore = "CORE_CATA_016";
+
+                /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string EssenceBreakCore = "CORE_CATA_017";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// 1-Cost 1/1 Murloc Minion
                 /// </summary>
@@ -89774,7 +89816,7 @@ namespace HearthDb
                 public const string SilvermoonArcanist = "RLK_Prologue_218";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Restore 3 Health to all friendly characters.<br/>
+                /// <b>Battlecry:</b> Restore #3 Health to all friendly characters.<br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
                 public const string SunfuryClergy = "RLK_Prologue_219";
@@ -90108,6 +90150,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Wargear_WargearCorePlaceholderEnchantment = "CORE_BOT_563e";
+
+                /// <summary>
+                /// <b>Rewind</b> <b>Battlecry:</b> <b>Discover</b> a Beast with a <b>Dark Gift</b>. <b>Kindred:</b> It costs (1) less.<br/>
+                /// 3-Cost 4/2 Beast Minion
+                /// </summary>
+                public const string RaptorHeraldCorePlaceholder = "CORE_EDR_004_2026";
 
                 /// <summary>
                 /// Your end of turn effects trigger twice.<br/>
@@ -92298,7 +92346,7 @@ namespace HearthDb
                 public const string MarintheManager_TolinsGobletToken = "VAC_702t2";
 
                 /// <summary>
-                /// Draw 3 cards. Reduce their Costs by (3).<br/>
+                /// Draw 3 cards. Set their Cost to 1.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string MarintheManager_WondrousWandToken = "VAC_702t3";
@@ -93342,7 +93390,7 @@ namespace HearthDb
                 public const string ElisetheNavigator_UngoroJungleToken = "TLC_100t1";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Deal 3 damage to all enemies.<br/>
+                /// <b>Deathrattle:</b> Deal 1 damage to all enemies.<br/>
                 /// Spell
                 /// </summary>
                 public const string ElisetheNavigator_BurstingGeyserToken1 = "TLC_100t11";
@@ -93414,7 +93462,7 @@ namespace HearthDb
                 public const string ElisetheNavigator_TerrorRunToken = "TLC_100t2";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Deal 5 damage to all enemies.<br/>
+                /// <b>Deathrattle:</b> Deal 3 damage to all enemies.<br/>
                 /// Spell
                 /// </summary>
                 public const string ElisetheNavigator_BurstingGeyserToken2 = "TLC_100t21";
@@ -93456,7 +93504,7 @@ namespace HearthDb
                 public const string ElisetheNavigator_SnapToken4 = "TLC_100t24e2";
 
                 /// <summary>
-                /// Summon three 2/1 Raptors with <b>Rush</b>.<br/>
+                /// Summon two 2/1 Raptors with <b>Rush</b>.<br/>
                 /// Spell
                 /// </summary>
                 public const string ElisetheNavigator_NestingGroundsToken2 = "TLC_100t25";
@@ -93468,13 +93516,13 @@ namespace HearthDb
                 public const string ElisetheNavigator_LavaStreamToken2 = "TLC_100t26";
 
                 /// <summary>
-                /// Summon a 5/5 copy of a friendly minion.<br/>
+                /// Summon a 3/3 copy of a friendly minion.<br/>
                 /// Spell
                 /// </summary>
                 public const string ElisetheNavigator_RadiantCrystalsToken2 = "TLC_100t27";
 
                 /// <summary>
-                /// 5/5.<br/>
+                /// 3/3.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string ElisetheNavigator_RadiantReflectionToken2 = "TLC_100t27e";
@@ -93486,7 +93534,7 @@ namespace HearthDb
                 public const string ElisetheNavigator_FirePlumeRidgeToken = "TLC_100t3";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Deal 10 damage to all enemies.<br/>
+                /// <b>Deathrattle:</b> Deal 5 damage to all enemies.<br/>
                 /// Spell
                 /// </summary>
                 public const string ElisetheNavigator_BurstingGeyserToken3 = "TLC_100t31";
@@ -93528,7 +93576,7 @@ namespace HearthDb
                 public const string ElisetheNavigator_SnapToken6 = "TLC_100t34e2";
 
                 /// <summary>
-                /// Summon six 2/1 Raptors with <b>Rush</b>.<br/>
+                /// Summon four 2/1 Raptors with <b>Rush</b>.<br/>
                 /// Spell
                 /// </summary>
                 public const string ElisetheNavigator_NestingGroundsToken3 = "TLC_100t35";
@@ -93540,13 +93588,13 @@ namespace HearthDb
                 public const string ElisetheNavigator_LavaStreamToken3 = "TLC_100t36";
 
                 /// <summary>
-                /// Summon a 10/10 copy of a friendly minion.<br/>
+                /// Summon a 5/5 copy of a friendly minion.<br/>
                 /// Spell
                 /// </summary>
                 public const string ElisetheNavigator_RadiantCrystalsToken3 = "TLC_100t37";
 
                 /// <summary>
-                /// 10/10.<br/>
+                /// 5/5.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string ElisetheNavigator_RadiantReflectionToken3 = "TLC_100t37e";
@@ -93625,13 +93673,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Poisonous</b><br/>
-                /// 2-Cost 1/2 Elemental Minion
+                /// 2-Cost 2/2 Elemental Minion
                 /// </summary>
                 public const string BlobofTar_LankyBlobToken = "TLC_468t1";
 
                 /// <summary>
                 /// <b>Taunt</b><br/>
-                /// 2-Cost 1/2 Elemental Minion
+                /// 2-Cost 2/2 Elemental Minion
                 /// </summary>
                 public const string BlobofTar_RobustBlobToken = "TLC_468t2";
 
@@ -94096,6 +94144,312 @@ namespace HearthDb
                 /// 0-Cost Pet
                 /// </summary>
                 public const string YaZiHogger = "PET_8_4";
+
+                /// <summary>
+                /// +1/+1<br/>
+                /// Enchantment
+                /// </summary>
+                public const string IridescentFlitterwing_IridescentGlowEnchantment = "CATA_133e";
+
+                /// <summary>
+                /// Doubled Attack and Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AzsharasTriumph_AzsharasTriumphEnchantment = "CATA_136e";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ForestsGift_TreeHuggedEnchantment = "CATA_138e";
+
+                /// <summary>
+                /// Increased Stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Wickerfang_SymbioticEnchantment = "CATA_139e";
+
+                /// <summary>
+                /// Increased Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ArisenOnyxia_BlackScalesEnchantment = "CATA_155e";
+
+                /// <summary>
+                /// Costs Health this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ArisenOnyxia_OnyxiasBloodEnchantment = "CATA_155e2";
+
+                /// <summary>
+                /// Costs Health instead of Mana.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Warloc_DoomEnchantment = "CATA_180e";
+
+                /// <summary>
+                /// Cards adjacent to this in hand cost (1) more.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string StickybombSaboteur_SabotageToken = "CATA_186t";
+
+                /// <summary>
+                /// Costs (1) more.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string StickybombSaboteur_SabotagedEnchantmentToken = "CATA_186te";
+
+                /// <summary>
+                /// +$a5 Attack this turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Ruthless1 = "CATA_190p";
+
+                /// <summary>
+                /// +5 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Ruthless2 = "CATA_190pe";
+
+                /// <summary>
+                /// Summon a 12/12 Dragon.<br/>
+                /// Spell
+                /// </summary>
+                public const string DragonsReignToken = "CATA_190t10";
+
+                /// <summary>
+                /// Destroy the highest Health enemy minion.<br/>
+                /// Spell
+                /// </summary>
+                public const string ToppleToken = "CATA_190t11";
+
+                /// <summary>
+                /// Deal 4 damage to all enemy minions.<br/>
+                /// Spell
+                /// </summary>
+                public const string RazeToken = "CATA_190t12";
+
+                /// <summary>
+                /// Shuffle five random <b>Legendary</b> Dragons into your deck. They cost (1).<br/>
+                /// Spell
+                /// </summary>
+                public const string EnthrallToken = "CATA_190t13";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 10-Cost 12/12 Dragon Minion
+                /// </summary>
+                public const string ProgenyOfDeathwingToken = "CATA_190t14";
+
+                /// <summary>
+                /// <b>{0}, {1}</b> Each turn this is in your hand, swap between two random <b>Bonus Effects</b>.<br/>
+                /// 5-Cost 6/5 Beast Minion
+                /// </summary>
+                public const string TwistedMonstrosity_TwistedMonstrosityToken = "CATA_206t";
+
+                /// <summary>
+                /// <b>Spell Damage +1</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BattlefieldBlaster_BattlefieldChannelerSpellpowerEnchantment = "CATA_209e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 2-Cost 2/2 Dragon Minion
+                /// </summary>
+                public const string TwilightEgg_AcceleratedWhelpToken = "CATA_210t";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Vyranoth_StormchargedEnchantment1 = "CATA_213e";
+
+                /// <summary>
+                /// Increased Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Vyranoth_StormchargedEnchantment2 = "CATA_213e2";
+
+                /// <summary>
+                /// Can't be played this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Daze_DazedEnchantment = "CATA_215e";
+
+                /// <summary>
+                /// Your next Healing effect this turn deals damage instead.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string RubySanctum_LifebindEnchantment = "CATA_301e";
+
+                /// <summary>
+                /// When you reach full Health, deal 15 damage to your opponent.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AlexstraszaGuardianofLife_CleansedOfCorruptionEnchantment = "CATA_307e";
+
+                /// <summary>
+                /// <b>Spell Damage +1</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ArchmageKalec_KalecsInsightEnchantment = "CATA_458e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a random 4-Cost minion.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TalanjisLastStand_TalanjisLastWishEnchantment = "CATA_471e";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string NozdormuBronzeAspect_NozdormusNimbusEnchantment = "CATA_473e";
+
+                /// <summary>
+                /// <b>Divine Shield</b><br/>
+                /// 6-Cost 6/6 Dragon/Elemental Minion
+                /// </summary>
+                public const string BronzeKeeper_SandscaleDragonToken = "CATA_476t";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ChamberofAspects_AspectsBlessingEnchantment = "CATA_477e";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 2 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Isorath_WatchAndWaitEnchantment = "CATA_481e";
+
+                /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Raincaller_BuildingStormEnchantment1 = "CATA_487e";
+
+                /// <summary>
+                /// Disable trigger visual this turn<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Raincaller_BuildingStormEnchantment2 = "CATA_487e1";
+
+                /// <summary>
+                /// Increased Stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DukeofBelow_BindingNightmareEnchantment = "CATA_493e";
+
+                /// <summary>
+                /// Reduced Cost.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Ultraxion_UltraxionHeraldedEnchantment = "CATA_497e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FelInfusion_LifestealThisTurnEnchantment = "CATA_530e";
+
+                /// <summary>
+                /// Your Dragons have <b>Rush</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Ebyssian_EbyssiansBlessingEnchantment1 = "CATA_553e";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// Enchantment
+                /// </summary>
+                public const string Ebyssian_EbyssiansBlessingEnchantment2 = "CATA_553e2";
+
+                /// <summary>
+                /// Reduces Cost each turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TolvirCarver_CarvingEnchantment = "CATA_566e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon {0}.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Ascendance_AscendedEnchantment = "CATA_567e";
+
+                /// <summary>
+                /// Reduced Cost.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Morchok_WorldbreakEnchantment = "CATA_570e";
+
+                /// <summary>
+                /// At the start of your turns, <b>Discover</b> a card from your deck to play. The other two are incinerated.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CommanderGeddon_BarrenEnchantment = "CATA_591e";
+
+                /// <summary>
+                /// Costs (3) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CommanderGeddon_OverheatEnchantment = "CATA_591e2";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a random minion from your hand.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LoGoshsLastStand_HoldingOnEnchantment = "CATA_610e";
+
+                /// <summary>
+                /// Your <b>Hero Power</b> costs (1).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GennCursedKing_TheMoooonEnchantment = "CATA_615e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Upgrade your starting Hero Power. It costs (1).<br/>
+                /// 4-Cost 6/5 Minion
+                /// </summary>
+                public const string GennCursedKing_GennWorgenKingToken = "CATA_615t";
+
+                /// <summary>
+                /// Increased Stats<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ChogallMastermind_SouldrainEnchantmentToken = "CATA_726te";
+
+                /// <summary>
+                /// Discarded {0}.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GemstoneHoarder_HoardedGemstoneEnchantment = "CATA_897e3";
+
+                /// <summary>
+                /// Scaled Lancer grants <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ScaledLancer_ScaleboundEnchantment = "CATA_898e";
+
+                /// <summary>
+                /// Reduced Cost<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SindragosasTriumph_TriumphantEnchantment = "CATA_978e";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinCATACLYSM1 = "CATA_COIN1";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheCoinCATACLYSM2 = "CATA_COIN5";
             }
         }
     }

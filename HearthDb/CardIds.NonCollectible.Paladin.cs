@@ -3144,6 +3144,12 @@ namespace HearthDb
                 public const string PursuitOfJusticeLegacy = "RLK_Prologue_CS3_029";
 
                 /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string VindicatorMaraadCore = "CORE_CATA_003";
+
+                /// <summary>
                 /// Your Silver Hand Recruits have +1 Attack.<br/>
                 /// Enchantment
                 /// </summary>
@@ -3834,7 +3840,7 @@ namespace HearthDb
                 public const string SpiritoftheBadlands_MirageToken = "WW_337t";
 
                 /// <summary>
-                /// +1 Attack and <b>Lifesteal</b>.<br/>
+                /// +2 Attack and <b>Lifesteal</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string DeputizationAura_MyFavoriteDeputyEnchantment = "WW_341e";
@@ -4468,6 +4474,60 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string RuniTemporalGuardian_WhenAmIEnchantment = "TIME_EVENT_998e2";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Remove <b>Taunt</b> from Chromatus.<br/>
+                /// 2-Cost 2/3 Dragon Minion
+                /// </summary>
+                public const string Chromatus_GreenHeadOfChromatusToken = "CATA_432t1";
+
+                /// <summary>
+                /// <b>Lifesteal</b> <b>Deathrattle:</b> Remove <b>Lifesteal</b> from Chromatus.<br/>
+                /// 2-Cost 2/3 Dragon Minion
+                /// </summary>
+                public const string Chromatus_RedHeadOfChromatusToken = "CATA_432t2";
+
+                /// <summary>
+                /// <b>Elusive</b> <b>Deathrattle:</b> Remove <b>Elusive</b> from Chromatus.<br/>
+                /// 2-Cost 2/3 Dragon Minion
+                /// </summary>
+                public const string Chromatus_BlueHeadOfChromatusToken = "CATA_432t3";
+
+                /// <summary>
+                /// <b>Divine Shield</b> <b>Deathrattle:</b> Remove <b>Divine Shield</b> from Chromatus.<br/>
+                /// 2-Cost 2/3 Dragon Minion
+                /// </summary>
+                public const string Chromatus_BronzeHeadOfChromatusToken = "CATA_432t4";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Dragon Minion
+                /// </summary>
+                public const string BronzeRedeemer_BronzeBruteToken = "CATA_478t";
+
+                /// <summary>
+                /// +1/+1 and <b>Divine Shield</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FlightManeuvers_CourageousEnchantment = "CATA_479e";
+
+                /// <summary>
+                /// <b>Shattered</b> Summon two 4/2 Drakes.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string FlightManeuvers_FlightManeuversToken1 = "CATA_479t";
+
+                /// <summary>
+                /// <b>Shattered</b> Give your minions +1/+1 and <b>Divine Shield</b>.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string FlightManeuvers_FlightManeuversToken2 = "CATA_479t2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 3-Cost 4/2 Dragon Minion
+                /// </summary>
+                public const string FlightManeuvers_SkyDrakeToken = "CATA_479t3";
             }
         }
     }

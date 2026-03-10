@@ -353,13 +353,43 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins13 = "HERO_08dbp";
+                public const string JainaProudmoore_FireblastHeroSkins13 = "HERO_08cbhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins13 = "HERO_08dbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins13 = "HERO_08cbhp2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_DualityAzsharaMetaHeroSkins = "HERO_08cc";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins14 = "HERO_08cchp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins14 = "HERO_08cchp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins15 = "HERO_08dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins15 = "HERO_08dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -377,13 +407,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins14 = "HERO_08fbp";
+                public const string JainaProudmoore_FireblastHeroSkins16 = "HERO_08fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins14 = "HERO_08fbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins16 = "HERO_08fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
@@ -395,13 +425,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins15 = "HERO_08lbp";
+                public const string JainaProudmoore_FireblastHeroSkins17 = "HERO_08lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins15 = "HERO_08lbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins17 = "HERO_08lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -419,7 +449,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins16 = "HERO_08xbp";
+                public const string JainaProudmoore_FireblastHeroSkins18 = "HERO_08xbp";
 
                 /// <summary>
                 /// Deal $3 damage randomly split among all enemies.<br/>
@@ -3595,6 +3625,12 @@ namespace HearthDb
                 public const string JainaProudmoore_FireblastRank2Legacy = "HERO_08bp2";
 
                 /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string RingOfFrostCore = "CORE_CATA_011";
+
+                /// <summary>
                 /// <b>Spell Damage +2</b> and "<b>Deathrattle:</b> Pass on the Guardian's Legacy."<br/>
                 /// Enchantment
                 /// </summary>
@@ -4709,6 +4745,42 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string TimelooperToki_LoopingTimeEnchantment = "TIME_861e1";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TimelooperToki_LoopingTimeTargetEnchantment = "TIME_861e2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 6-Cost 6/6 Dragon Minion
+                /// </summary>
+                public const string SpellweaversBrilliance_AzureWardenToken = "CATA_452t";
+
+                /// <summary>
+                /// Whenever this takes damage, get a random Fire spell. It costs (3) less.<br/>
+                /// 2-Cost 1/4 Elemental Minion
+                /// </summary>
+                public const string Vulcanos_PlumeOfVulcanosToken1 = "CATA_488t";
+
+                /// <summary>
+                /// Whenever this takes damage, get a random Fire spell. It costs (3) less.<br/>
+                /// 2-Cost 1/4 Elemental Minion
+                /// </summary>
+                public const string Vulcanos_PlumeOfVulcanosToken2 = "CATA_488t2";
+
+                /// <summary>
+                /// <b>Shattered</b> Deal $4 damage.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string ArcaneFlow_ArcaneFlowToken1 = "CATA_489t";
+
+                /// <summary>
+                /// <b>Shattered</b> Deal $2 damage to all enemies.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string ArcaneFlow_ArcaneFlowToken2 = "CATA_489t2";
             }
         }
     }

@@ -8,7 +8,7 @@ namespace HearthDb
             public class Warlock
             {
                 /// <summary>
-                /// Deal $1 damage to a minion. If that kills it, draw a card.<br/>
+                /// Deal $1 damage to a minion. If it dies, draw a card.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string MortalCoil = "RLK_Prologue_EX1_302";
@@ -3520,6 +3520,12 @@ namespace HearthDb
                 public const string Guldan_SoulTapLegacy = "HERO_07bp2";
 
                 /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ForbiddenRitualCore = "CORE_CATA_012";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// 1-Cost 1/1 Demon Minion
                 /// </summary>
@@ -3568,7 +3574,7 @@ namespace HearthDb
                 public const string ImpCore = "Story_09_Imp";
 
                 /// <summary>
-                /// Deal $1 damage to a minion. If that kills it, draw a card.<br/>
+                /// Deal $1 damage to a minion. If it dies, draw a card.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string MortalCoilCore1 = "Story_09_MortalCoilPuzzle";
@@ -3580,7 +3586,7 @@ namespace HearthDb
                 public const string RitualOfDoomCore = "Story_09_RitualofDoom";
 
                 /// <summary>
-                /// Deal $1 damage to a minion. If that kills it, draw a card.<br/>
+                /// Deal $1 damage to a minion. If it dies, draw a card.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string MortalCoilCore2 = "Story_11_MortalCoil";
@@ -4550,6 +4556,48 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Divergence_DivergedEnchantment = "TIME_030e2";
+
+                /// <summary>
+                /// Switched control, but can't attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CursedChains_CursedChainsEnchantment = "CATA_496e";
+
+                /// <summary>
+                /// Reduced Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DreadLeviathan_DrainedEnchantment = "CATA_699e";
+
+                /// <summary>
+                /// Increased Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DreadLeviathan_CrackinEnchantment = "CATA_699e2";
+
+                /// <summary>
+                /// At the end of your turn, destroy the minion to the right to gain +{0}/+{0}. <i><b>Herald</b> twice to upgrade.</i>2At the end of your turn, destroy the minion to the right to gain +{0}/+{0}. <i><b>Herald</b> once to upgrade.</i>2At the end of your turn, destroy the minion to the right to gain +{0}/+{0}.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string ShadowswornDisciple_SoldierOfChogallToken = "CATA_725t";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ChogallMastermind_EmbiggenedEnchantment = "CATA_726e2";
+
+                /// <summary>
+                /// At the end of your turn, destroy the minion to the right to gain +{0}/+{0}. <i><b>Herald</b> twice to upgrade.</i>2At the end of your turn, destroy the minion to the right to gain +{0}/+{0}. <i><b>Herald</b> once to upgrade.</i>2At the end of your turn, destroy the minion to the right to gain +{0}/+{0}.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string ChogallMastermind_ChosArmToken = "CATA_726t";
+
+                /// <summary>
+                /// At the end of your turn, destroy the minion to the right to gain +{0}/+{0}. <i><b>Herald</b> twice to upgrade.</i>2At the end of your turn, destroy the minion to the right to gain +{0}/+{0}. <i><b>Herald</b> once to upgrade.</i>2At the end of your turn, destroy the minion to the right to gain +{0}/+{0}.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string ChogallMastermind_GallsArmToken = "CATA_726t1";
             }
         }
     }

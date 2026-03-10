@@ -86,7 +86,7 @@ namespace HearthDb
                 public const string TemplarCaptain = "AV_339";
 
                 /// <summary>
-                /// At the end of your turn, deal 2 damage to all enemies. <b>Honorable Kill:</b> Restore 4 Health to your hero.<br/>
+                /// At the end of your turn, deal 2 damage to all enemies. <b>Honorable Kill:</b> Restore #4 Health to your hero.<br/>
                 /// 8-Cost 9/7 Dragon Minion
                 /// </summary>
                 public const string Brasswing = "AV_340";
@@ -289,7 +289,7 @@ namespace HearthDb
                 public const string AldorAttendant = "BT_020";
 
                 /// <summary>
-                /// Restore 8 Health. Summon an 8/8 Guardian with <b>Taunt</b> and <b>Divine Shield</b>.<br/>
+                /// Restore #8 Health. Summon an 8/8 Guardian with <b>Taunt</b> and <b>Divine Shield</b>.<br/>
                 /// 9-Cost Spell
                 /// </summary>
                 public const string LibramOfHope = "BT_024";
@@ -317,6 +317,66 @@ namespace HearthDb
                 /// 7-Cost 4/6 Minion
                 /// </summary>
                 public const string LadyLiadrin = "BT_334";
+
+                /// <summary>
+                /// <b>Colossal +4</b> <b>Taunt</b>, <b>Lifesteal</b>, <b>Elusive</b>, <b>Divine Shield</b><br/>
+                /// 8-Cost 8/8 Dragon Minion
+                /// </summary>
+                public const string Chromatus = "CATA_432";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Trigger a random friendly minion's end of turn effect.<br/>
+                /// 2-Cost Weapon
+                /// </summary>
+                public const string InspiringMaul = "CATA_472";
+
+                /// <summary>
+                /// At the end of your turn, give your minions <b>Divine Shield</b>. Any that already had one gain +3/+3 instead.<br/>
+                /// 5-Cost 4/4 Minion
+                /// </summary>
+                public const string NozdormuBronzeAspect = "CATA_473";
+
+                /// <summary>
+                /// At the end of your turn, get a random Holy Spell. Reduce its Cost by (3).<br/>
+                /// 4-Cost 3/4 Dragon Minion
+                /// </summary>
+                public const string SpearheartSentry = "CATA_474";
+
+                /// <summary>
+                /// At the end of your turn, deal 2 damage to all enemies.<br/>
+                /// 6-Cost 3/6 Minion
+                /// </summary>
+                public const string ScalebreakerBulwark = "CATA_475";
+
+                /// <summary>
+                /// Choose a minion in your hand. Give it +2/+2.<br/>
+                /// 2-Cost Location
+                /// </summary>
+                public const string ChamberOfAspects = "CATA_477";
+
+                /// <summary>
+                /// At the end of your turn, summon a Dragon with stats equal to this minion's.<br/>
+                /// 5-Cost 3/3 Minion
+                /// </summary>
+                public const string BronzeRedeemer = "CATA_478";
+
+                /// <summary>
+                /// <b>Shatter</b> Summon two 4/2 Drakes. Give your minions +1/+1 and <b>Divine Shield</b>.123141Summon two 4/2 Drakes. Give your minions +1/+1 and <b>Divine Shield</b>.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string FlightManeuvers = "CATA_479";
+
+                /// <summary>
+                /// Your minions' end of turn effects trigger twice. Lasts 3 turns.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string SandfuryAura = "CATA_480";
+
+                /// <summary>
+                /// Get a random Paladin Aura. It lasts an additional turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string GelbinsTriumph = "CATA_621";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Give adjacent minions <b>Divine Shield</b>.<br/>
@@ -377,6 +437,12 @@ namespace HearthDb
                 /// 3-Cost 3/4 Minion
                 /// </summary>
                 public const string WarhorseTrainerCorePlaceholder = "CORE_AT_075";
+
+                /// <summary>
+                /// After you cast a Holy spell, summon a 2/2 Medic with <b>Lifesteal</b>.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
+                public const string VeteranWarmedicCorePlaceholder = "CORE_BAR_878";
 
                 /// <summary>
                 /// After your Hero attacks, add a random Murloc to your hand.<br/>
@@ -523,6 +589,12 @@ namespace HearthDb
                 public const string UthersGiftCorePlaceholder = "CORE_GIFT_05";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string CoghammerCorePlaceholder = "CORE_GVG_059";
+
+                /// <summary>
                 /// Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon.<br/>
                 /// 3-Cost Spell
                 /// </summary>
@@ -589,6 +661,12 @@ namespace HearthDb
                 public const string BolvarFirebloodCorePlaceholder = "CORE_ICC_858";
 
                 /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a spell. Restore Health to your hero equal to its Cost.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string IvoryKnightCorePlaceholder = "CORE_KAR_057";
+
+                /// <summary>
                 /// Give a minion +2/+2. Summon a random 2-Cost minion.<br/>
                 /// 3-Cost Spell
                 /// </summary>
@@ -623,6 +701,12 @@ namespace HearthDb
                 /// 4-Cost Spell
                 /// </summary>
                 public const string StandAgainstDarknessCorePlaceholder = "CORE_OG_273";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a Holy spell.<br/>
+                /// 2-Cost 1/3 Draenei Minion
+                /// </summary>
+                public const string BattleVicarCorePlaceholder = "CORE_ONY_022";
 
                 /// <summary>
                 /// Give a Silver Hand Recruit +3/+3 and <b>Taunt</b>.<br/>
@@ -689,6 +773,12 @@ namespace HearthDb
                 /// 7-Cost 8/8 Dragon Minion
                 /// </summary>
                 public const string AnachronosCore = "CORE_RLK_919";
+
+                /// <summary>
+                /// <b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, give a minion in your hand +5/+5.<br/>
+                /// 6-Cost 5/5 Minion
+                /// </summary>
+                public const string HighlordFordragonCorePlaceholder = "CORE_SW_047";
 
                 /// <summary>
                 /// Restore #4 Health. Draw a card.<br/>
@@ -1015,7 +1105,7 @@ namespace HearthDb
                 public const string MarkOfUrsol = "EDR_252";
 
                 /// <summary>
-                /// After your hero attacks, draw your highest Cost card.<br/>
+                /// After your hero attacks, draw a card.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string UrsineMaul = "EDR_253";
@@ -1076,7 +1166,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Summon two 1-Cost minions from your deck. <b>Finale:</b> Summon another.<br/>
-                /// 4-Cost Spell
+                /// 3-Cost Spell
                 /// </summary>
                 public const string BoogieDown = "ETC_318";
 
@@ -1684,6 +1774,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string UtherLightbringer_InfiltratorGelbinHeroHeroSkins = "HERO_04bn";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer_FinleyMetzenHeroHeroSkins = "HERO_04bs";
 
                 /// <summary>
@@ -1909,6 +2005,12 @@ namespace HearthDb
                 public const string SilvermoonPortalKARA = "KAR_077";
 
                 /// <summary>
+                /// Whenever a friendly minion attacks, give it +2/+1. Lasts 3 turns.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string CrusaderAuraCorePlaceholder = "LEG_TTN_908";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Set a minion's Attack and Health to 3.<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
@@ -2023,7 +2125,7 @@ namespace HearthDb
                 public const string FlickeringLightbot = "MIS_918";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Deal 5 damage to your hero. <b>Manathirst (7):</b> Restore 5 Health to your hero instead.<br/>
+                /// <b>Battlecry:</b> Deal 5 damage to your hero. <b>Manathirst (7):</b> Restore #5 Health to your hero instead.<br/>
                 /// 3-Cost 5/5 Undead Minion
                 /// </summary>
                 public const string KnightOfTheDead = "NX2_021";
@@ -2557,14 +2659,14 @@ namespace HearthDb
                 public const string CardboardGolem = "TOY_809";
 
                 /// <summary>
-                /// After your hero attacks, give minions in your hand +1/+1.<br/>
+                /// <b>Lifesteal</b> After your hero attacks, give minions in your hand +1/+1.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string PaintersVirtue = "TOY_810";
 
                 /// <summary>
                 /// <b>Miniaturize</b> <b>Rush</b>, <b>Lifesteal</b>, <b>Divine Shield</b><br/>
-                /// 4-Cost 3/2 Beast Minion
+                /// 3-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string TigressPlushy = "TOY_811";
 
@@ -3259,7 +3361,7 @@ namespace HearthDb
                 public const string SpiritOfTheBadlands = "WW_337";
 
                 /// <summary>
-                /// Your left-most minion has +1 Attack and <b>Lifesteal</b>. Lasts 3 turns.<br/>
+                /// Your left-most minion has +2 Attack and <b>Lifesteal</b>. Lasts 3 turns.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string DeputizationAura = "WW_341";

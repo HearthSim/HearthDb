@@ -344,28 +344,46 @@ namespace HearthDb
                 public const string Thrall_TotemicSlamHeroSkins10 = "HERO_02bjhp2";
 
                 /// <summary>
-                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
-                /// 2-Cost HeroPower
+                /// (No Text)<br/>
+                /// 0-Cost Hero
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins11 = "HERO_02fbp";
-
-                /// <summary>
-                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
-                /// 2-Cost HeroPower
-                /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins11 = "HERO_02fbp2";
+                public const string Thrall_DeathwingHeroSkins = "HERO_02bx_meta";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a random basic Totem.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins12 = "HERO_02mbp";
+                public const string Thrall_TotemicCallHeroSkins11 = "HERO_02bxhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins12 = "HERO_02mbp2";
+                public const string Thrall_TotemicSlamHeroSkins11 = "HERO_02bxhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicCallHeroSkins12 = "HERO_02fbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicSlamHeroSkins12 = "HERO_02fbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicCallHeroSkins13 = "HERO_02mbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicSlamHeroSkins13 = "HERO_02mbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -3740,13 +3758,13 @@ namespace HearthDb
                 public const string FrostyDécor_IceSculptureToken = "VAC_305t";
 
                 /// <summary>
-                /// Deal $1 damage to all enemy minions. <i>(2 Drinks left!)</i><br/>
+                /// Deal $1 damage to all enemies. <i>(2 Drinks left!)</i><br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MaltedMagma_MaltedMagmaToken1 = "VAC_323t";
 
                 /// <summary>
-                /// Deal $1 damage to all enemy minions. <i>(Last Drink!)</i><br/>
+                /// Deal $1 damage to all enemies. <i>(Last Drink!)</i><br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MaltedMagma_MaltedMagmaToken2 = "VAC_323t2";
@@ -4068,6 +4086,48 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string StaticShock_StaticallyChargedEnchantment = "TIME_218e";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AlAkirLordofStorms_SparkOfFuryEnchantment = "CATA_153e";
+
+                /// <summary>
+                /// Adjacent minions have +{0} Attack. <i><b>Herald</b> twice to upgrade.</i>1Adjacent minions have +{0} Attack. <i><b>Herald</b> once to upgrade.</i>1Adjacent minions have +{0} Attack.<br/>
+                /// 1-Cost 1/2 Elemental Minion
+                /// </summary>
+                public const string AlAkirLordofStorms_ChargedHandOfAlakirToken1 = "CATA_153t";
+
+                /// <summary>
+                /// Adjacent minions have +{0} Attack. <i><b>Herald</b> twice to upgrade.</i>1Adjacent minions have +{0} Attack. <i><b>Herald</b> once to upgrade.</i>1Adjacent minions have +{0} Attack.<br/>
+                /// 1-Cost 1/2 Elemental Minion
+                /// </summary>
+                public const string AlAkirLordofStorms_ChargedHandOfAlakirToken2 = "CATA_153t1";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 1-Cost 1/1 Elemental Minion
+                /// </summary>
+                public const string RitualofPower_BreezlingToken = "CATA_561t";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Cast {0}.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CracklingCloudstrider_OvercastEnchantment = "CATA_563e2";
+
+                /// <summary>
+                /// <b>Mega-Windfury</b>. Can't attack heroes.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AirSupport_AirSupportEnchantment = "CATA_564e";
+
+                /// <summary>
+                /// Adjacent minions have +{0} Attack. <i><b>Herald</b> twice to upgrade.</i>1Adjacent minions have +{0} Attack. <i><b>Herald</b> once to upgrade.</i>1Adjacent minions have +{0} Attack.<br/>
+                /// 1-Cost 1/2 Elemental Minion
+                /// </summary>
+                public const string SkywallSentinel_SoldierOfAlakirToken = "CATA_565t";
             }
         }
     }

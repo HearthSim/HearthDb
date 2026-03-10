@@ -303,7 +303,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Freeze</b> an enemy. Summon two 3/6 Water Elementals.<br/>
-                /// 8-Cost Spell
+                /// 7-Cost Spell
                 /// </summary>
                 public const string DeepFreeze = "BT_072";
 
@@ -312,6 +312,66 @@ namespace HearthDb
                 /// 5-Cost Spell
                 /// </summary>
                 public const string ApexisBlast = "BT_291";
+
+                /// <summary>
+                /// Summon a 6/6 Dragon. Costs (1) less for each damage you dealt with spells this turn.<br/>
+                /// 10-Cost Spell
+                /// </summary>
+                public const string SpellweaversBrilliance = "CATA_452";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give all spells in your hand and deck <b>Spell Damage +1.</b><br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string ArchmageKalec = "CATA_458";
+
+                /// <summary>
+                /// <b>Spell Damage +1</b> <b>Battlecry:</b> If you dealt damage with a spell this turn, summon a copy of this.<br/>
+                /// 4-Cost 2/5 Elemental Minion
+                /// </summary>
+                public const string UnstableSpellcaster = "CATA_483";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a 1-Cost spell from any class.<br/>
+                /// 1-Cost 1/2 Dragon Minion
+                /// </summary>
+                public const string WinterspringWhelp = "CATA_484";
+
+                /// <summary>
+                /// Deal $2 damage. Deal $1 damage to a random enemy minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SleetStorm = "CATA_485";
+
+                /// <summary>
+                /// The first time you deal damage with a spell each turn, gain +2 Attack.<br/>
+                /// 2-Cost 1/4 Elemental Minion
+                /// </summary>
+                public const string Raincaller = "CATA_487";
+
+                /// <summary>
+                /// <b>Colossal +2</b> At the end of your turn, deal 2 damage to all other minions.<br/>
+                /// 7-Cost 4/8 Elemental Minion
+                /// </summary>
+                public const string Vulcanos = "CATA_488";
+
+                /// <summary>
+                /// <b>Shatter</b> Deal $4 damage. Deal $2 damage to all enemies.123743Deal $4 damage. Deal $2 damage to all enemies.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string ArcaneFlow = "CATA_489";
+
+                /// <summary>
+                /// Deal $8 damage to a minion. Reduce the Cost of a random card in your hand by the excess damage.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string SindragosasTriumph = "CATA_978";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose a spell in your hand. Split it into two random spells of the same Cost.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
+                public const string ConjurationSpecialist = "CATA_979";
 
                 /// <summary>
                 /// <b>Freeze</b> an enemy.<br/>
@@ -380,6 +440,12 @@ namespace HearthDb
                 public const string ColdarraDrakeCorePlaceholder = "CORE_AT_008";
 
                 /// <summary>
+                /// Deal $2 damage. <b>Discover</b> a spell.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string RunedOrbCorePlaceholder = "CORE_BAR_541";
+
+                /// <summary>
                 /// <b>Secret:</b> When a friendly minion is attacked, summon a 3/6 Water Elemental.<br/>
                 /// 3-Cost Spell
                 /// </summary>
@@ -392,10 +458,22 @@ namespace HearthDb
                 public const string StargazerLunaCorePlaceholder = "CORE_BOT_103";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Summon a random minion with Cost equal to your hand size.<br/>
+                /// 7-Cost 5/5 Minion
+                /// </summary>
+                public const string AstromancerCorePlaceholder = "CORE_BOT_256";
+
+                /// <summary>
                 /// Deal $1 damage to a minion and the minions next to it.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string ShootingStarCorePlaceholder = "CORE_BOT_453";
+
+                /// <summary>
+                /// <b>Freeze</b> an enemy. Summon two 3/6 Water Elementals.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string DeepFreezeCorePlaceholder = "CORE_BT_072";
 
                 /// <summary>
                 /// Draw 2 cards.<br/>
@@ -432,6 +510,12 @@ namespace HearthDb
                 /// 4-Cost 3/6 Elemental Minion
                 /// </summary>
                 public const string WaterElementalCorePlaceholder = "CORE_CS2_033";
+
+                /// <summary>
+                /// Your cards that summon minions summon twice as many.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string KhadgarCorePlaceholder = "CORE_DAL_575";
 
                 /// <summary>
                 /// Your first spell each turn costs (0). <b>Battlecry:</b> <b>Discover</b> a spell.<br/>
@@ -672,6 +756,12 @@ namespace HearthDb
                 /// 4-Cost Spell
                 /// </summary>
                 public const string FireSaleCorePlaceholder = "CORE_SW_107";
+
+                /// <summary>
+                /// Deal $2 damage to a minion. Add a Second Flame to your hand.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string FirstFlameCorePlaceholder = "CORE_SW_108";
 
                 /// <summary>
                 /// Whenever your Hero Power kills a minion, draw a card.<br/>
@@ -1728,6 +1818,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string JainaProudmoore_FireMageJainaHeroHeroSkins = "HERO_08c";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_DualityAzsharaHeroHeroSkins = "HERO_08cb";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_DragonswornVardenHeroHeroSkins = "HERO_08cd";
 
                 /// <summary>
                 /// (No Text)<br/>

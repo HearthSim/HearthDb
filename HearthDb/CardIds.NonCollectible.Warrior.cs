@@ -362,28 +362,46 @@ namespace HearthDb
                 public const string GarroshHellscream_TankUpHeroSkins5 = "HERO_01bkhp2_gold";
 
                 /// <summary>
-                /// <b>Hero Power</b> Gain $d2 Armor.<br/>
-                /// 2-Cost HeroPower
+                /// (No Text)<br/>
+                /// 0-Cost Hero
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins14 = "HERO_01dbp";
-
-                /// <summary>
-                /// <b>Hero Power</b> Gain $d4 Armor.<br/>
-                /// 2-Cost HeroPower
-                /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins6 = "HERO_01dbp2";
+                public const string GarroshHellscream_DeathwingHeroSkins = "HERO_01bn_meta";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins15 = "HERO_01fbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins14 = "HERO_01bnhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins7 = "HERO_01fbp2";
+                public const string GarroshHellscream_TankUpHeroSkins6 = "HERO_01bnhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_ArmorUpHeroSkins15 = "HERO_01dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d4 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_TankUpHeroSkins7 = "HERO_01dbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_ArmorUpHeroSkins16 = "HERO_01fbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d4 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_TankUpHeroSkins8 = "HERO_01fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
@@ -401,37 +419,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins16 = "HERO_01qbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins17 = "HERO_01qbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins8 = "HERO_01qbp2";
+                public const string GarroshHellscream_TankUpHeroSkins9 = "HERO_01qbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins17 = "HERO_01vbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins18 = "HERO_01vbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins9 = "HERO_01vbp2";
+                public const string GarroshHellscream_TankUpHeroSkins10 = "HERO_01vbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins18 = "HERO_01wbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins19 = "HERO_01wbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins10 = "HERO_01wbp2";
+                public const string GarroshHellscream_TankUpHeroSkins11 = "HERO_01wbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -4740,6 +4758,30 @@ namespace HearthDb
                 /// 2-Cost 2/3 Beast Minion
                 /// </summary>
                 public const string UnleashtheCrocolisks_ColiseumCrocoliskToken = "TIME_873t";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal {0} damage to a random enemy. <i><b>Herald</b> twice to upgrade.</i>2<b>Deathrattle:</b> Deal {0} damage to a random enemy. <i><b>Herald</b> once to upgrade.</i>2<b>Deathrattle:</b> Deal {0} damage to a random enemy.<br/>
+                /// 1-Cost 2/1 Elemental Minion
+                /// </summary>
+                public const string RagnarostheGreatFire_HandOfRagnarosToken1 = "CATA_150t";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal {0} damage to a random enemy. <i><b>Herald</b> twice to upgrade.</i>2<b>Deathrattle:</b> Deal {0} damage to a random enemy. <i><b>Herald</b> once to upgrade.</i>2<b>Deathrattle:</b> Deal {0} damage to a random enemy.<br/>
+                /// 1-Cost 2/1 Elemental Minion
+                /// </summary>
+                public const string RagnarostheGreatFire_HandOfRagnarosToken2 = "CATA_150t1";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal {0} damage to a random enemy. <i><b>Herald</b> twice to upgrade.</i>2<b>Deathrattle:</b> Deal {0} damage to a random enemy. <i><b>Herald</b> once to upgrade.</i>2<b>Deathrattle:</b> Deal {0} damage to a random enemy.<br/>
+                /// 1-Cost 2/1 Elemental Minion
+                /// </summary>
+                public const string CataclysmicWarAxe_SoldierOfRagnarosToken = "CATA_580t";
+
+                /// <summary>
+                /// +3 Attack this turn,<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SearingFissure_FlameboundEnchantment = "CATA_582e";
             }
         }
     }

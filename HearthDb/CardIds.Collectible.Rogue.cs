@@ -314,6 +314,66 @@ namespace HearthDb
                 public const string Akama = "BT_713";
 
                 /// <summary>
+                /// <b>Colossal +2</b> Your spells from other classes cast twice.<br/>
+                /// 6-Cost 5/5 Dragon Minion
+                /// </summary>
+                public const string Sinestra = "CATA_154";
+
+                /// <summary>
+                /// <b>Stealth</b> <b>Deathrattle:</b> <b>Herald</b> {0}.<br/>
+                /// 3-Cost 3/1 Minion
+                /// </summary>
+                public const string ManiacalFollower = "CATA_158";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose a card in your hand to transform into a Coin.<br/>
+                /// 1-Cost 2/1 Demon Minion
+                /// </summary>
+                public const string AgentOfTheOldOnes = "CATA_200";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Return all enemy minions to their owner's hand.<br/>
+                /// 9-Cost 4/12 Dragon Minion
+                /// </summary>
+                public const string TwilightMistress = "CATA_201";
+
+                /// <summary>
+                /// Get a random <b>Shatter</b> card from another class. <i>(It's already combined).</i><br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string StolenPower = "CATA_202";
+
+                /// <summary>
+                /// <b>Tradeable</b> Destroy a <b>Legendary</b> minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string GaronasLastStand = "CATA_203";
+
+                /// <summary>
+                /// Return an enemy minion to its owner's hand. They can't play it next turn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Daze = "CATA_215";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Devour 2 random cards from the opponent's hand, then go <b>Dormant</b> for 2 turns. <b>Deathrattle:</b> Return them.<br/>
+                /// 5-Cost 5/3 Minion
+                /// </summary>
+                public const string Isorath = "CATA_481";
+
+                /// <summary>
+                /// <b>Herald</b> {0}. <b>Combo:</b> Deal $3 damage.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string RiteOfTwilight = "CATA_785";
+
+                /// <summary>
+                /// After you cast a spell, cast a random spell of the same Cost from another class.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
+                public const string ChaosSupplicant = "CATA_786";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If your weapon has at least 3 Attack, gain +4/+4.<br/>
                 /// 6-Cost 5/5 Pirate Minion
                 /// </summary>
@@ -362,7 +422,7 @@ namespace HearthDb
                 public const string ShadowSensei = "CFM_694";
 
                 /// <summary>
-                /// <b>Stealth</b>. Whenever this attacks, add a random card to your hand <i>(from your opponent's class).</i><br/>
+                /// <b>Stealth</b> Whenever this attacks, add a card from another class to your hand.<br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
                 public const string ShakuTheCollector = "CFM_781";
@@ -374,10 +434,22 @@ namespace HearthDb
                 public const string BuccaneerCorePlaceholder = "CORE_AT_029";
 
                 /// <summary>
+                /// <b>Combo:</b> Give a friendly minion +4 Attack.<br/>
+                /// 5-Cost 4/4 Minion
+                /// </summary>
+                public const string CrazedChemistCorePlaceholder = "CORE_BOT_576";
+
+                /// <summary>
                 /// After you play a <b>Secret</b>, <b>Discover</b> a <b>Secret</b> from a different class.<br/>
                 /// 2-Cost 1/4 Draenei Minion
                 /// </summary>
                 public const string ShadowjewelerHanarCorePlaceholder = "CORE_BT_188";
+
+                /// <summary>
+                /// <b>Stealth</b><br/>
+                /// 1-Cost 3/1 Minion
+                /// </summary>
+                public const string SpymistressCorePlaceholder = "CORE_BT_701";
 
                 /// <summary>
                 /// <b>Secret:</b> After your opponent plays a minion, summon a 2/3 Ambusher with <b>Poisonous</b>.<br/>
@@ -386,7 +458,7 @@ namespace HearthDb
                 public const string AmbushCorePlaceholder = "CORE_BT_707";
 
                 /// <summary>
-                /// <b>Stealth</b>. Whenever this attacks, add a random card to your hand <i>(from your opponent's class).</i><br/>
+                /// <b>Stealth</b> Whenever this attacks, add a card from another class to your hand.<br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
                 public const string ShakuTheCollectorCore = "CORE_CFM_781";
@@ -492,6 +564,12 @@ namespace HearthDb
                 /// 0-Cost Spell
                 /// </summary>
                 public const string PreparationCore = "CORE_EX1_145";
+
+                /// <summary>
+                /// Deal $1 damage. Draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string ShivCorePlaceholder = "CORE_EX1_278";
 
                 /// <summary>
                 /// <b>Stealth</b> <b>Poisonous</b><br/>
@@ -704,16 +782,34 @@ namespace HearthDb
                 public const string GhastlyGravediggerCorePlaceholder = "CORE_REV_959";
 
                 /// <summary>
+                /// Each time you cast a spell, transform this into a copy of it.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string ShadowOfDemiseCorePlaceholder = "CORE_RLK_567";
+
+                /// <summary>
                 /// <b>Secret:</b> At the end of your opponent's turn, add copies of the cards they played to your hand.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string PlagiarizeCorePlaceholder = "CORE_SCH_706";
 
                 /// <summary>
+                /// Add two random spells from other classes that cost (5) or more to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string JackpotCorePlaceholder = "CORE_TID_931";
+
+                /// <summary>
                 /// Draw 2 Pirates from your deck. <b>Combo:</b> And a weapon.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string RaidingPartyCore = "CORE_TRL_124";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Return a random enemy minion to your opponent's hand.<br/>
+                /// 4-Cost 4/4 Pirate Minion
+                /// </summary>
+                public const string SahketSapperCorePlaceholder = "CORE_ULD_280";
 
                 /// <summary>
                 /// Deal $2 damage to an undamaged minion.<br/>
@@ -1352,7 +1448,7 @@ namespace HearthDb
                 public const string FaceCollector = "GIL_677";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If that kills it, add a Coin to your hand.<br/>
+                /// Deal $3 damage to a minion. If it dies, add a Coin to your hand.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string Wanted = "GIL_687";
@@ -1644,6 +1740,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ValeeraSanguinar_SinestraHeroHeroSkins = "HERO_03bk";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinar_LadySinestraHeroHeroSkins = "HERO_03bl";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2354,7 +2456,7 @@ namespace HearthDb
                 public const string RoyalInformant = "TIME_036";
 
                 /// <summary>
-                /// <b>Discover</b> a copy of a card in your opponent's hand. It costs (1) less.<br/>
+                /// <b>Discover</b> a copy of a card in your opponent's hand.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string DejaVu = "TIME_039";
@@ -2505,7 +2607,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Summon two random 4-Cost minions. Costs (1) less for each card you've drawn this turn.<br/>
-                /// 9-Cost Spell
+                /// 8-Cost Spell
                 /// </summary>
                 public const string EverythingMustGo = "TOY_519";
 

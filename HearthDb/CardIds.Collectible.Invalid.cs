@@ -8,6 +8,24 @@ namespace HearthDb
             public class Invalid
             {
                 /// <summary>
+                /// <b>Battlecry:</b> Choose {0} Cataclysm to unleash! <i><b>Herald</b> twice to upgrade.</i>1<b>Battlecry:</b> Choose {0} |4(Cataclysm,Cataclysms) to unleash! <i><b>Herald</b> once to upgrade.</i>1<b>Battlecry:</b> Choose {0} |4(Cataclysm,Cataclysms) to unleash!<br/>
+                /// 10-Cost Hero
+                /// </summary>
+                public const string DeathwingWorldbreakerHeroic = "CATA_190h";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Herald</b> {0}. Reduce Deathwing's Cost by ({1}). <i>(<b>Herald</b> to improve!)</i><br/>
+                /// 6-Cost 6/7 Dragon Minion
+                /// </summary>
+                public const string Ultraxion = "CATA_497";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> <b>Herald</b> {0}.<br/>
+                /// 5-Cost 5/4 Minion
+                /// </summary>
+                public const string EnvoyOfTheEnd = "CATA_722";
+
+                /// <summary>
                 /// <b>Battlecry:</b> <b>Imbue</b> your Hero Power.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
@@ -21,7 +39,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Costs (1) less for each minion that died this turn. <b>Battlecry:</b> Draw 2 cards.<br/>
-                /// 7-Cost 6/5 Demon/Undead Minion
+                /// 7-Cost 5/4 Demon/Undead Minion
                 /// </summary>
                 public const string RemnantOfRage = "END_004";
 
@@ -141,7 +159,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Get a 1/1 Zergling. <b>Deathrattle:</b> Your Zerg minions have <b>Rush</b> this turn.<br/>
-                /// 2-Cost Location
+                /// 1-Cost Location
                 /// </summary>
                 public const string SpawningPool = "SC_000";
 
@@ -153,7 +171,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon two 2/5 Hive Queens. Deal 3 damage to all enemies.<br/>
-                /// 8-Cost Hero
+                /// 7-Cost Hero
                 /// </summary>
                 public const string KerriganQueenOfBlades = "SC_004";
 
@@ -171,7 +189,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Relaunch every <b>Starship</b> that you launched this game.<br/>
-                /// 8-Cost Hero
+                /// 7-Cost Hero
                 /// </summary>
                 public const string JimRaynor = "SC_400";
 
@@ -195,13 +213,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// Draw 2 Terran cards. Summon a 2/1 <b>Starship Piece</b> with an effect when launched.<br/>
-                /// 4-Cost Spell
+                /// 3-Cost Spell
                 /// </summary>
                 public const string LiftOff = "SC_410";
 
                 /// <summary>
                 /// Draw 2 Protoss cards. Summon a 3/4 Zealot with <b>Charge</b>.<br/>
-                /// 5-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string ChronoBoost = "SC_750";
 
@@ -219,7 +237,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon two 3/4 Zealots with <b>Charge</b>. Your Protoss minions cost (2) less this game.<br/>
-                /// 8-Cost Hero
+                /// 7-Cost Hero
                 /// </summary>
                 public const string Artanis = "SC_754";
 

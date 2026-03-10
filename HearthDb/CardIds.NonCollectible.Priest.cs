@@ -275,37 +275,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins8 = "HERO_09bqhp";
+                public const string AnduinWrynn_LesserHealHeroSkins8 = "HERO_09blhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins8 = "HERO_09bqhp2";
+                public const string AnduinWrynn_HealHeroSkins8 = "HERO_09blhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins9 = "HERO_09dbp";
+                public const string AnduinWrynn_LesserHealHeroSkins9 = "HERO_09bqhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #4 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_HealHeroSkins9 = "HERO_09bqhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins10 = "HERO_09dbp_Copy";
+                public const string AnduinWrynn_LesserHealHeroSkins10 = "HERO_09dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #2 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_LesserHealHeroSkins11 = "HERO_09dbp_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins9 = "HERO_09dbp2";
+                public const string AnduinWrynn_HealHeroSkins10 = "HERO_09dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins10 = "HERO_09dbp2_Copy";
+                public const string AnduinWrynn_HealHeroSkins11 = "HERO_09dbp2_Copy";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, your Hero Power costs (0) this game.<br/>
@@ -3492,6 +3504,54 @@ namespace HearthDb
                 /// 10-Cost Location
                 /// </summary>
                 public const string MedivhtheHallowed_KarazhanTheSanctumToken = "TIME_890t2";
+
+                /// <summary>
+                /// Your healing effects heal (2) more this game.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CleansingCleric_FreeFromCorruptionEnchantment = "CATA_216e";
+
+                /// <summary>
+                /// At the end of your turn, restore #3 Health to a random damaged friendly character.<br/>
+                /// 3-Cost 1/2 Minion
+                /// </summary>
+                public const string TheBlackBlood_BlackBloodsBodyToken1 = "CATA_300t1";
+
+                /// <summary>
+                /// At the end of your turn, restore #3 Health to a random damaged friendly character.<br/>
+                /// 3-Cost 1/2 Minion
+                /// </summary>
+                public const string TheBlackBlood_BlackBloodsBodyToken2 = "CATA_300t2";
+
+                /// <summary>
+                /// At the end of your turn, restore #3 Health to a random damaged friendly character.<br/>
+                /// 3-Cost 1/2 Minion
+                /// </summary>
+                public const string TheBlackBlood_BlackBloodsBodyToken3 = "CATA_300t3";
+
+                /// <summary>
+                /// +3 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string IncensedMatriarch_IncensedEnchantment = "CATA_305e";
+
+                /// <summary>
+                /// +2/+3<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Schism_DarkInfluenceEnchantment = "CATA_306e";
+
+                /// <summary>
+                /// <b>Shattered</b> Give a friendly minion +2/+3 and <b>Elusive</b>.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string Schism_SchismToken1 = "CATA_306t1";
+
+                /// <summary>
+                /// <b>Shattered</b> Summon a copy of a friendly minion.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string Schism_SchismToken2 = "CATA_306t2";
             }
         }
     }

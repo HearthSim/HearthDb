@@ -38,6 +38,18 @@ namespace HearthDb
                 public const string TheLichKing_GhoulFrenzy4 = "HERO_11aqhp2";
 
                 /// <summary>
+                /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string TheLichKing_GhoulFrenzy5 = "HERO_11awhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string TheLichKing_GhoulFrenzy6 = "HERO_11axhp2";
+
+                /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
@@ -47,7 +59,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy5 = "HERO_11bp2";
+                public const string TheLichKing_GhoulFrenzy7 = "HERO_11bp2";
 
                 /// <summary>
                 /// <b>Charge</b> At the end of your turn, this minion dies.<br/>
@@ -65,13 +77,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy6 = "HERO_11cbp2";
+                public const string TheLichKing_GhoulFrenzy8 = "HERO_11cbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy7 = "HERO_11gbp2";
+                public const string TheLichKing_GhoulFrenzy9 = "HERO_11gbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -83,7 +95,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy8 = "HERO_11ibp2";
+                public const string TheLichKing_GhoulFrenzy10 = "HERO_11ibp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -95,19 +107,19 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy9 = "HERO_11uhp2";
+                public const string TheLichKing_GhoulFrenzy11 = "HERO_11uhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy10 = "HERO_11vhp2";
+                public const string TheLichKing_GhoulFrenzy12 = "HERO_11vhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy11 = "HERO_11zhp2";
+                public const string TheLichKing_GhoulFrenzy13 = "HERO_11zhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -143,13 +155,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins5 = "HERO_11cbp";
+                public const string TheLichKing_GhoulChargeHeroSkins5 = "HERO_11awhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins6 = "HERO_11fbp";
+                public const string TheLichKing_GhoulChargeHeroSkins6 = "HERO_11axhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string TheLichKing_GhoulChargeHeroSkins7 = "HERO_11cbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string TheLichKing_GhoulChargeHeroSkins8 = "HERO_11fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -161,7 +185,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins7 = "HERO_11gbp";
+                public const string TheLichKing_GhoulChargeHeroSkins9 = "HERO_11gbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -173,13 +197,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins8 = "HERO_11ibp";
+                public const string TheLichKing_GhoulChargeHeroSkins10 = "HERO_11ibp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins9 = "HERO_11lbp";
+                public const string TheLichKing_GhoulChargeHeroSkins11 = "HERO_11lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -197,19 +221,19 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins10 = "HERO_11uhp";
+                public const string TheLichKing_GhoulChargeHeroSkins12 = "HERO_11uhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins11 = "HERO_11vhp";
+                public const string TheLichKing_GhoulChargeHeroSkins13 = "HERO_11vhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins12 = "HERO_11zhp";
+                public const string TheLichKing_GhoulChargeHeroSkins14 = "HERO_11zhp";
 
                 /// <summary>
                 /// Draw 4 cards.<br/>
@@ -848,6 +872,18 @@ namespace HearthDb
                 public const string Manipulate = "Story_10_Manipulate";
 
                 /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string LordThorvalCore = "CORE_CATA_005";
+
+                /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string GuardianGargoyleCore = "CORE_CATA_008";
+
+                /// <summary>
                 /// <b>Poisonous</b><br/>
                 /// Enchantment
                 /// </summary>
@@ -932,7 +968,7 @@ namespace HearthDb
                 public const string DeathStrike_DeathStrikeCore = "RLK_Prologue_RLK_024_AI";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If that kills it, gain a <b>Corpse</b>.<br/>
+                /// Deal $3 damage to a minion. If it dies, gain a <b>Corpse</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string HeartStrikeCore = "RLK_Prologue_RLK_034";
@@ -1196,7 +1232,7 @@ namespace HearthDb
                 public const string SkeletalSidekick_ThrownABoneEnchantmentRETURN_OF_THE_LICH_KING = "RLK_958e";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If that kills it, <b>Discover</b> a Frost Rune card.<br/>
+                /// Deal $3 damage to a minion. If it dies, <b>Discover</b> a Frost Rune card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string FrostStrike = "RLK_Prologue_025";
@@ -1580,7 +1616,7 @@ namespace HearthDb
                 public const string HowlingBlast = "RLK_Prologue_RLK_015";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If that kills it, summon a 2/2 Zombie with <b>Rush</b>.<br/>
+                /// Deal $3 damage to a minion. If it dies, summon a 2/2 Zombiewith <b>Rush</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string PlagueStrike = "RLK_Prologue_RLK_018";
@@ -2258,10 +2294,52 @@ namespace HearthDb
                 public const string TalanjioftheGraves_BoonOfSpeedToken = "TIME_619t5";
 
                 /// <summary>
+                /// When summoned, get a random {0}-Cost minion. It costs Health this turn. <i><b>Herald</b> twice to upgrade.</i> 2When summoned, get a random {0}-Cost minion. It costs Health this turn. <i><b>Herald</b> once to upgrade.</i> 2When summoned, get a random {0}-Cost minion. It costs Health this turn.<br/>
+                /// 1-Cost 1/1 Dragon/Undead Minion
+                /// </summary>
+                public const string ArisenOnyxia_OnyxiasWingToken1 = "CATA_155t";
+
+                /// <summary>
+                /// When summoned, get a random {0}-Cost minion. It costs Health this turn. <i><b>Herald</b> twice to upgrade.</i> 2When summoned, get a random {0}-Cost minion. It costs Health this turn. <i><b>Herald</b> once to upgrade.</i> 2When summoned, get a random {0}-Cost minion. It costs Health this turn.<br/>
+                /// 1-Cost 1/1 Dragon/Undead Minion
+                /// </summary>
+                public const string ArisenOnyxia_OnyxiasWingToken2 = "CATA_155t1";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GruesomeNightmare_NightmarishEnchantment = "CATA_161e";
+
+                /// <summary>
+                /// Deal $1 damage.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string BlackwingExperiment_DragonBreathToken = "CATA_464t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 5-Cost 5/4 Dragon/Undead Minion
+                /// </summary>
+                public const string ChowDown_HungryDrakeToken = "CATA_465t";
+
+                /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CommandClaw_TheClawwwEnchantment = "CATA_467e";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// 1-Cost 1/1 Dragon/Undead Minion
                 /// </summary>
                 public const string VictorNefarius_NefariansCreationToken = "CATA_470t1";
+
+                /// <summary>
+                /// When summoned, get a random {0}-Cost minion. It costs Health this turn. <i><b>Herald</b> twice to upgrade.</i> 2When summoned, get a random {0}-Cost minion. It costs Health this turn. <i><b>Herald</b> once to upgrade.</i> 2When summoned, get a random {0}-Cost minion. It costs Health this turn.<br/>
+                /// 1-Cost 1/1 Dragon/Undead Minion
+                /// </summary>
+                public const string ObsessiveTechnician_SoldierOfOnyxiaToken = "CATA_780t";
             }
         }
     }

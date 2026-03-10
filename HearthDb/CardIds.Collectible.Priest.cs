@@ -20,7 +20,7 @@ namespace HearthDb
                 public const string SpawnOfShadowsTGT = "AT_012";
 
                 /// <summary>
-                /// Choose a minion. Whenever it attacks, restore 4 Health to your hero.<br/>
+                /// Choose a minion. Whenever it attacks, restore #4 Health to your hero.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string PowerWordGlory = "AT_013";
@@ -314,6 +314,66 @@ namespace HearthDb
                 public const string SkeletalDragon = "BT_341";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Your healing effects restore 2 more Health this game.<br/>
+                /// 4-Cost 4/5 Draenei Minion
+                /// </summary>
+                public const string CleansingCleric = "CATA_216";
+
+                /// <summary>
+                /// <b>Colossal +3. </b> After you restore Health to a character, attack a random enemy minion.<br/>
+                /// 7-Cost 4/8 Minion
+                /// </summary>
+                public const string TheBlackBlood = "CATA_300";
+
+                /// <summary>
+                /// Your next Healing effect this turn deals damage instead.<br/>
+                /// 1-Cost Location
+                /// </summary>
+                public const string RubySanctum = "CATA_301";
+
+                /// <summary>
+                /// Restore a minion to full Health. Draw a card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string Mend = "CATA_302";
+
+                /// <summary>
+                /// Deal $5 damage to a minion. If it dies, restore #5 Health to the enemy hero.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string PurifyingBreath = "CATA_303";
+
+                /// <summary>
+                /// <b><b>Lifesteal</b> Battlecry:</b> Deal 4 damage to this minion.<br/>
+                /// 3-Cost 3/8 Undead Minion
+                /// </summary>
+                public const string InjuredAttendant = "CATA_304";
+
+                /// <summary>
+                /// At the end of your turn, if this is at full Health, gain +3 Health.<br/>
+                /// 4-Cost 3/3 Dragon Minion
+                /// </summary>
+                public const string IncensedMatriarch = "CATA_305";
+
+                /// <summary>
+                /// <b>Shatter</b> Give a friendly minion +2/+3 and <b>Elusive</b>. Summon a copy of it.122876Give a friendly minion +2/+3 and <b>Elusive</b>. Summon a copy of it.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string Schism = "CATA_306";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Set your remaining Health to 15. When you reach full Health, deal 15 damage to your opponent.<br/>
+                /// 7-Cost 8/8 Dragon Minion
+                /// </summary>
+                public const string AlexstraszaGuardianOfLife = "CATA_307";
+
+                /// <summary>
+                /// Deal $4 damage to all minions. Costs (1) if you control a <b>Legendary</b> card.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string MedivhsTriumph = "CATA_308";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, your Hero Power costs (0) this game.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
@@ -390,6 +450,24 @@ namespace HearthDb
                 /// 6-Cost 6/6 Elemental Minion
                 /// </summary>
                 public const string LightshowerElementalCore = "CORE_BAR_310";
+
+                /// <summary>
+                /// <b>Lifesteal</b>. Deal $4 damage randomly split among all enemy minions.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string DevouringPlagueCorePlaceholder = "CORE_BAR_311";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Battlecry:</b> If you've restored Health this turn, gain +3/+3.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
+                public const string PriestOfAnsheCorePlaceholder = "CORE_BAR_313";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Resurrect your highest-Cost minion that died this game.<br/>
+                /// 6-Cost 4/5 Undead Minion
+                /// </summary>
+                public const string CaliaMenethilCorePlaceholder = "CORE_CATA_002";
 
                 /// <summary>
                 /// Restore #12 Health to a friendly character. Draw a card.<br/>
@@ -680,6 +758,18 @@ namespace HearthDb
                 public const string CathedralOfAtonementCorePlaceholder = "CORE_REV_290";
 
                 /// <summary>
+                /// <b>Battlecry:</b> If you're holding a Shadow spell, gain +1/+1.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
+                public const string CrystalsmithCultistCorePlaceholder = "CORE_RLK_814";
+
+                /// <summary>
+                /// Deal $4 damage to a minion. If it dies, summon a new copy.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string InitiationCorePlaceholder = "CORE_SCH_512";
+
+                /// <summary>
                 /// <b>Tradeable</b> <b>Silence</b> all enemy minions.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -812,7 +902,7 @@ namespace HearthDb
                 public const string ConvincingInfiltrator = "DAL_039";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Restore 5 Health to the enemy hero.<br/>
+                /// <b>Deathrattle:</b> Restore #5 Health to the enemy hero.<br/>
                 /// 4-Cost 4/7 Quilboar Minion
                 /// </summary>
                 public const string HenchClanShadequill = "DAL_040";
@@ -1400,7 +1490,7 @@ namespace HearthDb
                 public const string AnduinsGift = "GIFT_12";
 
                 /// <summary>
-                /// Deal $4 damage to a minion. If that kills it, add a copy of it to your hand.<br/>
+                /// Deal $4 damage to a minion. If it dies, add a copy of it to your hand.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string HolyWater = "GIL_134";
@@ -1727,6 +1817,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string AnduinWrynn_TwilightFatherBenedictusHeroHeroSkins = "HERO_09bl";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_TwilightCultistWhitemaneHeroHeroSkins = "HERO_09bm";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_TuralyonHeroHeroSkins = "HERO_09bq";
 
                 /// <summary>
@@ -1980,6 +2082,12 @@ namespace HearthDb
                 /// 3-Cost 4/3 Undead Minion
                 /// </summary>
                 public const string ShadowedSpiritLegacy = "LEG_CS3_013";
+
+                /// <summary>
+                /// <b>Discover</b> a spell from your deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string ThriveInTheShadowsCorePlaceholder = "LEG_CS3_028";
 
                 /// <summary>
                 /// <b>Battlecry: Discover</b> a <b>Deathrattle</b> card. It costs (1) less.<br/>
@@ -2366,7 +2474,7 @@ namespace HearthDb
                 public const string DraconicStudies = "SCH_233";
 
                 /// <summary>
-                /// Deal $4 damage to a minion. If that kills it, summon a new copy.<br/>
+                /// Deal $4 damage to a minion. If it dies, summon a new copy.<br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string Initiation = "SCH_512";
@@ -2594,7 +2702,7 @@ namespace HearthDb
                 public const string PapercraftAngel = "TOY_381";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Get two 0-Cost Bandages that restore 3 Health.<br/>
+                /// <b>Deathrattle:</b> Get two 0-Cost Bandages that restore #3 Health.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string CarelessCrafter = "TOY_382";

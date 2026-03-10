@@ -392,37 +392,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins9 = "HERO_05dbp";
+                public const string Rexxar_SteadyShotHeroSkins9 = "HERO_05bnhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins9 = "HERO_05dbp2";
+                public const string Rexxar_BallistaShotHeroSkins9 = "HERO_05bnhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins10 = "HERO_05ybp";
+                public const string Rexxar_SteadyShotHeroSkins10 = "HERO_05dbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins10 = "HERO_05ybp2";
+                public const string Rexxar_BallistaShotHeroSkins10 = "HERO_05dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins11 = "HERO_05zbp";
+                public const string Rexxar_SteadyShotHeroSkins11 = "HERO_05ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins11 = "HERO_05zbp2";
+                public const string Rexxar_BallistaShotHeroSkins11 = "HERO_05ybp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_SteadyShotHeroSkins12 = "HERO_05zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_BallistaShotHeroSkins12 = "HERO_05zbp2";
 
                 /// <summary>
                 /// Change a minion's Health to 1.<br/>
@@ -4180,7 +4192,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b><br/>
-                /// 3-Cost 2/4 Beast Minion
+                /// 3-Cost 2/5 Beast Minion
                 /// </summary>
                 public const string AlienEncounters_SnackingScrungukToken = "GDB_237t";
 
@@ -4561,6 +4573,90 @@ namespace HearthDb
                 /// 4-Cost Location
                 /// </summary>
                 public const string PastSilvermoon_FutureSilvermoonToken = "TIME_810t2";
+
+                /// <summary>
+                /// +2 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Magmaw_StampedeEnchantment = "CATA_550e1";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give a random friendly minion +2 Attack.<br/>
+                /// 1-Cost 2/1 Beast/Mechanical Minion
+                /// </summary>
+                public const string Magmaw_MagmawsBodyToken1 = "CATA_550t";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give a random friendly minion +2 Attack.<br/>
+                /// 1-Cost 2/1 Beast/Mechanical Minion
+                /// </summary>
+                public const string Magmaw_MagmawsBodyToken2 = "CATA_550t2";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give a random friendly minion +2 Attack.<br/>
+                /// 1-Cost 2/1 Beast/Mechanical Minion
+                /// </summary>
+                public const string Magmaw_MagmawsBodyToken3 = "CATA_550t3";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give a random friendly minion +2 Attack.<br/>
+                /// 1-Cost 2/1 Beast/Mechanical Minion
+                /// </summary>
+                public const string Magmaw_MagmawsBodyToken4 = "CATA_550t4";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give a random friendly minion +2 Attack.<br/>
+                /// 1-Cost 2/1 Beast/Mechanical Minion
+                /// </summary>
+                public const string Magmaw_MagmawsBodyToken5 = "CATA_550t5";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give a random friendly minion +2 Attack.<br/>
+                /// 1-Cost 2/1 Beast/Mechanical Minion
+                /// </summary>
+                public const string Magmaw_MagmawsBodyToken6 = "CATA_550t6";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 3-Cost 6/6 Dragon Minion
+                /// </summary>
+                public const string StonetalonStriker_StonetalonStrikerToken = "CATA_551t";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal damage equal to this minion's Attack.<br/>
+                /// 6-Cost 8/8 Dragon Minion
+                /// </summary>
+                public const string EbonscaleScout_EbonscaleScoutToken = "CATA_552t";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your Dragons have <b>Rush</b> this game.<br/>
+                /// 7-Cost 12/12 Dragon Minion
+                /// </summary>
+                public const string Ebyssian_EbyssianToken = "CATA_553t";
+
+                /// <summary>
+                /// This minion has 1 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EarthenRoar_IntimidatedEnchantment = "CATA_554e";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SupplyRun_BrickByBrickEnchantment = "CATA_820e";
+
+                /// <summary>
+                /// <b>Shattered</b> Draw 3 minions.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string SupplyRun_SupplyRunToken1 = "CATA_820t";
+
+                /// <summary>
+                /// <b>Shattered</b> Give minions in your hand +2/+2.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string SupplyRun_SupplyRunToken2 = "CATA_820t2";
             }
         }
     }

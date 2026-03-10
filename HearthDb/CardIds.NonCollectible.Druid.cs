@@ -521,6 +521,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string MalfurionStormrage_ShapeshiftHeroSkins6 = "HERO_06bmhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins6 = "HERO_06bmhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string MalfurionStormrage_ShapeshiftHeroSkinsEnchantment = "HERO_06ebp";
 
                 /// <summary>
@@ -533,61 +545,61 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins6 = "HERO_06fbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins7 = "HERO_06fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins6 = "HERO_06fbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins7 = "HERO_06fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins7 = "HERO_06pbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins8 = "HERO_06pbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins7 = "HERO_06pbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins8 = "HERO_06pbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins8 = "HERO_06rbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins9 = "HERO_06rbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins8 = "HERO_06rbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins9 = "HERO_06rbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins9 = "HERO_06ubp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins10 = "HERO_06ubp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins9 = "HERO_06ubp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins10 = "HERO_06ubp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins10 = "HERO_06zbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins11 = "HERO_06zbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins10 = "HERO_06zbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins11 = "HERO_06zbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -4142,6 +4154,12 @@ namespace HearthDb
                 public const string MalfurionStormrage_DireShapeshiftLegacy = "HERO_06bp2";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Summon a random minion of the same Cost.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Ulfar_ThornspeakersSpiritCoreEnchantment = "CORE_CATA_006e";
+
+                /// <summary>
                 /// Your next spell this turn costs (3) less.<br/>
                 /// Enchantment
                 /// </summary>
@@ -5736,6 +5754,78 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string KaldoreiCultivator_NurturedEnchantment = "TIME_730e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CrystalspineCub_CrystalizedEnchantment = "CATA_130e";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 3-Cost 3/3 Dragon Minion
+                /// </summary>
+                public const string Broodwatcher_EmeraldWhelpToken = "CATA_132t";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a 2/2 Treant.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WildwoodCircle_WildwoodAuraEnchantment = "CATA_134e";
+
+                /// <summary>
+                /// <b>Shattered</b> Summon two 2/2 Treants.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string WildwoodCircle_WildwoodCircleToken1 = "CATA_134t";
+
+                /// <summary>
+                /// <b>Shattered</b> Give your minions "<b>Deathrattle:</b> Summon a 2/2 Treant."<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string WildwoodCircle_WildwoodCircleToken2 = "CATA_134t2";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 2/2 Minion
+                /// </summary>
+                public const string WildwoodCircle_TreantToken = "CATA_134t3";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Mossbinding_MossShapedEnchantment = "CATA_135e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
+                public const string Mossbinding_MossGolemToken = "CATA_135t";
+
+                /// <summary>
+                /// At the end of your turn, gain +1/+1.<br/>
+                /// 1-Cost 0/2 Minion
+                /// </summary>
+                public const string Wickerfang_WickerfangsLegToken1 = "CATA_139t";
+
+                /// <summary>
+                /// At the end of your turn, gain +1/+1.<br/>
+                /// 1-Cost 0/2 Minion
+                /// </summary>
+                public const string Wickerfang_WickerfangsLegToken2 = "CATA_139t2";
+
+                /// <summary>
+                /// At the end of your turn, gain +1/+1.<br/>
+                /// 1-Cost 0/2 Minion
+                /// </summary>
+                public const string Wickerfang_WickerfangsLegToken3 = "CATA_139t3";
+
+                /// <summary>
+                /// At the end of your turn, gain +1/+1.<br/>
+                /// 1-Cost 0/2 Minion
+                /// </summary>
+                public const string Wickerfang_WickerfangsLegToken4 = "CATA_139t4";
             }
         }
     }

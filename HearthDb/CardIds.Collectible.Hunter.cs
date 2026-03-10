@@ -320,6 +320,66 @@ namespace HearthDb
                 public const string BeastmasterLeoroxx = "BT_214";
 
                 /// <summary>
+                /// <b>Colossal +99</b> Summon any leftover appendages when there is room.99<b>Colossal +99</b> Summon any leftover appendages when there is room. <i>({0} left!)</i><br/>
+                /// 7-Cost 2/12 Beast/Mechanical Minion
+                /// </summary>
+                public const string Magmaw = "CATA_550";
+
+                /// <summary>
+                /// <b>Taunt</b> <i>While in hand, play a Dragon to become a 6/6 Dragon!</i><br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string StonetalonStriker = "CATA_551";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal damage equal to this minion's Attack. <i>(While in hand, play a Dragon to become an 8/8 Dragon.)</i><br/>
+                /// 6-Cost 4/4 Minion
+                /// </summary>
+                public const string EbonscaleScout = "CATA_552";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your Dragons have <b>Rush</b> this game. <i>While in hand, play a Dragon to become a 12/12 Dragon!</i><br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
+                public const string Ebyssian = "CATA_553";
+
+                /// <summary>
+                /// Set an enemy minion's Health to 1. If you're holding a Dragon, pick another.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string EarthenRoar = "CATA_554";
+
+                /// <summary>
+                /// Deal 3 damage. If you've played another copy of this, hit all enemies instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SylvanassTriumph = "CATA_557";
+
+                /// <summary>
+                /// <b>Elusive</b><br/>
+                /// 1-Cost 2/2 Minion
+                /// </summary>
+                public const string ReinforcementRallier = "CATA_558";
+
+                /// <summary>
+                /// Replay each 1-Cost card you've played this game <i>(targeting enemies if possible.)</i><br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ConfrontTheTolvir = "CATA_560";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose a card in your hand. At the start of your turns, reduce its Cost by (1).<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
+                public const string TolvirCarver = "CATA_566";
+
+                /// <summary>
+                /// <b>Shatter</b> Draw 3 minions. Give minions in your hand +2/+2.121758Draw 3 minions. Give minions in your hand +2/+2.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string SupplyRun = "CATA_820";
+
+                /// <summary>
                 /// <b>Secret:</b> After your opponent plays a minion, give a random minion in your hand +2/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -414,6 +474,12 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string QuickShotCore = "CORE_BRM_013";
+
+                /// <summary>
+                /// <b>Deathrattle</b>: Deal this minion's Attack damage randomly split among all enemies.<br/>
+                /// 3-Cost 2/4 Beast/Mechanical Minion
+                /// </summary>
+                public const string AugmentedPorcupineCorePlaceholder = "CORE_BT_201";
 
                 /// <summary>
                 /// Deal $4 damage to a minion. <b>Discover</b> a spell.<br/>
@@ -644,6 +710,12 @@ namespace HearthDb
                 public const string AnimalCompanionCore = "CORE_NEW1_031";
 
                 /// <summary>
+                /// Summon all three Animal Companions.<br/>
+                /// 8-Cost Spell
+                /// </summary>
+                public const string CallOfTheWildCorePlaceholder = "CORE_OG_211";
+
+                /// <summary>
                 /// Summon two 2/1 Bats. <b>Infuse (3):</b> Give them +1/+2.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -720,6 +792,18 @@ namespace HearthDb
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string SpringpawCorePlaceholder = "CORE_TRL_348";
+
+                /// <summary>
+                /// <b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have <b>Rush</b>.<br/>
+                /// 4-Cost 4/2 Beast Minion
+                /// </summary>
+                public const string HalazziTheLynxCorePlaceholder = "CORE_TRL_900";
+
+                /// <summary>
+                /// <b>Secret:</b> After your opponent casts a spell, destroy a random enemy minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string PressurePlateCorePlaceholder = "CORE_ULD_152";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle</b>.<br/>
@@ -1052,7 +1136,7 @@ namespace HearthDb
                 public const string AmphibiansSpirit = "EDR_261";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If that kills it, summon a 3/2 Wolf with <b>Rush</b>.<br/>
+                /// Deal $3 damage to a minion. If it dies, summon a 3/2 Wolf with <b>Rush</b>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string SpiritBond = "EDR_262";
@@ -1280,7 +1364,7 @@ namespace HearthDb
                 public const string Biopod = "GDB_111";
 
                 /// <summary>
-                /// Summon two 2/4 Beasts with <b>Taunt</b>. Costs (1) less for each card you <b><b>Discover</b>ed</b> this game.<br/>
+                /// Summon two 2/5 Beasts with <b>Taunt</b>. Costs (1) less for each card you <b><b>Discover</b>ed</b> this game.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string AlienEncounters = "GDB_237";
@@ -1680,6 +1764,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Rexxar_LionsLandingVarianHeroHeroSkins2 = "HERO_05bm_gold";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_MagmawHeroHeroSkins = "HERO_05bn";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_StormpikeExpeditionTavishHeroHeroSkins = "HERO_05bq";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2535,7 +2631,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Summon six 1/1 Hounds. Any that can't fit give the others +1/+1.<br/>
-                /// 5-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string RCRampage = "TOY_354";
 
@@ -2552,7 +2648,7 @@ namespace HearthDb
                 public const string Toyrannosaurus = "TOY_356";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If your opponent has 15 or less health, return all other minions to their owner's decks and gain <b>Charge</b>.<br/>
+                /// <b>Charge</b> <b>Battlecry:</b> Return all minions with less Attack than this to their owner's decks.<br/>
                 /// 9-Cost 6/6 Beast Minion
                 /// </summary>
                 public const string KingPlush = "TOY_357";
@@ -2618,8 +2714,8 @@ namespace HearthDb
                 public const string RevengeOfTheWild = "TRL_566";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have <b>Rush</b>.<br/>
-                /// 5-Cost 3/2 Beast Minion
+                /// <b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have <b>Rush</b>.<br/>
+                /// 4-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string HalazziTheLynx = "TRL_900";
 

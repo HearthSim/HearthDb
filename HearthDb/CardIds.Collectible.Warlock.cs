@@ -314,6 +314,66 @@ namespace HearthDb
                 public const string KanrethadEbonlocke = "BT_309";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Choose a card in your hand to discard.<br/>
+                /// 3-Cost 3/6 Demon Minion
+                /// </summary>
+                public const string OcularOccultist = "CATA_490";
+
+                /// <summary>
+                /// Deal $3 damage to all minions. Repeat this with 1 less damage.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string EldritchTentacles = "CATA_491";
+
+                /// <summary>
+                /// <b>Herald</b> {0}. Draw a card.<br/>
+                /// 4-Cost Location
+                /// </summary>
+                public const string ShrineOfTwilight = "CATA_492";
+
+                /// <summary>
+                /// <b>Rush</b> Has +2/+2 for each card you've discarded this game.<br/>
+                /// 4-Cost 2/2 Minion
+                /// </summary>
+                public const string DukeOfBelow = "CATA_493";
+
+                /// <summary>
+                /// After you discard a minion, summon a copy of it.<br/>
+                /// 7-Cost 7/7 Dragon Minion
+                /// </summary>
+                public const string Maloriak = "CATA_494";
+
+                /// <summary>
+                /// Take control of an enemy minion until the end of their turn. It can't attack this turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string CursedChains = "CATA_496";
+
+                /// <summary>
+                /// Deal $2 damage to two random enemy minions. <i>(Upgrades each turn!)</i><br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string RafaamsLastStand = "CATA_498";
+
+                /// <summary>
+                /// When you play or discard this, summon two random 1-Cost minions.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string DisposableAcolytes = "CATA_499";
+
+                /// <summary>
+                /// <b><b>Battlecry:</b> Herald</b> {0}. <b>Deathrattle:</b> Restore #3 Health to your hero.<br/>
+                /// 2-Cost 2/1 Minion
+                /// </summary>
+                public const string ShadowswornDisciple = "CATA_725";
+
+                /// <summary>
+                /// <b>Colossal +2</b> Your Arms and Soldiers destroy minions in the enemy's deck instead.<br/>
+                /// 9-Cost 6/6 Minion
+                /// </summary>
+                public const string ChogallMastermind = "CATA_726";
+
+                /// <summary>
                 /// Deal $5 damage to all characters.<br/>
                 /// 6-Cost Spell
                 /// </summary>
@@ -446,7 +506,7 @@ namespace HearthDb
                 public const string ArchVillainRafaamCorePlaceholder = "CORE_DAL_422";
 
                 /// <summary>
-                /// Deal $1 damage to a minion. If that kills it, draw a card.<br/>
+                /// Deal $1 damage to a minion. If it dies, draw a card.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string MortalCoilCore = "CORE_EX1_302";
@@ -596,6 +656,12 @@ namespace HearthDb
                 public const string LesserAmethystSpellstoneCorePlaceholder = "CORE_LOOT_043";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Summon three 1/3 Demons with <b>Taunt</b>.<br/>
+                /// 9-Cost 3/9 Demon Minion
+                /// </summary>
+                public const string VoidlordCorePlaceholder = "CORE_LOOT_368";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Choose a friendly Imp. Transform into a copy of it.<br/>
                 /// 2-Cost 1/1 Demon Minion
                 /// </summary>
@@ -692,6 +758,12 @@ namespace HearthDb
                 public const string DemonicStudiesCore = "CORE_SCH_158";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Summon a random Demon from your hand and deck.<br/>
+                /// 8-Cost 5/5 Minion
+                /// </summary>
+                public const string ArchwitchWillowCorePlaceholder = "CORE_SCH_181";
+
+                /// <summary>
                 /// Summon a Fiend with <b>Taunt</b> and stats equal to your hand size.<br/>
                 /// 4-Cost Spell
                 /// </summary>
@@ -708,6 +780,12 @@ namespace HearthDb
                 /// 4-Cost 3/5 Minion
                 /// </summary>
                 public const string HighPriestessJeklikCorePlaceholder = "CORE_TRL_252";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy a minion. Your hero takes damage equal to its Health.<br/>
+                /// 6-Cost 7/5 Demon Minion
+                /// </summary>
+                public const string RiftcleaverCorePlaceholder = "CORE_ULD_165";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Discard your two lowest-Cost cards.<br/>
@@ -1130,7 +1208,7 @@ namespace HearthDb
                 public const string VoidVirtuoso = "ETC_081";
 
                 /// <summary>
-                /// Deal $3 damage to a character. If that kills it, summon a Demon from your deck.<br/>
+                /// Deal $3 damage to a character. If it dies, summon a Demon from your deck.<br/>
                 /// 6-Cost Spell
                 /// </summary>
                 public const string DirgeOfDespair = "ETC_082";
@@ -1142,7 +1220,7 @@ namespace HearthDb
                 public const string DemonicDynamics = "ETC_083";
 
                 /// <summary>
-                /// Whenever your hero would take damage on your turn, restore 2 Health instead. Lose 1 Durability.<br/>
+                /// Whenever your hero would take damage on your turn, restore #2 Health instead. Lose 1 Durability.<br/>
                 /// 1-Cost Weapon
                 /// </summary>
                 public const string FelstringHarp = "ETC_084";
@@ -1172,7 +1250,7 @@ namespace HearthDb
                 public const string Felguard = "EX1_301";
 
                 /// <summary>
-                /// Deal $1 damage to a minion. If that kills it, draw a card.<br/>
+                /// Deal $1 damage to a minion. If it dies, draw a card.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string MortalCoilLegacy = "EX1_302";
@@ -1250,7 +1328,7 @@ namespace HearthDb
                 public const string FlameImp = "EX1_319";
 
                 /// <summary>
-                /// Deal $3 damage to a character. If that kills it, summon a random Demon.<br/>
+                /// Deal $3 damage to a character. If it dies, summon a random Demon.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string BaneOfDoomExpert1 = "EX1_320";
@@ -1715,6 +1793,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Guldan_RisenGodfreyHeroHeroSkinsEnchantment = "HERO_07bo";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Guldan_NefariousNemsyHeroHeroSkins = "HERO_07bq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Guldan_MurozondTheInevitableHeroHeroSkins = "HERO_07bt";
 
                 /// <summary>
@@ -1995,7 +2085,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Deathrattle:</b> <b>Recruit</b> a Demon.<br/>
-                /// 6-Cost 2/2 Minion
+                /// 5-Cost 2/2 Minion
                 /// </summary>
                 public const string PossessedLackey = "LOOT_306";
 
@@ -2043,7 +2133,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Deal $2 damage to a minion. Repeat to the left or right, dealing 1 more damage each time.<br/>
-                /// 4-Cost Spell
+                /// 3-Cost Spell
                 /// </summary>
                 public const string DominoEffect = "MIS_027";
 
@@ -2277,7 +2367,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Deal 1 damage to all enemies. <b>Deathrattle:</b> Summon an 8/8 Ultralisk with <b>Rush</b>.<br/>
-                /// 4-Cost Location
+                /// 3-Cost Location
                 /// </summary>
                 public const string UltraliskCavern = "SC_019";
 
@@ -2396,7 +2486,7 @@ namespace HearthDb
                 public const string EntitledCustomer = "SW_089";
 
                 /// <summary>
-                /// Deal $2 damage to a minion. If it dies, restore 3 Health to your hero.<br/>
+                /// Deal $2 damage to a minion. If it dies, restore #3 Health to your hero.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string TouchOfTheNathrezim = "SW_090";
@@ -2565,7 +2655,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give a friendly minion "<b>Deathrattle:</b> Summon two copies of this minion that are <b>Dormant</b> for 2 turns."<br/>
-                /// 4-Cost Spell
+                /// 3-Cost Spell
                 /// </summary>
                 public const string CursedCampaign = "TOY_527";
 
@@ -2925,7 +3015,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon two 1/1 Felbeasts. Deal 3 damage to your hero.<br/>
-                /// 2-Cost 2/1 Demon Minion
+                /// 1-Cost 1/1 Demon Minion
                 /// </summary>
                 public const string PartyFiend = "VAC_940";
 
@@ -3020,7 +3110,7 @@ namespace HearthDb
                 public const string FelguardVanilla = "VAN_EX1_301";
 
                 /// <summary>
-                /// Deal $1 damage to a minion. If that kills it, draw a card.<br/>
+                /// Deal $1 damage to a minion. If it dies, draw a card.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string MortalCoilVanilla = "VAN_EX1_302";
@@ -3098,7 +3188,7 @@ namespace HearthDb
                 public const string FlameImpVanilla = "VAN_EX1_319";
 
                 /// <summary>
-                /// Deal $2 damage to a character. If that kills it, summon a random Demon.<br/>
+                /// Deal $3 damage to a character. If it dies, summon a random Demon.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string BaneOfDoomVanilla = "VAN_EX1_320";
@@ -3206,7 +3296,7 @@ namespace HearthDb
                 public const string UsherOfSoulsWONDERS = "WON_322";
 
                 /// <summary>
-                /// Deal $3 damage to a character. If that kills it, summon a random Demon.<br/>
+                /// Deal $3 damage to a character. If it dies, summon a random Demon.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string BaneOfDoomWONDERS = "WON_323";

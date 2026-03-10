@@ -1826,6 +1826,12 @@ namespace HearthDb
                 public const string CiCigi_GlaiveboundAdeptLegacyToken = "TOY_913t3";
 
                 /// <summary>
+                /// Not implemented yet. Use this for art/VFX for new Core card.<br/>
+                /// 3-Cost 2/4 Minion
+                /// </summary>
+                public const string FelscarredSeekerCore = "CORE_CATA_010";
+
+                /// <summary>
                 /// +3 Attack this turn.<br/>
                 /// Enchantment
                 /// </summary>
@@ -2724,6 +2730,54 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string LastingLegacy_BroxigarsLegacyEnchantment = "TIME_449e2";
+
+                /// <summary>
+                /// <b>Windfury</b><br/>
+                /// Enchantment
+                /// </summary>
+                public const string AzsharaOceanLord_AzsharaWindfuryEnchantment = "CATA_151e";
+
+                /// <summary>
+                /// When summoned, give your hero +{0} Attack this turn. <i> <b>Herald</b> twice to upgrade.</i>1When summoned, give your hero +{0} Attack this turn. <i> <b>Herald</b> once to upgrade.</i>1When summoned, give your hero +{0} Attack this turn.<br/>
+                /// 1-Cost 2/1 Naga Minion
+                /// </summary>
+                public const string AzsharaOceanLord_AzsharasTentacleToken1 = "CATA_151t";
+
+                /// <summary>
+                /// When summoned, give your hero +{0} Attack this turn. <i> <b>Herald</b> twice to upgrade.</i>1When summoned, give your hero +{0} Attack this turn. <i> <b>Herald</b> once to upgrade.</i>1When summoned, give your hero +{0} Attack this turn.<br/>
+                /// 1-Cost 2/1 Naga Minion
+                /// </summary>
+                public const string AzsharaOceanLord_AzsharasTentacleToken2 = "CATA_151t1";
+
+                /// <summary>
+                /// +1 Attack on your turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AzsharaOceanLord_HeroBloodOfTheFelEnchantmentToken = "CATA_151te";
+
+                /// <summary>
+                /// When summoned, give your hero +{0} Attack this turn. <i> <b>Herald</b> twice to upgrade.</i>1When summoned, give your hero +{0} Attack this turn. <i> <b>Herald</b> once to upgrade.</i>1When summoned, give your hero +{0} Attack this turn.<br/>
+                /// 1-Cost 2/1 Naga Minion
+                /// </summary>
+                public const string ArmoredBloodletter_SoldierOfAzsharaToken = "CATA_525t";
+
+                /// <summary>
+                /// After you cast a Fel spell, get a random Naga. It costs (1).<br/>
+                /// 6-Cost 6/6 Beast Minion
+                /// </summary>
+                public const string NespirahEnthralled_NespirahUnshackledToken = "CATA_527t2";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 3-Cost 3/3 Naga Minion
+                /// </summary>
+                public const string SigiloftheSeas_NagaMonstrosityToken = "CATA_528t";
+
+                /// <summary>
+                /// Your next Demon this turn costs (0).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Tichondrius_DemonicSummoningEnchantment = "CORE_CATA_001e";
             }
         }
     }

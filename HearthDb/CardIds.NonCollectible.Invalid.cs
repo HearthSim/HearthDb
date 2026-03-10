@@ -29946,6 +29946,12 @@ namespace HearthDb
                 /// 5-Cost 8/8 Dragon Minion
                 /// </summary>
                 public const string BattleattheEndTime_TickAndTockToken = "END_017t";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Wickerfang_GrowingQuickEnchantmentToken = "CATA_139te";
             }
         }
     }

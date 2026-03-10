@@ -319,6 +319,66 @@ namespace HearthDb
                 public const string BulwarkOfAzzinoth = "BT_781";
 
                 /// <summary>
+                /// <b>Colossal +2</b> At the end of your turn, trigger your minions' <b>Deathrattles</b>.<br/>
+                /// 8-Cost 8/8 Elemental Minion
+                /// </summary>
+                public const string RagnarosTheGreatFire = "CATA_150";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Herald</b> {0}. Give the Soldier <b>Rush</b>.<br/>
+                /// 4-Cost 4/3 Dragon Minion
+                /// </summary>
+                public const string ScorchingRavager = "CATA_160";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Herald</b> {0}.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string CataclysmicWarAxe = "CATA_580";
+
+                /// <summary>
+                /// Deal $1 damage to all minions. <i>(Improved for each minion on the battlefield.)</i><br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string Decimation = "CATA_581";
+
+                /// <summary>
+                /// Deal $1 damage to all minions. Give your hero +3 Attack this turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SearingFissure = "CATA_582";
+
+                /// <summary>
+                /// Deal 3 damage randomly split among enemies. If you've played a Fire spell this turn, deal 3 more.<br/>
+                /// 3-Cost Location
+                /// </summary>
+                public const string EruptingVolcano = "CATA_584";
+
+                /// <summary>
+                /// Deal $8 damage to a damaged minion. Return this to hand with any excess damage.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string Torch = "CATA_585";
+
+                /// <summary>
+                /// After this survives damage, summon a Destructive Blaze. <b>Deathrattle:</b> Deal 2 damage to a random enemy.<br/>
+                /// 5-Cost 3/3 Elemental Minion
+                /// </summary>
+                public const string DestructiveBlaze = "CATA_586";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Instead of drawing each turn, <b>Discover</b> a card from your deck. It costs (3) less. Destroy the others.<br/>
+                /// 7-Cost 7/7 Elemental Minion
+                /// </summary>
+                public const string CommanderGeddon = "CATA_591";
+
+                /// <summary>
+                /// Give a minion "<b>Deathrattle:</b> Summon a random minion from your hand."<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string LogoshsLastStand = "CATA_610";
+
+                /// <summary>
                 /// <b>Taunt</b><br/>
                 /// 2-Cost 0/7 Minion
                 /// </summary>
@@ -391,6 +451,12 @@ namespace HearthDb
                 public const string BladestormCorePlaceholder = "CORE_BT_117";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Choose an enemy minion. Battle it to the death!<br/>
+                /// 3-Cost 1/10 Minion
+                /// </summary>
+                public const string WarmaulChallengerCorePlaceholder = "CORE_BT_120";
+
+                /// <summary>
                 /// Whenever your hero would take damage, this loses 1 Durability instead.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
@@ -437,6 +503,12 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MinefieldCorePlaceholder = "CORE_DMF_522";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Add a random Pirate to your hand.<br/>
+                /// 1-Cost 1/2 Pirate Minion
+                /// </summary>
+                public const string SkyRaiderCorePlaceholder = "CORE_DRG_024";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Attack ALL other minions.<br/>
@@ -601,6 +673,12 @@ namespace HearthDb
                 public const string BringItOnCorePlaceholder = "CORE_ICC_837";
 
                 /// <summary>
+                /// Has Attack equal to your Armor. Can't attack heroes.<br/>
+                /// 2-Cost Weapon
+                /// </summary>
+                public const string BladedGauntletCorePlaceholder = "CORE_LOOT_044";
+
+                /// <summary>
                 /// Your opponent summons a random minion from their hand.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -727,10 +805,22 @@ namespace HearthDb
                 public const string PlagueOfWrathCorePlaceholder = "CORE_ULD_707";
 
                 /// <summary>
+                /// Gain 4 Armor. Summon a random 4-Cost minion.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string IronforgePortalCorePlaceholder = "CORE_WON_337";
+
+                /// <summary>
                 /// <b>Discover</b> a <b>Taunt</b> minion. Give it +1/+2.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string IKnowAGuyCore = "CORE_WON_350";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Battlecry:</b> Give <b>Taunt</b> minions in your hand +2/+2.<br/>
+                /// 4-Cost 3/4 Mechanical Minion
+                /// </summary>
+                public const string DetonationJuggernautCorePlaceholder = "CORE_WW_329";
 
                 /// <summary>
                 /// Give a friendly minion +2 Attack and <b>Charge</b>.<br/>
@@ -1702,7 +1792,19 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string GarroshHellscream_DeathwingHeroHeroSkins = "HERO_01c";
+                public const string GarroshHellscream_DeathwingHeroHeroSkins1 = "HERO_01bn";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_BlackrockRokaraHeroHeroSkinsEnchantment = "HERO_01bo";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_DeathwingHeroHeroSkins2 = "HERO_01c";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2456,7 +2558,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Gain 10 Armor. Summon two 2/3 Beasts for your opponent.<br/>
-                /// 1-Cost Spell
+                /// 2-Cost Spell
                 /// </summary>
                 public const string UnleashTheCrocolisks = "TIME_873";
 
@@ -2503,7 +2605,7 @@ namespace HearthDb
                 public const string CityDefenses = "TLC_622";
 
                 /// <summary>
-                /// At the end of your turn, give a random friendly damaged minion +2/+2.<br/>
+                /// At the end of your turn, give another friendly damaged minion +2/+2.<br/>
                 /// 2-Cost 1/4 Minion
                 /// </summary>
                 public const string Stonecarver = "TLC_623";
@@ -2936,7 +3038,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Summon a 0/4 Entrée for your opponent. When it dies, summon a minion from your deck.<br/>
-                /// 4-Cost Spell
+                /// 3-Cost Spell
                 /// </summary>
                 public const string FoodFight = "VAC_533";
 
@@ -3188,7 +3290,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give a random minion in your hand +4/+4. If it's the only one there, reduce its Cost by (2).<br/>
-                /// 4-Cost Spell
+                /// 3-Cost Spell
                 /// </summary>
                 public const string ReservedSpot = "WORK_021";
 

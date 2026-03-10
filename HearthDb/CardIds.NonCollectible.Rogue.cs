@@ -4349,6 +4349,30 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Shapeshifter_ShapeshiftingEnchantment = "TIME_876e";
+
+                /// <summary>
+                /// Your spells from other classes cast twice.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Sinestra_SinestrasSongEnchantment = "CATA_154e";
+
+                /// <summary>
+                /// When summoned, get a random spell from another class. It costs ({0}) less. <i><b>Herald</b> twice to upgrade.</i> 1When summoned, get a random spell from another class. It costs ({0}) less. <i><b>Herald</b> once to upgrade.</i> 1When summoned, get a random spell from another class. It costs ({0}) less.<br/>
+                /// 1-Cost 1/1 Dragon Minion
+                /// </summary>
+                public const string Sinestra_SinestrasWingToken1 = "CATA_154t";
+
+                /// <summary>
+                /// When summoned, get a random spell from another class. It costs ({0}) less. <i><b>Herald</b> twice to upgrade.</i> 1When summoned, get a random spell from another class. It costs ({0}) less. <i><b>Herald</b> once to upgrade.</i> 1When summoned, get a random spell from another class. It costs ({0}) less.<br/>
+                /// 1-Cost 1/1 Dragon Minion
+                /// </summary>
+                public const string Sinestra_SinestrasWingToken2 = "CATA_154t1";
+
+                /// <summary>
+                /// When summoned, get a random spell from another class. It costs ({0}) less. <i><b>Herald</b> twice to upgrade.</i> 1When summoned, get a random spell from another class. It costs ({0}) less. <i><b>Herald</b> once to upgrade.</i> 1When summoned, get a random spell from another class. It costs ({0}) less.<br/>
+                /// 1-Cost 1/1 Dragon Minion
+                /// </summary>
+                public const string ManiacalFollower_SoldierOfSinestraToken = "CATA_158t";
             }
         }
     }

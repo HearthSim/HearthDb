@@ -314,6 +314,66 @@ namespace HearthDb
                 public const string TheLurkerBelow = "BT_230";
 
                 /// <summary>
+                /// <b>Colossal +2, <b>Rush</b>, Windfury</b> <b>Battlecry:</b> Get 2 minions with Cost equal to this minion's Attack. They cost (1).<br/>
+                /// 8-Cost 2/8 Elemental Minion
+                /// </summary>
+                public const string AlakirLordOfStorms = "CATA_153";
+
+                /// <summary>
+                /// <b>Herald</b> {0}. Get two 1/1 Elementals with <b>Rush</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string RitualOfPower = "CATA_561";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose a spell in your hand that costs (4) or less to absorb. <b>Deathrattle:</b> Cast it.<br/>
+                /// 3-Cost 4/3 Elemental Minion
+                /// </summary>
+                public const string CracklingCloudstrider = "CATA_563";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give a friendly minion <b>Mega-Windfury</b>. It can't attack heroes.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
+                public const string AirSupport = "CATA_564";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> <b>Herald</b> {0}.<br/>
+                /// 2-Cost 0/3 Elemental Minion
+                /// </summary>
+                public const string SkywallSentinel = "CATA_565";
+
+                /// <summary>
+                /// Transform all friendly minions into ones that cost (1) more. They summon the originals when they die.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string Ascendance = "CATA_567";
+
+                /// <summary>
+                /// Draw 2 cards. Costs (1) less for each time a friendly character attacked this game.<br/>
+                /// 9-Cost Spell
+                /// </summary>
+                public const string MuradinsLastStand = "CATA_568";
+
+                /// <summary>
+                /// Summon a random 3, 2, and 1-Cost minion. <b>Overload:</b> (1)<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string CeremonialClash = "CATA_569";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a card and reduce its Cost by (10). Repeat this with excess Cost reduction.<br/>
+                /// 10-Cost 10/10 Elemental Minion
+                /// </summary>
+                public const string Morchok = "CATA_570";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Unlock your <b>Overloaded</b> Mana Crystals. <b>Overload:</b> (3)<br/>
+                /// 4-Cost 7/7 Minion
+                /// </summary>
+                public const string Stormbinder = "CATA_724";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Restore #6 Health. <b>Overload:</b> (1)<br/>
                 /// 4-Cost 4/6 Minion
                 /// </summary>
@@ -374,10 +434,22 @@ namespace HearthDb
                 public const string DraeneiTotemcarverCorePlaceholder = "CORE_AT_047";
 
                 /// <summary>
+                /// <b>Overload:</b> (1)<br/>
+                /// 2-Cost 3/4 Totem Minion
+                /// </summary>
+                public const string TotemGolemCorePlaceholder = "CORE_AT_052";
+
+                /// <summary>
                 /// Draw 2 cards. <b>Overload:</b> (1)<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string AncestralKnowledgeCorePlaceholder = "CORE_AT_053";
+
+                /// <summary>
+                /// <b>Discover</b> an 8-Cost minion. Summon and <b>Freeze</b> it.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string GlaciateCorePlaceholder = "CORE_AV_107";
 
                 /// <summary>
                 /// Summon two 1/1 Sparks with <b>Rush</b>. <b>Overload:</b> (1)<br/>
@@ -396,6 +468,12 @@ namespace HearthDb
                 /// 3-Cost 3/4 Elemental Minion
                 /// </summary>
                 public const string MarshspawnCore = "CORE_BT_115";
+
+                /// <summary>
+                /// After this or an adjacent minion attacks, get a Lightning Bolt.<br/>
+                /// 5-Cost 3/5 Minion
+                /// </summary>
+                public const string RehgarEarthfuryCorePlaceholder = "CORE_CATA_004";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Restore #6 Health. <b>Overload:</b> (1)<br/>
@@ -500,6 +578,12 @@ namespace HearthDb
                 public const string ThrallsGiftCorePlaceholder = "CORE_GIFT_06";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Add a random Shaman spell to your hand.<br/>
+                /// 0-Cost 0/1 Beast Minion
+                /// </summary>
+                public const string WitchsApprenticeCorePlaceholder = "CORE_GIL_531";
+
+                /// <summary>
                 /// Deal $2 damage to a minion. <b>Overload:</b> (1)<br/>
                 /// 0-Cost Spell
                 /// </summary>
@@ -584,6 +668,12 @@ namespace HearthDb
                 public const string MaelstromPortalCorePlaceholder = "CORE_KAR_073";
 
                 /// <summary>
+                /// Restore #12 Health randomly split among all friendly characters.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string HealingRainCorePlaceholder = "CORE_LOOT_373";
+
+                /// <summary>
                 /// Choose a basic Totem and summon it. <b>Infuse (3 Totems):</b> Summon all 4 instead.<br/>
                 /// 1-Cost Spell
                 /// </summary>
@@ -612,6 +702,12 @@ namespace HearthDb
                 /// 6-Cost 5/5 Minion
                 /// </summary>
                 public const string ThingFromBelowCorePlaceholder = "CORE_OG_028";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a 4/2 Elemental.<br/>
+                /// 5-Cost Weapon
+                /// </summary>
+                public const string HammerOfTwilightCorePlaceholder = "CORE_OG_031";
 
                 /// <summary>
                 /// Choose a friendly minion. Summon 3 copies of it. <b>Overload:</b> (2)<br/>
@@ -1268,8 +1364,8 @@ namespace HearthDb
                 public const string FarseerNobundo = "GDB_447";
 
                 /// <summary>
-                /// Your first <b>Battlecry</b> minion each turn costs (1), but immediately dies after being played.<br/>
-                /// 7-Cost 6/6 Elemental Minion
+                /// Your <b>Battlecry</b> minions costs (1), but immediately die after being played.<br/>
+                /// 9-Cost 6/6 Elemental Minion
                 /// </summary>
                 public const string Murmur = "GDB_448";
 
@@ -1667,7 +1763,19 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Thrall_DragonscarredThrallHeroHeroSkins = "HERO_02br";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Thrall_EternalflameRagnarosHeroHeroSkins = "HERO_02bw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Thrall_DeathwingHeroHeroSkins = "HERO_02bx";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2001,7 +2109,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Transform ALL minions into random <b>Legendary</b> ones from the past.<br/>
-                /// 6-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string WaveOfNostalgia = "MIS_701";
 
@@ -2852,7 +2960,7 @@ namespace HearthDb
                 public const string SirenSong = "VAC_308";
 
                 /// <summary>
-                /// Deal $1 damage to all enemy minions. <i>(3 Drinks left!)</i><br/>
+                /// Deal $1 damage to all enemies. <i>(3 Drinks left!)</i><br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MaltedMagma = "VAC_323";

@@ -71,13 +71,13 @@ namespace HearthDb
                 /// Deal $3 damage to two random enemy minions. Draw a card for each that dies.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string ConsumptionCorePlaceholder = "CORE_CATA_007";
+                public const string ConsumptionCore = "CORE_CATA_007";
 
                 /// <summary>
                 /// <b>Freeze</b> a character. <b>Discover</b> a spell.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string DeathsAdvanceCorePlaceholder = "CORE_CATA_009";
+                public const string DeathsAdvanceCore = "CORE_CATA_009";
 
                 /// <summary>
                 /// Give a friendly Undead <b>Poisonous</b>.<br/>
@@ -107,25 +107,25 @@ namespace HearthDb
                 /// After your hero attacks and kills a minion, gain 2 <b>Corpses</b>.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
-                public const string SoulbreakerCore = "CORE_RLK_012";
+                public const string SoulbreakerCorePlaceholder = "CORE_RLK_012";
 
                 /// <summary>
                 /// Detonate a <b>Corpse</b> to deal $1 damage to all minions. If any are still alive, repeat this.<br/>
                 /// 5-Cost Spell
                 /// </summary>
-                public const string CorpseExplosionCore = "CORE_RLK_035";
+                public const string CorpseExplosionCorePlaceholder = "CORE_RLK_035";
 
                 /// <summary>
                 /// Refresh 2 Mana Crystals.<br/>
                 /// 0-Cost Spell
                 /// </summary>
-                public const string HornOfWinterCore = "CORE_RLK_042";
+                public const string HornOfWinterCorePlaceholder = "CORE_RLK_042";
 
                 /// <summary>
                 /// Give your hero +5 Health. Spend 3 <b>Corpses</b> to gain 5 more and draw a card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string VampiricBloodCore = "CORE_RLK_051";
+                public const string VampiricBloodCorePlaceholder = "CORE_RLK_051";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Summon two copies of this minion.<br/>
@@ -203,13 +203,13 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Battlecry:</b> Raise up to 6 <b>Corpses</b> as 1/3 Risen Footmen with <b>Taunt</b>.<br/>
                 /// 8-Cost 8/8 Undead Minion
                 /// </summary>
-                public const string BoneguardCommanderCorePlaceholder = "CORE_RLK_506";
+                public const string BoneguardCommanderCore = "CORE_RLK_506";
 
                 /// <summary>
                 /// <b>Battlecry:</b> For the rest of the game, deal 3 damage to your opponent at the end of your turns.<br/>
                 /// 7-Cost 7/7 Undead Minion
                 /// </summary>
-                public const string AlexandrosMograineCorePlaceholder = "CORE_RLK_706";
+                public const string AlexandrosMograineCore = "CORE_RLK_706";
 
                 /// <summary>
                 /// Give all minions in your hand +1/+1. Spend 2 <b>Corpses</b> to give them +1/+1 more.<br/>
@@ -239,7 +239,7 @@ namespace HearthDb
                 /// Spend up to 8 <b>Corpses</b> to summon a random minion of that Cost.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string CorpseFarmCorePlaceholder = "CORE_WW_374";
+                public const string CorpseFarmCore = "CORE_WW_374";
 
                 /// <summary>
                 /// <b>Magnetic</b>, <b>Reborn</b> Can <b>Magnetize</b> to Mechs or Undead.<br/>
@@ -815,7 +815,7 @@ namespace HearthDb
                 /// <b>Lifesteal</b><br/>
                 /// 6-Cost Weapon
                 /// </summary>
-                public const string CorruptedAshbringerLegacy = "LEG_RLK_067";
+                public const string CorruptedAshbringerCorePlaceholder = "LEG_RLK_067";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Destroy a random minion in your opponent's hand, deck, and battlefield.<br/>
@@ -839,7 +839,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Deathrattle:</b> Return this to your hand. It costs Health instead of Mana.<br/>
                 /// 5-Cost 4/6 Undead Minion
                 /// </summary>
-                public const string DeathbringerSaurfangCorePlaceholder = "LEG_RLK_082";
+                public const string DeathbringerSaurfangLegacy = "LEG_RLK_082";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Raise ALL of your <b>Corpses</b> as 1/1 Risen Golems with <b>Rush</b>. For each that can't fit, give one +2/+2.<br/>
@@ -899,7 +899,7 @@ namespace HearthDb
                 /// Costs (1) less for each <b>Corpse</b> you've spent this game.<br/>
                 /// 9-Cost 8/8 Undead Minion
                 /// </summary>
-                public const string StitchedGiantCorePlaceholder = "LEG_RLK_744";
+                public const string StitchedGiantLegacy = "LEG_RLK_744";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon two 2/1 Rime Elementals with "<b>Deathrattle:</b> Deal 2 damage to a random enemy."<br/>
@@ -1067,7 +1067,7 @@ namespace HearthDb
                 /// <b>Lifesteal</b><br/>
                 /// 6-Cost Weapon
                 /// </summary>
-                public const string CorruptedAshbringerCorePlaceholder = "RLK_067";
+                public const string CorruptedAshbringerCore = "RLK_067";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Destroy a random minion in your opponent's hand, deck, and battlefield.<br/>
@@ -1091,7 +1091,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Deathrattle:</b> Return this to your hand. It costs Health instead of Mana.<br/>
                 /// 5-Cost 4/6 Undead Minion
                 /// </summary>
-                public const string DeathbringerSaurfangCore = "RLK_082";
+                public const string DeathbringerSaurfangCorePlaceholder = "RLK_082";
 
                 /// <summary>
                 /// After you cast a spell, deal 1 damage to two random enemies.<br/>
@@ -1331,7 +1331,7 @@ namespace HearthDb
                 /// Costs (1) less for each <b>Corpse</b> you've spent this game.<br/>
                 /// 9-Cost 8/8 Undead Minion
                 /// </summary>
-                public const string StitchedGiantCore = "RLK_744";
+                public const string StitchedGiantCorePlaceholder = "RLK_744";
 
                 /// <summary>
                 /// <b>Reborn</b> At the end of your turn, spend 4 <b>Corpses</b> to summon a copy of this minion.<br/>

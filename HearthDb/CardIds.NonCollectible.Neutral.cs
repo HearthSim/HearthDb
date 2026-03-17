@@ -87010,6 +87010,12 @@ namespace HearthDb
                 public const string EssenceBreakCore = "CORE_CATA_017";
 
                 /// <summary>
+                /// <b>Rewind</b> <b>Battlecry:</b> <b>Discover</b> a Beast with a <b>Dark Gift</b>. <b>Kindred:</b> It costs (1) less.<br/>
+                /// 3-Cost 4/2 Beast Minion
+                /// </summary>
+                public const string RaptorHeraldCore = "CORE_EDR_004_2026";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// 1-Cost 1/1 Murloc Minion
                 /// </summary>
@@ -90150,12 +90156,6 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Wargear_WargearCorePlaceholderEnchantment = "CORE_BOT_563e";
-
-                /// <summary>
-                /// <b>Rewind</b> <b>Battlecry:</b> <b>Discover</b> a Beast with a <b>Dark Gift</b>. <b>Kindred:</b> It costs (1) less.<br/>
-                /// 3-Cost 4/2 Beast Minion
-                /// </summary>
-                public const string RaptorHeraldCorePlaceholder = "CORE_EDR_004_2026";
 
                 /// <summary>
                 /// Your end of turn effects trigger twice.<br/>

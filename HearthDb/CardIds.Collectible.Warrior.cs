@@ -454,7 +454,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Choose an enemy minion. Battle it to the death!<br/>
                 /// 3-Cost 1/10 Minion
                 /// </summary>
-                public const string WarmaulChallengerCorePlaceholder = "CORE_BT_120";
+                public const string WarmaulChallengerCore = "CORE_BT_120";
 
                 /// <summary>
                 /// Whenever your hero would take damage, this loses 1 Durability instead.<br/>
@@ -466,7 +466,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 2-Cost Weapon
                 /// </summary>
-                public const string FieryWarAxeCore = "CORE_CS2_106";
+                public const string FieryWarAxeCorePlaceholder = "CORE_CS2_106";
 
                 /// <summary>
                 /// Destroy a damaged enemy minion.<br/>
@@ -508,7 +508,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Add a random Pirate to your hand.<br/>
                 /// 1-Cost 1/2 Pirate Minion
                 /// </summary>
-                public const string SkyRaiderCorePlaceholder = "CORE_DRG_024";
+                public const string SkyRaiderCore = "CORE_DRG_024";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Attack ALL other minions.<br/>
@@ -544,13 +544,13 @@ namespace HearthDb
                 /// Destroy all minions except one. <i>(chosen randomly)</i><br/>
                 /// 5-Cost Spell
                 /// </summary>
-                public const string BrawlCore = "CORE_EX1_407";
+                public const string BrawlCorePlaceholder = "CORE_EX1_407";
 
                 /// <summary>
                 /// Deal 1 damage to a minion for each Armor you have.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string ShieldSlamCore = "CORE_EX1_410";
+                public const string ShieldSlamCorePlaceholder = "CORE_EX1_410";
 
                 /// <summary>
                 /// Attacking a minion costs 1 Attack instead of 1 Durability.<br/>
@@ -676,7 +676,7 @@ namespace HearthDb
                 /// Has Attack equal to your Armor. Can't attack heroes.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
-                public const string BladedGauntletCorePlaceholder = "CORE_LOOT_044";
+                public const string BladedGauntletCore = "CORE_LOOT_044";
 
                 /// <summary>
                 /// Your opponent summons a random minion from their hand.<br/>
@@ -778,13 +778,13 @@ namespace HearthDb
                 /// At the end of your turn, gain 3 Armor.<br/>
                 /// 3-Cost 2/4 Pirate Minion
                 /// </summary>
-                public const string CargoGuardCore = "CORE_SW_030";
+                public const string CargoGuardCorePlaceholder = "CORE_SW_030";
 
                 /// <summary>
                 /// <b>Tradeable</b> Gain 8 Armor.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string HeavyPlateCore = "CORE_SW_094";
+                public const string HeavyPlateCorePlaceholder = "CORE_SW_094";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> <b>Discover</b> a <b>Taunt</b> minion.<br/>
@@ -808,7 +808,7 @@ namespace HearthDb
                 /// Gain 4 Armor. Summon a random 4-Cost minion.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string IronforgePortalCorePlaceholder = "CORE_WON_337";
+                public const string IronforgePortalCore = "CORE_WON_337";
 
                 /// <summary>
                 /// <b>Discover</b> a <b>Taunt</b> minion. Give it +1/+2.<br/>
@@ -820,7 +820,7 @@ namespace HearthDb
                 /// <b>Taunt</b>. <b>Battlecry:</b> Give <b>Taunt</b> minions in your hand +2/+2.<br/>
                 /// 4-Cost 3/4 Mechanical Minion
                 /// </summary>
-                public const string DetonationJuggernautCorePlaceholder = "CORE_WW_329";
+                public const string DetonationJuggernautCore = "CORE_WW_329";
 
                 /// <summary>
                 /// Give a friendly minion +2 Attack and <b>Charge</b>.<br/>

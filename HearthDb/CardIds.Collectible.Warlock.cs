@@ -443,7 +443,7 @@ namespace HearthDb
                 /// Draw 3 cards. They are <b>Temporary</b>.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string TheSoulariumCore = "CORE_BOT_568";
+                public const string TheSoulariumCorePlaceholder = "CORE_BOT_568";
 
                 /// <summary>
                 /// Whenever this minion takes damage, summon a 1/1 Imp.<br/>
@@ -455,7 +455,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Deathrattle:</b> Summon a 5/5 Dreadlord with <b>Lifesteal</b>.<br/>
                 /// 8-Cost 5/7 Demon Minion
                 /// </summary>
-                public const string EnhancedDreadlordCore = "CORE_BT_304";
+                public const string EnhancedDreadlordCorePlaceholder = "CORE_BT_304";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 3 damage to all other characters.<br/>
@@ -533,7 +533,7 @@ namespace HearthDb
                 /// Destroy all minions and locations.<br/>
                 /// 8-Cost Spell
                 /// </summary>
-                public const string TwistingNetherCorePlaceholder = "CORE_EX1_312";
+                public const string TwistingNetherCore = "CORE_EX1_312";
 
                 /// <summary>
                 /// Give a friendly minion +4/+4 until end of turn. Then, it dies. Horribly.<br/>
@@ -599,7 +599,7 @@ namespace HearthDb
                 /// At the end of your turn, deal 1 damage to all enemy minions.<br/>
                 /// 5-Cost 4/6 Demon Minion
                 /// </summary>
-                public const string DespicableDreadlordCore = "CORE_ICC_075";
+                public const string DespicableDreadlordCorePlaceholder = "CORE_ICC_075";
 
                 /// <summary>
                 /// Choose a friendly minion and give it to your opponent.<br/>
@@ -617,7 +617,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Remove the top card of your opponent's deck.<br/>
                 /// 2-Cost 2/3 Undead Minion
                 /// </summary>
-                public const string GnomeferatuCorePlaceholder = "CORE_ICC_407";
+                public const string GnomeferatuCore = "CORE_ICC_407";
 
                 /// <summary>
                 /// Choose a friendly minion. Destroy it and a random enemy minion.<br/>
@@ -659,7 +659,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Deathrattle:</b> Summon three 1/3 Demons with <b>Taunt</b>.<br/>
                 /// 9-Cost 3/9 Demon Minion
                 /// </summary>
-                public const string VoidlordCorePlaceholder = "CORE_LOOT_368";
+                public const string VoidlordCore = "CORE_LOOT_368";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Choose a friendly Imp. Transform into a copy of it.<br/>
@@ -755,19 +755,19 @@ namespace HearthDb
                 /// <b>Discover</b> a Demon. Your next one costs (1) less.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string DemonicStudiesCore = "CORE_SCH_158";
+                public const string DemonicStudiesCorePlaceholder = "CORE_SCH_158";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon a random Demon from your hand and deck.<br/>
                 /// 8-Cost 5/5 Minion
                 /// </summary>
-                public const string ArchwitchWillowCorePlaceholder = "CORE_SCH_181";
+                public const string ArchwitchWillowCore = "CORE_SCH_181";
 
                 /// <summary>
                 /// Summon a Fiend with <b>Taunt</b> and stats equal to your hand size.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string DarkAlleyPactCore = "CORE_SW_085";
+                public const string DarkAlleyPactCorePlaceholder = "CORE_SW_085";
 
                 /// <summary>
                 /// Deal $3 damage. Summon two 1/3 Voidwalkers with <b>Taunt</b>.<br/>
@@ -785,7 +785,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Destroy a minion. Your hero takes damage equal to its Health.<br/>
                 /// 6-Cost 7/5 Demon Minion
                 /// </summary>
-                public const string RiftcleaverCorePlaceholder = "CORE_ULD_165";
+                public const string RiftcleaverCore = "CORE_ULD_165";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Discard your two lowest-Cost cards.<br/>

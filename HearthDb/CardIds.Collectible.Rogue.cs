@@ -437,7 +437,7 @@ namespace HearthDb
                 /// <b>Combo:</b> Give a friendly minion +4 Attack.<br/>
                 /// 5-Cost 4/4 Minion
                 /// </summary>
-                public const string CrazedChemistCorePlaceholder = "CORE_BOT_576";
+                public const string CrazedChemistCore = "CORE_BOT_576";
 
                 /// <summary>
                 /// After you play a <b>Secret</b>, <b>Discover</b> a <b>Secret</b> from a different class.<br/>
@@ -449,7 +449,7 @@ namespace HearthDb
                 /// <b>Stealth</b><br/>
                 /// 1-Cost 3/1 Minion
                 /// </summary>
-                public const string SpymistressCorePlaceholder = "CORE_BT_701";
+                public const string SpymistressCore = "CORE_BT_701";
 
                 /// <summary>
                 /// <b>Secret:</b> After your opponent plays a minion, summon a 2/3 Ambusher with <b>Poisonous</b>.<br/>
@@ -509,7 +509,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> <b>Discover</b> a spell from another class.<br/>
                 /// 4-Cost 4/4 Pirate Minion
                 /// </summary>
-                public const string HenchClanBurglarCore = "CORE_DAL_416";
+                public const string HenchClanBurglarCorePlaceholder = "CORE_DAL_416";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Return a random friendly minion to your hand. It costs (2) less.<br/>
@@ -533,7 +533,7 @@ namespace HearthDb
                 /// Deal $2 damage. <b>Combo:</b> Deal $4 damage instead.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string EviscerateCore = "CORE_EX1_124";
+                public const string EviscerateCorePlaceholder = "CORE_EX1_124";
 
                 /// <summary>
                 /// Deal $1 damage to all enemy minions. Draw a card.<br/>
@@ -557,7 +557,7 @@ namespace HearthDb
                 /// Return a friendly minion to your hand. It costs (2) less.<br/>
                 /// 0-Cost Spell
                 /// </summary>
-                public const string ShadowstepCore = "CORE_EX1_144";
+                public const string ShadowstepCorePlaceholder = "CORE_EX1_144";
 
                 /// <summary>
                 /// The next spell you cast this turn costs (2) less.<br/>
@@ -569,7 +569,7 @@ namespace HearthDb
                 /// Deal $1 damage. Draw a card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string ShivCorePlaceholder = "CORE_EX1_278";
+                public const string ShivCore = "CORE_EX1_278";
 
                 /// <summary>
                 /// <b>Stealth</b> <b>Poisonous</b><br/>
@@ -593,7 +593,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Replay every card from another class you've played this game <i>(targets chosen randomly)</i>.<br/>
                 /// 7-Cost 6/6 Minion
                 /// </summary>
-                public const string TessGreymaneCore = "CORE_GIL_598";
+                public const string TessGreymaneCorePlaceholder = "CORE_GIL_598";
 
                 /// <summary>
                 /// <b>Lifesteal</b> Whenever you play a card from another class, gain +1 Durability.<br/>
@@ -719,7 +719,7 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Get a random card <i>(from your opponent's class)</i>.<br/>
                 /// 2-Cost 2/3 Undead Minion
                 /// </summary>
-                public const string UndercityHucksterCore = "CORE_OG_330";
+                public const string UndercityHucksterCorePlaceholder = "CORE_OG_330";
 
                 /// <summary>
                 /// Summon a 1/1 Ghost. <i>(Has +1/+1 for each other card you played this turn!)</i><br/>
@@ -785,7 +785,7 @@ namespace HearthDb
                 /// Each time you cast a spell, transform this into a copy of it.<br/>
                 /// 0-Cost Spell
                 /// </summary>
-                public const string ShadowOfDemiseCorePlaceholder = "CORE_RLK_567";
+                public const string ShadowOfDemiseCore = "CORE_RLK_567";
 
                 /// <summary>
                 /// <b>Secret:</b> At the end of your opponent's turn, add copies of the cards they played to your hand.<br/>
@@ -797,19 +797,19 @@ namespace HearthDb
                 /// Add two random spells from other classes that cost (5) or more to your hand.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string JackpotCorePlaceholder = "CORE_TID_931";
+                public const string JackpotCore = "CORE_TID_931";
 
                 /// <summary>
                 /// Draw 2 Pirates from your deck. <b>Combo:</b> And a weapon.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string RaidingPartyCore = "CORE_TRL_124";
+                public const string RaidingPartyCorePlaceholder = "CORE_TRL_124";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Return a random enemy minion to your opponent's hand.<br/>
                 /// 4-Cost 4/4 Pirate Minion
                 /// </summary>
-                public const string SahketSapperCorePlaceholder = "CORE_ULD_280";
+                public const string SahketSapperCore = "CORE_ULD_280";
 
                 /// <summary>
                 /// Deal $2 damage to an undamaged minion.<br/>

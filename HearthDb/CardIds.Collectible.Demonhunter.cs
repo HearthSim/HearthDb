@@ -461,7 +461,7 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Draw a <b>Deathrattle</b> minion.<br/>
                 /// 1-Cost Weapon
                 /// </summary>
-                public const string TuskpiercerCore = "CORE_BAR_330";
+                public const string TuskpiercerCorePlaceholder = "CORE_BAR_330";
 
                 /// <summary>
                 /// Give your hero +2 Attack this turn. Draw a card.<br/>
@@ -497,7 +497,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> <b>Discover</b> a Demon.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string NetherwalkerCorePlaceholder = "CORE_BT_321";
+                public const string NetherwalkerCore = "CORE_BT_321";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Look at 3 cards in your deck. Choose one to put on top.<br/>
@@ -569,13 +569,13 @@ namespace HearthDb
                 /// <b>Taunt</b> After this is attacked, deal 1 damage to all enemies.<br/>
                 /// 5-Cost 3/6 Demon Minion
                 /// </summary>
-                public const string WrathspikeBruteCorePlaceholder = "CORE_BT_510";
+                public const string WrathspikeBruteCore = "CORE_BT_510";
 
                 /// <summary>
                 /// Deal $1 damage to all minions twice.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string ImmolationAuraCore = "CORE_BT_514";
+                public const string ImmolationAuraCorePlaceholder = "CORE_BT_514";
 
                 /// <summary>
                 /// <b>Lifesteal</b>. Deal $3 damage to a minion. <b>Outcast:</b> This costs (1).<br/>
@@ -599,7 +599,7 @@ namespace HearthDb
                 /// Your hero is <b>Immune</b>. <b>Battlecry:</b> Your next Demon this turn costs (0).<br/>
                 /// 9-Cost 9/8 Demon Minion
                 /// </summary>
-                public const string TichondriusCorePlaceholder = "CORE_CATA_001";
+                public const string TichondriusCore = "CORE_CATA_001";
 
                 /// <summary>
                 /// <b>Charge</b>, <b>Lifesteal</b> After you play a card with <b>Outcast</b>, return this to your hand.<br/>
@@ -617,7 +617,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Copy the left- and right-most cards in your hand.<br/>
                 /// 5-Cost 6/4 Minion
                 /// </summary>
-                public const string ZaiTheIncredibleCore = "CORE_DMF_231";
+                public const string ZaiTheIncredibleCorePlaceholder = "CORE_DMF_231";
 
                 /// <summary>
                 /// <b>Discover</b> a <b>Temporary</b> Fel Barrage, Chaos Strike, or Chaos Nova.<br/>
@@ -707,19 +707,19 @@ namespace HearthDb
                 /// <b>Outcast:</b> Reduce the Cost of the left and right-most cards in your hand by (1).<br/>
                 /// 2-Cost 2/2 Naga Minion
                 /// </summary>
-                public const string WaywardSageCore = "CORE_TSC_217";
+                public const string WaywardSageCorePlaceholder = "CORE_TSC_217";
 
                 /// <summary>
                 /// Whenever you draw a card, summon a 1/1 Demon with <b>Rush</b>.<br/>
                 /// 4-Cost 3/5 Demon Minion
                 /// </summary>
-                public const string EredarDeceptorCorePlaceholder = "CORE_TTN_843";
+                public const string EredarDeceptorCore = "CORE_TTN_843";
 
                 /// <summary>
                 /// <b>Lifesteal</b> At the end of your turn, force all enemy minions to attack this.<br/>
                 /// 7-Cost 4/10 Demon/Beast Minion
                 /// </summary>
-                public const string MythicalTerrorCorePlaceholder = "CORE_TTN_866";
+                public const string MythicalTerrorCore = "CORE_TTN_866";
 
                 /// <summary>
                 /// <b>Rush</b> <b>Deathrattle:</b> Deal 1 damage to all enemy minions.<br/>
@@ -737,7 +737,7 @@ namespace HearthDb
                 /// <b>Outcast:</b> Give your hero +3 Attack this turn.<br/>
                 /// 3-Cost 3/3 Demon Minion
                 /// </summary>
-                public const string GanargGlaivesmithCore = "CS3_017";
+                public const string GanargGlaivesmithCorePlaceholder = "CS3_017";
 
                 /// <summary>
                 /// <b>Charge</b>, <b>Lifesteal</b> After you play a card with <b>Outcast</b>, return this to your hand.<br/>
@@ -1463,7 +1463,7 @@ namespace HearthDb
                 /// <b>Outcast:</b> Give your hero +3 Attack this turn.<br/>
                 /// 3-Cost 3/3 Demon Minion
                 /// </summary>
-                public const string GanargGlaivesmithCorePlaceholder = "LEG_CS3_017";
+                public const string GanargGlaivesmithLegacy = "LEG_CS3_017";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Both players draw until they have 5 cards.<br/>

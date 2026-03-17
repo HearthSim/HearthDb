@@ -437,7 +437,7 @@ namespace HearthDb
                 /// <b>Overload:</b> (1)<br/>
                 /// 2-Cost 3/4 Totem Minion
                 /// </summary>
-                public const string TotemGolemCorePlaceholder = "CORE_AT_052";
+                public const string TotemGolemCore = "CORE_AT_052";
 
                 /// <summary>
                 /// Draw 2 cards. <b>Overload:</b> (1)<br/>
@@ -449,7 +449,7 @@ namespace HearthDb
                 /// <b>Discover</b> an 8-Cost minion. Summon and <b>Freeze</b> it.<br/>
                 /// 6-Cost Spell
                 /// </summary>
-                public const string GlaciateCorePlaceholder = "CORE_AV_107";
+                public const string GlaciateCore = "CORE_AV_107";
 
                 /// <summary>
                 /// Summon two 1/1 Sparks with <b>Rush</b>. <b>Overload:</b> (1)<br/>
@@ -461,25 +461,25 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Add a random Elemental to your hand.<br/>
                 /// 2-Cost 2/3 Elemental Minion
                 /// </summary>
-                public const string MenacingNimbusCore = "CORE_BOT_533";
+                public const string MenacingNimbusCorePlaceholder = "CORE_BOT_533";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If you cast a spell last turn, <b>Discover</b> a spell.<br/>
                 /// 3-Cost 3/4 Elemental Minion
                 /// </summary>
-                public const string MarshspawnCore = "CORE_BT_115";
+                public const string MarshspawnCorePlaceholder = "CORE_BT_115";
 
                 /// <summary>
                 /// After this or an adjacent minion attacks, get a Lightning Bolt.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
-                public const string RehgarEarthfuryCorePlaceholder = "CORE_CATA_004";
+                public const string RehgarEarthfuryCore = "CORE_CATA_004";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Restore #6 Health. <b>Overload:</b> (1)<br/>
                 /// 4-Cost 4/6 Minion
                 /// </summary>
-                public const string JinyuWaterspeakerCore = "CORE_CFM_061";
+                public const string JinyuWaterspeakerCorePlaceholder = "CORE_CFM_061";
 
                 /// <summary>
                 /// Give a minion <b>Windfury</b>.<br/>
@@ -533,7 +533,7 @@ namespace HearthDb
                 /// Summon two 2/3 Spirit Wolves with <b>Taunt</b>. <b>Overload:</b> (1)<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string FeralSpiritCore = "CORE_EX1_248";
+                public const string FeralSpiritCorePlaceholder = "CORE_EX1_248";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Overload</b>: (2)<br/>
@@ -557,7 +557,7 @@ namespace HearthDb
                 /// Adjacent minions have +2 Attack.<br/>
                 /// 2-Cost 0/3 Totem Minion
                 /// </summary>
-                public const string FlametongueTotemCore = "CORE_EX1_565";
+                public const string FlametongueTotemCorePlaceholder = "CORE_EX1_565";
 
                 /// <summary>
                 /// <b>Windfury, Overload:</b> (2)<br/>
@@ -581,7 +581,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Battlecry:</b> Add a random Shaman spell to your hand.<br/>
                 /// 0-Cost 0/1 Beast Minion
                 /// </summary>
-                public const string WitchsApprenticeCorePlaceholder = "CORE_GIL_531";
+                public const string WitchsApprenticeCore = "CORE_GIL_531";
 
                 /// <summary>
                 /// Deal $2 damage to a minion. <b>Overload:</b> (1)<br/>
@@ -671,7 +671,7 @@ namespace HearthDb
                 /// Restore #12 Health randomly split among all friendly characters.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string HealingRainCorePlaceholder = "CORE_LOOT_373";
+                public const string HealingRainCore = "CORE_LOOT_373";
 
                 /// <summary>
                 /// Choose a basic Totem and summon it. <b>Infuse (3 Totems):</b> Summon all 4 instead.<br/>
@@ -695,7 +695,7 @@ namespace HearthDb
                 /// <b>Charge, Divine Shield, Taunt, Windfury</b><br/>
                 /// 8-Cost 3/6 Elemental Minion
                 /// </summary>
-                public const string AlakirTheWindlordCore = "CORE_NEW1_010";
+                public const string AlakirTheWindlordCorePlaceholder = "CORE_NEW1_010";
 
                 /// <summary>
                 /// <b>Taunt</b> Costs (1) less for each Totem you've summoned this game.<br/>
@@ -707,7 +707,7 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Summon a 4/2 Elemental.<br/>
                 /// 5-Cost Weapon
                 /// </summary>
-                public const string HammerOfTwilightCorePlaceholder = "CORE_OG_031";
+                public const string HammerOfTwilightCore = "CORE_OG_031";
 
                 /// <summary>
                 /// Choose a friendly minion. Summon 3 copies of it. <b>Overload:</b> (2)<br/>

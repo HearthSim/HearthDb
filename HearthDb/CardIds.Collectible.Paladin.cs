@@ -442,13 +442,13 @@ namespace HearthDb
                 /// After you cast a Holy spell, summon a 2/2 Medic with <b>Lifesteal</b>.<br/>
                 /// 4-Cost 3/5 Minion
                 /// </summary>
-                public const string VeteranWarmedicCorePlaceholder = "CORE_BAR_878";
+                public const string VeteranWarmedicCore = "CORE_BAR_878";
 
                 /// <summary>
                 /// After your Hero attacks, add a random Murloc to your hand.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
-                public const string UnderlightAnglingRodCore = "CORE_BT_018";
+                public const string UnderlightAnglingRodCorePlaceholder = "CORE_BT_018";
 
                 /// <summary>
                 /// Give a minion +2/+1. Draw a card.<br/>
@@ -520,7 +520,7 @@ namespace HearthDb
                 /// <b>Deathrattle:</b> Draw a Dragon.<br/>
                 /// 2-Cost 2/3 Murloc Minion
                 /// </summary>
-                public const string RedscaleDragontamerCore = "CORE_DMF_194";
+                public const string RedscaleDragontamerCorePlaceholder = "CORE_DMF_194";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon a 6/6 Holy Elemental with <b>Taunt</b>.<br/>
@@ -544,7 +544,7 @@ namespace HearthDb
                 /// <b>Lifesteal</b> <b>Battlecry:</b> <b>Discover</b> a Dragon.<br/>
                 /// 3-Cost 3/3 Dragon Minion
                 /// </summary>
-                public const string BronzeExplorerCore = "CORE_DRG_229";
+                public const string BronzeExplorerCorePlaceholder = "CORE_DRG_229";
 
                 /// <summary>
                 /// <b>Secret:</b> When an enemy attacks, summon a 2/1 Defender as the new target.<br/>
@@ -592,7 +592,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Give a random friendly minion <b>Divine Shield</b> and <b>Taunt</b>.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
-                public const string CoghammerCorePlaceholder = "CORE_GVG_059";
+                public const string CoghammerCore = "CORE_GVG_059";
 
                 /// <summary>
                 /// Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon.<br/>
@@ -664,7 +664,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> <b>Discover</b> a spell. Restore Health to your hero equal to its Cost.<br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
-                public const string IvoryKnightCorePlaceholder = "CORE_KAR_057";
+                public const string IvoryKnightCore = "CORE_KAR_057";
 
                 /// <summary>
                 /// Give a minion +2/+2. Summon a random 2-Cost minion.<br/>
@@ -706,7 +706,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> <b>Discover</b> a Holy spell.<br/>
                 /// 2-Cost 1/3 Draenei Minion
                 /// </summary>
-                public const string BattleVicarCorePlaceholder = "CORE_ONY_022";
+                public const string BattleVicarCore = "CORE_ONY_022";
 
                 /// <summary>
                 /// Give a Silver Hand Recruit +3/+3 and <b>Taunt</b>.<br/>
@@ -772,13 +772,13 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Send all other minions 2 turns into the future.<br/>
                 /// 7-Cost 8/8 Dragon Minion
                 /// </summary>
-                public const string AnachronosCore = "CORE_RLK_919";
+                public const string AnachronosCorePlaceholder = "CORE_RLK_919";
 
                 /// <summary>
                 /// <b>Divine Shield</b> After a friendly minion loses <b>Divine Shield</b>, give a minion in your hand +5/+5.<br/>
                 /// 6-Cost 5/5 Minion
                 /// </summary>
-                public const string HighlordFordragonCorePlaceholder = "CORE_SW_047";
+                public const string HighlordFordragonCore = "CORE_SW_047";
 
                 /// <summary>
                 /// Restore #4 Health. Draw a card.<br/>
@@ -2008,7 +2008,7 @@ namespace HearthDb
                 /// Whenever a friendly minion attacks, give it +2/+1. Lasts 3 turns.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string CrusaderAuraCorePlaceholder = "LEG_TTN_908";
+                public const string CrusaderAuraLegacy = "LEG_TTN_908";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Set a minion's Attack and Health to 3.<br/>
@@ -2890,7 +2890,7 @@ namespace HearthDb
                 /// Whenever a friendly minion attacks, give it +2/+1. Lasts 3 turns.<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string CrusaderAuraCore = "TTN_908";
+                public const string CrusaderAuraCorePlaceholder = "TTN_908";
 
                 /// <summary>
                 /// Give a minion +4/+4, <b>Divine Shield</b>, and <b>Taunt</b>.<br/>

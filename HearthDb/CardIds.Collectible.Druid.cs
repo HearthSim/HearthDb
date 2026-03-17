@@ -437,7 +437,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Deathrattle:</b> Gain 5 Armor.<br/>
                 /// 4-Cost 3/5 Beast Minion
                 /// </summary>
-                public const string ThickhideKodoCore = "CORE_BAR_535";
+                public const string ThickhideKodoCorePlaceholder = "CORE_BAR_535";
 
                 /// <summary>
                 /// Summon two 2/2 Treants.<br/>
@@ -455,7 +455,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Give your other minions "<b>Deathrattle:</b> Summon a minion with this minion's Cost."<br/>
                 /// 6-Cost 4/3 Beast Minion
                 /// </summary>
-                public const string UlfarCorePlaceholder = "CORE_CATA_006";
+                public const string UlfarCore = "CORE_CATA_006";
 
                 /// <summary>
                 /// Deal $1 damage.<br/>
@@ -473,7 +473,7 @@ namespace HearthDb
                 /// Deal $4 damage to an enemy and $1 damage to all other enemies.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string SwipeCore = "CORE_CS2_012";
+                public const string SwipeCorePlaceholder = "CORE_CS2_012";
 
                 /// <summary>
                 /// Gain an empty Mana Crystal.<br/>
@@ -515,7 +515,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Deathrattle:</b> Give a random friendly minion "<b>Deathrattle:</b> Summon Greybough."<br/>
                 /// 5-Cost 4/6 Minion
                 /// </summary>
-                public const string GreyboughCore = "CORE_DMF_734";
+                public const string GreyboughCorePlaceholder = "CORE_DMF_734";
 
                 /// <summary>
                 /// <b>Choose One -</b> Deal $3 damage to a minion; or $1 damage and draw a card.<br/>
@@ -581,7 +581,7 @@ namespace HearthDb
                 /// Add two 2/2 Treants to your hand.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string WitchwoodAppleCore = "CORE_GIL_663";
+                public const string WitchwoodAppleCorePlaceholder = "CORE_GIL_663";
 
                 /// <summary>
                 /// <b>Choose a Deathrattle (Secretly) -</b> Deal 3 damage to all minions; or Give them +2/+2.<br/>
@@ -719,7 +719,7 @@ namespace HearthDb
                 /// <b>Choose One - </b>Restore #8 Health to your hero; or Deal 4 damage.<br/>
                 /// 5-Cost 4/5 Minion
                 /// </summary>
-                public const string BoomkinCorePlaceholder = "CORE_ONY_018";
+                public const string BoomkinCore = "CORE_ONY_018";
 
                 /// <summary>
                 /// Deal $2 damage. Summon a 2/2 Treant.<br/>
@@ -785,7 +785,7 @@ namespace HearthDb
                 /// <b>Rush</b> <b>Battlecry and Deathrattle:</b> Gain 6 Armor.<br/>
                 /// 7-Cost 6/6 Undead Minion
                 /// </summary>
-                public const string UnderkingCorePlaceholder = "CORE_RLK_657";
+                public const string UnderkingCore = "CORE_RLK_657";
 
                 /// <summary>
                 /// <b>Tradeable</b> Summon two 2/7 Turtles with <b>Taunt</b>.<br/>
@@ -797,7 +797,7 @@ namespace HearthDb
                 /// <b>Rush</b>. Whenever this attacks, give your hero +3 Attack this turn.<br/>
                 /// 4-Cost 4/4 Beast Minion
                 /// </summary>
-                public const string ParkPantherCore = "CORE_SW_431";
+                public const string ParkPantherCorePlaceholder = "CORE_SW_431";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Shuffle 4 Acorns into your deck. When drawn, summon a 2/1 Squirrel.<br/>
@@ -809,7 +809,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Deal damage to an enemy minion equal to your hero's Attack.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
-                public const string SavageStrikerCorePlaceholder = "CORE_TRL_240";
+                public const string SavageStrikerCore = "CORE_TRL_240";
 
                 /// <summary>
                 /// Give your hero +2 Attack this turn.<br/>
@@ -827,7 +827,7 @@ namespace HearthDb
                 /// If you have any unspent Mana at the end of your turn, draw a card.<br/>
                 /// 2-Cost 1/4 Minion
                 /// </summary>
-                public const string CrystalMerchantCorePlaceholder = "CORE_ULD_133";
+                public const string CrystalMerchantCore = "CORE_ULD_133";
 
                 /// <summary>
                 /// Give a friendly minion +1/+1, then gain Armor equal to its Attack.<br/>

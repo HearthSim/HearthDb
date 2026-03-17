@@ -443,7 +443,7 @@ namespace HearthDb
                 /// Deal $2 damage. <b>Discover</b> a spell.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string RunedOrbCorePlaceholder = "CORE_BAR_541";
+                public const string RunedOrbCore = "CORE_BAR_541";
 
                 /// <summary>
                 /// <b>Secret:</b> When a friendly minion is attacked, summon a 3/6 Water Elemental.<br/>
@@ -461,7 +461,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Summon a random minion with Cost equal to your hand size.<br/>
                 /// 7-Cost 5/5 Minion
                 /// </summary>
-                public const string AstromancerCorePlaceholder = "CORE_BOT_256";
+                public const string AstromancerCore = "CORE_BOT_256";
 
                 /// <summary>
                 /// Deal $1 damage to a minion and the minions next to it.<br/>
@@ -473,7 +473,7 @@ namespace HearthDb
                 /// <b>Freeze</b> an enemy. Summon two 3/6 Water Elementals.<br/>
                 /// 7-Cost Spell
                 /// </summary>
-                public const string DeepFreezeCorePlaceholder = "CORE_BT_072";
+                public const string DeepFreezeCore = "CORE_BT_072";
 
                 /// <summary>
                 /// Draw 2 cards.<br/>
@@ -515,13 +515,13 @@ namespace HearthDb
                 /// Your cards that summon minions summon twice as many.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
-                public const string KhadgarCorePlaceholder = "CORE_DAL_575";
+                public const string KhadgarCore = "CORE_DAL_575";
 
                 /// <summary>
                 /// Your first spell each turn costs (0). <b>Battlecry:</b> <b>Discover</b> a spell.<br/>
                 /// 8-Cost 4/12 Dragon Minion
                 /// </summary>
-                public const string KalecgosCore = "CORE_DAL_609";
+                public const string KalecgosCorePlaceholder = "CORE_DAL_609";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Add an 'Arcane Missiles' spell to your hand.<br/>
@@ -653,7 +653,7 @@ namespace HearthDb
                 /// Deal $6 damage. Summon a random 6-Cost minion.<br/>
                 /// 7-Cost Spell
                 /// </summary>
-                public const string FirelandsPortalCore = "CORE_KAR_076";
+                public const string FirelandsPortalCorePlaceholder = "CORE_KAR_076";
 
                 /// <summary>
                 /// <b>Battlecry: Discover</b> a spell.<br/>
@@ -671,7 +671,7 @@ namespace HearthDb
                 /// Whenever you cast a spell, gain Armor equal to its Cost.<br/>
                 /// 1-Cost 1/3 Elemental Minion
                 /// </summary>
-                public const string ArcaneArtificerCore = "CORE_LOOT_231";
+                public const string ArcaneArtificerCorePlaceholder = "CORE_LOOT_231";
 
                 /// <summary>
                 /// <b>Secret:</b> When your opponent plays a minion, <b>Counter</b> it.<br/>
@@ -761,7 +761,7 @@ namespace HearthDb
                 /// Deal $2 damage to a minion. Add a Second Flame to your hand.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string FirstFlameCorePlaceholder = "CORE_SW_108";
+                public const string FirstFlameCore = "CORE_SW_108";
 
                 /// <summary>
                 /// Whenever your Hero Power kills a minion, draw a card.<br/>
@@ -773,7 +773,7 @@ namespace HearthDb
                 /// Deal $2 damage. Add a 1/2 Elemental to your hand.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string FlameGeyserCore = "CORE_UNG_018";
+                public const string FlameGeyserCorePlaceholder = "CORE_UNG_018";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Draw a <b>Secret</b>.<br/>
@@ -785,7 +785,7 @@ namespace HearthDb
                 /// <b>Discover</b> a spell. Reduce its Cost by (2).<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string PrimordialGlyphCore = "CORE_UNG_941";
+                public const string PrimordialGlyphCorePlaceholder = "CORE_UNG_941";
 
                 /// <summary>
                 /// Transform a minion into a 1/1 Sheep.<br/>

@@ -449,7 +449,7 @@ namespace HearthDb
                 /// <b>Secret:</b> When your opponent casts a spell, return it to their hand instead. It costs (1) more.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string IceTrapCore = "CORE_AV_226";
+                public const string IceTrapCorePlaceholder = "CORE_AV_226";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Summon two 2/4 Cubs with <b>Taunt</b>.<br/>
@@ -461,7 +461,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Draw a 1, 2, and 3-Cost spell.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
-                public const string BarakKodobaneCore = "CORE_BAR_551";
+                public const string BarakKodobaneCorePlaceholder = "CORE_BAR_551";
 
                 /// <summary>
                 /// Deal $1 damage. Summon a 1/1 Hyena with <b>Rush</b>.<br/>
@@ -479,7 +479,7 @@ namespace HearthDb
                 /// <b>Deathrattle</b>: Deal this minion's Attack damage randomly split among all enemies.<br/>
                 /// 3-Cost 2/4 Beast/Mechanical Minion
                 /// </summary>
-                public const string AugmentedPorcupineCorePlaceholder = "CORE_BT_201";
+                public const string AugmentedPorcupineCore = "CORE_BT_201";
 
                 /// <summary>
                 /// Deal $4 damage to a minion. <b>Discover</b> a spell.<br/>
@@ -497,13 +497,13 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Change the Health of all enemy minions to 1.<br/>
                 /// 6-Cost 7/6 Dragon Minion
                 /// </summary>
-                public const string VeranusCore = "CORE_DRG_095";
+                public const string VeranusCorePlaceholder = "CORE_DRG_095";
 
                 /// <summary>
                 /// After you use your Hero Power, deal 5 damage to a random enemy.<br/>
                 /// 4-Cost 3/5 Mechanical Minion
                 /// </summary>
-                public const string DragonbaneCorePlaceholder = "CORE_DRG_256";
+                public const string DragonbaneCore = "CORE_DRG_256";
 
                 /// <summary>
                 /// <b>Discover</b> a card from your deck.<br/>
@@ -563,7 +563,7 @@ namespace HearthDb
                 /// Destroy a random enemy minion.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string DeadlyShotCore = "CORE_EX1_617";
+                public const string DeadlyShotCorePlaceholder = "CORE_EX1_617";
 
                 /// <summary>
                 /// Summon two 3/3 Wolves. <i>(Play a <b>Secret</b> to upgrade.)</i><br/>
@@ -713,7 +713,7 @@ namespace HearthDb
                 /// Summon all three Animal Companions.<br/>
                 /// 8-Cost Spell
                 /// </summary>
-                public const string CallOfTheWildCorePlaceholder = "CORE_OG_211";
+                public const string CallOfTheWildCore = "CORE_OG_211";
 
                 /// <summary>
                 /// Summon two 2/1 Bats. <b>Infuse (3):</b> Give them +1/+2.<br/>
@@ -779,13 +779,13 @@ namespace HearthDb
                 /// <b>Battlecry:</b> If you control a Beast, gain +1 Durability.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
-                public const string HeadhuntersHatchetCorePlaceholder = "CORE_TRL_111";
+                public const string HeadhuntersHatchetCore = "CORE_TRL_111";
 
                 /// <summary>
                 /// <b>Discover</b> a minion from your deck. If all 3 are Beasts, draw them all instead.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string MastersCallCore = "CORE_TRL_339";
+                public const string MastersCallCorePlaceholder = "CORE_TRL_339";
 
                 /// <summary>
                 /// <b>Rush</b> <b>Battlecry:</b> Add a 1/1 Lynx with <b>Rush</b> to your hand.<br/>
@@ -797,19 +797,19 @@ namespace HearthDb
                 /// <b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have <b>Rush</b>.<br/>
                 /// 4-Cost 4/2 Beast Minion
                 /// </summary>
-                public const string HalazziTheLynxCorePlaceholder = "CORE_TRL_900";
+                public const string HalazziTheLynxCore = "CORE_TRL_900";
 
                 /// <summary>
                 /// <b>Secret:</b> After your opponent casts a spell, destroy a random enemy minion.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string PressurePlateCorePlaceholder = "CORE_ULD_152";
+                public const string PressurePlateCore = "CORE_ULD_152";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle</b>.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
-                public const string TerrorscaleStalkerCore = "CORE_UNG_800";
+                public const string TerrorscaleStalkerCorePlaceholder = "CORE_UNG_800";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Add a random Beast to your hand.<br/>

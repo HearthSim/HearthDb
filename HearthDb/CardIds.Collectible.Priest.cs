@@ -443,7 +443,7 @@ namespace HearthDb
                 /// <b>Taunt</b> <b>Deathrattle:</b> Draw a Holy spell and a Shadow spell.<br/>
                 /// 5-Cost 5/5 Undead Minion
                 /// </summary>
-                public const string SpiritGuideCore = "CORE_AV_328";
+                public const string SpiritGuideCorePlaceholder = "CORE_AV_328";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Deathrattle:</b> Restore #8 Health to all friendly characters.<br/>
@@ -455,19 +455,19 @@ namespace HearthDb
                 /// <b>Lifesteal</b>. Deal $4 damage randomly split among all enemy minions.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string DevouringPlagueCorePlaceholder = "CORE_BAR_311";
+                public const string DevouringPlagueCore = "CORE_BAR_311";
 
                 /// <summary>
                 /// <b>Taunt</b>. <b>Battlecry:</b> If you've restored Health this turn, gain +3/+3.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
-                public const string PriestOfAnsheCorePlaceholder = "CORE_BAR_313";
+                public const string PriestOfAnsheCore = "CORE_BAR_313";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Resurrect your highest-Cost minion that died this game.<br/>
                 /// 6-Cost 4/5 Undead Minion
                 /// </summary>
-                public const string CaliaMenethilCorePlaceholder = "CORE_CATA_002";
+                public const string CaliaMenethilCore = "CORE_CATA_002";
 
                 /// <summary>
                 /// Restore #12 Health to a friendly character. Draw a card.<br/>
@@ -539,7 +539,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> <b>Discover</b> a copy of a card in your opponent's hand.<br/>
                 /// 3-Cost 3/2 Minion
                 /// </summary>
-                public const string MadameLazulCore = "CORE_DAL_729";
+                public const string MadameLazulCorePlaceholder = "CORE_DAL_729";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Play all cards your opponent played last turn.<br/>
@@ -611,7 +611,7 @@ namespace HearthDb
                 /// Deal damage to each minion equal to its Attack.<br/>
                 /// 6-Cost Spell
                 /// </summary>
-                public const string LightbombCore = "CORE_GVG_008";
+                public const string LightbombCorePlaceholder = "CORE_GVG_008";
 
                 /// <summary>
                 /// Copy 3 cards in your opponent's deck and add them to your hand.<br/>
@@ -761,13 +761,13 @@ namespace HearthDb
                 /// <b>Battlecry:</b> If you're holding a Shadow spell, gain +1/+1.<br/>
                 /// 1-Cost 1/2 Minion
                 /// </summary>
-                public const string CrystalsmithCultistCorePlaceholder = "CORE_RLK_814";
+                public const string CrystalsmithCultistCore = "CORE_RLK_814";
 
                 /// <summary>
                 /// Deal $4 damage to a minion. If it dies, summon a new copy.<br/>
                 /// 6-Cost Spell
                 /// </summary>
-                public const string InitiationCorePlaceholder = "CORE_SCH_512";
+                public const string InitiationCore = "CORE_SCH_512";
 
                 /// <summary>
                 /// <b>Tradeable</b> <b>Silence</b> all enemy minions.<br/>
@@ -803,7 +803,7 @@ namespace HearthDb
                 /// After you summon a minion, give it +1 Health.<br/>
                 /// 1-Cost 1/2 Dragon/Pirate Minion
                 /// </summary>
-                public const string ShipsChirurgeonCore = "CORE_WON_065";
+                public const string ShipsChirurgeonCorePlaceholder = "CORE_WON_065";
 
                 /// <summary>
                 /// Deal $2 damage to all enemy minions. Restore #2 Health to all friendly characters.<br/>
@@ -881,7 +881,7 @@ namespace HearthDb
                 /// <b>Discover</b> a spell from your deck.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string ThriveInTheShadowsCore = "CS3_028";
+                public const string ThriveInTheShadowsCorePlaceholder = "CS3_028";
 
                 /// <summary>
                 /// Reduce the Attack of an enemy minion by 1 until your next turn. <i>(Upgrades each turn!)</i><br/>
@@ -2087,7 +2087,7 @@ namespace HearthDb
                 /// <b>Discover</b> a spell from your deck.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string ThriveInTheShadowsCorePlaceholder = "LEG_CS3_028";
+                public const string ThriveInTheShadowsLegacy = "LEG_CS3_028";
 
                 /// <summary>
                 /// <b>Battlecry: Discover</b> a <b>Deathrattle</b> card. It costs (1) less.<br/>

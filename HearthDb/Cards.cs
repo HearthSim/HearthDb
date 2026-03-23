@@ -281,6 +281,10 @@ namespace HearthDb
 			CardIds.NonCollectible.Neutral.DeflectOBotTavernBrawl,
 			CardIds.NonCollectible.Neutral.Gemsplitter,
 			CardIds.NonCollectible.Neutral.Gemsplitter_Gemsplitter,
+			CardIds.NonCollectible.Neutral.GreaseBot,
+			CardIds.NonCollectible.Neutral.GreaseBot_GreaseBot,
+			CardIds.NonCollectible.Neutral.TimewarpedGuard,
+		    CardIds.NonCollectible.Neutral.TimewarpedGuard_TimewarpedGuard,
 		};
 	}
 }

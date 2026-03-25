@@ -2086,6 +2086,7 @@ namespace HearthDb.Enums
         WOLF = 8,
         PEGASUS = 9,
         RAPTOR = 10,
+        SCARAB = 11,
     }
 
     public enum Zone

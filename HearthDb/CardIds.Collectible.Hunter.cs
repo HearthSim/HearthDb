@@ -326,19 +326,19 @@ namespace HearthDb
                 public const string Magmaw = "CATA_550";
 
                 /// <summary>
-                /// <b>Taunt</b> <i>While in hand, play a Dragon to become a 6/6 Dragon!</i><br/>
+                /// <b>Taunt</b> <i>(While in hand, play a Dragon to become a 6/6 Dragon!)</i><br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string StonetalonStriker = "CATA_551";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Deal damage equal to this minion's Attack. <i>(While in hand, play a Dragon to become an 8/8 Dragon.)</i><br/>
+                /// <b>Battlecry:</b> Deal damage equal to this minion's Attack. <i>(While in hand, play a Dragon to become an 8/8 Dragon!)</i><br/>
                 /// 6-Cost 4/4 Minion
                 /// </summary>
                 public const string EbonscaleScout = "CATA_552";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Your Dragons have <b>Rush</b> this game. <i>While in hand, play a Dragon to become a 12/12 Dragon!</i><br/>
+                /// <b>Battlecry:</b> Your Dragons have <b>Rush</b> this game. <i>(While in hand, play a Dragon to become a 12/12 Dragon!)</i><br/>
                 /// 7-Cost 6/6 Minion
                 /// </summary>
                 public const string Ebyssian = "CATA_553";

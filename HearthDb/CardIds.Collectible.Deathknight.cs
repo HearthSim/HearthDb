@@ -63,7 +63,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Lifesteal</b> <b>Battlecry:</b> <b>Herald</b> {0}.<br/>
-                /// 4-Cost 2/5 Minion
+                /// 4-Cost 3/5 Minion
                 /// </summary>
                 public const string ObsessiveTechnician = "CATA_780";
 

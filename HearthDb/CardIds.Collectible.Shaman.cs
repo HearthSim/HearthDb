@@ -339,7 +339,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> <b>Herald</b> {0}.<br/>
-                /// 2-Cost 0/3 Elemental Minion
+                /// 2-Cost 0/2 Elemental Minion
                 /// </summary>
                 public const string SkywallSentinel = "CATA_565";
 
@@ -2528,7 +2528,7 @@ namespace HearthDb
                 public const string SizzlingSwarm = "TLC_221";
 
                 /// <summary>
-                /// Draw two minions of different minion types. Give them +2/+2.<br/>
+                /// Draw two minions of different minion types. Give them +1/+1.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string FlightOfTheFirehawk = "TLC_222";

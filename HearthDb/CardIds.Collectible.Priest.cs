@@ -321,7 +321,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Colossal +3. </b> After you restore Health to a character, attack a random enemy minion.<br/>
-                /// 7-Cost 4/8 Minion
+                /// 7-Cost 5/9 Minion
                 /// </summary>
                 public const string TheBlackBlood = "CATA_300";
 
@@ -1185,7 +1185,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Deal $4 damage to all enemy characters. Restore #4 Health to all friendly characters.<br/>
-                /// 7-Cost Spell
+                /// 6-Cost Spell
                 /// </summary>
                 public const string Moonwell = "EDR_476";
 
@@ -1466,7 +1466,7 @@ namespace HearthDb
                 public const string Askara = "GDB_455";
 
                 /// <summary>
-                /// Give a minion +1/+2 and <b>Rush</b>. Repeatable this turn.<br/>
+                /// <b>Echo</b> Give a minion +1/+2 and <b>Rush</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Lightspeed = "GDB_457";

@@ -1357,7 +1357,7 @@ namespace HearthDb
                 public const string ShadowedInformant = "CATA_614";
 
                 /// <summary>
-                /// While holding this, if the rest of your hand is all even or all odd, transform into the Worgen King.<br/>
+                /// While holding this, if the rest of your hand is all even or all odd, transform into the 6/5 Worgen King.<br/>
                 /// 4-Cost 5/4 Minion
                 /// </summary>
                 public const string GennCursedKing = "CATA_615";

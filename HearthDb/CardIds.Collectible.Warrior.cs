@@ -2540,7 +2540,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Summon a random minion from your deck. Summon a 5/5 Tiger with <b>Stealth</b> for your opponent.<br/>
-                /// 5-Cost Spell
+                /// 6-Cost Spell
                 /// </summary>
                 public const string GladiatorialCombat = "TIME_870";
 

@@ -2378,7 +2378,7 @@ namespace HearthDb
                 public const string ArcaneWyrm = "RLK_548";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Recast each spell you've cast this game that didn't start in your deck.<br/>
+                /// <b>Battlecry:</b> Recast each spell you've cast this game that didn't start in your deck. <i>(Once per game)</i><br/>
                 /// 9-Cost 5/7 Minion
                 /// </summary>
                 public const string GrandMagisterRommath = "RLK_803";

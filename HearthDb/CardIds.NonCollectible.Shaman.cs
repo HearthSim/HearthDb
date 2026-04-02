@@ -4010,7 +4010,7 @@ namespace HearthDb
                 public const string FireBreath_FireBreatherEnchantment = "DINO_406e";
 
                 /// <summary>
-                /// +2/+2.<br/>
+                /// +1/+1.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string FlightoftheFirehawk_IgnitedEnchantment = "TLC_222e";

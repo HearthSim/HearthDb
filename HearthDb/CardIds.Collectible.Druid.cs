@@ -45,7 +45,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Gain 10 Mana Crystals. Discard your hand.<br/>
-                /// 4-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string AstralCommunion = "AT_043";
 
@@ -315,7 +315,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Whenever you spend your last Mana Crystal, gain +1/+1.<br/>
-                /// 1-Cost 1/2 Beast Minion
+                /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string CrystalspineCub = "CATA_130";
 
@@ -339,7 +339,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Shatter</b>. Summon two 2/2 Treants. Give your minions "<b>Deathrattle:</b> Summon a 2/2 Treant."122972Summon two 2/2 Treants. Give your minions "<b>Deathrattle:</b> Summon a 2/2 Treant."<br/>
-                /// 3-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string WildwoodCircle = "CATA_134";
 
@@ -1166,7 +1166,7 @@ namespace HearthDb
                 public const string Reforestation = "EDR_843";
 
                 /// <summary>
-                /// <b>Start of Game:</b> If each spell in your deck is Nature, <b>Imbue</b> your Hero Power. Repeat this every 2 spells you cast.<br/>
+                /// <b>Start of Game:</b> If each spell in your deck is Nature, <b>Imbue</b> your Hero Power. Repeat this every 3 spells you cast.<br/>
                 /// 5-Cost 5/6 Minion
                 /// </summary>
                 public const string HamuulRunetotem = "EDR_845";

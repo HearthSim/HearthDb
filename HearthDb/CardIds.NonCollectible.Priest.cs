@@ -3513,19 +3513,19 @@ namespace HearthDb
 
                 /// <summary>
                 /// At the end of your turn, restore #3 Health to a random damaged friendly character.<br/>
-                /// 3-Cost 1/2 Minion
+                /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string TheBlackBlood_BlackBloodsBodyToken1 = "CATA_300t1";
 
                 /// <summary>
                 /// At the end of your turn, restore #3 Health to a random damaged friendly character.<br/>
-                /// 3-Cost 1/2 Minion
+                /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string TheBlackBlood_BlackBloodsBodyToken2 = "CATA_300t2";
 
                 /// <summary>
                 /// At the end of your turn, restore #3 Health to a random damaged friendly character.<br/>
-                /// 3-Cost 1/2 Minion
+                /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string TheBlackBlood_BlackBloodsBodyToken3 = "CATA_300t3";
 

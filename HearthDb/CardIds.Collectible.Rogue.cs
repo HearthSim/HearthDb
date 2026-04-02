@@ -321,7 +321,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Stealth</b> <b>Deathrattle:</b> <b>Herald</b> {0}.<br/>
-                /// 3-Cost 3/1 Minion
+                /// 3-Cost 4/1 Minion
                 /// </summary>
                 public const string ManiacalFollower = "CATA_158";
 

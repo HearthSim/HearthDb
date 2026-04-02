@@ -2762,7 +2762,7 @@ namespace HearthDb
                 public const string ArmoredBloodletter_SoldierOfAzsharaToken = "CATA_525t";
 
                 /// <summary>
-                /// After you cast a Fel spell, get a random Naga. It costs (1).<br/>
+                /// After you cast a Fel spell, get a random non-<b>Colossal</b> Naga. It costs (1).<br/>
                 /// 6-Cost 6/6 Beast Minion
                 /// </summary>
                 public const string NespirahEnthralled_NespirahUnshackledToken = "CATA_527t2";

@@ -5546,7 +5546,7 @@ namespace HearthDb
                 public const string Reforestation_ReforestationToken = "EDR_843t1";
 
                 /// <summary>
-                /// After you cast two spells, <b>Imbue</b> your Hero Power. <i>(2 left!)</i><br/>
+                /// After you cast three spells, <b>Imbue</b> your Hero Power. <i>(3 left!)</i><br/>
                 /// Enchantment
                 /// </summary>
                 public const string HamuulRunetotem_RunetotemsFavorEnchantment = "EDR_845e1";
@@ -5775,13 +5775,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Shattered</b> Summon two 2/2 Treants.<br/>
-                /// 3-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string WildwoodCircle_WildwoodCircleToken1 = "CATA_134t";
 
                 /// <summary>
                 /// <b>Shattered</b> Give your minions "<b>Deathrattle:</b> Summon a 2/2 Treant."<br/>
-                /// 3-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string WildwoodCircle_WildwoodCircleToken2 = "CATA_134t2";
 

@@ -1751,6 +1751,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string ValeeraSanguinar_MathiasShawHeroHeroSkins = "HERO_03bm";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_BeastTessHeroHeroSkinsEnchantment = "HERO_03bo";
 
                 /// <summary>

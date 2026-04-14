@@ -1793,6 +1793,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string MalfurionStormrage_FirelandsMalfurionHeroHeroSkinsEnchantment = "HERO_06bo";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MalfurionStormrage_ZinAzshariFaelinHeroHeroSkins = "HERO_06bx";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_ShandoMalfurionHeroHeroSkins = "HERO_06c";
 
                 /// <summary>

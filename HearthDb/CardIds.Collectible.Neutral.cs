@@ -1405,6 +1405,12 @@ namespace HearthDb
                 public const string EarthenDrake = "CATA_999";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Get a random <b>Colossal</b> minion from the past.<br/>
+                /// 6-Cost 7/6 Elemental Minion
+                /// </summary>
+                public const string PrimordialLord = "CATA_EVENT_000";
+
+                /// <summary>
                 /// Whenever this attacks a minion and survives, draw a card.<br/>
                 /// 6-Cost 5/5 Mechanical Minion
                 /// </summary>
@@ -1907,6 +1913,12 @@ namespace HearthDb
                 /// 3-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string RaptorHeraldLegacy = "CORE_EDR_004";
+
+                /// <summary>
+                /// <b>Rewind</b> <b>Battlecry:</b> <b>Discover</b> a Beast with a <b>Dark Gift</b>. <b>Kindred:</b> It costs (1) less.<br/>
+                /// 3-Cost 4/2 Beast Minion
+                /// </summary>
+                public const string RaptorHeraldCore = "CORE_EDR_004_2026";
 
                 /// <summary>
                 /// At the end of your turn, put a random spell on the top of your opponent's deck.<br/>

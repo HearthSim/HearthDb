@@ -304,25 +304,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins12 = "HERO_03dbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins12 = "HERO_03bmhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins12 = "HERO_03bmhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins13 = "HERO_03dbp_Copy";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins13 = "HERO_03dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins14 = "HERO_03dbp_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins12 = "HERO_03dbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins13 = "HERO_03dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins13 = "HERO_03dbp2_Copy";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins14 = "HERO_03dbp2_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
@@ -340,37 +352,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins14 = "HERO_03mbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins15 = "HERO_03mbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins14 = "HERO_03mbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins15 = "HERO_03mbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins15 = "HERO_03rbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins16 = "HERO_03rbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins15 = "HERO_03rbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins16 = "HERO_03rbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins16 = "HERO_03sbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins17 = "HERO_03sbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins16 = "HERO_03sbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins17 = "HERO_03sbp2";
 
                 /// <summary>
                 /// (No Text)<br/>

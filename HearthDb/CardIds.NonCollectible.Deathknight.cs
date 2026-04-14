@@ -1616,7 +1616,7 @@ namespace HearthDb
                 public const string HowlingBlast = "RLK_Prologue_RLK_015";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If it dies, summon a 2/2 Zombiewith <b>Rush</b>.<br/>
+                /// Deal $3 damage to a minion. If it dies, summon a 2/2 Zombie with <b>Rush</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string PlagueStrike = "RLK_Prologue_RLK_018";

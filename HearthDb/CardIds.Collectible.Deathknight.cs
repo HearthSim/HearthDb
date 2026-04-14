@@ -920,7 +920,7 @@ namespace HearthDb
                 public const string ToysnatchingGeist = "MIS_006";
 
                 /// <summary>
-                /// Give a minion -5/-5. Give a minion in your hand +5/+5.<br/>
+                /// Give a minion -5/-5. Give a random minion in your hand +5/+5.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string HelmOfHumiliation = "MIS_100";
@@ -962,7 +962,7 @@ namespace HearthDb
                 public const string HowlingBlast = "RLK_015";
 
                 /// <summary>
-                /// Deal $3 damage to a minion. If it dies, summon a 2/2 Zombiewith <b>Rush</b>.<br/>
+                /// Deal $3 damage to a minion. If it dies, summon a 2/2 Zombie with <b>Rush</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string PlagueStrike = "RLK_018";

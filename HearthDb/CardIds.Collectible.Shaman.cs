@@ -1413,7 +1413,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Add a random Shaman spell to your hand.<br/>
-                /// 1-Cost 0/1 Beast Minion
+                /// 0-Cost 0/1 Beast Minion
                 /// </summary>
                 public const string WitchsApprentice = "GIL_531";
 

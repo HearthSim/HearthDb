@@ -388,13 +388,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkinsEnchantment = "HERO_04ebp";
+                public const string UtherLightbringer_ReinforceHeroSkinsEnchantment1 = "HERO_04bohp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkinsEnchantment = "HERO_04ebp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkinsEnchantment1 = "HERO_04bohp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string UtherLightbringer_ReinforceHeroSkinsEnchantment2 = "HERO_04ebp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string UtherLightbringer_TheSilverHandHeroSkinsEnchantment2 = "HERO_04ebp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
@@ -2709,7 +2721,7 @@ namespace HearthDb
                 /// Kurtrus and Cariel are both <b>Immune</b> until your next turn.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string BackToBack1 = "BOM_06_BackToBack_006s";
+                public const string BackToBackSTORMWIND = "BOM_06_BackToBack_006s";
 
                 /// <summary>
                 /// <b>Rush</b>, <b>Divine Shield</b> Whenever this attacks, reduce the Cost of Holy spells in your hand by (1).<br/>
@@ -3027,7 +3039,7 @@ namespace HearthDb
                 /// Kurtrus and Cariel are both <b>Immune</b> until your next turn.<br/>
                 /// 2-Cost Spell
                 /// </summary>
-                public const string BackToBack2 = "BOM_10_BackToBack_004s";
+                public const string BackToBackALTERAC_VALLEY = "BOM_10_BackToBack_004s";
 
                 /// <summary>
                 /// <b>Taunt</b><br/>

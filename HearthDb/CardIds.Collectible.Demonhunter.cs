@@ -650,7 +650,7 @@ namespace HearthDb
                 public const string SinfulBrandCorePlaceholder = "CORE_REV_506";
 
                 /// <summary>
-                /// Give your hero +3 Attack this turn. Choose a card in your hand to shuffle into your deck.<br/>
+                /// Give your hero +3 Attack this turn. Pick from 3 cards in your hand to shuffle into your deck.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string DisposeOfEvidenceCorePlaceholder = "CORE_REV_507";
@@ -1319,6 +1319,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string IllidanStormrage_KaynSunfuryHeroHeroSkins = "HERO_10bk";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string IllidanStormrage_GunglaiveKurtrusHeroHeroSkins = "HERO_10bm";
 
                 /// <summary>
@@ -1544,7 +1550,7 @@ namespace HearthDb
                 public const string SinfulBrand = "REV_506";
 
                 /// <summary>
-                /// Give your hero +3 Attack this turn. Choose a card in your hand to shuffle into your deck.<br/>
+                /// Give your hero +3 Attack this turn. Pick from 3 cards in your hand to shuffle into your deck.<br/>
                 /// 0-Cost Spell
                 /// </summary>
                 public const string DisposeOfEvidence = "REV_507";

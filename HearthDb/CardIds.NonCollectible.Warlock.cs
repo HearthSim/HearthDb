@@ -376,6 +376,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string Guldan_LifeTapHeroSkins13 = "HERO_07brhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_SoulTapHeroSkins12 = "HERO_07brhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string GuldanHeroic_LifeTapHeroSkins2 = "HERO_07bthp";
 
                 /// <summary>
@@ -388,13 +400,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins13 = "HERO_07dbp";
+                public const string Guldan_LifeTapHeroSkins14 = "HERO_07dbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins12 = "HERO_07dbp2";
+                public const string Guldan_SoulTapHeroSkins13 = "HERO_07dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
@@ -418,25 +430,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins14 = "HERO_07ybp";
+                public const string Guldan_LifeTapHeroSkins15 = "HERO_07ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins13 = "HERO_07ybp2";
+                public const string Guldan_SoulTapHeroSkins14 = "HERO_07ybp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins15 = "HERO_07zbp";
+                public const string Guldan_LifeTapHeroSkins16 = "HERO_07zbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins14 = "HERO_07zbp2";
+                public const string Guldan_SoulTapHeroSkins15 = "HERO_07zbp2";
 
                 /// <summary>
                 /// Deal $4 damage to a minion.<br/>
@@ -4346,6 +4358,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Consume_ConsumedEnchantment = "SC_020e";
+
+                /// <summary>
+                /// This card is on fire!<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DestructivePhoenix_DestructivePhoenixRisingEnchantment = "CATA_EVENT_001e";
 
                 /// <summary>
                 /// At the end of your turn, deal $3 damage to your hero.<br/>

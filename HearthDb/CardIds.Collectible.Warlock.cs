@@ -86,7 +86,7 @@ namespace HearthDb
                 public const string Felwalker = "AV_286";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Copy a Fel spell in your hand.<br/>
+                /// <b>Battlecry:</b> Choose a Fel spell in your hand. Get a copy of it.<br/>
                 /// 1-Cost 2/1 Minion
                 /// </summary>
                 public const string GraveDefiler = "AV_308";
@@ -372,6 +372,12 @@ namespace HearthDb
                 /// 9-Cost 6/6 Minion
                 /// </summary>
                 public const string ChogallMastermind = "CATA_726";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose a card in your hand to set on fire. In 3 turns, discard it and summon a copy of this.<br/>
+                /// 4-Cost 5/5 Elemental/Beast Minion
+                /// </summary>
+                public const string DestructivePhoenix = "CATA_EVENT_001";
 
                 /// <summary>
                 /// Deal $5 damage to all characters.<br/>
@@ -1799,7 +1805,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string Guldan_NefariousNemsyHeroHeroSkins = "HERO_07bq";
+                public const string Guldan_MistressNagmaraHeroHeroSkins = "HERO_07br";
 
                 /// <summary>
                 /// (No Text)<br/>

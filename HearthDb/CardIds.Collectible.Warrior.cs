@@ -379,6 +379,12 @@ namespace HearthDb
                 public const string LogoshsLastStand = "CATA_610";
 
                 /// <summary>
+                /// <b>Battlecry:</b> If you've played a Fire spell this turn, destroy a minion.<br/>
+                /// 3-Cost 4/3 Elemental Minion
+                /// </summary>
+                public const string BalefulBlazer = "CATA_EVENT_002";
+
+                /// <summary>
                 /// <b>Taunt</b><br/>
                 /// 2-Cost 0/7 Minion
                 /// </summary>
@@ -1804,6 +1810,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string GarroshHellscream_HatchlingWrathionHeroHeroSkins = "HERO_01bq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GarroshHellscream_DeathwingHeroHeroSkins2 = "HERO_01c";
 
                 /// <summary>
@@ -2821,7 +2833,7 @@ namespace HearthDb
                 public const string CraftsmansHammer = "TTN_467";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Draw a spell. Reduce the Cost of a Fire spell in your hand by (1).<br/>
+                /// <b>Battlecry:</b> Draw a spell. Reduce the Cost of a random Fire spell in your hand by (1).<br/>
                 /// 3-Cost 3/3 Elemental Minion
                 /// </summary>
                 public const string SteamGuardian = "TTN_468";
@@ -3019,7 +3031,7 @@ namespace HearthDb
                 public const string TheRyecleaver = "VAC_525";
 
                 /// <summary>
-                /// Deal $7 damage to a minion. Give a minion in your hand stats equal to the excess damage.<br/>
+                /// Deal $7 damage to a minion. Give a random minion in your hand stats equal to the excess damage.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string Char = "VAC_526";

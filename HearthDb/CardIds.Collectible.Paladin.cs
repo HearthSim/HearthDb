@@ -931,7 +931,7 @@ namespace HearthDb
                 public const string SunwingSquawker = "DED_501";
 
                 /// <summary>
-                /// Set a minion's Attack and Health to 1. Give the stats it lost to a minion in your hand.<br/>
+                /// Set a minion's stats to 1/1. Give the stats it lost to a random minion in your hand.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string RighteousDefense = "DED_502";
@@ -1775,6 +1775,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string UtherLightbringer_InfiltratorGelbinHeroHeroSkins = "HERO_04bn";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string UtherLightbringer_LightlordRagnarosHeroHeroSkinsEnchantment = "HERO_04bo";
 
                 /// <summary>
                 /// (No Text)<br/>

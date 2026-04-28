@@ -361,7 +361,7 @@ namespace HearthDb
                 public const string BronzeRedeemer = "CATA_478";
 
                 /// <summary>
-                /// <b>Shatter</b> Summon two 4/2 Drakes. Give your minions +1/+1 and <b>Divine Shield</b>.123141Summon two 4/2 Drakes. Give your minions +1/+1 and <b>Divine Shield</b>.<br/>
+                /// <b>Shatter</b>. Summon two 4/2 Drakes. Give your minions +1 Attack and <b>Divine Shield</b>.123141Summon two 4/2 Drakes. Give your minions +1 Attack and <b>Divine Shield</b>.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string FlightManeuvers = "CATA_479";

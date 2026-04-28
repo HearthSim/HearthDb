@@ -4518,7 +4518,7 @@ namespace HearthDb
                 public const string BronzeRedeemer_BronzeBruteToken = "CATA_478t";
 
                 /// <summary>
-                /// +1/+1 and <b>Divine Shield</b>.<br/>
+                /// +1 Attack and <b>Divine Shield</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string FlightManeuvers_CourageousEnchantment = "CATA_479e";
@@ -4530,7 +4530,7 @@ namespace HearthDb
                 public const string FlightManeuvers_FlightManeuversToken1 = "CATA_479t";
 
                 /// <summary>
-                /// <b>Shattered</b> Give your minions +1/+1 and <b>Divine Shield</b>.<br/>
+                /// <b>Shattered</b>. Give your minions +1 Attack and <b>Divine Shield</b>.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string FlightManeuvers_FlightManeuversToken2 = "CATA_479t2";

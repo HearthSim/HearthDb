@@ -4562,7 +4562,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Elusive</b> Costs (3) less if you're holding another Dragon.<br/>
-                /// 7-Cost 6/8 Dragon Minion
+                /// 7-Cost 5/8 Dragon Minion
                 /// </summary>
                 public const string PrescientSlitherdrake = "END_033";
 

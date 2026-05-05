@@ -350,7 +350,7 @@ namespace HearthDb
                 public const string EarthenRoar = "CATA_554";
 
                 /// <summary>
-                /// Deal 3 damage. If you've played another copy of this, hit all enemies instead.<br/>
+                /// Deal $3 damage. If you've played another copy of this, hit all enemies instead.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SylvanassTriumph = "CATA_557";
@@ -1415,7 +1415,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Quick Shot, Deadly Shot, or Explosive Shot.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string RexxarsGift = "GIFT_03";
+                public const string RexxarsGiftLegacy = "GIFT_03";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Double the Attack and Health of all minions in your hand.<br/>
@@ -1775,6 +1775,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Rexxar_VolcanicKrushHeroHeroSkinsEnchantment = "HERO_05bo";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_StormpikeExpeditionTavishHeroHeroSkins = "HERO_05bq";
 
                 /// <summary>
@@ -2094,6 +2100,48 @@ namespace HearthDb
                 /// 6-Cost 4/4 Undead Minion
                 /// </summary>
                 public const string DefenseAttorneyNathanos = "MAW_011";
+
+                /// <summary>
+                /// Replace your future Animal Companions with random Beasts that cost (1) more. Draw a card.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string TamePet = "MEND_300";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose an Animal Companion to summon.<br/>
+                /// 4-Cost 2/2 Minion
+                /// </summary>
+                public const string Spiritspeaker = "MEND_301";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 3 damage split among all enemies. If any die, deal 3 more.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
+                public const string WastelandVanguard = "MEND_302";
+
+                /// <summary>
+                /// <b>Taunt. Battlecry:</b> Replace your future Animal Companions with random Beasts that cost (1) more.<br/>
+                /// 3-Cost 3/4 Beast Minion
+                /// </summary>
+                public const string MigratingElekk = "MEND_303";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your cards that summon Animal Companions summon 1 more this game.<br/>
+                /// 5-Cost 4/6 Minion
+                /// </summary>
+                public const string TalyaEarthstrider = "MEND_304";
+
+                /// <summary>
+                /// Give a friendly Beast +2/+2. Give a random Beast in your hand +2/+2.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string NurturingNature = "MEND_305";
+
+                /// <summary>
+                /// Replace your future Animal Companions with random Beasts that cost (2) more. Choose one to summon.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string RoamFree = "MEND_307";
 
                 /// <summary>
                 /// Add 5 random Beasts to your hand. They are <b>Temporary</b>.<br/>

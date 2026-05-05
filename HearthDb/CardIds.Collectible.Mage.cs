@@ -1391,7 +1391,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Frostbolt, Arcane Intellect, or Fireball.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string JainasGift = "GIFT_02";
+                public const string JainasGiftLegacy = "GIFT_02";
 
                 /// <summary>
                 /// <b>Battlecry:</b> <b>Discover</b> a <b>Secret</b>. Put it into the battlefield.<br/>
@@ -1841,6 +1841,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string JainaProudmoore_DragonqueenAlexstraszaHeroHeroSkins = "HERO_08ch";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string JainaProudmoore_MurozondAFKayHeroHeroSkins = "HERO_08ct";
 
                 /// <summary>
@@ -2166,6 +2172,48 @@ namespace HearthDb
                 /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string ContractConjurer = "MAW_101";
+
+                /// <summary>
+                /// Deal ${0} damage to a random enemy minion. Excess damage hits the enemy hero.4Deal ${0} damage to a random enemy minion, {1} times. Excess damage hits the enemy hero.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string BurstingLeyline = "MEND_500";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your Leylines cost (1) less this game. <b>Deathrattle:</b> Get a random Leyline.<br/>
+                /// 3-Cost 4/2 Minion
+                /// </summary>
+                public const string LeyWalker = "MEND_501";
+
+                /// <summary>
+                /// Summon a random {0}-Cost minion.6Summon a random {0}-Cost minion, {1} times.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string CrystallizedLeyline = "MEND_502";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your Leylines trigger an additional time this game.<br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
+                public const string SurgeNeedle = "MEND_503";
+
+                /// <summary>
+                /// Draw a card. It costs ({0}) less.1Draw {1} cards. They cost ({0}) less.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string LeylineNexus = "MEND_504";
+
+                /// <summary>
+                /// Get all 3 Leylines. Choose an upgrade for your Leylines.<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string TheArcanomicon = "MEND_505";
+
+                /// <summary>
+                /// <b>Elusive</b> <b>Battlecry:</b> Increase the effects of your Leylines by 1 this game.<br/>
+                /// 2-Cost 2/3 Beast Minion
+                /// </summary>
+                public const string MysticRunesaber = "MEND_506";
 
                 /// <summary>
                 /// Deal $3 damage split among all enemy minions. If your deck has no minions, deal $3 more.<br/>

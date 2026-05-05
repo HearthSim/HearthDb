@@ -1444,7 +1444,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Execute, Shield Block, or Brawl.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string GarroshsGift = "GIFT_07";
+                public const string GarroshsGiftLegacy = "GIFT_07";
 
                 /// <summary>
                 /// <b>Rush</b><br/>
@@ -1811,6 +1811,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string GarroshHellscream_HatchlingWrathionHeroHeroSkins = "HERO_01bq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_GazloweHeroHeroSkins = "HERO_01bt";
 
                 /// <summary>
                 /// (No Text)<br/>

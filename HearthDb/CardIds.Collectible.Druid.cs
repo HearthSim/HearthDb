@@ -1799,6 +1799,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string MalfurionStormrage_DragonqueenAlexstraszaHeroHeroSkins = "HERO_06bw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_ZinAzshariFaelinHeroHeroSkins = "HERO_06bx";
 
                 /// <summary>
@@ -2124,6 +2130,48 @@ namespace HearthDb
                 /// 3-Cost Spell
                 /// </summary>
                 public const string Incarceration = "MAW_026";
+
+                /// <summary>
+                /// Starts <b>Dormant</b>. When your board is full, awaken.<br/>
+                /// 1-Cost 6/6 Beast Minion
+                /// </summary>
+                public const string AshWorm = "MEND_040";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> If you didn't play a minion last turn, refresh 3 Mana Crystals.<br/>
+                /// 5-Cost 3/7 Minion
+                /// </summary>
+                public const string WizenedWildspeaker = "MEND_041";
+
+                /// <summary>
+                /// Restore #8 Health to all friendly characters. Summon two random 8-Cost minions.<br/>
+                /// 9-Cost Spell
+                /// </summary>
+                public const string Lifebloom = "MEND_042";
+
+                /// <summary>
+                /// Draw a card and gain 3 Armor. If you didn't play a minion last turn, do it again.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string HeartrootStones = "MEND_043";
+
+                /// <summary>
+                /// Give a minion +2 Health and <b>Taunt</b>. It falls asleep until the end of your next turn.<br/>
+                /// 2-Cost Location
+                /// </summary>
+                public const string TranquilClearing = "MEND_044";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Get a random Dragon. It costs (2) less.<br/>
+                /// 4-Cost 4/4 Dragon Minion
+                /// </summary>
+                public const string SeedingDragon = "MEND_045";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get three 2/2 Treants. Carve 12 Mana worth of Nature spells into them.<br/>
+                /// 7-Cost 4/4 Minion
+                /// </summary>
+                public const string BashanaRunetotem = "MEND_046";
 
                 /// <summary>
                 /// <b>Gigantify</b> <b>Elusive</b>, <b>Lifesteal</b>, <b>Taunt</b><br/>

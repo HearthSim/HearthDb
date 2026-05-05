@@ -323,7 +323,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscreamHeroic_TankUpHeroSkins = "HERO_01bbhp2";
+                public const string GarroshHellscreamHeroic_TankUpHeroSkins1 = "HERO_01bbhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
@@ -378,6 +378,18 @@ namespace HearthDb
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string GarroshHellscream_TankUpHeroSkins6 = "HERO_01bnhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscreamHeroic_ArmorUpHeroSkins3 = "HERO_01bthp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d4 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscreamHeroic_TankUpHeroSkins2 = "HERO_01bthp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>

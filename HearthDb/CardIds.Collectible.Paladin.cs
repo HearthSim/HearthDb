@@ -1414,7 +1414,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Equality, Consecration, or Blessing of Kings.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string UthersGift = "GIFT_05";
+                public const string UthersGiftLegacy = "GIFT_05";
 
                 /// <summary>
                 /// <b>Echo</b> Give a minion +1/+2.<br/>
@@ -2111,6 +2111,48 @@ namespace HearthDb
                 /// 2-Cost 2/3 Draenei Minion
                 /// </summary>
                 public const string ClassActionLawyer = "MAW_017";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Deathrattle:</b> Give your Silver Hand Recruits +1 Attack this game.<br/>
+                /// 2-Cost 2/1 Minion
+                /// </summary>
+                public const string BrashBattlemaster = "MEND_800";
+
+                /// <summary>
+                /// <b>Divine Shield</b> After this loses <b>Divine Shield</b>, give your Silver Hand Recruits +1 Health this game.<br/>
+                /// 3-Cost 3/1 Draenei Minion
+                /// </summary>
+                public const string ResilientSavior = "MEND_801";
+
+                /// <summary>
+                /// Summon two 1/1 Silver Hand Recruits with <b>Divine Shield</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Convalescence = "MEND_802";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give your Silver Hand Recruits +1/+1 this game.<br/>
+                /// 5-Cost Weapon
+                /// </summary>
+                public const string EmboldeningBlade = "MEND_803";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Double the stats of all friendly Silver Hand Recruits and give them <b>Taunt</b>.<br/>
+                /// 5-Cost 5/6 Minion
+                /// </summary>
+                public const string AratorTheRedeemer = "MEND_804";
+
+                /// <summary>
+                /// Get copies of all friendly minions that died this turn. Give them +3/+3.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Charity = "MEND_805";
+
+                /// <summary>
+                /// Summon and get four 1/1 Silver Hand Recruits.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string Teamwork = "MEND_900";
 
                 /// <summary>
                 /// <b>Discover</b> a Paladin weapon from the past. Give it +1/+1.<br/>

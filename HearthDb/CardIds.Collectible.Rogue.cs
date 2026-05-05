@@ -1409,7 +1409,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Backstab, Deadly Poison, or Fan of Knives.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string ValeerasGift = "GIFT_09";
+                public const string ValeerasGiftLegacy = "GIFT_09";
 
                 /// <summary>
                 /// <b>Echo</b> Deal $2 damage to a minion.<br/>

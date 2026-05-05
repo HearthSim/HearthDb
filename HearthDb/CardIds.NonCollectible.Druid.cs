@@ -533,6 +533,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string MalfurionStormrage_ShapeshiftHeroSkins7 = "HERO_06bwhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins7 = "HERO_06bwhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string MalfurionStormrage_ShapeshiftHeroSkinsEnchantment = "HERO_06ebp";
 
                 /// <summary>
@@ -545,61 +557,61 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins7 = "HERO_06fbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins8 = "HERO_06fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins7 = "HERO_06fbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins8 = "HERO_06fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins8 = "HERO_06pbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins9 = "HERO_06pbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins8 = "HERO_06pbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins9 = "HERO_06pbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins9 = "HERO_06rbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins10 = "HERO_06rbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins9 = "HERO_06rbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins10 = "HERO_06rbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins10 = "HERO_06ubp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins11 = "HERO_06ubp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins10 = "HERO_06ubp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins11 = "HERO_06ubp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn. +$d1 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_ShapeshiftHeroSkins11 = "HERO_06zbp";
+                public const string MalfurionStormrage_ShapeshiftHeroSkins12 = "HERO_06zbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn. +$d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string MalfurionStormrage_DireShapeshiftHeroSkins11 = "HERO_06zbp2";
+                public const string MalfurionStormrage_DireShapeshiftHeroSkins12 = "HERO_06zbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -5759,7 +5771,7 @@ namespace HearthDb
                 /// +1/+1.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string CrystalspineCub_CrystalizedEnchantment = "CATA_130e";
+                public const string CrystalspineCub_CrystallizedEnchantment = "CATA_130e";
 
                 /// <summary>
                 /// <b>Taunt</b><br/>
@@ -5826,6 +5838,24 @@ namespace HearthDb
                 /// 1-Cost 0/2 Minion
                 /// </summary>
                 public const string Wickerfang_WickerfangsLegToken4 = "CATA_139t4";
+
+                /// <summary>
+                /// This minion has +2 Health and <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TranquilClearing_TranquilStrengthEnchantment = "MEND_044e4";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Cast {0}.<br/>
+                /// 1-Cost 2/2 Minion
+                /// </summary>
+                public const string BashanaRunetotem_TreantToken = "MEND_046t";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Charity_CharityCaseEnchantment = "MEND_805e";
             }
         }
     }

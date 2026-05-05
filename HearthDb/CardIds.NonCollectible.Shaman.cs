@@ -344,6 +344,18 @@ namespace HearthDb
                 public const string Thrall_TotemicSlamHeroSkins10 = "HERO_02bjhp2";
 
                 /// <summary>
+                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicCallHeroSkins11 = "HERO_02buhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicSlamHeroSkins11 = "HERO_02buhp2";
+
+                /// <summary>
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
@@ -353,37 +365,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a random basic Totem.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins11 = "HERO_02bxhp";
+                public const string Thrall_TotemicCallHeroSkins12 = "HERO_02bxhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins11 = "HERO_02bxhp2";
+                public const string Thrall_TotemicSlamHeroSkins12 = "HERO_02bxhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a random basic Totem.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins12 = "HERO_02fbp";
+                public const string Thrall_TotemicCallHeroSkins13 = "HERO_02fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins12 = "HERO_02fbp2";
+                public const string Thrall_TotemicSlamHeroSkins13 = "HERO_02fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a random basic Totem.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins13 = "HERO_02mbp";
+                public const string Thrall_TotemicCallHeroSkins14 = "HERO_02mbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins13 = "HERO_02mbp2";
+                public const string Thrall_TotemicSlamHeroSkins14 = "HERO_02mbp2";
 
                 /// <summary>
                 /// (No Text)<br/>

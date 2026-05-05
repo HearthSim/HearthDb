@@ -731,7 +731,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Choose an action from the Battlegrounds!<br/>
                 /// 6-Cost 4/5 Minion
                 /// </summary>
-                public const string BobTheBartender = "BG31_BOB";
+                public const string BobTheBartenderLegacy = "BG31_BOB";
 
                 /// <summary>
                 /// <b>Magnetic</b> <b>Rush</b><br/>
@@ -1409,6 +1409,12 @@ namespace HearthDb
                 /// 6-Cost 7/6 Elemental Minion
                 /// </summary>
                 public const string PrimordialLord = "CATA_EVENT_000";
+
+                /// <summary>
+                /// <b>Start of Game</b>: Break into 6 Essences. Adjoining Essences are cast together.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string DragonSoulShattered = "CATA_EVENT_110";
 
                 /// <summary>
                 /// Whenever this attacks a minion and survives, draw a card.<br/>
@@ -5757,7 +5763,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Replace your hand with an iconic one from Hearthstone's past. <i>(Once per game)</i><br/>
                 /// 6-Cost 5/5 Minion
                 /// </summary>
-                public const string HarthStonebrew = "GIFT_01";
+                public const string HarthStonebrewLegacy = "GIFT_01";
 
                 /// <summary>
                 /// At the end of your turn, deal 2 damage to all other damaged minions.<br/>
@@ -7186,6 +7192,12 @@ namespace HearthDb
                 /// 10-Cost 10/10 Minion
                 /// </summary>
                 public const string TheJailer = "MAW_034";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a 3-Cost Bulb that casts three random 1-Cost spells. It upgrades each turn.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string CultivatingSprite = "MEND_100";
 
                 /// <summary>
                 /// <b>Miniaturize</b>, <b>Gigantify</b> After you play a minion with the same Attack as this, summon a copy of it.<br/>
@@ -11739,7 +11751,7 @@ namespace HearthDb
                 /// Choose Alliance or Horde. Get 2 of their <b>Legendary</b> Champions and reduce their Costs by (2).<br/>
                 /// 4-Cost Spell
                 /// </summary>
-                public const string ChampionsOfAzeroth = "WON_113";
+                public const string ChampionsOfAzerothLegacy = "WON_113";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Summon a{1} {0} <b>Jade Golem</b>.<b>Battlecry:</b> Summon a <b>Jade Golem</b>.<br/>

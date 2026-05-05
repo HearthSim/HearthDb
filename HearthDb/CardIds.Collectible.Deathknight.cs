@@ -485,7 +485,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Dark Transformation, Howling Blast, or Death Strike.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string ArthassGift = "GIFT_04";
+                public const string ArthassGiftLegacy = "GIFT_04";
 
                 /// <summary>
                 /// (No Text)<br/>

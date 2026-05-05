@@ -395,13 +395,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins16 = "HERO_08dbp";
+                public const string JainaProudmoore_FireblastHeroSkins16 = "HERO_08chhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins16 = "HERO_08dbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins16 = "HERO_08chhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins17 = "HERO_08dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins17 = "HERO_08dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -419,13 +431,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins17 = "HERO_08fbp";
+                public const string JainaProudmoore_FireblastHeroSkins18 = "HERO_08fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins17 = "HERO_08fbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins18 = "HERO_08fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
@@ -437,13 +449,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins18 = "HERO_08lbp";
+                public const string JainaProudmoore_FireblastHeroSkins19 = "HERO_08lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins18 = "HERO_08lbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins19 = "HERO_08lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -461,7 +473,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins19 = "HERO_08xbp";
+                public const string JainaProudmoore_FireblastHeroSkins20 = "HERO_08xbp";
 
                 /// <summary>
                 /// Deal $3 damage randomly split among all enemies.<br/>
@@ -4793,6 +4805,42 @@ namespace HearthDb
                 /// 4-Cost Spell
                 /// </summary>
                 public const string ArcaneFlow_ArcaneFlowToken2 = "CATA_489t2";
+
+                /// <summary>
+                /// Cost Reduced.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LeyWalker_UnblockLeylineToken = "MEND_501t2e";
+
+                /// <summary>
+                /// Effects Increased.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LeyWalker_EmpowerLeylineToken = "MEND_501t3e";
+
+                /// <summary>
+                /// Cost reduced.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LeylineNexus_NexusPowerEnchantment = "MEND_504e";
+
+                /// <summary>
+                /// Your Leylines trigger an additional time this game.<br/>
+                /// Spell
+                /// </summary>
+                public const string TheArcanomicon_EnergizeToken = "MEND_505t";
+
+                /// <summary>
+                /// Your Leylines cost (2) less this game.<br/>
+                /// Spell
+                /// </summary>
+                public const string TheArcanomicon_UnblockToken = "MEND_505t2";
+
+                /// <summary>
+                /// Increase the effects of your Leylines by 2 this game.<br/>
+                /// Spell
+                /// </summary>
+                public const string TheArcanomicon_EmpowerToken = "MEND_505t3";
             }
         }
     }

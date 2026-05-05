@@ -1397,7 +1397,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Lightning Storm, Hex, or Bloodlust.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string ThrallsGift = "GIFT_06";
+                public const string ThrallsGiftLegacy = "GIFT_06";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Deal 3 damage to all minions.<br/>
@@ -1745,6 +1745,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Thrall_EarthenRingAkamaHeroHeroSkins = "HERO_02bm";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Thrall_TavernRastakhanHeroHeroSkins = "HERO_02bn";
 
                 /// <summary>
@@ -1764,6 +1770,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Thrall_DragonscarredThrallHeroHeroSkins = "HERO_02br";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Thrall_AlakirHeroHeroSkins = "HERO_02bu";
 
                 /// <summary>
                 /// (No Text)<br/>

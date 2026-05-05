@@ -4540,6 +4540,36 @@ namespace HearthDb
                 /// 3-Cost 4/2 Dragon Minion
                 /// </summary>
                 public const string FlightManeuvers_SkyDrakeToken = "CATA_479t3";
+
+                /// <summary>
+                /// For the rest of the game, your Silver Hand Recruits have +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BrashBattlemaster_RecruitsMightEnchantment = "MEND_800e";
+
+                /// <summary>
+                /// For the rest of the game, your Silver Hand Recruits have +1 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ResilientSavior_RecruitsResilienceEnchantment = "MEND_801e";
+
+                /// <summary>
+                /// For the rest of the game, your Silver Hand Recruits have +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EmboldeningBlade_EmboldenedEnchantment1 = "MEND_803e";
+
+                /// <summary>
+                /// +1/+1<br/>
+                /// Enchantment
+                /// </summary>
+                public const string EmboldeningBlade_EmboldenedEnchantment2 = "MEND_803e2";
+
+                /// <summary>
+                /// Stats Doubled and <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AratortheRedeemer_TrueStrengthEnchantment = "MEND_804e";
             }
         }
     }

@@ -4315,7 +4315,7 @@ namespace HearthDb
                 public const string Eventuality_DimensionallyShiftedEnchantment = "END_000e";
 
                 /// <summary>
-                /// <b>Rewind</b> Get a random minion from another class. It costs (1) less.<br/>
+                /// <b>Rewind</b> Get a random minion from another class. It costs (<b>1</b>) less.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
                 public const string Eventuality_BlessingOfTheBronze = "END_000p";

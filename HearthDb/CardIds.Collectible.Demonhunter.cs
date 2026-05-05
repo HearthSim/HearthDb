@@ -1097,7 +1097,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Fel Barrage, Chaos Strike, or Chaos Nova.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string IllidansGift = "GIFT_08";
+                public const string IllidansGiftLegacy = "GIFT_08";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1326,6 +1326,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string IllidanStormrage_GunglaiveKurtrusHeroHeroSkins = "HERO_10bm";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string IllidanStormrage_VictoriousKaileneHeroHeroSkins = "HERO_10bn";
 
                 /// <summary>
                 /// (No Text)<br/>

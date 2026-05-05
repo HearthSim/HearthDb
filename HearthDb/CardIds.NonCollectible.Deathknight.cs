@@ -2192,7 +2192,7 @@ namespace HearthDb
                 public const string ReluctantWrangler_ReanimatedOssodonToken = "TLC_443t";
 
                 /// <summary>
-                /// <b>Passive</b> The first Undead you play each turn gains +1 Attack.<br/>
+                /// <b>Passive</b> The first Undead you play each turn gains +<b>1</b> Attack.<br/>
                 /// HeroPower
                 /// </summary>
                 public const string Finality_BlessingOfTheInfinite = "END_003p";

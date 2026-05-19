@@ -1148,7 +1148,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> If you're holding a Dragon, <b>Discover</b> a Dragon with a <b>Dark Gift</b>.<br/>
-                /// 1-Cost 2/1 Demon Minion
+                /// 1-Cost 1/1 Demon Minion
                 /// </summary>
                 public const string Darkrider = "EDR_456";
 

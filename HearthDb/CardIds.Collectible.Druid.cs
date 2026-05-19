@@ -357,7 +357,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Give a friendly minion +1/+1 for each minion you control.<br/>
-                /// 2-Cost Spell
+                /// 3-Cost Spell
                 /// </summary>
                 public const string ForestsGift = "CATA_138";
 

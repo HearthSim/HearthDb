@@ -2186,14 +2186,14 @@ namespace HearthDb
                 public const string LeyWalker = "MEND_501";
 
                 /// <summary>
-                /// Summon a random {0}-Cost minion.6Summon a random {0}-Cost minion, {1} times.<br/>
-                /// 6-Cost Spell
+                /// Summon a random {0}-Cost minion.5Summon a random {0}-Cost minion, {1} times.<br/>
+                /// 5-Cost Spell
                 /// </summary>
                 public const string CrystallizedLeyline = "MEND_502";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Your Leylines trigger an additional time this game.<br/>
-                /// 4-Cost 3/3 Minion
+                /// 4-Cost 3/5 Minion
                 /// </summary>
                 public const string SurgeNeedle = "MEND_503";
 
@@ -2205,7 +2205,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Get all 3 Leylines. Choose an upgrade for your Leylines.<br/>
-                /// 7-Cost Spell
+                /// 6-Cost Spell
                 /// </summary>
                 public const string TheArcanomicon = "MEND_505";
 

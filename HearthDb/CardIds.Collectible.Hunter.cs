@@ -2121,7 +2121,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt. Battlecry:</b> Replace your future Animal Companions with random Beasts that cost (1) more.<br/>
-                /// 3-Cost 3/4 Beast Minion
+                /// 2-Cost 2/3 Beast Minion
                 /// </summary>
                 public const string MigratingElekk = "MEND_303";
 

@@ -1886,7 +1886,7 @@ namespace HearthDb
                 public const string TimewayWarden = "TIME_442";
 
                 /// <summary>
-                /// Summon two 3/3 Demons. If your deck has no minions, they attack the lowest Health enemy.<br/>
+                /// Summon two 3/2 Demons. If your deck has no minions, they attack the lowest Health enemy.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string HoundsOfFury = "TIME_443";

@@ -2715,13 +2715,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// (No Text)<br/>
-                /// 3-Cost 3/3 Demon Minion
+                /// 3-Cost 3/2 Demon Minion
                 /// </summary>
                 public const string HoundsofFury_SargeranFelhoundToken1 = "TIME_443t";
 
                 /// <summary>
                 /// (No Text)<br/>
-                /// 3-Cost 3/3 Demon Minion
+                /// 3-Cost 3/2 Demon Minion
                 /// </summary>
                 public const string HoundsofFury_SargeranFelhoundToken2 = "TIME_443t2";
 

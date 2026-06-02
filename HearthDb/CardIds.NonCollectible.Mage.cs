@@ -731,7 +731,7 @@ namespace HearthDb
                 /// Deal $3 damage split randomly among all enemy minions <i>(improves for each spell you've cast this game)</i>.<br/>
                 /// 3-Cost Spell
                 /// </summary>
-                public const string TheGatlingWandTavernBrawl = "PVPDR_Reno_T6";
+                public const string TheGatlingWandTavernBrawl1 = "PVPDR_Reno_T6";
 
                 /// <summary>
                 /// Deal $1 damage. If this kills a minion, summon a 1/3 Mana Wyrm.<br/>
@@ -1002,6 +1002,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string SireDenathriusTavernBrawl3 = "TB_MAW_SireDenathrius_M";
+
+                /// <summary>
+                /// Deal $3 damage split randomly among all enemies <i>(improves for each spell you've cast this game)</i>.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string TheGatlingWandTavernBrawlTavernBrawl = "TB_MSD_100";
 
                 /// <summary>
                 /// There's a new librarian in town, and she won't stand for tardiness.<br/>

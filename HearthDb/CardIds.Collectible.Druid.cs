@@ -374,6 +374,12 @@ namespace HearthDb
                 public const string MerithraOfTheDream = "CATA_140";
 
                 /// <summary>
+                /// <b>Prepare</b> <b>Battlecry:</b> Spend all your Mana. Summon a random minion of that Cost.<br/>
+                /// 3-Cost 4/3 Undead Minion
+                /// </summary>
+                public const string CommissaryCrook = "CATA_EVENT_400";
+
+                /// <summary>
                 /// <b>Choose One -</b> Gain 10 Armor; or Refresh your Mana Crystals.<br/>
                 /// 10-Cost 7/7 Undead Minion
                 /// </summary>
@@ -1433,7 +1439,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Feral Rage, Wild Growth, or Swipe.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string MalfurionsGift = "GIFT_10";
+                public const string MalfurionsGiftLegacy = "GIFT_10";
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> If your deck has only odd-Cost cards, gain +2/+2.<br/>

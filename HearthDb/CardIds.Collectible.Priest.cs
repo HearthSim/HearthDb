@@ -1487,7 +1487,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Power Word: Shield, Shadow Word: Pain, or Mind Control.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string AnduinsGift = "GIFT_12";
+                public const string AnduinsGiftLegacy = "GIFT_12";
 
                 /// <summary>
                 /// Deal $4 damage to a minion. If it dies, add a copy of it to your hand.<br/>
@@ -1824,6 +1824,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string AnduinWrynn_TwilightCultistWhitemaneHeroHeroSkins = "HERO_09bm";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_GhuunHeroHeroSkins = "HERO_09bn";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2666,7 +2672,7 @@ namespace HearthDb
                 public const string Resuscitate = "TLC_818";
 
                 /// <summary>
-                /// <b>Lifesteal</b> Costs (1) if you've played a Holy and Shadow spell this turn.<br/>
+                /// <b>Lifesteal</b> Costs (1) if you've cast a Holy and Shadow spell this turn.<br/>
                 /// 6-Cost 4/7 Naga Minion
                 /// </summary>
                 public const string GladesongSiren = "TLC_819";

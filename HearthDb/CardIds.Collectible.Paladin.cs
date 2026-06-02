@@ -1786,7 +1786,25 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string UtherLightbringer_HighCommanderBeatrixHeroHeroSkins = "HERO_04bq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string UtherLightbringer_DetectiveTuralyonHeroHeroSkins = "HERO_04br";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer_FinleyMetzenHeroHeroSkins = "HERO_04bs";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string UtherLightbringer_CorruptedLeeroyHeroHeroSkins = "HERO_04bx";
 
                 /// <summary>
                 /// (No Text)<br/>

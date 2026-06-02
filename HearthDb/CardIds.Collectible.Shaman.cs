@@ -1781,6 +1781,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Thrall_VashjFataleHeroHeroSkins = "HERO_02bv";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Thrall_EternalflameRagnarosHeroHeroSkins = "HERO_02bw";
 
                 /// <summary>

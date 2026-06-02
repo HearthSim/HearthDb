@@ -400,6 +400,30 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string UtherLightbringer_ReinforceHeroSkins10 = "HERO_04bqhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string UtherLightbringer_TheSilverHandHeroSkins10 = "HERO_04bqhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string UtherLightbringer_ReinforceHeroSkins11 = "HERO_04bxhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string UtherLightbringer_TheSilverHandHeroSkins11 = "HERO_04bxhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string UtherLightbringer_ReinforceHeroSkinsEnchantment2 = "HERO_04ebp";
 
                 /// <summary>
@@ -412,13 +436,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins10 = "HERO_04fbp";
+                public const string UtherLightbringer_ReinforceHeroSkins12 = "HERO_04fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins10 = "HERO_04fbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins12 = "HERO_04fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
@@ -430,37 +454,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins11 = "HERO_04lbp";
+                public const string UtherLightbringer_ReinforceHeroSkins13 = "HERO_04lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins11 = "HERO_04lbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins13 = "HERO_04lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins12 = "HERO_04ubp";
+                public const string UtherLightbringer_ReinforceHeroSkins14 = "HERO_04ubp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins12 = "HERO_04ubp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins14 = "HERO_04ubp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins13 = "HERO_04wbp";
+                public const string UtherLightbringer_ReinforceHeroSkins15 = "HERO_04wbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins13 = "HERO_04wbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins15 = "HERO_04wbp2";
 
                 /// <summary>
                 /// Change the Health of ALL minions to 1.<br/>

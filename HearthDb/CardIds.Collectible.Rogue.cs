@@ -374,6 +374,12 @@ namespace HearthDb
                 public const string ChaosSupplicant = "CATA_786";
 
                 /// <summary>
+                /// Destroy a minion and give your opponent a Coin. <b>Combo:</b> You get one too.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string DeadlyBribe = "CATA_EVENT_402";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If your weapon has at least 3 Attack, gain +4/+4.<br/>
                 /// 6-Cost 5/5 Pirate Minion
                 /// </summary>
@@ -1752,6 +1758,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ValeeraSanguinar_MathiasShawHeroHeroSkins = "HERO_03bm";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinar_DalaranWardenMaievHeroHeroSkins = "HERO_03bn";
 
                 /// <summary>
                 /// (No Text)<br/>

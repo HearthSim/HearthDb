@@ -1417,6 +1417,12 @@ namespace HearthDb
                 public const string DragonSoulShattered = "CATA_EVENT_110";
 
                 /// <summary>
+                /// <b>Prepare</b> <b>Spell Damage +1</b><br/>
+                /// 3-Cost 2/3 Minion
+                /// </summary>
+                public const string TunnelingGeomancer = "CATA_EVENT_401";
+
+                /// <summary>
                 /// Whenever this attacks a minion and survives, draw a card.<br/>
                 /// 6-Cost 5/5 Mechanical Minion
                 /// </summary>
@@ -6610,6 +6616,12 @@ namespace HearthDb
                 /// 2-Cost 1/1 Undead Minion
                 /// </summary>
                 public const string TaintedZealot = "ICC_913";
+
+                /// <summary>
+                /// <b>Prepare</b> After you play a card, get a random <b>Battlecry</b> minion. It costs (2) less.<br/>
+                /// 6-Cost 4/4 Minion
+                /// </summary>
+                public const string VanessaTheRingleader = "JAIL_407";
 
                 /// <summary>
                 /// <b>Rush</b> Gains an extra effect in your hand that changes each turn.<br/>

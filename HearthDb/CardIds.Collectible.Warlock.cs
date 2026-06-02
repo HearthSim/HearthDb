@@ -1439,7 +1439,7 @@ namespace HearthDb
                 /// <b>Discover</b> a <b>Temporary</b> Mortal Coil, Siphon Soul, or Twisting Nether.<br/>
                 /// 1-Cost Spell
                 /// </summary>
-                public const string GuldansGift = "GIFT_11";
+                public const string GuldansGiftLegacy = "GIFT_11";
 
                 /// <summary>
                 /// Summon four 1/1 Imps.<br/>
@@ -1811,6 +1811,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Guldan_TwilightGodChogallHeroHeroSkins = "HERO_07bs";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Guldan_MurozondTheInevitableHeroHeroSkins = "HERO_07bt";
 
                 /// <summary>
@@ -2004,6 +2010,12 @@ namespace HearthDb
                 /// 1-Cost 1/1 Undead Minion
                 /// </summary>
                 public const string SanguineReveler = "ICC_903";
+
+                /// <summary>
+                /// <b>Prepare</b>. <b>Deathrattle:</b> Summon a random Demon from your deck. Give it "<b>Deathrattle:</b> Summon Moragg."<br/>
+                /// 10-Cost 6/5 Demon Minion
+                /// </summary>
+                public const string Moragg = "JAIL_906";
 
                 /// <summary>
                 /// <b>Taunt</b>, <b>Lifesteal</b> This card's Cost is equal to the amount of cards in your deck.<br/>

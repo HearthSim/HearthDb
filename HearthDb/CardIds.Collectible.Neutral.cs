@@ -1315,7 +1315,7 @@ namespace HearthDb
                 public const string BattlefieldBlaster = "CATA_209";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a 2/2 Whelp. <i>(Gains +1/+1 at the start of your turns!) </i><br/>
+                /// <b>Deathrattle:</b> Summon a {0}/{1} Whelp. <i>(Gains +1/+1 at the start of your turns!) </i><br/>
                 /// 1-Cost 0/2 Minion
                 /// </summary>
                 public const string TwilightEgg = "CATA_210";

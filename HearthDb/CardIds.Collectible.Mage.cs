@@ -2192,7 +2192,7 @@ namespace HearthDb
                 public const string LeyWalker = "MEND_501";
 
                 /// <summary>
-                /// Summon a random {0}-Cost minion.5Summon a random {0}-Cost minion, {1} times.<br/>
+                /// Summon a random {0}-Cost minion.6Summon a random {0}-Cost minion, {1} times.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string CrystallizedLeyline = "MEND_502";

@@ -363,7 +363,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Replay each 1-Cost card you've played this game <i>(targeting enemies if possible.)</i><br/>
-                /// 3-Cost Spell
+                /// 4-Cost Spell
                 /// </summary>
                 public const string ConfrontTheTolvir = "CATA_560";
 

@@ -2726,7 +2726,7 @@ namespace HearthDb
                 public const string HoundsofFury_SargeranFelhoundToken2 = "TIME_443t2";
 
                 /// <summary>
-                /// Your next minion costs (0).<br/>
+                /// Your next minion costs (1).<br/>
                 /// Enchantment
                 /// </summary>
                 public const string TheEternalHold_JailbreakEnchantment = "TIME_446e";

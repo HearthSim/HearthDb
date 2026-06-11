@@ -2648,7 +2648,7 @@ namespace HearthDb
                 public const string RavenousFlock = "TLC_232";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Give your other minions with 2 or less Attack +1/+2 and <b>Taunt</b>.<br/>
+                /// <b>Battlecry:</b> Give your other minions with 2 or less Attack +1/+1 and <b>Taunt</b>.<br/>
                 /// 3-Cost 2/3 Minion
                 /// </summary>
                 public const string HatcheryHelper = "TLC_233";

@@ -5660,7 +5660,7 @@ namespace HearthDb
                 public const string RavenousFlock_RavenousFlockPlayerEnchantEnchantment = "TLC_232e";
 
                 /// <summary>
-                /// +1/+2 and <b>Taunt</b>.<br/>
+                /// +1/+1 and <b>Taunt</b>.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string HatcheryHelper_IncubateEnchantment = "TLC_233e";

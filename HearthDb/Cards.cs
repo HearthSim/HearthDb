@@ -204,11 +204,14 @@ namespace HearthDb
 			{
 				if (!All.TryGetValue(entity.CardId, out var curr))
 					continue;
+				// build a new list and swap it in once complete to avoid structurally modifying
+				// the published list while another thread enumerates it (this may be called in a thread)
+				var tags = new List<Tag>(curr.Entity.Tags);
 				foreach (var tag in entity.Tags)
 				{
-					var currTag = curr.Entity.Tags.FirstOrDefault(x => x.EnumId == tag.EnumId);
+					var currTag = tags.FirstOrDefault(x => x.EnumId == tag.EnumId);
 					if (currTag == null)
-						curr.Entity.Tags.Add(tag);
+						tags.Add(tag);
 					else
 					{
 						switch (locale)
@@ -258,6 +261,7 @@ namespace HearthDb
 						}
 					}
 				}
+				curr.Entity.Tags = tags;
 			}
 		}
 

@@ -1847,6 +1847,24 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string AnduinWrynn_InfoBrokerLazulHeroHeroSkins = "HERO_09bu";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_UnfetteredAzalinaHeroHeroSkins = "HERO_09bv";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_MaievHandOfVengeanceHeroHeroSkins = "HERO_09bw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
 
                 /// <summary>
@@ -2034,6 +2052,66 @@ namespace HearthDb
                 /// 6-Cost Spell
                 /// </summary>
                 public const string EmbraceDarkness = "ICC_849";
+
+                /// <summary>
+                /// Your deck is 20 cards, plus 20 copied from your enemy. <b>Battlecry:</b> Draw until your hand is full.<br/>
+                /// 7-Cost 7/7 Undead Minion
+                /// </summary>
+                public const string AzalinaSoulsever = "JAIL_430";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you played a copy of an opponent's card while holding this, deal 2 damage to all enemy minions.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string MindSweeper = "JAIL_432";
+
+                /// <summary>
+                /// Destroy a minion. If you played a copy of an opponent's card while holding this, this costs (1).<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string UnshackleSoul = "JAIL_433";
+
+                /// <summary>
+                /// <b><b>Deathrattle:</b> </b>Reduce the Cost of cards in your hand that were copied from your opponent by (1).<br/>
+                /// 3-Cost 4/3 Undead Minion
+                /// </summary>
+                public const string EnthralledShade = "JAIL_434";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get three 1/1 copies of random <b>Legendary</b> minions. They cost (1).<br/>
+                /// 6-Cost 6/6 Minion
+                /// </summary>
+                public const string KarovTheBroken = "JAIL_448";
+
+                /// <summary>
+                /// <b>Prepare</b>, <b><b>Taunt</b>.</b> <b>Deathrattle:</b> Restore 6 Health your hero. Summon a random 6-Cost minion.<br/>
+                /// 7-Cost 6/6 Minion
+                /// </summary>
+                public const string Soothsayer = "JAIL_912";
+
+                /// <summary>
+                /// <b>Prepare</b> Give a minion +5/+5 and <b>Lifesteal</b>.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string HoldThemOff = "JAIL_913";
+
+                /// <summary>
+                /// Trigger the <b>Deathrattle</b> of a random friendly minion that died this game.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string UndeathSentence = "JAIL_940";
+
+                /// <summary>
+                /// Restore #4 Health. Get a 'Dark Embrace' that deals 4 damage.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string HolyEmbrace = "JAIL_941";
+
+                /// <summary>
+                /// <b>Taunt</b> Can't attack.<br/>
+                /// 2-Cost 2/6 Undead/Draenei Minion
+                /// </summary>
+                public const string SpecterOfDespair = "JAIL_942";
 
                 /// <summary>
                 /// <b>Silence</b> a minion. <b>Combo:</b> Also deal $2 damage to it.<br/>

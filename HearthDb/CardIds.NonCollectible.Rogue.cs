@@ -316,25 +316,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins13 = "HERO_03dbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins13 = "HERO_03bshp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins13 = "HERO_03bshp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins14 = "HERO_03dbp_Copy";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins14 = "HERO_03byhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins13 = "HERO_03dbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins14 = "HERO_03byhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins15 = "HERO_03dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins16 = "HERO_03dbp_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins14 = "HERO_03dbp2_Copy";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins15 = "HERO_03dbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins16 = "HERO_03dbp2_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
@@ -352,37 +376,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins15 = "HERO_03mbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins17 = "HERO_03mbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins15 = "HERO_03mbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins17 = "HERO_03mbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins16 = "HERO_03rbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins18 = "HERO_03rbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins16 = "HERO_03rbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins18 = "HERO_03rbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 1/2 Dagger.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_DaggerMasteryHeroSkins17 = "HERO_03sbp";
+                public const string ValeeraSanguinar_DaggerMasteryHeroSkins19 = "HERO_03sbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Equip a 2/2 Weapon.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins17 = "HERO_03sbp2";
+                public const string ValeeraSanguinar_PoisonedDaggersHeroSkins19 = "HERO_03sbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -4385,6 +4409,36 @@ namespace HearthDb
                 /// 1-Cost 1/1 Dragon Minion
                 /// </summary>
                 public const string ManiacalFollower_SoldierOfSinestraToken = "CATA_158t";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only. Summon a{1} {0} <b>Jade Golem</b>.Gain 1 Mana Crystal this turn only. Summon a <b>Jade Golem</b>.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string AyaLotusKingpin_JadeCoinToken = "JAIL_504t";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only. Deal $2 damage to a random enemy minion.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string AyaLotusKingpin_GrimyCoinToken = "JAIL_504t2";
+
+                /// <summary>
+                /// Gain 1 Mana Crystal this turn only. Get a random 1-Cost Kazakus Potion.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string AyaLotusKingpin_KabalCoinToken = "JAIL_504t3";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string JadeImprovementsEnchantment = "JAIL_700e";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DefiasWannabe_GimmeAChanceEnchantment = "JAIL_909e";
             }
         }
     }

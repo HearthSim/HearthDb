@@ -1787,6 +1787,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Rexxar_WuxiaSylvanasHeroHeroSkins = "HERO_05bt";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_PrisonBreakMuklaHeroHeroSkins = "HERO_05bu";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_SylvanasWindrunnerHeroHeroSkins = "HERO_05c";
 
                 /// <summary>
@@ -1968,6 +1980,66 @@ namespace HearthDb
                 /// 6-Cost Hero
                 /// </summary>
                 public const string DeathstalkerRexxar = "ICC_828";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Draw a spell that didn't start in your deck.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
+                public const string SmuggledShovel = "JAIL_380";
+
+                /// <summary>
+                /// <b>Prepare</b> <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle.</b><br/>
+                /// 5-Cost 5/4 Beast Minion
+                /// </summary>
+                public const string SewerSwimmer = "JAIL_395";
+
+                /// <summary>
+                /// While building your deck, pick 3 contraband Beasts. <b><b>Battlecry:</b> Discover</b> one. It costs (3) less.<br/>
+                /// 6-Cost 6/5 Beast Minion
+                /// </summary>
+                public const string KingOfTheUnderbelly = "JAIL_831";
+
+                /// <summary>
+                /// Give a friendly minion "<b>Deathrattle:</b> Summon two random 4-Cost minions."<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string DigForFreedom = "JAIL_876";
+
+                /// <summary>
+                /// Summon a 2/1 Rat with "<b>Deathrattle:</b> Draw a card."<br/>
+                /// 2-Cost Location
+                /// </summary>
+                public const string UnderbellyNetwork = "JAIL_877";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a random 1-Cost <b>Deathrattle</b> minion.<br/>
+                /// 2-Cost 3/1 Beast Minion
+                /// </summary>
+                public const string GuardDog = "JAIL_878";
+
+                /// <summary>
+                /// Summon a random 5-Cost Beast. Shuffle 2 spells into your deck that do it again when drawn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string BeastTripwire = "JAIL_879";
+
+                /// <summary>
+                /// Whenever you play a <b>Deathrattle</b> minion, give it <b>Rush</b>.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
+                public const string BlackMarketOverseer = "JAIL_880";
+
+                /// <summary>
+                /// Deal $5 damage split among all enemies. Shuffle 2 spells into your deck that do it again when drawn.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ArcaneTripwire = "JAIL_881";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Copy all spells in your deck. <b>Deathrattle:</b> Draw one.<br/>
+                /// 3-Cost 4/2 Mechanical Minion
+                /// </summary>
+                public const string R4tC4tch3r = "JAIL_882";
 
                 /// <summary>
                 /// <b>Secret:</b> When your opponent ends their turn with no Mana, summon a random 3-Cost minion.<br/>

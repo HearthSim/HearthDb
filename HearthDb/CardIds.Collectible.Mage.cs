@@ -1847,6 +1847,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string JainaProudmoore_MillhouseManastormHeroHeroSkins = "HERO_08ck";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_DalaranAegwynnHeroHeroSkins = "HERO_08cl";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string JainaProudmoore_MurozondAFKayHeroHeroSkins = "HERO_08ct";
 
                 /// <summary>
@@ -2040,6 +2052,66 @@ namespace HearthDb
                 /// 8-Cost 8/8 Dragon/Undead Minion
                 /// </summary>
                 public const string Sindragosa = "ICC_838";
+
+                /// <summary>
+                /// <b>Battlecry:</b> After you cast a spell this game, summon a random minion of the same Cost.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
+                public const string JailhouseManastorm = "JAIL_122";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a spell that costs (5) or more. It casts twice when played.<br/>
+                /// 5-Cost 4/5 Minion
+                /// </summary>
+                public const string BreakoutArchitect = "JAIL_123";
+
+                /// <summary>
+                /// <b>Freeze</b> an enemy. Get a random Frost spell.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string ColdSnap = "JAIL_125";
+
+                /// <summary>
+                /// Get 3 Arcane Missiles.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string ContrabandWands = "JAIL_312";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose a card in your hand. Transform it into a spell that costs (5) more <i>(keeps its original Cost).</i><br/>
+                /// 5-Cost 3/3 Minion
+                /// </summary>
+                public const string BootlegAlchemist = "JAIL_313";
+
+                /// <summary>
+                /// <b>Secret:</b> When an enemy minion attacks, transform it into a 1/1 Sheep.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string MysticMisdirection = "JAIL_315";
+
+                /// <summary>
+                /// <b>Discover</b> a spell, or refresh your options <i>(20% chance to take 5 damage each refresh!)</i><br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string TheSkeletonKey = "JAIL_319";
+
+                /// <summary>
+                /// <b>Prepare</b> <b>Battlecry:</b> If you've cast a spell this turn, cast a random Mage <b>Secret</b>.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string TricksyImproviser = "JAIL_321";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Reveal a spell in your deck. If it costs (5) or more, deal 5 damage split among enemy minions.<br/>
+                /// 3-Cost 3/4 Elemental Minion
+                /// </summary>
+                public const string SpireSecurity = "JAIL_379";
+
+                /// <summary>
+                /// <b>Prepare.</b> Summon an 8-Cost minion. If you've cast 3 other spells this turn, do it again. <i>({0} left!)</i> <i>(Ready!)</i><br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string CodeViolet = "JAIL_735";
 
                 /// <summary>
                 /// Gains an extra effect in your hand that changes each turn.<br/>

@@ -1799,7 +1799,19 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Thrall_WuxiaFireheartHeroHeroSkins = "HERO_02bz";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Thrall_TheThunderKingHeroHeroSkins = "HERO_02c";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Thrall_JailbirdInzahHeroHeroSkins = "HERO_02ca";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1986,6 +1998,66 @@ namespace HearthDb
                 /// 5-Cost Hero
                 /// </summary>
                 public const string ThrallDeathseer = "ICC_481";
+
+                /// <summary>
+                /// Can be played on either side. <b>Overload</b> that player for (2).<br/>
+                /// 1-Cost 4/3 Minion
+                /// </summary>
+                public const string DisguisedDetective = "JAIL_452";
+
+                /// <summary>
+                /// <b>Prepare</b> <b>Battlecry:</b> Give your other minions +1/+1.<br/>
+                /// 4-Cost 3/3 Mechanical/Elemental Minion
+                /// </summary>
+                public const string HijackedSecuritybot = "JAIL_457";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose your elemental ammunition! <i>(After your hero attacks, choose another).</i><br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string TinyPal = "JAIL_458";
+
+                /// <summary>
+                /// <b>Start of Game:</b> If your deck has no other minions, get Mug's Hero Power. If it has no spells, get Zee's!<br/>
+                /// 6-Cost 6/7 Minion
+                /// </summary>
+                public const string Mugzee = "JAIL_800";
+
+                /// <summary>
+                /// Deal $4 damage. <i>(Cast 3 spells to turn into a minion!)</i><br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string MoltenGold = "JAIL_801";
+
+                /// <summary>
+                /// After you play a <b>Battlecry</b> minion, give it +1/+1.<br/>
+                /// 1-Cost 1/3 Elemental Minion
+                /// </summary>
+                public const string GallagioGoon = "JAIL_802";
+
+                /// <summary>
+                /// <b>Freeze</b> an enemy. Draw 2 cards. <i>(Cast 3 spells to turn into a minion!)</i><br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string Frostshatter = "JAIL_803";
+
+                /// <summary>
+                /// <b>Lifesteal</b>. Deal 2 damage to all enemy minions. <i>(Cast 3 spells to turn into a minion!)</i><br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string Stormfury = "JAIL_805";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a random spell that costs (5) or more. If your deck started with no spells, it costs (5) less.<br/>
+                /// 6-Cost 6/6 Minion
+                /// </summary>
+                public const string Hexmarshal = "JAIL_806";
+
+                /// <summary>
+                /// Get a random Shaman minion. It's locked in your hand until you play another card.<br/>
+                /// 1-Cost Location
+                /// </summary>
+                public const string LowSecurityWing = "JAIL_987";
 
                 /// <summary>
                 /// <b>Windfury</b> Whenever your hero attacks a minion, set its stats to 3/3.<br/>

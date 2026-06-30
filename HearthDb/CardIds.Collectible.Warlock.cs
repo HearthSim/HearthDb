@@ -1805,6 +1805,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Guldan_NefariousNemsyHeroHeroSkins = "HERO_07bq";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Guldan_MistressNagmaraHeroHeroSkins = "HERO_07br";
 
                 /// <summary>
@@ -1818,6 +1824,18 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Guldan_MurozondTheInevitableHeroHeroSkins = "HERO_07bt";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Guldan_EscapeeZailHeroHeroSkins = "HERO_07bw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Guldan_GaolbreakerGodfreyHeroHeroSkins = "HERO_07bx";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2012,10 +2030,64 @@ namespace HearthDb
                 public const string SanguineReveler = "ICC_903";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Look at 3 cards in your opponent's hand and secretly choose one. <b>Deathrattle:</b> Discard it.<br/>
+                /// 4-Cost 2/6 Minion
+                /// </summary>
+                public const string AncientAugur = "JAIL_303";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Put a 9/9 Demon with <b>Taunt</b> and <b>Lifesteal</b> on the bottom of your deck.<br/>
+                /// 3-Cost 2/5 Demon Minion
+                /// </summary>
+                public const string ImpGangStooge = "JAIL_399";
+
+                /// <summary>
+                /// <b>Start of Game:</b> Overdrawn cards return to your hand when you have space. They cost (1) less.<br/>
+                /// 4-Cost 5/4 Undead Minion
+                /// </summary>
+                public const string GodfreyTheBetrayer = "JAIL_509";
+
+                /// <summary>
+                /// Destroy all minions. Summon any Demons in the bottom 3 cards of your deck.<br/>
+                /// 9-Cost Spell
+                /// </summary>
+                public const string Annihilation = "JAIL_510";
+
+                /// <summary>
+                /// Summon a Demon with stats equal to your hand size. It attacks a random enemy minion.<br/>
+                /// 5-Cost Location
+                /// </summary>
+                public const string SpireOfSolitude = "JAIL_511";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> Gain +1 Health for each card in your hand.<br/>
+                /// 3-Cost 3/1 Undead Minion
+                /// </summary>
+                public const string CagedCranium = "JAIL_513";
+
+                /// <summary>
+                /// Draw 3 cards. Costs (1) less for each card in your hand.<br/>
+                /// 10-Cost Spell
+                /// </summary>
+                public const string TheUnseenAtlas = "JAIL_514";
+
+                /// <summary>
+                /// Deal $2 damage to an enemy minion. If it dies, cast this on another random enemy minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string ShadowRounds = "JAIL_515";
+
+                /// <summary>
                 /// <b>Prepare</b>. <b>Deathrattle:</b> Summon a random Demon from your deck. Give it "<b>Deathrattle:</b> Summon Moragg."<br/>
                 /// 10-Cost 6/5 Demon Minion
                 /// </summary>
                 public const string Moragg = "JAIL_906";
+
+                /// <summary>
+                /// Make a minion go <b>Dormant</b> for 2 turns. If it’s a friendly Demon, give it +3/+3 instead.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string DemonicConfinement = "JAIL_997";
 
                 /// <summary>
                 /// <b>Taunt</b>, <b>Lifesteal</b> This card's Cost is equal to the amount of cards in your deck.<br/>

@@ -1775,6 +1775,24 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string ValeeraSanguinar_MaievHandOfVengeanceHeroHeroSkins = "HERO_03bs";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinar_MastermindVanessaHeroHeroSkins = "HERO_03bt";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinar_AyaBlackpawHeroHeroSkins = "HERO_03by";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_NightslayerValeeraHeroHeroSkins = "HERO_03d";
 
                 /// <summary>
@@ -1950,6 +1968,66 @@ namespace HearthDb
                 /// 5-Cost 5/5 Undead Minion
                 /// </summary>
                 public const string SpectralPillager = "ICC_910";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. If it dies, shuffle a copy of it into your deck that costs (2).<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Nab = "JAIL_225";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 2 damage to a random enemy. Shoot 1 time! <i>(While holding this, play cards for 2 Mana to shoot more!)</i><br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
+                public const string LotusTroublemaker = "JAIL_470";
+
+                /// <summary>
+                /// Get two random 8-Cost minions. They cost (1) less for each card you played for 2 Mana this game. <i>()</i><br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string JadeGuardians = "JAIL_474";
+
+                /// <summary>
+                /// Replay all other cards played this turn <i>(targeting enemies if possible).</i> End your turn.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string SliceAndDice = "JAIL_500";
+
+                /// <summary>
+                /// All numbers on this card equal your remaining Mana. <b>Battlecry:</b> Deal 1 damage to an enemy minion.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string Picklock = "JAIL_501";
+
+                /// <summary>
+                /// Costs (1) less for each Coin you're holding. <b>Deathrattle:</b> Draw a card.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string BlackpawsWhip = "JAIL_503";
+
+                /// <summary>
+                /// You always go second. <b>Battlecry:</b> Pick an upgraded counterfeit to replace your Coins this game. Get two.<br/>
+                /// 6-Cost 6/3 Minion
+                /// </summary>
+                public const string AyaLotusKingpin = "JAIL_504";
+
+                /// <summary>
+                /// Get two random 4-Cost spells. Reduce their Costs by (2).<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ThiefsTools = "JAIL_706";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get a Coin.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string LotusBookie = "JAIL_720";
+
+                /// <summary>
+                /// <b>Prepare</b> <b>Combo:</b> Gain +1/+1 for each other card played this turn. <i>()</i><br/>
+                /// 4-Cost 2/2 Minion
+                /// </summary>
+                public const string DefiasWannabe = "JAIL_909";
 
                 /// <summary>
                 /// <b>Rush</b> After your hero attacks, return this to your hand and set its Cost to (1).<br/>

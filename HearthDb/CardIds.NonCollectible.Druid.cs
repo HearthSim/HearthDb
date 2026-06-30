@@ -5856,6 +5856,90 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Charity_CharityCaseEnchantment = "MEND_805e";
+
+                /// <summary>
+                /// Give your hero +2 Attack this turn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string SecretIngredient_ALittleOfThis = "JAIL_201a";
+
+                /// <summary>
+                /// +2 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SecretIngredient_ALittleOfThisEnchantment = "JAIL_201ae1";
+
+                /// <summary>
+                /// Get a random Druid card.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string SecretIngredient_ADashOfThat = "JAIL_201b";
+
+                /// <summary>
+                /// +1 Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Spiderling_TinyFangsEnchantment = "JAIL_202e";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 2 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CommanderBeatrix_StraightToJailEnchantment1 = "JAIL_397e3";
+
+                /// <summary>
+                /// +1 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WidowsBite_ThreadsEnchantment = "JAIL_436e";
+
+                /// <summary>
+                /// +2 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WidowsBite_WebsEnchantment = "JAIL_436e2";
+
+                /// <summary>
+                /// +4 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string WidowsBite_FatesEnchantment = "JAIL_436e3";
+
+                /// <summary>
+                /// Give your hero +2 Attack this turn. Gain 2 Armor. Add "Widow's Banquet" to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string WidowsBite_WidowsFeastToken = "JAIL_436t";
+
+                /// <summary>
+                /// Give your hero +4 Attack this turn. Gain 4 Armor.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string WidowsBite_WidowsBanquetToken = "JAIL_436t2";
+
+                /// <summary>
+                /// Set your Mana to 10 after 5 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ChefNethrek_GoodSoupEnchantment = "JAIL_860e";
+
+                /// <summary>
+                /// <b>Choose One</b> combined.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string NoxiousBribe_NoxiousEnchantment = "JAIL_861e";
+
+                /// <summary>
+                /// Reduced Cost.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string StaffofTrickery_TrickeryEnchantment = "JAIL_875e";
+
+                /// <summary>
+                /// +6/+6.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DemonicConfinement_ExerciseEnchantment = "JAIL_997e";
             }
         }
     }

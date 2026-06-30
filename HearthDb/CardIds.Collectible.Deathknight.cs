@@ -254,7 +254,7 @@ namespace HearthDb
                 public const string QuartziteCrusher = "DEEP_016";
 
                 /// <summary>
-                /// Summon two 1/1 Silver Hand Recruits with "<b>Deathrattle:</b> Summon a 1/1 Frail Ghoul".<br/>
+                /// Summon two {0} Silver Hand Recruits with "<b>Deathrattle:</b> Summon a 1/1 Frail Ghoul".<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string MiningCasualties = "DEEP_017";
@@ -635,6 +635,24 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string TheLichKing_ImprisonedLanathelHeroHeroSkins = "HERO_11bc";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKing_PrisonDoctorThalenaHeroHeroSkins = "HERO_11bd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKing_JudgeJailerHeroHeroSkins = "HERO_11bi";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TheLichKing_DarionMograineHeroHeroSkins = "HERO_11c";
 
                 /// <summary>
@@ -774,6 +792,66 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string TheLichKing_BolvarFordragonHeroHeroSkins = "HERO_11z";
+
+                /// <summary>
+                /// After this minion takes damage, summon two 1/1 Frail Ghouls.<br/>
+                /// 4-Cost 2/7 Undead Minion
+                /// </summary>
+                public const string TowerOfGhouls = "JAIL_440";
+
+                /// <summary>
+                /// <b>Lifesteal</b> Deal $3 damage to a minion. Refresh your Hero Power.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string DrinkBlood = "JAIL_441";
+
+                /// <summary>
+                /// Can be played on either side. <b>Deathrattle:</b> Shuffle 4 Blights into your deck that deal 2 damage when drawn.<br/>
+                /// 1-Cost 5/1 Minion
+                /// </summary>
+                public const string DisguisedDoctor = "JAIL_442";
+
+                /// <summary>
+                /// <b>Charge</b>. Instead of damaging heroes, this shuffles that many Blights into their deck that deal 2 damage when drawn.<br/>
+                /// 7-Cost 7/7 Undead Minion
+                /// </summary>
+                public const string TheLivingPlague = "JAIL_443";
+
+                /// <summary>
+                /// <b>Prepare</b>. <b>Battlecry:</b> Destroy all your other minions. Draw a card and refresh a Mana for each one destroyed.<br/>
+                /// 6-Cost 6/4 Minion
+                /// </summary>
+                public const string Sawbones = "JAIL_444";
+
+                /// <summary>
+                /// Deal $3 damage randomly split among enemies. If a friendly minion died this turn, deal $3 more.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string BoneFlurry = "JAIL_445";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a second Hero Power that costs <b>Corpses</b>.<br/>
+                /// 5-Cost 4/5 Undead Minion
+                /// </summary>
+                public const string BloodDoctorThalena = "JAIL_446";
+
+                /// <summary>
+                /// After your hero attacks, summon a 1/1 Frail Ghoul.<br/>
+                /// 2-Cost Weapon
+                /// </summary>
+                public const string CorpseCannon = "JAIL_450";
+
+                /// <summary>
+                /// <b>Discover</b> a 5-Cost minion. Spend 5 <b>Corpses</b> to summon a copy of it.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string BloodClone = "JAIL_451";
+
+                /// <summary>
+                /// Choose an enemy minion. Summon three 3/1 Undead with <b>Lifesteal</b> that attack it.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string EmergencySurgery = "JAIL_454";
 
                 /// <summary>
                 /// <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle</b> twice.<br/>

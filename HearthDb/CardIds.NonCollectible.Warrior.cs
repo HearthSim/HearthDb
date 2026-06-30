@@ -395,25 +395,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins15 = "HERO_01dbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins15 = "HERO_01bwhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins7 = "HERO_01dbp2";
+                public const string GarroshHellscream_TankUpHeroSkins7 = "HERO_01bwhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins16 = "HERO_01fbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins16 = "HERO_01dbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins8 = "HERO_01fbp2";
+                public const string GarroshHellscream_TankUpHeroSkins8 = "HERO_01dbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_ArmorUpHeroSkins17 = "HERO_01fbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d4 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_TankUpHeroSkins9 = "HERO_01fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
@@ -431,37 +443,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins17 = "HERO_01qbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins18 = "HERO_01qbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins9 = "HERO_01qbp2";
+                public const string GarroshHellscream_TankUpHeroSkins10 = "HERO_01qbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins18 = "HERO_01vbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins19 = "HERO_01vbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins10 = "HERO_01vbp2";
+                public const string GarroshHellscream_TankUpHeroSkins11 = "HERO_01vbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins19 = "HERO_01wbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins20 = "HERO_01wbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins11 = "HERO_01wbp2";
+                public const string GarroshHellscream_TankUpHeroSkins12 = "HERO_01wbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -4794,6 +4806,42 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string SearingFissure_FlameboundEnchantment = "CATA_582e";
+
+                /// <summary>
+                /// +1/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BallandChain_MakeshiftWeaponEnchantment = "JAIL_376e";
+
+                /// <summary>
+                /// <b>Casts When Drawn</b> Gain 2 Armor.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string ScrambleforGear_FoundGearToken = "JAIL_386t";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ReleasetheBeasts_ReleasedEnchantment = "JAIL_387e";
+
+                /// <summary>
+                /// +2/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ReleasetheBeasts_LegendaryPrisonerEnchantment = "JAIL_387e2";
+
+                /// <summary>
+                /// This was played on the friendly side.<br/>
+                /// Spell
+                /// </summary>
+                public const string DisguisedWatchman_Detected = "JAIL_455a";
+
+                /// <summary>
+                /// This was played on the enemy side.<br/>
+                /// Spell
+                /// </summary>
+                public const string DisguisedWatchman_Disguised = "JAIL_455b";
             }
         }
     }

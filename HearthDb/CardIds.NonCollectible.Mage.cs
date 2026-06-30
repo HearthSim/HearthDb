@@ -407,13 +407,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins17 = "HERO_08dbp";
+                public const string JainaProudmoore_FireblastHeroSkins17 = "HERO_08ckhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins17 = "HERO_08dbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins17 = "HERO_08ckhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins18 = "HERO_08dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins18 = "HERO_08dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -431,13 +443,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins18 = "HERO_08fbp";
+                public const string JainaProudmoore_FireblastHeroSkins19 = "HERO_08fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins18 = "HERO_08fbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins19 = "HERO_08fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
@@ -449,13 +461,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins19 = "HERO_08lbp";
+                public const string JainaProudmoore_FireblastHeroSkins20 = "HERO_08lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins19 = "HERO_08lbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins20 = "HERO_08lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -473,7 +485,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins20 = "HERO_08xbp";
+                public const string JainaProudmoore_FireblastHeroSkins21 = "HERO_08xbp";
 
                 /// <summary>
                 /// Deal $3 damage randomly split among all enemies.<br/>
@@ -4847,6 +4859,24 @@ namespace HearthDb
                 /// Spell
                 /// </summary>
                 public const string TheArcanomicon_EmpowerToken = "MEND_505t3";
+
+                /// <summary>
+                /// After you cast a spell, summon a minion of the same Cost.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string JailhouseManastorm_ManastormSummoningEnchantment = "JAIL_122e5";
+
+                /// <summary>
+                /// Transformed and kept Cost.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BootlegAlchemist_BootlegEnchantment = "JAIL_313e";
+
+                /// <summary>
+                /// Transforming into a random spell that costs (2) less. <i>(Transforms after you play a card.)</i><br/>
+                /// Enchantment
+                /// </summary>
+                public const string TheSkeletonKey_SkeletonKeyEnchantment = "JAIL_319e";
             }
         }
     }

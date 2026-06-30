@@ -311,25 +311,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins11 = "HERO_09dbp";
+                public const string AnduinWrynn_LesserHealHeroSkins11 = "HERO_09bvhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #4 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_HealHeroSkins11 = "HERO_09bvhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins12 = "HERO_09dbp_Copy";
+                public const string AnduinWrynn_LesserHealHeroSkins12 = "HERO_09bwhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins11 = "HERO_09dbp2";
+                public const string AnduinWrynn_HealHeroSkins12 = "HERO_09bwhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #2 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_LesserHealHeroSkins13 = "HERO_09dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #2 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_LesserHealHeroSkins14 = "HERO_09dbp_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins12 = "HERO_09dbp2_Copy";
+                public const string AnduinWrynn_HealHeroSkins13 = "HERO_09dbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #4 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_HealHeroSkins14 = "HERO_09dbp2_Copy";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, your Hero Power costs (0) this game.<br/>
@@ -3564,6 +3588,24 @@ namespace HearthDb
                 /// 4-Cost Spell
                 /// </summary>
                 public const string Schism_SchismToken2 = "CATA_306t2";
+
+                /// <summary>
+                /// Copied Hint<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AzalinaSoulsever_SeveredSoulEnchantment = "JAIL_430e1";
+
+                /// <summary>
+                /// Cost and stats set to 1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string KarovtheBroken_UnderHerSpellEnchantment = "JAIL_448e";
+
+                /// <summary>
+                /// Deal $4 damage.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string HolyEmbrace_DarkEmbraceToken = "JAIL_941t";
             }
         }
     }

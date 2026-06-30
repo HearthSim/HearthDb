@@ -128,7 +128,7 @@ namespace HearthDb
                 public const string GallopingSavior = "BAR_550";
 
                 /// <summary>
-                /// At the start of your turn, summon two 1/1 Silver Hand Recruits.<br/>
+                /// At the start of your turn, summon two {0} Silver Hand Recruits.<br/>
                 /// 2-Cost 1/3 Minion
                 /// </summary>
                 public const string SoldiersCaravan = "BAR_871";
@@ -337,7 +337,7 @@ namespace HearthDb
                 public const string NozdormuBronzeAspect = "CATA_473";
 
                 /// <summary>
-                /// At the end of your turn, get a random Holy Spell. Reduce its Cost by (3).<br/>
+                /// At the end of your turn, get a random Holy spell. Reduce its Cost by (3).<br/>
                 /// 4-Cost 3/4 Dragon Minion
                 /// </summary>
                 public const string SpearheartSentry = "CATA_474";
@@ -595,7 +595,7 @@ namespace HearthDb
                 public const string CoghammerCore = "CORE_GVG_059";
 
                 /// <summary>
-                /// Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon.<br/>
+                /// Summon three {0} Silver Hand Recruits. Equip a 1/4 Weapon.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string MusterForBattleCore = "CORE_GVG_061";
@@ -697,7 +697,7 @@ namespace HearthDb
                 public const string RagnarosLightlordCorePlaceholder = "CORE_OG_229";
 
                 /// <summary>
-                /// Summon five 1/1 Silver Hand Recruits.<br/>
+                /// Summon five {0} Silver Hand Recruits.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string StandAgainstDarknessCorePlaceholder = "CORE_OG_273";
@@ -1501,7 +1501,7 @@ namespace HearthDb
                 public const string Quartermaster = "GVG_060";
 
                 /// <summary>
-                /// Summon three 1/1 Silver Hand Recruits. Equip a 1/4 Weapon.<br/>
+                /// Summon three {0} Silver Hand Recruits. Equip a 1/4 Weapon.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string MusterForBattle = "GVG_061";
@@ -1804,6 +1804,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string UtherLightbringer_SirAlarmOHeroHeroSkins = "HERO_04bv";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string UtherLightbringer_RuneboundBeatrixHeroHeroSkins = "HERO_04bw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string UtherLightbringer_CorruptedLeeroyHeroHeroSkins = "HERO_04bx";
 
                 /// <summary>
@@ -1999,13 +2011,73 @@ namespace HearthDb
                 public const string BolvarFireblood = "ICC_858";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Battlecry:</b> If your deck has no Neutral cards, summon two Vigilant Sentries.<br/>
+                /// 3-Cost 2/3 Minion
+                /// </summary>
+                public const string VigilantSentry = "JAIL_035";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy all non-Paladin minions.<br/>
+                /// 9-Cost 5/5 Minion
+                /// </summary>
+                public const string VamaLoomingDeath = "JAIL_118";
+
+                /// <summary>
+                /// <b>Prepare</b> Choose a friendly minion. Set all minions' stats equal to that minion's.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string Judgment = "JAIL_326";
+
+                /// <summary>
+                /// At the end of your turn, summon a minion from your deck that costs (2) or less. Lasts 3 turns.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ReinforcementAura = "JAIL_327";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> If your deck has no Neutral cards, get a random Paladin card. It costs (2) less.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string ScarletBruiser = "JAIL_328";
+
+                /// <summary>
+                /// After your hero attacks, give your Paladin minions +2/+2.<br/>
+                /// 7-Cost Weapon
+                /// </summary>
+                public const string TruthSeeker = "JAIL_329";
+
+                /// <summary>
+                /// <b>Divine Shield</b>, <b>Taunt</b> Whenever this gains stats, gain an extra +1/+1 <i>(wherever this is).</i><br/>
+                /// 4-Cost 3/3 Minion
+                /// </summary>
+                public const string DalaranChampion = "JAIL_330";
+
+                /// <summary>
+                /// Draw a card. If it costs (2) or less, draw another.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string HolyBola = "JAIL_377";
+
+                /// <summary>
+                /// <b>Taunt</b> While building your deck, pick a 2-Cost minion. Ten copies join your deck!<br/>
+                /// 5-Cost 5/6 Minion
+                /// </summary>
+                public const string CommanderBeatrix = "JAIL_397";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon two minions from your deck that cost (2) or less. Give them <b>Rush</b>.<br/>
+                /// 5-Cost 4/4 Minion
+                /// </summary>
+                public const string ScarletRecruiter = "JAIL_516";
+
+                /// <summary>
                 /// Give your minions <b>Rush</b>.<br/>
                 /// 2-Cost Location
                 /// </summary>
                 public const string DanceFloor = "JAM_009";
 
                 /// <summary>
-                /// At the end of your turn, summon a 1/1 Silver Hand Recruit.<br/>
+                /// At the end of your turn, summon a{1} {0} Silver Hand Recruit.<br/>
                 /// 2-Cost 0/4 Totem/Mechanical Minion
                 /// </summary>
                 public const string JukeboxTotem = "JAM_010";
@@ -2143,7 +2215,7 @@ namespace HearthDb
                 public const string ResilientSavior = "MEND_801";
 
                 /// <summary>
-                /// Summon two 1/1 Silver Hand Recruits with <b>Divine Shield</b>.<br/>
+                /// Summon two {0} Silver Hand Recruits with <b>Divine Shield</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string Convalescence = "MEND_802";
@@ -2167,7 +2239,7 @@ namespace HearthDb
                 public const string Charity = "MEND_805";
 
                 /// <summary>
-                /// Summon and get four 1/1 Silver Hand Recruits.<br/>
+                /// Summon and get four {0} Silver Hand Recruits.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string Teamwork = "MEND_900";
@@ -2245,7 +2317,7 @@ namespace HearthDb
                 public const string RagnarosLightlord = "OG_229";
 
                 /// <summary>
-                /// Summon five 1/1 Silver Hand Recruits.<br/>
+                /// Summon five {0} Silver Hand Recruits.<br/>
                 /// 4-Cost Spell
                 /// </summary>
                 public const string StandAgainstDarkness = "OG_273";
@@ -2839,7 +2911,7 @@ namespace HearthDb
                 public const string Bubblebot = "TSC_059";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If you're holding a Holy Spell, gain <b>Taunt</b> and <b>Divine Shield</b>.<br/>
+                /// <b>Battlecry:</b> If you're holding a Holy spell, gain <b>Taunt</b> and <b>Divine Shield</b>.<br/>
                 /// 3-Cost 2/5 Beast Minion
                 /// </summary>
                 public const string ShimmeringSunfish = "TSC_060";
@@ -3037,7 +3109,7 @@ namespace HearthDb
                 public const string SunkeeperTarim = "UNG_015";
 
                 /// <summary>
-                /// After your hero attacks, summon two 1/1 Silver Hand Recruits.<br/>
+                /// After your hero attacks, summon two {0} Silver Hand Recruits.<br/>
                 /// 6-Cost Weapon
                 /// </summary>
                 public const string Vinecleaver = "UNG_950";
@@ -3061,7 +3133,7 @@ namespace HearthDb
                 public const string TheLastKaleidosaur = "UNG_954";
 
                 /// <summary>
-                /// Summon two 1/1 Silver Hand Recruits.<br/>
+                /// Summon two {0} Silver Hand Recruits.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string LostInTheJungle = "UNG_960";
@@ -3469,7 +3541,7 @@ namespace HearthDb
                 public const string Shotbot = "YOD_010";
 
                 /// <summary>
-                /// <b>Twinspell</b> Summon two 1/1 Silver Hand Recruits with <b>Taunt</b>.<br/>
+                /// <b>Twinspell</b> Summon two {0} Silver Hand Recruits with <b>Taunt</b>.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string AirRaid = "YOD_012";

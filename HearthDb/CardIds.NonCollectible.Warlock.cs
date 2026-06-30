@@ -4628,6 +4628,42 @@ namespace HearthDb
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string ChogallMastermind_GallsArmToken = "CATA_726t1";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Destroy the chosen card.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AncientAugur_EyesWithoutAFacelessEnchantment = "JAIL_303e";
+
+                /// <summary>
+                /// Costs Health instead of Mana.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string IMPFERNAL_DemonicPowerEnchantment = "JAIL_398e";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Lifesteal</b><br/>
+                /// 9-Cost 9/9 Demon Minion
+                /// </summary>
+                public const string ImpGangStooge_GrandmotherImpToken = "JAIL_399t1";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 1-Cost 1/1 Demon Minion
+                /// </summary>
+                public const string SpireofSolitude_ShivarraInfiltratorToken = "JAIL_511t";
+
+                /// <summary>
+                /// +3/+3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DemonicConfinement_DemonOnTheLooseEnchantment = "JAIL_997e1";
+
+                /// <summary>
+                /// <b>Dormant</b>. Awaken in 2 turns.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DemonicConfinement_DemonicConfinementEnchantment = "JAIL_997e3";
             }
         }
     }

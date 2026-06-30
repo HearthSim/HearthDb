@@ -1337,6 +1337,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string IllidanStormrage_IridaSinseekerHeroHeroSkins = "HERO_10br";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string IllidanStormrage_UnchainedOmenHeroHeroSkins = "HERO_10bs";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
 
                 /// <summary>
@@ -1458,6 +1470,66 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string IllidanStormrage_HalveriaDarkravenHeroHeroSkins = "HERO_10z";
+
+                /// <summary>
+                /// Draw 3 cards. Pick one to give to your opponent.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string DarkBribe = "JAIL_206";
+
+                /// <summary>
+                /// <b>Lifesteal</b>. <b>Battlecry:</b> Send your deck to the Void. At the start of your turns, get two cards from the Void.<br/>
+                /// 4-Cost 7/5 Minion
+                /// </summary>
+                public const string IridaSinseeker = "JAIL_719";
+
+                /// <summary>
+                /// <b>Prepare, Rush</b> After you summon a Demon, gain its stats.<br/>
+                /// 6-Cost 1/1 Minion
+                /// </summary>
+                public const string TrastathSoulParasite = "JAIL_721";
+
+                /// <summary>
+                /// After your hero attacks, get a Void Soul.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string StardustScythe = "JAIL_730";
+
+                /// <summary>
+                /// Summon a random 1-Cost Demon. Improve your future Void Souls.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string VoidSoul = "JAIL_732";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Get a Void Soul.<br/>
+                /// 3-Cost 3/4 Naga Minion
+                /// </summary>
+                public const string ViciousVoidscale = "JAIL_733";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a card in your deck. If it's empty, gain +4/+4 instead.<br/>
+                /// 3-Cost 2/2 Minion
+                /// </summary>
+                public const string Hellraiser = "JAIL_734";
+
+                /// <summary>
+                /// <b>Prepare</b>, <b>Taunt</b> ALL minions cost (2) more.<br/>
+                /// 10-Cost 6/12 Demon Minion
+                /// </summary>
+                public const string CaptiveNathrezim = "JAIL_890";
+
+                /// <summary>
+                /// Deal $3 damage to a minion. If it dies, get a Void Soul.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string VoidBlast = "JAIL_891";
+
+                /// <summary>
+                /// Deal $2 damage. Shuffle a random Demon Hunter spell into your deck. <b>Outcast:</b> Do it again.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string CosmicManifestations = "JAIL_892";
 
                 /// <summary>
                 /// <b>Taunt</b>, <b>Lifesteal</b> Costs (2) less for each weapon you've equipped this game.<br/>

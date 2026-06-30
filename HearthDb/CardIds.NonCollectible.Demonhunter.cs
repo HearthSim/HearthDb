@@ -197,49 +197,61 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins12 = "HERO_10cbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins12 = "HERO_10brhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins12 = "HERO_10cbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins12 = "HERO_10brhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins13 = "HERO_10lbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins13 = "HERO_10cbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins13 = "HERO_10lbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins13 = "HERO_10cbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins14 = "HERO_10xbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins14 = "HERO_10lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins14 = "HERO_10xbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins14 = "HERO_10lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins15 = "HERO_10zbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins15 = "HERO_10xbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins15 = "HERO_10zbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins15 = "HERO_10xbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrage_DemonClawsHeroSkins16 = "HERO_10zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrage_DemonsBiteHeroSkins16 = "HERO_10zbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2790,6 +2802,30 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Tichondrius_DemonicSummoningEnchantment = "CORE_CATA_001e";
+
+                /// <summary>
+                /// +8 Attack<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SpitefulChef_BearPowerEnchantment = "JAIL_507e";
+
+                /// <summary>
+                /// <b>Immune</b> this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SpireofSolitude_SolitaryEnchantment = "JAIL_511e";
+
+                /// <summary>
+                /// Get 2 cards from the Void each turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string IridaSinseeker_TheVoidEnchantment = "JAIL_719e2";
+
+                /// <summary>
+                /// Increased Stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TrastathSoulParasite_StolenSoulEnchantment = "JAIL_721e";
             }
         }
     }

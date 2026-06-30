@@ -1822,6 +1822,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string GarroshHellscream_DrBoomHeroHeroSkins = "HERO_01bw";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscream_HenchmanBoulderfistHeroHeroSkins = "HERO_01bx";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GarroshHellscream_DeathwingHeroHeroSkins2 = "HERO_01c";
 
                 /// <summary>
@@ -2009,6 +2021,66 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string BringItOn = "ICC_837";
+
+                /// <summary>
+                /// After a friendly minion survives damage, give it +1 Attack.<br/>
+                /// 3-Cost 1/6 Minion
+                /// </summary>
+                public const string Rioter = "JAIL_029";
+
+                /// <summary>
+                /// Deal $2 damage to all minions. If your deck has 25 or more cards, deal $2 more.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string CrowdControl = "JAIL_307";
+
+                /// <summary>
+                /// <b>Taunt</b> Has +5 Attack if your deck has 25 or more cards.<br/>
+                /// 4-Cost 2/7 Minion
+                /// </summary>
+                public const string ScrappyDefender = "JAIL_311";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Give your damaged minions +1/+2.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
+                public const string BallAndChain = "JAIL_376";
+
+                /// <summary>
+                /// <b>Taunt</b> <b>Start of Game:</b> Duplicate all other <b>Legendary</b> cards in your deck.<br/>
+                /// 8-Cost 10/10 Minion
+                /// </summary>
+                public const string ChainbreakerHogger = "JAIL_384";
+
+                /// <summary>
+                /// Gain 2 Armor. Shuffle five Gear spells into your deck that give 2 Armor when drawn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string ScrambleForGear = "JAIL_386";
+
+                /// <summary>
+                /// Give minions in your hand +1/+1. <b> Legendary</b> minions get an extra +2/+1.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string ReleaseTheBeasts = "JAIL_387";
+
+                /// <summary>
+                /// <b>Charge</b>. If three friendly characters take damage on one of your turns, summon this from hand or deck.<br/>
+                /// 4-Cost 3/3 Beast Minion
+                /// </summary>
+                public const string Warptooth = "JAIL_421";
+
+                /// <summary>
+                /// <b>Prepare</b> <b>Battlecry:</b> Force all enemy minions to attack this.<br/>
+                /// 7-Cost 3/12 Beast Minion
+                /// </summary>
+                public const string RampagingHound = "JAIL_435";
+
+                /// <summary>
+                /// Can be played on either side. <b>Battlecry:</b> Deal 1 damage to all other friendly minions, twice.<br/>
+                /// 2-Cost 2/4 Minion
+                /// </summary>
+                public const string DisguisedWatchman = "JAIL_455";
 
                 /// <summary>
                 /// Give a friendly minion +3/+3. Deal $1 damage to all other minions. <b>Overload:</b> (1)<br/>

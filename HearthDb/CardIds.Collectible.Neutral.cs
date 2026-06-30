@@ -134,7 +134,7 @@ namespace HearthDb
                 public const string Kodorider = "AT_099";
 
                 /// <summary>
-                /// <b>Inspire:</b> Summon a 1/1 Silver Hand Recruit.<br/>
+                /// <b>Inspire:</b> Summon a {0} Silver Hand Recruit.<br/>
                 /// 3-Cost 3/3 Minion
                 /// </summary>
                 public const string SilverHandRegent = "AT_100";
@@ -6618,10 +6618,154 @@ namespace HearthDb
                 public const string TaintedZealot = "ICC_913";
 
                 /// <summary>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Deal 2 damage to all enemies.<br/>
+                /// 6-Cost 4/6 Demon Minion
+                /// </summary>
+                public const string SewerImp = "JAIL_007";
+
+                /// <summary>
+                /// After this attacks and survives, draw a card and escape the game!<br/>
+                /// 2-Cost 4/4 Minion
+                /// </summary>
+                public const string EscapeArtist = "JAIL_030";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Choose an enemy minion. Steal its <b>Bonus Effects</b> and gain +1/+1 for each stolen.<br/>
+                /// 3-Cost 4/3 Minion
+                /// </summary>
+                public const string VioletPunisher = "JAIL_101";
+
+                /// <summary>
+                /// Costs (2) if there are no minions on the battlefield.<br/>
+                /// 5-Cost 5/3 Undead Minion
+                /// </summary>
+                public const string SolitaryPrisoner = "JAIL_204";
+
+                /// <summary>
+                /// At the end of your turn, steal all cards that entered your opponent's hand during your turn.<br/>
+                /// 4-Cost 2/6 Minion
+                /// </summary>
+                public const string RatBurglar = "JAIL_205";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Deal 3 damage to all other characters. <i>(Also triggers in hand or deck.)</i><br/>
+                /// 6-Cost 6/6 Demon Minion
+                /// </summary>
+                public const string Impfernal = "JAIL_398";
+
+                /// <summary>
                 /// <b>Prepare</b> After you play a card, get a random <b>Battlecry</b> minion. It costs (2) less.<br/>
                 /// 6-Cost 4/4 Minion
                 /// </summary>
                 public const string VanessaTheRingleader = "JAIL_407";
+
+                /// <summary>
+                /// <b>Rush</b>. <b>Deathrattle:</b> Get Detective's Clothes that give +4/+4 and <b>Rush</b>.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string RecklessDetective = "JAIL_447";
+
+                /// <summary>
+                /// <b>Taunt</b>. When you <b>Prepare</b> while holding this, reduce this card's Cost by the same amount.<br/>
+                /// 5-Cost 3/4 Beast Minion
+                /// </summary>
+                public const string Jailbird = "JAIL_453";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If your deck has 25 or more cards, draw a card.<br/>
+                /// 2-Cost 2/3 Mechanical Minion
+                /// </summary>
+                public const string P1ckP0k3t = "JAIL_456";
+
+                /// <summary>
+                /// <b>Rush</b> All friendly minions are <b>Poisonous</b>.<br/>
+                /// 7-Cost 1/7 Beast Minion
+                /// </summary>
+                public const string Arachnathid = "JAIL_459";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get a random weapon.<br/>
+                /// 1-Cost 1/2 Mechanical Minion
+                /// </summary>
+                public const string ConcealingConfection = "JAIL_460";
+
+                /// <summary>
+                /// Can be played on either side. <b>Battlecry:</b> Destroy a random adjacent minion.<br/>
+                /// 3-Cost 5/4 Minion
+                /// </summary>
+                public const string DisguisedExecutioner = "JAIL_461";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw 2 cards. If they're both minions, gain <b>Charge</b>.<br/>
+                /// 5-Cost 5/2 Quilboar Minion
+                /// </summary>
+                public const string GetawayHogdriver = "JAIL_462";
+
+                /// <summary>
+                /// At the start of your turn, swap this minion with a random one in your opponent's hand.<br/>
+                /// 3-Cost 0/3 Mechanical Minion
+                /// </summary>
+                public const string AlarmOMatic = "JAIL_502";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> You can say Sorry this game.<br/>
+                /// 1-Cost 1/3 Minion
+                /// </summary>
+                public const string GullibleGuard = "JAIL_703";
+
+                /// <summary>
+                /// <b>Prepare</b> Whenever you cast a spell, draw a card.<br/>
+                /// 9-Cost 4/4 Minion
+                /// </summary>
+                public const string BlackMarketAuctioneer = "JAIL_718";
+
+                /// <summary>
+                /// After you play a minion, give it +3/+3 and make it go <b>Dormant</b> for 1 turn.<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
+                public const string WardenMaiev = "JAIL_850";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Investigate a card in the enemy hand. If they play a card with that name next turn, get 3 Coins.<br/>
+                /// 4-Cost 4/5 Murloc Minion
+                /// </summary>
+                public const string InspectorMurlocHolmes = "JAIL_851";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Shuffle both players' hands together.<br/>
+                /// 8-Cost 5/5 Minion
+                /// </summary>
+                public const string TogwaggleSmugglerKing = "JAIL_852";
+
+                /// <summary>
+                /// At the end of each turn, gain <b>Reborn</b>.<br/>
+                /// 4-Cost 4/5 Minion
+                /// </summary>
+                public const string ActivatedGolem = "JAIL_883";
+
+                /// <summary>
+                /// Choose a card to discard to summon a 5/5 <b>Taunt</b>. <b>Deathrattle:</b> Free Zuramat who plays one each turn!<br/>
+                /// 5-Cost Location
+                /// </summary>
+                public const string ZuramatsPrison = "JAIL_887";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> If you had 4 other Captured Archmages die this game, cast 'Fireball' at a random enemy.0 <i>(0/4)</i><br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
+                public const string CapturedArchmage = "JAIL_974";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a random playable spell. It is <b>Temporary</b>.<br/>
+                /// 2-Cost 2/2 Minion
+                /// </summary>
+                public const string FranticForger = "JAIL_986";
+
+                /// <summary>
+                /// <b>Prepare</b>. <b>Battlecry:</b> Give a friendly minion +2 Attack and <b>Rush</b>.<br/>
+                /// 3-Cost 2/3 Minion
+                /// </summary>
+                public const string DefiasSmuggler = "JAIL_998";
 
                 /// <summary>
                 /// <b>Rush</b> Gains an extra effect in your hand that changes each turn.<br/>

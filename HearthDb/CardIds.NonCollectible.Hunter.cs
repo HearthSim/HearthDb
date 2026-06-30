@@ -404,6 +404,18 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
+                public const string RexxarHeroic_SteadyShotHeroSkins5 = "HERO_05bthp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string RexxarHeroic_BallistaShotHeroSkins5 = "HERO_05bthp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
                 public const string Rexxar_SteadyShotHeroSkins10 = "HERO_05dbp";
 
                 /// <summary>
@@ -4657,6 +4669,30 @@ namespace HearthDb
                 /// 4-Cost Spell
                 /// </summary>
                 public const string SupplyRun_SupplyRunToken2 = "CATA_820t2";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Draw a card.<br/>
+                /// 2-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string UnderbellyNetwork_SnootHoarderToken = "JAIL_877t";
+
+                /// <summary>
+                /// <b>Casts When Drawn</b> Summon a random 5-Cost Beast.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string BeastTripwire_TrippedBeastTripwireToken = "JAIL_879t";
+
+                /// <summary>
+                /// <b>Rush</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BlackMarketOverseer_OverseenEnchantment = "JAIL_880e";
+
+                /// <summary>
+                /// <b>Casts When Drawn</b> Deal $5 damage split among all enemies.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ArcaneTripwire_TrippedArcaneTripwireToken = "JAIL_881t";
             }
         }
     }

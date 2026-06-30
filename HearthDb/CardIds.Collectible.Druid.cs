@@ -1805,6 +1805,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string MalfurionStormrage_WuxiaEliseHeroHeroSkins = "HERO_06bs";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MalfurionStormrage_ModelPrisonerFaelinHeroHeroSkins = "HERO_06bt";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string MalfurionStormrage_DragonqueenAlexstraszaHeroHeroSkins = "HERO_06bw";
 
                 /// <summary>
@@ -2004,6 +2016,66 @@ namespace HearthDb
                 /// 9-Cost 3/7 Beast Minion
                 /// </summary>
                 public const string Hadronox = "ICC_835";
+
+                /// <summary>
+                /// Summon a random 4-Cost minion. <i>(Improved by your hero attacks this game.)</i><br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string InfestTheScullery = "JAIL_200";
+
+                /// <summary>
+                /// <b>Choose One -</b> Give your hero +2 Attack this turn; or get a random Druid card.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string SecretIngredient = "JAIL_201";
+
+                /// <summary>
+                /// Your hero has +1 Attack on your turn.<br/>
+                /// 1-Cost 1/3 Beast Minion
+                /// </summary>
+                public const string Spiderling = "JAIL_202";
+
+                /// <summary>
+                /// Give your hero +1 Attack this turn. Gain 1 Armor. Add "Widow's Feast" to your hand.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string WidowsBite = "JAIL_436";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon a 2-Cost <b>Taunt</b> minion. If you have 10 or more Mana, summon a 6-Cost instead.<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
+                public const string SpitefulChef = "JAIL_507";
+
+                /// <summary>
+                /// <b>Start of Game:</b> If your deck only has cards that cost (3) or less, set your Mana to 10 after five turns!<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string ChefNethrek = "JAIL_860";
+
+                /// <summary>
+                /// <b>Discover</b> a <b>Choose One</b> card. It has both effects combined. Give your opponent a plain copy.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string NoxiousBribe = "JAIL_861";
+
+                /// <summary>
+                /// Draw 2 minions. If you have 10 or more Mana, give them +3/+3.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string LethalRecipe = "JAIL_866";
+
+                /// <summary>
+                /// After your hero attacks, draw a card.<br/>
+                /// 2-Cost 1/4 Minion
+                /// </summary>
+                public const string SpiderRider = "JAIL_872";
+
+                /// <summary>
+                /// After your hero attacks, <b>Discover</b> a Druid card. Reduce its Cost by your hero's Attack.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string StaffOfTrickery = "JAIL_875";
 
                 /// <summary>
                 /// <b>Choose One -</b> Refresh your Hero Power; or Your next one costs (0).<br/>

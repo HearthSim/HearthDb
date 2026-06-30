@@ -377,25 +377,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a random basic Totem.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins13 = "HERO_02fbp";
+                public const string Thrall_TotemicCallHeroSkins13 = "HERO_02bzhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins13 = "HERO_02fbp2";
+                public const string Thrall_TotemicSlamHeroSkins13 = "HERO_02bzhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a random basic Totem.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins14 = "HERO_02mbp";
+                public const string Thrall_TotemicCallHeroSkins14 = "HERO_02fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins14 = "HERO_02mbp2";
+                public const string Thrall_TotemicSlamHeroSkins14 = "HERO_02fbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicCallHeroSkins15 = "HERO_02mbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicSlamHeroSkins15 = "HERO_02mbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -4140,6 +4152,108 @@ namespace HearthDb
                 /// 1-Cost 1/2 Elemental Minion
                 /// </summary>
                 public const string SkywallSentinel_SoldierOfAlakirToken = "CATA_565t";
+
+                /// <summary>
+                /// Can't be played for a turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string CommanderBeatrix_StraightToJailEnchantment2 = "JAIL_397e4";
+
+                /// <summary>
+                /// This was played on the friendly side.<br/>
+                /// Spell
+                /// </summary>
+                public const string DisguisedDetective_Detected = "JAIL_452a";
+
+                /// <summary>
+                /// This was played on the enemy side.<br/>
+                /// Spell
+                /// </summary>
+                public const string DisguisedDetective_Disguised = "JAIL_452b";
+
+                /// <summary>
+                /// After your hero attacks, <b>Freeze</b> 2 other random enemies. Choose another ammunition.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string TinyPal_TinyPalToken1 = "JAIL_458t1";
+
+                /// <summary>
+                /// After your hero attacks, deal 1 damage to all enemies. Choose another ammunition.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string TinyPal_TinyPalToken2 = "JAIL_458t2";
+
+                /// <summary>
+                /// After your hero attacks, summon a random 3-Cost minion. Give it <b>Taunt</b>. Choose another ammunition.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string TinyPal_TinyPalToken3 = "JAIL_458t3";
+
+                /// <summary>
+                /// After your hero attacks, get a random <b>Battlecry</b> minion. It costs (2) less. Choose another ammunition.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string TinyPal_TinyPalToken4 = "JAIL_458t4";
+
+                /// <summary>
+                /// <b>Passive</b> Your first minion each turn costs (2) less.<br/>
+                /// HeroPower
+                /// </summary>
+                public const string MugsMagicHeroic1 = "JAIL_800hp1";
+
+                /// <summary>
+                /// The next minion you play costs (2) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MugsMagicHeroic2 = "JAIL_800hp1e";
+
+                /// <summary>
+                /// <b>Passive</b> Every fifth minion you play triggers its <b>Battlecry</b> twice.<br/>
+                /// 0-Cost HeroPower
+                /// </summary>
+                public const string ZeesMightHeroic = "JAIL_800hp2";
+
+                /// <summary>
+                /// Your next minion's <b>Battlecry</b> triggers twice.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ZeeBattlecryDoublerHeroic = "JAIL_800hp2e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 4 damage.<br/>
+                /// 3-Cost 3/3 Elemental Minion
+                /// </summary>
+                public const string MoltenGold_MoltenGoldElementalToken = "JAIL_801t";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string GallagioGoon_WiseguyEnchantment = "JAIL_802e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Freeze</b> an enemy. Draw two cards.<br/>
+                /// 5-Cost 5/5 Elemental Minion
+                /// </summary>
+                public const string Frostshatter_FrostshatterElementalToken = "JAIL_803t";
+
+                /// <summary>
+                /// <b>Lifesteal</b> <b>Battlecry:</b> Deal 2 damage to all enemy minions.<br/>
+                /// 7-Cost 7/7 Elemental Minion
+                /// </summary>
+                public const string Stormfury_StormfuryElementalToken = "JAIL_805t";
+
+                /// <summary>
+                /// Can't be played until another card is played.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LowSecurityWing_LowSecurityEnchantment = "JAIL_987e";
+
+                /// <summary>
+                /// +1/+1.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string LowSecurityWing_EscapedEnchantment = "JAIL_987e2";
             }
         }
     }

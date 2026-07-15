@@ -24,6 +24,9 @@ namespace HearthDb
 		public static Dictionary<string, Card> BaconPoolMinions { get; private set; } = new Dictionary<string, Card>();
 		public static Dictionary<int, Card> BaconPoolMinionsByDbfId { get; private set; } = new Dictionary<int, Card>();
 
+		public static Dictionary<string, Card> BaconBuddyMinions { get; private set; } = new Dictionary<string, Card>();
+		public static Dictionary<int, Card> BaconBuddyMinionsByDbfId { get; private set; } = new Dictionary<int, Card>();
+
 		public static Dictionary<string, string> NormalToTripleCardIds { get; private set; } = new Dictionary<string, string>();
 		public static Dictionary<string, string> TripleToNormalCardIds { get; private set; } = new Dictionary<string, string>();
 
@@ -107,6 +110,8 @@ namespace HearthDb
 			var collectibleByDbfId  = new Dictionary<int, Card>();
 			var baconPoolMinions  = new Dictionary<string, Card>();
 			var baconPoolMinionsByDbfId  = new Dictionary<int, Card>();
+			var baconBuddyMinions  = new Dictionary<string, Card>();
+			var baconBuddyMinionsByDbfId  = new Dictionary<int, Card>();
 			var cardIdToDbfId  = new Dictionary<string, int>();
 			var dbfIdToCardId = new Dictionary<int, string>();
 
@@ -127,10 +132,16 @@ namespace HearthDb
 					collectibleByDbfId[entity.DbfId] = card;
 				}
 
-				if (card.IsBaconPoolMinion)
+				if (card.IsBaconPoolMinion) // IS_BACON_POOL_MINION tag is not on premium minion
 				{
 					baconPoolMinions[entity.CardId] = card;
 					baconPoolMinionsByDbfId[entity.DbfId] = card;
+				}
+
+				if (card.BaconBuddyMinion && !card.Premium) // BACON_BUDDY tag is on both regular and premium minions
+				{
+					baconBuddyMinions[entity.CardId] = card;
+					baconBuddyMinionsByDbfId[entity.DbfId] = card;
 				}
 
 				if (!IgnoreTripleIds.Contains(entity.CardId))
@@ -159,6 +170,8 @@ namespace HearthDb
 			CollectibleByDbfId = collectibleByDbfId;
 			BaconPoolMinions = baconPoolMinions;
 			BaconPoolMinionsByDbfId = baconPoolMinionsByDbfId;
+			BaconBuddyMinions = baconBuddyMinions;
+			BaconBuddyMinionsByDbfId = baconBuddyMinionsByDbfId;
 			CardIdToDbfId = cardIdToDbfId;
 			DbfIdToCardId = dbfIdToCardId;
 

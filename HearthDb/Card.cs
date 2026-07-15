@@ -160,8 +160,14 @@ namespace HearthDb
 		private int? _techLevel;
 		public int TechLevel => _techLevel ??= Entity.GetTag(TECH_LEVEL);
 
+		private bool? _premium;
+		public bool Premium => _premium ??= Entity.GetTag(PREMIUM) > 0;
+
 		private bool? _isBaconPoolMinion;
 		public bool IsBaconPoolMinion => _isBaconPoolMinion ??= Entity.GetTag(IS_BACON_POOL_MINION) > 0;
+
+		private bool? _baconBuddyMinion;
+		public bool BaconBuddyMinion => _baconBuddyMinion ??= Entity.GetTag(BACON_BUDDY) > 0;
 
 		private int? _battlegroundsArmorTier;
 		public int BattlegroundArmorTier => _battlegroundsArmorTier ??= Entity.GetTag((GameTag)1723);

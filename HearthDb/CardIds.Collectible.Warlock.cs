@@ -231,7 +231,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Draw 3 cards. They are <b>Temporary</b>.<br/>
-                /// 1-Cost Spell
+                /// 2-Cost Spell
                 /// </summary>
                 public const string TheSoularium = "BOT_568";
 
@@ -447,7 +447,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Draw 3 cards. They are <b>Temporary</b>.<br/>
-                /// 1-Cost Spell
+                /// 2-Cost Spell
                 /// </summary>
                 public const string TheSoulariumCorePlaceholder = "CORE_BOT_568";
 
@@ -2036,7 +2036,7 @@ namespace HearthDb
                 public const string AncientAugur = "JAIL_303";
 
                 /// <summary>
-                /// <b>Taunt</b>. <b>Deathrattle:</b> Put a 9/9 Demon with <b>Taunt</b> and <b>Lifesteal</b> on the bottom of your deck.<br/>
+                /// <b>Taunt</b>. <b>Deathrattle:</b> Put two 8/8 Demons with <b>Taunt</b> and <b>Lifesteal</b> on the bottom of your deck.<br/>
                 /// 3-Cost 2/5 Demon Minion
                 /// </summary>
                 public const string ImpGangStooge = "JAIL_399";
@@ -2049,7 +2049,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Destroy all minions. Summon any Demons in the bottom 3 cards of your deck.<br/>
-                /// 9-Cost Spell
+                /// 8-Cost Spell
                 /// </summary>
                 public const string Annihilation = "JAIL_510";
 
@@ -2079,7 +2079,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Prepare</b>. <b>Deathrattle:</b> Summon a random Demon from your deck. Give it "<b>Deathrattle:</b> Summon Moragg."<br/>
-                /// 10-Cost 6/5 Demon Minion
+                /// 9-Cost 6/5 Demon Minion
                 /// </summary>
                 public const string Moragg = "JAIL_906";
 

@@ -4208,7 +4208,7 @@ namespace HearthDb
                 public const string MugsMagicHeroic2 = "JAIL_800hp1e";
 
                 /// <summary>
-                /// <b>Passive</b> Every fifth minion you play triggers its <b>Battlecry</b> twice.<br/>
+                /// <b><b>Passive</b></b> Every fifth minion you play triggers its <b>Battlecry</b> twice. <i>({0} left!)</i> <i>(Ready!)</i><br/>
                 /// 0-Cost HeroPower
                 /// </summary>
                 public const string ZeesMightHeroic = "JAIL_800hp2";

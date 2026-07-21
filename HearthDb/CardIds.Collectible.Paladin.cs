@@ -2047,7 +2047,7 @@ namespace HearthDb
                 public const string TruthSeeker = "JAIL_329";
 
                 /// <summary>
-                /// <b>Divine Shield</b>, <b>Taunt</b> Whenever this gains stats, gain an extra +1/+1 <i>(wherever this is).</i><br/>
+                /// <b>Divine Shield</b>, <b>Taunt</b> After this gains stats, gain an extra +1/+1 <i>(wherever this is).</i><br/>
                 /// 4-Cost 3/3 Minion
                 /// </summary>
                 public const string DalaranChampion = "JAIL_330";

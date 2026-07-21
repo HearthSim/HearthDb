@@ -6655,7 +6655,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Prepare</b> After you play a card, get a random <b>Battlecry</b> minion. It costs (2) less.<br/>
-                /// 6-Cost 4/4 Minion
+                /// 7-Cost 4/3 Minion
                 /// </summary>
                 public const string VanessaTheRingleader = "JAIL_407";
 
@@ -8700,7 +8700,7 @@ namespace HearthDb
                 public const string Nobleman = "SW_074";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> If you had 7 Elwynn Boars die this game, equip a 15/3 Sword of a Thousand Truths.0 <i>(0/7)</i><br/>
+                /// <b>Deathrattle:</b> If you had 10 Elwynn Boars die this game, equip a 15/3 Sword of a Thousand Truths.0 <i>(0/10)</i><br/>
                 /// 1-Cost 1/1 Beast Minion
                 /// </summary>
                 public const string ElwynnBoar = "SW_075";

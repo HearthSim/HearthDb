@@ -2054,7 +2054,7 @@ namespace HearthDb
                 public const string EmbraceDarkness = "ICC_849";
 
                 /// <summary>
-                /// Your deck is 20 cards, plus 20 copied from your enemy. <b>Battlecry:</b> Draw until your hand is full.<br/>
+                /// Your starting Health is 40. Your deck is 20 cards, plus 20 copied from your enemy. <b>Battlecry:</b> Draw until your hand is full.<br/>
                 /// 7-Cost 7/7 Undead Minion
                 /// </summary>
                 public const string AzalinaSoulsever = "JAIL_430";
@@ -2073,18 +2073,18 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b><b>Deathrattle:</b> </b>Reduce the Cost of cards in your hand that were copied from your opponent by (1).<br/>
-                /// 3-Cost 4/3 Undead Minion
+                /// 2-Cost 3/2 Undead Minion
                 /// </summary>
                 public const string EnthralledShade = "JAIL_434";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Get three 1/1 copies of random <b>Legendary</b> minions. They cost (1).<br/>
+                /// <b>Taunt </b> <b>Deathrattle:</b> Get three 1/1 copies of random <b>Legendary</b> minions. They cost (1).<br/>
                 /// 6-Cost 6/6 Minion
                 /// </summary>
                 public const string KarovTheBroken = "JAIL_448";
 
                 /// <summary>
-                /// <b>Prepare</b>, <b><b>Taunt</b>.</b> <b>Deathrattle:</b> Restore 6 Health your hero. Summon a random 6-Cost minion.<br/>
+                /// <b>Prepare</b>, <b>Taunt</b> <b>Deathrattle:</b> Restore 6 Health to your hero. Summon a random 6-Cost minion.<br/>
                 /// 7-Cost 6/6 Minion
                 /// </summary>
                 public const string Soothsayer = "JAIL_912";

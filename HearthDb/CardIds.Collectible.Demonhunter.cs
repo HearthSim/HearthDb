@@ -1479,13 +1479,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Lifesteal</b>. <b>Battlecry:</b> Send your deck to the Void. At the start of your turns, get two cards from the Void.<br/>
-                /// 4-Cost 7/5 Minion
+                /// 4-Cost 7/7 Minion
                 /// </summary>
                 public const string IridaSinseeker = "JAIL_719";
 
                 /// <summary>
                 /// <b>Prepare, Rush</b> After you summon a Demon, gain its stats.<br/>
-                /// 6-Cost 1/1 Minion
+                /// 6-Cost 3/3 Minion
                 /// </summary>
                 public const string TrastathSoulParasite = "JAIL_721";
 
@@ -1502,7 +1502,7 @@ namespace HearthDb
                 public const string VoidSoul = "JAIL_732";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Get a Void Soul.<br/>
+                /// <b>Taunt</b> <b>Battlecry and Deathrattle:</b> Get a Void Soul.<br/>
                 /// 3-Cost 3/4 Naga Minion
                 /// </summary>
                 public const string ViciousVoidscale = "JAIL_733";

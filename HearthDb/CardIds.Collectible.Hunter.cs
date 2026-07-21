@@ -363,7 +363,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Replay each 1-Cost card you've played this game <i>(targeting enemies if possible.)</i><br/>
-                /// 4-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string ConfrontTheTolvir = "CATA_560";
 
@@ -1989,7 +1989,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Prepare</b> <b>Battlecry:</b> Trigger a friendly minion's <b>Deathrattle.</b><br/>
-                /// 5-Cost 5/4 Beast Minion
+                /// 4-Cost 4/3 Beast Minion
                 /// </summary>
                 public const string SewerSwimmer = "JAIL_395";
 

@@ -813,13 +813,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Charge</b>. Instead of damaging heroes, this shuffles that many Blights into their deck that deal 2 damage when drawn.<br/>
-                /// 7-Cost 7/7 Undead Minion
+                /// 6-Cost 8/8 Undead Minion
                 /// </summary>
                 public const string TheLivingPlague = "JAIL_443";
 
                 /// <summary>
                 /// <b>Prepare</b>. <b>Battlecry:</b> Destroy all your other minions. Draw a card and refresh a Mana for each one destroyed.<br/>
-                /// 6-Cost 6/4 Minion
+                /// 5-Cost 5/3 Minion
                 /// </summary>
                 public const string Sawbones = "JAIL_444";
 
@@ -831,7 +831,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Get a second Hero Power that costs <b>Corpses</b>.<br/>
-                /// 5-Cost 4/5 Undead Minion
+                /// 4-Cost 4/5 Undead Minion
                 /// </summary>
                 public const string BloodDoctorThalena = "JAIL_446";
 
@@ -848,7 +848,7 @@ namespace HearthDb
                 public const string BloodClone = "JAIL_451";
 
                 /// <summary>
-                /// Choose an enemy minion. Summon three 3/1 Undead with <b>Lifesteal</b> that attack it.<br/>
+                /// Choose an enemy minion. Summon four 3/1 Undead with <b>Lifesteal</b> that attack it.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string EmergencySurgery = "JAIL_454";

@@ -1976,7 +1976,7 @@ namespace HearthDb
                 public const string Nab = "JAIL_225";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Deal 2 damage to a random enemy. Shoot 1 time! <i>(While holding this, play cards for 2 Mana to shoot more!)</i><br/>
+                /// <b>Battlecry:</b> Deal 1 damage to a random enemy. Shoot 1 time! <i>(While in hand or deck play cards for 2 Mana to shoot more!)</i><br/>
                 /// 3-Cost 2/2 Minion
                 /// </summary>
                 public const string LotusTroublemaker = "JAIL_470";
@@ -2823,7 +2823,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> Your next spell this turn costs (0).<br/>
-                /// 4-Cost 2/2 Naga Minion
+                /// 6-Cost 4/4 Naga Minion
                 /// </summary>
                 public const string SwiftscaleTrickster = "TSC_936";
 

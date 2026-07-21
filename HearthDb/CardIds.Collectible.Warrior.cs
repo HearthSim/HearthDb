@@ -2065,14 +2065,14 @@ namespace HearthDb
                 public const string ReleaseTheBeasts = "JAIL_387";
 
                 /// <summary>
-                /// <b>Charge</b>. If three friendly characters take damage on one of your turns, summon this from hand or deck.<br/>
+                /// <b>Charge</b>. If four friendly characters take damage on one of your turns, summon this from hand or deck.<br/>
                 /// 4-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string Warptooth = "JAIL_421";
 
                 /// <summary>
                 /// <b>Prepare</b> <b>Battlecry:</b> Force all enemy minions to attack this.<br/>
-                /// 7-Cost 3/12 Beast Minion
+                /// 7-Cost 4/12 Beast Minion
                 /// </summary>
                 public const string RampagingHound = "JAIL_435";
 

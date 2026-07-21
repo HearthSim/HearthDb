@@ -4643,7 +4643,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b> <b>Lifesteal</b><br/>
-                /// 9-Cost 9/9 Demon Minion
+                /// 8-Cost 8/8 Demon Minion
                 /// </summary>
                 public const string ImpGangStooge_GrandmotherImpToken = "JAIL_399t1";
 

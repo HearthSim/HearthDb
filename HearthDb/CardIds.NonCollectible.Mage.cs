@@ -4877,6 +4877,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string TheSkeletonKey_SkeletonKeyEnchantment = "JAIL_319e";
+
+                /// <summary>
+                /// Refresh your options. <i>(20% chance to take 5 damage!)</i><br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string TheSkeletonKey_TransformTheKeyToken = "JAIL_319t";
             }
         }
     }

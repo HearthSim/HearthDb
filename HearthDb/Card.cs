@@ -90,21 +90,25 @@ namespace HearthDb
 		private int? _spellSchool;
 		public int SpellSchool => _spellSchool ??= Entity.GetTag(SPELL_SCHOOL);
 
+		private string[] _mechanics;
 		public string[] Mechanics
 		{
 			get
 			{
+				if(_mechanics != null)
+					return _mechanics;
 				var mechanics = Dictionaries.Mechanics.Keys.Where(mechanic => Entity.GetTag(mechanic) > 0).Select(x => Dictionaries.Mechanics[x]);
 				var refMechanics =
 					Dictionaries.ReferencedMechanics.Keys.Where(mechanic => Entity.GetReferencedTag(mechanic) > 0)
 								.Select(x => Dictionaries.ReferencedMechanics[x]);
-				return mechanics.Concat(refMechanics).ToArray();
+				return _mechanics = mechanics.Concat(refMechanics).ToArray();
 			}
 		}
 
 		public string ArtistName => Entity.GetInnerValue(ARTISTNAME);
 
-		public string[] EntourageCardIds => Entity.EntourageCards.Select(x => x.CardId).ToArray();
+		private string[] _entourageCardIds;
+		public string[] EntourageCardIds => _entourageCardIds ??= Entity.EntourageCards.Select(x => x.CardId).ToArray();
 
 		public Locale DefaultLanguage { get; set; } = Locale.enUS;
 

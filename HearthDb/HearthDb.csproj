@@ -32,7 +32,7 @@
     </ItemGroup>
 
   <PropertyGroup>
-    <DownloaderOutDir>$(SolutionDir)HearthDb.CardDefsDownloader/bin/Release/netcoreapp3.1/</DownloaderOutDir>
+    <DownloaderOutDir>$(SolutionDir)HearthDb.CardDefsDownloader/bin/Release/net8.0/</DownloaderOutDir>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

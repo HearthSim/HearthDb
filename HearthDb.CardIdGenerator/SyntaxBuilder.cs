@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
+using System.Reflection;
 using System.Text.RegularExpressions;
 using HearthDb.Enums;
 using Microsoft.CodeAnalysis;
@@ -246,7 +247,13 @@ namespace HearthDb.CardIdGenerator
 			var summary = string.Join("<br/>\n/// ", lines);
 			return ParseLeadingTrivia($"/// <summary>\n/// {summary}\n/// </summary>\n");
 
-			string PrettyEnum(object value) => string.Join("", value.ToString().Split("_").Select(TitleCase));
+			string PrettyEnum(object value) => string.Join("", EnumName(value).Split("_").Select(TitleCase));
+
+			// prefer the first declared name, as ToString() picks an arbitrary one for aliases like CardType.ABILITY
+			string EnumName(object value) => value.GetType()
+				.GetFields(BindingFlags.Public | BindingFlags.Static)
+				.First(x => x.GetValue(null).Equals(value)).Name;
+
 			string TitleCase(string value) => CultureInfo.InvariantCulture.TextInfo.ToTitleCase(value.ToLower());
 
 			bool HasCost(Card c)

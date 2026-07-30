@@ -11,16 +11,15 @@
     <LangVersion>8</LangVersion>
   </PropertyGroup>
 
-    <!-- Remove everything from the hsdata repo except for CardDefs.xml. -->
     <ItemGroup>
-        <Compile Remove="hsdata/**" />
-        <EmbeddedResource Remove="hsdata/**" />
-        <None Remove="hsdata/**" />
+        <Compile Remove="carddata/**" />
+        <EmbeddedResource Remove="carddata/**" />
+        <None Remove="carddata/**" />
 
-        <EmbeddedResource Include="hsdata/CardDefs.base.xml">
+        <EmbeddedResource Include="carddata/CardDefs.base.xml">
             <LogicalName>$(RootNamespace).CardDefs.base.xml</LogicalName>
         </EmbeddedResource>
-        <EmbeddedResource Include="hsdata/CardDefs.base.etag">
+        <EmbeddedResource Include="carddata/CardDefs.base.etag">
             <LogicalName>$(RootNamespace).CardDefs.base.etag</LogicalName>
         </EmbeddedResource>
     </ItemGroup>
@@ -47,8 +46,8 @@
 
   <Target Name="DownloadBaseData" BeforeTargets="PreBuildEvent">
     <MSBuild Projects="$(SolutionDir)HearthDb.CardDefsDownloader/HearthDb.CardDefsDownloader.csproj" Properties="Configuration=Release"/>
-    <Exec Condition="Exists('$(DownloaderOutDir)HearthDb.CardDefsDownloader')" Command='"$(DownloaderOutDir)HearthDb.CardDefsDownloader" "$(SolutionDir)HearthDb/hsdata"'/>
-    <Exec Condition="Exists('$(DownloaderOutDir)HearthDb.CardDefsDownloader.exe')" Command='"$(DownloaderOutDir)HearthDb.CardDefsDownloader.exe" "$(SolutionDir)HearthDb/hsdata"'/>
+    <Exec Condition="Exists('$(DownloaderOutDir)HearthDb.CardDefsDownloader')" Command='"$(DownloaderOutDir)HearthDb.CardDefsDownloader" "$(SolutionDir)HearthDb/carddata"'/>
+    <Exec Condition="Exists('$(DownloaderOutDir)HearthDb.CardDefsDownloader.exe')" Command='"$(DownloaderOutDir)HearthDb.CardDefsDownloader.exe" "$(SolutionDir)HearthDb/carddata"'/>
   </Target>
 
 </Project>

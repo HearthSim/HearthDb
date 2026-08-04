@@ -416,37 +416,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins10 = "HERO_05dbp";
+                public const string Rexxar_SteadyShotHeroSkins10 = "HERO_05bzhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins10 = "HERO_05dbp2";
+                public const string Rexxar_BallistaShotHeroSkins10 = "HERO_05bzhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins11 = "HERO_05ybp";
+                public const string Rexxar_SteadyShotHeroSkins11 = "HERO_05dbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins11 = "HERO_05ybp2";
+                public const string Rexxar_BallistaShotHeroSkins11 = "HERO_05dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins12 = "HERO_05zbp";
+                public const string Rexxar_SteadyShotHeroSkins12 = "HERO_05ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins12 = "HERO_05zbp2";
+                public const string Rexxar_BallistaShotHeroSkins12 = "HERO_05ybp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_SteadyShotHeroSkins13 = "HERO_05zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_BallistaShotHeroSkins13 = "HERO_05zbp2";
 
                 /// <summary>
                 /// Change a minion's Health to 1.<br/>
@@ -662,7 +674,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Trigger 1 random friendly minion's <b>Deathrattle</b>. <i>(Improves during run)</i><br/>
                 /// 3-Cost 2/3 Beast Minion
                 /// </summary>
-                public const string Deathstrider = "PVPDR_YOP_HunterT1";
+                public const string DeathstriderTavernBrawl = "PVPDR_YOP_HunterT1";
 
                 /// <summary>
                 /// After you attack, give your Beasts +1/+1.<br/>

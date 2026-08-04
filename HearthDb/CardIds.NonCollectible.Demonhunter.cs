@@ -2826,6 +2826,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string TrastathSoulParasite_StolenSoulEnchantment = "JAIL_721e";
+
+                /// <summary>
+                /// Deal 2 damage to a random enemy. Whenever you summon a Demon, refresh this.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string CollapsingStarHeroic = "JAIL_EVENT_101hp";
             }
         }
     }

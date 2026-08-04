@@ -1847,6 +1847,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Guldan_QixiTuralyonHeroHeroSkins = "HERO_07ca";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Guldan_NzothHeroHeroSkins = "HERO_07d";
 
                 /// <summary>

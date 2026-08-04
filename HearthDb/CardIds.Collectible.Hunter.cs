@@ -1799,6 +1799,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Rexxar_QixiAlleriaHeroHeroSkins = "HERO_05bz";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_SylvanasWindrunnerHeroHeroSkins = "HERO_05c";
 
                 /// <summary>

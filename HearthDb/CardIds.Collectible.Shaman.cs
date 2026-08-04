@@ -2042,7 +2042,7 @@ namespace HearthDb
                 public const string Frostshatter = "JAIL_803";
 
                 /// <summary>
-                /// <b>Lifesteal</b>. Deal 2 damage to all enemy minions. <i>(Cast 3 spells to turn into a minion!)</i><br/>
+                /// <b>Lifesteal</b>. Deal $2 damage to all enemy minions. <i>(Cast 3 spells to turn into a minion!)</i><br/>
                 /// 7-Cost Spell
                 /// </summary>
                 public const string Stormfury = "JAIL_805";
@@ -2058,6 +2058,12 @@ namespace HearthDb
                 /// 1-Cost Location
                 /// </summary>
                 public const string LowSecurityWing = "JAIL_987";
+
+                /// <summary>
+                /// Summon two 2-Cost minions for each player. Transform your minions into ones that cost (1) more.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string DesperateBribe = "JAIL_EVENT_102";
 
                 /// <summary>
                 /// <b>Windfury</b> Whenever your hero attacks a minion, set its stats to 3/3.<br/>

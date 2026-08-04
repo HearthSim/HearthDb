@@ -2388,6 +2388,12 @@ namespace HearthDb
                 /// 2-Cost 3/1 Undead Minion
                 /// </summary>
                 public const string EmergencySurgery_NecronurseToken = "JAIL_454t";
+
+                /// <summary>
+                /// +1/+1 for finding a suspicious minion.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Watfin_EsteemedInvestigatorEnchantment = "JAIL_EVENT_100e";
             }
         }
     }

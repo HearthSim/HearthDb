@@ -1859,6 +1859,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string JainaProudmoore_EscapeArtistMillhouseHeroHeroSkins = "HERO_08cr";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string JainaProudmoore_MurozondAFKayHeroHeroSkins = "HERO_08ct";
 
                 /// <summary>

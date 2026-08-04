@@ -251,7 +251,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> Deal 2 damage to all undamaged enemy minions.<br/>
                 /// 4-Cost 4/3 Minion
                 /// </summary>
-                public const string DarkIronSkulkerFP2 = "BRM_008";
+                public const string DarkIronSkulkerBRM = "BRM_008";
 
                 /// <summary>
                 /// <b>Secret:</b> When one of your minions is attacked, transform it into a random one that costs (3) more.<br/>

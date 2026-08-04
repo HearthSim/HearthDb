@@ -1060,7 +1060,7 @@ namespace HearthDb
                 /// At the end of your turn, reduce the Cost of cards in your hand by (1).<br/>
                 /// 5-Cost 4/4 Minion
                 /// </summary>
-                public const string EmperorThaurissanFP2 = "BRM_028";
+                public const string EmperorThaurissanBRM = "BRM_028";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If you're holding a Dragon, destroy a <b>Legendary</b> minion.<br/>
@@ -1090,7 +1090,7 @@ namespace HearthDb
                 /// <b>Battlecry:</b> If you're holding a Dragon, deal 5 damage.<br/>
                 /// 5-Cost 5/4 Minion
                 /// </summary>
-                public const string BlackwingCorruptorFP2 = "BRM_034";
+                public const string BlackwingCorruptorBRM = "BRM_034";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Summon a 1/1 Impcaster with <b>Spell Damage +1</b>.<br/>
@@ -6766,6 +6766,12 @@ namespace HearthDb
                 /// 3-Cost 2/3 Minion
                 /// </summary>
                 public const string DefiasSmuggler = "JAIL_998";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> a minion. Pick the <i>suspicious</i> one to gain +1/+1.<br/>
+                /// 2-Cost 3/2 Beast Minion
+                /// </summary>
+                public const string Watfin = "JAIL_EVENT_100";
 
                 /// <summary>
                 /// <b>Rush</b> Gains an extra effect in your hand that changes each turn.<br/>

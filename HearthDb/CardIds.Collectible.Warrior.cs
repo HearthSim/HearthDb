@@ -256,7 +256,7 @@ namespace HearthDb
                 /// Whenever this minion takes damage, deal 2 damage to the enemy hero.<br/>
                 /// 4-Cost 2/6 Minion
                 /// </summary>
-                public const string AxeFlingerFP2 = "BRM_016";
+                public const string AxeFlingerBRM = "BRM_016";
 
                 /// <summary>
                 /// Deal $1 damage to all minions. Repeat until one dies.<br/>
@@ -2072,7 +2072,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Prepare</b> <b>Battlecry:</b> Force all enemy minions to attack this.<br/>
-                /// 7-Cost 4/12 Beast Minion
+                /// 7-Cost 4/12 Beast/Elemental Minion
                 /// </summary>
                 public const string RampagingHound = "JAIL_435";
 

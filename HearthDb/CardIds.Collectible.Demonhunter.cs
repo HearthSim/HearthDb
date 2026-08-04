@@ -1349,6 +1349,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string IllidanStormrage_LovestruckIllidanHeroHeroSkins = "HERO_10bx";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string IllidanStormrage_DemonbaneIllidanHeroHeroSkins = "HERO_10c";
 
                 /// <summary>
@@ -1502,7 +1508,7 @@ namespace HearthDb
                 public const string VoidSoul = "JAIL_732";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Battlecry and Deathrattle:</b> Get a Void Soul.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b> Get a Void Soul.<br/>
                 /// 3-Cost 3/4 Naga Minion
                 /// </summary>
                 public const string ViciousVoidscale = "JAIL_733";
@@ -1530,6 +1536,12 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string CosmicManifestations = "JAIL_892";
+
+                /// <summary>
+                /// Your Hero Power becomes 'Collapsing Star'. If it already is, increase its damage by 1.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string SoulImmolation = "JAIL_EVENT_101";
 
                 /// <summary>
                 /// <b>Taunt</b>, <b>Lifesteal</b> Costs (2) less for each weapon you've equipped this game.<br/>

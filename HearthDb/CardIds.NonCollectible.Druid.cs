@@ -935,7 +935,7 @@ namespace HearthDb
                 /// After you play a Beast, summon a copy of it and lose 1 Durability.<br/>
                 /// 2-Cost Weapon
                 /// </summary>
-                public const string HerdingHorn = "PVPDR_SCH_Druidt6";
+                public const string HerdingHornTavernBrawl = "PVPDR_SCH_Druidt6";
 
                 /// <summary>
                 /// Refresh your Mana Crystals.<br/>

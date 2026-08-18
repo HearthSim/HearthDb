@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -15,7 +16,8 @@ namespace HearthDb.CardDefsDownloader
 
 			// CardDefs.base.xml contains non localized tags and enUS tag
 	        // Other languages can be found under e.g. CardDefs.deDE.xml
-            using var request = new HttpRequestMessage(HttpMethod.Get, "https://api.hearthstonejson.com/v1/latest/CardDefs.base.xml");
+            // bypass the cloudflare cache, which may serve stale carddefs for up to ~30 minutes after an update
+            using var request = new HttpRequestMessage(HttpMethod.Get, $"https://api.hearthstonejson.com/v1/latest/CardDefs.base.xml?t={DateTimeOffset.UtcNow.ToUnixTimeSeconds()}");
             request.Headers.AcceptEncoding.Add(new StringWithQualityHeaderValue("gzip"));
             request.Headers.AcceptEncoding.Add(new StringWithQualityHeaderValue("deflate"));
 

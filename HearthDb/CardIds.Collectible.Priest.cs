@@ -314,6 +314,48 @@ namespace HearthDb
                 public const string SkeletalDragon = "BT_341";
 
                 /// <summary>
+                /// <b>Reborn</b>. This is <b>Reborn</b> with full Health and enchantments.<br/>
+                /// 3-Cost 2/3 Beast/Undead Minion
+                /// </summary>
+                public const string SinfulSteed = "CAP_800";
+
+                /// <summary>
+                /// Give a minion +2/+3, <b>Reborn</b>, and <b>Taunt</b>.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Haunt = "CAP_801";
+
+                /// <summary>
+                /// Summon a 2/1 Ghost with <b>Reborn</b>. Give a playable card in your hand this effect for a turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string FollowTheGhosts = "CAP_802";
+
+                /// <summary>
+                /// <b>Reborn</b> <b>Deathrattle:</b> Restore #3 Health to your hero. Excess healing damages a random enemy.<br/>
+                /// 4-Cost 3/3 Undead Minion
+                /// </summary>
+                public const string LingeringSpirit = "CAP_803";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Give a friendly minion <b>Reborn</b>. If it already has <b>Reborn</b>, summon a copy of it.<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
+                public const string SpecterSpecialist = "CAP_804";
+
+                /// <summary>
+                /// Destroy all minions. Each player gets a 3-Cost spell that resummons theirs.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string SlimeEm = "CAP_805";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Resurrect your minions that were <b>Reborn</b> this game. They attack random enemy minions.<br/>
+                /// 7-Cost 5/5 Minion
+                /// </summary>
+                public const string RaithVanGeist = "CAP_806";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Your healing effects restore 2 more Health this game.<br/>
                 /// 4-Cost 4/5 Draenei Minion
                 /// </summary>
@@ -2084,7 +2126,7 @@ namespace HearthDb
                 public const string KarovTheBroken = "JAIL_448";
 
                 /// <summary>
-                /// <b>Prepare</b>, <b>Taunt</b> <b>Deathrattle:</b> Restore 6 Health to your hero. Summon a random 6-Cost minion.<br/>
+                /// <b>Prepare</b>, <b>Taunt</b> <b>Deathrattle:</b> Restore #6 Health to your hero. Summon a random 6-Cost minion.<br/>
                 /// 7-Cost 6/6 Minion
                 /// </summary>
                 public const string Soothsayer = "JAIL_912";

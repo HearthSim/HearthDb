@@ -1361,6 +1361,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string IllidanStormrage_DanceOffArannaHeroHeroSkins = "HERO_10cg";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string IllidanStormrage_FelravagerIllidanHeroHeroSkins = "HERO_10d";
 
                 /// <summary>
@@ -1484,7 +1490,7 @@ namespace HearthDb
                 public const string DarkBribe = "JAIL_206";
 
                 /// <summary>
-                /// <b>Lifesteal</b>. <b>Battlecry:</b> Send your deck to the Void. At the start of your turns, get two cards from the Void.<br/>
+                /// <b>Lifesteal</b>. <b>Battlecry:</b> Send your deck to the Void, except 1 card. At the start of your turns, get two cards from the Void.<br/>
                 /// 4-Cost 7/7 Minion
                 /// </summary>
                 public const string IridaSinseeker = "JAIL_719";
@@ -1514,7 +1520,7 @@ namespace HearthDb
                 public const string ViciousVoidscale = "JAIL_733";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a card in your deck. If it's empty, gain +4/+4 instead.<br/>
+                /// <b>Taunt</b> <b>Battlecry:</b> <b>Discover</b> a card in your deck. If it's empty, gain +4/+4 instead.<br/>
                 /// 3-Cost 2/2 Minion
                 /// </summary>
                 public const string Hellraiser = "JAIL_734";
@@ -1539,7 +1545,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Your Hero Power becomes 'Collapsing Star'. If it already is, increase its damage by 1.<br/>
-                /// 3-Cost Spell
+                /// 2-Cost Spell
                 /// </summary>
                 public const string SoulImmolation = "JAIL_EVENT_101";
 

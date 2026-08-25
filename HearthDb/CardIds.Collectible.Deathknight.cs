@@ -647,6 +647,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string TheLichKing_LichLordKelthuzadHeroHeroSkinsEnchantment1 = "HERO_11be";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKing_LichLordKelthuzadHeroHeroSkinsEnchantment2 = "HERO_11be_necro";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string TheLichKing_JudgeJailerHeroHeroSkins = "HERO_11bi";
 
                 /// <summary>

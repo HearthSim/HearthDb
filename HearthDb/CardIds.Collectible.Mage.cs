@@ -350,7 +350,7 @@ namespace HearthDb
                 public const string Raincaller = "CATA_487";
 
                 /// <summary>
-                /// <b>Colossal +2</b> At the end of your turn, deal 2 damage to all other minions.<br/>
+                /// <b>Colossal +2</b> At the end of your turn, deal 3 damage to all other minions.<br/>
                 /// 7-Cost 4/8 Elemental Minion
                 /// </summary>
                 public const string Vulcanos = "CATA_488";
@@ -1865,6 +1865,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string JainaProudmoore_LichLordKelthuzadHeroHeroSkins1 = "HERO_08cs";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_LichLordKelthuzadHeroHeroSkins2 = "HERO_08cs_necro";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string JainaProudmoore_MurozondAFKayHeroHeroSkins = "HERO_08ct";
 
                 /// <summary>
@@ -2102,8 +2114,8 @@ namespace HearthDb
                 public const string TheSkeletonKey = "JAIL_319";
 
                 /// <summary>
-                /// <b>Prepare</b> <b>Battlecry:</b> If you've cast a spell this turn, cast a random Mage <b>Secret</b>.<br/>
-                /// 4-Cost 4/4 Minion
+                /// <b>Prepare</b> <b>Battlecry:</b> If you've cast a spell this turn, cast two random Mage <b>Secrets</b>.<br/>
+                /// 5-Cost 4/3 Minion
                 /// </summary>
                 public const string TricksyImproviser = "JAIL_321";
 

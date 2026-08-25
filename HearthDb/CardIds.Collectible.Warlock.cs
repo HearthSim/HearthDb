@@ -314,6 +314,48 @@ namespace HearthDb
                 public const string KanrethadEbonlocke = "BT_309";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Put two 3/3 Imp-formants into the enemy deck. They summon for YOU when drawn.<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string KabalConspirator = "CAP_400";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If the enemy deck has any Imp-formants, move one to the top and give it +2/+2.<br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
+                public const string CorruptConstable = "CAP_401";
+
+                /// <summary>
+                /// Put a 3/3 Imp-formant into the enemy deck. Give a playable card in your hand this effect for a turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string FollowTheEvidence = "CAP_402";
+
+                /// <summary>
+                /// Destroy two random enemy minions. <b>Discover</b> a minion in the enemy deck to put on top.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string FrameJob = "CAP_403";
+
+                /// <summary>
+                /// Enemy minions cost (2) more next turn. Put two 3/3 Imp-formants into the enemy deck.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string HarshSentence = "CAP_404";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Plot a custom sham trial! Then choose the trial's length.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string GodfatherKazakus = "CAP_405";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Battlecry:</b> Whenever you summon an Imp-formant this game, give it +2/+2.<br/>
+                /// 5-Cost 5/5 Minion
+                /// </summary>
+                public const string KabalMastermind = "CAP_406";
+
+                /// <summary>
                 /// <b>Taunt</b> <b>Battlecry:</b> Choose a card in your hand to discard.<br/>
                 /// 3-Cost 3/6 Demon Minion
                 /// </summary>
@@ -1836,6 +1878,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Guldan_GaolbreakerGodfreyHeroHeroSkins = "HERO_07bx";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Guldan_ZuramatTheObliteratorHeroHeroSkins = "HERO_07by";
 
                 /// <summary>
                 /// (No Text)<br/>

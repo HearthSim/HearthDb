@@ -4701,7 +4701,7 @@ namespace HearthDb
                 public const string BlackMarketOverseer_OverseenEnchantment = "JAIL_880e";
 
                 /// <summary>
-                /// <b>Casts When Drawn</b> Deal $5 damage split among all enemies.<br/>
+                /// <b>Casts When Drawn</b> Deal $4 damage split among all enemies.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ArcaneTripwire_TrippedArcaneTripwireToken = "JAIL_881t";

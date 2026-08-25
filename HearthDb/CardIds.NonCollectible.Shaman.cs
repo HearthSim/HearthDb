@@ -4196,7 +4196,7 @@ namespace HearthDb
                 public const string TinyPal_TinyPalToken4 = "JAIL_458t4";
 
                 /// <summary>
-                /// <b>Passive</b> Your first minion each turn costs (2) less.<br/>
+                /// <b>Passive</b> Your first minion each turn costs (2) less. <i>(Unlocks on Turn 3.)</i>3<b>Passive</b> Your first minion each turn costs (2) less.<br/>
                 /// HeroPower
                 /// </summary>
                 public const string MugsMagicHeroic1 = "JAIL_800hp1";

@@ -419,13 +419,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins18 = "HERO_08dbp";
+                public const string JainaProudmoore_FireblastHeroSkins18 = "HERO_08cshp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins19 = "HERO_08cshp_necro";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins18 = "HERO_08dbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins18 = "HERO_08cshp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins19 = "HERO_08cshp2_necro";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins20 = "HERO_08dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins20 = "HERO_08dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -443,13 +467,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins19 = "HERO_08fbp";
+                public const string JainaProudmoore_FireblastHeroSkins21 = "HERO_08fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins19 = "HERO_08fbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins21 = "HERO_08fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
@@ -461,13 +485,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins20 = "HERO_08lbp";
+                public const string JainaProudmoore_FireblastHeroSkins22 = "HERO_08lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins20 = "HERO_08lbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins22 = "HERO_08lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -485,7 +509,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins21 = "HERO_08xbp";
+                public const string JainaProudmoore_FireblastHeroSkins23 = "HERO_08xbp";
 
                 /// <summary>
                 /// Deal $3 damage randomly split among all enemies.<br/>
@@ -4802,13 +4826,13 @@ namespace HearthDb
 
                 /// <summary>
                 /// Whenever this takes damage, get a random Fire spell. It costs (3) less.<br/>
-                /// 2-Cost 1/4 Elemental Minion
+                /// 2-Cost 1/5 Elemental Minion
                 /// </summary>
                 public const string Vulcanos_PlumeOfVulcanosToken1 = "CATA_488t";
 
                 /// <summary>
                 /// Whenever this takes damage, get a random Fire spell. It costs (3) less.<br/>
-                /// 2-Cost 1/4 Elemental Minion
+                /// 2-Cost 1/5 Elemental Minion
                 /// </summary>
                 public const string Vulcanos_PlumeOfVulcanosToken2 = "CATA_488t2";
 

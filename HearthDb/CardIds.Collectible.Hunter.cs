@@ -362,8 +362,8 @@ namespace HearthDb
                 public const string ReinforcementRallier = "CATA_558";
 
                 /// <summary>
-                /// Replay each 1-Cost card you've played this game <i>(targeting enemies if possible.)</i><br/>
-                /// 5-Cost Spell
+                /// Summon each 1-Cost minion you've played this game.<br/>
+                /// 4-Cost Spell
                 /// </summary>
                 public const string ConfrontTheTolvir = "CATA_560";
 
@@ -1811,6 +1811,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Rexxar_BountyHunterVivianHeroHeroSkins = "HERO_05ca";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_WarsongRexxarHeroHeroSkins = "HERO_05d";
 
                 /// <summary>
@@ -2036,7 +2042,7 @@ namespace HearthDb
                 public const string BlackMarketOverseer = "JAIL_880";
 
                 /// <summary>
-                /// Deal $5 damage split among all enemies. Shuffle 2 spells into your deck that do it again when drawn.<br/>
+                /// Deal $4 damage split among all enemies. Shuffle 2 spells into your deck that do it again when drawn.<br/>
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ArcaneTripwire = "JAIL_881";

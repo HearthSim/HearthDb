@@ -412,25 +412,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins15 = "HERO_07cahp";
+                public const string Guldan_LifeTapHeroSkins15 = "HERO_07byhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins14 = "HERO_07cahp2";
+                public const string Guldan_SoulTapHeroSkins14 = "HERO_07byhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins16 = "HERO_07dbp";
+                public const string Guldan_LifeTapHeroSkins16 = "HERO_07cahp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins15 = "HERO_07dbp2";
+                public const string Guldan_SoulTapHeroSkins15 = "HERO_07cahp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_LifeTapHeroSkins17 = "HERO_07dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_SoulTapHeroSkins16 = "HERO_07dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
@@ -454,25 +466,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins17 = "HERO_07ybp";
+                public const string Guldan_LifeTapHeroSkins18 = "HERO_07ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins16 = "HERO_07ybp2";
+                public const string Guldan_SoulTapHeroSkins17 = "HERO_07ybp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins18 = "HERO_07zbp";
+                public const string Guldan_LifeTapHeroSkins19 = "HERO_07zbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins17 = "HERO_07zbp2";
+                public const string Guldan_SoulTapHeroSkins18 = "HERO_07zbp2";
 
                 /// <summary>
                 /// Deal $4 damage to a minion.<br/>
@@ -4640,6 +4652,114 @@ namespace HearthDb
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string ChogallMastermind_GallsArmToken = "CATA_726t1";
+
+                /// <summary>
+                /// <b>Lifesteal</b> <b>Summoned When Drawn</b> <i>(for your opponent)</i><br/>
+                /// 3-Cost 3/3 Demon Minion
+                /// </summary>
+                public const string KabalConspirator_ImpFormantToken = "CAP_400t2t";
+
+                /// <summary>
+                /// Shuffle a 3/3 Imp-formant into the enemy deck. Give a playable card in your hand this effect for a turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FollowtheEvidence_FollowingTheEvidenceEnchantment = "CAP_402e";
+
+                /// <summary>
+                /// Force each minion to attack another minion.<br/>
+                /// Spell
+                /// </summary>
+                public const string GodfatherKazakus_DetainedForDestructionToken = "CAP_405t1";
+
+                /// <summary>
+                /// Take control of a random enemy minion.<br/>
+                /// Spell
+                /// </summary>
+                public const string GodfatherKazakus_ConvictedForConspiracyToken = "CAP_405t2";
+
+                /// <summary>
+                /// Steal 2 cards from your opponent's hand.<br/>
+                /// Spell
+                /// </summary>
+                public const string GodfatherKazakus_SentencedForSmugglingToken = "CAP_405t3";
+
+                /// <summary>
+                /// Draw 3 cards.<br/>
+                /// Spell
+                /// </summary>
+                public const string GodfatherKazakus_CrateOfContrabandToken = "CAP_405t4";
+
+                /// <summary>
+                /// Give minions in your hand and battlefield +3/+3.<br/>
+                /// Spell
+                /// </summary>
+                public const string GodfatherKazakus_SpuriousShivToken = "CAP_405t5";
+
+                /// <summary>
+                /// Summon three random 3-Cost minions.<br/>
+                /// Spell
+                /// </summary>
+                public const string GodfatherKazakus_CriminalContractToken = "CAP_405t6";
+
+                /// <summary>
+                /// Reduce the Cost of minions in your hand by (2).<br/>
+                /// Spell
+                /// </summary>
+                public const string GodfatherKazakus_PotionOfPerjuryToken = "CAP_405t7";
+
+                /// <summary>
+                /// Restore #12 Health to your hero.<br/>
+                /// Spell
+                /// </summary>
+                public const string GodfatherKazakus_SwillOfSuggestibilityToken = "CAP_405t8";
+
+                /// <summary>
+                /// Summon a Voidlord.<br/>
+                /// Spell
+                /// </summary>
+                public const string GodfatherKazakus_TonicOfTyrannyToken = "CAP_405t9";
+
+                /// <summary>
+                /// {0} {1}<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string GodfatherKazakus_RushedTrialToken1 = "CAP_405tb1";
+
+                /// <summary>
+                /// The trial finishes immediately!<br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string GodfatherKazakus_RushedTrialToken2 = "CAP_405tb1b";
+
+                /// <summary>
+                /// In 1 turn, {0} {1}<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string GodfatherKazakus_GruelingTrialToken1 = "CAP_405tb2";
+
+                /// <summary>
+                /// The trial finishes at the start of your next turn.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string GodfatherKazakus_GruelingTrialToken2 = "CAP_405tb2b";
+
+                /// <summary>
+                /// In 4 turns, {0} {1}<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string GodfatherKazakus_UnendingTrialToken1 = "CAP_405tb3";
+
+                /// <summary>
+                /// The trial finishes in 4 turns.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string GodfatherKazakus_UnendingTrialToken2 = "CAP_405tb3b";
+
+                /// <summary>
+                /// Whenever you summon an Imp-formant this game, give it +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string KabalMastermind_ImpRovedImpFormantsEnchantment = "CAP_406e";
 
                 /// <summary>
                 /// <b>Deathrattle:</b> Destroy the chosen card.<br/>

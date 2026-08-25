@@ -4808,6 +4808,24 @@ namespace HearthDb
                 public const string SearingFissure_FlameboundEnchantment = "CATA_582e";
 
                 /// <summary>
+                /// When played, deal $2 damage to a random enemy. Give a playable Pirate in your hand this effect for a turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FollowtheFuse_FollowingTheFuseEnchantment = "CAP_101e";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 1-Cost 1/1 Pirate Minion
+                /// </summary>
+                public const string HooknHeave_CutlassCutthroatToken = "CAP_105t";
+
+                /// <summary>
+                /// At the end of your turn, deal 1 damage to a random enemy.<br/>
+                /// 1-Cost 1/1 Pirate Minion
+                /// </summary>
+                public const string Cannonmaster_CannoneerToken = "CAP_107t";
+
+                /// <summary>
                 /// +1/+2.<br/>
                 /// Enchantment
                 /// </summary>

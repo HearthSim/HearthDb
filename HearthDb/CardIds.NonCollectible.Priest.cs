@@ -3590,6 +3590,36 @@ namespace HearthDb
                 public const string Schism_SchismToken2 = "CATA_306t2";
 
                 /// <summary>
+                /// <b>Reborn</b>. Is <b>Reborn</b> with full Health and enchantments.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string SinfulSteed_NeighEnchantment = "CAP_800e";
+
+                /// <summary>
+                /// After this is played, summon a 2/1 Ghost with <b>Reborn</b>. Give a card in your hand this effect for a turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FollowtheGhosts_FollowingTheGhostsEnchantment = "CAP_802e1";
+
+                /// <summary>
+                /// <b>Reborn</b><br/>
+                /// 2-Cost 2/1 Undead Minion
+                /// </summary>
+                public const string FollowtheGhosts_SpookyGhostToken = "CAP_802t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Slimeem_IveBeenSlimedEnchantment = "CAP_805e";
+
+                /// <summary>
+                /// Resummon all friendly minions that were slimed.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string Slimeem_EctoplasmToken = "CAP_805t";
+
+                /// <summary>
                 /// Copied Hint<br/>
                 /// Enchantment
                 /// </summary>

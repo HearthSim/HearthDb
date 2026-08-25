@@ -590,7 +590,7 @@ namespace HearthDb
                 public const string ZapCorePlaceholder = "CORE_GIL_600";
 
                 /// <summary>
-                /// <b>Discover</b> a <b>Battlecry</b> minion.<br/>
+                /// <b>Discover</b> a <b>Battlecry</b> minion. It costs (1) less.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string BlazingInvocationCore = "CORE_GIL_836";
@@ -1454,7 +1454,7 @@ namespace HearthDb
                 public const string Shudderwock = "GIL_820";
 
                 /// <summary>
-                /// <b>Discover</b> a <b>Battlecry</b> minion.<br/>
+                /// <b>Discover</b> a <b>Battlecry</b> minion. It costs (1) less.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string BlazingInvocation = "GIL_836";
@@ -2031,7 +2031,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// After you play a <b>Battlecry</b> minion, give it +1/+1.<br/>
-                /// 1-Cost 1/3 Elemental Minion
+                /// 2-Cost 2/3 Elemental Minion
                 /// </summary>
                 public const string GallagioGoon = "JAIL_802";
 

@@ -314,6 +314,48 @@ namespace HearthDb
                 public const string Akama = "BT_713";
 
                 /// <summary>
+                /// <b><b>Stealth</b>.</b> Whenever a friendly <b><b>Stealth</b>ed</b> minion attacks, give it +2/+2.<br/>
+                /// 3-Cost 1/2 Minion
+                /// </summary>
+                public const string Si7Slayer = "CAP_000";
+
+                /// <summary>
+                /// Give a minion +3 Attack. If it's <b><b>Stealth</b>ed</b>, deal its Attack damage to a random enemy minion.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SilentStrike = "CAP_001";
+
+                /// <summary>
+                /// <b>Discover</b> a <b>Stealth</b> minion. Give it this effect for a turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string FollowTheFootsteps = "CAP_002";
+
+                /// <summary>
+                /// <b>Stealth</b> After this attacks, draw a card.<br/>
+                /// 2-Cost 1/3 Minion
+                /// </summary>
+                public const string Si7Supplier = "CAP_003";
+
+                /// <summary>
+                /// Can be played on either side. <b>Rush</b>. <b>Deathrattle:</b> Your opponent draws 2 cards.<br/>
+                /// 1-Cost 4/2 Minion
+                /// </summary>
+                public const string DisguisedOperator = "CAP_004";
+
+                /// <summary>
+                /// <b><b>Stealth</b>.</b> Whenever a friendly <b><b>Stealth</b>ed</b> minion attacks, reduce the Cost of a random card in your hand by (3).<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string MathiasShaw = "CAP_005";
+
+                /// <summary>
+                /// Deal $1 damage. If a <b><b>Stealth</b>ed</b> minion attacked while holding this, deal $3 instead.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string TricksOfTheTrade = "CAP_006";
+
+                /// <summary>
                 /// <b>Colossal +2</b> Your spells from other classes cast twice.<br/>
                 /// 6-Cost 5/5 Dragon Minion
                 /// </summary>
@@ -1739,6 +1781,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string ValeeraSanguinar_MobBossValeeraHeroHeroSkins = "HERO_03bi";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_HopefulVanessaHeroHeroSkins = "HERO_03bj";
 
                 /// <summary>
@@ -1788,6 +1836,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ValeeraSanguinar_AyaBlackpawHeroHeroSkins = "HERO_03by";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinar_BountyHunterEdwinHeroHeroSkins = "HERO_03cd";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -1983,7 +2037,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Get two random 8-Cost minions. They cost (1) less for each card you played for 2 Mana this game. <i>()</i><br/>
-                /// 3-Cost Spell
+                /// 5-Cost Spell
                 /// </summary>
                 public const string JadeGuardians = "JAIL_474";
 
@@ -2006,7 +2060,7 @@ namespace HearthDb
                 public const string BlackpawsWhip = "JAIL_503";
 
                 /// <summary>
-                /// You always go second. <b>Battlecry:</b> Pick an upgraded counterfeit to replace your Coins this game. Get two.<br/>
+                /// You always go second. <b>Battlecry:</b> Pick an upgraded counterfeit to replace your Coins this game. Get 3.<br/>
                 /// 6-Cost 6/3 Minion
                 /// </summary>
                 public const string AyaLotusKingpin = "JAIL_504";

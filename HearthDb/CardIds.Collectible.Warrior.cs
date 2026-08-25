@@ -319,6 +319,48 @@ namespace HearthDb
                 public const string BulwarkOfAzzinoth = "BT_781";
 
                 /// <summary>
+                /// Deal $2 damage to a random enemy. Give a playable Pirate in your hand this effect for a turn.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string FollowTheFuse = "CAP_101";
+
+                /// <summary>
+                /// Draw 2 cards. Summon two 1/1 Cannoneers.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string LandHo = "CAP_102";
+
+                /// <summary>
+                /// After your hero attacks, your Cannoneers FIRE!<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string HandCannon = "CAP_103";
+
+                /// <summary>
+                /// On your turn, friendly Pirates deal 1 more damage.<br/>
+                /// 2-Cost 2/3 Pirate Minion
+                /// </summary>
+                public const string BlastpowderEngineer = "CAP_104";
+
+                /// <summary>
+                /// <b>Discover</b> a Pirate. Summon two 1/1 Cannoneers.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string HookNHeave = "CAP_105";
+
+                /// <summary>
+                /// Your Cannoneers fire an additional shot. <b>Battlecry</b>: Summon two 1/1 Cannoneers.<br/>
+                /// 5-Cost 4/5 Pirate Minion
+                /// </summary>
+                public const string CaptainCrowley = "CAP_106";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a 1/1 Cannoneer that deals 1 damage to a random enemy at end of turn.<br/>
+                /// 1-Cost 3/1 Pirate/Draenei Minion
+                /// </summary>
+                public const string Cannonmaster = "CAP_107";
+
+                /// <summary>
                 /// <b>Colossal +2</b> At the end of your turn, trigger your minions' <b>Deathrattles</b>.<br/>
                 /// 8-Cost 8/8 Elemental Minion
                 /// </summary>
@@ -2029,8 +2071,8 @@ namespace HearthDb
                 public const string Rioter = "JAIL_029";
 
                 /// <summary>
-                /// Deal $2 damage to all minions. If your deck has 25 or more cards, deal $2 more.<br/>
-                /// 3-Cost Spell
+                /// Deal $2 damage to all minions twice. If your deck has 25 or more cards, this costs (2) less.<br/>
+                /// 5-Cost Spell
                 /// </summary>
                 public const string CrowdControl = "JAIL_307";
 

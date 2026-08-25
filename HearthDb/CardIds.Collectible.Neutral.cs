@@ -1273,6 +1273,12 @@ namespace HearthDb
                 public const string Magtheridon = "BT_850";
 
                 /// <summary>
+                /// <b>Discover</b> a minion that costs (5) or more. Give it <b>Prepare</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string WantedPoster = "CAP_407";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If you're holding a Dragon, refresh 2 Mana Crystals.<br/>
                 /// 3-Cost 4/3 Dragon Minion
                 /// </summary>
@@ -6721,7 +6727,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// After you play a minion, give it +3/+3 and make it go <b>Dormant</b> for 1 turn.<br/>
-                /// 2-Cost 1/4 Minion
+                /// 2-Cost 1/3 Minion
                 /// </summary>
                 public const string WardenMaiev = "JAIL_850";
 

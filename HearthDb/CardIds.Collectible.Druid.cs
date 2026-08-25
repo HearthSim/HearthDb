@@ -2018,8 +2018,8 @@ namespace HearthDb
                 public const string Hadronox = "ICC_835";
 
                 /// <summary>
-                /// Summon a random 4-Cost minion. <i>(Improved by your hero attacks this game.)</i><br/>
-                /// 4-Cost Spell
+                /// Summon two random 3-Cost minions. <i>(Improved by your hero attacks this game.)</i><br/>
+                /// 5-Cost Spell
                 /// </summary>
                 public const string InfestTheScullery = "JAIL_200";
 

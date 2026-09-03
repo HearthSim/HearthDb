@@ -1185,7 +1185,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Battlecry:</b> The next card you play costs your OPPONENT'S Health instead of Mana <i>(up to 10)</i>.<br/>
-                /// 10-Cost 8/9 Beast Minion
+                /// 10-Cost 9/9 Beast Minion
                 /// </summary>
                 public const string Agamaggan = "EDR_489";
 

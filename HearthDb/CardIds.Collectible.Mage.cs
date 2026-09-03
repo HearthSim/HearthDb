@@ -2774,7 +2774,7 @@ namespace HearthDb
                 public const string TitanographerOsk = "TLC_452";
 
                 /// <summary>
-                /// <b>Quest:</b> <b>Discover</b> 7 cards. <b>Reward:</b> The Origin Stone.<br/>
+                /// <b>Quest:</b> <b>Discover</b> 8 cards. <b>Reward:</b> The Origin Stone.<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string TheForbiddenSequence = "TLC_460";

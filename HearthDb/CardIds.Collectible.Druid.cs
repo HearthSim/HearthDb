@@ -999,7 +999,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b>, <b>Elusive</b> <b>Deathrattle:</b> Give all minions in your hand and deck +3/+3.<br/>
-                /// 9-Cost 9/9 Beast Minion
+                /// 8-Cost 8/8 Beast Minion
                 /// </summary>
                 public const string Seismopod = "DINO_421";
 
@@ -2031,7 +2031,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// Your hero has +1 Attack on your turn.<br/>
-                /// 1-Cost 1/3 Beast Minion
+                /// 1-Cost 1/2 Beast Minion
                 /// </summary>
                 public const string Spiderling = "JAIL_202";
 

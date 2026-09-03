@@ -453,7 +453,7 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Taunt</b>. <b>Battlecry:</b> Choose an enemy minion to steal 3 Health from, three times.<br/>
-                /// 9-Cost 9/6 Beast Minion
+                /// 9-Cost 8/8 Beast Minion
                 /// </summary>
                 public const string DreadLeviathan = "CATA_699";
 

@@ -31,7 +31,7 @@ namespace HearthDb.CardDefs
 		public List<Tag> ReferencedTags { get; set; } = new List<Tag>();
 
 		[XmlElement("Power")]
-		public Power Power { get; set; }
+		public List<Power> Powers { get; set; }
 
 		[XmlElement("EntourageCard")]
 		public List<EntourageCard> EntourageCards { get; set; } = new List<EntourageCard>();

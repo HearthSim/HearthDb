@@ -8,6 +8,12 @@ namespace HearthDb
             public class Deathknight
             {
                 /// <summary>
+                /// Draw 2 minions. Refresh 5 Mana Crystals. You can only play minions for the rest of the turn.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string ArrivalOfTheOldGods = "BE_EVENT_100";
+
+                /// <summary>
                 /// <b>Colossal +2</b>. When your hero would lose Health on your turn, gain that much max Health instead.<br/>
                 /// 9-Cost 3/6 Dragon/Undead Minion
                 /// </summary>

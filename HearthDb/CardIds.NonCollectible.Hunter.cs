@@ -4332,7 +4332,7 @@ namespace HearthDb
                 /// <b>Reborn</b>. Is <b>Reborn</b> with full Health and enchantments.<br/>
                 /// Enchantment
                 /// </summary>
-                public const string PersistingHorrorToken2 = "EDR_100t9e";
+                public const string PersistingHorrorTokenEMERALD_DREAM2 = "EDR_100t9e";
 
                 /// <summary>
                 /// +3 Attack and <b>Lifesteal</b>.<br/>

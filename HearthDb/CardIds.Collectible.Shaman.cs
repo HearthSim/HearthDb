@@ -1364,7 +1364,7 @@ namespace HearthDb
                 public const string FarseerNobundo = "GDB_447";
 
                 /// <summary>
-                /// Your <b>Battlecry</b> minions costs (1), but immediately die after being played.<br/>
+                /// Your <b>Battlecry</b> minions cost (1), but immediately die after being played.<br/>
                 /// 9-Cost 6/6 Elemental Minion
                 /// </summary>
                 public const string Murmur = "GDB_448";
@@ -1812,6 +1812,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Thrall_JailbirdInzahHeroHeroSkins = "HERO_02ca";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Thrall_BulletstormAlakirHeroHeroSkins = "HERO_02ck";
 
                 /// <summary>
                 /// (No Text)<br/>

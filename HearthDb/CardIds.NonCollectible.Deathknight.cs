@@ -11,7 +11,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKingHeroic_GhoulFrenzyEnchantment1 = "HERO_11aehp2";
+                public const string TheLichKingHeroic_GhoulFrenzyEnchantment = "HERO_11aehp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -54,18 +54,6 @@ namespace HearthDb
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string TheLichKing_GhoulFrenzy7 = "HERO_11bdhp2";
-
-                /// <summary>
-                /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
-                /// 2-Cost HeroPower
-                /// </summary>
-                public const string TheLichKingHeroic_GhoulFrenzyEnchantment2 = "HERO_11behp2";
-
-                /// <summary>
-                /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
-                /// 2-Cost HeroPower
-                /// </summary>
-                public const string TheLichKingHeroic_GhoulFrenzyEnchantment3 = "HERO_11behp2_necro";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -198,6 +186,18 @@ namespace HearthDb
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string TheLichKingHeroic_GhoulChargeHeroSkinsEnchantment3 = "HERO_11behp_necro";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string TheLichKingHeroic_GhoulFrenzyHeroSkinsEnchantment1 = "HERO_11behp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string TheLichKingHeroic_GhoulFrenzyHeroSkinsEnchantment2 = "HERO_11behp2_necro";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -2100,6 +2100,12 @@ namespace HearthDb
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string UltraliskCavern_BanelingToken = "SC_019t";
+
+                /// <summary>
+                /// You can only play minions this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ArrivaloftheOldGods_OldGodsWatchEnchantment = "BE_EVENT_100e";
 
                 /// <summary>
                 /// Reduced Health.<br/>

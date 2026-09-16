@@ -425,7 +425,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins19 = "HERO_08cshp_necro";
+                public const string JainaProudmoore_FireblastHeroSkins19 = "HERO_08cshp_bigglesworth";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins20 = "HERO_08cshp_necro";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
@@ -437,19 +443,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins19 = "HERO_08cshp2_necro";
-
-                /// <summary>
-                /// <b>Hero Power</b> Deal $1 damage.<br/>
-                /// 2-Cost HeroPower
-                /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins20 = "HERO_08dbp";
+                public const string JainaProudmoore_FireblastRank2HeroSkins19 = "HERO_08cshp2_bigglesworth";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins20 = "HERO_08dbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins20 = "HERO_08cshp2_necro";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins21 = "HERO_08dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins21 = "HERO_08dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -467,13 +479,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins21 = "HERO_08fbp";
+                public const string JainaProudmoore_FireblastHeroSkins22 = "HERO_08fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins21 = "HERO_08fbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins22 = "HERO_08fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
@@ -485,13 +497,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins22 = "HERO_08lbp";
+                public const string JainaProudmoore_FireblastHeroSkins23 = "HERO_08lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins22 = "HERO_08lbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins23 = "HERO_08lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -509,7 +521,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins23 = "HERO_08xbp";
+                public const string JainaProudmoore_FireblastHeroSkins24 = "HERO_08xbp";
 
                 /// <summary>
                 /// Deal $3 damage randomly split among all enemies.<br/>
@@ -4523,6 +4535,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Saruun_HeatOfSaruunEnchantment = "GDB_304e";
+
+                /// <summary>
+                /// You can only play spells this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ArrivaloftheTitans_TitansWatchEnchantment = "BE_EVENT_101e";
 
                 /// <summary>
                 /// Keep the spell.<br/>

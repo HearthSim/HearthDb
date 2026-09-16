@@ -182,6 +182,12 @@ namespace HearthDb
                 public const string Xyrella = "BAR_735";
 
                 /// <summary>
+                /// Deal $5 damage to a minion. This continues to the left and right with 1 less damage.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string DarkTerraforming = "BE_EVENT_102";
+
+                /// <summary>
                 /// <b>Battlecry:</b> If you have 10 Mana Crystals, restore #10 Health to your hero.<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
@@ -1908,6 +1914,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string AnduinWrynn_KingAnduinHeroHeroSkins = "HERO_09c";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_ZekvozHeroHeroSkins = "HERO_09cb";
 
                 /// <summary>
                 /// (No Text)<br/>

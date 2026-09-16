@@ -728,6 +728,18 @@ namespace HearthDb
                 public const string CrossroadsGossiper = "BAR_890";
 
                 /// <summary>
+                /// <b>Old God.</b> If you've triggered all 4 C'Thun abilities this game, this minion's abilities are tripled.<br/>
+                /// 10-Cost 12/12 Minion
+                /// </summary>
+                public const string CthunEyeOfTheEmpire = "BE_013";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Reduce the Cost of a card in your hand by (5). This continues to the left and right with (1) less reduction.<br/>
+                /// 9-Cost 9/7 Minion
+                /// </summary>
+                public const string MOTHER = "BE_036";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Choose an action from the Battlegrounds!<br/>
                 /// 6-Cost 4/5 Minion
                 /// </summary>

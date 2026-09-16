@@ -1882,6 +1882,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string GarroshHellscream_SireDenathriusBatHeroHeroSkins = "HERO_01cg";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string GarroshHellscream_NagrandGarroshHeroHeroSkins = "HERO_01d";
 
                 /// <summary>
@@ -2071,7 +2077,7 @@ namespace HearthDb
                 public const string Rioter = "JAIL_029";
 
                 /// <summary>
-                /// Deal $2 damage to all minions twice. If your deck has 25 or more cards, this costs (2) less.<br/>
+                /// Deal $2 damage to all minions, twice. If your deck has 25 or more cards, this costs (2) less.<br/>
                 /// 5-Cost Spell
                 /// </summary>
                 public const string CrowdControl = "JAIL_307";

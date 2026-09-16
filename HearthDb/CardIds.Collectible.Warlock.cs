@@ -1889,6 +1889,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Guldan_PetSittingMalganisHeroHeroSkins = "HERO_07bz";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Guldan_ShadowGuldanHeroHeroSkins = "HERO_07c";
 
                 /// <summary>
@@ -1896,6 +1902,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string Guldan_QixiTuralyonHeroHeroSkins = "HERO_07ca";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Guldan_DragonswornTamsinHeroHeroSkins = "HERO_07cl";
 
                 /// <summary>
                 /// (No Text)<br/>

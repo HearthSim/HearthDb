@@ -182,6 +182,18 @@ namespace HearthDb
                 public const string Rimetongue = "BAR_888";
 
                 /// <summary>
+                /// <b>Battlecry:</b> Summon two 10/10 Constructs. They are <b>Frozen</b> until you spend 15 Mana on spells.<br/>
+                /// 6-Cost 5/5 Minion
+                /// </summary>
+                public const string Isiset = "BE_259";
+
+                /// <summary>
+                /// Draw 2 spells. Refresh 6 Mana Crystals. You can only play spells for the rest of the turn.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string ArrivalOfTheTitans = "BE_EVENT_101";
+
+                /// <summary>
                 /// Add 2 random minions to your hand.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -1890,6 +1902,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string JainaProudmoore_CelesteHeroHeroSkins = "HERO_08d";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_YoggRamenHeroHeroSkins = "HERO_08de";
 
                 /// <summary>
                 /// (No Text)<br/>

@@ -182,6 +182,12 @@ namespace HearthDb
                 public const string ScabbsCutterbutter = "BAR_552";
 
                 /// <summary>
+                /// <b>Deathrattle:</b> Draw an <b>Old God</b>. If you can't, get a random <b>Old God</b>.<br/>
+                /// 4-Cost 6/4 Minion
+                /// </summary>
+                public const string DrestAgath = "BE_703";
+
+                /// <summary>
                 /// Add 2 random <b>Deathrattle</b> cards to your hand.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -1836,6 +1842,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string ValeeraSanguinar_AyaBlackpawHeroHeroSkins = "HERO_03by";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinar_CatBurglarEdwinHeroHeroSkins = "HERO_03bz";
 
                 /// <summary>
                 /// (No Text)<br/>

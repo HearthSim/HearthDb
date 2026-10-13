@@ -4487,6 +4487,30 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string DefiasWannabe_GimmeAChanceEnchantment = "JAIL_909e";
+
+                /// <summary>
+                /// <b><b>Combo</b>:</b> Equip a 1/2 Dagger.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_BlackLarvaToken = "BE_720t3";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FetidDevourer_FetidEnchantment = "BE_781e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you control another Mech, deal 4 damage.<br/>
+                /// 4-Cost 4/4 Mechanical Minion
+                /// </summary>
+                public const string SencoreTinyWorldbreaker = "core_mon_0010";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your next spell this turn costs (0).<br/>
+                /// 4-Cost 2/2 Naga Minion
+                /// </summary>
+                public const string ElecoreSwiftscaleTrickster = "core_mon_0023";
             }
         }
     }

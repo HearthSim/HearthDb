@@ -455,13 +455,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins21 = "HERO_08dbp";
+                public const string JainaProudmoore_FireblastHeroSkins21 = "HERO_08cxhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins21 = "HERO_08dbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins21 = "HERO_08cxhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $1 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastHeroSkins22 = "HERO_08dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string JainaProudmoore_FireblastRank2HeroSkins22 = "HERO_08dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -479,13 +491,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins22 = "HERO_08fbp";
+                public const string JainaProudmoore_FireblastHeroSkins23 = "HERO_08fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins22 = "HERO_08fbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins23 = "HERO_08fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
@@ -497,13 +509,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins23 = "HERO_08lbp";
+                public const string JainaProudmoore_FireblastHeroSkins24 = "HERO_08lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastRank2HeroSkins23 = "HERO_08lbp2";
+                public const string JainaProudmoore_FireblastRank2HeroSkins24 = "HERO_08lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
@@ -521,7 +533,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $1 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string JainaProudmoore_FireblastHeroSkins24 = "HERO_08xbp";
+                public const string JainaProudmoore_FireblastHeroSkins25 = "HERO_08xbp";
 
                 /// <summary>
                 /// Deal $3 damage randomly split among all enemies.<br/>
@@ -965,7 +977,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string JainaProudmooreTavernBrawl = "TB_KT_Jaina";
+                public const string JainaProudmooreTavernBrawl2 = "TB_KT_Jaina";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -4925,6 +4937,66 @@ namespace HearthDb
                 /// 0-Cost Spell
                 /// </summary>
                 public const string TheSkeletonKey_TransformTheKeyToken = "JAIL_319t";
+
+                /// <summary>
+                /// <b>Passive</b>. At the start of your turn, you may choose to draw from the top or bottom of your deck.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string DiscsofNorgannon_ShiftTheDiscsEnchantment = "BE_250e";
+
+                /// <summary>
+                /// Draw from the top of your deck.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string DiscsofNorgannon_LeaveTheDiscsToken = "BE_250t";
+
+                /// <summary>
+                /// Draw from the bottom of your deck.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string DiscsofNorgannon_ShiftTheDiscsToken = "BE_250t2";
+
+                /// <summary>
+                /// <b>Frozen</b> until you spend 15 Mana on spells. <i>(15 left!)</i><br/>
+                /// 10-Cost 10/10 Minion
+                /// </summary>
+                public const string ColossusOfTheCold = "BE_254";
+
+                /// <summary>
+                /// Reduces cost each turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ThawFromIce_ThawEnchantment = "BE_257e";
+
+                /// <summary>
+                /// Reduced Cost.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ThawFromIce_MeltingEnchantment = "BE_257e2";
+
+                /// <summary>
+                /// <b>Combo:</b> Deal 1 damage.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_CyanLarvaToken = "BE_720t8";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a Frost spell. At the start of your turns, reduce its Cost by (1).<br/>
+                /// 3-Cost 3/3 Elemental Minion
+                /// </summary>
+                public const string ElecoreWatercolorArtist = "core_mon_0021";
+
+                /// <summary>
+                /// For each spell school you have cast this game, summon a 4/5 Vortex with a random <b>Bonus Effect</b>. <i>()</i><br/>
+                /// 7-Cost Spell
+                /// </summary>
+                public const string ElecoreElementalInspiration = "core_mon_0022";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Your next Hero Power this turn deals 2 more damage.<br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string ElecoreDaringFireEater = "core_mon_0026";
             }
         }
     }

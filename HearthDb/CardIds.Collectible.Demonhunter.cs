@@ -128,6 +128,66 @@ namespace HearthDb
                 public const string FuryRank1 = "BAR_891";
 
                 /// <summary>
+                /// Your left-most minion has <b>Rush</b>. Your right-most minion is <b>Immune</b> while attacking.<br/>
+                /// 4-Cost 4/4 Beast Minion
+                /// </summary>
+                public const string Ravitz = "BE_230";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Assemble</b> a 1-Cost minion.<br/>
+                /// 3-Cost 3/4 Minion
+                /// </summary>
+                public const string AttentiveTender = "BE_262";
+
+                /// <summary>
+                /// <b>Outcast and Deathrattle:</b>&amp; Get a random <b>Outcast</b> card.<br/>
+                /// 3-Cost 3/2 Beast Minion
+                /// </summary>
+                public const string BlindHarrower = "BE_264";
+
+                /// <summary>
+                /// Summon five 3/1 Shredclaws with <b>Rush</b>. Summon a random 1-Cost minion for your opponent.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string Encircle = "BE_265";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If a friendly minion died this turn, attack a random enemy.<br/>
+                /// 5-Cost 7/5 Beast Minion
+                /// </summary>
+                public const string TerrorOfTheWastes = "BE_564";
+
+                /// <summary>
+                /// <b>Battlecry</b>: If 5 friendly minions died this turn, your <b>Rush</b> minions have <b>Charge</b> this game. <i>({0} left!)</i>5<b>Battlecry</b>: If 5 friendly minions died this turn, your <b>Rush</b> minions have <b>Charge</b> this game. <i>(Ready)</i>5<b>Battlecry</b>: If 5 friendly minions died this turn, your <b>Rush</b> minions have <b>Charge</b> this game.<br/>
+                /// 5-Cost 3/5 Beast Minion
+                /// </summary>
+                public const string BroodqueenShakar = "BE_565";
+
+                /// <summary>
+                /// <b>Battlecry</b>: Choose a card in your hand to shuffle into your deck. It costs (1) less.<br/>
+                /// 1-Cost 3/3 Beast Minion
+                /// </summary>
+                public const string WormriddledWriggler = "BE_566";
+
+                /// <summary>
+                /// After your hero attacks, reduce the Cost of C'Thun by (1). Choose a C'Thun ability to trigger.<br/>
+                /// 5-Cost Weapon
+                /// </summary>
+                public const string TentacleLash = "BE_771";
+
+                /// <summary>
+                /// At the start of your next turn,&amp; summon three 3/1 Shredclaws with <b>Rush</b>.~GAMEPLAY ASPROXY BE 873<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string SigilOfHatching = "BE_873";
+
+                /// <summary>
+                /// <b>Lifesteal</b>. Deal $2 damage. If a friendly minion died this turn, this costs (0).<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string HungeringCavern = "BE_877";
+
+                /// <summary>
                 /// Give your hero +2 Attack this turn. Draw a card.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -176,7 +236,7 @@ namespace HearthDb
                 public const string Flamereaper = "BT_271";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a Demon.<br/>
+                /// <b>Battlecry:</b>&amp; <b>Discover</b> a Demon.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string Netherwalker = "BT_321";
@@ -188,7 +248,7 @@ namespace HearthDb
                 public const string SightlessWatcherLegacy = "BT_323";
 
                 /// <summary>
-                /// After your hero attacks, gain +1 Attack.<br/>
+                /// After your hero attacks,&amp; gain +1 Attack.<br/>
                 /// 1-Cost 1/2 Demon Minion
                 /// </summary>
                 public const string Battlefiend = "BT_351";
@@ -218,7 +278,7 @@ namespace HearthDb
                 public const string UrzulHorror = "BT_407";
 
                 /// <summary>
-                /// <b>Battlecry:</b> The next Demon you play costs (2) less.<br/>
+                /// <b>Battlecry:</b>&amp; The next Demon you play costs (2) less.<br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
                 public const string RagingFelscreamer = "BT_416";
@@ -248,7 +308,7 @@ namespace HearthDb
                 public const string WarglaivesOfAzzinoth = "BT_430";
 
                 /// <summary>
-                /// <b>Outcast:</b> Draw a card.<br/>
+                /// <b>Outcast:</b>&amp; Draw a card.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string CrimsonSigilRunner = "BT_480";
@@ -290,7 +350,7 @@ namespace HearthDb
                 public const string SpectralSight = "BT_491";
 
                 /// <summary>
-                /// At the end of your turn, deal 6 damage randomly split among all enemies.<br/>
+                /// At the end of your turn,&amp; deal 6 damage randomly split among all enemies.<br/>
                 /// 7-Cost 6/7 Demon Minion
                 /// </summary>
                 public const string PriestessOfFury = "BT_493";
@@ -314,7 +374,7 @@ namespace HearthDb
                 public const string FelSummoner = "BT_509";
 
                 /// <summary>
-                /// <b>Taunt</b> After this is attacked, deal 1 damage to all enemies.<br/>
+                /// <b>Taunt</b> After this is attacked,&amp; deal 1 damage to all enemies.<br/>
                 /// 5-Cost 3/6 Demon Minion
                 /// </summary>
                 public const string WrathspikeBrute = "BT_510";
@@ -422,7 +482,7 @@ namespace HearthDb
                 public const string NespirahEnthralled = "CATA_527";
 
                 /// <summary>
-                /// At the start of your next turn, summon a 3/3 Naga with <b>Taunt</b>.<br/>
+                /// At the start of your next turn,&amp; summon a 3/3 Naga with <b>Taunt</b>.~GAMEPLAY ASPROXY CATA 528<br/>
                 /// 1-Cost Spell
                 /// </summary>
                 public const string SigilOfTheSeas = "CATA_528";
@@ -494,7 +554,7 @@ namespace HearthDb
                 public const string FlamereaperCorePlaceholder = "CORE_BT_271";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a Demon.<br/>
+                /// <b>Battlecry:</b>&amp; <b>Discover</b> a Demon.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string NetherwalkerCore = "CORE_BT_321";
@@ -506,7 +566,7 @@ namespace HearthDb
                 public const string SightlessWatcherCorePlaceholder = "CORE_BT_323";
 
                 /// <summary>
-                /// After your hero attacks, gain +1 Attack.<br/>
+                /// After your hero attacks,&amp; gain +1 Attack.<br/>
                 /// 1-Cost 1/2 Demon Minion
                 /// </summary>
                 public const string BattlefiendCore = "CORE_BT_351";
@@ -518,7 +578,7 @@ namespace HearthDb
                 public const string WrathscaleNagaCorePlaceholder = "CORE_BT_355";
 
                 /// <summary>
-                /// <b>Battlecry:</b> The next Demon you play costs (2) less.<br/>
+                /// <b>Battlecry:</b>&amp; The next Demon you play costs (2) less.<br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
                 public const string RagingFelscreamerCore = "CORE_BT_416";
@@ -548,7 +608,7 @@ namespace HearthDb
                 public const string WarglaivesOfAzzinothCorePlaceholder = "CORE_BT_430";
 
                 /// <summary>
-                /// <b>Outcast:</b> Draw a card.<br/>
+                /// <b>Outcast:</b>&amp; Draw a card.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string CrimsonSigilRunnerCore = "CORE_BT_480";
@@ -560,13 +620,13 @@ namespace HearthDb
                 public const string SpectralSightCore = "CORE_BT_491";
 
                 /// <summary>
-                /// At the end of your turn, deal 6 damage randomly split among all enemies.<br/>
+                /// At the end of your turn,&amp; deal 6 damage randomly split among all enemies.<br/>
                 /// 7-Cost 6/7 Demon Minion
                 /// </summary>
                 public const string PriestessOfFuryCore = "CORE_BT_493";
 
                 /// <summary>
-                /// <b>Taunt</b> After this is attacked, deal 1 damage to all enemies.<br/>
+                /// <b>Taunt</b> After this is attacked,&amp; deal 1 damage to all enemies.<br/>
                 /// 5-Cost 3/6 Demon Minion
                 /// </summary>
                 public const string WrathspikeBruteCore = "CORE_BT_510";
@@ -596,7 +656,7 @@ namespace HearthDb
                 public const string UmberwingCorePlaceholder = "CORE_BT_922";
 
                 /// <summary>
-                /// Your hero is <b>Immune</b>. <b>Battlecry:</b> Your next Demon this turn costs (0).<br/>
+                /// Your hero is <b>Immune</b>. <b>Battlecry:</b>&amp; Your next Demon this turn costs (0).<br/>
                 /// 9-Cost 9/8 Demon Minion
                 /// </summary>
                 public const string TichondriusCore = "CORE_CATA_001";
@@ -710,19 +770,19 @@ namespace HearthDb
                 public const string WaywardSageCorePlaceholder = "CORE_TSC_217";
 
                 /// <summary>
-                /// Whenever you draw a card, summon a 1/1 Demon with <b>Rush</b>.<br/>
+                /// Whenever you draw a card,&amp; summon a 1/1 Demon with <b>Rush</b>.<br/>
                 /// 4-Cost 3/5 Demon Minion
                 /// </summary>
                 public const string EredarDeceptorCore = "CORE_TTN_843";
 
                 /// <summary>
-                /// <b>Lifesteal</b> At the end of your turn, force all enemy minions to attack this.<br/>
+                /// <b>Lifesteal</b> At the end of your turn,&amp; force all enemy minions to attack this.<br/>
                 /// 7-Cost 4/10 Demon/Beast Minion
                 /// </summary>
                 public const string MythicalTerrorCore = "CORE_TTN_866";
 
                 /// <summary>
-                /// <b>Rush</b> <b>Deathrattle:</b> Deal 1 damage to all enemy minions.<br/>
+                /// <b>Rush</b> <b>Deathrattle:</b>&amp; Deal 1 damage to all enemy minions.<br/>
                 /// 3-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string FelrattlerCore = "CORE_WC_701";
@@ -794,7 +854,7 @@ namespace HearthDb
                 public const string SkittishSaucier = "DINO_137";
 
                 /// <summary>
-                /// <b>Kindred:</b> Deal 6 damage to your opponent's left and right-most minions.<br/>
+                /// <b>Kindred:</b>&amp; Deal 6 damage to your opponent's left and right-most minions.<br/>
                 /// 6-Cost 6/5 Beast/Demon Minion
                 /// </summary>
                 public const string DiabolusRex = "DINO_138";
@@ -914,7 +974,7 @@ namespace HearthDb
                 public const string GrimHarvest = "EDR_840";
 
                 /// <summary>
-                /// <b>Battlecry and Deathrattle:</b> Summon a random <b>Dormant</b> Dreadseed.<br/>
+                /// <b>Battlecry and Deathrattle:</b>&amp; Summon a random <b>Dormant</b> Dreadseed.<br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
                 public const string DreadsoulCorrupter = "EDR_841";
@@ -932,7 +992,7 @@ namespace HearthDb
                 public const string Jumpscare = "EDR_882";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Reduce the Cost of the right-most card in your hand by (2).<br/>
+                /// <b>Deathrattle:</b>&amp; Reduce the Cost of the right-most card in your hand by (2).<br/>
                 /// 3-Cost 4/2 Dragon Minion
                 /// </summary>
                 public const string NightmareDragonkin = "EDR_890";
@@ -1016,19 +1076,19 @@ namespace HearthDb
                 public const string GoingDownSwinging = "ETC_413";
 
                 /// <summary>
-                /// At the start of your next turn, deal $6 damage randomly split among all enemies.<br/>
+                /// At the start of your next turn,&amp; deal $6 damage randomly split among all enemies.<br/>
                 /// 2-Cost Spell
                 /// </summary>
                 public const string SigilOfCinder = "FIR_902";
 
                 /// <summary>
-                /// After you cast a Fel spell, destroy this and deal 2 damage to all enemies.<br/>
+                /// After you cast a Fel spell,&amp; destroy this and deal 2 damage to all enemies.<br/>
                 /// 2-Cost 2/3 Elemental Minion
                 /// </summary>
                 public const string FelfireBlaze = "FIR_904";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a Fel spell. Reduce the Cost of Fel spells in your hand by (1).<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a Fel spell.&amp; Reduce the Cost of Fel spells in your hand by (1).<br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
                 public const string Scorchreaver = "FIR_952";
@@ -1361,6 +1421,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string IllidanStormrage_WildGodOmenHeroHeroSkins = "HERO_10ca";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string IllidanStormrage_IlgynothHeroHeroSkins = "HERO_10cb";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string IllidanStormrage_DanceOffArannaHeroHeroSkins = "HERO_10cg";
 
                 /// <summary>
@@ -1502,7 +1574,7 @@ namespace HearthDb
                 public const string TrastathSoulParasite = "JAIL_721";
 
                 /// <summary>
-                /// After your hero attacks, get a Void Soul.<br/>
+                /// After your hero attacks,&amp; get a Void Soul.<br/>
                 /// 4-Cost Weapon
                 /// </summary>
                 public const string StardustScythe = "JAIL_730";
@@ -1514,13 +1586,13 @@ namespace HearthDb
                 public const string VoidSoul = "JAIL_732";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Get a Void Soul.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b>&amp; Get a Void Soul.<br/>
                 /// 3-Cost 3/4 Naga Minion
                 /// </summary>
                 public const string ViciousVoidscale = "JAIL_733";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Battlecry:</b> <b>Discover</b> a card in your deck. If it's empty, gain +4/+4 instead.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a card in your deck. If it's empty, gain +4/+4 instead.<br/>
                 /// 3-Cost 2/2 Minion
                 /// </summary>
                 public const string Hellraiser = "JAIL_734";
@@ -1952,7 +2024,7 @@ namespace HearthDb
                 public const string Broxigar = "TIME_020";
 
                 /// <summary>
-                /// <b>Outcast:</b> Your hero is <b>Immune</b> until your next turn.<br/>
+                /// <b>Outcast:</b>&amp; Your hero is <b>Immune</b> until your next turn.<br/>
                 /// 5-Cost 5/4 Minion
                 /// </summary>
                 public const string DoomsdayPrepper = "TIME_021";
@@ -1982,7 +2054,7 @@ namespace HearthDb
                 public const string HoundsOfFury = "TIME_443";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Get a random Demon from the past.<br/>
+                /// <b>Deathrattle:</b>&amp; Get a random Demon from the past.<br/>
                 /// 1-Cost Weapon
                 /// </summary>
                 public const string TimeLostGlaive = "TIME_444";
@@ -2006,7 +2078,7 @@ namespace HearthDb
                 public const string LastingLegacy = "TIME_449";
 
                 /// <summary>
-                /// <b>Rush</b>. Whenever this takes damage, get a 1-Cost Gorishi Stinger.<br/>
+                /// <b>Rush</b>. Whenever this takes damage,&amp; get a 1-Cost Gorishi Stinger.<br/>
                 /// 5-Cost 2/7 Beast Minion
                 /// </summary>
                 public const string GorishiWasp = "TLC_630";
@@ -2024,13 +2096,13 @@ namespace HearthDb
                 public const string Bugsquasher = "TLC_633";
 
                 /// <summary>
-                /// After your hero attacks, summon a 2/1 Grub with <b>Rush</b>.<br/>
+                /// After your hero attacks,&amp; summon a 2/1 Grub with <b>Rush</b>.<br/>
                 /// 3-Cost Weapon
                 /// </summary>
                 public const string InsectClaw = "TLC_833";
 
                 /// <summary>
-                /// <b>Stealth</b> After this attacks, deal 2 damage to the enemy hero.<br/>
+                /// <b>Stealth</b> After this attacks,&amp; deal 2 damage to the enemy hero.<br/>
                 /// 3-Cost 2/4 Beast Minion
                 /// </summary>
                 public const string GorishiTunneler = "TLC_840";
@@ -2060,7 +2132,7 @@ namespace HearthDb
                 public const string Infestation = "TLC_902";
 
                 /// <summary>
-                /// <b>Rush</b> <b>Kindred</b>: Give your hero +5 Attack this turn.<br/>
+                /// <b>Rush</b> <b>Kindred</b>:&amp; Give your hero +5 Attack this turn.<br/>
                 /// 5-Cost 5/2 Beast Minion
                 /// </summary>
                 public const string SilithidQueen = "TLC_903";
@@ -2204,7 +2276,7 @@ namespace HearthDb
                 public const string JotunTheEternal = "TTN_842";
 
                 /// <summary>
-                /// Whenever you draw a card, summon a 1/1 Demon with <b>Rush</b>.<br/>
+                /// Whenever you draw a card,&amp; summon a 1/1 Demon with <b>Rush</b>.<br/>
                 /// 4-Cost 3/5 Demon Minion
                 /// </summary>
                 public const string EredarDeceptor = "TTN_843";
@@ -2240,7 +2312,7 @@ namespace HearthDb
                 public const string WeightOfTheWorld = "TTN_865";
 
                 /// <summary>
-                /// <b>Lifesteal</b> At the end of your turn, force all enemy minions to attack this.<br/>
+                /// <b>Lifesteal</b> At the end of your turn,&amp; force all enemy minions to attack this.<br/>
                 /// 7-Cost 4/10 Demon/Beast Minion
                 /// </summary>
                 public const string MythicalTerror = "TTN_866";
@@ -2318,7 +2390,7 @@ namespace HearthDb
                 public const string TaintheartTormenter = "WC_040";
 
                 /// <summary>
-                /// <b>Rush</b> <b>Deathrattle:</b> Deal 1 damage to all enemy minions.<br/>
+                /// <b>Rush</b> <b>Deathrattle:</b>&amp; Deal 1 damage to all enemy minions.<br/>
                 /// 3-Cost 3/2 Beast Minion
                 /// </summary>
                 public const string Felrattler = "WC_701";

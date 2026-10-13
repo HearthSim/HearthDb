@@ -44,7 +44,7 @@ namespace HearthDb
                 public const string IronweaveBloodletterEnchantment = "PVPDR_Scarlet_T4e";
 
                 /// <summary>
-                /// Draw 3 cards and reduce their cost by (3).<br/>
+                /// Draw 3 cards and reduce their Cost by (3).<br/>
                 /// 4-Cost HeroPower
                 /// </summary>
                 public const string LordOfTerrorTavernBrawl = "TB_Diablo4_promo_HP";
@@ -74,8 +74,74 @@ namespace HearthDb
                 public const string SuperRobotAssemblyTavernBrawl = "TB_Mimiron_faceoff_HP2";
 
                 /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynnTavernBrawl = "TB_MultiClass_Hero_Anduin";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GarroshHellscreamTavernBrawl = "TB_MultiClass_Hero_Garrosh";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string GuldanTavernBrawl = "TB_MultiClass_Hero_Guldan";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string IllidanStormrageTavernBrawl3 = "TB_MultiClass_Hero_Illidan";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmooreTavernBrawl1 = "TB_MultiClass_Hero_Jaina";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string TheLichKingTavernBrawl3 = "TB_MultiClass_Hero_Lich_King";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string MalfurionStormrageTavernBrawl1 = "TB_MultiClass_Hero_Malfurion";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string RexxarTavernBrawl = "TB_MultiClass_Hero_Rexxar";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ThrallTavernBrawl = "TB_MultiClass_Hero_Thrall";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string UtherLightbringerTavernBrawl = "TB_MultiClass_Hero_Uther";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string ValeeraSanguinarTavernBrawl = "TB_MultiClass_Hero_Valeera";
+
+                /// <summary>
                 /// Summon a random Imp.<br/>
-                /// 3-Cost HeroPower
+                /// 2-Cost HeroPower
                 /// </summary>
                 public const string DiabolicalPowersTavernBrawl = "TB_SPT_DPromoHP";
 
@@ -29952,6 +30018,12 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Wickerfang_GrowingQuickEnchantmentToken = "CATA_139te";
+
+                /// <summary>
+                /// Reduced Cost<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MastermindYoggSaron_ReducedToken = "BE_009t3e";
             }
         }
     }

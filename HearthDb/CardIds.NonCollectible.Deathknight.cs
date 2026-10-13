@@ -56,6 +56,12 @@ namespace HearthDb
                 public const string TheLichKing_GhoulFrenzy7 = "HERO_11bdhp2";
 
                 /// <summary>
+                /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string TheLichKing_GhoulFrenzy8 = "HERO_11blhp2";
+
+                /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
@@ -65,7 +71,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy8 = "HERO_11bp2";
+                public const string TheLichKing_GhoulFrenzy9 = "HERO_11bp2";
 
                 /// <summary>
                 /// <b>Charge</b> At the end of your turn, this minion dies.<br/>
@@ -83,13 +89,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy9 = "HERO_11cbp2";
+                public const string TheLichKing_GhoulFrenzy10 = "HERO_11cbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy10 = "HERO_11gbp2";
+                public const string TheLichKing_GhoulFrenzy11 = "HERO_11gbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -101,7 +107,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy11 = "HERO_11ibp2";
+                public const string TheLichKing_GhoulFrenzy12 = "HERO_11ibp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -113,19 +119,19 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy12 = "HERO_11uhp2";
+                public const string TheLichKing_GhoulFrenzy13 = "HERO_11uhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy13 = "HERO_11vhp2";
+                public const string TheLichKing_GhoulFrenzy14 = "HERO_11vhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulFrenzy14 = "HERO_11zhp2";
+                public const string TheLichKing_GhoulFrenzy15 = "HERO_11zhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -203,13 +209,19 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins8 = "HERO_11cbp";
+                public const string TheLichKing_GhoulChargeHeroSkins8 = "HERO_11blhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins9 = "HERO_11fbp";
+                public const string TheLichKing_GhoulChargeHeroSkins9 = "HERO_11cbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string TheLichKing_GhoulChargeHeroSkins10 = "HERO_11fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -221,7 +233,7 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins10 = "HERO_11gbp";
+                public const string TheLichKing_GhoulChargeHeroSkins11 = "HERO_11gbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -233,13 +245,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins11 = "HERO_11ibp";
+                public const string TheLichKing_GhoulChargeHeroSkins12 = "HERO_11ibp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins12 = "HERO_11lbp";
+                public const string TheLichKing_GhoulChargeHeroSkins13 = "HERO_11lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 2/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
@@ -257,19 +269,19 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins13 = "HERO_11uhp";
+                public const string TheLichKing_GhoulChargeHeroSkins14 = "HERO_11uhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins14 = "HERO_11vhp";
+                public const string TheLichKing_GhoulChargeHeroSkins15 = "HERO_11vhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string TheLichKing_GhoulChargeHeroSkins15 = "HERO_11zhp";
+                public const string TheLichKing_GhoulChargeHeroSkins16 = "HERO_11zhp";
 
                 /// <summary>
                 /// Draw 4 cards.<br/>
@@ -2424,6 +2436,138 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string Watfin_EsteemedInvestigatorEnchantment = "JAIL_EVENT_100e";
+
+                /// <summary>
+                /// Increased Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Ghuun_BoonOfGhuunEnchantment = "BE_287e";
+
+                /// <summary>
+                /// -1 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Ghuun_CurseOfGhuunEnchantment = "BE_287e2";
+
+                /// <summary>
+                /// <b>Combo:</b> Summon a 1/1 Ghoul with <b>Charge</b>. It dies at end of turn.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_DarkLarvaToken = "BE_720t11";
+
+                /// <summary>
+                /// <b>Battlecry</b>: Destroy an enemy minion. Draw a card. It costs (3) less. Summon two random 3-Cost minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken1 = "BE_781t1";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon two random 9-cost minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken2 = "BE_781t10";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy an enemy minion. Draw a card. It costs (3) less.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken3 = "BE_781t11";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy an enemy minion. Summon two random 3-cost minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken4 = "BE_781t12";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy 2 enemy minions. Draw a card. It costs (3) less.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken5 = "BE_781t13";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy 2 enemy minions. Summon two random 3-cost minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken6 = "BE_781t14";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy an enemy minion. Draw 2 cards. They costs (3) less.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken7 = "BE_781t15";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy an enemy minion. Summon two random 6-cost minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken8 = "BE_781t16";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a card. It costs (3) less. Summon two random 3-cost minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken9 = "BE_781t17";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw 2 cards. They costs (3) less. Summon two random 3-cost minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken10 = "BE_781t18";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a card. It costs (3) less. Summon two random 6-cost minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken11 = "BE_781t19";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy an enemy minion.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken12 = "BE_781t2";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy 2 enemy minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken13 = "BE_781t3";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Destroy 3 enemy minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken14 = "BE_781t4";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw a card. It costs (3) less.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken15 = "BE_781t5";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw 2 cards. They costs (3) less.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken16 = "BE_781t6";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw 3 cards. They costs (3) less.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken17 = "BE_781t7";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon two random 3-cost minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken18 = "BE_781t8";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon two random 6-cost minions.<br/>
+                /// 7-Cost 9/6 Undead/Beast Minion
+                /// </summary>
+                public const string FetidDevourer_FetidDevourerToken19 = "BE_781t9";
             }
         }
     }

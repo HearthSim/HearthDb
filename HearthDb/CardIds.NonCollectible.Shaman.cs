@@ -386,28 +386,70 @@ namespace HearthDb
                 public const string Thrall_TotemicSlamHeroSkins13 = "HERO_02bzhp2";
 
                 /// <summary>
-                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
-                /// 2-Cost HeroPower
+                /// (No Text)<br/>
+                /// 0-Cost Hero
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins14 = "HERO_02fbp";
-
-                /// <summary>
-                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
-                /// 2-Cost HeroPower
-                /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins14 = "HERO_02fbp2";
+                public const string Thrall_YshaarjHeroSkins = "HERO_02cd_meta";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a random basic Totem.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicCallHeroSkins15 = "HERO_02mbp";
+                public const string Thrall_TotemicCallHeroSkins14 = "HERO_02cd_metahp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Thrall_TotemicSlamHeroSkins15 = "HERO_02mbp2";
+                public const string Thrall_TotemicSlamHeroSkins14 = "HERO_02cd_metahp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicCallHeroSkins15 = "HERO_02cdhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicSlamHeroSkins15 = "HERO_02cdhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicCallHeroSkins16 = "HERO_02fbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicSlamHeroSkins16 = "HERO_02fbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a random basic Totem.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicCallHeroSkins17 = "HERO_02mbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon a Totem of your choice.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Thrall_TotemicSlamHeroSkins17 = "HERO_02mbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #2 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_LesserHealHeroSkins17 = "HERO_09ce_metahp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #4 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_HealHeroSkins17 = "HERO_09ce_metahp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -4254,6 +4296,54 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string LowSecurityWing_EscapedEnchantment = "JAIL_987e2";
+
+                /// <summary>
+                /// Your next spell this turn casts twice.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MastermindYoggSaron_BrainyToken = "BE_009t1e";
+
+                /// <summary>
+                /// +3/+3 and <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PrimusofPower_PowerfulEnchantment = "BE_171e";
+
+                /// <summary>
+                /// Stats set to 5/5.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string NeptulonLordofTides_TidalSurgeEnchantment1 = "BE_209e1";
+
+                /// <summary>
+                /// Elementals you summon are set to 5/5.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string NeptulonLordofTides_TidalSurgeEnchantment2 = "BE_209e2";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 2-Cost 2/2 Elemental Minion
+                /// </summary>
+                public const string Eyemaul_TremoringElementalToken = "BE_349t";
+
+                /// <summary>
+                /// <b>Combo:</b> Summon a random basic Totem.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_BlueLarvaToken = "BE_720t2";
+
+                /// <summary>
+                /// Restore a minion to full Health and give it <b>Taunt</b>.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string BiocoreAncestralHealing = "Core_mon_0004";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Reduce the Cost of a spell of each school in your hand by (2).<br/>
+                /// 4-Cost 3/3 Naga Minion
+                /// </summary>
+                public const string ElecoreCabaretHeadliner = "core_mon_0020";
             }
         }
     }

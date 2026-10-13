@@ -122,7 +122,7 @@ namespace HearthDb
                 public const string WingCommanderIchman = "AV_336";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Summon two 2/4 Cubs with <b>Taunt</b>.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b>&amp; Summon two 2/4 Cubs with <b>Taunt</b>.<br/>
                 /// 7-Cost 5/6 Beast Minion
                 /// </summary>
                 public const string MountainBear = "AV_337";
@@ -176,7 +176,7 @@ namespace HearthDb
                 public const string TavishStormpike = "BAR_038";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Draw a 1, 2, and 3-Cost spell.<br/>
+                /// <b>Battlecry:</b>&amp; Draw a 1, 2, and 3-Cost spell.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
                 public const string BarakKodobane = "BAR_551";
@@ -186,6 +186,66 @@ namespace HearthDb
                 /// 1-Cost Spell
                 /// </summary>
                 public const string WoundPrey = "BAR_801";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Summon two copies of this. <b>Deathrattle:</b>&amp; Deal 3 damage to a random enemy.<br/>
+                /// 6-Cost 3/3 Mechanical Minion
+                /// </summary>
+                public const string TankRegiment = "BE_550";
+
+                /// <summary>
+                /// After your hero attacks,&amp; get an 'Overdrive'.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string Flamespitter = "BE_552";
+
+                /// <summary>
+                /// <b>Assemble</b> a Mech. Get an 'Overdrive'.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Tinker = "BE_553";
+
+                /// <summary>
+                /// Destroy a random enemy minion and deal $3 damage to the enemy hero. If you control a Mech, do it again.<br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string Bombardment = "BE_554";
+
+                /// <summary>
+                /// <b>Discover</b> a spell and reduce its Cost by (8). Repeat this with excess Cost reduction.<br/>
+                /// 8-Cost Spell
+                /// </summary>
+                public const string Reload = "BE_555";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you control a Mech, <b>Discover</b> the perfect tech card.<br/>
+                /// 1-Cost 2/1 Minion
+                /// </summary>
+                public const string Mimiron = "BE_588";
+
+                /// <summary>
+                /// Summon two 1/1 Mech Beasts with <b>Charge</b>.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string ClockworkBoars = "BE_730";
+
+                /// <summary>
+                /// <b>Battlecry</b>:&amp; Gain the <b>Deathrattles</b> of adjacent minions.<br/>
+                /// 3-Cost 3/2 Beast Minion
+                /// </summary>
+                public const string PrimalRockfang = "BE_731";
+
+                /// <summary>
+                /// <b>Battlecry:</b> All your minions deal damage equal to their Attack to a random enemy.<br/>
+                /// 10-Cost 6/6 Elemental Minion
+                /// </summary>
+                public const string KronnTheImpaler = "BE_732";
+
+                /// <summary>
+                /// <b><b>Taunt</b> </b> <b>Deathrattle:</b>&amp; Summon 4 Mana worth of random Mechs.<br/>
+                /// 4-Cost 3/3 Mechanical Minion
+                /// </summary>
+                public const string Mechacycle = "BE_900";
 
                 /// <summary>
                 /// Deal $2 damage. Summon a 0/2 Goblin Bomb.<br/>
@@ -452,13 +512,13 @@ namespace HearthDb
                 public const string IceTrapCorePlaceholder = "CORE_AV_226";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Summon two 2/4 Cubs with <b>Taunt</b>.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b>&amp; Summon two 2/4 Cubs with <b>Taunt</b>.<br/>
                 /// 7-Cost 5/6 Beast Minion
                 /// </summary>
                 public const string MountainBearCore = "CORE_AV_337";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Draw a 1, 2, and 3-Cost spell.<br/>
+                /// <b>Battlecry:</b>&amp; Draw a 1, 2, and 3-Cost spell.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
                 public const string BarakKodobaneCorePlaceholder = "CORE_BAR_551";
@@ -500,7 +560,7 @@ namespace HearthDb
                 public const string VeranusCorePlaceholder = "CORE_DRG_095";
 
                 /// <summary>
-                /// After you use your Hero Power, deal 5 damage to a random enemy.<br/>
+                /// After you use your Hero Power,&amp; deal 5 damage to a random enemy.<br/>
                 /// 4-Cost 3/5 Mechanical Minion
                 /// </summary>
                 public const string DragonbaneCore = "CORE_DRG_256";
@@ -794,7 +854,7 @@ namespace HearthDb
                 public const string SpringpawCorePlaceholder = "CORE_TRL_348";
 
                 /// <summary>
-                /// <b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have <b>Rush</b>.<br/>
+                /// <b>Rush</b>. <b>Battlecry:</b>&amp; Fill your hand with 1/1 Lynxes that have <b>Rush</b>.<br/>
                 /// 4-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string HalazziTheLynxCore = "CORE_TRL_900";
@@ -812,7 +872,7 @@ namespace HearthDb
                 public const string TerrorscaleStalkerCorePlaceholder = "CORE_UNG_800";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Add a random Beast to your hand.<br/>
+                /// <b>Battlecry:</b>&amp; Add a random Beast to your hand.<br/>
                 /// 1-Cost 1/2 Beast Minion
                 /// </summary>
                 public const string JeweledMacawCore = "CORE_UNG_912";
@@ -944,7 +1004,7 @@ namespace HearthDb
                 public const string Ankylodon = "DINO_422";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Get a random 1-Cost minion. <b><b>Deathrattle:</b> </b>Get a random 1-Cost spell.<br/>
+                /// <b>Battlecry:</b> Get a random 1-Cost minion. <b><b>Deathrattle:</b></b>&amp; Get a random 1-Cost spell.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string RaptorNestNurse = "DINO_434";
@@ -1052,7 +1112,7 @@ namespace HearthDb
                 public const string DwarvenSharpshooter = "DRG_253";
 
                 /// <summary>
-                /// <b>Poisonous</b> <b>Battlecry:</b> <b>Discover</b> a Dragon.<br/>
+                /// <b>Poisonous</b> <b>Battlecry:</b>&amp; <b>Discover</b> a Dragon.<br/>
                 /// 3-Cost 2/3 Dragon Minion
                 /// </summary>
                 public const string PrimordialExplorer = "DRG_254";
@@ -1064,7 +1124,7 @@ namespace HearthDb
                 public const string ToxicReinforcements = "DRG_255";
 
                 /// <summary>
-                /// After you use your Hero Power, deal 5 damage to a random enemy.<br/>
+                /// After you use your Hero Power,&amp; deal 5 damage to a random enemy.<br/>
                 /// 4-Cost 3/5 Mechanical Minion
                 /// </summary>
                 public const string Dragonbane = "DRG_256";
@@ -1112,7 +1172,7 @@ namespace HearthDb
                 public const string GladiatorsLongbow = "DS1_188";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If this costs (3) or less, attack two random enemy minions.<br/>
+                /// <b>Battlecry:</b> If this costs (3) or less,&amp; attack two random enemy minions.<br/>
                 /// 5-Cost 4/7 Beast Minion
                 /// </summary>
                 public const string VerdantDreamsaber = "EDR_014";
@@ -1166,13 +1226,13 @@ namespace HearthDb
                 public const string MythicalRunebear = "EDR_481";
 
                 /// <summary>
-                /// After you cast a spell, summon a random Animal Companion.<br/>
+                /// After you cast a spell,&amp; summon a random Animal Companion.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
                 public const string BrollBearmantle = "EDR_853";
 
                 /// <summary>
-                /// <b>Kindred and Deathrattle:</b> Get a random <b>Deathrattle</b> minion. It costs (2) less.<br/>
+                /// <b>Kindred and Deathrattle:</b>&amp; Get a random <b>Deathrattle</b> minion. It costs (2) less.<br/>
                 /// 5-Cost 5/5 Beast Minion
                 /// </summary>
                 public const string TrienniumRex = "END_015";
@@ -1334,13 +1394,13 @@ namespace HearthDb
                 public const string BurstingShot = "FIR_909";
 
                 /// <summary>
-                /// <b>Rush</b>. After this attacks a minion and survives, deal this minion's Attack damage split among all enemies.<br/>
+                /// <b>Rush</b>. After this attacks a minion and survives,&amp; deal this minion's Attack damage split among all enemies.<br/>
                 /// 8-Cost 5/8 Beast/Elemental Minion
                 /// </summary>
                 public const string MagmaHound = "FIR_953";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Copy the lowest Cost Beast in your hand.<br/>
+                /// <b>Battlecry:</b>&amp; Copy the lowest Cost Beast in your hand.<br/>
                 /// 5-Cost 5/4 Dragon Minion
                 /// </summary>
                 public const string TendingDragonkin = "FIR_960";
@@ -1817,6 +1877,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Rexxar_HatchlingGonkHeroHeroSkins = "HERO_05cc";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Rexxar_VereesaWindrunnerHeroHeroSkins = "HERO_05ce";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Rexxar_WarsongRexxarHeroHeroSkins = "HERO_05d";
 
                 /// <summary>
@@ -1994,7 +2066,7 @@ namespace HearthDb
                 public const string DeathstalkerRexxar = "ICC_828";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Draw a spell that didn't start in your deck.<br/>
+                /// <b>Deathrattle:</b>&amp; Draw a spell that didn't start in your deck.<br/>
                 /// 1-Cost Weapon
                 /// </summary>
                 public const string SmuggledShovel = "JAIL_380";
@@ -2024,7 +2096,7 @@ namespace HearthDb
                 public const string UnderbellyNetwork = "JAIL_877";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a random 1-Cost <b>Deathrattle</b> minion.<br/>
+                /// <b>Deathrattle:</b>&amp; Summon a random 1-Cost <b>Deathrattle</b> minion.<br/>
                 /// 2-Cost 3/1 Beast Minion
                 /// </summary>
                 public const string GuardDog = "JAIL_878";
@@ -2192,7 +2264,7 @@ namespace HearthDb
                 public const string TamePet = "MEND_300";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Choose an Animal Companion to summon.<br/>
+                /// <b>Battlecry:</b>&amp; Choose an Animal Companion to summon.<br/>
                 /// 4-Cost 2/2 Minion
                 /// </summary>
                 public const string Spiritspeaker = "MEND_301";
@@ -2630,7 +2702,7 @@ namespace HearthDb
                 public const string PreciseShot = "TIME_600";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Draw until you have 3 cards.<br/>
+                /// <b>Battlecry:</b>&amp; Draw until you have 3 cards.<br/>
                 /// 2-Cost 3/1 Beast Minion
                 /// </summary>
                 public const string ArrowRetriever = "TIME_601";
@@ -2642,13 +2714,13 @@ namespace HearthDb
                 public const string Wormhole = "TIME_602";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Destroy a random enemy minion.<br/>
+                /// <b>Deathrattle:</b>&amp; Destroy a random enemy minion.<br/>
                 /// 2-Cost 1/1 Mechanical Minion
                 /// </summary>
                 public const string TickingTimebomb = "TIME_603";
 
                 /// <summary>
-                /// <b>Rush</b>, <b>Elusive</b> <b>Battlecry:</b> Summon a copy of this.<br/>
+                /// <b>Rush</b>, <b>Elusive</b> <b>Battlecry:</b>&amp; Summon a copy of this.<br/>
                 /// 6-Cost 3/4 Beast Minion
                 /// </summary>
                 public const string EpochStalker = "TIME_605";
@@ -2684,7 +2756,7 @@ namespace HearthDb
                 public const string PterrorwingRavager = "TLC_366";
 
                 /// <summary>
-                /// At the end of your turn, reduce the Cost of a random Beast in your hand by (1).<br/>
+                /// At the end of your turn,&amp; reduce the Cost of a random Beast in your hand by (1).<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string Dinositter = "TLC_822";
@@ -2846,7 +2918,7 @@ namespace HearthDb
                 public const string RevengeOfTheWild = "TRL_566";
 
                 /// <summary>
-                /// <b>Rush</b>. <b>Battlecry:</b> Fill your hand with 1/1 Lynxes that have <b>Rush</b>.<br/>
+                /// <b>Rush</b>. <b>Battlecry:</b>&amp; Fill your hand with 1/1 Lynxes that have <b>Rush</b>.<br/>
                 /// 4-Cost 4/2 Beast Minion
                 /// </summary>
                 public const string HalazziTheLynx = "TRL_900";
@@ -3050,7 +3122,7 @@ namespace HearthDb
                 public const string GrievousBite = "UNG_910";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Add a random Beast to your hand.<br/>
+                /// <b>Battlecry:</b>&amp; Add a random Beast to your hand.<br/>
                 /// 1-Cost 1/2 Beast Minion
                 /// </summary>
                 public const string JeweledMacaw = "UNG_912";

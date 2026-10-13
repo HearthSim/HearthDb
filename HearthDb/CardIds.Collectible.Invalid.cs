@@ -38,7 +38,7 @@ namespace HearthDb
                 public const string WickedBlightspawn = "END_002";
 
                 /// <summary>
-                /// Costs (1) less for each minion that died this turn. <b>Battlecry:</b> Draw 2 cards.<br/>
+                /// Costs (1) less for each minion that died this turn. <b>Battlecry:</b>&amp; Draw 2 cards.<br/>
                 /// 7-Cost 5/4 Demon/Undead Minion
                 /// </summary>
                 public const string RemnantOfRage = "END_004";
@@ -56,7 +56,7 @@ namespace HearthDb
                 public const string PressTheAdvantage = "END_007";
 
                 /// <summary>
-                /// After you use your Hero Power, refresh 2 Mana Crystals.<br/>
+                /// After you use your Hero Power,&amp; refresh 2 Mana Crystals.<br/>
                 /// 3-Cost 3/4 Beast Minion
                 /// </summary>
                 public const string EnduringRoach = "END_008";
@@ -74,7 +74,7 @@ namespace HearthDb
                 public const string AccelerationAura = "END_011";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a 1-Cost minion with a <b>Dark Gift</b>.<br/>
+                /// <b>Battlecry:</b>&amp; <b>Discover</b> a 1-Cost minion with a <b>Dark Gift</b>.<br/>
                 /// 3-Cost 3/3 Beast Minion
                 /// </summary>
                 public const string BrutishEndmaw = "END_013";
@@ -98,7 +98,7 @@ namespace HearthDb
                 public const string BattleAtTheEndTime = "END_017";
 
                 /// <summary>
-                /// <b>Taunt</b>. <b>Battlecry:</b> If your hero took damage this turn, gain +3/+3.<br/>
+                /// <b>Taunt</b>. <b>Battlecry:</b> If your hero took damage this turn,&amp; gain +3/+3.<br/>
                 /// 5-Cost 5/6 Minion
                 /// </summary>
                 public const string EndtimeSurvivor = "END_019";
@@ -128,7 +128,7 @@ namespace HearthDb
                 public const string EternalFirebolt = "END_025";
 
                 /// <summary>
-                /// After you cast a spell on a minion, draw a card.<br/>
+                /// After you cast a spell on a minion,&amp; draw a card.<br/>
                 /// 4-Cost 3/6 Elemental Minion
                 /// </summary>
                 public const string FragmentOfNothing = "END_026";

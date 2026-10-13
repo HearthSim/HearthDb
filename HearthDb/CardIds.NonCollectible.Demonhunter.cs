@@ -209,49 +209,61 @@ namespace HearthDb
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins13 = "HERO_10cbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins13 = "HERO_10cbhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins13 = "HERO_10cbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins13 = "HERO_10cbhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins14 = "HERO_10lbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins14 = "HERO_10cbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins14 = "HERO_10lbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins14 = "HERO_10cbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins15 = "HERO_10xbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins15 = "HERO_10lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins15 = "HERO_10xbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins15 = "HERO_10lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonClawsHeroSkins16 = "HERO_10zbp";
+                public const string IllidanStormrage_DemonClawsHeroSkins16 = "HERO_10xbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
                 /// 1-Cost HeroPower
                 /// </summary>
-                public const string IllidanStormrage_DemonsBiteHeroSkins16 = "HERO_10zbp2";
+                public const string IllidanStormrage_DemonsBiteHeroSkins16 = "HERO_10xbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a1 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrage_DemonClawsHeroSkins17 = "HERO_10zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> +$a2 Attack this turn.<br/>
+                /// 1-Cost HeroPower
+                /// </summary>
+                public const string IllidanStormrage_DemonsBiteHeroSkins17 = "HERO_10zbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -419,7 +431,7 @@ namespace HearthDb
                 /// The Lord of Outland is looking forward to a rematch!<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string IllidanStormrageTavernBrawl4 = "TB_BBR3_BOSS_10";
+                public const string IllidanStormrageTavernBrawl5 = "TB_BBR3_BOSS_10";
 
                 /// <summary>
                 /// <b>Passive</b> After your hero attacks, deal $1 damage to all enemies.<br/>
@@ -467,7 +479,7 @@ namespace HearthDb
                 /// The Lord of Outland is looking forward to a rematch!<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string IllidanStormrageTavernBrawl5 = "TB_Thunderdome_Illidan";
+                public const string IllidanStormrageTavernBrawl6 = "TB_Thunderdome_Illidan";
 
                 /// <summary>
                 /// As a priest turned demon hunter, he's basically capable of anything.<br/>
@@ -2832,6 +2844,42 @@ namespace HearthDb
                 /// 1-Cost HeroPower
                 /// </summary>
                 public const string CollapsingStarHeroic = "JAIL_EVENT_101hp";
+
+                /// <summary>
+                /// <b>Cast When Drawn</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AmitutKeeperofAmitus_AmitutsBlessingToken = "BE_143t2e";
+
+                /// <summary>
+                /// For the rest of the game, your <b>Rush</b> minions have <b>Charge</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BroodqueenShakar_ShakarsRageEnchantment = "BE_565e";
+
+                /// <summary>
+                /// <b>Charge</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BroodqueenShakar_ChargeEnchantment = "BE_565e2";
+
+                /// <summary>
+                /// <b><b>Combo</b>:</b> Give your hero +1 Attack this turn.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_NeonLarvaToken = "BE_720t10";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 2-Cost 3/1 Beast Minion
+                /// </summary>
+                public const string SigilofHatching_ShredclawToken = "BE_873t";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Deal 1 damage for each card you have drawn this turn. <i>()</i><br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string FlecoreMindbender = "core_mon_0032";
             }
         }
     }

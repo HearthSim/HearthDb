@@ -407,25 +407,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins16 = "HERO_01dbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins16 = "HERO_01cbhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins8 = "HERO_01dbp2";
+                public const string GarroshHellscream_TankUpHeroSkins8 = "HERO_01cbhp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins17 = "HERO_01fbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins17 = "HERO_01cchp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins9 = "HERO_01fbp2";
+                public const string GarroshHellscream_TankUpHeroSkins9 = "HERO_01cchp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_ArmorUpHeroSkins18 = "HERO_01dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d4 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_TankUpHeroSkins10 = "HERO_01dbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d2 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_ArmorUpHeroSkins19 = "HERO_01fbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Gain $d4 Armor.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string GarroshHellscream_TankUpHeroSkins11 = "HERO_01fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
@@ -443,37 +467,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins18 = "HERO_01qbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins20 = "HERO_01qbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins10 = "HERO_01qbp2";
+                public const string GarroshHellscream_TankUpHeroSkins12 = "HERO_01qbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins19 = "HERO_01vbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins21 = "HERO_01vbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins11 = "HERO_01vbp2";
+                public const string GarroshHellscream_TankUpHeroSkins13 = "HERO_01vbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d2 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_ArmorUpHeroSkins20 = "HERO_01wbp";
+                public const string GarroshHellscream_ArmorUpHeroSkins22 = "HERO_01wbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Gain $d4 Armor.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string GarroshHellscream_TankUpHeroSkins12 = "HERO_01wbp2";
+                public const string GarroshHellscream_TankUpHeroSkins14 = "HERO_01wbp2";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -818,43 +842,43 @@ namespace HearthDb
                 public const string DiabloTavernBrawl = "TB_Diablo4_Promo_Hero2";
 
                 /// <summary>
-                /// <b>Secret:</b> Both heroes take double damage.<br/>
+                /// <b>Secret:</b> The enemy hero takes double damage this game.<br/>
                 /// Spell
                 /// </summary>
                 public const string VisionsOfHateTavernBrawl1 = "TB_Diablo4_Promo_Secret1";
 
                 /// <summary>
-                /// <b>Secret:</b> When Dark Wanderer has 20 health, until the end of the game, double the damage dealt to any Hero.<br/>
+                /// <b>Secret:</b> When Dark Wanderer has 20 health, until the end of the game, double the damage dealt to your Hero.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string VisionsOfHateTavernBrawl2 = "TB_Diablo4_Promo_Secret1e";
 
                 /// <summary>
-                /// <b>Secret:</b> Fill the hand for both players. Cards cost (2) less.<br/>
+                /// <b>Secret:</b> Fill the Dark Wanderer's hand. Their cards cost (1) less this game.<br/>
                 /// Spell
                 /// </summary>
                 public const string VisionsOfFateTavernBrawl1 = "TB_Diablo4_Promo_Secret2";
 
                 /// <summary>
-                /// Cards cost (2) less.<br/>
+                /// The Dark Wanderer's cards cost (1) less.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string VisionsOfFateTavernBrawl2 = "TB_Diablo4_Promo_Secret2e";
 
                 /// <summary>
-                /// Cards cost (2) less.<br/>
+                /// Cards cost (1) less.<br/>
                 /// Enchantment
                 /// </summary>
                 public const string VisionsOfFateTavernBrawl3 = "TB_Diablo4_Promo_Secret2e2";
 
                 /// <summary>
-                /// <b>Secret:</b> Both heroes have <b>+3 Spell Damage</b>.<br/>
+                /// <b>Secret:</b> The Dark Wanderer has <b>Spell Damage +2</b> this game.<br/>
                 /// Spell
                 /// </summary>
                 public const string VisionsOfKnowledgeTavernBrawl1 = "TB_Diablo4_Promo_Secret3";
 
                 /// <summary>
-                /// <b>Secret:</b> When Dark Wanderer has 40 Health, until the end of the game, both Heroes have <b>+3 Spell Damage</b><br/>
+                /// <b>Secret:</b> When Dark Wanderer has 40 Health, until the end of the game, they have <b>Spell Damage +2</b><br/>
                 /// Enchantment
                 /// </summary>
                 public const string VisionsOfKnowledgeTavernBrawl2 = "TB_Diablo4_Promo_Secret3e";
@@ -4860,6 +4884,60 @@ namespace HearthDb
                 /// Spell
                 /// </summary>
                 public const string DisguisedWatchman_Disguised = "JAIL_455b";
+
+                /// <summary>
+                /// +4 Attack this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string AnvilofReshaping_ReshapedSteelEnchantment = "BE_042e";
+
+                /// <summary>
+                /// After your hero attacks, cast '{0}' randomly.<br/>
+                /// 1-Cost Weapon
+                /// </summary>
+                public const string Archaedas_HammerOfArchaedasToken = "BE_055t";
+
+                /// <summary>
+                /// In 2 turns, convert your Armor into a Golem with those stats and <b>Taunt</b>.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Setesh_SeteshTrackerEnchantment = "BE_557e2";
+
+                /// <summary>
+                /// +4/+4<br/>
+                /// Enchantment
+                /// </summary>
+                public const string BrassknuckleBrawler_BrawlinEnchantment = "BE_560e";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string ForgeofOrigination_SteelGolemToken = "BE_561t";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Fleshshape_ReshapedEnchantment = "BE_571e";
+
+                /// <summary>
+                /// <b>Combo:</b> Gain 2 Armor.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_RedLarvaToken = "BE_720t9";
+
+                /// <summary>
+                /// +2/+2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FrontlineIronborn_IronbornEnchantment = "BE_996e";
+
+                /// <summary>
+                /// Draw a weapon. Give it +1/+1.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SencoreCorsairCache = "core_mon_0012";
             }
         }
     }

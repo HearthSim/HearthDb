@@ -182,6 +182,66 @@ namespace HearthDb
                 public const string FiremancerFlurgl = "BAR_860";
 
                 /// <summary>
+                /// <b>Assemble</b> a minion. It costs (2) less.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ShadowSculpt = "BE_114";
+
+                /// <summary>
+                /// <b><b>Taunt</b>.</b> <b>Battlecry:</b> If you've played two different spell schools while holding this, summon a copy of this.<br/>
+                /// 4-Cost 4/5 Minion
+                /// </summary>
+                public const string PrimusOfPower = "BE_171";
+
+                /// <summary>
+                /// <b>Battlecry:</b> For the rest of the game, Elementals you summon have their stats set to 5/5.<br/>
+                /// 7-Cost 7/7 Elemental Minion
+                /// </summary>
+                public const string NeptulonLordOfTides = "BE_209";
+
+                /// <summary>
+                /// Deal $2 damage to two different enemies. <b>Overload:</b> (1).<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string FlameShock = "BE_302";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you've played two different spell schools while holding this, deal 4 damage to all enemies.<br/>
+                /// 5-Cost 3/3 Elemental Minion
+                /// </summary>
+                public const string ScorchfistScholar = "BE_303";
+
+                /// <summary>
+                /// <b>Battlecry:</b>&amp; Your next spell of each school casts twice.<br/>
+                /// 6-Cost 5/5 Elemental Minion
+                /// </summary>
+                public const string TherazaneTheEarthmother = "BE_337";
+
+                /// <summary>
+                /// After your hero attacks,&amp; summon two 2/2 Elementals with <b>Rush</b>.<br/>
+                /// 4-Cost Weapon
+                /// </summary>
+                public const string Eyemaul = "BE_349";
+
+                /// <summary>
+                /// Choose two different C'Thun abilities to trigger.<br/>
+                /// 6-Cost Spell
+                /// </summary>
+                public const string WatchOver = "BE_778";
+
+                /// <summary>
+                /// <b>Freeze</b> an enemy. Gain 3 Armor. Draw a card.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string UnnaturalCold = "BE_842";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Discover</b> any spell with Cost equal to this minion's Attack. It costs (0) this turn.<br/>
+                /// 3-Cost 2/2 Elemental Minion
+                /// </summary>
+                public const string ElementalOfMadness = "BE_870";
+
+                /// <summary>
                 /// Draw a card. Copy it if you played an Elemental last turn.<br/>
                 /// 2-Cost Spell
                 /// </summary>
@@ -470,7 +530,7 @@ namespace HearthDb
                 public const string MarshspawnCorePlaceholder = "CORE_BT_115";
 
                 /// <summary>
-                /// After this or an adjacent minion attacks, get a Lightning Bolt.<br/>
+                /// After this or an adjacent minion attacks,&amp; get a Lightning Bolt.<br/>
                 /// 5-Cost 3/5 Minion
                 /// </summary>
                 public const string RehgarEarthfuryCore = "CORE_CATA_004";
@@ -704,7 +764,7 @@ namespace HearthDb
                 public const string ThingFromBelowCorePlaceholder = "CORE_OG_028";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a 4/2 Elemental.<br/>
+                /// <b>Deathrattle:</b>&amp; Summon a 4/2 Elemental.<br/>
                 /// 5-Cost Weapon
                 /// </summary>
                 public const string HammerOfTwilightCore = "CORE_OG_031";
@@ -1088,13 +1148,13 @@ namespace HearthDb
                 public const string GalakrondTheTempest = "DRG_620";
 
                 /// <summary>
-                /// At the end of your turn, play the top 3 cards from your deck.<br/>
+                /// At the end of your turn,&amp; play the top 3 cards from your deck.<br/>
                 /// 9-Cost 5/11 Beast Minion
                 /// </summary>
                 public const string Ohnahra = "EDR_031";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Give +4/+4 to the top 3 minions in your deck.<br/>
+                /// <b>Battlecry:</b>&amp; Give +4/+4 to the top 3 minions in your deck.<br/>
                 /// 5-Cost 4/4 Elemental Minion
                 /// </summary>
                 public const string BeanstalkBrute = "EDR_230";
@@ -1310,7 +1370,7 @@ namespace HearthDb
                 public const string WindspeakerLegacy = "EX1_587";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Deal 9 damage to all enemy minions.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b>&amp; Deal 9 damage to all enemy minions.<br/>
                 /// 9-Cost 9/9 Elemental Minion
                 /// </summary>
                 public const string AvatarOfDestruction = "FIR_778";
@@ -1322,7 +1382,7 @@ namespace HearthDb
                 public const string FlamesOfTheFirelord = "FIR_923";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a 5-Cost card. Gain 1 Mana Crystal next turn only.<br/>
+                /// <b>Battlecry:</b> <b>Discover</b> a 5-Cost card.&amp; Gain 1 Mana Crystal next turn only.~GAMEPLAY ASPROXY FIR 927<br/>
                 /// 3-Cost 3/2 Dragon Minion
                 /// </summary>
                 public const string EmberscarredWhelp = "FIR_927";
@@ -1817,6 +1877,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string Thrall_YshaarjHeroHeroSkins = "HERO_02cd";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string Thrall_BloodShamanRastakhanHeroHeroSkins = "HERO_02ce";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string Thrall_BulletstormAlakirHeroHeroSkins = "HERO_02ck";
 
                 /// <summary>
@@ -2012,7 +2084,7 @@ namespace HearthDb
                 public const string DisguisedDetective = "JAIL_452";
 
                 /// <summary>
-                /// <b>Prepare</b> <b>Battlecry:</b> Give your other minions +1/+1.<br/>
+                /// <b>Prepare</b> <b>Battlecry:</b>&amp; Give your other minions +1/+1.<br/>
                 /// 4-Cost 3/3 Mechanical/Elemental Minion
                 /// </summary>
                 public const string HijackedSecuritybot = "JAIL_457";
@@ -2270,7 +2342,7 @@ namespace HearthDb
                 public const string ThingFromBelow = "OG_028";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a 4/2 Elemental.<br/>
+                /// <b>Deathrattle:</b>&amp; Summon a 4/2 Elemental.<br/>
                 /// 5-Cost Weapon
                 /// </summary>
                 public const string HammerOfTwilight = "OG_031";
@@ -2564,7 +2636,7 @@ namespace HearthDb
                 public const string CommandOfNeptulon = "TID_005";
 
                 /// <summary>
-                /// <b>Elusive</b> After you cast a spell, <b>Discover</b> a Nature spell from the past.<br/>
+                /// <b>Elusive</b> After you cast a spell,&amp; <b>Discover</b> a Nature spell from the past.<br/>
                 /// 4-Cost 2/6 Minion
                 /// </summary>
                 public const string FarseerWo = "TIME_013";
@@ -2588,7 +2660,7 @@ namespace HearthDb
                 public const string LightningRod = "TIME_212";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If you've cast a Nature spell while holding this, gain +1/+1 and draw a card.<br/>
+                /// <b>Battlecry:</b> If you've cast a Nature spell while holding this,&amp; gain +1/+1 and draw a card.<br/>
                 /// 2-Cost 2/3 Minion
                 /// </summary>
                 public const string PrimordialOverseer = "TIME_213";
@@ -2648,7 +2720,7 @@ namespace HearthDb
                 public const string MechanizedMagma = "TLC_224";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Summon a 2/1 Sizzling Cinder.<br/>
+                /// <b>Deathrattle:</b>&amp; Summon a 2/1 Sizzling Cinder.<br/>
                 /// 2-Cost 1/2 Elemental/Murloc Minion
                 /// </summary>
                 public const string Cinderfin = "TLC_225";

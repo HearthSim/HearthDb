@@ -1010,7 +1010,7 @@ namespace HearthDb
                 public const string ZokFogsnoutTavernBrawl = "TB_BotB_Zok";
 
                 /// <summary>
-                /// Summon a {0}/{1} Quilboar with <b>Taunt</b>. <i>(Improved by your hero Attack &amp; Armor gained this turn!)</i><br/>
+                /// Summon a {0}/{1} Quilboar with <b>Taunt</b>. <i>(Improved by your hero Attack \&amp; Armor gained this turn!)</i><br/>
                 /// 3-Cost HeroPower
                 /// </summary>
                 public const string FarOutTavernBrawl = "TB_BotB_Zok_001p";
@@ -3005,7 +3005,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string MalfurionStormrageTavernBrawl = "TB_HERO_MALFURION";
+                public const string MalfurionStormrageTavernBrawl2 = "TB_HERO_MALFURION";
 
                 /// <summary>
                 /// Increased stats.<br/>
@@ -5546,7 +5546,7 @@ namespace HearthDb
                 public const string HornofPlenty_HornOfPlentyEnchantment = "EDR_270e";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Get {0}.<br/>
+                /// <b>Deathrattle:</b> Get a random Nature spell.<br/>
                 /// 1-Cost 2/2 Minion
                 /// </summary>
                 public const string GroveShaper_TreantOfLifeToken = "EDR_271t";
@@ -5952,6 +5952,96 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string DemonicConfinement_ExerciseEnchantment = "JAIL_997e";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 5-Cost 5/5 Beast Minion
+                /// </summary>
+                public const string Waterstrider = "BE_002";
+
+                /// <summary>
+                /// The next spell you cast this turn costs (4) less.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TomeTranslator_YoggScriptureEnchantmentToken = "BE_327te";
+
+                /// <summary>
+                /// <b>Combo:</b> Give your hero +1 Attack this turn. Gain 1 Armor.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_BrownLarvaToken = "BE_720t6";
+
+                /// <summary>
+                /// Casts twice.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Efflorescence_BloomingEnchantment = "BE_801e";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Summon a 5/5 Bug with <b>Taunt</b>.<br/>
+                /// 2-Cost 2/1 Minion
+                /// </summary>
+                public const string Deathblossom_CarnivorousPlantToken = "BE_802t";
+
+                /// <summary>
+                /// <b>Rush</b><br/>
+                /// 5-Cost 5/2 Beast Minion
+                /// </summary>
+                public const string TwistedGrimlynx = "BE_850";
+
+                /// <summary>
+                /// For the rest of the game, after you play a Deathrattle minion, summon a copy of it.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Ammunae_LifeConstructedEnchantment = "BE_852e";
+
+                /// <summary>
+                /// Copied Deathrattle from Ammunae.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Ammunae_LifeConstructEnchantment = "BE_852e2";
+
+                /// <summary>
+                /// Increased Attack.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PrimordialBear_PrimordialEnchantment = "BE_855e";
+
+                /// <summary>
+                /// Stats doubled.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FreyaEmeraldArchitect_EnrichedEnchantment = "BE_856e";
+
+                /// <summary>
+                /// +6 Health.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string StoneTrogg_PrankSuccessfulEnchantment = "BE_994e";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you've cast a Nature spell while holding this, give your other minions +1/+1.<br/>
+                /// 3-Cost 3/3 Naga Minion
+                /// </summary>
+                public const string BiocoreHeraldOfNature = "CORE_Mon_0002";
+
+                /// <summary>
+                /// <b>Discover</b> a spell. Your next one costs (1) less.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string BiocoreNatureStudies = "Core_mon_0003";
+
+                /// <summary>
+                /// Deal damage equal to your hero's Attack to a minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string SencoreSavagery = "core_mon_0013";
+
+                /// <summary>
+                /// Draw a card. Gain 1 Armor for each card in your hand.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string SencoreFerociousHowl = "Core_mon_0017";
             }
         }
     }

@@ -448,13 +448,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins18 = "HERO_07dbp";
+                public const string Guldan_LifeTapHeroSkins18 = "HERO_07cfhp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins17 = "HERO_07dbp2";
+                public const string Guldan_SoulTapHeroSkins17 = "HERO_07cfhp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_LifeTapHeroSkins19 = "HERO_07cghp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_SoulTapHeroSkins18 = "HERO_07cghp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_LifeTapHeroSkins20 = "HERO_07dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Draw a card.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Guldan_SoulTapHeroSkins19 = "HERO_07dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
@@ -478,25 +502,25 @@ namespace HearthDb
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins19 = "HERO_07ybp";
+                public const string Guldan_LifeTapHeroSkins21 = "HERO_07ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins18 = "HERO_07ybp2";
+                public const string Guldan_SoulTapHeroSkins20 = "HERO_07ybp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card and take $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_LifeTapHeroSkins20 = "HERO_07zbp";
+                public const string Guldan_LifeTapHeroSkins22 = "HERO_07zbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Draw a card.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Guldan_SoulTapHeroSkins19 = "HERO_07zbp2";
+                public const string Guldan_SoulTapHeroSkins21 = "HERO_07zbp2";
 
                 /// <summary>
                 /// Deal $4 damage to a minion.<br/>
@@ -4808,6 +4832,84 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string DemonicConfinement_DemonicConfinementEnchantment = "JAIL_997e3";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 4-Cost 3/5 Minion
+                /// </summary>
+                public const string RitualofSummoning_CthraxBruteToken = "BE_085t";
+
+                /// <summary>
+                /// <b>Taunt</b><br/>
+                /// 2-Cost 0/3 Minion
+                /// </summary>
+                public const string DarkestDepths_DepthguardToken = "BE_087t";
+
+                /// <summary>
+                /// +6/+6.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Kithix_ConquestEnchantment = "BE_090e1";
+
+                /// <summary>
+                /// Costs (1).<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Kithix_CostOfWarEnchantment = "BE_090e2";
+
+                /// <summary>
+                /// In 2 turns, draw 5 cards from your opponent's deck.<br/>
+                /// Spell
+                /// </summary>
+                public const string Kithix_RitualOfFamineToken = "BE_090t1";
+
+                /// <summary>
+                /// In 2 turns, summon three random <b>Legendary</b> minions. Get a 1-Cost copy of each.<br/>
+                /// Spell
+                /// </summary>
+                public const string Kithix_RitualOfSubjugationToken = "BE_090t2";
+
+                /// <summary>
+                /// In 2 turns, give your minions +6/+6 <i>(wherever they are)</i>.<br/>
+                /// Spell
+                /// </summary>
+                public const string Kithix_RitualOfConquestToken = "BE_090t3";
+
+                /// <summary>
+                /// Increased Stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string FloatingLessons_FlyingEnchantment = "BE_094e";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string TomeTranslator_YshaarjScriptureEnchantmentToken = "BE_327te2";
+
+                /// <summary>
+                /// <b><b>Combo</b>:</b> Draw a card and deal 2 damage to your hero.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_PurpleLarvaToken = "BE_720t7";
+
+                /// <summary>
+                /// Costs (1) more.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string MawmanCultist_CursedEnchantment = "BE_729e";
+
+                /// <summary>
+                /// Increased stats.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string YShaarjTitanBane_MightyToken = "BE_784t2e";
+
+                /// <summary>
+                /// Destroy a friendly minion to destroy an enemy minion.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string FlecoreChaoticConsumption = "core_mon_0030";
             }
         }
     }

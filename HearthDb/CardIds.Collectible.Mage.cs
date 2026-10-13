@@ -182,10 +182,64 @@ namespace HearthDb
                 public const string Rimetongue = "BAR_888";
 
                 /// <summary>
+                /// <b>Battlecry:</b>&amp; <b>Discover</b> a spell to put on top of your deck. It costs (2) less.<br/>
+                /// 2-Cost 3/2 Mechanical Minion
+                /// </summary>
+                public const string Coilbearer = "BE_150";
+
+                /// <summary>
+                /// <b>Freeze</b> an enemy. Summon a random 5-Cost minion and <b>Freeze</b> it.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ForebodingFreeze = "BE_201";
+
+                /// <summary>
+                /// Move all spells in your deck to the top. You can pick to draw from the top or bottom each turn.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string DiscsOfNorgannon = "BE_250";
+
+                /// <summary>
+                /// Draw a card. If it's not a minion, refresh two Mana Crystals.<br/>
+                /// 3-Cost Location
+                /// </summary>
+                public const string CosmicSprings = "BE_251";
+
+                /// <summary>
+                /// Choose a friendly minion. Summon a random minion of the same Cost.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string ConstellarsCalling = "BE_252";
+
+                /// <summary>
+                /// <b>Battlecry and Deathrattle:</b>&amp; Cast a random 3-Cost spell.<br/>
+                /// 5-Cost 5/4 Minion
+                /// </summary>
+                public const string AstralMediator = "BE_256";
+
+                /// <summary>
+                /// <b>Assemble</b> a Mage minion. At the end of your turns, reduce its Cost by (1).<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string ThawFromIce = "BE_257";
+
+                /// <summary>
+                /// Deal $2 damage to a random enemy minion, five times.<br/>
+                /// 4-Cost Spell
+                /// </summary>
+                public const string AstralRain = "BE_258";
+
+                /// <summary>
                 /// <b>Battlecry:</b> Summon two 10/10 Constructs. They are <b>Frozen</b> until you spend 15 Mana on spells.<br/>
                 /// 6-Cost 5/5 Minion
                 /// </summary>
                 public const string Isiset = "BE_259";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Draw two cards. For each that isn't a minion,&amp; summon a 3/6 Water Elemental.<br/>
+                /// 5-Cost 2/4 Minion
+                /// </summary>
+                public const string IcebeltMagi = "BE_270";
 
                 /// <summary>
                 /// Draw 2 spells. Refresh 6 Mana Crystals. You can only play spells for the rest of the turn.<br/>
@@ -212,7 +266,7 @@ namespace HearthDb
                 public const string UnexpectedResults = "BOT_254";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Summon a random minion with Cost equal to your hand size.<br/>
+                /// <b>Battlecry:</b>&amp; Summon a random minion with Cost equal to your hand size.<br/>
                 /// 7-Cost 5/5 Minion
                 /// </summary>
                 public const string Astromancer = "BOT_256";
@@ -290,7 +344,7 @@ namespace HearthDb
                 public const string Evocation = "BT_006";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Draw a spell.<br/>
+                /// <b>Deathrattle:</b>&amp; Draw a spell.<br/>
                 /// 2-Cost 3/1 Minion
                 /// </summary>
                 public const string Starscryer = "BT_014";
@@ -332,19 +386,19 @@ namespace HearthDb
                 public const string SpellweaversBrilliance = "CATA_452";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Give all spells in your hand and deck <b>Spell Damage +1.</b><br/>
+                /// <b>Battlecry:</b>&amp; Give all spells in your hand and deck <b>Spell Damage +1.</b><br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
                 public const string ArchmageKalec = "CATA_458";
 
                 /// <summary>
-                /// <b>Spell Damage +1</b> <b>Battlecry:</b> If you dealt damage with a spell this turn, summon a copy of this.<br/>
+                /// <b>Spell Damage +1</b> <b>Battlecry:</b> If you dealt damage with a spell this turn,&amp; summon a copy of this.<br/>
                 /// 4-Cost 2/5 Elemental Minion
                 /// </summary>
                 public const string UnstableSpellcaster = "CATA_483";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a 1-Cost spell from any class.<br/>
+                /// <b>Battlecry:</b>&amp; <b>Discover</b> a 1-Cost spell from any class.<br/>
                 /// 1-Cost 1/2 Dragon Minion
                 /// </summary>
                 public const string WinterspringWhelp = "CATA_484";
@@ -356,13 +410,13 @@ namespace HearthDb
                 public const string SleetStorm = "CATA_485";
 
                 /// <summary>
-                /// The first time you deal damage with a spell each turn, gain +2 Attack.<br/>
+                /// The first time you deal damage with a spell each turn,&amp; gain +2 Attack.<br/>
                 /// 2-Cost 1/4 Elemental Minion
                 /// </summary>
                 public const string Raincaller = "CATA_487";
 
                 /// <summary>
-                /// <b>Colossal +2</b> At the end of your turn, deal 3 damage to all other minions.<br/>
+                /// <b>Colossal +2</b> At the end of your turn,&amp; deal 3 damage to all other minions.<br/>
                 /// 7-Cost 4/8 Elemental Minion
                 /// </summary>
                 public const string Vulcanos = "CATA_488";
@@ -470,7 +524,7 @@ namespace HearthDb
                 public const string StargazerLunaCorePlaceholder = "CORE_BOT_103";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Summon a random minion with Cost equal to your hand size.<br/>
+                /// <b>Battlecry:</b>&amp; Summon a random minion with Cost equal to your hand size.<br/>
                 /// 7-Cost 5/5 Minion
                 /// </summary>
                 public const string AstromancerCore = "CORE_BOT_256";
@@ -542,7 +596,7 @@ namespace HearthDb
                 public const string VioletSpellwingCore = "CORE_DRG_107";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Add 2 random Mage spells to your hand.<br/>
+                /// <b>Battlecry:</b>&amp; Add 2 random Mage spells to your hand.<br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
                 public const string BabblingBookcaseCore = "CORE_EDR_001";
@@ -578,7 +632,7 @@ namespace HearthDb
                 public const string MirrorEntityCorePlaceholder = "CORE_EX1_294";
 
                 /// <summary>
-                /// Whenever you cast a spell, add a 'Fireball' spell to your hand.<br/>
+                /// Whenever you cast a spell,&amp; add a 'Fireball' spell to your hand.<br/>
                 /// 7-Cost 5/7 Minion
                 /// </summary>
                 public const string ArchmageAntonidasCore = "CORE_EX1_559";
@@ -1292,7 +1346,7 @@ namespace HearthDb
                 public const string IceBlock = "EX1_295";
 
                 /// <summary>
-                /// Whenever you cast a spell, add a 'Fireball' spell to your hand.<br/>
+                /// Whenever you cast a spell,&amp; add a 'Fireball' spell to your hand.<br/>
                 /// 7-Cost 5/7 Minion
                 /// </summary>
                 public const string ArchmageAntonidas = "EX1_559";
@@ -1328,7 +1382,7 @@ namespace HearthDb
                 public const string SmolderingGrove = "FIR_911";
 
                 /// <summary>
-                /// After you cast a Fire spell, get a random Elemental and reduce its Cost by (3).<br/>
+                /// After you cast a Fire spell,&amp; get a random Elemental and reduce its Cost by (3).<br/>
                 /// 4-Cost 3/6 Elemental Minion
                 /// </summary>
                 public const string InfernoHerald = "FIR_913";
@@ -1901,6 +1955,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string JainaProudmoore_AmanthulHeroHeroSkins = "HERO_08cx";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_MechaChromieHeroHeroSkins = "HERO_08cy";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string JainaProudmoore_CelesteHeroHeroSkins = "HERO_08d";
 
                 /// <summary>
@@ -1908,6 +1974,12 @@ namespace HearthDb
                 /// 0-Cost Hero
                 /// </summary>
                 public const string JainaProudmoore_YoggRamenHeroHeroSkins = "HERO_08de";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string JainaProudmoore_AFKitsuneHeroHeroSkins = "HERO_08df";
 
                 /// <summary>
                 /// (No Text)<br/>
@@ -2096,7 +2168,7 @@ namespace HearthDb
                 public const string JailhouseManastorm = "JAIL_122";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a spell that costs (5) or more. It casts twice when played.<br/>
+                /// <b>Battlecry:</b>&amp; <b>Discover</b> a spell that costs (5) or more. It casts twice when played.<br/>
                 /// 5-Cost 4/5 Minion
                 /// </summary>
                 public const string BreakoutArchitect = "JAIL_123";
@@ -2133,12 +2205,12 @@ namespace HearthDb
 
                 /// <summary>
                 /// <b>Prepare</b> <b>Battlecry:</b> If you've cast a spell this turn, cast two random Mage <b>Secrets</b>.<br/>
-                /// 5-Cost 4/3 Minion
+                /// 5-Cost 4/4 Minion
                 /// </summary>
                 public const string TricksyImproviser = "JAIL_321";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Reveal a spell in your deck. If it costs (5) or more, deal 5 damage split among enemy minions.<br/>
+                /// <b>Battlecry:</b> Reveal a spell in your deck. If it costs (5) or more,&amp; deal 5 damage split among enemy minions.<br/>
                 /// 3-Cost 3/4 Elemental Minion
                 /// </summary>
                 public const string SpireSecurity = "JAIL_379";
@@ -2756,13 +2828,13 @@ namespace HearthDb
                 public const string TimelooperToki = "TIME_861";
 
                 /// <summary>
-                /// After you summon an Elemental, deal 3 damage to a random enemy.<br/>
+                /// After you summon an Elemental,&amp; deal 3 damage to a random enemy.<br/>
                 /// 4-Cost 4/5 Elemental Minion
                 /// </summary>
                 public const string WindsweptPageturner = "TLC_220";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Draw a spell. <b>Kindred:</b> Summon a copy of this.<br/>
+                /// <b>Deathrattle:</b> Draw a spell. <b>Kindred:</b>&amp; Summon a copy of this.<br/>
                 /// 3-Cost 2/2 Elemental Minion
                 /// </summary>
                 public const string ConjuredBookkeeper = "TLC_226";
@@ -2798,7 +2870,7 @@ namespace HearthDb
                 public const string TheForbiddenSequence = "TLC_460";
 
                 /// <summary>
-                /// <b>Battlecry:</b> <b>Discover</b> a card with Cost equal to your remaining Mana Crystals.<br/>
+                /// <b>Battlecry:</b>&amp; <b>Discover</b> a card with Cost equal to your remaining Mana Crystals.<br/>
                 /// 1-Cost 1/1 Minion
                 /// </summary>
                 public const string ScrappyScavenger = "TLC_461";

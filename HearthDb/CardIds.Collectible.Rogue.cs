@@ -182,10 +182,64 @@ namespace HearthDb
                 public const string ScabbsCutterbutter = "BAR_552";
 
                 /// <summary>
+                /// Deal $1 damage to all undamaged enemies.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string ShadowDance = "BE_071";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get a copy of a random different <b>Deathrattle</b> minion in your hand.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
+                public const string AgentOfNzoth = "BE_541";
+
+                /// <summary>
+                /// <b>Combo</b>: <b>Assemble</b> a minion from another class.<br/>
+                /// 2-Cost 3/2 Minion
+                /// </summary>
+                public const string Shadowcrafter = "BE_702";
+
+                /// <summary>
                 /// <b>Deathrattle:</b> Draw an <b>Old God</b>. If you can't, get a random <b>Old God</b>.<br/>
                 /// 4-Cost 6/4 Minion
                 /// </summary>
-                public const string DrestAgath = "BE_703";
+                public const string Drestagath = "BE_703";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Get a 1-Cost Larva with a <b>Combo</b> that triggers a Hero Power from another class.<br/>
+                /// 1-Cost 1/3 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler = "BE_720";
+
+                /// <summary>
+                /// Costs (2) less for each <b>Combo</b> card played this turn. <b>Battlecry:</b> Draw a card.<br/>
+                /// 8-Cost 4/5 Beast Minion
+                /// </summary>
+                public const string AqirGoliath = "BE_721";
+
+                /// <summary>
+                /// <b>Deathrattle:</b> Get two 1-Cost Larvae with <b><b>Combo</b>s</b> that trigger a Hero Power from another class.<br/>
+                /// 3-Cost 4/2 Beast Minion
+                /// </summary>
+                public const string AqirSwarmer = "BE_722";
+
+                /// <summary>
+                /// After you play a <b>Combo</b> card,&amp; deal 3 damage to a random enemy.<br/>
+                /// 4-Cost 4/4 Minion
+                /// </summary>
+                public const string WanderingSeeker = "BE_723";
+
+                /// <summary>
+                /// Get three 1-Cost Larvae with <b><b>Combo</b>s</b> that trigger a Hero Power from another class.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Incubate = "BE_724";
+
+                /// <summary>
+                /// <b>Battlecry:</b> Set the Attack and Health of all <b>Combo</b> minions in your hand to 6.<br/>
+                /// 5-Cost 6/5 Minion
+                /// </summary>
+                public const string TheUnknowableOne = "BE_725";
 
                 /// <summary>
                 /// Add 2 random <b>Deathrattle</b> cards to your hand.<br/>
@@ -338,7 +392,7 @@ namespace HearthDb
                 public const string FollowTheFootsteps = "CAP_002";
 
                 /// <summary>
-                /// <b>Stealth</b> After this attacks, draw a card.<br/>
+                /// <b>Stealth</b> After this attacks,&amp; draw a card.<br/>
                 /// 2-Cost 1/3 Minion
                 /// </summary>
                 public const string Si7Supplier = "CAP_003";
@@ -350,7 +404,7 @@ namespace HearthDb
                 public const string DisguisedOperator = "CAP_004";
 
                 /// <summary>
-                /// <b><b>Stealth</b>.</b> Whenever a friendly <b><b>Stealth</b>ed</b> minion attacks, reduce the Cost of a random card in your hand by (3).<br/>
+                /// <b><b>Stealth</b>.</b> Whenever a friendly <b><b>Stealth</b>ed</b> minion attacks,&amp; reduce the Cost of a random card in your hand by (3).<br/>
                 /// 4-Cost 4/4 Minion
                 /// </summary>
                 public const string MathiasShaw = "CAP_005";
@@ -476,7 +530,7 @@ namespace HearthDb
                 public const string ShadowSensei = "CFM_694";
 
                 /// <summary>
-                /// <b>Stealth</b> Whenever this attacks, add a card from another class to your hand.<br/>
+                /// <b>Stealth</b> Whenever this attacks,&amp; add a card from another class to your hand.<br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
                 public const string ShakuTheCollector = "CFM_781";
@@ -512,7 +566,7 @@ namespace HearthDb
                 public const string AmbushCorePlaceholder = "CORE_BT_707";
 
                 /// <summary>
-                /// <b>Stealth</b> Whenever this attacks, add a card from another class to your hand.<br/>
+                /// <b>Stealth</b> Whenever this attacks,&amp; add a card from another class to your hand.<br/>
                 /// 3-Cost 2/4 Minion
                 /// </summary>
                 public const string ShakuTheCollectorCore = "CORE_CFM_781";
@@ -596,7 +650,7 @@ namespace HearthDb
                 public const string FanOfKnivesCore = "CORE_EX1_129";
 
                 /// <summary>
-                /// <b>Combo:</b> Summon a 2/1 Defias Bandit.<br/>
+                /// <b>Combo:</b>&amp; Summon a 2/1 Defias Bandit.<br/>
                 /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string DefiasRingleaderCore = "CORE_EX1_131";
@@ -716,7 +770,7 @@ namespace HearthDb
                 public const string SpectralPillagerCorePlaceholder = "CORE_ICC_910";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Add a random card from another class to your hand.<br/>
+                /// <b>Battlecry:</b>&amp; Add a random card from another class to your hand.<br/>
                 /// 1-Cost 1/2 Pirate Minion
                 /// </summary>
                 public const string SwashburglarCore = "CORE_KAR_069";
@@ -770,7 +824,7 @@ namespace HearthDb
                 public const string BladedCultistCorePlaceholder = "CORE_OG_070";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Get a random card <i>(from your opponent's class)</i>.<br/>
+                /// <b>Deathrattle:</b>&amp; Get a random card <i>(from your opponent's class)</i>.<br/>
                 /// 2-Cost 2/3 Undead Minion
                 /// </summary>
                 public const string UndercityHucksterCorePlaceholder = "CORE_OG_330";
@@ -1202,7 +1256,7 @@ namespace HearthDb
                 public const string NightmareFuel = "EDR_528";
 
                 /// <summary>
-                /// Whenever you play another minion you've already played, draw a card.<br/>
+                /// Whenever you play another minion you've already played,&amp; draw a card.<br/>
                 /// 2-Cost 2/3 Beast Minion
                 /// </summary>
                 public const string TwistedWebweaver = "EDR_540";
@@ -1304,7 +1358,7 @@ namespace HearthDb
                 public const string FanOfKnivesLegacy = "EX1_129";
 
                 /// <summary>
-                /// <b>Combo:</b> Summon a 2/1 Defias Bandit.<br/>
+                /// <b>Combo:</b>&amp; Summon a 2/1 Defias Bandit.<br/>
                 /// 2-Cost 3/2 Minion
                 /// </summary>
                 public const string DefiasRingleader = "EX1_131";
@@ -1853,6 +1907,12 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string ValeeraSanguinar_BlackEmpirePatchesHeroHeroSkins = "HERO_03cc";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string ValeeraSanguinar_BountyHunterEdwinHeroHeroSkins = "HERO_03cd";
 
                 /// <summary>
@@ -2084,13 +2144,13 @@ namespace HearthDb
                 public const string ThiefsTools = "JAIL_706";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Get a Coin.<br/>
+                /// <b>Deathrattle:</b>&amp; Get a Coin.<br/>
                 /// 2-Cost 2/2 Minion
                 /// </summary>
                 public const string LotusBookie = "JAIL_720";
 
                 /// <summary>
-                /// <b>Prepare</b> <b>Combo:</b> Gain +1/+1 for each other card played this turn. <i>()</i><br/>
+                /// <b>Prepare</b> <b><b>Combo</b>:</b> Gain +1/+1 for each other card played this turn. <i>()</i><br/>
                 /// 4-Cost 2/2 Minion
                 /// </summary>
                 public const string DefiasWannabe = "JAIL_909";
@@ -2114,7 +2174,7 @@ namespace HearthDb
                 public const string OneHitWonder = "JAM_021";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Add a random card from another class to your hand.<br/>
+                /// <b>Battlecry:</b>&amp; Add a random card from another class to your hand.<br/>
                 /// 1-Cost 1/2 Pirate Minion
                 /// </summary>
                 public const string Swashburglar = "KAR_069";
@@ -2330,7 +2390,7 @@ namespace HearthDb
                 public const string Shadowcaster = "OG_291";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Get a random card <i>(from your opponent's class)</i>.<br/>
+                /// <b>Deathrattle:</b>&amp; Get a random card <i>(from your opponent's class)</i>.<br/>
                 /// 2-Cost 2/3 Undead Minion
                 /// </summary>
                 public const string UndercityHucksterOG = "OG_330";
@@ -2624,7 +2684,7 @@ namespace HearthDb
                 public const string DejaVu = "TIME_039";
 
                 /// <summary>
-                /// <b>Stealth</b> <b>Combo:</b> Summon a copy of this.<br/>
+                /// <b>Stealth</b> <b><b>Combo</b>:</b> Summon a copy of this.<br/>
                 /// 4-Cost 3/3 Minion
                 /// </summary>
                 public const string TroubledDouble = "TIME_710";
@@ -2720,7 +2780,7 @@ namespace HearthDb
                 public const string EyesInTheSky = "TLC_521";
 
                 /// <summary>
-                /// <b><b>Stealth</b>.</b> <b>Battlecry, Combo, and Deathrattle:</b> Cast 'Fan of Knives'.<br/>
+                /// <b><b>Stealth</b>.</b> <b>Battlecry, Combo, and Deathrattle:</b>&amp; Cast 'Fan of Knives'.<br/>
                 /// 6-Cost 6/4 Minion
                 /// </summary>
                 public const string OpuTheUnseen = "TLC_522";

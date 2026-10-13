@@ -140,7 +140,7 @@ namespace HearthDb
                 public const string DesperatePrayer = "BAR_309";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Restore #8 Health to all friendly characters.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b>&amp; Restore #8 Health to all friendly characters.<br/>
                 /// 6-Cost 6/6 Elemental Minion
                 /// </summary>
                 public const string LightshowerElemental = "BAR_310";
@@ -158,7 +158,7 @@ namespace HearthDb
                 public const string SoothsayersCaravan = "BAR_312";
 
                 /// <summary>
-                /// <b>Taunt</b>. <b>Battlecry:</b> If you've restored Health this turn, gain +3/+3.<br/>
+                /// <b>Taunt</b>. <b>Battlecry:</b> If you've restored Health this turn,&amp; gain +3/+3.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
                 public const string PriestOfAnshe = "BAR_313";
@@ -180,6 +180,66 @@ namespace HearthDb
                 /// 4-Cost 4/4 Draenei Minion
                 /// </summary>
                 public const string Xyrella = "BAR_735";
+
+                /// <summary>
+                /// <b>Battlecry:</b> If you've cast 2 Shadow spells while holding this, choose a C'Thun ability to trigger. <i>({0} left!)</i>2<b>Battlecry:</b> If you've cast 2 Shadow spells while holding this, choose a C'Thun ability to trigger. <i>(Ready)</i>2<b>Battlecry:</b> If you've cast 2 Shadow spells while holding this, choose a C'Thun ability to trigger.<br/>
+                /// 3-Cost 3/2 Minion
+                /// </summary>
+                public const string DarkDeacon = "BE_012";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Battlecry:</b> <b>Assemble</b> a minion that costs (3) or less with cards that cost (5) or more.<br/>
+                /// 5-Cost 4/6 Minion
+                /// </summary>
+                public const string Mismatcher = "BE_045";
+
+                /// <summary>
+                /// At the end of your turn, summon a copy of a random enemy minion. It attacks the original.<br/>
+                /// 4-Cost 0/3 Minion
+                /// </summary>
+                public const string BefuddledSummoner = "BE_196";
+
+                /// <summary>
+                /// Get two random Shadow Spells.<br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string EntropicRift = "BE_220";
+
+                /// <summary>
+                /// Draw a card and reduce its Cost by (2). <i>(The next Shadow spell you play repeats this!)</i><br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string ElderWordForesight = "BE_221";
+
+                /// <summary>
+                /// Summon a 5/5 Voidwing with <b>Lifesteal</b>. <i>(The next Shadow spell you play repeats this!)</i><br/>
+                /// 5-Cost Spell
+                /// </summary>
+                public const string ElderWordManifest = "BE_222";
+
+                /// <summary>
+                /// Deal $3 damage to a random enemy. <i>(The next Shadow spell you play repeats this!)</i><br/>
+                /// 1-Cost Spell
+                /// </summary>
+                public const string ElderWordFlay = "BE_223";
+
+                /// <summary>
+                /// At the end of your turn, if you have cast a Shadow spell, the enemy takes fatigue. Otherwise you do.<br/>
+                /// 3-Cost Weapon
+                /// </summary>
+                public const string BladeOfTheBlackEmpire = "BE_227";
+
+                /// <summary>
+                /// <b>Battlecry:</b> <b>Silence</b> a minion.<br/>
+                /// 1-Cost 1/2 Minion
+                /// </summary>
+                public const string ServantOfZuramat = "BE_228";
+
+                /// <summary>
+                /// <b>Taunt</b>. <b>Battlecry:</b> Summon a 0, 1, and 2-Attack minion from your deck. Gain their stats.<br/>
+                /// 8-Cost 3/3 Minion
+                /// </summary>
+                public const string Zerontu = "BE_790";
 
                 /// <summary>
                 /// Deal $5 damage to a minion. This continues to the left and right with 1 less damage.<br/>
@@ -368,7 +428,7 @@ namespace HearthDb
                 public const string CleansingCleric = "CATA_216";
 
                 /// <summary>
-                /// <b>Colossal +3. </b> After you restore Health to a character, attack a random enemy minion.<br/>
+                /// <b>Colossal +3. </b> After you restore Health to a character,&amp; attack a random enemy minion.<br/>
                 /// 7-Cost 5/9 Minion
                 /// </summary>
                 public const string TheBlackBlood = "CATA_300";
@@ -392,13 +452,13 @@ namespace HearthDb
                 public const string PurifyingBreath = "CATA_303";
 
                 /// <summary>
-                /// <b><b>Lifesteal</b> Battlecry:</b> Deal 4 damage to this minion.<br/>
+                /// <b><b>Lifesteal</b> Battlecry:</b>&amp; Deal 4 damage to this minion.<br/>
                 /// 3-Cost 3/8 Undead Minion
                 /// </summary>
                 public const string InjuredAttendant = "CATA_304";
 
                 /// <summary>
-                /// At the end of your turn, if this is at full Health, gain +3 Health.<br/>
+                /// At the end of your turn, if this is at full Health,&amp; gain +3 Health.<br/>
                 /// 4-Cost 3/3 Dragon Minion
                 /// </summary>
                 public const string IncensedMatriarch = "CATA_305";
@@ -494,7 +554,7 @@ namespace HearthDb
                 public const string SpiritGuideCorePlaceholder = "CORE_AV_328";
 
                 /// <summary>
-                /// <b>Taunt</b> <b>Deathrattle:</b> Restore #8 Health to all friendly characters.<br/>
+                /// <b>Taunt</b> <b>Deathrattle:</b>&amp; Restore #8 Health to all friendly characters.<br/>
                 /// 6-Cost 6/6 Elemental Minion
                 /// </summary>
                 public const string LightshowerElementalCore = "CORE_BAR_310";
@@ -506,7 +566,7 @@ namespace HearthDb
                 public const string DevouringPlagueCore = "CORE_BAR_311";
 
                 /// <summary>
-                /// <b>Taunt</b>. <b>Battlecry:</b> If you've restored Health this turn, gain +3/+3.<br/>
+                /// <b>Taunt</b>. <b>Battlecry:</b> If you've restored Health this turn,&amp; gain +3/+3.<br/>
                 /// 5-Cost 5/5 Minion
                 /// </summary>
                 public const string PriestOfAnsheCore = "CORE_BAR_313";
@@ -668,7 +728,7 @@ namespace HearthDb
                 public const string DevourMindCorePlaceholder = "CORE_ICC_207";
 
                 /// <summary>
-                /// At the end of your turn, give another random friendly minion +1/+1.<br/>
+                /// At the end of your turn,&amp; give another random friendly minion +1/+1.<br/>
                 /// 2-Cost 2/3 Undead Minion
                 /// </summary>
                 public const string ShadowAscendantCore = "CORE_ICC_210";
@@ -686,7 +746,7 @@ namespace HearthDb
                 public const string EternalServitudeCorePlaceholder = "CORE_ICC_213";
 
                 /// <summary>
-                /// <b>Taunt, Lifesteal</b> <b>Deathrattle:</b> Destroy a random enemy minion.<br/>
+                /// <b><b>Taunt</b>, Lifesteal</b> <b>Deathrattle:</b>&amp; Destroy a random enemy minion.<br/>
                 /// 9-Cost 4/8 Minion
                 /// </summary>
                 public const string ObsidianStatueCore = "CORE_ICC_214";
@@ -806,7 +866,7 @@ namespace HearthDb
                 public const string CathedralOfAtonementCorePlaceholder = "CORE_REV_290";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If you're holding a Shadow spell, gain +1/+1.<br/>
+                /// <b>Battlecry:</b> If you're holding a Shadow spell,&amp; gain +1/+1.<br/>
                 /// 1-Cost 1/2 Minion
                 /// </summary>
                 public const string CrystalsmithCultistCore = "CORE_RLK_814";
@@ -1052,7 +1112,7 @@ namespace HearthDb
                 public const string BehemothMask = "DINO_428";
 
                 /// <summary>
-                /// <b>Taunt</b>. <b>Deathrattle:</b> Summon a random <b>Taunt</b> minion that costs (5) or more.<br/>
+                /// <b>Taunt</b>. <b>Deathrattle:</b>&amp; Summon a random <b>Taunt</b> minion that costs (5) or more.<br/>
                 /// 8-Cost 5/10 Beast Minion
                 /// </summary>
                 public const string Atlasaurus = "DINO_431";
@@ -1208,7 +1268,7 @@ namespace HearthDb
                 public const string RitualOfTheNewMoon = "EDR_461";
 
                 /// <summary>
-                /// <b>Elusive</b> At the end of your turn, get a random Dragon.<br/>
+                /// <b>Elusive</b> At the end of your turn,&amp; get a random Dragon.~GAMEPLAY ASPROXY EDR 462<br/>
                 /// 4-Cost 3/6 Dragon Minion
                 /// </summary>
                 public const string SelenicDrake = "EDR_462";
@@ -1220,7 +1280,7 @@ namespace HearthDb
                 public const string TwilightInfluence = "EDR_463";
 
                 /// <summary>
-                /// <b>Battlecry:</b> The next 3 spells you play cast twice.<br/>
+                /// <b>Battlecry:</b>&amp; The next 3 spells you play cast twice.<br/>
                 /// 7-Cost 5/7 Minion
                 /// </summary>
                 public const string Tyrande = "EDR_464";
@@ -1925,6 +1985,18 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
+                public const string AnduinWrynn_YshaarjHeroHeroSkins = "HERO_09ce";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
+                public const string AnduinWrynn_HeroTalanjiHeroHeroSkins = "HERO_09cf";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// 0-Cost Hero
+                /// </summary>
                 public const string AnduinWrynn_AnduinOfProphecyHeroHeroSkins = "HERO_09d";
 
                 /// <summary>
@@ -2054,7 +2126,7 @@ namespace HearthDb
                 public const string DevourMind = "ICC_207";
 
                 /// <summary>
-                /// At the end of your turn, give another random friendly minion +1/+1.<br/>
+                /// At the end of your turn,&amp; give another random friendly minion +1/+1.<br/>
                 /// 2-Cost 2/3 Undead Minion
                 /// </summary>
                 public const string ShadowAscendant = "ICC_210";
@@ -2072,7 +2144,7 @@ namespace HearthDb
                 public const string EternalServitude = "ICC_213";
 
                 /// <summary>
-                /// <b>Taunt, Lifesteal</b> <b>Deathrattle:</b> Destroy a random enemy minion.<br/>
+                /// <b><b>Taunt</b>, Lifesteal</b> <b>Deathrattle:</b>&amp; Destroy a random enemy minion.<br/>
                 /// 9-Cost 4/8 Minion
                 /// </summary>
                 public const string ObsidianStatue = "ICC_214";
@@ -2138,7 +2210,7 @@ namespace HearthDb
                 public const string KarovTheBroken = "JAIL_448";
 
                 /// <summary>
-                /// <b>Prepare</b>, <b>Taunt</b> <b>Deathrattle:</b> Restore #6 Health to your hero. Summon a random 6-Cost minion.<br/>
+                /// <b>Prepare</b>, <b>Taunt</b> <b>Deathrattle:</b> Restore #6 Health to your hero.&amp; Summon a random 6-Cost minion.<br/>
                 /// 7-Cost 6/6 Minion
                 /// </summary>
                 public const string Soothsayer = "JAIL_912";
@@ -2504,7 +2576,7 @@ namespace HearthDb
                 public const string Bonecaller = "RLK_813";
 
                 /// <summary>
-                /// <b>Battlecry:</b> If you're holding a Shadow spell, gain +1/+1.<br/>
+                /// <b>Battlecry:</b> If you're holding a Shadow spell,&amp; gain +1/+1.<br/>
                 /// 1-Cost 1/2 Minion
                 /// </summary>
                 public const string CrystalsmithCultist = "RLK_814";
@@ -2708,7 +2780,7 @@ namespace HearthDb
                 public const string Drown = "TID_920";
 
                 /// <summary>
-                /// <b>Battlecry:</b> Draw a minion. Give minions in your hand +2 Health.<br/>
+                /// <b>Battlecry:</b> Draw a minion.&amp; Give minions in your hand +2 Health.<br/>
                 /// 3-Cost 2/2 Minion
                 /// </summary>
                 public const string DiscipleOfTheDove = "TIME_037";
@@ -2774,7 +2846,7 @@ namespace HearthDb
                 public const string Archaios = "TLC_811";
 
                 /// <summary>
-                /// <b>Deathrattle:</b> Get a random Holy and Shadow spell.<br/>
+                /// <b>Deathrattle:</b>&amp; Get a random Holy and Shadow spell.<br/>
                 /// 3-Cost 3/4 Minion
                 /// </summary>
                 public const string TwilightMender = "TLC_814";

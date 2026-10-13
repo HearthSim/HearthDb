@@ -428,37 +428,49 @@ namespace HearthDb
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins11 = "HERO_05dbp";
+                public const string Rexxar_SteadyShotHeroSkins11 = "HERO_05cehp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins11 = "HERO_05dbp2";
+                public const string Rexxar_BallistaShotHeroSkins11 = "HERO_05cehp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins12 = "HERO_05ybp";
+                public const string Rexxar_SteadyShotHeroSkins12 = "HERO_05dbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins12 = "HERO_05ybp2";
+                public const string Rexxar_BallistaShotHeroSkins12 = "HERO_05dbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_SteadyShotHeroSkins13 = "HERO_05zbp";
+                public const string Rexxar_SteadyShotHeroSkins13 = "HERO_05ybp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string Rexxar_BallistaShotHeroSkins13 = "HERO_05zbp2";
+                public const string Rexxar_BallistaShotHeroSkins13 = "HERO_05ybp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $2 damage to the enemy hero.<b>Hero Power</b> Deal $2 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_SteadyShotHeroSkins14 = "HERO_05zbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Deal $3 damage to the enemy hero.<b>Hero Power</b> Deal $3 damage.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string Rexxar_BallistaShotHeroSkins14 = "HERO_05zbp2";
 
                 /// <summary>
                 /// Change a minion's Health to 1.<br/>
@@ -734,7 +746,7 @@ namespace HearthDb
                 /// (No Text)<br/>
                 /// 0-Cost Hero
                 /// </summary>
-                public const string IllidanStormrageTavernBrawl3 = "TB_HunterPrince_IllidanH";
+                public const string IllidanStormrageTavernBrawl4 = "TB_HunterPrince_IllidanH";
 
                 /// <summary>
                 /// Last seen near the Un'Goro Crater.<br/>
@@ -4705,6 +4717,48 @@ namespace HearthDb
                 /// 3-Cost Spell
                 /// </summary>
                 public const string ArcaneTripwire_TrippedArcaneTripwireToken = "JAIL_881t";
+
+                /// <summary>
+                /// +1/+1<br/>
+                /// Enchantment
+                /// </summary>
+                public const string UnstablePrototype_PowerUpEnchantment = "BE_207e";
+
+                /// <summary>
+                /// Give a friendly Mech +2 Attack and <b>Rush</b>. It dies at end of turn.<br/>
+                /// 0-Cost Spell
+                /// </summary>
+                public const string Tinker_OverdriveToken = "BE_553t";
+
+                /// <summary>
+                /// <b>Combo:</b> Deal 2 damage to the enemy hero.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_GreenLarvaToken = "BE_720t5";
+
+                /// <summary>
+                /// <b>Charge</b><br/>
+                /// 1-Cost 1/1 Beast/Mechanical Minion
+                /// </summary>
+                public const string ClockworkBoars_ClockworkBoarToken = "BE_730t";
+
+                /// <summary>
+                /// Copied <b>Deathrattle</b> from {0}.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string PrimalRockfang_PackMentalityEnchantment = "BE_731e";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Battlecry:</b> If you control a minion with 4 or more Attack, gain +2/+2.<br/>
+                /// 3-Cost 3/3 Minion
+                /// </summary>
+                public const string BiocoreFableStablehand = "Core_mon_0005";
+
+                /// <summary>
+                /// <b>Rush</b> <b>Deathrattle:</b> Summon a Chimaera with stats equal to this minion's Attack.<br/>
+                /// 4-Cost 3/3 Beast Minion
+                /// </summary>
+                public const string FlecoreTwistedFrostwing = "core_mon_0035";
             }
         }
     }

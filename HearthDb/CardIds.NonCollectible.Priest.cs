@@ -344,28 +344,46 @@ namespace HearthDb
                 public const string AnduinWrynn_HealHeroSkins13 = "HERO_09cbhp2";
 
                 /// <summary>
-                /// <b>Hero Power</b> Restore #2 Health.<br/>
-                /// 2-Cost HeroPower
+                /// (No Text)<br/>
+                /// 0-Cost Hero
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins14 = "HERO_09dbp";
+                public const string AnduinWrynn_YshaarjHeroSkins = "HERO_09ce_meta";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #2 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_LesserHealHeroSkins15 = "HERO_09dbp_Copy";
+                public const string AnduinWrynn_LesserHealHeroSkins14 = "HERO_09cehp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins14 = "HERO_09dbp2";
+                public const string AnduinWrynn_HealHeroSkins14 = "HERO_09cehp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #2 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_LesserHealHeroSkins15 = "HERO_09dbp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #2 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_LesserHealHeroSkins16 = "HERO_09dbp_Copy";
 
                 /// <summary>
                 /// <b>Hero Power</b> Restore #4 Health.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string AnduinWrynn_HealHeroSkins15 = "HERO_09dbp2_Copy";
+                public const string AnduinWrynn_HealHeroSkins15 = "HERO_09dbp2";
+
+                /// <summary>
+                /// <b>Hero Power</b> Restore #4 Health.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string AnduinWrynn_HealHeroSkins16 = "HERO_09dbp2_Copy";
 
                 /// <summary>
                 /// <b>Battlecry:</b> If your deck has no duplicates, your Hero Power costs (0) this game.<br/>
@@ -3648,6 +3666,54 @@ namespace HearthDb
                 /// 2-Cost Spell
                 /// </summary>
                 public const string HolyEmbrace_DarkEmbraceToken = "JAIL_941t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElderWordForesight_ForesightEssenceEnchantment = "BE_221e";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElderWordForesight_EssenceEnchantment = "BE_221e1";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElderWordManifest_ManifestEssenceEnchantment = "BE_222e";
+
+                /// <summary>
+                /// <b>Lifesteal</b><br/>
+                /// 5-Cost 5/5 Beast Minion
+                /// </summary>
+                public const string ElderWordManifest_VoidwingToken = "BE_222t";
+
+                /// <summary>
+                /// (No Text)<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElderWordFlay_FlayEssenceEnchantment = "BE_223e";
+
+                /// <summary>
+                /// <b>Combo:</b> Restore #2 Health.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_PaleLarvaToken = "BE_720t1";
+
+                /// <summary>
+                /// Whenever you draw a card, reduce its Cost by (1).<br/>
+                /// 2-Cost 2/3 Minion
+                /// </summary>
+                public const string FlecoreShadowfiend = "core_mon_0031";
+
+                /// <summary>
+                /// Summon a 10/10 copy of a minion in your deck.<br/>
+                /// 8-Cost Spell
+                /// </summary>
+                public const string FlecoreIdolOfYshaarj = "core_mon_0033";
             }
         }
     }

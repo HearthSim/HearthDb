@@ -445,6 +445,18 @@ namespace HearthDb
                 public const string UtherLightbringer_TheSilverHandHeroSkins13 = "HERO_04cchp2";
 
                 /// <summary>
+                /// <b>Hero Power</b> Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string UtherLightbringer_ReinforceHeroSkins14 = "HERO_04cfhp";
+
+                /// <summary>
+                /// <b>Hero Power</b> Summon two 1/1 Recruits.<br/>
+                /// 2-Cost HeroPower
+                /// </summary>
+                public const string UtherLightbringer_TheSilverHandHeroSkins14 = "HERO_04cfhp2";
+
+                /// <summary>
                 /// <b>Hero Power</b> Summon a {0} Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
@@ -460,13 +472,13 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a {0} Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins14 = "HERO_04fbp";
+                public const string UtherLightbringer_ReinforceHeroSkins15 = "HERO_04fbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two {0} Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins14 = "HERO_04fbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins15 = "HERO_04fbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a {0} Silver Hand Recruit.<br/>
@@ -478,37 +490,37 @@ namespace HearthDb
                 /// <b>Hero Power</b> Summon a {0} Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins15 = "HERO_04lbp";
+                public const string UtherLightbringer_ReinforceHeroSkins16 = "HERO_04lbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two {0} Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins15 = "HERO_04lbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins16 = "HERO_04lbp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a {0} Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins16 = "HERO_04ubp";
+                public const string UtherLightbringer_ReinforceHeroSkins17 = "HERO_04ubp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two {0} Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins16 = "HERO_04ubp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins17 = "HERO_04ubp2";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon a {0} Silver Hand Recruit.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_ReinforceHeroSkins17 = "HERO_04wbp";
+                public const string UtherLightbringer_ReinforceHeroSkins18 = "HERO_04wbp";
 
                 /// <summary>
                 /// <b>Hero Power</b> Summon two {0} Recruits.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
-                public const string UtherLightbringer_TheSilverHandHeroSkins17 = "HERO_04wbp2";
+                public const string UtherLightbringer_TheSilverHandHeroSkins18 = "HERO_04wbp2";
 
                 /// <summary>
                 /// Change the Health of ALL minions to 1.<br/>
@@ -895,7 +907,7 @@ namespace HearthDb
                 public const string SirFinleyTavernBrawl2 = "TB_RoadToNR_Finley";
 
                 /// <summary>
-                /// Give a minion <b>Divine Shield</b> &amp; <b>Windfury</b>.<br/>
+                /// Give a minion <b>Divine Shield</b> \&amp; <b>Windfury</b>.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string PowerUpTavernBrawlTavernBrawl = "TB_RoadToNR_Finley_HP";
@@ -2076,7 +2088,7 @@ namespace HearthDb
                 public const string NewRecruitsULDUM = "ULDA_Finley_HP1";
 
                 /// <summary>
-                /// Give a minion <b>Divine Shield</b> &amp; <b>Windfury</b>.<br/>
+                /// Give a minion <b>Divine Shield</b> \&amp; <b>Windfury</b>.<br/>
                 /// 2-Cost HeroPower
                 /// </summary>
                 public const string PowerUpULDUM = "ULDA_Finley_HP3";
@@ -4636,6 +4648,54 @@ namespace HearthDb
                 /// Enchantment
                 /// </summary>
                 public const string TruthSeeker_FireOfTruthEnchantment = "JAIL_329e";
+
+                /// <summary>
+                /// <b>Divine Shield</b><br/>
+                /// 1-Cost 1/1 Minion
+                /// </summary>
+                public const string MarchtoWar_VanirSoldierToken = "BE_142t";
+
+                /// <summary>
+                /// +2/+3.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string Sundancer_SunsBlessingEnchantment = "BE_152e";
+
+                /// <summary>
+                /// Give a minion +2/+3.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string Sundancer_SunsBlessingToken = "BE_152t";
+
+                /// <summary>
+                /// <b>Lifesteal</b> Deal $3 damage to all enemy minions.<br/>
+                /// 2-Cost Spell
+                /// </summary>
+                public const string SunsReckoning_FinalReckoningToken = "BE_153t";
+
+                /// <summary>
+                /// Stats changed to 2/2.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string HumbleJudgment_HumbledEnchantment = "BE_154e";
+
+                /// <summary>
+                /// <b>Combo:</b> Summon a 1/1 Silver Hand Recruit.<br/>
+                /// 1-Cost 2/1 Beast Minion
+                /// </summary>
+                public const string BroodchamberTunneler_YellowLarvaToken = "BE_720t4";
+
+                /// <summary>
+                /// Costs (0) this turn.<br/>
+                /// Enchantment
+                /// </summary>
+                public const string ElementalofMadness_MadnessEnchantment = "BE_870e";
+
+                /// <summary>
+                /// Give a minion +3/+3 and <b>Divine Shield</b>. Deal $3 damage to your hero.<br/>
+                /// 3-Cost Spell
+                /// </summary>
+                public const string SencoreSealOfBlood = "Core_mon_0011";
             }
         }
     }
